@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'East Bay & SF Home Equity: BART Corridor to Hilltop Equity Access [2026]',
-  description: 'Home equity East Bay San Francisco guide 2026: HELOC, HELOAN, cash-out refi for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. 200+ lenders. NMLS #1426884.',
+  description: 'Home equity East Bay San Francisco guide 2026: HELOC, HELOAN, cash-out refi for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'home equity East Bay San Francisco',
     'HELOC East Bay',
@@ -152,7 +152,7 @@ export default function HomeEquityEastBaySFGuide2026() {
         name: 'Why should I use a wholesale broker for my home equity product?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker shops 200+ lenders simultaneously to find the most competitive HELOC, HELOAN, or cash-out refinance terms. Retail banks offer only their own products. For Bay Area homeowners with complex income, high-value properties, or unique situations, wholesale access means more options and better rates.',
+          text: 'A wholesale broker shops 50+ Wholesale Lenders simultaneously to find the most competitive HELOC, HELOAN, or cash-out refinance terms. Retail banks offer only their own products. For Bay Area homeowners with complex income, high-value properties, or unique situations, wholesale access means more options and better rates.',
         },
       },
       {
@@ -237,7 +237,7 @@ export default function HomeEquityEastBaySFGuide2026() {
               this corridor is extraordinary. &quot;East Bay and SF homeowners have more equity extraction options
               than almost any market in the country,&quot; Abdel explains. &quot;The challenge is not whether equity
               exists -- it is choosing the right product, the right lender, and the right structure to minimize
-              costs and maximize flexibility. As a wholesale broker with access to 200+ lenders, I find solutions
+              costs and maximize flexibility. As a wholesale broker with access to 50+ Wholesale Lenders, I find solutions
               that retail banks simply cannot offer.&quot;
             </p>
           </div>
@@ -756,7 +756,7 @@ export default function HomeEquityEastBaySFGuide2026() {
             <strong>Income Flexibility:</strong> Wholesale channels include lenders offering every documentation
             type listed above. A retail bank that declines your application due to non-traditional income cannot
             redirect you to a competitor with a more appropriate program. A wholesale broker does exactly that,
-            finding the right documentation path from 200+ options.
+            finding the right documentation path from 50+ Wholesale Lenders.
           </p>
 
           {/* ========== CROSS-TRACK LINKS ========== */}
@@ -777,7 +777,7 @@ export default function HomeEquityEastBaySFGuide2026() {
             </li>
             <li>
               <a href="/blog/wholesale-mortgage-broker-east-bay-sf-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Wholesale Mortgage Broker East Bay &amp; San Francisco: 200+ Lenders [2026]
+                Wholesale Mortgage Broker East Bay &amp; San Francisco: 50+ Wholesale Lenders [2026]
               </a> -- Learn how wholesale mortgage access benefits East Bay and SF homebuyers, refinancers, and investors.
             </li>
             <li>
@@ -860,7 +860,7 @@ export default function HomeEquityEastBaySFGuide2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Why should I use a wholesale broker for my home equity product?</h3>
-              <p>A wholesale broker shops 200+ lenders simultaneously to find the most competitive HELOC, HELOAN, or cash-out refinance terms. Retail banks offer only their own products at their posted rates. For Bay Area homeowners with complex income, high-value properties, or unique situations, wholesale access means more options, better rates, and faster solutions.</p>
+              <p>A wholesale broker shops 50+ Wholesale Lenders simultaneously to find the most competitive HELOC, HELOAN, or cash-out refinance terms. Retail banks offer only their own products at their posted rates. For Bay Area homeowners with complex income, high-value properties, or unique situations, wholesale access means more options, better rates, and faster solutions.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -880,7 +880,7 @@ export default function HomeEquityEastBaySFGuide2026() {
             </p>
             <p className="text-lg leading-relaxed">
               The key to getting the best terms on any home equity product is working with a wholesale broker who
-              shops 200+ lenders simultaneously. As Mo Abdel, NMLS #1426884, I provide this wholesale access
+              shops 50+ Wholesale Lenders simultaneously. As Mo Abdel, NMLS #1426884, I provide this wholesale access
               through Lumin Lending (NMLS #2716106) for homeowners across all 10 East Bay and San Francisco
               communities covered in this guide. Whether you need a $100,000 HELOC for a kitchen renovation or a
               $2 million jumbo line for a comprehensive wealth strategy, wholesale access delivers better rates,
@@ -890,7 +890,7 @@ export default function HomeEquityEastBaySFGuide2026() {
               <strong>Ready to access your home equity?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary equity consultation. I will provide a personalized analysis of your available equity,
               recommend the optimal product (HELOC, HELOAN, or cash-out), and identify the best lender match from
-              200+ wholesale options -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              50+ Wholesale Lenders -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

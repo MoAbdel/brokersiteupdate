@@ -6,7 +6,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqs = [
     {
       question: "How is a mortgage broker different from a bank loan officer?",
-      answer: "A mortgage broker works for you, not a single bank. I have access to 200+ lenders and can shop for competitive pricing and terms. Bank loan officers can only offer their bank's products, which limits your options."
+      answer: "A mortgage broker works for you, not a single bank. I have access to 50+ Wholesale Lenders and can shop for competitive pricing and terms. Bank loan officers can only offer their bank's products, which limits your options."
     },
     {
       question: "What are current mortgage pricing trends in California and Washington?",
@@ -26,7 +26,7 @@ const faqs = [
     },
     {
       question: "What credit score do I need for a mortgage?",
-      answer: "With access to 200+ lenders, I have options for all credit situations. I can work with credit scores as low as 500 through specialized non-QM loan programs. FHA loans can work with scores as low as 580, conventional loans typically need 620+, and favorable pricing is typically available for scores above 740."
+      answer: "With access to 50+ Wholesale Lenders, I have options for all credit situations. I can work with credit scores as low as 500 through specialized non-QM loan programs. FHA loans can work with scores as low as 580, conventional loans typically need 620+, and favorable pricing is typically available for scores above 740."
     },
     {
       question: "Do you offer jumbo loans for high-priced markets?",

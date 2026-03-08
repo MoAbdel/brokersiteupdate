@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92663 | Newport Peninsula Jumbo Loans | Mo Abdel',
-  description: 'Newport Beach Peninsula 92663 wholesale mortgage broker with 200+ lender access. Jumbo loans up to $10M, bank statement programs for self-employed. NMLS #1426884.',
+  description: 'Newport Beach Peninsula 92663 wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans up to $10M, bank statement programs for self-employed. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92663-newport-peninsula-2026',
     languages: {
@@ -65,7 +65,7 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
                 "name": "Why use a wholesale broker for Newport Peninsula luxury homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access 200+ lenders with institutional pricing unavailable to consumers. For $3M+ homes in 92663, this means better jumbo rates and more program flexibility than any single bank."
+                  "text": "Wholesale brokers access 50+ Wholesale Lenders with institutional pricing unavailable to consumers. For $3M+ homes in 92663, this means better jumbo rates and more program flexibility than any single bank."
                 }
               },
               {
@@ -116,14 +116,14 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
           Wholesale Mortgage Broker 92663 | Newport Peninsula Jumbo Loan Specialist
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for Newport Beach Peninsula luxury home financing
+          50+ Wholesale Lenders for Newport Beach Peninsula luxury home financing
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Beach Peninsula (92663) is one of Orange County&apos;s most exclusive coastal markets, with a <strong>median home price of $3.0 million</strong>. At this price point, every buyer needs jumbo financing—and wholesale brokers provide access to 50+ jumbo lenders with institutional pricing unavailable through retail banks. Mo Abdel at Lumin Lending offers <strong>200+ lender relationships</strong> for Newport Peninsula homebuyers seeking better rates and more program options.
+            Newport Beach Peninsula (92663) is one of Orange County&apos;s most exclusive coastal markets, with a <strong>median home price of $3.0 million</strong>. At this price point, every buyer needs jumbo financing—and wholesale brokers provide access to 50+ jumbo lenders with institutional pricing unavailable through retail banks. Mo Abdel at Lumin Lending offers <strong>50+ Wholesale Lenders</strong> for Newport Peninsula homebuyers seeking better rates and more program options.
           </p>
         </div>
 
@@ -206,11 +206,11 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Lenders</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited options</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Extensive programs</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Dozens of lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Asset Depletion</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders compete</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders compete</td></tr>
               <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>
           </table>
@@ -252,7 +252,7 @@ export default function WholesaleMortgage92663NewportPeninsulaPage() {
 
         <h3>Why use a wholesale broker for Newport Peninsula luxury homes?</h3>
         <p>
-          Wholesale brokers access 200+ lenders with institutional pricing unavailable to consumers. For $3M+ homes in 92663, this means access to specialized jumbo lenders, better rates through lender competition, and program flexibility that single banks cannot match. When one lender says no, brokers pivot to another same-day.
+          Wholesale brokers access 50+ Wholesale Lenders with institutional pricing unavailable to consumers. For $3M+ homes in 92663, this means access to specialized jumbo lenders, better rates through lender competition, and program flexibility that single banks cannot match. When one lender says no, brokers pivot to another same-day.
         </p>
 
         <h3>What down payment is required for jumbo loans in 92663?</h3>

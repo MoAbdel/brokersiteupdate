@@ -633,7 +633,7 @@ export default function ProprietaryReverseMortgagePage() {
         </ul>
 
         <p>
-          As a wholesale broker with access to 200+ lenders, I can help you compare proprietary
+          As a wholesale broker with access to 50+ Wholesale Lenders, I can help you compare proprietary
           options from multiple providers to find the best terms for your situation.
         </p>
 
@@ -801,7 +801,7 @@ export default function ProprietaryReverseMortgagePage() {
             <p className="text-gray-600 text-sm mt-2">
               Mo Abdel specializes in reverse mortgages for high-value homes in California and
               Washington, with access to both HECM and proprietary jumbo programs through
-              200+ wholesale lenders.
+              50+ Wholesale Lenders.
             </p>
           </div>
         </div>

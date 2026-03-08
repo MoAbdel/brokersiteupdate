@@ -14,7 +14,7 @@ export default function AboutSnippet() {
                 Meet Mo Abdel
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                I'm passionate about making homeownership accessible for families across California and Washington. As your dedicated mortgage broker, I leverage my extensive network of 200+ lenders to secure wholesale rates that big banks simply cannot match. My commitment is simple: find you the best deal with the fastest closing timeline possible.
+                I'm passionate about making homeownership accessible for families across California and Washington. As your dedicated mortgage broker, I leverage my extensive network of 50+ Wholesale Lenders to secure wholesale rates that big banks simply cannot match. My commitment is simple: find you the best deal with the fastest closing timeline possible.
               </p>
 
             </div>

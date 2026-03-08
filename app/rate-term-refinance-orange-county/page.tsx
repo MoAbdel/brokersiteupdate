@@ -211,7 +211,7 @@ export default function RateTermRefinanceOrangeCounty() {
               Rate & Term Refinance in Orange County – Lower Your Payment
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
-              Reduce your mortgage payment, eliminate PMI, or switch to better loan terms. Access competitive refinance pricing from 200+ lenders for your Orange County home.
+              Reduce your mortgage payment, eliminate PMI, or switch to better loan terms. Access competitive refinance pricing from 50+ Wholesale Lenders for your Orange County home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -451,7 +451,7 @@ export default function RateTermRefinanceOrangeCounty() {
             Ready to Lower Your Orange County Mortgage Payment?
           </h2>
           <p className="text-xl mb-8 text-slate-200" data-speakable="true">
-            Access competitive refinance pricing from 200+ lenders and start saving money every month.
+            Access competitive refinance pricing from 50+ Wholesale Lenders and start saving money every month.
             Mo Abdel makes refinancing simple and profitable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

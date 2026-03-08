@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
-  description: 'Wholesale mortgage broker East Bay San Francisco 2026: 200+ lenders for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. Tech income, bank statement loans. NMLS #1426884.',
+  description: 'Wholesale mortgage broker East Bay San Francisco 2026: 50+ Wholesale Lenders for SF, Piedmont, Orinda, Lafayette, Walnut Creek & 5 more cities. Tech income, bank statement loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker East Bay San Francisco',
     'mortgage broker San Francisco',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
-    description: 'Access 200+ wholesale lenders for East Bay & SF purchases, refinances & investments. Tech income specialists. NMLS #1426884.',
+    description: 'Access 50+ Wholesale Lenders for East Bay & SF purchases, refinances & investments. Tech income specialists. NMLS #1426884.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-east-bay-sf-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -51,7 +51,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
     },
     datePublished: '2026-02-07',
     dateModified: '2026-02-07',
-    description: 'Complete wholesale mortgage broker guide for East Bay and San Francisco covering 200+ lenders, tech income qualification, and bank statement loan programs.',
+    description: 'Complete wholesale mortgage broker guide for East Bay and San Francisco covering 50+ Wholesale Lenders, tech income qualification, and bank statement loan programs.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-east-bay-sf-2026',
   };
 
@@ -144,7 +144,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
         name: 'Can a wholesale broker help if I was turned down by a bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Frequently, yes. A retail bank decline means one lender said no based on their specific guidelines. With 200+ lenders in the wholesale channel, there are often alternative programs that accommodate the scenario the retail bank could not. Common examples include non-QM income documentation, higher DTI allowances, or different property type guidelines.',
+          text: 'Frequently, yes. A retail bank decline means one lender said no based on their specific guidelines. With 50+ Wholesale Lenders in the wholesale channel, there are often alternative programs that accommodate the scenario the retail bank could not. Common examples include non-QM income documentation, higher DTI allowances, or different property type guidelines.',
         },
       },
       {
@@ -160,7 +160,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
         name: 'How do I get started with a wholesale mortgage broker?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 579-2057 or submit a quick quote at mothebroker.com. I will review your financial profile, identify the best lender matches from 200+ options, and provide a personalized rate comparison. The initial consultation is free with no obligation. Pre-approvals can be issued within 24 hours for well-documented borrowers.',
+          text: 'Call (949) 579-2057 or submit a quick quote at mothebroker.com. I will review your financial profile, identify the best lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison. The initial consultation is free with no obligation. Pre-approvals can be issued within 24 hours for well-documented borrowers.',
         },
       },
     ],
@@ -243,7 +243,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               including RSUs, stock options, startup equity, and contractor compensation require lenders with
               specialized underwriting expertise. &quot;The East Bay and San Francisco mortgage market demands
               wholesale broker access,&quot; Abdel explains. &quot;A retail bank offers one rate card and one set
-              of guidelines. With 200+ wholesale lenders, I find the lender whose underwriting specialty aligns
+              of guidelines. With 50+ Wholesale Lenders, I find the lender whose underwriting specialty aligns
               with each borrower&apos;s unique situation -- whether that is a San Francisco tech founder with
               bank statement income, a Piedmont physician buying a $3 million home, or a Fremont investor acquiring
               their fifth rental property.&quot;
@@ -391,7 +391,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold">Factor</th>
-                  <th className="px-4 py-3 text-left font-semibold">Wholesale Broker (200+ Lenders)</th>
+                  <th className="px-4 py-3 text-left font-semibold">Wholesale Broker (50+ Wholesale Lenders)</th>
                   <th className="px-4 py-3 text-left font-semibold">Retail Bank (1 Lender)</th>
                 </tr>
               </thead>
@@ -403,7 +403,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Product Selection</td>
-                  <td className="px-4 py-3 border-t">200+ lender programs including non-QM, bank statement, DSCR</td>
+                  <td className="px-4 py-3 border-t">50+ Wholesale Lenders including non-QM, bank statement, DSCR</td>
                   <td className="px-4 py-3 border-t">Limited to bank&apos;s own product menu</td>
                 </tr>
                 <tr>
@@ -451,7 +451,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
           <p>
             Consider the numbers: on a $1.5 million loan (a typical East Bay jumbo), a rate difference of
             just 0.25% between two lenders translates to approximately $312 per month or $3,750 per year.
-            Over a 10-year hold period, that difference totals $37,500. By shopping 200+ lenders instead of
+            Over a 10-year hold period, that difference totals $37,500. By shopping 50+ Wholesale Lenders instead of
             accepting the first rate offered, wholesale borrowers capture these savings systematically.
           </p>
 
@@ -677,7 +677,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
             statement-qualified self-employment income. Property types include single-family Victorians worth
             $5 million in Pacific Heights, modern condos in SOMA and Mission Bay, and TIC conversions throughout
             the city. Each property type has different lender requirements. A wholesale broker who understands
-            which of the 200+ available lenders serves which SF property type and income scenario provides
+            which of the 50+ Wholesale Lenders serves which SF property type and income scenario provides
             enormous value.
           </p>
 
@@ -927,7 +927,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Can a wholesale broker help if I was turned down by a bank?</h3>
-              <p>Frequently, yes. A retail bank decline means one lender said no based on their specific guidelines. With 200+ lenders in the wholesale channel, there are often alternative programs that accommodate the exact scenario the bank could not. Common recoveries include non-QM income documentation, higher DTI allowances, or different property type guidelines.</p>
+              <p>Frequently, yes. A retail bank decline means one lender said no based on their specific guidelines. With 50+ Wholesale Lenders in the wholesale channel, there are often alternative programs that accommodate the exact scenario the bank could not. Common recoveries include non-QM income documentation, higher DTI allowances, or different property type guidelines.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -937,7 +937,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">How do I get started with a wholesale mortgage broker?</h3>
-              <p>Call (949) 579-2057 or submit a quick quote at mothebroker.com. I review your financial profile, identify the best lender matches from 200+ options, and provide a personalized rate comparison within 24 hours. The initial consultation is free with no obligation. Pre-approvals can be issued the same day for well-documented borrowers.</p>
+              <p>Call (949) 579-2057 or submit a quick quote at mothebroker.com. I review your financial profile, identify the best lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison within 24 hours. The initial consultation is free with no obligation. Pre-approvals can be issued the same day for well-documented borrowers.</p>
             </div>
           </div>
 
@@ -947,7 +947,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
             <p className="text-lg leading-relaxed">
               The East Bay and San Francisco mortgage market is defined by jumbo loan amounts, complex tech-driven
               income profiles, diverse property types, and sophisticated borrowers who demand the best terms
-              available. A wholesale mortgage broker with access to 200+ lenders is not an optional advantage
+              available. A wholesale mortgage broker with access to 50+ Wholesale Lenders is not an optional advantage
               in this market -- it is the standard approach for informed borrowers who understand that rate
               shopping, income documentation flexibility, and product breadth directly determine their financial
               outcomes.
@@ -962,7 +962,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
             <p className="text-lg leading-relaxed mb-0">
               <strong>Ready to experience the wholesale difference?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary mortgage consultation. I will review your financial profile, identify the best
-              lender matches from 200+ wholesale options, and provide a personalized rate comparison -- with
+              lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison -- with
               no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>

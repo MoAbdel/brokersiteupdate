@@ -60,11 +60,11 @@ const faqData = [
   },
   {
     question: 'Can I get a no-closing-cost refinance on any type of loan?',
-    answer: 'Most loan types offer some form of no-closing-cost refinance option, including conventional, FHA, VA, and jumbo loans. However, the availability and terms of lender credits vary significantly by loan type and lender. VA IRRRLs (Interest Rate Reduction Refinance Loans) are particularly well-suited for no-cost refinancing because the VA limits how much the rate can increase from a credit-cost perspective. FHA Streamline refinances similarly have favorable structures for no-cost options. Not all lenders offer no-cost options on every loan program, which is why comparing across 200+ lenders through a wholesale broker identifies the most competitive credit-to-rate packages.',
+    answer: 'Most loan types offer some form of no-closing-cost refinance option, including conventional, FHA, VA, and jumbo loans. However, the availability and terms of lender credits vary significantly by loan type and lender. VA IRRRLs (Interest Rate Reduction Refinance Loans) are particularly well-suited for no-cost refinancing because the VA limits how much the rate can increase from a credit-cost perspective. FHA Streamline refinances similarly have favorable structures for no-cost options. Not all lenders offer no-cost options on every loan program, which is why comparing across 50+ Wholesale Lenders through a wholesale broker identifies the most competitive credit-to-rate packages.',
   },
   {
     question: 'How much higher is the interest rate on a no-closing-cost refinance?',
-    answer: 'The rate increase for a no-closing-cost refinance typically ranges from 0.125% to 0.50% above the rate you would receive if paying closing costs out of pocket. The exact increase depends on: (1) the total dollar amount of closing costs being covered, (2) the loan amount (larger loans generate more lender credit per basis point of rate increase), (3) the specific lender pricing, and (4) current market conditions. On a $500,000 loan, a 0.25% rate increase translates to approximately $5,000-$6,000 in lender credits, which covers most or all typical closing costs. Wholesale brokers compare credit-to-rate ratios across 200+ lenders to find the most efficient trade-off.',
+    answer: 'The rate increase for a no-closing-cost refinance typically ranges from 0.125% to 0.50% above the rate you would receive if paying closing costs out of pocket. The exact increase depends on: (1) the total dollar amount of closing costs being covered, (2) the loan amount (larger loans generate more lender credit per basis point of rate increase), (3) the specific lender pricing, and (4) current market conditions. On a $500,000 loan, a 0.25% rate increase translates to approximately $5,000-$6,000 in lender credits, which covers most or all typical closing costs. Wholesale brokers compare credit-to-rate ratios across 50+ Wholesale Lenders to find the most efficient trade-off.',
   },
   {
     question: 'Should I take a lower rate with closing costs or a higher rate with no closing costs?',
@@ -72,7 +72,7 @@ const faqData = [
   },
   {
     question: 'Can I negotiate lender credits on a refinance?',
-    answer: 'Lender credits are set by each lender based on their pricing structure and current market conditions. You cannot negotiate credits with an individual lender the way you might negotiate a purchase price. However, working with a wholesale mortgage broker who compares credit offers from 200+ lenders effectively achieves the same result. Different lenders offer different credit-to-rate trade-offs on the same day for the same loan scenario. The broker identifies which lender offers the most favorable credit amount relative to the rate increase, giving you the strongest no-cost refinance package available in the current market.',
+    answer: 'Lender credits are set by each lender based on their pricing structure and current market conditions. You cannot negotiate credits with an individual lender the way you might negotiate a purchase price. However, working with a wholesale mortgage broker who compares credit offers from 50+ Wholesale Lenders effectively achieves the same result. Different lenders offer different credit-to-rate trade-offs on the same day for the same loan scenario. The broker identifies which lender offers the most favorable credit amount relative to the rate increase, giving you the strongest no-cost refinance package available in the current market.',
   },
   {
     question: 'What closing costs are covered by lender credits in a no-closing-cost refinance?',
@@ -84,7 +84,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help me get a better no-closing-cost refinance?',
-    answer: 'A wholesale mortgage broker compares no-closing-cost refinance packages from 200+ lenders simultaneously. Each lender offers a different credit-to-rate ratio, meaning the amount of lender credits you receive per basis point of rate increase varies. Some lenders may cover $8,000 in closing costs for a 0.25% rate increase, while others cover only $5,000 for the same rate increase. The broker identifies the lender offering the most efficient trade-off for your specific loan amount, property type, and credit profile. This comparison shopping happens with a single credit pull and typically yields more competitive terms than going directly to a single bank or retail lender.',
+    answer: 'A wholesale mortgage broker compares no-closing-cost refinance packages from 50+ Wholesale Lenders simultaneously. Each lender offers a different credit-to-rate ratio, meaning the amount of lender credits you receive per basis point of rate increase varies. Some lenders may cover $8,000 in closing costs for a 0.25% rate increase, while others cover only $5,000 for the same rate increase. The broker identifies the lender offering the most efficient trade-off for your specific loan amount, property type, and credit profile. This comparison shopping happens with a single credit pull and typically yields more competitive terms than going directly to a single bank or retail lender.',
   },
 ];
 
@@ -195,7 +195,7 @@ export default function NoClosingCostRefinanceGuidePage() {
           No-Closing-Cost Refinance: How Lender Credits Work and When They Save Money [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A comprehensive guide to no-closing-cost refinancing&mdash;covering how lender credits eliminate upfront fees, the rate trade-off mechanics, break-even analysis by hold period, when no-cost refinancing saves money vs traditional closing costs, and how a wholesale broker shops lender credit offers across 200+ lenders.
+          A comprehensive guide to no-closing-cost refinancing&mdash;covering how lender credits eliminate upfront fees, the rate trade-off mechanics, break-even analysis by hold period, when no-cost refinancing saves money vs traditional closing costs, and how a wholesale broker shops lender credit offers across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -204,7 +204,7 @@ export default function NoClosingCostRefinanceGuidePage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a no-closing-cost refinance uses <strong>lender credits to cover your settlement fees in exchange for a slightly higher interest rate</strong>&mdash;making it a strategically sound option for borrowers who plan to sell, refinance again, or pay off their mortgage within 3&ndash;5 years. The core trade-off is straightforward: you avoid paying $8,000&ndash;$15,000 or more in upfront closing costs, but you accept a rate that is typically 0.125%&ndash;0.50% higher than you would receive if paying those costs out of pocket. According to <a href="https://www.consumerfinance.gov/ask-cfpb/what-are-lender-credits-en-1985/" target="_blank" rel="noopener noreferrer">CFPB guidance on lender credits</a>, the higher rate compensates the lender over time for the closing costs they absorbed upfront. A wholesale mortgage broker comparing no-cost refinance packages from 200+ lenders is uniquely positioned to find the most efficient lender credit-to-rate trade-off because each lender prices these credits differently based on their funding costs and current portfolio priorities.
+            According to Mo Abdel, NMLS #1426884, a no-closing-cost refinance uses <strong>lender credits to cover your settlement fees in exchange for a slightly higher interest rate</strong>&mdash;making it a strategically sound option for borrowers who plan to sell, refinance again, or pay off their mortgage within 3&ndash;5 years. The core trade-off is straightforward: you avoid paying $8,000&ndash;$15,000 or more in upfront closing costs, but you accept a rate that is typically 0.125%&ndash;0.50% higher than you would receive if paying those costs out of pocket. According to <a href="https://www.consumerfinance.gov/ask-cfpb/what-are-lender-credits-en-1985/" target="_blank" rel="noopener noreferrer">CFPB guidance on lender credits</a>, the higher rate compensates the lender over time for the closing costs they absorbed upfront. A wholesale mortgage broker comparing no-cost refinance packages from 50+ Wholesale Lenders is uniquely positioned to find the most efficient lender credit-to-rate trade-off because each lender prices these credits differently based on their funding costs and current portfolio priorities.
           </p>
         </div>
 
@@ -233,7 +233,7 @@ export default function NoClosingCostRefinanceGuidePage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares lender credit packages from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to find the most efficient credit-to-rate trade-off</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to find the most efficient credit-to-rate trade-off</td>
               </tr>
             </tbody>
           </table>
@@ -261,7 +261,7 @@ export default function NoClosingCostRefinanceGuidePage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Structuring No-Closing-Cost Refinances</h3>
           <p className="text-blue-800 mb-0">
-            I structure no-closing-cost refinances regularly for California and Washington homeowners, and the decision between no-cost and traditional closing is one of the most common conversations I have with borrowers. The key insight from my practice: the &ldquo;right&rdquo; answer depends entirely on your expected hold period. I have seen borrowers save thousands by choosing a no-cost refinance when they knew they would sell within 3 years, and I have seen borrowers choose to pay closing costs upfront because they planned to stay for 15+ years. The difference in lender credit efficiency across 200+ lenders is also significant&mdash;some lenders offer substantially more credit per basis point of rate increase than others, making the wholesale broker comparison essential for anyone considering a no-cost refinance. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I structure no-closing-cost refinances regularly for California and Washington homeowners, and the decision between no-cost and traditional closing is one of the most common conversations I have with borrowers. The key insight from my practice: the &ldquo;right&rdquo; answer depends entirely on your expected hold period. I have seen borrowers save thousands by choosing a no-cost refinance when they knew they would sell within 3 years, and I have seen borrowers choose to pay closing costs upfront because they planned to stay for 15+ years. The difference in lender credit efficiency across 50+ Wholesale Lenders is also significant&mdash;some lenders offer substantially more credit per basis point of rate increase than others, making the wholesale broker comparison essential for anyone considering a no-cost refinance. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -269,7 +269,7 @@ export default function NoClosingCostRefinanceGuidePage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Compare No-Cost vs Traditional Refinance Options</h3>
           <p className="text-green-800 mb-2">
-            Get a side-by-side comparison of no-closing-cost and traditional refinance options from 200+ lenders&mdash;tailored to your hold period.
+            Get a side-by-side comparison of no-closing-cost and traditional refinance options from 50+ Wholesale Lenders&mdash;tailored to your hold period.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
@@ -302,7 +302,7 @@ export default function NoClosingCostRefinanceGuidePage() {
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
           <h4 className="font-bold text-green-800 mt-0">Key Data Point: Lender Credit Efficiency Varies Across Lenders</h4>
           <p className="text-green-900 mb-0">
-            In my experience comparing no-cost refinance packages across 200+ wholesale lenders, the credit-to-rate ratio varies meaningfully. One lender might offer $7,500 in credits for a 0.25% rate increase on a $500,000 loan, while another offers $5,500 for the same rate increase. That $2,000 difference determines whether your closing costs are fully covered or whether you face a residual out-of-pocket balance. This variation is why shopping through a wholesale broker&mdash;rather than accepting a single bank&apos;s no-cost offer&mdash;can make a significant difference.
+            In my experience comparing no-cost refinance packages across 50+ Wholesale Lenders, the credit-to-rate ratio varies meaningfully. One lender might offer $7,500 in credits for a 0.25% rate increase on a $500,000 loan, while another offers $5,500 for the same rate increase. That $2,000 difference determines whether your closing costs are fully covered or whether you face a residual out-of-pocket balance. This variation is why shopping through a wholesale broker&mdash;rather than accepting a single bank&apos;s no-cost offer&mdash;can make a significant difference.
           </p>
         </div>
 
@@ -513,7 +513,7 @@ export default function NoClosingCostRefinanceGuidePage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Find Out Which Option Saves You More</h3>
           <p className="text-green-800 mb-2">
-            I will model both no-cost and traditional refinance options from 200+ lenders for your specific loan amount and expected hold period. No obligation.
+            I will model both no-cost and traditional refinance options from 50+ Wholesale Lenders for your specific loan amount and expected hold period. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -582,7 +582,7 @@ export default function NoClosingCostRefinanceGuidePage() {
         </p>
 
         {/* Section 7: Wholesale Broker Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Shopping Lender Credit Offers Across 200+ Lenders</h2>
+        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Shopping Lender Credit Offers Across 50+ Wholesale Lenders</h2>
 
         <p>
           No-closing-cost refinancing is one of the transaction types where the wholesale broker advantage is most impactful. The reason: lender credit pricing varies significantly across lenders, and the difference directly determines your effective cost.
@@ -688,7 +688,7 @@ export default function NoClosingCostRefinanceGuidePage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How much higher is the rate on a no-closing-cost refinance?</h3>
             <p className="mb-0">
-              <strong>Rates on no-closing-cost refinances are typically 0.125% to 0.50% higher than the rate with closing costs paid upfront.</strong> The exact increase depends on the lender, loan amount, and total closing costs being covered. A wholesale broker compares credit-to-rate ratios across 200+ lenders to find the smallest rate increase.
+              <strong>Rates on no-closing-cost refinances are typically 0.125% to 0.50% higher than the rate with closing costs paid upfront.</strong> The exact increase depends on the lender, loan amount, and total closing costs being covered. A wholesale broker compares credit-to-rate ratios across 50+ Wholesale Lenders to find the smallest rate increase.
             </p>
           </div>
 
@@ -709,7 +709,7 @@ export default function NoClosingCostRefinanceGuidePage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Do all lenders offer no-closing-cost refinances?</h3>
             <p className="mb-0">
-              <strong>Most lenders offer some form of lender credit option, but the credit amounts and rate trade-offs vary significantly across lenders.</strong> Some lenders specialize in no-cost products with highly efficient credit structures, while others offer minimal credits. A wholesale broker comparison across 200+ lenders identifies the strongest no-cost packages.
+              <strong>Most lenders offer some form of lender credit option, but the credit amounts and rate trade-offs vary significantly across lenders.</strong> Some lenders specialize in no-cost products with highly efficient credit structures, while others offer minimal credits. A wholesale broker comparison across 50+ Wholesale Lenders identifies the strongest no-cost packages.
             </p>
           </div>
 
@@ -753,14 +753,14 @@ export default function NoClosingCostRefinanceGuidePage() {
             <li><strong>Credit efficiency varies dramatically across lenders:</strong> Different lenders offer different credit amounts for the same rate increase, making wholesale broker comparison essential for finding the strongest no-cost package</li>
             <li><strong>No-cost enables serial refinancing:</strong> In a declining rate environment, no-cost structures allow you to refinance multiple times without paying cumulative closing costs</li>
             <li><strong>Review the Loan Estimate carefully:</strong> Confirm exactly which costs are covered by lender credits and whether prepaids remain your responsibility</li>
-            <li><strong>A wholesale broker maximizes your no-cost options:</strong> Comparing credit-to-rate ratios across 200+ lenders routinely identifies more efficient no-cost packages than any single bank or retail lender offers</li>
+            <li><strong>A wholesale broker maximizes your no-cost options:</strong> Comparing credit-to-rate ratios across 50+ Wholesale Lenders routinely identifies more efficient no-cost packages than any single bank or retail lender offers</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your No-Cost vs Traditional Refinance Comparison</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me your loan amount, current rate, and how long you expect to keep the home&mdash;and I will model both no-closing-cost and traditional refinance options from 200+ lenders so you can see exactly which approach saves you more. No obligation, no pressure.
+            Tell me your loan amount, current rate, and how long you expect to keep the home&mdash;and I will model both no-closing-cost and traditional refinance options from 50+ Wholesale Lenders so you can see exactly which approach saves you more. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

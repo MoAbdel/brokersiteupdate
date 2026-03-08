@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Atherton, Hillsborough & Peninsula, CA [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker serving Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills. 200+ lender access for jumbo purchase, estate financing & complex income. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills. 50+ Wholesale Lenders for jumbo purchase, estate financing & complex income. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Atherton', 'Hillsborough mortgage broker', 'Woodside home loans',
     'Portola Valley mortgage', 'Los Altos Hills mortgage broker', 'Peninsula jumbo mortgage',
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Atherton, Hillsborough & Peninsula, CA [2026]',
-    description: '200+ lender access for Peninsula ultra-luxury properties. Jumbo purchase, trust/LLC ownership, RSU income, and estate financing specialists.',
+    description: '50+ Wholesale Lenders for Peninsula ultra-luxury properties. Jumbo purchase, trust/LLC ownership, RSU income, and estate financing specialists.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-peninsula-ultra-luxury-2026',
     type: 'article',
   },
@@ -28,7 +28,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it help Atherton buyers?',
-      answer: 'A wholesale mortgage broker accesses 200+ lenders at institutional pricing, bypassing the retail markup that banks add to their rates. For Atherton buyers purchasing $8M-$20M estates through trusts or LLCs, a wholesale broker identifies lenders with specific entity ownership and jumbo purchase guidelines that retail banks do not offer.'
+      answer: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders at institutional pricing, bypassing the retail markup that banks add to their rates. For Atherton buyers purchasing $8M-$20M estates through trusts or LLCs, a wholesale broker identifies lenders with specific entity ownership and jumbo purchase guidelines that retail banks do not offer.'
     },
     {
       question: 'Can a wholesale broker help with trust or LLC property purchases on the Peninsula?',
@@ -48,7 +48,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
     },
     {
       question: 'How does the wholesale broker process work for a Peninsula home purchase?',
-      answer: 'The process starts with a comprehensive financial review including income structure, assets, and property type. The broker then identifies 3-5 best-fit lenders from 200+ options, presents rate and fee comparisons, and manages the application through closing. Typical timeline is 30-45 days.'
+      answer: 'The process starts with a comprehensive financial review including income structure, assets, and property type. The broker then identifies 3-5 best-fit lenders from 50+ Wholesale Lenders, presents rate and fee comparisons, and manages the application through closing. Typical timeline is 30-45 days.'
     },
     {
       question: 'Are there wholesale lenders for agricultural and equestrian properties in Woodside?',
@@ -72,7 +72,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
     },
     {
       question: 'Why choose a wholesale broker over a private bank for Peninsula properties?',
-      answer: 'Private banks offer one set of guidelines and pricing. A wholesale broker compares programs from 200+ lenders including multiple private banks, portfolio lenders, and specialty programs. This provides better pricing through competition and access to niche programs for complex transactions.'
+      answer: 'Private banks offer one set of guidelines and pricing. A wholesale broker compares programs from 50+ Wholesale Lenders including multiple private banks, portfolio lenders, and specialty programs. This provides better pricing through competition and access to niche programs for complex transactions.'
     }
   ];
 
@@ -169,7 +169,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
           Wholesale Mortgage Broker in Atherton, Hillsborough &amp; Peninsula, CA [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for ultra-luxury purchase, estate financing &amp; complex income qualification
+          50+ Wholesale Lenders for ultra-luxury purchase, estate financing &amp; complex income qualification
         </p>
         <p className="text-sm text-gray-500 mt-2">
           Published February 9, 2026 &middot; By Mo Abdel, NMLS #1426884 &middot; Lumin Lending, Inc.
@@ -187,7 +187,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
         {/* ── Section 1: Citation Hook ── */}
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl mb-8">
           <p className="text-gray-800 font-medium mb-0">
-            According to the California Association of Realtors, the San Mateo County luxury segment (transactions above $3 million) saw a <strong>23% increase in closed volume</strong> during Q4 2025&mdash;yet 41% of those transactions involved non-standard income documentation, trust-based ownership, or complex property types that required specialized lending. The five communities along California&apos;s Peninsula corridor&mdash;Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills&mdash;demand mortgage solutions that wholesale broker channels with 200+ lender access deliver, while retail banks consistently fall short.
+            According to the California Association of Realtors, the San Mateo County luxury segment (transactions above $3 million) saw a <strong>23% increase in closed volume</strong> during Q4 2025&mdash;yet 41% of those transactions involved non-standard income documentation, trust-based ownership, or complex property types that required specialized lending. The five communities along California&apos;s Peninsula corridor&mdash;Atherton, Hillsborough, Woodside, Portola Valley, and Los Altos Hills&mdash;demand mortgage solutions that wholesale broker channels with 50+ Wholesale Lenders deliver, while retail banks consistently fall short.
           </p>
         </div>
 
@@ -195,7 +195,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
         <h2 className="text-2xl font-bold text-gray-900">Wholesale Mortgage Broker Overview: Peninsula Ultra-Luxury Markets</h2>
 
         <p>
-          A wholesale mortgage broker operates as an independent intermediary between borrowers and wholesale lenders. Unlike retail loan officers employed by a single bank, a wholesale broker accesses the full universe of lending programs&mdash;over 200 lenders for Peninsula ultra-luxury transactions&mdash;at institutional pricing that eliminates the retail margin. For Peninsula buyers dealing with $5 million to $20 million purchase prices, trust and LLC ownership, and income from RSUs, venture distributions, or self-employment, this multi-lender access is the difference between a smooth closing and a failed transaction.
+          A wholesale mortgage broker operates as an independent intermediary between borrowers and wholesale lenders. Unlike retail loan officers employed by a single bank, a wholesale broker accesses the full universe of lending programs&mdash;50+ Wholesale Lenders for Peninsula ultra-luxury transactions&mdash;at institutional pricing that eliminates the retail margin. For Peninsula buyers dealing with $5 million to $20 million purchase prices, trust and LLC ownership, and income from RSUs, venture distributions, or self-employment, this multi-lender access is the difference between a smooth closing and a failed transaction.
         </p>
 
         <h3 className="text-xl font-semibold text-gray-900">Peninsula Ultra-Luxury Wholesale Lending: City-by-City Overview</h3>
@@ -265,7 +265,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
             <tbody>
               <tr>
                 <td className="py-3 px-4 border-b font-medium">Lender Access</td>
-                <td className="py-3 px-4 border-b">200+ wholesale lenders</td>
+                <td className="py-3 px-4 border-b">50+ Wholesale Lenders</td>
                 <td className="py-3 px-4 border-b">1 bank&apos;s own products</td>
               </tr>
               <tr>
@@ -362,7 +362,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
 
         <ol className="list-decimal pl-6 space-y-3">
           <li><strong>Initial consultation and financial review (Day 1&ndash;3):</strong> Comprehensive analysis of income structure, asset position, property type, ownership entity, and financing objectives. This determines the optimal lender pool.</li>
-          <li><strong>Lender matching and rate comparison (Day 3&ndash;5):</strong> Identification of 3&ndash;5 best-fit lenders from 200+ options. Side-by-side rate, fee, and program comparison presented with full transparency.</li>
+          <li><strong>Lender matching and rate comparison (Day 3&ndash;5):</strong> Identification of 3&ndash;5 best-fit lenders from 50+ Wholesale Lenders. Side-by-side rate, fee, and program comparison presented with full transparency.</li>
           <li><strong>Application and documentation (Day 5&ndash;10):</strong> Formal application submission to selected lender with complete documentation package tailored to the specific program requirements.</li>
           <li><strong>Appraisal and property evaluation (Day 10&ndash;21):</strong> Luxury property appraisal by certified appraiser experienced with estate-grade Peninsula homes. Complex properties require additional time for comparable analysis.</li>
           <li><strong>Underwriting and conditions (Day 21&ndash;35):</strong> Lender underwriting review with broker-managed communication. Any conditions are addressed promptly with borrower support.</li>
@@ -672,7 +672,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
         <h2 className="text-2xl font-bold text-gray-900">People Also Ask: Peninsula Wholesale Mortgage Broker</h2>
 
         <h3>How many lenders does a wholesale mortgage broker access?</h3>
-        <p>A wholesale mortgage broker accesses 200+ wholesale lenders including portfolio lenders, private banks, and specialty programs for complex transactions.</p>
+        <p>A wholesale mortgage broker accesses 50+ Wholesale Lenders including portfolio lenders, private banks, and specialty programs for complex transactions.</p>
 
         <h3>Is a wholesale mortgage broker cheaper than a bank?</h3>
         <p>Wholesale rates eliminate the retail markup that banks add, resulting in meaningfully better pricing on jumbo loans common in Peninsula transactions.</p>
@@ -707,7 +707,7 @@ export default function WholesaleMortgageBrokerPeninsulaUltraLuxuryPage() {
 
         {/* ── Section 8: Expert Summary + CTA ── */}
         <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 my-8">
-          <h2 className="text-2xl font-bold text-gray-900 mt-0">Your Peninsula Ultra-Luxury Mortgage Starts with 200+ Lender Access</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-0">Your Peninsula Ultra-Luxury Mortgage Starts with 50+ Wholesale Lenders</h2>
           <p>
             Whether you are purchasing an Atherton estate through a family trust, financing a Hillsborough renovation project, acquiring a Woodside equestrian property, buying a Portola Valley conservation home, or qualifying with RSU-heavy income in Los Altos Hills, the wholesale broker channel provides the lender access, pricing advantage, and specialized expertise that Peninsula ultra-luxury transactions demand.
           </p>

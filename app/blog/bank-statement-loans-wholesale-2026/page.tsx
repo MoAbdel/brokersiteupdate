@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loans: The Wholesale Broker Advantage [2026] | Mo Abdel',
-  description: 'Bank statement loans wholesale advantage 2026: Access 200+ lenders with varying guidelines through wholesale brokers. Self-employed mortgage solutions. NMLS #1426884.',
+  description: 'Bank statement loans wholesale advantage 2026: Access 50+ Wholesale Lenders with varying guidelines through wholesale brokers. Self-employed mortgage solutions. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/bank-statement-loans-wholesale-2026',
     languages: {

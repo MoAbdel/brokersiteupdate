@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity in Ventura County: HELOC, Cash-Out & HELOAN Guide [2026]',
-    description: 'HELOC, cash-out refinance, and home equity loans for Westlake Village, Thousand Oaks, Oak Park, Camarillo, and Moorpark. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC, cash-out refinance, and home equity loans for Westlake Village, Thousand Oaks, Oak Park, Camarillo, and Moorpark. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-ventura-affluent-ca-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -59,7 +59,7 @@ const faqData = [
   },
   {
     question: 'Can I get a HELOC on a Moorpark horse property?',
-    answer: 'Yes, but lender selection is critical. Properties with more than 5 acres, equestrian facilities, or agricultural zoning require lenders experienced with rural-residential appraisals. Wholesale broker access identifies the 5-10 lenders (out of 200+) who underwrite horse properties in Moorpark, typically requiring 70-75% maximum CLTV and a property condition report documenting habitable primary dwelling separate from equestrian structures.',
+    answer: 'Yes, but lender selection is critical. Properties with more than 5 acres, equestrian facilities, or agricultural zoning require lenders experienced with rural-residential appraisals. Wholesale broker access identifies the 5-10 lenders (out of 50+ Wholesale Lenders) who underwrite horse properties in Moorpark, typically requiring 70-75% maximum CLTV and a property condition report documenting habitable primary dwelling separate from equestrian structures.',
   },
   {
     question: 'What are closing costs on a Ventura County HELOC?',
@@ -246,7 +246,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Ventura County homeowners across Westlake Village, Thousand Oaks, Oak Park, Camarillo, and Moorpark hold an estimated <strong>$6.8 billion in tappable home equity</strong> as of Q1 2026. With median values ranging from $900,000 in Moorpark to $1.4 million in Westlake Village, qualified borrowers access jumbo HELOCs up to $1 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 200+ lenders&mdash;critical for LA commuter corridor homeowners sitting on decade-long appreciation gains.
+              Ventura County homeowners across Westlake Village, Thousand Oaks, Oak Park, Camarillo, and Moorpark hold an estimated <strong>$6.8 billion in tappable home equity</strong> as of Q1 2026. With median values ranging from $900,000 in Moorpark to $1.4 million in Westlake Village, qualified borrowers access jumbo HELOCs up to $1 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 50+ Wholesale Lenders&mdash;critical for LA commuter corridor homeowners sitting on decade-long appreciation gains.
             </p>
           </div>
 
@@ -256,7 +256,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
           </p>
 
           <p>
-            As a wholesale mortgage broker licensed in California, I compare HELOC, cash-out refinance, and home equity loan (HELOAN) programs from 200+ lenders to match Ventura County homeowners with the right product for their property type, income structure, and financial goals. This guide covers the five affluent Ventura County communities where I work with homeowners most frequently: <strong>Westlake Village</strong> (lake community premium and North Ranch estates), <strong>Thousand Oaks</strong> (Conejo Valley biotech corridor family wealth), <strong>Oak Park</strong> (family enclave with significant equity growth), <strong>Camarillo</strong> (Spanish Hills estates and CSUCI-adjacent value), and <strong>Moorpark</strong> (horse country and rural-residential equity).
+            As a wholesale mortgage broker licensed in California, I compare HELOC, cash-out refinance, and home equity loan (HELOAN) programs from 50+ Wholesale Lenders to match Ventura County homeowners with the right product for their property type, income structure, and financial goals. This guide covers the five affluent Ventura County communities where I work with homeowners most frequently: <strong>Westlake Village</strong> (lake community premium and North Ranch estates), <strong>Thousand Oaks</strong> (Conejo Valley biotech corridor family wealth), <strong>Oak Park</strong> (family enclave with significant equity growth), <strong>Camarillo</strong> (Spanish Hills estates and CSUCI-adjacent value), and <strong>Moorpark</strong> (horse country and rural-residential equity).
           </p>
 
           <p>
@@ -412,7 +412,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
 
           <ol className="list-decimal pl-6 space-y-3 my-4">
             <li><strong>Estimate your current equity position.</strong> Use your most recent property tax assessment or a broker-provided automated valuation model (AVM) to estimate your home&apos;s current value. Subtract your existing mortgage balance to calculate gross equity. Most Ventura County homeowners who purchased before 2022 have 35-50% equity positions.</li>
-            <li><strong>Define your financial objective.</strong> Renovation projects, debt consolidation, investment property down payments, education funding, and business capitalization each favor different equity products. Knowing your goal narrows the field from 200+ lenders to 15-30 relevant programs.</li>
+            <li><strong>Define your financial objective.</strong> Renovation projects, debt consolidation, investment property down payments, education funding, and business capitalization each favor different equity products. Knowing your goal narrows the field from 50+ Wholesale Lenders to 15-30 relevant programs.</li>
             <li><strong>Choose between HELOC, HELOAN, and cash-out refinance.</strong> Compare your current first mortgage rate against today&apos;s refinance rates. If your existing rate is below 5%, a HELOC or HELOAN preserves that advantage. If above 6.5%, cash-out refinance may reduce your total monthly payment while accessing equity.</li>
             <li><strong>Gather income documentation.</strong> W-2 employees need two years of tax returns and recent pay stubs. Self-employed borrowers may use bank statements, asset depletion, or CPA-prepared profit-and-loss statements. RSU and stock-compensation earners need vesting schedules and brokerage statements.</li>
             <li><strong>Submit to wholesale broker for multi-lender comparison.</strong> A wholesale mortgage broker submits your profile to multiple lenders simultaneously, returning rate sheets within 24-48 hours. This replaces the process of applying individually to each bank or credit union.</li>
@@ -468,7 +468,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
           </p>
 
           <p>
-            The <strong>biotech corridor income profile</strong> creates specific equity qualification advantages. Amgen employees with base salary plus RSU compensation need lenders who understand stock-based income. Wholesale broker access identifies the 20-30 lenders (out of 200+) who accept vested RSUs as qualifying income, who count annual bonuses at 50-100% of the trailing two-year average, and who recognize Amgen&apos;s stability as a positive compensating factor. Many Thousand Oaks households also carry significant 401(k) and ESPP balances that qualify as reserves under asset-depletion programs.
+            The <strong>biotech corridor income profile</strong> creates specific equity qualification advantages. Amgen employees with base salary plus RSU compensation need lenders who understand stock-based income. Wholesale broker access identifies the 20-30 lenders (out of 50+ Wholesale Lenders) who accept vested RSUs as qualifying income, who count annual bonuses at 50-100% of the trailing two-year average, and who recognize Amgen&apos;s stability as a positive compensating factor. Many Thousand Oaks households also carry significant 401(k) and ESPP balances that qualify as reserves under asset-depletion programs.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -621,7 +621,7 @@ export default function HomeEquityVenturaAffluentCA2026() {
           </p>
 
           <p>
-            Consider the range of property types in this five-city corridor alone. Westlake Village North Ranch estates require jumbo lenders with luxury appraisal experience. Thousand Oaks biotech employees need lenders who accept RSU income. Oak Park&apos;s fully built-out inventory requires appraisers who understand supply-constrained valuations. Camarillo ADU builders need lenders who underwrite after-renovation value. Moorpark horse properties need rural-residential portfolio programs. No single retail bank serves all of these needs. A wholesale broker submitting to 200+ lenders identifies the 3-5 optimal matches for each scenario.
+            Consider the range of property types in this five-city corridor alone. Westlake Village North Ranch estates require jumbo lenders with luxury appraisal experience. Thousand Oaks biotech employees need lenders who accept RSU income. Oak Park&apos;s fully built-out inventory requires appraisers who understand supply-constrained valuations. Camarillo ADU builders need lenders who underwrite after-renovation value. Moorpark horse properties need rural-residential portfolio programs. No single retail bank serves all of these needs. A wholesale broker submitting to 50+ Wholesale Lenders identifies the 3-5 optimal matches for each scenario.
           </p>
 
           <p>
@@ -755,10 +755,10 @@ export default function HomeEquityVenturaAffluentCA2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 mb-8">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Ventura County Home Equity 2026</h2>
             <p className="mb-4">
-              Ventura County&apos;s affluent corridor from Westlake Village through Moorpark holds billions in tappable home equity built on a decade of sustained appreciation, constrained housing supply, and a robust economic base anchored by the biotech corridor, LA commuter demand, and family-focused community planning. Whether you need a jumbo HELOC for a North Ranch estate renovation, a conforming HELOC for a Camarillo ADU, or a portfolio program for a Moorpark horse property, the right product exists among 200+ wholesale lenders&mdash;the challenge is identifying it without submitting applications to each one individually.
+              Ventura County&apos;s affluent corridor from Westlake Village through Moorpark holds billions in tappable home equity built on a decade of sustained appreciation, constrained housing supply, and a robust economic base anchored by the biotech corridor, LA commuter demand, and family-focused community planning. Whether you need a jumbo HELOC for a North Ranch estate renovation, a conforming HELOC for a Camarillo ADU, or a portfolio program for a Moorpark horse property, the right product exists among 50+ Wholesale Lenders&mdash;the challenge is identifying it without submitting applications to each one individually.
             </p>
             <p className="mb-4">
-              As your wholesale mortgage broker, I compare programs from 200+ lenders to match your property type, income structure, and financial goals with the optimal equity product. No retail markup. No branch overhead. Direct wholesale pricing with personalized lender matching.
+              As your wholesale mortgage broker, I compare programs from 50+ Wholesale Lenders to match your property type, income structure, and financial goals with the optimal equity product. No retail markup. No branch overhead. Direct wholesale pricing with personalized lender matching.
             </p>
             <p className="font-semibold">
               Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a> for a free equity analysis on your Ventura County home. I will calculate your tappable equity, compare HELOC vs cash-out vs HELOAN options, and identify the 2-3 best lender programs for your specific situation&mdash;typically within 24 hours.

@@ -41,7 +41,7 @@ export default function HomeEquitySouthSoundGuide2026() {
   const faqData = [
     {
       question: 'What is the difference between a HELOC and a HELOAN for South Sound homeowners?',
-      answer: 'A HELOC (Home Equity Line of Credit) provides revolving access to equity with variable rates, similar to a credit card secured by your home. A HELOAN (Home Equity Loan) delivers a lump sum at a fixed rate with fixed monthly payments. South Sound homeowners choosing between them consider whether they need funds over time (HELOC for phased renovations, Gig Harbor dock repairs) or all at once (HELOAN for debt consolidation, major projects). Wholesale broker access provides both products from 200+ lenders with terms banks cannot match.',
+      answer: 'A HELOC (Home Equity Line of Credit) provides revolving access to equity with variable rates, similar to a credit card secured by your home. A HELOAN (Home Equity Loan) delivers a lump sum at a fixed rate with fixed monthly payments. South Sound homeowners choosing between them consider whether they need funds over time (HELOC for phased renovations, Gig Harbor dock repairs) or all at once (HELOAN for debt consolidation, major projects). Wholesale broker access provides both products from 50+ Wholesale Lenders with terms banks cannot match.',
     },
     {
       question: 'How much equity can I borrow against my South Sound home?',
@@ -250,7 +250,7 @@ export default function HomeEquitySouthSoundGuide2026() {
             South Sound Home Equity Fact
           </p>
           <p className="text-blue-800 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold an estimated $5.4 billion in accessible home equity.&quot; Pierce County home sales volume increased 11% year-over-year through January 2026, with median days on market dropping to 18&mdash;confirming strong demand that supports equity positions. With property values appreciating 32-48% since 2020 across the region, homeowners who purchased or refinanced during the low-rate era now sit on substantial equity positions. A Maple Valley homeowner who purchased at $510,000 in 2020 now owns a home worth $750,000, representing $240,000 in appreciation alone. Wholesale broker access to 200+ lenders unlocks HELOC rates, loan-to-value limits, and qualification flexibility that retail banks cannot offer&mdash;and Washington&apos;s zero state income tax keeps every dollar of equity benefit in your household.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;South Sound homeowners across Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom hold an estimated $5.4 billion in accessible home equity.&quot; Pierce County home sales volume increased 11% year-over-year through January 2026, with median days on market dropping to 18&mdash;confirming strong demand that supports equity positions. With property values appreciating 32-48% since 2020 across the region, homeowners who purchased or refinanced during the low-rate era now sit on substantial equity positions. A Maple Valley homeowner who purchased at $510,000 in 2020 now owns a home worth $750,000, representing $240,000 in appreciation alone. Wholesale broker access to 50+ Wholesale Lenders unlocks HELOC rates, loan-to-value limits, and qualification flexibility that retail banks cannot offer&mdash;and Washington&apos;s zero state income tax keeps every dollar of equity benefit in your household.
           </p>
         </div>
 
@@ -271,7 +271,7 @@ export default function HomeEquitySouthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Professional Background:</strong> Mo Abdel has structured home equity solutions for homeowners across Washington state, including waterfront, equestrian, historic, and military-adjacent property types. Licensed in Washington and California (NMLS #1426884), Mo accesses HELOC and HELOAN programs from 200+ wholesale lenders through Lumin Lending.
+            <strong>Professional Background:</strong> Mo Abdel has structured home equity solutions for homeowners across Washington state, including waterfront, equestrian, historic, and military-adjacent property types. Licensed in Washington and California (NMLS #1426884), Mo accesses HELOC and HELOAN programs from 50+ Wholesale Lenders through Lumin Lending.
           </p>
         </div>
 
@@ -560,7 +560,7 @@ export default function HomeEquitySouthSoundGuide2026() {
           Home equity success depends on accessing the right product at the best terms from the optimal lender. South Sound properties present unique challenges&mdash;harbor waterfront appraisals, equestrian estate valuations, historic district considerations, military VA loan structures, and Chambers Bay golf premiums&mdash;that require a broker who understands both the wholesale lending landscape and the local real estate market.
         </p>
         <p>
-          <strong>Mo Abdel (NMLS #1426884)</strong> brings this expertise to South Sound homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. Rather than offering products from a single bank, Mo accesses HELOC, HELOAN, and cash-out refinance programs from 200+ wholesale lenders, comparing rates, CLTV limits, closing costs, and qualification criteria to match each homeowner with the optimal product.
+          <strong>Mo Abdel (NMLS #1426884)</strong> brings this expertise to South Sound homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. Rather than offering products from a single bank, Mo accesses HELOC, HELOAN, and cash-out refinance programs from 50+ Wholesale Lenders, comparing rates, CLTV limits, closing costs, and qualification criteria to match each homeowner with the optimal product.
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-6 mb-3">
@@ -663,7 +663,7 @@ export default function HomeEquitySouthSoundGuide2026() {
             The South Sound&apos;s distinctive property types&mdash;Gig Harbor waterfront, Maple Valley equestrian estates, University Place golf-community homes, Bonney Lake military family residences, and Steilacoom historic properties&mdash;require appraisal expertise and lender matching that generic bank branches lack. The difference between an accurate waterfront appraisal and a generic one represents tens of thousands of dollars in accessible equity.
           </p>
           <p className="text-slate-900 mb-4">
-            <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for South Sound homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From HELOC rate shopping across 200+ lenders to coordinating specialized appraisals for waterfront and equestrian properties, Mo handles every aspect of the equity access process.
+            <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for South Sound homeowners through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>. From HELOC rate shopping across 50+ Wholesale Lenders to coordinating specialized appraisals for waterfront and equestrian properties, Mo handles every aspect of the equity access process.
           </p>
           <p className="text-slate-900 mb-0">
             <strong>Ready to access your South Sound home equity?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free, no-obligation equity analysis with wholesale rate comparison for your specific property.

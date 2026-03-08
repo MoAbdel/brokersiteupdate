@@ -772,7 +772,7 @@ export default function ReverseMortgageTaxImplicationsPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Licensed in California and Washington. I work with 200+ lenders to find the best reverse mortgage terms for your specific situation.
+            Licensed in California and Washington. I work with 50+ Wholesale Lenders to find the best reverse mortgage terms for your specific situation.
           </p>
         </div>
 

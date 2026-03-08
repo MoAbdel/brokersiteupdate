@@ -4,7 +4,7 @@ import { FAQItem } from '@/components/FAQ';
 export const generalMortgageFAQs: FAQItem[] = [
   {
     question: "What does a mortgage broker do?",
-    answer: "A mortgage broker acts as an intermediary between borrowers and multiple lenders. Unlike banks that only offer their own loan products, mortgage brokers have access to 200+ lenders and can shop your loan to find the best pricing, terms, and loan programs that match your specific financial situation. Brokers handle the entire loan process from application to closing, saving you time and potentially thousands of dollars."
+    answer: "A mortgage broker acts as an intermediary between borrowers and multiple lenders. Unlike banks that only offer their own loan products, mortgage brokers have access to 50+ Wholesale Lenders and can shop your loan to find the best pricing, terms, and loan programs that match your specific financial situation. Brokers handle the entire loan process from application to closing, saving you time and potentially thousands of dollars."
   },
   {
     question: "How much does a mortgage broker cost in Orange County?",
@@ -20,7 +20,7 @@ export const generalMortgageFAQs: FAQItem[] = [
   },
   {
     question: "What are the benefits of using a mortgage broker vs. going directly to a bank?",
-    answer: "Mortgage brokers offer several key advantages: access to 200+ lenders vs. one bank's products, competitive shopping for the best pricing and terms, expert guidance through complex loan programs, personalized service throughout the process, and often better pricing than retail banks. Brokers work for you, not the lender, ensuring you get the loan that best fits your needs and financial goals."
+    answer: "Mortgage brokers offer several key advantages: access to 50+ Wholesale Lenders vs. one bank's products, competitive shopping for the best pricing and terms, expert guidance through complex loan programs, personalized service throughout the process, and often better pricing than retail banks. Brokers work for you, not the lender, ensuring you get the loan that best fits your needs and financial goals."
   }
 ];
 

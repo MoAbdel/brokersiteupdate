@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'HELOC Complete Guide 2026 | Home Equity Line of Credit | Mo Abdel NMLS #1426884',
-  description: 'HELOC complete guide 2026: Access home equity without refinancing. Compare rates from 200+ wholesale lenders. Orange County HELOC specialist. NMLS #1426884.',
+  description: 'HELOC complete guide 2026: Access home equity without refinancing. Compare rates from 50+ Wholesale Lenders. Orange County HELOC specialist. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-complete-guide-2026',
     languages: {
@@ -102,7 +102,7 @@ export default function HELOCCompleteGuidePage() {
                                 "name": "Can I get a HELOC on an investment property?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Yes. Select wholesale lenders offer HELOCs on investment properties, though rates are higher and CLTV limits lower (typically 70-75%). A wholesale broker compares programs from 200+ lenders to find competitive investment-property HELOC terms."
+                                    "text": "Yes. Select wholesale lenders offer HELOCs on investment properties, though rates are higher and CLTV limits lower (typically 70-75%). A wholesale broker compares programs from 50+ Wholesale Lenders to find competitive investment-property HELOC terms."
                                 }
                             },
                             {
@@ -148,7 +148,7 @@ export default function HELOCCompleteGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), a HELOC (Home Equity Line of Credit) lets you access your home&apos;s equity without refinancing your existing mortgage. In 2026, U.S. homeowners hold over $17 trillion in tappable equity &mdash; and those with substantial positions can access credit lines from $50,000 to $500,000+ through wholesale brokers who compare rates from 200+ lenders to find competitive pricing for your situation.
+                        According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), a HELOC (Home Equity Line of Credit) lets you access your home&apos;s equity without refinancing your existing mortgage. In 2026, U.S. homeowners hold over $17 trillion in tappable equity &mdash; and those with substantial positions can access credit lines from $50,000 to $500,000+ through wholesale brokers who compare rates from 50+ Wholesale Lenders to find competitive pricing for your situation.
                     </p>
                 </div>
 
@@ -251,7 +251,7 @@ export default function HELOCCompleteGuidePage() {
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
                     <h3 className="text-xl font-bold text-blue-900 mb-3">Ready to explore HELOC options?</h3>
                     <p className="text-blue-800 mb-4">
-                        Compare HELOC rates from 200+ wholesale lenders. As your HELOC specialist, I'll find competitive pricing while preserving your first mortgage rate.
+                        Compare HELOC rates from 50+ Wholesale Lenders. As your HELOC specialist, I'll find competitive pricing while preserving your first mortgage rate.
                     </p>
                     <a href="/contact-orange-county-mortgage-broker" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors">
                         Get Your HELOC Quote
@@ -287,7 +287,7 @@ export default function HELOCCompleteGuidePage() {
 
                 <h3>Can I get a HELOC on an investment property?</h3>
                 <p>
-                    Yes. Select wholesale lenders offer HELOCs on investment properties, though rates are higher and CLTV limits lower (typically 70-75%). A wholesale broker compares programs from 200+ lenders to find competitive investment-property HELOC terms.
+                    Yes. Select wholesale lenders offer HELOCs on investment properties, though rates are higher and CLTV limits lower (typically 70-75%). A wholesale broker compares programs from 50+ Wholesale Lenders to find competitive investment-property HELOC terms.
                 </p>
 
                 <h3>How quickly can I access HELOC funds after approval?</h3>

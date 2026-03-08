@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in San Marino, La Cañada Flintridge & Foothill Luxury, CA [2026]',
-  description: 'Wholesale mortgage broker for San Marino, La Canada Flintridge, South Pasadena & Arcadia. 200+ lenders, jumbo specialists, trust/LLC vesting, Chinese-American buyer programs. NMLS #1426884.',
+  description: 'Wholesale mortgage broker for San Marino, La Canada Flintridge, South Pasadena & Arcadia. 50+ Wholesale Lenders, jumbo specialists, trust/LLC vesting, Chinese-American buyer programs. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Marino',
     'mortgage broker La Canada Flintridge',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in San Marino, La Canada Flintridge & Foothill Luxury, CA [2026]',
-    description: 'Wholesale mortgage broker serving San Marino, La Canada Flintridge, South Pasadena and Arcadia luxury communities. 200+ lenders, jumbo expertise, trust/LLC programs.',
+    description: 'Wholesale mortgage broker serving San Marino, La Canada Flintridge, South Pasadena and Arcadia luxury communities. 50+ Wholesale Lenders, jumbo expertise, trust/LLC programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-foothill-luxury-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -66,7 +66,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
         name: 'What is a wholesale mortgage broker and why does it matter in San Marino?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses 200+ lenders simultaneously, comparing rates and programs to match each borrower with the optimal loan. In San Marino where the median home price is $3 million and virtually every purchase requires jumbo financing, wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank.',
+          text: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders simultaneously, comparing rates and programs to match each borrower with the optimal loan. In San Marino where the median home price is $3 million and virtually every purchase requires jumbo financing, wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank.',
         },
       },
       {
@@ -230,7 +230,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-xl text-gray-700 leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884, the San Gabriel Valley foothill luxury corridor&mdash;spanning San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, and Arcadia&mdash;represents one of Southern California&apos;s most demanding mortgage markets. With median home values ranging from $1.8 million in South Pasadena and Arcadia to $3 million in San Marino, virtually every transaction requires jumbo financing above the $1,209,750 LA County conforming limit. Legacy estate owners structuring multi-generational transfers, Caltech and JPL scientists with complex compensation packages, Chinese-American entrepreneurs deploying business wealth into residential real estate, and medical professionals purchasing through family trusts each present qualification challenges that a single bank cannot address. A wholesale mortgage broker with 200+ lender relationships matches each borrower profile with the optimal jumbo program&mdash;delivering lower rates, higher approval odds, and faster closings than retail banking channels.
+              According to Mo Abdel, NMLS #1426884, the San Gabriel Valley foothill luxury corridor&mdash;spanning San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, and Arcadia&mdash;represents one of Southern California&apos;s most demanding mortgage markets. With median home values ranging from $1.8 million in South Pasadena and Arcadia to $3 million in San Marino, virtually every transaction requires jumbo financing above the $1,209,750 LA County conforming limit. Legacy estate owners structuring multi-generational transfers, Caltech and JPL scientists with complex compensation packages, Chinese-American entrepreneurs deploying business wealth into residential real estate, and medical professionals purchasing through family trusts each present qualification challenges that a single bank cannot address. A wholesale mortgage broker with 50+ Wholesale Lenders matches each borrower profile with the optimal jumbo program&mdash;delivering lower rates, higher approval odds, and faster closings than retail banking channels.
             </p>
           </div>
 
@@ -379,7 +379,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
           {/* Numbered Qualification Steps */}
           <h3 className="text-xl font-bold mt-8 mb-4">Wholesale Mortgage Qualification: 5-Step Process</h3>
           <ol className="list-decimal list-inside space-y-3">
-            <li><strong>Initial Consultation &amp; Income Profiling</strong> &mdash; I analyze your income type, employment structure, and property target to identify the 3&ndash;5 best-fit wholesale lenders from our 200+ network.</li>
+            <li><strong>Initial Consultation &amp; Income Profiling</strong> &mdash; I analyze your income type, employment structure, and property target to identify the 3&ndash;5 best-fit wholesale lenders from our 50+ Wholesale Lenders.</li>
             <li><strong>Multi-Lender Rate Comparison</strong> &mdash; Real-time rate quotes from competing jumbo lenders are presented side-by-side, showing rate, fees, and program-specific requirements for your exact scenario.</li>
             <li><strong>Pre-Approval &amp; Documentation</strong> &mdash; Full pre-approval with the selected lender, including trust/LLC vesting documentation, income verification, and asset confirmation.</li>
             <li><strong>Property-Specific Underwriting</strong> &mdash; Appraisal coordination with local SGV foothill appraisers who understand San Marino estate premiums, South Pasadena craftsman values, and Arcadia new-construction pricing.</li>
@@ -672,7 +672,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
             <div className="space-y-6">
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-lg mb-2">What makes a wholesale mortgage broker different from a direct lender?</h3>
-                <p><strong>A wholesale broker compares 200+ lenders simultaneously, while a direct lender offers only its own products and rates.</strong></p>
+                <p><strong>A wholesale broker compares 50+ Wholesale Lenders simultaneously, while a direct lender offers only its own products and rates.</strong></p>
               </div>
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-lg mb-2">Why do San Marino buyers need jumbo loans?</h3>
@@ -712,7 +712,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
             <div className="space-y-6">
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-lg mb-2">What is a wholesale mortgage broker and why does it matter in San Marino?</h3>
-                <p>A wholesale mortgage broker accesses 200+ lenders simultaneously, comparing rates and programs to match each borrower with the optimal loan. In San Marino where the median home price is $3 million and virtually every purchase requires jumbo financing, wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank can offer.</p>
+                <p>A wholesale mortgage broker accesses 50+ Wholesale Lenders simultaneously, comparing rates and programs to match each borrower with the optimal loan. In San Marino where the median home price is $3 million and virtually every purchase requires jumbo financing, wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank can offer.</p>
               </div>
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-lg mb-2">What is the 2026 conforming loan limit for LA County?</h3>
@@ -792,7 +792,7 @@ export default function WholesaleMortgageBrokerFoothillLuxury2026() {
           <div className="expert-summary bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Wholesale Mortgage Advantage for Foothill Luxury Communities</h2>
             <p className="mb-4">
-              The SGV foothill luxury corridor&mdash;San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, and Arcadia&mdash;demands mortgage solutions that retail banks cannot deliver. With median home prices ranging from $1.8 million to $3 million, every transaction requires jumbo financing from lenders equipped to handle trust vesting, complex income documentation, historic property appraisals, and international buyer protocols. A wholesale broker with 200+ lender relationships matches each borrower&apos;s unique profile with the optimal program, delivering lower rates, faster closings, and higher approval odds than any single bank can provide.
+              The SGV foothill luxury corridor&mdash;San Marino, La Ca&ntilde;ada Flintridge, South Pasadena, and Arcadia&mdash;demands mortgage solutions that retail banks cannot deliver. With median home prices ranging from $1.8 million to $3 million, every transaction requires jumbo financing from lenders equipped to handle trust vesting, complex income documentation, historic property appraisals, and international buyer protocols. A wholesale broker with 50+ Wholesale Lenders matches each borrower&apos;s unique profile with the optimal program, delivering lower rates, faster closings, and higher approval odds than any single bank can provide.
             </p>
             <p className="mb-4">
               The financial impact is significant. On a $2.5 million jumbo loan, even a 0.25% rate advantage through wholesale channels saves $62,500 over a 10-year hold period. The qualification impact is even greater: borrowers declined by retail banks&mdash;due to trust complexity, self-employment documentation, or international income&mdash;routinely qualify through wholesale programs designed for their exact profiles.

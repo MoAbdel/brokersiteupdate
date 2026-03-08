@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Equity in Hidden Hills, Calabasas & Western LA: HELOC & Cash-Out [2026]',
-  description: 'Home equity guide for Hidden Hills, Calabasas, Agoura Hills & Westlake Village. HELOC, HELOAN & cash-out refinance for entertainment estates. 200+ lenders. NMLS #1426884.',
+  description: 'Home equity guide for Hidden Hills, Calabasas, Agoura Hills & Westlake Village. HELOC, HELOAN & cash-out refinance for entertainment estates. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'home equity Hidden Hills',
     'HELOC Calabasas',
@@ -106,7 +106,7 @@ export default function HomeEquityWesternLALuxury2026() {
         name: 'How does the Calabasas HOA affect my HELOC qualification?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Calabasas gated communities like The Oaks carry monthly HOA fees of $500-$2,000+ that are factored into your debt-to-income ratio. High HOA fees reduce your qualifying HELOC amount. Wholesale broker access to 200+ lenders means finding programs with more favorable DTI calculations that account for HOA while still maximizing your credit line.',
+          text: 'Calabasas gated communities like The Oaks carry monthly HOA fees of $500-$2,000+ that are factored into your debt-to-income ratio. High HOA fees reduce your qualifying HELOC amount. Wholesale broker access to 50+ Wholesale Lenders means finding programs with more favorable DTI calculations that account for HOA while still maximizing your credit line.',
         },
       },
       {
@@ -162,7 +162,7 @@ export default function HomeEquityWesternLALuxury2026() {
         name: 'How does a wholesale broker find better HELOC rates for Western LA homeowners?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares HELOC products from 200+ lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. By shopping the wholesale marketplace, brokers consistently find lower rates, higher credit limits, and better terms. On a $1M+ jumbo HELOC, rate differences translate to $5,000-$15,000 or more in annual interest savings.',
+          text: 'A wholesale broker compares HELOC products from 50+ Wholesale Lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. By shopping the wholesale marketplace, brokers consistently find lower rates, higher credit limits, and better terms. On a $1M+ jumbo HELOC, rate differences translate to $5,000-$15,000 or more in annual interest savings.',
         },
       },
     ],
@@ -249,7 +249,7 @@ export default function HomeEquityWesternLALuxury2026() {
               <li>4 Western LA luxury cities hold an estimated $11.2 billion in total residential home equity across approximately 22,000 owner-occupied homes</li>
               <li>Hidden Hills ($6M median) homeowners hold an average $3.8M in tappable equity per property after retaining 20% equity cushion</li>
               <li>Calabasas ($1.8M median) properties in The Oaks gated community average $1.1M+ in accessible equity</li>
-              <li>Entertainment industry income &mdash; royalties, residuals, licensing fees &mdash; requires specialized lender qualification that 200+ wholesale lenders provide</li>
+              <li>Entertainment industry income &mdash; royalties, residuals, licensing fees &mdash; requires specialized lender qualification that 50+ Wholesale Lenders provide</li>
               <li>Western LA luxury home values appreciated 7.8% annually over the past decade, building substantial equity positions for long-term homeowners</li>
             </ul>
           </div>
@@ -274,7 +274,7 @@ export default function HomeEquityWesternLALuxury2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Western Los Angeles&apos;s luxury corridor &mdash; Hidden Hills, Calabasas, Agoura Hills, and Westlake Village &mdash; holds billions in residential home equity concentrated in entertainment industry estates, gated ranch-style communities, and premium lake-adjacent properties. From Hidden Hills compounds valued at $10M&ndash;$25M+ to Agoura Hills family homes with $500K in built-up equity, this corridor presents extraordinary opportunities to leverage your equity for renovations, investments, business capitalization, and financial optimization. As a wholesale mortgage broker with access to over 200 lenders, I help Western LA homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; with specialized expertise in the entertainment industry income qualification that defines this market.
+            Western Los Angeles&apos;s luxury corridor &mdash; Hidden Hills, Calabasas, Agoura Hills, and Westlake Village &mdash; holds billions in residential home equity concentrated in entertainment industry estates, gated ranch-style communities, and premium lake-adjacent properties. From Hidden Hills compounds valued at $10M&ndash;$25M+ to Agoura Hills family homes with $500K in built-up equity, this corridor presents extraordinary opportunities to leverage your equity for renovations, investments, business capitalization, and financial optimization. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help Western LA homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; with specialized expertise in the entertainment industry income qualification that defines this market.
           </p>
 
           <p>
@@ -421,7 +421,7 @@ export default function HomeEquityWesternLALuxury2026() {
           </p>
 
           <p>
-            <strong>Equity access challenge &mdash; ultra-jumbo HELOC products:</strong> Standard HELOC products cap at $500K&ndash;$1M, which is insufficient for Hidden Hills homeowners with $4M&ndash;$15M+ in accessible equity. Through wholesale broker access to 200+ lenders, I connect Hidden Hills homeowners with jumbo HELOC programs offering $2M&ndash;$5M+ credit lines. Some specialty lenders provide HELOCs up to $5M on qualifying properties with appropriate loan-to-value ratios and reserve requirements.
+            <strong>Equity access challenge &mdash; ultra-jumbo HELOC products:</strong> Standard HELOC products cap at $500K&ndash;$1M, which is insufficient for Hidden Hills homeowners with $4M&ndash;$15M+ in accessible equity. Through wholesale broker access to 50+ Wholesale Lenders, I connect Hidden Hills homeowners with jumbo HELOC programs offering $2M&ndash;$5M+ credit lines. Some specialty lenders provide HELOCs up to $5M on qualifying properties with appropriate loan-to-value ratios and reserve requirements.
           </p>
 
           <p>
@@ -491,7 +491,7 @@ export default function HomeEquityWesternLALuxury2026() {
           </p>
 
           <p>
-            <strong>Equity sweet spot &mdash; conforming vs. jumbo HELOC:</strong> At $1.1M median, many Agoura Hills properties fall in a range where both conforming and jumbo HELOC products compete for your business. Conforming HELOCs on properties below the threshold offer slightly lower rates but cap at smaller credit lines. Jumbo HELOCs on properties above $1.15M provide larger credit lines but at a modest rate premium. A wholesale broker comparing both product types across 200+ lenders finds the optimal product for your specific property value and equity needs.
+            <strong>Equity sweet spot &mdash; conforming vs. jumbo HELOC:</strong> At $1.1M median, many Agoura Hills properties fall in a range where both conforming and jumbo HELOC products compete for your business. Conforming HELOCs on properties below the threshold offer slightly lower rates but cap at smaller credit lines. Jumbo HELOCs on properties above $1.15M provide larger credit lines but at a modest rate premium. A wholesale broker comparing both product types across 50+ Wholesale Lenders finds the optimal product for your specific property value and equity needs.
           </p>
 
           <p>
@@ -725,7 +725,7 @@ export default function HomeEquityWesternLALuxury2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does the Calabasas HOA affect my HELOC qualification?</h3>
-              <p>Calabasas gated communities like The Oaks carry monthly HOA fees of $500&ndash;$2,000+ that are factored into your debt-to-income ratio and reduce your qualifying HELOC amount. Wholesale broker access to 200+ lenders means finding programs with more favorable DTI calculations that account for HOA while still maximizing your credit line amount.</p>
+              <p>Calabasas gated communities like The Oaks carry monthly HOA fees of $500&ndash;$2,000+ that are factored into your debt-to-income ratio and reduce your qualifying HELOC amount. Wholesale broker access to 50+ Wholesale Lenders means finding programs with more favorable DTI calculations that account for HOA while still maximizing your credit line amount.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What credit score do I need for a jumbo HELOC in Western LA?</h3>
@@ -753,7 +753,7 @@ export default function HomeEquityWesternLALuxury2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker find better HELOC rates for Western LA homeowners?</h3>
-              <p>A wholesale broker compares HELOC products from 200+ lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. By shopping the wholesale marketplace, brokers consistently find lower rates, higher credit limits, and better terms. On a $1M+ jumbo HELOC, even a small rate difference translates to $5,000&ndash;$15,000+ in annual interest savings.</p>
+              <p>A wholesale broker compares HELOC products from 50+ Wholesale Lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. By shopping the wholesale marketplace, brokers consistently find lower rates, higher credit limits, and better terms. On a $1M+ jumbo HELOC, even a small rate difference translates to $5,000&ndash;$15,000+ in annual interest savings.</p>
             </div>
           </div>
 
@@ -790,7 +790,7 @@ export default function HomeEquityWesternLALuxury2026() {
               Hidden Hills ($6M median), Calabasas ($1.8M median), Westlake Village ($1.4M median), and Agoura Hills ($1.1M median) collectively hold over $11 billion in residential home equity. Entertainment industry income profiles, LLC/trust ownership structures, and ultra-luxury property valuations require specialized lending expertise that standard banks do not provide.
             </p>
             <p className="text-slate-900 mb-3">
-              From $3M+ jumbo HELOCs on Hidden Hills compounds to conforming-tier equity products for Agoura Hills family homes, the right equity product exists for every Western LA homeowner. Bank statement qualification for entertainment professionals, asset depletion for high-net-worth borrowers with minimal salary, and entity-ownership HELOC programs all become accessible through wholesale broker access to 200+ lenders.
+              From $3M+ jumbo HELOCs on Hidden Hills compounds to conforming-tier equity products for Agoura Hills family homes, the right equity product exists for every Western LA homeowner. Bank statement qualification for entertainment professionals, asset depletion for high-net-worth borrowers with minimal salary, and entity-ownership HELOC programs all become accessible through wholesale broker access to 50+ Wholesale Lenders.
             </p>
             <p className="text-slate-900">
               As your Western LA equity specialist, I deliver entertainment income qualification expertise, entity ownership navigation, luxury property appraisal management, and the privacy standards this market demands. Contact me today for your free home equity analysis.
@@ -805,7 +805,7 @@ export default function HomeEquityWesternLALuxury2026() {
             <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving Hidden Hills, Calabasas, Agoura Hills &amp; Westlake Village</p>
-            <p className="text-sm">Wholesale broker with access to 200+ HELOC, HELOAN &amp; cash-out refinance lenders</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders</p>
           </div>
 
           {/* Disclaimer */}

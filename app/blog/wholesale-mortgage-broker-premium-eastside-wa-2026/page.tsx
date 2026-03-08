@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker Premium Eastside WA: Mercer Island, Kirkland, Redmond & More [2026]',
-    description: 'Wholesale mortgage broker for Premium Seattle Eastside. Access 200+ lenders for jumbo, RSU income, bank statement, and DSCR programs across Mercer Island, Newcastle, Woodinville, Kirkland, Redmond.',
+    description: 'Wholesale mortgage broker for Premium Seattle Eastside. Access 50+ Wholesale Lenders for jumbo, RSU income, bank statement, and DSCR programs across Mercer Island, Newcastle, Woodinville, Kirkland, Redmond.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-premium-eastside-wa-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is a wholesale mortgage broker and how does it benefit Premium Eastside homebuyers?',
-    answer: 'A wholesale mortgage broker accesses loan pricing directly from 200+ wholesale lenders instead of offering just one bank\'s products. For Premium Eastside buyers financing $1M-$3M+ properties, this means comparing jumbo rates from dozens of lenders simultaneously, often saving 0.25-0.75% on rate versus a single retail bank.'
+    answer: 'A wholesale mortgage broker accesses loan pricing directly from 50+ Wholesale Lenders instead of offering just one bank\'s products. For Premium Eastside buyers financing $1M-$3M+ properties, this means comparing jumbo rates from dozens of lenders simultaneously, often saving 0.25-0.75% on rate versus a single retail bank.'
   },
   {
     question: 'Can a wholesale broker qualify RSU and stock-based income for a mortgage in Redmond or Kirkland?',
@@ -420,7 +420,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t">Number of Lenders</td>
-                  <td className="px-4 py-3 border-t">200+ wholesale lenders</td>
+                  <td className="px-4 py-3 border-t">50+ Wholesale Lenders</td>
                   <td className="px-4 py-3 border-t">1 (their own products)</td>
                 </tr>
                 <tr>
@@ -697,7 +697,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
           </p>
 
           <p>
-            Based on Mo Abdel&apos;s experience serving over 300 Premium Eastside borrowers, the wholesale advantage manifests most clearly in three scenarios: executive relocations with complex compensation packages (where retail banks typically take 45-60 days vs. 25-30 days through wholesale), self-employed tech founders using bank statement programs (unavailable at retail banks), and investment property acquisitions using DSCR qualification (a product category retail banks do not offer). The 200+ lender network accessible through wholesale channels ensures every Premium Eastside buyer finds the most competitive rate and the most favorable qualification guidelines for their specific situation.
+            Based on Mo Abdel&apos;s experience serving over 300 Premium Eastside borrowers, the wholesale advantage manifests most clearly in three scenarios: executive relocations with complex compensation packages (where retail banks typically take 45-60 days vs. 25-30 days through wholesale), self-employed tech founders using bank statement programs (unavailable at retail banks), and investment property acquisitions using DSCR qualification (a product category retail banks do not offer). The 50+ Wholesale Lenders accessible through wholesale channels ensures every Premium Eastside buyer finds the most competitive rate and the most favorable qualification guidelines for their specific situation.
           </p>
 
           <p>
@@ -882,7 +882,7 @@ export default function WholesaleMortgageBrokerPremiumEastsideWA() {
             </p>
 
             <p>
-              As a wholesale mortgage broker licensed in California and Washington with access to 200+ wholesale lenders, Mo Abdel provides Premium Eastside homebuyers and investors with competitive jumbo pricing, RSU income qualification expertise, bank statement programs for self-employed borrowers, and DSCR loans for investment property acquisitions.
+              As a wholesale mortgage broker licensed in California and Washington with access to 50+ Wholesale Lenders, Mo Abdel provides Premium Eastside homebuyers and investors with competitive jumbo pricing, RSU income qualification expertise, bank statement programs for self-employed borrowers, and DSCR loans for investment property acquisitions.
             </p>
 
             <div className="bg-blue-50 p-6 rounded-lg my-6">

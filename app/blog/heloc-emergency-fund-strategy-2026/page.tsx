@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with HELOC emergency fund planning?',
-    answer: 'A wholesale mortgage broker like Mo Abdel at Lumin Lending compares HELOC products across 200+ lender partners to find the best combination of rate, credit limit, fees, and terms for your emergency fund strategy. Brokers access wholesale HELOC pricing that is not available directly to consumers. They can also structure a HELOC alongside your existing mortgage to optimize your overall debt position and maximize available equity for emergencies.',
+    answer: 'A wholesale mortgage broker like Mo Abdel at Lumin Lending compares HELOC products across 50+ Wholesale Lenders partners to find the best combination of rate, credit limit, fees, and terms for your emergency fund strategy. Brokers access wholesale HELOC pricing that is not available directly to consumers. They can also structure a HELOC alongside your existing mortgage to optimize your overall debt position and maximize available equity for emergencies.',
   },
 ];
 
@@ -543,7 +543,7 @@ export default function HelocEmergencyFundStrategyPage() {
         </div>
 
         <p>
-          A wholesale mortgage broker like Mo Abdel at Lumin Lending compares HELOC products across 200+ lender partners to find the combination of rate, credit limit, and terms that best suits your emergency fund strategy. Some lenders specialize in high-CLTV HELOCs for borrowers with strong credit; others offer lower rates but more conservative limits. The wholesale channel provides access to this full spectrum of options.
+          A wholesale mortgage broker like Mo Abdel at Lumin Lending compares HELOC products across 50+ Wholesale Lenders partners to find the combination of rate, credit limit, and terms that best suits your emergency fund strategy. Some lenders specialize in high-CLTV HELOCs for borrowers with strong credit; others offer lower rates but more conservative limits. The wholesale channel provides access to this full spectrum of options.
         </p>
 
         {/* ─── DATA HUB (400-500 words) ─── */}
@@ -680,7 +680,7 @@ export default function HelocEmergencyFundStrategyPage() {
             <li><strong>Open the HELOC when your finances are strong.</strong> Applying during a crisis leads to worse terms or denial. Establish the line proactively while your income, credit, and equity support favorable terms.</li>
             <li><strong>Use the layered approach.</strong> Cash for small emergencies, HELOC for large emergencies, investments as last resort. Each layer covers a different severity level.</li>
             <li><strong>Respect the risks.</strong> Your home is collateral, rates are variable, and lenders can freeze lines. A HELOC is a powerful tool, but it demands disciplined, emergency-only use.</li>
-            <li><strong>Work with a wholesale broker for best terms.</strong> Comparing HELOC products across 200+ lenders ensures you get the most competitive rate, highest credit limit, and lowest fees for your standby emergency line.</li>
+            <li><strong>Work with a wholesale broker for best terms.</strong> Comparing HELOC products across 50+ Wholesale Lenders ensures you get the most competitive rate, highest credit limit, and lowest fees for your standby emergency line.</li>
             <li><strong>Review annually.</strong> Check your HELOC terms, draw period remaining, home value, and equity position every year. Adjust your strategy as your financial situation and market conditions change.</li>
           </ul>
         </div>
@@ -699,7 +699,7 @@ export default function HelocEmergencyFundStrategyPage() {
         <div className="bg-gradient-to-br from-blue-600 to-blue-800 text-white p-8 rounded-xl my-8">
           <h3 className="text-2xl font-bold mt-0 text-white">Set Up Your Standby HELOC Safety Net</h3>
           <p className="text-blue-100 mb-4">
-            Mo Abdel at Lumin Lending compares HELOC products across 200+ lender partners to find the best rate, credit limit, and terms for your emergency fund strategy. Get pre-approved while your finances are strong—so the safety net is ready when you need it.
+            Mo Abdel at Lumin Lending compares HELOC products across 50+ Wholesale Lenders partners to find the best rate, credit limit, and terms for your emergency fund strategy. Get pre-approved while your finances are strong—so the safety net is ready when you need it.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="tel:9495792057" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">

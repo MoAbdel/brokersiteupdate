@@ -63,7 +63,7 @@ const faqData = [
   },
   {
     question: 'Can I refinance a frozen HELOC into a new loan?',
-    answer: 'Yes. A frozen HELOC can be refinanced into a home equity loan (fixed rate, fixed payments), a cash-out refinance that replaces both your first mortgage and the HELOC balance, or a new HELOC with a different lender. Working with a wholesale mortgage broker gives you access to 200+ lenders, making it possible to find a replacement product even when one lender has frozen your existing line.',
+    answer: 'Yes. A frozen HELOC can be refinanced into a home equity loan (fixed rate, fixed payments), a cash-out refinance that replaces both your first mortgage and the HELOC balance, or a new HELOC with a different lender. Working with a wholesale mortgage broker gives you access to 50+ Wholesale Lenders, making it possible to find a replacement product even when one lender has frozen your existing line.',
   },
   {
     question: 'What are my rights if my lender reduces my HELOC credit limit?',
@@ -79,7 +79,7 @@ const faqData = [
   },
   {
     question: 'What alternatives do I have if my HELOC is permanently frozen?',
-    answer: 'The main alternatives are: a cash-out refinance that pays off your first mortgage and HELOC balance while giving you a new equity access amount, a home equity loan (HELOAN) that provides a lump sum as a second lien, a new HELOC from a different lender with current underwriting, or a personal loan (unsecured, higher rate) for smaller amounts. A wholesale mortgage broker can evaluate all these options simultaneously across 200+ lenders to find the most cost-effective replacement.',
+    answer: 'The main alternatives are: a cash-out refinance that pays off your first mortgage and HELOC balance while giving you a new equity access amount, a home equity loan (HELOAN) that provides a lump sum as a second lien, a new HELOC from a different lender with current underwriting, or a personal loan (unsecured, higher rate) for smaller amounts. A wholesale mortgage broker can evaluate all these options simultaneously across 50+ Wholesale Lenders to find the most cost-effective replacement.',
   },
   {
     question: 'Did lenders freeze HELOCs during the 2008 financial crisis?',
@@ -212,7 +212,7 @@ export default function HelocFreezeReductionLenderRights2026() {
           {/* Citation Hook */}
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
             <p className="font-semibold text-gray-900 mb-0">
-              <strong>The bottom line:</strong> Lenders can legally freeze or reduce your HELOC credit line when your home value declines, your credit deteriorates, or your financial situation changes materially. Under <a href="https://www.federalreserve.gov/bankinforeg/regzcg.htm" target="_blank" rel="noopener noreferrer">Regulation Z</a>, they must provide written notice with a specific reason and allow you to request reinstatement. Your existing balance, interest rate, and payment obligations remain unchanged during a freeze. If your HELOC is frozen, alternatives include cash-out refinance, home equity loans, or a new HELOC from a different lender&mdash;all accessible through a wholesale mortgage broker with 200+ lender options.
+              <strong>The bottom line:</strong> Lenders can legally freeze or reduce your HELOC credit line when your home value declines, your credit deteriorates, or your financial situation changes materially. Under <a href="https://www.federalreserve.gov/bankinforeg/regzcg.htm" target="_blank" rel="noopener noreferrer">Regulation Z</a>, they must provide written notice with a specific reason and allow you to request reinstatement. Your existing balance, interest rate, and payment obligations remain unchanged during a freeze. If your HELOC is frozen, alternatives include cash-out refinance, home equity loans, or a new HELOC from a different lender&mdash;all accessible through a wholesale mortgage broker with 50+ Wholesale Lenders.
             </p>
           </div>
 
@@ -257,7 +257,7 @@ export default function HelocFreezeReductionLenderRights2026() {
                 <tr className="border-t">
                   <td className="px-4 py-3 font-medium">Wholesale mortgage broker</td>
                   <td className="px-4 py-3">provides immediate alternatives including</td>
-                  <td className="px-4 py-3">cash-out refinance and home equity loans from 200+ lenders when a HELOC is frozen</td>
+                  <td className="px-4 py-3">cash-out refinance and home equity loans from 50+ Wholesale Lenders when a HELOC is frozen</td>
                 </tr>
               </tbody>
             </table>
@@ -555,7 +555,7 @@ export default function HelocFreezeReductionLenderRights2026() {
           {/* Wholesale Broker Advantage */}
           <h2 className="text-2xl font-bold mt-8 mb-4">Why a Wholesale Mortgage Broker Is Your Best Resource When a HELOC Is Frozen</h2>
           <p>
-            When your HELOC is frozen, you are dealing with a single lender who has made a decision based on their internal risk guidelines. A wholesale mortgage broker provides access to 200+ lenders, giving you the ability to pivot quickly to an alternative equity access product rather than waiting weeks or months for reinstatement from a lender who may not restore your line.
+            When your HELOC is frozen, you are dealing with a single lender who has made a decision based on their internal risk guidelines. A wholesale mortgage broker provides access to 50+ Wholesale Lenders, giving you the ability to pivot quickly to an alternative equity access product rather than waiting weeks or months for reinstatement from a lender who may not restore your line.
           </p>
 
           <ul className="list-disc pl-6 space-y-2">
@@ -636,12 +636,12 @@ export default function HelocFreezeReductionLenderRights2026() {
             The fastest path to restoring equity access depends on the trigger. For home value issues, a new appraisal demonstrating the property&apos;s current worth is the most direct solution. For credit or income issues, documenting improvements resolves the trigger. If reinstatement is not feasible or takes too long, pivoting to a cash-out refinance, home equity loan, or new HELOC through a different lender provides a reliable alternative.
           </p>
           <p>
-            As a wholesale mortgage broker with access to 200+ lenders, I help borrowers navigate HELOC freezes by identifying the fastest reinstatement path or the most cost-effective replacement product. Whether your HELOC was frozen yesterday or months ago, I will evaluate your situation and provide actionable options within 24 hours.
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help borrowers navigate HELOC freezes by identifying the fastest reinstatement path or the most cost-effective replacement product. Whether your HELOC was frozen yesterday or months ago, I will evaluate your situation and provide actionable options within 24 hours.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">
             <h3 className="text-2xl font-bold text-blue-900 mb-3">HELOC Frozen? Get Your Options in 24 Hours</h3>
-            <p className="text-blue-800 mb-4">I will review your current HELOC situation, identify reinstatement options, and present alternative equity access products from our 200+ lender network.</p>
+            <p className="text-blue-800 mb-4">I will review your current HELOC situation, identify reinstatement options, and present alternative equity access products from our 50+ Wholesale Lenders.</p>
             <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 579-2057</p>
             <p className="text-blue-700 mb-4">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

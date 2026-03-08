@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92614 | Irvine Woodbridge | Jumbo Loan Specialists',
-  description: 'Irvine Woodbridge wholesale mortgage broker serving 92614. Access 200+ lenders for jumbo loans in this master-planned community. NMLS #1426884.',
+  description: 'Irvine Woodbridge wholesale mortgage broker serving 92614. Access 50+ Wholesale Lenders for jumbo loans in this master-planned community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92614',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92614 | Irvine Woodbridge Jumbo Specialists',
-    description: 'Irvine Woodbridge wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Irvine Woodbridge wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92614',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92614Page() {
           Wholesale Mortgage Broker 92614 | Irvine Woodbridge Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Irvine&apos;s iconic Woodbridge master-planned community
+          Access wholesale rates and 50+ Wholesale Lenders for Irvine&apos;s iconic Woodbridge master-planned community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine Woodbridge 92614 remains one of Orange County&apos;s most desirable master-planned communities with a <strong>$1.3 million median home price</strong>, two lakes, and resort-style amenities. With the 2026 conforming limit at $1,209,750, many 92614 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than Bank of America or Wells Fargo—plus expertise with Woodbridge&apos;s HOA and Mello-Roos considerations.
+            Irvine Woodbridge 92614 remains one of Orange County&apos;s most desirable master-planned communities with a <strong>$1.3 million median home price</strong>, two lakes, and resort-style amenities. With the 2026 conforming limit at $1,209,750, many 92614 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates than Bank of America or Wells Fargo—plus expertise with Woodbridge&apos;s HOA and Mello-Roos considerations.
           </p>
         </div>
 

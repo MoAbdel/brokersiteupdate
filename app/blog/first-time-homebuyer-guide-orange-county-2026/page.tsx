@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ['first time homebuyer Orange County', 'Orange County first time buyer programs', 'FHA loans Orange County 2026', 'down payment assistance Orange County'],
   openGraph: {
     title: 'First-Time Homebuyer Guide Orange County 2026: Complete Guide to Buying Your First Home',
-    description: 'First-time homebuyer Orange County 2026: FHA loans, down payment assistance, credit tips. Access wholesale rates from 200+ lenders.',
+    description: 'First-time homebuyer Orange County 2026: FHA loans, down payment assistance, credit tips. Access wholesale rates from 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/first-time-homebuyer-guide-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -369,7 +369,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Get Pre-Approved by a Wholesale Mortgage Broker</h4>
-                  <p className="text-slate-600 mb-2">Submit W-2s, pay stubs, bank statements, and tax returns. A wholesale broker shops 200+ lenders to find your best rate.</p>
+                  <p className="text-slate-600 mb-2">Submit W-2s, pay stubs, bank statements, and tax returns. A wholesale broker shops 50+ Wholesale Lenders to find your best rate.</p>
                   <p className="text-sm text-blue-700 font-medium">Pre-approval letters make your offers competitive</p>
                 </div>
               </li>
@@ -440,7 +440,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
               <AlertCircle className="w-6 h-6 text-red-600 shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-slate-900">Not Shopping Mortgage Rates</h4>
-                <p className="text-slate-600">A wholesale broker compares 200+ lenders automatically. Going direct to one bank means you're accepting their markup.</p>
+                <p className="text-slate-600">A wholesale broker compares 50+ Wholesale Lenders automatically. Going direct to one bank means you're accepting their markup.</p>
               </div>
             </div>
           </div>
@@ -496,7 +496,7 @@ export default function FirstTimeHomebuyerGuideOrangeCounty2026() {
             Ready to Buy Your First Home in Orange County?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get pre-approved with access to 100+ wholesale lenders. I'll help you navigate first-time buyer programs and find the best rate for your situation. Free consultation, no obligation.
+            Get pre-approved with access to 50+ Wholesale Lenders. I'll help you navigate first-time buyer programs and find the best rate for your situation. Free consultation, no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

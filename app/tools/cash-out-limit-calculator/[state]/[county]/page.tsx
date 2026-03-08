@@ -66,7 +66,7 @@ export default async function CountyCalculatorPage({ params }: Props) {
     },
     {
       question: `Is a cash-out refinance in ${county.name} conforming or jumbo?`,
-      answer: `If your new loan amount exceeds ${formatCurrency(county.conformingLoanLimit)}, it's classified as a jumbo cash-out refinance. With ${county.name}'s median home value at ${formatCurrency(county.medianHomePrice)}, many ${county.medianHomePrice > county.conformingLoanLimit ? 'borrowers will need jumbo financing' : 'borrowers qualify for conforming rates'}. Mo Abdel has access to 200+ wholesale lenders for both conforming and jumbo cash-out products.`,
+      answer: `If your new loan amount exceeds ${formatCurrency(county.conformingLoanLimit)}, it's classified as a jumbo cash-out refinance. With ${county.name}'s median home value at ${formatCurrency(county.medianHomePrice)}, many ${county.medianHomePrice > county.conformingLoanLimit ? 'borrowers will need jumbo financing' : 'borrowers qualify for conforming rates'}. Mo Abdel has access to 50+ Wholesale Lenders for both conforming and jumbo cash-out products.`,
     },
   ];
 

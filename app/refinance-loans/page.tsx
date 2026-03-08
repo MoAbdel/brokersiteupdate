@@ -108,7 +108,7 @@ const faqs = [
   },
   {
     question: "What are current refinance pricing in California and Washington?",
-    answer: "Rates change daily and vary based on your credit score, loan amount, and property type. As a broker with access to 200+ lenders, I can shop multiple rate options to find your best deal. Call for current pricing specific to your situation."
+    answer: "Rates change daily and vary based on your credit score, loan amount, and property type. As a broker with access to 50+ Wholesale Lenders, I can shop multiple rate options to find your best deal. Call for current pricing specific to your situation."
   },
   {
     question: "How long does the refinance process take?",

@@ -733,7 +733,7 @@ export default function HomeEquitySantaBarbaraLuxury2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Central Coast luxury communities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders including super-jumbo &amp; ultra-luxury specialists</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders including super-jumbo &amp; ultra-luxury specialists</p>
           </div>
 
           {/* Disclaimer */}

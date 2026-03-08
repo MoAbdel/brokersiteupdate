@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Rate-and-Term Refinance Break-Even Analysis: When Refinancing Pays Off [2026]',
-    description: 'Complete refinance break-even methodology: closing cost recovery timelines, monthly savings analysis, scenarios by remaining term, when NOT to refinance, and how a wholesale broker reduces your break-even period across 200+ lenders.',
+    description: 'Complete refinance break-even methodology: closing cost recovery timelines, monthly savings analysis, scenarios by remaining term, when NOT to refinance, and how a wholesale broker reduces your break-even period across 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/rate-and-term-refinance-break-even-calculator-2026',
     type: 'article',
     publishedTime: '2026-03-06',
@@ -40,7 +40,7 @@ const faqData = [
   },
   {
     question: 'What closing costs are included in the break-even calculation?',
-    answer: 'All closing costs incurred to complete the refinance should be included in the break-even calculation: origination fees, appraisal ($400-$800), title insurance ($1,000-$3,000), escrow and settlement fees, recording fees, credit report fees, flood certification, and any prepaid items such as per-diem interest. On a $500,000 loan, total closing costs typically range from $7,500 to $15,000 (1.5% to 3% of loan amount). A wholesale broker accessing 200+ lenders can identify lenders offering reduced origination fees or lender credits that lower the total closing cost and shorten your break-even timeline.',
+    answer: 'All closing costs incurred to complete the refinance should be included in the break-even calculation: origination fees, appraisal ($400-$800), title insurance ($1,000-$3,000), escrow and settlement fees, recording fees, credit report fees, flood certification, and any prepaid items such as per-diem interest. On a $500,000 loan, total closing costs typically range from $7,500 to $15,000 (1.5% to 3% of loan amount). A wholesale broker accessing 50+ Wholesale Lenders can identify lenders offering reduced origination fees or lender credits that lower the total closing cost and shorten your break-even timeline.',
   },
   {
     question: 'How does remaining loan term affect the refinance break-even analysis?',
@@ -64,7 +64,7 @@ const faqData = [
   },
   {
     question: 'How much rate reduction do I need to make refinancing worthwhile?',
-    answer: 'The old rule of thumb that you need a 1% to 2% rate reduction to justify refinancing is outdated. The actual threshold depends on your loan balance, closing costs, and how long you plan to keep the loan. On a $600,000 loan, even a 0.375% rate reduction can produce meaningful monthly savings that recover closing costs within 24 to 30 months if the closing costs are minimized. A wholesale broker comparing pricing from 200+ lenders can find the optimal rate-cost combination that produces the shortest break-even period, making smaller rate reductions viable.',
+    answer: 'The old rule of thumb that you need a 1% to 2% rate reduction to justify refinancing is outdated. The actual threshold depends on your loan balance, closing costs, and how long you plan to keep the loan. On a $600,000 loan, even a 0.375% rate reduction can produce meaningful monthly savings that recover closing costs within 24 to 30 months if the closing costs are minimized. A wholesale broker comparing pricing from 50+ Wholesale Lenders can find the optimal rate-cost combination that produces the shortest break-even period, making smaller rate reductions viable.',
   },
   {
     question: 'Can I refinance from a 30-year to a 15-year mortgage and still have a favorable break-even?',
@@ -72,7 +72,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker reduce my refinance break-even period?',
-    answer: 'A wholesale broker reduces your refinance break-even period in three ways: (1) by shopping 200+ lenders simultaneously, the broker finds the lowest available rate for your profile, maximizing your monthly savings; (2) wholesale lenders offer lower origination fees and sometimes lender credits not available through retail banks, reducing your total closing costs; and (3) the broker structures the optimal rate-cost combination—sometimes accepting a slightly higher rate in exchange for a lender credit that eliminates closing costs, or locking the lowest rate when you plan to stay long-term. This holistic pricing approach consistently produces shorter break-even periods than single-lender retail shopping.',
+    answer: 'A wholesale broker reduces your refinance break-even period in three ways: (1) by shopping 50+ Wholesale Lenders simultaneously, the broker finds the lowest available rate for your profile, maximizing your monthly savings; (2) wholesale lenders offer lower origination fees and sometimes lender credits not available through retail banks, reducing your total closing costs; and (3) the broker structures the optimal rate-cost combination—sometimes accepting a slightly higher rate in exchange for a lender credit that eliminates closing costs, or locking the lowest rate when you plan to stay long-term. This holistic pricing approach consistently produces shorter break-even periods than single-lender retail shopping.',
   },
 ];
 
@@ -183,7 +183,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
           Rate-and-Term Refinance Break-Even Analysis: When Refinancing Pays Off [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to calculating your refinance break-even point&mdash;covering the break-even formula, closing cost recovery timelines, monthly savings vs total cost analysis, refinance scenarios by remaining term, when NOT to refinance, no-closing-cost tradeoffs, and how a wholesale broker shortens your payback period by shopping 200+ lenders for the optimal rate-cost combination.
+          A complete guide to calculating your refinance break-even point&mdash;covering the break-even formula, closing cost recovery timelines, monthly savings vs total cost analysis, refinance scenarios by remaining term, when NOT to refinance, no-closing-cost tradeoffs, and how a wholesale broker shortens your payback period by shopping 50+ Wholesale Lenders for the optimal rate-cost combination.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, <strong>the single most important number in any refinance decision is the break-even point&mdash;the month when cumulative payment savings exceed total closing costs</strong>. According to <a href="https://www.consumerfinance.gov/ask-cfpb/when-is-it-worth-refinancing-en-1795/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau guidance</a>, homeowners should calculate how long it takes to recoup refinance costs before committing. On a $500,000 loan, closing costs typically range from $7,500 to $15,000, and the break-even period depends on the rate differential, remaining term, and total cost structure. A wholesale mortgage broker shopping 200+ lenders simultaneously finds the lowest available rate and often secures lender credits that reduce closing costs&mdash;shortening the break-even timeline by months or years compared to retail bank pricing.
+            According to Mo Abdel, NMLS #1426884, <strong>the single most important number in any refinance decision is the break-even point&mdash;the month when cumulative payment savings exceed total closing costs</strong>. According to <a href="https://www.consumerfinance.gov/ask-cfpb/when-is-it-worth-refinancing-en-1795/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau guidance</a>, homeowners should calculate how long it takes to recoup refinance costs before committing. On a $500,000 loan, closing costs typically range from $7,500 to $15,000, and the break-even period depends on the rate differential, remaining term, and total cost structure. A wholesale mortgage broker shopping 50+ Wholesale Lenders simultaneously finds the lowest available rate and often secures lender credits that reduce closing costs&mdash;shortening the break-even timeline by months or years compared to retail bank pricing.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">shortens the break-even period by securing lower rates and reduced closing costs from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders competing for the borrower&apos;s business</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders competing for the borrower&apos;s business</td>
               </tr>
             </tbody>
           </table>
@@ -249,7 +249,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Break-Even Analysis in Real Refinance Decisions</h3>
           <p className="text-blue-800 mb-0">
-            I run break-even calculations for California and Washington homeowners every week, and the most common mistake I see is borrowers focusing exclusively on the monthly payment reduction without accounting for the total cost of resetting their amortization. A borrower with 22 years remaining on a 30-year mortgage who refinances into a new 30-year term gets a lower payment&mdash;but adds 8 years of payments. The second most common mistake is shopping only one lender and accepting a higher rate than necessary, which inflates the break-even period by 6 to 12 months. When I price the same borrower across 200+ wholesale lenders, I consistently find rate-cost combinations that shorten the break-even by 30% to 50% compared to the first quote they received from a retail bank. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I run break-even calculations for California and Washington homeowners every week, and the most common mistake I see is borrowers focusing exclusively on the monthly payment reduction without accounting for the total cost of resetting their amortization. A borrower with 22 years remaining on a 30-year mortgage who refinances into a new 30-year term gets a lower payment&mdash;but adds 8 years of payments. The second most common mistake is shopping only one lender and accepting a higher rate than necessary, which inflates the break-even period by 6 to 12 months. When I price the same borrower across 50+ Wholesale Lenders, I consistently find rate-cost combinations that shorten the break-even by 30% to 50% compared to the first quote they received from a retail bank. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -257,7 +257,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get Your Personalized Break-Even Analysis</h3>
           <p className="text-green-800 mb-2">
-            Send me your current loan details&mdash;balance, rate, remaining term&mdash;and I will calculate your exact break-even point using live wholesale pricing from 200+ lenders. Free, no obligation.
+            Send me your current loan details&mdash;balance, rate, remaining term&mdash;and I will calculate your exact break-even point using live wholesale pricing from 50+ Wholesale Lenders. Free, no obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Analysis</Link>
@@ -555,7 +555,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
         </div>
 
         <p>
-          The crossover point is when the cumulative extra interest on the no-cost (higher rate) loan exceeds the upfront closing costs of the standard (lower rate) loan. For homeowners who plan to sell or refinance again within 3 to 5 years, the no-closing-cost option frequently wins. For homeowners committed to staying 7+ years, paying closing costs upfront at the lower rate saves more money. A wholesale broker can calculate your exact crossover point using live pricing from 200+ lenders.
+          The crossover point is when the cumulative extra interest on the no-cost (higher rate) loan exceeds the upfront closing costs of the standard (lower rate) loan. For homeowners who plan to sell or refinance again within 3 to 5 years, the no-closing-cost option frequently wins. For homeowners committed to staying 7+ years, paying closing costs upfront at the lower rate saves more money. A wholesale broker can calculate your exact crossover point using live pricing from 50+ Wholesale Lenders.
         </p>
 
         {/* Section 7: Wholesale Advantage */}
@@ -568,7 +568,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
         <h3>How Wholesale Pricing Reduces Break-Even</h3>
 
         <p>
-          Wholesale lenders offer rates and pricing that are not available through retail bank channels. When a broker submits your loan profile to 200+ wholesale lenders simultaneously, the resulting competition drives pricing to the borrower&apos;s advantage. The typical result is a rate that is 0.125% to 0.375% lower than the best retail rate available for the same borrower profile, and/or lender credits that reduce or eliminate origination fees.
+          Wholesale lenders offer rates and pricing that are not available through retail bank channels. When a broker submits your loan profile to 50+ Wholesale Lenders simultaneously, the resulting competition drives pricing to the borrower&apos;s advantage. The typical result is a rate that is 0.125% to 0.375% lower than the best retail rate available for the same borrower profile, and/or lender credits that reduce or eliminate origination fees.
         </p>
 
         <div className="overflow-x-auto my-8">
@@ -693,7 +693,7 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How much does it cost to refinance a $500,000 mortgage?</h3>
             <p className="mb-0">
-              <strong>Refinancing a $500,000 mortgage typically costs between $7,500 and $15,000 (1.5% to 3% of the loan amount), depending on the lender, location, and loan type.</strong> A wholesale broker accessing 200+ lenders consistently finds lower origination fees and lender credits that reduce total closing costs by $2,000 to $5,000 compared to retail bank pricing.
+              <strong>Refinancing a $500,000 mortgage typically costs between $7,500 and $15,000 (1.5% to 3% of the loan amount), depending on the lender, location, and loan type.</strong> A wholesale broker accessing 50+ Wholesale Lenders consistently finds lower origination fees and lender credits that reduce total closing costs by $2,000 to $5,000 compared to retail bank pricing.
             </p>
           </div>
 
@@ -737,14 +737,14 @@ export default function RateAndTermRefinanceBreakEvenCalculatorPage() {
             <li><strong>Closing cost reduction is as powerful as rate reduction:</strong> A $4,000 reduction in closing costs shortens break-even just as much as increasing monthly savings by $100&ndash;$200</li>
             <li><strong>No-closing-cost refinance wins for short-term owners:</strong> If you plan to sell or refinance within 3&ndash;5 years, paying zero upfront at a slightly higher rate often delivers better net results</li>
             <li><strong>5 red flags signal a bad refinance:</strong> Break-even exceeding ownership plan, deep amortization, small rate differential, major term extension, or declining credit</li>
-            <li><strong>A wholesale broker shortens break-even by 30%&ndash;50%:</strong> Lower rates and reduced closing costs from 200+ lenders produce materially shorter payback periods than single-lender retail shopping</li>
+            <li><strong>A wholesale broker shortens break-even by 30%&ndash;50%:</strong> Lower rates and reduced closing costs from 50+ Wholesale Lenders produce materially shorter payback periods than single-lender retail shopping</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Exact Break-Even Point Calculated Free</h3>
           <p className="text-green-800 text-lg mb-4">
-            Send me your current loan details&mdash;balance, rate, remaining term, and ownership timeline&mdash;and I will calculate your break-even point, total cost comparison, and optimal rate-cost structure using live wholesale pricing from 200+ lenders. No obligation, no pressure.
+            Send me your current loan details&mdash;balance, rate, remaining term, and ownership timeline&mdash;and I will calculate your break-even point, total cost comparison, and optimal rate-cost structure using live wholesale pricing from 50+ Wholesale Lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

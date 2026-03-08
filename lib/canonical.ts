@@ -86,7 +86,7 @@ export const PAGE_TEMPLATES = {
   
   cityPage: (city: string, pathname: string) => ({
     title: `${city} Mortgage Broker | Mo Abdel NMLS #1426884`,
-    description: `Mortgage broker serving ${city}. Access 200+ lenders for Competitive pricing on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`,
+    description: `Mortgage broker serving ${city}. Access 50+ Wholesale Lenders for Competitive pricing on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`,
     pathname,
   }),
   
@@ -119,7 +119,7 @@ export function generateCityMetadata(city: string, pathname: string, type: 'brok
     
   const baseDescription = type === 'rates'
     ? `Current mortgage pricing in ${city}. Compare FHA, VA, conventional and jumbo loan rates. Licensed broker Mo Abdel, NMLS #1426884.`
-    : `Mortgage broker serving ${city}. Access 200+ lenders for Competitive pricing on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`;
+    : `Mortgage broker serving ${city}. Access 50+ Wholesale Lenders for Competitive pricing on home loans, refinancing, FHA, VA loans. Licensed NMLS #1426884.`;
 
   return generatePageMetadata({
     title: baseTitle,

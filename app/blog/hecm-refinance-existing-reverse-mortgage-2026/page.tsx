@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How to Refinance an Existing Reverse Mortgage in 2026 | HECM-to-HECM Refinance Guide | MoTheBroker',
-  description: 'Complete guide to refinancing an existing reverse mortgage in 2026. Learn HECM-to-HECM refinance requirements, the net tangible benefit test, 5x benefit rule, costs, and how wholesale broker access to 200+ lenders helps you find better terms.',
+  description: 'Complete guide to refinancing an existing reverse mortgage in 2026. Learn HECM-to-HECM refinance requirements, the net tangible benefit test, 5x benefit rule, costs, and how wholesale broker access to 50+ Wholesale Lenders helps you find better terms.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/hecm-refinance-existing-reverse-mortgage-2026',
     languages: {
@@ -76,7 +76,7 @@ const faqData = [
   },
   {
     question: 'Is a wholesale mortgage broker better for HECM refinancing?',
-    answer: 'A wholesale mortgage broker with access to 200+ lenders can compare HECM refinance options across multiple lender programs simultaneously. Different lenders offer different margin rates, closing cost structures, and credit packages. A broker shops your refinance across the entire wholesale market, helping identify the terms that maximize your net tangible benefit.',
+    answer: 'A wholesale mortgage broker with access to 50+ Wholesale Lenders can compare HECM refinance options across multiple lender programs simultaneously. Different lenders offer different margin rates, closing cost structures, and credit packages. A broker shops your refinance across the entire wholesale market, helping identify the terms that maximize your net tangible benefit.',
   },
   {
     question: 'Does refinancing a reverse mortgage affect my FHA insurance?',
@@ -163,7 +163,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
           If you already have a reverse mortgage, refinancing into a new HECM can unlock additional home equity,
           secure more favorable terms, or add spousal protections. This guide covers every requirement, cost, and
           strategic consideration for HECM-to-HECM refinancing in 2026, including how wholesale broker access to
-          200+ lenders helps you maximize the net tangible benefit HUD requires.
+          50+ Wholesale Lenders helps you maximize the net tangible benefit HUD requires.
         </p>
       </header>
 
@@ -193,7 +193,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
                 <li><strong>Costs:</strong> Upfront MIP (2% per HUD) + origination + closing</li>
                 <li><strong>Counseling:</strong> New HUD-approved session required</li>
                 <li><strong>Age:</strong> 62+ (all borrowers on title)</li>
-                <li><strong>Broker Edge:</strong> 200+ lenders for competitive comparison</li>
+                <li><strong>Broker Edge:</strong> 50+ Wholesale Lenders for competitive comparison</li>
               </ul>
             </div>
           </div>
@@ -401,7 +401,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
           4. Market Conditions Offer Better Margin Rates
         </h3>
         <p>
-          HECM lenders add a margin to the index rate that determines your total interest rate. Margin rates vary by lender and market conditions. If margins have decreased since your original HECM closing, refinancing can lock in a lower margin for the remaining life of the loan. This is where working with a wholesale mortgage broker who accesses 200+ lenders provides a measurable advantage. Different lenders offer different margins at any given time, and comparing across the wholesale market ensures you identify the most competitive terms available. A lower margin means your loan balance grows more slowly, preserving more equity over time.
+          HECM lenders add a margin to the index rate that determines your total interest rate. Margin rates vary by lender and market conditions. If margins have decreased since your original HECM closing, refinancing can lock in a lower margin for the remaining life of the loan. This is where working with a wholesale mortgage broker who accesses 50+ Wholesale Lenders provides a measurable advantage. Different lenders offer different margins at any given time, and comparing across the wholesale market ensures you identify the most competitive terms available. A lower margin means your loan balance grows more slowly, preserving more equity over time.
         </p>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -578,7 +578,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
         </h2>
 
         <p>
-          HECM-to-HECM refinancing is where wholesale mortgage broker access delivers its greatest advantage. Unlike working with a single retail lender, a wholesale broker with access to 200+ lenders compares margin rates, closing cost structures, and available credits across the entire market. This matters for three specific reasons.
+          HECM-to-HECM refinancing is where wholesale mortgage broker access delivers its greatest advantage. Unlike working with a single retail lender, a wholesale broker with access to 50+ Wholesale Lenders compares margin rates, closing cost structures, and available credits across the entire market. This matters for three specific reasons.
         </p>
 
         <p>
@@ -606,7 +606,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
               </ul>
             </div>
             <div className="bg-white p-4 rounded">
-              <h4 className="font-semibold mb-2">Wholesale Broker (200+ Lenders)</h4>
+              <h4 className="font-semibold mb-2">Wholesale Broker (50+ Wholesale Lenders)</h4>
               <ul className="text-sm text-gray-700 space-y-1">
                 <li>• Compare margins across dozens of HECM lenders</li>
                 <li>• Identify lowest-cost structure for your scenario</li>
@@ -694,7 +694,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
         </p>
 
         <p>
-          The 5x benefit rule exists to protect you from unnecessary refinancing. When the numbers work, the additional funds can transform your retirement security. When they do not, keeping your current HECM is the right choice. A thorough analysis by a wholesale mortgage broker who compares options across 200+ lenders ensures you see the full picture before committing.
+          The 5x benefit rule exists to protect you from unnecessary refinancing. When the numbers work, the additional funds can transform your retirement security. When they do not, keeping your current HECM is the right choice. A thorough analysis by a wholesale mortgage broker who compares options across 50+ Wholesale Lenders ensures you see the full picture before committing.
         </p>
 
         {/* Internal Links */}
@@ -769,7 +769,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
             <p className="text-gray-600 text-sm">NMLS #1426884 | Reverse Mortgage Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
               Mo Abdel is a licensed mortgage broker specializing in reverse mortgages and HECM refinancing
-              for seniors in California and Washington. With wholesale access to 200+ lenders, he provides
+              for seniors in California and Washington. With wholesale access to 50+ Wholesale Lenders, he provides
               objective guidance on whether refinancing delivers genuine benefit for each borrower&apos;s situation.
             </p>
           </div>

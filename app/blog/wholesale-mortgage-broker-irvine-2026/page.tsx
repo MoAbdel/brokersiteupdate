@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Irvine Wholesale Mortgage Broker | 200+ Lenders, Better Rates | Mo Abdel',
-  description: 'Irvine wholesale mortgage broker with 200+ lender access. Jumbo loans, bank statement programs & better rates for OC\'s master-planned city. NMLS #1426884.',
+  title: 'Irvine Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates | Mo Abdel',
+  description: 'Irvine wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, bank statement programs & better rates for OC\'s master-planned city. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-irvine-2026',
     languages: {
@@ -17,17 +17,17 @@ export default function WholesaleMortgageBrokerIrvinePage() {
   return (
     <article className="max-w-4xl mx-auto px-4 py-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", "headline": "Irvine Wholesale Mortgage Broker [2026]", "author": { "@type": "Person", "name": "Mo Abdel", "identifier": "NMLS #1426884" }, "datePublished": "2026-01-31" }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "What is a wholesale mortgage broker in Irvine?", "acceptedAnswer": { "@type": "Answer", "text": "A wholesale mortgage broker accesses rates from 200+ lenders instead of one bank's products, giving Irvine buyers more options and competitive pricing for jumbo and conventional loans." }}, { "@type": "Question", "name": "Can I get a jumbo loan in Irvine through a wholesale broker?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Wholesale brokers access 50+ jumbo lenders for Irvine properties above the $1,209,750 conforming limit—standard for most Irvine neighborhoods." }}, { "@type": "Question", "name": "Do wholesale brokers offer bank statement loans in Irvine?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Extensive bank statement programs perfect for Irvine's many tech professionals, business owners, and self-employed borrowers." }}] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "What is a wholesale mortgage broker in Irvine?", "acceptedAnswer": { "@type": "Answer", "text": "A wholesale mortgage broker accesses rates from 50+ Wholesale Lenders instead of one bank's products, giving Irvine buyers more options and competitive pricing for jumbo and conventional loans." }}, { "@type": "Question", "name": "Can I get a jumbo loan in Irvine through a wholesale broker?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Wholesale brokers access 50+ jumbo lenders for Irvine properties above the $1,209,750 conforming limit—standard for most Irvine neighborhoods." }}, { "@type": "Question", "name": "Do wholesale brokers offer bank statement loans in Irvine?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Extensive bank statement programs perfect for Irvine's many tech professionals, business owners, and self-employed borrowers." }}] }) }} />
 
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Irvine Wholesale Mortgage Broker | 200+ Lenders, Better Rates</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Irvine Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates</h1>
         <p className="text-lg text-gray-600">Master-planned excellence meets wholesale mortgage access</p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with 200+ lender relationships for better rates than local banks. With a median home price around <strong>$1.5 million</strong> and premium communities like Shady Canyon reaching $8M+, most Irvine buyers need jumbo loans—where wholesale brokers deliver significant advantages.
+            Irvine homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with 50+ Wholesale Lenders for better rates than local banks. With a median home price around <strong>$1.5 million</strong> and premium communities like Shady Canyon reaching $8M+, most Irvine buyers need jumbo loans—where wholesale brokers deliver significant advantages.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function WholesaleMortgageBrokerIrvinePage() {
         <h3>The Wholesale Advantage in Irvine</h3>
         <p>Irvine's competitive market demands financing expertise. Wholesale brokers provide:</p>
         <ul>
-          <li><strong>200+ Lender Access:</strong> More options than any single bank</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank</li>
           <li><strong>Jumbo Expertise:</strong> Standard for most Irvine properties</li>
           <li><strong>Bank Statement Programs:</strong> Tech professionals, business owners</li>
           <li><strong>Foreign National Programs:</strong> International buyer solutions</li>
@@ -116,7 +116,7 @@ export default function WholesaleMortgageBrokerIrvinePage() {
 
         <h2>Frequently Asked Questions</h2>
         <h3>What is a wholesale mortgage broker in Irvine?</h3>
-        <p>A wholesale mortgage broker accesses rates from 200+ lenders instead of one bank's products, giving Irvine buyers more options and competitive pricing for jumbo and conventional loans.</p>
+        <p>A wholesale mortgage broker accesses rates from 50+ Wholesale Lenders instead of one bank's products, giving Irvine buyers more options and competitive pricing for jumbo and conventional loans.</p>
 
         <h3>Can I get a jumbo loan in Irvine through a wholesale broker?</h3>
         <p>Yes. Wholesale brokers access 50+ jumbo lenders for Irvine properties above the $1,209,750 conforming limit—standard for most Irvine neighborhoods.</p>

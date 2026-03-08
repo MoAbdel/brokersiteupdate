@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Palos Verdes Cash-Out Refinance 2026 | Luxury Home Equity | Mo Abdel',
-  description: 'Palos Verdes cash-out refinance 2026: Unlock equity in your Peninsula property. Wholesale access to 200+ lenders for jumbo loans. NMLS #1426884.',
+  description: 'Palos Verdes cash-out refinance 2026: Unlock equity in your Peninsula property. Wholesale access to 50+ Wholesale Lenders for jumbo loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/palos-verdes-cash-out-refinance-2026',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Palos Verdes Cash-Out Refinance 2026 | Peninsula Home Equity',
-    description: 'Palos Verdes cash-out refinance: Access substantial equity through wholesale broker channels with 200+ lenders.',
+    description: 'Palos Verdes cash-out refinance: Access substantial equity through wholesale broker channels with 50+ Wholesale Lenders.',
     type: 'article',
     publishedTime: '2026-01-21',
     authors: ['Mo Abdel'],
@@ -122,7 +122,7 @@ export default function PalosVerdesCashOutRefinancePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Palos Verdes Peninsula homeowners can unlock substantial equity through cash-out refinancing by partnering with a wholesale mortgage broker who accesses 200+ lenders for competitive jumbo loan pricing. With the Peninsula's median home values around $2.5 million in 2026 and many properties significantly higher, Palos Verdes residents often hold considerable untapped equity ideal for renovations, investments, debt consolidation, or other financial goals.
+                        Palos Verdes Peninsula homeowners can unlock substantial equity through cash-out refinancing by partnering with a wholesale mortgage broker who accesses 50+ Wholesale Lenders for competitive jumbo loan pricing. With the Peninsula's median home values around $2.5 million in 2026 and many properties significantly higher, Palos Verdes residents often hold considerable untapped equity ideal for renovations, investments, debt consolidation, or other financial goals.
                     </p>
                 </div>
 
@@ -319,7 +319,7 @@ export default function PalosVerdesCashOutRefinancePage() {
                     The Palos Verdes Peninsula's exceptional property values have created significant equity positions for homeowners. Whether you're planning a major renovation, investing in additional real estate, or restructuring your finances, a cash-out refinance through wholesale channels can provide competitive terms and expert guidance.
                 </p>
                 <p>
-                    Contact us today for a complimentary cash-out refinance analysis. We'll assess your equity position, compare options from 200+ lenders, and design the optimal financing solution for your Peninsula property.
+                    Contact us today for a complimentary cash-out refinance analysis. We'll assess your equity position, compare options from 50+ Wholesale Lenders, and design the optimal financing solution for your Peninsula property.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">

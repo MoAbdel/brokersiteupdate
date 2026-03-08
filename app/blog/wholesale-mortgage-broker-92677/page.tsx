@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92677 | Laguna Niguel | Jumbo Loan Specialists',
-  description: 'Laguna Niguel wholesale mortgage broker serving 92677. Access 200+ lenders for jumbo loans, competitive rates & better financing. NMLS #1426884.',
+  description: 'Laguna Niguel wholesale mortgage broker serving 92677. Access 50+ Wholesale Lenders for jumbo loans, competitive rates & better financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92677',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92677 | Laguna Niguel Jumbo Loan Specialists',
-    description: 'Laguna Niguel wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Laguna Niguel wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92677',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -57,7 +57,7 @@ export default function WholesaleMortgageBroker92677Page() {
                 "name": "What is a wholesale mortgage broker in Laguna Niguel (92677)?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Laguna Niguel is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for home purchases in this family-friendly South Orange County community."
+                  "text": "A wholesale mortgage broker in Laguna Niguel is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for home purchases in this family-friendly South Orange County community."
                 }
               },
               {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBroker92677Page() {
                 "name": "How do Laguna Niguel wholesale rates compare to Pacific Western or Opus Bank?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 200+ lenders who compete for Laguna Niguel financing, compared to single-product offerings at Pacific Western or Opus Bank."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 50+ Wholesale Lenders who compete for Laguna Niguel financing, compared to single-product offerings at Pacific Western or Opus Bank."
                 }
               },
               {
@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92677Page() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Wholesale Mortgage Broker",
-            "description": "Laguna Niguel wholesale mortgage broker serving 92677 with 200+ lender access for jumbo loans and competitive financing.",
+            "description": "Laguna Niguel wholesale mortgage broker serving 92677 with 50+ Wholesale Lenders for jumbo loans and competitive financing.",
             "telephone": "(949) 579-2057",
             "areaServed": {
               "@type": "PostalAddress",
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBroker92677Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Laguna Niguel homebuyers in 92677 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than Pacific Western, Opus Bank, and other Orange County banks. With Laguna Niguel median home prices around $1.5 million, many buyers need jumbo loan expertise that wholesale brokers deliver for this premier South County community.
+            Laguna Niguel homebuyers in 92677 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than Pacific Western, Opus Bank, and other Orange County banks. With Laguna Niguel median home prices around $1.5 million, many buyers need jumbo loan expertise that wholesale brokers deliver for this premier South County community.
           </p>
         </div>
 
@@ -248,7 +248,7 @@ export default function WholesaleMortgageBroker92677Page() {
 
         <h3>What is a wholesale mortgage broker in Laguna Niguel (92677)?</h3>
         <p>
-          A wholesale mortgage broker in Laguna Niguel is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for your home purchase. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market to find optimal terms.
+          A wholesale mortgage broker in Laguna Niguel is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for your home purchase. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market to find optimal terms.
         </p>
 
         <h3>Can I get a jumbo loan in Laguna Niguel through a wholesale broker?</h3>
@@ -258,7 +258,7 @@ export default function WholesaleMortgageBroker92677Page() {
 
         <h3>How do Laguna Niguel wholesale rates compare to Pacific Western or Opus Bank?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for Laguna Niguel financing, versus the single product offering at any bank.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Laguna Niguel financing, versus the single product offering at any bank.
         </p>
 
         <h3>What neighborhoods in 92677 does a wholesale broker serve?</h3>

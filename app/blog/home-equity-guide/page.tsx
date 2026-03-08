@@ -337,7 +337,7 @@ export default function HomeEquityGuidePage() {
         <ol>
           <li>
             <strong>Apply for New Mortgage</strong>
-            <p>Apply for a new first mortgage larger than your current balance. Mo Abdel at Lumin Lending shops across 200+ wholesale lenders to find the best cash-out refinance rates and terms for California and Washington borrowers.</p>
+            <p>Apply for a new first mortgage larger than your current balance. Mo Abdel at Lumin Lending shops across 50+ Wholesale Lenders to find the best cash-out refinance rates and terms for California and Washington borrowers.</p>
           </li>
           <li>
             <strong>Appraisal Determines Value</strong>

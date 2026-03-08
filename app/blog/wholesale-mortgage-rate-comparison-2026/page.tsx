@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Wholesale vs Retail Mortgage Rates 2026: How Pricing Actually Works | Mo Abdel',
-  description: 'Wholesale mortgage rates come directly from lender rate sheets without retail markup. Learn how wholesale vs retail mortgage pricing works, why spreads differ by loan type, and how brokers access 200+ lenders for competitive execution. NMLS #1426884.',
+  description: 'Wholesale mortgage rates come directly from lender rate sheets without retail markup. Learn how wholesale vs retail mortgage pricing works, why spreads differ by loan type, and how brokers access 50+ Wholesale Lenders for competitive execution. NMLS #1426884.',
   keywords: ['wholesale vs retail mortgage rates', 'wholesale mortgage pricing', 'wholesale rate advantage', 'mortgage rate markup retail', 'wholesale mortgage rates 2026', 'how wholesale mortgage rates work'],
   openGraph: {
     title: 'Wholesale vs Retail Mortgage Rates 2026: How Pricing Actually Works',
-    description: 'Wholesale mortgage rates come directly from lender rate sheets without retail markup. Learn how wholesale vs retail mortgage pricing works and how brokers access 200+ lenders for competitive execution.',
+    description: 'Wholesale mortgage rates come directly from lender rate sheets without retail markup. Learn how wholesale vs retail mortgage pricing works and how brokers access 50+ Wholesale Lenders for competitive execution.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-rate-comparison-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -30,7 +30,7 @@ const faqData = [
   },
   {
     question: "How do mortgage brokers access wholesale rates?",
-    answer: "Mortgage brokers access wholesale rates through approved broker agreements with wholesale lenders. Each wholesale lender provides the broker with daily rate sheets showing available rates and pricing for every loan product. Brokers compare rate sheets from 200+ wholesale lenders to identify the best-execution pricing for each borrower's specific scenario. The broker submits the loan to the chosen wholesale lender, who funds and services the loan."
+    answer: "Mortgage brokers access wholesale rates through approved broker agreements with wholesale lenders. Each wholesale lender provides the broker with daily rate sheets showing available rates and pricing for every loan product. Brokers compare rate sheets from 50+ Wholesale Lenders to identify the best-execution pricing for each borrower's specific scenario. The broker submits the loan to the chosen wholesale lender, who funds and services the loan."
   },
   {
     question: "Do wholesale mortgage rates change daily?",
@@ -197,7 +197,7 @@ export default function WholesaleMortgageRateComparison2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
-              According to Mo Abdel, NMLS #1426884, wholesale mortgage rates come directly from lender rate sheets without the retail markup that banks add to cover branches, marketing, and overhead &mdash; and shopping across 200+ wholesale lenders finds the best-execution pricing for every loan scenario.
+              According to Mo Abdel, NMLS #1426884, wholesale mortgage rates come directly from lender rate sheets without the retail markup that banks add to cover branches, marketing, and overhead &mdash; and shopping across 50+ Wholesale Lenders finds the best-execution pricing for every loan scenario.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -233,7 +233,7 @@ export default function WholesaleMortgageRateComparison2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Three facts define the wholesale rate channel: wholesale lenders provide rate sheets directly to brokers without retail markup, brokers compare pricing across 200+ lenders to find best-execution rates for each scenario, and the broker&apos;s compensation is disclosed separately under federal law rather than embedded invisibly in the rate. These structural advantages create a pricing channel that operates fundamentally differently from the retail bank model.
+            Three facts define the wholesale rate channel: wholesale lenders provide rate sheets directly to brokers without retail markup, brokers compare pricing across 50+ Wholesale Lenders to find best-execution rates for each scenario, and the broker&apos;s compensation is disclosed separately under federal law rather than embedded invisibly in the rate. These structural advantages create a pricing channel that operates fundamentally differently from the retail bank model.
           </p>
 
           {/* Semantic Triples Table */}
@@ -252,7 +252,7 @@ export default function WholesaleMortgageRateComparison2026() {
                   <td className="border border-slate-200 px-4 py-3 font-medium">Wholesale (Broker)</td>
                   <td className="border border-slate-200 px-4 py-3">Lender rate sheet &mdash; base pricing</td>
                   <td className="border border-slate-200 px-4 py-3">Broker&apos;s low overhead only</td>
-                  <td className="border border-slate-200 px-4 py-3">200+ wholesale lenders</td>
+                  <td className="border border-slate-200 px-4 py-3">50+ Wholesale Lenders</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 font-medium">Retail Bank</td>
@@ -315,7 +315,7 @@ export default function WholesaleMortgageRateComparison2026() {
                 <div className="bg-blue-100 text-blue-700 rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-0.5">4</div>
                 <div>
                   <p className="font-semibold text-slate-900">Brokers Shop Multiple Wholesale Rate Sheets</p>
-                  <p className="text-slate-600">A wholesale mortgage broker compares rate sheets from 200+ lenders and selects the best-execution pricing for each borrower&apos;s specific loan scenario. Different lenders price different products more aggressively, so the &ldquo;best&rdquo; lender changes depending on loan type, credit score, property type, and LTV.</p>
+                  <p className="text-slate-600">A wholesale mortgage broker compares rate sheets from 50+ Wholesale Lenders and selects the best-execution pricing for each borrower&apos;s specific loan scenario. Different lenders price different products more aggressively, so the &ldquo;best&rdquo; lender changes depending on loan type, credit score, property type, and LTV.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -350,7 +350,7 @@ export default function WholesaleMortgageRateComparison2026() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 font-medium">Lenders Available</td>
-                  <td className="border border-slate-200 px-4 py-3">200+ wholesale lenders</td>
+                  <td className="border border-slate-200 px-4 py-3">50+ Wholesale Lenders</td>
                   <td className="border border-slate-200 px-4 py-3">1 (the bank)</td>
                   <td className="border border-slate-200 px-4 py-3">1 (the credit union)</td>
                   <td className="border border-slate-200 px-4 py-3">1 (the company)</td>
@@ -410,7 +410,7 @@ export default function WholesaleMortgageRateComparison2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
-            A wholesale mortgage broker holds relationships with 200+ of these wholesale lenders simultaneously. Each morning, rate sheets arrive from every approved lender showing that day&apos;s pricing for every product: conventional, FHA, VA, jumbo, non-QM, DSCR, bank statement, and specialty programs. The broker&apos;s job is to match each borrower&apos;s specific scenario to the lender offering the best-execution pricing for that exact combination of loan type, credit score, LTV, property type, and occupancy.
+            A wholesale mortgage broker holds relationships with 50+ Wholesale Lenders simultaneously. Each morning, rate sheets arrive from every approved lender showing that day&apos;s pricing for every product: conventional, FHA, VA, jumbo, non-QM, DSCR, bank statement, and specialty programs. The broker&apos;s job is to match each borrower&apos;s specific scenario to the lender offering the best-execution pricing for that exact combination of loan type, credit score, LTV, property type, and occupancy.
           </p>
 
           <p className="text-lg text-slate-600 mb-8">
@@ -536,13 +536,13 @@ export default function WholesaleMortgageRateComparison2026() {
               <tbody>
                 <tr className="bg-white">
                   <td className="border border-slate-200 px-4 py-3 font-medium">Conforming Conventional</td>
-                  <td className="border border-slate-200 px-4 py-3">200+ lenders</td>
+                  <td className="border border-slate-200 px-4 py-3">50+ Wholesale Lenders</td>
                   <td className="border border-slate-200 px-4 py-3">Widely available</td>
                   <td className="border border-slate-200 px-4 py-3">Narrower spread</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 font-medium">FHA</td>
-                  <td className="border border-slate-200 px-4 py-3">100+ lenders</td>
+                  <td className="border border-slate-200 px-4 py-3">50+ Wholesale Lenders</td>
                   <td className="border border-slate-200 px-4 py-3">Widely available</td>
                   <td className="border border-slate-200 px-4 py-3">Narrower spread</td>
                 </tr>
@@ -606,7 +606,7 @@ export default function WholesaleMortgageRateComparison2026() {
           <div className="space-y-6">
             <div className="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Is a wholesale mortgage rate always lower than a retail rate?</h3>
-              <p className="text-slate-600">Wholesale rates reflect base lender pricing without retail markup, which structurally positions the wholesale channel for more competitive pricing. However, individual results depend on the specific loan scenario, the lender selected, and market conditions at the time of lock. The wholesale advantage comes from access to 200+ lenders competing for the same loan &mdash; not from a single &ldquo;wholesale discount&rdquo; applied to every transaction. Compare <Link href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">broker vs bank pricing</Link> in detail.</p>
+              <p className="text-slate-600">Wholesale rates reflect base lender pricing without retail markup, which structurally positions the wholesale channel for more competitive pricing. However, individual results depend on the specific loan scenario, the lender selected, and market conditions at the time of lock. The wholesale advantage comes from access to 50+ Wholesale Lenders competing for the same loan &mdash; not from a single &ldquo;wholesale discount&rdquo; applied to every transaction. Compare <Link href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">broker vs bank pricing</Link> in detail.</p>
             </div>
 
             <div className="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
@@ -625,13 +625,13 @@ export default function WholesaleMortgageRateComparison2026() {
             </div>
 
             <div className="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">What is the 200+ lender advantage in wholesale mortgage lending?</h3>
-              <p className="text-slate-600">Access to <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:underline">200+ wholesale lenders</Link> means the broker can identify which lender prices each specific loan scenario most aggressively. Lender A may have the best conforming pricing while Lender B dominates jumbo rates and Lender C offers the most competitive non-QM terms. A single broker relationship gives the borrower access to the best-priced lender for their exact situation &mdash; a level of rate shopping that no retail institution can replicate.</p>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">What does access to 50+ Wholesale Lenders mean in wholesale mortgage lending?</h3>
+              <p className="text-slate-600">Access to <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link> means the broker can identify which lender prices each specific loan scenario most aggressively. Lender A may have the best conforming pricing while Lender B dominates jumbo rates and Lender C offers the most competitive non-QM terms. A single broker relationship gives the borrower access to the best-priced lender for their exact situation &mdash; a level of rate shopping that no retail institution can replicate.</p>
             </div>
 
             <div className="bg-white border border-slate-200 rounded-lg p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-slate-900 mb-2">How does the wholesale channel handle rate volatility differently?</h3>
-              <p className="text-slate-600">Wholesale brokers receive real-time rate sheet updates and intra-day reprices from multiple lenders. During volatile market sessions, one lender may reprice negatively while another holds steady or improves. The broker monitors these movements across all 200+ lender relationships and can execute a rate lock with the lender offering the most favorable pricing at any given moment during the trading day.</p>
+              <p className="text-slate-600">Wholesale brokers receive real-time rate sheet updates and intra-day reprices from multiple lenders. During volatile market sessions, one lender may reprice negatively while another holds steady or improves. The broker monitors these movements across all 50+ Wholesale Lenders and can execute a rate lock with the lender offering the most favorable pricing at any given moment during the trading day.</p>
             </div>
           </div>
         </section>
@@ -660,7 +660,7 @@ export default function WholesaleMortgageRateComparison2026() {
             </h2>
 
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-              Wholesale mortgage rates reflect base lender pricing without the retail markup that banks add to cover branches, marketing, and overhead. The wholesale channel&apos;s structural cost advantage &mdash; combined with access to 200+ competing lenders and transparent broker compensation &mdash; creates a pricing environment that consistently benefits borrowers across every loan type. The advantage is widest on non-QM, jumbo, and specialty products where retail competition is thinnest.
+              Wholesale mortgage rates reflect base lender pricing without the retail markup that banks add to cover branches, marketing, and overhead. The wholesale channel&apos;s structural cost advantage &mdash; combined with access to 50+ Wholesale Lenders and transparent broker compensation &mdash; creates a pricing environment that consistently benefits borrowers across every loan type. The advantage is widest on non-QM, jumbo, and specialty products where retail competition is thinnest.
             </p>
 
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
@@ -703,7 +703,7 @@ export default function WholesaleMortgageRateComparison2026() {
             </Link>
             <Link href="/blog/200-lender-advantage-explained-2026" className="flex items-center gap-3 p-4 bg-white border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
               <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
-              <span className="text-slate-700">200+ Lender Advantage Explained</span>
+              <span className="text-slate-700">50+ Wholesale Lenders Explained</span>
             </Link>
             <Link href="/blog/wholesale-mortgage-closing-timeline-2026" className="flex items-center gap-3 p-4 bg-white border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
               <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />

@@ -29,7 +29,7 @@ const faqs = [
   {
     question: 'How accurate is this bank statement loan estimator?',
     answer:
-      'This tool provides an estimate based on standard expense factors and current market rates. Actual qualification varies by lender — each has its own expense factor methodology, minimum deposit requirements, and program guidelines. Use this as a starting point, then contact Mo Abdel for a full scenario review with 200+ wholesale lenders.',
+      'This tool provides an estimate based on standard expense factors and current market rates. Actual qualification varies by lender — each has its own expense factor methodology, minimum deposit requirements, and program guidelines. Use this as a starting point, then contact Mo Abdel for a full scenario review with 50+ Wholesale Lenders.',
   },
 ];
 

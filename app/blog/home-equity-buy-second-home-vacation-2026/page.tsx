@@ -634,7 +634,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
             For California homeowners targeting Lake Tahoe or Big Bear, and Washington homeowners eyeing the San Juan Islands or Leavenworth, the combination of strong primary home equity and proximity to premium vacation markets creates a natural opportunity. The 14-day tax-free rental strategy reduces carrying costs meaningfully, and long-term appreciation in limited-supply vacation markets builds additional wealth.
           </p>
           <p>
-            As a wholesale mortgage broker with access to <strong>200+ lenders</strong>, I structure both sides of the transaction: the equity extraction from your primary home and the second home mortgage. Having one broker coordinate both loans ensures the DTI math works, the timing aligns, and you get competitive rates on each piece. I have closed this exact strategy for hundreds of clients across California and Washington.
+            As a wholesale mortgage broker with access to <strong>50+ Wholesale Lenders</strong>, I structure both sides of the transaction: the equity extraction from your primary home and the second home mortgage. Having one broker coordinate both loans ensures the DTI math works, the timing aligns, and you get competitive rates on each piece. I have closed this exact strategy for hundreds of clients across California and Washington.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

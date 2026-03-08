@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans Wholesale: Programs Only Brokers Can Access [2026]',
-  description: 'Non-QM loans through wholesale brokers: bank statement, DSCR, asset depletion, foreign national programs. 200+ lenders with flexible guidelines banks don\'t offer. NMLS #1426884.',
+  description: 'Non-QM loans through wholesale brokers: bank statement, DSCR, asset depletion, foreign national programs. 50+ Wholesale Lenders with flexible guidelines banks don\'t offer. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/non-qm-loans-wholesale',
     languages: {
@@ -616,7 +616,7 @@ export default function NonQMLoansWholesalePage() {
               <li><Link href="/wholesale-mortgage-broker-california" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/bank-statement-loans-wholesale" className="text-blue-600 hover:underline">Bank Statement Loans</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/self-employed-mortgage-broker" className="text-blue-600 hover:underline">Self-Employed Mortgage Guide</Link></li>
-              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">The 200+ Lender Advantage</Link></li>
+              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link></li>
             </ul>
           </div>
           <div className="bg-gray-50 p-4 rounded-lg">

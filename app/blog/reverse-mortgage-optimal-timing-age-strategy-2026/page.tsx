@@ -231,7 +231,7 @@ export default function ReverseMortgageOptimalTimingAgeStrategyPage() {
                 <td className="border border-gray-200 px-4 py-2">the loan interest rate plus 0.5% FHA MIP regardless of borrower age</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">optimizes</td>
                 <td className="border border-gray-200 px-4 py-2">HECM margins and terms at any borrower age</td>
               </tr>
@@ -777,7 +777,7 @@ export default function ReverseMortgageOptimalTimingAgeStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale broker help with reverse mortgage timing decisions?</h3>
             <p className="mb-0">
-              <strong>A wholesale mortgage broker compares HECM terms from 200+ lenders, modeling scenarios at your current age and projected future ages with different rate assumptions.</strong> This comprehensive comparison ensures you make the timing decision based on actual numbers from multiple lenders, not a single institution&apos;s offering.
+              <strong>A wholesale mortgage broker compares HECM terms from 50+ Wholesale Lenders, modeling scenarios at your current age and projected future ages with different rate assumptions.</strong> This comprehensive comparison ensures you make the timing decision based on actual numbers from multiple lenders, not a single institution&apos;s offering.
             </p>
           </div>
         </div>
@@ -806,7 +806,7 @@ export default function ReverseMortgageOptimalTimingAgeStrategyPage() {
             <li><strong>The credit line growth rate is the same regardless of establishment age</strong>&mdash;what changes is the starting amount and the number of years the growth has to compound.</li>
             <li><strong>HECM proceeds are generally not considered taxable income</strong> at any establishment age, providing tax flexibility in retirement income planning (consult your CPA).</li>
             <li><strong>Program and rate risks favor earlier establishment</strong>&mdash;locking in current HECM terms protects against future PLF table changes, MIP adjustments, or lending limit modifications.</li>
-            <li><strong>A wholesale mortgage broker comparing 200+ HECM lenders</strong> can model scenarios at multiple ages with current rates to identify your optimal timing.</li>
+            <li><strong>A wholesale mortgage broker comparing 50+ Wholesale Lenders</strong> can model scenarios at multiple ages with current rates to identify your optimal timing.</li>
           </ol>
         </div>
 
@@ -822,7 +822,7 @@ export default function ReverseMortgageOptimalTimingAgeStrategyPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive HECM reverse mortgage terms for your specific age and situation.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive HECM reverse mortgage terms for your specific age and situation.
           </p>
         </div>
 

@@ -309,7 +309,7 @@ export default function IrvineMortgageBrokerPage() {
                 <div>
                   <div className="text-xl font-bold text-slate-900 mb-2">Competitive pricing for High-Value Homes</div>
                   <p className="text-slate-600">
-                    Access to 200+ lenders through Lumin Lending means Competitive pricing 
+                    Access to 50+ Wholesale Lenders through Lumin Lending means Competitive pricing 
                     on Irvine's higher-priced homes and jumbo loan amounts.
                   </p>
                 </div>

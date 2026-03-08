@@ -41,7 +41,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
         name: 'What is a wholesale mortgage broker and how does it benefit LA Westside homebuyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 200+ lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.',
+          text: 'A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 50+ Wholesale Lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.',
         },
       },
       {
@@ -213,7 +213,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">LA Westside &amp; Beach Cities Wholesale Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
-              <li><strong>Wholesale Lender Access:</strong> 200+ lenders for rate comparison</li>
+              <li><strong>Wholesale Lender Access:</strong> 50+ Wholesale Lenders for rate comparison</li>
               <li><strong>Typical Rate Savings:</strong> 0.25% - 0.50% below retail bank pricing</li>
               <li><strong>Jumbo Loan Specialists:</strong> 10-15+ jumbo lenders for Beach Cities properties</li>
               <li><strong>Alternative Documentation:</strong> Bank statement, 1099, asset depletion programs</li>
@@ -405,7 +405,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
                   <td className="px-4 py-3 border-t font-medium">W-2 Salary</td>
                   <td className="px-4 py-3 border-t">Aerospace engineers, corporate</td>
                   <td className="px-4 py-3 border-t">Standard qualification</td>
-                  <td className="px-4 py-3 border-t">Rate competition across 200+ lenders</td>
+                  <td className="px-4 py-3 border-t">Rate competition across 50+ Wholesale Lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Variable W-2 + Bonus</td>
@@ -613,7 +613,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
 
           <h3 className="text-lg font-semibold mt-6 mb-2">What is a wholesale mortgage broker and how does it benefit LA Westside homebuyers?</h3>
           <p>
-            A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 200+ lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.
+            A wholesale mortgage broker accesses rates and products from multiple wholesale lenders who do not work directly with the public. This means LA Westside homebuyers see competitive pricing from 50+ Wholesale Lenders instead of one bank. The result is consistently lower rates, reduced fees, and access to specialized programs for jumbo loans, self-employed borrowers, and investment properties.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">How much money can a wholesale broker save on a Manhattan Beach jumbo mortgage?</h3>
@@ -689,7 +689,7 @@ export default function WholesaleMortgageBrokerLAWestsideBeach() {
           </p>
 
           <p>
-            I am Mo Abdel, NMLS #1426884, a wholesale mortgage broker with Lumin Lending (NMLS #2716106). My wholesale access means you see pricing from 200+ lenders on every transaction, with transparent comparisons and expert guidance on which option delivers the best long-term value. Whether you are purchasing a $4 million Manhattan Beach estate or refinancing a $1.1 million Westchester bungalow, the wholesale channel saves you money.
+            I am Mo Abdel, NMLS #1426884, a wholesale mortgage broker with Lumin Lending (NMLS #2716106). My wholesale access means you see pricing from 50+ Wholesale Lenders on every transaction, with transparent comparisons and expert guidance on which option delivers the best long-term value. Whether you are purchasing a $4 million Manhattan Beach estate or refinancing a $1.1 million Westchester bungalow, the wholesale channel saves you money.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">

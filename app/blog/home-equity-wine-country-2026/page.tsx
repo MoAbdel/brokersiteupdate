@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Wine Country Home Equity 2026: HELOC & Cash-Out for Healdsburg, St. Helena, Napa | Mo Abdel',
-  description: 'Wine Country home equity guide 2026. HELOC, HELOAN, cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, Yountville homeowners. Vineyard estate equity, 200+ wholesale lenders. NMLS #1426884.',
+  description: 'Wine Country home equity guide 2026. HELOC, HELOAN, cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, Yountville homeowners. Vineyard estate equity, 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'Wine Country home equity',
     'Healdsburg HELOC',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wine Country Home Equity 2026: HELOC, HELOAN & Cash-Out Guide',
-    description: 'HELOC, home equity loans, and cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville homeowners. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC, home equity loans, and cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville homeowners. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-wine-country-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Can I get a HELOC on a vineyard property in Wine Country?',
-    answer: 'Yes, but lender selection is critical. Properties with active vineyard acreage require lenders experienced with agricultural-residential hybrid properties. Many retail banks decline properties with more than 5 acres or active agricultural use. Wholesale broker access identifies the 8-12 lenders (out of 200+) who underwrite vineyard estate HELOCs in Napa and Sonoma counties, typically requiring 65-70% maximum combined loan-to-value, strong liquid reserves, and appraisals from vineyard-experienced professionals.',
+    answer: 'Yes, but lender selection is critical. Properties with active vineyard acreage require lenders experienced with agricultural-residential hybrid properties. Many retail banks decline properties with more than 5 acres or active agricultural use. Wholesale broker access identifies the 8-12 lenders (out of 50+ Wholesale Lenders) who underwrite vineyard estate HELOCs in Napa and Sonoma counties, typically requiring 65-70% maximum combined loan-to-value, strong liquid reserves, and appraisals from vineyard-experienced professionals.',
   },
   {
     question: 'How much equity can Wine Country homeowners access in 2026?',
@@ -80,7 +80,7 @@ const faqData = [
   },
   {
     question: 'Can I get a HELOC on a Calistoga property with a hot spring or spa feature?',
-    answer: 'Yes. Calistoga properties with geothermal or spa features require lenders comfortable with unique property characteristics. The key factor is whether the spa or hot spring is a residential amenity or a commercial operation. Residential hot spring pools are treated as property improvements. Commercial spa operations on the same parcel require lenders experienced with mixed-use underwriting, which wholesale channels identify from the 200+ lender network.',
+    answer: 'Yes. Calistoga properties with geothermal or spa features require lenders comfortable with unique property characteristics. The key factor is whether the spa or hot spring is a residential amenity or a commercial operation. Residential hot spring pools are treated as property improvements. Commercial spa operations on the same parcel require lenders experienced with mixed-use underwriting, which wholesale channels identify from the 50+ Wholesale Lenders.',
   },
   {
     question: 'Is HELOC interest tax deductible on Wine Country properties?',
@@ -88,7 +88,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker get better HELOC rates than Napa Valley banks?',
-    answer: 'A local bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, creating price competition for your business. For Wine Country properties at the conforming-jumbo threshold or above, this competition consistently produces rates 0.25-0.75% lower, higher CLTV limits, and more flexible income documentation. On a $500K jumbo HELOC, a 0.50% rate difference saves $2,500 annually in interest.',
+    answer: 'A local bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, creating price competition for your business. For Wine Country properties at the conforming-jumbo threshold or above, this competition consistently produces rates 0.25-0.75% lower, higher CLTV limits, and more flexible income documentation. On a $500K jumbo HELOC, a 0.50% rate difference saves $2,500 annually in interest.',
   },
   {
     question: 'What is the difference between a HELOC and home equity loan for Wine Country properties?',
@@ -272,7 +272,7 @@ export default function HomeEquityWineCountry2026() {
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Wine Country homeowners across Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville hold an estimated <strong>$6.8 billion in tappable home equity</strong> as of Q1 2026, according to county assessor records and MLS data. Napa County recorded a 6.2% year-over-year increase in median sale price through January 2026, while Sonoma County home values climbed 4.8% in the same period (California Association of Realtors). With median values ranging from $850K in Napa to $2.2 million in St. Helena, qualified borrowers access jumbo HELOCs up to $1.5 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels that connect to 200+ lenders &mdash; including specialists in vineyard collateral, seasonal hospitality income, and agricultural-residential hybrid properties.
+              Wine Country homeowners across Healdsburg, St. Helena, Calistoga, Sonoma, Napa, and Yountville hold an estimated <strong>$6.8 billion in tappable home equity</strong> as of Q1 2026, according to county assessor records and MLS data. Napa County recorded a 6.2% year-over-year increase in median sale price through January 2026, while Sonoma County home values climbed 4.8% in the same period (California Association of Realtors). With median values ranging from $850K in Napa to $2.2 million in St. Helena, qualified borrowers access jumbo HELOCs up to $1.5 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels that connect to 50+ Wholesale Lenders &mdash; including specialists in vineyard collateral, seasonal hospitality income, and agricultural-residential hybrid properties.
             </p>
           </div>
 
@@ -282,7 +282,7 @@ export default function HomeEquityWineCountry2026() {
           </p>
 
           <p>
-            As a licensed mortgage broker with wholesale access to 200+ lenders, I help Wine Country homeowners navigate the unique intersection of residential and agricultural property financing. Vineyard collateral, seasonal tourism income, winery operation revenue, and geothermal property features all require specialized lender programs that retail banks rarely offer. This guide covers six Wine Country communities: <strong>Healdsburg</strong> ($1.2M median), <strong>St. Helena</strong> ($2.2M median), <strong>Calistoga</strong> ($1.1M median), <strong>Sonoma</strong> ($1.3M median), <strong>Napa</strong> ($850K median), and <strong>Yountville</strong> ($1.5M median).
+            As a licensed mortgage broker with wholesale access to 50+ Wholesale Lenders, I help Wine Country homeowners navigate the unique intersection of residential and agricultural property financing. Vineyard collateral, seasonal tourism income, winery operation revenue, and geothermal property features all require specialized lender programs that retail banks rarely offer. This guide covers six Wine Country communities: <strong>Healdsburg</strong> ($1.2M median), <strong>St. Helena</strong> ($2.2M median), <strong>Calistoga</strong> ($1.1M median), <strong>Sonoma</strong> ($1.3M median), <strong>Napa</strong> ($850K median), and <strong>Yountville</strong> ($1.5M median).
           </p>
 
           <p>
@@ -317,10 +317,10 @@ export default function HomeEquityWineCountry2026() {
               <li><strong>Fastest appreciation:</strong> Healdsburg &mdash; 52% five-year appreciation driven by Dry Creek and Alexander Valley vineyard demand, Michelin-starred dining expansion, and Bay Area remote worker migration</li>
               <li><strong>Highest free-and-clear ownership:</strong> Yountville &mdash; 42% of homeowners own outright, creating maximum tappable equity positions among retirees and culinary-industry veterans</li>
               <li><strong>Most accessible equity:</strong> Napa ($850K median) &mdash; conforming HELOC options, broadest lender pool, strongest rental income from downtown hospitality workforce housing</li>
-              <li><strong>Unique challenge:</strong> Vineyard/agricultural collateral &mdash; only 8-12 of 200+ wholesale lenders underwrite properties with 5+ acres of active vineyard use</li>
+              <li><strong>Unique challenge:</strong> Vineyard/agricultural collateral &mdash; only 8-12 of 50+ Wholesale Lenders underwrite properties with 5+ acres of active vineyard use</li>
               <li><strong>Conforming loan limit (2026):</strong> $1,017,750 for Napa County, $806,500 for Sonoma County &mdash; most properties require jumbo products</li>
               <li><strong>Processing time:</strong> 3&ndash;4 weeks standard residential, 4&ndash;6 weeks vineyard estates, 5&ndash;7 weeks mixed-use winery properties</li>
-              <li><strong>Wholesale advantage:</strong> 200+ lenders competing vs. single bank product, with specialists in vineyard collateral, seasonal income, and agricultural-residential hybrids</li>
+              <li><strong>Wholesale advantage:</strong> 50+ Wholesale Lenders competing vs. single bank product, with specialists in vineyard collateral, seasonal income, and agricultural-residential hybrids</li>
             </ul>
           </div>
 
@@ -401,7 +401,7 @@ export default function HomeEquityWineCountry2026() {
           {/* Product Comparison Table */}
           <h2 id="product-comparison" className="text-2xl font-bold mt-10 mb-4">HELOC vs. HELOAN vs. Cash-Out Refinance: Wine Country Comparison</h2>
           <p>
-            Three primary products allow Wine Country homeowners to access their home equity. St. Helena, Healdsburg, Sonoma, Calistoga, and Yountville homeowners with properties above county conforming limits require jumbo programs, while many Napa properties access conforming products. As a wholesale broker with access to 200+ lenders, I ensure Wine Country homeowners compare across the full market &mdash; including specialists in vineyard collateral, seasonal hospitality income, and self-employed winery operators &mdash; rather than accepting a single bank&apos;s terms.
+            Three primary products allow Wine Country homeowners to access their home equity. St. Helena, Healdsburg, Sonoma, Calistoga, and Yountville homeowners with properties above county conforming limits require jumbo programs, while many Napa properties access conforming products. As a wholesale broker with access to 50+ Wholesale Lenders, I ensure Wine Country homeowners compare across the full market &mdash; including specialists in vineyard collateral, seasonal hospitality income, and self-employed winery operators &mdash; rather than accepting a single bank&apos;s terms.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -935,7 +935,7 @@ export default function HomeEquityWineCountry2026() {
           <h2 id="eeat-narrative" className="text-2xl font-bold mt-10 mb-4">Wine Country Equity Market Analysis: Why Homeowners Choose a Wholesale Broker</h2>
 
           <p>
-            I started working with Wine Country homeowners after recognizing a pattern that repeats across Napa and Sonoma counties: qualified borrowers with massive equity positions getting declined or receiving subpar terms from retail banks. The reasons vary &mdash; St. Helena vineyard estates that banks classify as agricultural rather than residential, Calistoga geothermal properties that automated underwriting flags as non-standard, Healdsburg winery operators whose seasonal income confuses traditional qualification models &mdash; but the solution is consistent. Wholesale broker access to 200+ lenders means finding the right program for each unique Wine Country situation.
+            I started working with Wine Country homeowners after recognizing a pattern that repeats across Napa and Sonoma counties: qualified borrowers with massive equity positions getting declined or receiving subpar terms from retail banks. The reasons vary &mdash; St. Helena vineyard estates that banks classify as agricultural rather than residential, Calistoga geothermal properties that automated underwriting flags as non-standard, Healdsburg winery operators whose seasonal income confuses traditional qualification models &mdash; but the solution is consistent. Wholesale broker access to 50+ Wholesale Lenders means finding the right program for each unique Wine Country situation.
           </p>
 
           <p>
@@ -1169,7 +1169,7 @@ export default function HomeEquityWineCountry2026() {
               Wine Country&apos;s six communities each present distinct equity access dynamics that require specialized lender knowledge. Healdsburg demands vineyard-experienced lenders for Dry Creek and Alexander Valley estates. St. Helena&apos;s ultra-premium values require private banking HELOC programs above standard jumbo thresholds. Calistoga&apos;s geothermal properties and post-fire rebuilds need lenders comfortable with unique property features. Sonoma&apos;s agritourism entrepreneurs benefit from bank statement programs that capture seasonal income. Napa provides the most accessible equity gateway with conforming products and downtown revival appreciation. Yountville&apos;s high free-and-clear ownership rate creates optimal conditions for first-lien HELOCs at the best available rates.
             </p>
             <p className="mb-0">
-              The common thread across all six communities: wholesale broker access unlocks lender programs that retail banks and local credit unions cannot match. Whether you need a $200K conforming HELOC for a Napa ADU or a $2M ultra-jumbo credit line against a St. Helena vineyard estate, comparing options from 200+ lenders &mdash; including the 8-12 who specialize in agricultural-residential properties &mdash; ensures you access the best rate, highest CLTV, and most appropriate documentation requirements for your specific Wine Country property and income situation.
+              The common thread across all six communities: wholesale broker access unlocks lender programs that retail banks and local credit unions cannot match. Whether you need a $200K conforming HELOC for a Napa ADU or a $2M ultra-jumbo credit line against a St. Helena vineyard estate, comparing options from 50+ Wholesale Lenders &mdash; including the 8-12 who specialize in agricultural-residential properties &mdash; ensures you access the best rate, highest CLTV, and most appropriate documentation requirements for your specific Wine Country property and income situation.
             </p>
           </div>
 
@@ -1196,7 +1196,7 @@ export default function HomeEquityWineCountry2026() {
           <div className="bg-blue-50 p-6 rounded-lg my-8">
             <h3 className="font-bold text-xl mb-3 mt-0">Get Your Free Wine Country Equity Analysis</h3>
             <p>
-              I compare HELOC, cash-out refinance, and home equity loan options from 200+ lenders for Wine Country homeowners. Whether you own a Healdsburg vineyard estate, a St. Helena wine country property, a Calistoga spa retreat, or a Napa downtown home, I identify the product with the best rate and terms for your specific property type, income profile, and financial goals &mdash; including specialized programs for vineyard collateral and seasonal hospitality income.
+              I compare HELOC, cash-out refinance, and home equity loan options from 50+ Wholesale Lenders for Wine Country homeowners. Whether you own a Healdsburg vineyard estate, a St. Helena wine country property, a Calistoga spa retreat, or a Napa downtown home, I identify the product with the best rate and terms for your specific property type, income profile, and financial goals &mdash; including specialized programs for vineyard collateral and seasonal hospitality income.
             </p>
             <p className="text-lg font-semibold">Call Mo Abdel: (949) 579-2057</p>
             <p className="mb-0">NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443<br />Licensed in California &amp; Washington</p>

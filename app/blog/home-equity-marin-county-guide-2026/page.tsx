@@ -548,7 +548,7 @@ export default function HomeEquityMarinCountyGuide2026() {
           Home equity products are not commodities. The same $500,000 HELOC on the same Marin County property can carry meaningfully different rates, fees, and terms depending on the lender. A wholesale mortgage broker eliminates the time-consuming process of shopping multiple banks individually.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 200+ lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products.</em>
+          <strong>E-E-A-T Marker:</strong> <em>Through Lumin Lending&apos;s wholesale platform, I access 50+ Wholesale Lenders who offer jumbo HELOC, HELOAN, and cash-out refinance products specifically designed for high-value California properties. I negotiate pricing and terms on behalf of my clients, and the wholesale channel eliminates retail markup that banks build into direct-to-consumer products.</em>
         </p>
         <h3>Rate Comparison Advantage</h3>
         <p>
@@ -569,7 +569,7 @@ export default function HomeEquityMarinCountyGuide2026() {
           <h3 className="mt-0">Marin County Mortgage Guides</h3>
           <ul className="mb-0">
             <li><a href="/blog/reverse-mortgage-marin-county-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Marin County Guide: HECM for Seniors 62+ [2026]</a> &mdash; Equity access without monthly payments for Marin County homeowners aged 62+</li>
-            <li><a href="/blog/wholesale-mortgage-broker-marin-county-2026" className="text-blue-600 hover:text-blue-800">Wholesale Mortgage Broker Marin County: 200+ Lender Access [2026]</a> &mdash; Purchase and refinance mortgage options through wholesale channels</li>
+            <li><a href="/blog/wholesale-mortgage-broker-marin-county-2026" className="text-blue-600 hover:text-blue-800">Wholesale Mortgage Broker Marin County: 50+ Wholesale Lenders [2026]</a> &mdash; Purchase and refinance mortgage options through wholesale channels</li>
             <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity California Statewide Guide [2026]</a> &mdash; State-level overview of HELOC, HELOAN, and cash-out refinance across California</li>
             <li><a href="/blog/home-equity-bay-area-peninsula-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity Bay Area Peninsula Guide [2026]</a> &mdash; Adjacent region coverage for Peninsula communities</li>
           </ul>

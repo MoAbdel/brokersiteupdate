@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: 'Which lenders and servicers allow mortgage recasting?',
-    answer: 'An estimated 60% to 70% of mortgage servicers offer recasting, but policies vary significantly. Most major servicers (those servicing portfolios of government-sponsored enterprise loans) permit recasting on conventional conforming loans. Some servicers restrict recasting on FHA loans, VA loans, USDA loans, or jumbo loans. The key is that recasting is a servicer policy, not a loan program requirement—so two borrowers with identical Fannie Mae-backed loans may have different recast availability depending on who services their loan. A wholesale broker with access to 200+ lenders can identify recast-friendly servicers during the original loan placement.',
+    answer: 'An estimated 60% to 70% of mortgage servicers offer recasting, but policies vary significantly. Most major servicers (those servicing portfolios of government-sponsored enterprise loans) permit recasting on conventional conforming loans. Some servicers restrict recasting on FHA loans, VA loans, USDA loans, or jumbo loans. The key is that recasting is a servicer policy, not a loan program requirement—so two borrowers with identical Fannie Mae-backed loans may have different recast availability depending on who services their loan. A wholesale broker with access to 50+ Wholesale Lenders can identify recast-friendly servicers during the original loan placement.',
   },
   {
     question: 'Can I recast an FHA or VA loan?',
@@ -80,7 +80,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with mortgage recasting decisions?',
-    answer: 'A wholesale broker with access to 200+ lenders adds value in mortgage recasting decisions in three ways: (1) during original loan placement, the broker can prioritize lenders and servicers known to offer recasting, ensuring the option is available when you need it; (2) when evaluating whether to recast or refinance, the broker compares the total cost and savings of each strategy using your specific loan terms, lump-sum amount, and current market rates; and (3) if refinancing turns out to be the better option, the broker can immediately price the refinance across 200+ lenders to find the most competitive terms. This holistic analysis ensures you choose the strategy that saves the most money.',
+    answer: 'A wholesale broker with access to 50+ Wholesale Lenders adds value in mortgage recasting decisions in three ways: (1) during original loan placement, the broker can prioritize lenders and servicers known to offer recasting, ensuring the option is available when you need it; (2) when evaluating whether to recast or refinance, the broker compares the total cost and savings of each strategy using your specific loan terms, lump-sum amount, and current market rates; and (3) if refinancing turns out to be the better option, the broker can immediately price the refinance across 50+ Wholesale Lenders to find the most competitive terms. This holistic analysis ensures you choose the strategy that saves the most money.',
   },
 ];
 
@@ -191,7 +191,7 @@ export default function MortgageRecastingVsRefinancingPage() {
           Mortgage Recasting vs Refinancing: Which Strategy Saves More Money [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete comparison of mortgage recasting (re-amortization) and refinancing&mdash;covering how recasting works, minimum lump sum requirements, which servicers allow it, recasting fees ($150&ndash;$500) versus refinance costs ($7,500&ndash;$20,000), when each strategy wins, recasting after an inheritance or windfall, and how a wholesale broker identifies recast-friendly lenders across 200+ lending partners.
+          A complete comparison of mortgage recasting (re-amortization) and refinancing&mdash;covering how recasting works, minimum lump sum requirements, which servicers allow it, recasting fees ($150&ndash;$500) versus refinance costs ($7,500&ndash;$20,000), when each strategy wins, recasting after an inheritance or windfall, and how a wholesale broker identifies recast-friendly lenders across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -200,7 +200,7 @@ export default function MortgageRecastingVsRefinancingPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, homeowners who receive a lump sum&mdash;from an inheritance, bonus, home sale proceeds, or other windfall&mdash;face a <strong>critical decision between mortgage recasting and refinancing, and the wrong choice can cost thousands of dollars</strong>. Mortgage recasting (re-amortization) lowers your monthly payment by applying a lump sum to principal and recalculating payments at your existing rate, costing only $150&ndash;$500 in processing fees. Refinancing replaces the entire loan at a new rate and term, costing $7,500&ndash;$20,000 in closing costs on a $500,000 loan. According to <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-recast-en-2120/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau guidance</a>, recasting is available on most conventional conforming loans, though an estimated 60%&ndash;70% of servicers offer it&mdash;making servicer selection at origination a strategic decision. A wholesale mortgage broker comparing products from 200+ lenders identifies recast-friendly servicers upfront, ensuring this cost-saving option remains available when you need it.
+            According to Mo Abdel, NMLS #1426884, homeowners who receive a lump sum&mdash;from an inheritance, bonus, home sale proceeds, or other windfall&mdash;face a <strong>critical decision between mortgage recasting and refinancing, and the wrong choice can cost thousands of dollars</strong>. Mortgage recasting (re-amortization) lowers your monthly payment by applying a lump sum to principal and recalculating payments at your existing rate, costing only $150&ndash;$500 in processing fees. Refinancing replaces the entire loan at a new rate and term, costing $7,500&ndash;$20,000 in closing costs on a $500,000 loan. According to <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-recast-en-2120/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau guidance</a>, recasting is available on most conventional conforming loans, though an estimated 60%&ndash;70% of servicers offer it&mdash;making servicer selection at origination a strategic decision. A wholesale mortgage broker comparing products from 50+ Wholesale Lenders identifies recast-friendly servicers upfront, ensuring this cost-saving option remains available when you need it.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function MortgageRecastingVsRefinancingPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">identifies recast-friendly servicers and compares refinance pricing across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to determine the optimal strategy for each borrower</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to determine the optimal strategy for each borrower</td>
               </tr>
             </tbody>
           </table>
@@ -535,7 +535,7 @@ export default function MortgageRecastingVsRefinancingPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get Your Personalized Recast vs Refinance Comparison</h3>
           <p className="text-green-800 mb-2">
-            I will calculate exact payment savings for both strategies using your current loan terms, lump sum amount, and today&apos;s refinance rates from 200+ lenders. No obligation.
+            I will calculate exact payment savings for both strategies using your current loan terms, lump sum amount, and today&apos;s refinance rates from 50+ Wholesale Lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -656,7 +656,7 @@ export default function MortgageRecastingVsRefinancingPage() {
         <h3>At Origination: Placing Your Loan with a Recast-Friendly Servicer</h3>
 
         <p>
-          When a wholesale broker originates your mortgage, the loan is placed with one of 200+ lending partners. Each lender has different servicing policies, and not all servicers offer recasting. A broker who understands your long-term financial strategy can prioritize lenders whose servicing arms permit recasting, ensuring the option is available when you receive a lump sum in the future.
+          When a wholesale broker originates your mortgage, the loan is placed with one of 50+ Wholesale Lenders. Each lender has different servicing policies, and not all servicers offer recasting. A broker who understands your long-term financial strategy can prioritize lenders whose servicing arms permit recasting, ensuring the option is available when you receive a lump sum in the future.
         </p>
 
         <h3>At Decision Point: Comparing Recast vs Refinance Economics</h3>
@@ -667,7 +667,7 @@ export default function MortgageRecastingVsRefinancingPage() {
 
         <ol>
           <li><strong>Recast calculation:</strong> New payment after applying lump sum, total interest savings over remaining term, recast fee</li>
-          <li><strong>Refinance calculation:</strong> New rate from 200+ lenders, new payment, closing costs, break-even point, total interest savings</li>
+          <li><strong>Refinance calculation:</strong> New rate from 50+ Wholesale Lenders, new payment, closing costs, break-even point, total interest savings</li>
           <li><strong>Hybrid strategy:</strong> Whether refinancing to a lower rate and then applying the lump sum (with a subsequent recast if the new servicer allows it) produces the optimal outcome</li>
         </ol>
 
@@ -769,7 +769,7 @@ export default function MortgageRecastingVsRefinancingPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Do all mortgage companies allow recasting?</h3>
             <p className="mb-0">
-              <strong>No, an estimated 60%&ndash;70% of mortgage servicers offer recasting, and policies differ on minimums, fees, eligible loan types, and frequency limits.</strong> Recasting is a servicer policy, not a regulatory requirement. A wholesale broker with access to 200+ lenders can prioritize recast-friendly servicers during original loan placement.
+              <strong>No, an estimated 60%&ndash;70% of mortgage servicers offer recasting, and policies differ on minimums, fees, eligible loan types, and frequency limits.</strong> Recasting is a servicer policy, not a regulatory requirement. A wholesale broker with access to 50+ Wholesale Lenders can prioritize recast-friendly servicers during original loan placement.
             </p>
           </div>
 
@@ -820,14 +820,14 @@ export default function MortgageRecastingVsRefinancingPage() {
             <li><strong>Minimum lump sums range from $5,000 to $10,000:</strong> You need capital to apply toward principal before you can request a recast. No lump sum means refinancing is your path to payment reduction</li>
             <li><strong>Not all servicers offer recasting:</strong> Approximately 60%&ndash;70% of servicers permit it. A wholesale broker ensures your loan is placed with a recast-friendly servicer at origination</li>
             <li><strong>Windfall strategy depends on rate comparison:</strong> Inheritance or bonus recipients should compare recast savings against refinance savings using their exact numbers before deciding</li>
-            <li><strong>A wholesale broker models both strategies:</strong> Comparing recast economics against refinance pricing from 200+ lenders ensures you choose the strategy that saves the most money over time</li>
+            <li><strong>A wholesale broker models both strategies:</strong> Comparing recast economics against refinance pricing from 50+ Wholesale Lenders ensures you choose the strategy that saves the most money over time</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Find Out Whether Recasting or Refinancing Saves You More</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me your current loan details&mdash;balance, rate, remaining term, and lump sum amount&mdash;and I will calculate both strategies side by side using refinance rates from 200+ lenders. No obligation, no pressure.
+            Tell me your current loan details&mdash;balance, rate, remaining term, and lump sum amount&mdash;and I will calculate both strategies side by side using refinance rates from 50+ Wholesale Lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

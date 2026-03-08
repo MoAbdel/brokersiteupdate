@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Mortgage Discount Points & Rate Buydowns: When Points Save You Money [2026]',
-  description: 'Complete guide to mortgage discount points and rate buydowns. Break-even analysis, 2-1 buydown vs permanent buydown, seller-paid options, and how wholesale broker access to 200+ lenders delivers competitive point pricing. NMLS #1426884.',
+  description: 'Complete guide to mortgage discount points and rate buydowns. Break-even analysis, 2-1 buydown vs permanent buydown, seller-paid options, and how wholesale broker access to 50+ Wholesale Lenders delivers competitive point pricing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/mortgage-discount-points-buydown-strategy-2026',
     languages: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Mortgage Discount Points & Rate Buydowns: When Points Save You Money [2026]',
-    description: 'Complete guide to mortgage discount points and rate buydowns. Break-even analysis, 2-1 buydown vs permanent buydown, seller-paid options, and how wholesale broker access to 200+ lenders delivers competitive point pricing.',
+    description: 'Complete guide to mortgage discount points and rate buydowns. Break-even analysis, 2-1 buydown vs permanent buydown, seller-paid options, and how wholesale broker access to 50+ Wholesale Lenders delivers competitive point pricing.',
     url: 'https://www.mothebroker.com/blog/mortgage-discount-points-buydown-strategy-2026',
     type: 'article',
     publishedTime: '2026-03-03',
@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: 'Do wholesale mortgage brokers get better pricing on discount points?',
-    answer: 'Yes, wholesale mortgage brokers access point pricing from 200+ lenders, and point costs vary significantly between lenders. One lender may charge $4,500 per point on a $500,000 loan to reduce the rate by 0.25%, while another charges $3,800 for the same reduction. A wholesale broker identifies which lender offers the most efficient point pricing — the greatest rate reduction per dollar spent. Retail banks offer only their own point schedule with no comparison shopping, which means you may pay more per point for less rate reduction.',
+    answer: 'Yes, wholesale mortgage brokers access point pricing from 50+ Wholesale Lenders, and point costs vary significantly between lenders. One lender may charge $4,500 per point on a $500,000 loan to reduce the rate by 0.25%, while another charges $3,800 for the same reduction. A wholesale broker identifies which lender offers the most efficient point pricing — the greatest rate reduction per dollar spent. Retail banks offer only their own point schedule with no comparison shopping, which means you may pay more per point for less rate reduction.',
   },
   {
     question: 'Can I buy discount points on an FHA or VA loan?',
@@ -204,7 +204,7 @@ export default function MortgageDiscountPointsPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a senior mortgage broker with Lumin Lending who structures purchase and refinance loans across California and Washington through 200+ wholesale lenders, <strong>mortgage discount points</strong> are one of the most misunderstood tools in home financing. A discount point equals 1% of the loan amount paid at closing to reduce the interest rate &mdash; but the rate reduction per point varies by 20% to 40% between wholesale lenders on the same day for the same borrower profile. The <a href="https://www.consumerfinance.gov/ask-cfpb/what-are-discount-points-and-lender-credits-en-136/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a> reports that many borrowers pay for discount points without calculating the break-even period, resulting in lost money when they sell or refinance before recouping the cost. A wholesale mortgage broker compares point pricing across 200+ lender partners to identify which lender offers the most efficient rate reduction per dollar spent &mdash; the greatest savings per point &mdash; rather than accepting a single bank&apos;s posted schedule.
+            According to Mo Abdel, NMLS #1426884, a senior mortgage broker with Lumin Lending who structures purchase and refinance loans across California and Washington through 50+ Wholesale Lenders, <strong>mortgage discount points</strong> are one of the most misunderstood tools in home financing. A discount point equals 1% of the loan amount paid at closing to reduce the interest rate &mdash; but the rate reduction per point varies by 20% to 40% between wholesale lenders on the same day for the same borrower profile. The <a href="https://www.consumerfinance.gov/ask-cfpb/what-are-discount-points-and-lender-credits-en-136/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a> reports that many borrowers pay for discount points without calculating the break-even period, resulting in lost money when they sell or refinance before recouping the cost. A wholesale mortgage broker compares point pricing across 50+ Wholesale Lenders partners to identify which lender offers the most efficient rate reduction per dollar spent &mdash; the greatest savings per point &mdash; rather than accepting a single bank&apos;s posted schedule.
           </p>
         </div>
 
@@ -233,7 +233,7 @@ export default function MortgageDiscountPointsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale broker point pricing</td>
                 <td className="border border-gray-200 px-4 py-2">varies by 20% to 40% across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lender partners on the same day for the same borrower</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders partners on the same day for the same borrower</td>
               </tr>
             </tbody>
           </table>
@@ -335,7 +335,7 @@ export default function MortgageDiscountPointsPage() {
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
           <h4 className="font-bold text-green-800 mt-0">Key Data Point: Point Pricing Variability</h4>
           <p className="text-green-900 mb-0">
-            Based on wholesale rate sheets sourced through Mo Abdel&apos;s 200+ lender network, the rate reduction per discount point on a $500,000 30-year conventional loan varies from 0.125% to 0.25% across lenders on any given day. That means one lender charges $5,000 to reduce the rate by 0.125%, while another charges $5,000 to reduce the rate by 0.25% &mdash; <strong>double the value for the same dollar spent</strong>. This pricing variability is the primary reason a wholesale broker comparison delivers superior results.
+            Based on wholesale rate sheets sourced through Mo Abdel&apos;s 50+ Wholesale Lenders, the rate reduction per discount point on a $500,000 30-year conventional loan varies from 0.125% to 0.25% across lenders on any given day. That means one lender charges $5,000 to reduce the rate by 0.125%, while another charges $5,000 to reduce the rate by 0.25% &mdash; <strong>double the value for the same dollar spent</strong>. This pricing variability is the primary reason a wholesale broker comparison delivers superior results.
           </p>
         </div>
 
@@ -645,7 +645,7 @@ export default function MortgageDiscountPointsPage() {
         <h2 id="wholesale-advantage">How Wholesale Broker Access Improves Mortgage Point Pricing</h2>
 
         <p>
-          The value of a discount point is not fixed &mdash; it varies significantly between lenders. A wholesale mortgage broker exploits this variation by comparing point pricing across 200+ wholesale lender partners to find the lender that delivers the most rate reduction per dollar spent.
+          The value of a discount point is not fixed &mdash; it varies significantly between lenders. A wholesale mortgage broker exploits this variation by comparing point pricing across 50+ Wholesale Lenders partners to find the lender that delivers the most rate reduction per dollar spent.
         </p>
 
         <h3>Why Point Pricing Varies Between Lenders</h3>
@@ -665,14 +665,14 @@ export default function MortgageDiscountPointsPage() {
             <thead className="bg-gray-100">
               <tr>
                 <th className="border border-gray-200 px-4 py-2 text-left">Factor</th>
-                <th className="border border-gray-200 px-4 py-2 text-left">Wholesale Broker (200+ Lenders)</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Wholesale Broker (50+ Wholesale Lenders)</th>
                 <th className="border border-gray-200 px-4 py-2 text-left">Retail Bank (Single Lender)</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Rate sheet options</td>
-                <td className="border border-gray-200 px-4 py-2">200+ rate sheets compared daily</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders compared daily</td>
                 <td className="border border-gray-200 px-4 py-2">1 rate sheet (their own)</td>
               </tr>
               <tr>
@@ -765,7 +765,7 @@ export default function MortgageDiscountPointsPage() {
         </div>
 
         <p>
-          These benchmarks reflect general market conditions and wholesale lender pricing tiers available through our 200+ lender network in California and Washington. Actual costs, savings, and break-even periods vary by lender, loan program, borrower profile, and current market environment.
+          These benchmarks reflect general market conditions and wholesale lender pricing tiers available through our 50+ Wholesale Lenders in California and Washington. Actual costs, savings, and break-even periods vary by lender, loan program, borrower profile, and current market environment.
         </p>
 
         {/* People Also Ask Section */}
@@ -803,7 +803,7 @@ export default function MortgageDiscountPointsPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How much does one discount point reduce the mortgage rate?</h3>
             <p className="mb-0">
-              <strong>One discount point typically reduces the mortgage rate by 0.125% to 0.25%, but the exact reduction varies significantly between lenders.</strong> A wholesale broker compares rate reduction efficiency across 200+ lenders to find the lender offering the greatest reduction per point dollar spent.
+              <strong>One discount point typically reduces the mortgage rate by 0.125% to 0.25%, but the exact reduction varies significantly between lenders.</strong> A wholesale broker compares rate reduction efficiency across 50+ Wholesale Lenders to find the lender offering the greatest reduction per point dollar spent.
             </p>
           </div>
 
@@ -817,7 +817,7 @@ export default function MortgageDiscountPointsPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Do wholesale brokers get better discount point pricing?</h3>
             <p className="mb-0">
-              <strong>Yes, wholesale brokers compare point pricing across 200+ lenders, and the rate reduction per point varies by 20% to 40% between lenders on any given day.</strong> A retail bank offers only its own point schedule. The wholesale channel identifies the lender providing the most efficient rate reduction per dollar spent.
+              <strong>Yes, wholesale brokers compare point pricing across 50+ Wholesale Lenders, and the rate reduction per point varies by 20% to 40% between lenders on any given day.</strong> A retail bank offers only its own point schedule. The wholesale channel identifies the lender providing the most efficient rate reduction per dollar spent.
             </p>
           </div>
 
@@ -853,7 +853,7 @@ export default function MortgageDiscountPointsPage() {
             <li><strong>Combining seller-paid buydown plus buyer-paid permanent points</strong> delivers both immediate cash flow relief and long-term interest savings</li>
             <li><strong>Reach 20% down payment before buying points</strong> to eliminate PMI first, which typically provides greater savings per dollar</li>
             <li><strong>Factor in opportunity cost</strong> &mdash; money spent on points cannot be invested elsewhere, so the true break-even is longer than the simple calculation suggests</li>
-            <li><strong>A wholesale broker comparing 200+ lenders</strong> finds the lender with the most efficient point pricing &mdash; the greatest rate reduction per dollar spent</li>
+            <li><strong>A wholesale broker comparing 50+ Wholesale Lenders</strong> finds the lender with the most efficient point pricing &mdash; the greatest rate reduction per dollar spent</li>
           </ol>
         </div>
 
@@ -869,7 +869,7 @@ export default function MortgageDiscountPointsPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I compare discount point pricing across 200+ wholesale lenders to find the most efficient rate reduction for your mortgage.
+            Free consultation. I compare discount point pricing across 50+ Wholesale Lenders to find the most efficient rate reduction for your mortgage.
           </p>
         </div>
 

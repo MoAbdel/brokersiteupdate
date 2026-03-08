@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "Can you get a HELOC on an investment property?",
-    answer: "Yes, but most retail banks and credit unions do not offer HELOCs on investment properties. Wholesale mortgage brokers access specialized lenders that approve investment property HELOCs with 720+ credit scores, 70-75% maximum combined loan-to-value, and 6+ months of reserves. A broker with access to 200+ lenders identifies which ones currently fund investment HELOCs."
+    answer: "Yes, but most retail banks and credit unions do not offer HELOCs on investment properties. Wholesale mortgage brokers access specialized lenders that approve investment property HELOCs with 720+ credit scores, 70-75% maximum combined loan-to-value, and 6+ months of reserves. A broker with access to 50+ Wholesale Lenders identifies which ones currently fund investment HELOCs."
   },
   {
     question: "What credit score do you need for an investment property HELOC?",
@@ -197,7 +197,7 @@ export default function HELOCInvestmentProperty2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
-              According to Mo Abdel, NMLS #1426884, most banks refuse to issue HELOCs on investment properties &mdash; but wholesale brokers with access to 200+ lenders connect investors with the specialized programs that approve rental property equity lines with 70&ndash;75% max CLTV and flexible rental income documentation.
+              According to Mo Abdel, NMLS #1426884, most banks refuse to issue HELOCs on investment properties &mdash; but wholesale brokers with access to 50+ Wholesale Lenders connect investors with the specialized programs that approve rental property equity lines with 70&ndash;75% max CLTV and flexible rental income documentation.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -393,7 +393,7 @@ export default function HELOCInvestmentProperty2026() {
               <div className="bg-emerald-100 text-emerald-700 rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-0.5">5</div>
               <div>
                 <p className="font-semibold text-slate-900">Connect with a Wholesale Broker for Lender Matching</p>
-                <p className="text-slate-600">A wholesale broker submits your file to the specific lenders within a 200+ lender network that currently fund investment property HELOCs. Each lender has different CLTV caps, credit thresholds, and rental income documentation standards. The broker identifies the best match for your specific financial profile and property situation.</p>
+                <p className="text-slate-600">A wholesale broker submits your file to the specific lenders within a 50+ Wholesale Lenders that currently fund investment property HELOCs. Each lender has different CLTV caps, credit thresholds, and rental income documentation standards. The broker identifies the best match for your specific financial profile and property situation.</p>
               </div>
             </div>
           </div>
@@ -434,7 +434,7 @@ export default function HELOCInvestmentProperty2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-8">
-            A wholesale mortgage broker with access to 200+ lenders maintains current knowledge of which lenders are actively funding investment HELOCs, what their specific requirements are, and which documentation approach each lender prefers. This access point eliminates the trial-and-error process of calling individual banks and being told &ldquo;we don&rsquo;t offer that program&rdquo; &mdash; a frustration that drives many investors to abandon the HELOC path entirely and default to a <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">cash-out refinance</Link> when a HELOC would have been the better financial tool.
+            A wholesale mortgage broker with access to 50+ Wholesale Lenders maintains current knowledge of which lenders are actively funding investment HELOCs, what their specific requirements are, and which documentation approach each lender prefers. This access point eliminates the trial-and-error process of calling individual banks and being told &ldquo;we don&rsquo;t offer that program&rdquo; &mdash; a frustration that drives many investors to abandon the HELOC path entirely and default to a <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">cash-out refinance</Link> when a HELOC would have been the better financial tool.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -676,7 +676,7 @@ export default function HELOCInvestmentProperty2026() {
             </h2>
 
             <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-              Investment property HELOCs provide flexible, revolving access to rental property equity &mdash; but the product requires specialized lender access that most retail banks do not provide. The qualification bar is higher than primary residence HELOCs: 720+ credit, 70&ndash;75% max CLTV, 6+ months reserves, and documented rental income. The wholesale channel connects you to the 15+ lenders in a 200+ lender network that actively fund this product, matching your financial profile to the lender whose guidelines give you the highest approval probability and best terms.
+              Investment property HELOCs provide flexible, revolving access to rental property equity &mdash; but the product requires specialized lender access that most retail banks do not provide. The qualification bar is higher than primary residence HELOCs: 720+ credit, 70&ndash;75% max CLTV, 6+ months reserves, and documented rental income. The wholesale channel connects you to the 15+ lenders in a 50+ Wholesale Lenders that actively fund this product, matching your financial profile to the lender whose guidelines give you the highest approval probability and best terms.
             </p>
 
             <p className="text-lg text-slate-300 mb-8 leading-relaxed">

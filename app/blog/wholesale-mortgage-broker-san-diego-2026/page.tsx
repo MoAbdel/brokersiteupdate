@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker San Diego with 200+ lender access. Better rates for Del Mar, Rancho Santa Fe, La Jolla, Coronado, Carlsbad. Jumbo, VA, bank statement loans. NMLS #1426884.',
+  description: 'Wholesale mortgage broker San Diego with 50+ Wholesale Lenders. Better rates for Del Mar, Rancho Santa Fe, La Jolla, Coronado, Carlsbad. Jumbo, VA, bank statement loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Diego',
     'mortgage broker San Diego',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]',
-    description: 'How wholesale mortgage pricing benefits San Diego home buyers. 200+ lenders, jumbo loans, VA programs, and bank statement options.',
+    description: 'How wholesale mortgage pricing benefits San Diego home buyers. 50+ Wholesale Lenders, jumbo loans, VA programs, and bank statement options.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-san-diego-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -82,7 +82,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
                 "name": "What is a wholesale mortgage broker in San Diego?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in San Diego is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders to find the best rates and programs for borrowers. Unlike bank loan officers who offer only their institution's products, a wholesale broker shops across the entire lending marketplace on your behalf."
+                  "text": "A wholesale mortgage broker in San Diego is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders to find the best rates and programs for borrowers. Unlike bank loan officers who offer only their institution's products, a wholesale broker shops across the entire lending marketplace on your behalf."
                 }
               },
               {
@@ -90,7 +90,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
                 "name": "How much can a San Diego borrower save with a wholesale mortgage broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "San Diego borrowers working with wholesale brokers typically save significantly compared to retail bank channels. The savings come from competitive pricing across 200+ lenders, lower overhead costs passed to borrowers, and the broker's ability to negotiate pricing based on loan characteristics. On a typical San Diego jumbo loan, these savings can be substantial over the life of the loan."
+                  "text": "San Diego borrowers working with wholesale brokers typically save significantly compared to retail bank channels. The savings come from competitive pricing across 50+ Wholesale Lenders, lower overhead costs passed to borrowers, and the broker's ability to negotiate pricing based on loan characteristics. On a typical San Diego jumbo loan, these savings can be substantial over the life of the loan."
                 }
               },
               {
@@ -138,7 +138,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
                 "name": "How do wholesale mortgage rates compare to bank rates in San Diego?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale mortgage rates are often lower than retail bank rates because they don't include the overhead costs built into bank pricing (branch networks, advertising budgets, corporate infrastructure). The competitive nature of wholesale lending, with 200+ lenders competing for broker business, creates pricing advantages that are passed on to borrowers."
+                  "text": "Wholesale mortgage rates are often lower than retail bank rates because they don't include the overhead costs built into bank pricing (branch networks, advertising budgets, corporate infrastructure). The competitive nature of wholesale lending, with 50+ Wholesale Lenders competing for broker business, creates pricing advantages that are passed on to borrowers."
                 }
               },
               {
@@ -186,7 +186,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
                 "name": "Why should San Diego borrowers choose a broker over a direct lender?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "San Diego's high home values and diverse borrower profiles make wholesale brokers especially valuable. A broker compares 200+ lenders' jumbo programs, VA products, and non-QM options to find the best fit. A direct lender offers only their own products. For San Diego's complex market—with biotech stock compensation, military income, self-employment, and luxury properties—broker access to specialized programs is a significant advantage."
+                  "text": "San Diego's high home values and diverse borrower profiles make wholesale brokers especially valuable. A broker compares 50+ Wholesale Lenders' jumbo programs, VA products, and non-QM options to find the best fit. A direct lender offers only their own products. For San Diego's complex market—with biotech stock compensation, military income, self-employment, and luxury properties—broker access to specialized programs is a significant advantage."
                 }
               }
             ]
@@ -200,7 +200,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Lumin Lending",
-            "description": "Wholesale mortgage broker serving San Diego County with 200+ lender access",
+            "description": "Wholesale mortgage broker serving San Diego County with 50+ Wholesale Lenders",
             "telephone": "(949) 579-2057",
             "url": "https://www.mothebroker.com",
             "areaServed": [
@@ -271,7 +271,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: San Diego Wholesale Mortgage Market</p>
           <p className="text-gray-800 mb-0">
-            San Diego County originated approximately <strong>$48.2 billion in residential mortgages</strong> in 2025, according to HMDA data, with wholesale channel originations accounting for a growing share of total volume. The county&apos;s unique borrower mix&mdash;biotech professionals with complex stock compensation, military families with VA entitlements, and self-employed entrepreneurs&mdash;creates a market where wholesale broker access to 200+ lenders provides measurable advantages over single-lender retail channels. In San Diego&apos;s premium communities where median home values range from $1.1 million to $4.5 million, <strong>jumbo loans represent over 60% of purchase transactions</strong>, making wholesale lender competition particularly impactful on borrower costs.
+            San Diego County originated approximately <strong>$48.2 billion in residential mortgages</strong> in 2025, according to HMDA data, with wholesale channel originations accounting for a growing share of total volume. The county&apos;s unique borrower mix&mdash;biotech professionals with complex stock compensation, military families with VA entitlements, and self-employed entrepreneurs&mdash;creates a market where wholesale broker access to 50+ Wholesale Lenders provides measurable advantages over single-lender retail channels. In San Diego&apos;s premium communities where median home values range from $1.1 million to $4.5 million, <strong>jumbo loans represent over 60% of purchase transactions</strong>, making wholesale lender competition particularly impactful on borrower costs.
           </p>
         </div>
 
@@ -292,7 +292,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             <tbody>
               <tr>
                 <td className="py-3 px-4 border-b font-medium">Lender Options</td>
-                <td className="py-3 px-4 border-b">200+ wholesale lenders</td>
+                <td className="py-3 px-4 border-b">50+ Wholesale Lenders</td>
                 <td className="py-3 px-4 border-b">1 lender (their own products)</td>
               </tr>
               <tr className="bg-gray-50">
@@ -342,7 +342,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
         {/* 8-City Market Overview */}
         <h2>San Diego County Premium Communities: Wholesale Mortgage Landscape</h2>
         <p>
-          San Diego County&apos;s eight wealthiest communities each present distinct borrower profiles and mortgage needs. A wholesale broker&apos;s ability to match these diverse needs with the optimal lender and program from a pool of 200+ options creates significant advantages for San Diego home buyers and refinancers.
+          San Diego County&apos;s eight wealthiest communities each present distinct borrower profiles and mortgage needs. A wholesale broker&apos;s ability to match these diverse needs with the optimal lender and program from a pool of 50+ Wholesale Lenders creates significant advantages for San Diego home buyers and refinancers.
         </p>
         <div className="overflow-x-auto my-6">
           <table className="min-w-full bg-white border border-gray-200">
@@ -653,7 +653,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
         {/* The Wholesale Process */}
         <h2>How the Wholesale Mortgage Process Works in San Diego</h2>
         <p>
-          Working with a wholesale mortgage broker in San Diego follows a structured process designed to find the optimal loan program from 200+ available lenders. Understanding each step helps San Diego borrowers prepare for a smooth transaction.
+          Working with a wholesale mortgage broker in San Diego follows a structured process designed to find the optimal loan program from 50+ Wholesale Lenders. Understanding each step helps San Diego borrowers prepare for a smooth transaction.
         </p>
         <ol>
           <li className="mb-4">
@@ -691,12 +691,12 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
 
         <h3>What is a wholesale mortgage broker in San Diego?</h3>
         <p>
-          A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders to find the best rates and programs for San Diego borrowers. Unlike bank loan officers who are limited to their institution&apos;s products, a wholesale broker shops across the entire lending marketplace. This is particularly valuable in San Diego&apos;s diverse market, where borrowers range from biotech executives to military families to self-employed entrepreneurs.
+          A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders to find the best rates and programs for San Diego borrowers. Unlike bank loan officers who are limited to their institution&apos;s products, a wholesale broker shops across the entire lending marketplace. This is particularly valuable in San Diego&apos;s diverse market, where borrowers range from biotech executives to military families to self-employed entrepreneurs.
         </p>
 
         <h3>How much can a San Diego borrower save with a wholesale mortgage broker?</h3>
         <p>
-          Savings vary by loan type, amount, and borrower profile. The wholesale channel&apos;s competitive advantage is most pronounced on jumbo loans (which dominate San Diego&apos;s premium markets), non-QM products (bank statement, asset depletion), and VA loans. The savings come from 200+ lenders competing for your business, lower overhead costs in the wholesale channel, and the broker&apos;s ability to negotiate pricing based on your specific loan characteristics.
+          Savings vary by loan type, amount, and borrower profile. The wholesale channel&apos;s competitive advantage is most pronounced on jumbo loans (which dominate San Diego&apos;s premium markets), non-QM products (bank statement, asset depletion), and VA loans. The savings come from 50+ Wholesale Lenders competing for your business, lower overhead costs in the wholesale channel, and the broker&apos;s ability to negotiate pricing based on your specific loan characteristics.
         </p>
 
         <h3>Can a wholesale broker help with jumbo loans in San Diego?</h3>
@@ -726,7 +726,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
 
         <h3>How do wholesale mortgage rates compare to bank rates in San Diego?</h3>
         <p>
-          Wholesale mortgage rates are often lower than retail bank rates because they exclude the overhead costs embedded in bank pricing: branch network expenses, national advertising budgets, and corporate infrastructure. With 200+ lenders competing for broker-submitted loans, the competitive pressure naturally drives pricing improvements. The advantage is most apparent on jumbo and non-QM products, which are the most common loan types in San Diego&apos;s premium communities.
+          Wholesale mortgage rates are often lower than retail bank rates because they exclude the overhead costs embedded in bank pricing: branch network expenses, national advertising budgets, and corporate infrastructure. With 50+ Wholesale Lenders competing for broker-submitted loans, the competitive pressure naturally drives pricing improvements. The advantage is most apparent on jumbo and non-QM products, which are the most common loan types in San Diego&apos;s premium communities.
         </p>
 
         <h3>Is it faster to close a mortgage through a wholesale broker?</h3>
@@ -756,7 +756,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
 
         <h3>Why should San Diego borrowers choose a broker over a direct lender?</h3>
         <p>
-          San Diego&apos;s market complexity makes the wholesale broker advantage particularly compelling. The county&apos;s mix of luxury property values ($1.1 million to $4.5 million median across premium communities), diverse income profiles (biotech stock, military, self-employment), and specialized housing stock (coastal, estate, military-adjacent) requires access to the broadest possible range of lending programs. A wholesale broker&apos;s 200+ lender relationships provide this access; a single direct lender cannot.
+          San Diego&apos;s market complexity makes the wholesale broker advantage particularly compelling. The county&apos;s mix of luxury property values ($1.1 million to $4.5 million median across premium communities), diverse income profiles (biotech stock, military, self-employment), and specialized housing stock (coastal, estate, military-adjacent) requires access to the broadest possible range of lending programs. A wholesale broker&apos;s 50+ Wholesale Lenders provide this access; a single direct lender cannot.
         </p>
 
         {/* Expert Summary */}
@@ -769,7 +769,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
             The three borrower segments that benefit most from wholesale brokerage in San Diego are: biotech professionals with complex stock compensation (who need lenders with flexible income calculation policies), military families seeking VA jumbo products (which are available from a limited subset of wholesale lenders), and self-employed entrepreneurs who qualify through bank statement programs unavailable at traditional banks. Each of these segments is overrepresented in San Diego compared to other California markets.
           </p>
           <p className="text-gray-800 mb-0">
-            Whether you are purchasing a Rancho Santa Fe estate, refinancing a La Jolla coastal property, or seeking a VA jumbo loan for Coronado, wholesale broker access to 200+ lenders ensures you receive the most competitive pricing and the most appropriate program for your specific situation. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> to discuss your San Diego mortgage needs and receive a no-obligation rate comparison.
+            Whether you are purchasing a Rancho Santa Fe estate, refinancing a La Jolla coastal property, or seeking a VA jumbo loan for Coronado, wholesale broker access to 50+ Wholesale Lenders ensures you receive the most competitive pricing and the most appropriate program for your specific situation. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> to discuss your San Diego mortgage needs and receive a no-obligation rate comparison.
           </p>
         </div>
 

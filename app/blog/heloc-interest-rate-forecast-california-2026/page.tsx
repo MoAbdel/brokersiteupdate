@@ -45,7 +45,7 @@ const faqData = [
   },
   {
     question: 'What is a good HELOC margin in 2026?',
-    answer: 'HELOC margins typically range from zero to several percentage points above Prime, depending on your credit score, loan-to-value ratio, and the lender. A wholesale mortgage broker can compare margins across 200+ lenders to find competitive pricing for your profile. The margin is the controllable part of your HELOC rate, making lender comparison essential.',
+    answer: 'HELOC margins typically range from zero to several percentage points above Prime, depending on your credit score, loan-to-value ratio, and the lender. A wholesale mortgage broker can compare margins across 50+ Wholesale Lenders to find competitive pricing for your profile. The margin is the controllable part of your HELOC rate, making lender comparison essential.',
   },
   {
     question: 'Can I convert my variable-rate HELOC to a fixed rate?',
@@ -61,7 +61,7 @@ const faqData = [
   },
   {
     question: 'Are HELOC rates the same across all California lenders?',
-    answer: 'No. HELOC rates vary significantly across lenders because each institution sets its own margin above Prime. Credit unions, regional banks, national banks, and wholesale lenders each price HELOCs differently. Two borrowers with identical credit profiles can receive HELOC offers with meaningfully different margins from different lenders. A wholesale broker compares across 200+ lenders to identify competitive options.',
+    answer: 'No. HELOC rates vary significantly across lenders because each institution sets its own margin above Prime. Credit unions, regional banks, national banks, and wholesale lenders each price HELOCs differently. Two borrowers with identical credit profiles can receive HELOC offers with meaningfully different margins from different lenders. A wholesale broker compares across 50+ Wholesale Lenders to identify competitive options.',
   },
   {
     question: 'How does my credit score affect my HELOC rate in California?',
@@ -215,7 +215,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
-            description: 'Licensed California and Washington mortgage broker specializing in HELOC, home equity loans, and wholesale mortgage products with access to 200+ lenders.',
+            description: 'Licensed California and Washington mortgage broker specializing in HELOC, home equity loans, and wholesale mortgage products with access to 50+ Wholesale Lenders.',
             url: 'https://www.mothebroker.com',
             telephone: '(949) 579-2057',
             priceRange: '$$',
@@ -260,7 +260,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
         {/* ===== SECTION 1: Citation Hook (150-300 words) ===== */}
         <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
           <p className="text-lg font-semibold text-gray-800 italic">
-            &quot;HELOC interest rates are directly tied to the Federal Reserve&apos;s federal funds rate via the Prime rate. Every Fed decision flows through to your home equity line within days. In my California closings, I compare HELOC margins across 200+ lending partners to find competitive home equity line pricing that accounts for each borrower&apos;s credit profile, equity position, and property type. The rate you pay is the Prime rate plus a margin, and while you cannot control Prime, you absolutely can control which lender&apos;s margin you accept. Fixed-rate conversion options allow HELOC borrowers to lock individual draws at a fixed rate within their revolving credit line, giving you flexibility to hedge against rate movements on large draws while keeping the rest variable.&quot;
+            &quot;HELOC interest rates are directly tied to the Federal Reserve&apos;s federal funds rate via the Prime rate. Every Fed decision flows through to your home equity line within days. In my California closings, I compare HELOC margins across 50+ Wholesale Lenders to find competitive home equity line pricing that accounts for each borrower&apos;s credit profile, equity position, and property type. The rate you pay is the Prime rate plus a margin, and while you cannot control Prime, you absolutely can control which lender&apos;s margin you accept. Fixed-rate conversion options allow HELOC borrowers to lock individual draws at a fixed rate within their revolving credit line, giving you flexibility to hedge against rate movements on large draws while keeping the rest variable.&quot;
           </p>
           <p className="text-gray-600 mt-2">&mdash; Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
         </div>
@@ -352,7 +352,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
         <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200 my-6">
           <h3 className="font-bold text-yellow-800 mt-0">Key Insight: The Margin Is Your Leverage Point</h3>
           <p className="text-yellow-900 mb-0">
-            You cannot control the Prime rate&mdash;that is entirely determined by the Federal Reserve. What you <strong>can</strong> control is which lender&apos;s margin you accept. The difference between the highest and lowest margin offers on an identical borrower profile can represent meaningful savings over the life of a HELOC draw period. This is precisely why comparing across multiple lenders matters. A wholesale mortgage broker shops margins across 200+ lending partners to identify competitive HELOC pricing for each borrower&apos;s specific profile.
+            You cannot control the Prime rate&mdash;that is entirely determined by the Federal Reserve. What you <strong>can</strong> control is which lender&apos;s margin you accept. The difference between the highest and lowest margin offers on an identical borrower profile can represent meaningful savings over the life of a HELOC draw period. This is precisely why comparing across multiple lenders matters. A wholesale mortgage broker shops margins across 50+ Wholesale Lenders to identify competitive HELOC pricing for each borrower&apos;s specific profile.
           </p>
         </div>
 
@@ -553,7 +553,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
         <h3>Jumbo HELOC Availability</h3>
 
         <p>
-          Standard HELOC programs at many retail banks cap credit lines at $250,000 to $500,000. California homeowners who need larger lines must access jumbo HELOC products, which are more commonly available through wholesale lenders and portfolio-based lending programs. Wholesale brokers compare <Link href="/blog/second-mortgage-explained-2026" className="text-blue-600 hover:underline">second-lien products</Link> across 200+ lenders, including specialty lenders that focus on high-value California properties with jumbo equity positions.
+          Standard HELOC programs at many retail banks cap credit lines at $250,000 to $500,000. California homeowners who need larger lines must access jumbo HELOC products, which are more commonly available through wholesale lenders and portfolio-based lending programs. Wholesale brokers compare <Link href="/blog/second-mortgage-explained-2026" className="text-blue-600 hover:underline">second-lien products</Link> across 50+ Wholesale Lenders, including specialty lenders that focus on high-value California properties with jumbo equity positions.
         </p>
 
         <h3>Prop 13 and the Equity Gap</h3>
@@ -568,17 +568,17 @@ export default function HelocInterestRateForecastCalifornia2026() {
           Under federal law (Regulation Z), California homeowners who open a HELOC on their primary residence have a 3-business-day right of rescission after closing. This means you can cancel the HELOC for any reason within this window. The rescission period is a consumer protection that does not exist for purchase transactions. Factor this into your timeline planning.
         </p>
 
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Comparing HELOC Margins Across 200+ Lenders</h2>
+        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Comparing HELOC Margins Across 50+ Wholesale Lenders</h2>
 
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-6">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Why Margin Shopping Matters More Than Rate Timing</h3>
           <p className="text-blue-800 mb-0">
-            I tell every client the same thing: you cannot control the Prime rate, but you can absolutely control which lender&apos;s margin you accept. The difference between the highest and lowest margin I see on comparable borrower profiles across my lender network is significant. Over a 10-year HELOC draw period with a meaningful balance, that margin difference translates to substantial savings. This is the wholesale broker advantage&mdash;access to competitive pricing from 200+ lenders rather than accepting whatever margin your bank quotes. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I tell every client the same thing: you cannot control the Prime rate, but you can absolutely control which lender&apos;s margin you accept. The difference between the highest and lowest margin I see on comparable borrower profiles across my lender network is significant. Over a 10-year HELOC draw period with a meaningful balance, that margin difference translates to substantial savings. This is the wholesale broker advantage&mdash;access to competitive pricing from 50+ Wholesale Lenders rather than accepting whatever margin your bank quotes. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
         <p>
-          Wholesale brokers compare HELOC margins across 200+ lending partners to find competitive home equity line pricing. This comparison approach delivers specific advantages for California homeowners:
+          Wholesale brokers compare HELOC margins across 50+ Wholesale Lenders to find competitive home equity line pricing. This comparison approach delivers specific advantages for California homeowners:
         </p>
 
         <ul>
@@ -626,7 +626,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
               <tr>
                 <td className="border border-gray-200 px-4 py-3 font-medium">Lender selection</td>
                 <td className="border border-gray-200 px-4 py-3">Margins vary meaningfully from lender to lender on identical profiles</td>
-                <td className="border border-gray-200 px-4 py-3">Work with a wholesale broker to compare 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-3">Work with a wholesale broker to compare 50+ Wholesale Lenders</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-3 font-medium">Draw period length</td>
@@ -728,7 +728,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Can I refinance my HELOC to get a lower margin?</h3>
             <p className="mb-0">
-              Yes. If you opened a HELOC with a high margin, you can apply for a new HELOC with a different lender offering a lower margin. The new HELOC pays off the existing one. A wholesale mortgage broker can compare your current margin against what is available across 200+ lenders to determine if switching makes financial sense after accounting for any closing costs or early termination fees on your current line.
+              Yes. If you opened a HELOC with a high margin, you can apply for a new HELOC with a different lender offering a lower margin. The new HELOC pays off the existing one. A wholesale mortgage broker can compare your current margin against what is available across 50+ Wholesale Lenders to determine if switching makes financial sense after accounting for any closing costs or early termination fees on your current line.
             </p>
           </div>
 
@@ -766,7 +766,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
           <h3 className="font-bold text-blue-900 mt-0">Key Takeaways</h3>
           <ol className="text-blue-800">
             <li><strong>HELOC rates are directly tied to the Fed Funds Rate via the Prime rate</strong>&mdash;every Fed decision flows through to your HELOC within days</li>
-            <li><strong>The margin is your control point</strong>&mdash;comparing across 200+ lenders through a wholesale broker identifies the most competitive margin for your profile</li>
+            <li><strong>The margin is your control point</strong>&mdash;comparing across 50+ Wholesale Lenders through a wholesale broker identifies the most competitive margin for your profile</li>
             <li><strong>Rates have eased from their recent peaks</strong>&mdash;the current environment is more favorable than the height of the tightening cycle</li>
             <li><strong>HELOCs automatically adjust downward</strong> with each Fed rate cut, making them well-suited for a declining-rate environment</li>
             <li><strong>Fixed-rate conversion options</strong> let you lock specific large draws while keeping the rest of your line variable</li>
@@ -778,7 +778,7 @@ export default function HelocInterestRateForecastCalifornia2026() {
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Personalized HELOC Rate Comparison</h3>
           <p className="text-green-800 text-lg mb-4">
-            I compare HELOC margins, features, and program terms across 200+ wholesale lenders to find competitive pricing for your specific credit profile, equity position, and property. Every California homeowner&apos;s situation is different&mdash;let me show you what is available in today&apos;s market.
+            I compare HELOC margins, features, and program terms across 50+ Wholesale Lenders to find competitive pricing for your specific credit profile, equity position, and property. Every California homeowner&apos;s situation is different&mdash;let me show you what is available in today&apos;s market.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

@@ -54,7 +54,7 @@ const faqData = [
   },
   {
     question: "Can I negotiate reverse mortgage closing costs?",
-    answer: "Certain reverse mortgage closing costs are negotiable and others are not. The origination fee is set by HUD formula but some lenders offer reduced or waived origination fees. Third-party costs such as title insurance, settlement fees, and pest inspections can be shopped and compared. The initial MIP (2%) and annual MIP (0.5%) are set by FHA and are not negotiable. Working with a wholesale broker provides access to 200+ lenders with varying fee structures."
+    answer: "Certain reverse mortgage closing costs are negotiable and others are not. The origination fee is set by HUD formula but some lenders offer reduced or waived origination fees. Third-party costs such as title insurance, settlement fees, and pest inspections can be shopped and compared. The initial MIP (2%) and annual MIP (0.5%) are set by FHA and are not negotiable. Working with a wholesale broker provides access to 50+ Wholesale Lenders with varying fee structures."
   },
   {
     question: "What third-party closing costs are charged on a HECM?",
@@ -555,7 +555,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
-            Some lenders in the HECM market actively compete on origination fees. Through wholesale channels, I have access to 200+ lenders, some of which offer reduced origination fees or even full origination fee waivers on certain HECM products. A reduced origination fee directly increases your net loan proceeds by the amount of the reduction. For a <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">complete overview of how HECM loans work</Link>, see our comprehensive guide.
+            Some lenders in the HECM market actively compete on origination fees. Through wholesale channels, I have access to 50+ Wholesale Lenders, some of which offer reduced origination fees or even full origination fee waivers on certain HECM products. A reduced origination fee directly increases your net loan proceeds by the amount of the reduction. For a <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">complete overview of how HECM loans work</Link>, see our comprehensive guide.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -742,7 +742,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
           <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-4">Get Your Personalized HECM Cost Breakdown</h3>
             <p className="text-blue-100 mb-6 text-lg">
-              Every reverse mortgage is different. I will provide an itemized closing cost estimate based on your home value, location, and goals &mdash; with access to 200+ lenders to find the best fee structure available.
+              Every reverse mortgage is different. I will provide an itemized closing cost estimate based on your home value, location, and goals &mdash; with access to 50+ Wholesale Lenders to find the best fee structure available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

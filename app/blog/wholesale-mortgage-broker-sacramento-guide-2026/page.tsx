@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Sacramento Guide: Purchase, Refinance, Investors & Self-Employed Options [2026] | Mo Abdel',
   description:
-    'Wholesale mortgage broker Sacramento guide (2026). How broker access to 200+ lenders helps Sacramento buyers, homeowners, and investors compare rates, programs, and underwriting paths. NMLS #1426884.',
+    'Wholesale mortgage broker Sacramento guide (2026). How broker access to 50+ Wholesale Lenders helps Sacramento buyers, homeowners, and investors compare rates, programs, and underwriting paths. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Sacramento',
     'Sacramento mortgage broker',

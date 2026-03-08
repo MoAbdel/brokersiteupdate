@@ -78,7 +78,7 @@ export default function AlisoViejoMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Aliso Viejo consistently ranks among Orange County&apos;s most desirable communities, with a median home price of approximately <strong>$895,000 as of February 2026</strong> (Redfin data)&mdash;a 3.2% increase year-over-year&mdash;offering homes from affordable condos starting near $520,000 to luxury single-family residences exceeding $1.6 million. With approximately <strong>21,000 housing units</strong> across one of California&apos;s most meticulously planned communities, Aliso Viejo saw <strong>287 closed transactions in 2025</strong> per the California Association of Realtors. A <strong>wholesale mortgage broker</strong> with access to 200+ lenders provides <strong>Aliso Viejo buyers</strong> with competitive pricing and specialized expertise in <strong>master-planned community financing</strong>&mdash;including navigating HOA requirements and Mello-Roos considerations that retail banks often struggle to efficiently process. With nearly every property in the city governed by at least one HOA, working with a broker who understands master-planned community lending requirements is essential for a smooth closing.
+                        Aliso Viejo consistently ranks among Orange County&apos;s most desirable communities, with a median home price of approximately <strong>$895,000 as of February 2026</strong> (Redfin data)&mdash;a 3.2% increase year-over-year&mdash;offering homes from affordable condos starting near $520,000 to luxury single-family residences exceeding $1.6 million. With approximately <strong>21,000 housing units</strong> across one of California&apos;s most meticulously planned communities, Aliso Viejo saw <strong>287 closed transactions in 2025</strong> per the California Association of Realtors. A <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders provides <strong>Aliso Viejo buyers</strong> with competitive pricing and specialized expertise in <strong>master-planned community financing</strong>&mdash;including navigating HOA requirements and Mello-Roos considerations that retail banks often struggle to efficiently process. With nearly every property in the city governed by at least one HOA, working with a broker who understands master-planned community lending requirements is essential for a smooth closing.
                     </p>
                 </div>
 
@@ -299,7 +299,7 @@ export default function AlisoViejoMortgageGuidePage() {
 
                 <h3>What is a wholesale mortgage broker and how does it save Aliso Viejo buyers money?</h3>
                 <p>
-                    A <a href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</a> works with 200+ lenders instead of a single bank, comparing pricing across the entire market to find competitive terms. Because wholesale brokers operate with lower overhead than retail banks, the savings are passed directly to borrowers. For Aliso Viejo buyers, this is especially valuable when navigating condo financing, where lender selection determines approval speed and pricing.
+                    A <a href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</a> works with 50+ Wholesale Lenders instead of a single bank, comparing pricing across the entire market to find competitive terms. Because wholesale brokers operate with lower overhead than retail banks, the savings are passed directly to borrowers. For Aliso Viejo buyers, this is especially valuable when navigating condo financing, where lender selection determines approval speed and pricing.
                 </p>
 
                 <h3>Can I refinance my Aliso Viejo home to access equity?</h3>
@@ -314,7 +314,7 @@ export default function AlisoViejoMortgageGuidePage() {
 
                 <h3>How do I compare mortgage brokers vs. banks for an Aliso Viejo purchase?</h3>
                 <p>
-                    Banks offer their own products at their own pricing. A <a href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</a> shops 200+ lenders for competitive terms tailored to your property type and financial situation. For Aliso Viejo&apos;s condo-heavy market, broker access to multiple lenders with different condo approval requirements provides a measurable advantage over a single bank&apos;s limited product menu.
+                    Banks offer their own products at their own pricing. A <a href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</a> shops 50+ Wholesale Lenders for competitive terms tailored to your property type and financial situation. For Aliso Viejo&apos;s condo-heavy market, broker access to multiple lenders with different condo approval requirements provides a measurable advantage over a single bank&apos;s limited product menu.
                 </p>
 
                 <h3>What are the most popular Aliso Viejo neighborhoods for homebuyers in 2026?</h3>
@@ -345,7 +345,7 @@ export default function AlisoViejoMortgageGuidePage() {
 
                 <h2>Ready to call Aliso Viejo home?</h2>
                 <p>
-                    Aliso Viejo&apos;s master-planned excellence, diverse housing options, and outstanding amenities make it one of South Orange County&apos;s most desirable communities. Working with an experienced wholesale mortgage broker ensures you navigate HOA requirements efficiently while securing competitive financing from 200+ lenders.
+                    Aliso Viejo&apos;s master-planned excellence, diverse housing options, and outstanding amenities make it one of South Orange County&apos;s most desirable communities. Working with an experienced wholesale mortgage broker ensures you navigate HOA requirements efficiently while securing competitive financing from 50+ Wholesale Lenders.
                 </p>
                 <p>
                     Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-600 hover:underline font-semibold">(949) 579-2057</a> for a free consultation and personalized rate comparison for your Aliso Viejo property. Our expertise in master-planned community financing and wholesale lender relationships deliver the most competitive mortgage experience available.

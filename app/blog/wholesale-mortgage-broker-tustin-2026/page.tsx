@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Tustin Wholesale Mortgage Broker | 200+ Lenders | Mo Abdel',
-  description: 'Tustin wholesale mortgage broker with 200+ lender access. Tustin Legacy financing, jumbo loans & competitive rates. NMLS #1426884.',
+  title: 'Tustin Wholesale Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel',
+  description: 'Tustin wholesale mortgage broker with 50+ Wholesale Lenders. Tustin Legacy financing, jumbo loans & competitive rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-tustin-2026',
     languages: {
@@ -21,7 +21,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Tustin Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Tustin Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -49,7 +49,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
                 "name": "What is a wholesale mortgage broker in Tustin?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Tustin is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for borrowers in this growing Orange County community."
+                  "text": "A wholesale mortgage broker in Tustin is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for borrowers in this growing Orange County community."
                 }
               },
               {
@@ -65,7 +65,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
                 "name": "How do Tustin wholesale rates compare to local banks?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 200+ lenders who compete for your business in Tustin."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 50+ Wholesale Lenders who compete for your business in Tustin."
                 }
               },
               {
@@ -91,7 +91,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Tustin Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Tustin Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-lg text-gray-600">
           Access wholesale pricing and Tustin Legacy expertise for Orange County&apos;s fastest-growing community
@@ -101,7 +101,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Tustin homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than local banks. With Tustin median home prices around $1.1 million and the booming Tustin Legacy development, buyers need both conforming and jumbo loan expertise—and that is where wholesale brokers provide the biggest advantage.
+            Tustin homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than local banks. With Tustin median home prices around $1.1 million and the booming Tustin Legacy development, buyers need both conforming and jumbo loan expertise—and that is where wholesale brokers provide the biggest advantage.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>The Wholesale Advantage in Tustin</h3>
         <ul>
-          <li><strong>200+ Lender Access:</strong> More options than any single bank can offer</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank can offer</li>
           <li><strong>New Construction Expertise:</strong> Builder programs for Tustin Legacy</li>
           <li><strong>Rate Shopping:</strong> Lender competition drives better pricing</li>
           <li><strong>Program Variety:</strong> Conforming, jumbo, bank statement, VA loans</li>
@@ -146,7 +146,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
           <li>Up to $1,209,750 (2026 conforming limit)</li>
           <li>3-20% down payment options</li>
           <li>Popular for homes under the conforming limit</li>
-          <li>Rate shopping across 200+ lenders</li>
+          <li>Rate shopping across 50+ Wholesale Lenders</li>
           <li>Conventional 97 for first-time buyers</li>
         </ul>
 
@@ -197,7 +197,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Rate Shopping</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes - Built In</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">New Construction</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple programs</td></tr>
               <tr><td className="py-2 px-4 font-semibold">If Denied</td><td className="py-2 px-4">Start over elsewhere</td><td className="py-2 px-4 text-blue-700 font-semibold">Try another lender same day</td></tr>
             </tbody>
@@ -235,7 +235,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>What is a wholesale mortgage broker in Tustin?</h3>
         <p>
-          A wholesale mortgage broker in Tustin is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for borrowers. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
+          A wholesale mortgage broker in Tustin is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for borrowers. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
         </p>
 
         <h3>Can I get a jumbo loan for Tustin Legacy properties?</h3>
@@ -245,7 +245,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>How do Tustin wholesale rates compare to local banks?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for your business.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for your business.
         </p>
 
         <h3>Are there new construction loan programs for Tustin Legacy?</h3>

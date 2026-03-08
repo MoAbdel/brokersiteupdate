@@ -611,7 +611,7 @@ export default function ReverseMortgageRetirementIncomePlanningPage() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Reverse mortgage specialist</td>
-                <td className="border border-gray-200 px-4 py-2">HECM structuring, product comparison, cost analysis, lender selection from 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">HECM structuring, product comparison, cost analysis, lender selection from 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">What is the optimal HECM structure? What are the total costs? Which lender offers the best terms?</td>
               </tr>
               <tr>

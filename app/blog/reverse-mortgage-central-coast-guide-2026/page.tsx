@@ -42,7 +42,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
   const faqData = [
     {
       question: 'What is the HECM lending limit for Central Coast properties in 2026?',
-      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Central Coast properties valued above this threshold&mdash;common in Montecito, Santa Barbara, and Carpinteria&mdash;qualify for proprietary (jumbo) reverse mortgage programs that access higher equity amounts through Mo Abdel&apos;s network of 200+ wholesale lenders.',
+      answer: 'The 2026 FHA HECM lending limit is $1,209,750. Central Coast properties valued above this threshold&mdash;common in Montecito, Santa Barbara, and Carpinteria&mdash;qualify for proprietary (jumbo) reverse mortgage programs that access higher equity amounts through Mo Abdel&apos;s network of 50+ Wholesale Lenders.',
     },
     {
       question: 'Can I get a reverse mortgage on my Montecito estate?',
@@ -86,7 +86,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
     },
     {
       question: 'What fees are involved in a Central Coast reverse mortgage?',
-      answer: 'Standard HECM fees include an origination fee (up to $6,000), FHA mortgage insurance premium (2% initial, 0.5% annual), appraisal fee ($600-$1,500 for Central Coast properties), and standard closing costs. Mo Abdel&apos;s wholesale pricing through 200+ lenders reduces overall costs compared to retail lenders.',
+      answer: 'Standard HECM fees include an origination fee (up to $6,000), FHA mortgage insurance premium (2% initial, 0.5% annual), appraisal fee ($600-$1,500 for Central Coast properties), and standard closing costs. Mo Abdel&apos;s wholesale pricing through 50+ Wholesale Lenders reduces overall costs compared to retail lenders.',
     },
     {
       question: 'Can fire-damaged or rebuilt Central Coast homes qualify for a reverse mortgage?',
@@ -94,7 +94,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
     },
     {
       question: 'Why should Central Coast seniors use a wholesale broker for reverse mortgages?',
-      answer: 'A wholesale broker like Mo Abdel accesses 200+ lenders simultaneously, comparing HECM and proprietary programs to find the lowest rates and fees for your Central Coast property. Retail lenders offer only their own products. Wholesale access saves Central Coast seniors an average of $3,000-$7,000 over the life of the loan.',
+      answer: 'A wholesale broker like Mo Abdel accesses 50+ Wholesale Lenders simultaneously, comparing HECM and proprietary programs to find the lowest rates and fees for your Central Coast property. Retail lenders offer only their own products. Wholesale access saves Central Coast seniors an average of $3,000-$7,000 over the life of the loan.',
     },
   ];
 
@@ -277,7 +277,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
         <ol>
           <li><strong>Initial consultation with Mo Abdel (Day 1):</strong> Free phone or in-person assessment of your Central Coast property, equity position, and financial goals. We review your property value, existing mortgage balance, age, and desired payout method to determine preliminary eligibility and estimated proceeds.</li>
           <li><strong>HUD-approved counseling session (Days 2&ndash;14):</strong> Federal law requires all HECM applicants to complete a counseling session with an independent HUD-approved counselor. This session covers reverse mortgage mechanics, alternatives, and obligations. Phone and video sessions are available for Central Coast residents.</li>
-          <li><strong>Formal application submission (Day 15):</strong> Submit your application along with required documentation including government-issued ID, proof of age, property deed, and recent financial statements. Mo Abdel&apos;s team handles the paperwork and submits to the optimal lender from our 200+ wholesale network.</li>
+          <li><strong>Formal application submission (Day 15):</strong> Submit your application along with required documentation including government-issued ID, proof of age, property deed, and recent financial statements. Mo Abdel&apos;s team handles the paperwork and submits to the optimal lender from our 50+ Wholesale Lenders.</li>
           <li><strong>Property appraisal (Days 16&ndash;25):</strong> A certified FHA appraiser inspects and values your Central Coast property. Montecito and Santa Barbara luxury properties often require appraisers with specific high-value experience. The appraised value determines your maximum proceeds.</li>
           <li><strong>Financial assessment and underwriting (Days 20&ndash;35):</strong> The lender verifies your ability to maintain property taxes, homeowner&apos;s insurance, and property maintenance. Credit history is reviewed, though reverse mortgages have more flexible credit requirements than traditional loans.</li>
           <li><strong>Loan approval and closing disclosure (Days 30&ndash;40):</strong> Upon approval, you receive detailed closing documents including final loan terms, interest rate, and total proceeds. A mandatory 3-day cooling-off period allows review before closing.</li>
@@ -466,7 +466,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
           Reverse mortgage decisions require a broker who understands both the financial product and the local market. Mo Abdel brings specific advantages to Central Coast seniors:
         </p>
         <ul>
-          <li><strong>200+ wholesale lender access:</strong> Compare HECM and proprietary programs simultaneously to find the lowest rate and lowest fees for your Central Coast property. Retail lenders offer only their own products&mdash;limiting your options and typically costing $3,000&ndash;$7,000 more over the loan&apos;s lifetime.</li>
+          <li><strong>50+ Wholesale Lenders:</strong> Compare HECM and proprietary programs simultaneously to find the lowest rate and lowest fees for your Central Coast property. Retail lenders offer only their own products&mdash;limiting your options and typically costing $3,000&ndash;$7,000 more over the loan&apos;s lifetime.</li>
           <li><strong>Central Coast market knowledge:</strong> Accurate property valuations require understanding neighborhood-level dynamics. The difference between a Mesa home and a Riviera home in Santa Barbara, or a Westside versus Eastside Paso Robles property, significantly affects reverse mortgage proceeds.</li>
           <li><strong>Luxury property expertise:</strong> Montecito estates and Santa Barbara waterfront properties require lenders who underwrite $5M+ properties. Mo Abdel&apos;s wholesale network includes specialized jumbo reverse mortgage lenders who serve the ultra-luxury segment.</li>
           <li><strong>California and Washington licensing:</strong> Seniors with properties in both states work with a single broker for all reverse mortgage needs. Mo Abdel holds CA DRE #02291443 and is licensed in WA.</li>
@@ -542,7 +542,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
           In our Central Coast practice, we have observed that the combination of rising property values and stabilizing interest rates creates a favorable environment for reverse mortgage applicants. Montecito and Santa Barbara properties that appreciated 25&ndash;31% over four years provide significantly more equity than the same properties would have yielded in 2022 or 2023.
         </p>
         <p>
-          Based on Mo Abdel&apos;s rate analysis across our 200+ lender network, Central Coast seniors who shop through a wholesale broker receive rates 0.25&ndash;0.50% below what retail lenders offer. On a $500,000 reverse mortgage balance, this rate difference reduces total interest accrual by $15,000&ndash;$30,000 over 10 years. The wholesale advantage is real and measurable.
+          Based on Mo Abdel&apos;s rate analysis across our 50+ Wholesale Lenders, Central Coast seniors who shop through a wholesale broker receive rates 0.25&ndash;0.50% below what retail lenders offer. On a $500,000 reverse mortgage balance, this rate difference reduces total interest accrual by $15,000&ndash;$30,000 over 10 years. The wholesale advantage is real and measurable.
         </p>
 
         {/* Heir Planning Section */}
@@ -570,7 +570,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
         <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 mt-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Get Your Free Central Coast Reverse Mortgage Assessment</h2>
           <p className="text-gray-700">
-            Central Coast homeowners from Montecito to Cambria hold billions in untapped equity. Whether your property is a $8.5 million Montecito estate or a $800,000 Paso Robles ranch home, Mo Abdel&apos;s wholesale access to 200+ lenders ensures you receive the most competitive reverse mortgage terms available in 2026.
+            Central Coast homeowners from Montecito to Cambria hold billions in untapped equity. Whether your property is a $8.5 million Montecito estate or a $800,000 Paso Robles ranch home, Mo Abdel&apos;s wholesale access to 50+ Wholesale Lenders ensures you receive the most competitive reverse mortgage terms available in 2026.
           </p>
           <p className="text-gray-700">
             <strong>Contact Mo Abdel today:</strong>

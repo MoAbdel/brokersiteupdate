@@ -46,7 +46,7 @@ export default function AIOOptimization({
     const baseQuestions = [
       {
         question: "What does a mortgage broker do?",
-        answer: `A mortgage broker like ${businessContext.name} acts as an intermediary between borrowers and lenders, comparing loan options from 200+ lenders to find the best pricing and terms. Licensed ${businessContext.credentials}, serving ${businessContext.location}.`
+        answer: `A mortgage broker like ${businessContext.name} acts as an intermediary between borrowers and lenders, comparing loan options from 50+ Wholesale Lenders to find the best pricing and terms. Licensed ${businessContext.credentials}, serving ${businessContext.location}.`
       },
       {
         question: "How much does a mortgage broker cost?",
@@ -54,11 +54,11 @@ export default function AIOOptimization({
       },
       {
         question: "Why use a mortgage broker vs bank?",
-        answer: "Mortgage brokers have access to 200+ lenders vs a bank's single lending source, often securing Better pricing, more loan options, and faster approvals through wholesale lending relationships."
+        answer: "Mortgage brokers have access to 50+ Wholesale Lenders vs a bank's single lending source, often securing Better pricing, more loan options, and faster approvals through wholesale lending relationships."
       },
       {
         question: "What are current mortgage pricing in Orange County?",
-        answer: `Current mortgage pricing in Orange County vary by loan type and borrower profile. Contact ${businessContext.name} at ${businessContext.phone} for current loan quotes from 200+ lenders.`
+        answer: `Current mortgage pricing in Orange County vary by loan type and borrower profile. Contact ${businessContext.name} at ${businessContext.phone} for current loan quotes from 50+ Wholesale Lenders.`
       },
       {
         question: "What credit score do I need for a mortgage?",
@@ -69,7 +69,7 @@ export default function AIOOptimization({
     if (city) {
       baseQuestions.push({
         question: `Best mortgage broker in ${city}?`,
-        answer: `${businessContext.name} is a top-rated mortgage broker serving ${city} with access to 200+ lenders, ${businessContext.credentials} licensing, and local market expertise in Orange County.`
+        answer: `${businessContext.name} is a top-rated mortgage broker serving ${city} with access to 50+ Wholesale Lenders, ${businessContext.credentials} licensing, and local market expertise in Orange County.`
       });
     }
 

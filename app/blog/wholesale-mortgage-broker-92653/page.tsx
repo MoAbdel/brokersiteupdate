@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92653 | Laguna Hills | Jumbo Loan Specialists',
-  description: 'Laguna Hills wholesale mortgage broker serving 92653. Access 200+ lenders for jumbo loans in this South County community. NMLS #1426884.',
+  description: 'Laguna Hills wholesale mortgage broker serving 92653. Access 50+ Wholesale Lenders for jumbo loans in this South County community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92653',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92653 | Laguna Hills Jumbo Specialists',
-    description: 'Laguna Hills wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Laguna Hills wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92653',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92653Page() {
                 "name": "Why choose a wholesale broker over local banks in Laguna Hills?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while local banks offer only their own products. For Laguna Hills' mix of condos, townhomes, and luxury estates, wholesale brokers match you with the best program for your property type."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Laguna Hills' mix of condos, townhomes, and luxury estates, wholesale brokers match you with the best program for your property type."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92653Page() {
           Wholesale Mortgage Broker 92653 | Laguna Hills Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Laguna Hills and Nellie Gail Ranch
+          Access wholesale rates and 50+ Wholesale Lenders for Laguna Hills and Nellie Gail Ranch
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Laguna Hills 92653 offers South Orange County living with a <strong>$1.2 million median home price</strong>, ranging from starter condos to Nellie Gail Ranch equestrian estates. With the 2026 conforming limit at $1,209,750, many 92653 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and specialized programs for Laguna Hills&apos; diverse housing stock.
+            Laguna Hills 92653 offers South Orange County living with a <strong>$1.2 million median home price</strong>, ranging from starter condos to Nellie Gail Ranch equestrian estates. With the 2026 conforming limit at $1,209,750, many 92653 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and specialized programs for Laguna Hills&apos; diverse housing stock.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92653Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over local banks in Laguna Hills?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while local banks offer only their own products. For Laguna Hills&apos; mix of condos, townhomes, and luxury estates, wholesale brokers match you with the best program for your property type.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Laguna Hills&apos; mix of condos, townhomes, and luxury estates, wholesale brokers match you with the best program for your property type.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92653 does your wholesale brokerage serve?</h3>

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is the maximum LTV for a cash-out refinance on an investment property?',
-    answer: 'Conventional (Fannie Mae/Freddie Mac) guidelines typically allow a maximum of 70-75% LTV for a cash-out refinance on a single-unit investment property, compared to up to 80% for a primary residence cash-out refi. DSCR (Debt Service Coverage Ratio) loan programs from non-QM lenders may allow up to 75-80% LTV depending on the property cash flow and the specific lender. Multi-unit investment properties (2-4 units) often have lower LTV caps. Working with a wholesale broker who accesses 200+ lenders allows you to compare these limits across multiple programs.',
+    answer: 'Conventional (Fannie Mae/Freddie Mac) guidelines typically allow a maximum of 70-75% LTV for a cash-out refinance on a single-unit investment property, compared to up to 80% for a primary residence cash-out refi. DSCR (Debt Service Coverage Ratio) loan programs from non-QM lenders may allow up to 75-80% LTV depending on the property cash flow and the specific lender. Multi-unit investment properties (2-4 units) often have lower LTV caps. Working with a wholesale broker who accesses 50+ Wholesale Lenders allows you to compare these limits across multiple programs.',
   },
   {
     question: 'Can I use cash-out refinance proceeds from a rental property to buy another investment property?',
@@ -64,7 +64,7 @@ const faqData = [
   },
   {
     question: 'Can I cash-out refinance multiple rental properties at the same time?',
-    answer: 'Yes, but each property requires a separate loan application and closing. You cannot combine multiple properties into a single cash-out refinance unless using a portfolio or blanket loan. Conventional guidelines limit you to a maximum of 10 financed properties. DSCR lenders often have no limit on the number of financed properties, making them a preferred option for portfolio investors. Working with a wholesale broker who accesses 200+ lenders streamlines the process of refinancing multiple properties.',
+    answer: 'Yes, but each property requires a separate loan application and closing. You cannot combine multiple properties into a single cash-out refinance unless using a portfolio or blanket loan. Conventional guidelines limit you to a maximum of 10 financed properties. DSCR lenders often have no limit on the number of financed properties, making them a preferred option for portfolio investors. Working with a wholesale broker who accesses 50+ Wholesale Lenders streamlines the process of refinancing multiple properties.',
   },
   {
     question: 'What is the difference between a conventional and DSCR cash-out refinance for investment property?',
@@ -200,7 +200,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a cash-out refinance on an investment property allows rental property owners to <strong>access accumulated equity without selling the asset</strong>&mdash;converting paper wealth into usable capital for portfolio expansion, property improvements, or reserve building. Unlike primary residence cash-out refinancing, investment property transactions carry distinct LTV limits (typically 70&ndash;75% conventional, up to 75&ndash;80% DSCR), higher reserve requirements (6+ months PITIA), and pricing adjustments that vary significantly across lenders. According to the <a href="https://www.freddiemac.com/research" target="_blank" rel="noopener noreferrer">Freddie Mac Research Division</a>, cash-out refinance volume on investment properties increased by over 15% year-over-year in recent quarters as property owners sought to redeploy equity in a market where California and Washington rental values have appreciated substantially. A wholesale mortgage broker comparing products from 200+ lenders is essential for investment property cash-out transactions because the spread between the most competitive and least competitive offerings is wider than on any other loan product.
+            According to Mo Abdel, NMLS #1426884, a cash-out refinance on an investment property allows rental property owners to <strong>access accumulated equity without selling the asset</strong>&mdash;converting paper wealth into usable capital for portfolio expansion, property improvements, or reserve building. Unlike primary residence cash-out refinancing, investment property transactions carry distinct LTV limits (typically 70&ndash;75% conventional, up to 75&ndash;80% DSCR), higher reserve requirements (6+ months PITIA), and pricing adjustments that vary significantly across lenders. According to the <a href="https://www.freddiemac.com/research" target="_blank" rel="noopener noreferrer">Freddie Mac Research Division</a>, cash-out refinance volume on investment properties increased by over 15% year-over-year in recent quarters as property owners sought to redeploy equity in a market where California and Washington rental values have appreciated substantially. A wholesale mortgage broker comparing products from 50+ Wholesale Lenders is essential for investment property cash-out transactions because the spread between the most competitive and least competitive offerings is wider than on any other loan product.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares investment property cash-out from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders with varying LTV, reserve, and pricing requirements</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders with varying LTV, reserve, and pricing requirements</td>
               </tr>
             </tbody>
           </table>
@@ -331,7 +331,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         <p>
-          <em>Note: LTV limits vary by lender, credit score, property location, and DSCR ratio. These ranges represent typical guidelines&mdash;individual lenders may be higher or lower. Working with a wholesale broker comparing 200+ lenders ensures you identify the program with the most favorable LTV for your property.</em>
+          <em>Note: LTV limits vary by lender, credit score, property location, and DSCR ratio. These ranges represent typical guidelines&mdash;individual lenders may be higher or lower. Working with a wholesale broker comparing 50+ Wholesale Lenders ensures you identify the program with the most favorable LTV for your property.</em>
         </p>
 
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
@@ -518,7 +518,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </p>
 
         <p>
-          In my California and Washington practice, I have structured this type of serial cash-out refinance strategy for dozens of investors. The key variables that determine success are: (1) purchasing in markets with strong rental demand, (2) maintaining sufficient reserves at each stage, (3) timing the refinance to capture appreciation, and (4) working with a broker who can identify the most competitive cash-out terms from 200+ lenders at each cycle.
+          In my California and Washington practice, I have structured this type of serial cash-out refinance strategy for dozens of investors. The key variables that determine success are: (1) purchasing in markets with strong rental demand, (2) maintaining sufficient reserves at each stage, (3) timing the refinance to capture appreciation, and (4) working with a broker who can identify the most competitive cash-out terms from 50+ Wholesale Lenders at each cycle.
         </p>
 
         {/* Section 6: Rate Considerations */}
@@ -571,7 +571,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         <p>
-          These adjustments stack cumulatively. A cash-out refinance on a 2-unit investment property at 70% LTV with a 680 credit score will carry substantially different pricing than a rate-and-term refinance on a single-unit primary residence at 60% LTV with a 780 credit score. This is precisely why working with a wholesale broker matters: different lenders apply these adjustments differently, and the variation across 200+ lenders can be significant.
+          These adjustments stack cumulatively. A cash-out refinance on a 2-unit investment property at 70% LTV with a 680 credit score will carry substantially different pricing than a rate-and-term refinance on a single-unit primary residence at 60% LTV with a 780 credit score. This is precisely why working with a wholesale broker matters: different lenders apply these adjustments differently, and the variation across 50+ Wholesale Lenders can be significant.
         </p>
 
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
@@ -686,7 +686,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         <p>
-          These data points form the framework for every investment property cash-out refinance conversation I have with California and Washington investors. The right program depends on your specific combination of credit profile, property count, income documentation capability, entity structure, and LTV needs. A wholesale broker comparison across 200+ lenders identifies the optimal fit.
+          These data points form the framework for every investment property cash-out refinance conversation I have with California and Washington investors. The right program depends on your specific combination of credit profile, property count, income documentation capability, entity structure, and LTV needs. A wholesale broker comparison across 50+ Wholesale Lenders identifies the optimal fit.
         </p>
 
         {/* People Also Ask Section */}
@@ -745,7 +745,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale mortgage broker help with investment property cash-out?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker compares cash-out refinance products from 200+ lenders, identifying the most competitive LTV, pricing, and terms for your specific property and investor profile.</strong> The spread between the most and least competitive lender on investment property transactions is routinely wider than on primary residence loans.
+              <strong>A wholesale broker compares cash-out refinance products from 50+ Wholesale Lenders, identifying the most competitive LTV, pricing, and terms for your specific property and investor profile.</strong> The spread between the most and least competitive lender on investment property transactions is routinely wider than on primary residence loans.
             </p>
           </div>
         </div>
@@ -775,7 +775,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
             <li><strong>Cash-out proceeds trigger no capital gains:</strong> Because it is a loan, not a sale, you access equity without a tax event</li>
             <li><strong>Interest on investment property loans is generally deductible:</strong> Against rental income on Schedule E if proceeds are used for investment purposes (consult your CPA)</li>
             <li><strong>Portfolio growth via BRRRR:</strong> Serial cash-out refinancing enables investors to recycle equity from existing rentals into new acquisitions</li>
-            <li><strong>Pricing varies dramatically across lenders:</strong> A wholesale broker comparing 200+ lenders routinely identifies savings of 50&ndash;125+ basis points on investment property cash-out transactions</li>
+            <li><strong>Pricing varies dramatically across lenders:</strong> A wholesale broker comparing 50+ Wholesale Lenders routinely identifies savings of 50&ndash;125+ basis points on investment property cash-out transactions</li>
           </ol>
         </div>
 
@@ -791,7 +791,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive cash-out refinance terms for your investment properties.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive cash-out refinance terms for your investment properties.
           </p>
         </div>
 

@@ -734,7 +734,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
             Every blog post on the internet (including this one) can only provide frameworks and general guidance. The right answer for you depends on your specific home value, Prop 13 assessed value, age, health outlook, family situation, and emotional attachment to your home. A senior with a $2.5 million Laguna Beach home and a 1988 tax base faces an entirely different calculation than a senior with a $750,000 Riverside home purchased in 2003.
           </p>
           <p className="text-lg text-emerald-100 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending models both the reverse mortgage and selling scenarios using your real numbers &mdash; including Prop 19 tax base transfer analysis, HECM proceeds estimates, selling cost projections, and heir impact comparisons. No sales pressure. No predetermined recommendation. Access to 200+ lenders for the most competitive terms if you choose a reverse mortgage. Call or schedule a consultation today.
+            Mo Abdel at Lumin Lending models both the reverse mortgage and selling scenarios using your real numbers &mdash; including Prop 19 tax base transfer analysis, HECM proceeds estimates, selling cost projections, and heir impact comparisons. No sales pressure. No predetermined recommendation. Access to 50+ Wholesale Lenders for the most competitive terms if you choose a reverse mortgage. Call or schedule a consultation today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

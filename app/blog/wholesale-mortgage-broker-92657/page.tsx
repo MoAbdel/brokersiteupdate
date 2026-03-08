@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92657 | Newport Coast | Jumbo Loan Specialists',
-  description: 'Newport Coast wholesale mortgage broker serving 92657. Access 200+ lenders for jumbo loans up to $10M+, asset depletion programs & better rates. NMLS #1426884.',
+  description: 'Newport Coast wholesale mortgage broker serving 92657. Access 50+ Wholesale Lenders for jumbo loans up to $10M+, asset depletion programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92657',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92657 | Newport Coast Jumbo Loan Specialists',
-    description: 'Newport Coast wholesale mortgage broker with 200+ lenders for jumbo loans up to $10M+.',
+    description: 'Newport Coast wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $10M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92657',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBroker92657Page() {
                 "name": "Why choose a wholesale mortgage broker over Wells Fargo Private Bank in Newport Coast?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker accesses 200+ lenders competing for your business, while Wells Fargo Private Bank offers only their own products. On a $5 million Newport Coast jumbo loan, this competitive access typically yields better rates, more flexible underwriting, and faster closings."
+                  "text": "A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, while Wells Fargo Private Bank offers only their own products. On a $5 million Newport Coast jumbo loan, this competitive access typically yields better rates, more flexible underwriting, and faster closings."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92657Page() {
           Wholesale Mortgage Broker 92657 | Newport Coast Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Newport Coast&apos;s luxury real estate market
+          Access wholesale rates and 50+ Wholesale Lenders for Newport Coast&apos;s luxury real estate market
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Coast 92657 represents Orange County&apos;s most exclusive real estate market with a <strong>$6.8 million median home price</strong>. When the 2026 conforming loan limit of $1,209,750 covers less than 17% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 200+ jumbo lenders—not a bank limited to a single product menu. On a $5 million loan, our wholesale access regularly secures <strong>better rates than Wells Fargo Private Bank, First Republic, or Chase Private Client</strong> can offer.
+            Newport Coast 92657 represents Orange County&apos;s most exclusive real estate market with a <strong>$6.8 million median home price</strong>. When the 2026 conforming loan limit of $1,209,750 covers less than 17% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders—not a bank limited to a single product menu. On a $5 million loan, our wholesale access regularly secures <strong>better rates than Wells Fargo Private Bank, First Republic, or Chase Private Client</strong> can offer.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92657Page() {
 
         <h3>The Conforming Loan Gap</h3>
         <p>
-          The 2026 conforming loan limit sits at $1,209,750—adequate for most California markets but irrelevant for Newport Coast. With a $6.8M median price, the typical 92657 buyer needs a <strong>jumbo loan of $5-6 million</strong> after their down payment. Banks like Wells Fargo, First Republic, and Chase offer jumbo products, but they&apos;re competing only with themselves. A wholesale broker forces <strong>200+ lenders to compete</strong> for your business.
+          The 2026 conforming loan limit sits at $1,209,750—adequate for most California markets but irrelevant for Newport Coast. With a $6.8M median price, the typical 92657 buyer needs a <strong>jumbo loan of $5-6 million</strong> after their down payment. Banks like Wells Fargo, First Republic, and Chase offer jumbo products, but they&apos;re competing only with themselves. A wholesale broker forces <strong>50+ Wholesale Lenders to compete</strong> for your business.
         </p>
 
         <h2>92657 Real Estate Snapshot</h2>
@@ -272,7 +272,7 @@ export default function WholesaleMortgageBroker92657Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker over Wells Fargo Private Bank in Newport Coast?</h3>
-            <p className="mb-0">A wholesale mortgage broker accesses 200+ lenders competing for your business, while Wells Fargo Private Bank offers only their own products. On a $5 million Newport Coast jumbo loan, this competitive access typically yields better rates, more flexible underwriting, and faster closings.</p>
+            <p className="mb-0">A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, while Wells Fargo Private Bank offers only their own products. On a $5 million Newport Coast jumbo loan, this competitive access typically yields better rates, more flexible underwriting, and faster closings.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer asset depletion loans in 92657?</h3>

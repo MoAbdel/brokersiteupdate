@@ -129,7 +129,7 @@ export default function RefinanceClosingCostsPage() {
                 "name": "Can a wholesale broker reduce my refinance closing costs?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale mortgage brokers access institutional pricing from 200+ lenders, creating competition that frequently results in lender credits, reduced origination fees, and lower overall cost-to-rate structures compared to retail bank pricing."
+                  "text": "Yes. Wholesale mortgage brokers access institutional pricing from 50+ Wholesale Lenders, creating competition that frequently results in lender credits, reduced origination fees, and lower overall cost-to-rate structures compared to retail bank pricing."
                 }
               }
             ]
@@ -156,7 +156,7 @@ export default function RefinanceClosingCostsPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Refinance closing costs typically range from <strong>2-5% of the loan amount</strong>, covering lender fees, title services, government recording, and prepaid items. On a $500,000 refinance, expect $10,000-$25,000 in total costs. According to the Mortgage Bankers Association, <strong>refinance originations represented 31% of all mortgage volume in January 2026</strong>, as homeowners increasingly recalibrate their financing strategies. A 2026 ICE Mortgage Technology study found that borrowers who compared quotes from three or more lenders saved an average of <strong>$1,500 in closing costs</strong> compared to those who accepted the first offer. Understanding each fee line item empowers you to negotiate, shop title insurance, and choose between rolling costs into the loan or paying upfront &mdash; and working with a wholesale broker who compares across 200+ lenders amplifies those savings further.
+            Refinance closing costs typically range from <strong>2-5% of the loan amount</strong>, covering lender fees, title services, government recording, and prepaid items. On a $500,000 refinance, expect $10,000-$25,000 in total costs. According to the Mortgage Bankers Association, <strong>refinance originations represented 31% of all mortgage volume in January 2026</strong>, as homeowners increasingly recalibrate their financing strategies. A 2026 ICE Mortgage Technology study found that borrowers who compared quotes from three or more lenders saved an average of <strong>$1,500 in closing costs</strong> compared to those who accepted the first offer. Understanding each fee line item empowers you to negotiate, shop title insurance, and choose between rolling costs into the loan or paying upfront &mdash; and working with a wholesale broker who compares across 50+ Wholesale Lenders amplifies those savings further.
           </p>
         </div>
 
@@ -412,7 +412,7 @@ export default function RefinanceClosingCostsPage() {
 
         <h3>Can a wholesale broker reduce my refinance closing costs?</h3>
         <p>
-          Yes. Wholesale mortgage brokers access institutional pricing from 200+ lenders, creating competition for your refinance. This competition frequently results in lender credits that offset closing costs, reduced origination fees, and lower overall cost-to-rate structures. Because wholesale brokers do not carry the overhead costs of bank branch networks and advertising budgets, those savings pass through to borrowers in the form of more competitive closing cost packages.
+          Yes. Wholesale mortgage brokers access institutional pricing from 50+ Wholesale Lenders, creating competition for your refinance. This competition frequently results in lender credits that offset closing costs, reduced origination fees, and lower overall cost-to-rate structures. Because wholesale brokers do not carry the overhead costs of bank branch networks and advertising budgets, those savings pass through to borrowers in the form of more competitive closing cost packages.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

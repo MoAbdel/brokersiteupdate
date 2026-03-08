@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: 'How long does the trust review process take for a HECM?',
-    answer: 'The trust review process typically takes 5 to 15 business days depending on the lender and the complexity of the trust. Simple revocable living trusts with standard language may clear review in 5 to 7 business days. Trusts with unusual provisions, multiple amendments, or complex beneficiary structures may take 10 to 15 business days. Some wholesale lenders have dedicated trust review departments that process reviews faster than others. Working with a broker who has access to 200+ lenders allows you to route trust-heavy files to lenders with faster trust review teams.',
+    answer: 'The trust review process typically takes 5 to 15 business days depending on the lender and the complexity of the trust. Simple revocable living trusts with standard language may clear review in 5 to 7 business days. Trusts with unusual provisions, multiple amendments, or complex beneficiary structures may take 10 to 15 business days. Some wholesale lenders have dedicated trust review departments that process reviews faster than others. Working with a broker who has access to 50+ Wholesale Lenders allows you to route trust-heavy files to lenders with faster trust review teams.',
   },
   {
     question: 'Can both spouses be borrowers if the home is in a trust?',
@@ -74,7 +74,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker help with trust-held HECM transactions?',
-    answer: 'A wholesale mortgage broker with access to 200+ lenders provides significant advantages for trust-held HECM transactions. Different lenders have different trust review capabilities: some have dedicated trust review departments that complete reviews in 5 business days, while others may take 15+ business days or lack trust review expertise entirely. Some lenders are more flexible with non-standard trust provisions, while others reject anything outside a narrow template. A wholesale broker can match the specific trust structure to the lender best equipped to handle it, reducing delays and avoiding unnecessary trust amendments or property transfers.',
+    answer: 'A wholesale mortgage broker with access to 50+ Wholesale Lenders provides significant advantages for trust-held HECM transactions. Different lenders have different trust review capabilities: some have dedicated trust review departments that complete reviews in 5 business days, while others may take 15+ business days or lack trust review expertise entirely. Some lenders are more flexible with non-standard trust provisions, while others reject anything outside a narrow template. A wholesale broker can match the specific trust structure to the lender best equipped to handle it, reducing delays and avoiding unnecessary trust amendments or property transfers.',
   },
   {
     question: 'What if my trust was amended after the original creation—does that affect HECM eligibility?',
@@ -231,7 +231,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
                 <td className="border border-gray-200 px-4 py-2">HECM because the grantor has relinquished property ownership and control</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">matches trust-held files to</td>
                 <td className="border border-gray-200 px-4 py-2">lenders with dedicated trust review departments for faster processing</td>
               </tr>
@@ -261,7 +261,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Navigating Trust-Held HECM Transactions</h3>
           <p className="text-blue-800 mb-0">
-            In my California and Washington HECM practice, trust-held properties represent approximately 40% of all reverse mortgage applications I process for borrowers over age 70. The vast majority are revocable living trusts established by estate planning attorneys as part of standard probate avoidance strategies. The most common issue I encounter is not eligibility&mdash;it is timing. Lenders with inexperienced trust review departments can delay a HECM closing by 2&ndash;3 weeks while they analyze trust provisions. I have learned which lenders in my 200+ wholesale network have dedicated trust review teams that turn around reviews in 5 business days versus 15. That difference matters when a 78-year-old borrower is waiting to access their home equity. Routing the file to the right lender from the start eliminates unnecessary delays. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            In my California and Washington HECM practice, trust-held properties represent approximately 40% of all reverse mortgage applications I process for borrowers over age 70. The vast majority are revocable living trusts established by estate planning attorneys as part of standard probate avoidance strategies. The most common issue I encounter is not eligibility&mdash;it is timing. Lenders with inexperienced trust review departments can delay a HECM closing by 2&ndash;3 weeks while they analyze trust provisions. I have learned which lenders in my 50+ Wholesale Lenders have dedicated trust review teams that turn around reviews in 5 business days versus 15. That difference matters when a 78-year-old borrower is waiting to access their home equity. Routing the file to the right lender from the start eliminates unnecessary delays. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -492,7 +492,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </div>
 
         <p>
-          The trust review timeline is one of the primary reasons I recommend working with a <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">wholesale mortgage broker for HECM transactions</Link>. A broker with access to 200+ lenders can route your trust-held file to a lender whose trust review team handles your specific trust type efficiently. This routing decision alone can save 1&ndash;2 weeks on your overall closing timeline.
+          The trust review timeline is one of the primary reasons I recommend working with a <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">wholesale mortgage broker for HECM transactions</Link>. A broker with access to 50+ Wholesale Lenders can route your trust-held file to a lender whose trust review team handles your specific trust type efficiently. This routing decision alone can save 1&ndash;2 weeks on your overall closing timeline.
         </p>
 
         {/* Section 5: Trust Type Matrix */}
@@ -600,7 +600,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage: Trust-Friendly HECM Lenders</h2>
 
         <p>
-          Not all HECM lenders handle trust-held properties with the same level of expertise. This is where a wholesale mortgage broker&apos;s access to 200+ lenders provides a measurable advantage for borrowers with trust-held homes.
+          Not all HECM lenders handle trust-held properties with the same level of expertise. This is where a wholesale mortgage broker&apos;s access to 50+ Wholesale Lenders provides a measurable advantage for borrowers with trust-held homes.
         </p>
 
         <h3>Why Lender Selection Matters for Trust-Held HECM Transactions</h3>
@@ -626,7 +626,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
           <p className="text-green-900 font-bold text-xl mb-1">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
-          <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | 200+ wholesale lenders</p>
+          <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | 50+ Wholesale Lenders</p>
         </div>
 
         {/* Data Comparison Hub */}
@@ -759,14 +759,14 @@ export default function HecmTrustOwnershipRequirementsPage() {
             <li><strong>You generally do NOT need to remove your home from a revocable trust</strong> to get a HECM&mdash;trust-friendly lenders close with the property remaining in the trust, avoiding unnecessary costs.</li>
             <li><strong>A-B trusts require careful analysis</strong> to determine which sub-trust holds the property after the first spouse&apos;s death. The revocable &ldquo;A&rdquo; trust may qualify; the irrevocable &ldquo;B&rdquo; trust generally does not.</li>
             <li><strong>Community property trusts in CA and WA</strong> are generally compatible with HECM lending when the trust is also revocable&mdash;preserving both estate planning and tax benefits.</li>
-            <li><strong>A wholesale broker with 200+ lenders</strong> matches your specific trust type to the lender best equipped to handle it, reducing review time and avoiding unnecessary trust amendments.</li>
+            <li><strong>A wholesale broker with 50+ Wholesale Lenders</strong> matches your specific trust type to the lender best equipped to handle it, reducing review time and avoiding unnecessary trust amendments.</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get a Free Trust-Held HECM Eligibility Analysis</h3>
           <p className="text-green-800 text-lg mb-4">
-            Send me your trust certification or abstract and I will determine HECM eligibility before you invest time in the full application. I will match your trust structure to the lender in my 200+ wholesale network best equipped to handle it&mdash;saving you weeks of review time and avoiding unnecessary costs.
+            Send me your trust certification or abstract and I will determine HECM eligibility before you invest time in the full application. I will match your trust structure to the lender in my 50+ Wholesale Lenders best equipped to handle it&mdash;saving you weeks of review time and avoiding unnecessary costs.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -775,7 +775,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. Licensed in CA and WA. I work with 200+ wholesale lenders including the most trust-friendly HECM originators in the market.
+            Free consultation. Licensed in CA and WA. I work with 50+ Wholesale Lenders including the most trust-friendly HECM originators in the market.
           </p>
         </div>
 

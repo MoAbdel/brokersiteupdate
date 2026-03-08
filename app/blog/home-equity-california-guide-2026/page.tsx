@@ -481,7 +481,7 @@ export default function HomeEquityCaliforniaGuide2026() {
               As a licensed mortgage broker (NMLS #1426884) with Lumin Lending (NMLS #2716106, DRE #02291443), Mo Abdel structures home equity solutions for California homeowners across the full property value spectrum. From $200,000 HELOCs on Sacramento suburban homes to $1 million+ jumbo HELOCs on Bay Area Peninsula estates, each transaction receives a customized analysis comparing all available options.
             </p>
             <p>
-              Mo&apos;s wholesale broker model provides access to over 200 lender partners, each with different qualifying criteria, rate structures, and specialty programs. This depth of access means California homeowners receive multiple competitive offers rather than a single take-it-or-leave-it option from their retail bank. The result is better rates, higher credit limits, and more flexible qualification requirements for every borrower profile.
+              Mo&apos;s wholesale broker model provides access to 50+ Wholesale Lenders, each with different qualifying criteria, rate structures, and specialty programs. This depth of access means California homeowners receive multiple competitive offers rather than a single take-it-or-leave-it option from their retail bank. The result is better rates, higher credit limits, and more flexible qualification requirements for every borrower profile.
             </p>
           </div>
 
@@ -658,7 +658,7 @@ export default function HomeEquityCaliforniaGuide2026() {
               The current rate environment makes rate preservation critical. If you secured a first mortgage rate between 2019 and 2022, a HELOC or HELOAN maintains that low rate while adding a separate equity access point. For homeowners with above-market first mortgage rates, a cash-out refinance may provide both equity access and monthly payment savings.
             </p>
             <p className="text-gray-800">
-              As a wholesale mortgage broker, Mo Abdel accesses over 200 lender partners offering competitive HELOC, HELOAN, and cash-out refinance programs. This includes jumbo equity programs for high-value properties, bank statement programs for self-employed borrowers, and investment property HELOCs for real estate investors.
+              As a wholesale mortgage broker, Mo Abdel accesses 50+ Wholesale Lenders offering competitive HELOC, HELOAN, and cash-out refinance programs. This includes jumbo equity programs for high-value properties, bank statement programs for self-employed borrowers, and investment property HELOCs for real estate investors.
             </p>
             <p className="text-gray-800 font-semibold">
               Ready to explore your California home equity options? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a complimentary equity analysis covering HELOC, HELOAN, and cash-out refinance scenarios tailored to your property and financial goals.

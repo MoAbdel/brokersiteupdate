@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]',
-  description: 'Reverse mortgage Seattle Eastside guide for seniors 62+ in Medina, Bellevue, Mercer Island, Kirkland & 10 more cities. HECM & jumbo options with 200+ lenders. NMLS #1426884.',
+  description: 'Reverse mortgage Seattle Eastside guide for seniors 62+ in Medina, Bellevue, Mercer Island, Kirkland & 10 more cities. HECM & jumbo options with 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'reverse mortgage Seattle Eastside',
     'HECM Seattle Eastside',
@@ -188,7 +188,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
         name: 'Why should I use a wholesale mortgage broker for my Eastside reverse mortgage?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker accesses 200+ lenders to find the best reverse mortgage terms for your situation. This is especially valuable on the Eastside where home values often exceed HECM limits, because brokers can compare jumbo proprietary products from multiple lenders to maximize your proceeds and minimize costs.',
+          text: 'A wholesale broker accesses 50+ Wholesale Lenders to find the best reverse mortgage terms for your situation. This is especially valuable on the Eastside where home values often exceed HECM limits, because brokers can compare jumbo proprietary products from multiple lenders to maximize your proceeds and minimize costs.',
         },
       },
     ],
@@ -277,7 +277,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Seattle Eastside represents one of the wealthiest residential corridors in the United States, with King County seniors holding an estimated $47.2 billion in tappable home equity as of Q1 2026. From the billionaire estates of Medina and Hunts Point to the tech-driven communities of Bellevue and Redmond, homeowners 62 and older are sitting on extraordinary equity. A reverse mortgage allows these seniors to convert that equity into loan proceeds — with no required monthly principal and interest payments (borrowers must continue paying property taxes, homeowners insurance, and maintain the home), without selling their home, and without giving up ownership. &quot;Eastside seniors benefit from Washington&apos;s zero state income tax, making reverse mortgage proceeds doubly efficient compared to California borrowers,&quot; explains Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443). As a wholesale mortgage broker licensed in Washington State with access to over 200 lenders, I help Eastside seniors navigate both FHA HECM and jumbo proprietary reverse mortgage options to find the best fit for their unique financial situation.
+            The Seattle Eastside represents one of the wealthiest residential corridors in the United States, with King County seniors holding an estimated $47.2 billion in tappable home equity as of Q1 2026. From the billionaire estates of Medina and Hunts Point to the tech-driven communities of Bellevue and Redmond, homeowners 62 and older are sitting on extraordinary equity. A reverse mortgage allows these seniors to convert that equity into loan proceeds — with no required monthly principal and interest payments (borrowers must continue paying property taxes, homeowners insurance, and maintain the home), without selling their home, and without giving up ownership. &quot;Eastside seniors benefit from Washington&apos;s zero state income tax, making reverse mortgage proceeds doubly efficient compared to California borrowers,&quot; explains Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443). As a wholesale mortgage broker licensed in Washington State with access to 50+ Wholesale Lenders, I help Eastside seniors navigate both FHA HECM and jumbo proprietary reverse mortgage options to find the best fit for their unique financial situation.
           </p>
 
           <p>
@@ -640,8 +640,8 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
-              <h3 className="font-bold text-lg mb-2">200+ Lender Access</h3>
-              <p>Rather than offering one institution&apos;s products, I compare HECM and jumbo reverse mortgage options from over 200 wholesale lenders. This means better pricing, more product options, and competitive terms tailored to your specific property value and financial goals.</p>
+              <h3 className="font-bold text-lg mb-2">50+ Wholesale Lenders</h3>
+              <p>Rather than offering one institution&apos;s products, I compare HECM and jumbo reverse mortgage options from 50+ Wholesale Lenders. This means better pricing, more product options, and competitive terms tailored to your specific property value and financial goals.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">High-Value Property Expertise</h3>
@@ -674,7 +674,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </a>
             <a href="/blog/wholesale-mortgage-broker-seattle-eastside-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker Seattle Eastside</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 200+ lenders delivers better rates and more options for Eastside home purchases, refinances, and investment properties.</p>
+              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates and more options for Eastside home purchases, refinances, and investment properties.</p>
             </a>
             <a href="/blog/reverse-mortgage-washington-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Washington State Reverse Mortgage Guide</h3>
@@ -715,7 +715,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">3</div>
               <div>
                 <h3 className="font-bold text-lg">Application &amp; Documentation</h3>
-                <p>We submit your application to the best-fit lender from our 200+ wholesale partners. Documentation requirements are lighter than traditional mortgages — no income verification, no employment history. You provide identification, property information, and the HUD counseling certificate.</p>
+                <p>We submit your application to the best-fit lender from our 50+ Wholesale Lenders. Documentation requirements are lighter than traditional mortgages — no income verification, no employment history. You provide identification, property information, and the HUD counseling certificate.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -838,7 +838,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Why should I use a wholesale mortgage broker for my Eastside reverse mortgage?</h3>
-              <p>A wholesale broker like Mo Abdel accesses 200+ lenders to find the best reverse mortgage terms for your specific situation. This is especially valuable on the Eastside where home values often exceed HECM limits — brokers compare jumbo proprietary products from multiple specialized lenders to maximize your proceeds and minimize your costs. Unlike retail lenders who sell only their own products, wholesale brokers represent your interests across the entire lending marketplace.</p>
+              <p>A wholesale broker like Mo Abdel accesses 50+ Wholesale Lenders to find the best reverse mortgage terms for your specific situation. This is especially valuable on the Eastside where home values often exceed HECM limits — brokers compare jumbo proprietary products from multiple specialized lenders to maximize your proceeds and minimize your costs. Unlike retail lenders who sell only their own products, wholesale brokers represent your interests across the entire lending marketplace.</p>
             </div>
           </div>
 
@@ -852,7 +852,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
               For ultra-luxury communities like Medina, Hunts Point, and Yarrow Point, jumbo proprietary reverse mortgages are essential to access equity beyond the $1,209,750 HECM limit. For growth corridor cities like Kirkland, Redmond, and Issaquah, the standard FHA HECM product provides substantial proceeds with strong consumer protections.
             </p>
             <p className="text-slate-900">
-              As your wholesale reverse mortgage broker, I compare products from 200+ lenders to find the best fit for your home value, age, and financial goals. Every consultation is free, every recommendation is independent, and every client receives the same level of attention — whether your home is worth $1 million or $15 million.
+              As your wholesale reverse mortgage broker, I compare products from 50+ Wholesale Lenders to find the best fit for your home value, age, and financial goals. Every consultation is free, every recommendation is independent, and every client receives the same level of attention — whether your home is worth $1 million or $15 million.
             </p>
           </div>
 
@@ -867,7 +867,7 @@ export default function ReverseMortgageSeattleEastsideGuide2026() {
             <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 14 Seattle Eastside cities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ reverse mortgage lenders</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders</p>
           </div>
 
           {/* Disclaimer */}

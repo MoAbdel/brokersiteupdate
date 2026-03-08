@@ -62,7 +62,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker reduce home equity loan closing costs?',
-    answer: 'A wholesale mortgage broker reduces home equity loan closing costs by comparing fee structures across 200+ wholesale lenders. Different lenders charge different origination fees (ranging from 0% to 2%), appraisal requirements (full appraisal vs AVM vs desktop), title insurance requirements, and annual fee structures. A wholesale broker identifies which lenders waive specific fees, offer lender-paid closing cost programs, or provide the lowest total cost of borrowing based on your loan amount and expected hold period. Retail banks offer only their own fee schedule with no comparison shopping.',
+    answer: 'A wholesale mortgage broker reduces home equity loan closing costs by comparing fee structures across 50+ Wholesale Lenders. Different lenders charge different origination fees (ranging from 0% to 2%), appraisal requirements (full appraisal vs AVM vs desktop), title insurance requirements, and annual fee structures. A wholesale broker identifies which lenders waive specific fees, offer lender-paid closing cost programs, or provide the lowest total cost of borrowing based on your loan amount and expected hold period. Retail banks offer only their own fee schedule with no comparison shopping.',
   },
   {
     question: 'Are home equity loan closing costs tax deductible?',
@@ -204,7 +204,7 @@ export default function HomeEquityLoanClosingCostsPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a senior mortgage broker with Lumin Lending who structures home equity products across California and Washington through 200+ wholesale lenders, <strong>home equity loan closing costs</strong> typically range from 2% to 5% of the loan amount &mdash; meaning a $150,000 HELOAN carries $3,000 to $7,500 in total closing fees. HELOC closing costs are generally lower upfront but include ongoing annual fees and potential early closure penalties that increase the total cost of borrowing over time. The <a href="https://www.consumerfinance.gov/consumer-tools/home-equity-loans/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a> reports that borrowers who compare fee structures across multiple lenders save an average of $1,200 to $2,000 on home equity loan closing costs. A wholesale mortgage broker automates this comparison by sourcing pricing from 200+ lender partners simultaneously, identifying which programs waive origination fees, accept desktop appraisals, or offer lender-paid closing cost structures that reduce or eliminate out-of-pocket expense at the closing table.
+            According to Mo Abdel, NMLS #1426884, a senior mortgage broker with Lumin Lending who structures home equity products across California and Washington through 50+ Wholesale Lenders, <strong>home equity loan closing costs</strong> typically range from 2% to 5% of the loan amount &mdash; meaning a $150,000 HELOAN carries $3,000 to $7,500 in total closing fees. HELOC closing costs are generally lower upfront but include ongoing annual fees and potential early closure penalties that increase the total cost of borrowing over time. The <a href="https://www.consumerfinance.gov/consumer-tools/home-equity-loans/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a> reports that borrowers who compare fee structures across multiple lenders save an average of $1,200 to $2,000 on home equity loan closing costs. A wholesale mortgage broker automates this comparison by sourcing pricing from 50+ Wholesale Lenders partners simultaneously, identifying which programs waive origination fees, accept desktop appraisals, or offer lender-paid closing cost structures that reduce or eliminate out-of-pocket expense at the closing table.
           </p>
         </div>
 
@@ -228,7 +228,7 @@ export default function HomeEquityLoanClosingCostsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares fee structures across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lender partners to reduce total closing costs</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders partners to reduce total closing costs</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">HELOC early closure fee</td>
@@ -674,7 +674,7 @@ export default function HomeEquityLoanClosingCostsPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale mortgage broker reduce home equity closing costs?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker compares fee structures across 200+ lender partners to identify which programs offer the lowest origination fees, appraisal requirements, and total costs.</strong> Instead of negotiating one bank&apos;s fee schedule, you select from multiple complete pricing options. This structural advantage consistently delivers lower total closing costs than direct bank applications.
+              <strong>A wholesale broker compares fee structures across 50+ Wholesale Lenders partners to identify which programs offer the lowest origination fees, appraisal requirements, and total costs.</strong> Instead of negotiating one bank&apos;s fee schedule, you select from multiple complete pricing options. This structural advantage consistently delivers lower total closing costs than direct bank applications.
             </p>
           </div>
 
@@ -717,7 +717,7 @@ export default function HomeEquityLoanClosingCostsPage() {
             <li><strong>Origination fee is the most negotiable closing cost</strong> &mdash; wholesale lenders range from 0% to 2% on the same loan, and your broker selects the lowest option</li>
             <li><strong>Appraisal cost varies by lender requirements</strong> &mdash; wholesale lenders that accept AVMs or desktop appraisals save you $350 to $600 versus a full appraisal</li>
             <li><strong>Cash-out refinance carries the highest total closing costs</strong> because it refinances the entire first mortgage balance, not just the equity extracted</li>
-            <li><strong>A wholesale broker comparing 200+ lenders</strong> delivers structurally lower fees than negotiating with a single retail bank</li>
+            <li><strong>A wholesale broker comparing 50+ Wholesale Lenders</strong> delivers structurally lower fees than negotiating with a single retail bank</li>
           </ol>
         </div>
 
@@ -733,7 +733,7 @@ export default function HomeEquityLoanClosingCostsPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I compare closing costs across 200+ wholesale lenders to find the lowest total cost for your home equity loan or HELOC.
+            Free consultation. I compare closing costs across 50+ Wholesale Lenders to find the lowest total cost for your home equity loan or HELOC.
           </p>
         </div>
 

@@ -56,15 +56,15 @@ const faqData = [
   },
   {
     question: 'Can I refinance an ARM to a fixed rate if my home value has decreased?',
-    answer: 'Yes, but decreased home values may limit your options. If your current loan-to-value ratio exceeds 80% due to a value decline, you may need mortgage insurance or may be limited to certain loan programs. Some streamline refinance options (like FHA Streamline or VA IRRRL) do not require a new appraisal, which can help if values have dropped. A wholesale broker comparing 200+ lenders can identify programs that accommodate higher LTV situations or offer appraisal alternatives.',
+    answer: 'Yes, but decreased home values may limit your options. If your current loan-to-value ratio exceeds 80% due to a value decline, you may need mortgage insurance or may be limited to certain loan programs. Some streamline refinance options (like FHA Streamline or VA IRRRL) do not require a new appraisal, which can help if values have dropped. A wholesale broker comparing 50+ Wholesale Lenders can identify programs that accommodate higher LTV situations or offer appraisal alternatives.',
   },
   {
     question: 'What are the closing costs for refinancing from an ARM to a fixed rate?',
-    answer: 'Closing costs for an ARM to fixed rate refinance typically range from 1.5% to 4% of the loan amount, including appraisal fees, title insurance, origination fees, recording fees, and other settlement charges. On a $500,000 loan, expect $7,500 to $20,000 in total closing costs. Some lenders offer no-closing-cost options where costs are absorbed into a slightly higher rate. A wholesale broker can compare closing cost structures across 200+ lenders to find the most competitive total package.',
+    answer: 'Closing costs for an ARM to fixed rate refinance typically range from 1.5% to 4% of the loan amount, including appraisal fees, title insurance, origination fees, recording fees, and other settlement charges. On a $500,000 loan, expect $7,500 to $20,000 in total closing costs. Some lenders offer no-closing-cost options where costs are absorbed into a slightly higher rate. A wholesale broker can compare closing cost structures across 50+ Wholesale Lenders to find the most competitive total package.',
   },
   {
     question: 'Should I refinance my ARM to a 15-year or 30-year fixed rate?',
-    answer: 'The choice between a 15-year and 30-year fixed rate depends on your monthly budget, remaining loan term, and financial goals. A 15-year fixed rate offers lower total interest and faster equity building but higher monthly payments. A 30-year provides lower monthly payments and more cash flow flexibility. If your ARM has 22 years remaining, a 20-year or 25-year term matches your current payoff timeline without extending your debt. Your wholesale broker can price multiple term options from 200+ lenders for comparison.',
+    answer: 'The choice between a 15-year and 30-year fixed rate depends on your monthly budget, remaining loan term, and financial goals. A 15-year fixed rate offers lower total interest and faster equity building but higher monthly payments. A 30-year provides lower monthly payments and more cash flow flexibility. If your ARM has 22 years remaining, a 20-year or 25-year term matches your current payoff timeline without extending your debt. Your wholesale broker can price multiple term options from 50+ Wholesale Lenders for comparison.',
   },
   {
     question: 'Is it worth refinancing from a 5/1 ARM that has already adjusted?',
@@ -76,11 +76,11 @@ const faqData = [
   },
   {
     question: 'Can I refinance my ARM to a fixed rate with a different lender?',
-    answer: 'Yes, you are not required to refinance with your current ARM lender. In fact, refinancing through a wholesale mortgage broker who compares pricing from 200+ lenders typically yields more competitive fixed-rate terms than going back to your original lender. Different lenders offer different fixed-rate pricing, closing cost structures, and term options. Shopping across multiple lenders through a broker is the most effective way to find the strongest fixed-rate refinance terms.',
+    answer: 'Yes, you are not required to refinance with your current ARM lender. In fact, refinancing through a wholesale mortgage broker who compares pricing from 50+ Wholesale Lenders typically yields more competitive fixed-rate terms than going back to your original lender. Different lenders offer different fixed-rate pricing, closing cost structures, and term options. Shopping across multiple lenders through a broker is the most effective way to find the strongest fixed-rate refinance terms.',
   },
   {
     question: 'How does the wholesale broker advantage apply to ARM to fixed rate refinancing?',
-    answer: 'A wholesale mortgage broker accesses fixed-rate refinance products from 200+ lenders simultaneously, rather than being limited to one bank or lender. For ARM to fixed rate conversions specifically, the broker advantage is significant because: (1) different lenders price fixed-rate products differently based on their current portfolio needs, (2) the pricing spread between the most and least competitive lender on the same loan scenario routinely varies, (3) some lenders offer promotional fixed-rate pricing to attract ARM conversion business, and (4) a broker can negotiate lender credits to offset closing costs. This comparison shopping happens on your behalf without affecting your credit multiple times.',
+    answer: 'A wholesale mortgage broker accesses fixed-rate refinance products from 50+ Wholesale Lenders simultaneously, rather than being limited to one bank or lender. For ARM to fixed rate conversions specifically, the broker advantage is significant because: (1) different lenders price fixed-rate products differently based on their current portfolio needs, (2) the pricing spread between the most and least competitive lender on the same loan scenario routinely varies, (3) some lenders offer promotional fixed-rate pricing to attract ARM conversion business, and (4) a broker can negotiate lender credits to offset closing costs. This comparison shopping happens on your behalf without affecting your credit multiple times.',
   },
 ];
 
@@ -191,7 +191,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
           ARM to Fixed Rate Refinance: When to Lock In Your Mortgage Rate [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A strategic guide to converting your adjustable-rate mortgage to a fixed rate&mdash;covering ARM reset mechanics, rate cap structures, index comparisons (SOFR vs Prime), break-even analysis, and how a wholesale broker finds the most competitive fixed-rate pricing across 200+ lenders.
+          A strategic guide to converting your adjustable-rate mortgage to a fixed rate&mdash;covering ARM reset mechanics, rate cap structures, index comparisons (SOFR vs Prime), break-even analysis, and how a wholesale broker finds the most competitive fixed-rate pricing across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -200,7 +200,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, homeowners with adjustable-rate mortgages should <strong>evaluate refinancing to a fixed rate 6&ndash;12 months before their ARM resets</strong>&mdash;not after the adjustment has already increased their payment. ARM borrowers face two distinct risks: payment shock from rate adjustments and lifetime cap exposure that could push payments significantly higher over time. According to the <a href="https://www.newyorkfed.org/markets/reference-rates/sofr" target="_blank" rel="noopener noreferrer">Federal Reserve Bank of New York SOFR data</a>, the Secured Overnight Financing Rate&mdash;the index underlying most modern ARMs&mdash;has fluctuated substantially over the past 24 months, creating both urgency and opportunity for ARM holders considering a fixed-rate conversion. A wholesale mortgage broker comparing fixed-rate products from 200+ lenders routinely identifies meaningful pricing differences on the same ARM-to-fixed refinance scenario because lenders price ARM conversion transactions differently based on their portfolio composition and current funding costs.
+            According to Mo Abdel, NMLS #1426884, homeowners with adjustable-rate mortgages should <strong>evaluate refinancing to a fixed rate 6&ndash;12 months before their ARM resets</strong>&mdash;not after the adjustment has already increased their payment. ARM borrowers face two distinct risks: payment shock from rate adjustments and lifetime cap exposure that could push payments significantly higher over time. According to the <a href="https://www.newyorkfed.org/markets/reference-rates/sofr" target="_blank" rel="noopener noreferrer">Federal Reserve Bank of New York SOFR data</a>, the Secured Overnight Financing Rate&mdash;the index underlying most modern ARMs&mdash;has fluctuated substantially over the past 24 months, creating both urgency and opportunity for ARM holders considering a fixed-rate conversion. A wholesale mortgage broker comparing fixed-rate products from 50+ Wholesale Lenders routinely identifies meaningful pricing differences on the same ARM-to-fixed refinance scenario because lenders price ARM conversion transactions differently based on their portfolio composition and current funding costs.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares fixed-rate refinance products from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to find the most competitive ARM conversion pricing</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to find the most competitive ARM conversion pricing</td>
               </tr>
             </tbody>
           </table>
@@ -257,7 +257,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Timing ARM to Fixed Rate Conversions</h3>
           <p className="text-blue-800 mb-0">
-            I have guided hundreds of California and Washington homeowners through ARM to fixed rate conversions. The most common mistake I see is waiting until after the ARM adjusts upward&mdash;by then, borrowers are already feeling payment shock and making decisions under stress. The borrowers who get the strongest outcomes start the conversation 6&ndash;12 months before their ARM resets, which gives us time to monitor fixed-rate pricing, compare offers from multiple lenders, and lock at the right moment. I also see significant pricing variation across lenders for ARM conversion transactions&mdash;some lenders actively want ARM-to-fixed business and price it aggressively, while others are indifferent. Comparing across 200+ lenders makes a material difference on every one of these transactions. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have guided hundreds of California and Washington homeowners through ARM to fixed rate conversions. The most common mistake I see is waiting until after the ARM adjusts upward&mdash;by then, borrowers are already feeling payment shock and making decisions under stress. The borrowers who get the strongest outcomes start the conversation 6&ndash;12 months before their ARM resets, which gives us time to monitor fixed-rate pricing, compare offers from multiple lenders, and lock at the right moment. I also see significant pricing variation across lenders for ARM conversion transactions&mdash;some lenders actively want ARM-to-fixed business and price it aggressively, while others are indifferent. Comparing across 50+ Wholesale Lenders makes a material difference on every one of these transactions. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -265,7 +265,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Is Your ARM About to Reset?</h3>
           <p className="text-green-800 mb-2">
-            Get a free fixed-rate comparison from 200+ lenders before your next adjustment date.
+            Get a free fixed-rate comparison from 50+ Wholesale Lenders before your next adjustment date.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
@@ -562,7 +562,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get Your Personalized ARM vs Fixed Rate Analysis</h3>
           <p className="text-green-800 mb-2">
-            I will model your specific ARM terms, cap structure, and projected adjustments against today&apos;s fixed-rate options from 200+ lenders. No obligation.
+            I will model your specific ARM terms, cap structure, and projected adjustments against today&apos;s fixed-rate options from 50+ Wholesale Lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -710,7 +710,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How much does it cost to refinance from ARM to fixed?</h3>
             <p className="mb-0">
-              <strong>ARM to fixed rate refinance closing costs typically range from 1.5% to 4% of the loan amount, or $7,500 to $20,000 on a $500,000 loan.</strong> Some lenders offer no-closing-cost options where costs are absorbed into a slightly higher rate. A wholesale broker compares total cost packages across 200+ lenders.
+              <strong>ARM to fixed rate refinance closing costs typically range from 1.5% to 4% of the loan amount, or $7,500 to $20,000 on a $500,000 loan.</strong> Some lenders offer no-closing-cost options where costs are absorbed into a slightly higher rate. A wholesale broker compares total cost packages across 50+ Wholesale Lenders.
             </p>
           </div>
 
@@ -738,7 +738,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Does a wholesale broker get different fixed-rate pricing than a bank?</h3>
             <p className="mb-0">
-              <strong>Yes, wholesale brokers access institutional pricing from 200+ lenders that is not available through retail bank channels, often resulting in more competitive fixed-rate terms.</strong> Banks offer only their own products at their own pricing. A broker compares across the entire wholesale market to find the strongest ARM-to-fixed conversion offer.
+              <strong>Yes, wholesale brokers access institutional pricing from 50+ Wholesale Lenders that is not available through retail bank channels, often resulting in more competitive fixed-rate terms.</strong> Banks offer only their own products at their own pricing. A broker compares across the entire wholesale market to find the strongest ARM-to-fixed conversion offer.
             </p>
           </div>
         </div>
@@ -768,14 +768,14 @@ export default function ArmToFixedRefinanceStrategyPage() {
             <li><strong>Match your refinance term to your remaining term:</strong> Avoid extending your payoff date by choosing a term that matches or shortens your remaining loan life</li>
             <li><strong>Payment certainty has real value:</strong> A fixed rate eliminates the financial stress of not knowing whether your payment will increase at the next adjustment</li>
             <li><strong>Keep your ARM only if selling soon:</strong> If you are selling within 2&ndash;3 years and your current ARM rate is low, the conversion may not pay for itself</li>
-            <li><strong>A wholesale broker maximizes your fixed-rate options:</strong> Different lenders price ARM conversion transactions differently&mdash;comparing 200+ lenders routinely identifies meaningful pricing advantages</li>
+            <li><strong>A wholesale broker maximizes your fixed-rate options:</strong> Different lenders price ARM conversion transactions differently&mdash;comparing 50+ Wholesale Lenders routinely identifies meaningful pricing advantages</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Free ARM to Fixed Rate Comparison</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me your current ARM details&mdash;rate, index, margin, cap structure, and remaining term&mdash;and I will model your adjustment scenarios against today&apos;s fixed-rate options from 200+ lenders. No obligation, no pressure.
+            Tell me your current ARM details&mdash;rate, index, margin, cap structure, and remaining term&mdash;and I will model your adjustment scenarios against today&apos;s fixed-rate options from 50+ Wholesale Lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

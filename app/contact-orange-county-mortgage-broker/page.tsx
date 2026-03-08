@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
-  description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 200+ lenders access. Free consultation, 18-day closings. Call (949) 579-2057 or apply online.',
+  description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 50+ Wholesale Lenders access. Free consultation, 18-day closings. Call (949) 579-2057 or apply online.',
   alternates: {
     canonical: 'https://www.mothebroker.com/contact-orange-county-mortgage-broker',
     languages: {
@@ -24,7 +24,7 @@ const contactSchema = {
   "@type": "LocalBusiness",
   "name": "Mo Abdel - Orange County Mortgage Broker",
   "alternateName": "Mo The Broker",
-  "description": "Licensed mortgage broker serving Orange County with access to 200+ lenders",
+  "description": "Licensed mortgage broker serving Orange County with access to 50+ Wholesale Lenders",
   "identifier": "NMLS #1426884",
   "telephone": "(949) 579-2057",
   "address": {
@@ -157,7 +157,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
               Contact Your Orange County Mortgage Broker
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Ready to start your mortgage journey? Get your free consultation and loan quote from a licensed broker with access to 200+ lenders. Available 24/7 for your convenience.
+              Ready to start your mortgage journey? Get your free consultation and loan quote from a licensed broker with access to 50+ Wholesale Lenders. Available 24/7 for your convenience.
             </p>
 
             {/* Quick Contact Bar */}
@@ -281,7 +281,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                     </div>
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                      <span className="text-slate-700"><strong>200+ lenders</strong> competing for your business</span>
+                      <span className="text-slate-700"><strong>50+ Wholesale Lenders</strong> competing for your business</span>
                     </div>
                     <div className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />

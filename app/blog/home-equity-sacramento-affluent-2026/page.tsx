@@ -70,7 +70,7 @@ export default function HomeEquitySacramentoAffluent2026() {
   const faqData = [
     {
       question: 'How much home equity can I access in El Dorado Hills?',
-      answer: 'El Dorado Hills homeowners can typically access up to 75-80% of their home value minus the existing mortgage balance through HELOC, HELOAN, or cash-out refinance products. With a median value of $955K and Serrano community homes frequently exceeding $1.2M-$1.8M, qualifying homeowners access $300K-$700K+ through wholesale broker access to 200+ lenders, including specialized programs for Bay Area transplant income, state government compensation, and tech industry stock-based compensation from Intel and other employers.',
+      answer: 'El Dorado Hills homeowners can typically access up to 75-80% of their home value minus the existing mortgage balance through HELOC, HELOAN, or cash-out refinance products. With a median value of $955K and Serrano community homes frequently exceeding $1.2M-$1.8M, qualifying homeowners access $300K-$700K+ through wholesale broker access to 50+ Wholesale Lenders, including specialized programs for Bay Area transplant income, state government compensation, and tech industry stock-based compensation from Intel and other employers.',
     },
     {
       question: 'What HELOC options exist for Granite Bay homes valued over $1 million?',
@@ -90,7 +90,7 @@ export default function HomeEquitySacramentoAffluent2026() {
     },
     {
       question: 'What credit score do I need for a jumbo HELOC in El Dorado Hills or Granite Bay?',
-      answer: 'Most jumbo HELOC lenders serving El Dorado Hills and Granite Bay require minimum credit scores of 700-720, with the best rates available at 740+. For conforming HELOCs in Roseville and portions of Folsom, minimum scores start at 680. Through wholesale broker access to 200+ lenders, competitive HELOC programs exist across a range of credit tiers, and compensating factors like low CLTV ratios, substantial liquid reserves, and stable state government or tech employment can offset credit score requirements.',
+      answer: 'Most jumbo HELOC lenders serving El Dorado Hills and Granite Bay require minimum credit scores of 700-720, with the best rates available at 740+. For conforming HELOCs in Roseville and portions of Folsom, minimum scores start at 680. Through wholesale broker access to 50+ Wholesale Lenders, competitive HELOC programs exist across a range of credit tiers, and compensating factors like low CLTV ratios, substantial liquid reserves, and stable state government or tech employment can offset credit score requirements.',
     },
     {
       question: 'Can I get a HELOC to fund an ADU on my Roseville property?',
@@ -106,7 +106,7 @@ export default function HomeEquitySacramentoAffluent2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank for Sacramento properties?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible terms. For Sacramento affluent community properties near the conforming/jumbo threshold, the broker identifies whether a conforming or jumbo product delivers better overall terms &mdash; the difference can save $2,000-$5,000 annually on a $400K HELOC.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible terms. For Sacramento affluent community properties near the conforming/jumbo threshold, the broker identifies whether a conforming or jumbo product delivers better overall terms &mdash; the difference can save $2,000-$5,000 annually on a $400K HELOC.',
     },
     {
       question: 'Can UC Davis faculty with sabbatical-adjusted income qualify for a HELOC in Davis?',
@@ -225,7 +225,7 @@ export default function HomeEquitySacramentoAffluent2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Sacramento&apos;s affluent eastern corridor &mdash; El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis &mdash; represents Northern California&apos;s fastest-growing luxury residential equity market, powered by a decade of Bay Area equity migration, Intel&apos;s Folsom campus expansion, UC Davis&apos;s world-class research university employment, and state government professional concentration. From Serrano community estates in El Dorado Hills where Bay Area tech executives enjoy Folsom Lake recreation and top-rated schools to Granite Bay&apos;s multi-acre equestrian properties where horse country meets luxury living, homeowners across these five communities hold substantial equity positions that HELOC, HELOAN, and cash-out refinance products convert into active financial power. As a licensed mortgage broker with wholesale access to 200+ lenders, I help Sacramento affluent community homeowners navigate diverse property types and income sources to find the best equity product and rate for their specific situation.
+            Sacramento&apos;s affluent eastern corridor &mdash; El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis &mdash; represents Northern California&apos;s fastest-growing luxury residential equity market, powered by a decade of Bay Area equity migration, Intel&apos;s Folsom campus expansion, UC Davis&apos;s world-class research university employment, and state government professional concentration. From Serrano community estates in El Dorado Hills where Bay Area tech executives enjoy Folsom Lake recreation and top-rated schools to Granite Bay&apos;s multi-acre equestrian properties where horse country meets luxury living, homeowners across these five communities hold substantial equity positions that HELOC, HELOAN, and cash-out refinance products convert into active financial power. As a licensed mortgage broker with wholesale access to 50+ Wholesale Lenders, I help Sacramento affluent community homeowners navigate diverse property types and income sources to find the best equity product and rate for their specific situation.
           </p>
 
           <p>
@@ -262,7 +262,7 @@ export default function HomeEquitySacramentoAffluent2026() {
               <li><strong>Best move-up equity market:</strong> Roseville &mdash; families upgrading from starter homes into West Roseville and Granite Bay hold $150K&ndash;$300K in tappable equity for next purchases</li>
               <li><strong>University income concentration:</strong> Davis &mdash; UC Davis&apos;s 8,000+ employees with stable academic compensation create dependable HELOC borrower profiles</li>
               <li><strong>Conforming loan limit (2026):</strong> $806,500 for Sacramento, Placer, El Dorado, and Yolo Counties &mdash; many affluent properties require jumbo lender access</li>
-              <li><strong>Wholesale advantage:</strong> 200+ lenders competing vs. single bank product, with specialists in tech compensation, equestrian property, and university income</li>
+              <li><strong>Wholesale advantage:</strong> 50+ Wholesale Lenders competing vs. single bank product, with specialists in tech compensation, equestrian property, and university income</li>
             </ul>
           </div>
 
@@ -329,7 +329,7 @@ export default function HomeEquitySacramentoAffluent2026() {
           {/* Product Comparison Table */}
           <h2 id="product-comparison" className="text-2xl font-bold mt-10 mb-4">HELOC vs. HELOAN vs. Cash-Out Refinance: Sacramento Affluent Comparison</h2>
           <p>
-            Three primary products allow Sacramento affluent community homeowners to access their home equity. El Dorado Hills and Granite Bay homeowners with properties above the $806,500 conforming limit require jumbo HELOC programs, while Folsom and Roseville homeowners generally access conforming products. Davis straddles both tiers. As a wholesale broker with access to 200+ lenders, I ensure Sacramento homeowners compare across the full market &mdash; including specialists in tech RSU compensation, equestrian property valuation, university income, and state government benefits &mdash; rather than accepting a single bank&apos;s terms.
+            Three primary products allow Sacramento affluent community homeowners to access their home equity. El Dorado Hills and Granite Bay homeowners with properties above the $806,500 conforming limit require jumbo HELOC programs, while Folsom and Roseville homeowners generally access conforming products. Davis straddles both tiers. As a wholesale broker with access to 50+ Wholesale Lenders, I ensure Sacramento homeowners compare across the full market &mdash; including specialists in tech RSU compensation, equestrian property valuation, university income, and state government benefits &mdash; rather than accepting a single bank&apos;s terms.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -420,7 +420,7 @@ export default function HomeEquitySacramentoAffluent2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">2</div>
               <div>
                 <h3 className="font-bold text-lg">Lender Shopping &amp; Rate Competition (Days 2&ndash;4)</h3>
-                <p>We submit your profile to 200+ lenders and collect competing offers. You receive a comparison showing the top 3&ndash;5 HELOC products ranked by rate, credit line amount, draw period, closing costs, and income treatment. For Granite Bay equestrian properties, we specifically target lenders experienced with horse property valuation and acreage residential appraisal.</p>
+                <p>We submit your profile to 50+ Wholesale Lenders and collect competing offers. You receive a comparison showing the top 3&ndash;5 HELOC products ranked by rate, credit line amount, draw period, closing costs, and income treatment. For Granite Bay equestrian properties, we specifically target lenders experienced with horse property valuation and acreage residential appraisal.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -536,11 +536,11 @@ export default function HomeEquitySacramentoAffluent2026() {
             Roseville at $650K median is the Sacramento metro&apos;s largest and most dynamic family-oriented market, where 150,000+ residents enjoy the Westfield Galleria shopping destination, excellent Roseville Joint Union school district, abundant parks, and a community that consistently ranks among California&apos;s best places to raise families. West Roseville&apos;s newer master-planned communities &mdash; Fiddyment Farm, West Park, and Woodcreek Oaks &mdash; feature homes from $600K&ndash;$850K with modern floor plans, energy efficiency, and community amenities. Sun City Roseville, the active adult 55+ community developed by Del Webb, houses 3,700+ homes from $450K&ndash;$700K with golf, pools, and organized activities. Established neighborhoods in central Roseville offer character homes from $500K&ndash;$700K near the revitalized historic Vernon Street district.
           </p>
           <p>
-            Roseville&apos;s equity opportunity centers on the move-up dynamic. Families who purchased starter homes in Roseville for $380K&ndash;$450K between 2017&ndash;2020 now hold $600K&ndash;$700K properties with $180K&ndash;$280K in tappable equity. Rather than selling and competing in today&apos;s tight move-up market, these homeowners increasingly access HELOC credit for home improvement projects that expand their current home to meet growing family needs: adding bedrooms, expanding kitchens, building backyard outdoor living spaces, and constructing ADUs for multigenerational housing or rental income. Sun City residents use HELOCs for aging-in-place modifications, travel, healthcare costs, and legacy gifts. Roseville&apos;s strong conforming market &mdash; nearly all properties fall below the $806,500 conforming limit &mdash; means homeowners access conforming HELOC products at lower rates, but wholesale broker comparison identifies the best among 200+ conforming lender options rather than accepting the first bank&apos;s quote.
+            Roseville&apos;s equity opportunity centers on the move-up dynamic. Families who purchased starter homes in Roseville for $380K&ndash;$450K between 2017&ndash;2020 now hold $600K&ndash;$700K properties with $180K&ndash;$280K in tappable equity. Rather than selling and competing in today&apos;s tight move-up market, these homeowners increasingly access HELOC credit for home improvement projects that expand their current home to meet growing family needs: adding bedrooms, expanding kitchens, building backyard outdoor living spaces, and constructing ADUs for multigenerational housing or rental income. Sun City residents use HELOCs for aging-in-place modifications, travel, healthcare costs, and legacy gifts. Roseville&apos;s strong conforming market &mdash; nearly all properties fall below the $806,500 conforming limit &mdash; means homeowners access conforming HELOC products at lower rates, but wholesale broker comparison identifies the best among 50+ Wholesale Lenders options rather than accepting the first bank&apos;s quote.
           </p>
 
           <p>
-            <strong>Borrower scenario:</strong> A dual-income state government couple in West Roseville (combined $185K CalPERS-eligible salaries) purchased their $620K home in 2019 for $440K with $88K down. Current tappable equity at 80% CLTV is $200K. They seek a $175K HELOC for a primary suite addition, backyard pool, and garage conversion to home office. Through wholesale broker comparison of 200+ lenders, we identify a conforming HELOC with the lowest rate among competing offers, saving $1,800 annually compared to their bank&apos;s single product quote on the $175K HELOC.
+            <strong>Borrower scenario:</strong> A dual-income state government couple in West Roseville (combined $185K CalPERS-eligible salaries) purchased their $620K home in 2019 for $440K with $88K down. Current tappable equity at 80% CLTV is $200K. They seek a $175K HELOC for a primary suite addition, backyard pool, and garage conversion to home office. Through wholesale broker comparison of 50+ Wholesale Lenders, we identify a conforming HELOC with the lowest rate among competing offers, saving $1,800 annually compared to their bank&apos;s single product quote on the $175K HELOC.
           </p>
           <p className="text-sm text-gray-500 italic mt-2">
             E-E-A-T marker: Based on actual Roseville state government employee borrower profiles. CalPERS-eligible income and state government compensation treatment is generally straightforward but varies by lender for overtime and differential pay components.
@@ -608,8 +608,8 @@ export default function HomeEquitySacramentoAffluent2026() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
-              <h3 className="font-bold text-lg mb-2">200+ Lender Competition</h3>
-              <p>Your bank offers one HELOC product at one rate. I compare products from 200+ lenders, creating competition that consistently produces lower rates, higher credit lines, and better terms. For Sacramento properties spanning the conforming/jumbo threshold, the broker identifies the optimal product tier for each homeowner&apos;s specific equity amount.</p>
+              <h3 className="font-bold text-lg mb-2">50+ Wholesale Lenders</h3>
+              <p>Your bank offers one HELOC product at one rate. I compare products from 50+ Wholesale Lenders, creating competition that consistently produces lower rates, higher credit lines, and better terms. For Sacramento properties spanning the conforming/jumbo threshold, the broker identifies the optimal product tier for each homeowner&apos;s specific equity amount.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Tech RSU &amp; Stock Compensation Expertise</h3>
@@ -783,7 +783,7 @@ export default function HomeEquitySacramentoAffluent2026() {
               Sacramento&apos;s affluent eastern corridor &mdash; El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis &mdash; holds an estimated $18.6 billion in combined residential equity, driven by 35&ndash;52% five-year appreciation and sustained Bay Area equity migration. With median values ranging from $650K in Roseville to $1.1M in Granite Bay, qualifying homeowners access $220K to $480K+ in tappable equity per property. The region&apos;s concentration of tech professionals, state government employees, university faculty, medical professionals, and business owners creates a diverse income landscape that requires specialized lender matching.
             </p>
             <p className="text-slate-900 mb-3">
-              Intel engineers with RSU vesting, UC Davis professors with sabbatical adjustments, Granite Bay equestrian property owners with complex valuations, state government professionals with CalPERS overtime, and Bay Area remote workers with total compensation packages all require lenders experienced with their specific income and property types. Through wholesale broker access to 200+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer, compensation structure, and property characteristics.
+              Intel engineers with RSU vesting, UC Davis professors with sabbatical adjustments, Granite Bay equestrian property owners with complex valuations, state government professionals with CalPERS overtime, and Bay Area remote workers with total compensation packages all require lenders experienced with their specific income and property types. Through wholesale broker access to 50+ Wholesale Lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific employer, compensation structure, and property characteristics.
             </p>
             <p className="text-slate-900">
               As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Sacramento affluent community property. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
@@ -801,7 +801,7 @@ export default function HomeEquitySacramentoAffluent2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Sacramento affluent communities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders including tech compensation, equestrian property, and university income specialists</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders including tech compensation, equestrian property, and university income specialists</p>
           </div>
 
           {/* Disclaimer */}

@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: "Are IO DSCR loan rates higher than fully amortizing DSCR rates?",
-    answer: "IO DSCR loan rates carry a small premium over fully amortizing DSCR rates, typically reflected as a pricing adjustment. The premium compensates lenders for the deferred principal repayment risk. Wholesale broker access across 200+ lenders minimizes this premium by creating competition among IO DSCR programs."
+    answer: "IO DSCR loan rates carry a small premium over fully amortizing DSCR rates, typically reflected as a pricing adjustment. The premium compensates lenders for the deferred principal repayment risk. Wholesale broker access across 50+ Wholesale Lenders minimizes this premium by creating competition among IO DSCR programs."
   },
   {
     question: "When does an interest-only DSCR loan make sense for investors?",
@@ -598,7 +598,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             Most traditional banks and credit unions do not offer interest-only DSCR loans for investment properties. The IO DSCR product is primarily available through non-QM wholesale lenders &mdash; specialized lending institutions that distribute their products exclusively through mortgage brokers rather than directly to consumers. This wholesale-only distribution model means investors who approach banks directly for IO DSCR financing are likely to be turned away or offered inferior alternatives.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses 200+ wholesale lenders, including dozens that offer IO DSCR programs. The broker simultaneously evaluates IO options across the entire lender network, comparing IO period lengths, DSCR requirements, pricing adjustments, prepayment penalty structures, and LTV limits. This comparison shopping is impossible for an investor working with a single retail lender.
+            A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses 50+ Wholesale Lenders, including dozens that offer IO DSCR programs. The broker simultaneously evaluates IO options across the entire lender network, comparing IO period lengths, DSCR requirements, pricing adjustments, prepayment penalty structures, and LTV limits. This comparison shopping is impossible for an investor working with a single retail lender.
           </p>
 
           <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
@@ -607,7 +607,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
                 <tr>
                   <th className="px-4 py-3 text-left font-semibold text-slate-900">Feature</th>
                   <th className="px-4 py-3 text-left font-semibold text-slate-900">Retail Bank</th>
-                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Wholesale Broker (200+ Lenders)</th>
+                  <th className="px-4 py-3 text-left font-semibold text-slate-900">Wholesale Broker (50+ Wholesale Lenders)</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
@@ -834,7 +834,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
 
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-slate-900 mb-2">Are IO DSCR loans available in California and Washington?</h3>
-              <p className="text-slate-600"><strong>Yes, IO DSCR loans are widely available in both California and Washington through wholesale mortgage channels, with multiple lenders offering IO programs in both states.</strong> Mo Abdel, NMLS #1426884, is licensed in California and Washington and accesses IO DSCR programs from 200+ wholesale lenders for investors in both states.</p>
+              <p className="text-slate-600"><strong>Yes, IO DSCR loans are widely available in both California and Washington through wholesale mortgage channels, with multiple lenders offering IO programs in both states.</strong> Mo Abdel, NMLS #1426884, is licensed in California and Washington and accesses IO DSCR programs from 50+ Wholesale Lenders for investors in both states.</p>
             </div>
           </div>
         </section>
@@ -864,7 +864,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             Interest-only DSCR loans reduce monthly payments by 20-30%, improve DSCR ratios, and free capital for portfolio expansion &mdash; advantages that fully amortizing loans cannot match. With IO periods of 5, 7, and 10 years, investors can align the IO structure with their specific investment strategy: short-term value-add, long-term buy-and-hold, or rapid portfolio scaling.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares IO DSCR programs from 200+ lenders to identify the optimal combination of IO period length, DSCR threshold, pricing, and terms for each investor. Most retail banks do not offer IO DSCR products &mdash; wholesale broker access is the primary channel for this financing tool. Whether you are acquiring your first investment property or scaling an existing portfolio across California and Washington, IO DSCR financing through wholesale channels delivers the strongest cash flow outcome.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares IO DSCR programs from 50+ Wholesale Lenders to identify the optimal combination of IO period length, DSCR threshold, pricing, and terms for each investor. Most retail banks do not offer IO DSCR products &mdash; wholesale broker access is the primary channel for this financing tool. Whether you are acquiring your first investment property or scaling an existing portfolio across California and Washington, IO DSCR financing through wholesale channels delivers the strongest cash flow outcome.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

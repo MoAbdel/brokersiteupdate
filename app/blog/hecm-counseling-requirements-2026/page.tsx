@@ -863,7 +863,7 @@ export default function HECMCounselingPage() {
             <p className="text-gray-600 text-sm">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443 | Reverse Mortgage Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
               Mo Abdel is a licensed mortgage broker specializing in reverse mortgages and
-              home equity solutions for seniors in California and Washington. With access to 200+ wholesale lenders, he helps clients
+              home equity solutions for seniors in California and Washington. With access to 50+ Wholesale Lenders, he helps clients
               understand HECM requirements, connects them with HUD-approved counselors, and secures competitive reverse mortgage terms.
             </p>
           </div>

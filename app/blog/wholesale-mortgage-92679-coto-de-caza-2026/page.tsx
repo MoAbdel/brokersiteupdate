@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92679 | Coto de Caza Jumbo Loans | Mo Abdel',
-  description: 'Coto de Caza 92679 wholesale mortgage broker with 200+ lender access. Gated community jumbo loans, Dove Canyon financing, self-employed programs. NMLS #1426884.',
+  description: 'Coto de Caza 92679 wholesale mortgage broker with 50+ Wholesale Lenders. Gated community jumbo loans, Dove Canyon financing, self-employed programs. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92679-coto-de-caza-2026',
     languages: {
@@ -73,7 +73,7 @@ export default function WholesaleMortgage92679CotoDeCazaPage() {
                 "name": "Why choose wholesale over Mission Viejo banks for 92679?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access 200+ lenders versus one bank's limited jumbo product. For Coto de Caza's $2.1M median price, this means more options, better rate shopping, and specialized programs for self-employed and high-net-worth buyers."
+                  "text": "Wholesale brokers access 50+ Wholesale Lenders versus one bank's limited jumbo product. For Coto de Caza's $2.1M median price, this means more options, better rate shopping, and specialized programs for self-employed and high-net-worth buyers."
                 }
               },
               {
@@ -116,14 +116,14 @@ export default function WholesaleMortgage92679CotoDeCazaPage() {
           Wholesale Mortgage Broker 92679 | Coto de Caza & Dove Canyon Jumbo Specialist
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for gated community jumbo loans in South Orange County
+          50+ Wholesale Lenders for gated community jumbo loans in South Orange County
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Coto de Caza (92679) is Orange County&apos;s premier equestrian and golf community, with a <strong>median home price of $2.1 million</strong>. This exclusive gated enclave—along with neighboring Dove Canyon—attracts successful executives, business owners, and families seeking privacy and luxury amenities. Mo Abdel at Lumin Lending provides <strong>200+ wholesale lender relationships</strong> for buyers who need jumbo financing tailored to gated community properties.
+            Coto de Caza (92679) is Orange County&apos;s premier equestrian and golf community, with a <strong>median home price of $2.1 million</strong>. This exclusive gated enclave—along with neighboring Dove Canyon—attracts successful executives, business owners, and families seeking privacy and luxury amenities. Mo Abdel at Lumin Lending provides <strong>50+ Wholesale Lenders</strong> for buyers who need jumbo financing tailored to gated community properties.
           </p>
         </div>
 
@@ -257,7 +257,7 @@ export default function WholesaleMortgage92679CotoDeCazaPage() {
 
         <h3>Why choose wholesale over Mission Viejo banks for 92679?</h3>
         <p>
-          Wholesale brokers access 200+ lenders versus one bank&apos;s limited jumbo product. For Coto de Caza&apos;s $2.1M median price, this means more jumbo options, better rate shopping through lender competition, and specialized programs for self-employed and high-net-worth buyers. If one lender&apos;s guidelines don&apos;t fit, brokers pivot immediately.
+          Wholesale brokers access 50+ Wholesale Lenders versus one bank&apos;s limited jumbo product. For Coto de Caza&apos;s $2.1M median price, this means more jumbo options, better rate shopping through lender competition, and specialized programs for self-employed and high-net-worth buyers. If one lender&apos;s guidelines don&apos;t fit, brokers pivot immediately.
         </p>
 
         <h3>Are golf course properties in Coto de Caza eligible for financing?</h3>

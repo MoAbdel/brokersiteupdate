@@ -53,7 +53,7 @@ export default function WestCapitalAdvantage() {
                 Wholesale Power
               </h3>
               <p className="text-lg text-slate-700 leading-relaxed">
-                While retail banks offer their single menu, we access 200+ lenders' wholesale channels—
+                While retail banks offer their single menu, we access 50+ Wholesale Lenders' wholesale channels—
                 <span className="font-semibold text-blue-700"> including the banks themselves at better pricing</span>.
                 This means you get institutional rates without institutional bureaucracy.
               </p>

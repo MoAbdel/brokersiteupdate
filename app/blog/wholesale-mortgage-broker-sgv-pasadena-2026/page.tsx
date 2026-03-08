@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker San Gabriel Valley Pasadena 2026. 200+ lenders, jumbo loans, bank statement programs for Caltech, JPL, medical professionals. NMLS #1426884.',
+  description: 'Wholesale mortgage broker San Gabriel Valley Pasadena 2026. 50+ Wholesale Lenders, jumbo loans, bank statement programs for Caltech, JPL, medical professionals. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Gabriel Valley Pasadena',
     'mortgage broker Pasadena CA',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026]',
-    description: '200+ lender access for purchase and refinance in 9 SGV cities. Jumbo, bank statement, and international buyer programs.',
+    description: '50+ Wholesale Lenders for purchase and refinance in 9 SGV cities. Jumbo, bank statement, and international buyer programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -53,7 +53,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
     "datePublished": "2026-02-07",
     "dateModified": "2026-02-07",
     "mainEntityOfPage": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-2026",
-    "description": "Wholesale mortgage broker guide for San Gabriel Valley and Pasadena. 200+ lenders, jumbo loans, bank statement programs, and international buyer options."
+    "description": "Wholesale mortgage broker guide for San Gabriel Valley and Pasadena. 50+ Wholesale Lenders, jumbo loans, bank statement programs, and international buyer options."
   };
 
   const faqSchema = {
@@ -65,7 +65,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         "name": "What is a wholesale mortgage broker in the San Gabriel Valley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders to find the best rates and programs for SGV borrowers. Unlike bank loan officers limited to one institution's products, a wholesale broker shops the entire market for jumbo, conventional, bank statement, and specialty programs."
+          "text": "A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders to find the best rates and programs for SGV borrowers. Unlike bank loan officers limited to one institution's products, a wholesale broker shops the entire market for jumbo, conventional, bank statement, and specialty programs."
         }
       },
       {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         "name": "How do wholesale mortgage rates compare to bank rates in the SGV?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wholesale rates are consistently competitive because they eliminate the overhead costs built into bank rates (branch operations, advertising, corporate structure). For San Gabriel Valley jumbo loans on properties valued at $1-3 million or more, wholesale pricing from 200+ lenders often produces better terms than any single bank."
+          "text": "Wholesale rates are consistently competitive because they eliminate the overhead costs built into bank rates (branch operations, advertising, corporate structure). For San Gabriel Valley jumbo loans on properties valued at $1-3 million or more, wholesale pricing from 50+ Wholesale Lenders often produces better terms than any single bank."
         }
       },
       {
@@ -129,7 +129,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         "name": "How does the wholesale mortgage process work in the San Gabriel Valley?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You work directly with Mo Abdel, who handles your application, shops your scenario across 200+ wholesale lenders, secures the best pricing, and manages the process through closing. The lender funds the loan, but you get personalized broker service rather than a bank's call-center experience. Typical closing is 21-35 days for purchase transactions."
+          "text": "You work directly with Mo Abdel, who handles your application, shops your scenario across 50+ Wholesale Lenders, secures the best pricing, and manages the process through closing. The lender funds the loan, but you get personalized broker service rather than a bank's call-center experience. Typical closing is 21-35 days for purchase transactions."
         }
       },
       {
@@ -179,7 +179,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending, Inc.",
-    "description": "Wholesale mortgage broker serving the San Gabriel Valley and Pasadena with 200+ lender access for purchase, refinance, jumbo, and specialty loan programs.",
+    "description": "Wholesale mortgage broker serving the San Gabriel Valley and Pasadena with 50+ Wholesale Lenders for purchase, refinance, jumbo, and specialty loan programs.",
     "telephone": "(949) 579-2057",
     "url": "https://www.mothebroker.com",
     "areaServed": [
@@ -224,7 +224,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
           SGV &amp; Pasadena Mortgage Broker: Caltech, Healthcare &amp; International Buyers [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for purchase and refinance across 9 SGV cities &mdash; jumbo, bank statement, medical professional, and international buyer programs
+          50+ Wholesale Lenders for purchase and refinance across 9 SGV cities &mdash; jumbo, bank statement, medical professional, and international buyer programs
         </p>
         <p className="text-sm text-gray-500 mt-2">
           By <strong>Mo Abdel</strong> | NMLS #1426884 | Updated February 7, 2026
@@ -241,9 +241,9 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
 
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
-          <p className="font-semibold text-gray-900 mb-2 text-xl">Wholesale Mortgage Pricing in the San Gabriel Valley: The 200+ Lender Advantage</p>
+          <p className="font-semibold text-gray-900 mb-2 text-xl">Wholesale Mortgage Pricing in the San Gabriel Valley: 50+ Wholesale Lenders</p>
           <p className="text-gray-800 mb-0">
-            San Gabriel Valley home purchases totaled over <strong>$4.8 billion in transaction volume in 2025</strong>, with the average purchase price exceeding <strong>$1.4 million across the nine-city corridor</strong>. At this price level, the difference between wholesale and retail mortgage pricing translates to meaningful savings over the life of a loan. Wholesale mortgage brokers access <strong>200+ lenders</strong> through wholesale channels that bypass the overhead costs of retail banks: no branch networks, no massive advertising budgets, no corporate bureaucracy. The result is more competitive rates, broader program selection, and specialized products for the SGV&apos;s unique borrower profiles: Caltech and JPL scientists with complex compensation, medical professionals at Huntington Hospital and City of Hope, international buyers in Arcadia and San Marino, and self-employed business owners throughout the region. As a licensed wholesale mortgage broker (NMLS #1426884) with Lumin Lending, I bring this full market access to every San Gabriel Valley transaction.
+            San Gabriel Valley home purchases totaled over <strong>$4.8 billion in transaction volume in 2025</strong>, with the average purchase price exceeding <strong>$1.4 million across the nine-city corridor</strong>. At this price level, the difference between wholesale and retail mortgage pricing translates to meaningful savings over the life of a loan. Wholesale mortgage brokers access <strong>50+ Wholesale Lenders</strong> through wholesale channels that bypass the overhead costs of retail banks: no branch networks, no massive advertising budgets, no corporate bureaucracy. The result is more competitive rates, broader program selection, and specialized products for the SGV&apos;s unique borrower profiles: Caltech and JPL scientists with complex compensation, medical professionals at Huntington Hospital and City of Hope, international buyers in Arcadia and San Marino, and self-employed business owners throughout the region. As a licensed wholesale mortgage broker (NMLS #1426884) with Lumin Lending, I bring this full market access to every San Gabriel Valley transaction.
           </p>
         </div>
 
@@ -341,7 +341,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-medium">Full Documentation (W-2/Tax)</td><td className="py-2 px-4 border-b">2 years W-2 + tax returns + pay stubs</td><td className="py-2 px-4 border-b">Caltech/JPL salaried employees, hospital staff</td><td className="py-2 px-4 border-b">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-medium">Full Documentation (W-2/Tax)</td><td className="py-2 px-4 border-b">2 years W-2 + tax returns + pay stubs</td><td className="py-2 px-4 border-b">Caltech/JPL salaried employees, hospital staff</td><td className="py-2 px-4 border-b">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Bank Statement (12 mo)</td><td className="py-2 px-4 border-b">12 months personal or business bank statements</td><td className="py-2 px-4 border-b">Self-employed, business owners, consultants</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">30+ specialized lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Bank Statement (24 mo)</td><td className="py-2 px-4 border-b">24 months bank statements for higher qualification</td><td className="py-2 px-4 border-b">Business owners with variable income patterns</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">25+ specialized lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-medium">Asset Depletion</td><td className="py-2 px-4 border-b">Liquid assets divided by loan term = qualifying income</td><td className="py-2 px-4 border-b">Retired professionals with investment portfolios</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">20+ specialized lenders</td></tr>
@@ -559,7 +559,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
             As a licensed mortgage broker (NMLS #1426884) with Lumin Lending, Inc. (NMLS #2716106, DRE #02291443), I deliver wholesale market access that transforms how San Gabriel Valley borrowers finance homes. Here is what sets my approach apart for SGV transactions:
           </p>
           <ul>
-            <li><strong>200+ wholesale lender relationships:</strong> I simultaneously compare rates and programs from over 200 lenders, finding the best fit for each borrower&apos;s unique profile. This is especially critical for jumbo loans where lender pricing varies significantly.</li>
+            <li><strong>50+ Wholesale Lenders:</strong> I simultaneously compare rates and programs from 50+ Wholesale Lenders, finding the best fit for each borrower&apos;s unique profile. This is especially critical for jumbo loans where lender pricing varies significantly.</li>
             <li><strong>Complex income expertise:</strong> I regularly work with Caltech professors, JPL engineers, medical professionals, business owners, and international buyers. Each income type requires matching the borrower with lenders who understand and accept their documentation.</li>
             <li><strong>SGV market intelligence:</strong> Understanding San Gabriel Valley property values, neighborhood dynamics, and appraisal patterns ensures accurate property positioning throughout the mortgage process.</li>
             <li><strong>Transparent pricing:</strong> Wholesale broker compensation is fully disclosed on your Loan Estimate. You see exactly what you pay for the loan and what the broker earns, creating accountability that retail banks avoid.</li>
@@ -587,7 +587,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         {/* Refinance Section */}
         <h2>Wholesale Refinance Options for SGV Homeowners</h2>
         <p>
-          San Gabriel Valley homeowners refinancing their existing mortgages benefit from wholesale access in multiple ways. Whether your goal is rate reduction, term shortening, or cash-out equity access, comparing options from 200+ lenders ensures the best possible outcome.
+          San Gabriel Valley homeowners refinancing their existing mortgages benefit from wholesale access in multiple ways. Whether your goal is rate reduction, term shortening, or cash-out equity access, comparing options from 50+ Wholesale Lenders ensures the best possible outcome.
         </p>
         <ul>
           <li><strong>Rate-and-term refinance:</strong> Replace your existing mortgage with a new loan at current market rates. Ideal for SGV homeowners who locked in higher rates and want to reduce monthly payments.</li>
@@ -625,12 +625,12 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         <div className="space-y-6 my-8">
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">What is a wholesale mortgage broker in the San Gabriel Valley?</h3>
-            <p>A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders to find the best rates and programs for SGV borrowers. Unlike bank loan officers limited to one institution&apos;s products, a wholesale broker shops the entire market for jumbo, conventional, bank statement, and specialty programs.</p>
+            <p>A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders to find the best rates and programs for SGV borrowers. Unlike bank loan officers limited to one institution&apos;s products, a wholesale broker shops the entire market for jumbo, conventional, bank statement, and specialty programs.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">How do wholesale mortgage rates compare to bank rates in the SGV?</h3>
-            <p>Wholesale rates are consistently competitive because they eliminate overhead costs built into bank rates. For San Gabriel Valley jumbo loans on properties valued at $1-3 million or more, wholesale pricing from 200+ lenders often produces better terms than any single bank.</p>
+            <p>Wholesale rates are consistently competitive because they eliminate overhead costs built into bank rates. For San Gabriel Valley jumbo loans on properties valued at $1-3 million or more, wholesale pricing from 50+ Wholesale Lenders often produces better terms than any single bank.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
@@ -665,7 +665,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">How does the wholesale mortgage process work in the San Gabriel Valley?</h3>
-            <p>You work directly with Mo Abdel, who handles your application, shops your scenario across 200+ wholesale lenders, secures the best pricing, and manages the process through closing. The lender funds the loan, but you get personalized broker service. Typical closing: 21-35 days for purchase transactions.</p>
+            <p>You work directly with Mo Abdel, who handles your application, shops your scenario across 50+ Wholesale Lenders, secures the best pricing, and manages the process through closing. The lender funds the loan, but you get personalized broker service. Typical closing: 21-35 days for purchase transactions.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
@@ -701,7 +701,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
             The San Gabriel Valley&apos;s nine-city corridor is one of the most complex and highest-value mortgage markets in all of California. With median home prices from $1 million to $3 million, a borrower population that includes Caltech researchers, JPL engineers, healthcare executives, international business owners, and self-employed professionals, the SGV demands the breadth and flexibility that only wholesale lending channels provide.
           </p>
           <p className="text-gray-800">
-            A retail bank offers one set of products at one set of rates. A wholesale mortgage broker accesses 200+ lenders, each with distinct programs, rates, and underwriting guidelines. For a Caltech professor with consulting income, that means finding the lender who qualifies all income streams. For an Arcadia business owner, it means bank statement programs that calculate income from cash flow rather than tax returns. For a physician at Huntington Hospital, it means physician loan programs with student loan exclusions and employment contract qualification.
+            A retail bank offers one set of products at one set of rates. A wholesale mortgage broker accesses 50+ Wholesale Lenders, each with distinct programs, rates, and underwriting guidelines. For a Caltech professor with consulting income, that means finding the lender who qualifies all income streams. For an Arcadia business owner, it means bank statement programs that calculate income from cash flow rather than tax returns. For a physician at Huntington Hospital, it means physician loan programs with student loan exclusions and employment contract qualification.
           </p>
           <p className="text-gray-800 mb-0">
             Whether you are purchasing your first home in La Crescenta, upgrading to a San Marino estate, refinancing a Pasadena Craftsman, or acquiring investment property in Glendale, the wholesale channel provides more options, better pricing, and faster execution than any single retail lender. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a free consultation and wholesale rate comparison tailored to your San Gabriel Valley mortgage needs.

@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Mo Abdel | CA & WA Mortgage Broker | NMLS #1426884',
-  description: 'Mortgage broker serving CA and WA with 200+ lenders. Fast closings for FHA, VA, conventional, non-QM and investor loans. NMLS #1426884.',
+  description: 'Mortgage broker serving CA and WA with 50+ Wholesale Lenders. Fast closings for FHA, VA, conventional, non-QM and investor loans. NMLS #1426884.',
   keywords: [
     'California mortgage broker',
     'Washington mortgage broker',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'CA & WA Mortgage Broker | Mo Abdel NMLS #1426884',
-    description: 'Competitive mortgage pricing from 200+ lenders across CA and WA. Fast closings, unbiased advice, flexible home loan programs.',
+    description: 'Competitive mortgage pricing from 50+ Wholesale Lenders across CA and WA. Fast closings, unbiased advice, flexible home loan programs.',
     url: 'https://www.mothebroker.com',
     siteName: 'Mo Abdel | Mortgage Broker',
     locale: 'en_US',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CA & WA Mortgage Broker | Mo Abdel NMLS #1426884',
-    description: 'Competitive mortgage pricing from 200+ lenders. Fast closings, unbiased advice, flexible home loan programs.',
+    description: 'Competitive mortgage pricing from 50+ Wholesale Lenders. Fast closings, unbiased advice, flexible home loan programs.',
     creator: '@mothebroker',
     site: '@mothebroker',
   },

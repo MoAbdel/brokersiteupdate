@@ -199,7 +199,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
               {
                 "@type": "HowToStep",
                 "name": "Compare Lenders and Programs",
-                "text": "Work with a wholesale broker who shops 200+ lenders to find competitive rates. Compare conventional, FHA, VA, and jumbo options."
+                "text": "Work with a wholesale broker who shops 50+ Wholesale Lenders to find competitive rates. Compare conventional, FHA, VA, and jumbo options."
               },
               {
                 "@type": "HowToStep",
@@ -344,7 +344,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
 
         <ol>
           <li><strong>Calculate your available equity</strong> — Estimate your home's current market value and subtract your mortgage balance. Ensure you have at least 20% equity to work with.</li>
-          <li><strong>Compare lenders through a wholesale broker</strong> — Working with a broker who shops 200+ lenders ensures you find competitive pricing for your specific situation.</li>
+          <li><strong>Compare lenders through a wholesale broker</strong> — Working with a broker who shops 50+ Wholesale Lenders ensures you find competitive pricing for your specific situation.</li>
           <li><strong>Submit your application with documentation</strong> — Provide pay stubs (30 days), W-2s (2 years), tax returns (1-2 years), bank statements (2-3 months), and current mortgage statement.</li>
           <li><strong>Complete property appraisal</strong> — A licensed appraiser visits your property to confirm current market value, which determines your maximum cash-out amount.</li>
           <li><strong>Underwriting review and approval</strong> — Lender verifies all documentation, reviews credit and income, and issues conditional approval followed by clear-to-close.</li>
@@ -650,7 +650,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
 
         <h3>Can self-employed borrowers qualify for a cash-out refinance?</h3>
         <p className="paa-answer">
-          <strong>Yes. Self-employed borrowers qualify using 2 years of tax returns, or through <a href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-blue-600 hover:underline">bank statement loan programs</a> that use 12&ndash;24 months of deposits instead of tax returns.</strong> Wholesale broker access to 200+ lenders includes non-QM programs specifically designed for self-employed borrowers whose tax returns understate actual income due to legitimate business deductions.
+          <strong>Yes. Self-employed borrowers qualify using 2 years of tax returns, or through <a href="/blog/bank-statement-loans-wholesale-complete-2026" className="text-blue-600 hover:underline">bank statement loan programs</a> that use 12&ndash;24 months of deposits instead of tax returns.</strong> Wholesale broker access to 50+ Wholesale Lenders includes non-QM programs specifically designed for self-employed borrowers whose tax returns understate actual income due to legitimate business deductions.
         </p>
 
         <h3>What is the difference between a cash-out refinance and a second mortgage?</h3>
@@ -718,7 +718,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
             A cash-out refinance converts your home equity into liquid funds while consolidating your financing into a single mortgage payment. As Mo Abdel, NMLS #1426884, advises: "The key to a successful cash-out refinance is ensuring the math works for your specific situation—evaluating your current rate, the new rate, closing costs, and how long you plan to stay in the home."
           </p>
           <p className="text-blue-800 mb-4">
-            With 200+ wholesale lenders, we compare options across conventional, FHA, VA, and jumbo programs to find competitive pricing for your equity access needs. Whether you are funding home improvements, consolidating debt, or investing in opportunities, working with a wholesale broker ensures you see the full market.
+            With 50+ Wholesale Lenders, we compare options across conventional, FHA, VA, and jumbo programs to find competitive pricing for your equity access needs. Whether you are funding home improvements, consolidating debt, or investing in opportunities, working with a wholesale broker ensures you see the full market.
           </p>
           <a
             href="/contact-orange-county-mortgage-broker"

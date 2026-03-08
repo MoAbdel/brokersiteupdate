@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Divorce Refinance: How to Buy Out Your Spouse & Qualify Solo [2026]',
-  description: 'Divorce refinance guide: How to buy out your spouse, remove them from the mortgage and title, qualify on single income, interspousal transfer deed process, DTI challenges, equity division, and wholesale broker advantage across 200+ lenders. NMLS #1426884.',
+  description: 'Divorce refinance guide: How to buy out your spouse, remove them from the mortgage and title, qualify on single income, interspousal transfer deed process, DTI challenges, equity division, and wholesale broker advantage across 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/divorce-refinance-spouse-buyout-qualifying-2026',
     languages: {
@@ -64,7 +64,7 @@ const faqData = [
   },
   {
     question: 'What if I cannot qualify for the divorce refinance on my own?',
-    answer: 'If you cannot qualify solo, several options exist: (1) add a co-borrower such as a parent or family member to strengthen the application, (2) use documented alimony or child support as qualifying income, (3) explore FHA loans which allow higher DTI ratios (up to 56.9% with compensating factors), (4) negotiate with your ex-spouse to temporarily remain on the mortgage while you improve your qualifying position, (5) consider selling the property and dividing the proceeds, or (6) work with a wholesale broker who can shop your profile across 200+ lenders to find programs with more flexible qualification criteria.',
+    answer: 'If you cannot qualify solo, several options exist: (1) add a co-borrower such as a parent or family member to strengthen the application, (2) use documented alimony or child support as qualifying income, (3) explore FHA loans which allow higher DTI ratios (up to 56.9% with compensating factors), (4) negotiate with your ex-spouse to temporarily remain on the mortgage while you improve your qualifying position, (5) consider selling the property and dividing the proceeds, or (6) work with a wholesale broker who can shop your profile across 50+ Wholesale Lenders to find programs with more flexible qualification criteria.',
   },
   {
     question: 'Does a divorce refinance require an appraisal?',
@@ -183,7 +183,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
           Divorce Refinance: How to Buy Out Your Spouse &amp; Qualify Solo [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A comprehensive guide to divorce refinancing&mdash;covering how to buy out your spouse&apos;s equity share, remove them from the mortgage and title using an interspousal transfer deed, qualify on a single income with DTI strategies, use alimony and child support as qualifying income, navigate the refinance timeline during and after divorce, and leverage a wholesale broker&apos;s access to 200+ lenders for flexible qualification programs.
+          A comprehensive guide to divorce refinancing&mdash;covering how to buy out your spouse&apos;s equity share, remove them from the mortgage and title using an interspousal transfer deed, qualify on a single income with DTI strategies, use alimony and child support as qualifying income, navigate the refinance timeline during and after divorce, and leverage a wholesale broker&apos;s access to 50+ Wholesale Lenders for flexible qualification programs.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, divorce is the single most common reason homeowners need to refinance under financial pressure&mdash;and <strong>the biggest mistake divorcing homeowners make is assuming a divorce decree removes their ex-spouse from the mortgage</strong>. It does not. The only reliable way to remove a spouse from a mortgage is to refinance into a new loan under the retaining spouse&apos;s name. According to <a href="https://www.consumerfinance.gov/ask-cfpb/what-happens-to-the-mortgage-when-you-divorce-en-1749/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau guidance</a>, both borrowers remain legally liable for the mortgage until it is paid off or refinanced, regardless of what the divorce decree assigns. A wholesale mortgage broker comparing programs from 200+ lenders identifies the most flexible single-income qualification options, including FHA programs with DTI allowances up to 56.9% and conventional programs that count documented alimony as qualifying income.
+            According to Mo Abdel, NMLS #1426884, divorce is the single most common reason homeowners need to refinance under financial pressure&mdash;and <strong>the biggest mistake divorcing homeowners make is assuming a divorce decree removes their ex-spouse from the mortgage</strong>. It does not. The only reliable way to remove a spouse from a mortgage is to refinance into a new loan under the retaining spouse&apos;s name. According to <a href="https://www.consumerfinance.gov/ask-cfpb/what-happens-to-the-mortgage-when-you-divorce-en-1749/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau guidance</a>, both borrowers remain legally liable for the mortgage until it is paid off or refinanced, regardless of what the divorce decree assigns. A wholesale mortgage broker comparing programs from 50+ Wholesale Lenders identifies the most flexible single-income qualification options, including FHA programs with DTI allowances up to 56.9% and conventional programs that count documented alimony as qualifying income.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">identifies flexible single-income qualification programs across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders including FHA, conventional, and portfolio options for divorce refinances</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders including FHA, conventional, and portfolio options for divorce refinances</td>
               </tr>
             </tbody>
           </table>
@@ -250,7 +250,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Divorce Refinance Decisions</h3>
           <p className="text-blue-800 mb-0">
-            I work with divorcing homeowners in California and Washington every month, and the pattern is consistent: one spouse wants to keep the home, but they have never qualified for a mortgage on their own income. The joint application was easy&mdash;two incomes, combined DTI well below limits. Now they need to qualify solo, often while also paying the departing spouse their equity share through a cash-out refinance. The most important step happens before the refinance application: structuring the divorce settlement to maximize qualifying income (documenting alimony duration, calculating child support continuity) and minimize debt obligations assigned to the retaining spouse. I have seen borrowers get denied by one lender and approved by another because the second lender counted their alimony income correctly or offered a higher DTI threshold. That is why shopping across 200+ lenders matters more in a divorce refinance than in any other refinance scenario. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I work with divorcing homeowners in California and Washington every month, and the pattern is consistent: one spouse wants to keep the home, but they have never qualified for a mortgage on their own income. The joint application was easy&mdash;two incomes, combined DTI well below limits. Now they need to qualify solo, often while also paying the departing spouse their equity share through a cash-out refinance. The most important step happens before the refinance application: structuring the divorce settlement to maximize qualifying income (documenting alimony duration, calculating child support continuity) and minimize debt obligations assigned to the retaining spouse. I have seen borrowers get denied by one lender and approved by another because the second lender counted their alimony income correctly or offered a higher DTI threshold. That is why shopping across 50+ Wholesale Lenders matters more in a divorce refinance than in any other refinance scenario. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -648,7 +648,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage for Divorce Refinancing</h2>
 
         <p>
-          Divorce refinance applications present unique qualification challenges that make lender selection more impactful than in standard refinances. Here is why a wholesale broker with access to 200+ lenders delivers a measurably better outcome:
+          Divorce refinance applications present unique qualification challenges that make lender selection more impactful than in standard refinances. Here is why a wholesale broker with access to 50+ Wholesale Lenders delivers a measurably better outcome:
         </p>
 
         <ul>
@@ -656,7 +656,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
           <li><strong>Alimony income treatment differs by lender:</strong> Some lenders require 12 months of documented receipt; others accept 6 months. Some lenders discount alimony income by 25% as a &quot;haircut&quot;; others count 100%. These differences directly affect qualification.</li>
           <li><strong>Cash-out LTV limits are not uniform:</strong> While Fannie Mae guidelines cap cash-out at 80% LTV, some lenders add additional restrictions (called &quot;overlays&quot;) that reduce the maximum to 75%. A broker identifies lenders without restrictive overlays.</li>
           <li><strong>Divorce decree interpretation:</strong> Lenders interpret divorce decrees differently when calculating debt obligations. A broker who regularly processes divorce refinances knows which lenders are most favorable in their interpretation.</li>
-          <li><strong>Pricing competition benefits you:</strong> Wholesale rates from 200+ lenders create natural price competition. The same loan that one lender prices at par, another may offer with a lender credit that reduces closing costs.</li>
+          <li><strong>Pricing competition benefits you:</strong> Wholesale rates from 50+ Wholesale Lenders create natural price competition. The same loan that one lender prices at par, another may offer with a lender credit that reduces closing costs.</li>
         </ul>
 
         <p>
@@ -784,7 +784,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
             <li><strong>Cash-out refinance funds the equity buyout:</strong> Maximum 80% LTV for conventional and FHA; 100% LTV for VA-eligible borrowers</li>
             <li><strong>Structure your divorce settlement for mortgage qualification:</strong> Work with your attorney to ensure support duration, debt assignment, and refinance timelines are compatible with lending requirements</li>
             <li><strong>Pre-qualify before finalizing the divorce:</strong> Knowing your qualification position before the decree is finalized allows adjustments to settlement terms that improve approval chances</li>
-            <li><strong>A wholesale broker maximizes approval odds:</strong> Lender-to-lender variation in DTI limits, alimony treatment, and cash-out overlays means the same borrower can be denied at one lender and approved at another. Shopping across 200+ lenders finds the best fit</li>
+            <li><strong>A wholesale broker maximizes approval odds:</strong> Lender-to-lender variation in DTI limits, alimony treatment, and cash-out overlays means the same borrower can be denied at one lender and approved at another. Shopping across 50+ Wholesale Lenders finds the best fit</li>
           </ol>
         </div>
 
@@ -792,7 +792,7 @@ export default function DivorceRefinanceSpouseBuyoutPage() {
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Ready to Refinance After Divorce? Get Your Free Qualification Analysis</h3>
           <p className="text-green-800 text-lg mb-4">
-            Send me your income details, divorce decree (or proposed settlement), and current mortgage information. I will tell you exactly where you stand for qualification across 200+ lenders&mdash;including which programs accept your alimony income and which offer the highest DTI limits. No obligation, no pressure, complete confidentiality.
+            Send me your income details, divorce decree (or proposed settlement), and current mortgage information. I will tell you exactly where you stand for qualification across 50+ Wholesale Lenders&mdash;including which programs accept your alimony income and which offer the highest DTI limits. No obligation, no pressure, complete confidentiality.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

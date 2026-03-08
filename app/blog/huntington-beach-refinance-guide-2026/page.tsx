@@ -106,7 +106,7 @@ export default function HuntingtonBeachRefinance2025() {
                     Huntington Beach has seen steady equity growth over the last several years, from the downtown core to the suburban enclaves of Edwards Hill. In 2025, many homeowners are finding that their equity is their most powerful financial tool. However, with market conditions constantly shifting, the decision to refinance requires a nuanced approach—what we call **Information Gain**.
                 </p>
                 <p>
-                    As a wholesale broker, I have a front-row seat to the competition. While a big-box bank like Wells Fargo might offer you one "standard" refinance rate, my office can pulse-check 200+ lenders in real-time. For a Surf City homeowner, this means finding the specific lender that has an appetite for coastal OC risk at any given moment.
+                    As a wholesale broker, I have a front-row seat to the competition. While a big-box bank like Wells Fargo might offer you one "standard" refinance rate, my office can pulse-check 50+ Wholesale Lenders in real-time. For a Surf City homeowner, this means finding the specific lender that has an appetite for coastal OC risk at any given moment.
                 </p>
 
                 <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">

@@ -30,7 +30,7 @@ export default function BrokerComparison() {
               <tr className="border-b border-gray-200 hover:bg-gray-50">
                 <td className="px-6 py-4 font-medium text-slate-700">Number of Lenders</td>
                 <td className="px-6 py-4 text-center">
-                  <span className="text-green-600 font-bold">200+ Lenders</span>
+                  <span className="text-green-600 font-bold">50+ Wholesale Lenders</span>
                 </td>
                 <td className="px-6 py-4 text-center">
                   <span className="text-red-600">1 (Their Own)</span>
@@ -114,7 +114,7 @@ export default function BrokerComparison() {
               <div className="p-4 border-b border-gray-100">
                 <div className="font-medium text-slate-700 mb-2">Number of Lenders</div>
                 <div className="flex justify-between items-center">
-                  <span className="text-green-600 font-bold">200+ Lenders</span>
+                  <span className="text-green-600 font-bold">50+ Wholesale Lenders</span>
                   <span className="text-red-600">1 (Their Own)</span>
                 </div>
               </div>
@@ -185,7 +185,7 @@ export default function BrokerComparison() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-green-600 mt-0.5 mr-3 flex-shrink-0" />
-                <span className="text-slate-700">Shop 200+ lenders with one application</span>
+                <span className="text-slate-700">Shop 50+ Wholesale Lenders with one application</span>
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-green-600 mt-0.5 mr-3 flex-shrink-0" />

@@ -217,7 +217,7 @@ export default function ReverseMortgageCouplesAgeGapYoungerSpousePage() {
 
         <p>According to data from the <a href="https://www.hud.gov/federal_housing_administration" target="_blank" rel="noopener noreferrer">Federal Housing Administration</a>, approximately 18% of HECM applications involve a non-borrowing spouse. For these couples, the principal limit calculation, protection framework, and long-term planning considerations differ substantially from standard HECM scenarios. A <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">complete understanding of reverse mortgage mechanics</Link> is the starting point, but age-gap couples need specialized guidance beyond the basics.</p>
 
-        <p><strong>Call Mo Abdel at <a href="tel:+19495792057">(949) 579-2057</a> for a personalized analysis of your age-gap reverse mortgage options.</strong> With access to 200+ wholesale lenders, Mo compares HECM and proprietary products to find the right fit for your situation.</p>
+        <p><strong>Call Mo Abdel at <a href="tel:+19495792057">(949) 579-2057</a> for a personalized analysis of your age-gap reverse mortgage options.</strong> With access to 50+ Wholesale Lenders, Mo compares HECM and proprietary products to find the right fit for your situation.</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Non-Borrowing Spouse Protections: What HUD Rules Guarantee</h2>
 
@@ -537,7 +537,7 @@ export default function ReverseMortgageCouplesAgeGapYoungerSpousePage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Wholesale Broker Advantage for Age-Gap HECM Decisions</h2>
 
-        <p>Age-gap reverse mortgage decisions require comparing multiple products across multiple lenders&mdash;exactly the scenario where a wholesale broker provides maximum value. A retail bank offers one HECM product and possibly one proprietary option. A wholesale broker like Mo Abdel accesses 200+ lenders, enabling:</p>
+        <p>Age-gap reverse mortgage decisions require comparing multiple products across multiple lenders&mdash;exactly the scenario where a wholesale broker provides maximum value. A retail bank offers one HECM product and possibly one proprietary option. A wholesale broker like Mo Abdel accesses 50+ Wholesale Lenders, enabling:</p>
 
         <ul className="list-disc pl-6 my-4">
           <li><strong>Side-by-side HECM vs. proprietary comparison:</strong> See exact numbers for FHA HECM and 3-5 proprietary products tailored to your age gap</li>
@@ -584,7 +584,7 @@ export default function ReverseMortgageCouplesAgeGapYoungerSpousePage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Age Gap Reverse Mortgage Questions? Get a Personalized Analysis</h2>
           <p className="text-gray-700">Every age-gap couple&apos;s situation is unique. The right strategy depends on your specific ages, home value, financial goals, and risk tolerance. Mo Abdel has helped hundreds of California and Washington couples navigate the include-vs-exclude NBS decision, compare HECM to proprietary alternatives, and structure the optimal reverse mortgage solution for their household.</p>
-          <p className="text-gray-700 mt-4">With access to 200+ wholesale lenders offering both FHA HECM and proprietary reverse mortgage products, Mo provides the comprehensive comparison that retail banks cannot. Whether you need a standard HECM with NBS protections, a <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">proprietary jumbo reverse mortgage</Link>, or a <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HELOC hybrid strategy</Link>, a wholesale broker delivers options.</p>
+          <p className="text-gray-700 mt-4">With access to 50+ Wholesale Lenders offering both FHA HECM and proprietary reverse mortgage products, Mo provides the comprehensive comparison that retail banks cannot. Whether you need a standard HECM with NBS protections, a <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">proprietary jumbo reverse mortgage</Link>, or a <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HELOC hybrid strategy</Link>, a wholesale broker delivers options.</p>
           <p className="mt-4"><strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline">schedule a consultation</Link>.</p>
           <p className="text-sm text-gray-600 mt-4"><strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />Licensed in: CA, WA</p>
         </div>

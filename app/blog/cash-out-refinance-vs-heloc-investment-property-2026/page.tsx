@@ -759,7 +759,7 @@ export default function CashOutRefinanceVsHelocInvestmentPropertyPage() {
 
               <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="font-bold mb-2">How does a wholesale broker help with investment property equity extraction?</h3>
-                <p>A wholesale mortgage broker compares options from 200+ lenders simultaneously, identifying which lenders offer investment HELOCs, which have the highest DSCR cash-out LTV, and which conventional lenders provide the lowest investment property rates. This is particularly valuable for investment transactions where product availability varies dramatically between lenders. <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Learn more about the cash-out process</a>.</p>
+                <p>A wholesale mortgage broker compares options from 50+ Wholesale Lenders simultaneously, identifying which lenders offer investment HELOCs, which have the highest DSCR cash-out LTV, and which conventional lenders provide the lowest investment property rates. This is particularly valuable for investment transactions where product availability varies dramatically between lenders. <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Learn more about the cash-out process</a>.</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
@@ -796,7 +796,7 @@ export default function CashOutRefinanceVsHelocInvestmentPropertyPage() {
                 If you have W-2 income and fewer than 10 properties, a conventional cash-out refinance delivers the lowest fixed rate. If you hold a low-rate first mortgage and need flexible capital, an investment HELOC preserves that rate while providing revolving access. If you are self-employed, hold 10+ properties, or need faster seasoning, a DSCR cash-out refinance qualifies on rental income alone.
               </p>
               <p className="text-lg text-gray-800 mb-6">
-                As a wholesale mortgage broker with access to 200+ lenders, I compare all three options across conventional, non-QM, and portfolio channels to identify the structure that maximizes your net capital extraction while minimizing total cost. Every investor&apos;s portfolio is different &mdash; the right strategy depends on your specific properties, goals, and timeline.
+                As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I compare all three options across conventional, non-QM, and portfolio channels to identify the structure that maximizes your net capital extraction while minimizing total cost. Every investor&apos;s portfolio is different &mdash; the right strategy depends on your specific properties, goals, and timeline.
               </p>
 
               <div className="text-center">

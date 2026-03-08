@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
-  description: 'Wholesale mortgage broker Seattle Eastside with 200+ lender access for Bellevue, Kirkland, Redmond & 11 more cities. Tech RSU qualification, jumbo loans. NMLS #1426884.',
+  description: 'Wholesale mortgage broker Seattle Eastside with 50+ Wholesale Lenders for Bellevue, Kirkland, Redmond & 11 more cities. Tech RSU qualification, jumbo loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Seattle Eastside',
     'mortgage broker Bellevue WA',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
-    description: 'Wholesale mortgage broker serving 14 Seattle Eastside cities. 200+ lender access, tech income expertise.',
+    description: 'Wholesale mortgage broker serving 14 Seattle Eastside cities. 50+ Wholesale Lenders, tech income expertise.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-seattle-eastside-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -59,7 +59,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
     },
     datePublished: '2026-02-07',
     dateModified: '2026-02-22',
-    description: 'Comprehensive guide to wholesale mortgage broker advantages for 14 Seattle Eastside cities, featuring tech income qualification, jumbo loan expertise, and 200+ lender access.',
+    description: 'Comprehensive guide to wholesale mortgage broker advantages for 14 Seattle Eastside cities, featuring tech income qualification, jumbo loan expertise, and 50+ Wholesale Lenders.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-seattle-eastside-2026',
   };
 
@@ -72,7 +72,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
         name: 'What is a wholesale mortgage broker on the Seattle Eastside?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker is an independent licensed professional who shops your loan across 200+ wholesale lenders to find the best rate and terms. Unlike a bank loan officer who sells only that bank\'s products, a wholesale broker represents YOU in the lending marketplace, comparing options from hundreds of lenders simultaneously.',
+          text: 'A wholesale mortgage broker is an independent licensed professional who shops your loan across 50+ Wholesale Lenders to find the best rate and terms. Unlike a bank loan officer who sells only that bank\'s products, a wholesale broker represents YOU in the lending marketplace, comparing options from hundreds of lenders simultaneously.',
         },
       },
       {
@@ -88,7 +88,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
         name: 'Can a wholesale broker get better rates than Chase or Bank of America on the Eastside?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, consistently. Wholesale rates are typically lower than retail bank rates because wholesale lenders have lower overhead and compete against 200+ other lenders for your business. A large bank offers one rate — theirs. A wholesale broker creates a competitive bidding environment that drives rates down. On a $1.5M Bellevue jumbo mortgage, this rate advantage can save $200-$500+ per month.',
+          text: 'Yes, consistently. Wholesale rates are typically lower than retail bank rates because wholesale lenders have lower overhead and compete against 50+ Wholesale Lenders for your business. A large bank offers one rate — theirs. A wholesale broker creates a competitive bidding environment that drives rates down. On a $1.5M Bellevue jumbo mortgage, this rate advantage can save $200-$500+ per month.',
         },
       },
       {
@@ -96,7 +96,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
         name: 'What types of loans does a wholesale mortgage broker offer on the Eastside?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker offers every loan type through 200+ lender partners: conventional, jumbo, FHA, VA, USDA, bank statement loans, DSCR investment property loans, asset depletion loans, non-QM, bridge loans, construction loans, HELOCs, HELOANs, and reverse mortgages. This comprehensive product access ensures the right solution for any Eastside homebuyer or homeowner.',
+          text: 'A wholesale broker offers every loan type through 50+ Wholesale Lenders partners: conventional, jumbo, FHA, VA, USDA, bank statement loans, DSCR investment property loans, asset depletion loans, non-QM, bridge loans, construction loans, HELOCs, HELOANs, and reverse mortgages. This comprehensive product access ensures the right solution for any Eastside homebuyer or homeowner.',
         },
       },
       {
@@ -189,7 +189,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
       { '@type': 'City', name: 'Medina', containedInPlace: { '@type': 'State', name: 'Washington' } },
     ],
     priceRange: 'Contact for rates',
-    description: 'Wholesale mortgage broker with 200+ lender access serving Seattle Eastside tech professionals and homebuyers.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders serving Seattle Eastside tech professionals and homebuyers.',
   };
 
   const breadcrumbJsonLd = {
@@ -243,7 +243,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             <p className="text-lg font-semibold text-blue-900 mb-2">Wholesale Mortgage Broker Seattle Eastside: Key Numbers (2026)</p>
             <ul className="text-blue-800 space-y-1 text-base">
               <li>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), NWMLS data shows Eastside median home prices reached $1.72M in January 2026, a 7.8% year-over-year increase</li>
-              <li>200+ wholesale lenders compete for your mortgage, driving rates below retail bank pricing</li>
+              <li>50+ Wholesale Lenders compete for your mortgage, driving rates below retail bank pricing</li>
               <li>King County 2026 conforming loan limit: $1,209,750 — most Eastside purchases require jumbo financing</li>
               <li>Average Eastside home purchase price: $1.65 million — wholesale brokers save $200-$500+/month vs retail rates on jumbo loans</li>
               <li>Amazon, Microsoft, and Google collectively employ 150,000+ workers on the Eastside — each with unique RSU/stock compensation requiring specialized mortgage qualification</li>
@@ -252,7 +252,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Seattle Eastside mortgage market demands more than a banker who fills out forms. With median home prices exceeding $1.5 million across most Eastside cities, complex tech compensation packages from Amazon, Microsoft, Google, and Meta, and property values ranging from $1 million to $15 million+, Eastside homebuyers need a wholesale mortgage broker who understands the nuances of this market and has the lender relationships to deliver results. As a wholesale broker with access to over 200 lenders, I bring the entire lending marketplace to your fingertips — comparing rates, terms, programs, and qualification methodologies to find the optimal mortgage for your specific situation.
+            The Seattle Eastside mortgage market demands more than a banker who fills out forms. With median home prices exceeding $1.5 million across most Eastside cities, complex tech compensation packages from Amazon, Microsoft, Google, and Meta, and property values ranging from $1 million to $15 million+, Eastside homebuyers need a wholesale mortgage broker who understands the nuances of this market and has the lender relationships to deliver results. As a wholesale broker with access to 50+ Wholesale Lenders, I bring the entire lending marketplace to your fingertips — comparing rates, terms, programs, and qualification methodologies to find the optimal mortgage for your specific situation.
           </p>
 
           <p>
@@ -277,7 +277,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender Options</td>
-                  <td className="px-4 py-3 border-t">200+ wholesale lenders</td>
+                  <td className="px-4 py-3 border-t">50+ Wholesale Lenders</td>
                   <td className="px-4 py-3 border-t">1 lender (their own products)</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -594,7 +594,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           {/* Non-QM and Specialty Products */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Beyond Conventional: Non-QM &amp; Specialty Loan Programs for the Eastside</h2>
           <p>
-            The diverse Eastside buyer pool demands loan products that go beyond conventional mortgages. Wholesale broker access to 200+ lenders unlocks an array of specialty programs designed for non-traditional income profiles, investment strategies, and unique property types.
+            The diverse Eastside buyer pool demands loan products that go beyond conventional mortgages. Wholesale broker access to 50+ Wholesale Lenders unlocks an array of specialty programs designed for non-traditional income profiles, investment strategies, and unique property types.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
@@ -691,14 +691,14 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">2</div>
               <div>
                 <h3 className="font-bold text-lg">Pre-Approval with Verified Purchasing Power</h3>
-                <p>Within 24-48 hours of receiving your documentation, we issue a fully underwritten pre-approval letter showing your maximum purchase price and estimated monthly payment. This is not a generic pre-qualification — it is a verified pre-approval backed by actual lender review. In the competitive Eastside market, sellers and listing agents recognize the strength of a wholesale broker pre-approval backed by 200+ lender options.</p>
+                <p>Within 24-48 hours of receiving your documentation, we issue a fully underwritten pre-approval letter showing your maximum purchase price and estimated monthly payment. This is not a generic pre-qualification — it is a verified pre-approval backed by actual lender review. In the competitive Eastside market, sellers and listing agents recognize the strength of a wholesale broker pre-approval backed by 50+ Wholesale Lenders.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">3</div>
               <div>
                 <h3 className="font-bold text-lg">Rate Shopping &amp; Lender Selection</h3>
-                <p>When you find a property and go under contract, we shop your loan across all 200+ wholesale lender partners. You receive a comparison of the top 3-5 options with rate, APR, closing costs, and terms clearly presented. You choose the lender that provides the best overall value — not the one that pays us the most (our compensation is the same regardless).</p>
+                <p>When you find a property and go under contract, we shop your loan across all 50+ Wholesale Lenders partners. You receive a comparison of the top 3-5 options with rate, APR, closing costs, and terms clearly presented. You choose the lender that provides the best overall value — not the one that pays us the most (our compensation is the same regardless).</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -725,7 +725,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
-              <h3 className="font-bold text-lg mb-2">200+ Lender Access</h3>
+              <h3 className="font-bold text-lg mb-2">50+ Wholesale Lenders</h3>
               <p>No single bank, credit union, or direct lender matches this breadth of options. We compare conventional, jumbo, non-QM, and specialty products from over 200 wholesale partners to find the best fit for your unique situation — every single time.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
@@ -759,11 +759,11 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <a href="/blog/reverse-mortgage-seattle-eastside-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Reverse Mortgage Seattle Eastside Guide</h3>
-              <p className="text-sm text-gray-600">HECM and jumbo reverse mortgage options for Eastside seniors 62+. Access equity with no monthly payments through 200+ lender access.</p>
+              <p className="text-sm text-gray-600">HECM and jumbo reverse mortgage options for Eastside seniors 62+. Access equity with no monthly payments through 50+ Wholesale Lenders.</p>
             </a>
             <a href="/blog/home-equity-seattle-eastside-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Home Equity Seattle Eastside Guide</h3>
-              <p className="text-sm text-gray-600">HELOC, HELOAN, and cash-out refinance options for Eastside homeowners. Compare products across 200+ lenders for the best rates and terms.</p>
+              <p className="text-sm text-gray-600">HELOC, HELOAN, and cash-out refinance options for Eastside homeowners. Compare products across 50+ Wholesale Lenders for the best rates and terms.</p>
             </a>
             <a href="/blog/wholesale-mortgage-broker-washington-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Washington State Wholesale Broker Guide</h3>
@@ -775,7 +775,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             </a>
             <a href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">How to Get Wholesale Mortgage Rates</h3>
-              <p className="text-sm text-gray-600">Step-by-step guide to accessing institutional wholesale pricing through licensed mortgage brokers with 200+ lender relationships.</p>
+              <p className="text-sm text-gray-600">Step-by-step guide to accessing institutional wholesale pricing through licensed mortgage brokers with 50+ Wholesale Lenders.</p>
             </a>
           </div>
 
@@ -789,7 +789,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker on the Seattle Eastside?</h3>
-              <p>A wholesale mortgage broker is an independent licensed professional who shops your mortgage across 200+ wholesale lenders to find the best rate and terms. Unlike a bank loan officer who offers only that bank&apos;s products, a wholesale broker represents you in the lending marketplace, creating competition among lenders for your business. This results in lower rates, more product options, and better overall terms.</p>
+              <p>A wholesale mortgage broker is an independent licensed professional who shops your mortgage across 50+ Wholesale Lenders to find the best rate and terms. Unlike a bank loan officer who offers only that bank&apos;s products, a wholesale broker represents you in the lending marketplace, creating competition among lenders for your business. This results in lower rates, more product options, and better overall terms.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker qualify Amazon RSU income for a mortgage?</h3>
@@ -797,11 +797,11 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can a wholesale broker get better rates than Chase or Bank of America on the Eastside?</h3>
-              <p>Yes, consistently. Wholesale rates are structurally lower than retail bank rates because wholesale lenders operate with lower overhead and compete against 200+ other lenders for every loan. A large bank offers one rate — theirs — with no competitive pressure. On a $1.5M Bellevue jumbo mortgage, this rate advantage saves $200-$500+ per month, or $72,000-$180,000 over the life of a 30-year loan.</p>
+              <p>Yes, consistently. Wholesale rates are structurally lower than retail bank rates because wholesale lenders operate with lower overhead and compete against 50+ Wholesale Lenders for every loan. A large bank offers one rate — theirs — with no competitive pressure. On a $1.5M Bellevue jumbo mortgage, this rate advantage saves $200-$500+ per month, or $72,000-$180,000 over the life of a 30-year loan.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What types of loans does a wholesale mortgage broker offer on the Eastside?</h3>
-              <p>Every type. Through 200+ lender partners, we offer conventional, jumbo ($10M+), FHA, VA, bank statement loans, DSCR investment property loans, asset depletion loans, non-QM, bridge loans, construction loans, HELOCs, HELOANs, cash-out refinances, and reverse mortgages (HECM and jumbo). This comprehensive product access ensures the right solution exists for every Eastside buyer and homeowner.</p>
+              <p>Every type. Through 50+ Wholesale Lenders partners, we offer conventional, jumbo ($10M+), FHA, VA, bank statement loans, DSCR investment property loans, asset depletion loans, non-QM, bridge loans, construction loans, HELOCs, HELOANs, cash-out refinances, and reverse mortgages (HECM and jumbo). This comprehensive product access ensures the right solution exists for every Eastside buyer and homeowner.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker help startup founders get mortgages on the Eastside?</h3>
@@ -845,7 +845,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
           <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker Advantage on the Seattle Eastside</h2>
             <p className="text-slate-900 mb-3">
-              The Seattle Eastside mortgage market is defined by high property values, complex tech compensation, and fierce buyer competition. In this environment, a wholesale mortgage broker provides advantages that retail banks structurally cannot match: access to 200+ lenders, expert tech income qualification, jumbo and super-jumbo expertise up to $10M+, and rates that consistently beat retail bank pricing by $200-$500+ per month on typical Eastside jumbo loans.
+              The Seattle Eastside mortgage market is defined by high property values, complex tech compensation, and fierce buyer competition. In this environment, a wholesale mortgage broker provides advantages that retail banks structurally cannot match: access to 50+ Wholesale Lenders, expert tech income qualification, jumbo and super-jumbo expertise up to $10M+, and rates that consistently beat retail bank pricing by $200-$500+ per month on typical Eastside jumbo loans.
             </p>
             <p className="text-slate-900 mb-3">
               For Amazon, Microsoft, Google, and Meta employees, the wholesale broker difference is measured in purchasing power. The right lender counts your RSU income at full value, qualifies your bonus at offer letter amounts, and processes your offer letter for pre-approval before your first day of work. The wrong lender — typically a retail bank with one qualification methodology — leaves $500K-$1M in purchasing power on the table.
@@ -866,7 +866,7 @@ export default function WholesaleMortgageBrokerSeattleEastside2026() {
             <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 14 Seattle Eastside cities</p>
-            <p className="text-sm">200+ wholesale lender access | Tech income &amp; jumbo loan specialists</p>
+            <p className="text-sm">50+ Wholesale Lenders | Tech income &amp; jumbo loan specialists</p>
           </div>
 
           {/* Disclaimer */}

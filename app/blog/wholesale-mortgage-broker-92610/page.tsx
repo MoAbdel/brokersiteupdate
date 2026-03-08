@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92610 | Foothill Ranch | Jumbo Loan Specialists',
-  description: 'Foothill Ranch wholesale mortgage broker serving 92610. Access 200+ lenders for jumbo loans in this South OC community. NMLS #1426884.',
+  description: 'Foothill Ranch wholesale mortgage broker serving 92610. Access 50+ Wholesale Lenders for jumbo loans in this South OC community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92610',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92610 | Foothill Ranch Jumbo Specialists',
-    description: 'Foothill Ranch wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Foothill Ranch wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92610',
     type: 'article',
     publishedTime: '2026-02-03',
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBroker92610Page() {
                 "name": "Do wholesale brokers help with Portola Hills homes in 92610?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Portola Hills is an adjacent community often included in 92610 searches. Wholesale brokers serve both Foothill Ranch and Portola Hills buyers with access to 200+ lenders and competitive jumbo loan programs."
+                  "text": "Yes. Portola Hills is an adjacent community often included in 92610 searches. Wholesale brokers serve both Foothill Ranch and Portola Hills buyers with access to 50+ Wholesale Lenders and competitive jumbo loan programs."
                 }
               },
               {
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92610Page() {
                 "name": "Why choose a wholesale broker over banks in Foothill Ranch?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For Foothill Ranch's homes at the jumbo threshold, wholesale brokers can optimize your loan structure for the best rate and terms."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For Foothill Ranch's homes at the jumbo threshold, wholesale brokers can optimize your loan structure for the best rate and terms."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92610Page() {
           Wholesale Mortgage Broker 92610 | Foothill Ranch Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Foothill Ranch&apos;s outdoor-oriented community
+          Access wholesale rates and 50+ Wholesale Lenders for Foothill Ranch&apos;s outdoor-oriented community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Foothill Ranch 92610 offers South Orange County living with <strong>$1.0 million median home prices</strong> and access to Whiting Ranch Wilderness Park trails. At the jumbo threshold where prices approach the $1,209,750 conforming limit, strategic loan structuring makes a difference. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps you navigate conforming versus jumbo options.
+            Foothill Ranch 92610 offers South Orange County living with <strong>$1.0 million median home prices</strong> and access to Whiting Ranch Wilderness Park trails. At the jumbo threshold where prices approach the $1,209,750 conforming limit, strategic loan structuring makes a difference. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and helps you navigate conforming versus jumbo options.
           </p>
         </div>
 
@@ -278,11 +278,11 @@ export default function WholesaleMortgageBroker92610Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers help with Portola Hills homes in 92610?</h3>
-            <p className="mb-0">Yes. Portola Hills is an adjacent community often included in 92610 searches. Wholesale brokers serve both Foothill Ranch and Portola Hills buyers with access to 200+ lenders and competitive jumbo loan programs.</p>
+            <p className="mb-0">Yes. Portola Hills is an adjacent community often included in 92610 searches. Wholesale brokers serve both Foothill Ranch and Portola Hills buyers with access to 50+ Wholesale Lenders and competitive jumbo loan programs.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over banks in Foothill Ranch?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For Foothill Ranch&apos;s homes at the jumbo threshold, wholesale brokers can optimize your loan structure for the best rate and terms.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For Foothill Ranch&apos;s homes at the jumbo threshold, wholesale brokers can optimize your loan structure for the best rate and terms.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92610 does your wholesale brokerage serve?</h3>

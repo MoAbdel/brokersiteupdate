@@ -315,7 +315,7 @@ export default function CashOutRefinanceSeasoningRequirementsPage() {
             In mortgage lending, seasoning refers to the <strong>minimum amount of time that must elapse</strong> between specific events &mdash; typically a property purchase, deed transfer, or previous refinance &mdash; before a lender will approve a new cash-out refinance. Seasoning requirements exist because lenders and government-sponsored enterprises (GSEs) like <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Fannie Mae and Freddie Mac</a> use them to reduce fraud risk and verify stable ownership patterns.
           </p>
           <p>
-            As a wholesale mortgage broker working with 200+ lenders, I encounter seasoning requirements daily. They are one of the most common reasons borrowers face delays or need to switch loan programs. Understanding which loan types have shorter seasoning periods &mdash; and which exceptions apply to your situation &mdash; can save you weeks or months of waiting.
+            As a wholesale mortgage broker working with 50+ Wholesale Lenders, I encounter seasoning requirements daily. They are one of the most common reasons borrowers face delays or need to switch loan programs. Understanding which loan types have shorter seasoning periods &mdash; and which exceptions apply to your situation &mdash; can save you weeks or months of waiting.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Title Seasoning vs Mortgage Seasoning: Two Different Clocks</h3>
@@ -501,7 +501,7 @@ export default function CashOutRefinanceSeasoningRequirementsPage() {
           </div>
 
           <p>
-            This is where a wholesale broker provides the most value. With access to 200+ lenders, I can identify which <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">investment property cash-out refinance</Link> lenders match your specific seasoning timeline, LTV needs, and property type.
+            This is where a wholesale broker provides the most value. With access to 50+ Wholesale Lenders, I can identify which <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">investment property cash-out refinance</Link> lenders match your specific seasoning timeline, LTV needs, and property type.
           </p>
 
           {/* Special Situations */}
@@ -593,7 +593,7 @@ export default function CashOutRefinanceSeasoningRequirementsPage() {
             For investors using <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">cash-out refinances</Link> as part of a BRRRR (Buy, Rehab, Rent, Refinance, Repeat) strategy, understanding seasoning requirements is critical to projecting cash flow and timeline. The 6-month conventional seasoning period also serves as a natural window for completing renovations before capturing the post-renovation appraised value.
           </p>
           <p>
-            As a wholesale mortgage broker with access to 200+ lenders, I navigate seasoning requirements daily. Each lender interprets guidelines differently, and the variation in jumbo, non-QM, and DSCR seasoning policies means that the right lender match can save you months of waiting. Whether you purchased with cash and need delayed financing, inherited a property with no seasoning requirement, or need a DSCR lender with day-one cash-out capability, I will identify the fastest path to your equity.
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I navigate seasoning requirements daily. Each lender interprets guidelines differently, and the variation in jumbo, non-QM, and DSCR seasoning policies means that the right lender match can save you months of waiting. Whether you purchased with cash and need delayed financing, inherited a property with no seasoning requirement, or need a DSCR lender with day-one cash-out capability, I will identify the fastest path to your equity.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

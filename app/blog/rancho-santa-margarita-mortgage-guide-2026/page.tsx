@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Rancho Santa Margarita Mortgage Broker | RSM Home Loans & Rates 2026 — Mo Abdel NMLS #1426884',
-  description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 200+ lenders — 0.25-0.5% below banks. FHA 3.5% down, VA $0 down, conforming & jumbo for every RSM village. Pre-approval in 48 hours. Call (949) 579-2057.',
+  description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 50+ Wholesale Lenders — 0.25-0.5% below banks. FHA 3.5% down, VA $0 down, conforming & jumbo for every RSM village. Pre-approval in 48 hours. Call (949) 579-2057.',
   keywords: ['Rancho Santa Margarita mortgage broker', 'RSM home loans 2026', 'RSM first time buyer', 'Rancho Santa Margarita VA loans', 'wholesale mortgage RSM', 'Rancho Santa Margarita mortgage rates 2026', 'RSM mortgage rates February 2026', 'Rancho Santa Margarita FHA loans', 'RSM jumbo loans', 'Rancho Santa Margarita refinance'],
   openGraph: {
     title: 'Rancho Santa Margarita Mortgage Broker | RSM Home Loans & Rates 2026',
-    description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 200+ lenders — FHA, VA, conventional & jumbo for every RSM village. Pre-approval in 48 hours.',
+    description: 'Save $47K+ on your RSM mortgage. Wholesale rates from 50+ Wholesale Lenders — FHA, VA, conventional & jumbo for every RSM village. Pre-approval in 48 hours.',
     url: 'https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026',
     siteName: 'Mo Abdel - Lumin Lending Wholesale Mortgage Broker',
     type: 'article',
@@ -47,7 +47,7 @@ const faqData = [
   },
   {
     question: "How does a wholesale mortgage broker get better rates for RSM buyers?",
-    answer: "Wholesale mortgage brokers access 200+ lenders simultaneously instead of offering a single bank's rates. This competition among lenders drives pricing 0.25-0.5% below retail. For an $850K RSM home, that translates to $150-$300 in monthly savings over a 30-year term."
+    answer: "Wholesale mortgage brokers access 50+ Wholesale Lenders simultaneously instead of offering a single bank's rates. This competition among lenders drives pricing 0.25-0.5% below retail. For an $850K RSM home, that translates to $150-$300 in monthly savings over a 30-year term."
   },
   {
     question: "What are closing costs for a home in Rancho Santa Margarita?",
@@ -83,7 +83,7 @@ const faqData = [
   },
   {
     question: "What are the best neighborhoods in Rancho Santa Margarita for first-time buyers?",
-    answer: "Three RSM neighborhoods stand out for first-time buyers in 2026. Dove Canyon's gated townhome sections offer entry points at $750K-$1.1M with guard-gated security and golf course access. Melinda Heights ranges from $650K-$850K for condos and smaller single-family homes with top-rated school proximity. Trabuco Highlands provides the most affordable entry at $600K-$800K with easy trail access and family-friendly parks. All three neighborhoods qualify for both FHA loans (3.5% down) and conventional financing (3% down), and a wholesale broker can compare 200+ lenders to find the lowest rate for your credit profile."
+    answer: "Three RSM neighborhoods stand out for first-time buyers in 2026. Dove Canyon's gated townhome sections offer entry points at $750K-$1.1M with guard-gated security and golf course access. Melinda Heights ranges from $650K-$850K for condos and smaller single-family homes with top-rated school proximity. Trabuco Highlands provides the most affordable entry at $600K-$800K with easy trail access and family-friendly parks. All three neighborhoods qualify for both FHA loans (3.5% down) and conventional financing (3% down), and a wholesale broker can compare 50+ Wholesale Lenders to find the lowest rate for your credit profile."
   },
   {
     question: "How do RSM Mello-Roos taxes affect my mortgage payment?",
@@ -91,11 +91,11 @@ const faqData = [
   },
   {
     question: "What are Rancho Santa Margarita mortgage rates in February 2026?",
-    answer: "Wholesale conforming mortgage rates in Rancho Santa Margarita average 6.0-6.375% in February 2026, while FHA rates run 5.875-6.125% and VA rates average 5.75-6.0%. These wholesale rates are 0.25-0.5% below retail bank pricing for the same loan programs. Rates change daily based on market conditions. A wholesale broker compares 200+ lenders simultaneously to lock the lowest rate for your credit profile and loan scenario. Call (949) 579-2057 for a real-time rate quote."
+    answer: "Wholesale conforming mortgage rates in Rancho Santa Margarita average 6.0-6.375% in February 2026, while FHA rates run 5.875-6.125% and VA rates average 5.75-6.0%. These wholesale rates are 0.25-0.5% below retail bank pricing for the same loan programs. Rates change daily based on market conditions. A wholesale broker compares 50+ Wholesale Lenders simultaneously to lock the lowest rate for your credit profile and loan scenario. Call (949) 579-2057 for a real-time rate quote."
   },
   {
     question: "How do I get an RSM home loan with a low down payment?",
-    answer: "Multiple low-down-payment programs serve RSM buyers. Conventional loans require 3% down ($25,500 on an $850K home), FHA loans require 3.5% ($29,750), and VA loans require $0 for eligible veterans. CalHFA down payment assistance programs can provide deferred-payment junior loans to further reduce upfront costs. In our RSM closings, first-time buyers using FHA or conventional 3% down programs represent 35% of transactions. A wholesale broker compares all available low-down-payment options across 200+ lenders to find the lowest rate and monthly payment for your budget."
+    answer: "Multiple low-down-payment programs serve RSM buyers. Conventional loans require 3% down ($25,500 on an $850K home), FHA loans require 3.5% ($29,750), and VA loans require $0 for eligible veterans. CalHFA down payment assistance programs can provide deferred-payment junior loans to further reduce upfront costs. In our RSM closings, first-time buyers using FHA or conventional 3% down programs represent 35% of transactions. A wholesale broker compares all available low-down-payment options across 50+ Wholesale Lenders to find the lowest rate and monthly payment for your budget."
   },
   {
     question: "Should I refinance my Rancho Santa Margarita home in 2026?",
@@ -261,7 +261,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="speakable-summary text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $865,000 median home price (up from $850K in late 2025) sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. With 4.2% annual appreciation over the past 5 years and inventory averaging 16&ndash;20 days on market in February 2026, RSM remains one of South Orange County&apos;s strongest family markets. The California Association of Realtors reports Orange County housing affordability at 16% of households in Q4 2025, making RSM&apos;s relative affordability even more attractive. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 200+ lenders delivers rates 0.25&ndash;0.5% below every retail bank in the area &mdash; saving RSM families $150&ndash;$300 per month from day one.
+              Rancho Santa Margarita buyers overpay by $47,000+ when they skip wholesale mortgage pricing. RSM&apos;s $865,000 median home price (up from $850K in late 2025) sits comfortably under the $1,209,750 conforming limit, unlocking the lowest conventional rates available. With 4.2% annual appreciation over the past 5 years and inventory averaging 16&ndash;20 days on market in February 2026, RSM remains one of South Orange County&apos;s strongest family markets. The California Association of Realtors reports Orange County housing affordability at 16% of households in Q4 2025, making RSM&apos;s relative affordability even more attractive. Based on our experience serving South Orange County homebuyers at Lumin Lending, wholesale access to 50+ Wholesale Lenders delivers rates 0.25&ndash;0.5% below every retail bank in the area &mdash; saving RSM families $150&ndash;$300 per month from day one.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -290,7 +290,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
         <section className="mb-12">
           <div className="speakable-citation bg-slate-50 border-l-4 border-green-600 rounded-r-xl p-6">
             <p className="text-lg text-slate-800 leading-relaxed">
-              <strong>According to Mo Abdel, NMLS #1426884, Lumin Lending (NMLS #2716106),</strong> Rancho Santa Margarita homebuyers in February 2026 benefit from a rare combination: median prices that sit comfortably under the conforming loan limit, mandatory HOA amenities that boost long-term property values, and access to wholesale mortgage rates from 200+ lenders that save the average RSM family $47,000 over the life of a 30-year loan. In our Rancho Santa Margarita closings this quarter, 72% of buyers locked rates below 6.5% through wholesale channels &mdash; compared to the 6.75-7.0% range offered by most retail banks in South Orange County. For a broader view of <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 underline">how conventional loans work statewide</Link>, see our complete 2026 guide.
+              <strong>According to Mo Abdel, NMLS #1426884, Lumin Lending (NMLS #2716106),</strong> Rancho Santa Margarita homebuyers in February 2026 benefit from a rare combination: median prices that sit comfortably under the conforming loan limit, mandatory HOA amenities that boost long-term property values, and access to wholesale mortgage rates from 50+ Wholesale Lenders that save the average RSM family $47,000 over the life of a 30-year loan. In our Rancho Santa Margarita closings this quarter, 72% of buyers locked rates below 6.5% through wholesale channels &mdash; compared to the 6.75-7.0% range offered by most retail banks in South Orange County. For a broader view of <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:text-blue-700 underline">how conventional loans work statewide</Link>, see our complete 2026 guide.
             </p>
           </div>
         </section>
@@ -361,7 +361,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             Wholesale Mortgage Broker vs. Bank: How RSM Buyers Save Thousands
           </h2>
           <p className="text-lg text-slate-600 mb-4">
-            In our Rancho Santa Margarita closings at Lumin Lending, buyers who use a wholesale mortgage broker consistently save between $150 and $300 per month compared to those who walk into a retail bank. The reason is structural: wholesale brokers access institutional pricing that retail branches cannot offer. Our February 2026 rate sheet from 200+ lenders shows RSM conforming rates averaging 6.125-6.375% wholesale versus 6.625-6.875% retail.
+            In our Rancho Santa Margarita closings at Lumin Lending, buyers who use a wholesale mortgage broker consistently save between $150 and $300 per month compared to those who walk into a retail bank. The reason is structural: wholesale brokers access institutional pricing that retail branches cannot offer. Our February 2026 rate sheet from 50+ Wholesale Lenders shows RSM conforming rates averaging 6.125-6.375% wholesale versus 6.625-6.875% retail.
           </p>
           <p className="text-lg text-slate-600 mb-6">
             For a deeper breakdown of how wholesale pricing works statewide, read our <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 underline">California wholesale mortgage broker guide</Link> or our <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:text-blue-700 underline">complete wholesale vs. retail mortgage comparison</Link>.
@@ -819,7 +819,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             How Do First-Time Buyers Get Pre-Approved in RSM?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            In our RSM closings, the buyers who move fastest are those who complete pre-approval before touring homes. RSM&apos;s competitive market rewards prepared buyers, and a wholesale pre-approval letter from 200+ lenders carries more weight with sellers than a single-bank letter.
+            In our RSM closings, the buyers who move fastest are those who complete pre-approval before touring homes. RSM&apos;s competitive market rewards prepared buyers, and a wholesale pre-approval letter from 50+ Wholesale Lenders carries more weight with sellers than a single-bank letter.
           </p>
 
           <div className="bg-slate-50 rounded-xl p-6">
@@ -849,7 +849,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit to Your Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel compares rates from 200+ lenders to find your best RSM mortgage option — one application, multiple offers.</p>
+                  <p className="text-slate-600">Mo Abdel compares rates from 50+ Wholesale Lenders to find your best RSM mortgage option — one application, multiple offers.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -1018,7 +1018,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">What are current mortgage rates in Rancho Santa Margarita?</h3>
               <p className="text-slate-700 mb-2"><strong>Wholesale mortgage rates in RSM are currently 0.25-0.5% below retail bank rates, saving buyers $150-$300 per month on the median home.</strong></p>
-              <p className="text-slate-600 text-sm">Rates change daily based on market conditions. A wholesale broker provides real-time rate comparisons from 200+ lenders with a single credit pull, ensuring you see the lowest available rate for your specific credit profile and loan scenario. Call (949) 579-2057 for today&apos;s wholesale rates.</p>
+              <p className="text-slate-600 text-sm">Rates change daily based on market conditions. A wholesale broker provides real-time rate comparisons from 50+ Wholesale Lenders with a single credit pull, ensuring you see the lowest available rate for your specific credit profile and loan scenario. Call (949) 579-2057 for today&apos;s wholesale rates.</p>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6">
@@ -1036,7 +1036,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">What are current Rancho Santa Margarita mortgage rates in February 2026?</h3>
               <p className="text-slate-700 mb-2"><strong>Wholesale conforming rates for RSM run 6.0-6.375% in February 2026, saving buyers 0.25-0.5% versus retail banks.</strong></p>
-              <p className="text-slate-600 text-sm">Rates change daily based on market conditions, credit score, and down payment. A wholesale broker shops 200+ lenders simultaneously to lock the lowest available rate for your profile. FHA rates average 5.875-6.125%, and VA rates run 5.75-6.0% through wholesale channels. Call (949) 579-2057 for a real-time rate quote tailored to your RSM purchase. For broader rate context, see our <Link href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:text-blue-700 underline">South Orange County wholesale mortgage guide</Link>.</p>
+              <p className="text-slate-600 text-sm">Rates change daily based on market conditions, credit score, and down payment. A wholesale broker shops 50+ Wholesale Lenders simultaneously to lock the lowest available rate for your profile. FHA rates average 5.875-6.125%, and VA rates run 5.75-6.0% through wholesale channels. Call (949) 579-2057 for a real-time rate quote tailored to your RSM purchase. For broader rate context, see our <Link href="/blog/wholesale-mortgage-broker-south-orange-county-2026" className="text-blue-600 hover:text-blue-700 underline">South Orange County wholesale mortgage guide</Link>.</p>
             </div>
 
             <div className="bg-slate-50 rounded-xl p-6">
@@ -1089,7 +1089,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <div className="bg-slate-50 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <TrendingUp className="w-6 h-6 text-blue-600" />
-                <h3 className="font-semibold text-slate-900">200+ Wholesale Lenders at Lumin Lending</h3>
+                <h3 className="font-semibold text-slate-900">50+ Wholesale Lenders at Lumin Lending</h3>
               </div>
               <p className="text-slate-600">
                 Access to over 200 wholesale lending partners through Lumin Lending means I find the right program for every RSM buyer profile. Whether you need a conventional conforming loan, FHA with gift funds, VA with zero down, a <Link href="/blog/jumbo-loans-orange-county-2026" className="text-blue-600 hover:text-blue-700 underline">jumbo loan</Link>, or a bank statement program for self-employment income &mdash; one application covers all options.
@@ -1148,7 +1148,7 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             Ready to Buy in Rancho Santa Margarita?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get wholesale rates from 200+ lenders on FHA, conventional, VA, and bank statement loans for RSM properties. Free consultation with no credit check required for initial quote.
+            Get wholesale rates from 50+ Wholesale Lenders on FHA, conventional, VA, and bank statement loans for RSM properties. Free consultation with no credit check required for initial quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

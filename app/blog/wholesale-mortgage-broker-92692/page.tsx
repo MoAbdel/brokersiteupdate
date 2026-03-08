@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92692 | Mission Viejo | Jumbo Loan Specialists',
-  description: 'Mission Viejo wholesale mortgage broker serving 92692. Access 200+ lenders for jumbo loans near Lake Mission Viejo. NMLS #1426884.',
+  description: 'Mission Viejo wholesale mortgage broker serving 92692. Access 50+ Wholesale Lenders for jumbo loans near Lake Mission Viejo. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92692',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92692 | Mission Viejo Jumbo Specialists',
-    description: 'Mission Viejo wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Mission Viejo wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92692',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92692Page() {
                 "name": "Why choose a wholesale broker for Lake Mission Viejo area homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Lake-adjacent properties in 92692 often command premium prices requiring jumbo financing. A wholesale broker accesses 200+ lenders competing for your business, delivering better rates than banks for these desirable waterfront locations."
+                  "text": "Lake-adjacent properties in 92692 often command premium prices requiring jumbo financing. A wholesale broker accesses 50+ Wholesale Lenders competing for your business, delivering better rates than banks for these desirable waterfront locations."
                 }
               },
               {
@@ -86,7 +86,7 @@ export default function WholesaleMortgageBroker92692Page() {
                 "name": "Can I refinance my Mission Viejo home with a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Mission Viejo homeowners can access wholesale refinance rates for cash-out, rate-and-term, or home equity products. Wholesale brokers compare options from 200+ lenders to find your best refinance solution."
+                  "text": "Yes. Mission Viejo homeowners can access wholesale refinance rates for cash-out, rate-and-term, or home equity products. Wholesale brokers compare options from 50+ Wholesale Lenders to find your best refinance solution."
                 }
               }
             ]
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92692Page() {
           Wholesale Mortgage Broker 92692 | Mission Viejo Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Mission Viejo&apos;s lake community
+          Access wholesale rates and 50+ Wholesale Lenders for Mission Viejo&apos;s lake community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Mission Viejo 92692 centers around Lake Mission Viejo with a <strong>$1.2 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92692 buyers—especially for lake-adjacent homes—need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks, plus expertise with 55+ communities like Casta del Sol.
+            Mission Viejo 92692 centers around Lake Mission Viejo with a <strong>$1.2 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92692 buyers—especially for lake-adjacent homes—need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates than banks, plus expertise with 55+ communities like Casta del Sol.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92692Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker for Lake Mission Viejo area homes?</h3>
-            <p className="mb-0">Lake-adjacent properties in 92692 often command premium prices requiring jumbo financing. A wholesale broker accesses 200+ lenders competing for your business, delivering better rates than banks for these desirable waterfront locations.</p>
+            <p className="mb-0">Lake-adjacent properties in 92692 often command premium prices requiring jumbo financing. A wholesale broker accesses 50+ Wholesale Lenders competing for your business, delivering better rates than banks for these desirable waterfront locations.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92692 does your wholesale brokerage serve?</h3>
@@ -290,7 +290,7 @@ export default function WholesaleMortgageBroker92692Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Can I refinance my Mission Viejo home with a wholesale broker?</h3>
-            <p className="mb-0">Yes. Mission Viejo homeowners can access wholesale refinance rates for cash-out, rate-and-term, or home equity products. Wholesale brokers compare options from 200+ lenders to find your best refinance solution.</p>
+            <p className="mb-0">Yes. Mission Viejo homeowners can access wholesale refinance rates for cash-out, rate-and-term, or home equity products. Wholesale brokers compare options from 50+ Wholesale Lenders to find your best refinance solution.</p>
           </div>
         </div>
 

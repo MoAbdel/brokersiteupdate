@@ -68,15 +68,15 @@ const faqData = [
   },
   {
     question: 'Does my home value above the FHA limit count toward my HECM principal limit?',
-    answer: 'No. Home value above the FHA lending limit of $1,209,750 does not increase your HECM principal limit. The maximum claim amount is capped at this limit regardless of actual appraised value. Homeowners with properties valued significantly above $1,209,750 may want to explore proprietary reverse mortgage products (jumbo reverse mortgages) that are not subject to the FHA lending limit cap, though these products have different terms and are not FHA-insured. A wholesale broker compares HECM and proprietary reverse mortgage options across 200+ lenders.',
+    answer: 'No. Home value above the FHA lending limit of $1,209,750 does not increase your HECM principal limit. The maximum claim amount is capped at this limit regardless of actual appraised value. Homeowners with properties valued significantly above $1,209,750 may want to explore proprietary reverse mortgage products (jumbo reverse mortgages) that are not subject to the FHA lending limit cap, though these products have different terms and are not FHA-insured. A wholesale broker compares HECM and proprietary reverse mortgage options across 50+ Wholesale Lenders.',
   },
   {
     question: 'Can both spouses be borrowers on a HECM, and how does that affect the principal limit?',
     answer: 'Yes, both spouses can be borrowers if both are age 62 or older. However, when there are two borrowers, HUD uses the age of the younger borrower to determine the PLF, which produces a lower principal limit than using the older borrower\'s age alone. The advantage is that both borrowers have full protections under the HECM program. If one spouse is under 62, they can be listed as an eligible non-borrowing spouse, which also reduces the principal limit because the PLF is calculated based on their younger age.',
   },
   {
-    question: 'How does a wholesale broker find better HECM terms across 200+ lenders?',
-    answer: 'While the PLF tables are set by HUD and are the same across all lenders, the expected interest rate varies by lender because each lender sets its own margin. A lower margin reduces the expected interest rate, which increases the PLF and produces a higher principal limit. Additionally, origination fees and closing costs vary between lenders, directly affecting the net principal limit. A wholesale broker compares margins, closing costs, and lender credits across 200+ lenders to maximize the net proceeds the borrower receives.',
+    question: 'How does a wholesale broker find better HECM terms across 50+ Wholesale Lenders?',
+    answer: 'While the PLF tables are set by HUD and are the same across all lenders, the expected interest rate varies by lender because each lender sets its own margin. A lower margin reduces the expected interest rate, which increases the PLF and produces a higher principal limit. Additionally, origination fees and closing costs vary between lenders, directly affecting the net principal limit. A wholesale broker compares margins, closing costs, and lender credits across 50+ Wholesale Lenders to maximize the net proceeds the borrower receives.',
   },
   {
     question: 'What is the 60% first-year disbursement limit for HECM loans?',
@@ -191,7 +191,7 @@ export default function HECMPrincipalLimitFactorsPage() {
           HECM Principal Limit Factors: How Age, Rates &amp; Home Value Determine Your Reverse Mortgage Payout [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to how your HECM (Home Equity Conversion Mortgage) principal limit is calculated&mdash;the three factors that control your payout (borrower age, expected interest rate, and home value/FHA lending limit), how PLF tables work, mandatory obligations that reduce your net proceeds, and how a wholesale broker comparing 200+ lenders finds the strongest HECM terms.
+          A complete guide to how your HECM (Home Equity Conversion Mortgage) principal limit is calculated&mdash;the three factors that control your payout (borrower age, expected interest rate, and home value/FHA lending limit), how PLF tables work, mandatory obligations that reduce your net proceeds, and how a wholesale broker comparing 50+ Wholesale Lenders finds the strongest HECM terms.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -200,7 +200,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, the amount a homeowner age 62 or older receives from a HECM reverse mortgage depends on <strong>three factors: borrower age, expected interest rate, and maximum claim amount</strong> (the lesser of appraised home value or the FHA lending limit of $1,209,750 in high-cost areas). These three inputs are entered into <a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmhome" target="_blank" rel="noopener noreferrer">HUD&apos;s Principal Limit Factor (PLF) tables</a> to produce the initial principal limit&mdash;the gross amount available before mandatory obligations are deducted. Older borrowers receive a higher percentage because the expected loan duration is shorter. Lower expected interest rates produce higher principal limits because projected interest accrual is reduced. After subtracting mandatory obligations (existing mortgage payoff, closing costs, initial MIP of 2.0% per HUD, and servicing set-asides), the remaining balance is the <strong>net principal limit</strong>&mdash;the actual proceeds available as tenure payments, term payments, or a line of credit. A wholesale mortgage broker comparing HECM products from 200+ lenders identifies the lowest margin and closing costs, which directly increases the net principal limit on every transaction.
+            According to Mo Abdel, NMLS #1426884, the amount a homeowner age 62 or older receives from a HECM reverse mortgage depends on <strong>three factors: borrower age, expected interest rate, and maximum claim amount</strong> (the lesser of appraised home value or the FHA lending limit of $1,209,750 in high-cost areas). These three inputs are entered into <a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmhome" target="_blank" rel="noopener noreferrer">HUD&apos;s Principal Limit Factor (PLF) tables</a> to produce the initial principal limit&mdash;the gross amount available before mandatory obligations are deducted. Older borrowers receive a higher percentage because the expected loan duration is shorter. Lower expected interest rates produce higher principal limits because projected interest accrual is reduced. After subtracting mandatory obligations (existing mortgage payoff, closing costs, initial MIP of 2.0% per HUD, and servicing set-asides), the remaining balance is the <strong>net principal limit</strong>&mdash;the actual proceeds available as tenure payments, term payments, or a line of credit. A wholesale mortgage broker comparing HECM products from 50+ Wholesale Lenders identifies the lowest margin and closing costs, which directly increases the net principal limit on every transaction.
           </p>
         </div>
 
@@ -235,7 +235,7 @@ export default function HECMPrincipalLimitFactorsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">reduces the expected interest rate by finding the lowest margin from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders, increasing the PLF and net principal limit</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders, increasing the PLF and net principal limit</td>
               </tr>
             </tbody>
           </table>
@@ -263,7 +263,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Maximizing HECM Principal Limits for California and Washington Seniors</h3>
           <p className="text-blue-800 mb-0">
-            I have helped hundreds of homeowners age 62 and older in California and Washington understand exactly how their HECM principal limit is calculated&mdash;and more importantly, how to maximize it. The most impactful variable I control as a wholesale broker is the <strong>expected interest rate</strong>, because each lender sets its own margin. A lower margin directly reduces the expected interest rate, which increases the PLF percentage and produces a higher principal limit on the same home value. I routinely see margin differences across lenders that translate into thousands of dollars of additional proceeds for the borrower. Comparing across 200+ lenders on every HECM transaction is not optional&mdash;it is how I ensure each borrower receives the maximum net principal limit available. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have helped hundreds of homeowners age 62 and older in California and Washington understand exactly how their HECM principal limit is calculated&mdash;and more importantly, how to maximize it. The most impactful variable I control as a wholesale broker is the <strong>expected interest rate</strong>, because each lender sets its own margin. A lower margin directly reduces the expected interest rate, which increases the PLF percentage and produces a higher principal limit on the same home value. I routinely see margin differences across lenders that translate into thousands of dollars of additional proceeds for the borrower. Comparing across 50+ Wholesale Lenders on every HECM transaction is not optional&mdash;it is how I ensure each borrower receives the maximum net principal limit available. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -271,7 +271,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Find Out Your HECM Principal Limit</h3>
           <p className="text-green-800 mb-2">
-            Get a free principal limit estimate based on your age, home value, and the lowest available margins from 200+ lenders.
+            Get a free principal limit estimate based on your age, home value, and the lowest available margins from 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
@@ -419,7 +419,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200 my-6">
           <h4 className="font-bold text-yellow-800 mt-0">Critical Insight: How Margin Differences Create Principal Limit Differences</h4>
           <p className="text-yellow-900 mb-0">
-            Consider two lenders offering HECM products to the same 72-year-old borrower with a $900,000 home. If Lender A uses a margin of 2.00% and Lender B uses a margin of 2.75%, the expected interest rate differs by 0.75%. That difference changes the PLF by several percentage points, which on a $900,000 maximum claim amount creates a <strong>difference of tens of thousands of dollars</strong> in the initial principal limit. This is why comparing margins across 200+ lenders is not an optional step&mdash;it is the primary mechanism for maximizing HECM proceeds.
+            Consider two lenders offering HECM products to the same 72-year-old borrower with a $900,000 home. If Lender A uses a margin of 2.00% and Lender B uses a margin of 2.75%, the expected interest rate differs by 0.75%. That difference changes the PLF by several percentage points, which on a $900,000 maximum claim amount creates a <strong>difference of tens of thousands of dollars</strong> in the initial principal limit. This is why comparing margins across 50+ Wholesale Lenders is not an optional step&mdash;it is the primary mechanism for maximizing HECM proceeds.
           </p>
         </div>
 
@@ -488,7 +488,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get Your Personalized HECM Principal Limit Calculation</h3>
           <p className="text-green-800 mb-2">
-            I will run your specific age, home value, and the lowest available margins from 200+ lenders through the PLF tables to show you exactly how much you qualify for. No obligation.
+            I will run your specific age, home value, and the lowest available margins from 50+ Wholesale Lenders through the PLF tables to show you exactly how much you qualify for. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -515,7 +515,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         </div>
 
         <p>
-          The PLF tables contain factors for every age from 62 to 99+ and expected interest rates in increments of 0.125%. This granularity means that small differences in the expected interest rate&mdash;driven by lender margin differences&mdash;create measurable differences in the initial principal limit. A wholesale broker&apos;s ability to compare margins across 200+ lenders directly impacts how much the borrower receives.
+          The PLF tables contain factors for every age from 62 to 99+ and expected interest rates in increments of 0.125%. This granularity means that small differences in the expected interest rate&mdash;driven by lender margin differences&mdash;create measurable differences in the initial principal limit. A wholesale broker&apos;s ability to compare margins across 50+ Wholesale Lenders directly impacts how much the borrower receives.
         </p>
 
         {/* Section 6: Mandatory Obligations */}
@@ -578,7 +578,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
           <h4 className="font-bold text-green-800 mt-0">Key Data Point: Reducing Mandatory Obligations Increases Net Proceeds</h4>
           <p className="text-green-900 mb-0">
-            While the initial MIP is fixed by HUD, the origination fee and servicing fee set-aside vary by lender. Some HECM lenders waive the origination fee entirely, while others charge the maximum $6,000. Some lenders charge no monthly servicing fee, eliminating the set-aside entirely. A wholesale broker comparing 200+ lenders identifies which lenders offer the lowest total mandatory obligations&mdash;directly increasing the net principal limit the borrower receives.
+            While the initial MIP is fixed by HUD, the origination fee and servicing fee set-aside vary by lender. Some HECM lenders waive the origination fee entirely, while others charge the maximum $6,000. Some lenders charge no monthly servicing fee, eliminating the set-aside entirely. A wholesale broker comparing 50+ Wholesale Lenders identifies which lenders offer the lowest total mandatory obligations&mdash;directly increasing the net principal limit the borrower receives.
           </p>
         </div>
 
@@ -708,14 +708,14 @@ export default function HECMPrincipalLimitFactorsPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Can I increase my HECM principal limit?</h3>
             <p className="mb-0">
-              <strong>You can maximize your principal limit by finding a lender with the lowest margin (reducing the expected interest rate), minimizing closing costs, and paying down existing mortgage balance before applying.</strong> Age and home value are fixed inputs you cannot change, but the expected interest rate and mandatory obligation amounts are influenced by lender selection. A wholesale broker comparison across 200+ lenders optimizes these variables.
+              <strong>You can maximize your principal limit by finding a lender with the lowest margin (reducing the expected interest rate), minimizing closing costs, and paying down existing mortgage balance before applying.</strong> Age and home value are fixed inputs you cannot change, but the expected interest rate and mandatory obligation amounts are influenced by lender selection. A wholesale broker comparison across 50+ Wholesale Lenders optimizes these variables.
             </p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale broker get better HECM terms than a bank?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker compares HECM products from 200+ lenders to find the lowest margin, lowest origination fee, and lowest closing costs&mdash;all of which directly increase the net principal limit.</strong> Banks offer only their own HECM product at their own margin and fee schedule. The broker&apos;s comparison shopping produces materially higher proceeds for borrowers on the same home value and borrower age.
+              <strong>A wholesale broker compares HECM products from 50+ Wholesale Lenders to find the lowest margin, lowest origination fee, and lowest closing costs&mdash;all of which directly increase the net principal limit.</strong> Banks offer only their own HECM product at their own margin and fee schedule. The broker&apos;s comparison shopping produces materially higher proceeds for borrowers on the same home value and borrower age.
             </p>
           </div>
 
@@ -748,7 +748,7 @@ export default function HECMPrincipalLimitFactorsPage() {
             <li><strong>Three factors control your payout:</strong> Borrower age (minimum 62), expected interest rate, and maximum claim amount (lesser of home value or FHA limit $1,209,750)</li>
             <li><strong>Older borrowers receive more:</strong> The PLF increases with age because the actuarial loan duration is shorter&mdash;an 80-year-old receives a substantially higher percentage than a 62-year-old</li>
             <li><strong>Lower expected interest rate means more money:</strong> The expected interest rate inversely affects the PLF&mdash;every fraction of a percent reduction in the expected rate increases your principal limit</li>
-            <li><strong>The lender margin is the variable you control:</strong> While the benchmark rate and your age are fixed, the lender&apos;s margin varies. Comparing margins across 200+ lenders through a wholesale broker is the primary way to maximize proceeds</li>
+            <li><strong>The lender margin is the variable you control:</strong> While the benchmark rate and your age are fixed, the lender&apos;s margin varies. Comparing margins across 50+ Wholesale Lenders through a wholesale broker is the primary way to maximize proceeds</li>
             <li><strong>Mandatory obligations reduce your net proceeds:</strong> Existing mortgage payoff, initial MIP (2.0% per HUD), origination fees, and closing costs all come out of the initial principal limit before you receive anything</li>
             <li><strong>Initial MIP is 2.0% and annual MIP is 0.5%:</strong> These are government-published HUD figures that are the same across all lenders</li>
             <li><strong>The net principal limit is your actual number:</strong> This is what remains after all mandatory obligations are deducted&mdash;the amount available as tenure payments, term payments, or a line of credit</li>
@@ -759,7 +759,7 @@ export default function HECMPrincipalLimitFactorsPage() {
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Free HECM Principal Limit Estimate</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me your age and approximate home value&mdash;I will calculate your principal limit using the lowest available margins from 200+ lenders and show you exactly how much you qualify for under each payment plan. No obligation, no pressure. All HECM borrowers must complete HUD-approved counseling.
+            Tell me your age and approximate home value&mdash;I will calculate your principal limit using the lowest available margins from 50+ Wholesale Lenders and show you exactly how much you qualify for under each payment plan. No obligation, no pressure. All HECM borrowers must complete HUD-approved counseling.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

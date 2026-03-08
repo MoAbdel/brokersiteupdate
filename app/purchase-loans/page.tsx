@@ -112,7 +112,7 @@ const faqs = [
   },
   {
     question: "Should I work with a mortgage broker or go directly to a bank?",
-    answer: "As a mortgage broker, I have access to 200+ lenders and can shop multiple options to find you the best pricing and terms. Banks only offer their own products, limiting your options. This is especially valuable in California and Washington's competitive markets."
+    answer: "As a mortgage broker, I have access to 50+ Wholesale Lenders and can shop multiple options to find you the best pricing and terms. Banks only offer their own products, limiting your options. This is especially valuable in California and Washington's competitive markets."
   }
 ];
 
@@ -215,7 +215,7 @@ export default function PurchaseLoansPage() {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
-                    <span className="text-slate-700">Access to 200+ lenders and loan programs</span>
+                    <span className="text-slate-700">Access to 50+ Wholesale Lenders and loan programs</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />

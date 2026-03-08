@@ -235,7 +235,7 @@ export default function HECMDisbursementOptionsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares HECM products from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to find competitive disbursement terms</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to find competitive disbursement terms</td>
               </tr>
             </tbody>
           </table>
@@ -582,7 +582,7 @@ export default function HECMDisbursementOptionsPage() {
         </div>
 
         <p>
-          Based on my experience structuring HECM loans through 200+ wholesale lenders across California and Washington, borrowers who choose the line of credit option tend to preserve more home equity over time because they borrow only what they need. The discipline of on-demand access rather than receiving a large sum upfront helps many seniors manage their finances more effectively.
+          Based on my experience structuring HECM loans through 50+ Wholesale Lenders across California and Washington, borrowers who choose the line of credit option tend to preserve more home equity over time because they borrow only what they need. The discipline of on-demand access rather than receiving a large sum upfront helps many seniors manage their finances more effectively.
         </p>
 
         {/* Section 7: Modified Plans */}
@@ -801,7 +801,7 @@ export default function HECMDisbursementOptionsPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Does a wholesale mortgage broker help with HECM payment plan selection?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker compares HECM products from 200+ lenders to find the most competitive terms for your chosen disbursement plan.</strong> Different lenders offer different margins and fee structures that affect your principal limit and monthly payment amounts. A broker comparison ensures you maximize your available proceeds.
+              <strong>A wholesale broker compares HECM products from 50+ Wholesale Lenders to find the most competitive terms for your chosen disbursement plan.</strong> Different lenders offer different margins and fee structures that affect your principal limit and monthly payment amounts. A broker comparison ensures you maximize your available proceeds.
             </p>
           </div>
         </div>
@@ -832,7 +832,7 @@ export default function HECMDisbursementOptionsPage() {
             <li><strong>You can switch plans:</strong> Adjustable-rate HECM borrowers can change payment plans at any time for approximately $20&mdash;adapt as your needs evolve</li>
             <li><strong>Lump sum creates the fastest balance growth:</strong> Interest accrues on the full amount from day one&mdash;use only for specific, immediate needs</li>
             <li><strong>HECM proceeds are generally not considered taxable income</strong>&mdash;consult your CPA for guidance specific to your situation</li>
-            <li><strong>A wholesale broker comparing 200+ HECM lenders</strong> helps you maximize your principal limit across any disbursement plan</li>
+            <li><strong>A wholesale broker comparing 50+ Wholesale Lenders</strong> helps you maximize your principal limit across any disbursement plan</li>
           </ol>
         </div>
 
@@ -848,7 +848,7 @@ export default function HECMDisbursementOptionsPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive HECM reverse mortgage terms for your specific situation.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive HECM reverse mortgage terms for your specific situation.
           </p>
         </div>
 

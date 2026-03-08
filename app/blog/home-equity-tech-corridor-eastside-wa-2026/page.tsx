@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity in Tech Corridor Eastside, WA: HELOC & Cash-Out for Kirkland, Redmond & More [2026]',
-    description: 'HELOC, home equity loans, and cash-out refinance for Kirkland, Redmond, Woodinville, Issaquah, and Bothell. Wholesale broker access to 200+ lenders for tech corridor equity strategies.',
+    description: 'HELOC, home equity loans, and cash-out refinance for Kirkland, Redmond, Woodinville, Issaquah, and Bothell. Wholesale broker access to 50+ Wholesale Lenders for tech corridor equity strategies.',
     url: 'https://www.mothebroker.com/blog/home-equity-tech-corridor-eastside-wa-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -49,7 +49,7 @@ const faqData = [
   },
   {
     question: 'Are Woodinville wine country properties eligible for HELOCs?',
-    answer: 'Yes. Woodinville wine country properties qualify for HELOCs, though rural-residential properties on larger lots (1+ acre) require lenders experienced with non-standard appraisals. Wholesale broker access identifies the 10-15 lenders (out of 200+) who regularly underwrite estate-style properties in the Sammamish Valley without penalizing acreage or outbuildings. Hobby vineyards and tasting room-adjacent homes qualify as residential, not agricultural, under most lender guidelines.',
+    answer: 'Yes. Woodinville wine country properties qualify for HELOCs, though rural-residential properties on larger lots (1+ acre) require lenders experienced with non-standard appraisals. Wholesale broker access identifies the 10-15 lenders (out of 50+ Wholesale Lenders) who regularly underwrite estate-style properties in the Sammamish Valley without penalizing acreage or outbuildings. Hobby vineyards and tasting room-adjacent homes qualify as residential, not agricultural, under most lender guidelines.',
   },
   {
     question: 'What credit score do I need for a jumbo HELOC in Issaquah?',
@@ -403,7 +403,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
             <li><strong>Calculate tappable equity at 80% CLTV.</strong> Multiply your home&apos;s value by 0.80, then subtract your remaining first mortgage balance. On a $1.3 million Kirkland home with a $600,000 mortgage, tappable equity equals $440,000. At 85% CLTV (available with 760+ credit), that jumps to $505,000.</li>
             <li><strong>Document your income and assets.</strong> W-2 employees need 2 years of tax returns, recent pay stubs, and RSU vesting documentation. Self-employed borrowers (common in Woodinville) prepare 12-24 months of bank statements. High-net-worth individuals gather investment and retirement account statements for asset-depletion qualification.</li>
             <li><strong>Select the right equity product.</strong> If your first mortgage rate is below 5%, choose HELOC or HELOAN to preserve it. If your rate exceeds 6.5% and you need a large lump sum, cash-out refinance consolidates everything into a single, potentially lower payment. Run the total-cost analysis over your planned holding period before deciding.</li>
-            <li><strong>Engage a wholesale mortgage broker.</strong> Wholesale brokers compare 200+ lender rate sheets simultaneously, identifying the optimal program for your income type, property location, and equity needs. This matters especially on the Tech Corridor where employer-specific RSU structures create lender compatibility issues that retail banks cannot navigate.</li>
+            <li><strong>Engage a wholesale mortgage broker.</strong> Wholesale brokers compare 50+ Wholesale Lenders simultaneously, identifying the optimal program for your income type, property location, and equity needs. This matters especially on the Tech Corridor where employer-specific RSU structures create lender compatibility issues that retail banks cannot navigate.</li>
             <li><strong>Complete the application and appraisal process.</strong> Submit documentation, authorize credit checks, and schedule the appraisal. Desktop appraisals serve most properties under $1.5 million with clean title. Properties in Woodinville wine country or Issaquah Highlands may require full interior appraisals for accurate valuation of estate-style improvements.</li>
             <li><strong>Close, fund, and draw.</strong> Review final terms at closing, sign documents, and observe the 3-day rescission period on primary residences. HELOC funds become available immediately after rescission—you can draw the full amount or access incrementally over the 10-year draw period. HELOAN and cash-out refinance funds disburse in a lump sum at closing.</li>
           </ol>
@@ -554,7 +554,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
             </p>
 
             <p className="text-gray-700 mb-4">
-              Woodinville&apos;s equity challenges are property-specific rather than income-specific. Large-lot properties with outbuildings, hobby vineyards, equestrian facilities, or mixed-use elements (tasting room + residence) create appraisal complexity that most retail lenders avoid. The pool of comparable sales for a 3-acre estate with a 2,000-square-foot barn and mature vineyard is inherently limited, requiring an appraiser with Woodinville rural-luxury experience. Wholesale brokers who maintain relationships with specialty rural-residential lenders identify the 10-15 programs (out of 200+) that embrace rather than penalize Woodinville&apos;s estate character.
+              Woodinville&apos;s equity challenges are property-specific rather than income-specific. Large-lot properties with outbuildings, hobby vineyards, equestrian facilities, or mixed-use elements (tasting room + residence) create appraisal complexity that most retail lenders avoid. The pool of comparable sales for a 3-acre estate with a 2,000-square-foot barn and mature vineyard is inherently limited, requiring an appraiser with Woodinville rural-luxury experience. Wholesale brokers who maintain relationships with specialty rural-residential lenders identify the 10-15 programs (out of 50+ Wholesale Lenders) that embrace rather than penalize Woodinville&apos;s estate character.
             </p>
 
             <div className="overflow-x-auto mb-4">
@@ -744,7 +744,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
           </p>
 
           <p className="text-gray-700 mb-4">
-            A wholesale mortgage broker solves this matching problem at scale. Access to 200+ wholesale lender rate sheets means evaluating every HELOC, HELOAN, and cash-out refinance program simultaneously. For each borrower, this process identifies the specific subset of lenders whose qualification criteria align with the borrower&apos;s income type, property characteristics, and equity goals. The result is not just a better rate—it is the right product from the right lender, closing in the shortest possible timeline.
+            A wholesale mortgage broker solves this matching problem at scale. Access to 50+ Wholesale Lenders rate sheets means evaluating every HELOC, HELOAN, and cash-out refinance program simultaneously. For each borrower, this process identifies the specific subset of lenders whose qualification criteria align with the borrower&apos;s income type, property characteristics, and equity goals. The result is not just a better rate—it is the right product from the right lender, closing in the shortest possible timeline.
           </p>
 
           <p className="text-gray-700 mb-4">
@@ -907,7 +907,7 @@ export default function HomeEquityTechCorridorEastsideWA2026() {
           </p>
 
           <p className="text-gray-700 mb-4">
-            As a wholesale mortgage broker with access to 200+ lender rate sheets, seven years of Tech Corridor transaction experience, and specific expertise in tech compensation, wine country estate appraisals, and employer-specific qualification strategies, I deliver the optimal HELOC, HELOAN, or cash-out refinance for your situation—consistently 0.25-0.50% below retail rates with 5-10% higher CLTV limits.
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders, seven years of Tech Corridor transaction experience, and specific expertise in tech compensation, wine country estate appraisals, and employer-specific qualification strategies, I deliver the optimal HELOC, HELOAN, or cash-out refinance for your situation—consistently 0.25-0.50% below retail rates with 5-10% higher CLTV limits.
           </p>
 
           <div className="bg-white rounded-lg p-4 border border-blue-300">

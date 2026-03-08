@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Pasadena Corridor: Pasadena, Sierra Madre, Glendale, Montrose, La Crescenta [2026]',
-  description: 'Wholesale mortgage broker serving the Pasadena Corridor. Pasadena, Sierra Madre, Glendale, Montrose, La Crescenta. JPL/Caltech programs, bank statement loans, 200+ lenders. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving the Pasadena Corridor. Pasadena, Sierra Madre, Glendale, Montrose, La Crescenta. JPL/Caltech programs, bank statement loans, 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Pasadena',
     'Pasadena mortgage broker',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker Pasadena Corridor: Pasadena, Sierra Madre, Glendale, Montrose, La Crescenta [2026]',
-    description: 'Wholesale mortgage broker for Pasadena Corridor communities. JPL/Caltech employee programs, bank statement loans, historic home financing, 200+ wholesale lenders.',
+    description: 'Wholesale mortgage broker for Pasadena Corridor communities. JPL/Caltech employee programs, bank statement loans, historic home financing, 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -41,7 +41,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Wholesale Mortgage Broker Pasadena Corridor: Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta Guide [2026]",
-    "description": "Wholesale mortgage broker serving the Pasadena Corridor with JPL/Caltech employee programs, media professional financing, historic home loans, and 200+ wholesale lender access.",
+    "description": "Wholesale mortgage broker serving the Pasadena Corridor with JPL/Caltech employee programs, media professional financing, historic home loans, and 50+ Wholesale Lenders.",
     "about": {
       "@type": "FinancialProduct",
       "name": "Wholesale Mortgage Lending",
@@ -108,7 +108,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
   const faqData = [
     {
       question: 'Do JPL or Caltech employees get special mortgage programs in Pasadena?',
-      answer: 'JPL and Caltech employees qualify for employer-verified income programs that streamline documentation and accelerate closing. W-2 employees benefit from conventional jumbo rates. Contract researchers and grant-funded staff access bank statement programs that capture their full compensation including stipends, grants, and consulting income. Wholesale brokers match each JPL/Caltech employee with the optimal program from 200+ lenders.',
+      answer: 'JPL and Caltech employees qualify for employer-verified income programs that streamline documentation and accelerate closing. W-2 employees benefit from conventional jumbo rates. Contract researchers and grant-funded staff access bank statement programs that capture their full compensation including stipends, grants, and consulting income. Wholesale brokers match each JPL/Caltech employee with the optimal program from 50+ Wholesale Lenders.',
     },
     {
       question: 'What is the 2026 conforming loan limit for the Pasadena Corridor?',
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
     },
     {
       question: 'Do wholesale brokers offer better jumbo rates than Pasadena banks?',
-      answer: 'Wholesale brokers consistently deliver lower jumbo rates in the Pasadena market. By accessing wholesale rate sheets from 200+ lenders simultaneously, brokers find the lowest available rate for each loan scenario. Typical savings range from 0.25% to 0.50% compared to retail bank jumbo pricing, saving $3,000 to $6,000 annually on a $1.2 million loan.',
+      answer: 'Wholesale brokers consistently deliver lower jumbo rates in the Pasadena market. By accessing wholesale rate sheets from 50+ Wholesale Lenders simultaneously, brokers find the lowest available rate for each loan scenario. Typical savings range from 0.25% to 0.50% compared to retail bank jumbo pricing, saving $3,000 to $6,000 annually on a $1.2 million loan.',
     },
     {
       question: 'Can healthcare professionals get special mortgage programs in the Pasadena area?',
@@ -173,7 +173,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending",
-    "description": "Licensed California wholesale mortgage broker serving the Pasadena Corridor including Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta with 200+ lender access.",
+    "description": "Licensed California wholesale mortgage broker serving the Pasadena Corridor including Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta with 50+ Wholesale Lenders.",
     "url": "https://www.mothebroker.com",
     "telephone": "(949) 579-2057",
     "priceRange": "$$$",
@@ -265,7 +265,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
             <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;The California Association of Realtors reports Pasadena median home prices reached $1.28M in January 2026, up 7.1% year-over-year. The Pasadena Corridor is where world-class research institutions meet historic residential neighborhoods, creating a borrower base that includes JPL rocket scientists, Caltech professors, Disney animators, and Armenian-American business owners. These income profiles rarely fit a single bank&apos;s underwriting box. My wholesale access to 200+ lenders means I find the program that matches each borrower&apos;s exact situation&mdash;whether that&apos;s a physician loan for a Huntington Hospital doctor or a bank statement program for a Glendale business owner. The rate savings on a $1.2 million Pasadena jumbo loan average $4,800 per year versus retail bank pricing.&quot;
+              &quot;The California Association of Realtors reports Pasadena median home prices reached $1.28M in January 2026, up 7.1% year-over-year. The Pasadena Corridor is where world-class research institutions meet historic residential neighborhoods, creating a borrower base that includes JPL rocket scientists, Caltech professors, Disney animators, and Armenian-American business owners. These income profiles rarely fit a single bank&apos;s underwriting box. My wholesale access to 50+ Wholesale Lenders means I find the program that matches each borrower&apos;s exact situation&mdash;whether that&apos;s a physician loan for a Huntington Hospital doctor or a bank statement program for a Glendale business owner. The rate savings on a $1.2 million Pasadena jumbo loan average $4,800 per year versus retail bank pricing.&quot;
             </p>
             <p className="text-gray-600 mt-2">&mdash; Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
           </div>
@@ -297,7 +297,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           </p>
 
           <p>
-            Median home prices across the corridor range from $1.0 million in La Crescenta to $1.4 million in Sierra Madre. According to the <a href="https://www.car.org/" target="_blank" rel="noopener noreferrer">California Association of Realtors</a>, the Pasadena area consistently ranks among LA County&apos;s most competitive housing markets, with inventory levels 18% below the five-year average. For borrowers in this corridor, wholesale broker access to 200+ lenders provides both rate advantages and program flexibility unavailable through retail banks.
+            Median home prices across the corridor range from $1.0 million in La Crescenta to $1.4 million in Sierra Madre. According to the <a href="https://www.car.org/" target="_blank" rel="noopener noreferrer">California Association of Realtors</a>, the Pasadena area consistently ranks among LA County&apos;s most competitive housing markets, with inventory levels 18% below the five-year average. For borrowers in this corridor, wholesale broker access to 50+ Wholesale Lenders provides both rate advantages and program flexibility unavailable through retail banks.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -500,7 +500,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
 
           <div className="bg-slate-50 p-6 rounded-lg my-6">
             <h4 className="font-bold mb-2">Sierra Madre Financing Insight</h4>
-            <p className="mb-0">Sierra Madre&apos;s limited inventory means homes frequently receive multiple offers within days of listing. Buyers with wholesale broker pre-approval have a competitive advantage because the pre-approval represents verification against 200+ lender guidelines rather than a single bank&apos;s criteria. If one lender&apos;s appraisal comes in low or underwriting raises an issue, the broker pivots to alternative lenders without restarting the process&mdash;a flexibility that single-lender pre-approvals cannot match.</p>
+            <p className="mb-0">Sierra Madre&apos;s limited inventory means homes frequently receive multiple offers within days of listing. Buyers with wholesale broker pre-approval have a competitive advantage because the pre-approval represents verification against 50+ Wholesale Lenders rather than a single bank&apos;s criteria. If one lender&apos;s appraisal comes in low or underwriting raises an issue, the broker pivots to alternative lenders without restarting the process&mdash;a flexibility that single-lender pre-approvals cannot match.</p>
           </div>
 
           <hr className="my-10" />
@@ -634,7 +634,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           </p>
 
           <p>
-            <strong>Challenge 4: Competitive Multi-Offer Markets.</strong> With Sierra Madre averaging only 120 annual sales and Pasadena&apos;s premium neighborhoods seeing sub-15-day market times, buyers need pre-approvals that are both fast and robust. Wholesale broker pre-approval backed by 200+ lenders carries more weight than single-bank pre-approval because the buyer&apos;s financing is not dependent on one institution&apos;s underwriting decision.
+            <strong>Challenge 4: Competitive Multi-Offer Markets.</strong> With Sierra Madre averaging only 120 annual sales and Pasadena&apos;s premium neighborhoods seeing sub-15-day market times, buyers need pre-approvals that are both fast and robust. Wholesale broker pre-approval backed by 50+ Wholesale Lenders carries more weight than single-bank pre-approval because the buyer&apos;s financing is not dependent on one institution&apos;s underwriting decision.
           </p>
 
           <hr className="my-10" />
@@ -743,7 +743,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">How competitive is the Sierra Madre housing market?</h3>
-              <p><strong>Sierra Madre averages only 120 home sales annually, making it one of LA County&apos;s most competitive markets.</strong> Average days on market is 14. Wholesale broker pre-approval strengthens offers because financing is verified against 200+ lender guidelines, reducing deal failure risk.</p>
+              <p><strong>Sierra Madre averages only 120 home sales annually, making it one of LA County&apos;s most competitive markets.</strong> Average days on market is 14. Wholesale broker pre-approval strengthens offers because financing is verified against 50+ Wholesale Lenders, reducing deal failure risk.</p>
             </div>
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1">Can I qualify for a Glendale mortgage with a foreign national income history?</h3>
@@ -775,7 +775,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           <div id="expert-summary" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 expert-summary">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary: Pasadena Corridor Wholesale Mortgage Guidance from Mo Abdel</h2>
             <p className="text-gray-800">
-              The Pasadena Corridor demands a mortgage broker who understands the diversity of this market&mdash;from JPL rocket scientists and Caltech professors to Glendale business owners and Sierra Madre executives. Each city in this corridor presents unique income documentation challenges, property types, and competitive dynamics that a single retail bank cannot address. Wholesale broker access to 200+ lenders delivers both the rate advantage and program flexibility that Pasadena Corridor buyers require.
+              The Pasadena Corridor demands a mortgage broker who understands the diversity of this market&mdash;from JPL rocket scientists and Caltech professors to Glendale business owners and Sierra Madre executives. Each city in this corridor presents unique income documentation challenges, property types, and competitive dynamics that a single retail bank cannot address. Wholesale broker access to 50+ Wholesale Lenders delivers both the rate advantage and program flexibility that Pasadena Corridor buyers require.
             </p>
             <p className="text-gray-800">
               Whether you need a physician loan for a Huntington Hospital attending, a bank statement program for your Glendale business, conventional jumbo financing for a San Rafael estate, or an FHA loan for your first La Crescenta family home, wholesale access ensures you receive the lowest available rate from the lender best equipped to approve your specific income profile and property type.

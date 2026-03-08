@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92617 | Irvine (UCI) | Jumbo Loan Specialists',
-  description: 'Irvine UCI area wholesale mortgage broker serving 92617. Access 200+ lenders for jumbo loans near University of California. NMLS #1426884.',
+  description: 'Irvine UCI area wholesale mortgage broker serving 92617. Access 50+ Wholesale Lenders for jumbo loans near University of California. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92617',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92617 | Irvine UCI Jumbo Specialists',
-    description: 'Irvine UCI wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Irvine UCI wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92617',
     type: 'article',
     publishedTime: '2026-02-03',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92617Page() {
                 "name": "Why choose a wholesale broker over banks near UCI?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For the UCI area's mix of condos, townhomes, and single-family homes, wholesale brokers find the best program for your property type and income situation."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For the UCI area's mix of condos, townhomes, and single-family homes, wholesale brokers find the best program for your property type and income situation."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92617Page() {
           Wholesale Mortgage Broker 92617 | Irvine UCI Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Irvine&apos;s university community
+          Access wholesale rates and 50+ Wholesale Lenders for Irvine&apos;s university community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92617 surrounds the University of California, Irvine campus with <strong>$1.2 million median home prices</strong> attracting faculty, researchers, and tech professionals. At these price points exceeding the $1,209,750 conforming limit, most buyers need jumbo financing. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and programs tailored to academic and professional income situations.
+            Irvine 92617 surrounds the University of California, Irvine campus with <strong>$1.2 million median home prices</strong> attracting faculty, researchers, and tech professionals. At these price points exceeding the $1,209,750 conforming limit, most buyers need jumbo financing. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and programs tailored to academic and professional income situations.
           </p>
         </div>
 
@@ -284,7 +284,7 @@ export default function WholesaleMortgageBroker92617Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over banks near UCI?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For the UCI area&apos;s mix of condos, townhomes, and single-family homes, wholesale brokers find the best program for your property type and income situation.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For the UCI area&apos;s mix of condos, townhomes, and single-family homes, wholesale brokers find the best program for your property type and income situation.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92617 does your wholesale brokerage serve?</h3>

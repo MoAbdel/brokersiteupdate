@@ -6,11 +6,11 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR Refinance: How to Lower Your Investment Property Rate [2026] | Mo Abdel',
-  description: 'DSCR refinance guide for investment property owners in 2026. Rate-and-term refi, cash-out DSCR refi, hard money exit strategies, and how wholesale brokers find the lowest DSCR refinance terms from 200+ lenders. NMLS #1426884.',
+  description: 'DSCR refinance guide for investment property owners in 2026. Rate-and-term refi, cash-out DSCR refi, hard money exit strategies, and how wholesale brokers find the lowest DSCR refinance terms from 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['DSCR refinance investment property', 'DSCR rate and term refinance', 'DSCR cash out refinance', 'refinance into DSCR loan', 'hard money to DSCR refinance', 'BRRRR refinance DSCR', 'conventional to DSCR refinance', 'DSCR refinance seasoning', 'investment property refinance 2026', 'wholesale DSCR refinance rates'],
   openGraph: {
     title: 'DSCR Refinance: How to Lower Your Investment Property Rate [2026]',
-    description: 'Complete guide to refinancing investment property loans into DSCR programs. Rate-and-term refi, cash-out refi, hard money exit, conventional swap strategies, and wholesale broker access to 200+ DSCR lenders.',
+    description: 'Complete guide to refinancing investment property loans into DSCR programs. Rate-and-term refi, cash-out refi, hard money exit, conventional swap strategies, and wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-refinance-investment-property-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -35,11 +35,11 @@ const faqData = [
   },
   {
     question: "What is the maximum LTV for a DSCR refinance?",
-    answer: "DSCR rate-and-term refinances typically allow 75-80% loan-to-value depending on the lender, DSCR ratio, credit score, and property type. DSCR cash-out refinances are generally capped at 70-75% LTV. Higher DSCR ratios (1.25+) and higher credit scores (740+) unlock the maximum LTV tiers. A wholesale broker compares LTV limits across 200+ DSCR lenders to find the highest leverage available for your specific property and borrower profile."
+    answer: "DSCR rate-and-term refinances typically allow 75-80% loan-to-value depending on the lender, DSCR ratio, credit score, and property type. DSCR cash-out refinances are generally capped at 70-75% LTV. Higher DSCR ratios (1.25+) and higher credit scores (740+) unlock the maximum LTV tiers. A wholesale broker compares LTV limits across 50+ Wholesale Lenders to find the highest leverage available for your specific property and borrower profile."
   },
   {
     question: "How long do I need to own a property before I can do a DSCR refinance?",
-    answer: "Seasoning requirements for DSCR refinances vary significantly by lender. Some lenders allow day-1 refinance from hard money or bridge loans with no seasoning period. Others require 3, 6, or 12 months of ownership before refinancing. Cash-out DSCR refinances generally have longer seasoning requirements than rate-and-term refinances. A wholesale broker identifies which of the 200+ DSCR lenders has the shortest seasoning window for your situation."
+    answer: "Seasoning requirements for DSCR refinances vary significantly by lender. Some lenders allow day-1 refinance from hard money or bridge loans with no seasoning period. Others require 3, 6, or 12 months of ownership before refinancing. Cash-out DSCR refinances generally have longer seasoning requirements than rate-and-term refinances. A wholesale broker identifies which of the 50+ Wholesale Lenders has the shortest seasoning window for your situation."
   },
   {
     question: "Can I refinance a conventional investment loan into a DSCR loan?",
@@ -166,7 +166,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, real estate investors who strategically refinance into DSCR programs reduce their cost of capital, extract equity for new acquisitions, and eliminate personal income documentation requirements &mdash; all without using any of their 10 conventional financed property slots. The non-QM lending market now includes 200+ DSCR lenders with different seasoning windows, LTV limits, and prepayment structures, which means the difference between a good DSCR refinance and the optimal one comes down to lender selection. Here is every refinance strategy, qualification detail, and wholesale advantage for DSCR refinances in 2026.
+              According to Mo Abdel, NMLS #1426884, real estate investors who strategically refinance into DSCR programs reduce their cost of capital, extract equity for new acquisitions, and eliminate personal income documentation requirements &mdash; all without using any of their 10 conventional financed property slots. The non-QM lending market now includes 50+ Wholesale Lenders with different seasoning windows, LTV limits, and prepayment structures, which means the difference between a good DSCR refinance and the optimal one comes down to lender selection. Here is every refinance strategy, qualification detail, and wholesale advantage for DSCR refinances in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -381,7 +381,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 font-bold text-sm shrink-0">5</span>
-              <span><strong>Submit to a wholesale broker</strong> &mdash; a broker compares your scenario across 200+ DSCR lenders and selects the program with the best combination of rate, LTV, seasoning, and prepayment terms</span>
+              <span><strong>Submit to a wholesale broker</strong> &mdash; a broker compares your scenario across 50+ Wholesale Lenders and selects the program with the best combination of rate, LTV, seasoning, and prepayment terms</span>
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 font-bold text-sm shrink-0">6</span>
@@ -400,7 +400,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
 
         <LeadMagnetCTA
           title="Free DSCR Refinance Analysis"
-          description="Send us your property address and current loan details. We&apos;ll calculate your DSCR ratio and compare refinance options across 200+ DSCR lenders."
+          description="Send us your property address and current loan details. We&apos;ll calculate your DSCR ratio and compare refinance options across 50+ Wholesale Lenders."
           ctaText="Get Your DSCR Refinance Quote"
           href="/contact"
         />
@@ -503,7 +503,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
             </table>
           </div>
           <p className="text-lg text-slate-600 mb-4">
-            The critical insight for investors is that seasoning requirements are <strong>lender-specific, not industry-wide</strong>. One DSCR lender may require 12 months of ownership for a cash-out refinance while another allows it at 3 months with the same DSCR ratio and credit score. A wholesale broker&apos;s value is highest in these scenarios because the broker can identify which of the 200+ DSCR lenders has the shortest seasoning window that matches your specific refinance timeline.
+            The critical insight for investors is that seasoning requirements are <strong>lender-specific, not industry-wide</strong>. One DSCR lender may require 12 months of ownership for a cash-out refinance while another allows it at 3 months with the same DSCR ratio and credit score. A wholesale broker&apos;s value is highest in these scenarios because the broker can identify which of the 50+ Wholesale Lenders has the shortest seasoning window that matches your specific refinance timeline.
           </p>
         </section>
 
@@ -535,7 +535,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
             The key variable in the BRRRR exit is how much of the investor&apos;s original capital is recovered in the DSCR refinance. This depends on three factors: the purchase price relative to after-repair value (ARV), the DSCR refinance LTV, and the total project cost (acquisition + renovation + carrying costs). Investors who buy at a significant discount to ARV and add value through strategic renovation can recover 100% of invested capital &mdash; or even receive cash beyond their initial investment &mdash; at the DSCR refinance.
           </p>
           <p className="text-lg text-slate-600 mb-4">
-            <strong>Day-1 refinance programs</strong> are particularly valuable for BRRRR investors because they eliminate the waiting period between tenant placement and the DSCR refinance. Instead of paying months of hard money interest while waiting for a seasoning clock, the investor can apply for the DSCR refinance immediately after the property is stabilized. Not all DSCR lenders offer day-1 programs, which makes wholesale broker access to 200+ lenders essential for finding this option.
+            <strong>Day-1 refinance programs</strong> are particularly valuable for BRRRR investors because they eliminate the waiting period between tenant placement and the DSCR refinance. Instead of paying months of hard money interest while waiting for a seasoning clock, the investor can apply for the DSCR refinance immediately after the property is stabilized. Not all DSCR lenders offer day-1 programs, which makes wholesale broker access to 50+ Wholesale Lenders essential for finding this option.
           </p>
         </section>
 
@@ -582,7 +582,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
         {/* E-E-A-T Narrative Section 5 */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            How Wholesale Brokers Find the Lowest DSCR Refinance Rates Across 200+ Lenders
+            How Wholesale Brokers Find the Lowest DSCR Refinance Rates Across 50+ Wholesale Lenders
           </h2>
           <p className="text-lg text-slate-600 mb-4">
             The DSCR lending market is fragmented across hundreds of non-QM lenders, each with proprietary rate sheets, LTV grids, seasoning requirements, and prepayment penalty structures. Unlike the conventional mortgage market (where Fannie Mae and Freddie Mac set standardized guidelines), every DSCR lender operates independently with its own underwriting criteria and pricing model. This fragmentation creates significant rate variation for the same borrower and property scenario across different lenders.
@@ -795,7 +795,7 @@ export default function DscrRefinanceInvestmentProperty2026() {
             Whether you are exiting hard money after a BRRRR renovation, extracting equity from an appreciated rental to fund your next acquisition, reducing your rate on an existing investment loan, or freeing up conventional financing slots by moving properties to DSCR programs, the DSCR refinance is the single most versatile financing tool available to real estate investors in 2026. The no-income-documentation, no-property-count-limit structure allows you to scale without the constraints that limit conventional borrowers.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending submits your refinance scenario to 200+ DSCR lenders and identifies the program with the best combination of rate, LTV, seasoning, and prepayment terms for your specific property and investment strategy. Every DSCR lender has different guidelines &mdash; the wholesale channel ensures you access the full market, not just one lender&apos;s terms.
+            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending submits your refinance scenario to 50+ Wholesale Lenders and identifies the program with the best combination of rate, LTV, seasoning, and prepayment terms for your specific property and investment strategy. Every DSCR lender has different guidelines &mdash; the wholesale channel ensures you access the full market, not just one lender&apos;s terms.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

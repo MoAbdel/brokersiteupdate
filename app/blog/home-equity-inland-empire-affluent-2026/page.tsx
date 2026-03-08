@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity Inland Empire Affluent 2026: HELOC, HELOAN & Cash-Out Guide',
-    description: 'HELOC, home equity loans, and cash-out refinance for Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC, home equity loans, and cash-out refinance for Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-inland-empire-affluent-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -247,7 +247,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
         {/* Citation Hook */}
         <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
           <p className="text-lg text-gray-800 font-medium intro-summary">
-            Affluent Inland Empire homeowners in Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland access HELOC, home equity loans, and cash-out refinance through wholesale broker networks providing 200+ lender options. Jumbo equity programs, LA commuter strategies, college town faculty qualification, Victorian renovation financing, and foothill move-up transitions define this market segment.
+            Affluent Inland Empire homeowners in Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland access HELOC, home equity loans, and cash-out refinance through wholesale broker networks providing 50+ Wholesale Lenders. Jumbo equity programs, LA commuter strategies, college town faculty qualification, Victorian renovation financing, and foothill move-up transitions define this market segment.
           </p>
         </div>
 
@@ -260,7 +260,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
             Home equity extraction in the Inland Empire serves distinct purposes across these five cities. Rancho Cucamonga homeowners leverage equity for coastal property down payments while maintaining primary residences near LA commute corridors. Chino Hills families tap school-district-premium appreciation for college funding and multi-generational wealth transfers. Claremont&apos;s college town professionals use bank statement HELOCs for sabbatical funding and creative project financing. Redlands Victorian homeowners access renovation capital for historic property restoration. Upland move-up buyers extract first-jumbo equity to transition into North Upland foothills estates.
           </p>
           <p>
-            Wholesale mortgage broker access transforms Inland Empire equity strategies. Retail banks limit jumbo HELOC options and impose conservative combined loan-to-value ratios. Wholesale channels provide 200+ lender networks including portfolio lenders who underwrite unique income profiles (self-employed consultants, university faculty, commission-based sales), specialized property types (historic Victorians, hillside lots, wine country estates), and higher equity access limits (85% CLTV for qualified jumbo borrowers). This guide details city-specific equity extraction strategies, qualification pathways, and lender-matching frameworks for Inland Empire&apos;s affluent corridor.
+            Wholesale mortgage broker access transforms Inland Empire equity strategies. Retail banks limit jumbo HELOC options and impose conservative combined loan-to-value ratios. Wholesale channels provide 50+ Wholesale Lenderss including portfolio lenders who underwrite unique income profiles (self-employed consultants, university faculty, commission-based sales), specialized property types (historic Victorians, hillside lots, wine country estates), and higher equity access limits (85% CLTV for qualified jumbo borrowers). This guide details city-specific equity extraction strategies, qualification pathways, and lender-matching frameworks for Inland Empire&apos;s affluent corridor.
           </p>
         </section>
 
@@ -554,7 +554,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
               <strong>Strategy:</strong> $300,000 jumbo HELOC for 20% down payment on $1.5 million Santa Monica condo. Remaining $200,000 equity reserve for closing costs and emergency fund. HELOC monthly payment $1,800 (variable rate, interest-only draw period), covered by reduced commute costs ($800/month gas + maintenance) and increased productivity.
             </p>
             <p className="text-gray-800">
-              <strong>Lender Match:</strong> Portfolio jumbo HELOC lender who underwrites dual-property ownership with sufficient reserves (12+ months PITI both properties). Wholesale access identifies 3-5 lenders (out of 200+) comfortable with this structure.
+              <strong>Lender Match:</strong> Portfolio jumbo HELOC lender who underwrites dual-property ownership with sufficient reserves (12+ months PITI both properties). Wholesale access identifies 3-5 lenders (out of 50+ Wholesale Lenders) comfortable with this structure.
             </p>
           </div>
 
@@ -876,7 +876,7 @@ export default function HomeEquityInlandEmpireAffluent2026() {
               Retail banks and direct lenders serve standardized home equity scenarios effectively: W-2 employees with 740+ credit scores seeking 70% CLTV on conventional properties. The Inland Empire affluent corridor presents complexities that exceed retail capabilities: jumbo properties above the $806,500 conforming limit, self-employed income (consultants, faculty, business owners), unique collateral (Victorian architecture, hillside estates, wine country properties), and strategic equity use (dual-property ownership, rental conversion, coastal down payments).
             </p>
             <p className="text-gray-700 mb-4">
-              Wholesale mortgage brokers maintain relationships with 200+ lenders including portfolio lenders, credit unions, and specialized jumbo lenders unavailable through retail channels. This network enables lender matching: identifying the 3-5 lenders (out of 200+) who underwrite your specific scenario. A Claremont professor seeking sabbatical funding requires a lender who understands academic income patterns. A Rancho Cucamonga executive planning dual-property ownership needs a lender who underwrites sufficient reserves for both properties. A Redlands homeowner restoring a Victorian requires a lender experienced with contractor-draw structures and historic property valuations.
+              Wholesale mortgage brokers maintain relationships with 50+ Wholesale Lenders including portfolio lenders, credit unions, and specialized jumbo lenders unavailable through retail channels. This network enables lender matching: identifying the 3-5 lenders (out of 50+ Wholesale Lenders) who underwrite your specific scenario. A Claremont professor seeking sabbatical funding requires a lender who understands academic income patterns. A Rancho Cucamonga executive planning dual-property ownership needs a lender who underwrites sufficient reserves for both properties. A Redlands homeowner restoring a Victorian requires a lender experienced with contractor-draw structures and historic property valuations.
             </p>
             <p className="text-gray-700 mb-4">
               This guide represents 15+ years of Inland Empire lending experience including Alta Loma jumbo transactions, Chino Hills school-district-premium appraisals, Claremont faculty bank statement approvals, Redlands Victorian renovation financing, and Upland move-up rental conversions. Wholesale broker access transforms home equity from a retail commodity into a strategic financial tool tailored to your specific property, income profile, and wealth-building objectives.

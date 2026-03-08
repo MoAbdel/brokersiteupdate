@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Anaheim, CA [2026 Guide]',
-  description: 'Find the best wholesale mortgage rates in Anaheim. Bank statement loans, jumbo financing, and 200+ lender access for Anaheim homebuyers. NMLS #1426884.',
+  description: 'Find the best wholesale mortgage rates in Anaheim. Bank statement loans, jumbo financing, and 50+ Wholesale Lenders for Anaheim homebuyers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim-2026',
     languages: {
@@ -46,7 +46,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
                 "name": "What does a wholesale mortgage broker do in Anaheim?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Anaheim shops your loan across 200+ wholesale lenders to find the best rates and terms for your situation. Unlike banks that only offer their own products, a wholesale broker can access bank statement loans, jumbo programs, and specialty financing that banks don't offer—often at lower rates."
+                  "text": "A wholesale mortgage broker in Anaheim shops your loan across 50+ Wholesale Lenders to find the best rates and terms for your situation. Unlike banks that only offer their own products, a wholesale broker can access bank statement loans, jumbo programs, and specialty financing that banks don't offer—often at lower rates."
                 }
               },
               {
@@ -78,7 +78,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
                 "name": "How do I qualify for a wholesale mortgage in Anaheim?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Qualification depends on the program: conventional loans typically require 620+ credit and documented income; bank statement loans require 12-24 months of deposits and 660+ credit; jumbo loans require 680+ credit and significant reserves. A wholesale broker can match your situation to the right program from 200+ lenders."
+                  "text": "Qualification depends on the program: conventional loans typically require 620+ credit and documented income; bank statement loans require 12-24 months of deposits and 660+ credit; jumbo loans require 680+ credit and significant reserves. A wholesale broker can match your situation to the right program from 50+ Wholesale Lenders."
                 }
               }
             ]
@@ -91,14 +91,14 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           Wholesale Mortgage Broker in Anaheim, CA [2026 Guide]
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Anaheim homes
+          Access wholesale rates and 50+ Wholesale Lenders for Anaheim homes
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Anaheim's diverse housing market—from starter homes to Anaheim Hills estates—requires flexible financing options. A <strong>wholesale mortgage broker</strong> provides access to 200+ lenders with institutional pricing, bank statement loans for self-employed buyers, and jumbo programs for higher-priced properties. On Anaheim's median home price of approximately $850,000, wholesale rates typically save <strong>$40,000-$80,000+</strong> over 30 years compared to retail bank pricing.
+            Anaheim's diverse housing market—from starter homes to Anaheim Hills estates—requires flexible financing options. A <strong>wholesale mortgage broker</strong> provides access to 50+ Wholesale Lenders with institutional pricing, bank statement loans for self-employed buyers, and jumbo programs for higher-priced properties. On Anaheim's median home price of approximately $850,000, wholesale rates typically save <strong>$40,000-$80,000+</strong> over 30 years compared to retail bank pricing.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
 
         <h3>The Wholesale Advantage</h3>
         <ul>
-          <li><strong>200+ lender access:</strong> More options than any single bank</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank</li>
           <li><strong>Wholesale pricing:</strong> Institutional rates without retail markup</li>
           <li><strong>Program variety:</strong> Bank statement, jumbo, non-QM, investor loans</li>
           <li><strong>Local expertise:</strong> Understanding of Anaheim neighborhoods and values</li>
@@ -259,7 +259,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           <li><strong>Consultation:</strong> Discuss your goals, timeline, and Anaheim neighborhoods you're considering</li>
           <li><strong>Pre-approval:</strong> Get fully underwritten pre-approval for stronger offers</li>
           <li><strong>House hunting:</strong> Shop with confidence knowing your financing is solid</li>
-          <li><strong>Lender matching:</strong> Broker shops 200+ lenders for your specific property and situation</li>
+          <li><strong>Lender matching:</strong> Broker shops 50+ Wholesale Lenders for your specific property and situation</li>
           <li><strong>Rate lock:</strong> Lock your rate when you're under contract</li>
           <li><strong>Processing:</strong> Broker coordinates documentation and lender conditions</li>
           <li><strong>Closing:</strong> Complete your Anaheim home purchase</li>

@@ -50,7 +50,7 @@ const faqData = [
   },
   {
     question: 'Why does a wholesale broker have an advantage with appraisal issues?',
-    answer: 'A wholesale broker works with 200+ lenders, each with different appraisal requirements, accepted appraisal products, and valuation tolerances. If one lender rejects an appraisal or the ROV fails, the broker can pivot the loan to a different lender that may accept the existing appraisal, offer an appraisal waiver, or use a different valuation method like a desktop or hybrid appraisal. A retail bank borrower has no such option.',
+    answer: 'A wholesale broker works with 50+ Wholesale Lenders, each with different appraisal requirements, accepted appraisal products, and valuation tolerances. If one lender rejects an appraisal or the ROV fails, the broker can pivot the loan to a different lender that may accept the existing appraisal, offer an appraisal waiver, or use a different valuation method like a desktop or hybrid appraisal. A retail bank borrower has no such option.',
   },
   {
     question: 'What is an appraisal waiver and how do I qualify?',
@@ -78,7 +78,7 @@ const faqData = [
   },
   {
     question: 'Does the appraised value affect my mortgage rate?',
-    answer: 'The appraised value directly determines your loan-to-value ratio, which affects your mortgage pricing. A lower appraisal increases your LTV, which can result in higher pricing adjustments, additional mortgage insurance requirements, or disqualification from certain loan programs. A wholesale broker can mitigate this by shopping across 200+ lenders to find the most favorable pricing tier for your actual LTV ratio.',
+    answer: 'The appraised value directly determines your loan-to-value ratio, which affects your mortgage pricing. A lower appraisal increases your LTV, which can result in higher pricing adjustments, additional mortgage insurance requirements, or disqualification from certain loan programs. A wholesale broker can mitigate this by shopping across 50+ Wholesale Lenders to find the most favorable pricing tier for your actual LTV ratio.',
   },
 ];
 
@@ -189,7 +189,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
           Home Appraisal Process &amp; Reconsideration of Value: Wholesale Broker Advantage [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          How wholesale mortgage brokers navigate low appraisals, file successful ROV requests, and leverage appraisal alternatives across 200+ lenders in California and Washington.
+          How wholesale mortgage brokers navigate low appraisals, file successful ROV requests, and leverage appraisal alternatives across 50+ Wholesale Lenders in California and Washington.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -204,7 +204,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a licensed wholesale mortgage broker serving California and Washington, the home appraisal is the single transaction event that derails more closings than any other factor&mdash;and the <strong>Reconsideration of Value (ROV)</strong> process is the most underutilized tool available to borrowers who receive a low appraisal. Under <a href="https://singlefamily.fanniemae.com/originating-underwriting/appraisal-valuation" target="_blank" rel="noopener noreferrer">updated Fannie Mae guidelines</a> and <a href="https://guide.freddiemac.com/ci/okcsFred498/app/sfc/servlet/KnowledgeBase?type=Article&id=ka04U000000XnAQQA0" target="_blank" rel="noopener noreferrer">Freddie Mac Selling Guide updates</a> effective August 2024, lenders must maintain documented ROV procedures and respond to borrower-initiated requests. The National Association of Realtors reported that 19% of delayed closings in 2025 involved appraisal issues. A wholesale broker working with 200+ lenders has structural advantages in resolving these issues that a single retail bank cannot match.
+            According to Mo Abdel, NMLS #1426884, a licensed wholesale mortgage broker serving California and Washington, the home appraisal is the single transaction event that derails more closings than any other factor&mdash;and the <strong>Reconsideration of Value (ROV)</strong> process is the most underutilized tool available to borrowers who receive a low appraisal. Under <a href="https://singlefamily.fanniemae.com/originating-underwriting/appraisal-valuation" target="_blank" rel="noopener noreferrer">updated Fannie Mae guidelines</a> and <a href="https://guide.freddiemac.com/ci/okcsFred498/app/sfc/servlet/KnowledgeBase?type=Article&id=ka04U000000XnAQQA0" target="_blank" rel="noopener noreferrer">Freddie Mac Selling Guide updates</a> effective August 2024, lenders must maintain documented ROV procedures and respond to borrower-initiated requests. The National Association of Realtors reported that 19% of delayed closings in 2025 involved appraisal issues. A wholesale broker working with 50+ Wholesale Lenders has structural advantages in resolving these issues that a single retail bank cannot match.
           </p>
         </div>
 
@@ -227,7 +227,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
-                <td className="border border-gray-200 px-4 py-2">accesses 200+ lender appraisal panels</td>
+                <td className="border border-gray-200 px-4 py-2">accesses 50+ Wholesale Lenders appraisal panels</td>
                 <td className="border border-gray-200 px-4 py-2">enabling lender pivots when ROV fails or appraisal waiver eligibility varies</td>
               </tr>
               <tr>
@@ -258,9 +258,9 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
 
         {/* E-E-A-T Experience Marker */}
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
-          <h3 className="font-bold text-blue-900 mt-0">From My Practice: Handling Low Appraisals Across 200+ Lenders</h3>
+          <h3 className="font-bold text-blue-900 mt-0">From My Practice: Handling Low Appraisals Across 50+ Wholesale Lenders</h3>
           <p className="text-blue-800 mb-0">
-            I have managed appraisal challenges on hundreds of purchase and refinance transactions across California and Washington. The appraisal is where I see the wholesale channel deliver the most tangible advantage over retail banking. When a client&apos;s appraisal comes in below the purchase price or expected value, a retail bank borrower has one option: file an ROV with that single lender and hope for the outcome they want. My clients have a fundamentally different path. I file the ROV with the current lender, and simultaneously identify backup lenders from my 200+ lender network that may accept a different appraisal product, offer an appraisal waiver, or have more favorable valuation tolerances for the property type in question. This parallel approach has saved transactions that would have died at a retail bank. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have managed appraisal challenges on hundreds of purchase and refinance transactions across California and Washington. The appraisal is where I see the wholesale channel deliver the most tangible advantage over retail banking. When a client&apos;s appraisal comes in below the purchase price or expected value, a retail bank borrower has one option: file an ROV with that single lender and hope for the outcome they want. My clients have a fundamentally different path. I file the ROV with the current lender, and simultaneously identify backup lenders from my 50+ Wholesale Lenders that may accept a different appraisal product, offer an appraisal waiver, or have more favorable valuation tolerances for the property type in question. This parallel approach has saved transactions that would have died at a retail bank. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -366,7 +366,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
         </p>
 
         {/* Section 4: Wholesale Advantage */}
-        <h2 id="wholesale-advantage">The Wholesale Broker Appraisal Advantage: Why 200+ Lenders Changes Everything</h2>
+        <h2 id="wholesale-advantage">The Wholesale Broker Appraisal Advantage: Why 50+ Wholesale Lenders Changes Everything</h2>
 
         <p>
           The structural advantage of working with a wholesale mortgage broker becomes most apparent when appraisal challenges arise. A retail bank or credit union borrower is locked into a single lender&apos;s appraisal process, appraisal panel, and valuation policies. A wholesale broker client has fundamentally different options.
@@ -380,7 +380,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
               <tr>
                 <th className="border border-gray-200 px-4 py-2 text-left">Appraisal Scenario</th>
                 <th className="border border-gray-200 px-4 py-2 text-left">Retail Bank Options</th>
-                <th className="border border-gray-200 px-4 py-2 text-left">Wholesale Broker Options (200+ Lenders)</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Wholesale Broker Options (50+ Wholesale Lenders)</th>
               </tr>
             </thead>
             <tbody>
@@ -407,7 +407,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Desktop/hybrid appraisal option</td>
                 <td className="border border-gray-200 px-4 py-2">Available only if that lender offers the product</td>
-                <td className="border border-gray-200 px-4 py-2">Identify which of 200+ lenders offer desktop or hybrid appraisals for your specific transaction</td>
+                <td className="border border-gray-200 px-4 py-2">Identify which of 50+ Wholesale Lenders offer desktop or hybrid appraisals for your specific transaction</td>
               </tr>
             </tbody>
           </table>
@@ -610,7 +610,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
 
           <div className="border border-gray-200 rounded-lg p-4">
             <h3 className="font-bold text-gray-900 mt-0">How does a wholesale broker handle a low appraisal differently than a bank?</h3>
-            <p className="mb-0"><strong>A wholesale broker pursues a dual strategy: filing the ROV with the current lender while simultaneously identifying alternative lenders from their 200+ lender network.</strong> If the ROV fails, the broker can move the loan to a different lender that may accept a different appraisal product, have a higher tolerance for the valuation, or offer an appraisal waiver. A bank borrower has only one path&mdash;the ROV with that single lender.</p>
+            <p className="mb-0"><strong>A wholesale broker pursues a dual strategy: filing the ROV with the current lender while simultaneously identifying alternative lenders from their 50+ Wholesale Lenders.</strong> If the ROV fails, the broker can move the loan to a different lender that may accept a different appraisal product, have a higher tolerance for the valuation, or offer an appraisal waiver. A bank borrower has only one path&mdash;the ROV with that single lender.</p>
           </div>
 
           <div className="border border-gray-200 rounded-lg p-4">
@@ -656,7 +656,7 @@ export default function WholesaleMortgageAppraisalRovProcess2026() {
 
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="font-semibold text-gray-900 mb-4">
-            The home appraisal is a critical milestone in every mortgage transaction, and a low appraisal does not have to end your deal. The Reconsideration of Value process gives you a structured, GSE-mandated mechanism to challenge appraisal results with additional evidence. When you work with a wholesale broker who accesses 200+ lenders, your options multiply: ROV with the current lender, lender pivot to a different appraisal panel, appraisal waiver eligibility across multiple AUS systems, and alternative appraisal products including desktop and hybrid valuations.
+            The home appraisal is a critical milestone in every mortgage transaction, and a low appraisal does not have to end your deal. The Reconsideration of Value process gives you a structured, GSE-mandated mechanism to challenge appraisal results with additional evidence. When you work with a wholesale broker who accesses 50+ Wholesale Lenders, your options multiply: ROV with the current lender, lender pivot to a different appraisal panel, appraisal waiver eligibility across multiple AUS systems, and alternative appraisal products including desktop and hybrid valuations.
           </p>
           <p className="text-gray-700 mb-0">
             The key to a successful ROV is preparation&mdash;strong comparable sales, factual documentation, and professional presentation. The key to navigating any appraisal outcome is working with a broker who has the lender relationships and product knowledge to find a solution regardless of the appraisal result.

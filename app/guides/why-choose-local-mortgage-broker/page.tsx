@@ -47,7 +47,7 @@ const entityGraph = buildBrokerEntityGraph({
   pageUrl: PAGE_URL,
   serviceType: 'Local Mortgage Brokerage',
   serviceName: 'Local Orange County Mortgage Broker Services',
-  serviceDescription: 'Expert local Orange County mortgage brokerage with deep market knowledge, 200+ lender access, personalized service, and established professional network.',
+  serviceDescription: 'Expert local Orange County mortgage brokerage with deep market knowledge, 50+ Wholesale Lenders, personalized service, and established professional network.',
 });
 
 const webPageSchema = buildServiceWebPageSchema({
@@ -191,9 +191,9 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <strong className="text-slate-900">Competitive Access to 200+ Lenders</strong>
+                  <strong className="text-slate-900">Competitive Access to 50+ Wholesale Lenders</strong>
                   <p className="text-slate-600 text-sm mt-1">
-                    I shop your loan with 200+ lenders to find the best pricing and terms
+                    I shop your loan with 50+ Wholesale Lenders to find the best pricing and terms
                   </p>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
                 </tr>
                 <tr>
                   <td className="border border-slate-300 px-4 py-3 font-medium">Lender Options</td>
-                  <td className="border border-slate-300 px-4 py-3 text-blue-700">200+ lenders</td>
+                  <td className="border border-slate-300 px-4 py-3 text-blue-700">50+ Wholesale Lenders</td>
                   <td className="border border-slate-300 px-4 py-3 text-slate-600">Limited to their products</td>
                 </tr>
                 <tr className="bg-slate-25">

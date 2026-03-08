@@ -449,7 +449,7 @@ export default function HelocInheritedPropertyCalifornia2026() {
           </div>
 
           <p>
-            In our California closings involving inherited properties, we regularly encounter heirs who were told by their bank that they must wait 12 months after the deed records before applying. That is true for that specific bank&apos;s guidelines, but it is not a universal rule. Through our network of 200+ wholesale lenders, we access portfolio lenders and non-QM lenders that specifically accommodate inherited property borrowers with reduced or eliminated seasoning periods. The key is providing comprehensive documentation of the inheritance chain.
+            In our California closings involving inherited properties, we regularly encounter heirs who were told by their bank that they must wait 12 months after the deed records before applying. That is true for that specific bank&apos;s guidelines, but it is not a universal rule. Through our network of 50+ Wholesale Lenders, we access portfolio lenders and non-QM lenders that specifically accommodate inherited property borrowers with reduced or eliminated seasoning periods. The key is providing comprehensive documentation of the inheritance chain.
           </p>
 
           {/* Documentation Section */}
@@ -564,7 +564,7 @@ export default function HelocInheritedPropertyCalifornia2026() {
           {/* Wholesale Broker Advantage */}
           <h2 className="text-2xl font-bold mt-8 mb-4">Why a Wholesale Mortgage Broker Is Essential for Inherited Property HELOCs</h2>
           <p>
-            Inherited property financing is one of the areas where the wholesale broker advantage is most pronounced. Many retail banks and direct lenders have rigid policies that effectively exclude recently inherited properties. Through our 200+ lender network, we access specialized programs that address the unique challenges heirs face:
+            Inherited property financing is one of the areas where the wholesale broker advantage is most pronounced. Many retail banks and direct lenders have rigid policies that effectively exclude recently inherited properties. Through our 50+ Wholesale Lenders, we access specialized programs that address the unique challenges heirs face:
           </p>
 
           <ul className="list-disc pl-6 space-y-2">
@@ -645,7 +645,7 @@ export default function HelocInheritedPropertyCalifornia2026() {
             The three most important actions for California heirs are: (1) complete the title transfer and record the deed as quickly as possible, (2) file the Prop 19 BOE-19-P exclusion within one year if you plan to use the property as your primary residence, and (3) work with a wholesale mortgage broker who has access to lenders that accommodate inherited properties with flexible seasoning requirements.
           </p>
           <p>
-            As a wholesale mortgage broker licensed in California and Washington with access to 200+ lenders, I specialize in helping heirs unlock the equity in inherited properties. Whether you need funds for property maintenance, Prop 19-related tax obligations, buying out co-heirs, or converting the property to a rental, I will identify the right lender and structure from our network for your specific situation.
+            As a wholesale mortgage broker licensed in California and Washington with access to 50+ Wholesale Lenders, I specialize in helping heirs unlock the equity in inherited properties. Whether you need funds for property maintenance, Prop 19-related tax obligations, buying out co-heirs, or converting the property to a rental, I will identify the right lender and structure from our network for your specific situation.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

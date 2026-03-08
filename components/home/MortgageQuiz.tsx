@@ -207,7 +207,7 @@ export default function MortgageQuiz() {
               </div>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-4">
-                We're matching your info with our 200+ lenders.
+                We're matching your info with our 50+ Wholesale Lenders.
               </h2>
 
               <p className="text-xl text-slate-600 mb-8">

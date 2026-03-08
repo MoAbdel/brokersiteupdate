@@ -660,7 +660,7 @@ export default function CashOutRefinanceVsPersonalLoanPage() {
             Do not overlook the HELOC as a third option. For the $25,000-$200,000 range, a HELOC provides near-mortgage rates with minimal closing costs, faster funding than a cash-out refinance, and the flexibility to draw only what you need. Most importantly, a HELOC preserves your existing mortgage rate, which is critical for homeowners who locked in rates below 5% during 2020-2021.
           </p>
           <p>
-            As a wholesale mortgage broker with access to over 200 lenders, I provide multiple options and run the exact numbers for your situation. Whether you need a cash-out refinance, HELOC, or guidance on when a personal loan makes more sense, I will show you the total cost comparison so you can make the most informed decision.
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I provide multiple options and run the exact numbers for your situation. Whether you need a cash-out refinance, HELOC, or guidance on when a personal loan makes more sense, I will show you the total cost comparison so you can make the most informed decision.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

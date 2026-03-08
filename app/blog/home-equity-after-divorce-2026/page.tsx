@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: "What credit score do I need to refinance after divorce?",
-    answer: "Most conventional refinance programs require a minimum credit score of 620, with better rates available at 740 and above. FHA refinance programs accept scores as low as 580. If your credit has been impacted by the divorce process (missed payments, increased debt-to-income ratio, closed joint accounts), you may need time to rebuild before qualifying. A wholesale broker can access 200+ lenders with varying credit requirements to find options that fit your post-divorce credit profile."
+    answer: "Most conventional refinance programs require a minimum credit score of 620, with better rates available at 740 and above. FHA refinance programs accept scores as low as 580. If your credit has been impacted by the divorce process (missed payments, increased debt-to-income ratio, closed joint accounts), you may need time to rebuild before qualifying. A wholesale broker can access 50+ Wholesale Lenders with varying credit requirements to find options that fit your post-divorce credit profile."
   },
   {
     question: "Can I qualify for a refinance on a single income after divorce?",
@@ -229,7 +229,7 @@ export default function HomeEquityAfterDivorce2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            Mo Abdel, a wholesale mortgage broker licensed in California and Washington with access to <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-800 underline">200+ wholesale lenders</Link>, specializes in helping divorcing and recently divorced borrowers navigate the refinance process. Different lenders have different overlays for divorce-related refinances, and a wholesale broker compares options across the full lender network to find programs that accommodate single-income qualification, court-ordered deadlines, and non-traditional documentation scenarios.
+            Mo Abdel, a wholesale mortgage broker licensed in California and Washington with access to <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-800 underline">50+ Wholesale Lenders</Link>, specializes in helping divorcing and recently divorced borrowers navigate the refinance process. Different lenders have different overlays for divorce-related refinances, and a wholesale broker compares options across the full lender network to find programs that accommodate single-income qualification, court-ordered deadlines, and non-traditional documentation scenarios.
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
@@ -358,7 +358,7 @@ export default function HomeEquityAfterDivorce2026() {
             Here is a concrete example. A couple owns a home appraised at $1,000,000 with a $400,000 mortgage balance. The equity is $600,000, with each spouse entitled to $300,000 under a 50/50 community property split. The keeping spouse refinances into a $700,000 loan: $400,000 pays off the existing mortgage, and $300,000 goes to the departing spouse as their equity buyout. The keeping spouse now has a $700,000 mortgage, $300,000 in equity, and sole ownership of the property.
           </p>
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            The critical qualification challenge is that the keeping spouse must now qualify for the $700,000 mortgage on their individual income. During the marriage, both incomes supported the household. Post-divorce, one income must carry the full mortgage payment, property taxes, insurance, and all other debts. This is where access to 200+ wholesale lenders becomes essential &mdash; different lenders have different DTI limits, income documentation requirements, and credit overlays that can make the difference between approval and denial.
+            The critical qualification challenge is that the keeping spouse must now qualify for the $700,000 mortgage on their individual income. During the marriage, both incomes supported the household. Post-divorce, one income must carry the full mortgage payment, property taxes, insurance, and all other debts. This is where access to 50+ Wholesale Lenders becomes essential &mdash; different lenders have different DTI limits, income documentation requirements, and credit overlays that can make the difference between approval and denial.
           </p>
 
           <h2 className="text-2xl font-bold text-slate-900 mb-4">Why Is Removing a Spouse from the Mortgage Different from Removing Them from the Title?</h2>
@@ -380,7 +380,7 @@ export default function HomeEquityAfterDivorce2026() {
             Several strategies improve qualification prospects. <strong>Alimony and child support income</strong> can be added to the qualifying income if the borrower has received payments consistently for at least 6 months and the payments are scheduled to continue for at least 3 years. <strong>Asset depletion programs</strong> allow liquid assets (retirement accounts, investment portfolios, settlement proceeds) to be counted as income by dividing the asset total by a set number of months. <strong>Bank statement loan programs</strong> use 12-24 months of bank deposits rather than tax returns, which benefits self-employed borrowers whose tax returns may not reflect their full earning capacity post-divorce.
           </p>
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            A client in Huntington Beach recently completed a divorce buyout refinance that three retail banks had denied. Her W-2 income alone did not support the $850,000 loan. However, by documenting $3,200/month in alimony (court-ordered for 10 years) and adding it to her W-2 income, her total qualifying income crossed the DTI threshold. A wholesale lender in our network approved the loan at 42.8% DTI, within their 45% maximum. Without access to 200+ lenders, she would have been forced to sell the family home.
+            A client in Huntington Beach recently completed a divorce buyout refinance that three retail banks had denied. Her W-2 income alone did not support the $850,000 loan. However, by documenting $3,200/month in alimony (court-ordered for 10 years) and adding it to her W-2 income, her total qualifying income crossed the DTI threshold. A wholesale lender in our network approved the loan at 42.8% DTI, within their 45% maximum. Without access to 50+ Wholesale Lenders, she would have been forced to sell the family home.
           </p>
 
           <h2 className="text-2xl font-bold text-slate-900 mb-4">What Are the Tax Implications of Dividing Home Equity in Divorce?</h2>
@@ -554,7 +554,7 @@ export default function HomeEquityAfterDivorce2026() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">What non-QM loan options exist for recently divorced borrowers?</h3>
-              <p><strong>Non-QM lenders offer alternative qualification methods for borrowers who cannot meet conventional guidelines post-divorce.</strong> <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank statement loans</Link> use 12-24 months of deposits as income documentation, which helps self-employed borrowers whose tax returns show lower income than actual earnings. Asset depletion programs convert liquid assets into qualifying income. Some <Link href="/blog/non-qm-loan-programs-complete-guide-2026" className="text-blue-600 hover:underline">non-QM programs</Link> allow DTI ratios up to 55% and accept credit events as recent as one day out of bankruptcy. A wholesale broker accesses these programs through 200+ lender relationships.</p>
+              <p><strong>Non-QM lenders offer alternative qualification methods for borrowers who cannot meet conventional guidelines post-divorce.</strong> <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank statement loans</Link> use 12-24 months of deposits as income documentation, which helps self-employed borrowers whose tax returns show lower income than actual earnings. Asset depletion programs convert liquid assets into qualifying income. Some <Link href="/blog/non-qm-loan-programs-complete-guide-2026" className="text-blue-600 hover:underline">non-QM programs</Link> allow DTI ratios up to 55% and accept credit events as recent as one day out of bankruptcy. A wholesale broker accesses these programs through 50+ Wholesale Lenders.</p>
             </div>
           </div>
         </section>
@@ -580,7 +580,7 @@ export default function HomeEquityAfterDivorce2026() {
             Dividing <strong>home equity after divorce</strong> is one of the most financially significant decisions you will make during the dissolution process. The buyout refinance remains the cleanest option &mdash; it removes the departing spouse from both the mortgage and the title, provides them with their equity share, and gives the keeping spouse sole ownership. The primary challenge is qualifying on a single income, which requires access to multiple lender programs with varying DTI limits, income documentation requirements, and credit overlays.
           </p>
           <p className="text-lg text-slate-700 mb-4 leading-relaxed">
-            As a wholesale mortgage broker licensed in California and Washington, I work with divorcing and recently divorced borrowers every week. The difference between a bank with one set of guidelines and a broker with access to 200+ lenders often determines whether a borrower keeps their home or is forced to sell. I have closed buyout refinances that retail banks denied by finding lenders that accept alimony income, higher DTI ratios, or <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-800 underline">bank statement documentation</Link> for self-employed borrowers.
+            As a wholesale mortgage broker licensed in California and Washington, I work with divorcing and recently divorced borrowers every week. The difference between a bank with one set of guidelines and a broker with access to 50+ Wholesale Lenders often determines whether a borrower keeps their home or is forced to sell. I have closed buyout refinances that retail banks denied by finding lenders that accept alimony income, higher DTI ratios, or <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-800 underline">bank statement documentation</Link> for self-employed borrowers.
           </p>
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
             If you are facing a divorce buyout refinance or need to understand your options for dividing home equity, I provide a complimentary analysis of your qualification profile across multiple lender programs. Whether you need to meet a court-ordered refinance deadline or are still negotiating terms, early engagement with a mortgage professional helps you make informed decisions before the settlement agreement is finalized.
@@ -588,7 +588,7 @@ export default function HomeEquityAfterDivorce2026() {
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">
             <h3 className="text-2xl font-bold text-blue-900 mb-3">Get Your Free Divorce Buyout Refinance Analysis</h3>
-            <p className="text-blue-800 mb-4">I will analyze your qualification across 200+ lenders and show you the options for keeping your home.</p>
+            <p className="text-blue-800 mb-4">I will analyze your qualification across 50+ Wholesale Lenders and show you the options for keeping your home.</p>
             <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 579-2057</p>
             <p className="text-blue-700 mb-4">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

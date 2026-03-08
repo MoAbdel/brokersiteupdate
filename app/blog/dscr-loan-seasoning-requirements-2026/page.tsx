@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'DSCR Loan Seasoning Requirements 2026: Title, Cash-Out & Rate-Term Timelines | Mo Abdel',
-  description: 'DSCR loan seasoning requirements explained: title seasoning, cash-out refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 200+ lenders through wholesale channels. NMLS #1426884.',
+  description: 'DSCR loan seasoning requirements explained: title seasoning, cash-out refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 50+ Wholesale Lenders through wholesale channels. NMLS #1426884.',
   keywords: ['DSCR loan seasoning requirements', 'DSCR cash-out seasoning', 'DSCR title seasoning', 'DSCR refinance seasoning period', 'DSCR loan waiting period', 'DSCR seasoning 2026'],
   openGraph: {
     title: 'DSCR Loan Seasoning Requirements 2026: Title, Cash-Out & Rate-Term Timelines',
-    description: 'DSCR loan seasoning requirements explained: title seasoning, cash-out refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 200+ lenders through wholesale channels.',
+    description: 'DSCR loan seasoning requirements explained: title seasoning, cash-out refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 50+ Wholesale Lenders through wholesale channels.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: "Do all DSCR lenders have the same seasoning requirements?",
-    answer: "No. Seasoning requirements vary significantly across DSCR lenders. Some require 6 months for cash-out, others accept 3 months, and a few offer no-seasoning cash-out programs with compensating factors. Rate-and-term seasoning ranges from 0 to 3 months. A wholesale broker with access to 200+ lenders can shop for the most favorable seasoning terms for your specific situation."
+    answer: "No. Seasoning requirements vary significantly across DSCR lenders. Some require 6 months for cash-out, others accept 3 months, and a few offer no-seasoning cash-out programs with compensating factors. Rate-and-term seasoning ranges from 0 to 3 months. A wholesale broker with access to 50+ Wholesale Lenders can shop for the most favorable seasoning terms for your specific situation."
   },
   {
     question: "Can I use a DSCR loan for the BRRRR strategy?",
@@ -197,7 +197,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
-              According to Mo Abdel, NMLS #1426884, seasoning requirements are the single most misunderstood element of DSCR refinancing &mdash; and the difference between a 6-month wait and immediate access to your equity often comes down to which lender your broker selects from 200+ wholesale options.
+              According to Mo Abdel, NMLS #1426884, seasoning requirements are the single most misunderstood element of DSCR refinancing &mdash; and the difference between a 6-month wait and immediate access to your equity often comes down to which lender your broker selects from 50+ Wholesale Lenders.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -390,7 +390,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
             </p>
 
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-              The wholesale channel is where seasoning flexibility becomes a genuine competitive advantage. Among 200+ DSCR lenders available through wholesale brokers, seasoning policies are not uniform. Some lenders require a full 6 months for any cash-out transaction. Others have introduced 3-month cash-out seasoning programs designed specifically for BRRRR investors and active flippers transitioning to rental holds. A small number of lenders offer cash-out with no seasoning requirement at all, though these programs typically carry compensating requirements such as lower maximum LTV ratios, higher credit score minimums, or larger reserve requirements.
+              The wholesale channel is where seasoning flexibility becomes a genuine competitive advantage. Among 50+ Wholesale Lenders available through wholesale brokers, seasoning policies are not uniform. Some lenders require a full 6 months for any cash-out transaction. Others have introduced 3-month cash-out seasoning programs designed specifically for BRRRR investors and active flippers transitioning to rental holds. A small number of lenders offer cash-out with no seasoning requirement at all, though these programs typically carry compensating requirements such as lower maximum LTV ratios, higher credit score minimums, or larger reserve requirements.
             </p>
 
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
@@ -482,7 +482,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
             </h2>
 
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-              DSCR loans are non-QM (non-qualified mortgage) products, which means they are not governed by Fannie Mae or Freddie Mac guidelines. Each DSCR lender sets its own underwriting matrix, and seasoning requirements are one of the variables that differ most across the wholesale market. This is precisely why working with a wholesale mortgage broker who accesses 200+ lenders is a structural advantage for investors who need flexible seasoning terms.
+              DSCR loans are non-QM (non-qualified mortgage) products, which means they are not governed by Fannie Mae or Freddie Mac guidelines. Each DSCR lender sets its own underwriting matrix, and seasoning requirements are one of the variables that differ most across the wholesale market. This is precisely why working with a wholesale mortgage broker who accesses 50+ Wholesale Lenders is a structural advantage for investors who need flexible seasoning terms.
             </p>
 
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
@@ -562,7 +562,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
                 <Shield className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
                 <div>
                   <p className="text-slate-900 font-semibold mb-2">Wholesale Broker Advantage: Seasoning Shopping</p>
-                  <p className="text-slate-700">A direct lender gives you one seasoning policy. A wholesale broker with access to 200+ lenders finds the lender whose seasoning, LTV, and rate combination best fits your investment timeline. This is how experienced investors close more deals per year than their peers who use a single retail lender.</p>
+                  <p className="text-slate-700">A direct lender gives you one seasoning policy. A wholesale broker with access to 50+ Wholesale Lenders finds the lender whose seasoning, LTV, and rate combination best fits your investment timeline. This is how experienced investors close more deals per year than their peers who use a single retail lender.</p>
                 </div>
               </div>
             </div>
@@ -645,7 +645,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
             </h2>
 
             <p className="text-xl text-slate-300 mb-6 leading-relaxed speakable-summary">
-              DSCR loan seasoning requirements range from 0 to 6 months depending on the transaction type, lender, and borrower profile. Cash-out refinances typically require 3-6 months of title seasoning. Rate-and-term refinances require 0-3 months. Delayed financing eliminates the wait entirely for all-cash purchases. The critical variable is lender selection — and a wholesale broker with access to 200+ lenders finds the seasoning policy that matches your investment timeline.
+              DSCR loan seasoning requirements range from 0 to 6 months depending on the transaction type, lender, and borrower profile. Cash-out refinances typically require 3-6 months of title seasoning. Rate-and-term refinances require 0-3 months. Delayed financing eliminates the wait entirely for all-cash purchases. The critical variable is lender selection — and a wholesale broker with access to 50+ Wholesale Lenders finds the seasoning policy that matches your investment timeline.
             </p>
 
             <p className="text-lg text-slate-400 mb-8 leading-relaxed">

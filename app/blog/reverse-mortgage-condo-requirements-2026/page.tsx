@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Reverse Mortgage for Condos 2026: FHA Approval Requirements & HECM Eligibility | Mo Abdel',
-  description: 'Can you get a reverse mortgage on a condo? FHA condo approval requirements for HECM, single-unit approval options, and proprietary alternatives. 200+ lenders. NMLS #1426884.',
+  description: 'Can you get a reverse mortgage on a condo? FHA condo approval requirements for HECM, single-unit approval options, and proprietary alternatives. 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-condo-requirements-2026',
     languages: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Reverse Mortgage for Condos 2026: FHA Approval Requirements & HECM Eligibility',
-    description: 'Can you get a reverse mortgage on a condo? FHA condo approval requirements, single-unit approval, and proprietary alternatives for condos. 200+ lenders.',
+    description: 'Can you get a reverse mortgage on a condo? FHA condo approval requirements, single-unit approval, and proprietary alternatives for condos. 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-condo-requirements-2026',
     type: 'article',
     publishedTime: '2026-02-21',
@@ -519,7 +519,7 @@ export default function ReverseMortgageCondoRequirements2026Page() {
         </ul>
 
         <p>
-          In our Orange County condo HECM closings, single-unit approval has expanded access for owners in communities that previously had zero FHA loan activity. Complexes in Newport Beach, Irvine, and Laguna Beach that never sought FHA certification — often because the HOA board considered it unnecessary given the property values — now have a viable path for individual unit owners who want a reverse mortgage. The key limitation is that the lender assumes certification liability, which means some lenders decline single-unit approval due to the additional risk exposure. Working with a wholesale broker who has access to 200+ lenders increases the odds of finding an institution that actively supports this pathway.
+          In our Orange County condo HECM closings, single-unit approval has expanded access for owners in communities that previously had zero FHA loan activity. Complexes in Newport Beach, Irvine, and Laguna Beach that never sought FHA certification — often because the HOA board considered it unnecessary given the property values — now have a viable path for individual unit owners who want a reverse mortgage. The key limitation is that the lender assumes certification liability, which means some lenders decline single-unit approval due to the additional risk exposure. Working with a wholesale broker who has access to 50+ Wholesale Lenders increases the odds of finding an institution that actively supports this pathway.
         </p>
 
         <div className="bg-blue-50 p-6 rounded-lg my-8 not-prose">
@@ -920,10 +920,10 @@ export default function ReverseMortgageCondoRequirements2026Page() {
         <div className="bg-slate-50 p-8 rounded-xl mt-16 not-prose">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Expert Summary: Condo Reverse Mortgage Options in 2026</h2>
           <p className="text-gray-700 mb-4">
-            Condo owners 62 and older have more reverse mortgage options today than at any point in the program&apos;s history. FHA project approval, single-unit approval, and proprietary products create three distinct pathways — and a qualified wholesale mortgage broker with access to 200+ lenders can identify which route fits your specific condominium and financial situation. The first step is determining your condo&apos;s FHA approval status and evaluating whether the complex meets the core requirements.
+            Condo owners 62 and older have more reverse mortgage options today than at any point in the program&apos;s history. FHA project approval, single-unit approval, and proprietary products create three distinct pathways — and a qualified wholesale mortgage broker with access to 50+ Wholesale Lenders can identify which route fits your specific condominium and financial situation. The first step is determining your condo&apos;s FHA approval status and evaluating whether the complex meets the core requirements.
           </p>
           <p className="text-gray-700 mb-4">
-            As a licensed mortgage broker serving California and Washington, I work with condo owners throughout Orange County, the Bay Area, Los Angeles, San Diego, Seattle, and Bellevue to navigate the condo HECM approval process. Whether your complex holds full FHA approval, needs single-unit certification, or requires a proprietary solution, I match you with the right lender from our network of 200+ institutions.
+            As a licensed mortgage broker serving California and Washington, I work with condo owners throughout Orange County, the Bay Area, Los Angeles, San Diego, Seattle, and Bellevue to navigate the condo HECM approval process. Whether your complex holds full FHA approval, needs single-unit certification, or requires a proprietary solution, I match you with the right lender from our network of 50+ Wholesale Lenders.
           </p>
           <p className="text-sm text-gray-500 mb-6">
             Reverse mortgage proceeds are generally not considered taxable income (consult your tax advisor). Borrower must be 62 or older and complete HUD-approved counseling. Borrower must continue to pay property taxes, homeowners insurance, HOA dues, and maintain the property. No required monthly principal and interest payments, but the loan balance grows over time.
@@ -1013,7 +1013,7 @@ export default function ReverseMortgageCondoRequirements2026Page() {
             <h4 className="font-semibold text-gray-900">Mo Abdel</h4>
             <p className="text-gray-600 text-sm">NMLS #1426884 | Reverse Mortgage & Condo HECM Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
-              Mo Abdel is a licensed mortgage broker specializing in reverse mortgages for condominiums, including FHA project approval navigation, single-unit certification, and proprietary programs for non-warrantable complexes. Serving California and Washington with access to 200+ wholesale lenders.
+              Mo Abdel is a licensed mortgage broker specializing in reverse mortgages for condominiums, including FHA project approval navigation, single-unit certification, and proprietary programs for non-warrantable complexes. Serving California and Washington with access to 50+ Wholesale Lenders.
             </p>
           </div>
         </div>

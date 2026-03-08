@@ -5,7 +5,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-
 export const metadata = {
   title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
   description:
-    'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
+    'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 50+ Wholesale Lenders for Newport Beach properties.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/newport-beach',
     languages: {
@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: 'Newport Beach Mortgage Broker | Jumbo Loans & Luxury Home Financing',
     description:
-      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
+      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 50+ Wholesale Lenders for Newport Beach properties.',
     url: 'https://www.mothebroker.com/areas/newport-beach',
     type: 'website',
   },
@@ -26,7 +26,7 @@ export const metadata = {
 export default function Page() {
   const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
-    { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 100+ wholesale lenders to secure competitive pricing for high-value properties.' },
+    { q: 'Do you specialize in Newport Beach jumbo loans?', a: 'Yes, given Newport Beach\'s luxury market, jumbo loans are our specialty. We work with 50+ Wholesale Lenders to secure competitive pricing for high-value properties.' },
     { q: 'What about unique Newport Beach properties like waterfront homes?', a: 'We specialize in unique Newport Beach properties including waterfront, luxury condos, and custom homes. Our lenders understand these specialized property types.' },
     { q: 'How do HELOCs work for Newport Beach homes?', a: 'Given the significant equity in most Newport Beach properties, HELOCs are very popular. We can often secure higher credit lines due to strong property values and help structure optimal terms.' },
     { q: 'What\'s the timeline for Newport Beach luxury home loans?', a: 'Luxury properties often require more detailed appraisals and documentation. Typical timelines are 3-4 weeks, though complex properties or unique situations may take longer.' },
@@ -39,7 +39,7 @@ export default function Page() {
     serviceType: 'Newport Beach Mortgage Brokerage Services',
     serviceName: 'Newport Beach Mortgage Broker',
     serviceDescription:
-      'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 200+ lenders.',
+      'Wholesale mortgage broker specializing in Newport Beach luxury home financing, jumbo loans, and high-value property lending with access to 50+ Wholesale Lenders.',
     areaServedName: 'Newport Beach, Orange County, CA',
   });
 
@@ -57,7 +57,7 @@ export default function Page() {
     pageUrl: 'https://www.mothebroker.com/areas/newport-beach',
     title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
     description:
-      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 200+ lenders for Newport Beach properties.',
+      'Newport Beach mortgage broker specializing in jumbo loans, luxury home financing, HELOCs, and cash-out refinancing. Wholesale pricing with 50+ Wholesale Lenders for Newport Beach properties.',
     breadcrumbName: 'Newport Beach',
   });
 
@@ -73,7 +73,7 @@ export default function Page() {
             and access to lenders who understand luxury real estate markets.
           </p>
           <p>
-            As a wholesale mortgage broker, we work with 200+ lenders to provide competitive jumbo loan options, sophisticated
+            As a wholesale mortgage broker, we work with 50+ Wholesale Lenders to provide competitive jumbo loan options, sophisticated
             financing structures, and personalized service for Newport Beach's discerning homeowners and buyers. Whether you're
             purchasing a waterfront estate, refinancing a luxury condo, or accessing equity for investment opportunities,
             we navigate the complexities of high-end real estate financing.

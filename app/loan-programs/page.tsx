@@ -96,7 +96,7 @@ export default function ProgramsPage() {
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             As a licensed broker with Lumin Lending - the nation's largest brokerage -
-            I have access to over 200 lenders offering competitive pricing and flexible refinance
+            I have access to 50+ Wholesale Lenders offering competitive pricing and flexible refinance
             programs for homeowners across California and Washington.
           </p>
         </div>
@@ -580,7 +580,7 @@ export default function ProgramsPage() {
           <div className="text-center bg-white rounded-lg p-6">
             <h3 className="text-xl font-bold text-slate-900 mb-2">Don't See What You Need?</h3>
             <p className="text-slate-600 mb-4">
-              With access to 200+ lenders, we have solutions for almost every situation.
+              With access to 50+ Wholesale Lenders, we have solutions for almost every situation.
             </p>
             <Link href="/contact">
               <Button className="bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white px-6 py-2">

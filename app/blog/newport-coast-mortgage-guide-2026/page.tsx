@@ -300,7 +300,7 @@ export default function NewportCoastMortgageGuide2026() {
           Only one ZIP code in Orange County has a median home value above $5 million, zero conforming-eligible purchase transactions, and a 31% all-cash buyer rate that still leaves the majority of purchasers seeking jumbo financing: <strong>92657 &mdash; Newport Coast</strong>. Perched on bluffs overlooking the Pacific between Corona del Mar and Laguna Beach, this master-planned community of approximately 2,800 homes delivers oceanfront grandeur, 24-hour gated security, and adjacency to Crystal Cove State Park&apos;s permanently protected coastline. The properties here &mdash; Mediterranean villas, contemporary estates, and custom oceanfront compounds &mdash; routinely transact between $4 million and $35 million, placing every financed purchase squarely in super-jumbo territory where lender selection determines whether you save or waste six figures over the life of the loan. Understanding <a href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">California jumbo loan requirements</a> is the first step toward securing the right financing structure for a Newport Coast purchase.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>In our Newport Coast closings over the past 10 years, we have originated more than $220 million in luxury mortgage volume across Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge. As a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) working through Lumin Lending (NMLS #2716106), I access 200+ wholesale lending partners including institutional jumbo desks, private bank portfolios, and specialized Non-QM platforms that are not available through retail banking channels. In Q4 2025 and Q1 2026 alone, we closed 14 Newport Coast transactions averaging $4.2 million per loan. Our most recent Crystal Cove closing in February 2026 was a $12.8 million asset-depletion purchase that funded in 23 business days &mdash; a timeline that no retail bank in Orange County matched when the borrower initially shopped rates.</em>
+          <strong>E-E-A-T Marker:</strong> <em>In our Newport Coast closings over the past 10 years, we have originated more than $220 million in luxury mortgage volume across Crystal Cove, Pelican Crest, Pelican Hill, and Newport Ridge. As a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) working through Lumin Lending (NMLS #2716106), I access 50+ Wholesale Lenders including institutional jumbo desks, private bank portfolios, and specialized Non-QM platforms that are not available through retail banking channels. In Q4 2025 and Q1 2026 alone, we closed 14 Newport Coast transactions averaging $4.2 million per loan. Our most recent Crystal Cove closing in February 2026 was a $12.8 million asset-depletion purchase that funded in 23 business days &mdash; a timeline that no retail bank in Orange County matched when the borrower initially shopped rates.</em>
         </p>
         <p>
           Financing a Newport Coast estate is fundamentally different from obtaining a standard mortgage. Every transaction in the 92657 ZIP code involves jumbo or super-jumbo loan amounts, and borrowers frequently present complex financial profiles: business owners with pass-through entity income, retirees with deep asset pools but modest taxable income, and international buyers establishing a U.S. real estate presence. The wholesale mortgage channel serves each of these profiles with purpose-built programs.
@@ -991,7 +991,7 @@ export default function NewportCoastMortgageGuide2026() {
 
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">Can a wholesale broker get me a better rate than my private bank?</h3>
-            <p className="paa-answer mb-0"><strong>Wholesale brokers access 200+ lenders simultaneously, creating pricing competition that private banks cannot match. The rate advantage is typically 0.25-0.50% on jumbo loans above $3 million.</strong></p>
+            <p className="paa-answer mb-0"><strong>Wholesale brokers access 50+ Wholesale Lenders simultaneously, creating pricing competition that private banks cannot match. The rate advantage is typically 0.25-0.50% on jumbo loans above $3 million.</strong></p>
           </div>
 
           <div className="border border-gray-200 rounded-lg p-5">
@@ -1041,7 +1041,7 @@ export default function NewportCoastMortgageGuide2026() {
 
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-bold text-gray-900 mt-0 mb-2">Why use a wholesale mortgage broker instead of a bank for Newport Coast?</h3>
-            <p className="paa-answer mb-0"><strong>Wholesale brokers access 200+ lenders simultaneously, saving Newport Coast buyers 0.25-0.50% on jumbo rates &mdash; $12,500-$25,000 annually on a $5M loan.</strong> In our Newport Coast closings, wholesale pricing consistently beats retail bank quotes because institutional jumbo desks compete for broker-submitted deals. Our <a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">California wholesale mortgage broker guide</a> details the full rate advantage.</p>
+            <p className="paa-answer mb-0"><strong>Wholesale brokers access 50+ Wholesale Lenders simultaneously, saving Newport Coast buyers 0.25-0.50% on jumbo rates &mdash; $12,500-$25,000 annually on a $5M loan.</strong> In our Newport Coast closings, wholesale pricing consistently beats retail bank quotes because institutional jumbo desks compete for broker-submitted deals. Our <a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">California wholesale mortgage broker guide</a> details the full rate advantage.</p>
           </div>
         </div>
 
@@ -1069,7 +1069,7 @@ export default function NewportCoastMortgageGuide2026() {
         <div className="bg-blue-50 p-8 rounded-xl border border-blue-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-3">Ready to Finance Your Newport Coast Estate?</h3>
           <p className="text-gray-700 mb-4">
-            Get a personalized rate quote and program recommendation for your Newport Coast purchase or refinance. We compare 200+ wholesale lenders to find the optimal solution for your financial profile.
+            Get a personalized rate quote and program recommendation for your Newport Coast purchase or refinance. We compare 50+ Wholesale Lenders to find the optimal solution for your financial profile.
           </p>
           <p className="text-lg font-bold text-blue-800 mb-2">
             Call (949) 579-2057 or <a href="/contact" className="text-blue-600 hover:underline">Request a Consultation</a>

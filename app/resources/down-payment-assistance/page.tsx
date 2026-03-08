@@ -727,7 +727,7 @@ export default function DownPaymentAssistancePage() {
           </h2>
           <p className="text-xl mb-8">
             I'll help you navigate all available programs and maximize your down payment assistance. 
-            With access to 200+ lenders and expertise in all assistance programs, I'll find the perfect combination for you.
+            With access to 50+ Wholesale Lenders and expertise in all assistance programs, I'll find the perfect combination for you.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">

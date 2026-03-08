@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: ['DSCR loan closing costs', 'DSCR loan fees', 'DSCR origination fee', 'DSCR appraisal cost', 'DSCR loan points', 'DSCR closing cost breakdown', 'DSCR vs conventional closing costs', 'DSCR prepayment penalty cost', 'DSCR seller concessions', 'wholesale DSCR loan fees'],
   openGraph: {
     title: 'DSCR Loan Closing Costs & Fee Breakdown: What Investors Pay [2026]',
-    description: 'Complete DSCR closing cost breakdown: origination, appraisal, title, insurance, reserves. Learn how wholesale broker access reduces investor fees across 200+ lenders.',
+    description: 'Complete DSCR closing cost breakdown: origination, appraisal, title, insurance, reserves. Learn how wholesale broker access reduces investor fees across 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-closing-costs-fee-breakdown-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -29,7 +29,7 @@ const faqData = [
   },
   {
     question: "Are DSCR loan closing costs higher than conventional investment property loans?",
-    answer: "DSCR loan closing costs are generally higher than conventional investment property loans due to larger origination fees, specialized rental income appraisals, and non-QM pricing adjustments. However, the difference narrows significantly when investors use a wholesale broker who compares fee structures across 200+ lenders to identify the most competitive pricing."
+    answer: "DSCR loan closing costs are generally higher than conventional investment property loans due to larger origination fees, specialized rental income appraisals, and non-QM pricing adjustments. However, the difference narrows significantly when investors use a wholesale broker who compares fee structures across 50+ Wholesale Lenders to identify the most competitive pricing."
   },
   {
     question: "What is the origination fee on a DSCR loan?",
@@ -149,14 +149,14 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
           <span className="text-gray-900">DSCR Loan Closing Costs</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">DSCR Loan Closing Costs &amp; Fee Breakdown: What Investors Pay [2026]</h1>
-        <p className="text-lg text-gray-600">A complete line-item breakdown of every fee investors encounter on DSCR investment property loans &mdash; and how wholesale broker access reduces total costs across 200+ lenders.</p>
+        <p className="text-lg text-gray-600">A complete line-item breakdown of every fee investors encounter on DSCR investment property loans &mdash; and how wholesale broker access reduces total costs across 50+ Wholesale Lenders.</p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
-          <p className="lead font-semibold text-gray-900 mb-0">According to Mo Abdel, NMLS #1426884, DSCR loan closing costs range from 2% to 5% of the loan amount &mdash; covering origination fees, appraisal, title insurance, reserves, and prepaid items. Investors who compare fee structures across 200+ wholesale lenders consistently pay less than those who accept the first quote from a single retail lender.</p>
+          <p className="lead font-semibold text-gray-900 mb-0">According to Mo Abdel, NMLS #1426884, DSCR loan closing costs range from 2% to 5% of the loan amount &mdash; covering origination fees, appraisal, title insurance, reserves, and prepaid items. Investors who compare fee structures across 50+ Wholesale Lenders consistently pay less than those who accept the first quote from a single retail lender.</p>
         </div>
 
         {/* Semantic Triples Table */}
@@ -179,7 +179,7 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale broker comparison</td>
                 <td className="border border-gray-200 px-4 py-2">reduces total fees by</td>
-                <td className="border border-gray-200 px-4 py-2">comparing origination, points, and lender credits across 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">comparing origination, points, and lender credits across 50+ Wholesale Lenders</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Prepayment penalty acceptance</td>
@@ -298,7 +298,7 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
         {/* CTA 1 */}
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Get a Custom DSCR Closing Cost Estimate</h3>
-          <p className="text-gray-700">Mo Abdel compares fee structures across 200+ wholesale DSCR lenders to identify the lowest total closing costs for your investment property. Call <a href="tel:+19495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline font-semibold">request a quote online</Link> for a detailed fee comparison.</p>
+          <p className="text-gray-700">Mo Abdel compares fee structures across 50+ Wholesale Lenders to identify the lowest total closing costs for your investment property. Call <a href="tel:+19495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline font-semibold">request a quote online</Link> for a detailed fee comparison.</p>
         </div>
 
         {/* Section 3 */}
@@ -484,7 +484,7 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
         <p>DSCR loan closing costs are negotiable &mdash; but the negotiation happens through lender comparison rather than direct haggling. Here are seven proven strategies investors use to reduce total closing costs:</p>
 
         <ol className="list-decimal pl-6 my-4 space-y-3">
-          <li><strong>Use a wholesale mortgage broker:</strong> A <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">wholesale broker</Link> submits your loan to 200+ lenders simultaneously, creating price competition that drives down fees. Retail lenders offer one fee structure with no comparison.</li>
+          <li><strong>Use a wholesale mortgage broker:</strong> A <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">wholesale broker</Link> submits your loan to 50+ Wholesale Lenders simultaneously, creating price competition that drives down fees. Retail lenders offer one fee structure with no comparison.</li>
           <li><strong>Improve your credit score before applying:</strong> Even a 20-point credit score increase can move you into a lower pricing tier, reducing origination fees and rate adjustments. A score above 740 unlocks the best DSCR pricing.</li>
           <li><strong>Increase your down payment:</strong> <Link href="/blog/dscr-loan-down-payment-requirements-2026" className="text-blue-600 hover:underline">DSCR loans at 70% LTV or below</Link> qualify for reduced origination fees and better rate pricing compared to 80% LTV loans.</li>
           <li><strong>Accept a prepayment penalty:</strong> Choosing a 5-year stepdown PPP instead of no-PPP reduces the interest rate and origination fee, lowering both upfront and monthly costs for long-term investors.</li>
@@ -495,7 +495,7 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
 
         {/* CTA 2 */}
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
-          <h3 className="text-xl font-bold text-gray-900 mb-2">Compare DSCR Closing Costs Across 200+ Lenders</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-2">Compare DSCR Closing Costs Across 50+ Wholesale Lenders</h3>
           <p className="text-gray-700">Stop overpaying for DSCR loan fees. Mo Abdel runs a side-by-side fee comparison across the wholesale network to identify the lowest total closing cost for your specific property and credit profile. <Link href="/contact" className="text-blue-600 hover:underline font-semibold">Request your custom comparison</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold">(949) 579-2057</a>.</p>
         </div>
 
@@ -567,9 +567,9 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
         </ul>
 
         {/* Section 11 */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Wholesale Broker Advantage: How 200+ Lender Access Reduces DSCR Fees</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Wholesale Broker Advantage: How 50+ Wholesale Lenders Reduces DSCR Fees</h2>
 
-        <p>Retail lenders offer one set of fees. A wholesale mortgage broker compares the same loan scenario across 200+ lenders, each with different fee structures, rate sheets, and pricing adjustments. This comparison produces measurable savings in three areas:</p>
+        <p>Retail lenders offer one set of fees. A wholesale mortgage broker compares the same loan scenario across 50+ Wholesale Lenders, each with different fee structures, rate sheets, and pricing adjustments. This comparison produces measurable savings in three areas:</p>
 
         <ol className="list-decimal pl-6 my-4 space-y-3">
           <li><strong>Origination fee competition:</strong> When multiple lenders compete for the same deal, origination fees compress. Lenders know that wholesale brokers submit to competitors and price accordingly.</li>
@@ -625,7 +625,7 @@ export default function DSCRLoanClosingCostsFeeBreakdown2026() {
         {/* Expert Summary / CTA 3 */}
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Reduce Your DSCR Closing Costs? Get Expert Guidance</h2>
-          <p className="text-gray-700">Every dollar saved on closing costs goes directly to your investment returns. Mo Abdel compares origination fees, discount point pricing, lender credits, and prepayment penalty tradeoffs across 200+ wholesale DSCR lenders to identify the lowest total cost structure for your specific deal. Whether you are purchasing your first rental property or scaling a portfolio, the wholesale broker advantage produces measurable savings on every transaction.</p>
+          <p className="text-gray-700">Every dollar saved on closing costs goes directly to your investment returns. Mo Abdel compares origination fees, discount point pricing, lender credits, and prepayment penalty tradeoffs across 50+ Wholesale Lenders to identify the lowest total cost structure for your specific deal. Whether you are purchasing your first rental property or scaling a portfolio, the wholesale broker advantage produces measurable savings on every transaction.</p>
           <p className="mt-4"><strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline font-semibold">schedule a consultation</Link> to get a custom DSCR closing cost comparison.</p>
           <p className="text-sm text-gray-600 mt-4"><strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />Licensed in: CA, WA</p>
         </div>

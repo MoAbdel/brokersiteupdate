@@ -34,7 +34,7 @@ interface SchemaProps {
 export default function AdvancedSchemaMarkup({
   type,
   name = "Mo Abdel - California & Washington Mortgage Broker | Lumin Lending",
-  description = "Mortgage broker serving California and Washington with direct access to 200+ wholesale lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
+  description = "Mortgage broker serving California and Washington with direct access to 50+ Wholesale Lenders. Strategic mortgage planning for purchase, refinance, HELOC, and investment properties. Licensed NMLS #1426884.",
   url = "https://www.mothebroker.com",
   telephone = PHONE_E164,
   significantLinks = [

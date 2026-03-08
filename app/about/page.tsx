@@ -113,7 +113,7 @@ export default function AboutPage() {
             </p>
 
             <p className="leading-relaxed mb-6">
-              Today, I work with Lumin Lending to give my clients access to over 100 wholesale lenders. This means I can shop your loan across dozens of options to find competitive rates and terms—something a traditional bank simply can't do. I'm not working for the bank; I'm working for you.
+              Today, I work with Lumin Lending to give my clients access to 50+ Wholesale Lenders. This means I can shop your loan across dozens of options to find competitive rates and terms—something a traditional bank simply can't do. I'm not working for the bank; I'm working for you.
             </p>
 
             <p className="text-xl leading-relaxed font-medium text-slate-900">

@@ -374,7 +374,7 @@ export default function HECMLoanLimitsMaximumClaim2026() {
         <section className="mb-12">
           <LeadMagnetCTA
             title="Free: Personalized HECM Proceeds Estimate"
-            description="Share your home value, age, and goals. We&apos;ll calculate your Maximum Claim Amount, estimated Principal Limit Factor, and net proceeds from 200+ wholesale lenders."
+            description="Share your home value, age, and goals. We&apos;ll calculate your Maximum Claim Amount, estimated Principal Limit Factor, and net proceeds from 50+ Wholesale Lenders."
             href="/contact"
             badge="Free HECM analysis"
             ctaText="Request your estimate"
@@ -496,7 +496,7 @@ export default function HECMLoanLimitsMaximumClaim2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            In our California and Washington closings, we monitor expected rate indices daily and alert borrowers when favorable shifts create a window for higher proceeds. Because we access 200+ wholesale lenders, we also compare margins across HECM lenders &mdash; a lower margin directly reduces the expected rate and increases the PLF, even in the same rate environment.
+            In our California and Washington closings, we monitor expected rate indices daily and alert borrowers when favorable shifts create a window for higher proceeds. Because we access 50+ Wholesale Lenders, we also compare margins across HECM lenders &mdash; a lower margin directly reduces the expected rate and increases the PLF, even in the same rate environment.
           </p>
         </section>
 
@@ -728,7 +728,7 @@ export default function HECMLoanLimitsMaximumClaim2026() {
             Three variables control your HECM proceeds: the Maximum Claim Amount (capped at $1,209,750 for 2026), the Principal Limit Factor (driven by your age and the expected interest rate), and your existing mortgage balance. Optimizing each variable &mdash; appraising at full market value, timing the rate environment, and shopping lender margins &mdash; can shift net proceeds by tens of thousands of dollars.
           </p>
           <p className="text-lg text-blue-100 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending runs HECM scenarios across 200+ wholesale lenders for borrowers in California and Washington, comparing margins, expected rates, and closing cost structures to identify the combination that delivers maximum net proceeds. For homes above the HECM ceiling, proprietary reverse mortgage options provide access to equity that HECM cannot reach.
+            Mo Abdel at Lumin Lending runs HECM scenarios across 50+ Wholesale Lenders for borrowers in California and Washington, comparing margins, expected rates, and closing cost structures to identify the combination that delivers maximum net proceeds. For homes above the HECM ceiling, proprietary reverse mortgage options provide access to equity that HECM cannot reach.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

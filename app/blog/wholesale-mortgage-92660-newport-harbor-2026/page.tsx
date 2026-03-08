@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92660 | Newport Harbor Jumbo Loans | Mo Abdel',
-  description: 'Newport Beach Harbor 92660 wholesale mortgage broker with 200+ lender access. Jumbo loans, non-QM programs for executives and business owners. NMLS #1426884.',
+  description: 'Newport Beach Harbor 92660 wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, non-QM programs for executives and business owners. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92660-newport-harbor-2026',
     languages: {
@@ -65,7 +65,7 @@ export default function WholesaleMortgage92660NewportHarborPage() {
                 "name": "Why choose wholesale over Newport Beach private banks?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access 200+ lenders versus one bank's limited products. This means more jumbo options, better rate shopping, and faster pivots if one lender's guidelines don't fit your profile."
+                  "text": "Wholesale brokers access 50+ Wholesale Lenders versus one bank's limited products. This means more jumbo options, better rate shopping, and faster pivots if one lender's guidelines don't fit your profile."
                 }
               },
               {
@@ -116,14 +116,14 @@ export default function WholesaleMortgage92660NewportHarborPage() {
           Wholesale Mortgage Broker 92660 | Newport Harbor Jumbo & Non-QM Specialist
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for Newport Beach Harbor, Cliff Haven & Newport Heights
+          50+ Wholesale Lenders for Newport Beach Harbor, Cliff Haven & Newport Heights
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Beach 92660 encompasses some of Orange County&apos;s most prestigious harbor-view communities, with a <strong>median home price of $2.8 million</strong>. Buyers in Harbor View, Cliff Haven, and Newport Heights need financing solutions that match their sophisticated financial profiles—jumbo loans, bank statement programs, and non-QM options. Mo Abdel at Lumin Lending provides <strong>200+ wholesale lender relationships</strong> to find the optimal program for each client.
+            Newport Beach 92660 encompasses some of Orange County&apos;s most prestigious harbor-view communities, with a <strong>median home price of $2.8 million</strong>. Buyers in Harbor View, Cliff Haven, and Newport Heights need financing solutions that match their sophisticated financial profiles—jumbo loans, bank statement programs, and non-QM options. Mo Abdel at Lumin Lending provides <strong>50+ Wholesale Lenders</strong> to find the optimal program for each client.
           </p>
         </div>
 
@@ -224,7 +224,7 @@ export default function WholesaleMortgage92660NewportHarborPage() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Access</td><td className="py-2 px-4 border-b">1 bank</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Access</td><td className="py-2 px-4 border-b">1 bank</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Dozens of programs</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">DSCR Investor</td><td className="py-2 px-4 border-b">No</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Yes - extensive</td></tr>
@@ -270,7 +270,7 @@ export default function WholesaleMortgage92660NewportHarborPage() {
 
         <h3>Why choose wholesale over Newport Beach private banks?</h3>
         <p>
-          Wholesale brokers access 200+ lenders versus one bank&apos;s limited products. For Newport Harbor buyers, this means more jumbo options, specialized non-QM programs, and the ability to shop rates across competing lenders. If one lender&apos;s guidelines don&apos;t fit your profile, brokers pivot to another without starting over.
+          Wholesale brokers access 50+ Wholesale Lenders versus one bank&apos;s limited products. For Newport Harbor buyers, this means more jumbo options, specialized non-QM programs, and the ability to shop rates across competing lenders. If one lender&apos;s guidelines don&apos;t fit your profile, brokers pivot to another without starting over.
         </p>
 
         <h3>Do wholesale brokers handle Harbor View and Cliff Haven properties?</h3>

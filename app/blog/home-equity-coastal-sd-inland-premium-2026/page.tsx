@@ -154,7 +154,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
         name: 'How does a wholesale broker find better HELOC rates than my bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares HELOC products from 200+ lenders in a single inquiry, while your bank offers only their own product. For jumbo HELOCs above $500K common across La Jolla, Coronado, and Carlsbad, the rate spread between lenders is significant. Wholesale broker access to lender competition consistently produces more favorable terms.',
+          text: 'A wholesale broker compares HELOC products from 50+ Wholesale Lenders in a single inquiry, while your bank offers only their own product. For jumbo HELOCs above $500K common across La Jolla, Coronado, and Carlsbad, the rate spread between lenders is significant. Wholesale broker access to lender competition consistently produces more favorable terms.',
         },
       },
       {
@@ -248,7 +248,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Coastal SD &amp; Inland Premium Tappable Equity (February 2026)</p>
             <p className="text-gray-800 mb-0">
-              Homeowners across Coastal San Diego and Inland Premium communities&mdash;La Jolla, Coronado, Carlsbad, and Poway&mdash;hold an estimated <strong>$7.2 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on San Diego County assessor valuations and average outstanding mortgage balances as of January 2026. San Diego County home values appreciated approximately <strong>4.5% year-over-year through January 2026</strong> (CoreLogic Home Price Insights), with La Jolla posting 5.1% gains and Coronado&apos;s limited inventory driving a <strong>37-day median days on market</strong>&mdash;among the fastest in the county&mdash;further expanding tappable equity positions across this corridor. With median home values ranging from $1.1 million in Poway to $2.5 million in La Jolla, individual homeowners have between <strong>$300,000 and $1.5 million+ in accessible equity</strong> depending on property value, neighborhood, and existing liens. This equity funds home renovations, consolidates high-interest debt, covers education costs, finances investment property acquisitions, and provides retirement liquidity&mdash;all without selling the home. Wholesale broker access to 200+ lenders ensures homeowners across these four distinct San Diego communities find the optimal equity product at the most competitive terms available in the market.
+              Homeowners across Coastal San Diego and Inland Premium communities&mdash;La Jolla, Coronado, Carlsbad, and Poway&mdash;hold an estimated <strong>$7.2 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on San Diego County assessor valuations and average outstanding mortgage balances as of January 2026. San Diego County home values appreciated approximately <strong>4.5% year-over-year through January 2026</strong> (CoreLogic Home Price Insights), with La Jolla posting 5.1% gains and Coronado&apos;s limited inventory driving a <strong>37-day median days on market</strong>&mdash;among the fastest in the county&mdash;further expanding tappable equity positions across this corridor. With median home values ranging from $1.1 million in Poway to $2.5 million in La Jolla, individual homeowners have between <strong>$300,000 and $1.5 million+ in accessible equity</strong> depending on property value, neighborhood, and existing liens. This equity funds home renovations, consolidates high-interest debt, covers education costs, finances investment property acquisitions, and provides retirement liquidity&mdash;all without selling the home. Wholesale broker access to 50+ Wholesale Lenders ensures homeowners across these four distinct San Diego communities find the optimal equity product at the most competitive terms available in the market.
             </p>
           </div>
 
@@ -588,7 +588,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
           <h2 id="eeat" className="text-2xl font-bold mt-10 mb-4">Why Wholesale Broker Access Matters for Coastal SD &amp; Inland Premium Equity</h2>
 
           <p>
-            Accessing home equity across La Jolla, Coronado, Carlsbad, and Poway requires more than a standard HELOC application at your local bank. Each community presents distinct challenges that demand specialized lender selection&mdash;and the ability to compare options across 200+ wholesale lenders in a single inquiry rather than settling for one bank&apos;s limited product menu.
+            Accessing home equity across La Jolla, Coronado, Carlsbad, and Poway requires more than a standard HELOC application at your local bank. Each community presents distinct challenges that demand specialized lender selection&mdash;and the ability to compare options across 50+ Wholesale Lenders in a single inquiry rather than settling for one bank&apos;s limited product menu.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3">The Jumbo HELOC Challenge</h3>
@@ -613,7 +613,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
 
           <h3 className="text-xl font-bold mt-6 mb-3">Rate Shopping at Scale</h3>
           <p>
-            The single most impactful advantage of wholesale broker access is systematic rate comparison. A homeowner who contacts three banks receives three rate quotes. A wholesale broker compares pricing from 200+ lenders in a single submission, identifying the most competitive option based on credit score, property type, equity position, and income documentation type. On the $500,000+ equity draws common across La Jolla, Coronado, and Carlsbad, this comparison routinely produces savings that dwarf any retail bank&apos;s &quot;relationship discount.&quot; For an overview of the wholesale advantage, visit <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CFPB&apos;s mortgage shopping resources</a>.
+            The single most impactful advantage of wholesale broker access is systematic rate comparison. A homeowner who contacts three banks receives three rate quotes. A wholesale broker compares pricing from 50+ Wholesale Lenders in a single submission, identifying the most competitive option based on credit score, property type, equity position, and income documentation type. On the $500,000+ equity draws common across La Jolla, Coronado, and Carlsbad, this comparison routinely produces savings that dwarf any retail bank&apos;s &quot;relationship discount.&quot; For an overview of the wholesale advantage, visit <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CFPB&apos;s mortgage shopping resources</a>.
           </p>
 
           <hr className="my-10" />
@@ -800,7 +800,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker find better HELOC rates than my bank?</h3>
-              <p>A wholesale broker compares HELOC products from 200+ lenders in a single inquiry, while your bank offers only their own product. For jumbo HELOCs above $500K common across La Jolla, Coronado, and Carlsbad, the rate spread between lenders is significant. Wholesale broker access to lender competition consistently produces more favorable terms than any single bank&apos;s retail product. Visit <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">FHFA.gov</a> for conforming loan limit details.</p>
+              <p>A wholesale broker compares HELOC products from 50+ Wholesale Lenders in a single inquiry, while your bank offers only their own product. For jumbo HELOCs above $500K common across La Jolla, Coronado, and Carlsbad, the rate spread between lenders is significant. Wholesale broker access to lender competition consistently produces more favorable terms than any single bank&apos;s retail product. Visit <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">FHFA.gov</a> for conforming loan limit details.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a HELOC on a La Jolla condo or TIC property?</h3>
@@ -834,7 +834,7 @@ export default function HomeEquityCoastalSDInlandPremium() {
           <div className="expert-summary bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold mt-0 mb-4">Access Your Coastal San Diego &amp; Inland Premium Home Equity</h2>
             <p>
-              Homeowners across La Jolla, Coronado, Carlsbad, and Poway hold $300,000 to $1.5 million or more in tappable equity that can fund renovations, consolidate debt, finance education, launch businesses, acquire investment properties, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the product calibrated to your specific financial situation. Whether you own a Bird Rock home near the biotech corridor, a Crown Manor estate on Coronado, an Aviara luxury property in Carlsbad, or a horse property in Poway&apos;s Green Valley, I deliver competitive equity access terms that single-bank products cannot match.
+              Homeowners across La Jolla, Coronado, Carlsbad, and Poway hold $300,000 to $1.5 million or more in tappable equity that can fund renovations, consolidate debt, finance education, launch businesses, acquire investment properties, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 50+ Wholesale Lenders to find the product calibrated to your specific financial situation. Whether you own a Bird Rock home near the biotech corridor, a Crown Manor estate on Coronado, an Aviara luxury property in Carlsbad, or a horse property in Poway&apos;s Green Valley, I deliver competitive equity access terms that single-bank products cannot match.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
             <p className="text-lg mb-1">(949) 579-2057</p>

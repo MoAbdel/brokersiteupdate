@@ -62,7 +62,7 @@ const faqData = [
   },
   {
     question: "Is it cheaper to use a mortgage broker or go directly to a bank?",
-    answer: "Mortgage brokers access wholesale rates from 200+ lenders, which are typically lower than retail bank rates because wholesale lenders do not maintain branch networks, teller staff, or consumer marketing budgets. Even after broker compensation, the total cost of a wholesale broker loan is frequently lower than a retail bank loan. Broker compensation is fully disclosed, while bank margins are not, making direct cost comparison straightforward."
+    answer: "Mortgage brokers access wholesale rates from 50+ Wholesale Lenders, which are typically lower than retail bank rates because wholesale lenders do not maintain branch networks, teller staff, or consumer marketing budgets. Even after broker compensation, the total cost of a wholesale broker loan is frequently lower than a retail bank loan. Broker compensation is fully disclosed, while bank margins are not, making direct cost comparison straightforward."
   },
   {
     question: "What is the difference between a mortgage broker and a loan officer?",
@@ -229,7 +229,7 @@ export default function HowMortgageBrokersGetPaid2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            Mo Abdel, a wholesale mortgage broker licensed in California and Washington with access to <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:text-blue-800 underline">200+ wholesale lenders</Link>, explains that broker compensation falls into two categories: lender-paid and borrower-paid. Both are regulated by the Consumer Financial Protection Bureau under <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">12 CFR 1026.36</a>, which prohibits a broker from receiving compensation from both sources on the same loan.
+            Mo Abdel, a wholesale mortgage broker licensed in California and Washington with access to <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:text-blue-800 underline">50+ Wholesale Lenders</Link>, explains that broker compensation falls into two categories: lender-paid and borrower-paid. Both are regulated by the Consumer Financial Protection Bureau under <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">12 CFR 1026.36</a>, which prohibits a broker from receiving compensation from both sources on the same loan.
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
@@ -309,7 +309,7 @@ export default function HowMortgageBrokersGetPaid2026() {
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-4 py-3 font-medium">Lender Access</td>
-                  <td className="border border-slate-200 px-4 py-3">200+ wholesale lenders</td>
+                  <td className="border border-slate-200 px-4 py-3">50+ Wholesale Lenders</td>
                   <td className="border border-slate-200 px-4 py-3">1 lender (their employer)</td>
                   <td className="border border-slate-200 px-4 py-3">1 lender (their employer)</td>
                 </tr>
@@ -400,7 +400,7 @@ export default function HowMortgageBrokersGetPaid2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            These protections mean that when a mortgage broker shops your loan across <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-800 underline">200+ wholesale lenders</Link>, the broker earns the same compensation regardless of which lender offers the best rate. The broker has zero financial incentive to place you with a higher-cost lender. This structural protection does not exist for bank loan officers, whose bonuses and promotions are tied to the bank&apos;s proprietary metrics.
+            These protections mean that when a mortgage broker shops your loan across <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-800 underline">50+ Wholesale Lenders</Link>, the broker earns the same compensation regardless of which lender offers the best rate. The broker has zero financial incentive to place you with a higher-cost lender. This structural protection does not exist for bank loan officers, whose bonuses and promotions are tied to the bank&apos;s proprietary metrics.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -510,7 +510,7 @@ export default function HowMortgageBrokersGetPaid2026() {
           </h2>
 
           <p className="text-lg text-slate-600 mb-6">
-            In lender-paid compensation, the broker&apos;s fee is embedded in the rate the wholesale lender offers. A lender that pays 2% broker compensation builds that cost into its rate sheet. However, because the broker shops across <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:text-blue-800 underline">200+ competing wholesale lenders</Link>, the competitive pressure between lenders keeps rates lower than retail channels where a single bank sets pricing without competition.
+            In lender-paid compensation, the broker&apos;s fee is embedded in the rate the wholesale lender offers. A lender that pays 2% broker compensation builds that cost into its rate sheet. However, because the broker shops across <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:text-blue-800 underline">50+ Wholesale Lenders</Link>, the competitive pressure between lenders keeps rates lower than retail channels where a single bank sets pricing without competition.
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
@@ -675,7 +675,7 @@ export default function HowMortgageBrokersGetPaid2026() {
             </p>
 
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              Mo Abdel, NMLS #1426884, provides <Link href="/wholesale-mortgage-broker-california/how-to-get-wholesale-rates" className="text-blue-600 hover:text-blue-800 underline">wholesale rate access</Link> through 200+ lenders with full compensation transparency on every transaction. Whether you choose lender-paid or borrower-paid compensation, you see exactly what the broker earns before you commit. Review the <Link href="/blog/wholesale-mortgage-closing-timeline-2026" className="text-blue-600 hover:text-blue-800 underline">wholesale closing timeline</Link> to understand how the process works from application to funding.
+              Mo Abdel, NMLS #1426884, provides <Link href="/wholesale-mortgage-broker-california/how-to-get-wholesale-rates" className="text-blue-600 hover:text-blue-800 underline">wholesale rate access</Link> through 50+ Wholesale Lenders with full compensation transparency on every transaction. Whether you choose lender-paid or borrower-paid compensation, you see exactly what the broker earns before you commit. Review the <Link href="/blog/wholesale-mortgage-closing-timeline-2026" className="text-blue-600 hover:text-blue-800 underline">wholesale closing timeline</Link> to understand how the process works from application to funding.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -717,7 +717,7 @@ export default function HowMortgageBrokersGetPaid2026() {
               <p className="text-sm text-slate-500 mt-1">Step-by-step guide to accessing wholesale pricing</p>
             </Link>
             <Link href="/blog/200-lender-advantage-explained-2026" className="block p-4 border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
-              <p className="font-semibold text-slate-900">The 200+ Lender Advantage Explained</p>
+              <p className="font-semibold text-slate-900">50+ Wholesale Lenders Explained</p>
               <p className="text-sm text-slate-500 mt-1">Why more lender options mean better outcomes</p>
             </Link>
             <Link href="/wholesale-mortgage-broker-california/mortgage-broker-vs-bank" className="block p-4 border border-slate-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">

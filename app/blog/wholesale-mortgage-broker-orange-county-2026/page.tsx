@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Orange County, CA [2026 Guide]',
-  description: 'Find the best wholesale mortgage rates in Orange County. Access 200+ lenders, bank statement loans, and programs only brokers offer. NMLS #1426884.',
+  description: 'Find the best wholesale mortgage rates in Orange County. Access 50+ Wholesale Lenders, bank statement loans, and programs only brokers offer. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county-2026',
     languages: {
@@ -46,7 +46,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
                 "name": "What is a wholesale mortgage broker in Orange County?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker is a licensed professional who shops your loan across 200+ wholesale lenders to find the best rates and terms. Unlike banks that only offer their own products, Orange County wholesale brokers access the entire lending market, often securing rates 0.25-0.5% lower than retail channels."
+                  "text": "A wholesale mortgage broker is a licensed professional who shops your loan across 50+ Wholesale Lenders to find the best rates and terms. Unlike banks that only offer their own products, Orange County wholesale brokers access the entire lending market, often securing rates 0.25-0.5% lower than retail channels."
                 }
               },
               {
@@ -54,7 +54,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
                 "name": "Why use a wholesale mortgage broker instead of a bank in Orange County?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Orange County's high home prices (median $1.1M+) mean even small rate differences save thousands. A wholesale broker shops 200+ lenders for your specific situation, offers programs banks don't have (bank statement loans, jumbo options), and provides personalized service. Banks only offer their own products at retail pricing."
+                  "text": "Orange County's high home prices (median $1.1M+) mean even small rate differences save thousands. A wholesale broker shops 50+ Wholesale Lenders for your specific situation, offers programs banks don't have (bank statement loans, jumbo options), and provides personalized service. Banks only offer their own products at retail pricing."
                 }
               },
               {
@@ -78,7 +78,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
                 "name": "How do I find a good wholesale mortgage broker in Orange County?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Look for a broker who: is locally licensed (CA DRE and NMLS), has access to 200+ wholesale lenders, offers bank statement and non-QM programs, understands Orange County's high-value market, provides transparent pricing, and has strong reviews. Ask about their lender network and specialty programs."
+                  "text": "Look for a broker who: is locally licensed (CA DRE and NMLS), has access to 50+ Wholesale Lenders, offers bank statement and non-QM programs, understands Orange County's high-value market, provides transparent pricing, and has strong reviews. Ask about their lender network and specialty programs."
                 }
               }
             ]
@@ -91,14 +91,14 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
           Wholesale Mortgage Broker in Orange County, CA [2026 Guide]
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders in Orange County
+          Access wholesale rates and 50+ Wholesale Lenders in Orange County
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Orange County's median home price exceeds $1.1 million, making mortgage costs a significant factor in homeownership. A <strong>wholesale mortgage broker</strong> accesses institutional rates from 200+ lenders—rates typically 0.25-0.5% lower than retail bank pricing. On a $900,000 Orange County mortgage, that difference represents <strong>$56,000+ in interest savings</strong> over 30 years.
+            Orange County's median home price exceeds $1.1 million, making mortgage costs a significant factor in homeownership. A <strong>wholesale mortgage broker</strong> accesses institutional rates from 50+ Wholesale Lenders—rates typically 0.25-0.5% lower than retail bank pricing. On a $900,000 Orange County mortgage, that difference represents <strong>$56,000+ in interest savings</strong> over 30 years.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b">High loan amounts</td><td className="py-2 px-4 border-b">Single jumbo product</td><td className="py-2 px-4 border-b text-blue-700">20+ jumbo lender options</td></tr>
               <tr><td className="py-2 px-4 border-b">Self-employed income</td><td className="py-2 px-4 border-b">Tax return only</td><td className="py-2 px-4 border-b text-blue-700">Bank statement programs available</td></tr>
-              <tr><td className="py-2 px-4 border-b">Rate shopping</td><td className="py-2 px-4 border-b">One option</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders compared</td></tr>
+              <tr><td className="py-2 px-4 border-b">Rate shopping</td><td className="py-2 px-4 border-b">One option</td><td className="py-2 px-4 border-b text-blue-700">50+ Wholesale Lenders compared</td></tr>
               <tr><td className="py-2 px-4 border-b">Complex scenarios</td><td className="py-2 px-4 border-b">Often declined</td><td className="py-2 px-4 border-b text-blue-700">Non-QM and specialty lenders</td></tr>
               <tr><td className="py-2 px-4">Pricing</td><td className="py-2 px-4">Retail markup</td><td className="py-2 px-4 text-blue-700">Wholesale (institutional) rates</td></tr>
             </tbody>
@@ -273,7 +273,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
         <ol>
           <li><strong>Initial consultation:</strong> Discuss your situation, goals, and timeline</li>
           <li><strong>Application and documentation:</strong> Provide income, asset, and credit information</li>
-          <li><strong>Lender shopping:</strong> Broker compares 200+ lenders for your scenario</li>
+          <li><strong>Lender shopping:</strong> Broker compares 50+ Wholesale Lenders for your scenario</li>
           <li><strong>Rate lock:</strong> Lock your rate when market conditions are favorable</li>
           <li><strong>Processing:</strong> Broker coordinates with lender and gathers conditions</li>
           <li><strong>Underwriting:</strong> Lender reviews and approves your file</li>
@@ -284,7 +284,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
 
         <ul>
           <li><strong>California licensing:</strong> DRE license and NMLS registration</li>
-          <li><strong>Lender network:</strong> Access to 200+ wholesale lenders</li>
+          <li><strong>Lender network:</strong> Access to 50+ Wholesale Lenders</li>
           <li><strong>Program diversity:</strong> Bank statement, jumbo, non-QM options</li>
           <li><strong>Local knowledge:</strong> Understanding of Orange County neighborhoods and values</li>
           <li><strong>Transparent pricing:</strong> Clear explanation of rates and fees</li>
@@ -305,7 +305,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 lender</td><td className="py-2 px-4 border-b text-blue-700">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 lender</td><td className="py-2 px-4 border-b text-blue-700">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Bank statement loans</td><td className="py-2 px-4 border-b">Rarely available</td><td className="py-2 px-4 border-b text-blue-700">Multiple options</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Jumbo flexibility</td><td className="py-2 px-4 border-b">Single product</td><td className="py-2 px-4 border-b text-blue-700">Many lender options</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Personal service</td><td className="py-2 px-4 border-b">Call center typical</td><td className="py-2 px-4 border-b text-blue-700">Direct access to broker</td></tr>

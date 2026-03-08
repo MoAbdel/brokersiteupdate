@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Los Angeles Guide: LA Jumbo, Self-Employed & High-Income Strategies [2026] | Mo Abdel',
   description:
-    'Wholesale mortgage broker Los Angeles guide (2026). Learn how broker access to 200+ lenders helps LA buyers and homeowners with jumbo loans, self-employed income, bank statements, and fast closings. NMLS #1426884.',
+    'Wholesale mortgage broker Los Angeles guide (2026). Learn how broker access to 50+ Wholesale Lenders helps LA buyers and homeowners with jumbo loans, self-employed income, bank statements, and fast closings. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Los Angeles',
     'Los Angeles mortgage broker',

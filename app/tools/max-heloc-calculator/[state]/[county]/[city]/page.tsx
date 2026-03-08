@@ -69,7 +69,7 @@ export default async function CityHelocPage({ params }: Props) {
     },
     {
       question: `Should I get a HELOC or cash-out refinance in ${city.name}?`,
-      answer: `A HELOC is ideal if you want flexible, revolving access to equity without refinancing your first mortgage — especially if your current rate is low. A cash-out refinance replaces your entire mortgage with a new, larger loan. In ${city.name}, with median values at ${formatCurrency(city.medianHomePrice)}, both options provide significant equity access. Mo Abdel can compare both scenarios with rates from 200+ wholesale lenders.`,
+      answer: `A HELOC is ideal if you want flexible, revolving access to equity without refinancing your first mortgage — especially if your current rate is low. A cash-out refinance replaces your entire mortgage with a new, larger loan. In ${city.name}, with median values at ${formatCurrency(city.medianHomePrice)}, both options provide significant equity access. Mo Abdel can compare both scenarios with rates from 50+ Wholesale Lenders.`,
     },
     {
       question: `What credit score do I need for a HELOC in ${county.name}?`,

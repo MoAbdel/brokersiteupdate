@@ -445,7 +445,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
           <h2 className="text-3xl font-bold mb-6">Get Expert Orange County Mortgage Guidance</h2>
           <p className="text-xl text-slate-200 mb-8 max-w-3xl mx-auto">
             Licensed mortgage broker Mo Abdel (NMLS #1426884) provides comprehensive guidance for all Orange County mortgage needs.
-            Access to 200+ wholesale lenders ensures Competitive pricing and program options.
+            Access to 50+ Wholesale Lenders ensures Competitive pricing and program options.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">

@@ -62,7 +62,7 @@ const faqData = [
   },
   {
     question: "Are DSCR loan rates higher when closing in an LLC?",
-    answer: "Most DSCR lenders price entity-vested loans identically to individually-vested loans. The rate is based on credit score, DSCR ratio, LTV, and property type — not the vesting entity. A small number of lenders add a minor rate adjustment for entity vesting, typically 0.125-0.25%. A wholesale broker with access to 200+ lenders identifies programs with no entity pricing adjustment."
+    answer: "Most DSCR lenders price entity-vested loans identically to individually-vested loans. The rate is based on credit score, DSCR ratio, LTV, and property type — not the vesting entity. A small number of lenders add a minor rate adjustment for entity vesting, typically 0.125-0.25%. A wholesale broker with access to 50+ Wholesale Lenders identifies programs with no entity pricing adjustment."
   },
   {
     question: "Do I need separate bank accounts for my LLC to get a DSCR loan?",
@@ -233,7 +233,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Wholesale broker access to 200+ lenders means more LLC-friendly DSCR options than any single bank or direct lender offers. Each lender has different entity vesting policies, operating agreement requirements, and entity type restrictions &mdash; a broker matches the investor&apos;s entity structure with the optimal lender for rate, terms, and flexibility.
+            Wholesale broker access to 50+ Wholesale Lenders means more LLC-friendly DSCR options than any single bank or direct lender offers. Each lender has different entity vesting policies, operating agreement requirements, and entity type restrictions &mdash; a broker matches the investor&apos;s entity structure with the optimal lender for rate, terms, and flexibility.
           </p>
 
           {/* Semantic Triples Table */}
@@ -398,7 +398,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
               <div className="bg-purple-100 text-purple-700 rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-0.5">3</div>
               <div>
                 <p className="font-semibold text-slate-900">Get Pre-Qualified with a Wholesale Broker</p>
-                <p className="text-slate-600">Provide your credit profile, LLC documentation, and target property details. A wholesale broker identifies DSCR lenders that accept your entity type, evaluates rate and term options across 200+ lenders, and confirms qualification before you make offers. See our <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">DSCR loan requirements guide</Link> for full qualification criteria.</p>
+                <p className="text-slate-600">Provide your credit profile, LLC documentation, and target property details. A wholesale broker identifies DSCR lenders that accept your entity type, evaluates rate and term options across 50+ Wholesale Lenders, and confirms qualification before you make offers. See our <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">DSCR loan requirements guide</Link> for full qualification criteria.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -635,7 +635,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
 
             <div className="border-l-4 border-purple-500 pl-4">
               <h3 className="font-semibold text-slate-900 mb-2">Does closing in an LLC change my DSCR loan rate?</h3>
-              <p className="text-slate-600"><strong>Most DSCR lenders price LLC-vested loans identically to individually-vested loans based on credit score, DSCR ratio, LTV, and property type.</strong> A small number of lenders apply a minor rate adjustment of 0.125&ndash;0.25% for entity vesting. With access to 200+ lenders, a wholesale broker identifies programs that carry no entity vesting premium, ensuring the LLC structure does not cost extra.</p>
+              <p className="text-slate-600"><strong>Most DSCR lenders price LLC-vested loans identically to individually-vested loans based on credit score, DSCR ratio, LTV, and property type.</strong> A small number of lenders apply a minor rate adjustment of 0.125&ndash;0.25% for entity vesting. With access to 50+ Wholesale Lenders, a wholesale broker identifies programs that carry no entity vesting premium, ensuring the LLC structure does not cost extra.</p>
             </div>
 
             <div className="border-l-4 border-purple-500 pl-4">
@@ -690,7 +690,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
             DSCR loans allow investors to close directly in an LLC, providing liability protection from day one without the due-on-sale clause risk of conventional loans. The property qualifies on rental income, the managing member provides a personal guarantee, and the entity holds title from recording. With a 660+ credit score, 20% down, a DSCR of 1.0+, and a properly structured operating agreement, LLC-vested DSCR financing is available through wholesale channels.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending works with investors structuring DSCR loans in LLCs, trusts, and other entities across California and Washington. With access to 200+ lenders, Mo identifies the programs that accept your specific entity structure with the best available rates &mdash; including Series LLCs, multi-member entities, and newly formed companies that other brokers struggle to place.
+            Mo Abdel at Lumin Lending works with investors structuring DSCR loans in LLCs, trusts, and other entities across California and Washington. With access to 50+ Wholesale Lenders, Mo identifies the programs that accept your specific entity structure with the best available rates &mdash; including Series LLCs, multi-member entities, and newly formed companies that other brokers struggle to place.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -747,7 +747,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
             Licensed in: CA, WA
           </p>
           <p className="mb-4">
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. DSCR ratios and projections are estimates and vary by lender. Entity structuring, LLC formation, and operating agreement requirements vary by state and lender &mdash; consult an attorney for entity structuring decisions and legal advice. Tax implications of LLC ownership, Series LLC structures, and entity elections vary by situation &mdash; consult your CPA for tax guidance. DSCR loan programs are non-QM products with different guidelines than conventional mortgages. DSCR ratio requirements, down payment minimums, and credit score thresholds vary by lender and are subject to change without notice. Information is for educational purposes only and does not constitute financial, tax, legal, or investment advice. Contact a licensed loan officer for personalized guidance. Mo Abdel, NMLS #1426884, is licensed in California and Washington. Access to 200+ lenders available through wholesale broker channels in CA and WA only.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. DSCR ratios and projections are estimates and vary by lender. Entity structuring, LLC formation, and operating agreement requirements vary by state and lender &mdash; consult an attorney for entity structuring decisions and legal advice. Tax implications of LLC ownership, Series LLC structures, and entity elections vary by situation &mdash; consult your CPA for tax guidance. DSCR loan programs are non-QM products with different guidelines than conventional mortgages. DSCR ratio requirements, down payment minimums, and credit score thresholds vary by lender and are subject to change without notice. Information is for educational purposes only and does not constitute financial, tax, legal, or investment advice. Contact a licensed loan officer for personalized guidance. Mo Abdel, NMLS #1426884, is licensed in California and Washington. Access to 50+ Wholesale Lenders available through wholesale broker channels in CA and WA only.
           </p>
         </section>
       </article>

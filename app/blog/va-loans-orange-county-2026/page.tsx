@@ -81,7 +81,7 @@ export default function VALoansOrangeCountyPage() {
 
                 <h3>Are there credit score minimums for VA loans?</h3>
                 <p>
-                    The VA itself does not set a minimum credit score, but individual lenders do. Because we work with over 200+ lenders, we can often secure VA financing for veterans with scores that traditional retail banks would turn away.
+                    The VA itself does not set a minimum credit score, but individual lenders do. Because we work with over 50+ Wholesale Lenders, we can often secure VA financing for veterans with scores that traditional retail banks would turn away.
                 </p>
 
                 <h2>Why is the wholesale VA advantage critical in OC?</h2>

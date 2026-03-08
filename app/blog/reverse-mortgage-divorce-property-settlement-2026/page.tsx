@@ -80,7 +80,7 @@ const faqData = [
   },
   {
     question: 'Does a wholesale broker help with HECM divorce situations?',
-    answer: 'Yes. A wholesale mortgage broker like Mo Abdel (NMLS #1426884) accesses 200+ lenders, which is critical in divorce HECM situations because lender guidelines vary significantly on divorce-related scenarios. Some lenders are more flexible with income documentation post-divorce, property settlement timelines, and financial assessment criteria for newly single borrowers.',
+    answer: 'Yes. A wholesale mortgage broker like Mo Abdel (NMLS #1426884) accesses 50+ Wholesale Lenders, which is critical in divorce HECM situations because lender guidelines vary significantly on divorce-related scenarios. Some lenders are more flexible with income documentation post-divorce, property settlement timelines, and financial assessment criteria for newly single borrowers.',
   },
 ];
 
@@ -217,7 +217,7 @@ export default function ReverseMortgageDivorcePropertySettlementPage() {
 
         <p>Unlike a conventional forward mortgage where you simply divide equity and one spouse refinances, a reverse mortgage involves FHA insurance, age-based principal limits, mandatory counseling requirements, and non-recourse protections that all factor into the divorce equation. A <Link href="/blog/divorce-refinance-spouse-buyout-qualifying-2026" className="text-blue-600 hover:underline">traditional divorce refinance</Link> approach does not account for these HECM-specific variables.</p>
 
-        <p><strong>Contact Mo Abdel at <a href="tel:+19495792057">(949) 579-2057</a> for a confidential consultation on your reverse mortgage divorce situation.</strong> With access to 200+ wholesale lenders, Mo identifies HECM solutions that retail banks cannot offer.</p>
+        <p><strong>Contact Mo Abdel at <a href="tel:+19495792057">(949) 579-2057</a> for a confidential consultation on your reverse mortgage divorce situation.</strong> With access to 50+ Wholesale Lenders, Mo identifies HECM solutions that retail banks cannot offer.</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">How Divorce Affects an Existing HECM Reverse Mortgage</h2>
 
@@ -449,7 +449,7 @@ export default function ReverseMortgageDivorcePropertySettlementPage() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Wholesale Broker Advantage in Divorce HECM Situations</h2>
 
-        <p>Divorce HECM cases are among the most complex scenarios in mortgage lending. A retail bank or credit union typically offers one HECM product with rigid underwriting guidelines. A wholesale mortgage broker accesses 200+ lenders, each with different overlays for divorce-related situations:</p>
+        <p>Divorce HECM cases are among the most complex scenarios in mortgage lending. A retail bank or credit union typically offers one HECM product with rigid underwriting guidelines. A wholesale mortgage broker accesses 50+ Wholesale Lenders, each with different overlays for divorce-related situations:</p>
 
         <ul className="list-disc pl-6 my-4">
           <li><strong>Alimony income treatment:</strong> Some lenders accept court-ordered alimony as qualifying income immediately; others require 3, 6, or 12 months of documented receipt</li>
@@ -509,7 +509,7 @@ export default function ReverseMortgageDivorcePropertySettlementPage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Navigating a Reverse Mortgage Divorce? Get Expert Guidance Today</h2>
           <p className="text-gray-700">Divorce involving a HECM reverse mortgage requires a broker who understands both FHA regulations and family law implications. Mo Abdel has helped dozens of divorcing seniors in California and Washington navigate property settlements involving reverse mortgages&mdash;from spouse buyouts to HECM for Purchase transactions for starting fresh.</p>
-          <p className="text-gray-700 mt-4">With access to 200+ wholesale lenders, Mo identifies the HECM solutions that match your post-divorce financial profile. Whether you need to refinance an existing reverse mortgage, buy a new home using <Link href="/blog/hecm-for-purchase-2026" className="text-blue-600 hover:underline">HECM for Purchase</Link>, or explore <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HELOC alternatives</Link>, a wholesale broker delivers options that retail lenders cannot.</p>
+          <p className="text-gray-700 mt-4">With access to 50+ Wholesale Lenders, Mo identifies the HECM solutions that match your post-divorce financial profile. Whether you need to refinance an existing reverse mortgage, buy a new home using <Link href="/blog/hecm-for-purchase-2026" className="text-blue-600 hover:underline">HECM for Purchase</Link>, or explore <Link href="/blog/hecm-vs-heloc-seniors-2026" className="text-blue-600 hover:underline">HELOC alternatives</Link>, a wholesale broker delivers options that retail lenders cannot.</p>
           <p className="mt-4"><strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline">schedule a confidential consultation</Link>.</p>
           <p className="text-sm text-gray-600 mt-4"><strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />Licensed in: CA, WA</p>
         </div>

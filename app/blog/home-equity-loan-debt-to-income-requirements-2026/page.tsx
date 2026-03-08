@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home Equity Loan DTI Requirements: Maximum Ratios & Qualification Guide [2026]',
-  description: 'Home equity loan DTI requirements explained: front-end vs back-end ratios, maximum DTI by loan type (80%-90% CLTV), how existing mortgage affects qualification, debt payoff strategies to improve DTI, and wholesale broker access to flexible DTI lenders across 200+ partners. NMLS #1426884.',
+  description: 'Home equity loan DTI requirements explained: front-end vs back-end ratios, maximum DTI by loan type (80%-90% CLTV), how existing mortgage affects qualification, debt payoff strategies to improve DTI, and wholesale broker access to flexible DTI lenders across 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/home-equity-loan-debt-to-income-requirements-2026',
     languages: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity Loan DTI Requirements: Maximum Ratios & Qualification Guide [2026]',
-    description: 'Home equity loan DTI requirements: front-end vs back-end ratios, maximum DTI by lender type, how existing mortgage impacts qualification, debt payoff strategies, and wholesale broker access to 200+ lenders with flexible DTI guidelines.',
+    description: 'Home equity loan DTI requirements: front-end vs back-end ratios, maximum DTI by lender type, how existing mortgage impacts qualification, debt payoff strategies, and wholesale broker access to 50+ Wholesale Lenders with flexible DTI guidelines.',
     url: 'https://www.mothebroker.com/blog/home-equity-loan-debt-to-income-requirements-2026',
     type: 'article',
     publishedTime: '2026-03-06',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is the maximum DTI ratio for a home equity loan?',
-    answer: 'Most home equity loan lenders set maximum back-end DTI ratios between 43% and 50%, though some lenders extend to 55% with strong compensating factors such as high credit scores (740+), significant remaining equity (low CLTV), or substantial cash reserves. The specific maximum depends on the lender, the loan amount relative to your home value, and your overall credit profile. A wholesale broker with access to 200+ lenders can identify which lenders offer the most flexible DTI thresholds for your specific situation.',
+    answer: 'Most home equity loan lenders set maximum back-end DTI ratios between 43% and 50%, though some lenders extend to 55% with strong compensating factors such as high credit scores (740+), significant remaining equity (low CLTV), or substantial cash reserves. The specific maximum depends on the lender, the loan amount relative to your home value, and your overall credit profile. A wholesale broker with access to 50+ Wholesale Lenders can identify which lenders offer the most flexible DTI thresholds for your specific situation.',
   },
   {
     question: 'How does my existing mortgage affect my DTI for a home equity loan?',
@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: 'Can I get a home equity loan with a DTI over 50%?',
-    answer: 'Some lenders approve home equity loans with back-end DTI ratios above 50%, but these approvals typically require strong compensating factors: credit scores of 740 or higher, combined loan-to-value (CLTV) ratios of 70% or below, significant liquid reserves (6+ months of payments), and stable income history of 2+ years. These high-DTI approvals are more common with portfolio lenders and credit unions that hold loans on their own books rather than selling them to the secondary market. A wholesale broker can identify which of their 200+ lending partners have the most flexible DTI thresholds.',
+    answer: 'Some lenders approve home equity loans with back-end DTI ratios above 50%, but these approvals typically require strong compensating factors: credit scores of 740 or higher, combined loan-to-value (CLTV) ratios of 70% or below, significant liquid reserves (6+ months of payments), and stable income history of 2+ years. These high-DTI approvals are more common with portfolio lenders and credit unions that hold loans on their own books rather than selling them to the secondary market. A wholesale broker can identify which of their 50+ Wholesale Lenders have the most flexible DTI thresholds.',
   },
   {
     question: 'How do I calculate my DTI ratio for a home equity loan application?',
@@ -72,7 +72,7 @@ const faqData = [
   },
   {
     question: 'How does combined loan-to-value (CLTV) interact with DTI for home equity loans?',
-    answer: 'CLTV and DTI are evaluated together—both must fall within acceptable ranges for approval. CLTV measures total mortgage debt (first mortgage balance plus home equity loan amount) divided by the home value. Most lenders cap CLTV at 80%–90% for home equity loans. Borrowers with lower CLTV (more remaining equity) often receive more flexibility on DTI requirements. For example, a lender that normally caps DTI at 45% might extend to 50% for a borrower with CLTV under 70%, because the additional equity provides a larger cushion. A wholesale broker evaluates both metrics simultaneously across 200+ lenders to find the best fit.',
+    answer: 'CLTV and DTI are evaluated together—both must fall within acceptable ranges for approval. CLTV measures total mortgage debt (first mortgage balance plus home equity loan amount) divided by the home value. Most lenders cap CLTV at 80%–90% for home equity loans. Borrowers with lower CLTV (more remaining equity) often receive more flexibility on DTI requirements. For example, a lender that normally caps DTI at 45% might extend to 50% for a borrower with CLTV under 70%, because the additional equity provides a larger cushion. A wholesale broker evaluates both metrics simultaneously across 50+ Wholesale Lenders to find the best fit.',
   },
 ];
 
@@ -183,7 +183,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
           Home Equity Loan DTI Requirements: Maximum Ratios &amp; Qualification Guide [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to debt-to-income ratio requirements for home equity loans (HELOAN)&mdash;covering front-end vs back-end DTI calculations, maximum DTI thresholds by lender type (43%&ndash;55%), how your existing first mortgage impacts qualification, CLTV and DTI interaction, debt payoff strategies to improve your ratio, and how a wholesale broker accesses flexible DTI guidelines across 200+ lending partners.
+          A complete guide to debt-to-income ratio requirements for home equity loans (HELOAN)&mdash;covering front-end vs back-end DTI calculations, maximum DTI thresholds by lender type (43%&ndash;55%), how your existing first mortgage impacts qualification, CLTV and DTI interaction, debt payoff strategies to improve your ratio, and how a wholesale broker accesses flexible DTI guidelines across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, the debt-to-income ratio is the <strong>single most common reason home equity loan applications are denied, and most borrowers underestimate how their existing first mortgage payment inflates their DTI</strong>. Home equity lenders typically require back-end DTI ratios of 43%&ndash;50%, though select lenders extend to 55% with compensating factors such as high credit scores and low combined loan-to-value ratios. According to the <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, lenders use DTI to measure a borrower&apos;s ability to manage monthly payments and repay debts. Because a home equity loan adds a second monthly payment on top of your first mortgage, the DTI threshold becomes the critical qualification gatekeeper. A wholesale mortgage broker comparing products from 200+ lenders identifies which lenders offer the most flexible DTI guidelines for your specific financial profile.
+            According to Mo Abdel, NMLS #1426884, the debt-to-income ratio is the <strong>single most common reason home equity loan applications are denied, and most borrowers underestimate how their existing first mortgage payment inflates their DTI</strong>. Home equity lenders typically require back-end DTI ratios of 43%&ndash;50%, though select lenders extend to 55% with compensating factors such as high credit scores and low combined loan-to-value ratios. According to the <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, lenders use DTI to measure a borrower&apos;s ability to manage monthly payments and repay debts. Because a home equity loan adds a second monthly payment on top of your first mortgage, the DTI threshold becomes the critical qualification gatekeeper. A wholesale mortgage broker comparing products from 50+ Wholesale Lenders identifies which lenders offer the most flexible DTI guidelines for your specific financial profile.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">identifies flexible DTI thresholds across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders including portfolio lenders and credit unions with higher DTI allowances</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders including portfolio lenders and credit unions with higher DTI allowances</td>
               </tr>
             </tbody>
           </table>
@@ -250,7 +250,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: DTI Challenges in Home Equity Lending</h3>
           <p className="text-blue-800 mb-0">
-            I work with California and Washington homeowners on home equity financing every week, and DTI is consistently the most misunderstood qualification factor. Borrowers often calculate their DTI using only their first mortgage payment and forget to include auto loans, student loans, and credit card minimums. Others assume their DTI is fine because they can &quot;afford&quot; the payment&mdash;but affordability and DTI qualification are different calculations. The most common scenario I see: a homeowner with $200,000 in equity and a 780 credit score gets declined because their back-end DTI is 52% and the lender caps at 45%. The solution is not giving up&mdash;it is finding a lender whose guidelines accommodate that DTI. Across 200+ lending partners, I routinely find lenders that approve DTI ratios other lenders reject. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I work with California and Washington homeowners on home equity financing every week, and DTI is consistently the most misunderstood qualification factor. Borrowers often calculate their DTI using only their first mortgage payment and forget to include auto loans, student loans, and credit card minimums. Others assume their DTI is fine because they can &quot;afford&quot; the payment&mdash;but affordability and DTI qualification are different calculations. The most common scenario I see: a homeowner with $200,000 in equity and a 780 credit score gets declined because their back-end DTI is 52% and the lender caps at 45%. The solution is not giving up&mdash;it is finding a lender whose guidelines accommodate that DTI. Across 50+ Wholesale Lenders, I routinely find lenders that approve DTI ratios other lenders reject. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -494,7 +494,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">High DTI? Let Me Find a Lender That Says Yes</h3>
           <p className="text-green-800 mb-2">
-            I compare DTI guidelines across 200+ lenders to find the best match for your financial profile. Many borrowers who were denied elsewhere qualify through our wholesale channel.
+            I compare DTI guidelines across 50+ Wholesale Lenders to find the best match for your financial profile. Many borrowers who were denied elsewhere qualify through our wholesale channel.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Get Pre-Qualified Online</Link>
@@ -657,7 +657,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
         </p>
 
         <ol>
-          <li><strong>Multi-lender DTI comparison:</strong> Instead of applying to one bank and hoping your DTI qualifies, a wholesale broker compares DTI guidelines across 200+ lenders simultaneously. This identifies the lenders where your DTI falls within the approved range without wasting time on applications destined for denial.</li>
+          <li><strong>Multi-lender DTI comparison:</strong> Instead of applying to one bank and hoping your DTI qualifies, a wholesale broker compares DTI guidelines across 50+ Wholesale Lenders simultaneously. This identifies the lenders where your DTI falls within the approved range without wasting time on applications destined for denial.</li>
           <li><strong>Portfolio lender access:</strong> Portfolio lenders with the most flexible DTI thresholds (48%&ndash;55%) are often only available through the wholesale channel. Consumers walking into a bank branch or applying online at a direct lender do not access these products.</li>
           <li><strong>Pre-application DTI optimization:</strong> Before submitting your application, a wholesale broker calculates your exact DTI, identifies which debts to pay off for maximum DTI improvement, and recommends the optimal loan amount and term to fit within the target lender&apos;s DTI guidelines. This pre-work eliminates the trial-and-error process of applying at multiple lenders.</li>
         </ol>
@@ -721,7 +721,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">What DTI do you need for a home equity loan?</h3>
             <p className="mb-0">
-              <strong>Most home equity lenders require a back-end DTI of 43%&ndash;50%, with some portfolio lenders extending to 55% when compensating factors are present.</strong> The specific threshold depends on the lender, your credit score, CLTV, and reserves. A wholesale broker comparing 200+ lenders identifies the best DTI match for your profile.
+              <strong>Most home equity lenders require a back-end DTI of 43%&ndash;50%, with some portfolio lenders extending to 55% when compensating factors are present.</strong> The specific threshold depends on the lender, your credit score, CLTV, and reserves. A wholesale broker comparing 50+ Wholesale Lenders identifies the best DTI match for your profile.
             </p>
           </div>
 
@@ -786,7 +786,7 @@ export default function HomeEquityLoanDTIRequirementsPage() {
             <li><strong>Compensating factors matter:</strong> High credit scores, substantial reserves, low CLTV, and stable employment can push DTI approval thresholds higher</li>
             <li><strong>DTI maximums vary by lender type:</strong> National banks cap at 43%&ndash;45%; portfolio lenders go to 48%&ndash;55%. A denial at one lender does not mean universal denial</li>
             <li><strong>HELOC vs HELOAN DTI calculation differs:</strong> HELOCs may be qualified at the fully-drawn amount, while HELOANs use the actual fixed payment</li>
-            <li><strong>A wholesale broker solves the DTI matching problem:</strong> Comparing DTI guidelines across 200+ lenders identifies the right fit without trial-and-error applications</li>
+            <li><strong>A wholesale broker solves the DTI matching problem:</strong> Comparing DTI guidelines across 50+ Wholesale Lenders identifies the right fit without trial-and-error applications</li>
           </ol>
         </div>
 

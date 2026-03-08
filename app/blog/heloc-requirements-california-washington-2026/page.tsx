@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'HELOC Requirements: California & Washington Qualification Guide [2026] | Mo Abdel',
-  description: 'HELOC requirements 2026: Credit score minimums, DTI limits, LTV/CLTV caps, equity thresholds, and income documentation for California and Washington borrowers. Wholesale broker access to 200+ lenders. NMLS #1426884.',
+  description: 'HELOC requirements 2026: Credit score minimums, DTI limits, LTV/CLTV caps, equity thresholds, and income documentation for California and Washington borrowers. Wholesale broker access to 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'HELOC requirements 2026',
     'HELOC qualification requirements',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'HELOC Requirements: California & Washington Qualification Guide [2026]',
-    description: 'HELOC requirements 2026: Credit score minimums, DTI limits, LTV/CLTV caps, equity thresholds, and income documentation for California and Washington borrowers. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC requirements 2026: Credit score minimums, DTI limits, LTV/CLTV caps, equity thresholds, and income documentation for California and Washington borrowers. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/heloc-requirements-california-washington-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What credit score do I need for a HELOC in 2026?",
-    answer: "Most HELOC lenders require a minimum credit score of 680 for standard pricing. Some wholesale lenders offer HELOCs with scores as low as 620, though rates and credit limits are less favorable. Scores of 740 and above typically unlock the most competitive rates, highest credit limits, and widest lender selection. Credit score requirements vary significantly by lender, which is why wholesale broker access to 200+ lenders matters for borrowers across the credit spectrum."
+    answer: "Most HELOC lenders require a minimum credit score of 680 for standard pricing. Some wholesale lenders offer HELOCs with scores as low as 620, though rates and credit limits are less favorable. Scores of 740 and above typically unlock the most competitive rates, highest credit limits, and widest lender selection. Credit score requirements vary significantly by lender, which is why wholesale broker access to 50+ Wholesale Lenders matters for borrowers across the credit spectrum."
   },
   {
     question: "How much equity do I need for a HELOC?",
@@ -52,7 +52,7 @@ const faqData = [
   },
   {
     question: "Can I get a HELOC with a 620 credit score?",
-    answer: "Yes, some lenders approve HELOCs with credit scores as low as 620, though the terms differ from higher-score approvals. Expect higher interest rates, lower maximum credit limits, and stricter equity requirements (lower CLTV caps). A wholesale broker identifies which of the 200+ lender partners offers the most competitive program for sub-680 credit profiles, as guidelines vary widely across lenders."
+    answer: "Yes, some lenders approve HELOCs with credit scores as low as 620, though the terms differ from higher-score approvals. Expect higher interest rates, lower maximum credit limits, and stricter equity requirements (lower CLTV caps). A wholesale broker identifies which of the 50+ Wholesale Lenders partners offers the most competitive program for sub-680 credit profiles, as guidelines vary widely across lenders."
   },
   {
     question: "What income documentation is required for a HELOC?",
@@ -203,7 +203,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, HELOC qualification standards in 2026 vary dramatically across lenders &mdash; one lender&apos;s decline is another lender&apos;s approval. A wholesale mortgage broker compares HELOC programs from 200+ lender partners to match your credit profile, equity position, and income documentation to the program with the most competitive terms. This guide covers every HELOC requirement for California and Washington borrowers.
+              According to Mo Abdel, NMLS #1426884, HELOC qualification standards in 2026 vary dramatically across lenders &mdash; one lender&apos;s decline is another lender&apos;s approval. A wholesale mortgage broker compares HELOC programs from 50+ Wholesale Lenders partners to match your credit profile, equity position, and income documentation to the program with the most competitive terms. This guide covers every HELOC requirement for California and Washington borrowers.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -231,7 +231,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
         {/* Citation Hook */}
         <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
           <p className="text-lg font-semibold text-gray-800 italic">
-            &quot;According to Mo Abdel, NMLS #1426884, HELOC approval rates across our 200+ lender network show that 68% of borrowers who get declined by a retail bank qualify with at least one wholesale lender. HELOC requirements are not universal &mdash; credit score minimums range from 620 to 720, CLTV limits span 80% to 90%, and DTI caps vary from 43% to 50% depending on the lender. In our California and Washington closings, matching the borrower to the right lender is the single largest factor in HELOC approval.&quot;
+            &quot;According to Mo Abdel, NMLS #1426884, HELOC approval rates across our 50+ Wholesale Lenders show that 68% of borrowers who get declined by a retail bank qualify with at least one wholesale lender. HELOC requirements are not universal &mdash; credit score minimums range from 620 to 720, CLTV limits span 80% to 90%, and DTI caps vary from 43% to 50% depending on the lender. In our California and Washington closings, matching the borrower to the right lender is the single largest factor in HELOC approval.&quot;
           </p>
           <p className="text-gray-600 mt-2">&mdash; Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
         </div>
@@ -376,7 +376,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
           </ol>
 
           <p>
-            In our California and Washington closings, the difference between an 80% CLTV lender and a 90% CLTV lender on a $1 million property is $100,000 in additional accessible equity. Wholesale broker access to 200+ lenders means identifying the program that maximizes your credit line while maintaining competitive pricing.
+            In our California and Washington closings, the difference between an 80% CLTV lender and a 90% CLTV lender on a $1 million property is $100,000 in additional accessible equity. Wholesale broker access to 50+ Wholesale Lenders means identifying the program that maximizes your credit line while maintaining competitive pricing.
           </p>
 
           <p>
@@ -663,7 +663,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
           {/* LeadMagnetCTA */}
           <LeadMagnetCTA
             title="Get Your Free HELOC Qualification Analysis"
-            description="Find out exactly how much home equity you can access through a HELOC. Mo Abdel compares programs from 200+ lenders to find the HELOC with the best combination of rate, credit limit, and terms for your specific credit profile and property."
+            description="Find out exactly how much home equity you can access through a HELOC. Mo Abdel compares programs from 50+ Wholesale Lenders to find the HELOC with the best combination of rate, credit limit, and terms for your specific credit profile and property."
             ctaText="Request HELOC Analysis"
             href="/contact"
             badge="Free Analysis"
@@ -680,7 +680,7 @@ export default function HelocRequirementsCaliforniaWashington2026() {
             HELOC requirements in 2026 are not standardized. Credit score minimums range from 620 to 720. CLTV caps span 80% to 90%. DTI limits vary from 43% to 50%. Self-employed documentation options include traditional tax returns or bank statement programs. Jumbo HELOC availability differs dramatically across lenders. The borrower who applies at a single retail bank and gets declined may qualify with three different wholesale lenders offering different programs, rates, and terms.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending submits your HELOC scenario to 200+ lender partners and identifies the program that matches your credit score, DTI, equity position, and documentation type. The wholesale channel does not charge higher rates for this access &mdash; wholesale lenders price HELOCs competitively because the broker handles the origination process.
+            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending submits your HELOC scenario to 50+ Wholesale Lenders partners and identifies the program that matches your credit score, DTI, equity position, and documentation type. The wholesale channel does not charge higher rates for this access &mdash; wholesale lenders price HELOCs competitively because the broker handles the origination process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

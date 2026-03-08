@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Inland Empire Home Equity: Rancho Cucamonga & Claremont HELOC Guide [2026] | Mo Abdel',
-  description: 'Inland Empire home equity guide covering HELOC, HELOAN & cash-out refinance for Rancho Cucamonga, Chino Hills, Claremont, Redlands & Upland. 200+ lender access. NMLS #1426884.',
+  description: 'Inland Empire home equity guide covering HELOC, HELOAN & cash-out refinance for Rancho Cucamonga, Chino Hills, Claremont, Redlands & Upland. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'home equity Inland Empire',
     'HELOC Inland Empire',
@@ -80,7 +80,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
     },
     {
       question: 'What credit score do I need for a HELOC in Rancho Cucamonga?',
-      answer: 'Most HELOC lenders require a minimum 680 credit score, with the best rates reserved for borrowers at 740 and above. Through wholesale broker access to 200+ lenders, competitive HELOC programs exist for credit scores as low as 660 with higher combined loan-to-value restrictions and slightly elevated rates.',
+      answer: 'Most HELOC lenders require a minimum 680 credit score, with the best rates reserved for borrowers at 740 and above. Through wholesale broker access to 50+ Wholesale Lenders, competitive HELOC programs exist for credit scores as low as 660 with higher combined loan-to-value restrictions and slightly elevated rates.',
     },
     {
       question: 'How long does it take to get a HELOC in the Inland Empire?',
@@ -116,7 +116,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker compares HELOC products from 200+ lenders simultaneously, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, and better terms than any single institution. On a $300,000 HELOC, even a 0.25% rate difference saves $750 per year in interest.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker compares HELOC products from 50+ Wholesale Lenders simultaneously, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, and better terms than any single institution. On a $300,000 HELOC, even a 0.25% rate difference saves $750 per year in interest.',
     },
     {
       question: 'Can I use Inland Empire home equity to invest in rental property?',
@@ -213,7 +213,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Inland Empire homeowners in the affluent western corridor &mdash; Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland &mdash; control substantial home equity that represents one of the most powerful financial tools available. With median home values ranging from $700,000 in Redlands to $1,000,000 in Rancho Cucamonga&apos;s Alta Loma enclave, homeowners in these five cities hold equity positions that fund renovations, consolidate debt, finance ADU construction, cover education costs, and capitalize investment opportunities. As a wholesale mortgage broker with access to over 200 lenders, I help Inland Empire homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; turning dormant home equity into active financial power.
+            Inland Empire homeowners in the affluent western corridor &mdash; Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland &mdash; control substantial home equity that represents one of the most powerful financial tools available. With median home values ranging from $700,000 in Redlands to $1,000,000 in Rancho Cucamonga&apos;s Alta Loma enclave, homeowners in these five cities hold equity positions that fund renovations, consolidate debt, finance ADU construction, cover education costs, and capitalize investment opportunities. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help Inland Empire homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; turning dormant home equity into active financial power.
           </p>
 
           <p>
@@ -227,7 +227,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
               <li><strong>Top equity city:</strong> Rancho Cucamonga/Alta Loma ($1M median, $420K+ avg tappable equity)</li>
               <li><strong>Fastest appreciation:</strong> Ontario Airport corridor properties, 12-18% faster than IE average</li>
               <li><strong>Best HELOC use:</strong> ADU construction ($150K-$250K investment, $200K-$350K value added)</li>
-              <li><strong>Qualification advantage:</strong> Wholesale broker access to 200+ lenders for best rates and terms</li>
+              <li><strong>Qualification advantage:</strong> Wholesale broker access to 50+ Wholesale Lenders for best rates and terms</li>
               <li><strong>College-town stability:</strong> Claremont properties show 40% lower price volatility during market corrections</li>
               <li><strong>Processing time:</strong> 2-4 weeks for standard HELOC, 3-5 weeks for jumbo products</li>
             </ul>
@@ -493,7 +493,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
           </div>
 
           <p>
-            Both cities benefit from California&apos;s conforming loan limit of $1,089,300 in San Bernardino County for 2026, meaning most HELOC and cash-out refinance products fall within conforming guidelines. This opens access to the full range of 200+ wholesale lenders with the most competitive rates and lowest closing costs &mdash; an advantage that homeowners in higher-value jumbo markets do not always enjoy.
+            Both cities benefit from California&apos;s conforming loan limit of $1,089,300 in San Bernardino County for 2026, meaning most HELOC and cash-out refinance products fall within conforming guidelines. This opens access to the full range of 50+ Wholesale Lenders with the most competitive rates and lowest closing costs &mdash; an advantage that homeowners in higher-value jumbo markets do not always enjoy.
           </p>
 
           {/* Strategic Equity Deployment */}
@@ -536,7 +536,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">1</div>
               <div>
                 <h3 className="font-bold text-lg">Credit Score: 680+ (Best Rates at 740+)</h3>
-                <p>Most HELOC lenders require a minimum 680 credit score. IE homeowners with 740+ scores access the lowest rates and highest credit limits. Through 200+ wholesale lenders, programs exist for scores as low as 660 with adjusted terms. Average IE homeowner credit scores in affluent corridor cities run 720-760, placing most applicants in favorable rate tiers.</p>
+                <p>Most HELOC lenders require a minimum 680 credit score. IE homeowners with 740+ scores access the lowest rates and highest credit limits. Through 50+ Wholesale Lenders, programs exist for scores as low as 660 with adjusted terms. Average IE homeowner credit scores in affluent corridor cities run 720-760, placing most applicants in favorable rate tiers.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -608,7 +608,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
           {/* Interest Rate Environment */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Navigating the 2026 Interest Rate Environment in the Inland Empire</h2>
           <p>
-            The 2026 interest rate environment creates specific opportunities and considerations for Inland Empire homeowners exploring home equity products. Understanding how rates affect each product type &mdash; and how a wholesale broker leverages rate competition among 200+ lenders &mdash; helps you time your decision for maximum savings.
+            The 2026 interest rate environment creates specific opportunities and considerations for Inland Empire homeowners exploring home equity products. Understanding how rates affect each product type &mdash; and how a wholesale broker leverages rate competition among 50+ Wholesale Lenders &mdash; helps you time your decision for maximum savings.
           </p>
 
           <p>
@@ -641,7 +641,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">2</div>
               <div>
                 <h3 className="font-bold text-lg">Lender Shopping &amp; Rate Competition (Days 2-3)</h3>
-                <p>We submit your profile to our 200+ lender network and collect competing offers. You receive a comparison showing the top 3-5 HELOC products ranked by rate, credit line amount, draw period terms, closing costs, and repayment flexibility. You select the best fit for your needs.</p>
+                <p>We submit your profile to our 50+ Wholesale Lenders and collect competing offers. You receive a comparison showing the top 3-5 HELOC products ranked by rate, credit line amount, draw period terms, closing costs, and repayment flexibility. You select the best fit for your needs.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -663,13 +663,13 @@ export default function HomeEquityInlandEmpireGuide2026() {
           {/* Why Wholesale Broker */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Why Inland Empire Homeowners Choose a Wholesale Broker for Home Equity</h2>
           <p>
-            The Inland Empire&apos;s housing market straddles the conforming-jumbo boundary, making lender selection especially impactful. A wholesale broker&apos;s 200+ lender network provides access to both conforming and jumbo HELOC products, ensuring IE homeowners find the optimal product regardless of where their property value falls on the spectrum.
+            The Inland Empire&apos;s housing market straddles the conforming-jumbo boundary, making lender selection especially impactful. A wholesale broker&apos;s 50+ Wholesale Lenders provides access to both conforming and jumbo HELOC products, ensuring IE homeowners find the optimal product regardless of where their property value falls on the spectrum.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Rate Competition</h3>
-              <p>Your bank offers one rate. A wholesale broker creates competition among 200+ lenders, consistently securing rates 0.25-0.75% below what any single institution offers. On a $300,000 HELOC, this saves $750-$2,250 annually in interest &mdash; $7,500-$22,500 over a 10-year draw period.</p>
+              <p>Your bank offers one rate. A wholesale broker creates competition among 50+ Wholesale Lenders, consistently securing rates 0.25-0.75% below what any single institution offers. On a $300,000 HELOC, this saves $750-$2,250 annually in interest &mdash; $7,500-$22,500 over a 10-year draw period.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Conforming/Jumbo Flexibility</h3>
@@ -707,7 +707,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
               LA commuter incomes paired with IE housing costs create favorable debt-to-income ratios that strengthen HELOC qualification. College-town stability in Claremont provides 40% lower price volatility during market corrections. ADU construction delivers 130-175% return on equity with $1,800-$2,800/month rental income. These factors combine to make the IE affluent corridor one of California&apos;s strongest markets for strategic equity deployment.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your specific Inland Empire property and financial profile. LA commuter income qualification, self-employed documentation solutions, and conforming-jumbo boundary expertise are standard service &mdash; not add-ons. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 50+ Wholesale Lenders to secure the lowest rate and best terms for your specific Inland Empire property and financial profile. LA commuter income qualification, self-employed documentation solutions, and conforming-jumbo boundary expertise are standard service &mdash; not add-ons. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
             </p>
           </div>
 
@@ -723,7 +723,7 @@ export default function HomeEquityInlandEmpireGuide2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving Rancho Cucamonga, Chino Hills, Claremont, Redlands &amp; Upland</p>
-            <p className="text-sm">Wholesale broker with access to 200+ HELOC, HELOAN &amp; cash-out refinance lenders</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders</p>
           </div>
 
           {/* Disclaimer */}

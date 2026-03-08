@@ -2,8 +2,8 @@ import { SITE_ORIGIN, PHONE_DISPLAY, PHONE_E164 } from '@/lib/site';
 
 export const seoData = {
   Home: {
-    title: "California & Washington Mortgage Broker | 200+ Lender Options | Mo Abdel",
-    description: "Licensed mortgage broker serving California and Washington with access to 200+ wholesale lenders for lower rates, faster closings, and tailored purchase or refinance solutions. NMLS #1426884."
+    title: "California & Washington Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel",
+    description: "Licensed mortgage broker serving California and Washington with access to 50+ Wholesale Lenders for lower rates, faster closings, and tailored purchase or refinance solutions. NMLS #1426884."
   },
   About: {
     title: "About Mo Abdel | California & Washington Mortgage Broker",
@@ -126,7 +126,7 @@ export const siteRootSchema = {
       "name": "Mo Abdel - Mortgage Broker",
       "alternateName": "Mo The Broker",
       "additionalType": "https://schema.org/MortgageBroker",
-      "description": "Licensed wholesale mortgage broker based in Irvine, CA serving all of California and Washington. Access to 200+ lenders for competitive pricing on purchase, refinance, HELOC, DSCR, and specialty loan programs. NMLS #1426884.",
+      "description": "Licensed wholesale mortgage broker based in Irvine, CA serving all of California and Washington. Access to 50+ Wholesale Lenders for competitive pricing on purchase, refinance, HELOC, DSCR, and specialty loan programs. NMLS #1426884.",
       "url": SITE_URL,
       "telephone": `+1-949-579-2057`,
       "email": "mo@mothebroker.com",
@@ -221,7 +221,7 @@ export const siteRootSchema = {
       "url": SITE_URL,
       "name": "Mo The Broker",
       "alternateName": "MoTheBroker.com",
-      "description": "Wholesale mortgage broker serving California and Washington with 200+ lender access",
+      "description": "Wholesale mortgage broker serving California and Washington with 50+ Wholesale Lenders",
       "publisher": { "@id": LOCAL_BUSINESS_ID },
       "inLanguage": "en-US",
       "copyrightYear": currentYear,

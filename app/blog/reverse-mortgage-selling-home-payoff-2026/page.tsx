@@ -473,7 +473,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
           {/* Next Steps After Sale */}
           <h2 className="text-2xl font-bold mt-8 mb-4">What Are Your Financing Options After Selling a Home with a Reverse Mortgage?</h2>
           <p>
-            After selling a home with a reverse mortgage, many seniors need financing for their next residence. As a wholesale mortgage broker with access to 200+ lenders, I help clients transition from their reverse mortgage payoff to their next home purchase through several paths.
+            After selling a home with a reverse mortgage, many seniors need financing for their next residence. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help clients transition from their reverse mortgage payoff to their next home purchase through several paths.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Option 1: HECM for Purchase</h3>
@@ -527,7 +527,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold mb-2">Can I buy another home after paying off my reverse mortgage?</h3>
-              <p><strong>Yes, you have full flexibility to purchase after selling.</strong> Options include a traditional purchase mortgage, a HECM for Purchase (combining your sale proceeds with a new reverse mortgage), or an all-cash purchase. As a wholesale broker with access to 200+ lenders, I help clients evaluate which next-step financing option provides the best fit for their retirement goals and financial situation.</p>
+              <p><strong>Yes, you have full flexibility to purchase after selling.</strong> Options include a traditional purchase mortgage, a HECM for Purchase (combining your sale proceeds with a new reverse mortgage), or an all-cash purchase. As a wholesale broker with access to 50+ Wholesale Lenders, I help clients evaluate which next-step financing option provides the best fit for their retirement goals and financial situation.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -557,7 +557,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
             The most important preparation step is requesting the payoff statement from your servicer early, ideally before listing the home. This gives you a clear picture of your equity position and allows you to set an informed listing price. Selecting a title company with reverse mortgage payoff experience ensures smooth coordination with the servicer throughout escrow.
           </p>
           <p>
-            As a wholesale mortgage broker licensed in California and Washington with access to 200+ lenders, I help reverse mortgage borrowers and their heirs navigate the sale process and, when needed, secure next-step financing &mdash; whether that is a <Link href="/blog/hecm-for-purchase-2026" className="text-blue-600 hover:underline">HECM for Purchase</Link>, a traditional mortgage for a new home, or a refinance strategy. If you are considering selling a home with a reverse mortgage, I will calculate your estimated net proceeds and walk you through every step of the process.
+            As a wholesale mortgage broker licensed in California and Washington with access to 50+ Wholesale Lenders, I help reverse mortgage borrowers and their heirs navigate the sale process and, when needed, secure next-step financing &mdash; whether that is a <Link href="/blog/hecm-for-purchase-2026" className="text-blue-600 hover:underline">HECM for Purchase</Link>, a traditional mortgage for a new home, or a refinance strategy. If you are considering selling a home with a reverse mortgage, I will calculate your estimated net proceeds and walk you through every step of the process.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

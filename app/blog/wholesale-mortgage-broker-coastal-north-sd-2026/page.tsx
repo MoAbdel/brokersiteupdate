@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Del Mar, Rancho Santa Fe & Coastal North SD, CA [2026]',
-  description: 'Wholesale mortgage broker serving Del Mar, Rancho Santa Fe, Solana Beach & Encinitas. 200+ lenders, jumbo specialists, equestrian estate financing, bank statement loans. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Del Mar, Rancho Santa Fe, Solana Beach & Encinitas. 50+ Wholesale Lenders, jumbo specialists, equestrian estate financing, bank statement loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Del Mar',
     'Rancho Santa Fe mortgage broker',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Del Mar, Rancho Santa Fe & Coastal North SD, CA [2026]',
-    description: 'How wholesale mortgage pricing benefits Coastal North San Diego luxury homebuyers. 200+ lenders, jumbo loans, equestrian financing, and bank statement programs.',
+    description: 'How wholesale mortgage pricing benefits Coastal North San Diego luxury homebuyers. 50+ Wholesale Lenders, jumbo loans, equestrian financing, and bank statement programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-north-sd-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -69,7 +69,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
         name: 'What makes a wholesale mortgage broker better for Del Mar home purchases?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses 200+ lenders competing for your business, delivering lower rates and specialized jumbo products essential for Del Mar properties averaging $3.8 million. Banks offer only their own products, limiting options for luxury coastal financing.',
+          text: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, delivering lower rates and specialized jumbo products essential for Del Mar properties averaging $3.8 million. Banks offer only their own products, limiting options for luxury coastal financing.',
         },
       },
       {
@@ -167,7 +167,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    description: 'Wholesale mortgage broker serving Coastal North San Diego with 200+ lender access',
+    description: 'Wholesale mortgage broker serving Coastal North San Diego with 50+ Wholesale Lenders',
     telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
@@ -256,7 +256,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Coastal North San Diego Mortgage Market</p>
             <p className="text-gray-800 mb-0">
-              Coastal North San Diego County&mdash;spanning Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas&mdash;recorded approximately <strong>$4.1 billion in residential mortgage originations</strong> during 2025, according to San Diego County Assessor transaction data. With median home values ranging from $1.8 million in Encinitas to $4.5 million in Rancho Santa Fe, <strong>over 85% of purchase transactions require jumbo financing</strong> above the 2026 conforming loan limit of $1,209,750. This corridor&apos;s concentration of equestrian estates, oceanfront properties, and self-employed entrepreneurs creates a market where wholesale broker access to 200+ lenders delivers measurable rate advantages over single-lender retail channels. Rancho Santa Fe alone contains more than 300 equestrian properties requiring specialized appraisal and lending expertise that most banks simply do not offer.
+              Coastal North San Diego County&mdash;spanning Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas&mdash;recorded approximately <strong>$4.1 billion in residential mortgage originations</strong> during 2025, according to San Diego County Assessor transaction data. With median home values ranging from $1.8 million in Encinitas to $4.5 million in Rancho Santa Fe, <strong>over 85% of purchase transactions require jumbo financing</strong> above the 2026 conforming loan limit of $1,209,750. This corridor&apos;s concentration of equestrian estates, oceanfront properties, and self-employed entrepreneurs creates a market where wholesale broker access to 50+ Wholesale Lenders delivers measurable rate advantages over single-lender retail channels. Rancho Santa Fe alone contains more than 300 equestrian properties requiring specialized appraisal and lending expertise that most banks simply do not offer.
             </p>
           </div>
 
@@ -296,7 +296,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
               <tbody>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Lender Options</td>
-                  <td className="py-3 px-4 border-b">200+ wholesale lenders</td>
+                  <td className="py-3 px-4 border-b">50+ Wholesale Lenders</td>
                   <td className="py-3 px-4 border-b">1 lender (their own products)</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -703,7 +703,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
 
           <h3 className="text-xl font-bold mt-6 mb-3">Wholesale Lender Relationships</h3>
           <p>
-            Established relationships with 200+ wholesale lenders mean priority processing, dedicated underwriter access, and the ability to escalate time-sensitive transactions. For a Rancho Santa Fe buyer competing for a Covenant estate with multiple offers, closing certainty and speed can determine whether you win or lose the property. Deep lender relationships translate directly into competitive advantages for Coastal North San Diego buyers.
+            Established relationships with 50+ Wholesale Lenders mean priority processing, dedicated underwriter access, and the ability to escalate time-sensitive transactions. For a Rancho Santa Fe buyer competing for a Covenant estate with multiple offers, closing certainty and speed can determine whether you win or lose the property. Deep lender relationships translate directly into competitive advantages for Coastal North San Diego buyers.
           </p>
 
           <hr className="my-10" />
@@ -714,7 +714,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker in Coastal North San Diego?</h3>
-              <p><strong>A wholesale broker accesses 200+ lenders to find the best jumbo rates for Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas buyers.</strong> Unlike bank loan officers limited to one institution&apos;s products, wholesale brokers shop the entire lending marketplace. This is especially valuable for luxury properties above the $1,209,750 conforming limit where jumbo lender competition directly impacts borrower savings.</p>
+              <p><strong>A wholesale broker accesses 50+ Wholesale Lenders to find the best jumbo rates for Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas buyers.</strong> Unlike bank loan officers limited to one institution&apos;s products, wholesale brokers shop the entire lending marketplace. This is especially valuable for luxury properties above the $1,209,750 conforming limit where jumbo lender competition directly impacts borrower savings.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How much do borrowers save with a wholesale broker in Del Mar?</h3>
@@ -738,7 +738,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is it worth refinancing my Coastal North SD home through a wholesale broker?</h3>
-              <p><strong>If your current rate is above today&apos;s market and your loan exceeds $1 million, wholesale refinancing delivers measurable savings from lender competition.</strong> The larger the loan amount, the more impactful even a small rate improvement becomes. A wholesale broker compares refinance terms from 200+ lenders in a single inquiry, identifying the optimal combination of rate, closing costs, and terms.</p>
+              <p><strong>If your current rate is above today&apos;s market and your loan exceeds $1 million, wholesale refinancing delivers measurable savings from lender competition.</strong> The larger the loan amount, the more impactful even a small rate improvement becomes. A wholesale broker compares refinance terms from 50+ Wholesale Lenders in a single inquiry, identifying the optimal combination of rate, closing costs, and terms.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can foreign nationals buy property in Del Mar through a wholesale broker?</h3>
@@ -754,7 +754,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What makes a wholesale mortgage broker better for Del Mar home purchases?</h3>
-              <p>A wholesale mortgage broker accesses 200+ lenders competing for your business, delivering lower rates and specialized jumbo products essential for Del Mar properties averaging $3.8 million. Banks offer only their own products, limiting options for luxury coastal financing.</p>
+              <p>A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, delivering lower rates and specialized jumbo products essential for Del Mar properties averaging $3.8 million. Banks offer only their own products, limiting options for luxury coastal financing.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can a wholesale broker finance equestrian estates in Rancho Santa Fe?</h3>
@@ -823,7 +823,7 @@ export default function WholesaleMortgageBrokerCoastalNorthSD() {
           <div className="expert-summary bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold mt-0 mb-4">Get Wholesale Rates for Your Coastal North San Diego Purchase</h2>
             <p>
-              Coastal North San Diego&apos;s luxury real estate market demands wholesale broker access. Whether you&apos;re purchasing an equestrian estate in Rancho Santa Fe, an oceanfront home in Del Mar, a Cedros-area property in Solana Beach, or a surf-lifestyle home in Encinitas, wholesale access to 200+ lenders delivers better rates, specialized programs, and faster closings than any single bank can offer.
+              Coastal North San Diego&apos;s luxury real estate market demands wholesale broker access. Whether you&apos;re purchasing an equestrian estate in Rancho Santa Fe, an oceanfront home in Del Mar, a Cedros-area property in Solana Beach, or a surf-lifestyle home in Encinitas, wholesale access to 50+ Wholesale Lenders delivers better rates, specialized programs, and faster closings than any single bank can offer.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free rate quote:</p>
             <p className="text-lg mb-1">(949) 579-2057</p>

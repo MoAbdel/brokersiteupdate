@@ -51,7 +51,7 @@ const faqData = [
   },
   {
     question: 'Why use a wholesale mortgage broker for a construction-to-permanent loan?',
-    answer: 'Wholesale brokers access construction-to-permanent products from specialty lenders, regional banks, and credit unions that do not offer these programs directly to consumers. With 200+ lender relationships, brokers match your project to lenders with the right combination of rates, terms, draw schedules, and builder requirements for your specific situation.',
+    answer: 'Wholesale brokers access construction-to-permanent products from specialty lenders, regional banks, and credit unions that do not offer these programs directly to consumers. With 50+ Wholesale Lenders, brokers match your project to lenders with the right combination of rates, terms, draw schedules, and builder requirements for your specific situation.',
   },
   {
     question: 'What credit score do I need for a construction-to-permanent loan?',
@@ -244,7 +244,7 @@ export default function WholesaleConstructionToPermanentLoan2026() {
             &quot;Construction-to-permanent one-time close loans eliminate the need for two separate closings,
             saving borrowers thousands in duplicate fees. The challenge is finding them — most retail banks
             either don&apos;t offer construction-to-permanent products or restrict them to cookie-cutter builds.
-            Through our wholesale channel with 200+ lenders, we access construction programs from specialty
+            Through our wholesale channel with 50+ Wholesale Lenders, we access construction programs from specialty
             lenders and regional banks that finance custom homes, ADUs, and even investor build-to-rent projects
             in California and Washington. The wholesale advantage for construction lending is more significant
             than any other loan type because the product variation between lenders is enormous.&quot;
@@ -360,7 +360,7 @@ export default function WholesaleConstructionToPermanentLoan2026() {
         <p>
           The wholesale channel is particularly valuable for construction-to-permanent loans because product availability
           varies dramatically between lenders. Retail banks typically offer a single CTP product with rigid builder
-          requirements and limited property types. Through our network of 200+ wholesale lenders, we access CTP programs
+          requirements and limited property types. Through our network of 50+ Wholesale Lenders, we access CTP programs
           from regional banks, community lenders, and specialty construction finance companies — each with different
           draw schedules, builder qualification criteria, maximum construction periods, and property type allowances.
         </p>
@@ -515,7 +515,7 @@ export default function WholesaleConstructionToPermanentLoan2026() {
         <p>
           The construction-to-permanent loan structure is not limited to ground-up custom home construction. Through
           wholesale channels, borrowers access CTP products for multiple project types. The available options through
-          our 200+ lender network include:
+          our 50+ Wholesale Lenders include:
         </p>
 
         {/* Comparison Table: Project Types */}
@@ -688,7 +688,7 @@ export default function WholesaleConstructionToPermanentLoan2026() {
         <p>
           I have originated ADU construction loans for California homeowners building everything from 400 square foot
           studio units to 1,200 square foot two-bedroom detached ADUs. The cost range varies dramatically by region —
-          from roughly $150,000 to $400,000+ in high-cost coastal markets — and having 200+ lenders means we find
+          from roughly $150,000 to $400,000+ in high-cost coastal markets — and having 50+ Wholesale Lenders means we find
           CTP programs that match each project&apos;s specific scope and budget.
         </p>
 
@@ -808,7 +808,7 @@ export default function WholesaleConstructionToPermanentLoan2026() {
             wholesale channel provides advantages that are more significant here than in virtually any other loan
             category. Product availability, builder requirements, draw schedules, construction periods, and program
             types vary dramatically between lenders. A retail bank offers one CTP product with one set of rules.
-            Through our wholesale network of 200+ lenders, we match your specific project — whether it is a custom
+            Through our wholesale network of 50+ Wholesale Lenders, we match your specific project — whether it is a custom
             home, ADU, renovation, or investor build-to-rent — with the right lender for your situation.
           </p>
           <p className="text-gray-700 mb-4">

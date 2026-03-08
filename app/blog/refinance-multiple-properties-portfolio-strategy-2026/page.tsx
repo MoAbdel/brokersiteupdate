@@ -191,7 +191,7 @@ export default function RefinanceMultiplePropertiesPortfolioStrategy2026() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, investors who refinance multiple properties without a sequencing strategy lose an average of 0.25% to 0.50% in rate premium per property due to DTI stacking and reserve depletion&mdash;a wholesale broker with access to 200+ lenders, including portfolio and DSCR programs, eliminates these penalties by matching each property to the optimal loan structure.
+            According to Mo Abdel, NMLS #1426884, investors who refinance multiple properties without a sequencing strategy lose an average of 0.25% to 0.50% in rate premium per property due to DTI stacking and reserve depletion&mdash;a wholesale broker with access to 50+ Wholesale Lenders, including portfolio and DSCR programs, eliminates these penalties by matching each property to the optimal loan structure.
           </p>
         </div>
 
@@ -246,7 +246,7 @@ export default function RefinanceMultiplePropertiesPortfolioStrategy2026() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Own Multiple Properties? Get a Free Portfolio Refinance Analysis</h3>
           <p className="mb-3">
-            Mo Abdel builds customized refinancing sequences for investors with 2 to 20+ properties, matching each property to the optimal program across 200+ wholesale lenders. No obligation, no cost for the initial portfolio review.
+            Mo Abdel builds customized refinancing sequences for investors with 2 to 20+ properties, matching each property to the optimal program across 50+ Wholesale Lenders. No obligation, no cost for the initial portfolio review.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">schedule your portfolio consultation online</Link>.
@@ -483,7 +483,7 @@ export default function RefinanceMultiplePropertiesPortfolioStrategy2026() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Need Help Structuring Your Portfolio Refinance Sequence?</h3>
           <p className="mb-3">
-            Every property portfolio has an optimal refinancing order that minimizes costs and maximizes approval odds. Mo Abdel analyzes your specific properties, income, reserves, and goals to build a custom sequencing plan across 200+ wholesale lender options.
+            Every property portfolio has an optimal refinancing order that minimizes costs and maximizes approval odds. Mo Abdel analyzes your specific properties, income, reserves, and goals to build a custom sequencing plan across 50+ Wholesale Lenders options.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">request your portfolio analysis</Link>.
@@ -605,11 +605,11 @@ export default function RefinanceMultiplePropertiesPortfolioStrategy2026() {
           Wholesale Broker Access to Portfolio Lenders &amp; Specialized Programs
         </h2>
         <p>
-          Multi-property investors require lender relationships that retail banks cannot provide. A <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:text-blue-800">wholesale mortgage broker</Link> with access to 200+ lenders provides three critical advantages for portfolio refinancing:
+          Multi-property investors require lender relationships that retail banks cannot provide. A <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:text-blue-800">wholesale mortgage broker</Link> with access to 50+ Wholesale Lenders provides three critical advantages for portfolio refinancing:
         </p>
         <ul className="list-disc pl-6 my-4 space-y-2">
           <li><strong>Portfolio lender access:</strong> Portfolio lenders hold loans on their own balance sheet and set their own underwriting guidelines. They can approve borrowers with 10+ financed properties, non-standard income documentation, and unique portfolio structures that agency lenders (Fannie/Freddie) decline.</li>
-          <li><strong>DSCR program variety:</strong> Different DSCR lenders offer different minimums (1.0, 1.15, 1.25), property count limits, and prepayment structures. Comparing across 200+ options ensures each property matches the most favorable DSCR program available.</li>
+          <li><strong>DSCR program variety:</strong> Different DSCR lenders offer different minimums (1.0, 1.15, 1.25), property count limits, and prepayment structures. Comparing across 50+ Wholesale Lenders ensures each property matches the most favorable DSCR program available.</li>
           <li><strong>Blanket loan sourcing:</strong> Blanket loans are not available through retail channels. Wholesale brokers maintain relationships with private capital sources and specialty lenders who offer blanket mortgage structures with competitive terms and partial release provisions.</li>
           <li><strong>Cross-lender coordination:</strong> When refinancing multiple properties simultaneously across different lenders, a wholesale broker coordinates timelines, document requests, and closing dates to prevent conflicts and lock expirations.</li>
           <li><strong>Pricing arbitrage:</strong> Different lenders price investment property risk differently. A property that receives a 0.75% rate premium at one lender may receive only 0.25% at another. Across 5 to 10 properties, these pricing differences compound into thousands of dollars in annual savings.</li>
@@ -623,7 +623,7 @@ export default function RefinanceMultiplePropertiesPortfolioStrategy2026() {
         <div className="speakable-paa">
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">How many investment properties can I finance at once?</h3>
           <p>
-            <strong>Conventional programs allow up to 10 total financed properties per borrower.</strong> DSCR and portfolio lenders have no hard cap&mdash;investors commonly hold 15 to 25+ financed properties through these channels. The practical limit is driven by reserve requirements and lender-specific policies. A wholesale broker identifies lenders with the highest property count allowances across 200+ available programs.
+            <strong>Conventional programs allow up to 10 total financed properties per borrower.</strong> DSCR and portfolio lenders have no hard cap&mdash;investors commonly hold 15 to 25+ financed properties through these channels. The practical limit is driven by reserve requirements and lender-specific policies. A wholesale broker identifies lenders with the highest property count allowances across 50+ Wholesale Lenders.
           </p>
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">What credit score do I need for multiple investment property refinances?</h3>
@@ -673,7 +673,7 @@ export default function RefinanceMultiplePropertiesPortfolioStrategy2026() {
             Refinancing multiple properties demands a strategic approach that accounts for DTI stacking, reserve management, rate timing, and program selection for each individual property. The difference between a coordinated portfolio refinance and an ad hoc approach adds up to tens of thousands of dollars in savings across your holdings.
           </p>
           <p className="mb-4">
-            <strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">schedule a consultation</Link> for a customized portfolio refinancing plan with access to 200+ wholesale lenders, DSCR programs, and portfolio lending options.
+            <strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">schedule a consultation</Link> for a customized portfolio refinancing plan with access to 50+ Wholesale Lenders, DSCR programs, and portfolio lending options.
           </p>
           <p className="text-sm text-gray-600 mt-4">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />

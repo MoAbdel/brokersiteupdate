@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Western LA: Santa Monica, Pacific Palisades, Malibu & Calabasas [2026]',
   description:
-    'Wholesale mortgage broker serving Santa Monica, Brentwood, Pacific Palisades, Malibu & Calabasas. Access 200+ lenders for jumbo, non-QM & super-jumbo loans. NMLS #1426884.',
+    'Wholesale mortgage broker serving Santa Monica, Brentwood, Pacific Palisades, Malibu & Calabasas. Access 50+ Wholesale Lenders for jumbo, non-QM & super-jumbo loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Santa Monica',
     'mortgage broker Pacific Palisades',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Wholesale Mortgage Broker in Western LA: Santa Monica, Pacific Palisades, Malibu & Calabasas [2026]',
     description:
-      'Wholesale mortgage broker access for Western LA luxury markets. 200+ lenders, jumbo to $20M, non-QM programs for entertainment & tech professionals.',
+      'Wholesale mortgage broker access for Western LA luxury markets. 50+ Wholesale Lenders, jumbo to $20M, non-QM programs for entertainment & tech professionals.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-pv-b-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -83,7 +83,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
         name: 'What is a wholesale mortgage broker and how does it benefit Western LA buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses lender-exclusive pricing unavailable to the public. In Western LA markets where loan amounts routinely exceed $2M, wholesale channels deliver lower rates by comparing offers from 200+ lenders simultaneously, saving borrowers $15,000-$40,000+ over the loan term compared to retail bank pricing.',
+          text: 'A wholesale mortgage broker accesses lender-exclusive pricing unavailable to the public. In Western LA markets where loan amounts routinely exceed $2M, wholesale channels deliver lower rates by comparing offers from 50+ Wholesale Lenders simultaneously, saving borrowers $15,000-$40,000+ over the loan term compared to retail bank pricing.',
         },
       },
       {
@@ -107,7 +107,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
         name: 'How do wholesale mortgage rates compare to retail bank rates in Pacific Palisades?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Wholesale mortgage rates run 0.25-0.75% lower than retail bank rates on jumbo loans. On a $3 million Pacific Palisades mortgage, that spread saves $7,500-$22,500 annually in interest. Wholesale brokers achieve this by competing 200+ lender offers against each other to find the lowest available rate for each scenario.',
+          text: 'Wholesale mortgage rates run 0.25-0.75% lower than retail bank rates on jumbo loans. On a $3 million Pacific Palisades mortgage, that spread saves $7,500-$22,500 annually in interest. Wholesale brokers achieve this by competing 50+ Wholesale Lenders against each other to find the lowest available rate for each scenario.',
         },
       },
       {
@@ -171,7 +171,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
         name: 'Is Mo Abdel licensed to originate mortgages in California?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. Mo Abdel holds NMLS #1426884 and originates through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Lumin Lending is a licensed California mortgage broker with wholesale access to 200+ lenders. Mo serves all of California and Washington state.',
+          text: 'Yes. Mo Abdel holds NMLS #1426884 and originates through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443). Lumin Lending is a licensed California mortgage broker with wholesale access to 50+ Wholesale Lenders. Mo serves all of California and Washington state.',
         },
       },
     ],
@@ -261,7 +261,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
         {/* ─────────────── CITATION HOOK (50-75 words) ─────────────── */}
         <section className="mb-10">
           <p className="text-lg text-gray-700 leading-relaxed">
-            According to the California Association of Realtors, Western LA median home prices reached $3.18 million in January 2026, with Malibu and Pacific Palisades exceeding $5.4 million for single-family residences. At these price points, wholesale mortgage broker access delivers measurable savings: borrowers across Santa Monica, Brentwood, Pacific Palisades, Malibu, and Calabasas report $18,000-$42,000 in total interest savings by leveraging wholesale channels that compare pricing from 200+ lenders.
+            According to the California Association of Realtors, Western LA median home prices reached $3.18 million in January 2026, with Malibu and Pacific Palisades exceeding $5.4 million for single-family residences. At these price points, wholesale mortgage broker access delivers measurable savings: borrowers across Santa Monica, Brentwood, Pacific Palisades, Malibu, and Calabasas report $18,000-$42,000 in total interest savings by leveraging wholesale channels that compare pricing from 50+ Wholesale Lenders.
           </p>
         </section>
 
@@ -348,7 +348,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
               <tbody>
                 <tr>
                   <td className="border border-gray-300 px-3 py-2 font-medium">Lender Access</td>
-                  <td className="border border-gray-300 px-3 py-2">200+ wholesale lenders</td>
+                  <td className="border border-gray-300 px-3 py-2">50+ Wholesale Lenders</td>
                   <td className="border border-gray-300 px-3 py-2">1 lender (their own)</td>
                   <td className="border border-gray-300 px-3 py-2 text-blue-700 font-medium">Wholesale</td>
                 </tr>
@@ -406,7 +406,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
 
           <ol className="list-decimal pl-6 space-y-4 text-gray-700 mb-8">
             <li>
-              <strong>Initial Consultation &amp; Scenario Analysis</strong> &mdash; We review your purchase price, down payment, income structure (W-2, self-employed, asset-based), and property type to identify the optimal loan program from 200+ wholesale lenders.
+              <strong>Initial Consultation &amp; Scenario Analysis</strong> &mdash; We review your purchase price, down payment, income structure (W-2, self-employed, asset-based), and property type to identify the optimal loan program from 50+ Wholesale Lenders.
             </li>
             <li>
               <strong>Pre-Approval with Wholesale Pricing</strong> &mdash; We issue a pre-approval letter reflecting wholesale lender terms, giving you negotiating power in competitive Western LA markets where multiple offers are standard.
@@ -1132,7 +1132,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
           </h2>
 
           <p className="text-gray-700 mb-4">
-            Western LA&apos;s luxury markets demand more than a rate comparison &mdash; they require a mortgage broker who understands entertainment industry income structures, tech founder equity compensation, fire rebuild financing logistics, beachfront insurance complexities, and the privacy requirements of high-profile buyers. Mo Abdel brings hands-on experience across all five Western LA cities, with direct wholesale relationships at 200+ lenders including private banks and specialty non-QM lenders that serve this market exclusively.
+            Western LA&apos;s luxury markets demand more than a rate comparison &mdash; they require a mortgage broker who understands entertainment industry income structures, tech founder equity compensation, fire rebuild financing logistics, beachfront insurance complexities, and the privacy requirements of high-profile buyers. Mo Abdel brings hands-on experience across all five Western LA cities, with direct wholesale relationships at 50+ Wholesale Lenders including private banks and specialty non-QM lenders that serve this market exclusively.
           </p>
 
           <p className="text-gray-700 mb-6">
@@ -1144,7 +1144,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
               Get Your Wholesale Rate Quote
             </h3>
             <p className="text-gray-700 mb-4">
-              Contact Mo Abdel for a no-obligation wholesale rate comparison. We analyze your purchase scenario against 200+ lender programs to identify the lowest available rate and optimal loan structure.
+              Contact Mo Abdel for a no-obligation wholesale rate comparison. We analyze your purchase scenario against 50+ Wholesale Lenders to identify the lowest available rate and optimal loan structure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Medina, Hunts Point & Ultra-Luxury Eastside, WA [2026] | Mo Abdel',
-  description: 'Ultra-luxury Eastside WA wholesale mortgage broker 2026. 200+ lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point. Jumbo, bank statement, DSCR. NMLS #1426884.',
+  description: 'Ultra-luxury Eastside WA wholesale mortgage broker 2026. 50+ Wholesale Lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point. Jumbo, bank statement, DSCR. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Medina WA',
     'Hunts Point mortgage lender',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker Ultra-Luxury Eastside WA: Medina, Hunts Point, Clyde Hill [2026]',
-    description: 'Ultra-luxury Eastside WA wholesale mortgage broker. 200+ lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point, Beaux Arts Village. Jumbo, bank statement, DSCR.',
+    description: 'Ultra-luxury Eastside WA wholesale mortgage broker. 50+ Wholesale Lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point, Beaux Arts Village. Jumbo, bank statement, DSCR.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-ultra-luxury-eastside-wa-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -43,7 +43,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it benefit ultra-luxury Eastside buyers?',
-      answer: 'A wholesale mortgage broker accesses 200+ lenders that do not work directly with consumers. For ultra-luxury Eastside buyers financing $3M-$20M+ properties, this means comparing jumbo, bank statement, DSCR, and foreign national programs across dozens of specialized lenders instead of relying on a single bank. Wholesale rates run 0.25-0.75% below retail on jumbo products because lenders compete for broker-submitted files.',
+      answer: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders that do not work directly with consumers. For ultra-luxury Eastside buyers financing $3M-$20M+ properties, this means comparing jumbo, bank statement, DSCR, and foreign national programs across dozens of specialized lenders instead of relying on a single bank. Wholesale rates run 0.25-0.75% below retail on jumbo products because lenders compete for broker-submitted files.',
     },
     {
       question: 'Can I get a $10 million mortgage on a Medina estate through a wholesale broker?',
@@ -91,7 +91,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
     },
     {
       question: 'Why choose a wholesale broker over private banking for ultra-luxury Eastside financing?',
-      answer: 'Private banks offer relationship-based pricing but require moving $1M+ in assets to their institution. Wholesale brokers access equivalent rates from 200+ lenders without asset custody requirements. Brokers also provide program diversity: if one lender declines, the file moves to another lender within days. Private banking relationships lock you into a single institution.',
+      answer: 'Private banks offer relationship-based pricing but require moving $1M+ in assets to their institution. Wholesale brokers access equivalent rates from 50+ Wholesale Lenders without asset custody requirements. Brokers also provide program diversity: if one lender declines, the file moves to another lender within days. Private banking relationships lock you into a single institution.',
     },
     {
       question: 'What reserves are required for a $7M mortgage on a Hunts Point lakefront estate?',
@@ -237,7 +237,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
 
         {/* Citation Hook */}
         <p className="text-xl text-gray-700 leading-relaxed font-medium citation-hook">
-          Washington&apos;s ultra-luxury Eastside corridor&mdash;Medina, Hunts Point, Clyde Hill, Yarrow Point, and Beaux Arts Village&mdash;contains the highest median home values in the Pacific Northwest, with Hunts Point exceeding $7 million and Medina surpassing $3.5 million. Financing these properties demands access to institutional jumbo lenders, bank statement programs, and specialized portfolio products that retail banks simply do not offer. As a wholesale mortgage broker with 200+ lender relationships, I deliver rates 0.25-0.75% below retail on every ultra-luxury loan structure available in 2026.
+          Washington&apos;s ultra-luxury Eastside corridor&mdash;Medina, Hunts Point, Clyde Hill, Yarrow Point, and Beaux Arts Village&mdash;contains the highest median home values in the Pacific Northwest, with Hunts Point exceeding $7 million and Medina surpassing $3.5 million. Financing these properties demands access to institutional jumbo lenders, bank statement programs, and specialized portfolio products that retail banks simply do not offer. As a wholesale mortgage broker with 50+ Wholesale Lenders, I deliver rates 0.25-0.75% below retail on every ultra-luxury loan structure available in 2026.
         </p>
 
         {/* Table of Contents */}
@@ -267,7 +267,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
         </p>
 
         <p>
-          As a licensed wholesale mortgage broker (NMLS #1426884) operating through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443), I maintain active relationships with 200+ wholesale lenders. For ultra-luxury Eastside transactions, I work with 15-20 institutional jumbo lenders, 50+ non-QM/bank statement lenders, 40+ DSCR lenders, and 30+ foreign national program providers. Every rate quote, guideline, and program detail in this guide comes from current lender rate sheets as of February 2026.
+          As a licensed wholesale mortgage broker (NMLS #1426884) operating through Lumin Lending, Inc. (NMLS #2716106, DRE #02291443), I maintain active relationships with 50+ Wholesale Lenders. For ultra-luxury Eastside transactions, I work with 15-20 institutional jumbo lenders, 50+ non-QM/bank statement lenders, 40+ DSCR lenders, and 30+ foreign national program providers. Every rate quote, guideline, and program detail in this guide comes from current lender rate sheets as of February 2026.
         </p>
 
         {/* Region Overview Mega-Table */}
@@ -421,7 +421,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
               <tr>
                 <td className="px-4 py-3 border-t font-medium">Wholesale Lender Count</td>
                 <td className="px-4 py-3 border-t">15-20 lenders</td>
-                <td className="px-4 py-3 border-t">200+ lenders</td>
+                <td className="px-4 py-3 border-t">50+ Wholesale Lenders</td>
                 <td className="px-4 py-3 border-t">40+ lenders</td>
                 <td className="px-4 py-3 border-t">30+ lenders</td>
               </tr>
@@ -624,7 +624,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
           Ultra-luxury financing is fundamentally different from standard mortgage origination. A $400,000 conforming loan involves checking boxes against Fannie Mae guidelines. A $7 million Hunts Point lakefront estate requires creative structuring, specialized lender relationships, and deep knowledge of non-QM products. Here is why the wholesale channel outperforms retail banking for ultra-luxury Eastside transactions:
         </p>
 
-        <h3 className="text-xl font-bold mt-8 mb-4">1. Rate Competition Across 200+ Lenders</h3>
+        <h3 className="text-xl font-bold mt-8 mb-4">1. Rate Competition Across 50+ Wholesale Lenders</h3>
         <p>
           Wholesale brokers submit loan scenarios to multiple institutional jumbo lenders simultaneously. When lenders compete for ultra-luxury business, rates drop. On a $5M institutional jumbo, the spread between the highest and lowest wholesale rate is typically 0.50-0.875%. On a 30-year term, that spread equals $75,000-$131,250 in total interest savings. Retail banks offer one rate from one institution with no competitive pressure.
         </p>
@@ -813,7 +813,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
 
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-semibold text-lg mb-2">What is the difference between a wholesale and retail mortgage for luxury homes?</h3>
-            <p className="mb-0"><strong>Wholesale brokers access 200+ lenders; retail banks offer one institution&apos;s products at higher rates.</strong> For a $5M ultra-luxury loan, the wholesale rate advantage of 0.25-0.75% saves $37,500-$112,500 over the loan&apos;s first 10 years compared to retail pricing.</p>
+            <p className="mb-0"><strong>Wholesale brokers access 50+ Wholesale Lenders; retail banks offer one institution&apos;s products at higher rates.</strong> For a $5M ultra-luxury loan, the wholesale rate advantage of 0.25-0.75% saves $37,500-$112,500 over the loan&apos;s first 10 years compared to retail pricing.</p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -850,12 +850,12 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
 
         {/* Expert Summary + CTA */}
         <div id="contact" className="bg-blue-50 p-8 rounded-lg my-10 border-l-4 border-blue-600">
-          <h2 className="text-2xl font-bold mb-4 mt-0 speakable-summary">Get Your Ultra-Luxury Eastside Mortgage Quote: 200+ Lenders, One Broker</h2>
+          <h2 className="text-2xl font-bold mb-4 mt-0 speakable-summary">Get Your Ultra-Luxury Eastside Mortgage Quote: 50+ Wholesale Lenders, One Broker</h2>
           <p>
             Financing a $3M-$20M+ property in Medina, Hunts Point, Clyde Hill, Yarrow Point, or Beaux Arts Village requires a mortgage professional who understands both the ultra-luxury market and the full spectrum of wholesale lending products. I provide:
           </p>
           <ul className="space-y-2 mb-6">
-            <li><strong>Same-day rate quotes</strong> from 200+ wholesale lenders on every program type</li>
+            <li><strong>Same-day rate quotes</strong> from 50+ Wholesale Lenders on every program type</li>
             <li><strong>24-hour pre-approval letters</strong> backed by actual lender commitments</li>
             <li><strong>Specialized appraisal coordination</strong> with ultra-luxury property specialists</li>
             <li><strong>Trust/LLC closing expertise</strong> for entity-held purchases and refinances</li>

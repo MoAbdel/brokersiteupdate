@@ -704,7 +704,7 @@ export default function ReverseMortgageDefaultPreventionPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale mortgage broker help prevent reverse mortgage default?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker comparing 200+ HECM lenders structures the loan with appropriate safeguards from origination.</strong> This includes proper LESA sizing, financial assessment optimization, and matching you with servicers known for responsive loss mitigation practices.
+              <strong>A wholesale broker comparing 50+ Wholesale Lenders structures the loan with appropriate safeguards from origination.</strong> This includes proper LESA sizing, financial assessment optimization, and matching you with servicers known for responsive loss mitigation practices.
             </p>
           </div>
         </div>
@@ -750,7 +750,7 @@ export default function ReverseMortgageDefaultPreventionPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive HECM reverse mortgage terms with the right protections for your situation.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive HECM reverse mortgage terms with the right protections for your situation.
           </p>
         </div>
 

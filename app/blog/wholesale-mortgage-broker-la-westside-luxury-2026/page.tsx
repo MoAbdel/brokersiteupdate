@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker LA Westside: Culver City, Marina del Rey, Playa del Rey [2026]',
-  description: 'Wholesale mortgage broker serving LA Westside luxury markets. Culver City, Marina del Rey, Playa del Rey, Westchester. Entertainment income, condo financing, 200+ lenders. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving LA Westside luxury markets. Culver City, Marina del Rey, Playa del Rey, Westchester. Entertainment income, condo financing, 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker LA Westside',
     'Culver City mortgage broker',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker LA Westside: Culver City, Marina del Rey, Playa del Rey [2026]',
-    description: 'Wholesale mortgage broker for LA Westside luxury markets. Entertainment income qualification, condo financing, 200+ wholesale lenders.',
+    description: 'Wholesale mortgage broker for LA Westside luxury markets. Entertainment income qualification, condo financing, 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-westside-luxury-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -38,7 +38,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Wholesale Mortgage Broker LA Westside: Culver City, Marina del Rey, Playa del Rey & Westchester Guide [2026]",
-    "description": "Wholesale mortgage broker serving LA Westside luxury markets with entertainment income qualification, marina condo financing, and 200+ wholesale lender access.",
+    "description": "Wholesale mortgage broker serving LA Westside luxury markets with entertainment income qualification, marina condo financing, and 50+ Wholesale Lenders.",
     "about": {
       "@type": "FinancialProduct",
       "name": "Wholesale Mortgage Lending",
@@ -117,7 +117,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
     },
     {
       question: 'Do wholesale brokers offer better rates than banks for jumbo loans on the Westside?',
-      answer: 'Wholesale brokers consistently deliver lower jumbo rates because they access wholesale rate sheets from 200+ lenders. Banks price jumbo loans from a single portfolio. The typical savings is 0.25% to 0.50% on jumbo products, translating to $250 to $500 per month on a $1 million loan balance.',
+      answer: 'Wholesale brokers consistently deliver lower jumbo rates because they access wholesale rate sheets from 50+ Wholesale Lenders. Banks price jumbo loans from a single portfolio. The typical savings is 0.25% to 0.50% on jumbo products, translating to $250 to $500 per month on a $1 million loan balance.',
     },
     {
       question: 'What are bank statement loans and who qualifies on the LA Westside?',
@@ -137,7 +137,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
     },
     {
       question: 'What is the difference between a wholesale mortgage broker and a direct lender?',
-      answer: 'A wholesale mortgage broker shops your loan across 200+ lenders to find the lowest rate and best program fit. A direct lender offers only their own products at their own rates. For LA Westside borrowers with complex income or high loan amounts, broker access to multiple lenders consistently delivers better outcomes.',
+      answer: 'A wholesale mortgage broker shops your loan across 50+ Wholesale Lenders to find the lowest rate and best program fit. A direct lender offers only their own products at their own rates. For LA Westside borrowers with complex income or high loan amounts, broker access to multiple lenders consistently delivers better outcomes.',
     },
     {
       question: 'How long does a wholesale mortgage closing take for LA Westside properties?',
@@ -170,7 +170,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending",
-    "description": "Licensed California wholesale mortgage broker serving LA Westside communities including Culver City, Marina del Rey, Playa del Rey, and Westchester with 200+ lender access.",
+    "description": "Licensed California wholesale mortgage broker serving LA Westside communities including Culver City, Marina del Rey, Playa del Rey, and Westchester with 50+ Wholesale Lenders.",
     "url": "https://www.mothebroker.com",
     "telephone": "(949) 579-2057",
     "priceRange": "$$$",
@@ -261,7 +261,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
             <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;LA&apos;s Westside is where the entertainment industry meets coastal luxury real estate. Over 60% of my Westside borrowers have variable income structures&mdash;residuals, royalties, backend points, production bonuses&mdash;that traditional banks reject outright. By accessing 200+ wholesale lenders, I match these borrowers with programs designed for exactly how creative professionals earn. The rate savings alone on a $1.2 million jumbo loan typically exceed $4,200 per year compared to retail bank pricing.&quot;
+              &quot;LA&apos;s Westside is where the entertainment industry meets coastal luxury real estate. Over 60% of my Westside borrowers have variable income structures&mdash;residuals, royalties, backend points, production bonuses&mdash;that traditional banks reject outright. By accessing 50+ Wholesale Lenders, I match these borrowers with programs designed for exactly how creative professionals earn. The rate savings alone on a $1.2 million jumbo loan typically exceed $4,200 per year compared to retail bank pricing.&quot;
             </p>
             <p className="text-gray-600 mt-2">&mdash; Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
           </div>
@@ -293,7 +293,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
           </p>
 
           <p>
-            According to the <a href="https://www.car.org/" target="_blank" rel="noopener noreferrer">California Association of Realtors</a>, LA County&apos;s housing affordability index remains among the lowest in the state. For Westside buyers, wholesale broker access to 200+ lenders eliminates the single-lender limitation that retail banks impose, delivering better rates on high-balance loans and more flexible qualification for variable-income borrowers.
+            According to the <a href="https://www.car.org/" target="_blank" rel="noopener noreferrer">California Association of Realtors</a>, LA County&apos;s housing affordability index remains among the lowest in the state. For Westside buyers, wholesale broker access to 50+ Wholesale Lenders eliminates the single-lender limitation that retail banks impose, delivering better rates on high-balance loans and more flexible qualification for variable-income borrowers.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -592,7 +592,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
           </ul>
 
           <p>
-            Mo Abdel&apos;s experience originating wholesale loans for entertainment professionals on the LA Westside provides direct insight into which lenders approve these income types and at what terms. The broker relationship with 200+ wholesale lenders means a single application reaches the lenders most likely to approve each specific income profile.
+            Mo Abdel&apos;s experience originating wholesale loans for entertainment professionals on the LA Westside provides direct insight into which lenders approve these income types and at what terms. The broker relationship with 50+ Wholesale Lenders means a single application reaches the lenders most likely to approve each specific income profile.
           </p>
 
           <hr className="my-10" />
@@ -763,7 +763,7 @@ export default function WholesaleMortgageBrokerLAWestsideLuxury2026() {
           <div id="expert-summary" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 expert-summary">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary: LA Westside Wholesale Mortgage Guidance from Mo Abdel</h2>
             <p className="text-gray-800">
-              The LA Westside mortgage market demands a broker who understands entertainment industry income, marina condo complexities, and the jumbo lending landscape. Culver City&apos;s studio economy, Marina del Rey&apos;s non-warrantable condo challenges, Playa del Rey&apos;s coastal quiet luxury, and Westchester&apos;s accessible Westside entry all require different lending approaches&mdash;and a wholesale broker with 200+ lender relationships delivers the right solution for each scenario.
+              The LA Westside mortgage market demands a broker who understands entertainment industry income, marina condo complexities, and the jumbo lending landscape. Culver City&apos;s studio economy, Marina del Rey&apos;s non-warrantable condo challenges, Playa del Rey&apos;s coastal quiet luxury, and Westchester&apos;s accessible Westside entry all require different lending approaches&mdash;and a wholesale broker with 50+ Wholesale Lenders delivers the right solution for each scenario.
             </p>
             <p className="text-gray-800">
               From bank statement programs for self-employed showrunners to non-warrantable condo financing for Marina del Rey waterfront units to DSCR investor loans for Culver City rental properties, wholesale access provides both better rates and more program options than any single retail bank. The typical LA Westside borrower saves $4,000 to $8,000 annually on a jumbo loan through wholesale pricing.

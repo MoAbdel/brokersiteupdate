@@ -868,7 +868,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
 
               <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="font-bold mb-2">How does a wholesale broker help with refinancing?</h3>
-                <p>Wholesale mortgage brokers compare options from 200+ lenders simultaneously, often finding better rates than retail banks. They have access to both rate-and-term and cash-out programs from multiple sources and can quickly identify which lenders offer the best terms for your specific situation.</p>
+                <p>Wholesale mortgage brokers compare options from 50+ Wholesale Lenders simultaneously, often finding better rates than retail banks. They have access to both rate-and-term and cash-out programs from multiple sources and can quickly identify which lenders offer the best terms for your specific situation.</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
@@ -900,7 +900,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
                 If your goal is lowering your monthly payment or shortening your loan term without extracting equity, a rate-and-term refinance delivers the lowest rates and fastest closing. If you need substantial funds for home improvements, debt consolidation, or investment opportunities, a cash-out refinance provides lump-sum access to your equity at fixed rates.
               </p>
               <p className="text-lg text-gray-800 mb-6">
-                As a wholesale mortgage broker, I compare both options across 200+ lenders to find the optimal solution for your specific situation. Whether you need cash or simply want better terms, the right refinance strategy can save you thousands over the life of your loan.
+                As a wholesale mortgage broker, I compare both options across 50+ Wholesale Lenders to find the optimal solution for your specific situation. Whether you need cash or simply want better terms, the right refinance strategy can save you thousands over the life of your loan.
               </p>
 
               <div className="text-center">

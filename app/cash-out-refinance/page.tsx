@@ -8,10 +8,10 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, 
 
 export const metadata: Metadata = {
   title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
-  description: 'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
+  description: 'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 50+ Wholesale Lenders with Mo Abdel.',
   openGraph: {
     title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
-    description: 'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
+    description: 'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 50+ Wholesale Lenders with Mo Abdel.',
     url: 'https://www.mothebroker.com/cash-out-refinance',
   },
   alternates: {
@@ -36,7 +36,7 @@ const pageSchema = buildServiceWebPageSchema({
   pageUrl: PAGE_URL,
   title: 'Orange County Cash-Out Refinance | Turn Equity Into Cash',
   description:
-    'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 200+ lenders with Mo Abdel.',
+    'Use a cash-out refinance in Orange County to consolidate debt, fund renovations, or invest. Compare options from 50+ Wholesale Lenders with Mo Abdel.',
   breadcrumbName: 'Cash-Out Refinance',
   dateModified: '2026-02-16',
 });
@@ -560,7 +560,7 @@ export default function CashOutRefinancePage() {
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Building className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
-                <h3 className="text-xl font-bold mb-3">200+ Lender Network</h3>
+                <h3 className="text-xl font-bold mb-3">50+ Wholesale Lenders</h3>
                 <p className="text-slate-200">
                   Access to wholesale pricing and multiple program options. I shop the market
                   to find your best cash-out refinance terms.

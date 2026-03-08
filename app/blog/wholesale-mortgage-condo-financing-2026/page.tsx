@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Condo Financing 2026: Warrantable vs Non-Warrantable Loans | Mo Abdel',
-  description: 'Condo mortgages require project approval — warrantable condos qualify for conventional loans while non-warrantable condos need non-QM or portfolio lenders. Wholesale brokers access 200+ lenders including condo-specialist programs. NMLS #1426884.',
+  description: 'Condo mortgages require project approval — warrantable condos qualify for conventional loans while non-warrantable condos need non-QM or portfolio lenders. Wholesale brokers access 50+ Wholesale Lenders including condo-specialist programs. NMLS #1426884.',
   keywords: [
     'condo mortgage warrantable non-warrantable',
     'warrantable condo requirements',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Condo Financing 2026: Warrantable vs Non-Warrantable Loans',
-    description: 'Condo mortgages require project approval — warrantable condos qualify for conventional loans while non-warrantable condos need non-QM or portfolio lenders. Wholesale brokers access 200+ lenders including condo-specialist programs.',
+    description: 'Condo mortgages require project approval — warrantable condos qualify for conventional loans while non-warrantable condos need non-QM or portfolio lenders. Wholesale brokers access 50+ Wholesale Lenders including condo-specialist programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-condo-financing-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -52,7 +52,7 @@ const faqData = [
   },
   {
     question: 'Can I get a conventional loan on a non-warrantable condo?',
-    answer: 'No. Conventional loans through Fannie Mae and Freddie Mac require the condo project to be warrantable. Non-warrantable condos require alternative financing such as non-QM loans, portfolio lenders, or DSCR programs. Wholesale brokers access 200+ lenders including specialists that finance non-warrantable projects.',
+    answer: 'No. Conventional loans through Fannie Mae and Freddie Mac require the condo project to be warrantable. Non-warrantable condos require alternative financing such as non-QM loans, portfolio lenders, or DSCR programs. Wholesale brokers access 50+ Wholesale Lenders including specialists that finance non-warrantable projects.',
   },
   {
     question: 'What is an FHA spot approval for condos?',
@@ -92,7 +92,7 @@ const faqData = [
   },
   {
     question: 'Does Mo Abdel finance condos in California and Washington?',
-    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) finances warrantable and non-warrantable condos throughout California and Washington. With access to 200+ wholesale lenders including condo-specialist programs, condotel lenders, and DSCR providers, Mo handles the full spectrum of condo financing scenarios.',
+    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) finances warrantable and non-warrantable condos throughout California and Washington. With access to 50+ Wholesale Lenders including condo-specialist programs, condotel lenders, and DSCR providers, Mo handles the full spectrum of condo financing scenarios.',
   },
 ];
 
@@ -212,7 +212,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
           </h1>
           <p className="speakable-hook text-lg md:text-xl text-blue-100 mb-8 max-w-3xl">
             Condo mortgages require project-level approval that most property types do not. Warrantable condos qualify for conventional,
-            FHA, and VA financing. Non-warrantable condos need specialized lenders that wholesale brokers access through a 200+ lender network.
+            FHA, and VA financing. Non-warrantable condos need specialized lenders that wholesale brokers access through a 50+ Wholesale Lenders.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">
@@ -243,7 +243,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
               <p className="text-gray-700 mb-4">
                 &quot;Condo financing is where the wholesale channel provides the clearest advantage over retail banks. When a bank
                 declines a condo purchase because the project is non-warrantable, they have zero alternatives for you. Through our
-                200+ lender network, we access portfolio lenders, non-QM condo specialists, condotel programs, and DSCR providers
+                50+ Wholesale Lenders, we access portfolio lenders, non-QM condo specialists, condotel programs, and DSCR providers
                 that finance projects most banks refuse to touch. Roughly 30-40% of the condo transactions we handle in California
                 involve projects that at least one major bank has already declined.&quot;
               </p>
@@ -522,7 +522,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
         </h2>
         <p>
           When a condo project fails warrantability — regardless of the reason — conventional, FHA, and VA financing are unavailable. This is
-          where the wholesale channel provides decisive value. Through our 200+ lender network, we access multiple categories of non-warrantable
+          where the wholesale channel provides decisive value. Through our 50+ Wholesale Lenders, we access multiple categories of non-warrantable
           condo financing:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6 not-prose">
@@ -712,7 +712,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
         </ul>
         <p>
           The bottom line: if a bank declines your condo purchase, it does not mean the condo is unfinanceable. It means the bank&apos;s
-          product menu is too limited. A wholesale broker with access to 200+ lenders — including condo specialists — has the tools to
+          product menu is too limited. A wholesale broker with access to 50+ Wholesale Lenders — including condo specialists — has the tools to
           find a solution.
         </p>
 
@@ -730,7 +730,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Can I get a mortgage on a non-warrantable condo?</h3>
             <p className="text-gray-700">
-              <strong>Yes, through non-QM lenders, portfolio lenders, and DSCR programs available via wholesale brokers.</strong> Conventional loans require warrantable status, but wholesale brokers access 200+ lenders including specialists that finance non-warrantable projects. Down payments typically start at 10-20% depending on the program and the specific non-warrantable triggers.
+              <strong>Yes, through non-QM lenders, portfolio lenders, and DSCR programs available via wholesale brokers.</strong> Conventional loans require warrantable status, but wholesale brokers access 50+ Wholesale Lenders including specialists that finance non-warrantable projects. Down payments typically start at 10-20% depending on the program and the specific non-warrantable triggers.
             </p>
           </div>
 
@@ -786,7 +786,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="/blog/wholesale-mortgage-broker-california-pillar-2026" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all">
               <h4 className="font-semibold text-gray-900 mb-1 text-sm">California Wholesale Mortgage Guide</h4>
-              <p className="text-xs text-gray-600">Complete guide to wholesale mortgage brokers in California with 200+ lender access.</p>
+              <p className="text-xs text-gray-600">Complete guide to wholesale mortgage brokers in California with 50+ Wholesale Lenders.</p>
               <span className="text-blue-600 text-xs font-medium flex items-center gap-1 mt-2">Read more <ArrowRight className="w-3 h-3" /></span>
             </Link>
             <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all">
@@ -825,7 +825,7 @@ export default function WholesaleMortgageCondoFinancing2026() {
           </h2>
           <p className="text-blue-100 text-lg mb-4">
             Condo financing requires project-level analysis that goes beyond standard mortgage qualification. Whether your condo is warrantable,
-            non-warrantable, a condotel, or an investment property, wholesale access to 200+ lenders means there is a financing solution
+            non-warrantable, a condotel, or an investment property, wholesale access to 50+ Wholesale Lenders means there is a financing solution
             for your specific scenario. Most banks decline non-warrantable condos — we specialize in them.
           </p>
           <p className="text-blue-200 mb-6">

@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker Marin County with 200+ lender access. Bank statement loans, jumbo financing, and competitive rates for Ross, Tiburon, Mill Valley. NMLS #1426884.',
+  title: 'Marin County Mortgage Broker: 50+ Wholesale Lenders for Self-Employed & Luxury Buyers [2026] | Mo Abdel',
+  description: 'Wholesale mortgage broker Marin County with 50+ Wholesale Lenders. Bank statement loans, jumbo financing, and competitive rates for Ross, Tiburon, Mill Valley. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Marin County',
     'mortgage broker Marin County',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     'best mortgage rates Marin County',
   ],
   openGraph: {
-    title: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]',
-    description: 'Access 200+ wholesale lenders for Marin County home purchases and refinances. Bank statement, jumbo, and conventional programs for every income type.',
+    title: 'Marin County Mortgage Broker: 50+ Wholesale Lenders for Self-Employed & Luxury Buyers [2026]',
+    description: 'Access 50+ Wholesale Lenders for Marin County home purchases and refinances. Bank statement, jumbo, and conventional programs for every income type.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-marin-county-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -38,7 +38,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it work in Marin County?',
-      answer: 'A wholesale mortgage broker originates loans through wholesale lending channels rather than funding directly. This means access to 200+ lenders who compete for your business, resulting in better rates and more program options than a single bank can offer. For Marin County, this is especially valuable given the need for jumbo, super-jumbo, and alternative documentation programs that serve the local market.'
+      answer: 'A wholesale mortgage broker originates loans through wholesale lending channels rather than funding directly. This means access to 50+ Wholesale Lenders who compete for your business, resulting in better rates and more program options than a single bank can offer. For Marin County, this is especially valuable given the need for jumbo, super-jumbo, and alternative documentation programs that serve the local market.'
     },
     {
       question: 'How do wholesale mortgage rates compare to retail bank rates in Marin County?',
@@ -98,7 +98,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]',
+            headline: 'Marin County Mortgage Broker: 50+ Wholesale Lenders for Self-Employed & Luxury Buyers [2026]',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -112,7 +112,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             },
             datePublished: '2026-02-07',
             dateModified: '2026-02-07',
-            description: 'Comprehensive wholesale mortgage broker guide for Marin County. 200+ lender access for jumbo loans, bank statement programs, and competitive rates across Ross, Tiburon, Belvedere, Mill Valley, Sausalito, and more.',
+            description: 'Comprehensive wholesale mortgage broker guide for Marin County. 50+ Wholesale Lenders for jumbo loans, bank statement programs, and competitive rates across Ross, Tiburon, Belvedere, Mill Valley, Sausalito, and more.',
             mainEntityOfPage: {
               '@type': 'WebPage',
               '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-marin-county-2026',
@@ -144,7 +144,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
-            description: 'Wholesale mortgage broker serving Marin County with 200+ lender access for home purchases, refinances, and specialty lending programs.',
+            description: 'Wholesale mortgage broker serving Marin County with 50+ Wholesale Lenders for home purchases, refinances, and specialty lending programs.',
             telephone: '(949) 579-2057',
             areaServed: [
               { '@type': 'County', name: 'Marin County, California' },
@@ -181,7 +181,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
           <span className="text-gray-900">Marin County</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]
+          Marin County Mortgage Broker: 50+ Wholesale Lenders for Self-Employed & Luxury Buyers [2026]
         </h1>
         <p className="text-lg text-gray-600">
           How wholesale lending delivers better rates, more programs, and faster closings for Marin County&apos;s unique mortgage landscape
@@ -206,7 +206,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Key Wholesale Lending Facts for Marin County [2026]</p>
           <p className="text-gray-800 mb-0">
-            Wholesale mortgage channels originate approximately <strong>30% of all U.S. home loans</strong>, a share that grows each year as rate-conscious borrowers discover the pricing advantage. In Marin County, where the median home value exceeds <strong>$1.6 million</strong> and <strong>34% of working residents are self-employed or 1099 contractors</strong>, wholesale access to jumbo programs and alternative income documentation is not a luxury &mdash; it is a necessity. A wholesale broker comparing <strong>200+ lender programs</strong> saves Marin County borrowers an average of <strong>$4,800 to $12,000 annually</strong> on jumbo mortgages through rate competition alone, before accounting for reduced fees and expanded program access.
+            Wholesale mortgage channels originate approximately <strong>30% of all U.S. home loans</strong>, a share that grows each year as rate-conscious borrowers discover the pricing advantage. In Marin County, where the median home value exceeds <strong>$1.6 million</strong> and <strong>34% of working residents are self-employed or 1099 contractors</strong>, wholesale access to jumbo programs and alternative income documentation is not a luxury &mdash; it is a necessity. A wholesale broker comparing <strong>50+ Wholesale Lenders</strong> saves Marin County borrowers an average of <strong>$4,800 to $12,000 annually</strong> on jumbo mortgages through rate competition alone, before accounting for reduced fees and expanded program access.
           </p>
         </div>
 
@@ -218,7 +218,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
           Unlike a retail bank that offers only its own mortgage products, a wholesale mortgage broker submits applications to multiple lenders who compete for the business. Each lender brings different rate pricing, qualification guidelines, and program specializations. For Marin County borrowers, this competition translates directly into better rates, more flexible qualification, and faster closings. The wholesale channel is particularly powerful for jumbo loans, self-employed borrowers, and complex income situations that require tailored solutions.
         </p>
         <p>
-          <strong>E-E-A-T Marker:</strong> <em>I am a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) operating through Lumin Lending (NMLS #2716106). My wholesale lending platform provides access to over 200 lenders offering conventional, jumbo, non-QM, and government loan programs. I work with Marin County borrowers across every income type and property category to find the most competitive financing available.</em>
+          <strong>E-E-A-T Marker:</strong> <em>I am a California-licensed mortgage broker (NMLS #1426884, DRE #02291443) operating through Lumin Lending (NMLS #2716106). My wholesale lending platform provides access to 50+ Wholesale Lenders offering conventional, jumbo, non-QM, and government loan programs. I work with Marin County borrowers across every income type and property category to find the most competitive financing available.</em>
         </p>
 
         {/* City Table */}
@@ -326,7 +326,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Lender Options</td>
-                <td className="py-2 px-4 border-b text-blue-600">200+ competing lenders</td>
+                <td className="py-2 px-4 border-b text-blue-600">50+ Wholesale Lenders</td>
                 <td className="py-2 px-4 border-b text-red-600">1 lender (their own)</td>
                 <td className="py-2 px-4 border-b">Critical for jumbo and non-QM program access</td>
               </tr>
@@ -551,7 +551,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
           Not all mortgage brokers are created equal, and Marin County&apos;s lending complexity demands a broker with specific qualifications and capabilities. When evaluating a wholesale mortgage broker, consider these factors:
         </p>
         <ul>
-          <li><strong>Lender network depth:</strong> Look for access to 200+ wholesale lenders, including multiple jumbo and non-QM specialists. A broker with only 20-30 lender relationships cannot adequately serve Marin County&apos;s diverse needs</li>
+          <li><strong>Lender network depth:</strong> Look for access to 50+ Wholesale Lenders, including multiple jumbo and non-QM specialists. A broker with only 20-30 lender relationships cannot adequately serve Marin County&apos;s diverse needs</li>
           <li><strong>Jumbo loan experience:</strong> Ask about recent jumbo closings in Marin County specifically. Jumbo underwriting requires different expertise than conforming loans</li>
           <li><strong>Alternative documentation expertise:</strong> If you are self-employed or have non-traditional income, verify the broker has closed bank statement and asset depletion loans in the past 12 months</li>
           <li><strong>Local market knowledge:</strong> A broker who understands Marin County&apos;s micro-markets, property types, and appraisal nuances advocates more effectively on your behalf</li>
@@ -588,7 +588,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
         <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Expert Summary: Wholesale Mortgage Lending in Marin County</h2>
           <p>
-            Marin County&apos;s mortgage landscape demands the depth and flexibility that only wholesale lending provides. With median home values of $1.6 million, a third of the workforce self-employed, and property values ranging from $1 million to $10 million+, no single bank can serve every Marin County borrower effectively. Wholesale brokerage connects borrowers to 200+ competing lenders, driving rates down and expanding program access for jumbo, bank statement, asset depletion, and specialty financing.
+            Marin County&apos;s mortgage landscape demands the depth and flexibility that only wholesale lending provides. With median home values of $1.6 million, a third of the workforce self-employed, and property values ranging from $1 million to $10 million+, no single bank can serve every Marin County borrower effectively. Wholesale brokerage connects borrowers to 50+ Wholesale Lenders, driving rates down and expanding program access for jumbo, bank statement, asset depletion, and specialty financing.
           </p>
           <p>
             The rate savings alone justify working with a wholesale broker. On a $2 million jumbo mortgage, the rate advantage of wholesale versus retail pricing saves $6,000-$10,000 annually. Add the program flexibility for self-employed borrowers, the closing speed advantage, and the ability to pivot to an alternative lender if conditions arise &mdash; and wholesale brokerage delivers measurably superior outcomes for Marin County homebuyers and refinancing homeowners.
@@ -609,7 +609,7 @@ export default function WholesaleMortgageBrokerMarinCounty2026() {
             <li><a href="/blog/bank-statement-loans-self-employed-2026">Bank Statement Loans for Self-Employed Borrowers [2026]</a></li>
             <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates [2026]</a></li>
             <li><a href="/blog/non-qm-loans-complete-guide-2026">Non-QM Loans Complete Guide [2026]</a></li>
-            <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained [2026]</a></li>
+            <li><a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders Explained [2026]</a></li>
             <li><a href="/blog/asset-depletion-loans-guide-2026">Asset Depletion Loans Guide [2026]</a></li>
           </ul>
         </div>

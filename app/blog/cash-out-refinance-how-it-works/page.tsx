@@ -180,7 +180,7 @@ export default function CashOutRefinanceHowItWorksPage() {
           {/* Citation Hook - 50-75 words */}
           <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to over 200 lenders: &quot;A cash-out refinance replaces your existing mortgage with a new, larger loan and delivers the difference directly to you as cash at closing. In our Orange County transactions, homeowners consistently access $100,000 to $500,000 by leveraging their accumulated equity through this straightforward refinancing strategy.&quot;
+              According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to 50+ Wholesale Lenders: &quot;A cash-out refinance replaces your existing mortgage with a new, larger loan and delivers the difference directly to you as cash at closing. In our Orange County transactions, homeowners consistently access $100,000 to $500,000 by leveraging their accumulated equity through this straightforward refinancing strategy.&quot;
             </p>
           </div>
 
@@ -402,7 +402,7 @@ export default function CashOutRefinanceHowItWorksPage() {
           </div>
 
           <p>
-            As a wholesale broker, Mo Abdel can often access reduced pricing through lender relationships. &quot;Working with 200+ lenders means I can shop not just rates but also closing cost structures. Some lenders offer credits that substantially offset closing costs for qualified borrowers.&quot;
+            As a wholesale broker, Mo Abdel can often access reduced pricing through lender relationships. &quot;Working with 50+ Wholesale Lenders means I can shop not just rates but also closing cost structures. Some lenders offer credits that substantially offset closing costs for qualified borrowers.&quot;
           </p>
 
           {/* Data & Comparison Hub - 400-500 words */}
@@ -594,7 +594,7 @@ export default function CashOutRefinanceHowItWorksPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4">Ready to Explore Your Cash-Out Refinance Options?</h2>
 
           <p>
-            Mo Abdel, NMLS #1426884, specializes in cash-out refinancing for Orange County homeowners. As a wholesale mortgage broker with access to over 200 lenders, Mo provides competitive rate quotes and personalized guidance for accessing your home equity.
+            Mo Abdel, NMLS #1426884, specializes in cash-out refinancing for Orange County homeowners. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, Mo provides competitive rate quotes and personalized guidance for accessing your home equity.
           </p>
 
           <p>

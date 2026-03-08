@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92612 | Irvine University Park | Jumbo Specialists',
-  description: 'Irvine University Park wholesale mortgage broker serving 92612. Access 200+ lenders for jumbo loans near UCI. NMLS #1426884.',
+  description: 'Irvine University Park wholesale mortgage broker serving 92612. Access 50+ Wholesale Lenders for jumbo loans near UCI. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92612',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92612 | Irvine University Park Jumbo Specialists',
-    description: 'Irvine University Park wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Irvine University Park wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92612',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92612Page() {
           Wholesale Mortgage Broker 92612 | Irvine University Park Jumbo Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders near UCI and Irvine&apos;s academic community
+          Access wholesale rates and 50+ Wholesale Lenders near UCI and Irvine&apos;s academic community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine University Park 92612 surrounds UC Irvine with a <strong>$1.4 million median home price</strong> attracting faculty, medical professionals, and tech workers. With the 2026 conforming limit at $1,209,750, many 92612 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks—plus lenders who understand academic income, grant funding, and international faculty needs.
+            Irvine University Park 92612 surrounds UC Irvine with a <strong>$1.4 million median home price</strong> attracting faculty, medical professionals, and tech workers. With the 2026 conforming limit at $1,209,750, many 92612 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates than banks—plus lenders who understand academic income, grant funding, and international faculty needs.
           </p>
         </div>
 
@@ -238,7 +238,7 @@ export default function WholesaleMortgageBroker92612Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Academic income understanding</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700">Specialized lenders available</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">International buyer programs</td><td className="py-2 px-4 border-b">Restricted</td><td className="py-2 px-4 border-b text-blue-700">Multiple options</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Physician programs</td><td className="py-2 px-4 border-b">May offer</td><td className="py-2 px-4 border-b text-blue-700">Best of multiple programs</td></tr>

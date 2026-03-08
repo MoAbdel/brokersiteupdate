@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Coastal North San Diego: Del Mar, La Jolla, Rancho Santa Fe & More [2026]',
-  description: 'Wholesale mortgage broker serving Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas & Carlsbad. 200+ lender access, jumbo & super-jumbo loans, bank statement programs. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas & Carlsbad. 50+ Wholesale Lenders, jumbo & super-jumbo loans, bank statement programs. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Del Mar',
     'La Jolla jumbo mortgage broker',
@@ -71,7 +71,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
         name: 'What is a wholesale mortgage broker and how does it help Coastal North San Diego buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses loan products from 200+ lenders rather than offering a single bank\'s menu. For Coastal North San Diego buyers purchasing $2M-$10M+ properties in Del Mar, La Jolla, and Rancho Santa Fe, wholesale access means more competitive jumbo pricing, expanded qualification criteria, and specialty programs like bank statement and DSCR loans that most retail banks do not offer.',
+          text: 'A wholesale mortgage broker accesses loan products from 50+ Wholesale Lenders rather than offering a single bank\'s menu. For Coastal North San Diego buyers purchasing $2M-$10M+ properties in Del Mar, La Jolla, and Rancho Santa Fe, wholesale access means more competitive jumbo pricing, expanded qualification criteria, and specialty programs like bank statement and DSCR loans that most retail banks do not offer.',
         },
       },
       {
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
         name: 'Is a wholesale mortgage broker free for the borrower?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'In most cases, yes. Wholesale mortgage brokers are compensated by the lender through a lender-paid compensation model. The borrower pays no additional broker fee beyond standard closing costs. This means borrowers access 200+ lenders and competitive pricing without paying extra for the broker\'s service.',
+          text: 'In most cases, yes. Wholesale mortgage brokers are compensated by the lender through a lender-paid compensation model. The borrower pays no additional broker fee beyond standard closing costs. This means borrowers access 50+ Wholesale Lenders and competitive pricing without paying extra for the broker\'s service.',
         },
       },
       {
@@ -203,7 +203,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Wholesale Mortgage Broker in Coastal North San Diego: Del Mar, La Jolla, Rancho Santa Fe &amp; More [2026]
           </h1>
-          <p className="text-lg text-gray-600">200+ lender access for jumbo, super-jumbo, bank statement &amp; DSCR loans across Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas &amp; Carlsbad</p>
+          <p className="text-lg text-gray-600">50+ Wholesale Lenders for jumbo, super-jumbo, bank statement &amp; DSCR loans across Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas &amp; Carlsbad</p>
           <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-gray-500">
             <span>By <strong className="text-gray-700">Mo Abdel</strong>, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443</span>
             <span>Published: February 14, 2026</span>
@@ -217,7 +217,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Coastal North San Diego Wholesale Mortgage Market Snapshot</p>
             <p className="text-gray-800 mb-0">
-              According to Mo Abdel, NMLS #1426884, Coastal North San Diego represents one of California&rsquo;s most demanding mortgage corridors, with median home prices ranging from <strong>$1.65 million in Carlsbad to $6.8 million in Rancho Santa Fe</strong>. Across Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas, and Carlsbad, approximately <strong>68% of purchase transactions require jumbo or super-jumbo financing</strong> exceeding conforming loan limits. Wholesale mortgage brokers deliver a measurable advantage here: access to 200+ lender programs means North San Diego buyers find competitive jumbo pricing, bank statement qualification for self-employed professionals, and DSCR programs for coastal investors&mdash;none of which are available through a single retail bank.
+              According to Mo Abdel, NMLS #1426884, Coastal North San Diego represents one of California&rsquo;s most demanding mortgage corridors, with median home prices ranging from <strong>$1.65 million in Carlsbad to $6.8 million in Rancho Santa Fe</strong>. Across Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas, and Carlsbad, approximately <strong>68% of purchase transactions require jumbo or super-jumbo financing</strong> exceeding conforming loan limits. Wholesale mortgage brokers deliver a measurable advantage here: access to 50+ Wholesale Lenders means North San Diego buyers find competitive jumbo pricing, bank statement qualification for self-employed professionals, and DSCR programs for coastal investors&mdash;none of which are available through a single retail bank.
             </p>
           </div>
 
@@ -324,7 +324,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
               <tbody>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Lender Access</td>
-                  <td className="py-3 px-4 border-b">200+ lenders across all product types</td>
+                  <td className="py-3 px-4 border-b">50+ Wholesale Lenders across all product types</td>
                   <td className="py-3 px-4 border-b">Single institution&rsquo;s product menu</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -391,7 +391,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
               <strong>5. Property type and eligibility review.</strong> Coastal North San Diego includes standard single-family homes, oceanfront properties, equestrian estates, condominiums, and unique architectural properties. Each property type has specific lender requirements. Equestrian estates in Rancho Santa Fe and oceanfront properties in Del Mar require lenders experienced with these asset classes.
             </li>
             <li>
-              <strong>6. Loan program matching.</strong> Based on your credit, income, assets, and property type, the broker matches you with the optimal loan program from 200+ available lenders. This may be a conventional jumbo, bank statement loan, asset depletion program, or other specialty product.
+              <strong>6. Loan program matching.</strong> Based on your credit, income, assets, and property type, the broker matches you with the optimal loan program from 50+ Wholesale Lenders. This may be a conventional jumbo, bank statement loan, asset depletion program, or other specialty product.
             </li>
             <li>
               <strong>7. Pre-approval issuance.</strong> Once qualified, the broker issues a pre-approval letter specifying the loan amount and terms. In competitive North San Diego markets, a pre-approval from a reputable wholesale channel carries weight with listing agents who understand the efficiency of broker-channel closings.
@@ -741,7 +741,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
             <strong>2026 market conditions favor wholesale access.</strong> The current lending environment features tightened bank portfolio lending, expanded non-QM wholesale product availability, and increased jumbo lender competition in the wholesale channel. Banks have pulled back from super-jumbo lending in some cases, while wholesale lenders have expanded their programs to capture market share. This shift makes wholesale broker access more valuable in 2026 than in any previous year for Coastal North San Diego buyers. For a comprehensive overview of how wholesale lending works across the state, see our <a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">California wholesale mortgage broker guide</a>.
           </p>
           <p>
-            The <a href="https://www.consumerfinance.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> emphasizes the importance of comparing loan offers from multiple sources. Working with a wholesale mortgage broker is the most efficient way to accomplish this comparison, as the broker shops your application across 200+ lenders with a single credit inquiry. The <a href="https://www.hud.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of Housing and Urban Development (HUD)</a> provides additional resources for understanding your mortgage rights and options.
+            The <a href="https://www.consumerfinance.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> emphasizes the importance of comparing loan offers from multiple sources. Working with a wholesale mortgage broker is the most efficient way to accomplish this comparison, as the broker shops your application across 50+ Wholesale Lenders with a single credit inquiry. The <a href="https://www.hud.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Department of Housing and Urban Development (HUD)</a> provides additional resources for understanding your mortgage rights and options.
           </p>
 
           {/* ===== DATA & COMPARISON HUB ===== */}
@@ -812,7 +812,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mt-0 mb-2">What is the biggest advantage of using a wholesale mortgage broker in North San Diego?</h3>
-              <p className="font-semibold text-gray-800 mb-2">Access to 200+ lenders means competitive jumbo pricing and specialty programs unavailable at retail banks.</p>
+              <p className="font-semibold text-gray-800 mb-2">Access to 50+ Wholesale Lenders means competitive jumbo pricing and specialty programs unavailable at retail banks.</p>
               <p className="text-gray-700 mb-0">
                 North San Diego&rsquo;s high property values mean most buyers need jumbo or super-jumbo financing. A wholesale broker creates competition among dozens of jumbo lenders for your business, driving pricing advantages. Beyond pricing, wholesale channels offer bank statement loans, DSCR investor programs, asset depletion products, and other non-QM options that retail banks simply do not carry. For borrowers with complex income profiles&mdash;common in La Jolla&rsquo;s biotech sector and Encinitas&rsquo;s entrepreneurial community&mdash;this expanded program access is the difference between a declined application and a closed transaction.
               </p>
@@ -930,7 +930,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
             <div>
               <h3 className="font-bold mt-0 mb-1">Can I refinance my existing Solana Beach mortgage through a wholesale broker?</h3>
               <p className="text-gray-700 mb-0">
-                Yes. Wholesale brokers handle both purchase and refinance transactions. Whether you want a rate-and-term refinance to lower your monthly payment or a cash-out refinance to access equity, the broker compares refinance options from 200+ lenders with a single application. The refinance process typically takes 30-45 days from application to closing.
+                Yes. Wholesale brokers handle both purchase and refinance transactions. Whether you want a rate-and-term refinance to lower your monthly payment or a cash-out refinance to access equity, the broker compares refinance options from 50+ Wholesale Lenders with a single application. The refinance process typically takes 30-45 days from application to closing.
               </p>
             </div>
 
@@ -976,7 +976,7 @@ export default function WholesaleMortgageBrokerCaSdA() {
           <div id="summary" className="expert-summary bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold mt-0 mb-4">Get Wholesale Mortgage Pricing for Coastal North San Diego</h2>
             <p>
-              Coastal North San Diego&rsquo;s luxury real estate market demands mortgage financing that matches the sophistication of its buyers and properties. As a wholesale mortgage broker licensed in California and Washington, I compare jumbo, super-jumbo, bank statement, DSCR, and non-QM products from 200+ lenders to deliver competitive pricing and flexible qualification for Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas, and Carlsbad buyers. Whether you are purchasing a $1.5 million Carlsbad family home, a $3 million La Jolla estate, or a $10 million Rancho Santa Fe equestrian property, I structure the financing to match your financial profile and property requirements.
+              Coastal North San Diego&rsquo;s luxury real estate market demands mortgage financing that matches the sophistication of its buyers and properties. As a wholesale mortgage broker licensed in California and Washington, I compare jumbo, super-jumbo, bank statement, DSCR, and non-QM products from 50+ Wholesale Lenders to deliver competitive pricing and flexible qualification for Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas, and Carlsbad buyers. Whether you are purchasing a $1.5 million Carlsbad family home, a $3 million La Jolla estate, or a $10 million Rancho Santa Fe equestrian property, I structure the financing to match your financial profile and property requirements.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free wholesale mortgage consultation:</p>
             <p className="text-lg mb-1">(949) 579-2057</p>

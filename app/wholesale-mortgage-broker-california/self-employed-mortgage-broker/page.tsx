@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Self-Employed Mortgage Broker California: Why You Need One [2026]',
-  description: 'Self-employed mortgage broker specialists access 200+ lenders with bank statement, P&L, and asset depletion programs. Get approved when banks say no. NMLS #1426884.',
+  description: 'Self-employed mortgage broker specialists access 50+ Wholesale Lenders with bank statement, P&L, and asset depletion programs. Get approved when banks say no. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/self-employed-mortgage-broker',
     languages: {
@@ -39,7 +39,7 @@ export default function SelfEmployedMortgageBrokerPage() {
             },
             "datePublished": "2026-01-29",
             "dateModified": "2026-01-29",
-            "description": "Complete guide for self-employed borrowers seeking mortgages in California. Learn why wholesale brokers with 200+ lender access provide better outcomes than banks."
+            "description": "Complete guide for self-employed borrowers seeking mortgages in California. Learn why wholesale brokers with 50+ Wholesale Lenders provide better outcomes than banks."
           })
         }}
       />
@@ -56,7 +56,7 @@ export default function SelfEmployedMortgageBrokerPage() {
                 "name": "Why do self-employed borrowers need a mortgage broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Self-employed borrowers need mortgage brokers because banks have rigid guidelines that often reject business owners. Brokers access 200+ lenders including specialists in bank statement loans, P&L programs, and asset depletion—options banks simply don't offer."
+                  "text": "Self-employed borrowers need mortgage brokers because banks have rigid guidelines that often reject business owners. Brokers access 50+ Wholesale Lenders including specialists in bank statement loans, P&L programs, and asset depletion—options banks simply don't offer."
                 }
               },
               {
@@ -131,7 +131,7 @@ export default function SelfEmployedMortgageBrokerPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            <strong>Self-employed mortgage brokers</strong> specialize in helping business owners, freelancers, and 1099 contractors secure home financing when traditional bank programs fall short. Unlike bank loan officers limited to one set of guidelines, wholesale brokers access <strong>200+ lenders</strong> offering bank statement loans, P&L statement programs, asset depletion options, and DSCR investor loans—programs specifically designed for self-employed income structures. According to Mo Abdel (NMLS #1426884) at Lumin Lending, &quot;Self-employed borrowers represent our highest success stories because we match their unique income documentation with lenders who specialize in exactly their situation.&quot;
+            <strong>Self-employed mortgage brokers</strong> specialize in helping business owners, freelancers, and 1099 contractors secure home financing when traditional bank programs fall short. Unlike bank loan officers limited to one set of guidelines, wholesale brokers access <strong>50+ Wholesale Lenders</strong> offering bank statement loans, P&L statement programs, asset depletion options, and DSCR investor loans—programs specifically designed for self-employed income structures. According to Mo Abdel (NMLS #1426884) at Lumin Lending, &quot;Self-employed borrowers represent our highest success stories because we match their unique income documentation with lenders who specialize in exactly their situation.&quot;
           </p>
         </div>
 
@@ -198,7 +198,7 @@ export default function SelfEmployedMortgageBrokerPage() {
           Wholesale mortgage brokers provide advantages that banks cannot match for self-employed borrowers:
         </p>
 
-        <h3>Access to 200+ Lenders</h3>
+        <h3>Access to 50+ Wholesale Lenders</h3>
 
         <p>
           Each lender has unique guidelines and specializations:
@@ -517,7 +517,7 @@ export default function SelfEmployedMortgageBrokerPage() {
               </tr>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Lender Access</td>
-                <td className="px-4 py-2 border-b text-blue-700">200+ lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">50+ Wholesale Lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">1 lender</td>
               </tr>
               <tr>
@@ -590,7 +590,7 @@ export default function SelfEmployedMortgageBrokerPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Why do self-employed borrowers need a mortgage broker?</h3>
             <p className="mb-0">
-              Self-employed borrowers need mortgage brokers because banks have rigid guidelines that often reject business owners. Brokers access 200+ lenders including specialists in bank statement loans, P&L programs, and asset depletion—options banks simply don&apos;t offer.
+              Self-employed borrowers need mortgage brokers because banks have rigid guidelines that often reject business owners. Brokers access 50+ Wholesale Lenders including specialists in bank statement loans, P&L programs, and asset depletion—options banks simply don&apos;t offer.
             </p>
           </div>
 
@@ -655,7 +655,7 @@ export default function SelfEmployedMortgageBrokerPage() {
               <li><Link href="/loan-programs/bank-statement-loans" className="text-blue-600 hover:underline">Bank Statement Loans</Link></li>
               <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Loans</Link></li>
               <li><Link href="/loan-programs/asset-depletion-loans" className="text-blue-600 hover:underline">Asset Depletion Loans</Link></li>
-              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">The 200+ Lender Advantage</Link></li>
+              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link></li>
             </ul>
           </div>
         </div>

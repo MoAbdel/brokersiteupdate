@@ -216,7 +216,7 @@ export default function IrvineVsNewportBeachGuide() {
           </div>
           <div className="text-center mt-8">
             <p className="text-slate-200 mb-4">
-              As an Orange County mortgage broker, I have access to 200+ lenders including jumbo and super jumbo specialists.
+              As an Orange County mortgage broker, I have access to 50+ Wholesale Lenders including jumbo and super jumbo specialists.
             </p>
             <Link href="/contact">
               <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3">

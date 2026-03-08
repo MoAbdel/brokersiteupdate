@@ -70,7 +70,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker maximize the value of seller concessions?',
-    answer: 'A wholesale broker maximizes seller concession value by shopping across 200+ lenders to find the optimal combination of pricing, lender credits, and concession utilization. The broker can structure a slightly higher rate to generate lender credits that stack with seller concessions, identify lenders with the most competitive origination fees to stretch the concession further, and recommend the most beneficial allocation of concession funds between closing costs, prepaid items, and buydown escrow.',
+    answer: 'A wholesale broker maximizes seller concession value by shopping across 50+ Wholesale Lenders to find the optimal combination of pricing, lender credits, and concession utilization. The broker can structure a slightly higher rate to generate lender credits that stack with seller concessions, identify lenders with the most competitive origination fees to stretch the concession further, and recommend the most beneficial allocation of concession funds between closing costs, prepaid items, and buydown escrow.',
   },
   {
     question: 'Can unused seller concessions be refunded to the buyer?',
@@ -208,7 +208,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a licensed wholesale mortgage broker serving California and Washington, <strong>seller concessions</strong> remain the most effective tool for reducing buyer out-of-pocket costs at closing&mdash;yet most buyers do not fully understand the program-specific limits or the strategic ways concessions can be allocated. Under <a href="https://singlefamily.fanniemae.com/originating-underwriting/origination-guidelines" target="_blank" rel="noopener noreferrer">Fannie Mae guidelines</a>, conventional loan seller concessions are capped at 3% to 9% depending on down payment. FHA permits up to 6%. VA allows 4% above normal closing costs. The National Association of Realtors reported that 29% of recent home buyers received seller concessions in 2025, with the median credit covering $8,000 to $12,000 in closing costs. A wholesale broker working with 200+ lenders can stack seller concessions with lender credits and structure temporary buydowns to maximize every dollar of seller contribution.
+            According to Mo Abdel, NMLS #1426884, a licensed wholesale mortgage broker serving California and Washington, <strong>seller concessions</strong> remain the most effective tool for reducing buyer out-of-pocket costs at closing&mdash;yet most buyers do not fully understand the program-specific limits or the strategic ways concessions can be allocated. Under <a href="https://singlefamily.fanniemae.com/originating-underwriting/origination-guidelines" target="_blank" rel="noopener noreferrer">Fannie Mae guidelines</a>, conventional loan seller concessions are capped at 3% to 9% depending on down payment. FHA permits up to 6%. VA allows 4% above normal closing costs. The National Association of Realtors reported that 29% of recent home buyers received seller concessions in 2025, with the median credit covering $8,000 to $12,000 in closing costs. A wholesale broker working with 50+ Wholesale Lenders can stack seller concessions with lender credits and structure temporary buydowns to maximize every dollar of seller contribution.
           </p>
         </div>
 
@@ -237,7 +237,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale broker concession strategy</td>
                 <td className="border border-gray-200 px-4 py-2">stacks seller credits with lender credits across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to minimize or eliminate buyer cash to close</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to minimize or eliminate buyer cash to close</td>
               </tr>
             </tbody>
           </table>
@@ -263,9 +263,9 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
 
         {/* E-E-A-T Experience Marker */}
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
-          <h3 className="font-bold text-blue-900 mt-0">From My Practice: Structuring Seller Concessions Across 200+ Lenders</h3>
+          <h3 className="font-bold text-blue-900 mt-0">From My Practice: Structuring Seller Concessions Across 50+ Wholesale Lenders</h3>
           <p className="text-blue-800 mb-0">
-            I structure seller concessions on the majority of my purchase transactions in California and Washington. The difference between a well-structured concession and a poorly structured one can save the buyer $5,000 to $15,000 in out-of-pocket costs. Most buyers and their real estate agents think of seller concessions as a simple dollar amount on the contract. In reality, the concession is a strategic tool that interacts with lender credits, buydown options, and closing cost allocation in ways that require lender-specific knowledge. Working with 200+ wholesale lenders, I identify the optimal combination of seller concessions, lender credits, and rate structure for each buyer&apos;s specific financial profile and goals. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I structure seller concessions on the majority of my purchase transactions in California and Washington. The difference between a well-structured concession and a poorly structured one can save the buyer $5,000 to $15,000 in out-of-pocket costs. Most buyers and their real estate agents think of seller concessions as a simple dollar amount on the contract. In reality, the concession is a strategic tool that interacts with lender credits, buydown options, and closing cost allocation in ways that require lender-specific knowledge. Working with 50+ Wholesale Lenders, I identify the optimal combination of seller concessions, lender credits, and rate structure for each buyer&apos;s specific financial profile and goals. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -561,7 +561,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 my-6">
           <h4 className="font-bold text-blue-800 mt-0">Wholesale Stacking Advantage</h4>
           <p className="text-blue-900 mb-0">
-            According to Mo Abdel, NMLS #1426884: &quot;The difference between a well-executed stacking strategy and a basic seller concession request can save the buyer $8,000 to $15,000 at closing. Shopping across 200+ lenders allows me to find the optimal rate/credit trade-off for each buyer. Lender credit pricing varies significantly between wholesale lenders&mdash;some offer $3,000 in credit for a 0.125% rate increase while others offer $5,000 for the same increase. That pricing difference is only visible in the wholesale channel.&quot;
+            According to Mo Abdel, NMLS #1426884: &quot;The difference between a well-executed stacking strategy and a basic seller concession request can save the buyer $8,000 to $15,000 at closing. Shopping across 50+ Wholesale Lenders allows me to find the optimal rate/credit trade-off for each buyer. Lender credit pricing varies significantly between wholesale lenders&mdash;some offer $3,000 in credit for a 0.125% rate increase while others offer $5,000 for the same increase. That pricing difference is only visible in the wholesale channel.&quot;
           </p>
         </div>
 
@@ -591,10 +591,10 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
         </ol>
 
         {/* Section 7: Wholesale Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: How 200+ Lenders Maximizes Seller Concession Value</h2>
+        <h2 id="wholesale-advantage">Wholesale Broker Advantage: How 50+ Wholesale Lenders Maximizes Seller Concession Value</h2>
 
         <p>
-          A wholesale mortgage broker does not simply pass through seller concessions&mdash;they actively structure the entire transaction to extract maximum value from every dollar of seller contribution. Here is how the 200+ lender network creates a measurable advantage.
+          A wholesale mortgage broker does not simply pass through seller concessions&mdash;they actively structure the entire transaction to extract maximum value from every dollar of seller contribution. Here is how the 50+ Wholesale Lenders creates a measurable advantage.
         </p>
 
         <h3>Wholesale Concession Optimization Strategies</h3>
@@ -611,7 +611,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Rate/credit optimization</td>
-                <td className="border border-gray-200 px-4 py-2">Shop 200+ lenders for the best lender credit at each rate tier to stack with seller concessions</td>
+                <td className="border border-gray-200 px-4 py-2">Shop 50+ Wholesale Lenders for the best lender credit at each rate tier to stack with seller concessions</td>
                 <td className="border border-gray-200 px-4 py-2">One rate sheet; one credit structure; take it or leave it</td>
               </tr>
               <tr>
@@ -631,7 +631,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Program-specific concession limits</td>
-                <td className="border border-gray-200 px-4 py-2">Identify the loan program across 200+ lenders that allows the highest concession for the buyer profile</td>
+                <td className="border border-gray-200 px-4 py-2">Identify the loan program across 50+ Wholesale Lenders that allows the highest concession for the buyer profile</td>
                 <td className="border border-gray-200 px-4 py-2">Limited to programs offered by that one bank</td>
               </tr>
             </tbody>
@@ -770,7 +770,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
 
           <div className="border border-gray-200 rounded-lg p-4">
             <h3 className="font-bold text-gray-900 mt-0">How does a wholesale broker negotiate better concession utilization than a bank?</h3>
-            <p className="mb-0"><strong>A wholesale broker shops 200+ lenders to find the lowest origination fees, best lender credit pricing, and most favorable buydown costs, stretching each concession dollar further.</strong> A retail bank offers one fee structure and one rate sheet. A wholesale broker compares fee structures across their entire lender network and selects the lender where the concession covers the most expenses or generates the most favorable rate/credit combination. The competitive pricing difference across 200+ lenders is the core wholesale advantage.</p>
+            <p className="mb-0"><strong>A wholesale broker shops 50+ Wholesale Lenders to find the lowest origination fees, best lender credit pricing, and most favorable buydown costs, stretching each concession dollar further.</strong> A retail bank offers one fee structure and one rate sheet. A wholesale broker compares fee structures across their entire lender network and selects the lender where the concession covers the most expenses or generates the most favorable rate/credit combination. The competitive pricing difference across 50+ Wholesale Lenders is the core wholesale advantage.</p>
           </div>
 
           <div className="border border-gray-200 rounded-lg p-4">
@@ -796,7 +796,7 @@ export default function WholesaleMortgageSellerConcessionsCredits2026() {
 
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="font-semibold text-gray-900 mb-4">
-            Seller concessions are one of the most powerful tools available to home buyers for reducing out-of-pocket closing costs. The key to maximizing their value is understanding the program-specific limits (conventional 3-9%, FHA 6%, VA 4% above normal costs), knowing which expenses can be covered, and working with a wholesale broker who can structure the optimal combination of seller credits, lender credits, and buydown escrow across 200+ lenders.
+            Seller concessions are one of the most powerful tools available to home buyers for reducing out-of-pocket closing costs. The key to maximizing their value is understanding the program-specific limits (conventional 3-9%, FHA 6%, VA 4% above normal costs), knowing which expenses can be covered, and working with a wholesale broker who can structure the optimal combination of seller credits, lender credits, and buydown escrow across 50+ Wholesale Lenders.
           </p>
           <p className="text-gray-700 mb-0">
             The difference between a well-structured concession strategy and a basic request can save $5,000 to $15,000 at closing. Whether the market is competitive or buyer-friendly, strategies exist to negotiate and maximize seller contributions. A wholesale broker&apos;s ability to shop lender pricing, compare buydown costs, and stack credits creates a measurable advantage that a single retail bank cannot replicate.

@@ -68,7 +68,7 @@ const faqData = [
   },
   {
     question: 'Can I remove FHA mortgage insurance the same way as conventional PMI?',
-    answer: 'No. FHA mortgage insurance premium (MIP) follows different rules than conventional PMI. For FHA loans originated after June 3, 2013, with less than 10% down payment, MIP is required for the life of the loan and cannot be cancelled regardless of LTV. The only way to remove FHA MIP is to refinance into a conventional loan once you have at least 20% equity (to avoid new PMI) or at least 80% LTV (to have PMI that can later be cancelled). A wholesale broker can compare conventional refinance options from 200+ lenders to find the most competitive terms for this conversion.',
+    answer: 'No. FHA mortgage insurance premium (MIP) follows different rules than conventional PMI. For FHA loans originated after June 3, 2013, with less than 10% down payment, MIP is required for the life of the loan and cannot be cancelled regardless of LTV. The only way to remove FHA MIP is to refinance into a conventional loan once you have at least 20% equity (to avoid new PMI) or at least 80% LTV (to have PMI that can later be cancelled). A wholesale broker can compare conventional refinance options from 50+ Wholesale Lenders to find the most competitive terms for this conversion.',
   },
   {
     question: 'What are the Fannie Mae and Freddie Mac rules for reappraisal-based PMI removal?',
@@ -200,7 +200,7 @@ export default function RemovePmiWithoutRefinancingPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, homeowners paying private mortgage insurance <strong>can remove PMI without refinancing through three primary methods: borrower-requested cancellation at 80% LTV, automatic termination at 78% LTV under the Homeowners Protection Act, or reappraisal-based removal when rising home values push the LTV below the cancellation threshold</strong>. According to the <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, PMI typically costs between 0.2% and 2.0% of the original loan amount per year&mdash;on a $500,000 mortgage, that translates to $83 to $833 per month that provides zero benefit to the homeowner. A substantial percentage of eligible homeowners continue paying PMI after reaching sufficient equity because they are unaware of the cancellation process or assume refinancing is the only path to removal. A wholesale mortgage broker evaluates both PMI removal and refinance options across 200+ lenders to determine which approach saves you more money based on your current rate, equity position, and financial goals.
+            According to Mo Abdel, NMLS #1426884, homeowners paying private mortgage insurance <strong>can remove PMI without refinancing through three primary methods: borrower-requested cancellation at 80% LTV, automatic termination at 78% LTV under the Homeowners Protection Act, or reappraisal-based removal when rising home values push the LTV below the cancellation threshold</strong>. According to the <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-private-mortgage-insurance-en-122/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, PMI typically costs between 0.2% and 2.0% of the original loan amount per year&mdash;on a $500,000 mortgage, that translates to $83 to $833 per month that provides zero benefit to the homeowner. A substantial percentage of eligible homeowners continue paying PMI after reaching sufficient equity because they are unaware of the cancellation process or assume refinancing is the only path to removal. A wholesale mortgage broker evaluates both PMI removal and refinance options across 50+ Wholesale Lenders to determine which approach saves you more money based on your current rate, equity position, and financial goals.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function RemovePmiWithoutRefinancingPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">evaluates PMI removal vs refinance options from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to determine the most cost-effective path</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to determine the most cost-effective path</td>
               </tr>
             </tbody>
           </table>
@@ -535,7 +535,7 @@ export default function RemovePmiWithoutRefinancingPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Not Sure If PMI Removal or Refinancing Saves You More?</h3>
           <p className="text-green-800 mb-2">
-            I will run the numbers on both options&mdash;PMI removal through reappraisal and refinancing into a no-PMI loan&mdash;using pricing from 200+ lenders. No obligation.
+            I will run the numbers on both options&mdash;PMI removal through reappraisal and refinancing into a no-PMI loan&mdash;using pricing from 50+ Wholesale Lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -727,9 +727,9 @@ export default function RemovePmiWithoutRefinancingPage() {
 
         <ol>
           <li><strong>PMI removal analysis:</strong> Estimates your current LTV based on comparable sales, advises whether a reappraisal is likely to support PMI cancellation, and guides you through the servicer petition process</li>
-          <li><strong>Refinance comparison:</strong> Prices your refinance scenario across 200+ lenders, calculates the combined savings of rate reduction plus PMI elimination, and determines the break-even period for closing costs</li>
+          <li><strong>Refinance comparison:</strong> Prices your refinance scenario across 50+ Wholesale Lenders, calculates the combined savings of rate reduction plus PMI elimination, and determines the break-even period for closing costs</li>
           <li><strong>Side-by-side recommendation:</strong> Compares total cost of PMI removal (appraisal fee only) against total cost and savings of refinancing (closing costs offset by rate + PMI savings) to identify which option delivers more value over your expected hold period</li>
-          <li><strong>FHA-to-conventional conversion:</strong> For FHA borrowers with lifetime MIP, the broker identifies conventional refinance products with the lowest rates and most favorable terms across 200+ lenders</li>
+          <li><strong>FHA-to-conventional conversion:</strong> For FHA borrowers with lifetime MIP, the broker identifies conventional refinance products with the lowest rates and most favorable terms across 50+ Wholesale Lenders</li>
         </ol>
 
         <p>
@@ -880,7 +880,7 @@ export default function RemovePmiWithoutRefinancingPage() {
             <li><strong>FHA MIP is different:</strong> If you have an FHA loan originated after June 2013 with less than 10% down, the only removal path is refinancing into a conventional loan</li>
             <li><strong>Compare PMI removal vs refinance:</strong> If your current rate is competitive, PMI removal through reappraisal is far cheaper than refinancing. If your rate is high, refinancing may save more by reducing both the rate and the PMI simultaneously</li>
             <li><strong>Document everything:</strong> Submit your PMI cancellation request in writing, keep copies, and follow up if you do not receive a response within 30 days</li>
-            <li><strong>Use a wholesale broker for the comparison:</strong> A broker evaluates both PMI removal and refinance options objectively, using pricing from 200+ lenders to determine which path delivers more savings</li>
+            <li><strong>Use a wholesale broker for the comparison:</strong> A broker evaluates both PMI removal and refinance options objectively, using pricing from 50+ Wholesale Lenders to determine which path delivers more savings</li>
             <li><strong>Act now if you have the equity:</strong> Every month you delay PMI removal is a month of unnecessary premium payments that provide zero benefit to you as the homeowner</li>
           </ol>
         </div>
@@ -888,7 +888,7 @@ export default function RemovePmiWithoutRefinancingPage() {
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Free PMI Removal or Refinance Analysis</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me your loan details&mdash;current balance, original purchase price, estimated home value, and monthly PMI amount&mdash;and I will determine whether reappraisal-based PMI removal or refinancing from 200+ lenders saves you more. No obligation, no pressure.
+            Tell me your loan details&mdash;current balance, original purchase price, estimated home value, and monthly PMI amount&mdash;and I will determine whether reappraisal-based PMI removal or refinancing from 50+ Wholesale Lenders saves you more. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

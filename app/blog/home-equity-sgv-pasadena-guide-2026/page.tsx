@@ -105,7 +105,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
         "name": "What are HELOC rates in the San Gabriel Valley for 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "HELOC rates vary by lender, credit score, loan-to-value ratio, and draw amount. Working with a wholesale broker provides access to rates from 200+ lenders, ensuring the most competitive pricing for your specific situation. Jumbo HELOCs on SGV properties often receive preferential pricing due to strong collateral values."
+          "text": "HELOC rates vary by lender, credit score, loan-to-value ratio, and draw amount. Working with a wholesale broker provides access to rates from 50+ Wholesale Lenders, ensuring the most competitive pricing for your specific situation. Jumbo HELOCs on SGV properties often receive preferential pricing due to strong collateral values."
         }
       },
       {
@@ -169,7 +169,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
         "name": "Why use a wholesale broker for home equity in the SGV instead of my bank?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A wholesale broker compares HELOC, HELOAN, and cash-out refinance programs from 200+ lenders simultaneously. Your bank offers only its own products. For jumbo equity needs common in the SGV, wholesale access means more competitive rates, higher credit limits, and specialized programs like bank statement HELOCs that many retail banks do not offer."
+          "text": "A wholesale broker compares HELOC, HELOAN, and cash-out refinance programs from 50+ Wholesale Lenders simultaneously. Your bank offers only its own products. For jumbo equity needs common in the SGV, wholesale access means more competitive rates, higher credit limits, and specialized programs like bank statement HELOCs that many retail banks do not offer."
         }
       }
     ]
@@ -249,7 +249,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="font-semibold text-gray-900 mb-2 text-xl">San Gabriel Valley Home Equity: Key Facts for 2026</p>
           <p className="text-gray-800 mb-0">
-            San Gabriel Valley homeowners hold an estimated <strong>$62 billion in total home equity</strong> across Pasadena, San Marino, Arcadia, La Ca&ntilde;ada Flintridge, South Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta. The average SGV homeowner with 10+ years of ownership has seen their property appreciate by <strong>85-120%</strong>, creating massive equity positions that can be accessed through HELOC, home equity loan (HELOAN), or cash-out refinance products. With San Marino properties averaging <strong>$3 million</strong> and even La Crescenta exceeding <strong>$1 million</strong>, jumbo equity products are the standard tool for SGV homeowners. As a wholesale mortgage broker with access to over 200 lenders, I help San Gabriel Valley homeowners compare equity products from multiple providers to secure the most competitive rates, highest credit limits, and best terms available in 2026.
+            San Gabriel Valley homeowners hold an estimated <strong>$62 billion in total home equity</strong> across Pasadena, San Marino, Arcadia, La Ca&ntilde;ada Flintridge, South Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta. The average SGV homeowner with 10+ years of ownership has seen their property appreciate by <strong>85-120%</strong>, creating massive equity positions that can be accessed through HELOC, home equity loan (HELOAN), or cash-out refinance products. With San Marino properties averaging <strong>$3 million</strong> and even La Crescenta exceeding <strong>$1 million</strong>, jumbo equity products are the standard tool for SGV homeowners. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help San Gabriel Valley homeowners compare equity products from multiple providers to secure the most competitive rates, highest credit limits, and best terms available in 2026.
           </p>
         </div>
 
@@ -556,7 +556,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
             As a licensed mortgage broker (NMLS #1426884) with Lumin Lending, Inc. (NMLS #2716106, DRE #02291443), I provide wholesale market access that transforms how San Gabriel Valley homeowners access their equity. Here is what sets my approach apart:
           </p>
           <ul>
-            <li><strong>200+ lender comparison:</strong> I simultaneously compare HELOC, HELOAN, and cash-out refinance programs from over 200 wholesale lenders. Your bank offers one set of products. I offer the entire wholesale market.</li>
+            <li><strong>50+ Wholesale Lenders comparison:</strong> I simultaneously compare HELOC, HELOAN, and cash-out refinance programs from 50+ Wholesale Lenders. Your bank offers one set of products. I offer the entire wholesale market.</li>
             <li><strong>Jumbo and super-jumbo expertise:</strong> San Marino, La Ca&ntilde;ada Flintridge, and South Pasadena properties require jumbo equity products. I work with lenders who specialize in high-value credit lines up to $3 million and beyond.</li>
             <li><strong>Bank statement programs:</strong> Self-employed SGV business owners, consultants, and independent professionals access equity through bank statement documentation instead of tax returns. Not all lenders offer this; wholesale channels provide the widest selection.</li>
             <li><strong>SGV property knowledge:</strong> Accurate appraisals drive equity access. I understand San Gabriel Valley valuations, from Pasadena Craftsman premiums to San Marino estate pricing, ensuring your appraisal reflects true market value.</li>
@@ -662,7 +662,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">What are HELOC rates in the San Gabriel Valley for 2026?</h3>
-            <p>HELOC rates vary by lender, credit score, loan-to-value ratio, and draw amount. Working with a wholesale broker provides access to rates from 200+ lenders, ensuring competitive pricing. Jumbo HELOCs on SGV properties often receive preferential pricing due to strong collateral values.</p>
+            <p>HELOC rates vary by lender, credit score, loan-to-value ratio, and draw amount. Working with a wholesale broker provides access to rates from 50+ Wholesale Lenders, ensuring competitive pricing. Jumbo HELOCs on SGV properties often receive preferential pricing due to strong collateral values.</p>
           </div>
 
           <div className="border-b border-gray-200 pb-4">
@@ -702,7 +702,7 @@ export default function HomeEquitySGVPasadenaGuidePage() {
 
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-lg font-semibold text-gray-900">Why use a wholesale broker for home equity in the SGV instead of my bank?</h3>
-            <p>A wholesale broker compares programs from 200+ lenders simultaneously. Your bank offers only its own products. For jumbo equity needs common in the SGV, wholesale access means more competitive rates, higher credit limits, and specialized programs like bank statement HELOCs that many retail banks do not offer.</p>
+            <p>A wholesale broker compares programs from 50+ Wholesale Lenders simultaneously. Your bank offers only its own products. For jumbo equity needs common in the SGV, wholesale access means more competitive rates, higher credit limits, and specialized programs like bank statement HELOCs that many retail banks do not offer.</p>
           </div>
         </div>
 

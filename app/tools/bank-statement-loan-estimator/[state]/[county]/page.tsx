@@ -71,7 +71,7 @@ export default async function CountyBankStatementPage({ params }: Props) {
     },
     {
       question: `What expense factor will lenders use for my business in ${county.name}?`,
-      answer: `Expense factors vary by business type: professional practices typically see 35-45%, service businesses 40-50%, and retail or gig businesses 45-55%. Each lender uses their own methodology — some use a flat percentage, others analyze actual expenses. Mo Abdel works with 200+ wholesale lenders to find the most favorable expense calculation for your situation.`,
+      answer: `Expense factors vary by business type: professional practices typically see 35-45%, service businesses 40-50%, and retail or gig businesses 45-55%. Each lender uses their own methodology — some use a flat percentage, others analyze actual expenses. Mo Abdel works with 50+ Wholesale Lenders to find the most favorable expense calculation for your situation.`,
     },
     {
       question: `Can I get a bank statement loan with less than 20% down in ${county.name}?`,

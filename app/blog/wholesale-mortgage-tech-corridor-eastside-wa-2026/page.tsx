@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Kirkland, Redmond & Tech Corridor Eastside, WA [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker serving Kirkland, Redmond, Woodinville, Issaquah & Bothell WA. Jumbo loans for tech workers, RSU income programs, bank statement & DSCR loans. Access 200+ lenders. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Kirkland, Redmond, Woodinville, Issaquah & Bothell WA. Jumbo loans for tech workers, RSU income programs, bank statement & DSCR loans. Access 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Kirkland Redmond WA',
     'wholesale mortgage Eastside tech corridor',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Kirkland, Redmond & Tech Corridor Eastside, WA [2026]',
-    description: 'Wholesale mortgage broker for Eastside WA tech corridor. Access 200+ lenders for jumbo, RSU income, bank statement, and DSCR programs across Kirkland, Redmond, Woodinville, Issaquah, Bothell.',
+    description: 'Wholesale mortgage broker for Eastside WA tech corridor. Access 50+ Wholesale Lenders for jumbo, RSU income, bank statement, and DSCR programs across Kirkland, Redmond, Woodinville, Issaquah, Bothell.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-tech-corridor-eastside-wa-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is a wholesale mortgage broker and how does it help Kirkland and Redmond tech workers?',
-    answer: 'A wholesale mortgage broker accesses loan pricing directly from 200+ wholesale lenders rather than offering a single bank\'s products. For Kirkland and Redmond tech workers financing $1M-$1.5M homes, this means comparing jumbo rates from dozens of lenders simultaneously, often saving 0.25-0.75% on rate versus a retail bank. Wholesale channels also include specialized RSU and stock compensation qualification programs that most retail banks do not offer.',
+    answer: 'A wholesale mortgage broker accesses loan pricing directly from 50+ Wholesale Lenders rather than offering a single bank\'s products. For Kirkland and Redmond tech workers financing $1M-$1.5M homes, this means comparing jumbo rates from dozens of lenders simultaneously, often saving 0.25-0.75% on rate versus a retail bank. Wholesale channels also include specialized RSU and stock compensation qualification programs that most retail banks do not offer.',
   },
   {
     question: 'Can a wholesale broker qualify RSU and stock-based income for a mortgage near the Google or Microsoft campuses?',
@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: 'Can I use a wholesale broker for new construction financing in the Redmond or Bothell tech corridor?',
-    answer: 'Yes. Wholesale channels offer construction-to-permanent loans, single-close construction programs, and end-loan financing for new builds. Redmond\'s expanding Marymoor and Downtown corridors plus Bothell\'s Canyon Park developments have significant new construction inventory. Wholesale rate shopping across 200+ lenders ensures the best construction loan terms.',
+    answer: 'Yes. Wholesale channels offer construction-to-permanent loans, single-close construction programs, and end-loan financing for new builds. Redmond\'s expanding Marymoor and Downtown corridors plus Bothell\'s Canyon Park developments have significant new construction inventory. Wholesale rate shopping across 50+ Wholesale Lenders ensures the best construction loan terms.',
   },
   {
     question: 'How fast can a wholesale broker close a jumbo loan in the Eastside tech corridor?',
@@ -285,7 +285,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           <h2 id="city-overview" className="text-3xl font-bold mt-10 mb-4">Tech Corridor Eastside Wholesale Mortgage: City-by-City Overview [2026]</h2>
 
           <p>
-            The Eastside tech corridor stretches from Kirkland&rsquo;s Lake Washington waterfront through Redmond&rsquo;s Microsoft campus, east to Issaquah&rsquo;s Cascade foothills, north through Woodinville&rsquo;s wine country, and into Bothell&rsquo;s biotech hub. Each city attracts a distinct buyer profile&mdash;from mid-level Google engineers purchasing their first Kirkland condo to senior Microsoft directors upsizing in Redmond to winery entrepreneurs financing Woodinville estates. A wholesale mortgage broker navigates these diverse financing needs by accessing 200+ wholesale lenders, each with different guidelines for RSU income, self-employment, jumbo thresholds, and investment property qualification.
+            The Eastside tech corridor stretches from Kirkland&rsquo;s Lake Washington waterfront through Redmond&rsquo;s Microsoft campus, east to Issaquah&rsquo;s Cascade foothills, north through Woodinville&rsquo;s wine country, and into Bothell&rsquo;s biotech hub. Each city attracts a distinct buyer profile&mdash;from mid-level Google engineers purchasing their first Kirkland condo to senior Microsoft directors upsizing in Redmond to winery entrepreneurs financing Woodinville estates. A wholesale mortgage broker navigates these diverse financing needs by accessing 50+ Wholesale Lenders, each with different guidelines for RSU income, self-employment, jumbo thresholds, and investment property qualification.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -353,7 +353,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           <h2 id="wholesale-vs-retail" className="text-3xl font-bold mt-10 mb-4">Wholesale vs. Retail Bank: Product &amp; Rate Comparison for Eastside Tech Workers</h2>
 
           <p>
-            Retail banks offer a single menu of loan products at marked-up pricing. A wholesale mortgage broker accesses the wholesale divisions of 200+ lenders&mdash;including the same banks that run retail branches&mdash;at institutional pricing. For Eastside tech workers whose compensation structure involves RSUs, ESPPs, bonuses, and base salary, the wholesale channel provides access to lenders with the most favorable equity compensation guidelines.
+            Retail banks offer a single menu of loan products at marked-up pricing. A wholesale mortgage broker accesses the wholesale divisions of 50+ Wholesale Lenders&mdash;including the same banks that run retail branches&mdash;at institutional pricing. For Eastside tech workers whose compensation structure involves RSUs, ESPPs, bonuses, and base salary, the wholesale channel provides access to lenders with the most favorable equity compensation guidelines.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -361,7 +361,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold border-b">Feature</th>
-                  <th className="px-4 py-3 text-left font-semibold border-b">Wholesale Broker (200+ Lenders)</th>
+                  <th className="px-4 py-3 text-left font-semibold border-b">Wholesale Broker (50+ Wholesale Lenders)</th>
                   <th className="px-4 py-3 text-left font-semibold border-b">Retail Bank (Single Lender)</th>
                 </tr>
               </thead>
@@ -414,7 +414,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
 
           <ol className="list-decimal list-inside space-y-4 my-6">
             <li>
-              <strong>Initial Consultation &amp; Compensation Review.</strong> We analyze your total compensation package&mdash;base salary, RSUs, ESPP, bonuses, stock options&mdash;to determine maximum qualifying income across 200+ wholesale lenders. A Redmond Microsoft L63 with $180K base and $150K in annual RSU vesting qualifies differently at each lender.
+              <strong>Initial Consultation &amp; Compensation Review.</strong> We analyze your total compensation package&mdash;base salary, RSUs, ESPP, bonuses, stock options&mdash;to determine maximum qualifying income across 50+ Wholesale Lenders. A Redmond Microsoft L63 with $180K base and $150K in annual RSU vesting qualifies differently at each lender.
             </li>
             <li>
               <strong>Multi-Lender Rate Shopping.</strong> We submit your profile to 15-25 wholesale lenders simultaneously, comparing jumbo rates, closing costs, and program features. This produces 3-5 competitive offers within 48 hours&mdash;a process impossible when working with a single retail bank.
@@ -611,7 +611,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           </p>
 
           <p>
-            The tech corridor lending landscape shifts quarterly as lenders update their RSU and stock compensation guidelines. In Q4 2025, three wholesale lenders expanded their RSU qualifying policies to include unvested stock with two-year vesting schedules&mdash;a change that increased qualifying income by 15-25% for mid-level Microsoft and Google employees. I monitor these policy changes across 200+ lenders because a single guideline update can mean the difference between approval and denial for a $1.3M Kirkland purchase or a $1.4M Redmond home.
+            The tech corridor lending landscape shifts quarterly as lenders update their RSU and stock compensation guidelines. In Q4 2025, three wholesale lenders expanded their RSU qualifying policies to include unvested stock with two-year vesting schedules&mdash;a change that increased qualifying income by 15-25% for mid-level Microsoft and Google employees. I monitor these policy changes across 50+ Wholesale Lenders because a single guideline update can mean the difference between approval and denial for a $1.3M Kirkland purchase or a $1.4M Redmond home.
           </p>
 
           <p>
@@ -619,7 +619,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           </p>
 
           <p>
-            The wholesale model also provides a fiduciary advantage that retail banks do not match. As a wholesale broker, I am legally required to act in the borrower&rsquo;s interest, not the lender&rsquo;s. When I compare 200+ lenders for a Redmond Microsoft employee&rsquo;s jumbo loan, I am finding the best rate and terms for that specific borrower. A retail bank loan officer is selling their employer&rsquo;s products at their employer&rsquo;s pricing&mdash;regardless of whether better options exist in the market.
+            The wholesale model also provides a fiduciary advantage that retail banks do not match. As a wholesale broker, I am legally required to act in the borrower&rsquo;s interest, not the lender&rsquo;s. When I compare 50+ Wholesale Lenders for a Redmond Microsoft employee&rsquo;s jumbo loan, I am finding the best rate and terms for that specific borrower. A retail bank loan officer is selling their employer&rsquo;s products at their employer&rsquo;s pricing&mdash;regardless of whether better options exist in the market.
           </p>
 
           <p>
@@ -741,7 +741,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           <div className="space-y-6 my-6">
             <div>
               <h3 className="text-xl font-bold mb-2">What is the advantage of a wholesale mortgage broker for Kirkland and Redmond tech workers?</h3>
-              <p className="paa-answer"><strong>Wholesale brokers compare 200+ lenders simultaneously, accessing specialized RSU income programs and jumbo rates 0.25-0.75% below retail bank pricing for Eastside tech workers.</strong></p>
+              <p className="paa-answer"><strong>Wholesale brokers compare 50+ Wholesale Lenders simultaneously, accessing specialized RSU income programs and jumbo rates 0.25-0.75% below retail bank pricing for Eastside tech workers.</strong></p>
               <p>This rate advantage translates to $12,800-$19,500 in savings over the life of a typical $1M-$1.4M Eastside jumbo loan. Beyond rate savings, wholesale channels include lenders with the most favorable stock compensation qualification policies, which directly increases purchasing power for Google, Microsoft, and other tech employees whose compensation is 50-70% equity-based.</p>
             </div>
 
@@ -798,7 +798,7 @@ export default function WholesaleMortgageTechCorridorEastsideWA() {
           <div id="summary" className="bg-blue-50 p-8 rounded-lg my-10 border border-blue-200">
             <h2 className="text-3xl font-bold mb-4 mt-0 expert-summary">Expert Summary: Wholesale Mortgage Advantage for Eastside Tech Corridor Homebuyers</h2>
             <p className="expert-summary">
-              The Eastside tech corridor&mdash;Kirkland, Redmond, Woodinville, Issaquah, and Bothell&mdash;demands a mortgage approach built for tech compensation complexity and $1M+ property values. As a wholesale mortgage broker with access to 200+ lenders, I provide the rate competition, RSU income expertise, and specialty program access that retail banks cannot match. Whether you are a Google engineer upgrading from a Kirkland condo, a Microsoft director purchasing in Redmond, a winery owner financing a Woodinville estate, a family moving to Issaquah Highlands, or a first-time buyer entering through Bothell, the wholesale channel delivers measurable savings and expanded qualification.
+              The Eastside tech corridor&mdash;Kirkland, Redmond, Woodinville, Issaquah, and Bothell&mdash;demands a mortgage approach built for tech compensation complexity and $1M+ property values. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I provide the rate competition, RSU income expertise, and specialty program access that retail banks cannot match. Whether you are a Google engineer upgrading from a Kirkland condo, a Microsoft director purchasing in Redmond, a winery owner financing a Woodinville estate, a family moving to Issaquah Highlands, or a first-time buyer entering through Bothell, the wholesale channel delivers measurable savings and expanded qualification.
             </p>
             <div className="mt-6 space-y-3">
               <p className="font-bold text-lg">Ready to explore wholesale mortgage options in the Eastside tech corridor?</p>

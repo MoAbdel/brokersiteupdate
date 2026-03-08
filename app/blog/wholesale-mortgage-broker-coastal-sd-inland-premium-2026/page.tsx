@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in La Jolla, Coronado & Coastal SD, CA [2026]',
-  description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad & Poway. 200+ lenders, biotech/military income, jumbo loans. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad & Poway. 50+ Wholesale Lenders, biotech/military income, jumbo loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker La Jolla',
     'Coronado mortgage broker',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in La Jolla, Coronado & Coastal SD, CA [2026]',
-    description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad & Poway. 200+ lenders, biotech/military income, jumbo loans.',
+    description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad & Poway. 50+ Wholesale Lenders, biotech/military income, jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -56,7 +56,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
     datePublished: '2026-02-10',
     dateModified: '2026-02-10',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
-    description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad & Poway with 200+ lender access. Biotech RSU income, military VA transitions, jumbo loan specialists.',
+    description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad & Poway with 50+ Wholesale Lenders. Biotech RSU income, military VA transitions, jumbo loan specialists.',
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', '.citation-hook', '.expert-summary'],
@@ -72,7 +72,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
         name: 'What is a wholesale mortgage broker and how does it benefit La Jolla buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses 200+ lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,209,750 require specialized lender matching that retail banks cannot provide with their single product menu.',
+          text: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,209,750 require specialized lender matching that retail banks cannot provide with their single product menu.',
         },
       },
       {
@@ -136,7 +136,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
         name: 'What is the difference between a wholesale mortgage broker and a retail loan officer?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A retail loan officer works for one bank and offers only that bank\'s products. A wholesale mortgage broker is an independent professional who shops 200+ lenders simultaneously, finding the best rate and terms for each client\'s unique situation.',
+          text: 'A retail loan officer works for one bank and offers only that bank\'s products. A wholesale mortgage broker is an independent professional who shops 50+ Wholesale Lenders simultaneously, finding the best rate and terms for each client\'s unique situation.',
         },
       },
       {
@@ -173,7 +173,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
     '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
     url: 'https://www.mothebroker.com',
     telephone: '(949) 579-2057',
-    description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad, and Poway with 200+ lender access for jumbo, VA, conventional, and DSCR investment loans.',
+    description: 'Wholesale mortgage broker serving La Jolla, Coronado, Carlsbad, and Poway with 50+ Wholesale Lenders for jumbo, VA, conventional, and DSCR investment loans.',
     areaServed: [
       { '@type': 'City', name: 'La Jolla', containedInPlace: { '@type': 'State', name: 'California' } },
       { '@type': 'City', name: 'Coronado', containedInPlace: { '@type': 'State', name: 'California' } },
@@ -238,7 +238,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           {/* Citation Hook */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <p className="text-lg font-medium text-gray-800 mb-0">
-              Coastal San Diego&apos;s four premium markets&mdash;La Jolla ($2.5M median), Coronado ($2.2M), Carlsbad ($1.3M), and Poway ($1.1M)&mdash;require jumbo financing that retail banks struggle to price competitively. A wholesale mortgage broker with 200+ lender relationships delivers institutional-tier pricing, biotech RSU qualification, military income expertise, and DSCR investor programs that single-bank loan officers cannot match.
+              Coastal San Diego&apos;s four premium markets&mdash;La Jolla ($2.5M median), Coronado ($2.2M), Carlsbad ($1.3M), and Poway ($1.1M)&mdash;require jumbo financing that retail banks struggle to price competitively. A wholesale mortgage broker with 50+ Wholesale Lenders delivers institutional-tier pricing, biotech RSU qualification, military income expertise, and DSCR investor programs that single-bank loan officers cannot match.
             </p>
           </div>
 
@@ -330,7 +330,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold">Factor</th>
-                  <th className="px-4 py-3 text-left font-semibold">Wholesale Broker (200+ Lenders)</th>
+                  <th className="px-4 py-3 text-left font-semibold">Wholesale Broker (50+ Wholesale Lenders)</th>
                   <th className="px-4 py-3 text-left font-semibold">Retail Bank</th>
                   <th className="px-4 py-3 text-left font-semibold">Credit Union</th>
                 </tr>
@@ -497,7 +497,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           <h2 id="eeat" className="text-3xl font-bold mt-12 mb-6">Why Experience Matters: The Wholesale Broker Advantage for Coastal San Diego</h2>
 
           <p>
-            Mortgage financing for La Jolla, Coronado, Carlsbad, and Poway properties requires more than competitive rates&mdash;it demands deep understanding of the income profiles, property types, and market dynamics unique to San Diego&apos;s premium submarkets. As a wholesale mortgage broker licensed in California (DRE #02291443, NMLS #1426884), I leverage relationships with 200+ wholesale lenders to solve financing challenges that retail banks and credit unions routinely decline.
+            Mortgage financing for La Jolla, Coronado, Carlsbad, and Poway properties requires more than competitive rates&mdash;it demands deep understanding of the income profiles, property types, and market dynamics unique to San Diego&apos;s premium submarkets. As a wholesale mortgage broker licensed in California (DRE #02291443, NMLS #1426884), I leverage relationships with 50+ Wholesale Lenders to solve financing challenges that retail banks and credit unions routinely decline.
           </p>
 
           <h3 className="text-xl font-bold mt-8 mb-3">Understanding San Diego&apos;s Unique Income Landscape</h3>
@@ -510,7 +510,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
             Carlsbad&apos;s entrepreneurial economy and Poway&apos;s defense-contractor corridor add self-employed, 1099, and classified-income borrowers to the mix. A single-lender approach fails these buyers because no single institution maintains expertise across all income types. Wholesale broker access means I identify the optimal lender for each unique situation&mdash;the jumbo lender who counts RSU income for La Jolla biotech professionals, the VA specialist who handles high-balance island properties in Coronado, the bank statement lender who accepts 50% expense factor for Carlsbad business owners.
           </p>
 
-          <h3 className="text-xl font-bold mt-8 mb-3">The 200+ Lender Advantage in Practice</h3>
+          <h3 className="text-xl font-bold mt-8 mb-3">50+ Wholesale Lenders in Practice</h3>
 
           <p>
             <a href="/blog/wholesale-mortgage-broker-california-2026">Wholesale mortgage broker access</a> is not merely about rate shopping&mdash;it is about matching borrower profiles to lender specializations. In practice, this means:
@@ -710,7 +710,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
 
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1 mt-0">Are Poway equestrian properties harder to finance?</h3>
-              <p className="mb-0"><strong>Properties over 5 acres or with horse facilities need lenders who specialize in rural residential.</strong> Wholesale brokers identify these niche lenders from the 200+ network, preventing declined applications.</p>
+              <p className="mb-0"><strong>Properties over 5 acres or with horse facilities need lenders who specialize in rural residential.</strong> Wholesale brokers identify these niche lenders from the 50+ Wholesale Lenders, preventing declined applications.</p>
             </div>
 
             <div className="border-l-4 border-blue-500 pl-4">
@@ -725,7 +725,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
 
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-1 mt-0">Do I pay the wholesale broker a fee?</h3>
-              <p className="mb-0"><strong>Wholesale brokers are compensated by the lender, not the borrower, in most transactions.</strong> This means you access 200+ lenders at no additional cost compared to going directly to a bank.</p>
+              <p className="mb-0"><strong>Wholesale brokers are compensated by the lender, not the borrower, in most transactions.</strong> This means you access 50+ Wholesale Lenders at no additional cost compared to going directly to a bank.</p>
             </div>
 
             <div className="border-l-4 border-blue-500 pl-4">
@@ -742,7 +742,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2 mt-0">What is a wholesale mortgage broker and how does it benefit La Jolla buyers?</h3>
-              <p className="mb-0">A wholesale mortgage broker accesses 200+ lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,209,750 require specialized lender matching that retail banks cannot provide with their single product menu. On a $2.5M La Jolla property, the rate difference between wholesale and retail pricing translates to tens of thousands of dollars over the loan term.</p>
+              <p className="mb-0">A wholesale mortgage broker accesses 50+ Wholesale Lenders to find the best rate and program for your situation. La Jolla buyers benefit because jumbo loans above $1,209,750 require specialized lender matching that retail banks cannot provide with their single product menu. On a $2.5M La Jolla property, the rate difference between wholesale and retail pricing translates to tens of thousands of dollars over the loan term.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -782,7 +782,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2 mt-0">What is the difference between a wholesale mortgage broker and a retail loan officer?</h3>
-              <p className="mb-0">A retail loan officer works for one bank and offers only that bank&apos;s products at that bank&apos;s retail pricing. A wholesale mortgage broker is an independent professional who shops 200+ lenders simultaneously, finding the best rate and terms for each client&apos;s unique situation. The broker&apos;s access to institutional wholesale pricing means borrowers receive rates that retail customers at the same lender would not see.</p>
+              <p className="mb-0">A retail loan officer works for one bank and offers only that bank&apos;s products at that bank&apos;s retail pricing. A wholesale mortgage broker is an independent professional who shops 50+ Wholesale Lenders simultaneously, finding the best rate and terms for each client&apos;s unique situation. The broker&apos;s access to institutional wholesale pricing means borrowers receive rates that retail customers at the same lender would not see.</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -812,7 +812,7 @@ export default function WholesaleMortgageBrokerCoastalSDInlandPremium() {
             </p>
 
             <p>
-              As a wholesale mortgage broker with 200+ lender relationships, I deliver the institutional pricing, program diversity, and closing speed that coastal San Diego&apos;s premium markets demand. Whether you are purchasing a $5M oceanfront home in La Jolla, transitioning from military to civilian financing in Coronado, using bank statement income to buy in Carlsbad, or financing a 5-acre equestrian property in Poway, wholesale access ensures you receive the optimal rate and program for your specific situation.
+              As a wholesale mortgage broker with 50+ Wholesale Lenders, I deliver the institutional pricing, program diversity, and closing speed that coastal San Diego&apos;s premium markets demand. Whether you are purchasing a $5M oceanfront home in La Jolla, transitioning from military to civilian financing in Coronado, using bank statement income to buy in Carlsbad, or financing a 5-acre equestrian property in Poway, wholesale access ensures you receive the optimal rate and program for your specific situation.
             </p>
 
             <div className="bg-blue-50 p-8 rounded-lg my-8 text-center">

@@ -46,7 +46,7 @@ const webPageSchema = buildServiceWebPageSchema({
 
 const faqSchema = buildFAQPageSchema([
   { question: 'Are mortgage broker rates lower than bank rates?', answer: 'Yes, mortgage brokers access wholesale rates typically 0.125-0.25% lower than retail bank rates. On a $1M Orange County home, this saves approximately $149/month and $53,640 over 30 years compared to bank financing.' },
-  { question: 'How many lenders does a mortgage broker have access to?', answer: 'A mortgage broker like Mo Abdel accesses 200+ wholesale lenders, compared to a bank which offers only their own products. This wide access means better rate shopping, more loan program options, and higher approval chances.' },
+  { question: 'How many lenders does a mortgage broker have access to?', answer: 'A mortgage broker like Mo Abdel accesses 50+ Wholesale Lenders, compared to a bank which offers only their own products. This wide access means better rate shopping, more loan program options, and higher approval chances.' },
   { question: 'Is closing faster with a mortgage broker or bank?', answer: 'Mortgage brokers average 18-25 day closings compared to 21-30 days for banks. Established lender relationships and efficient processing give brokers an edge, especially in Orange County competitive markets.' },
 ], PAGE_URL);
 
@@ -56,7 +56,7 @@ export default function MortgageBrokerVsBankComparison() {
       category: "Interest pricing",
       broker: {
         advantage: "Wholesale rates typically 0.125-0.25% lower",
-        details: "Access to wholesale pricing from 200+ lenders, can shop for best pricing",
+        details: "Access to wholesale pricing from 50+ Wholesale Lenders, can shop for best pricing",
         rating: "excellent"
       },
       bank: {
@@ -68,7 +68,7 @@ export default function MortgageBrokerVsBankComparison() {
     {
       category: "Loan Options",
       broker: {
-        advantage: "200+ lenders with diverse programs",
+        advantage: "50+ Wholesale Lenders with diverse programs",
         details: "Conventional, FHA, VA, USDA, Non-QM, jumbo, and specialty programs",
         rating: "excellent"
       },
@@ -141,7 +141,7 @@ export default function MortgageBrokerVsBankComparison() {
     },
     {
       title: "Multiple Lender Options",
-      description: "Choose from 200+ lenders to find the best rate and terms for your situation",
+      description: "Choose from 50+ Wholesale Lenders to find the best rate and terms for your situation",
       savings: "Better loan programs and qualification options",
       icon: Target
     },
@@ -185,7 +185,7 @@ export default function MortgageBrokerVsBankComparison() {
   const detailedComparison = [
     {
       aspect: "Rate Shopping",
-      broker: "Compares rates from 200+ lenders to find competitive pricing",
+      broker: "Compares rates from 50+ Wholesale Lenders to find competitive pricing",
       bank: "Offers only their current pricing options",
       winner: "broker"
     },
@@ -329,7 +329,7 @@ export default function MortgageBrokerVsBankComparison() {
               <CardContent className="space-y-3">
                 {[
                   "Wholesale rates (0.125-0.25% lower)",
-                  "200+ lender options",
+                  "50+ Wholesale Lenders",
                   "Better loan program variety",
                   "Personalized expert guidance",
                   "Faster closing times",
@@ -746,7 +746,7 @@ export default function MortgageBrokerVsBankComparison() {
             </div>
             <div className="flex flex-col items-center">
               <Target className="w-8 h-8 mb-2" />
-              <span className="font-semibold">200+ Lenders</span>
+              <span className="font-semibold">50+ Wholesale Lenders</span>
               <span className="text-slate-200">Rate Comparison Service</span>
             </div>
             <div className="flex flex-col items-center">

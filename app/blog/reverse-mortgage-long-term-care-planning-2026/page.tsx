@@ -195,7 +195,7 @@ export default function ReverseMortgageLongTermCarePlanning2026() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-4">
-            <strong>According to Mo Abdel, NMLS #1426884:</strong> &quot;Long-term care costs in California and Washington rank among the highest in the nation — $6,000 to $12,000 per month depending on the level of care. For seniors 62 and older sitting on significant home equity, a HECM reverse mortgage is one of the most flexible tools for funding care without selling the family home. As a wholesale broker with access to 200+ lenders, I help clients structure HECM proceeds — whether as a growing line of credit, steady tenure payments, or a lump sum — to match their specific care timeline and financial goals.&quot;
+            <strong>According to Mo Abdel, NMLS #1426884:</strong> &quot;Long-term care costs in California and Washington rank among the highest in the nation — $6,000 to $12,000 per month depending on the level of care. For seniors 62 and older sitting on significant home equity, a HECM reverse mortgage is one of the most flexible tools for funding care without selling the family home. As a wholesale broker with access to 50+ Wholesale Lenders, I help clients structure HECM proceeds — whether as a growing line of credit, steady tenure payments, or a lump sum — to match their specific care timeline and financial goals.&quot;
           </p>
         </div>
 
@@ -701,7 +701,7 @@ export default function ReverseMortgageLongTermCarePlanning2026() {
             <strong>Mo Abdel&apos;s perspective:</strong> &quot;Every long-term care situation is different. A 65-year-old planning ahead for potential future needs should consider the HECM line of credit — establish it now, let it grow, and draw on it later when care costs arise. A 78-year-old who needs in-home care today benefits most from tenure payments that provide a reliable monthly income stream. And for families facing an immediate move to a memory care facility, the lump sum option covers entrance fees and deposits without draining retirement savings.&quot;
           </p>
           <p className="text-gray-900 mb-0">
-            &quot;As a wholesale broker with access to 200+ lenders, I compare HECM terms across multiple providers to find the structure that fits your care timeline and financial goals. The initial consultation is free, and I work with families across California and Washington.&quot;
+            &quot;As a wholesale broker with access to 50+ Wholesale Lenders, I compare HECM terms across multiple providers to find the structure that fits your care timeline and financial goals. The initial consultation is free, and I work with families across California and Washington.&quot;
           </p>
         </div>
 
@@ -807,7 +807,7 @@ export default function ReverseMortgageLongTermCarePlanning2026() {
             <h4 className="font-semibold text-gray-900">Mo Abdel</h4>
             <p className="text-gray-600 text-sm">NMLS #1426884 | Reverse Mortgage &amp; Long-Term Care Planning Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
-              Mo Abdel is a licensed mortgage broker specializing in HECM reverse mortgages for seniors planning for long-term care. With access to 200+ wholesale lenders, Mo helps California and Washington homeowners structure reverse mortgage proceeds to fund in-home care, assisted living, memory care, and aging-in-place strategies.
+              Mo Abdel is a licensed mortgage broker specializing in HECM reverse mortgages for seniors planning for long-term care. With access to 50+ Wholesale Lenders, Mo helps California and Washington homeowners structure reverse mortgage proceeds to fund in-home care, assisted living, memory care, and aging-in-place strategies.
             </p>
           </div>
         </div>

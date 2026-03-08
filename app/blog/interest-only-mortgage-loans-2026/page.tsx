@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with interest-only mortgage loans?',
-    answer: 'A wholesale mortgage broker accesses multiple wholesale lenders offering IO products, creating competition for the borrower. Retail banks typically offer limited IO options with rigid terms. A broker compares IO programs across 200+ lenders to find the best rate, longest IO period, lowest reserve requirements, and most flexible qualification criteria for each borrower situation.',
+    answer: 'A wholesale mortgage broker accesses multiple wholesale lenders offering IO products, creating competition for the borrower. Retail banks typically offer limited IO options with rigid terms. A broker compares IO programs across 50+ Wholesale Lenders to find the best rate, longest IO period, lowest reserve requirements, and most flexible qualification criteria for each borrower situation.',
   },
   {
     question: 'Can self-employed borrowers get interest-only mortgages?',
@@ -238,7 +238,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
         {/* Citation Hook */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Interest-only mortgage loans allow borrowers to pay <strong>only the interest</strong> on their loan for an initial period of 5 to 10 years, reducing monthly payments by <strong>20% to 35%</strong> compared to fully amortizing loans. In 2026, IO mortgages remain a strategic tool for <strong>high-income earners, real estate investors, and self-employed professionals</strong> in California and Washington luxury markets. According to the <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, borrowers using interest-only features must understand both the payment advantages and the risks of principal deferral. As a <strong>wholesale mortgage broker</strong> with access to 200+ lenders, I structure IO loans daily for borrowers who need payment flexibility without sacrificing loan competitiveness.
+            Interest-only mortgage loans allow borrowers to pay <strong>only the interest</strong> on their loan for an initial period of 5 to 10 years, reducing monthly payments by <strong>20% to 35%</strong> compared to fully amortizing loans. In 2026, IO mortgages remain a strategic tool for <strong>high-income earners, real estate investors, and self-employed professionals</strong> in California and Washington luxury markets. According to the <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, borrowers using interest-only features must understand both the payment advantages and the risks of principal deferral. As a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders, I structure IO loans daily for borrowers who need payment flexibility without sacrificing loan competitiveness.
           </p>
         </div>
 
@@ -665,7 +665,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
             The ideal IO borrower has a <strong>credit score above 720</strong>, makes a <strong>down payment of 20% or more</strong>, maintains <strong>12 to 24 months of reserves</strong>, and has a clear plan for when the IO period expires. In California and Washington luxury markets, IO jumbo loans are a standard product used by thousands of qualified borrowers annually.
           </p>
           <p>
-            As a <strong>wholesale mortgage broker</strong> licensed in California and Washington, I access 200+ lenders offering interest-only programs, including jumbo IO, bank statement IO, and asset depletion IO products not available through retail banks. This competition between lenders delivers better rates, more flexible terms, and faster closings.
+            As a <strong>wholesale mortgage broker</strong> licensed in California and Washington, I access 50+ Wholesale Lenders offering interest-only programs, including jumbo IO, bank statement IO, and asset depletion IO products not available through retail banks. This competition between lenders delivers better rates, more flexible terms, and faster closings.
           </p>
           <p className="mb-0">
             <strong>Ready to explore interest-only mortgage options?</strong> Call <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a free consultation. I will analyze your financial profile, compare IO programs across multiple lenders, and present the options that align with your goals and timeline.
@@ -677,7 +677,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
           <h3 className="text-lg font-bold text-gray-900 mt-0 mb-3">Related Mortgage Guides</h3>
           <ul className="space-y-2 mb-0">
             <li><Link href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">Jumbo Loan Requirements 2026: CA & WA High-Balance Mortgage Guide</Link></li>
-            <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 200+ Lender Access</Link></li>
+            <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 50+ Wholesale Lenders</Link></li>
             <li><Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:underline">Bank Statement Loans: Self-Employed Mortgage Solutions</Link></li>
             <li><Link href="/blog/asset-depletion-loans-guide-2026" className="text-blue-600 hover:underline">Asset Depletion Loans: Qualify Using Your Assets</Link></li>
             <li><Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works in 2026</Link></li>

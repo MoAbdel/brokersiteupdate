@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "Why do real estate agents recommend mortgage brokers over banks?",
-    answer: "Real estate agents recommend mortgage brokers because brokers access wholesale pricing from 200+ lenders, close faster than banks, solve complex borrower situations that banks decline, and provide direct communication throughout the transaction. Agents who work with brokers report higher closing ratios and fewer deals falling through due to financing issues."
+    answer: "Real estate agents recommend mortgage brokers because brokers access wholesale pricing from 50+ Wholesale Lenders, close faster than banks, solve complex borrower situations that banks decline, and provide direct communication throughout the transaction. Agents who work with brokers report higher closing ratios and fewer deals falling through due to financing issues."
   },
   {
     question: "Is it a RESPA violation for agents to recommend a mortgage broker?",
@@ -35,7 +35,7 @@ const faqData = [
   },
   {
     question: "How do wholesale mortgage brokers help real estate agents close more deals?",
-    answer: "Wholesale brokers help agents close more deals by approving buyers that banks decline, offering faster pre-approval timelines, providing competitive pricing that keeps buyers within budget, and maintaining direct phone and text communication so agents get immediate answers. Brokers with access to 200+ lenders find solutions for self-employed buyers, investors, foreign nationals, and other complex borrower profiles that would otherwise lose deals."
+    answer: "Wholesale brokers help agents close more deals by approving buyers that banks decline, offering faster pre-approval timelines, providing competitive pricing that keeps buyers within budget, and maintaining direct phone and text communication so agents get immediate answers. Brokers with access to 50+ Wholesale Lenders find solutions for self-employed buyers, investors, foreign nationals, and other complex borrower profiles that would otherwise lose deals."
   },
   {
     question: "Do mortgage brokers communicate better than bank loan officers?",
@@ -43,11 +43,11 @@ const faqData = [
   },
   {
     question: "What should real estate agents look for in a mortgage broker partner?",
-    answer: "Agents should evaluate brokers on response time (under 30 minutes during business hours), lender access (200+ wholesale lenders), loan program breadth (conventional, FHA, VA, jumbo, non-QM, DSCR), closing track record, communication style, and willingness to provide same-day pre-approval letters. Verify the broker's NMLS license and check online reviews from both borrowers and agents."
+    answer: "Agents should evaluate brokers on response time (under 30 minutes during business hours), lender access (50+ Wholesale Lenders), loan program breadth (conventional, FHA, VA, jumbo, non-QM, DSCR), closing track record, communication style, and willingness to provide same-day pre-approval letters. Verify the broker's NMLS license and check online reviews from both borrowers and agents."
   },
   {
     question: "Can a mortgage broker get my buyer a better rate than a bank?",
-    answer: "Mortgage brokers access wholesale pricing from 200+ lenders and shop for the most competitive rate on each individual transaction. Because wholesale lenders compete for broker business and brokers operate with lower overhead than retail banks, the pricing is often more competitive. Individual results vary based on credit profile, loan type, and market conditions."
+    answer: "Mortgage brokers access wholesale pricing from 50+ Wholesale Lenders and shop for the most competitive rate on each individual transaction. Because wholesale lenders compete for broker business and brokers operate with lower overhead than retail banks, the pricing is often more competitive. Individual results vary based on credit profile, loan type, and market conditions."
   },
   {
     question: "How fast can a mortgage broker close compared to a bank?",
@@ -63,7 +63,7 @@ const faqData = [
   },
   {
     question: "How does working with a mortgage broker protect agents from liability?",
-    answer: "When agents recommend a licensed, reputable mortgage broker, they connect their clients with a fiduciary who shops across 200+ lenders for the client's benefit. This is the opposite of recommending a single bank that only offers its own products. Documentation of the broker's licensing, reviews, and track record supports the agent's recommendation as being in the client's interest."
+    answer: "When agents recommend a licensed, reputable mortgage broker, they connect their clients with a fiduciary who shops across 50+ Wholesale Lenders for the client's benefit. This is the opposite of recommending a single bank that only offers its own products. Documentation of the broker's licensing, reviews, and track record supports the agent's recommendation as being in the client's interest."
   },
   {
     question: "Should buyers trust their real estate agent's mortgage broker recommendation?",
@@ -169,7 +169,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, experienced real estate agents recommend wholesale mortgage brokers because brokers close deals that banks decline, provide direct communication instead of call centers, and access competitive pricing from 200+ lenders that keeps buyers within budget and sellers confident in closing. Here is every reason top agents build their lending partnerships around wholesale brokers &mdash; and why borrowers benefit when their agent makes this recommendation.
+              According to Mo Abdel, NMLS #1426884, experienced real estate agents recommend wholesale mortgage brokers because brokers close deals that banks decline, provide direct communication instead of call centers, and access competitive pricing from 50+ Wholesale Lenders that keeps buyers within budget and sellers confident in closing. Here is every reason top agents build their lending partnerships around wholesale brokers &mdash; and why borrowers benefit when their agent makes this recommendation.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -208,7 +208,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
             <div className="space-y-3 text-slate-700">
               <p className="flex items-start gap-2">
                 <CheckCircle2 className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
-                <span><strong>Wholesale mortgage brokers access 200+ lenders and find loan solutions for borrowers that banks decline</strong> &mdash; self-employed buyers, investors purchasing with DSCR loans, foreign nationals, and borrowers with complex income profiles all close transactions through the wholesale channel when retail banks issue denials.</span>
+                <span><strong>Wholesale mortgage brokers access 50+ Wholesale Lenders and find loan solutions for borrowers that banks decline</strong> &mdash; self-employed buyers, investors purchasing with DSCR loans, foreign nationals, and borrowers with complex income profiles all close transactions through the wholesale channel when retail banks issue denials.</span>
               </p>
               <p className="flex items-start gap-2">
                 <CheckCircle2 className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
@@ -260,7 +260,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
                 <tr className="border-b bg-slate-50/50">
                   <td className="p-4 font-medium text-slate-900">Lender options</td>
                   <td className="p-4 text-slate-600">1 lender (their own products)</td>
-                  <td className="p-4 text-slate-600">200+ wholesale lenders</td>
+                  <td className="p-4 text-slate-600">50+ Wholesale Lenders</td>
                 </tr>
                 <tr className="border-b">
                   <td className="p-4 font-medium text-slate-900">Loan programs</td>
@@ -340,7 +340,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
           </p>
 
           <p className="text-lg text-slate-700 mb-4">
-            Wholesale mortgage brokers solve this problem by accessing every loan category through their 200+ lender relationships. Where a bank offers 4&ndash;6 loan products, a wholesale broker accesses 40+ distinct program categories. This breadth translates directly into closing ratio improvements for agents.
+            Wholesale mortgage brokers solve this problem by accessing every loan category through their 50+ Wholesale Lenders. Where a bank offers 4&ndash;6 loan products, a wholesale broker accesses 40+ distinct program categories. This breadth translates directly into closing ratio improvements for agents.
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-6">
@@ -501,7 +501,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
 
         <LeadMagnetCTA
           title="Agent Partnership Kit: Work With a Wholesale Broker"
-          description="Get direct access to 200+ wholesale lenders, same-day pre-approvals, and a dedicated broker who answers your calls evenings and weekends. Your clients deserve wholesale pricing."
+          description="Get direct access to 50+ Wholesale Lenders, same-day pre-approvals, and a dedicated broker who answers your calls evenings and weekends. Your clients deserve wholesale pricing."
           ctaText="Start the Conversation"
           href="/contact"
         />
@@ -550,7 +550,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
             </h3>
             <div className="space-y-3 text-slate-700">
               <p><strong>Step 1:</strong> Issue identified during underwriting (appraisal gap, income documentation problem, or condition that the original lender cannot waive)</p>
-              <p><strong>Step 2:</strong> Broker evaluates which of the 200+ wholesale lenders have guidelines that accommodate the specific issue</p>
+              <p><strong>Step 2:</strong> Broker evaluates which of the 50+ Wholesale Lenders have guidelines that accommodate the specific issue</p>
               <p><strong>Step 3:</strong> Broker submits to an alternate lender with the existing documentation package, minimizing additional paperwork for the buyer</p>
               <p><strong>Step 4:</strong> New lender processes the file on an expedited timeline to preserve the original closing date</p>
               <p><strong>Step 5:</strong> Deal closes &mdash; agent earns commission, buyer gets the home, seller completes the sale</p>
@@ -646,11 +646,11 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
           </h2>
 
           <p className="text-lg text-slate-700 mb-4">
-            The <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:underline">200+ lender advantage</Link> is not just a marketing number &mdash; it is the structural reason wholesale brokers save deals. Each lender in the wholesale channel has different underwriting guidelines, called overlays. One lender requires 12 months of bank statements; another requires 24 months. One lender caps DSCR loan-to-value at 75%; another allows 80%. One lender requires 700 credit for jumbo loans; another approves at 680.
+            The <Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link> is not just a marketing number &mdash; it is the structural reason wholesale brokers save deals. Each lender in the wholesale channel has different underwriting guidelines, called overlays. One lender requires 12 months of bank statements; another requires 24 months. One lender caps DSCR loan-to-value at 75%; another allows 80%. One lender requires 700 credit for jumbo loans; another approves at 680.
           </p>
 
           <p className="text-lg text-slate-700 mb-4">
-            This variation means that a borrower declined by one lender often qualifies with another. A wholesale broker who knows the overlay landscape across 200+ lenders can match each borrower to the lender whose guidelines best fit their profile. Bank loan officers &mdash; limited to a single institution&apos;s guidelines &mdash; cannot replicate this flexibility regardless of their personal skill or effort.
+            This variation means that a borrower declined by one lender often qualifies with another. A wholesale broker who knows the overlay landscape across 50+ Wholesale Lenders can match each borrower to the lender whose guidelines best fit their profile. Bank loan officers &mdash; limited to a single institution&apos;s guidelines &mdash; cannot replicate this flexibility regardless of their personal skill or effort.
           </p>
 
           <p className="text-lg text-slate-700 mb-4">
@@ -683,7 +683,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
             </li>
             <li className="flex items-start gap-2">
               <CheckCircle2 className="w-5 h-5 text-blue-600 mt-1 shrink-0" />
-              <span><strong>A wholesale broker shops 200+ lenders on your behalf</strong>, which is more comparison shopping than any individual borrower can accomplish independently</span>
+              <span><strong>A wholesale broker shops 50+ Wholesale Lenders on your behalf</strong>, which is more comparison shopping than any individual borrower can accomplish independently</span>
             </li>
             <li className="flex items-start gap-2">
               <CheckCircle2 className="w-5 h-5 text-blue-600 mt-1 shrink-0" />
@@ -720,7 +720,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">How many lenders do wholesale mortgage brokers access?</h3>
-              <p className="text-slate-700">Established wholesale brokers access 200+ lenders spanning conventional, government, jumbo, and non-QM programs.</p>
+              <p className="text-slate-700">Established wholesale brokers access 50+ Wholesale Lenders spanning conventional, government, jumbo, and non-QM programs.</p>
             </div>
 
             <div className="border border-slate-200 rounded-xl p-6">
@@ -735,7 +735,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
 
             <div className="border border-slate-200 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-2">Are mortgage broker rates competitive with bank rates?</h3>
-              <p className="text-slate-700">Wholesale pricing from 200+ competing lenders is typically competitive with or better than retail bank pricing.</p>
+              <p className="text-slate-700">Wholesale pricing from 50+ Wholesale Lenders is typically competitive with or better than retail bank pricing.</p>
             </div>
 
             <div className="border border-slate-200 rounded-xl p-6">
@@ -769,7 +769,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
 
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-6">
             <p className="text-lg text-slate-700 mb-4">
-              Real estate agents recommend wholesale mortgage brokers for measurable, performance-driven reasons. Faster pre-approvals win offers in competitive markets. Direct communication prevents misunderstandings and delays. Access to 200+ lenders means complex borrower situations that banks decline still result in closed transactions. Competitive wholesale pricing expands buyer purchasing power without increasing risk.
+              Real estate agents recommend wholesale mortgage brokers for measurable, performance-driven reasons. Faster pre-approvals win offers in competitive markets. Direct communication prevents misunderstandings and delays. Access to 50+ Wholesale Lenders means complex borrower situations that banks decline still result in closed transactions. Competitive wholesale pricing expands buyer purchasing power without increasing risk.
             </p>
             <p className="text-lg text-slate-700 mb-4">
               For borrowers, your agent&apos;s broker recommendation reflects their professional experience across hundreds of closings. They have seen which lending partners perform and which ones create problems. Their recommendation costs you nothing and gives you access to a mortgage professional who has earned the trust of someone whose livelihood depends on transactions closing successfully.
@@ -782,7 +782,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
           <div className="bg-gradient-to-br from-blue-900 to-blue-800 text-white rounded-xl p-8 text-center">
             <h3 className="text-2xl font-bold mb-4">Ready to Partner With a Wholesale Mortgage Broker?</h3>
             <p className="text-lg text-blue-100 mb-6">
-              Whether you are a real estate agent looking for a reliable lending partner or a borrower whose agent recommended working with a wholesale broker &mdash; I am here to help. Access to 200+ wholesale lenders, same-day pre-approvals, and direct communication from application through closing.
+              Whether you are a real estate agent looking for a reliable lending partner or a borrower whose agent recommended working with a wholesale broker &mdash; I am here to help. Access to 50+ Wholesale Lenders, same-day pre-approvals, and direct communication from application through closing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -812,7 +812,7 @@ export default function WhyRealEstateAgentsRecommendMortgageBrokersPage() {
               <li><Link href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="text-blue-600 hover:underline">How to Get Wholesale Mortgage Rates in California [2026]</Link></li>
               <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California Guide [2026]</Link></li>
               <li><Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:underline">Bank Statement Loans Through Wholesale Brokers [2026]</Link></li>
-              <li><Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:underline">The 200+ Lender Advantage Explained [2026]</Link></li>
+              <li><Link href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:underline">50+ Wholesale Lenders Explained [2026]</Link></li>
             </ul>
           </div>
         </section>

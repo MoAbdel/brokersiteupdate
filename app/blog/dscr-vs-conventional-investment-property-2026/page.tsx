@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR vs Conventional Loans for Investment Properties: Complete Comparison [2026] | Mo Abdel',
-  description: 'DSCR vs conventional investment property loans 2026: Complete side-by-side comparison of rates, requirements, qualification, and when to use each. Wholesale access to 200+ lenders. NMLS #1426884.',
+  description: 'DSCR vs conventional investment property loans 2026: Complete side-by-side comparison of rates, requirements, qualification, and when to use each. Wholesale access to 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['dscr vs conventional investment property', 'DSCR vs conventional loan', 'investment property loan comparison 2026', 'DSCR or conventional mortgage', 'best loan for rental property'],
   openGraph: {
     title: 'DSCR vs Conventional Loans for Investment Properties: Complete Comparison [2026]',
@@ -31,7 +31,7 @@ const faqData = [
   },
   {
     question: "Are DSCR loan rates higher than conventional investment property rates?",
-    answer: "Yes, DSCR rates are typically higher than conventional investment property rates because DSCR loans are non-QM products with reduced documentation. The rate differential varies by lender and borrower profile. Wholesale broker access is essential for minimizing this gap by comparing rates across 100+ DSCR lenders to find the most competitive pricing for your scenario."
+    answer: "Yes, DSCR rates are typically higher than conventional investment property rates because DSCR loans are non-QM products with reduced documentation. The rate differential varies by lender and borrower profile. Wholesale broker access is essential for minimizing this gap by comparing rates across 50+ Wholesale Lenders to find the most competitive pricing for your scenario."
   },
   {
     question: "Can I switch from a DSCR loan to a conventional loan later?",
@@ -151,7 +151,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, the choice between DSCR and conventional financing is the most consequential decision an investor makes when structuring a rental property acquisition. Conventional loans offer lower rates but demand full income documentation, DTI compliance, and a 10-property ceiling. DSCR loans eliminate all income verification but carry higher rates and larger down payments. Choosing the wrong program costs investors thousands annually &mdash; and a wholesale broker comparing 200+ lenders across both categories ensures every investor finds their optimal match.
+              According to Mo Abdel, NMLS #1426884, the choice between DSCR and conventional financing is the most consequential decision an investor makes when structuring a rental property acquisition. Conventional loans offer lower rates but demand full income documentation, DTI compliance, and a 10-property ceiling. DSCR loans eliminate all income verification but carry higher rates and larger down payments. Choosing the wrong program costs investors thousands annually &mdash; and a wholesale broker comparing 50+ Wholesale Lenders across both categories ensures every investor finds their optimal match.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -550,7 +550,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
-            Points and origination fees add another dimension to the rate-cost tradeoff. DSCR lenders typically charge 1.0-2.5 points depending on credit score and rate selected, while conventional lenders charge 0.5-1.5 points. An investor can "buy down" their DSCR rate by paying additional points upfront, reducing the rate spread to 0.75% or even 0.50% in some cases. Wholesale broker access is critical here—comparing 100+ DSCR lenders reveals that some lenders offer aggressive DSCR pricing that rivals conventional rates after points are factored in, especially for borrowers with strong credit (740+) and substantial down payments (30%+).
+            Points and origination fees add another dimension to the rate-cost tradeoff. DSCR lenders typically charge 1.0-2.5 points depending on credit score and rate selected, while conventional lenders charge 0.5-1.5 points. An investor can "buy down" their DSCR rate by paying additional points upfront, reducing the rate spread to 0.75% or even 0.50% in some cases. Wholesale broker access is critical here—comparing 50+ Wholesale Lenders reveals that some lenders offer aggressive DSCR pricing that rivals conventional rates after points are factored in, especially for borrowers with strong credit (740+) and substantial down payments (30%+).
           </p>
         </section>
 
@@ -602,7 +602,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
-            Wholesale broker access is transformative for refinance decisions. A broker comparing 100+ lenders can identify (1) whether a conventional-to-DSCR or DSCR-to-conventional refinance makes financial sense, (2) which specific lenders offer the most competitive pricing for the refinanced property's profile, and (3) whether the refinance recovery period is short enough to justify the closing costs and administrative burden. Without wholesale comparison, investors often miss 0.5-1.0% rate savings on refinances—leaving thousands on the table annually.
+            Wholesale broker access is transformative for refinance decisions. A broker comparing 50+ Wholesale Lenders can identify (1) whether a conventional-to-DSCR or DSCR-to-conventional refinance makes financial sense, (2) which specific lenders offer the most competitive pricing for the refinanced property's profile, and (3) whether the refinance recovery period is short enough to justify the closing costs and administrative burden. Without wholesale comparison, investors often miss 0.5-1.0% rate savings on refinances—leaving thousands on the table annually.
           </p>
         </section>
 
@@ -989,7 +989,7 @@ export default function DSCRvsConventionalInvestmentProperty2026() {
             There is no universal answer to the DSCR versus conventional question. W-2 borrowers with low DTI ratios and fewer than 10 properties benefit from conventional&apos;s lower rates. Self-employed investors, portfolio builders past the 10-property ceiling, and anyone requiring LLC vesting need DSCR&apos;s documentation flexibility. Many investors use both programs strategically at different portfolio stages.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares both conventional and DSCR programs across 200+ lenders to identify the lowest-cost option for each investor&apos;s specific profile. Whether you qualify for conventional, need DSCR, or benefit from a mixed strategy, the wholesale channel delivers the broadest comparison and the best available terms in the market.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares both conventional and DSCR programs across 50+ Wholesale Lenders to identify the lowest-cost option for each investor&apos;s specific profile. Whether you qualify for conventional, need DSCR, or benefit from a mixed strategy, the wholesale channel delivers the broadest comparison and the best available terms in the market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

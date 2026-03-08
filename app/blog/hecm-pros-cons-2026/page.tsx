@@ -769,7 +769,7 @@ export default function HECMProsConsPage() {
             <p className="text-gray-600 text-sm mt-2">
               Mo Abdel is a licensed mortgage broker specializing in reverse mortgages and
               home equity solutions for seniors in California and Washington. With access to
-              200+ wholesale lenders, he provides unbiased guidance on HECM options.
+              50+ Wholesale Lenders, he provides unbiased guidance on HECM options.
             </p>
           </div>
         </div>

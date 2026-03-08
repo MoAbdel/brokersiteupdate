@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity in Premium Eastside, WA: HELOC & Cash-Out for Bellevue, Mercer Island & More [2026]',
-    description: 'HELOC, home equity loans, and cash-out refinance for Bellevue, Mercer Island, Sammamish, and Newcastle. Wholesale broker access to 200+ lenders for tech executive equity strategies.',
+    description: 'HELOC, home equity loans, and cash-out refinance for Bellevue, Mercer Island, Sammamish, and Newcastle. Wholesale broker access to 50+ Wholesale Lenders for tech executive equity strategies.',
     url: 'https://www.mothebroker.com/blog/home-equity-premium-eastside-wa-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -57,7 +57,7 @@ const faqData = [
   },
   {
     question: 'Can I get a HELOC on a lakefront property on Mercer Island?',
-    answer: 'Yes. Lakefront properties on Mercer Island qualify for HELOCs, though lender selection matters. Waterfront homes require appraisers experienced with shoreline premiums and limited comparable sales. Wholesale broker access identifies the 8-12 lenders (out of 200+) who regularly underwrite Lake Washington waterfront HELOCs without discounting the waterfront premium during appraisal.',
+    answer: 'Yes. Lakefront properties on Mercer Island qualify for HELOCs, though lender selection matters. Waterfront homes require appraisers experienced with shoreline premiums and limited comparable sales. Wholesale broker access identifies the 8-12 lenders (out of 50+ Wholesale Lenders) who regularly underwrite Lake Washington waterfront HELOCs without discounting the waterfront premium during appraisal.',
   },
   {
     question: 'What are the closing costs on a Premium Eastside HELOC?',
@@ -385,7 +385,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
             <li><strong>Determine your tappable equity at 80% CLTV.</strong> Multiply your home&apos;s value by 0.80, then subtract your first mortgage balance. On a $1.5 million Bellevue home with a $700,000 mortgage, tappable equity equals $500,000.</li>
             <li><strong>Assess your income documentation path.</strong> W-2 tech employees with RSU income need 24 months of vesting history. Business owners and consultants may use bank statement programs (12-24 months of deposits). High-net-worth individuals can qualify through asset-depletion, counting liquid assets as income.</li>
             <li><strong>Choose between HELOC, HELOAN, or cash-out refinance.</strong> If your first mortgage rate is below 5%, a HELOC or HELOAN preserves that rate. If your current rate exceeds 6.5%, cash-out refinance consolidates into a single lower payment. Evaluate total cost over your planned holding period.</li>
-            <li><strong>Connect with a wholesale mortgage broker.</strong> Wholesale brokers access 200+ lender rate sheets simultaneously, identifying the optimal combination of rate, CLTV, and qualification flexibility for your specific situation. Retail banks and credit unions offer a single product from a single institution.</li>
+            <li><strong>Connect with a wholesale mortgage broker.</strong> Wholesale brokers access 50+ Wholesale Lenders simultaneously, identifying the optimal combination of rate, CLTV, and qualification flexibility for your specific situation. Retail banks and credit unions offer a single product from a single institution.</li>
             <li><strong>Complete application and appraisal.</strong> Provide 2 years of tax returns (or bank statements), recent pay stubs, RSU vesting schedules, and asset statements. Your broker orders the appraisal—desktop, exterior-only, or full interior depending on property value and lender requirements.</li>
             <li><strong>Close and fund.</strong> Review final terms, sign closing documents, and observe the 3-day right of rescission on primary residences. HELOC funds become available immediately after the rescission period. Cash-out refinance and HELOAN funds disburse at closing.</li>
           </ol>
@@ -679,7 +679,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
           </p>
 
           <p className="text-gray-700 mb-4">
-            A wholesale mortgage broker operates differently. Access to 200+ wholesale lender rate sheets means simultaneously evaluating every available HELOC, HELOAN, and cash-out refinance program in the market. For the same Bellevue homeowner, this means identifying the 15-20 lenders who accept RSU income, comparing their specific vesting schedule requirements (Amazon&apos;s back-loaded vest calculates differently than Microsoft&apos;s equal quarterly vest), and selecting the program offering the optimal combination of rate, CLTV, and closing timeline.
+            A wholesale mortgage broker operates differently. Access to 50+ Wholesale Lenders rate sheets means simultaneously evaluating every available HELOC, HELOAN, and cash-out refinance program in the market. For the same Bellevue homeowner, this means identifying the 15-20 lenders who accept RSU income, comparing their specific vesting schedule requirements (Amazon&apos;s back-loaded vest calculates differently than Microsoft&apos;s equal quarterly vest), and selecting the program offering the optimal combination of rate, CLTV, and closing timeline.
           </p>
 
           <p className="text-gray-700 mb-4">
@@ -695,7 +695,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
           </p>
 
           <p className="text-gray-700 mb-4">
-            Every wholesale HELOC transaction I close on the Premium Eastside involves the same fundamental process: understand the borrower&apos;s complete financial picture, identify the 3-5 best-fit lenders from 200+ options, present the tradeoffs transparently, and execute the transaction with the precision that $500,000+ equity lines demand. This process consistently delivers rates 0.25-0.50% below retail alternatives and CLTV limits 5-10% higher than what a single-institution bank offers—differences that translate to tens of thousands of dollars in additional accessible equity and thousands of dollars in annual interest savings.
+            Every wholesale HELOC transaction I close on the Premium Eastside involves the same fundamental process: understand the borrower&apos;s complete financial picture, identify the 3-5 best-fit lenders from 50+ Wholesale Lenders, present the tradeoffs transparently, and execute the transaction with the precision that $500,000+ equity lines demand. This process consistently delivers rates 0.25-0.50% below retail alternatives and CLTV limits 5-10% higher than what a single-institution bank offers—differences that translate to tens of thousands of dollars in additional accessible equity and thousands of dollars in annual interest savings.
           </p>
         </section>
 
@@ -846,7 +846,7 @@ export default function HomeEquityPremiumEastsideWA2026() {
           </p>
 
           <p className="text-gray-700 mb-4">
-            As a wholesale mortgage broker with access to 200+ lender rate sheets and specific expertise in tech executive RSU qualification, asset-depletion programs for retirees, and super-jumbo waterfront transactions, I identify the optimal HELOC, HELOAN, or cash-out refinance for your specific situation—consistently delivering rates 0.25-0.50% below retail alternatives with 5-10% higher CLTV limits.
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders and specific expertise in tech executive RSU qualification, asset-depletion programs for retirees, and super-jumbo waterfront transactions, I identify the optimal HELOC, HELOAN, or cash-out refinance for your specific situation—consistently delivering rates 0.25-0.50% below retail alternatives with 5-10% higher CLTV limits.
           </p>
 
           <div className="bg-white rounded-lg p-4 border border-blue-300">

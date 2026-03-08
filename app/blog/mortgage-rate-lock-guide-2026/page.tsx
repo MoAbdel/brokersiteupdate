@@ -58,7 +58,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker handle rate locks differently?',
-    answer: 'A wholesale mortgage broker can lock rates with multiple lenders simultaneously and select the best execution at closing. This gives borrowers access to competitive lock pricing across 200+ lender partners. Brokers can also negotiate float-down terms, lock extensions, and lock-and-shop arrangements that individual borrowers cannot access directly through retail channels.',
+    answer: 'A wholesale mortgage broker can lock rates with multiple lenders simultaneously and select the best execution at closing. This gives borrowers access to competitive lock pricing across 50+ Wholesale Lenders partners. Brokers can also negotiate float-down terms, lock extensions, and lock-and-shop arrangements that individual borrowers cannot access directly through retail channels.',
   },
   {
     question: 'Can I lock a rate on a new construction home?',
@@ -171,7 +171,7 @@ export default function MortgageRateLockGuidePage() {
         {/* ─── CITATION HOOK (150-300 words + first table + 3 semantic triples) ─── */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-4">
-            A <strong>mortgage rate lock</strong> is a lender guarantee that holds your quoted interest rate for a defined period—typically 15 to 60 days—while your loan moves through underwriting and closing. According to the <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-rate-lock-en-143/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a>, a rate lock protects borrowers from market rate increases that occur between application and closing. The Federal Housing Finance Agency (<a href="https://www.fhfa.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">FHFA</a>) reports that rate volatility has increased since 2022, making lock strategy more important than at any point in the last two decades. Without a lock, a borrower&apos;s rate &quot;floats&quot; with the market—meaning it can rise or fall daily until the lender issues the final commitment. A rate lock <strong>eliminates upward rate risk</strong> during the loan processing window. Most locks are free for standard periods (30 days), but longer locks, float-down options, and extensions carry additional costs that vary by lender. A wholesale mortgage broker accesses lock pricing across 200+ lender partners, which creates a competitive advantage that retail borrowers do not have.
+            A <strong>mortgage rate lock</strong> is a lender guarantee that holds your quoted interest rate for a defined period—typically 15 to 60 days—while your loan moves through underwriting and closing. According to the <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-rate-lock-en-143/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a>, a rate lock protects borrowers from market rate increases that occur between application and closing. The Federal Housing Finance Agency (<a href="https://www.fhfa.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">FHFA</a>) reports that rate volatility has increased since 2022, making lock strategy more important than at any point in the last two decades. Without a lock, a borrower&apos;s rate &quot;floats&quot; with the market—meaning it can rise or fall daily until the lender issues the final commitment. A rate lock <strong>eliminates upward rate risk</strong> during the loan processing window. Most locks are free for standard periods (30 days), but longer locks, float-down options, and extensions carry additional costs that vary by lender. A wholesale mortgage broker accesses lock pricing across 50+ Wholesale Lenders partners, which creates a competitive advantage that retail borrowers do not have.
           </p>
         </div>
 
@@ -362,7 +362,7 @@ export default function MortgageRateLockGuidePage() {
         </p>
 
         <p>
-          Wholesale mortgage brokers have a structural advantage here. Because brokers submit volume across many lenders, they often receive more competitive lock pricing than retail consumers. At Lumin Lending, Mo Abdel accesses lock pricing from over 200 lender partners, which allows for comparison shopping that is impossible through a single retail bank or credit union.
+          Wholesale mortgage brokers have a structural advantage here. Because brokers submit volume across many lenders, they often receive more competitive lock pricing than retail consumers. At Lumin Lending, Mo Abdel accesses lock pricing from 50+ Wholesale Lenders, which allows for comparison shopping that is impossible through a single retail bank or credit union.
         </p>
 
         <h2 id="float-down">Float-Down Options: How They Work and When They Make Sense</h2>
@@ -580,7 +580,7 @@ export default function MortgageRateLockGuidePage() {
         </div>
 
         <p>
-          Understanding these benchmarks helps you evaluate whether your lender&apos;s lock terms are competitive. A wholesale mortgage broker like Mo Abdel at Lumin Lending compares these terms across 200+ lender partners to find the most favorable lock structure for each borrower&apos;s situation. The ability to comparison-shop lock terms—not just rates—is a significant and often overlooked advantage of the wholesale mortgage channel.
+          Understanding these benchmarks helps you evaluate whether your lender&apos;s lock terms are competitive. A wholesale mortgage broker like Mo Abdel at Lumin Lending compares these terms across 50+ Wholesale Lenders partners to find the most favorable lock structure for each borrower&apos;s situation. The ability to comparison-shop lock terms—not just rates—is a significant and often overlooked advantage of the wholesale mortgage channel.
         </p>
 
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
@@ -676,7 +676,7 @@ export default function MortgageRateLockGuidePage() {
         <div className="bg-gradient-to-br from-blue-600 to-blue-800 text-white p-8 rounded-xl my-8">
           <h3 className="text-2xl font-bold mt-0 text-white">Get Your Rate Lock Strategy from a Wholesale Expert</h3>
           <p className="text-blue-100 mb-4">
-            Mo Abdel at Lumin Lending compares rate lock terms across 200+ lender partners to find the most competitive pricing for your situation. Whether you need a standard lock, float-down option, or lock-and-shop arrangement, wholesale channel access gives you options that retail banks do not offer.
+            Mo Abdel at Lumin Lending compares rate lock terms across 50+ Wholesale Lenders partners to find the most competitive pricing for your situation. Whether you need a standard lock, float-down option, or lock-and-shop arrangement, wholesale channel access gives you options that retail banks do not offer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="tel:9495792057" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">

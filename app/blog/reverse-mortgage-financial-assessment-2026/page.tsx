@@ -62,7 +62,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with the reverse mortgage financial assessment?',
-    answer: 'A wholesale mortgage broker with access to 200+ lenders can compare financial assessment interpretations across multiple HECM lenders. Different lenders apply the assessment guidelines with varying levels of flexibility regarding extenuating circumstances, compensating factors, and LESA calculations. A broker can identify lenders with the most favorable interpretation of your specific financial profile, potentially avoiding a LESA requirement or obtaining a partial LESA instead of a full one.',
+    answer: 'A wholesale mortgage broker with access to 50+ Wholesale Lenders can compare financial assessment interpretations across multiple HECM lenders. Different lenders apply the assessment guidelines with varying levels of flexibility regarding extenuating circumstances, compensating factors, and LESA calculations. A broker can identify lenders with the most favorable interpretation of your specific financial profile, potentially avoiding a LESA requirement or obtaining a partial LESA instead of a full one.',
   },
   {
     question: 'Does property condition affect the financial assessment?',
@@ -193,7 +193,7 @@ export default function ReverseMortgageFinancialAssessmentPage() {
           {/* Citation Hook */}
           <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
             <p className="font-semibold text-gray-900 mb-0">
-              <strong>The bottom line:</strong> Every HECM reverse mortgage applicant undergoes a mandatory FHA financial assessment that evaluates credit history, income sources, property charge payment history, and residual income. Introduced in 2015, the assessment determines whether borrowers can maintain property taxes and insurance obligations. Borrowers who do not fully satisfy the assessment receive a <strong>Life Expectancy Set-Aside (LESA)</strong> &mdash; a reserve fund deducted from loan proceeds to cover future property charges &mdash; rather than an outright denial. Working with a wholesale broker who understands how 200+ lenders interpret the assessment guidelines gives applicants the strongest chance of maximizing available proceeds.
+              <strong>The bottom line:</strong> Every HECM reverse mortgage applicant undergoes a mandatory FHA financial assessment that evaluates credit history, income sources, property charge payment history, and residual income. Introduced in 2015, the assessment determines whether borrowers can maintain property taxes and insurance obligations. Borrowers who do not fully satisfy the assessment receive a <strong>Life Expectancy Set-Aside (LESA)</strong> &mdash; a reserve fund deducted from loan proceeds to cover future property charges &mdash; rather than an outright denial. Working with a wholesale broker who understands how 50+ Wholesale Lenders interpret the assessment guidelines gives applicants the strongest chance of maximizing available proceeds.
             </p>
           </div>
 
@@ -525,7 +525,7 @@ export default function ReverseMortgageFinancialAssessmentPage() {
             Not all HECM lenders interpret the financial assessment guidelines identically. FHA provides the framework, but individual lenders apply overlays &mdash; additional requirements or stricter interpretations of the guidelines. This creates meaningful differences in outcomes depending on which lender processes your application.
           </p>
           <p>
-            As a wholesale mortgage broker with access to 200+ lenders, I compare financial assessment interpretations across multiple HECM lenders for each applicant. This matters because:
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I compare financial assessment interpretations across multiple HECM lenders for each applicant. This matters because:
           </p>
           <ul>
             <li><strong>LESA calculations vary:</strong> Different lenders use different growth assumptions for property charges, affecting the set-aside amount</li>
@@ -614,7 +614,7 @@ export default function ReverseMortgageFinancialAssessmentPage() {
             The single most impactful preparation step is maintaining a clean 24-month property charge payment history. Pay your property taxes, homeowner&apos;s insurance, and HOA dues on time, every time. Beyond that, documenting your income sources, building residual income above FHA thresholds, and preparing thorough explanations for any credit events give you the strongest position entering the assessment.
           </p>
           <p>
-            As a wholesale mortgage broker licensed in California and Washington with access to 200+ HECM lenders, I compare how different lenders interpret the financial assessment for each applicant&apos;s unique profile. This comparison frequently identifies a lender that offers a more favorable LESA outcome &mdash; or no LESA at all &mdash; for borrowers who might receive a LESA at a retail bank branch. If you or a family member is considering a reverse mortgage, I will review your financial profile and identify the lenders most likely to deliver the best assessment outcome.
+            As a wholesale mortgage broker licensed in California and Washington with access to 50+ Wholesale Lenders, I compare how different lenders interpret the financial assessment for each applicant&apos;s unique profile. This comparison frequently identifies a lender that offers a more favorable LESA outcome &mdash; or no LESA at all &mdash; for borrowers who might receive a LESA at a retail bank branch. If you or a family member is considering a reverse mortgage, I will review your financial profile and identify the lenders most likely to deliver the best assessment outcome.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

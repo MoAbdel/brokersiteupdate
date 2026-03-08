@@ -333,7 +333,7 @@ export default function HomeEquityRetirementIncomeStrategyPage() {
         </ol>
 
         <p>
-          Mo Abdel at Lumin Lending, Inc. (NMLS #2716106) accesses HELOC products from 200+ wholesale lenders, many of which have retiree-friendly qualification criteria including asset depletion underwriting. This approach is particularly valuable for California and Washington retirees with substantial investment portfolios who prefer not to increase their monthly retirement account distributions solely to qualify for a HELOC. For details on HELOC structures, see our <Link href="/loan-programs/heloc" className="text-blue-600 hover:underline">HELOC program page</Link>.
+          Mo Abdel at Lumin Lending, Inc. (NMLS #2716106) accesses HELOC products from 50+ Wholesale Lenders, many of which have retiree-friendly qualification criteria including asset depletion underwriting. This approach is particularly valuable for California and Washington retirees with substantial investment portfolios who prefer not to increase their monthly retirement account distributions solely to qualify for a HELOC. For details on HELOC structures, see our <Link href="/loan-programs/heloc" className="text-blue-600 hover:underline">HELOC program page</Link>.
         </p>
 
         {/* ============================================================ */}
@@ -686,7 +686,7 @@ export default function HomeEquityRetirementIncomeStrategyPage() {
             <strong>The bottom line on home equity as retirement income:</strong> HELOCs provide flexible, as-needed access ideal for supplementing monthly income. HELOANs deliver fixed, predictable payments suited for specific lump-sum needs. Cash-out refinances combine payment reduction with equity access for retirees carrying existing mortgages. All three products create non-taxable proceeds that do not affect Social Security benefits or Medicare premiums — a critical advantage over retirement account withdrawals.
           </p>
           <p className="text-blue-900 mb-0">
-            The optimal strategy depends on your unique combination of home equity, retirement account balances, Social Security benefits, tax bracket, and spending needs. Mo Abdel and the team at Lumin Lending, Inc. (NMLS #2716106) specialize in helping California and Washington retirees evaluate all three equity access strategies alongside their broader retirement income plan. With access to 200+ wholesale lenders — including those offering asset depletion underwriting and retiree-focused qualification criteria — Lumin Lending delivers solutions that retail banks and credit unions cannot match.
+            The optimal strategy depends on your unique combination of home equity, retirement account balances, Social Security benefits, tax bracket, and spending needs. Mo Abdel and the team at Lumin Lending, Inc. (NMLS #2716106) specialize in helping California and Washington retirees evaluate all three equity access strategies alongside their broader retirement income plan. With access to 50+ Wholesale Lenders — including those offering asset depletion underwriting and retiree-focused qualification criteria — Lumin Lending delivers solutions that retail banks and credit unions cannot match.
           </p>
         </div>
 

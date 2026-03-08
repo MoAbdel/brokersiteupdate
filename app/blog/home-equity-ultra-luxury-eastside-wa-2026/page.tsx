@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity in Ultra-Luxury Eastside, WA: HELOC & Cash-Out Guide [2026]',
-    description: 'Jumbo HELOC, cash-out refinance, and HELOAN for Medina, Clyde Hill, Hunts Point, Yarrow Point, and Beaux Arts Village. Wholesale broker access to 200+ lenders for $2M-$5M+ properties.',
+    description: 'Jumbo HELOC, cash-out refinance, and HELOAN for Medina, Clyde Hill, Hunts Point, Yarrow Point, and Beaux Arts Village. Wholesale broker access to 50+ Wholesale Lenders for $2M-$5M+ properties.',
     url: 'https://www.mothebroker.com/blog/home-equity-ultra-luxury-eastside-wa-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -256,7 +256,7 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
           </p>
 
           <p>
-            As a wholesale mortgage broker licensed in Washington, I compare jumbo HELOC, cash-out refinance, and home equity loan (HELOAN) programs from 200+ lenders&mdash;including private bank programs and portfolio lenders that serve the ultra-luxury segment exclusively. This guide covers the five communities where ultra-luxury equity access requires the most specialized approach: <strong>Medina</strong> (Billionaire Row waterfront estates), <strong>Clyde Hill</strong> (hilltop executive family homes), <strong>Hunts Point</strong> (the most exclusive gated lakefront enclave), <strong>Yarrow Point</strong> (waterfront peninsula living with dock and boathouse equity), and <strong>Beaux Arts Village</strong> (artistic community with private beach and unique valuation dynamics).
+            As a wholesale mortgage broker licensed in Washington, I compare jumbo HELOC, cash-out refinance, and home equity loan (HELOAN) programs from 50+ Wholesale Lenders&mdash;including private bank programs and portfolio lenders that serve the ultra-luxury segment exclusively. This guide covers the five communities where ultra-luxury equity access requires the most specialized approach: <strong>Medina</strong> (Billionaire Row waterfront estates), <strong>Clyde Hill</strong> (hilltop executive family homes), <strong>Hunts Point</strong> (the most exclusive gated lakefront enclave), <strong>Yarrow Point</strong> (waterfront peninsula living with dock and boathouse equity), and <strong>Beaux Arts Village</strong> (artistic community with private beach and unique valuation dynamics).
           </p>
 
           <p>
@@ -746,10 +746,10 @@ export default function HomeEquityUltraLuxuryEastsideWA2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 mb-8">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Ultra-Luxury Eastside Home Equity 2026</h2>
             <p className="mb-4">
-              The ultra-luxury Eastside corridor from Medina through Beaux Arts Village represents the most complex home equity market in the Pacific Northwest. LLC and trust ownership, limited comparable sales, waterfront appraisal challenges, and credit line requirements exceeding $1 million create a financing environment where retail bank programs consistently fall short. The homeowners in these communities have the assets, income, and equity to qualify for substantial credit lines&mdash;the challenge is matching them with the 3-5 lenders (out of 200+) designed for their specific property type, ownership structure, and financial profile.
+              The ultra-luxury Eastside corridor from Medina through Beaux Arts Village represents the most complex home equity market in the Pacific Northwest. LLC and trust ownership, limited comparable sales, waterfront appraisal challenges, and credit line requirements exceeding $1 million create a financing environment where retail bank programs consistently fall short. The homeowners in these communities have the assets, income, and equity to qualify for substantial credit lines&mdash;the challenge is matching them with the 3-5 lenders (out of 50+ Wholesale Lenders) designed for their specific property type, ownership structure, and financial profile.
             </p>
             <p className="mb-4">
-              As your wholesale mortgage broker, I compare programs from 200+ lenders&mdash;including private bank and portfolio programs reserved for ultra-luxury properties&mdash;to identify the optimal equity solution for your Medina estate, Hunts Point lakefront, Yarrow Point waterfront, Clyde Hill hilltop, or Beaux Arts Village cottage. No retail markup. Direct wholesale pricing. Specialized appraiser assignment. Entity ownership expertise.
+              As your wholesale mortgage broker, I compare programs from 50+ Wholesale Lenders&mdash;including private bank and portfolio programs reserved for ultra-luxury properties&mdash;to identify the optimal equity solution for your Medina estate, Hunts Point lakefront, Yarrow Point waterfront, Clyde Hill hilltop, or Beaux Arts Village cottage. No retail markup. Direct wholesale pricing. Specialized appraiser assignment. Entity ownership expertise.
             </p>
             <p className="font-semibold">
               Contact Mo Abdel today at <a href="tel:9495792057" className="text-blue-700 underline">(949) 579-2057</a> for a confidential equity analysis on your ultra-luxury Eastside property. I will assess your ownership structure, estimate tappable equity using luxury-tier methodology, and present the 2-3 best lender programs for your situation&mdash;typically within 48 hours.

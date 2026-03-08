@@ -328,7 +328,7 @@ export default function RefinanceCreditRequirementsPage() {
           <li><strong>Finding the right product:</strong> Matching your profile to best options</li>
           <li><strong>Credit guidance:</strong> Advising on quick score improvements</li>
           <li><strong>Alternative programs:</strong> Access to non-QM and specialized lenders</li>
-          <li><strong>Rate shopping:</strong> Finding competitive rates across 200+ lenders</li>
+          <li><strong>Rate shopping:</strong> Finding competitive rates across 50+ Wholesale Lenders</li>
         </ul>
 
         <h2>Frequently Asked Questions</h2>

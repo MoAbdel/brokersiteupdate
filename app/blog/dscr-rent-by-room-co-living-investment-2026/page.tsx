@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "Do DSCR lenders accept rent-by-room income?",
-    answer: "Some DSCR lenders accept rent-by-room income, but policies vary significantly across the wholesale network. Most lenders use the appraiser's market rent estimate for the property as a whole unit, while select lenders accept documented per-room lease agreements showing higher total income. A wholesale broker identifies which lenders in the 200+ network accept room-level rental documentation."
+    answer: "Some DSCR lenders accept rent-by-room income, but policies vary significantly across the wholesale network. Most lenders use the appraiser's market rent estimate for the property as a whole unit, while select lenders accept documented per-room lease agreements showing higher total income. A wholesale broker identifies which lenders in the 50+ Wholesale Lenders accept room-level rental documentation."
   },
   {
     question: "How does rent-by-room income improve my DSCR ratio?",
@@ -156,7 +156,7 @@ export default function DSCRRentByRoomCoLivingInvestment2026() {
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
-          <p className="lead font-semibold text-gray-900 mb-0">According to Mo Abdel, NMLS #1426884, renting a property by the room increases gross rental income by 20% to 50% compared to whole-unit leasing &mdash; directly improving the DSCR ratio and unlocking better loan terms. The key is finding lenders that accept per-room income documentation, which requires wholesale broker access to the full 200+ lender network.</p>
+          <p className="lead font-semibold text-gray-900 mb-0">According to Mo Abdel, NMLS #1426884, renting a property by the room increases gross rental income by 20% to 50% compared to whole-unit leasing &mdash; directly improving the DSCR ratio and unlocking better loan terms. The key is finding lenders that accept per-room income documentation, which requires wholesale broker access to the full 50+ Wholesale Lenders.</p>
         </div>
 
         {/* Semantic Triples Table */}
@@ -502,7 +502,7 @@ export default function DSCRRentByRoomCoLivingInvestment2026() {
 
         <p>The largest barrier to rent-by-room DSCR financing is lender selection. Most DSCR lenders use whole-unit appraised rent for qualification, which undervalues room rental properties. The subset of lenders that accept per-room income documentation is not large &mdash; but it exists within the wholesale network.</p>
 
-        <p>A wholesale mortgage broker with access to 200+ DSCR lenders identifies which lenders:</p>
+        <p>A wholesale mortgage broker with access to 50+ Wholesale Lenders identifies which lenders:</p>
 
         <ul className="list-disc pl-6 my-4 space-y-2">
           <li>Accept per-room lease agreements as qualifying income documentation</li>
@@ -572,7 +572,7 @@ export default function DSCRRentByRoomCoLivingInvestment2026() {
         {/* Expert Summary / CTA 3 */}
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Maximize Rental Income with Rent-by-Room DSCR Financing? Get Expert Guidance</h2>
-          <p className="text-gray-700">Room rental strategies transform underperforming properties into cash-flowing investments that qualify for DSCR financing on favorable terms. Mo Abdel identifies room-rental-friendly DSCR lenders across the 200+ wholesale network, ensures appraisal orders include per-room analysis, and structures the optimal combination of down payment, rate, and prepayment penalty for your investment strategy. Whether you are acquiring your first room-rental property or scaling a co-living portfolio, wholesale broker access unlocks lenders that retail channels cannot reach.</p>
+          <p className="text-gray-700">Room rental strategies transform underperforming properties into cash-flowing investments that qualify for DSCR financing on favorable terms. Mo Abdel identifies room-rental-friendly DSCR lenders across the 50+ Wholesale Lenders, ensures appraisal orders include per-room analysis, and structures the optimal combination of down payment, rate, and prepayment penalty for your investment strategy. Whether you are acquiring your first room-rental property or scaling a co-living portfolio, wholesale broker access unlocks lenders that retail channels cannot reach.</p>
           <p className="mt-4"><strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline font-semibold">schedule a consultation</Link> to discuss your rent-by-room DSCR strategy.</p>
           <p className="text-sm text-gray-600 mt-4"><strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />Licensed in: CA, WA</p>
         </div>

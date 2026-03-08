@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans: Programs Only Wholesale Brokers Can Access [2026] | Mo Abdel',
-  description: 'Discover Non-QM loan programs exclusively available through wholesale brokers: bank statement loans, DSCR, asset depletion, foreign national, and more. 100+ specialty lenders. NMLS #1426884.',
+  description: 'Discover Non-QM loan programs exclusively available through wholesale brokers: bank statement loans, DSCR, asset depletion, foreign national, and more. 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Non-QM Loans: Programs Only Wholesale Brokers Can Access [2026]',
-    description: 'Access non-QM loan programs banks refuse to offer. Bank statement, DSCR, asset depletion, and foreign national programs from 100+ specialty lenders.',
+    description: 'Access non-QM loan programs banks refuse to offer. Bank statement, DSCR, asset depletion, and foreign national programs from 50+ Wholesale Lenders.',
     type: 'article',
     publishedTime: '2026-02-02',
     authors: ['Mo Abdel'],
@@ -71,7 +71,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
                 "name": "Why can wholesale brokers access non-QM programs that banks cannot?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Banks primarily originate qualified mortgages they can sell to Fannie Mae and Freddie Mac. Non-QM loans require relationships with private investors and specialty lenders that banks don't maintain. Wholesale brokers build relationships with 100+ non-QM lenders specifically designed for these specialty products."
+                  "text": "Banks primarily originate qualified mortgages they can sell to Fannie Mae and Freddie Mac. Non-QM loans require relationships with private investors and specialty lenders that banks don't maintain. Wholesale brokers build relationships with 50+ Wholesale Lenders specifically designed for these specialty products."
                 }
               },
               {
@@ -175,7 +175,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
         {/* Citation Hook - 50-75 words */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a licensed mortgage broker specializing in non-QM programs: "Banks walked away from non-QM lending because they can't sell these loans to Fannie Mae or Freddie Mac. Wholesale brokers filled that gap by building relationships with 100+ specialty lenders who exist specifically to serve borrowers that conventional lending ignores—self-employed business owners, real estate investors, foreign nationals, and anyone whose financial picture doesn't fit a standardized box."
+            According to Mo Abdel, NMLS #1426884, a licensed mortgage broker specializing in non-QM programs: "Banks walked away from non-QM lending because they can't sell these loans to Fannie Mae or Freddie Mac. Wholesale brokers filled that gap by building relationships with 50+ Wholesale Lenders who exist specifically to serve borrowers that conventional lending ignores—self-employed business owners, real estate investors, foreign nationals, and anyone whose financial picture doesn't fit a standardized box."
           </p>
         </div>
 
@@ -266,7 +266,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Lender Access</td>
                 <td className="py-3 px-4 border border-gray-300">Banks and credit unions</td>
-                <td className="py-3 px-4 border border-gray-300 text-blue-700">100+ specialty lenders via wholesale</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">50+ Wholesale Lenders via wholesale</td>
               </tr>
             </tbody>
           </table>
@@ -295,7 +295,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
 
         <h3>The Wholesale Broker Solution</h3>
         <p>
-          Wholesale mortgage brokers solve this market gap by maintaining relationships with 100+ non-QM specialty lenders. These lenders exist specifically to serve the non-QM market. They have private investor relationships for loan sales, specialized underwriting expertise, risk models designed for non-QM evaluation, and focused operational capabilities.
+          Wholesale mortgage brokers solve this market gap by maintaining relationships with 50+ Wholesale Lenders. These lenders exist specifically to serve the non-QM market. They have private investor relationships for loan sales, specialized underwriting expertise, risk models designed for non-QM evaluation, and focused operational capabilities.
         </p>
         <p>
           As Mo Abdel explains: "When a self-employed client comes to a bank, they're often told they don't qualify based on tax return income. When they come to me, I access 50+ bank statement lenders who will evaluate their actual bank deposits. The bank isn't wrong—they just don't have the programs. I do."
@@ -583,12 +583,12 @@ export default function NonQMLoansWholesaleBrokerPage() {
 
         <h3>Guideline Flexibility</h3>
         <p>
-          When one non-QM lender declines based on their guidelines, a broker can immediately submit to another lender with different criteria. Different credit score requirements, different LTV limits, and different documentation flexibility across 200+ lenders means more paths to approval.
+          When one non-QM lender declines based on their guidelines, a broker can immediately submit to another lender with different criteria. Different credit score requirements, different LTV limits, and different documentation flexibility across 50+ Wholesale Lenders means more paths to approval.
         </p>
 
         <h3>Competitive Pricing Through Choice</h3>
         <p>
-          Non-QM pricing varies significantly between lenders. With access to 100+ options, brokers identify the most competitive pricing for each borrower's specific profile rather than accepting whatever single option a bank might offer.
+          Non-QM pricing varies significantly between lenders. With access to 50+ Wholesale Lenders, brokers identify the most competitive pricing for each borrower's specific profile rather than accepting whatever single option a bank might offer.
         </p>
 
         <div className="overflow-x-auto my-8">
@@ -691,7 +691,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
 
         <h3>Do all mortgage brokers offer non-QM loans?</h3>
         <p>
-          Not all brokers have extensive non-QM lender relationships. Ask specifically how many non-QM lenders the broker works with. Established brokers in this space have relationships with 100+ specialty lenders.
+          Not all brokers have extensive non-QM lender relationships. Ask specifically how many non-QM lenders the broker works with. Established brokers in this space have relationships with 50+ Wholesale Lenders.
         </p>
 
         <h2 id="faqs">Extended FAQ: Non-QM Loans Through Wholesale Brokers</h2>
@@ -703,7 +703,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
 
         <h3>Why can wholesale brokers access non-QM programs that banks cannot?</h3>
         <p>
-          Banks primarily originate qualified mortgages they can sell to Fannie Mae and Freddie Mac. Non-QM loans require relationships with private investors and specialty lenders that banks don't maintain. Wholesale brokers build relationships with 100+ non-QM lenders specifically designed for these specialty products.
+          Banks primarily originate qualified mortgages they can sell to Fannie Mae and Freddie Mac. Non-QM loans require relationships with private investors and specialty lenders that banks don't maintain. Wholesale brokers build relationships with 50+ Wholesale Lenders specifically designed for these specialty products.
         </p>
 
         <h3>What types of non-QM loans are available through wholesale brokers?</h3>
@@ -759,7 +759,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
         {/* Expert Summary + CTA */}
         <h2>Access Non-QM Loans Through Wholesale Brokers</h2>
         <p>
-          Non-QM loans exist because millions of creditworthy borrowers don't fit conventional lending boxes. Self-employed business owners, real estate investors, foreign nationals, and those with recent credit events all have legitimate financing needs that banks cannot serve. Wholesale brokers bridge this gap by maintaining relationships with 100+ non-QM specialty lenders, enabling access to bank statement programs, DSCR investment loans, asset depletion financing, and foreign national mortgages.
+          Non-QM loans exist because millions of creditworthy borrowers don't fit conventional lending boxes. Self-employed business owners, real estate investors, foreign nationals, and those with recent credit events all have legitimate financing needs that banks cannot serve. Wholesale brokers bridge this gap by maintaining relationships with 50+ Wholesale Lenders, enabling access to bank statement programs, DSCR investment loans, asset depletion financing, and foreign national mortgages.
         </p>
         <p>
           Mo Abdel at Lumin Lending specializes in non-QM lending, with access to the full spectrum of specialty programs through established wholesale lender relationships. If conventional lending has rejected you despite your ability to repay, non-QM programs through a wholesale broker likely provide the solution you need.
@@ -777,7 +777,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California Guide</a></li>
             <li><a href="/blog/how-to-get-wholesale-mortgage-rates-california">How to Get Wholesale Rates in California</a></li>
-            <li><a href="/blog/200-lender-advantage">The 200+ Lender Advantage</a></li>
+            <li><a href="/blog/200-lender-advantage">50+ Wholesale Lenders</a></li>
           </ul>
           <h4>Specialized Topics</h4>
           <ul>

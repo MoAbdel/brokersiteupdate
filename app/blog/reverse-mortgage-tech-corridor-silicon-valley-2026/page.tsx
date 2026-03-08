@@ -549,7 +549,7 @@ export default function ReverseMortgageTechCorridorSiliconValley2026() {
             </a>
             <a href="/blog/wholesale-mortgage-broker-tech-corridor-silicon-valley-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Tech Corridor Wholesale Mortgage Broker</h3>
-              <p className="text-sm text-gray-600">200+ lender access for Tech Corridor purchases, refinances, and complex income qualification.</p>
+              <p className="text-sm text-gray-600">50+ Wholesale Lenders for Tech Corridor purchases, refinances, and complex income qualification.</p>
             </a>
             <a href="/blog/reverse-mortgage-peninsula-ultra-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Peninsula Ultra-Luxury Reverse Mortgage</h3>

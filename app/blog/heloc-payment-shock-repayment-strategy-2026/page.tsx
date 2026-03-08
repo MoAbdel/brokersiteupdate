@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: 'Can I refinance my HELOC before the repayment period starts?',
-    answer: 'Yes, refinancing your HELOC before the repayment period begins is one of the most effective strategies for avoiding payment shock. Options include refinancing into a fixed-rate home equity loan (HELOAN) with a predictable payment, a cash-out refinance that pays off the HELOC entirely, or a new HELOC that restarts the draw period. The best option depends on your equity position, credit profile, how much you owe on your first mortgage, and whether you need continued access to revolving credit. A wholesale broker comparing 200+ lenders identifies which refinance products are available for your situation.',
+    answer: 'Yes, refinancing your HELOC before the repayment period begins is one of the most effective strategies for avoiding payment shock. Options include refinancing into a fixed-rate home equity loan (HELOAN) with a predictable payment, a cash-out refinance that pays off the HELOC entirely, or a new HELOC that restarts the draw period. The best option depends on your equity position, credit profile, how much you owe on your first mortgage, and whether you need continued access to revolving credit. A wholesale broker comparing 50+ Wholesale Lenders identifies which refinance products are available for your situation.',
   },
   {
     question: 'What is the difference between refinancing a HELOC into a HELOAN vs a cash-out refinance?',
@@ -76,7 +76,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker help with HELOC payment shock?',
-    answer: 'A wholesale mortgage broker helps by comparing HELOC refinance products from 200+ lenders to find the most competitive solution for your specific situation. Options include new HELOCs with fresh draw periods, fixed-rate HELOANs, cash-out refinances that consolidate your first mortgage and HELOC, and hybrid products. Because each lender has different qualifying guidelines, LTV limits, and pricing for second-lien refinancing, a broker comparison ensures you identify the product that delivers the lowest total monthly cost while meeting your financial goals. Retail banks offer only their own products — a broker presents the entire wholesale market.',
+    answer: 'A wholesale mortgage broker helps by comparing HELOC refinance products from 50+ Wholesale Lenders to find the most competitive solution for your specific situation. Options include new HELOCs with fresh draw periods, fixed-rate HELOANs, cash-out refinances that consolidate your first mortgage and HELOC, and hybrid products. Because each lender has different qualifying guidelines, LTV limits, and pricing for second-lien refinancing, a broker comparison ensures you identify the product that delivers the lowest total monthly cost while meeting your financial goals. Retail banks offer only their own products — a broker presents the entire wholesale market.',
   },
   {
     question: 'What are the closing costs to refinance a HELOC?',
@@ -204,7 +204,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, <strong>HELOC payment shock</strong> occurs when a home equity line of credit transitions from the draw period (typically 5&ndash;10 years of interest-only payments) to the repayment period (10&ndash;20 years of fully amortizing principal-and-interest payments)&mdash;increasing the monthly payment by 50% to 200% or more depending on the outstanding balance and repayment term. The <a href="https://www.consumerfinance.gov/consumer-tools/home-equity-loans/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau (CFPB)</a> has identified HELOC payment shock as a significant consumer risk, particularly for borrowers who opened HELOCs during periods of lower rates and have carried balances through the full draw period. A wave of HELOCs originated between 2015 and 2020 are now approaching or entering their repayment periods, making this a pressing issue for California and Washington homeowners. Five primary strategies exist to manage HELOC payment shock: refinancing into a fixed-rate HELOAN, executing a cash-out refinance that pays off the HELOC, negotiating with the existing lender, requesting a loan modification, or paying down the balance during the remaining draw period. A wholesale mortgage broker comparing products from 200+ lenders identifies which refinance strategy produces the lowest total monthly cost for each borrower&apos;s specific situation.
+            According to Mo Abdel, NMLS #1426884, <strong>HELOC payment shock</strong> occurs when a home equity line of credit transitions from the draw period (typically 5&ndash;10 years of interest-only payments) to the repayment period (10&ndash;20 years of fully amortizing principal-and-interest payments)&mdash;increasing the monthly payment by 50% to 200% or more depending on the outstanding balance and repayment term. The <a href="https://www.consumerfinance.gov/consumer-tools/home-equity-loans/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau (CFPB)</a> has identified HELOC payment shock as a significant consumer risk, particularly for borrowers who opened HELOCs during periods of lower rates and have carried balances through the full draw period. A wave of HELOCs originated between 2015 and 2020 are now approaching or entering their repayment periods, making this a pressing issue for California and Washington homeowners. Five primary strategies exist to manage HELOC payment shock: refinancing into a fixed-rate HELOAN, executing a cash-out refinance that pays off the HELOC, negotiating with the existing lender, requesting a loan modification, or paying down the balance during the remaining draw period. A wholesale mortgage broker comparing products from 50+ Wholesale Lenders identifies which refinance strategy produces the lowest total monthly cost for each borrower&apos;s specific situation.
           </p>
         </div>
 
@@ -233,7 +233,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares HELOC refinance options from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to minimize total repayment cost</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to minimize total repayment cost</td>
               </tr>
             </tbody>
           </table>
@@ -632,7 +632,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </div>
 
         <p>
-          These benchmarks frame the planning conversation for borrowers approaching HELOC repayment. Your specific numbers depend on your HELOC agreement, outstanding balance, property value, and available refinance programs. A wholesale broker comparison across 200+ lenders identifies the options available for your situation. For more on DSCR and investment strategies that use home equity differently, see our <Link href="/blog/dscr-loan-refinance-rental-property-cash-out-2026" className="text-blue-600 hover:underline">DSCR loan refinance guide</Link>.
+          These benchmarks frame the planning conversation for borrowers approaching HELOC repayment. Your specific numbers depend on your HELOC agreement, outstanding balance, property value, and available refinance programs. A wholesale broker comparison across 50+ Wholesale Lenders identifies the options available for your situation. For more on DSCR and investment strategies that use home equity differently, see our <Link href="/blog/dscr-loan-refinance-rental-property-cash-out-2026" className="text-blue-600 hover:underline">DSCR loan refinance guide</Link>.
         </p>
 
         {/* People Also Ask Section */}
@@ -656,7 +656,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Can I refinance my HELOC into a fixed-rate loan?</h3>
             <p className="mb-0">
-              <strong>Yes, you can refinance your HELOC into a fixed-rate HELOAN (home equity loan) that converts the variable-rate revolving balance into a fixed-rate installment loan with predictable payments.</strong> A wholesale broker compares HELOAN products from 200+ lenders to find the most competitive rate and terms for your balance and equity position.
+              <strong>Yes, you can refinance your HELOC into a fixed-rate HELOAN (home equity loan) that converts the variable-rate revolving balance into a fixed-rate installment loan with predictable payments.</strong> A wholesale broker compares HELOAN products from 50+ Wholesale Lenders to find the most competitive rate and terms for your balance and equity position.
             </p>
           </div>
 
@@ -691,7 +691,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale broker help with HELOC payment shock?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker compares HELOC refinance products (HELOAN, new HELOC, cash-out refi) from 200+ lenders, identifying the most competitive rate, closing costs, and terms for your specific balance and equity position.</strong> The wholesale channel provides access to second-lien products that many retail banks no longer offer.
+              <strong>A wholesale broker compares HELOC refinance products (HELOAN, new HELOC, cash-out refi) from 50+ Wholesale Lenders, identifying the most competitive rate, closing costs, and terms for your specific balance and equity position.</strong> The wholesale channel provides access to second-lien products that many retail banks no longer offer.
             </p>
           </div>
         </div>
@@ -720,7 +720,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
             <li><strong>HELOAN conversion is the most popular strategy:</strong> Converting variable-rate HELOC debt to a fixed-rate HELOAN provides payment certainty and eliminates variable-rate risk.</li>
             <li><strong>Cash-out refi makes sense when your first mortgage rate is above market:</strong> Consolidating first mortgage + HELOC into a single fixed-rate loan produces one payment and eliminates the second lien.</li>
             <li><strong>Paying down the balance during the draw period is always beneficial:</strong> Even modest additional payments reduce the magnitude of payment shock at transition.</li>
-            <li><strong>The wholesale channel provides broader access:</strong> Many retail banks have restricted second-lien products; wholesale lenders actively compete for HELOC refinance business through brokers with access to 200+ lenders.</li>
+            <li><strong>The wholesale channel provides broader access:</strong> Many retail banks have restricted second-lien products; wholesale lenders actively compete for HELOC refinance business through brokers with access to 50+ Wholesale Lenders.</li>
           </ol>
         </div>
 
@@ -736,7 +736,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive HELOC refinance terms for California and Washington homeowners.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive HELOC refinance terms for California and Washington homeowners.
           </p>
         </div>
 

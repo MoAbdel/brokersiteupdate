@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in SF, Piedmont, Orinda & East Bay, CA [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker serving San Francisco, Piedmont, Orinda, Lafayette & Moraga. 200+ lenders, jumbo ARM expertise, TIC/condo conversion, estate-level SFR financing. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving San Francisco, Piedmont, Orinda, Lafayette & Moraga. 50+ Wholesale Lenders, jumbo ARM expertise, TIC/condo conversion, estate-level SFR financing. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Francisco',
     'mortgage broker Piedmont CA',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in SF, Piedmont, Orinda & East Bay, CA [2026]',
-    description: 'Wholesale mortgage broker with 200+ lenders serving SF, Piedmont, Orinda, Lafayette & Moraga. TIC/condo expertise, jumbo ARM, estate-level financing for East Bay luxury.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders serving SF, Piedmont, Orinda, Lafayette & Moraga. TIC/condo expertise, jumbo ARM, estate-level financing for East Bay luxury.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-premium-east-bay-sf-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -56,7 +56,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
     },
     datePublished: '2026-02-10',
     dateModified: '2026-02-10',
-    description: 'Comprehensive wholesale mortgage broker guide for Premium East Bay and San Francisco covering TIC/condo conversion financing, jumbo ARM strategies, estate-level SFR purchases, and 200+ lender access for San Francisco, Piedmont, Orinda, Lafayette, and Moraga.',
+    description: 'Comprehensive wholesale mortgage broker guide for Premium East Bay and San Francisco covering TIC/condo conversion financing, jumbo ARM strategies, estate-level SFR purchases, and 50+ Wholesale Lenders for San Francisco, Piedmont, Orinda, Lafayette, and Moraga.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-premium-east-bay-sf-2026',
     about: [
       { '@type': 'FinancialProduct', name: 'Wholesale Jumbo Purchase Loans' },
@@ -69,7 +69,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it help in San Francisco and the East Bay?',
-      answer: 'A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders including 50+ jumbo specialists to find the best rates and programs for borrowers. In San Francisco and the East Bay, where jumbo purchases, TIC financing, condo conversions, and estate-level SFR transactions are standard, wholesale broker lender-matching produces better pricing and more flexible underwriting than any single retail bank.',
+      answer: 'A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders including 50+ jumbo specialists to find the best rates and programs for borrowers. In San Francisco and the East Bay, where jumbo purchases, TIC financing, condo conversions, and estate-level SFR transactions are standard, wholesale broker lender-matching produces better pricing and more flexible underwriting than any single retail bank.',
     },
     {
       question: 'Can a wholesale broker finance a TIC property in San Francisco?',
@@ -93,7 +93,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
     },
     {
       question: 'How do I qualify for a mortgage in Lafayette or Orinda with variable income?',
-      answer: 'Lafayette and Orinda buyers with variable income from commissions, bonuses, self-employment, or investment returns qualify through wholesale lender programs designed for non-standard income documentation. Bank statement programs use 12&ndash;24 months of deposits instead of tax returns. Asset depletion programs convert liquid assets into qualifying income. CPA-verified income letters supplement tax return documentation. Wholesale access to 200+ lenders ensures the most favorable qualification method for your specific income profile.',
+      answer: 'Lafayette and Orinda buyers with variable income from commissions, bonuses, self-employment, or investment returns qualify through wholesale lender programs designed for non-standard income documentation. Bank statement programs use 12&ndash;24 months of deposits instead of tax returns. Asset depletion programs convert liquid assets into qualifying income. CPA-verified income letters supplement tax return documentation. Wholesale access to 50+ Wholesale Lenders ensures the most favorable qualification method for your specific income profile.',
     },
     {
       question: 'What is the closing timeline for a jumbo purchase in the East Bay?',
@@ -105,7 +105,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
     },
     {
       question: 'Can I get a mortgage for a multi-unit property in San Francisco through a wholesale broker?',
-      answer: 'Yes. San Francisco&apos;s multi-unit housing stock &mdash; including 2&ndash;4 unit buildings, TICs, and condominiums &mdash; is well-served by wholesale lenders. Owner-occupied 2&ndash;4 unit purchases qualify for residential mortgage programs with competitive rates. Non-owner-occupied multi-unit purchases qualify through DSCR (debt service coverage ratio) programs that use rental income for qualification. Wholesale access provides both residential and investment multi-unit programs from 200+ lenders.',
+      answer: 'Yes. San Francisco&apos;s multi-unit housing stock &mdash; including 2&ndash;4 unit buildings, TICs, and condominiums &mdash; is well-served by wholesale lenders. Owner-occupied 2&ndash;4 unit purchases qualify for residential mortgage programs with competitive rates. Non-owner-occupied multi-unit purchases qualify through DSCR (debt service coverage ratio) programs that use rental income for qualification. Wholesale access provides both residential and investment multi-unit programs from 50+ Wholesale Lenders.',
     },
     {
       question: 'What documentation do I need for a jumbo mortgage in the East Bay?',
@@ -144,7 +144,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
       { '@type': 'City', name: 'Moraga', containedInPlace: { '@type': 'State', name: 'California' } },
     ],
     priceRange: 'Contact for rates',
-    description: 'Wholesale mortgage broker with 200+ lender access specializing in jumbo purchases, TIC/condo conversion financing, jumbo ARM products, and estate-level SFR financing for San Francisco and the East Bay.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders specializing in jumbo purchases, TIC/condo conversion financing, jumbo ARM products, and estate-level SFR financing for San Francisco and the East Bay.',
   };
 
   const breadcrumbJsonLd = {
@@ -192,7 +192,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
             By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 10, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
-            200+ lender access | Jumbo &amp; TIC financing expertise | Estate-level SFR &amp; condo conversion | Licensed in CA &amp; WA
+            50+ Wholesale Lenders | Jumbo &amp; TIC financing expertise | Estate-level SFR &amp; condo conversion | Licensed in CA &amp; WA
           </p>
         </header>
 
@@ -245,7 +245,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            San Francisco and the East Bay&apos;s premium corridor operate in a mortgage landscape defined by extreme price variance, diverse property types, and income profiles that range from tech executive RSU packages to creative professional royalties. As a wholesale mortgage broker with access to over 200 lenders &mdash; including 50+ jumbo specialists and the select group of lenders who finance TICs and condo conversions &mdash; I serve San Francisco, Piedmont, Orinda, Lafayette, and Moraga homebuyers by creating lender competition that delivers better pricing, faster closings, and expert handling of complex property and income scenarios. Every home in this corridor exceeds conforming loan limits, making wholesale jumbo expertise the difference between a single bank&apos;s take-it-or-leave-it offer and the best rate available across the entire lending market.
+            San Francisco and the East Bay&apos;s premium corridor operate in a mortgage landscape defined by extreme price variance, diverse property types, and income profiles that range from tech executive RSU packages to creative professional royalties. As a wholesale mortgage broker with access to 50+ Wholesale Lenders &mdash; including 50+ jumbo specialists and the select group of lenders who finance TICs and condo conversions &mdash; I serve San Francisco, Piedmont, Orinda, Lafayette, and Moraga homebuyers by creating lender competition that delivers better pricing, faster closings, and expert handling of complex property and income scenarios. Every home in this corridor exceeds conforming loan limits, making wholesale jumbo expertise the difference between a single bank&apos;s take-it-or-leave-it offer and the best rate available across the entire lending market.
           </p>
 
           <p>
@@ -334,7 +334,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
               <tbody>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Lender Access</td>
-                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">200+ lenders, 50+ jumbo</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">50+ Wholesale Lenders, 50+ jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                 </tr>
@@ -385,7 +385,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           </div>
 
           <p>
-            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> The wholesale advantage is amplified in the SF/East Bay market because of the region&apos;s property type diversity. A Pacific Heights TIC purchase, a Piedmont estate SFR, and a Moraga investment property each require entirely different lender specializations. No single retail bank handles all three competitively. With 200+ wholesale lenders, I match each transaction to the lender whose product specialty, underwriting guidelines, and pricing align with the borrower&apos;s specific property type and financial profile.
+            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> The wholesale advantage is amplified in the SF/East Bay market because of the region&apos;s property type diversity. A Pacific Heights TIC purchase, a Piedmont estate SFR, and a Moraga investment property each require entirely different lender specializations. No single retail bank handles all three competitively. With 50+ Wholesale Lenders, I match each transaction to the lender whose product specialty, underwriting guidelines, and pricing align with the borrower&apos;s specific property type and financial profile.
           </p>
 
           {/* ========== SECTION 3: QUALIFICATION STEPS ========== */}
@@ -412,7 +412,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">3</div>
               <div>
                 <h3 className="font-bold text-lg">Complete a Compensation &amp; Scenario Analysis</h3>
-                <p>I analyze your complete financial profile to identify which of 200+ wholesale lenders offers the most favorable qualification methodology for your specific income type, property type, and purchase scenario. This analysis determines your maximum purchase power and the lenders that produce the best rate-to-qualification combination.</p>
+                <p>I analyze your complete financial profile to identify which of 50+ Wholesale Lenders offers the most favorable qualification methodology for your specific income type, property type, and purchase scenario. This analysis determines your maximum purchase power and the lenders that produce the best rate-to-qualification combination.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -469,7 +469,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
               <div className="bg-green-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">5</div>
               <div>
                 <h3 className="font-bold text-lg">Post-Close Support &amp; Future Planning</h3>
-                <p>After closing, I monitor rate markets for refinance opportunities and maintain your file for future transactions. Many SF and East Bay clients return for refinances, equity access through HELOCs, or subsequent purchases as their housing needs evolve. The wholesale relationship provides ongoing rate monitoring across 200+ lenders.</p>
+                <p>After closing, I monitor rate markets for refinance opportunities and maintain your file for future transactions. Many SF and East Bay clients return for refinances, equity access through HELOCs, or subsequent purchases as their housing needs evolve. The wholesale relationship provides ongoing rate monitoring across 50+ Wholesale Lenders.</p>
               </div>
             </div>
           </div>
@@ -663,7 +663,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           </p>
 
           <p>
-            As a wholesale mortgage broker licensed in California (NMLS #1426884) through Lumin Lending (NMLS #2716106, DRE #02291443), my role is to analyze each borrower&apos;s complete financial profile &mdash; income type, property type, ownership structure, holding period, and financial goals &mdash; and then identify which of 200+ wholesale lenders offers the most competitive combination of rate, terms, and underwriting flexibility for that exact scenario. A San Francisco TIC buyer needs a completely different lender than a Piedmont estate purchaser, and both need a different lender than a Moraga retiree using asset depletion.
+            As a wholesale mortgage broker licensed in California (NMLS #1426884) through Lumin Lending (NMLS #2716106, DRE #02291443), my role is to analyze each borrower&apos;s complete financial profile &mdash; income type, property type, ownership structure, holding period, and financial goals &mdash; and then identify which of 50+ Wholesale Lenders offers the most competitive combination of rate, terms, and underwriting flexibility for that exact scenario. A San Francisco TIC buyer needs a completely different lender than a Piedmont estate purchaser, and both need a different lender than a Moraga retiree using asset depletion.
           </p>
 
           <p>
@@ -815,7 +815,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           <div className="space-y-6 my-6">
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is a wholesale mortgage broker?</h3>
-              <p><strong>A wholesale broker accesses 200+ lenders to find the best rates and programs, shopping the entire market on your behalf.</strong></p>
+              <p><strong>A wholesale broker accesses 50+ Wholesale Lenders to find the best rates and programs, shopping the entire market on your behalf.</strong></p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -900,19 +900,19 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker in Premium East Bay &amp; San Francisco</h2>
             <p className="text-slate-900 mb-3">
-              The premium East Bay and San Francisco corridor averages $1.96M in median home values across five cities with radically different property types and buyer profiles. San Francisco&apos;s TIC/condo conversion market, Piedmont&apos;s estate-level SFR enclave, Orinda&apos;s BART corridor estates, Lafayette&apos;s school-premium family market, and Moraga&apos;s retirement-focused country club community each require specialized lender matching that no single retail bank provides. Wholesale broker access to 200+ lenders &mdash; including TIC specialists, super-jumbo lenders, bank statement programs, asset depletion qualification, and DSCR investment products &mdash; creates the competitive environment that produces better rates, higher qualification amounts, and faster closings for every transaction type in this corridor.
+              The premium East Bay and San Francisco corridor averages $1.96M in median home values across five cities with radically different property types and buyer profiles. San Francisco&apos;s TIC/condo conversion market, Piedmont&apos;s estate-level SFR enclave, Orinda&apos;s BART corridor estates, Lafayette&apos;s school-premium family market, and Moraga&apos;s retirement-focused country club community each require specialized lender matching that no single retail bank provides. Wholesale broker access to 50+ Wholesale Lenders &mdash; including TIC specialists, super-jumbo lenders, bank statement programs, asset depletion qualification, and DSCR investment products &mdash; creates the competitive environment that produces better rates, higher qualification amounts, and faster closings for every transaction type in this corridor.
             </p>
             <p className="text-slate-900 mb-3">
               The core value: lender matching based on property type and borrower profile. A TIC buyer in the Mission needs a fundamentally different lender than a Piedmont estate purchaser, and both need a different lender than a Moraga retiree using asset depletion or a San Francisco investor using DSCR financing. Wholesale access provides the product breadth and rate competition that transforms complex financing scenarios into closed transactions at optimal pricing.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I deliver 200+ lender competition, TIC/condo conversion expertise, super-jumbo access, and specialized qualification for every income type and property type in this corridor. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free scenario analysis and pre-approval.
+              As your wholesale mortgage broker, I deliver 50+ Wholesale Lenders, TIC/condo conversion expertise, super-jumbo access, and specialized qualification for every income type and property type in this corridor. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free scenario analysis and pre-approval.
             </p>
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Get Your Free East Bay &amp; SF Mortgage Pre-Approval</h2>
           <p>
-            Ready to explore how wholesale broker access to 200+ lenders maximizes your purchasing power in San Francisco, Piedmont, Orinda, Lafayette, or Moraga? Contact Mo Abdel for a free, no-obligation scenario analysis and pre-approval. Within 48 hours, you receive a full income and property qualification showing the optimal lender match for your specific purchase, complete with rate comparison and closing timeline estimate.
+            Ready to explore how wholesale broker access to 50+ Wholesale Lenders maximizes your purchasing power in San Francisco, Piedmont, Orinda, Lafayette, or Moraga? Contact Mo Abdel for a free, no-obligation scenario analysis and pre-approval. Within 48 hours, you receive a full income and property qualification showing the optimal lender match for your specific purchase, complete with rate comparison and closing timeline estimate.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
@@ -921,7 +921,7 @@ export default function WholesaleMortgageBrokerPremiumEastBaySF2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Premium East Bay &amp; San Francisco communities</p>
-            <p className="text-sm">Wholesale broker with 200+ lender access | TIC, condo conversion, jumbo ARM &amp; estate SFR specialist</p>
+            <p className="text-sm">Wholesale broker with 50+ Wholesale Lenders | TIC, condo conversion, jumbo ARM &amp; estate SFR specialist</p>
           </div>
 
           {/* ========== DISCLAIMER ========== */}

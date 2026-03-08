@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker Washington: 200+ Lender Access [2026]',
-  description: 'Wholesale mortgage broker Washington guide. Access 200+ lenders, better rates than retail banks. Seattle, Eastside, tech income experts. NMLS #1426884.',
+  title: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
+  description: 'Wholesale mortgage broker Washington guide. Access 50+ Wholesale Lenders, better rates than retail banks. Seattle, Eastside, tech income experts. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Washington',
     'mortgage broker Seattle',
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     'RSU mortgage qualification Washington',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker Washington: 200+ Lender Access [2026]',
-    description: 'Why Washington borrowers save with wholesale mortgage brokers. 200+ lenders, tech income expertise, competitive rates.',
+    title: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
+    description: 'Why Washington borrowers save with wholesale mortgage brokers. 50+ Wholesale Lenders, tech income expertise, competitive rates.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-washington-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -35,7 +35,7 @@ export default function WholesaleMortgageBrokerWashington() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Wholesale Mortgage Broker Washington: 200+ Lender Access [2026]',
+    headline: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
     author: { '@type': 'Person', name: 'Mo Abdel', identifier: 'NMLS #1426884' },
     publisher: { '@type': 'Organization', name: 'Lumin Lending', identifier: 'NMLS #2716106' },
     datePublished: '2026-02-06',
@@ -52,7 +52,7 @@ export default function WholesaleMortgageBrokerWashington() {
         name: 'What is a wholesale mortgage broker and how does it work in Washington?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker acts as an intermediary between Washington borrowers and wholesale lenders. Instead of offering a single bank\'s products (like Chase or Wells Fargo), a broker shops your loan across 200+ wholesale lenders to find the best rate, terms, and program fit. Wholesale lenders offer lower rates to brokers than retail banks charge consumers because brokers bring volume and handle origination.',
+          text: 'A wholesale mortgage broker acts as an intermediary between Washington borrowers and wholesale lenders. Instead of offering a single bank\'s products (like Chase or Wells Fargo), a broker shops your loan across 50+ Wholesale Lenders to find the best rate, terms, and program fit. Wholesale lenders offer lower rates to brokers than retail banks charge consumers because brokers bring volume and handle origination.',
         },
       },
       {
@@ -173,7 +173,7 @@ export default function WholesaleMortgageBrokerWashington() {
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Wholesale Mortgage Broker Washington: 200+ Lender Access [2026]
+            Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]
           </h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
@@ -186,13 +186,13 @@ export default function WholesaleMortgageBrokerWashington() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Washington State borrowers face some of the highest home prices in the nation, with the Seattle metro area averaging well over $800,000 and Eastside communities routinely exceeding $1.5 million. In this market, the difference between a retail bank rate and a wholesale broker rate can mean tens of thousands of dollars over the life of a loan. As a wholesale mortgage broker licensed in Washington with access to over 200 lender partners, I shop every loan across dozens of competing lenders to find the rate, terms, and program that save my clients the most money. This guide explains exactly how wholesale mortgage brokerage works, why it matters in Washington&apos;s expensive market, and how tech industry borrowers particularly benefit from the wholesale approach.
+            Washington State borrowers face some of the highest home prices in the nation, with the Seattle metro area averaging well over $800,000 and Eastside communities routinely exceeding $1.5 million. In this market, the difference between a retail bank rate and a wholesale broker rate can mean tens of thousands of dollars over the life of a loan. As a wholesale mortgage broker licensed in Washington with access to 50+ Wholesale Lenders, I shop every loan across dozens of competing lenders to find the rate, terms, and program that save my clients the most money. This guide explains exactly how wholesale mortgage brokerage works, why it matters in Washington&apos;s expensive market, and how tech industry borrowers particularly benefit from the wholesale approach.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <h3 className="font-bold text-lg mb-3">Washington Wholesale Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
-              <li><strong>Lender Partners:</strong> 200+ wholesale lenders across all loan types</li>
+              <li><strong>Lender Partners:</strong> 50+ Wholesale Lenders across all loan types</li>
               <li><strong>Average Rate Advantage:</strong> 0.125% – 0.50% below comparable retail bank rates</li>
               <li><strong>2026 Conforming Loan Limit (King County):</strong> $806,500 (high-cost area)</li>
               <li><strong>Jumbo Lender Access:</strong> 50+ jumbo lenders with varying guidelines</li>
@@ -239,7 +239,7 @@ export default function WholesaleMortgageBrokerWashington() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Number of Lenders</td>
-                  <td className="px-4 py-3 border-t">200+ wholesale lenders</td>
+                  <td className="px-4 py-3 border-t">50+ Wholesale Lenders</td>
                   <td className="px-4 py-3 border-t">1 (their own institution)</td>
                 </tr>
                 <tr>
@@ -668,7 +668,7 @@ export default function WholesaleMortgageBrokerWashington() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">3. Rate Shopping</td>
-                  <td className="px-4 py-3 border-t">Broker shops your scenario across 20-200+ lenders for best rate/terms</td>
+                  <td className="px-4 py-3 border-t">Broker shops your scenario across 20-50+ Wholesale Lenders for best rate/terms</td>
                   <td className="px-4 py-3 border-t">Days 2-3</td>
                 </tr>
                 <tr>
@@ -731,7 +731,7 @@ export default function WholesaleMortgageBrokerWashington() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Is it better to go to a bank or a mortgage broker in Washington?</h3>
               <p className="mb-0">
-                For most Washington borrowers—especially those with high loan amounts, tech industry income, or unique property types—a wholesale mortgage broker provides better rates, more program options, and greater underwriting flexibility than a single retail bank. Banks are limited to their own products and pricing. Brokers shop 200+ lenders to find the best combination of rate, terms, and qualification requirements for your specific situation. The data consistently shows wholesale rates run 0.125% to 0.50% below comparable retail bank rates.
+                For most Washington borrowers—especially those with high loan amounts, tech industry income, or unique property types—a wholesale mortgage broker provides better rates, more program options, and greater underwriting flexibility than a single retail bank. Banks are limited to their own products and pricing. Brokers shop 50+ Wholesale Lenders to find the best combination of rate, terms, and qualification requirements for your specific situation. The data consistently shows wholesale rates run 0.125% to 0.50% below comparable retail bank rates.
               </p>
             </div>
 
@@ -784,7 +784,7 @@ export default function WholesaleMortgageBrokerWashington() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-2">What is a wholesale mortgage broker and how does it work in Washington?</h3>
               <p className="mb-0">
-                A wholesale mortgage broker acts as an intermediary between Washington borrowers and wholesale lenders. Instead of offering a single bank&apos;s products, a broker shops your loan across 200+ wholesale lenders to find the best rate, terms, and program fit. Wholesale lenders offer lower rates to brokers than retail banks charge consumers because brokers bring volume and handle origination.
+                A wholesale mortgage broker acts as an intermediary between Washington borrowers and wholesale lenders. Instead of offering a single bank&apos;s products, a broker shops your loan across 50+ Wholesale Lenders to find the best rate, terms, and program fit. Wholesale lenders offer lower rates to brokers than retail banks charge consumers because brokers bring volume and handle origination.
               </p>
             </div>
 
@@ -873,7 +873,7 @@ export default function WholesaleMortgageBrokerWashington() {
               Washington State&apos;s housing market demands more from mortgage lending than what a single retail bank can provide. The combination of high property values, complex tech industry compensation, unique waterfront and island properties, and a competitive real estate environment means borrowers who settle for their bank&apos;s first offer are almost certainly paying more than they need to.
             </p>
             <p>
-              A wholesale mortgage broker eliminates that inefficiency. By shopping your loan across 200+ lenders, I find the rate, terms, and program that save you the most money while matching the underwriting guidelines to your specific income, property, and financial situation. For Seattle Eastside and Greater Seattle borrowers—where loan amounts routinely exceed $1 million and income structures involve RSUs, stock options, and performance bonuses—the wholesale advantage translates into tens of thousands of dollars in savings and access to loan programs retail banks simply do not offer.
+              A wholesale mortgage broker eliminates that inefficiency. By shopping your loan across 50+ Wholesale Lenders, I find the rate, terms, and program that save you the most money while matching the underwriting guidelines to your specific income, property, and financial situation. For Seattle Eastside and Greater Seattle borrowers—where loan amounts routinely exceed $1 million and income structures involve RSUs, stock options, and performance bonuses—the wholesale advantage translates into tens of thousands of dollars in savings and access to loan programs retail banks simply do not offer.
             </p>
             <p className="mb-0">
               <em>Every Washington borrower deserves to see what the wholesale market offers before committing to a bank rate. My consultations are free, transparent, and come with no obligation. Call me at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> and I will show you exactly how wholesale rates compare to whatever you have been quoted—including a side-by-side breakdown of rate, fees, and total cost over the life of your loan.</em> — Mo Abdel, NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443

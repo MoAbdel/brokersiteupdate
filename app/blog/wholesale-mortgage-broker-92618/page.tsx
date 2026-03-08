@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92618 | Irvine (Spectrum) | Jumbo Loan Specialists',
-  description: 'Irvine Spectrum wholesale mortgage broker serving 92618. Access 200+ lenders for jumbo loans near Great Park and Spectrum Center. NMLS #1426884.',
+  description: 'Irvine Spectrum wholesale mortgage broker serving 92618. Access 50+ Wholesale Lenders for jumbo loans near Great Park and Spectrum Center. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92618',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92618 | Irvine Spectrum Jumbo Specialists',
-    description: 'Irvine Spectrum wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Irvine Spectrum wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92618',
     type: 'article',
     publishedTime: '2026-02-03',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92618Page() {
                 "name": "Why choose a wholesale broker over banks in Irvine Spectrum?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For the Spectrum area's newer construction and tech professional buyers, wholesale brokers find the best program for your specific situation."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For the Spectrum area's newer construction and tech professional buyers, wholesale brokers find the best program for your specific situation."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92618Page() {
           Wholesale Mortgage Broker 92618 | Irvine Spectrum Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Irvine&apos;s newest neighborhoods near Great Park
+          Access wholesale rates and 50+ Wholesale Lenders for Irvine&apos;s newest neighborhoods near Great Park
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92618 encompasses the Spectrum Center area and Great Park neighborhoods with <strong>$1.1 million median home prices</strong> and newer construction attracting tech professionals and families. At these price points near the $1,209,750 conforming limit, strategic loan structuring matters. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and programs designed for this dynamic market.
+            Irvine 92618 encompasses the Spectrum Center area and Great Park neighborhoods with <strong>$1.1 million median home prices</strong> and newer construction attracting tech professionals and families. At these price points near the $1,209,750 conforming limit, strategic loan structuring matters. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and programs designed for this dynamic market.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92618Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over banks in Irvine Spectrum?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For the Spectrum area&apos;s newer construction and tech professional buyers, wholesale brokers find the best program for your specific situation.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For the Spectrum area&apos;s newer construction and tech professional buyers, wholesale brokers find the best program for your specific situation.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92618 does your wholesale brokerage serve?</h3>

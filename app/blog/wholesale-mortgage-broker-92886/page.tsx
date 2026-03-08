@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92886 | Yorba Linda | Jumbo Loan Specialists',
-  description: 'Yorba Linda wholesale mortgage broker serving 92886. Access 200+ lenders for jumbo loans, self-employed programs & better rates. NMLS #1426884.',
+  description: 'Yorba Linda wholesale mortgage broker serving 92886. Access 50+ Wholesale Lenders for jumbo loans, self-employed programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92886',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92886 | Yorba Linda Jumbo Loan Specialists',
-    description: 'Yorba Linda wholesale mortgage broker with 200+ lenders for jumbo loans up to $3M+.',
+    description: 'Yorba Linda wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $3M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92886',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBroker92886Page() {
                 "name": "Why choose a wholesale mortgage broker for Yorba Linda Hills homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yorba Linda Hills and Bryant Ranch feature larger custom homes requiring jumbo loans. A wholesale broker accesses 200+ lenders competing for your business, delivering better rates than US Bank or Wells Fargo can offer on their limited jumbo menus."
+                  "text": "Yorba Linda Hills and Bryant Ranch feature larger custom homes requiring jumbo loans. A wholesale broker accesses 50+ Wholesale Lenders competing for your business, delivering better rates than US Bank or Wells Fargo can offer on their limited jumbo menus."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92886Page() {
           Wholesale Mortgage Broker 92886 | Yorba Linda Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for North Orange County&apos;s &quot;Land of Gracious Living&quot;
+          Access wholesale rates and 50+ Wholesale Lenders for North Orange County&apos;s &quot;Land of Gracious Living&quot;
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Yorba Linda 92886 lives up to its &quot;Land of Gracious Living&quot; motto with a <strong>$1.4 million median home price</strong> and custom estates reaching $3M+. With the 2026 conforming loan limit at $1,209,750, most 92886 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than US Bank, Union Bank, or Wells Fargo—especially for the self-employed business owners who thrive in Yorba Linda.
+            Yorba Linda 92886 lives up to its &quot;Land of Gracious Living&quot; motto with a <strong>$1.4 million median home price</strong> and custom estates reaching $3M+. With the 2026 conforming loan limit at $1,209,750, most 92886 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates than US Bank, Union Bank, or Wells Fargo—especially for the self-employed business owners who thrive in Yorba Linda.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92886Page() {
 
         <h3>The Jumbo Financing Reality</h3>
         <p>
-          The 2026 conforming loan limit of $1,209,750 falls short for Yorba Linda&apos;s quality housing stock. With a $1.4M median price and premium neighborhoods reaching $2-3M+, the typical 92886 buyer needs a <strong>jumbo loan of $1.1-2.2 million</strong>. A wholesale broker accesses <strong>200+ jumbo lenders competing</strong> for your business.
+          The 2026 conforming loan limit of $1,209,750 falls short for Yorba Linda&apos;s quality housing stock. With a $1.4M median price and premium neighborhoods reaching $2-3M+, the typical 92886 buyer needs a <strong>jumbo loan of $1.1-2.2 million</strong>. A wholesale broker accesses <strong>50+ Wholesale Lenders competing</strong> for your business.
         </p>
 
         <h2>92886 Real Estate Snapshot</h2>
@@ -232,7 +232,7 @@ export default function WholesaleMortgageBroker92886Page() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">200+ competing lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender options</td><td className="py-2 px-4 border-b">1 (their own)</td><td className="py-2 px-4 border-b text-blue-700">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Rate pricing</td><td className="py-2 px-4 border-b">Retail (marked up)</td><td className="py-2 px-4 border-b text-blue-700">Wholesale (institutional)</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Bank statement options</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700">Multiple programs</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Self-employed flexibility</td><td className="py-2 px-4 border-b">Rigid guidelines</td><td className="py-2 px-4 border-b text-blue-700">Multiple approaches</td></tr>
@@ -272,7 +272,7 @@ export default function WholesaleMortgageBroker92886Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker for Yorba Linda Hills homes?</h3>
-            <p className="mb-0">Yorba Linda Hills and Bryant Ranch feature larger custom homes requiring jumbo loans. A wholesale broker accesses 200+ lenders competing for your business, delivering better rates than US Bank or Wells Fargo can offer on their limited jumbo menus.</p>
+            <p className="mb-0">Yorba Linda Hills and Bryant Ranch feature larger custom homes requiring jumbo loans. A wholesale broker accesses 50+ Wholesale Lenders competing for your business, delivering better rates than US Bank or Wells Fargo can offer on their limited jumbo menus.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer bank statement loans in 92886?</h3>

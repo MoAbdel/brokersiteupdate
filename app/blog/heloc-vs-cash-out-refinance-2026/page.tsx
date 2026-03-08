@@ -110,7 +110,7 @@ export default function HELOCvsCashOutGuide() {
         name: 'What credit score do I need for a HELOC vs a cash-out refinance?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Most HELOCs require a minimum credit score of 680, with the best rates available at 720+. Cash-out refinances through conventional programs typically require 620+, though jumbo cash-out refinances require 700+. Wholesale brokers access programs across credit tiers from 200+ lenders, finding competitive options for a wider range of credit profiles.',
+          text: 'Most HELOCs require a minimum credit score of 680, with the best rates available at 720+. Cash-out refinances through conventional programs typically require 620+, though jumbo cash-out refinances require 700+. Wholesale brokers access programs across credit tiers from 50+ Wholesale Lenders, finding competitive options for a wider range of credit profiles.',
         },
       },
       {
@@ -118,7 +118,7 @@ export default function HELOCvsCashOutGuide() {
         name: 'How does a wholesale broker help me choose between HELOC and cash-out refinance?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares both HELOC and cash-out refinance products from 200+ lenders simultaneously, running a side-by-side cost analysis based on your current mortgage rate, equity position, and goals. Retail banks only offer their own products. A broker shows you the full landscape so you choose the option with the lowest total cost of borrowing.',
+          text: 'A wholesale broker compares both HELOC and cash-out refinance products from 50+ Wholesale Lenders simultaneously, running a side-by-side cost analysis based on your current mortgage rate, equity position, and goals. Retail banks only offer their own products. A broker shows you the full landscape so you choose the option with the lowest total cost of borrowing.',
         },
       },
     ],
@@ -147,7 +147,7 @@ export default function HELOCvsCashOutGuide() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;A HELOC keeps your first mortgage intact and adds a second lien with flexible access, while a cash-out refinance replaces your mortgage entirely with a new, larger loan.&quot; With the Federal Reserve holding rates steady through early 2026 and roughly 60% of U.S. homeowners locked into first mortgages below 4%, choosing the right equity access strategy has never been more important. In 2026, choose a HELOC if you have a favorable first mortgage rate you want to keep; choose cash-out if you can improve your rate or need a large lump sum with simpler payments. As a wholesale broker with access to 200+ lenders, I compare both products side-by-side to find the best fit for your situation.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;A HELOC keeps your first mortgage intact and adds a second lien with flexible access, while a cash-out refinance replaces your mortgage entirely with a new, larger loan.&quot; With the Federal Reserve holding rates steady through early 2026 and roughly 60% of U.S. homeowners locked into first mortgages below 4%, choosing the right equity access strategy has never been more important. In 2026, choose a HELOC if you have a favorable first mortgage rate you want to keep; choose cash-out if you can improve your rate or need a large lump sum with simpler payments. As a wholesale broker with access to 50+ Wholesale Lenders, I compare both products side-by-side to find the best fit for your situation.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">HELOC vs Cash-Out Refinance: Structural Differences</h2>

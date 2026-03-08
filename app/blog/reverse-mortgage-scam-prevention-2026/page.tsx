@@ -68,7 +68,7 @@ const faqData = [
   },
   {
     question: 'How does working with a licensed wholesale broker protect me from reverse mortgage fraud?',
-    answer: 'A licensed wholesale mortgage broker provides several layers of fraud protection: verifiable NMLS credentials you can independently confirm at nmlsconsumeraccess.org, state licensing under the oversight of regulatory agencies, a fiduciary-like obligation to present suitable loan options, access to 200+ legitimate HECM lenders (not a single unknown entity), transparent fee disclosure required by federal regulations (TRID), no incentive to steer borrowers into unsuitable products because compensation comes from the lender (not the borrower), and full compliance with FHA HECM program requirements including mandatory HUD counseling. Working with a verifiable, licensed broker eliminates the risk of interacting with unlicensed or fraudulent operators.',
+    answer: 'A licensed wholesale mortgage broker provides several layers of fraud protection: verifiable NMLS credentials you can independently confirm at nmlsconsumeraccess.org, state licensing under the oversight of regulatory agencies, a fiduciary-like obligation to present suitable loan options, access to 50+ Wholesale Lenders (not a single unknown entity), transparent fee disclosure required by federal regulations (TRID), no incentive to steer borrowers into unsuitable products because compensation comes from the lender (not the borrower), and full compliance with FHA HECM program requirements including mandatory HUD counseling. Working with a verifiable, licensed broker eliminates the risk of interacting with unlicensed or fraudulent operators.',
   },
   {
     question: 'What protections exist for non-borrowing spouses in a reverse mortgage?',
@@ -200,7 +200,7 @@ export default function ReverseMortgageScamPreventionPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, seniors considering a reverse mortgage must <strong>verify every person and company involved in the transaction through NMLS Consumer Access and HUD&apos;s approved lender list before signing anything or sharing personal information</strong>. According to the <a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/reverse-mortgage-scams" target="_blank" rel="noopener noreferrer">FBI</a>, reverse mortgage fraud targeting homeowners age 62 and older involves schemes where bad actors exploit the equity seniors have built in their homes. The <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau (CFPB)</a> reports receiving thousands of reverse mortgage-related complaints annually, with the most common issues involving misleading marketing, unauthorized fees, and servicing problems. The strongest protection against HECM fraud is the mandatory HUD-approved counseling requirement combined with independent verification of all parties&apos; NMLS credentials. A wholesale mortgage broker with verifiable NMLS licensing and access to 200+ legitimate HECM lenders provides an additional layer of protection because every lender in the broker&apos;s network is a vetted, regulated institution.
+            According to Mo Abdel, NMLS #1426884, seniors considering a reverse mortgage must <strong>verify every person and company involved in the transaction through NMLS Consumer Access and HUD&apos;s approved lender list before signing anything or sharing personal information</strong>. According to the <a href="https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/reverse-mortgage-scams" target="_blank" rel="noopener noreferrer">FBI</a>, reverse mortgage fraud targeting homeowners age 62 and older involves schemes where bad actors exploit the equity seniors have built in their homes. The <a href="https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau (CFPB)</a> reports receiving thousands of reverse mortgage-related complaints annually, with the most common issues involving misleading marketing, unauthorized fees, and servicing problems. The strongest protection against HECM fraud is the mandatory HUD-approved counseling requirement combined with independent verification of all parties&apos; NMLS credentials. A wholesale mortgage broker with verifiable NMLS licensing and access to 50+ Wholesale Lenders provides an additional layer of protection because every lender in the broker&apos;s network is a vetted, regulated institution.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function ReverseMortgageScamPreventionPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Licensed wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">protects borrowers by connecting them to</td>
-                <td className="border border-gray-200 px-4 py-2">200+ vetted, regulated HECM lenders with transparent fee structures</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders with transparent fee structures</td>
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">CFPB and FTC</td>
@@ -670,7 +670,7 @@ export default function ReverseMortgageScamPreventionPage() {
         <ol>
           <li><strong>Verifiable NMLS credentials:</strong> A licensed broker&apos;s NMLS number is publicly verifiable at <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer">NMLSConsumerAccess.org</a>. Mo Abdel, NMLS #1426884, and Lumin Lending, NMLS #2716106, are independently verifiable</li>
           <li><strong>State regulatory oversight:</strong> Licensed brokers are supervised by state regulators (California DFPI, Washington DFI) and subject to regular audits and compliance reviews</li>
-          <li><strong>Access to 200+ legitimate HECM lenders:</strong> Every lender in a wholesale broker&apos;s network is a vetted, FHA-approved institution&mdash;not an unknown or unverifiable entity</li>
+          <li><strong>Access to 50+ Wholesale Lenders:</strong> Every lender in a wholesale broker&apos;s network is a vetted, FHA-approved institution&mdash;not an unknown or unverifiable entity</li>
           <li><strong>Transparent fee disclosure:</strong> Federal regulations (TRID/TILA-RESPA) require brokers to provide detailed fee disclosures through official Loan Estimates and Closing Disclosures</li>
           <li><strong>No upfront fees:</strong> Wholesale brokers are compensated by the lender at closing, not by collecting fees from borrowers before services are rendered</li>
           <li><strong>Full FHA HECM compliance:</strong> A licensed broker ensures mandatory counseling is completed, all disclosures are provided, and the entire process follows FHA guidelines</li>
@@ -726,7 +726,7 @@ export default function ReverseMortgageScamPreventionPage() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2 font-semibold">Wholesale broker access</td>
-                <td className="border border-gray-200 px-4 py-2">Connection to 200+ vetted, FHA-approved HECM lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Connection to 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">Licensed wholesale mortgage brokers</td>
               </tr>
               <tr>
@@ -818,7 +818,7 @@ export default function ReverseMortgageScamPreventionPage() {
             <li><strong>Never transfer your home title as part of a reverse mortgage:</strong> No legitimate HECM requires a title transfer to another person</li>
             <li><strong>Involve trusted family members:</strong> Multiple sets of eyes catch problems that one person might miss</li>
             <li><strong>Report suspected fraud immediately:</strong> File with CFPB, FTC, HUD OIG, and your state Attorney General</li>
-            <li><strong>Work with a licensed wholesale broker with verifiable credentials:</strong> Access to 200+ vetted HECM lenders, transparent fees, and full regulatory oversight</li>
+            <li><strong>Work with a licensed wholesale broker with verifiable credentials:</strong> Access to 50+ Wholesale Lenders, transparent fees, and full regulatory oversight</li>
           </ol>
         </div>
 

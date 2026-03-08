@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92629 | Dana Point | Jumbo Loan Specialists',
-  description: 'Dana Point wholesale mortgage broker serving 92629. Access 200+ lenders for jumbo loans, VA loans & coastal luxury financing. NMLS #1426884.',
+  description: 'Dana Point wholesale mortgage broker serving 92629. Access 50+ Wholesale Lenders for jumbo loans, VA loans & coastal luxury financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92629',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92629 | Dana Point Jumbo Loan Specialists',
-    description: 'Dana Point wholesale mortgage broker with 200+ lenders for jumbo and VA loans.',
+    description: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders for jumbo and VA loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92629',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -57,7 +57,7 @@ export default function WholesaleMortgageBroker92629Page() {
                 "name": "What is a wholesale mortgage broker in Dana Point (92629)?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for coastal luxury home purchases, including jumbo and VA loan programs."
+                  "text": "A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for coastal luxury home purchases, including jumbo and VA loan programs."
                 }
               },
               {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBroker92629Page() {
                 "name": "How do Dana Point wholesale rates compare to Pacific Western or Farmers & Merchants?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 200+ lenders who compete for Dana Point jumbo financing, compared to single-product offerings at Pacific Western or Farmers & Merchants."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 50+ Wholesale Lenders who compete for Dana Point jumbo financing, compared to single-product offerings at Pacific Western or Farmers & Merchants."
                 }
               },
               {
@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92629Page() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Wholesale Mortgage Broker",
-            "description": "Dana Point wholesale mortgage broker serving 92629 with 200+ lender access for jumbo loans and VA financing.",
+            "description": "Dana Point wholesale mortgage broker serving 92629 with 50+ Wholesale Lenders for jumbo loans and VA financing.",
             "telephone": "(949) 579-2057",
             "areaServed": {
               "@type": "PostalAddress",
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBroker92629Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Dana Point homebuyers in 92629 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than Pacific Western, Farmers &amp; Merchants, and other Orange County banks. With Dana Point median home prices around $1.9 million, buyers need jumbo and VA loan expertise that wholesale brokers deliver.
+            Dana Point homebuyers in 92629 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than Pacific Western, Farmers &amp; Merchants, and other Orange County banks. With Dana Point median home prices around $1.9 million, buyers need jumbo and VA loan expertise that wholesale brokers deliver.
           </p>
         </div>
 
@@ -249,7 +249,7 @@ export default function WholesaleMortgageBroker92629Page() {
 
         <h3>What is a wholesale mortgage broker in Dana Point (92629)?</h3>
         <p>
-          A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for coastal luxury home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—including specialized VA jumbo and super jumbo programs.
+          A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for coastal luxury home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—including specialized VA jumbo and super jumbo programs.
         </p>
 
         <h3>Can veterans get jumbo VA loans in Dana Point (92629)?</h3>
@@ -259,7 +259,7 @@ export default function WholesaleMortgageBroker92629Page() {
 
         <h3>How do Dana Point wholesale rates compare to Pacific Western or Farmers &amp; Merchants?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for Dana Point jumbo financing, versus the single product offering at any bank.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Dana Point jumbo financing, versus the single product offering at any bank.
         </p>
 
         <h3>What is the jumbo loan limit for Dana Point in 2026?</h3>

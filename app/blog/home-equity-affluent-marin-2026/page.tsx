@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity Affluent Marin County 2026: HELOC, HELOAN & Cash-Out Guide',
-    description: 'HELOC, home equity loans, and cash-out refinance for Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC, home equity loans, and cash-out refinance for Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-affluent-marin-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Can I get a HELOC on a Sausalito houseboat?',
-    answer: 'Yes, but lender options are limited. Houseboats in Sausalito require lenders who treat them as real property with a permanent foundation and a recorded deed. Wholesale broker access identifies the 3-5 lenders (out of 200+) who underwrite floating-home HELOCs in Marin County, typically requiring 65-70% maximum combined loan-to-value and strong reserves.',
+    answer: 'Yes, but lender options are limited. Houseboats in Sausalito require lenders who treat them as real property with a permanent foundation and a recorded deed. Wholesale broker access identifies the 3-5 lenders (out of 50+ Wholesale Lenders) who underwrite floating-home HELOCs in Marin County, typically requiring 65-70% maximum combined loan-to-value and strong reserves.',
   },
   {
     question: 'How much equity can Marin County homeowners access in 2026?',
@@ -240,13 +240,13 @@ export default function HomeEquityAffluentMarin2026() {
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Marin County homeowners across Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato hold an estimated <strong>$4.2 billion in tappable home equity</strong> as of Q1 2026. With median values ranging from $1 million in Novato to $1.8 million in Larkspur, qualified borrowers access jumbo HELOCs up to $1.5 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels that connect to 200+ lenders.
+              Marin County homeowners across Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato hold an estimated <strong>$4.2 billion in tappable home equity</strong> as of Q1 2026. With median values ranging from $1 million in Novato to $1.8 million in Larkspur, qualified borrowers access jumbo HELOCs up to $1.5 million, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels that connect to 50+ Wholesale Lenders.
             </p>
           </div>
 
           {/* Introduction */}
           <p>
-            Affluent Marin County represents one of Northern California&apos;s most distinctive real estate corridors. From Sausalito&apos;s floating homes and hillside Victorians to Novato&apos;s family-oriented Hamilton development, each community offers homeowners unique equity access opportunities&mdash;and unique challenges. As a wholesale mortgage broker licensed in California, I compare HELOC, cash-out refinance, and home equity loan (HELOAN) programs from 200+ lenders to match Marin homeowners with the right product for their property type, income structure, and financial goals.
+            Affluent Marin County represents one of Northern California&apos;s most distinctive real estate corridors. From Sausalito&apos;s floating homes and hillside Victorians to Novato&apos;s family-oriented Hamilton development, each community offers homeowners unique equity access opportunities&mdash;and unique challenges. As a wholesale mortgage broker licensed in California, I compare HELOC, cash-out refinance, and home equity loan (HELOAN) programs from 50+ Wholesale Lenders to match Marin homeowners with the right product for their property type, income structure, and financial goals.
           </p>
 
           <p>
@@ -576,7 +576,7 @@ export default function HomeEquityAffluentMarin2026() {
           <h2 className="text-2xl font-bold mt-10 mb-4">Why Marin County Homeowners Choose a Wholesale Mortgage Broker for Equity Access</h2>
 
           <p>
-            I started working with Marin County homeowners after recognizing a pattern that repeats across Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato: qualified borrowers with substantial equity getting denied or receiving subpar terms from retail banks. The reasons vary by community&mdash;Sausalito houseboats that banks won&apos;t underwrite, San Anselmo freelancers whose tax returns understate actual income, Larkspur historic homes that generic appraisers undervalue&mdash;but the solution is consistent. Wholesale broker access to 200+ lenders means finding the right program for each unique situation rather than forcing every borrower into a one-size-fits-all product.
+            I started working with Marin County homeowners after recognizing a pattern that repeats across Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato: qualified borrowers with substantial equity getting denied or receiving subpar terms from retail banks. The reasons vary by community&mdash;Sausalito houseboats that banks won&apos;t underwrite, San Anselmo freelancers whose tax returns understate actual income, Larkspur historic homes that generic appraisers undervalue&mdash;but the solution is consistent. Wholesale broker access to 50+ Wholesale Lenders means finding the right program for each unique situation rather than forcing every borrower into a one-size-fits-all product.
           </p>
 
           <p>
@@ -584,7 +584,7 @@ export default function HomeEquityAffluentMarin2026() {
           </p>
 
           <p>
-            The wholesale model works differently from retail banking. When you walk into a bank branch, you see that bank&apos;s products at that bank&apos;s rates. If your situation doesn&apos;t fit their guidelines&mdash;houseboat collateral, self-employed income, historic home appraisal&mdash;you get declined. As a wholesale broker, I submit your application to the lenders whose guidelines match your specific profile. For a Sausalito houseboat owner, that might be 3 out of 200+ lenders. For a Corte Madera family with dual W-2 income, it might be 50+. The point is finding the right 1-3 lenders who offer the best terms for your situation, not accepting whatever one bank offers.
+            The wholesale model works differently from retail banking. When you walk into a bank branch, you see that bank&apos;s products at that bank&apos;s rates. If your situation doesn&apos;t fit their guidelines&mdash;houseboat collateral, self-employed income, historic home appraisal&mdash;you get declined. As a wholesale broker, I submit your application to the lenders whose guidelines match your specific profile. For a Sausalito houseboat owner, that might be 3 out of 50+ Wholesale Lenders. For a Corte Madera family with dual W-2 income, it might be 50+. The point is finding the right 1-3 lenders who offer the best terms for your situation, not accepting whatever one bank offers.
           </p>
 
           <p>
@@ -784,7 +784,7 @@ export default function HomeEquityAffluentMarin2026() {
               Marin County&apos;s affluent communities offer substantial home equity access, but each city presents unique qualification dynamics. Sausalito requires specialized lenders for houseboat and hillside collateral. Corte Madera families benefit from school-zone-driven appreciation and straightforward dual-income qualification. Larkspur&apos;s historic homes demand renovation-focused HELOC products with phased draw schedules. San Anselmo&apos;s creative professionals need bank statement or asset-depletion programs that recognize actual income rather than tax-return figures. Novato provides Marin&apos;s most accessible equity entry point with conforming products and VA options for Hamilton veterans.
             </p>
             <p className="mb-0">
-              The common thread: wholesale broker access unlocks lender programs that retail banks cannot offer. Whether you need a $150K HELOC for a Novato kitchen remodel or a $1 million jumbo credit line against a Larkspur estate, comparing options from 200+ lenders ensures you access the best rate, highest CLTV, and most appropriate documentation requirements for your specific situation.
+              The common thread: wholesale broker access unlocks lender programs that retail banks cannot offer. Whether you need a $150K HELOC for a Novato kitchen remodel or a $1 million jumbo credit line against a Larkspur estate, comparing options from 50+ Wholesale Lenders ensures you access the best rate, highest CLTV, and most appropriate documentation requirements for your specific situation.
             </p>
           </div>
 
@@ -807,7 +807,7 @@ export default function HomeEquityAffluentMarin2026() {
           <div className="bg-blue-50 p-6 rounded-lg my-8">
             <h3 className="font-bold text-xl mb-3 mt-0">Get Your Free Marin County Equity Analysis</h3>
             <p>
-              I compare HELOC, cash-out refinance, and home equity loan options from 200+ lenders for Marin County homeowners. Whether you own a Sausalito houseboat, a Larkspur Craftsman, or a Novato family home, I identify the product with the best rate and terms for your specific property and income situation.
+              I compare HELOC, cash-out refinance, and home equity loan options from 50+ Wholesale Lenders for Marin County homeowners. Whether you own a Sausalito houseboat, a Larkspur Craftsman, or a Novato family home, I identify the product with the best rate and terms for your specific property and income situation.
             </p>
             <p className="text-lg font-semibold">Call Mo Abdel: (949) 579-2057</p>
             <p className="mb-0">NMLS #1426884 | Lumin Lending, NMLS #2716106 | DRE #02291443<br />Licensed in California &amp; Washington</p>

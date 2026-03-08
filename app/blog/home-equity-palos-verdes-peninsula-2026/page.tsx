@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Equity in Palos Verdes Estates, Rolling Hills & PV Peninsula: HELOC & Cash-Out [2026]',
-  description: 'Home equity guide for Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills & Rolling Hills Estates. HELOC, HELOAN & cash-out refinance. 200+ lenders. NMLS #1426884.',
+  description: 'Home equity guide for Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills & Rolling Hills Estates. HELOC, HELOAN & cash-out refinance. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'home equity Palos Verdes',
     'HELOC Palos Verdes Estates',
@@ -101,7 +101,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
         name: 'Can I get a jumbo HELOC on a $3M Palos Verdes Estates bluff-top home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. Standard HELOCs cap at $500K-$1M, which is insufficient for PV Estates properties. Through wholesale broker access to 200+ lenders, we connect PV Estates homeowners with jumbo HELOC programs providing $1M-$3M+ credit lines on qualifying bluff-top and ocean-view properties.',
+          text: 'Yes. Standard HELOCs cap at $500K-$1M, which is insufficient for PV Estates properties. Through wholesale broker access to 50+ Wholesale Lenders, we connect PV Estates homeowners with jumbo HELOC programs providing $1M-$3M+ credit lines on qualifying bluff-top and ocean-view properties.',
         },
       },
       {
@@ -117,7 +117,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
         name: 'What credit score do I need for a HELOC on the Palos Verdes Peninsula?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Most HELOC lenders require a minimum 680 credit score, with the best rates at 740+. For jumbo HELOCs above $500K, some lenders require 720+. Wholesale broker access to 200+ lenders provides competitive options across credit tiers, including programs for 660-680 scores at modestly higher rates.',
+          text: 'Most HELOC lenders require a minimum 680 credit score, with the best rates at 740+. For jumbo HELOCs above $500K, some lenders require 720+. Wholesale broker access to 50+ Wholesale Lenders provides competitive options across credit tiers, including programs for 660-680 scores at modestly higher rates.',
         },
       },
       {
@@ -165,7 +165,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
         name: 'How does a wholesale broker get better HELOC rates for PV Peninsula homeowners?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares HELOC products from 200+ lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. Wholesale competition consistently delivers lower rates, higher credit limits, and better terms. On a $1M+ PV Peninsula jumbo HELOC, even a small rate difference saves $5,000-$15,000+ annually.',
+          text: 'A wholesale broker compares HELOC products from 50+ Wholesale Lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. Wholesale competition consistently delivers lower rates, higher credit limits, and better terms. On a $1M+ PV Peninsula jumbo HELOC, even a small rate difference saves $5,000-$15,000+ annually.',
         },
       },
     ],
@@ -253,7 +253,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
               <li>Average tappable equity per homeowner: $580,000+ (Rancho Palos Verdes) to $1,900,000+ (Rolling Hills) after retaining 20% equity cushion</li>
               <li>PV Peninsula home values have appreciated an average of 6.2% annually over the past decade, outpacing LA County averages by 1.8 percentage points</li>
               <li>Rolling Hills &mdash; California&apos;s most exclusive gated city &mdash; holds $1.3 billion in total home equity across only 690 homes</li>
-              <li>Wholesale broker access to 200+ lenders delivers jumbo HELOC products up to $5M+ that standard banks do not offer</li>
+              <li>Wholesale broker access to 50+ Wholesale Lenders delivers jumbo HELOC products up to $5M+ that standard banks do not offer</li>
             </ul>
           </div>
 
@@ -277,7 +277,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), PV Peninsula home values rose 9&ndash;12% over the past two years, pushing total tappable equity across the peninsula&apos;s 16,500 owner-occupied homes to an estimated $9.6 billion as of Q1 2026. The Palos Verdes Peninsula rises above the Pacific on the southern edge of Los Angeles County, home to four cities where homeowners sit on some of the largest home equity positions in Southern California. From the ocean bluff estates of Palos Verdes Estates with $1.5M+ in tappable equity per home to the equestrian compounds of Rolling Hills with $1.9M+ accessible, PV Peninsula homeowners have extraordinary opportunities to leverage their equity for renovations, investments, debt consolidation, education, and financial optimization. As a wholesale mortgage broker with access to over 200 lenders, I help PV Peninsula homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms &mdash; with specialized expertise in the gated communities, equestrian properties, and ocean-view valuations that define this market.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), PV Peninsula home values rose 9&ndash;12% over the past two years, pushing total tappable equity across the peninsula&apos;s 16,500 owner-occupied homes to an estimated $9.6 billion as of Q1 2026. The Palos Verdes Peninsula rises above the Pacific on the southern edge of Los Angeles County, home to four cities where homeowners sit on some of the largest home equity positions in Southern California. From the ocean bluff estates of Palos Verdes Estates with $1.5M+ in tappable equity per home to the equestrian compounds of Rolling Hills with $1.9M+ accessible, PV Peninsula homeowners have extraordinary opportunities to leverage their equity for renovations, investments, debt consolidation, education, and financial optimization. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help PV Peninsula homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms &mdash; with specialized expertise in the gated communities, equestrian properties, and ocean-view valuations that define this market.
           </p>
 
           <p>
@@ -525,7 +525,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
           </p>
 
           <p>
-            <strong>Equity sweet spot &mdash; competitive jumbo lending:</strong> At a $2M median, Rolling Hills Estates falls in the jumbo lending range where multiple wholesale lenders compete aggressively for loan amounts of $800K&ndash;$1.5M. This competition drives HELOC rates lower than the ultra-jumbo rates required for $2M+ credit lines on higher-value peninsula properties. A wholesale broker shopping 200+ lenders for a $1M Rolling Hills Estates HELOC finds rate spreads of 0.375%&ndash;0.625% between the highest and lowest offers &mdash; translating to $3,750&ndash;$6,250 in annual interest savings per $1M borrowed.
+            <strong>Equity sweet spot &mdash; competitive jumbo lending:</strong> At a $2M median, Rolling Hills Estates falls in the jumbo lending range where multiple wholesale lenders compete aggressively for loan amounts of $800K&ndash;$1.5M. This competition drives HELOC rates lower than the ultra-jumbo rates required for $2M+ credit lines on higher-value peninsula properties. A wholesale broker shopping 50+ Wholesale Lenders for a $1M Rolling Hills Estates HELOC finds rate spreads of 0.375%&ndash;0.625% between the highest and lowest offers &mdash; translating to $3,750&ndash;$6,250 in annual interest savings per $1M borrowed.
           </p>
 
           <p>
@@ -650,7 +650,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">What is the best HELOC rate for a PV Peninsula jumbo loan?</h3>
-              <p><strong>Wholesale broker access to 200+ lenders delivers HELOC rates 0.25%&ndash;0.50% lower than single-bank retail pricing on jumbo products.</strong></p>
+              <p><strong>Wholesale broker access to 50+ Wholesale Lenders delivers HELOC rates 0.25%&ndash;0.50% lower than single-bank retail pricing on jumbo products.</strong></p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Does Portuguese Bend geological activity affect HELOC eligibility?</h3>
@@ -692,7 +692,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a jumbo HELOC on a $3M Palos Verdes Estates bluff-top home?</h3>
-              <p>Yes. Standard HELOCs cap at $500K&ndash;$1M, insufficient for PV Estates properties. Through wholesale broker access to 200+ lenders, we connect homeowners with jumbo HELOC programs providing $1M&ndash;$3M+ credit lines on qualifying bluff-top and ocean-view properties with appropriate loan-to-value ratios and reserve requirements.</p>
+              <p>Yes. Standard HELOCs cap at $500K&ndash;$1M, insufficient for PV Estates properties. Through wholesale broker access to 50+ Wholesale Lenders, we connect homeowners with jumbo HELOC programs providing $1M&ndash;$3M+ credit lines on qualifying bluff-top and ocean-view properties with appropriate loan-to-value ratios and reserve requirements.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does the ocean view premium affect my Palos Verdes HELOC?</h3>
@@ -700,7 +700,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What credit score do I need for a HELOC on the Palos Verdes Peninsula?</h3>
-              <p>Most HELOC lenders require a minimum 680 credit score, with the best rates available at 740+. For jumbo HELOCs above $500K, some lenders require 720+ scores. Wholesale broker access to 200+ lenders provides competitive options across credit tiers, including programs for 660&ndash;680 scores at modestly higher rates.</p>
+              <p>Most HELOC lenders require a minimum 680 credit score, with the best rates available at 740+. For jumbo HELOCs above $500K, some lenders require 720+ scores. Wholesale broker access to 50+ Wholesale Lenders provides competitive options across credit tiers, including programs for 660&ndash;680 scores at modestly higher rates.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How long does it take to get a HELOC on a PV Peninsula property?</h3>
@@ -724,7 +724,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker get better HELOC rates for PV Peninsula homeowners?</h3>
-              <p>A wholesale broker compares HELOC products from 200+ lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. This competitive dynamic consistently produces lower rates, higher credit limits, and better terms. On a $1M+ PV Peninsula jumbo HELOC, even a small rate difference translates to $5,000&ndash;$15,000+ in annual interest savings.</p>
+              <p>A wholesale broker compares HELOC products from 50+ Wholesale Lenders simultaneously, creating competition for your business. Your bank offers one product at one rate. This competitive dynamic consistently produces lower rates, higher credit limits, and better terms. On a $1M+ PV Peninsula jumbo HELOC, even a small rate difference translates to $5,000&ndash;$15,000+ in annual interest savings.</p>
             </div>
           </div>
 
@@ -734,7 +734,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <a href="/blog/wholesale-mortgage-broker-palos-verdes-peninsula-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">PV Peninsula Wholesale Mortgage Guide</h3>
-              <p className="text-sm text-gray-600">Wholesale mortgage broker access for PV Peninsula purchases. 200+ lenders, jumbo specialists, equestrian property financing.</p>
+              <p className="text-sm text-gray-600">Wholesale mortgage broker access for PV Peninsula purchases. 50+ Wholesale Lenders, jumbo specialists, equestrian property financing.</p>
             </a>
             <a href="/blog/reverse-mortgage-palos-verdes-peninsula-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">PV Peninsula Reverse Mortgage Guide</h3>
@@ -764,7 +764,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
               From equestrian estate HELOCs in Rolling Hills to bluff-top equity access in Lunada Bay, from Portuguese Bend geological documentation to trust-held property credit lines, every PV Peninsula equity transaction benefits from specialized lending knowledge. The difference between an informed wholesale broker and a generic bank loan officer translates directly to more accessible equity, better rates, and successful transactions.
             </p>
             <p className="text-slate-900">
-              As your PV Peninsula home equity specialist, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders, assign peninsula-experienced appraisers, and navigate the unique challenges of gated cities, equestrian properties, and oceanfront valuations. Contact me today for your free equity analysis.
+              As your PV Peninsula home equity specialist, I compare HELOC, HELOAN, and cash-out refinance products from 50+ Wholesale Lenders, assign peninsula-experienced appraisers, and navigate the unique challenges of gated cities, equestrian properties, and oceanfront valuations. Contact me today for your free equity analysis.
             </p>
           </div>
 
@@ -776,7 +776,7 @@ export default function HomeEquityPalosVerdesPeninsula2026() {
             <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 4 PV Peninsula cities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ HELOC, HELOAN &amp; cash-out refinance lenders</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders</p>
           </div>
 
           {/* Disclaimer */}

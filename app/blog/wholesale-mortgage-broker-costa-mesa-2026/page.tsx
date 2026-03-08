@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Costa Mesa, CA [2026 Guide]',
-  description: 'Find the best wholesale mortgage rates in Costa Mesa. Bank statement loans, jumbo financing, and 200+ lender access for Costa Mesa homebuyers. NMLS #1426884.',
+  description: 'Find the best wholesale mortgage rates in Costa Mesa. Bank statement loans, jumbo financing, and 50+ Wholesale Lenders for Costa Mesa homebuyers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa-2026',
     languages: {
@@ -46,7 +46,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
                 "name": "What is a wholesale mortgage broker in Costa Mesa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Costa Mesa shops your loan across 200+ wholesale lenders to find competitive rates and programs. Unlike banks that only offer their own products, wholesale brokers access institutional pricing from multiple lenders and specialty programs like bank statement loans—potentially saving borrowers 0.25-0.5% on their rate."
+                  "text": "A wholesale mortgage broker in Costa Mesa shops your loan across 50+ Wholesale Lenders to find competitive rates and programs. Unlike banks that only offer their own products, wholesale brokers access institutional pricing from multiple lenders and specialty programs like bank statement loans—potentially saving borrowers 0.25-0.5% on their rate."
                 }
               },
               {
@@ -91,14 +91,14 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
           Wholesale Mortgage Broker in Costa Mesa, CA [2026 Guide]
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Costa Mesa homes
+          Access wholesale rates and 50+ Wholesale Lenders for Costa Mesa homes
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Costa Mesa's central Orange County location and diverse housing—from Mesa Verde estates to Eastside bungalows—draws buyers with varied financing needs. A <strong>wholesale mortgage broker</strong> provides access to 200+ lenders with institutional rates typically 0.25-0.5% lower than retail bank pricing. On Costa Mesa's median home price of approximately $1.1 million, that difference represents <strong>$55,000-$108,000+</strong> in interest savings over 30 years.
+            Costa Mesa's central Orange County location and diverse housing—from Mesa Verde estates to Eastside bungalows—draws buyers with varied financing needs. A <strong>wholesale mortgage broker</strong> provides access to 50+ Wholesale Lenders with institutional rates typically 0.25-0.5% lower than retail bank pricing. On Costa Mesa's median home price of approximately $1.1 million, that difference represents <strong>$55,000-$108,000+</strong> in interest savings over 30 years.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
 
         <h3>The Wholesale Advantage</h3>
         <ul>
-          <li><strong>200+ lender network:</strong> More options than any single bank offers</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank offers</li>
           <li><strong>Institutional pricing:</strong> Wholesale rates without retail markup</li>
           <li><strong>Program flexibility:</strong> Bank statement, jumbo, non-QM, DSCR investor loans</li>
           <li><strong>Costa Mesa expertise:</strong> Understanding of local neighborhoods and values</li>
@@ -253,7 +253,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
         <ol>
           <li><strong>Initial consultation:</strong> Discuss your Costa Mesa housing goals and financing needs</li>
           <li><strong>Pre-approval:</strong> Get underwritten approval for confident home shopping</li>
-          <li><strong>Lender shopping:</strong> Broker compares 200+ options for your scenario</li>
+          <li><strong>Lender shopping:</strong> Broker compares 50+ Wholesale Lenders for your scenario</li>
           <li><strong>Property-specific rate:</strong> Final rate quote based on specific home</li>
           <li><strong>Rate lock:</strong> Lock when you're under contract</li>
           <li><strong>Processing and closing:</strong> Coordinate to successful close</li>

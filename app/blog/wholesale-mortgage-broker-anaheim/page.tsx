@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Anaheim Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-  description: 'Access wholesale mortgage rates in Anaheim through 200+ lenders. Serving Anaheim Hills, West Anaheim, Platinum Triangle, Colony District. Bank statement loans, jumbo financing. NMLS #1426884.',
+  title: 'Anaheim Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+  description: 'Access wholesale mortgage rates in Anaheim through 50+ Wholesale Lenders. Serving Anaheim Hills, West Anaheim, Platinum Triangle, Colony District. Bank statement loans, jumbo financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-anaheim',
     languages: {
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Anaheim Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    description: 'Access wholesale mortgage rates in Anaheim through 200+ lenders. Bank statement loans, jumbo financing, DSCR investor loans.',
+    title: 'Anaheim Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    description: 'Access wholesale mortgage rates in Anaheim through 50+ Wholesale Lenders. Bank statement loans, jumbo financing, DSCR investor loans.',
     type: 'article',
     publishedTime: '2026-02-02',
     authors: ['Mo Abdel'],
@@ -28,7 +28,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Anaheim Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Anaheim Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -42,7 +42,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
             },
             "datePublished": "2026-02-02",
             "dateModified": "2026-02-02",
-            "description": "Comprehensive guide to wholesale mortgage broker services in Anaheim, CA. Access 200+ lenders for better rates on purchases and refinances."
+            "description": "Comprehensive guide to wholesale mortgage broker services in Anaheim, CA. Access 50+ Wholesale Lenders for better rates on purchases and refinances."
           })
         }}
       />
@@ -92,7 +92,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
                 "name": "What is a wholesale mortgage broker in Anaheim?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Anaheim is a licensed professional who shops your loan across 200+ wholesale lenders to find competitive rates and programs. Unlike retail banks that only offer their own products with markup, wholesale brokers access institutional pricing and specialty programs including bank statement loans, jumbo options, and DSCR investor financing that most banks do not provide."
+                  "text": "A wholesale mortgage broker in Anaheim is a licensed professional who shops your loan across 50+ Wholesale Lenders to find competitive rates and programs. Unlike retail banks that only offer their own products with markup, wholesale brokers access institutional pricing and specialty programs including bank statement loans, jumbo options, and DSCR investor financing that most banks do not provide."
                 }
               },
               {
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
       <header className="mb-8">
         <p className="text-blue-600 font-medium mb-2">Anaheim Mortgage Guide</p>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Anaheim Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Anaheim Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-xl text-gray-600">
           Access wholesale mortgage rates for Anaheim Hills, West Anaheim, Platinum Triangle & all Anaheim neighborhoods
@@ -158,7 +158,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Anaheim is Orange County's most populous city with a housing market as diverse as its neighborhoods—from affordable condos in the Platinum Triangle to sprawling estates in Anaheim Hills. With median prices around <strong>$850,000</strong> and Anaheim Hills properties frequently exceeding <strong>$1.5 million</strong>, Anaheim buyers benefit significantly from wholesale mortgage access. A <strong>wholesale mortgage broker</strong> provides institutional pricing from 200+ lenders, bank statement programs for the city's large self-employed population, and jumbo loan options for premium neighborhoods. On a typical Anaheim purchase, wholesale rates translate to <strong>$43,000-$85,000+</strong> in savings compared to retail bank pricing.
+            Anaheim is Orange County's most populous city with a housing market as diverse as its neighborhoods—from affordable condos in the Platinum Triangle to sprawling estates in Anaheim Hills. With median prices around <strong>$850,000</strong> and Anaheim Hills properties frequently exceeding <strong>$1.5 million</strong>, Anaheim buyers benefit significantly from wholesale mortgage access. A <strong>wholesale mortgage broker</strong> provides institutional pricing from 50+ Wholesale Lenders, bank statement programs for the city's large self-employed population, and jumbo loan options for premium neighborhoods. On a typical Anaheim purchase, wholesale rates translate to <strong>$43,000-$85,000+</strong> in savings compared to retail bank pricing.
           </p>
         </div>
 
@@ -433,7 +433,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
           <li><strong>Credit requirements:</strong> 620 minimum, better rates at 740+</li>
           <li><strong>Conforming limit:</strong> Up to $1,209,750 in Orange County (2026)</li>
           <li><strong>PMI options:</strong> Monthly, single premium, or lender-paid structures</li>
-          <li><strong>Wholesale advantage:</strong> Compare rates across 200+ conventional lenders</li>
+          <li><strong>Wholesale advantage:</strong> Compare rates across 50+ Wholesale Lenders</li>
         </ul>
 
         <h3>Jumbo Loans</h3>
@@ -532,7 +532,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
             </thead>
             <tbody>
               <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-blue-700">200+ wholesale lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-blue-700">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Not available</td><td className="py-3 px-4 border-b text-blue-700">Standard wholesale offering</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lender options</td></tr>
@@ -564,7 +564,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
             <strong>Property-Specific Analysis:</strong> Once you identify a property, your broker analyzes which lenders offer the best combination of rate, fees, and terms for that specific purchase.
           </li>
           <li>
-            <strong>Lender Shopping:</strong> Your broker compares options across 200+ lenders, considering rate, closing costs, and any property-specific requirements.
+            <strong>Lender Shopping:</strong> Your broker compares options across 50+ Wholesale Lenders, considering rate, closing costs, and any property-specific requirements.
           </li>
           <li>
             <strong>Rate Lock:</strong> Lock your rate when timing aligns with your closing date and market conditions.

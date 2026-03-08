@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: "Can a reverse mortgage be refinanced into a regular mortgage?",
-    answer: "Yes. Borrowers or heirs can refinance a reverse mortgage into a conventional forward mortgage at any time. This is common when heirs want to keep the property, when a borrower's circumstances change, or when equity has increased substantially. A wholesale broker with access to 200+ lenders can identify the most competitive refinance options."
+    answer: "Yes. Borrowers or heirs can refinance a reverse mortgage into a conventional forward mortgage at any time. This is common when heirs want to keep the property, when a borrower's circumstances change, or when equity has increased substantially. A wholesale broker with access to 50+ Wholesale Lenders can identify the most competitive refinance options."
   },
   {
     question: "What triggers a reverse mortgage due and payable event?",
@@ -430,7 +430,7 @@ export default function ReverseMortgageRepaymentWhenDue2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
-            For heirs, refinancing converts the reverse mortgage into a conventional or FHA forward mortgage with standard monthly payments. The new loan pays off the HECM balance, and the heir takes ownership free of the reverse mortgage lien. A wholesale mortgage broker with access to 200+ lenders can shop the refinance across multiple programs to find the most competitive terms for the heir&apos;s specific situation.
+            For heirs, refinancing converts the reverse mortgage into a conventional or FHA forward mortgage with standard monthly payments. The new loan pays off the HECM balance, and the heir takes ownership free of the reverse mortgage lien. A wholesale mortgage broker with access to 50+ Wholesale Lenders can shop the refinance across multiple programs to find the most competitive terms for the heir&apos;s specific situation.
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
@@ -670,7 +670,7 @@ export default function ReverseMortgageRepaymentWhenDue2026() {
             </p>
 
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              If you are considering a HECM or need guidance on an existing reverse mortgage repayment situation, contact Mo Abdel, NMLS #1426884, for a personalized consultation. With access to 200+ lenders through Lumin Lending, Mo provides objective guidance on the repayment option that best fits your family&apos;s needs.
+              If you are considering a HECM or need guidance on an existing reverse mortgage repayment situation, contact Mo Abdel, NMLS #1426884, for a personalized consultation. With access to 50+ Wholesale Lenders through Lumin Lending, Mo provides objective guidance on the repayment option that best fits your family&apos;s needs.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

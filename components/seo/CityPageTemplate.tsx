@@ -33,7 +33,7 @@ interface CityPageProps {
 
 export function generateCityMetadata(cityData: CityData): Metadata {
   const title = `${cityData.name} Mortgage Broker | Mo Abdel NMLS #1426884`;
-  const description = `Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
+  const description = `Expert mortgage broker serving ${cityData.name}, CA. Access to 50+ Wholesale Lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
   const canonicalUrl = `${SITE_ORIGIN}/areas/${cityData.slug}`;
 
   return {
@@ -74,7 +74,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
   const structuredFAQ = [
     {
       question: `What makes Mo Abdel the best mortgage broker in ${cityData.name}?`,
-      answer: `Mo Abdel offers access to 200+ lenders, ensuring ${cityData.name} residents get the most Competitive pricing. With NMLS #1426884 licensing and average 18-day closings, we provide expert service tailored to the local market.`
+      answer: `Mo Abdel offers access to 50+ Wholesale Lenders, ensuring ${cityData.name} residents get the most Competitive pricing. With NMLS #1426884 licensing and average 18-day closings, we provide expert service tailored to the local market.`
     },
     {
       question: `What are current mortgage pricing in ${cityData.name}?`,
@@ -90,7 +90,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
     },
     {
       question: `How long does it take to close a mortgage in ${cityData.name}?`,
-      answer: `Average closing times in ${cityData.name} are 18-30 days depending on loan type. Mo Abdel's streamlined process with 200+ lenders often results in faster closings - typically 18 days for purchase loans and 21 days for refinances.`
+      answer: `Average closing times in ${cityData.name} are 18-30 days depending on loan type. Mo Abdel's streamlined process with 50+ Wholesale Lenders often results in faster closings - typically 18 days for purchase loans and 21 days for refinances.`
     },
     {
       question: `What documents do I need for a ${cityData.name} mortgage application?`,
@@ -107,13 +107,13 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
   ];
 
   const pageTitle = `${cityData.name} Mortgage Broker | Mo Abdel NMLS #1426884`;
-  const pageDescription = `Expert mortgage broker serving ${cityData.name}, CA. Access to 200+ lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
+  const pageDescription = `Expert mortgage broker serving ${cityData.name}, CA. Access to 50+ Wholesale Lenders, Competitive pricing, and fast closings. Free consultation. Licensed & bonded.`;
 
   const entityGraph = buildBrokerEntityGraph({
     pageUrl: canonicalUrl,
     serviceType: 'Mortgage Broker Services',
     serviceName: `${cityData.name} Mortgage Broker`,
-    serviceDescription: `Professional mortgage broker serving ${cityData.name}, California with access to 200+ wholesale lenders for purchase, refinance, and investment property loans.`,
+    serviceDescription: `Professional mortgage broker serving ${cityData.name}, California with access to 50+ Wholesale Lenders for purchase, refinance, and investment property loans.`,
     areaServedNames: [`${cityData.name}, CA`],
     businessName: `Mo Abdel - ${cityData.name} Mortgage Expert`,
   });
@@ -156,7 +156,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
           }
           subtitle={
             <>
-              Expert mortgage services for {cityData.name} residents. Access to 200+ lenders, competitive
+              Expert mortgage services for {cityData.name} residents. Access to 50+ Wholesale Lenders, competitive
               pricing, and personalized service. NMLS #1426884 licensed & bonded.
             </>
           }
@@ -251,7 +251,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
                     <span className="text-blue-600 font-bold">2</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900 mb-2">200+ Lenders</h3>
+                    <h3 className="font-semibold text-slate-900 mb-2">50+ Wholesale Lenders</h3>
                     <p className="text-slate-600">
                       Access to more loan programs and Better pricing than any single bank can offer {cityData.name} borrowers.
                     </p>

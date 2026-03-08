@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker North Orange County: Anaheim, Yorba Linda, Orange, Fullerton [2026]',
-  description: 'Wholesale mortgage broker serving North Orange County. Anaheim Hills, Yorba Linda, Orange, Fullerton, Brea, Placentia. 200+ lenders, VA & first-time buyer specialists. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving North Orange County. Anaheim Hills, Yorba Linda, Orange, Fullerton, Brea, Placentia. 50+ Wholesale Lenders, VA & first-time buyer specialists. NMLS #1426884.',
   keywords: ['wholesale mortgage broker North OC', 'Anaheim Hills mortgage broker', 'Yorba Linda home loans', 'Orange County mortgage', 'Fullerton first-time buyer'],
   openGraph: {
     title: 'Wholesale Mortgage Broker North Orange County [2026]',
@@ -97,7 +97,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            North Orange County offers the region&apos;s best combination of value, space, and quality of life—from Yorba Linda&apos;s equestrian estates to Anaheim Hills&apos; canyon views to Fullerton&apos;s college-town charm. With median prices ranging from $750K to $1.5M, North OC provides more accessible homeownership while maintaining excellent schools and amenities. As a wholesale mortgage broker, I deliver 200+ lender options including VA specialists, first-time buyer programs, and jumbo products for premium neighborhoods.
+            North Orange County offers the region&apos;s best combination of value, space, and quality of life—from Yorba Linda&apos;s equestrian estates to Anaheim Hills&apos; canyon views to Fullerton&apos;s college-town charm. With median prices ranging from $750K to $1.5M, North OC provides more accessible homeownership while maintaining excellent schools and amenities. As a wholesale mortgage broker, I deliver 50+ Wholesale Lenders including VA specialists, first-time buyer programs, and jumbo products for premium neighborhoods.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -147,7 +147,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
                 <tr>
                   <td className="px-4 py-3 border-t">Rate shopping</td>
                   <td className="px-4 py-3 border-t">Their rate or nothing</td>
-                  <td className="px-4 py-3 border-t text-blue-700">200+ lenders competing</td>
+                  <td className="px-4 py-3 border-t text-blue-700">50+ Wholesale Lenders competing</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t">Closing speed</td>
@@ -416,7 +416,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Get Wholesale Rates for Your North OC Purchase</h2>
           <p>
-            As a wholesale mortgage broker serving all of North Orange County, I provide access to 200+ lenders competing for your business. Whether you&apos;re a first-time buyer in Fullerton, upgrading to Yorba Linda, or investing near Anaheim&apos;s attractions, wholesale access delivers better rates and specialized programs.
+            As a wholesale mortgage broker serving all of North Orange County, I provide access to 50+ Wholesale Lenders competing for your business. Whether you&apos;re a first-time buyer in Fullerton, upgrading to Yorba Linda, or investing near Anaheim&apos;s attractions, wholesale access delivers better rates and specialized programs.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

@@ -70,7 +70,7 @@ const faqData = [
   },
   {
     question: 'What are the alternatives to both cash-out refinance and 401(k) loans?',
-    answer: 'Alternatives include HELOC (revolving credit line, variable rate, keeps your first mortgage intact), home equity loan/HELOAN (fixed lump sum, fixed rate, second mortgage), personal loan (unsecured, higher rates, no collateral), 0% APR credit card balance transfer (short-term only), and Roth IRA contribution withdrawals (tax-free, penalty-free for contributions only). Each has distinct advantages depending on amount needed, timeline, and risk tolerance. A wholesale mortgage broker can compare home equity options across 200+ lenders.',
+    answer: 'Alternatives include HELOC (revolving credit line, variable rate, keeps your first mortgage intact), home equity loan/HELOAN (fixed lump sum, fixed rate, second mortgage), personal loan (unsecured, higher rates, no collateral), 0% APR credit card balance transfer (short-term only), and Roth IRA contribution withdrawals (tax-free, penalty-free for contributions only). Each has distinct advantages depending on amount needed, timeline, and risk tolerance. A wholesale mortgage broker can compare home equity options across 50+ Wholesale Lenders.',
   },
 ];
 
@@ -185,7 +185,7 @@ export default function CashOutRefinanceVs401kLoanPage() {
           {/* Citation Hook */}
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
             <p className="font-semibold text-gray-900 mb-0">
-              According to Mo Abdel, NMLS #1426884, the decision between a <strong>cash-out refinance vs 401(k) loan</strong> comes down to four factors: amount needed, repayment timeline, tax implications, and risk tolerance. A cash-out refinance is stronger for amounts above $50,000, offers potential tax deductions when funds improve the home, and spreads repayment over 15-30 years. A 401(k) loan is faster to obtain, carries no credit check, but is limited to <strong>$50,000 maximum</strong> with mandatory 5-year repayment — and triggers taxes plus a <strong>10% penalty if you leave your employer</strong> before full repayment. California and Washington homeowners with substantial equity often find the cash-out refinance delivers better long-term economics through a wholesale broker comparing 200+ lenders.
+              According to Mo Abdel, NMLS #1426884, the decision between a <strong>cash-out refinance vs 401(k) loan</strong> comes down to four factors: amount needed, repayment timeline, tax implications, and risk tolerance. A cash-out refinance is stronger for amounts above $50,000, offers potential tax deductions when funds improve the home, and spreads repayment over 15-30 years. A 401(k) loan is faster to obtain, carries no credit check, but is limited to <strong>$50,000 maximum</strong> with mandatory 5-year repayment — and triggers taxes plus a <strong>10% penalty if you leave your employer</strong> before full repayment. California and Washington homeowners with substantial equity often find the cash-out refinance delivers better long-term economics through a wholesale broker comparing 50+ Wholesale Lenders.
             </p>
           </div>
 
@@ -214,7 +214,7 @@ export default function CashOutRefinanceVs401kLoanPage() {
                 <tr className="border-t">
                   <td className="px-4 py-3">Wholesale mortgage broker</td>
                   <td className="px-4 py-3">compares cash-out rates from</td>
-                  <td className="px-4 py-3">200+ lenders to find the most competitive terms for each borrower scenario</td>
+                  <td className="px-4 py-3">50+ Wholesale Lenders to find the most competitive terms for each borrower scenario</td>
                 </tr>
                 <tr className="border-t bg-gray-50">
                   <td className="px-4 py-3">Cash-out refinance interest</td>
@@ -572,7 +572,7 @@ export default function CashOutRefinanceVs401kLoanPage() {
           </p>
 
           <p>
-            <em>As a wholesale broker, I find that roughly 30-40% of clients who initially call asking about a cash-out refinance end up choosing a HELOC instead once we compare the full picture. The HELOC is particularly strong for homeowners who locked in a low mortgage rate in previous years and do not want to give that up through a full refinance. I compare HELOC options from 200+ lenders to find the most competitive terms for each client&apos;s situation.</em>
+            <em>As a wholesale broker, I find that roughly 30-40% of clients who initially call asking about a cash-out refinance end up choosing a HELOC instead once we compare the full picture. The HELOC is particularly strong for homeowners who locked in a low mortgage rate in previous years and do not want to give that up through a full refinance. I compare HELOC options from 50+ Wholesale Lenders to find the most competitive terms for each client&apos;s situation.</em>
           </p>
 
           {/* Wholesale Broker Advantage */}
@@ -582,7 +582,7 @@ export default function CashOutRefinanceVs401kLoanPage() {
           </p>
 
           <ol className="list-decimal pl-6 space-y-3">
-            <li><strong>Rate comparison across 200+ lenders:</strong> A wholesale broker submits your scenario to a broad lender network simultaneously, generating competing rate quotes. Retail banks and credit unions offer only their own products. The competitive bidding process consistently produces more favorable pricing.</li>
+            <li><strong>Rate comparison across 50+ Wholesale Lenders:</strong> A wholesale broker submits your scenario to a broad lender network simultaneously, generating competing rate quotes. Retail banks and credit unions offer only their own products. The competitive bidding process consistently produces more favorable pricing.</li>
             <li><strong>Reduced overhead costs:</strong> Wholesale lenders operate at lower overhead than retail branches, and those savings translate into reduced origination fees, lower rates, or both. The wholesale channel is structurally more cost-efficient.</li>
             <li><strong>Specialized program matching:</strong> Different lenders specialize in different borrower profiles. A wholesale broker matches your specific scenario — credit score, property type, equity level, income documentation type — to the lenders who price that profile most aggressively.</li>
             <li><strong>Negotiation leverage:</strong> Brokers represent ongoing volume to their lender partners, creating negotiation power that individual borrowers do not have when approaching a single bank.</li>
@@ -662,7 +662,7 @@ export default function CashOutRefinanceVs401kLoanPage() {
                 <strong>A home equity loan (HELOAN) offers fixed-rate certainty without replacing your first mortgage — an advantage when your existing rate is low.</strong>
               </p>
               <p className="text-gray-700">
-                A HELOAN provides a lump sum at a fixed rate as a second mortgage, keeping your existing first mortgage intact. This is particularly valuable for homeowners who locked in low rates in previous years. Unlike a 401(k) loan, there is no retirement impact or job-loss risk. Unlike a cash-out refinance, your first mortgage rate is preserved. The trade-off is higher interest rates than a first mortgage (because it is a second lien) and the addition of a second monthly payment. A wholesale broker can compare HELOAN rates across 200+ lenders to find competitive terms.
+                A HELOAN provides a lump sum at a fixed rate as a second mortgage, keeping your existing first mortgage intact. This is particularly valuable for homeowners who locked in low rates in previous years. Unlike a 401(k) loan, there is no retirement impact or job-loss risk. Unlike a cash-out refinance, your first mortgage rate is preserved. The trade-off is higher interest rates than a first mortgage (because it is a second lien) and the addition of a second monthly payment. A wholesale broker can compare HELOAN rates across 50+ Wholesale Lenders to find competitive terms.
               </p>
             </div>
           </div>
@@ -690,13 +690,13 @@ export default function CashOutRefinanceVs401kLoanPage() {
             For smaller, time-sensitive needs with clear 5-year repayment plans and strong job security, the 401(k) loan provides a fast, low-friction alternative that avoids mortgage closing costs and credit impact entirely.
           </p>
           <p>
-            The most important step is running the numbers for your specific situation — factoring in your current mortgage rate, home value, 401(k) balance, intended use of funds, employment outlook, and proximity to retirement. A wholesale mortgage broker can provide the cash-out refinance side of that comparison with pricing from 200+ lenders, and your CPA can model the tax implications of each path.
+            The most important step is running the numbers for your specific situation — factoring in your current mortgage rate, home value, 401(k) balance, intended use of funds, employment outlook, and proximity to retirement. A wholesale mortgage broker can provide the cash-out refinance side of that comparison with pricing from 50+ Wholesale Lenders, and your CPA can model the tax implications of each path.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border border-blue-200">
             <h3 className="font-bold text-blue-900 mt-0 mb-3">Get a Free Cash-Out Refinance Comparison</h3>
             <p className="text-blue-900 mb-3">
-              As a wholesale mortgage broker licensed in California and Washington, I compare cash-out refinance rates from 200+ lenders to find the most competitive terms for your scenario. Every consultation includes a side-by-side cost analysis so you can compare your cash-out refinance option against your 401(k) loan alternative with real numbers.
+              As a wholesale mortgage broker licensed in California and Washington, I compare cash-out refinance rates from 50+ Wholesale Lenders to find the most competitive terms for your scenario. Every consultation includes a side-by-side cost analysis so you can compare your cash-out refinance option against your 401(k) loan alternative with real numbers.
             </p>
             <p className="text-blue-900 mb-0">
               Contact Mo Abdel today: <strong>(949) 579-2057</strong> | <strong>mabdel@luminlending.com</strong>

@@ -26,7 +26,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What makes you different from banks?",
-    answer: "As a mortgage broker, I work for you, not a bank. I have access to 200+ lenders and can shop for the best pricing and terms. Banks can only offer their own products. I typically close loans in 18 days (vs 30-45 at banks) and save clients an average of $10,000+ over the loan life through wholesale pricing.",
+    answer: "As a mortgage broker, I work for you, not a bank. I have access to 50+ Wholesale Lenders and can shop for the best pricing and terms. Banks can only offer their own products. I typically close loans in 18 days (vs 30-45 at banks) and save clients an average of $10,000+ over the loan life through wholesale pricing.",
     category: "general",
     keywords: ["different", "bank", "broker", "vs", "better", "advantage"],
     followUp: ["How much can I save?", "How fast can you close?"]
@@ -95,7 +95,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What credit score do I need?",
-    answer: "I have options for all credit situations through my 200+ lenders: FHA accepts scores as low as 580, VA is flexible for veterans, Conventional typically needs 620+, best pricing available for 740+, and Non-QM programs can work with scores as low as 500. Don't let credit concerns stop you - let's explore your options.",
+    answer: "I have options for all credit situations through my 50+ Wholesale Lenders: FHA accepts scores as low as 580, VA is flexible for veterans, Conventional typically needs 620+, best pricing available for 740+, and Non-QM programs can work with scores as low as 500. Don't let credit concerns stop you - let's explore your options.",
     category: "qualification",
     keywords: ["credit score", "fico", "credit", "minimum", "required"],
     followUp: ["Can you help improve my credit?", "What if I have bad credit?"]
@@ -118,7 +118,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Process & Timeline
   {
     question: "How long does the process take?",
-    answer: "My average closing time is just 18 days, much faster than the 2-3 weeks at most banks. Timeline: Pre-approval in 24 hours or less, full application in 1-2 days, processing/underwriting in 10-14 days, and closing appointment. My dedicated team and 200+ lender network enable this speed.",
+    answer: "My average closing time is just 18 days, much faster than the 2-3 weeks at most banks. Timeline: Pre-approval in 24 hours or less, full application in 1-2 days, processing/underwriting in 10-14 days, and closing appointment. My dedicated team and 50+ Wholesale Lenders enable this speed.",
     category: "process",
     keywords: ["how long", "timeline", "days", "closing", "process", "fast"],
     followUp: ["Can you close faster?", "What causes delays?"]
@@ -235,7 +235,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Can you beat my bank's rate?",
-    answer: "I often find better pricing through my 200+ wholesale lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call (949) 579-2057 for your personalized comparison.",
+    answer: "I often find better pricing through my 50+ Wholesale Lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call (949) 579-2057 for your personalized comparison.",
     category: "rates",
     keywords: ["beat", "match", "better", "lower", "compete"],
     followUp: ["How much can I save?", "Will you match rates?"]
@@ -279,7 +279,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Will you match rates?",
-    answer: "I'm committed to finding you competitive rates. If you have a Loan Estimate from another lender, I'll review it and shop across my 200+ lenders to look for equal or better terms. Bring me any written quote for a free, no-obligation comparison.",
+    answer: "I'm committed to finding you competitive rates. If you have a Loan Estimate from another lender, I'll review it and shop across my 50+ Wholesale Lenders to look for equal or better terms. Bring me any written quote for a free, no-obligation comparison.",
     category: "rates",
     keywords: ["match", "beat", "compete", "comparison", "lower"],
     followUp: ["What do you need to match?", "How to compare offers?"]

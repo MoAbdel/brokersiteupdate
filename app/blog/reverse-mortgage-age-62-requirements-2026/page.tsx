@@ -453,7 +453,7 @@ export default function ReverseMortgageAgeRequirementsPage() {
         </p>
 
         <p>
-          Mo Abdel at Lumin Lending (NMLS #2716106) models both variables — age and expected rate — when advising California and Washington clients on HECM timing. A borrower who waits two years gains a higher PLF from age but could face a less favorable rate environment. The analysis requires running personalized scenarios using current market data, which is why working with a broker who accesses 200+ wholesale lenders provides meaningful advantages in rate shopping.
+          Mo Abdel at Lumin Lending (NMLS #2716106) models both variables — age and expected rate — when advising California and Washington clients on HECM timing. A borrower who waits two years gains a higher PLF from age but could face a less favorable rate environment. The analysis requires running personalized scenarios using current market data, which is why working with a broker who accesses 50+ Wholesale Lenders provides meaningful advantages in rate shopping.
         </p>
 
         <h2 id="younger-spouse" className="flex items-center gap-2">
@@ -751,7 +751,7 @@ export default function ReverseMortgageAgeRequirementsPage() {
             <strong>The bottom line on reverse mortgage age requirements:</strong> The FHA HECM program requires borrowers to be at least 62 years old, and age directly determines the percentage of home equity available through the principal limit factor. Older borrowers receive more, but waiting carries risks from interest rate changes and foregone benefits. Couples with an age gap must weigh NBS protections against reduced proceeds. Proprietary reverse mortgages provide an alternative for borrowers aged 55-61.
           </p>
           <p className="text-blue-900 mb-0">
-            Every reverse mortgage decision is deeply personal and depends on the borrower&apos;s age, home value, interest rates, financial needs, health, family circumstances, and estate goals. Mo Abdel and the team at Lumin Lending, Inc. (NMLS #2716106) provide complimentary consultations to California and Washington homeowners evaluating their options. With access to 200+ wholesale lenders, Lumin Lending delivers competitive pricing across HECM and proprietary reverse mortgage products.
+            Every reverse mortgage decision is deeply personal and depends on the borrower&apos;s age, home value, interest rates, financial needs, health, family circumstances, and estate goals. Mo Abdel and the team at Lumin Lending, Inc. (NMLS #2716106) provide complimentary consultations to California and Washington homeowners evaluating their options. With access to 50+ Wholesale Lenders, Lumin Lending delivers competitive pricing across HECM and proprietary reverse mortgage products.
           </p>
         </div>
 

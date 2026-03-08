@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'VA IRRRL Streamline Refinance 2026: No Appraisal, Lower Rate for Veterans | Mo Abdel',
-  description: 'VA IRRRL streamline refinance for veterans: no appraisal, no income docs, 0.5% funding fee. Close in 15-25 days through 200+ wholesale lenders. NMLS #1426884.',
+  description: 'VA IRRRL streamline refinance for veterans: no appraisal, no income docs, 0.5% funding fee. Close in 15-25 days through 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/va-irrrl-streamline-refinance-2026',
     languages: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   keywords: 'VA IRRRL streamline refinance, VA interest rate reduction refinance loan, VA IRRRL requirements 2026, VA streamline refinance no appraisal, VA refinance benefits, VA IRRRL closing costs, VA IRRRL vs cash-out refinance',
   openGraph: {
     title: 'VA IRRRL Streamline Refinance 2026: No Appraisal, Lower Rate for Veterans',
-    description: 'VA IRRRL streamline refinance: no appraisal, no income verification, 0.5% funding fee. Close in 15-25 days through 200+ wholesale lenders.',
+    description: 'VA IRRRL streamline refinance: no appraisal, no income verification, 0.5% funding fee. Close in 15-25 days through 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/va-irrrl-streamline-refinance-2026',
     type: 'article',
     publishedTime: '2026-02-21T00:00:00Z',
@@ -140,7 +140,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
                 "name": "Is there a minimum credit score for VA IRRRL?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The VA does not set a minimum credit score for IRRRL. However, individual lenders typically require a minimum score of 580-620. Wholesale brokers with access to 200+ lenders can often find options for veterans with lower credit profiles."
+                  "text": "The VA does not set a minimum credit score for IRRRL. However, individual lenders typically require a minimum score of 580-620. Wholesale brokers with access to 50+ Wholesale Lenders can often find options for veterans with lower credit profiles."
                 }
               },
               {
@@ -148,7 +148,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
                 "name": "How does a wholesale broker help with VA IRRRL rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access institutional pricing from 200+ VA-approved lenders, bypassing retail markups. This competition among lenders drives pricing advantages that individual veterans cannot access directly, often resulting in measurably lower rates and reduced closing costs."
+                  "text": "Wholesale brokers access institutional pricing from 50+ Wholesale Lenders, bypassing retail markups. This competition among lenders drives pricing advantages that individual veterans cannot access directly, often resulting in measurably lower rates and reduced closing costs."
                 }
               },
               {
@@ -227,7 +227,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
             The <strong>VA funding fee on an IRRRL is reduced to 0.5% of the loan amount</strong> — significantly lower than the 1.25-3.3% funding fee charged on VA purchase loans. Veterans with service-connected disabilities rated 10% or higher pay no funding fee at all.
           </p>
           <p className="text-gray-800 mb-0">
-            <strong>Wholesale VA lenders compete for veteran business</strong>, which delivers measurable pricing advantages over retail banks. When a licensed broker submits an IRRRL application to 200+ VA-approved lenders simultaneously, the resulting competition produces institutional-level pricing that veterans cannot access on their own.
+            <strong>Wholesale VA lenders compete for veteran business</strong>, which delivers measurable pricing advantages over retail banks. When a licensed broker submits an IRRRL application to 50+ Wholesale Lenders simultaneously, the resulting competition produces institutional-level pricing that veterans cannot access on their own.
           </p>
         </div>
 
@@ -390,7 +390,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
 
         <h2>How Do Wholesale Brokers Help Veterans Get Better IRRRL Rates?</h2>
         <p>
-          The wholesale mortgage channel operates on a fundamentally different pricing model than retail banks. When a veteran walks into a bank or credit union, they receive that single institution&apos;s rate sheet — one set of pricing, take it or leave it. A wholesale mortgage broker submits the same IRRRL application to 200+ VA-approved lenders simultaneously, creating direct competition for the veteran&apos;s business.
+          The wholesale mortgage channel operates on a fundamentally different pricing model than retail banks. When a veteran walks into a bank or credit union, they receive that single institution&apos;s rate sheet — one set of pricing, take it or leave it. A wholesale mortgage broker submits the same IRRRL application to 50+ Wholesale Lenders simultaneously, creating direct competition for the veteran&apos;s business.
         </p>
         <p>
           This competition produces measurable pricing advantages:
@@ -402,7 +402,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
           <li><strong>Overlay navigation:</strong> Different lenders impose different overlays on top of VA guidelines. A broker knows which lenders have the fewest overlays, the fastest turn times, and the most favorable pricing for each veteran&apos;s specific profile.</li>
         </ul>
         <p>
-          Mo Abdel, NMLS #1426884, works with veterans across California and Washington, accessing wholesale VA IRRRL pricing from 200+ lenders through Lumin Lending, NMLS #2716106. For a detailed comparison of the broker advantage, read our <Link href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-700 hover:underline">mortgage broker vs. bank complete comparison</Link>.
+          Mo Abdel, NMLS #1426884, works with veterans across California and Washington, accessing wholesale VA IRRRL pricing from 50+ Wholesale Lenders through Lumin Lending, NMLS #2716106. For a detailed comparison of the broker advantage, read our <Link href="/blog/mortgage-broker-vs-bank-complete-2026" className="text-blue-700 hover:underline">mortgage broker vs. bank complete comparison</Link>.
         </p>
 
         {/* ===== SECTION 4: DATA & COMPARISON HUB (400-500 words) ===== */}
@@ -479,7 +479,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
 
         <h3>Does VA IRRRL require a credit check?</h3>
         <p>
-          <strong>The VA does not require a credit check, but most lenders will pull credit.</strong> The VA sets no minimum credit score for IRRRL. However, individual lenders typically require a score of 580-620. Working with a broker who accesses 200+ lenders means veterans with lower scores can find lenders with more flexible overlay requirements.
+          <strong>The VA does not require a credit check, but most lenders will pull credit.</strong> The VA sets no minimum credit score for IRRRL. However, individual lenders typically require a score of 580-620. Working with a broker who accesses 50+ Wholesale Lenders means veterans with lower scores can find lenders with more flexible overlay requirements.
         </p>
 
         <h3>Can a surviving spouse get a VA IRRRL?</h3>
@@ -523,7 +523,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
 
           <div>
             <h3>Can I refinance a VA jumbo loan with an IRRRL?</h3>
-            <p>Yes. VA jumbo loans (amounts above the county conforming loan limit) are eligible for IRRRL. The same streamlined process applies. Wholesale brokers are particularly valuable for VA jumbo IRRRLs because fewer lenders offer competitive jumbo VA pricing, and broker access to 200+ lenders identifies the most favorable options.</p>
+            <p>Yes. VA jumbo loans (amounts above the county conforming loan limit) are eligible for IRRRL. The same streamlined process applies. Wholesale brokers are particularly valuable for VA jumbo IRRRLs because fewer lenders offer competitive jumbo VA pricing, and broker access to 50+ Wholesale Lenders identifies the most favorable options.</p>
           </div>
 
           <div>
@@ -574,7 +574,7 @@ export default function VAIRRRLStreamlineRefinancePage() {
             The VA IRRRL streamline refinance delivers what no other refinance program can match: rate reduction with no appraisal, no income documentation, a 0.5% funding fee, and a 15-25 day closing timeline. For veterans with an existing VA loan who want a lower rate or ARM-to-fixed conversion, the IRRRL is the clear first choice.
           </p>
           <p>
-            Working with a wholesale broker who accesses 200+ VA-approved lenders ensures you capture the most competitive pricing available — pricing that retail banks and credit unions cannot match because they only offer their own products.
+            Working with a wholesale broker who accesses 50+ Wholesale Lenders ensures you capture the most competitive pricing available — pricing that retail banks and credit unions cannot match because they only offer their own products.
           </p>
           <p className="font-semibold text-gray-900">
             Mo Abdel, NMLS #1426884, specializes in VA IRRRL streamline refinances for veterans in California and Washington. Contact us at <a href="tel:9495792057" className="text-blue-700 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-700 hover:underline">request a free VA IRRRL quote</Link> to find out how much you can save.

@@ -231,7 +231,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
                 <td className="border border-gray-200 px-4 py-2">HECM application processing (required by federal law for borrowers 62+)</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">accelerates closing by</td>
                 <td className="border border-gray-200 px-4 py-2">routing files to lenders with fastest underwriting turntimes</td>
               </tr>
@@ -636,7 +636,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage: Faster HECM Closings</h2>
 
         <p>
-          A wholesale mortgage broker with access to 200+ lenders provides specific advantages that directly impact <strong>HECM closing timeline</strong> performance. These advantages come from the ability to select the optimal lender for each file based on the borrower&apos;s specific circumstances.
+          A wholesale mortgage broker with access to 50+ Wholesale Lenders provides specific advantages that directly impact <strong>HECM closing timeline</strong> performance. These advantages come from the ability to select the optimal lender for each file based on the borrower&apos;s specific circumstances.
         </p>
 
         <h3>How Wholesale Broker Access Accelerates HECM Closings</h3>
@@ -662,7 +662,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
           <p className="text-green-900 font-bold text-xl mb-1">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
           </p>
-          <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | 200+ wholesale lenders</p>
+          <p className="text-green-800 text-sm">NMLS #1426884 | Lumin Lending NMLS #2716106 | 50+ Wholesale Lenders</p>
         </div>
 
         {/* Data Comparison Hub */}
@@ -766,7 +766,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">What does a wholesale broker do differently in the HECM closing process?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker routes your HECM file to the lender with the fastest underwriting turntime and best match for your specific situation.</strong> This includes matching trust-held files to trust-friendly lenders, selecting lenders with faster appraisal networks, and leveraging relationships with 200+ wholesale lenders to resolve issues quickly.
+              <strong>A wholesale broker routes your HECM file to the lender with the fastest underwriting turntime and best match for your specific situation.</strong> This includes matching trust-held files to trust-friendly lenders, selecting lenders with faster appraisal networks, and leveraging relationships with 50+ Wholesale Lenders to resolve issues quickly.
             </p>
           </div>
         </div>
@@ -795,14 +795,14 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
             <li><strong>The financial assessment replaced traditional income qualification</strong> and evaluates the borrower&apos;s willingness and capacity to meet ongoing property obligations. A Life Expectancy Set-Aside may be required if concerns are identified.</li>
             <li><strong>Two mandatory waiting periods are built into the timeline:</strong> 3-business-day closing disclosure review and 3-business-day right of rescission. These are federally required and cannot be shortened.</li>
             <li><strong>Incomplete documentation is the single most common cause of closing delays.</strong> Providing all requested documents at application eliminates the most controllable source of timeline extensions.</li>
-            <li><strong>A wholesale broker with 200+ lenders</strong> selects the lender with the fastest underwriting turntime for your specific file, typically saving 5&ndash;10 business days compared to a single retail lender.</li>
+            <li><strong>A wholesale broker with 50+ Wholesale Lenders</strong> selects the lender with the fastest underwriting turntime for your specific file, typically saving 5&ndash;10 business days compared to a single retail lender.</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Start Your HECM Reverse Mortgage Process Today</h3>
           <p className="text-green-800 text-lg mb-4">
-            I will guide you through every stage of the closing process, send you a detailed preparation checklist, and route your file to the lender in my 200+ wholesale network that offers the fastest closing timeline for your specific situation. Most well-prepared borrowers in my pipeline close in 30&ndash;35 days.
+            I will guide you through every stage of the closing process, send you a detailed preparation checklist, and route your file to the lender in my 50+ Wholesale Lenders that offers the fastest closing timeline for your specific situation. Most well-prepared borrowers in my pipeline close in 30&ndash;35 days.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -811,7 +811,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. Licensed in CA and WA. I work with 200+ wholesale lenders to find the fastest HECM closing path for your situation.
+            Free consultation. Licensed in CA and WA. I work with 50+ Wholesale Lenders to find the fastest HECM closing path for your situation.
           </p>
         </div>
 

@@ -202,7 +202,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
         "name": "Why use a wholesale mortgage broker for home equity after bankruptcy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wholesale mortgage brokers access 200+ lenders including non-QM specialists that banks and credit unions do not offer. Post-bankruptcy borrowers benefit from this expanded lender network because non-QM programs have shorter waiting periods, lower credit score requirements, and alternative income documentation options. A broker compares multiple programs simultaneously to find the most competitive terms available."
+          "text": "Wholesale mortgage brokers access 50+ Wholesale Lenders including non-QM specialists that banks and credit unions do not offer. Post-bankruptcy borrowers benefit from this expanded lender network because non-QM programs have shorter waiting periods, lower credit score requirements, and alternative income documentation options. A broker compares multiple programs simultaneously to find the most competitive terms available."
         }
       }
     ]
@@ -409,7 +409,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
           </p>
 
           <p>
-            In our practice at Lumin Lending, we work with <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">200+ wholesale lenders</a>, including multiple non-QM specialists who serve post-bankruptcy borrowers. Several of these lenders offer home equity products as soon as one day after bankruptcy discharge. The key qualification factors for these programs are not the same as conventional lending. Instead of requiring 4 years of waiting and a 680 credit score, non-QM lenders evaluate:
+            In our practice at Lumin Lending, we work with <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">50+ Wholesale Lenders</a>, including multiple non-QM specialists who serve post-bankruptcy borrowers. Several of these lenders offer home equity products as soon as one day after bankruptcy discharge. The key qualification factors for these programs are not the same as conventional lending. Instead of requiring 4 years of waiting and a 680 credit score, non-QM lenders evaluate:
           </p>
 
           <ul className="list-disc pl-6 space-y-2 my-4">
@@ -647,7 +647,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900">Why use a wholesale mortgage broker for home equity after bankruptcy?</h3>
-              <p className="text-gray-700">Wholesale brokers access 200+ lenders including non-QM specialists that banks do not offer. Post-bankruptcy borrowers benefit from shorter waiting periods, lower credit score requirements, and alternative income documentation available only through the wholesale channel.</p>
+              <p className="text-gray-700">Wholesale brokers access 50+ Wholesale Lenders including non-QM specialists that banks do not offer. Post-bankruptcy borrowers benefit from shorter waiting periods, lower credit score requirements, and alternative income documentation available only through the wholesale channel.</p>
             </div>
           </div>
 
@@ -658,7 +658,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
               Bankruptcy creates a setback, not a permanent barrier. California homeowners who kept their homes through bankruptcy retain the equity that California&apos;s homestead exemption protects &mdash; and that equity is accessible through the right lending channels. Conventional programs impose 2- to 4-year waiting periods, but non-QM wholesale lenders offer home equity products as soon as one day after discharge for borrowers with sufficient equity and the ability to repay.
             </p>
             <p className="text-gray-800">
-              The wholesale broker advantage is the critical factor. Banks and credit unions follow conventional guidelines exclusively, leaving post-bankruptcy borrowers waiting years for equity access. Through Lumin Lending&apos;s network of 200+ wholesale lenders, Mo Abdel matches post-bankruptcy borrowers with non-QM programs tailored to their specific equity position, credit profile, and income documentation. Each case is unique, and the right lender match makes the difference between waiting years and accessing equity now.
+              The wholesale broker advantage is the critical factor. Banks and credit unions follow conventional guidelines exclusively, leaving post-bankruptcy borrowers waiting years for equity access. Through Lumin Lending&apos;s network of 50+ Wholesale Lenders, Mo Abdel matches post-bankruptcy borrowers with non-QM programs tailored to their specific equity position, credit profile, and income documentation. Each case is unique, and the right lender match makes the difference between waiting years and accessing equity now.
             </p>
             <p className="text-gray-800 font-semibold">
               Ready to explore your home equity options after bankruptcy? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> or <a href="/contact" className="text-blue-600 font-bold hover:underline">schedule a confidential consultation</a> to review your discharge documents, equity position, and available programs. Every conversation is private and judgment-free.

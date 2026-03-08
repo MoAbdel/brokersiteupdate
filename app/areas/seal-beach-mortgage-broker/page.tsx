@@ -4,7 +4,7 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders | Mo Abdel',
+  title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 50+ Wholesale Lenders | Mo Abdel',
   description: 'Seal Beach mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Jumbo loans, FHA, VA available. NMLS #1426884.',
   keywords: ['Seal Beach mortgage broker', 'Seal Beach home loans', 'Seal Beach mortgage rates 2026', 'wholesale mortgage Seal Beach'],
   alternates: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders',
+    title: 'Seal Beach Mortgage Broker 2026: Wholesale Rates from 50+ Wholesale Lenders',
     description: 'Seal Beach mortgage broker rates 2026: Access 50+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
     url: 'https://www.mothebroker.com/areas/seal-beach-mortgage-broker',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What are current mortgage rates in Seal Beach?",
-    answer: "Seal Beach mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 200+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
+    answer: "Seal Beach mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 50+ Wholesale Lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
   },
   {
     question: "How much do I need for a down payment on a Seal Beach home?",
@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: "Why use a mortgage broker instead of a bank in Seal Beach?",
-    answer: "A wholesale mortgage broker like Mo Abdel shops 200+ lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
+    answer: "A wholesale mortgage broker like Mo Abdel shops 50+ Wholesale Lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
   },
   {
     question: "What credit score do I need to buy a home in Seal Beach?",
@@ -64,7 +64,7 @@ export default function SealBeachMortgageBrokerPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Seal Beach Mortgage Broker 2026: Wholesale Rates from 100+ Lenders",
+            "headline": "Seal Beach Mortgage Broker 2026: Wholesale Rates from 50+ Wholesale Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -133,12 +133,12 @@ export default function SealBeachMortgageBrokerPage() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Seal Beach Mortgage Broker 2026: Access Wholesale Rates from 100+ Lenders
+              Seal Beach Mortgage Broker 2026: Access Wholesale Rates from 50+ Wholesale Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Seal Beach mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.2M, accessing 100+ wholesale lenders can save Seal Beach buyers thousands over the life of their loan.
+              Seal Beach mortgage rates through wholesale channels average 0.25-0.5% below retail banks in 2026. With median home prices at $1.2M, accessing 50+ Wholesale Lenders can save Seal Beach buyers thousands over the life of their loan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -327,7 +327,7 @@ export default function SealBeachMortgageBrokerPage() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel compares rates from 200+ lenders to find your best Seal Beach mortgage option.</p>
+                  <p className="text-slate-600">Mo Abdel compares rates from 50+ Wholesale Lenders to find your best Seal Beach mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -363,7 +363,7 @@ export default function SealBeachMortgageBrokerPage() {
             Ready to Explore Seal Beach Mortgage Options?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get a personalized rate quote from 100+ wholesale lenders. No credit check required for initial consultation. Fast response within 24 hours.
+            Get a personalized rate quote from 50+ Wholesale Lenders. No credit check required for initial consultation. Fast response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

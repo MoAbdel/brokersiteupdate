@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Palos Verdes & South Bay: Manhattan Beach, Hermosa Beach & PV Estates [2026]',
-  description: 'Wholesale mortgage broker serving Palos Verdes Peninsula & South Bay 2026. Access 200+ lenders for jumbo, non-QM, and conventional loans in Manhattan Beach, Hermosa Beach, Redondo Beach, PV Estates & Rolling Hills. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Palos Verdes Peninsula & South Bay 2026. Access 50+ Wholesale Lenders for jumbo, non-QM, and conventional loans in Manhattan Beach, Hermosa Beach, Redondo Beach, PV Estates & Rolling Hills. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Palos Verdes',
     'mortgage broker Manhattan Beach',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Palos Verdes & South Bay [2026]',
-    description: 'Access 200+ wholesale lenders for Palos Verdes Peninsula and South Bay luxury home financing. Jumbo loans to $10M+, bank statement programs, and DSCR investment loans.',
+    description: 'Access 50+ Wholesale Lenders for Palos Verdes Peninsula and South Bay luxury home financing. Jumbo loans to $10M+, bank statement programs, and DSCR investment loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-pv-a-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -72,7 +72,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
         name: 'What is a wholesale mortgage broker and how does it benefit Palos Verdes homebuyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses 200+ lenders at institutional pricing unavailable to the public. For Palos Verdes homebuyers, this means jumbo loan rates 0.25-0.75% below bank offerings, saving $250-$750 monthly on a $2M mortgage. Brokers shop the entire market for each client instead of offering a single bank product.',
+          text: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders at institutional pricing unavailable to the public. For Palos Verdes homebuyers, this means jumbo loan rates 0.25-0.75% below bank offerings, saving $250-$750 monthly on a $2M mortgage. Brokers shop the entire market for each client instead of offering a single bank product.',
         },
       },
       {
@@ -208,7 +208,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
           <p className="text-xl text-gray-700 leading-relaxed">
             According to Mo Abdel, NMLS #1426884, the Palos Verdes Peninsula and South Bay corridor represents one of the
             most concentrated luxury real estate markets in Los Angeles County, where median home values span $1.08M in
-            Redondo Beach to $4.5M in Rolling Hills. Wholesale mortgage broker access to 200+ lenders delivers rate
+            Redondo Beach to $4.5M in Rolling Hills. Wholesale mortgage broker access to 50+ Wholesale Lenders delivers rate
             savings of 0.25&ndash;0.75% below bank pricing&mdash;translating to $300&ndash;$1,200 in monthly payment
             reductions on the jumbo loans that dominate this market.
           </p>
@@ -225,7 +225,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
               <li><strong>Median Home Values:</strong> $1.08M (Redondo Beach) to $4.5M (Rolling Hills)</li>
               <li><strong>2026 LA County Conforming Limit:</strong> $1,209,750</li>
               <li><strong>Wholesale Rate Advantage:</strong> 0.25&ndash;0.75% below retail bank pricing</li>
-              <li><strong>Wholesale Lender Network:</strong> 200+ lenders including 50+ jumbo specialists</li>
+              <li><strong>Wholesale Lender Network:</strong> 50+ Wholesale Lenders including 50+ jumbo specialists</li>
               <li><strong>Monthly Savings on $2M Loan:</strong> $250&ndash;$750 vs. retail bank rates</li>
             </ul>
           </div>
@@ -240,7 +240,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             aerospace engineers, tech executives, defense contractors, entertainment professionals, and physicians who
             demand sophisticated mortgage solutions matching their complex financial profiles. A wholesale mortgage broker
             serving this region needs access to jumbo programs, bank statement qualification, DSCR investor products, and
-            non-QM solutions&mdash;the exact breadth that 200+ lender relationships provide.
+            non-QM solutions&mdash;the exact breadth that 50+ Wholesale Lenders provide.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -331,7 +331,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender Access</td>
-                  <td className="px-4 py-3 border-t text-blue-700">200+ wholesale lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">50+ Wholesale Lenders</td>
                   <td className="px-4 py-3 border-t">1 bank&apos;s own products</td>
                 </tr>
                 <tr>
@@ -878,7 +878,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
           </p>
 
           <p>
-            As a wholesale broker, I access 200+ lenders with varying qualification criteria. Some count
+            As a wholesale broker, I access 50+ Wholesale Lenders with varying qualification criteria. Some count
             one year of RSU vesting history (not two). Others accept current security clearance bonus levels
             without averaging. Several portfolio lenders qualify on total liquid assets rather than income
             entirely. For each aerospace professional, I identify the 3&ndash;5 lenders whose guidelines
@@ -1055,7 +1055,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
           <p>
             These loan program recommendations reflect current wholesale lender guidelines and pricing as of
             February 2026. Market conditions, rate environment, and lender appetite shift continuously&mdash;which
-            is precisely why working with a wholesale broker who monitors 200+ lender channels daily provides
+            is precisely why working with a wholesale broker who monitors 50+ Wholesale Lenders daily provides
             a structural advantage over static bank relationships. For{' '}
             <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:underline">
               DSCR investment property financing
@@ -1075,7 +1075,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">What makes a wholesale mortgage broker different from a regular mortgage broker?</h3>
               <p className="mb-0">
-                A wholesale mortgage broker accesses institutional-level pricing from 200+ lenders through
+                A wholesale mortgage broker accesses institutional-level pricing from 50+ Wholesale Lenders through
                 wholesale channels, bypassing the retail markup that banks add to cover branch and corporate
                 overhead. Every rate a wholesale broker quotes excludes bank overhead costs, resulting in
                 savings of 0.25&ndash;0.75% on interest rates compared to retail banking channels.
@@ -1111,7 +1111,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Are wholesale mortgage rates negotiable in the South Bay?</h3>
               <p className="mb-0">
-                Wholesale rates are competitive by nature because 200+ lenders compete for each loan.
+                Wholesale rates are competitive by nature because 50+ Wholesale Lenders compete for each loan.
                 The broker&apos;s role is to identify the lowest rate across all lenders for your specific
                 profile. You do not negotiate&mdash;the market competition does. Your broker&apos;s compensation
                 is disclosed separately and does not affect the wholesale rate.
@@ -1179,7 +1179,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             <div>
               <h3 className="font-bold text-lg mb-2">Q: What is a wholesale mortgage broker and how does it benefit Palos Verdes homebuyers?</h3>
               <p>
-                A wholesale mortgage broker accesses 200+ lenders at institutional pricing unavailable to the public.
+                A wholesale mortgage broker accesses 50+ Wholesale Lenders at institutional pricing unavailable to the public.
                 For Palos Verdes homebuyers, this means jumbo loan rates 0.25&ndash;0.75% below bank offerings,
                 saving $250&ndash;$750 monthly on a $2M mortgage. Brokers shop the entire market for each client
                 instead of offering a single bank&apos;s product.
@@ -1383,7 +1383,7 @@ export default function WholesaleMortgageBrokerCaPvA2026() {
             The Palos Verdes Peninsula and South Bay demand mortgage expertise calibrated to luxury price
             points, complex professional compensation, and unique property types. As a licensed wholesale
             mortgage broker (NMLS #1426884) with Lumin Lending (NMLS #2716106, DRE #02291443), I deliver
-            200+ lender access that translates directly into lower rates, faster closings, and qualification
+            50+ Wholesale Lenders that translates directly into lower rates, faster closings, and qualification
             flexibility unavailable through retail banking channels.
           </p>
 

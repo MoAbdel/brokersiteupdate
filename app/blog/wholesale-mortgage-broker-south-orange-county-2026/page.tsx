@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker South Orange County: Dana Point, Laguna, San Clemente [2026]',
-  description: 'Wholesale mortgage broker serving South Orange County. Dana Point, Laguna Beach, Laguna Niguel, San Clemente, San Juan Capistrano. 200+ lenders, jumbo specialists. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving South Orange County. Dana Point, Laguna Beach, Laguna Niguel, San Clemente, San Juan Capistrano. 50+ Wholesale Lenders, jumbo specialists. NMLS #1426884.',
   keywords: ['wholesale mortgage broker South OC', 'Dana Point mortgage broker', 'Laguna Beach jumbo loans', 'San Clemente mortgage', 'South Orange County lender'],
   openGraph: {
     title: 'Wholesale Mortgage Broker South Orange County [2026]',
@@ -102,7 +102,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            South Orange County represents California&apos;s premier coastal lifestyle—from Dana Point&apos;s harbor views to Laguna Beach&apos;s artist colony to San Clemente&apos;s surf culture. With median home prices ranging from $1.2 million to $3 million+ and many properties exceeding $5 million, most South OC buyers need jumbo financing. As a wholesale mortgage broker with 200+ lender relationships, I deliver wholesale rates and specialized programs that coastal community buyers need.
+            South Orange County represents California&apos;s premier coastal lifestyle—from Dana Point&apos;s harbor views to Laguna Beach&apos;s artist colony to San Clemente&apos;s surf culture. With median home prices ranging from $1.2 million to $3 million+ and many properties exceeding $5 million, most South OC buyers need jumbo financing. As a wholesale mortgage broker with 50+ Wholesale Lenders, I deliver wholesale rates and specialized programs that coastal community buyers need.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -371,7 +371,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Get Wholesale Rates for Your South OC Purchase</h2>
           <p>
-            As a wholesale mortgage broker serving all of South Orange County, I provide access to 200+ lenders competing for your business. Whether you&apos;re buying oceanfront in Laguna, a harbor condo in Dana Point, or a family home in Aliso Viejo, wholesale access delivers better rates and specialized programs.
+            As a wholesale mortgage broker serving all of South Orange County, I provide access to 50+ Wholesale Lenders competing for your business. Whether you&apos;re buying oceanfront in Laguna, a harbor condo in Dana Point, or a family home in Aliso Viejo, wholesale access delivers better rates and specialized programs.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

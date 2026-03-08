@@ -106,11 +106,11 @@ export default function HomeEquityPasadenaCorridor2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For the Pasadena Corridor, the advantage extends to income qualification. A wholesale broker matches you with the lender whose income calculation rules maximize your HELOC approval amount based on your specific employer and compensation structure.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For the Pasadena Corridor, the advantage extends to income qualification. A wholesale broker matches you with the lender whose income calculation rules maximize your HELOC approval amount based on your specific employer and compensation structure.',
     },
     {
       question: 'Can self-employed Glendale business owners qualify for a HELOC?',
-      answer: 'Yes. Glendale\'s vibrant small business community, particularly along Brand Boulevard, Honolulu Avenue in Montrose, and the downtown commercial district, includes many self-employed professionals whose tax returns understate their true earning capacity due to business deductions. Bank statement HELOC programs allow qualification based on 12-24 months of business account deposits rather than net income on tax returns. This frequently doubles or triples qualifying income for Glendale business owners. Wholesale broker access identifies the best bank statement HELOC terms across 200+ lenders.',
+      answer: 'Yes. Glendale\'s vibrant small business community, particularly along Brand Boulevard, Honolulu Avenue in Montrose, and the downtown commercial district, includes many self-employed professionals whose tax returns understate their true earning capacity due to business deductions. Bank statement HELOC programs allow qualification based on 12-24 months of business account deposits rather than net income on tax returns. This frequently doubles or triples qualifying income for Glendale business owners. Wholesale broker access identifies the best bank statement HELOC terms across 50+ Wholesale Lenders.',
     },
     {
       question: 'Does La Crescenta\'s school district rating affect home equity options?',
@@ -213,7 +213,7 @@ export default function HomeEquityPasadenaCorridor2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Pasadena Corridor &mdash; Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta &mdash; represents one of the San Gabriel Valley&apos;s most established and architecturally diverse residential equity markets. From Pasadena&apos;s Craftsman bungalows and Spanish Colonial estates where Caltech professors and JPL mission directors own $1.5M&ndash;$3M+ historic homes to La Crescenta&apos;s family-oriented foothill neighborhoods where first-time jumbo buyers leverage top GUSD schools, homeowners across these five communities hold substantial equity positions that jumbo HELOC, HELOAN, and cash-out refinance products convert into active financial power. With median values ranging from $1M in La Crescenta to $1.4M in Sierra Madre, most equity products require jumbo lender access that a wholesale broker with 200+ lending partners provides. As a licensed mortgage broker serving the Pasadena Corridor, I help homeowners navigate the professional-class income landscape and historic property equity market to find the best rates across dozens of competing lenders.
+            The Pasadena Corridor &mdash; Pasadena, Sierra Madre, Glendale, Montrose, and La Crescenta &mdash; represents one of the San Gabriel Valley&apos;s most established and architecturally diverse residential equity markets. From Pasadena&apos;s Craftsman bungalows and Spanish Colonial estates where Caltech professors and JPL mission directors own $1.5M&ndash;$3M+ historic homes to La Crescenta&apos;s family-oriented foothill neighborhoods where first-time jumbo buyers leverage top GUSD schools, homeowners across these five communities hold substantial equity positions that jumbo HELOC, HELOAN, and cash-out refinance products convert into active financial power. With median values ranging from $1M in La Crescenta to $1.4M in Sierra Madre, most equity products require jumbo lender access that a wholesale broker with 50+ Wholesale Lenders provides. As a licensed mortgage broker serving the Pasadena Corridor, I help homeowners navigate the professional-class income landscape and historic property equity market to find the best rates across dozens of competing lenders.
           </p>
 
           <p>
@@ -734,7 +734,7 @@ export default function HomeEquityPasadenaCorridor2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the HELOC rate in Sierra Madre right now?</h3>
-              <p><strong>Jumbo HELOC rates for Sierra Madre vary by lender, credit profile, and CLTV ratio.</strong> Wholesale broker comparison across 200+ lenders ensures the most competitive rate for your specific property and financial situation.</p>
+              <p><strong>Jumbo HELOC rates for Sierra Madre vary by lender, credit profile, and CLTV ratio.</strong> Wholesale broker comparison across 50+ Wholesale Lenders ensures the most competitive rate for your specific property and financial situation.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is a HELOC or cash-out refinance better in La Crescenta?</h3>
@@ -772,7 +772,7 @@ export default function HomeEquityPasadenaCorridor2026() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <a href="/blog/wholesale-mortgage-broker-foothill-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker Foothill Corridor</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 200+ lenders delivers better rates for Pasadena Corridor professionals and business owners.</p>
+              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates for Pasadena Corridor professionals and business owners.</p>
             </a>
             <a href="/blog/home-equity-foothill-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Foothill Luxury Home Equity Hub</h3>
@@ -817,7 +817,7 @@ export default function HomeEquityPasadenaCorridor2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Pasadena Corridor communities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders including 50+ jumbo specialists</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders including 50+ jumbo specialists</p>
           </div>
 
           {/* Disclaimer */}

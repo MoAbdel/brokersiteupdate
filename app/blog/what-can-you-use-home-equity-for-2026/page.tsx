@@ -593,7 +593,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
           <h3 className="text-2xl font-bold mb-4">Ready to Put Your Equity to Work?</h3>
           <p className="text-slate-200 mb-6">
             Let's discuss your goals and find the best way to access your home equity. With
-            200+ lenders, I can help you compare options and find the most favorable terms
+            50+ Wholesale Lenders, I can help you compare options and find the most favorable terms
             for your situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

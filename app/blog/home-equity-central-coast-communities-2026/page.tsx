@@ -70,7 +70,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
   const faqData = [
     {
       question: 'How much home equity can I access in San Luis Obispo?',
-      answer: 'San Luis Obispo homeowners can typically access up to 75-80% of their home value minus the existing mortgage balance through HELOC, HELOAN, or cash-out refinance products. With a median value of $1 million and many Cal Poly-area properties exceeding $1.2M, qualifying homeowners access $300K-$600K+ through wholesale broker access to 200+ lenders, including specialized programs for rental property owners and university professionals with complex income.',
+      answer: 'San Luis Obispo homeowners can typically access up to 75-80% of their home value minus the existing mortgage balance through HELOC, HELOAN, or cash-out refinance products. With a median value of $1 million and many Cal Poly-area properties exceeding $1.2M, qualifying homeowners access $300K-$600K+ through wholesale broker access to 50+ Wholesale Lenders, including specialized programs for rental property owners and university professionals with complex income.',
     },
     {
       question: 'What HELOC options exist for Pismo Beach homes valued over $1 million?',
@@ -90,7 +90,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
     },
     {
       question: 'What credit score do I need for a HELOC in San Luis Obispo County?',
-      answer: 'Most HELOC lenders serving San Luis Obispo County require minimum credit scores of 680-720 for conforming products and 700-720 for jumbo products, with the best rates available at 740+. Through wholesale broker access to 200+ lenders, competitive HELOC programs exist across a range of credit tiers, and compensating factors like low CLTV ratios, substantial liquid reserves, and stable employment history can offset credit score requirements with certain lenders.',
+      answer: 'Most HELOC lenders serving San Luis Obispo County require minimum credit scores of 680-720 for conforming products and 700-720 for jumbo products, with the best rates available at 740+. Through wholesale broker access to 50+ Wholesale Lenders, competitive HELOC programs exist across a range of credit tiers, and compensating factors like low CLTV ratios, substantial liquid reserves, and stable employment history can offset credit score requirements with certain lenders.',
     },
     {
       question: 'Can I get a HELOC to build an ADU on my San Luis Obispo property?',
@@ -106,7 +106,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible terms. For Central Coast properties near the conforming/jumbo threshold, the broker identifies whether a conforming or jumbo product delivers better overall terms for your specific equity amount and financial profile.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible terms. For Central Coast properties near the conforming/jumbo threshold, the broker identifies whether a conforming or jumbo product delivers better overall terms for your specific equity amount and financial profile.',
     },
     {
       question: 'Can self-employed artists in Cambria qualify for a HELOC?',
@@ -228,7 +228,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Central Coast corridor &mdash; San Luis Obispo, Pismo Beach, Paso Robles, and Cambria &mdash; represents one of California&apos;s most distinctive residential equity markets, where college town premiums, coastal retirement demand, wine country estate values, and artist colony desirability converge to create substantial homeowner equity positions. Central Coast homeowners in San Luis Obispo County hold an estimated $8.4 billion in combined residential equity, with 38&ndash;44% five-year appreciation across all four communities driving tappable equity from $280K per homeowner in Paso Robles to $420K+ in San Luis Obispo. From Cal Poly professors with rental investment portfolios in SLO to Bay Area equity migrants settling into Pismo Beach oceanfront retirement homes, Central Coast homeowners hold equity that HELOC, HELOAN, and cash-out refinance products convert into active financial power. As a licensed mortgage broker with wholesale access to 200+ lenders, I help Central Coast homeowners navigate diverse property types &mdash; from downtown SLO walkable bungalows to 20-acre Paso Robles wine estates &mdash; to find the best equity product and rate for their specific situation.
+            The Central Coast corridor &mdash; San Luis Obispo, Pismo Beach, Paso Robles, and Cambria &mdash; represents one of California&apos;s most distinctive residential equity markets, where college town premiums, coastal retirement demand, wine country estate values, and artist colony desirability converge to create substantial homeowner equity positions. Central Coast homeowners in San Luis Obispo County hold an estimated $8.4 billion in combined residential equity, with 38&ndash;44% five-year appreciation across all four communities driving tappable equity from $280K per homeowner in Paso Robles to $420K+ in San Luis Obispo. From Cal Poly professors with rental investment portfolios in SLO to Bay Area equity migrants settling into Pismo Beach oceanfront retirement homes, Central Coast homeowners hold equity that HELOC, HELOAN, and cash-out refinance products convert into active financial power. As a licensed mortgage broker with wholesale access to 50+ Wholesale Lenders, I help Central Coast homeowners navigate diverse property types &mdash; from downtown SLO walkable bungalows to 20-acre Paso Robles wine estates &mdash; to find the best equity product and rate for their specific situation.
           </p>
 
           <p>
@@ -264,7 +264,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
               <li><strong>Largest rental income market:</strong> San Luis Obispo &mdash; Cal Poly&apos;s 22,000+ enrollment drives year-round rental demand at $2,200&ndash;$3,500/month for single-family homes</li>
               <li><strong>Conforming loan limit (2026):</strong> $806,500 for San Luis Obispo County &mdash; many properties straddle the conforming/jumbo threshold</li>
               <li><strong>Processing time:</strong> 3&ndash;5 weeks standard, 4&ndash;6 weeks for agricultural/acreage properties</li>
-              <li><strong>Wholesale advantage:</strong> 200+ lenders competing vs. single bank product, with specialists in agricultural, self-employed, and retirement income</li>
+              <li><strong>Wholesale advantage:</strong> 50+ Wholesale Lenders competing vs. single bank product, with specialists in agricultural, self-employed, and retirement income</li>
             </ul>
           </div>
 
@@ -324,7 +324,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
           {/* Product Comparison Table */}
           <h2 id="product-comparison" className="text-2xl font-bold mt-10 mb-4">HELOC vs. HELOAN vs. Cash-Out Refinance: Central Coast Comparison</h2>
           <p>
-            Three primary products allow Central Coast homeowners to access their home equity. San Luis Obispo and Pismo Beach homeowners with properties above the $806,500 SLO County conforming limit require jumbo HELOC programs, while Paso Robles and some Cambria homeowners access conforming products. As a wholesale broker with access to 200+ lenders, I ensure Central Coast homeowners compare across the full market &mdash; including specialists in agricultural property, self-employed income, and retirement income qualification &mdash; rather than accepting a single bank&apos;s terms.
+            Three primary products allow Central Coast homeowners to access their home equity. San Luis Obispo and Pismo Beach homeowners with properties above the $806,500 SLO County conforming limit require jumbo HELOC programs, while Paso Robles and some Cambria homeowners access conforming products. As a wholesale broker with access to 50+ Wholesale Lenders, I ensure Central Coast homeowners compare across the full market &mdash; including specialists in agricultural property, self-employed income, and retirement income qualification &mdash; rather than accepting a single bank&apos;s terms.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -415,7 +415,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">2</div>
               <div>
                 <h3 className="font-bold text-lg">Lender Shopping &amp; Rate Competition (Days 2&ndash;4)</h3>
-                <p>We submit your profile to 200+ lenders and collect competing offers. You receive a comparison showing the top 3&ndash;5 HELOC products ranked by rate, credit line amount, draw period, closing costs, and income treatment. For Central Coast properties with agricultural components, we specifically target lenders experienced with wine country and rural residential properties.</p>
+                <p>We submit your profile to 50+ Wholesale Lenders and collect competing offers. You receive a comparison showing the top 3&ndash;5 HELOC products ranked by rate, credit line amount, draw period, closing costs, and income treatment. For Central Coast properties with agricultural components, we specifically target lenders experienced with wine country and rural residential properties.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -628,7 +628,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">200+ Lender Competition</h3>
-              <p>Your bank offers one HELOC product at one rate. I compare products from 200+ lenders, creating competition that consistently produces lower rates, higher credit lines, and better terms. For Central Coast properties near the conforming/jumbo threshold, even identifying the right product tier saves thousands over the life of the credit line.</p>
+              <p>Your bank offers one HELOC product at one rate. I compare products from 50+ Wholesale Lenders, creating competition that consistently produces lower rates, higher credit lines, and better terms. For Central Coast properties near the conforming/jumbo threshold, even identifying the right product tier saves thousands over the life of the credit line.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Self-Employed &amp; Artist Income Expertise</h3>
@@ -794,7 +794,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
               The Central Coast corridor &mdash; San Luis Obispo, Pismo Beach, Paso Robles, and Cambria &mdash; holds an estimated $8.4 billion in combined residential equity, driven by 38&ndash;44% five-year appreciation across all four communities. With median values ranging from $800K in Paso Robles to $1M in San Luis Obispo and Pismo Beach, qualifying homeowners access $280K to $420K+ in tappable equity per property. The Central Coast&apos;s unique mix of college town premiums, coastal retirement demand, wine country estate values, and artist colony desirability creates a homeowner population with distinctively diverse income profiles.
             </p>
             <p className="text-slate-900 mb-3">
-              Cal Poly professors with summer teaching and consulting income, Paso Robles winemakers with grape sale and tasting room revenue, Cambria artists with gallery commission and online marketplace sales, and Pismo Beach retirees with pension and distribution income all require specialized lender matching that conservative banks cannot provide. Through wholesale broker access to 200+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type, property type, and equity goals.
+              Cal Poly professors with summer teaching and consulting income, Paso Robles winemakers with grape sale and tasting room revenue, Cambria artists with gallery commission and online marketplace sales, and Pismo Beach retirees with pension and distribution income all require specialized lender matching that conservative banks cannot provide. Through wholesale broker access to 50+ Wholesale Lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type, property type, and equity goals.
             </p>
             <p className="text-slate-900">
               As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across competing lenders to secure the best rate and terms for your Central Coast property. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
@@ -812,7 +812,7 @@ export default function HomeEquityCentralCoastCommunities2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Central Coast communities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders including agricultural, self-employed, and retirement income specialists</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders including agricultural, self-employed, and retirement income specialists</p>
           </div>
 
           {/* Disclaimer */}

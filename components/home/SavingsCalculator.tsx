@@ -179,7 +179,7 @@ export default function SavingsCalculator() {
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-slate-900 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Access to 200+ lenders for competitive bidding
+                    Access to 50+ Wholesale Lenders for competitive bidding
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-slate-900 rounded-full mt-2 mr-3 flex-shrink-0"></span>

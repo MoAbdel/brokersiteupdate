@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker California: 200+ Lender Access [2026]',
-  description: 'Wholesale mortgage broker California guide 2026: Access 200+ wholesale lenders for better rates. Jumbo, FHA, VA, bank statement, DSCR, and non-QM programs. NMLS #1426884.',
+  title: 'Wholesale Mortgage Broker California: 50+ Wholesale Lenders [2026]',
+  description: 'Wholesale mortgage broker California guide 2026: Access 50+ Wholesale Lenders for better rates. Jumbo, FHA, VA, bank statement, DSCR, and non-QM programs. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker California',
     'wholesale mortgage California',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     'mortgage broker San Diego',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker California: 200+ Lender Access [2026]',
-    description: 'Wholesale mortgage broker California guide 2026: Access 200+ wholesale lenders for better rates. Jumbo, FHA, VA, bank statement, DSCR, and non-QM programs.',
+    title: 'Wholesale Mortgage Broker California: 50+ Wholesale Lenders [2026]',
+    description: 'Wholesale mortgage broker California guide 2026: Access 50+ Wholesale Lenders for better rates. Jumbo, FHA, VA, bank statement, DSCR, and non-QM programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -39,8 +39,8 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Wholesale Mortgage Broker California: 200+ Lender Access [2026]",
-    "description": "Wholesale mortgage broker California guide 2026: Access 200+ wholesale lenders for better rates. Jumbo, FHA, VA, bank statement, DSCR, and non-QM programs.",
+    "headline": "Wholesale Mortgage Broker California: 50+ Wholesale Lenders [2026]",
+    "description": "Wholesale mortgage broker California guide 2026: Access 50+ Wholesale Lenders for better rates. Jumbo, FHA, VA, bank statement, DSCR, and non-QM programs.",
     "about": {
       "@type": "FinancialProduct",
       "name": "Wholesale Mortgage Lending",
@@ -116,7 +116,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
         "name": "What is a wholesale mortgage broker in California?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A wholesale mortgage broker is an independently licensed professional who shops your loan across multiple wholesale lenders to find the best rate, terms, and program fit. Unlike retail banks that offer only their own products, a broker accesses a network of 50 to 200+ wholesale lenders, creating competition that benefits the borrower."
+          "text": "A wholesale mortgage broker is an independently licensed professional who shops your loan across multiple wholesale lenders to find the best rate, terms, and program fit. Unlike retail banks that offer only their own products, a broker accesses a network of 50 to 50+ Wholesale Lenders, creating competition that benefits the borrower."
         }
       },
       {
@@ -214,7 +214,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Mo Abdel - Lumin Lending",
-    "description": "Licensed California wholesale mortgage broker providing access to 200+ lenders for conventional, jumbo, FHA, VA, bank statement, DSCR, and non-QM loan programs across California and Washington.",
+    "description": "Licensed California wholesale mortgage broker providing access to 50+ Wholesale Lenders for conventional, jumbo, FHA, VA, bank statement, DSCR, and non-QM loan programs across California and Washington.",
     "url": "https://www.mothebroker.com",
     "telephone": "(949) 579-2057",
     "priceRange": "$$",
@@ -253,7 +253,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Wholesale Mortgage Broker California: 200+ Lender Access [2026]</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Wholesale Mortgage Broker California: 50+ Wholesale Lenders [2026]</h1>
           <p className="text-gray-600">By Mo Abdel, NMLS #1426884 | Updated February 2026</p>
         </header>
 
@@ -262,7 +262,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
           {/* Citation Hook */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
             <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;Every California borrower who walks into a retail bank is seeing one menu with one set of prices. As a wholesale mortgage broker, I show borrowers pricing from 200+ wholesale lenders simultaneously. The rate savings alone typically run 0.125% to 0.50% below retail, and the program diversity means self-employed borrowers, tech professionals with RSU income, and real estate investors find solutions that retail banks simply do not offer. This guide covers exactly how the wholesale advantage works across every major California market.&quot;
+              &quot;Every California borrower who walks into a retail bank is seeing one menu with one set of prices. As a wholesale mortgage broker, I show borrowers pricing from 50+ Wholesale Lenders simultaneously. The rate savings alone typically run 0.125% to 0.50% below retail, and the program diversity means self-employed borrowers, tech professionals with RSU income, and real estate investors find solutions that retail banks simply do not offer. This guide covers exactly how the wholesale advantage works across every major California market.&quot;
             </p>
             <p className="text-gray-600 mt-2">— Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
           </div>
@@ -322,7 +322,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
               </thead>
               <tbody>
                 <tr><td className="px-4 py-3 border-b font-medium">Rate Pricing</td><td className="px-4 py-3 border-b">Wholesale rate sheets (lower)</td><td className="px-4 py-3 border-b">Retail rate sheets (higher)</td><td className="px-4 py-3 border-b">0.125%-0.50% rate savings wholesale</td></tr>
-                <tr><td className="px-4 py-3 border-b font-medium">Lender Options</td><td className="px-4 py-3 border-b">50-200+ wholesale lenders</td><td className="px-4 py-3 border-b">1 lender (the bank itself)</td><td className="px-4 py-3 border-b">More competition = better pricing</td></tr>
+                <tr><td className="px-4 py-3 border-b font-medium">Lender Options</td><td className="px-4 py-3 border-b">50+ Wholesale Lenders</td><td className="px-4 py-3 border-b">1 lender (the bank itself)</td><td className="px-4 py-3 border-b">More competition = better pricing</td></tr>
                 <tr><td className="px-4 py-3 border-b font-medium">Loan Programs</td><td className="px-4 py-3 border-b">Conventional, jumbo, FHA, VA, non-QM, DSCR, bank statement, foreign national</td><td className="px-4 py-3 border-b">Conventional, jumbo, FHA, VA (limited non-QM)</td><td className="px-4 py-3 border-b">Broader program access through broker</td></tr>
                 <tr><td className="px-4 py-3 border-b font-medium">Origination Fees</td><td className="px-4 py-3 border-b">0%-1% (disclosed, capped)</td><td className="px-4 py-3 border-b">0.5%-1.5% (plus embedded margin)</td><td className="px-4 py-3 border-b">Lower total cost through broker</td></tr>
                 <tr><td className="px-4 py-3 border-b font-medium">Closing Timeline</td><td className="px-4 py-3 border-b">21-30 days (purchase)</td><td className="px-4 py-3 border-b">30-45 days (purchase)</td><td className="px-4 py-3 border-b">Faster close with broker</td></tr>
@@ -563,7 +563,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900">How many lenders does a California mortgage broker work with?</h3>
-              <p className="text-gray-700">Active California wholesale brokers typically maintain relationships with 50 to 200+ wholesale lenders, including major national lenders and specialty niche providers for every loan category.</p>
+              <p className="text-gray-700">Active California wholesale brokers typically maintain relationships with 50 to 50+ Wholesale Lenders, including major national lenders and specialty niche providers for every loan category.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900">Can a mortgage broker get me a better jumbo loan rate?</h3>
@@ -577,7 +577,7 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
           <div className="space-y-4 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900">What is a wholesale mortgage broker in California?</h3>
-              <p className="text-gray-700">A wholesale mortgage broker is an independently licensed professional who shops your loan across multiple wholesale lenders to find the best rate, terms, and program fit. Unlike a retail bank loan officer limited to one institution&apos;s products, a broker accesses a network of 50 to 200+ wholesale lenders, creating genuine rate competition for every transaction.</p>
+              <p className="text-gray-700">A wholesale mortgage broker is an independently licensed professional who shops your loan across multiple wholesale lenders to find the best rate, terms, and program fit. Unlike a retail bank loan officer limited to one institution&apos;s products, a broker accesses a network of 50 to 50+ Wholesale Lenders, creating genuine rate competition for every transaction.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-lg font-semibold text-gray-900">How much cheaper is a wholesale mortgage compared to a retail bank?</h3>
@@ -629,13 +629,13 @@ export default function WholesaleMortgageBrokerCalifornia2026() {
           <div id="expert-summary" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 expert-summary">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary: California Wholesale Mortgage Guidance from Mo Abdel</h2>
             <p className="text-gray-800">
-              California&apos;s position as the nation&apos;s largest and most complex mortgage market makes the wholesale broker model particularly valuable. High property values amplify rate savings on jumbo loans. The state&apos;s diverse economy — tech, entertainment, real estate investment, professional services, entrepreneurship — demands the documentation flexibility that only a multi-lender broker channel provides. And the competitive dynamics of 200+ wholesale lenders bidding on each transaction consistently delivers better pricing than any single retail bank.
+              California&apos;s position as the nation&apos;s largest and most complex mortgage market makes the wholesale broker model particularly valuable. High property values amplify rate savings on jumbo loans. The state&apos;s diverse economy — tech, entertainment, real estate investment, professional services, entrepreneurship — demands the documentation flexibility that only a multi-lender broker channel provides. And the competitive dynamics of 50+ Wholesale Lenders bidding on each transaction consistently delivers better pricing than any single retail bank.
             </p>
             <p className="text-gray-800">
               Whether you are a W-2 professional seeking the best conforming or jumbo rate, a self-employed business owner who needs a bank statement program, a veteran accessing VA jumbo benefits, or a real estate investor building a DSCR-financed rental portfolio, the wholesale channel provides the programs, the pricing, and the approval flexibility to achieve your financing goals.
             </p>
             <p className="text-gray-800 font-semibold">
-              Ready to access wholesale mortgage pricing across California? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a complimentary rate comparison from 200+ wholesale lenders, covering every loan program from conventional to jumbo, bank statement, DSCR, VA, and non-QM.
+              Ready to access wholesale mortgage pricing across California? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a complimentary rate comparison from 50+ Wholesale Lenders, covering every loan program from conventional to jumbo, bank statement, DSCR, VA, and non-QM.
             </p>
           </div>
 

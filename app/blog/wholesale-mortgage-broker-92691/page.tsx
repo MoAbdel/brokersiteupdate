@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92691 | Mission Viejo | Jumbo Loan Specialists',
-  description: 'Mission Viejo wholesale mortgage broker serving 92691. Access 200+ lenders for jumbo loans near Lake Mission Viejo. NMLS #1426884.',
+  description: 'Mission Viejo wholesale mortgage broker serving 92691. Access 50+ Wholesale Lenders for jumbo loans near Lake Mission Viejo. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92691',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92691 | Mission Viejo Jumbo Specialists',
-    description: 'Mission Viejo wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Mission Viejo wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92691',
     type: 'article',
     publishedTime: '2026-02-03',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92691Page() {
                 "name": "Why choose a wholesale broker over banks in Mission Viejo?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For Mission Viejo's diverse housing from condos to lake-adjacent estates, wholesale brokers match you with the best program for your specific property."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For Mission Viejo's diverse housing from condos to lake-adjacent estates, wholesale brokers match you with the best program for your specific property."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92691Page() {
           Wholesale Mortgage Broker 92691 | Mission Viejo Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Mission Viejo&apos;s lake community and family neighborhoods
+          Access wholesale rates and 50+ Wholesale Lenders for Mission Viejo&apos;s lake community and family neighborhoods
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Mission Viejo 92691 offers lake-oriented living with <strong>$1.1 million median home prices</strong> and access to the private Lake Mission Viejo. With the 2026 conforming limit at $1,209,750, many 92691 buyers—especially those seeking lake access or larger homes—need jumbo financing. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and specialized programs for this family-focused community.
+            Mission Viejo 92691 offers lake-oriented living with <strong>$1.1 million median home prices</strong> and access to the private Lake Mission Viejo. With the 2026 conforming limit at $1,209,750, many 92691 buyers—especially those seeking lake access or larger homes—need jumbo financing. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and specialized programs for this family-focused community.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92691Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over banks in Mission Viejo?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For Mission Viejo&apos;s diverse housing from condos to lake-adjacent estates, wholesale brokers match you with the best program for your specific property.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For Mission Viejo&apos;s diverse housing from condos to lake-adjacent estates, wholesale brokers match you with the best program for your specific property.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92691 does your wholesale brokerage serve?</h3>

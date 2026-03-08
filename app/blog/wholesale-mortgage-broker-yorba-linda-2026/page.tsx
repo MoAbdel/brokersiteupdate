@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Yorba Linda, CA [2026 Guide]',
-  description: 'Find the best wholesale mortgage rates in Yorba Linda. Jumbo loans, bank statement programs, and 200+ lender access for Yorba Linda homebuyers. NMLS #1426884.',
+  description: 'Find the best wholesale mortgage rates in Yorba Linda. Jumbo loans, bank statement programs, and 50+ Wholesale Lenders for Yorba Linda homebuyers. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda-2026',
     languages: {
@@ -46,7 +46,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
                 "name": "What is a wholesale mortgage broker in Yorba Linda?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Yorba Linda shops your loan across 200+ wholesale lenders to find the best rates and terms. Unlike banks that only offer their own products, wholesale brokers access institutional pricing and programs like jumbo loans and bank statement mortgages that many banks don't offer."
+                  "text": "A wholesale mortgage broker in Yorba Linda shops your loan across 50+ Wholesale Lenders to find the best rates and terms. Unlike banks that only offer their own products, wholesale brokers access institutional pricing and programs like jumbo loans and bank statement mortgages that many banks don't offer."
                 }
               },
               {
@@ -91,7 +91,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
           Wholesale Mortgage Broker in Yorba Linda, CA [2026 Guide]
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Yorba Linda homes
+          Access wholesale rates and 50+ Wholesale Lenders for Yorba Linda homes
         </p>
       </header>
 
@@ -256,7 +256,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
         <ol>
           <li><strong>Consultation:</strong> Discuss your Yorba Linda home search and financing goals</li>
           <li><strong>Pre-approval:</strong> Get strong pre-approval for competitive offers in this market</li>
-          <li><strong>Lender shopping:</strong> Broker compares 200+ lenders for your scenario</li>
+          <li><strong>Lender shopping:</strong> Broker compares 50+ Wholesale Lenders for your scenario</li>
           <li><strong>Property-specific analysis:</strong> Final rate based on specific home and loan amount</li>
           <li><strong>Rate lock:</strong> Lock when you're under contract</li>
           <li><strong>Closing:</strong> Coordinate to successful close on your Yorba Linda home</li>

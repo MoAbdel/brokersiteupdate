@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: 'Can I negotiate my reverse mortgage interest rate?',
-    answer: 'You cannot negotiate the index portion, but the lender margin is where negotiation happens. A wholesale broker compares margins from 200+ lenders to find the most competitive terms available for your situation.',
+    answer: 'You cannot negotiate the index portion, but the lender margin is where negotiation happens. A wholesale broker compares margins from 50+ Wholesale Lenders to find the most competitive terms available for your situation.',
   },
   {
     question: 'How do interest rates affect how much I can borrow?',
@@ -222,7 +222,7 @@ export default function ReverseMortgageInterestRatesPage() {
         {/* ===== SECTION 1: Citation Hook (150-300 words) ===== */}
         <div id="citation-hook" className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8 not-prose">
           <p className="text-lg font-semibold text-gray-900 mb-4">
-            <strong>Bottom Line Up Front:</strong> HECM adjustable rates are composed of a lender margin plus a published index (CMT or SOFR). Lower interest rates result in higher principal limit factors, meaning more available proceeds per HUD lookup tables. A wholesale broker compares margins across 200+ HECM lending partners to secure competitive terms for borrowers 62 and older. Before applying, <strong>HUD-approved counseling is required</strong>.
+            <strong>Bottom Line Up Front:</strong> HECM adjustable rates are composed of a lender margin plus a published index (CMT or SOFR). Lower interest rates result in higher principal limit factors, meaning more available proceeds per HUD lookup tables. A wholesale broker compares margins across 50+ Wholesale Lenders to secure competitive terms for borrowers 62 and older. Before applying, <strong>HUD-approved counseling is required</strong>.
           </p>
 
           <h3 className="text-lg font-bold text-gray-900 mb-3">Key Semantic Relationships</h3>
@@ -249,7 +249,7 @@ export default function ReverseMortgageInterestRatesPage() {
                 <tr>
                   <td className="border border-blue-200 px-4 py-2">Wholesale brokers</td>
                   <td className="border border-blue-200 px-4 py-2">compare margins across</td>
-                  <td className="border border-blue-200 px-4 py-2">200+ HECM lending partners to secure competitive terms</td>
+                  <td className="border border-blue-200 px-4 py-2">50+ Wholesale Lenders to secure competitive terms</td>
                 </tr>
               </tbody>
             </table>
@@ -348,7 +348,7 @@ export default function ReverseMortgageInterestRatesPage() {
         </h3>
 
         <p>
-          The margin is where the real variation occurs. Each lender sets its own margin, and the spread between the lowest and highest margins in the market can be significant. This is precisely where a wholesale mortgage broker provides value. Rather than accepting the first margin offered by a single lender, a broker compares margin offerings from 200+ lending partners to identify the most competitive option for your specific profile.
+          The margin is where the real variation occurs. Each lender sets its own margin, and the spread between the lowest and highest margins in the market can be significant. This is precisely where a wholesale mortgage broker provides value. Rather than accepting the first margin offered by a single lender, a broker compares margin offerings from 50+ Wholesale Lenders to identify the most competitive option for your specific profile.
         </p>
 
         <p>
@@ -488,11 +488,11 @@ export default function ReverseMortgageInterestRatesPage() {
         </p>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          How a Wholesale Broker Finds Competitive HECM Rates Across 200+ Lenders
+          How a Wholesale Broker Finds Competitive HECM Rates Across 50+ Wholesale Lenders
         </h2>
 
         <p>
-          A direct lender or bank offers you rates based on their own margin structure. A wholesale mortgage broker operates differently. As an independent intermediary with access to 200+ lending partners, a broker can request and compare rate sheets from multiple HECM lenders simultaneously. This comparison shopping is the single most effective strategy for securing a competitive margin.
+          A direct lender or bank offers you rates based on their own margin structure. A wholesale mortgage broker operates differently. As an independent intermediary with access to 50+ Wholesale Lenders, a broker can request and compare rate sheets from multiple HECM lenders simultaneously. This comparison shopping is the single most effective strategy for securing a competitive margin.
         </p>
 
         <p>
@@ -531,7 +531,7 @@ export default function ReverseMortgageInterestRatesPage() {
                 <tr>
                   <td className="border border-slate-200 px-4 py-2">Lender margin</td>
                   <td className="border border-slate-200 px-4 py-2">Yes</td>
-                  <td className="border border-slate-200 px-4 py-2">Use a wholesale broker to compare across 200+ lenders</td>
+                  <td className="border border-slate-200 px-4 py-2">Use a wholesale broker to compare across 50+ Wholesale Lenders</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-200 px-4 py-2">Index (CMT/SOFR)</td>
@@ -686,7 +686,7 @@ export default function ReverseMortgageInterestRatesPage() {
         <div id="expert-summary" className="bg-gradient-to-r from-blue-50 to-green-50 border-l-4 border-blue-500 p-6 rounded-r-lg my-10 not-prose">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Expert Summary: Your HECM Rate Strategy</h2>
           <p className="text-gray-700 mb-4">
-            HECM interest rates consist of components you can shop (the lender margin) and components that are fixed by the market or HUD (the index and mortgage insurance premiums). The single most effective step any borrower can take is to work with a wholesale mortgage broker who compares margins across 200+ lending partners. A competitive margin reduces your borrowing cost and increases your available proceeds, delivering dual value that compounds over the life of the loan.
+            HECM interest rates consist of components you can shop (the lender margin) and components that are fixed by the market or HUD (the index and mortgage insurance premiums). The single most effective step any borrower can take is to work with a wholesale mortgage broker who compares margins across 50+ Wholesale Lenders. A competitive margin reduces your borrowing cost and increases your available proceeds, delivering dual value that compounds over the life of the loan.
           </p>
           <p className="text-gray-700">
             If you are 62 or older and considering a reverse mortgage in California or Washington, the first step is completing <strong>HUD-approved counseling</strong>. From there, a personalized rate comparison takes the guesswork out of finding the most competitive terms for your situation. For a complete program overview, start with the <Link href="/reverse-mortgages" className="text-blue-600 hover:underline font-semibold">reverse mortgage programs page</Link> or explore the <Link href="/blog/hecm-for-purchase-2026" className="text-blue-600 hover:underline font-semibold">HECM for Purchase program</Link> if you are buying a new home.
@@ -760,7 +760,7 @@ export default function ReverseMortgageInterestRatesPage() {
         <div className="bg-slate-900 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Get a Personalized HECM Rate Comparison</h3>
           <p className="text-slate-200 mb-6">
-            Ready to see how competitive rates across 200+ lenders translate to real numbers for your situation? I specialize in reverse mortgage rate analysis for homeowners 62 and older in California and Washington. Let me run a margin comparison and show you what is available today.
+            Ready to see how competitive rates across 50+ Wholesale Lenders translate to real numbers for your situation? I specialize in reverse mortgage rate analysis for homeowners 62 and older in California and Washington. Let me run a margin comparison and show you what is available today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -790,7 +790,7 @@ export default function ReverseMortgageInterestRatesPage() {
             <h4 className="font-semibold text-gray-900">Mo Abdel</h4>
             <p className="text-gray-600 text-sm">NMLS #1426884 | Reverse Mortgage Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
-              Mo Abdel is a licensed mortgage broker specializing in reverse mortgages and HECM rate analysis. With access to 200+ wholesale lending partners, he helps seniors 62 and older in California and Washington access competitive terms tailored to their retirement planning goals.
+              Mo Abdel is a licensed mortgage broker specializing in reverse mortgages and HECM rate analysis. With access to 50+ Wholesale Lenders, he helps seniors 62 and older in California and Washington access competitive terms tailored to their retirement planning goals.
             </p>
           </div>
         </div>

@@ -71,7 +71,7 @@ export default async function CountyEquityComparisonPage({ params }: Props) {
     },
     {
       question: `What are current HELOC rates in ${county.name}, ${stateName}?`,
-      answer: `HELOC rates in ${county.name} vary by lender, credit score, and CLTV ratio. As a wholesale broker, Mo Abdel shops 200+ lenders to find the most competitive HELOC, cash-out refinance, and home equity loan rates available. The calculator above uses current market rates for an accurate side-by-side comparison.`,
+      answer: `HELOC rates in ${county.name} vary by lender, credit score, and CLTV ratio. As a wholesale broker, Mo Abdel shops 50+ Wholesale Lenders to find the most competitive HELOC, cash-out refinance, and home equity loan rates available. The calculator above uses current market rates for an accurate side-by-side comparison.`,
     },
     {
       question: `Can I get a home equity loan with a high loan-to-value ratio in ${county.name}?`,

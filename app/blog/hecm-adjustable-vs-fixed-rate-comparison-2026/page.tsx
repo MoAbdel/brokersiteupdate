@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'HECM Adjustable vs Fixed Rate: Which Reverse Mortgage Option Is Right for You [2026]',
-    description: 'HECM adjustable vs fixed rate comparison: line of credit growth rate, lump sum vs tenure payments, rate caps, mandatory obligations, and how a wholesale broker compares HECM options across 200+ lenders.',
+    description: 'HECM adjustable vs fixed rate comparison: line of credit growth rate, lump sum vs tenure payments, rate caps, mandatory obligations, and how a wholesale broker compares HECM options across 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/hecm-adjustable-vs-fixed-rate-comparison-2026',
     type: 'article',
     publishedTime: '2026-03-06',
@@ -183,7 +183,7 @@ export default function HECMAdjustableVsFixedRateComparisonPage() {
           HECM Adjustable vs Fixed Rate: Which Reverse Mortgage Option Is Right for You [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete comparison of fixed-rate and adjustable-rate Home Equity Conversion Mortgages (HECMs)&mdash;covering lump sum vs line of credit disbursement, line of credit growth rate on unused funds, tenure and term payment options, initial and lifetime rate caps, how rate type affects principal limits, mandatory obligations for both rate types, and how a wholesale broker compares HECM options across 200+ lending partners for homeowners age 62 and older.
+          A complete comparison of fixed-rate and adjustable-rate Home Equity Conversion Mortgages (HECMs)&mdash;covering lump sum vs line of credit disbursement, line of credit growth rate on unused funds, tenure and term payment options, initial and lifetime rate caps, how rate type affects principal limits, mandatory obligations for both rate types, and how a wholesale broker compares HECM options across 50+ Wholesale Lenders for homeowners age 62 and older.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function HECMAdjustableVsFixedRateComparisonPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, the choice between a fixed-rate and adjustable-rate HECM is <strong>one of the most consequential decisions in reverse mortgage planning, and most borrowers age 62+ do not fully understand the trade-offs until after closing</strong>. The fixed-rate HECM locks your interest rate for the life of the loan but restricts disbursement to a single lump sum at closing. The adjustable-rate HECM offers a line of credit (with a guaranteed growth feature on unused funds), monthly tenure payments for life, monthly term payments, or any combination&mdash;but the interest rate changes periodically within defined caps. According to <a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmhome" target="_blank" rel="noopener noreferrer">HUD&apos;s HECM program guidance</a>, all HECM borrowers must complete HUD-approved counseling before applying, and must be at least 62 years old. Both rate types require continued payment of property taxes, homeowners insurance, and home maintenance. There are no required monthly principal and interest payments on either type. A wholesale mortgage broker comparing HECM products from 200+ lenders helps borrowers determine which rate structure best serves their retirement planning goals.
+            According to Mo Abdel, NMLS #1426884, the choice between a fixed-rate and adjustable-rate HECM is <strong>one of the most consequential decisions in reverse mortgage planning, and most borrowers age 62+ do not fully understand the trade-offs until after closing</strong>. The fixed-rate HECM locks your interest rate for the life of the loan but restricts disbursement to a single lump sum at closing. The adjustable-rate HECM offers a line of credit (with a guaranteed growth feature on unused funds), monthly tenure payments for life, monthly term payments, or any combination&mdash;but the interest rate changes periodically within defined caps. According to <a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmhome" target="_blank" rel="noopener noreferrer">HUD&apos;s HECM program guidance</a>, all HECM borrowers must complete HUD-approved counseling before applying, and must be at least 62 years old. Both rate types require continued payment of property taxes, homeowners insurance, and home maintenance. There are no required monthly principal and interest payments on either type. A wholesale mortgage broker comparing HECM products from 50+ Wholesale Lenders helps borrowers determine which rate structure best serves their retirement planning goals.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function HECMAdjustableVsFixedRateComparisonPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares HECM rate structures and principal limits across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to optimize disbursement strategy for borrowers age 62+</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to optimize disbursement strategy for borrowers age 62+</td>
               </tr>
             </tbody>
           </table>
@@ -846,7 +846,7 @@ export default function HECMAdjustableVsFixedRateComparisonPage() {
             <li><strong>Adjustable-rate often qualifies for a higher principal limit:</strong> The expected interest rate used in the calculation is often lower for adjustable-rate products</li>
             <li><strong>Rate caps protect adjustable-rate borrowers:</strong> Lifetime caps of 5&ndash;10 percentage points above the initial rate set a defined worst-case boundary</li>
             <li><strong>Mandatory obligations are identical:</strong> Property taxes, insurance, HOA dues, maintenance, and occupancy requirements apply to both rate types. There are no required monthly principal and interest payments on either</li>
-            <li><strong>A wholesale broker models both options:</strong> Comparing principal limits, disbursement scenarios, and total cost projections across 200+ HECM lenders ensures you choose the rate structure that serves your retirement goals</li>
+            <li><strong>A wholesale broker models both options:</strong> Comparing principal limits, disbursement scenarios, and total cost projections across 50+ Wholesale Lenders ensures you choose the rate structure that serves your retirement goals</li>
           </ol>
         </div>
 

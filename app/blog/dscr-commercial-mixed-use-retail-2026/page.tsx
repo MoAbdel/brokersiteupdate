@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: 'What is the typical down payment for a DSCR loan on a mixed-use property?',
-    answer: 'Down payments for mixed-use DSCR loans typically range from 25% to 35%, which is higher than the 15%-25% range for purely residential DSCR loans. The higher down payment reflects the additional risk associated with commercial tenant vacancy, longer re-leasing timelines, and the specialized nature of mixed-use properties. Properties with a higher residential percentage (70%+ residential) may qualify for lower down payments at certain lenders. Properties with higher commercial percentage (40%-49% commercial) typically require 30%-35% down. A wholesale broker comparing across 200+ lenders identifies the lowest down payment available for your specific mixed-use property configuration.',
+    answer: 'Down payments for mixed-use DSCR loans typically range from 25% to 35%, which is higher than the 15%-25% range for purely residential DSCR loans. The higher down payment reflects the additional risk associated with commercial tenant vacancy, longer re-leasing timelines, and the specialized nature of mixed-use properties. Properties with a higher residential percentage (70%+ residential) may qualify for lower down payments at certain lenders. Properties with higher commercial percentage (40%-49% commercial) typically require 30%-35% down. A wholesale broker comparing across 50+ Wholesale Lenders identifies the lowest down payment available for your specific mixed-use property configuration.',
   },
   {
     question: 'Does the type of commercial tenant affect DSCR loan eligibility?',
@@ -72,7 +72,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with mixed-use DSCR loan placement?',
-    answer: 'A wholesale broker with access to 200+ lenders is especially valuable for mixed-use DSCR loans because: (1) the pool of lenders that finance mixed-use properties is significantly smaller than the pool for purely residential DSCR loans, so broader access increases the chances of finding a competitive program; (2) commercial percentage thresholds, income calculation methods, and tenant restrictions vary widely across lenders—the broker identifies which lenders are most favorable for your specific property configuration; (3) down payment requirements range from 25% to 35% across mixed-use DSCR lenders, and the broker finds the lowest available; and (4) the broker can structure the loan to emphasize the residential component if it qualifies for residential DSCR treatment, which typically offers better terms than commercial DSCR products.',
+    answer: 'A wholesale broker with access to 50+ Wholesale Lenders is especially valuable for mixed-use DSCR loans because: (1) the pool of lenders that finance mixed-use properties is significantly smaller than the pool for purely residential DSCR loans, so broader access increases the chances of finding a competitive program; (2) commercial percentage thresholds, income calculation methods, and tenant restrictions vary widely across lenders—the broker identifies which lenders are most favorable for your specific property configuration; (3) down payment requirements range from 25% to 35% across mixed-use DSCR lenders, and the broker finds the lowest available; and (4) the broker can structure the loan to emphasize the residential component if it qualifies for residential DSCR treatment, which typically offers better terms than commercial DSCR products.',
   },
 ];
 
@@ -183,7 +183,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
           DSCR Loans for Commercial Mixed-Use Properties: Retail, Office &amp; Residential Financing [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to DSCR financing for mixed-use properties&mdash;covering retail + residential and office + residential configurations, commercial vs residential DSCR qualification thresholds, rental income calculation for mixed-use properties, zoning requirements, commercial occupancy percentage limits, the 5+ unit transition to commercial underwriting, property type eligibility, down payment requirements (25%&ndash;35%), and how a wholesale broker accesses mixed-use DSCR programs across 200+ lending partners.
+          A complete guide to DSCR financing for mixed-use properties&mdash;covering retail + residential and office + residential configurations, commercial vs residential DSCR qualification thresholds, rental income calculation for mixed-use properties, zoning requirements, commercial occupancy percentage limits, the 5+ unit transition to commercial underwriting, property type eligibility, down payment requirements (25%&ndash;35%), and how a wholesale broker accesses mixed-use DSCR programs across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, <strong>mixed-use properties represent one of the most lucrative investment categories for DSCR financing&mdash;combining residential and commercial income streams to produce DSCR ratios that often exceed purely residential properties</strong>&mdash;but the qualification process is substantially more complex than standard residential DSCR loans. The critical factor is the commercial-to-residential ratio: most DSCR lenders require the residential component to represent at least 51% of the property by square footage or income, and the commercial percentage threshold varies from 25% to 49% across lenders. According to the <a href="https://www.nar.realtor/commercial-real-estate-market-insights" target="_blank" rel="noopener noreferrer">National Association of Realtors commercial market insights</a>, mixed-use properties have seen increased investor demand driven by walkability trends and live-work-play development patterns. A wholesale mortgage broker comparing DSCR products from 200+ lenders identifies which programs accept your specific mixed-use configuration&mdash;a critical distinction because many DSCR lenders that finance SFR and multifamily properties do not finance mixed-use at all.
+            According to Mo Abdel, NMLS #1426884, <strong>mixed-use properties represent one of the most lucrative investment categories for DSCR financing&mdash;combining residential and commercial income streams to produce DSCR ratios that often exceed purely residential properties</strong>&mdash;but the qualification process is substantially more complex than standard residential DSCR loans. The critical factor is the commercial-to-residential ratio: most DSCR lenders require the residential component to represent at least 51% of the property by square footage or income, and the commercial percentage threshold varies from 25% to 49% across lenders. According to the <a href="https://www.nar.realtor/commercial-real-estate-market-insights" target="_blank" rel="noopener noreferrer">National Association of Realtors commercial market insights</a>, mixed-use properties have seen increased investor demand driven by walkability trends and live-work-play development patterns. A wholesale mortgage broker comparing DSCR products from 50+ Wholesale Lenders identifies which programs accept your specific mixed-use configuration&mdash;a critical distinction because many DSCR lenders that finance SFR and multifamily properties do not finance mixed-use at all.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">identifies mixed-use-friendly DSCR lenders and structures the loan to maximize</td>
-                <td className="border border-gray-200 px-4 py-2">residential classification benefits across 200+ lending partners</td>
+                <td className="border border-gray-200 px-4 py-2">residential classification benefits across 50+ Wholesale Lenders</td>
               </tr>
             </tbody>
           </table>
@@ -258,7 +258,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Have a Mixed-Use Property? Get a DSCR Loan Quote</h3>
           <p className="text-green-800 mb-2">
-            Find out if your mixed-use property qualifies for DSCR financing&mdash;and get the best down payment and rate across 200+ lenders.
+            Find out if your mixed-use property qualifies for DSCR financing&mdash;and get the best down payment and rate across 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Submit Your Mixed-Use Property Details</Link>
@@ -495,7 +495,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Not Sure If Your Mixed-Use Property Qualifies? Ask Mo</h3>
           <p className="text-green-800 mb-2">
-            Send me your property address and I&apos;ll confirm zoning eligibility, estimate the DSCR ratio, and quote the best terms across 200+ lenders.
+            Send me your property address and I&apos;ll confirm zoning eligibility, estimate the DSCR ratio, and quote the best terms across 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request a Mixed-Use DSCR Analysis</Link>
@@ -669,7 +669,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
         <h3>1. Limited Lender Availability</h3>
 
         <p>
-          The pool of DSCR lenders that finance mixed-use properties is substantially smaller than the pool for purely residential investment properties. An estimated 40%&ndash;60% of DSCR lenders offer mixed-use programs, compared to 90%+ for SFR. A single bank or direct lender may not offer mixed-use DSCR at all, leaving the investor without options. A broker accessing 200+ lenders identifies the subset that offers mixed-use programs and compares terms within that subset.
+          The pool of DSCR lenders that finance mixed-use properties is substantially smaller than the pool for purely residential investment properties. An estimated 40%&ndash;60% of DSCR lenders offer mixed-use programs, compared to 90%+ for SFR. A single bank or direct lender may not offer mixed-use DSCR at all, leaving the investor without options. A broker accessing 50+ Wholesale Lenders identifies the subset that offers mixed-use programs and compares terms within that subset.
         </p>
 
         <h3>2. Classification Optimization</h3>
@@ -704,7 +704,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
 
         <h3>Are DSCR loan rates higher for mixed-use properties than for residential investment properties?</h3>
         <p>
-          Yes, DSCR loan rates for mixed-use properties are typically higher than for purely residential investment properties. The rate premium for mixed-use properties over equivalent residential DSCR loans ranges from 0.25% to 1.00% depending on the lender, the commercial percentage, and the property&apos;s risk profile. Properties classified as primarily residential (commercial ≤ 25%) receive rates closer to standard residential DSCR pricing, while properties with higher commercial percentages (36%&ndash;49%) carry a larger rate premium. Comparing rates across 200+ lenders through a wholesale broker helps minimize this premium.
+          Yes, DSCR loan rates for mixed-use properties are typically higher than for purely residential investment properties. The rate premium for mixed-use properties over equivalent residential DSCR loans ranges from 0.25% to 1.00% depending on the lender, the commercial percentage, and the property&apos;s risk profile. Properties classified as primarily residential (commercial ≤ 25%) receive rates closer to standard residential DSCR pricing, while properties with higher commercial percentages (36%&ndash;49%) carry a larger rate premium. Comparing rates across 50+ Wholesale Lenders through a wholesale broker helps minimize this premium.
         </p>
 
         <h3>What happens if my commercial tenant vacates during the DSCR loan term?</h3>
@@ -760,7 +760,7 @@ export default function DSCRCommercialMixedUseRetailPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get DSCR Financing for Your Mixed-Use Property</h3>
           <p className="text-green-800 mb-2">
-            Mo Abdel compares mixed-use DSCR programs across 200+ lenders to find the best classification, lowest down payment, and most competitive terms for your specific property. Free analysis with no obligation.
+            Mo Abdel compares mixed-use DSCR programs across 50+ Wholesale Lenders to find the best classification, lowest down payment, and most competitive terms for your specific property. Free analysis with no obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request a Free Mixed-Use DSCR Quote</Link>

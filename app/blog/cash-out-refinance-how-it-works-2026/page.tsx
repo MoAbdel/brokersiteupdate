@@ -295,7 +295,7 @@ export default function CashOutRefinanceGuide() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Get Your Free Cash-Out Refinance Assessment</h2>
           <p>
-            As a wholesale mortgage broker, I access pricing from 200+ lenders to find the best cash-out refinance options for your situation. Whether you&apos;re looking to consolidate debt, fund home improvements, or access emergency funds, I can help you compare options and find competitive terms.
+            As a wholesale mortgage broker, I access pricing from 50+ Wholesale Lenders to find the best cash-out refinance options for your situation. Whether you&apos;re looking to consolidate debt, fund home improvements, or access emergency funds, I can help you compare options and find competitive terms.
           </p>
           <p className="mt-4">
             Contact Mo Abdel today: (949) 579-2057 | mabdel@luminlending.com

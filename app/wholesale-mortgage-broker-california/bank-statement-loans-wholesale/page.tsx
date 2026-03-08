@@ -561,7 +561,7 @@ export default function BankStatementLoansWholesalePage() {
               <li><Link href="/wholesale-mortgage-broker-california" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/self-employed-mortgage-broker" className="text-blue-600 hover:underline">Self-Employed Mortgage Guide</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/non-qm-loans-wholesale" className="text-blue-600 hover:underline">Non-QM Loan Programs</Link></li>
-              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">The 200+ Lender Advantage</Link></li>
+              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link></li>
             </ul>
           </div>
           <div className="bg-gray-50 p-4 rounded-lg">

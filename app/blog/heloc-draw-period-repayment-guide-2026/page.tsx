@@ -43,7 +43,7 @@ const faqData = [
   },
   {
     question: 'Can I refinance my HELOC before the repayment period starts?',
-    answer: 'Yes, refinancing before the repayment period is a common strategy. You can refinance into a new HELOC with a fresh draw period, consolidate into a fixed-rate home equity loan, or roll the balance into a cash-out refinance. A wholesale broker can compare options from 200+ lenders to find the most competitive terms available.',
+    answer: 'Yes, refinancing before the repayment period is a common strategy. You can refinance into a new HELOC with a fresh draw period, consolidate into a fixed-rate home equity loan, or roll the balance into a cash-out refinance. A wholesale broker can compare options from 50+ Wholesale Lenders to find the most competitive terms available.',
   },
   {
     question: 'How does a HELOC variable rate work during each phase?',
@@ -317,7 +317,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
             The draw period is the first phase of your HELOC and represents the time during which you can access funds. Most lenders set the draw period at <strong>10 years</strong>, though some offer 5-year or 15-year draw periods depending on the product. During this phase, your HELOC functions as a revolving line of credit &mdash; similar to a credit card, but secured by your home and offered at significantly lower interest rates.
           </p>
           <p>
-            As a wholesale mortgage broker processing HELOC applications across 200+ lenders, I see draw period structures that vary meaningfully between institutions. Some credit unions offer 15-year draw periods that give borrowers extra flexibility, while certain banks limit draw periods to just 5 years. The draw period length directly impacts your financial planning horizon, so selecting the right structure from the start matters.
+            As a wholesale mortgage broker processing HELOC applications across 50+ Wholesale Lenders, I see draw period structures that vary meaningfully between institutions. Some credit unions offer 15-year draw periods that give borrowers extra flexibility, while certain banks limit draw periods to just 5 years. The draw period length directly impacts your financial planning horizon, so selecting the right structure from the start matters.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">How to Access HELOC Funds During the Draw Period</h3>
@@ -568,7 +568,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">How Does a Wholesale Broker Find Better HELOC Terms?</h2>
           <p>
-            The HELOC market has significant variation in draw period length, repayment terms, renewal options, and fixed-rate conversion features. Retail banks typically offer a single HELOC product with fixed terms. A wholesale mortgage broker accesses <strong>200+ lenders</strong>, each with different HELOC structures, enabling a customized match to your financial goals.
+            The HELOC market has significant variation in draw period length, repayment terms, renewal options, and fixed-rate conversion features. Retail banks typically offer a single HELOC product with fixed terms. A wholesale mortgage broker accesses <strong>50+ Wholesale Lenders</strong>, each with different HELOC structures, enabling a customized match to your financial goals.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -609,7 +609,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
                 <tr className="border-t bg-gray-50">
                   <td className="px-4 py-3 font-medium">Margin Range</td>
                   <td className="px-4 py-3">Bank&apos;s standard margin</td>
-                  <td className="px-4 py-3">Competitive margins across 200+ lenders</td>
+                  <td className="px-4 py-3">Competitive margins across 50+ Wholesale Lenders</td>
                 </tr>
               </tbody>
             </table>
@@ -680,12 +680,12 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
             The borrowers who navigate this structure most successfully are those who treat the draw period strategically: they make voluntary principal payments, monitor their variable rate, and start planning for the repayment transition 18&ndash;24 months before it arrives. Whether you choose to pay down the balance gradually, refinance into a new product, convert to a fixed rate, or request a renewal, the key is taking action well before the draw period expires.
           </p>
           <p>
-            As a wholesale mortgage broker, I help clients select HELOCs with the draw period length, repayment terms, and features that align with their financial timeline. With access to 200+ lenders, I compare draw periods from 5 to 15 years, repayment terms from 10 to 20 years, and identify lenders that offer fixed-rate conversion and renewal options that many retail banks do not provide.
+            As a wholesale mortgage broker, I help clients select HELOCs with the draw period length, repayment terms, and features that align with their financial timeline. With access to 50+ Wholesale Lenders, I compare draw periods from 5 to 15 years, repayment terms from 10 to 20 years, and identify lenders that offer fixed-rate conversion and renewal options that many retail banks do not provide.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">
             <h3 className="text-2xl font-bold text-blue-900 mb-3">Get Your Free HELOC Comparison</h3>
-            <p className="text-blue-800 mb-4">I will compare HELOC draw period lengths, repayment terms, and features from 200+ lenders to find the structure that fits your financial plan.</p>
+            <p className="text-blue-800 mb-4">I will compare HELOC draw period lengths, repayment terms, and features from 50+ Wholesale Lenders to find the structure that fits your financial plan.</p>
             <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 579-2057</p>
             <p className="text-blue-700 mb-4">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

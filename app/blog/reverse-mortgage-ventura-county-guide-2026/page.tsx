@@ -91,7 +91,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
     },
     {
       question: 'Why should Ventura County seniors use a wholesale broker for reverse mortgages?',
-      answer: 'A wholesale broker like Mo Abdel compares HECM and proprietary products from 200+ lenders simultaneously. Ventura County seniors receive the most competitive rates and lowest fees available\u2014saving $3,000\u2013$7,000 over the loan\u2019s life compared to working directly with a single retail lender. Wholesale access is especially valuable for properties near or above the HECM limit.',
+      answer: 'A wholesale broker like Mo Abdel compares HECM and proprietary products from 50+ Wholesale Lenders simultaneously. Ventura County seniors receive the most competitive rates and lowest fees available\u2014saving $3,000\u2013$7,000 over the loan\u2019s life compared to working directly with a single retail lender. Wholesale access is especially valuable for properties near or above the HECM limit.',
     },
   ];
 
@@ -398,7 +398,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
         <ol>
           <li><strong>Free consultation with Mo Abdel (Day 1):</strong> Phone or video assessment of your Ventura County property, equity position, existing mortgage balance, age, and financial goals. You receive a preliminary estimate of proceeds and program recommendation within 24 hours.</li>
           <li><strong>HUD-approved counseling (Days 2&ndash;14):</strong> All HECM applicants complete a mandatory counseling session with an independent HUD-approved counselor. Sessions cover reverse mortgage mechanics, alternatives, and borrower obligations. Phone and video options are available for Ventura County residents.</li>
-          <li><strong>Application submission (Day 15):</strong> Formal application with documentation including government ID, proof of age, property deed, mortgage statement, and financial records. Mo Abdel&apos;s team submits to the optimal lender from our 200+ wholesale network based on your property profile.</li>
+          <li><strong>Application submission (Day 15):</strong> Formal application with documentation including government ID, proof of age, property deed, mortgage statement, and financial records. Mo Abdel&apos;s team submits to the optimal lender from our 50+ Wholesale Lenders based on your property profile.</li>
           <li><strong>Property appraisal (Days 16&ndash;25):</strong> Certified FHA appraiser inspects and values your Ventura County property. Conejo Valley appraisals typically complete within 7&ndash;10 business days. The appraised value establishes your maximum proceeds.</li>
           <li><strong>Underwriting and financial assessment (Days 20&ndash;35):</strong> Lender verifies ability to maintain property taxes, homeowner&apos;s insurance, and HOA fees (if applicable). Credit history and income sources are reviewed.</li>
           <li><strong>Closing and disbursement (Days 30&ndash;45):</strong> Review and sign closing documents, observe the 3-day rescission period, and receive funds through your chosen payout method. Existing mortgages are paid off at closing.</li>
@@ -503,7 +503,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
           Choosing the right reverse mortgage broker determines the quality of your outcome&mdash;from rates and fees to program selection and closing timeline. Mo Abdel brings specific advantages to Ventura County seniors:
         </p>
         <ul>
-          <li><strong>200+ wholesale lender access:</strong> Compare HECM and proprietary products from the nation&apos;s largest reverse mortgage lender network. Retail lenders offer one product; Mo Abdel offers 200+ simultaneously.</li>
+          <li><strong>50+ Wholesale Lenders:</strong> Compare HECM and proprietary products from the nation&apos;s largest reverse mortgage lender network. Retail lenders offer one product; Mo Abdel offers 200+ simultaneously.</li>
           <li><strong>Conejo Valley market expertise:</strong> Understanding the difference between North Ranch and central Thousand Oaks, or lake-adjacent versus hillside Westlake Village, directly impacts appraisal accuracy and proceeds.</li>
           <li><strong>Wholesale pricing guarantee:</strong> No lender markup, no retail premium. Ventura County seniors receive institutional pricing that saves $3,000&ndash;$7,000 over the loan&apos;s lifetime compared to retail alternatives.</li>
           <li><strong>California and Washington licensing:</strong> Seniors with properties in both states work with a single trusted broker. Mo Abdel holds CA DRE #02291443 and is licensed in Washington state.</li>
@@ -526,7 +526,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
         <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 mt-8">
           <h2 className="text-xl font-bold text-gray-900 mt-0">Get Your Free Ventura County Reverse Mortgage Assessment</h2>
           <p className="text-gray-700">
-            Ventura County homeowners across the Conejo Valley and beyond hold $18 billion in senior home equity. Whether your property is a $1.4 million Westlake Village estate or a $900,000 Moorpark family home, Mo Abdel&apos;s wholesale access to 200+ lenders ensures you receive the most competitive reverse mortgage terms available in 2026.
+            Ventura County homeowners across the Conejo Valley and beyond hold $18 billion in senior home equity. Whether your property is a $1.4 million Westlake Village estate or a $900,000 Moorpark family home, Mo Abdel&apos;s wholesale access to 50+ Wholesale Lenders ensures you receive the most competitive reverse mortgage terms available in 2026.
           </p>
           <p className="text-gray-700">
             <strong>Contact Mo Abdel today:</strong>

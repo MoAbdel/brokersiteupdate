@@ -96,7 +96,7 @@ export default function SanClementeMortgageGuidePage() {
                 </p>
                 <ul>
                     <li>Lower monthly payments through more competitive pricing.</li>
-                    <li>Access to over 200+ lenders, ensuring we find the exact program for your needs.</li>
+                    <li>Access to over 50+ Wholesale Lenders, ensuring we find the exact program for your needs.</li>
                     <li>Faster closing times (often under 21 days) compared to the bureaucratic delays of big banks.</li>
                 </ul>
 

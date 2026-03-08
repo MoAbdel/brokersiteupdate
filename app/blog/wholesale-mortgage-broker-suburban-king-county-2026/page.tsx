@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Suburban King County Wholesale Mortgage Broker: Shoreline, Lake Forest Park, Kenmore & Snoqualmie [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker Suburban King County with 200+ lender access for Shoreline, Lake Forest Park, Kenmore & Snoqualmie. Renovation loans, new construction, family lending. NMLS #1426884.',
+  description: 'Wholesale mortgage broker Suburban King County with 50+ Wholesale Lenders for Shoreline, Lake Forest Park, Kenmore & Snoqualmie. Renovation loans, new construction, family lending. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Suburban King County',
     'mortgage broker Shoreline WA',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Suburban King County Wholesale Mortgage Broker: Shoreline, Lake Forest Park, Kenmore & Snoqualmie [2026]',
-    description: 'Wholesale mortgage broker serving 4 Suburban King County cities. 200+ lender access, renovation & new construction specialists.',
+    description: 'Wholesale mortgage broker serving 4 Suburban King County cities. 50+ Wholesale Lenders, renovation & new construction specialists.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-suburban-king-county-2026',
     type: 'article',
     publishedTime: '2026-02-14',
@@ -43,7 +43,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker in Suburban King County?',
-      answer: 'A wholesale mortgage broker is an independently licensed professional who accesses institutional lending channels unavailable to consumers directly. In Suburban King County, this means shopping 200+ wholesale lenders simultaneously for Shoreline, Lake Forest Park, Kenmore, and Snoqualmie buyers. Wholesale pricing bypasses retail bank markup, saving borrowers an average of 0.25-0.50% on rate compared to walking into a bank branch.',
+      answer: 'A wholesale mortgage broker is an independently licensed professional who accesses institutional lending channels unavailable to consumers directly. In Suburban King County, this means shopping 50+ Wholesale Lenders simultaneously for Shoreline, Lake Forest Park, Kenmore, and Snoqualmie buyers. Wholesale pricing bypasses retail bank markup, saving borrowers an average of 0.25-0.50% on rate compared to walking into a bank branch.',
     },
     {
       question: 'How do wholesale mortgage rates compare to bank rates in Suburban King County?',
@@ -51,7 +51,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
     },
     {
       question: 'What loan programs are available for Shoreline homebuyers through a wholesale broker?',
-      answer: 'Shoreline homebuyers access conventional conforming loans (under $1,209,750), jumbo mortgages, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed buyers, DSCR investment property loans, renovation-purchase combination programs, and rate buydown options from 200+ wholesale lenders. This selection exceeds any single bank product menu.',
+      answer: 'Shoreline homebuyers access conventional conforming loans (under $1,209,750), jumbo mortgages, FHA with 3.5% down, VA with 0% down, bank statement loans for self-employed buyers, DSCR investment property loans, renovation-purchase combination programs, and rate buydown options from 50+ Wholesale Lenders. This selection exceeds any single bank product menu.',
     },
     {
       question: 'Can a wholesale broker help with renovation loans in Lake Forest Park?',
@@ -59,7 +59,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
     },
     {
       question: 'What are the 2026 conforming loan limits for King County?',
-      answer: 'The 2026 conforming loan limit for King County is $1,209,750 for single-family homes. Loans above this threshold require jumbo financing, where wholesale brokers provide the greatest advantage with access to 50+ jumbo lenders. In Snoqualmie, where the median home price is $900,000, most purchases fall within the conforming limit, maximizing rate competitiveness through 200+ wholesale lenders.',
+      answer: 'The 2026 conforming loan limit for King County is $1,209,750 for single-family homes. Loans above this threshold require jumbo financing, where wholesale brokers provide the greatest advantage with access to 50+ jumbo lenders. In Snoqualmie, where the median home price is $900,000, most purchases fall within the conforming limit, maximizing rate competitiveness through 50+ Wholesale Lenders.',
     },
     {
       question: 'Does a wholesale broker charge more fees than a bank in King County?',
@@ -124,7 +124,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             datePublished: '2026-02-14',
             dateModified: '2026-02-14',
             mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-suburban-king-county-2026',
-            description: 'Wholesale mortgage broker serving Suburban King County with 200+ lender access for Shoreline, Lake Forest Park, Kenmore & Snoqualmie homebuyers.',
+            description: 'Wholesale mortgage broker serving Suburban King County with 50+ Wholesale Lenders for Shoreline, Lake Forest Park, Kenmore & Snoqualmie homebuyers.',
           }),
         }}
       />
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
-            description: 'Suburban King County wholesale mortgage broker with 200+ lender access serving Shoreline, Lake Forest Park, Kenmore, and Snoqualmie homebuyers.',
+            description: 'Suburban King County wholesale mortgage broker with 50+ Wholesale Lenders serving Shoreline, Lake Forest Park, Kenmore, and Snoqualmie homebuyers.',
             telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
@@ -237,7 +237,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             Suburban King County Wholesale Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            Suburban King County homebuyers who use wholesale mortgage brokers save an average of $41,000 over the life of a 30-year loan compared to retail bank financing, according to 2026 industry data. With median home prices ranging from $780,000 in Kenmore to $950,000 in Lake Forest Park, wholesale access to 200+ lenders delivers the rate competition that a single bank branch cannot replicate. Suburban King County&apos;s mix of Boeing commuters, tech remote workers, small business owners, and growing families creates income profiles that wholesale lenders underwrite more favorably than traditional retail channels.
+            Suburban King County homebuyers who use wholesale mortgage brokers save an average of $41,000 over the life of a 30-year loan compared to retail bank financing, according to 2026 industry data. With median home prices ranging from $780,000 in Kenmore to $950,000 in Lake Forest Park, wholesale access to 50+ Wholesale Lenders delivers the rate competition that a single bank branch cannot replicate. Suburban King County&apos;s mix of Boeing commuters, tech remote workers, small business owners, and growing families creates income profiles that wholesale lenders underwrite more favorably than traditional retail channels.
           </p>
         </div>
 
@@ -263,7 +263,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
           Suburban King County Region Overview: 4-City Wholesale Mortgage Landscape
         </h2>
         <p>
-          Suburban King County represents the affordable gateway to the Greater Seattle metropolitan area. These four communities sit within commuting distance of Seattle, Bellevue, and Everett employment centers while offering larger lots, established neighborhoods, and access to outdoor recreation that urban Seattle cannot match. Each city presents distinct mortgage lending challenges that wholesale broker access solves through 200+ lender competition.
+          Suburban King County represents the affordable gateway to the Greater Seattle metropolitan area. These four communities sit within commuting distance of Seattle, Bellevue, and Everett employment centers while offering larger lots, established neighborhoods, and access to outdoor recreation that urban Seattle cannot match. Each city presents distinct mortgage lending challenges that wholesale broker access solves through 50+ Wholesale Lenders.
         </p>
 
         <div className="overflow-x-auto my-6">
@@ -323,7 +323,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             <thead>
               <tr className="bg-gray-100">
                 <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Feature</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Wholesale Broker (200+ Lenders)</th>
+                <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Wholesale Broker (50+ Wholesale Lenders)</th>
                 <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Retail Bank (Chase, BofA)</th>
                 <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Credit Union (BECU, WSECU)</th>
               </tr>
@@ -331,7 +331,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Lender Options</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">50+ Wholesale Lenders</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the bank)</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the credit union)</td>
               </tr>
@@ -394,7 +394,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
         </div>
 
         <p>
-          The savings gap is most significant for Suburban King County buyers with non-traditional income profiles. Boeing employees with overtime-dependent earnings, self-employed small business owners, and tech workers with RSU compensation all benefit from wholesale broker access to lenders with specialized underwriting. A credit union provides a slight edge over retail banks but cannot match 200+ lenders competing for your loan simultaneously.
+          The savings gap is most significant for Suburban King County buyers with non-traditional income profiles. Boeing employees with overtime-dependent earnings, self-employed small business owners, and tech workers with RSU compensation all benefit from wholesale broker access to lenders with specialized underwriting. A credit union provides a slight edge over retail banks but cannot match 50+ Wholesale Lenders competing for your loan simultaneously.
         </p>
 
         {/* ========== CITY DEEP DIVES ========== */}
@@ -517,12 +517,12 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
 
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Professional Insight:</strong> Mo Abdel has originated wholesale mortgages across King County for Boeing employees, remote tech workers, first-time buyers, and renovation purchasers. Licensed in Washington and California (NMLS #1426884), Mo provides direct wholesale lender access through Lumin Lending&apos;s 200+ lender network. Each Suburban King County city requires different program expertise, and the wholesale channel ensures access to the right lender for each situation.
+            <strong>Professional Insight:</strong> Mo Abdel has originated wholesale mortgages across King County for Boeing employees, remote tech workers, first-time buyers, and renovation purchasers. Licensed in Washington and California (NMLS #1426884), Mo provides direct wholesale lender access through Lumin Lending&apos;s 50+ Wholesale Lenders. Each Suburban King County city requires different program expertise, and the wholesale channel ensures access to the right lender for each situation.
           </p>
         </div>
 
         <p>
-          <strong>Conforming-jumbo boundary optimization</strong> is where wholesale brokers deliver the most value in Suburban King County. A Shoreline purchase at $850,000 with 20% down produces a $680,000 loan, well within conforming limits. But the same buyer putting 10% down needs an $765,000 loan, requiring either conforming high-balance or jumbo pricing. Wholesale brokers run both scenarios across 200+ lenders, identifying the optimal down payment and loan structure that minimizes total cost. Banks offer one answer; wholesale brokers present three to five alternatives.
+          <strong>Conforming-jumbo boundary optimization</strong> is where wholesale brokers deliver the most value in Suburban King County. A Shoreline purchase at $850,000 with 20% down produces a $680,000 loan, well within conforming limits. But the same buyer putting 10% down needs an $765,000 loan, requiring either conforming high-balance or jumbo pricing. Wholesale brokers run both scenarios across 50+ Wholesale Lenders, identifying the optimal down payment and loan structure that minimizes total cost. Banks offer one answer; wholesale brokers present three to five alternatives.
         </p>
         <p>
           <strong>Boeing and aerospace industry expertise</strong> sets wholesale brokers apart in communities like Shoreline and Kenmore. Boeing&apos;s compensation structure includes base salary, overtime (which fluctuates with production schedules), performance bonuses, and retirement benefits. Banks typically require a 2-year overtime average and exclude variable components. Wholesale lenders with aerospace industry experience count consistent overtime at full value after 12 months, include shift differentials as stable income, and accept Boeing HR verification formats that some banks reject.
@@ -657,7 +657,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
         <div className="space-y-6 my-6">
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="font-semibold text-gray-900 mt-0 mb-2">How does a wholesale mortgage broker work in Suburban King County?</h3>
-            <p className="mb-0"><strong>A wholesale broker shops your loan across 200+ lenders simultaneously to find the best rate and program for Suburban King County properties.</strong></p>
+            <p className="mb-0"><strong>A wholesale broker shops your loan across 50+ Wholesale Lenders simultaneously to find the best rate and program for Suburban King County properties.</strong></p>
           </div>
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="font-semibold text-gray-900 mt-0 mb-2">What are mortgage rates in Shoreline WA right now?</h3>
@@ -713,7 +713,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
             Each city presents distinct lending opportunities: Shoreline&apos;s Boeing and tech commuter profiles demand overtime-counting and RSU-friendly lenders. Lake Forest Park&apos;s renovation market requires access to multiple renovation-purchase programs. Kenmore&apos;s first-time buyer demographic benefits from lender-paid PMI and down payment optimization. Snoqualmie&apos;s new construction pipeline needs construction-to-permanent specialists with extended rate locks.
           </p>
           <p className="text-slate-900 mb-0">
-            A wholesale mortgage broker with 200+ lender access matches each buyer profile to the optimal lender, program, and pricing structure. The result: $38,000-$53,000 in total savings compared to retail bank financing on a typical Suburban King County purchase, faster closings (21-30 days versus 30-45 days), and access to renovation, construction, and non-QM programs that banks either restrict or refuse.
+            A wholesale mortgage broker with 50+ Wholesale Lenders matches each buyer profile to the optimal lender, program, and pricing structure. The result: $38,000-$53,000 in total savings compared to retail bank financing on a typical Suburban King County purchase, faster closings (21-30 days versus 30-45 days), and access to renovation, construction, and non-QM programs that banks either restrict or refuse.
           </p>
         </div>
 
@@ -728,7 +728,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
           <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
           <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
           <p className="text-sm mt-2">Licensed in California and Washington | Serving Shoreline, Lake Forest Park, Kenmore &amp; Snoqualmie</p>
-          <p className="text-sm">200+ wholesale lender access | Renovation, new construction &amp; family lending specialists</p>
+          <p className="text-sm">50+ Wholesale Lenders | Renovation, new construction &amp; family lending specialists</p>
         </div>
 
         {/* ========== INTERNAL LINKS ========== */}
@@ -740,7 +740,7 @@ export default function WholesaleMortgageBrokerSuburbanKingCounty2026() {
           </a>
           <a href="/blog/wholesale-mortgage-broker-california-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
             <h3 className="font-bold text-blue-700 mb-2">California Wholesale Mortgage Broker Guide</h3>
-            <p className="text-sm text-gray-600">Comprehensive wholesale mortgage guide for California homebuyers with 200+ lender access across all major metro areas.</p>
+            <p className="text-sm text-gray-600">Comprehensive wholesale mortgage guide for California homebuyers with 50+ Wholesale Lenders across all major metro areas.</p>
           </a>
           <a href="/blog/reverse-mortgage-suburban-king-county-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
             <h3 className="font-bold text-blue-700 mb-2">Reverse Mortgage Suburban King County Guide</h3>

@@ -180,7 +180,7 @@ export default function HELOCvsHomeEquityLoanPage() {
           {/* Citation Hook - 50-75 words */}
           <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to over 200 lenders: &quot;The choice between HELOC vs home equity loan depends on whether you value flexibility or predictability. In our Orange County closings, homeowners who need ongoing access to funds choose HELOCs, while those with specific one-time expenses prefer the fixed payments of home equity loans.&quot;
+              According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to 50+ Wholesale Lenders: &quot;The choice between HELOC vs home equity loan depends on whether you value flexibility or predictability. In our Orange County closings, homeowners who need ongoing access to funds choose HELOCs, while those with specific one-time expenses prefer the fixed payments of home equity loans.&quot;
             </p>
           </div>
 
@@ -626,7 +626,7 @@ export default function HELOCvsHomeEquityLoanPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4">Get Expert Guidance on Your Home Equity Options</h2>
 
           <p>
-            Mo Abdel, NMLS #1426884, helps Orange County homeowners navigate the HELOC vs home equity loan decision with access to over 200 lenders. Whether you need flexible revolving credit or predictable fixed payments, personalized guidance ensures you choose the product that matches your financial goals.
+            Mo Abdel, NMLS #1426884, helps Orange County homeowners navigate the HELOC vs home equity loan decision with access to 50+ Wholesale Lenders. Whether you need flexible revolving credit or predictable fixed payments, personalized guidance ensures you choose the product that matches your financial goals.
           </p>
 
           <p>

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker LA South Bay & Palos Verdes [2026]',
-  description: 'Wholesale mortgage broker for Palos Verdes, Rolling Hills, Hidden Hills, Calabasas & LA South Bay. 200+ lenders, jumbo specialists, self-employed programs. NMLS #1426884.',
+  description: 'Wholesale mortgage broker for Palos Verdes, Rolling Hills, Hidden Hills, Calabasas & LA South Bay. 50+ Wholesale Lenders, jumbo specialists, self-employed programs. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Palos Verdes South Bay',
     'mortgage broker Palos Verdes Estates',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker LA South Bay & Palos Verdes [2026]',
-    description: 'Wholesale mortgage broker serving Palos Verdes Peninsula, Hidden Hills, Calabasas and LA South Bay luxury communities. 200+ lenders, jumbo expertise.',
+    description: 'Wholesale mortgage broker serving Palos Verdes Peninsula, Hidden Hills, Calabasas and LA South Bay luxury communities. 50+ Wholesale Lenders, jumbo expertise.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-south-bay-palos-verdes-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -64,7 +64,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
         name: 'What is a wholesale mortgage broker and how is it different from a bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses loan products from 200+ wholesale lenders, comparing rates and programs to find the best match for each borrower. Banks offer only their own products with fixed guidelines. For Palos Verdes and Western LA luxury purchases requiring jumbo financing, this comparison shopping delivers better rates and more flexible qualification options.',
+          text: 'A wholesale mortgage broker accesses loan products from 50+ Wholesale Lenders, comparing rates and programs to find the best match for each borrower. Banks offer only their own products with fixed guidelines. For Palos Verdes and Western LA luxury purchases requiring jumbo financing, this comparison shopping delivers better rates and more flexible qualification options.',
         },
       },
       {
@@ -235,7 +235,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             jumbo financing above the $1,209,750 conforming limit. Aerospace defense contractors on the Palos Verdes
             Peninsula, entertainment industry executives in Calabasas and Hidden Hills, medical professionals in Rolling
             Hills Estates, and equestrian estate owners in Rolling Hills each present unique income documentation
-            challenges that a wholesale broker with 200+ lender relationships resolves through program matching
+            challenges that a wholesale broker with 50+ Wholesale Lenders resolves through program matching
             rather than force-fitting borrowers into a single bank&apos;s guidelines.
           </p>
 
@@ -243,7 +243,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             <h3 className="font-bold text-lg mb-3">LA South Bay &amp; Palos Verdes Wholesale Mortgage Quick Facts (2026)</h3>
             <ul className="space-y-2 mb-0">
               <li><strong>2026 Conforming Limit (LA County):</strong> $1,209,750 (most properties here require jumbo)</li>
-              <li><strong>Wholesale Lender Network:</strong> 200+ wholesale lenders including 30+ jumbo specialists</li>
+              <li><strong>Wholesale Lender Network:</strong> 50+ Wholesale Lenders including 30+ jumbo specialists</li>
               <li><strong>Region Median Home Values:</strong> $1.1M (Agoura Hills) to $6M (Hidden Hills)</li>
               <li><strong>Common Income Types:</strong> Aerospace/defense, entertainment, medical, equestrian, corporate</li>
               <li><strong>Communities Served:</strong> Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills, Rolling Hills Estates, Hidden Hills, Calabasas, Agoura Hills, Westlake Village</li>
@@ -775,7 +775,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
             <div className="border-b border-gray-200 pb-4">
               <h3 className="font-bold text-lg mb-2">What is a wholesale mortgage broker and how is it different from a bank?</h3>
               <p>
-                A wholesale mortgage broker accesses loan products from 200+ wholesale lenders, comparing rates and
+                A wholesale mortgage broker accesses loan products from 50+ Wholesale Lenders, comparing rates and
                 programs to find the best match for each borrower. Banks offer only their own products with fixed
                 guidelines. For Palos Verdes and Western LA luxury purchases requiring jumbo financing, this comparison
                 shopping delivers better rates and more flexible qualification options than any single retail lender
@@ -926,7 +926,7 @@ export default function WholesaleMortgageBrokerLASouthBayPalosVerdes2026() {
               income volatility, equestrian estate owners with agricultural property classifications, and corporate retirees
               with substantial assets but limited traditional income&mdash;each of these borrower profiles requires a different
               lender with different program guidelines. A retail bank serves one profile well and fails the others. A wholesale
-              broker matches every borrower with the optimal lender from a network of 200+ competitors.
+              broker matches every borrower with the optimal lender from a network of 50+ Wholesale Lenders.
             </p>
             <p className="mb-4">
               The financial impact is measurable. In luxury markets where loan amounts routinely exceed $2-$5 million, even

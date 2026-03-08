@@ -47,7 +47,7 @@ const faqData = [
   },
   {
     question: "What down payment is required for a DSCR loan in California?",
-    answer: "DSCR loans in California typically require 20-25% down for long-term rental properties with a DSCR of 1.0 or higher. Properties with lower DSCR ratios, short-term rental income, or non-warrantable condos may require 25-30% down. Some lenders offer 15% down DSCR programs for borrowers with 740+ credit scores and strong DSCR ratios. Down payment requirements vary by lender, and a wholesale broker compares options across 200+ DSCR lenders."
+    answer: "DSCR loans in California typically require 20-25% down for long-term rental properties with a DSCR of 1.0 or higher. Properties with lower DSCR ratios, short-term rental income, or non-warrantable condos may require 25-30% down. Some lenders offer 15% down DSCR programs for borrowers with 740+ credit scores and strong DSCR ratios. Down payment requirements vary by lender, and a wholesale broker compares options across 50+ Wholesale Lenders."
   },
   {
     question: "Are DSCR loans available for multi-family properties in California?",
@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: "How does a wholesale mortgage broker help me find the right DSCR loan for a California investment?",
-    answer: "A wholesale mortgage broker accesses 200+ DSCR lenders, each with different rate sheets, DSCR minimums, property type restrictions, and market-specific overlays. Some lenders specialize in California coastal markets, others in inland value-add properties, and others in STR-specific programs. A broker compares all available options simultaneously, identifies the lender with the most favorable terms for your specific property and market, and negotiates wholesale pricing unavailable through direct-to-consumer channels."
+    answer: "A wholesale mortgage broker accesses 50+ Wholesale Lenders, each with different rate sheets, DSCR minimums, property type restrictions, and market-specific overlays. Some lenders specialize in California coastal markets, others in inland value-add properties, and others in STR-specific programs. A broker compares all available options simultaneously, identifies the lender with the most favorable terms for your specific property and market, and negotiates wholesale pricing unavailable through direct-to-consumer channels."
   }
 ];
 
@@ -407,7 +407,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
               <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm font-bold shrink-0">5</div>
               <div>
                 <p className="font-semibold text-slate-900">Run DSCR Scenarios Across Multiple Lenders</p>
-                <p className="text-slate-600">Different DSCR lenders use different rate pricing, which directly changes the DSCR outcome for the same property. A wholesale broker can run your specific property through 200+ lender rate sheets to identify the loan structure that produces the strongest DSCR ratio.</p>
+                <p className="text-slate-600">Different DSCR lenders use different rate pricing, which directly changes the DSCR outcome for the same property. A wholesale broker can run your specific property through 50+ Wholesale Lenders to identify the loan structure that produces the strongest DSCR ratio.</p>
               </div>
             </div>
           </div>
@@ -416,7 +416,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
         <section className="mb-12">
           <LeadMagnetCTA
             title="Free: California DSCR Market Analysis"
-            description="Tell us your target market and budget. We&apos;ll run your specific scenario through 200+ DSCR lenders and identify which programs offer the strongest terms for your California investment."
+            description="Tell us your target market and budget. We&apos;ll run your specific scenario through 50+ Wholesale Lenders and identify which programs offer the strongest terms for your California investment."
             href="/contact"
             badge="Free DSCR analysis"
             ctaText="Request market analysis"
@@ -606,7 +606,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
               <div>
                 <h4 className="font-bold text-slate-900 mb-1">Model Multiple Loan Structures</h4>
                 <p className="text-slate-600">
-                  The same property produces different DSCR ratios depending on down payment amount, loan program (fixed vs. ARM), and lender pricing. A property that shows 0.92 DSCR at 25% down with one lender might show 1.05 DSCR at 25% down with a different lender&apos;s pricing, or 1.10 DSCR at 30% down with the first lender. Running scenarios across multiple lenders is why working with a wholesale broker who accesses 200+ DSCR programs provides a structural advantage.
+                  The same property produces different DSCR ratios depending on down payment amount, loan program (fixed vs. ARM), and lender pricing. A property that shows 0.92 DSCR at 25% down with one lender might show 1.05 DSCR at 25% down with a different lender&apos;s pricing, or 1.10 DSCR at 30% down with the first lender. Running scenarios across multiple lenders is why working with a wholesale broker who accesses 50+ Wholesale Lenders provides a structural advantage.
                 </p>
               </div>
             </div>
@@ -784,7 +784,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
             <div className="border-b border-slate-200 pb-4">
               <h3 className="text-lg font-semibold text-slate-900 mb-2">What is the minimum DSCR ratio to qualify for a loan in California?</h3>
               <p className="text-slate-600">
-                <strong>Most DSCR lenders require a minimum 1.0 ratio, though some offer programs at 0.75 with compensating factors like larger down payments.</strong> The minimum DSCR varies by lender, and a wholesale broker with access to 200+ DSCR programs identifies the widest range of options for each investor&apos;s specific property and market.
+                <strong>Most DSCR lenders require a minimum 1.0 ratio, though some offer programs at 0.75 with compensating factors like larger down payments.</strong> The minimum DSCR varies by lender, and a wholesale broker with access to 50+ Wholesale Lenders identifies the widest range of options for each investor&apos;s specific property and market.
               </p>
             </div>
             <div className="border-b border-slate-200 pb-4">
@@ -857,7 +857,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
               California&apos;s investment landscape supports multiple DSCR strategies, but the critical first step is defining whether you prioritize cash flow, appreciation, or a hybrid approach. Cash flow investors thrive in the Inland Empire, Sacramento, and Central Valley where DSCR ratios of 1.1-1.3+ are achievable on standard leverage. Appreciation-focused investors target coastal markets using sub-1.0 DSCR programs or STR income to qualify. Active operators maximize returns in vacation markets like Palm Springs and Big Bear where STR DSCR ratios can exceed 1.5 in peak seasons.
             </p>
             <p className="text-lg text-slate-300 mb-6">
-              Regardless of market, the financing structure determines whether a deal pencils. Different DSCR lenders price California markets differently &mdash; some add overlays for specific counties, others specialize in high-balance coastal deals, and others focus on investor-friendly inland markets. Working with a wholesale broker who accesses 200+ DSCR lenders ensures you find the program with the strongest terms for your specific property and market.
+              Regardless of market, the financing structure determines whether a deal pencils. Different DSCR lenders price California markets differently &mdash; some add overlays for specific counties, others specialize in high-balance coastal deals, and others focus on investor-friendly inland markets. Working with a wholesale broker who accesses 50+ Wholesale Lenders ensures you find the program with the strongest terms for your specific property and market.
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-8">
               <div className="bg-white/10 rounded-lg p-4">

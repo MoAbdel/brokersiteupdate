@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Manhattan Beach Cash-Out Refinance 2026 | Access Home Equity | Mo Abdel',
-  description: 'Manhattan Beach cash-out refinance 2026: Access your home equity through wholesale channels. 200+ lenders for competitive rates on luxury coastal properties. NMLS #1426884.',
+  description: 'Manhattan Beach cash-out refinance 2026: Access your home equity through wholesale channels. 50+ Wholesale Lenders for competitive rates on luxury coastal properties. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Manhattan Beach Cash-Out Refinance 2026 | Access Home Equity',
-    description: 'Manhattan Beach cash-out refinance guide: Access home equity through wholesale broker channels with 200+ lenders.',
+    description: 'Manhattan Beach cash-out refinance guide: Access home equity through wholesale broker channels with 50+ Wholesale Lenders.',
     type: 'article',
     publishedTime: '2026-01-21',
     authors: ['Mo Abdel'],
@@ -126,7 +126,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Manhattan Beach homeowners can access substantial home equity through cash-out refinancing by working with a wholesale mortgage broker who shops 200+ lenders for competitive pricing. With median home values exceeding $3 million in 2026, Manhattan Beach properties often hold significant untapped equity that can be converted to cash for renovations, investments, or debt consolidation—typically at more favorable terms than through retail banks or home equity lines of credit.
+                        Manhattan Beach homeowners can access substantial home equity through cash-out refinancing by working with a wholesale mortgage broker who shops 50+ Wholesale Lenders for competitive pricing. With median home values exceeding $3 million in 2026, Manhattan Beach properties often hold significant untapped equity that can be converted to cash for renovations, investments, or debt consolidation—typically at more favorable terms than through retail banks or home equity lines of credit.
                     </p>
                 </div>
 
@@ -148,7 +148,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                 </p>
                 <ol>
                     <li><strong>Equity Assessment</strong> - Determine your current home value and existing loan balance</li>
-                    <li><strong>Loan Shopping</strong> - Wholesale broker compares options from 200+ lenders</li>
+                    <li><strong>Loan Shopping</strong> - Wholesale broker compares options from 50+ Wholesale Lenders</li>
                     <li><strong>Application</strong> - Submit income, asset, and property documentation</li>
                     <li><strong>Appraisal</strong> - Professional appraisal confirms Manhattan Beach property value</li>
                     <li><strong>Underwriting</strong> - Lender reviews complete loan file</li>
@@ -340,7 +340,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                     Manhattan Beach's strong property values have created exceptional equity positions for homeowners. Whether you're planning a major renovation, consolidating debt, or seizing an investment opportunity, a cash-out refinance through wholesale channels can provide competitive pricing and expert guidance.
                 </p>
                 <p>
-                    Contact us today for a personalized cash-out refinance analysis. We'll evaluate your equity position, compare options from 200+ lenders, and identify the optimal solution for your financial goals.
+                    Contact us today for a personalized cash-out refinance analysis. We'll evaluate your equity position, compare options from 50+ Wholesale Lenders, and identify the optimal solution for your financial goals.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">

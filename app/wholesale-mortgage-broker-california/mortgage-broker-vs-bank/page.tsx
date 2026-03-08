@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Mortgage Broker vs Bank: Which Is Better in 2026? | California Guide',
-  description: 'Compare mortgage brokers vs banks for your California home loan. Brokers access 200+ lenders for better rates. Banks offer single-source simplicity. See which wins.',
+  description: 'Compare mortgage brokers vs banks for your California home loan. Brokers access 50+ Wholesale Lenders for better rates. Banks offer single-source simplicity. See which wins.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank',
     languages: {
@@ -56,7 +56,7 @@ export default function MortgageBrokerVsBankPage() {
                 "name": "Is it better to get a mortgage through a broker or a bank?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For most borrowers, mortgage brokers provide better outcomes: lower rates (0.125-0.375% on average), more program options (200+ lenders), and personalized service. Banks may suit borrowers with existing relationships or those seeking construction loans."
+                  "text": "For most borrowers, mortgage brokers provide better outcomes: lower rates (0.125-0.375% on average), more program options (50+ Wholesale Lenders), and personalized service. Banks may suit borrowers with existing relationships or those seeking construction loans."
                 }
               },
               {
@@ -88,7 +88,7 @@ export default function MortgageBrokerVsBankPage() {
                 "name": "Should I get pre-approved by a bank or mortgage broker first?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Getting pre-approved by a mortgage broker provides more flexibility—your pre-approval is based on guidelines from 200+ lenders, not just one institution. If one lender declines, your broker can quickly pivot to alternatives."
+                  "text": "Getting pre-approved by a mortgage broker provides more flexibility—your pre-approval is based on guidelines from 50+ Wholesale Lenders, not just one institution. If one lender declines, your broker can quickly pivot to alternatives."
                 }
               },
               {
@@ -131,7 +131,7 @@ export default function MortgageBrokerVsBankPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            The choice between a mortgage broker and a bank is one of the most impactful financial decisions you&apos;ll make during the home buying process. <strong>Mortgage brokers</strong> access wholesale pricing from 200+ lenders, creating competition that drives rates down. <strong>Banks</strong> offer only their own products with no competitive shopping. For most California borrowers, brokers deliver measurably better outcomes: lower rates, more options, and personalized service. According to Mo Abdel (NMLS #1426884), &quot;The rate difference between wholesale brokers and retail banks typically saves borrowers $10,000-30,000 over the life of their loan.&quot;
+            The choice between a mortgage broker and a bank is one of the most impactful financial decisions you&apos;ll make during the home buying process. <strong>Mortgage brokers</strong> access wholesale pricing from 50+ Wholesale Lenders, creating competition that drives rates down. <strong>Banks</strong> offer only their own products with no competitive shopping. For most California borrowers, brokers deliver measurably better outcomes: lower rates, more options, and personalized service. According to Mo Abdel (NMLS #1426884), &quot;The rate difference between wholesale brokers and retail banks typically saves borrowers $10,000-30,000 over the life of their loan.&quot;
           </p>
         </div>
 
@@ -170,7 +170,7 @@ export default function MortgageBrokerVsBankPage() {
             <tbody>
               <tr>
                 <td className="px-4 py-2 border-b font-semibold">Lender Access</td>
-                <td className="px-4 py-2 border-b text-blue-700">200+ wholesale lenders</td>
+                <td className="px-4 py-2 border-b text-blue-700">50+ Wholesale Lenders</td>
                 <td className="px-4 py-2 border-b text-red-700">1 lender (their own)</td>
               </tr>
               <tr>
@@ -495,7 +495,7 @@ export default function MortgageBrokerVsBankPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Is it better to get a mortgage through a broker or a bank?</h3>
             <p className="mb-0">
-              For most borrowers, mortgage brokers provide better outcomes: lower rates (0.125-0.375% on average), more program options (200+ lenders), and personalized service. Banks may suit borrowers with existing relationships or those seeking construction loans.
+              For most borrowers, mortgage brokers provide better outcomes: lower rates (0.125-0.375% on average), more program options (50+ Wholesale Lenders), and personalized service. Banks may suit borrowers with existing relationships or those seeking construction loans.
             </p>
           </div>
 
@@ -523,7 +523,7 @@ export default function MortgageBrokerVsBankPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Should I get pre-approved by a bank or mortgage broker first?</h3>
             <p className="mb-0">
-              Getting pre-approved by a mortgage broker provides more flexibility—your pre-approval is based on guidelines from 200+ lenders, not just one institution. If one lender declines, your broker can quickly pivot to alternatives.
+              Getting pre-approved by a mortgage broker provides more flexibility—your pre-approval is based on guidelines from 50+ Wholesale Lenders, not just one institution. If one lender declines, your broker can quickly pivot to alternatives.
             </p>
           </div>
 
@@ -550,7 +550,7 @@ export default function MortgageBrokerVsBankPage() {
             <ul className="list-none pl-0 mb-0 space-y-2">
               <li><Link href="/wholesale-mortgage-broker-california" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage" className="text-blue-600 hover:underline">Wholesale vs Retail Mortgage</Link></li>
-              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">The 200+ Lender Advantage</Link></li>
+              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/how-to-get-wholesale-rates" className="text-blue-600 hover:underline">How to Get Wholesale Rates</Link></li>
             </ul>
           </div>

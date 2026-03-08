@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Yorba Linda Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-  description: 'Access wholesale mortgage rates in Yorba Linda through 200+ lenders. Serving Black Gold Estates, Yorba Linda Highlands, Hidden Hills. Jumbo loans, bank statement programs. NMLS #1426884.',
+  title: 'Yorba Linda Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+  description: 'Access wholesale mortgage rates in Yorba Linda through 50+ Wholesale Lenders. Serving Black Gold Estates, Yorba Linda Highlands, Hidden Hills. Jumbo loans, bank statement programs. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-yorba-linda',
     languages: {
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Yorba Linda Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    description: 'Access wholesale mortgage rates in Yorba Linda through 200+ lenders. Jumbo loans, bank statement programs, DSCR investor financing.',
+    title: 'Yorba Linda Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    description: 'Access wholesale mortgage rates in Yorba Linda through 50+ Wholesale Lenders. Jumbo loans, bank statement programs, DSCR investor financing.',
     type: 'article',
     publishedTime: '2026-02-02',
     authors: ['Mo Abdel'],
@@ -28,7 +28,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Yorba Linda Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Yorba Linda Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -42,7 +42,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
             },
             "datePublished": "2026-02-02",
             "dateModified": "2026-02-02",
-            "description": "Comprehensive guide to wholesale mortgage broker services in Yorba Linda, CA. Access 200+ lenders for better rates on jumbo loans, bank statement programs, and refinances."
+            "description": "Comprehensive guide to wholesale mortgage broker services in Yorba Linda, CA. Access 50+ Wholesale Lenders for better rates on jumbo loans, bank statement programs, and refinances."
           })
         }}
       />
@@ -92,7 +92,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
                 "name": "What is a wholesale mortgage broker in Yorba Linda?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Yorba Linda is a licensed professional who shops your loan across 200+ wholesale lenders to find competitive rates and programs. Given Yorba Linda's median home price of approximately $1.3 million, most buyers need jumbo loan expertise. Wholesale brokers access 20+ jumbo lenders with institutional pricing unavailable through retail banks."
+                  "text": "A wholesale mortgage broker in Yorba Linda is a licensed professional who shops your loan across 50+ Wholesale Lenders to find competitive rates and programs. Given Yorba Linda's median home price of approximately $1.3 million, most buyers need jumbo loan expertise. Wholesale brokers access 20+ jumbo lenders with institutional pricing unavailable through retail banks."
                 }
               },
               {
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
       <header className="mb-8">
         <p className="text-blue-600 font-medium mb-2">Yorba Linda Mortgage Guide</p>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Yorba Linda Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Yorba Linda Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-xl text-gray-600">
           Access wholesale mortgage rates for Black Gold Estates, Yorba Linda Highlands, Hidden Hills & all Yorba Linda neighborhoods

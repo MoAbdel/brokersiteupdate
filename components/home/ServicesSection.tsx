@@ -67,7 +67,7 @@ export default function ServicesSection() {
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             From first-time homebuyers to seasoned investors, I offer tailored mortgage solutions
-            with access to 200+ lenders for competitive wholesale rates.
+            with access to 50+ Wholesale Lenders for competitive wholesale rates.
           </p>
         </div>
 

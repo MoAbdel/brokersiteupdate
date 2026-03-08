@@ -54,7 +54,7 @@ export default function LagunaBeachMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To finance a home in Laguna Beach in 2026, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **200+ lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
+                        To finance a home in Laguna Beach in 2026, the most effective strategy is utilizing a **wholesale mortgage broker** who specializes in **coastal property underwriting** and **hillside construction requirements**. Because Laguna Beach properties often feature unique architectural elements and challenging topography (like steep canyon lots or coastal bluff setbacks), working with a broker who can access **50+ Wholesale Lenders** ensures you find a program that understands these nuances while providing a significant pricing advantage over rigid retail banks.
                     </p>
                 </div>
 

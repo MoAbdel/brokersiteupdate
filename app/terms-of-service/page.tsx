@@ -87,7 +87,7 @@ export default function TermsOfServicePage() {
             <p className="text-slate-700 mb-4">We provide the following mortgage broker services:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Mortgage loan consultation and application assistance</li>
-              <li>Access to lending network (200+ lenders)</li>
+              <li>Access to lending network (50+ Wholesale Lenders)</li>
               <li>Loan program comparison and recommendations</li>
               <li>Pre-approval and pre-qualification services</li>
               <li>Rate and term analysis</li>

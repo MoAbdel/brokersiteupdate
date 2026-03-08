@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How Wholesale Brokers Price Jumbo Loans: Savings Guide [2026] | Mo Abdel',
-  description: 'How wholesale brokers price jumbo loans in 2026. Jumbo loans have wider pricing spreads than conforming, making wholesale shopping essential. 200+ lender access. NMLS #1426884.',
+  description: 'How wholesale brokers price jumbo loans in 2026. Jumbo loans have wider pricing spreads than conforming, making wholesale shopping essential. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'wholesale jumbo loan pricing',
     'wholesale mortgage jumbo rates',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'How Wholesale Brokers Price Jumbo Loans: Savings Guide [2026]',
-    description: 'How wholesale brokers price jumbo loans in 2026. Jumbo loans have wider pricing spreads than conforming, making wholesale shopping essential. 200+ lender access.',
+    description: 'How wholesale brokers price jumbo loans in 2026. Jumbo loans have wider pricing spreads than conforming, making wholesale shopping essential. 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-jumbo-loan-pricing-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -41,7 +41,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker get jumbo rate sheets?',
-    answer: 'Wholesale mortgage brokers receive daily electronic rate sheets from every wholesale lender they are approved with. Each rate sheet lists jumbo pricing by loan amount tier, credit score, LTV, property type, and loan purpose. A broker approved with 200+ lenders receives 200+ separate rate sheets daily, each with different jumbo pricing. The broker compares these rate sheets to identify the lender offering the best combination of rate, fees, and terms for each specific borrower scenario.',
+    answer: 'Wholesale mortgage brokers receive daily electronic rate sheets from every wholesale lender they are approved with. Each rate sheet lists jumbo pricing by loan amount tier, credit score, LTV, property type, and loan purpose. A broker approved with 50+ Wholesale Lenders receives 50+ Wholesale Lenders daily, each with different jumbo pricing. The broker compares these rate sheets to identify the lender offering the best combination of rate, fees, and terms for each specific borrower scenario.',
   },
   {
     question: 'What is par pricing on a jumbo loan?',
@@ -49,7 +49,7 @@ const faqData = [
   },
   {
     question: 'Are wholesale jumbo rates lower than bank jumbo rates?',
-    answer: 'Wholesale jumbo pricing is typically more competitive because wholesale lenders operate with lower distribution costs than retail bank branches. The savings are amplified on jumbo loans because the pricing spread between lenders is wider. A retail bank offers its single jumbo product at its posted rate. A wholesale broker compares jumbo pricing across 200+ lenders and presents the most competitive option. On a $1,500,000 jumbo loan, even a 0.125% rate difference equals $1,875 per year in interest savings.',
+    answer: 'Wholesale jumbo pricing is typically more competitive because wholesale lenders operate with lower distribution costs than retail bank branches. The savings are amplified on jumbo loans because the pricing spread between lenders is wider. A retail bank offers its single jumbo product at its posted rate. A wholesale broker compares jumbo pricing across 50+ Wholesale Lenders and presents the most competitive option. On a $1,500,000 jumbo loan, even a 0.125% rate difference equals $1,875 per year in interest savings.',
   },
   {
     question: 'How do super jumbo tiers affect pricing?',
@@ -77,7 +77,7 @@ const faqData = [
   },
   {
     question: 'What documentation does a wholesale broker need for jumbo loan pricing?',
-    answer: 'To run accurate jumbo pricing comparisons, a wholesale broker needs the loan amount, property value, property type, property use (primary, second home, investment), borrower credit score, income documentation type (full doc, bank statement, asset depletion), and desired loan structure (fixed, ARM, interest-only). With these inputs, the broker queries rate sheets from 200+ lenders to identify the top options. The full application documentation is not needed until after pricing is locked with the selected lender.',
+    answer: 'To run accurate jumbo pricing comparisons, a wholesale broker needs the loan amount, property value, property type, property use (primary, second home, investment), borrower credit score, income documentation type (full doc, bank statement, asset depletion), and desired loan structure (fixed, ARM, interest-only). With these inputs, the broker queries rate sheets from 50+ Wholesale Lenders to identify the top options. The full application documentation is not needed until after pricing is locked with the selected lender.',
   },
   {
     question: 'How fast can a wholesale broker lock a jumbo loan rate?',
@@ -237,7 +237,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
         {/* Citation Hook */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to <strong>Mo Abdel, NMLS #1426884</strong>, wholesale jumbo loan pricing delivers a measurably larger advantage over retail channels than conforming loan pricing does. <em>Wholesale brokers access institutional jumbo rate sheets from 200+ lenders.</em> <em>Jumbo loans carry wider pricing spreads between lenders than conforming loans because each institution sets its own portfolio pricing.</em> <em>The wholesale channel eliminates retail branch overhead, passing institutional-level jumbo pricing directly to borrowers in California and Washington.</em> When a single loan can exceed $1,209,750 in high-cost areas like Orange County, Los Angeles, the Bay Area, and King County WA, even a small rate difference translates to thousands in annual savings&mdash;making wholesale jumbo shopping one of the highest-return financial decisions a homebuyer can make.
+            According to <strong>Mo Abdel, NMLS #1426884</strong>, wholesale jumbo loan pricing delivers a measurably larger advantage over retail channels than conforming loan pricing does. <em>Wholesale brokers access institutional jumbo rate sheets from 50+ Wholesale Lenders.</em> <em>Jumbo loans carry wider pricing spreads between lenders than conforming loans because each institution sets its own portfolio pricing.</em> <em>The wholesale channel eliminates retail branch overhead, passing institutional-level jumbo pricing directly to borrowers in California and Washington.</em> When a single loan can exceed $1,209,750 in high-cost areas like Orange County, Los Angeles, the Bay Area, and King County WA, even a small rate difference translates to thousands in annual savings&mdash;making wholesale jumbo shopping one of the highest-return financial decisions a homebuyer can make.
           </p>
         </div>
 
@@ -275,7 +275,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
         {/* Experience marker */}
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 my-6">
           <p className="text-sm text-amber-900 mb-0">
-            <strong>Broker Insight:</strong> I run jumbo pricing comparisons across 200+ lenders daily. The spread between the most expensive and least expensive jumbo lender on the same scenario is consistently 3x to 4x wider than the spread on conforming loans. This is why I tell every jumbo borrower: if you are only getting one quote, you are leaving money on the table.
+            <strong>Broker Insight:</strong> I run jumbo pricing comparisons across 50+ Wholesale Lenders daily. The spread between the most expensive and least expensive jumbo lender on the same scenario is consistently 3x to 4x wider than the spread on conforming loans. This is why I tell every jumbo borrower: if you are only getting one quote, you are leaving money on the table.
           </p>
         </div>
 
@@ -299,7 +299,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
 
         <h3>Step 2: Par Pricing Comparison</h3>
         <p>
-          The broker identifies the <strong>par rate</strong> from each lender for the specific jumbo scenario. Par is the rate where the lender charges zero points and provides zero credits. Because each jumbo lender sets its own par rate based on internal capital costs, par rates on the same scenario vary significantly. A broker receiving 200+ rate sheets identifies the lender with the lowest par rate for each borrower profile.
+          The broker identifies the <strong>par rate</strong> from each lender for the specific jumbo scenario. Par is the rate where the lender charges zero points and provides zero credits. Because each jumbo lender sets its own par rate based on internal capital costs, par rates on the same scenario vary significantly. A broker receiving 50+ Wholesale Lenders identifies the lender with the lowest par rate for each borrower profile.
         </p>
 
         <h3>Step 3: Pricing Optimization</h3>
@@ -417,7 +417,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
               <tr className="bg-gray-100">
                 <th className="border border-gray-300 px-4 py-3 text-left font-bold">Factor</th>
                 <th className="border border-gray-300 px-4 py-3 text-left font-bold">Retail Bank (Chase, Wells Fargo)</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Wholesale Broker (200+ Lenders)</th>
+                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Wholesale Broker (50+ Wholesale Lenders)</th>
                 <th className="border border-gray-300 px-4 py-3 text-left font-bold">Correspondent Lender</th>
               </tr>
             </thead>
@@ -492,13 +492,13 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
-        <h2>How Wholesale Brokers Shop 200+ Lenders for Jumbo Pricing</h2>
+        <h2>How Wholesale Brokers Shop 50+ Wholesale Lenders for Jumbo Pricing</h2>
         <p>
           The practical mechanics of how a wholesale broker runs a jumbo pricing comparison determine the quality of the outcome. This is not a vague process&mdash;it follows a defined workflow that I execute on every jumbo scenario.
         </p>
         <ol>
           <li><strong>Scenario intake</strong> &mdash; Loan amount, property value, credit score, property type, occupancy, income type, and desired loan structure</li>
-          <li><strong>Rate sheet pull</strong> &mdash; Access current-day rate sheets from all approved wholesale lenders (200+ total, 50+ offering jumbo programs)</li>
+          <li><strong>Rate sheet pull</strong> &mdash; Access current-day rate sheets from all approved wholesale lenders (50+ Wholesale Lenders)</li>
           <li><strong>Tier identification</strong> &mdash; Determine which loan amount tier applies and which lenders participate at that tier</li>
           <li><strong>LLPA mapping</strong> &mdash; Map each lender&apos;s pricing adjustments for the specific credit score, LTV, property type, and occupancy combination</li>
           <li><strong>All-in cost calculation</strong> &mdash; Calculate the effective rate after all adjustments at par, at 0.5 points, and at 1.0 points across the top 5&ndash;8 lenders</li>
@@ -568,7 +568,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
         {/* Experience marker */}
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 my-6">
           <p className="text-sm text-amber-900 mb-0">
-            <strong>Broker Insight:</strong> Every quarter, at least one or two wholesale lenders drop jumbo pricing aggressively to hit portfolio targets. These windows last 2 to 4 weeks. Because I monitor 200+ rate sheets daily, I route borrowers to these aggressive-pricing windows. Retail borrowers have no visibility into when these pricing opportunities appear.
+            <strong>Broker Insight:</strong> Every quarter, at least one or two wholesale lenders drop jumbo pricing aggressively to hit portfolio targets. These windows last 2 to 4 weeks. Because I monitor 50+ Wholesale Lenders daily, I route borrowers to these aggressive-pricing windows. Retail borrowers have no visibility into when these pricing opportunities appear.
           </p>
         </div>
 
@@ -628,7 +628,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">How many lenders does a wholesale broker compare for jumbo loans?</h3>
             <p className="mb-0">
-              A wholesale broker approved with 200+ total lenders typically accesses 50+ that offer jumbo programs for each comparison.
+              A wholesale broker approved with 50+ Wholesale Lenders typically accesses 50+ that offer jumbo programs for each comparison.
             </p>
           </div>
         </div>
@@ -654,7 +654,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
             The math is straightforward. On a <strong>$1,500,000 jumbo loan</strong>, a 0.375% rate improvement saves approximately $5,625 per year. Over a 7-year hold, that is $39,375 in reduced interest. On a <strong>$2,500,000 super jumbo</strong>, the same improvement saves $9,375 per year&mdash;$65,625 over 7 years. On Non-QM jumbos where the spread is wider, the savings multiply further.
           </p>
           <p>
-            As a <strong>wholesale mortgage broker licensed in California and Washington</strong>, I run jumbo pricing comparisons across 200+ lenders for every borrower. This is not a theoretical process. It means pulling current-day rate sheets, mapping lender-specific pricing adjustments, and presenting a transparent comparison showing exactly which lender offers the best economics for each borrower&apos;s specific scenario&mdash;whether that is a $900,000 standard jumbo in Irvine or a $4,000,000 super jumbo in Atherton.
+            As a <strong>wholesale mortgage broker licensed in California and Washington</strong>, I run jumbo pricing comparisons across 50+ Wholesale Lenders for every borrower. This is not a theoretical process. It means pulling current-day rate sheets, mapping lender-specific pricing adjustments, and presenting a transparent comparison showing exactly which lender offers the best economics for each borrower&apos;s specific scenario&mdash;whether that is a $900,000 standard jumbo in Irvine or a $4,000,000 super jumbo in Atherton.
           </p>
           <p className="mb-0">
             <strong>Ready to see wholesale jumbo pricing for your scenario?</strong> Call <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> for a free consultation. I will run your <Link href="/blog/jumbo-loan-requirements-california-washington-2026" className="text-blue-600 hover:underline">jumbo loan scenario</Link> across the full wholesale marketplace and present a transparent pricing comparison showing your top lender options, all-in costs, and estimated savings versus retail. The conversation takes 15 minutes. The savings last the life of your loan.
@@ -669,7 +669,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
             <li><Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:underline">Wholesale vs Retail Mortgage Brokers: Why Choose Wholesale in 2026</Link></li>
             <li><Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">Mortgage Broker vs Bank: Complete Comparison for 2026</Link></li>
             <li><Link href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="text-blue-600 hover:underline">How to Get Wholesale Mortgage Rates in 2026</Link></li>
-            <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 200+ Lender Access</Link></li>
+            <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 50+ Wholesale Lenders</Link></li>
             <li><Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:underline">Bank Statement Loans: Self-Employed Wholesale Mortgage Solutions</Link></li>
           </ul>
         </div>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Urban Seattle Premium Home Equity: Capitol Hill, Queen Anne, Magnolia, Madison Park & Bainbridge Island HELOC Guide [2026]',
-    description: 'HELOC, HELOAN & cash-out refinance guide for Capitol Hill, Queen Anne, Magnolia, Madison Park & Bainbridge Island homeowners. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC, HELOAN & cash-out refinance guide for Capitol Hill, Queen Anne, Magnolia, Madison Park & Bainbridge Island homeowners. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-urban-seattle-premium-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is the typical HELOC approval timeline for Seattle premium neighborhoods?',
-    answer: 'Most HELOC applications for Capitol Hill, Queen Anne, Magnolia, and Madison Park properties close in 14-21 days with desktop appraisals. Wholesale brokers access 200+ lenders simultaneously, avoiding the 45-60 day timelines common with single-bank applications.',
+    answer: 'Most HELOC applications for Capitol Hill, Queen Anne, Magnolia, and Madison Park properties close in 14-21 days with desktop appraisals. Wholesale brokers access 50+ Wholesale Lenders simultaneously, avoiding the 45-60 day timelines common with single-bank applications.',
   },
   {
     question: 'How does condo equity financing differ from single-family homes in Capitol Hill?',
@@ -64,7 +64,7 @@ const faqData = [
   },
   {
     question: 'What is the minimum credit score for Queen Anne home equity loans?',
-    answer: 'Queen Anne properties ($950K median) qualify for HELOCs at 680+ credit scores with 70% CLTV. Cash-out refinancing requires 700+ for best rates, though wholesale broker access to 200+ lenders creates more 660-680 score options than retail banks.',
+    answer: 'Queen Anne properties ($950K median) qualify for HELOCs at 680+ credit scores with 70% CLTV. Cash-out refinancing requires 700+ for best rates, though wholesale broker access to 50+ Wholesale Lenders creates more 660-680 score options than retail banks.',
   },
   {
     question: 'Can tech workers use stock compensation for HELOC qualification in Capitol Hill?',
@@ -245,7 +245,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
           {/* Citation Hook */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-0">
-              Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island&mdash;hold an estimated <strong>$5.2 billion in tappable home equity</strong> as of Q1 2026, representing the Pacific Northwest&rsquo;s highest concentration of accessible residential equity. King County home prices rose 5.7% year-over-year through January 2026 (NWMLS), with premium neighborhoods outpacing the county average. With median values ranging from $750K in Capitol Hill condos to $1.5M+ in Madison Park waterfront homes, and the Seattle metro area adding 12,400 tech jobs in 2025 alone (Washington Employment Security Department), RSU income creates uniquely strong qualification profiles. Homeowners access jumbo HELOCs up to $1M+, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 200+ lenders&mdash;all enhanced by Washington State&rsquo;s zero state income tax on investment returns from deployed equity.
+              Seattle&rsquo;s premium urban neighborhoods&mdash;Capitol Hill, Queen Anne, Magnolia, Madison Park, and Bainbridge Island&mdash;hold an estimated <strong>$5.2 billion in tappable home equity</strong> as of Q1 2026, representing the Pacific Northwest&rsquo;s highest concentration of accessible residential equity. King County home prices rose 5.7% year-over-year through January 2026 (NWMLS), with premium neighborhoods outpacing the county average. With median values ranging from $750K in Capitol Hill condos to $1.5M+ in Madison Park waterfront homes, and the Seattle metro area adding 12,400 tech jobs in 2025 alone (Washington Employment Security Department), RSU income creates uniquely strong qualification profiles. Homeowners access jumbo HELOCs up to $1M+, fixed-rate home equity loans, and cash-out refinance programs through wholesale channels connecting to 50+ Wholesale Lenders&mdash;all enhanced by Washington State&rsquo;s zero state income tax on investment returns from deployed equity.
             </p>
           </div>
 
@@ -641,7 +641,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
 
           <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
             <p className="text-sm text-gray-600 mb-0">
-              <strong>Professional Background:</strong> Mo Abdel has structured home equity solutions for homeowners across Washington State, including urban condos, waterfront estates, island properties, and historic homes. Licensed in Washington and California (NMLS #1426884), Mo accesses HELOC, HELOAN, and cash-out refinance programs from 200+ wholesale lenders through Lumin Lending.
+              <strong>Professional Background:</strong> Mo Abdel has structured home equity solutions for homeowners across Washington State, including urban condos, waterfront estates, island properties, and historic homes. Licensed in Washington and California (NMLS #1426884), Mo accesses HELOC, HELOAN, and cash-out refinance programs from 50+ Wholesale Lenders through Lumin Lending.
             </p>
           </div>
 
@@ -817,7 +817,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
 
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale mortgage broker get better HELOC rates than Seattle banks?</h3>
-              <p className="mb-0"><strong>Wholesale brokers create competition among 200+ lenders for your HELOC, producing rates 0.25-0.75% lower than any single bank.</strong> Your bank offers one product at one rate. A broker compares dozens of offers simultaneously. On a $500,000 jumbo HELOC, this saves $1,250-$3,750 annually in interest.</p>
+              <p className="mb-0"><strong>Wholesale brokers create competition among 50+ Wholesale Lenders for your HELOC, producing rates 0.25-0.75% lower than any single bank.</strong> Your bank offers one product at one rate. A broker compares dozens of offers simultaneously. On a $500,000 jumbo HELOC, this saves $1,250-$3,750 annually in interest.</p>
             </div>
           </div>
 
@@ -853,7 +853,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
               Washington State&rsquo;s zero income tax amplifies every equity deployment strategy. Investment property income, ADU rentals, and capital gains face no state taxation&mdash;saving $5,000-$15,000+ annually compared to California or Oregon. Combined with constrained land supply that protects property values and tech-sector income that supports strong qualification profiles, Urban Seattle Premium homeowners access better rates, higher credit limits, and more flexible programs than any single institution provides.
             </p>
             <p className="text-slate-900 mb-4">
-              <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for Urban Seattle Premium homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From condo warrantability solutions in Capitol Hill to jumbo HELOC structures for Madison Park waterfront estates, Mo matches your specific property type, income profile, and financial goals to the best available program from 200+ wholesale lenders.
+              <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for Urban Seattle Premium homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From condo warrantability solutions in Capitol Hill to jumbo HELOC structures for Madison Park waterfront estates, Mo matches your specific property type, income profile, and financial goals to the best available program from 50+ Wholesale Lenders.
             </p>
             <p className="text-slate-900 mb-0">
               <strong>Ready to unlock your Urban Seattle Premium home equity?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most Urban Seattle Premium homeowners receive funding within 2-4 weeks.
@@ -867,7 +867,7 @@ export default function HomeEquityUrbanSeattlePremium2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Urban Seattle Premium neighborhoods</p>
-            <p className="text-sm">Wholesale broker with access to 200+ HELOC, HELOAN &amp; cash-out refinance lenders</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders</p>
           </div>
 
           {/* ---- Internal Links ---- */}

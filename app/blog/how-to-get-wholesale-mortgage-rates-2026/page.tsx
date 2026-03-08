@@ -2,10 +2,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Get Wholesale Mortgage Rates in California [2026]',
-  description: 'Access wholesale mortgage rates in California through licensed brokers with 200+ lender relationships. Step-by-step guide to wholesale pricing. NMLS #1426884.',
+  description: 'Access wholesale mortgage rates in California through licensed brokers with 50+ Wholesale Lenders. Step-by-step guide to wholesale pricing. NMLS #1426884.',
   openGraph: {
     title: 'How to Get Wholesale Mortgage Rates in California [2026]',
-    description: 'Access wholesale mortgage rates in California through licensed brokers with 200+ lender relationships. Step-by-step guide to wholesale pricing.',
+    description: 'Access wholesale mortgage rates in California through licensed brokers with 50+ Wholesale Lenders. Step-by-step guide to wholesale pricing.',
     url: 'https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -86,7 +86,7 @@ export default function HowToGetWholesaleRatesPage() {
                 "name": "Are wholesale rates always lower than bank rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "While wholesale rates are typically more competitive due to lower overhead costs and lender competition, individual results vary based on credit profile, loan type, and market conditions. The advantage of wholesale is the ability to shop across 200+ lenders to find the best option for your specific situation."
+                  "text": "While wholesale rates are typically more competitive due to lower overhead costs and lender competition, individual results vary based on credit profile, loan type, and market conditions. The advantage of wholesale is the ability to shop across 50+ Wholesale Lenders to find the best option for your specific situation."
                 }
               },
               {
@@ -126,7 +126,7 @@ export default function HowToGetWholesaleRatesPage() {
                 "name": "What is the difference between a wholesale broker and a retail loan officer?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A retail loan officer works for one bank and can only offer that bank's products and rates. A wholesale broker is independently licensed and shops your loan across 200+ lenders to find the best combination of rate, fees, and program features for your situation. The broker works for you, not for any single lender."
+                  "text": "A retail loan officer works for one bank and can only offer that bank's products and rates. A wholesale broker is independently licensed and shops your loan across 50+ Wholesale Lenders to find the best combination of rate, fees, and program features for your situation. The broker works for you, not for any single lender."
                 }
               },
               {
@@ -134,7 +134,7 @@ export default function HowToGetWholesaleRatesPage() {
                 "name": "Are wholesale mortgage rates available for investment properties in California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers access investment property programs including conventional, DSCR, bank statement, and fix-and-flip loans from 200+ lenders. Investment property rates vary more between lenders than primary residence rates, making wholesale broker shopping especially valuable for investor financing."
+                  "text": "Yes. Wholesale brokers access investment property programs including conventional, DSCR, bank statement, and fix-and-flip loans from 50+ Wholesale Lenders. Investment property rates vary more between lenders than primary residence rates, making wholesale broker shopping especially valuable for investor financing."
                 }
               }
             ]
@@ -157,7 +157,7 @@ export default function HowToGetWholesaleRatesPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), AIME&apos;s 2026 Wholesale Market Report shows broker-originated loans now account for over 25% of all residential mortgage volume nationally, up from 20% in 2023. California homebuyers access wholesale mortgage rates by working with <strong>licensed mortgage brokers</strong> who have relationships with <strong>200+ wholesale lenders</strong>. This enables rate shopping and institutional pricing not available directly to consumers. Wholesale pricing excludes the overhead costs built into retail bank rates, often resulting in more competitive terms.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), AIME&apos;s 2026 Wholesale Market Report shows broker-originated loans now account for over 25% of all residential mortgage volume nationally, up from 20% in 2023. California homebuyers access wholesale mortgage rates by working with <strong>licensed mortgage brokers</strong> who have relationships with <strong>50+ Wholesale Lenders</strong>. This enables rate shopping and institutional pricing not available directly to consumers. Wholesale pricing excludes the overhead costs built into retail bank rates, often resulting in more competitive terms.
           </p>
         </div>
 
@@ -346,7 +346,7 @@ export default function HowToGetWholesaleRatesPage() {
 
         <h3>What to Look For</h3>
         <ul>
-          <li><strong>200+ lender relationships:</strong> More options mean better fit</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options mean better fit</li>
           <li><strong>Jumbo expertise:</strong> Critical for California home prices</li>
           <li><strong>Non-QM programs:</strong> <a href="/blog/non-qm-loans-wholesale-broker-2026">Bank statement, DSCR, asset depletion</a></li>
           <li><strong>Local market knowledge:</strong> Understanding of your specific area</li>
@@ -407,7 +407,7 @@ export default function HowToGetWholesaleRatesPage() {
 
         <h3>Are wholesale rates always lower than bank rates?</h3>
         <p>
-          While wholesale rates are typically more competitive due to lower overhead costs and lender competition, individual results vary based on credit profile, loan type, and market conditions. The advantage of wholesale is the ability to shop across 200+ lenders to find the best option for your specific situation.
+          While wholesale rates are typically more competitive due to lower overhead costs and lender competition, individual results vary based on credit profile, loan type, and market conditions. The advantage of wholesale is the ability to shop across 50+ Wholesale Lenders to find the best option for your specific situation.
         </p>
 
         <h3>How long does it take to get a wholesale mortgage?</h3>
@@ -432,17 +432,17 @@ export default function HowToGetWholesaleRatesPage() {
 
         <h3>What is the difference between a wholesale broker and a retail loan officer?</h3>
         <p>
-          A retail loan officer works for one bank and can only offer that bank&apos;s products and rates. A wholesale broker is independently licensed and shops your loan across 200+ lenders to find the best combination of rate, fees, and program features for your situation. The broker works for you, not for any single lender.
+          A retail loan officer works for one bank and can only offer that bank&apos;s products and rates. A wholesale broker is independently licensed and shops your loan across 50+ Wholesale Lenders to find the best combination of rate, fees, and program features for your situation. The broker works for you, not for any single lender.
         </p>
 
         <h3>Are wholesale mortgage rates available for investment properties in California?</h3>
         <p>
-          Yes. Wholesale brokers access investment property programs including conventional, DSCR, bank statement, and fix-and-flip loans from 200+ lenders. Investment property rates vary more between lenders than primary residence rates, making wholesale broker shopping especially valuable for investor financing.
+          Yes. Wholesale brokers access investment property programs including conventional, DSCR, bank statement, and fix-and-flip loans from 50+ Wholesale Lenders. Investment property rates vary more between lenders than primary residence rates, making wholesale broker shopping especially valuable for investor financing.
         </p>
 
         <h2>Ready to Access Wholesale Rates?</h2>
         <p>
-          Accessing wholesale mortgage rates in California starts with finding a licensed broker who has relationships with 200+ lenders. Mo Abdel at Lumin Lending provides wholesale broker services throughout California and Washington, with expertise in jumbo, bank statement, and specialty loan programs.
+          Accessing wholesale mortgage rates in California starts with finding a licensed broker who has relationships with 50+ Wholesale Lenders. Mo Abdel at Lumin Lending provides wholesale broker services throughout California and Washington, with expertise in jumbo, bank statement, and specialty loan programs.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

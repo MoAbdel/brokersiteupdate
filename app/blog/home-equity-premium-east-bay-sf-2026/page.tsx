@@ -157,7 +157,7 @@ export default function HomeEquityPremiumEastBaySF() {
         name: 'How does a wholesale broker find better HELOC rates than my bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares HELOC products from 200+ lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in SF and the Premium East Bay, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option.',
+          text: 'A wholesale broker compares HELOC products from 50+ Wholesale Lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in SF and the Premium East Bay, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option.',
         },
       },
     ],
@@ -244,7 +244,7 @@ export default function HomeEquityPremiumEastBaySF() {
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Premium East Bay &amp; San Francisco Tappable Equity</p>
             <p className="text-gray-800 mb-0">
-              Homeowners across San Francisco, Piedmont, Orinda, Lafayette, and Moraga hold an estimated <strong>$38 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on county assessor valuations and average outstanding mortgage balances. With median home values ranging from $1.5 million in San Francisco to $2.5 million in Piedmont, individual homeowners hold between <strong>$400,000 and $1.6 million+ in accessible equity</strong> depending on property value, purchase timing, and existing liens. This equity funds renovations, consolidates high-interest debt, finances investment property down payments, covers private school tuition, or provides liquidity during career transitions&mdash;all without selling the property. Wholesale broker access to 200+ lenders ensures Premium East Bay and SF homeowners find the optimal equity product at the most competitive terms available in the market.
+              Homeowners across San Francisco, Piedmont, Orinda, Lafayette, and Moraga hold an estimated <strong>$38 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on county assessor valuations and average outstanding mortgage balances. With median home values ranging from $1.5 million in San Francisco to $2.5 million in Piedmont, individual homeowners hold between <strong>$400,000 and $1.6 million+ in accessible equity</strong> depending on property value, purchase timing, and existing liens. This equity funds renovations, consolidates high-interest debt, finances investment property down payments, covers private school tuition, or provides liquidity during career transitions&mdash;all without selling the property. Wholesale broker access to 50+ Wholesale Lenders ensures Premium East Bay and SF homeowners find the optimal equity product at the most competitive terms available in the market.
             </p>
           </div>
 
@@ -850,7 +850,7 @@ export default function HomeEquityPremiumEastBaySF() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker find better HELOC rates than my bank?</h3>
-              <p>A wholesale broker compares HELOC products from 200+ lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in SF and the Premium East Bay, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option available.</p>
+              <p>A wholesale broker compares HELOC products from 50+ Wholesale Lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in SF and the Premium East Bay, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option available.</p>
             </div>
           </div>
 
@@ -876,7 +876,7 @@ export default function HomeEquityPremiumEastBaySF() {
           <div id="expert-summary" className="expert-summary bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold mt-0 mb-4">Access Your Premium East Bay &amp; San Francisco Home Equity</h2>
             <p>
-              San Francisco and Premium East Bay homeowners hold extraordinary equity&mdash;$400,000 to $2 million or more&mdash;that can fund renovations, consolidate debt, finance investments, cover education costs, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the optimal product for your situation. Whether you own a Pacific Heights brownstone, a Piedmont Hills estate, a Sleepy Hollow ranch in Orinda, a Happy Valley home in Lafayette, or a Sanders Ranch property in Moraga, I deliver competitive equity access terms that single-bank products cannot match. From TIC-specific HELOC programs in San Francisco to trust-vested jumbo HELOCs in Lamorinda, wholesale channels solve the property-type and income-complexity challenges that define this corridor.
+              San Francisco and Premium East Bay homeowners hold extraordinary equity&mdash;$400,000 to $2 million or more&mdash;that can fund renovations, consolidate debt, finance investments, cover education costs, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 50+ Wholesale Lenders to find the optimal product for your situation. Whether you own a Pacific Heights brownstone, a Piedmont Hills estate, a Sleepy Hollow ranch in Orinda, a Happy Valley home in Lafayette, or a Sanders Ranch property in Moraga, I deliver competitive equity access terms that single-bank products cannot match. From TIC-specific HELOC programs in San Francisco to trust-vested jumbo HELOCs in Lamorinda, wholesale channels solve the property-type and income-complexity challenges that define this corridor.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
             <p className="text-lg mb-1">(949) 579-2057</p>

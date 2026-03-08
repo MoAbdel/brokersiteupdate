@@ -47,7 +47,7 @@ const faqData = [
   },
   {
     question: 'How does a HELOC bridge strategy affect my debt-to-income ratio?',
-    answer: 'A HELOC bridge strategy impacts your DTI because lenders count both your existing mortgage payment and the HELOC payment when you apply for the new home purchase loan. During the draw period, most HELOCs require interest-only payments, which keeps the additional DTI impact lower than a fully amortizing second mortgage. A wholesale broker can structure the timing to minimize DTI impact across 200+ lender programs.',
+    answer: 'A HELOC bridge strategy impacts your DTI because lenders count both your existing mortgage payment and the HELOC payment when you apply for the new home purchase loan. During the draw period, most HELOCs require interest-only payments, which keeps the additional DTI impact lower than a fully amortizing second mortgage. A wholesale broker can structure the timing to minimize DTI impact across 50+ Wholesale Lenders.',
   },
   {
     question: 'What is the difference between a bridge loan and a HELOC for buying a new home?',
@@ -87,7 +87,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with HELOC bridge financing?',
-    answer: 'A wholesale mortgage broker with access to 200+ lenders can secure HELOC terms that retail banks do not offer, including higher CLTV ratios, faster closing timelines, and programs that accept unseasoned HELOC draws for purchase financing. The broker can also coordinate the HELOC, purchase mortgage, and eventual sale payoff as an integrated strategy, ensuring all moving parts align.',
+    answer: 'A wholesale mortgage broker with access to 50+ Wholesale Lenders can secure HELOC terms that retail banks do not offer, including higher CLTV ratios, faster closing timelines, and programs that accept unseasoned HELOC draws for purchase financing. The broker can also coordinate the HELOC, purchase mortgage, and eventual sale payoff as an integrated strategy, ensuring all moving parts align.',
   },
 ];
 
@@ -249,7 +249,7 @@ export default function HelocBridgeFinancingHomePurchasePage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <p className="font-semibold text-gray-900 mb-2">Planning to Buy Before You Sell?</p>
           <p className="text-gray-700">
-            Mo Abdel structures HELOC bridge strategies across 200+ lenders to find the optimal combination of rate, CLTV, and closing speed for your situation. <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Get a free HELOC bridge strategy session</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">(949) 579-2057</a> to start planning.
+            Mo Abdel structures HELOC bridge strategies across 50+ Wholesale Lenders to find the optimal combination of rate, CLTV, and closing speed for your situation. <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Get a free HELOC bridge strategy session</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">(949) 579-2057</a> to start planning.
           </p>
         </div>
 
@@ -385,7 +385,7 @@ export default function HelocBridgeFinancingHomePurchasePage() {
           <li><strong>List your current home before closing on the new one:</strong> Some lenders will exclude the departing residence payment from DTI if the home is listed with a realtor and has a pending contract or documented market demand</li>
           <li><strong>Show rental income potential:</strong> If your current home could generate rental income, some lenders will credit 75% of projected rental income against the existing mortgage payment in DTI calculations</li>
           <li><strong>Minimize the HELOC draw:</strong> Draw only the amount needed for the down payment rather than the maximum available. This keeps the interest-only payment as low as possible</li>
-          <li><strong>Choose a lender with higher DTI thresholds:</strong> Through a wholesale broker&apos;s 200+ lender network, you can find programs that accept DTI ratios up to 50% with compensating factors like high credit scores and significant reserves</li>
+          <li><strong>Choose a lender with higher DTI thresholds:</strong> Through a wholesale broker&apos;s 50+ Wholesale Lenders, you can find programs that accept DTI ratios up to 50% with compensating factors like high credit scores and significant reserves</li>
           <li><strong>Use reserves as a compensating factor:</strong> Demonstrating 6-12 months of mortgage reserves for both properties strengthens your application and can offset higher DTI with certain lenders</li>
         </ol>
 
@@ -393,7 +393,7 @@ export default function HelocBridgeFinancingHomePurchasePage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <p className="font-semibold text-gray-900 mb-2">Worried About Qualifying With Two Mortgages?</p>
           <p className="text-gray-700">
-            Mo Abdel runs detailed DTI scenarios across 200+ lender programs to find the combination that qualifies you for both the HELOC and the new purchase mortgage. <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Schedule a DTI strategy session</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">(949) 579-2057</a>.
+            Mo Abdel runs detailed DTI scenarios across 50+ Wholesale Lenders to find the combination that qualifies you for both the HELOC and the new purchase mortgage. <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Schedule a DTI strategy session</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">(949) 579-2057</a>.
           </p>
         </div>
 
@@ -523,7 +523,7 @@ export default function HelocBridgeFinancingHomePurchasePage() {
         </p>
 
         <ol className="list-decimal pl-6 space-y-2">
-          <li><strong>HELOC product variety:</strong> Access to 200+ lenders means finding HELOCs with the highest CLTV, lowest fees, fastest closing, and most favorable draw terms for bridge purposes</li>
+          <li><strong>HELOC product variety:</strong> Access to 50+ Wholesale Lenders means finding HELOCs with the highest CLTV, lowest fees, fastest closing, and most favorable draw terms for bridge purposes</li>
           <li><strong>Coordinated underwriting:</strong> The broker manages both the HELOC and purchase mortgage applications, ensuring approval requirements align and one does not jeopardize the other</li>
           <li><strong>DTI optimization:</strong> With knowledge of each lender&apos;s DTI policies, the broker selects the purchase lender most likely to approve your application with the HELOC obligation included</li>
           <li><strong>Seasoning flexibility:</strong> Some wholesale lenders do not require HELOC funds to be seasoned in your account, while retail banks may require 60-day seasoning. The broker identifies the best fit</li>
@@ -601,7 +601,7 @@ export default function HelocBridgeFinancingHomePurchasePage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Buy Before You Sell? Get Expert HELOC Bridge Guidance</h2>
           <p className="text-gray-700">
-            &quot;A HELOC bridge strategy turns your home equity into a competitive advantage in today&apos;s market. I coordinate the HELOC, purchase mortgage, and sale payoff as one unified plan across 200+ lenders &mdash; so you buy the home you want on your timeline, not the market&apos;s.&quot;
+            &quot;A HELOC bridge strategy turns your home equity into a competitive advantage in today&apos;s market. I coordinate the HELOC, purchase mortgage, and sale payoff as one unified plan across 50+ Wholesale Lenders &mdash; so you buy the home you want on your timeline, not the market&apos;s.&quot;
           </p>
           <p className="mt-4">
             <strong>Contact Mo Abdel today</strong> at{' '}

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92673 | San Clemente SE | Jumbo Loan Specialists',
-  description: 'San Clemente wholesale mortgage broker serving 92673. Access 200+ lenders for jumbo loans, VA programs near Camp Pendleton. NMLS #1426884.',
+  description: 'San Clemente wholesale mortgage broker serving 92673. Access 50+ Wholesale Lenders for jumbo loans, VA programs near Camp Pendleton. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92673',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92673 | San Clemente Jumbo Loan Specialists',
-    description: 'San Clemente wholesale mortgage broker with 200+ lenders for jumbo and VA loans.',
+    description: 'San Clemente wholesale mortgage broker with 50+ Wholesale Lenders for jumbo and VA loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92673',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92673Page() {
                 "name": "Why choose a wholesale broker for San Clemente coastal homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "San Clemente's coastal properties often require jumbo financing and specialized appraisals. A wholesale broker accesses 200+ lenders competing for your business, delivering better rates than banks and lenders experienced with coastal property valuations."
+                  "text": "San Clemente's coastal properties often require jumbo financing and specialized appraisals. A wholesale broker accesses 50+ Wholesale Lenders competing for your business, delivering better rates than banks and lenders experienced with coastal property valuations."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92673Page() {
           Wholesale Mortgage Broker 92673 | San Clemente Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for San Clemente&apos;s coastal lifestyle community
+          Access wholesale rates and 50+ Wholesale Lenders for San Clemente&apos;s coastal lifestyle community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            San Clemente 92673 offers the &quot;Spanish Village by the Sea&quot; lifestyle with a <strong>$1.4 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92673 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than banks—plus expertise with VA jumbo loans for military families near Camp Pendleton and second home financing for coastal buyers.
+            San Clemente 92673 offers the &quot;Spanish Village by the Sea&quot; lifestyle with a <strong>$1.4 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92673 buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates than banks—plus expertise with VA jumbo loans for military families near Camp Pendleton and second home financing for coastal buyers.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92673Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker for San Clemente coastal homes?</h3>
-            <p className="mb-0">San Clemente&apos;s coastal properties often require jumbo financing and specialized appraisals. A wholesale broker accesses 200+ lenders competing for your business, delivering better rates than banks and lenders experienced with coastal property valuations.</p>
+            <p className="mb-0">San Clemente&apos;s coastal properties often require jumbo financing and specialized appraisals. A wholesale broker accesses 50+ Wholesale Lenders competing for your business, delivering better rates than banks and lenders experienced with coastal property valuations.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92673 does your wholesale brokerage serve?</h3>

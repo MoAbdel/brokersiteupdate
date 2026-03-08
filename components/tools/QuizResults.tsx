@@ -259,7 +259,7 @@ function GatedReportSection({ report }: { report: ReturnType<typeof getGatedQuiz
         <CardContent className="p-6 text-center">
           <h3 className="text-lg font-bold text-white mb-2">Ready to Move Forward?</h3>
           <p className="text-sm text-slate-300 mb-4">
-            Mo Abdel accesses 200+ wholesale lenders — one application gives you the full market.
+            Mo Abdel accesses 50+ Wholesale Lenders — one application gives you the full market.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link

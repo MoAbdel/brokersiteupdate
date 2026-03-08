@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates & Home Equity Guide | Mo Abdel',
-  description: 'Yorba Linda mortgage broker serving the Land of Gracious Living since 2009. Jumbo loans, home equity, and wholesale rates from 200+ lenders. $1.3M median — get your free quote today. NMLS #1426884.',
+  description: 'Yorba Linda mortgage broker serving the Land of Gracious Living since 2009. Jumbo loans, home equity, and wholesale rates from 50+ Wholesale Lenders. $1.3M median — get your free quote today. NMLS #1426884.',
   keywords: ['Yorba Linda mortgage broker', 'Yorba Linda home loans', 'Yorba Linda mortgage rates 2026', 'wholesale mortgage Yorba Linda', 'Yorba Linda jumbo loan', 'Yorba Linda refinance rates', 'Yorba Linda FHA loan', 'Yorba Linda VA loan', 'Land of Gracious Living mortgage', 'Yorba Linda school district homes', 'Yorba Linda Estates financing', 'Black Gold Yorba Linda mortgage', 'Placentia-Yorba Linda USD homes', 'Yorba Linda property tax mortgage', 'self-employed mortgage Yorba Linda'],
   openGraph: {
     title: 'Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates & Home Equity Guide',
-    description: 'Yorba Linda mortgage broker rates 2026: Access 200+ wholesale lenders for luxury home financing. Free rate comparison.',
+    description: 'Yorba Linda mortgage broker rates 2026: Access 50+ Wholesale Lenders for luxury home financing. Free rate comparison.',
     url: 'https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -59,7 +59,7 @@ const faqData = [
   },
   {
     question: "Is a wholesale mortgage broker better than a bank for Yorba Linda homes?",
-    answer: "Wholesale brokers access 200+ lender rate sheets simultaneously, while banks offer only their own products. In our Yorba Linda closings, buyers who use wholesale channels consistently save on origination fees and secure more competitive terms—especially on jumbo loans above the $1,209,750 conforming limit. A wholesale broker also provides a single point of contact through closing."
+    answer: "Wholesale brokers access 50+ Wholesale Lenders simultaneously, while banks offer only their own products. In our Yorba Linda closings, buyers who use wholesale channels consistently save on origination fees and secure more competitive terms—especially on jumbo loans above the $1,209,750 conforming limit. A wholesale broker also provides a single point of contact through closing."
   },
   {
     question: "How does a HELOC work for Yorba Linda homeowners in 2026?",
@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: "How do Yorba Linda equestrian properties affect mortgage financing?",
-    answer: "Yorba Linda's Horse Country properties with equestrian facilities, riding arenas, or large lots (1+ acres) require lenders experienced with rural-residential hybrid properties. Not all lenders appraise horse property improvements correctly. Wholesale broker access identifies the 15-20 lenders (from 200+) who properly underwrite equestrian estate financing, ensuring barn structures, riding arenas, and paddock improvements are factored into property valuation."
+    answer: "Yorba Linda's Horse Country properties with equestrian facilities, riding arenas, or large lots (1+ acres) require lenders experienced with rural-residential hybrid properties. Not all lenders appraise horse property improvements correctly. Wholesale broker access identifies the 15-20 lenders (from 50+ Wholesale Lenders) who properly underwrite equestrian estate financing, ensuring barn structures, riding arenas, and paddock improvements are factored into property valuation."
   }
 ];
 
@@ -154,7 +154,7 @@ export default function YorbaLindaMortgageGuide2026() {
           <ul className="text-sm text-gray-700 space-y-1 mb-0">
             <li>Yorba Linda median home price → reached $1.3M in Q1 2026 → 62% of purchases require jumbo financing</li>
             <li>Placentia-Yorba Linda USD → drives 12-18% home value premium → strongest school district correlation in North OC</li>
-            <li>Wholesale jumbo access → 200+ lender network → saves Yorba Linda buyers compared to single-bank applications</li>
+            <li>Wholesale jumbo access → 50+ Wholesale Lenders → saves Yorba Linda buyers compared to single-bank applications</li>
           </ul>
         </div>
       </div>
@@ -177,7 +177,7 @@ export default function YorbaLindaMortgageGuide2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Yorba Linda median home prices exceed $1.3M in early 2026, with luxury neighborhoods like Black Gold and Horse Country reaching $2M+. An estimated 62% of Yorba Linda purchases now require jumbo financing above the $1,209,750 conforming limit. Wholesale mortgage brokers access 200+ lenders simultaneously&mdash;shopping your loan across the full market to deliver pricing that single-bank applications cannot match.
+              Yorba Linda median home prices exceed $1.3M in early 2026, with luxury neighborhoods like Black Gold and Horse Country reaching $2M+. An estimated 62% of Yorba Linda purchases now require jumbo financing above the $1,209,750 conforming limit. Wholesale mortgage brokers access 50+ Wholesale Lenders simultaneously&mdash;shopping your loan across the full market to deliver pricing that single-bank applications cannot match.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -473,7 +473,7 @@ export default function YorbaLindaMortgageGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel shops 200+ lenders simultaneously for your best Yorba Linda jumbo or conforming rate.</p>
+                  <p className="text-slate-600">Mo Abdel shops 50+ Wholesale Lenders simultaneously for your best Yorba Linda jumbo or conforming rate.</p>
                 </div>
               </li>
               <li className="flex gap-4">

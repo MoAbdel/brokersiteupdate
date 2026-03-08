@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Garden Grove Wholesale Mortgage Broker | 200+ Lenders | Mo Abdel',
-  description: 'Garden Grove wholesale mortgage broker with 200+ lender access. First-time buyer programs, FHA, conventional & competitive rates. NMLS #1426884.',
+  title: 'Garden Grove Wholesale Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel',
+  description: 'Garden Grove wholesale mortgage broker with 50+ Wholesale Lenders. First-time buyer programs, FHA, conventional & competitive rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-garden-grove-2026',
     languages: {
@@ -21,7 +21,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Garden Grove Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Garden Grove Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -49,7 +49,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
                 "name": "What is a wholesale mortgage broker in Garden Grove?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Garden Grove is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for borrowers in this diverse Orange County community."
+                  "text": "A wholesale mortgage broker in Garden Grove is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for borrowers in this diverse Orange County community."
                 }
               },
               {
@@ -65,7 +65,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
                 "name": "How do Garden Grove wholesale rates compare to local banks?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 200+ lenders who compete for your business in Garden Grove."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 50+ Wholesale Lenders who compete for your business in Garden Grove."
                 }
               },
               {
@@ -91,7 +91,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Garden Grove Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Garden Grove Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-lg text-gray-600">
           Access wholesale pricing and first-time buyer expertise for Orange County&apos;s diverse value market
@@ -101,7 +101,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Garden Grove homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than local banks. With Garden Grove median home prices around $850K, buyers benefit from competitive conforming loan options and extensive first-time buyer programs that wholesale brokers provide.
+            Garden Grove homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than local banks. With Garden Grove median home prices around $850K, buyers benefit from competitive conforming loan options and extensive first-time buyer programs that wholesale brokers provide.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
         <h3>The Wholesale Advantage in Garden Grove</h3>
         <ul>
-          <li><strong>200+ Lender Access:</strong> More options than any single bank can offer</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank can offer</li>
           <li><strong>First-Time Buyer Programs:</strong> FHA, conventional 97, down payment assistance</li>
           <li><strong>Rate Shopping:</strong> Lender competition drives better pricing</li>
           <li><strong>Program Variety:</strong> Bank statement, VA, FHA, conventional loans</li>
@@ -156,7 +156,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
           <li>3-20% down payment options</li>
           <li>Conventional 97 program for 3% down</li>
           <li>No upfront mortgage insurance like FHA</li>
-          <li>Rate shopping across 200+ lenders</li>
+          <li>Rate shopping across 50+ Wholesale Lenders</li>
         </ul>
 
         <h3>VA Loans</h3>
@@ -222,7 +222,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
         <h3>What is a wholesale mortgage broker in Garden Grove?</h3>
         <p>
-          A wholesale mortgage broker in Garden Grove is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for borrowers. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
+          A wholesale mortgage broker in Garden Grove is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for borrowers. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
         </p>
 
         <h3>Are there first-time buyer programs available in Garden Grove?</h3>
@@ -232,7 +232,7 @@ export default function WholesaleMortgageBrokerGardenGrovePage() {
 
         <h3>How do Garden Grove wholesale rates compare to local banks?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for your business.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for your business.
         </p>
 
         <h3>Can self-employed Garden Grove residents get mortgages?</h3>

@@ -31,7 +31,7 @@ const pageEntitySchema = buildBrokerEntityGraph({
   pageUrl: PAGE_URL,
   serviceType: 'Conventional Mortgage Services',
   serviceName: 'Orange County Conventional Loans',
-  serviceDescription: 'Conventional mortgage financing services in Orange County, CA with access to 200+ wholesale lenders for competitive pricing.',
+  serviceDescription: 'Conventional mortgage financing services in Orange County, CA with access to 50+ Wholesale Lenders for competitive pricing.',
 });
 
 const pageSchema = buildServiceWebPageSchema({
@@ -46,7 +46,7 @@ const pageSchema = buildServiceWebPageSchema({
 const faqs = [
   {
     question: 'What is the minimum down payment for a conventional loan in Orange County?',
-    answer: 'First-time buyers put down as little as 3% on conventional loans in Orange County. Repeat buyers typically need 5-10%. The exact amount depends on your credit score, debt-to-income ratio, and the specific loan program. With 200+ wholesale lenders, Mo Abdel matches you with the lowest down payment requirement you qualify for.'
+    answer: 'First-time buyers put down as little as 3% on conventional loans in Orange County. Repeat buyers typically need 5-10%. The exact amount depends on your credit score, debt-to-income ratio, and the specific loan program. With 50+ Wholesale Lenders, Mo Abdel matches you with the lowest down payment requirement you qualify for.'
   },
   {
     question: 'Can I remove private mortgage insurance (PMI) from a conventional loan?',
@@ -78,7 +78,7 @@ const howToSchema = buildHowToSchema({
   totalTime: 'P21D',
   url: PAGE_URL,
   steps: [
-    { name: 'Pre-Qualification', text: 'Quick assessment of your borrowing capacity and rate options from 200+ lenders' },
+    { name: 'Pre-Qualification', text: 'Quick assessment of your borrowing capacity and rate options from 50+ Wholesale Lenders' },
     { name: 'Document Submission', text: 'Provide income, asset, and employment verification through secure upload' },
     { name: 'Underwriting Review', text: 'Comprehensive evaluation with direct wholesale lender communication' },
     { name: 'Closing & Funding', text: 'Final loan approval and funding of your home purchase or refinance' },
@@ -94,7 +94,7 @@ const benefits = [
   {
     icon: TrendingUp,
     title: 'Competitive Interest Pricing',
-    description: 'Access competitive pricing from 200+ lenders to secure the most competitive conventional loan pricing.'
+    description: 'Access competitive pricing from 50+ Wholesale Lenders to secure the most competitive conventional loan pricing.'
   },
   {
     icon: Shield,
@@ -174,7 +174,7 @@ export default function ConventionalLoansOrangeCounty() {
               Conventional Loans in Orange County – Flexible Home Financing
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
-              Get traditional home financing with down payments as low as 3%. Access competitive pricing from 200+ wholesale lenders with flexible terms for your Orange County home purchase.
+              Get traditional home financing with down payments as low as 3%. Access competitive pricing from 50+ Wholesale Lenders with flexible terms for your Orange County home purchase.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -329,7 +329,7 @@ export default function ConventionalLoansOrangeCounty() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { step: 1, title: 'Pre-Qualification', desc: 'Quick assessment of your borrowing capacity and rate options from 200+ lenders' },
+              { step: 1, title: 'Pre-Qualification', desc: 'Quick assessment of your borrowing capacity and rate options from 50+ Wholesale Lenders' },
               { step: 2, title: 'Document Submission', desc: 'Provide income, asset, and employment verification through secure upload' },
               { step: 3, title: 'Underwriting Review', desc: 'Comprehensive evaluation with direct wholesale lender communication' },
               { step: 4, title: 'Closing & Funding', desc: 'Final loan approval and funding of your home purchase or refinance' }
@@ -399,7 +399,7 @@ export default function ConventionalLoansOrangeCounty() {
             Ready to Get Your Conventional Loan in Orange County?
           </h2>
           <p className="text-xl mb-8 text-slate-200">
-            Access competitive pricing from 200+ lenders and get pre-approved in minutes.
+            Access competitive pricing from 50+ Wholesale Lenders and get pre-approved in minutes.
             Mo Abdel makes conventional loans simple and affordable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -252,7 +252,7 @@ export default function HomeEquityNorthSoundGuide2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Professional Background:</strong> Mo Abdel has structured home equity solutions for homeowners across Washington state, including waterfront, island, and specialty property types. Licensed in Washington and California (NMLS #1426884), Mo accesses HELOC and HELOAN programs from 200+ wholesale lenders through Lumin Lending.
+            <strong>Professional Background:</strong> Mo Abdel has structured home equity solutions for homeowners across Washington state, including waterfront, island, and specialty property types. Licensed in Washington and California (NMLS #1426884), Mo accesses HELOC and HELOAN programs from 50+ Wholesale Lenders through Lumin Lending.
           </p>
         </div>
 
@@ -679,7 +679,7 @@ export default function HomeEquityNorthSoundGuide2026() {
             Wholesale broker access delivers measurably better HELOC and HELOAN terms than local bank offerings: lower rates, higher CLTV limits (90% versus 80%), zero closing costs, and flexible qualification for self-employed and seasonal income earners. For waterfront and island property owners, wholesale access includes lenders that actively finance the unique property types that many banks restrict or decline.
           </p>
           <p className="text-slate-900 mb-4">
-            <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for North Sound homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From initial equity assessment through funding, Mo matches your specific property, income profile, and financial goals to the best available HELOC, HELOAN, or cash-out refinance program from 200+ wholesale lenders.
+            <strong>Mo Abdel (NMLS #1426884)</strong> provides personalized home equity analysis for North Sound homeowners through <strong>Lumin Lending (NMLS #2716106)</strong>. From initial equity assessment through funding, Mo matches your specific property, income profile, and financial goals to the best available HELOC, HELOAN, or cash-out refinance program from 50+ Wholesale Lenders.
           </p>
           <p className="text-slate-900 mb-0">
             <strong>Ready to unlock your North Sound home equity?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free equity analysis and HELOC rate comparison. Most North Sound homeowners receive funding within 2-3 weeks.

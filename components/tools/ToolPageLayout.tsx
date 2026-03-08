@@ -41,7 +41,7 @@ export default function ToolPageLayout({
   breadcrumbs,
   faqs,
   internalLinks,
-  ctaText = 'Get a personalized quote from Mo Abdel — access 200+ wholesale lenders with one application.',
+  ctaText = 'Get a personalized quote from Mo Abdel — access 50+ Wholesale Lenders with one application.',
   children,
   schemaJsonLd,
 }: ToolPageLayoutProps) {

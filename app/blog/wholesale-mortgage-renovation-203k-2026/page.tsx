@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Renovation Loans 2026: FHA 203k, HomeStyle & Rehab Programs | Mo Abdel',
-  description: 'Compare FHA 203k Standard vs Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through a wholesale broker. Access 200+ lenders for renovation financing in CA and WA. NMLS #1426884.',
+  description: 'Compare FHA 203k Standard vs Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through a wholesale broker. Access 50+ Wholesale Lenders for renovation financing in CA and WA. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-renovation-203k-2026',
     languages: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Renovation Loans 2026: FHA 203k, HomeStyle & Rehab Programs',
-    description: 'Compare FHA 203k Standard vs Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through a wholesale broker. Access 200+ lenders for renovation financing.',
+    description: 'Compare FHA 203k Standard vs Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through a wholesale broker. Access 50+ Wholesale Lenders for renovation financing.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-renovation-203k-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Wholesale Mortgage Renovation Loans 2026: FHA 203k, HomeStyle & Rehab Programs',
-    description: 'Compare FHA 203k, HomeStyle, and CHOICERenovation through a wholesale broker with 200+ lenders.',
+    description: 'Compare FHA 203k, HomeStyle, and CHOICERenovation through a wholesale broker with 50+ Wholesale Lenders.',
   },
 };
 
@@ -42,7 +42,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with renovation loans?',
-    answer: 'A wholesale broker shops your renovation loan across 200+ lenders to find the best pricing and most flexible guidelines. Renovation loans are specialty products and not all lenders offer them. Brokers identify which lenders approve your specific project type and contractor.',
+    answer: 'A wholesale broker shops your renovation loan across 50+ Wholesale Lenders to find the best pricing and most flexible guidelines. Renovation loans are specialty products and not all lenders offer them. Brokers identify which lenders approve your specific project type and contractor.',
   },
   {
     question: 'What credit score do I need for a renovation mortgage?',
@@ -78,7 +78,7 @@ const faqData = [
   },
   {
     question: 'Does Mo Abdel originate renovation loans in California and Washington?',
-    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) originates FHA 203k, HomeStyle, and CHOICERenovation loans in both California and Washington. Access to 200+ wholesale lenders ensures competitive pricing on renovation financing.',
+    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) originates FHA 203k, HomeStyle, and CHOICERenovation loans in both California and Washington. Access to 50+ Wholesale Lenders ensures competitive pricing on renovation financing.',
   },
 ];
 
@@ -185,7 +185,7 @@ export default function WholesaleMortgageRenovation203k2026() {
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl">
             Finance your home purchase and renovation in a single mortgage. Compare FHA 203k Standard, FHA 203k Limited,
-            Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through a wholesale broker with access to 200+ lenders
+            Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through a wholesale broker with access to 50+ Wholesale Lenders
             in California and Washington.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -435,7 +435,7 @@ export default function WholesaleMortgageRenovation203k2026() {
           <ol className="space-y-3">
             <li className="flex items-start gap-3">
               <span className="bg-green-600 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
-              <span className="text-gray-700"><strong>Contact a wholesale mortgage broker.</strong> Renovation loans are specialty products. A broker with 200+ lenders identifies which lenders offer renovation programs with the best pricing for your project scope.</span>
+              <span className="text-gray-700"><strong>Contact a wholesale mortgage broker.</strong> Renovation loans are specialty products. A broker with 50+ Wholesale Lenders identifies which lenders offer renovation programs with the best pricing for your project scope.</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="bg-green-600 text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold flex-shrink-0">2</span>
@@ -481,7 +481,7 @@ export default function WholesaleMortgageRenovation203k2026() {
         </p>
         <p>
           When Mo Abdel originates a renovation loan through Lumin Lending, the process starts by identifying which
-          wholesale lenders in our 200+ lender network actively write renovation products. Some lenders specialize in
+          wholesale lenders in our 50+ Wholesale Lenders actively write renovation products. Some lenders specialize in
           FHA 203k with dedicated renovation underwriting teams. Others focus on conventional HomeStyle loans for
           higher-value properties. By matching the borrower&apos;s profile and project scope to the right lender,
           we eliminate the most common source of renovation loan failures: submitting to a lender whose renovation
@@ -858,7 +858,7 @@ export default function WholesaleMortgageRenovation203k2026() {
             access to more renovation lenders, better pricing, and experienced guidance through the draw process. Whether
             you need an FHA 203k for a full structural rehabilitation, a HomeStyle loan for a luxury remodel, or a
             CHOICERenovation loan for resilience upgrades, Mo Abdel matches your project to the right wholesale lender
-            from a network of 200+ institutions.
+            from a network of 50+ Wholesale Lenders.
           </p>
           <p className="text-blue-200 mb-6">
             Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) originates renovation mortgages throughout

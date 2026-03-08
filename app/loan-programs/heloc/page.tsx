@@ -50,7 +50,7 @@ export default function HELOCPage() {
       <FinancialProductSchema
         name="Home Equity Line of Credit (HELOC)"
         url="https://www.mothebroker.com/loan-programs/heloc"
-        description="HELOC in California and Washington with up to 90% CLTV, interest-only draw periods of 5-10 years, and competitive variable rates from 200+ wholesale lenders."
+        description="HELOC in California and Washington with up to 90% CLTV, interest-only draw periods of 5-10 years, and competitive variable rates from 50+ Wholesale Lenders."
         loanType="Home Equity Line of Credit"
         maxLTV="90%"
         minCreditScore={680}
@@ -453,7 +453,7 @@ export default function HELOCPage() {
             {
               subject: 'Wholesale HELOC rates through Mo Abdel',
               predicate: 'are sourced from',
-              object: '200+ lenders, giving borrowers access to pricing below retail bank posted rates',
+              object: '50+ Wholesale Lenders, giving borrowers access to pricing below retail bank posted rates',
             },
           ]}
         />

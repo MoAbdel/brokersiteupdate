@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92867 | Villa Park & Orange Park Acres | Jumbo Specialists',
-  description: 'Villa Park wholesale mortgage broker serving 92867. Access 200+ lenders for jumbo loans, self-employed programs & better rates. NMLS #1426884.',
+  description: 'Villa Park wholesale mortgage broker serving 92867. Access 50+ Wholesale Lenders for jumbo loans, self-employed programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92867',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92867 | Villa Park Jumbo Loan Specialists',
-    description: 'Villa Park wholesale mortgage broker with 200+ lenders for jumbo loans up to $3M+.',
+    description: 'Villa Park wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $3M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92867',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBroker92867Page() {
                 "name": "Why choose a wholesale mortgage broker over US Bank in Villa Park?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker accesses 200+ lenders competing for your business, while US Bank offers only their own products. For Villa Park's large-lot estates requiring jumbo financing, this competitive access delivers better rates and more flexible underwriting options."
+                  "text": "A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, while US Bank offers only their own products. For Villa Park's large-lot estates requiring jumbo financing, this competitive access delivers better rates and more flexible underwriting options."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92867Page() {
           Wholesale Mortgage Broker 92867 | Villa Park Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Orange County&apos;s smallest and most exclusive city
+          Access wholesale rates and 50+ Wholesale Lenders for Orange County&apos;s smallest and most exclusive city
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Villa Park 92867 is Orange County&apos;s smallest city with its largest residential lots, featuring a <strong>$1.5 million median home price</strong> and properties up to 20 acres. With the 2026 conforming loan limit at $1,209,750, most Villa Park buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with access to 200+ lenders delivers better rates than US Bank, Union Bank, or First Citizens can offer on their limited product menus.
+            Villa Park 92867 is Orange County&apos;s smallest city with its largest residential lots, featuring a <strong>$1.5 million median home price</strong> and properties up to 20 acres. With the 2026 conforming loan limit at $1,209,750, most Villa Park buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders delivers better rates than US Bank, Union Bank, or First Citizens can offer on their limited product menus.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92867Page() {
 
         <h3>The Conforming Loan Gap</h3>
         <p>
-          The 2026 conforming loan limit of $1,209,750 falls short for most Villa Park purchases. With a $1.5M median price and many homes reaching $2-3M+, the typical 92867 buyer needs a <strong>jumbo loan of $1.2-2.5 million</strong>. Banks like US Bank and Union Bank offer jumbo products, but wholesale brokers access <strong>200+ lenders competing</strong> for your business—delivering better pricing.
+          The 2026 conforming loan limit of $1,209,750 falls short for most Villa Park purchases. With a $1.5M median price and many homes reaching $2-3M+, the typical 92867 buyer needs a <strong>jumbo loan of $1.2-2.5 million</strong>. Banks like US Bank and Union Bank offer jumbo products, but wholesale brokers access <strong>50+ Wholesale Lenders competing</strong> for your business—delivering better pricing.
         </p>
 
         <h2>92867 Real Estate Snapshot</h2>
@@ -272,7 +272,7 @@ export default function WholesaleMortgageBroker92867Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker over US Bank in Villa Park?</h3>
-            <p className="mb-0">A wholesale mortgage broker accesses 200+ lenders competing for your business, while US Bank offers only their own products. For Villa Park&apos;s large-lot estates requiring jumbo financing, this competitive access delivers better rates and more flexible underwriting options.</p>
+            <p className="mb-0">A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, while US Bank offers only their own products. For Villa Park&apos;s large-lot estates requiring jumbo financing, this competitive access delivers better rates and more flexible underwriting options.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers offer bank statement loans in 92867?</h3>

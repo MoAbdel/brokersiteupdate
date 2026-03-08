@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance on a Second Home: 2026 Rules, LTV Limits & Qualification Guide | Mo Abdel NMLS #1426884',
-  description: 'Second home cash out refinance 2026: Fannie Mae 75% max LTV, 6-month seasoning, reserve requirements, and qualification rules. Wholesale broker access to 200+ lenders for vacation home equity. NMLS #1426884.',
+  description: 'Second home cash out refinance 2026: Fannie Mae 75% max LTV, 6-month seasoning, reserve requirements, and qualification rules. Wholesale broker access to 50+ Wholesale Lenders for vacation home equity. NMLS #1426884.',
   keywords: ['second home cash out refinance', 'cash out refinance vacation home', 'second home refinance LTV', 'second home equity access', 'vacation home cash out refinance 2026', 'refinance second home rules'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026',
@@ -170,7 +170,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
               A second home cash-out refinance replaces the existing mortgage on a vacation or secondary property with a larger loan, delivering the equity difference as cash at closing. Fannie Mae caps the loan-to-value ratio at 75% for second home cash-out transactions&mdash;five percentage points lower than the 80% ceiling on primary residences. Borrowers must hold title for at least six months, demonstrate occupancy intent rather than rental use, and carry reserves covering both their primary and second home payments. According to <a href="https://selling-guide.fanniemae.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">Fannie Mae&apos;s Selling Guide</a>, properties classified as second homes must be &quot;suitable for year-round occupancy&quot; and the borrower must maintain &quot;some personal control over the property.&quot;
             </p>
             <p className="text-gray-800">
-              For homeowners in high-appreciation vacation markets across California and Washington, these equity positions represent substantial untapped liquidity. A wholesale broker with access to <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700">200+ lenders</Link> can source conventional conforming programs, jumbo second-home overlays, and non-QM alternatives that most retail banks do not carry&mdash;matching borrowers with the program that delivers the right combination of LTV, reserves, and pricing for their specific property and financial profile.
+              For homeowners in high-appreciation vacation markets across California and Washington, these equity positions represent substantial untapped liquidity. A wholesale broker with access to <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700">50+ Wholesale Lenders</Link> can source conventional conforming programs, jumbo second-home overlays, and non-QM alternatives that most retail banks do not carry&mdash;matching borrowers with the program that delivers the right combination of LTV, reserves, and pricing for their specific property and financial profile.
             </p>
           </div>
 
@@ -449,13 +449,13 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             A second home cash-out refinance converts dormant vacation-property equity into deployable capital&mdash;provided you navigate the 75% LTV ceiling, 6-month seasoning window, dual-property reserve requirements, and occupancy verification correctly. The stacked LLPA adjustments that Fannie Mae applies to second home cash-out transactions make lender selection and credit positioning especially important.
           </p>
           <p>
-            As a wholesale mortgage broker licensed in California and Washington, I access second home cash-out programs from 200+ lenders including conventional, jumbo, and non-QM options. Each lender applies different overlays to Fannie Mae&apos;s baseline guidelines&mdash;meaning the lender your neighbor used may not be the right fit for your property, credit profile, or equity position. I compare programs across the entire wholesale market to match you with the transaction structure that delivers the right LTV, reserves, and pricing for your specific situation.
+            As a wholesale mortgage broker licensed in California and Washington, I access second home cash-out programs from 50+ Wholesale Lenders including conventional, jumbo, and non-QM options. Each lender applies different overlays to Fannie Mae&apos;s baseline guidelines&mdash;meaning the lender your neighbor used may not be the right fit for your property, credit profile, or equity position. I compare programs across the entire wholesale market to match you with the transaction structure that delivers the right LTV, reserves, and pricing for your specific situation.
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
             <h3 className="text-xl font-bold text-blue-900 mb-3">Ready to Access Your Vacation Home Equity?</h3>
             <p className="text-blue-800 mb-4">
-              Get a personalized second home cash-out refinance analysis. I will evaluate your property, compare options from 200+ wholesale lenders, and identify the program that maximizes your equity access while minimizing pricing adjustments.
+              Get a personalized second home cash-out refinance analysis. I will evaluate your property, compare options from 50+ Wholesale Lenders, and identify the program that maximizes your equity access while minimizing pricing adjustments.
             </p>
             <Link
               href="/contact"

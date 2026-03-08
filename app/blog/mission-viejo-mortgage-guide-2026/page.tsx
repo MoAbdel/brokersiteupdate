@@ -4,12 +4,12 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Home, DollarSign, Shield, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 200+ Lenders | Mo Abdel',
-  description: 'Mission Viejo mortgage broker rates 2026: Access 200+ wholesale lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
+  title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 50+ Wholesale Lenders | Mo Abdel',
+  description: 'Mission Viejo mortgage broker rates 2026: Access 50+ Wholesale Lenders for rates below retail banks. Jumbo, FHA, VA loans available. NMLS #1426884.',
   keywords: ['Mission Viejo mortgage broker', 'Mission Viejo home loans', 'Mission Viejo mortgage rates 2026', 'wholesale mortgage Mission Viejo'],
   openGraph: {
-    title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 200+ Lenders',
-    description: 'Mission Viejo mortgage broker rates 2026: Access 200+ wholesale lenders for rates below retail banks. Free rate comparison in 24 hours.',
+    title: 'Mission Viejo Mortgage Broker 2026: Wholesale Rates from 50+ Wholesale Lenders',
+    description: 'Mission Viejo mortgage broker rates 2026: Access 50+ Wholesale Lenders for rates below retail banks. Free rate comparison in 24 hours.',
     url: 'https://www.mothebroker.com/blog/mission-viejo-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What are current mortgage rates in Mission Viejo?",
-    answer: "Mission Viejo mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 200+ lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
+    answer: "Mission Viejo mortgage rates vary by loan type and borrower profile. As a wholesale broker, Mo Abdel accesses 50+ Wholesale Lenders to find competitive rates typically below retail bank offerings. Contact us for a personalized rate quote based on your specific situation."
   },
   {
     question: "How much do I need for a down payment on a Mission Viejo home?",
@@ -43,7 +43,7 @@ const faqData = [
   },
   {
     question: "Why use a mortgage broker instead of a bank in Mission Viejo?",
-    answer: "A wholesale mortgage broker like Mo Abdel shops 200+ lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
+    answer: "A wholesale mortgage broker like Mo Abdel shops 50+ Wholesale Lenders simultaneously, potentially securing better rates than any single bank. Banks offer only their proprietary products at retail pricing with higher overhead costs built in."
   },
   {
     question: "What credit score do I need to buy a home in Mission Viejo?",
@@ -51,7 +51,7 @@ const faqData = [
   },
   {
     question: "Can I refinance my existing Mission Viejo mortgage through a wholesale broker?",
-    answer: "Yes. Whether you want a rate-and-term refinance or cash-out refinance, a wholesale broker compares 200+ lenders simultaneously. Mission Viejo homeowners who purchased before 2022 have built significant equity, making cash-out refinancing an attractive option for home improvements or debt consolidation."
+    answer: "Yes. Whether you want a rate-and-term refinance or cash-out refinance, a wholesale broker compares 50+ Wholesale Lenders simultaneously. Mission Viejo homeowners who purchased before 2022 have built significant equity, making cash-out refinancing an attractive option for home improvements or debt consolidation."
   },
   {
     question: "Are there self-employed mortgage options for Mission Viejo buyers?",
@@ -73,7 +73,7 @@ export default function MissionViejoMortgageGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Mission Viejo Mortgage Broker 2026: Wholesale Rates from 200+ Lenders",
+            "headline": "Mission Viejo Mortgage Broker 2026: Wholesale Rates from 50+ Wholesale Lenders",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -142,7 +142,7 @@ export default function MissionViejoMortgageGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Mission Viejo Mortgage Broker 2026: Access Wholesale Rates from 200+ Lenders
+              Mission Viejo Mortgage Broker 2026: Access Wholesale Rates from 50+ Wholesale Lenders
             </h1>
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
@@ -381,7 +381,7 @@ export default function MissionViejoMortgageGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel compares rates from 200+ lenders to find your best Mission Viejo mortgage option.</p>
+                  <p className="text-slate-600">Mo Abdel compares rates from 50+ Wholesale Lenders to find your best Mission Viejo mortgage option.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -417,7 +417,7 @@ export default function MissionViejoMortgageGuide2026() {
             Ready to Explore Mission Viejo Mortgage Options?
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Get a personalized rate quote from 200+ wholesale lenders. No credit check required for initial consultation. Fast response within 24 hours.
+            Get a personalized rate quote from 50+ Wholesale Lenders. No credit check required for initial consultation. Fast response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

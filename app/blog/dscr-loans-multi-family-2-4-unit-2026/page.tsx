@@ -6,11 +6,11 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR Loans for Multi-Family Properties: 2-4 Unit Financing Guide [2026] | Mo Abdel',
-  description: 'DSCR loans for multi-family 2-4 unit properties in 2026. Duplex, triplex, and fourplex DSCR financing with no income verification. Down payment requirements, DSCR calculation for multiple units, and wholesale rates from 200+ lenders. NMLS #1426884.',
+  description: 'DSCR loans for multi-family 2-4 unit properties in 2026. Duplex, triplex, and fourplex DSCR financing with no income verification. Down payment requirements, DSCR calculation for multiple units, and wholesale rates from 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['DSCR loans multi-family properties', 'DSCR loan duplex triplex fourplex', 'DSCR 2-4 unit financing', 'multi-family DSCR loan requirements', 'small multifamily investment DSCR', 'DSCR loan apartment building 2026'],
   openGraph: {
     title: 'DSCR Loans for Multi-Family Properties: 2-4 Unit Financing Guide [2026]',
-    description: 'How investors finance duplexes, triplexes, and fourplexes with DSCR loans. Multiple income streams, higher DSCR ratios, and wholesale rate access from 200+ lenders.',
+    description: 'How investors finance duplexes, triplexes, and fourplexes with DSCR loans. Multiple income streams, higher DSCR ratios, and wholesale rate access from 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-loans-multi-family-2-4-unit-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -238,7 +238,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
         <section className="mb-12">
           <LeadMagnetCTA
             title="Free: Multi-Family DSCR Analysis"
-            description="Share your target property details and we&apos;ll calculate the projected DSCR ratio, down payment, and rate options across 200+ wholesale DSCR lenders."
+            description="Share your target property details and we&apos;ll calculate the projected DSCR ratio, down payment, and rate options across 50+ Wholesale Lenders."
             href="/contact"
             badge="Free multi-family analysis"
             ctaText="Request DSCR analysis"
@@ -251,7 +251,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
             DSCR Loan Requirements by Unit Count: Duplex vs Triplex vs Fourplex
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            DSCR requirements tighten incrementally as unit count increases. Lenders view higher unit counts as slightly more complex collateral, which translates to higher down payment minimums and, in some cases, higher DSCR thresholds. The table below reflects typical wholesale lender guidelines across the 200+ DSCR lenders accessible through our broker channel.
+            DSCR requirements tighten incrementally as unit count increases. Lenders view higher unit counts as slightly more complex collateral, which translates to higher down payment minimums and, in some cases, higher DSCR thresholds. The table below reflects typical wholesale lender guidelines across the 50+ Wholesale Lenders accessible through our broker channel.
           </p>
 
           <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
@@ -319,7 +319,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
             </div>
           </div>
           <p className="text-sm text-slate-500 italic">
-            Requirements vary by lender. Ranges reflect typical guidelines across 200+ wholesale DSCR lenders as of February 2026. DSCR ratio projections are estimates and actual ratios depend on rents, expenses, and market conditions. Not all borrowers will qualify.
+            Requirements vary by lender. Ranges reflect typical guidelines across 50+ Wholesale Lenders as of February 2026. DSCR ratio projections are estimates and actual ratios depend on rents, expenses, and market conditions. Not all borrowers will qualify.
           </p>
         </section>
 
@@ -657,7 +657,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
                   <li>&bull; 30-year fixed-rate terms available</li>
                   <li>&bull; Standard residential appraisal</li>
                   <li>&bull; Consumer-oriented underwriting</li>
-                  <li>&bull; 200+ wholesale lenders available</li>
+                  <li>&bull; 50+ Wholesale Lenders available</li>
                   <li>&bull; Close in 21&ndash;35 days</li>
                 </ul>
               </div>
@@ -730,7 +730,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
             Multi-family DSCR lending is not standardized. Each lender sets its own guidelines for unit count overlays, DSCR minimums, LTV limits, reserve requirements, and rate adjustments. One lender might cap fourplex LTV at 70% while another offers 75%. One lender requires 12 months of reserves on a triplex while another requires 6. The rate spread between the most and least competitive lender for the same multi-family DSCR scenario can exceed 1.25 percentage points.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            A wholesale mortgage broker with access to 200+ DSCR lenders identifies the optimal lender for each specific multi-family transaction. This is not rate shopping in the traditional sense &mdash; it is matching the property&apos;s unit count, DSCR ratio, borrower credit profile, and LTV to the lender whose specific guidelines produce the best combination of rate, fees, and terms. On a $1,200,000 fourplex loan, a 0.50% rate improvement saves approximately $6,000 per year in interest.
+            A wholesale mortgage broker with access to 50+ Wholesale Lenders identifies the optimal lender for each specific multi-family transaction. This is not rate shopping in the traditional sense &mdash; it is matching the property&apos;s unit count, DSCR ratio, borrower credit profile, and LTV to the lender whose specific guidelines produce the best combination of rate, fees, and terms. On a $1,200,000 fourplex loan, a 0.50% rate improvement saves approximately $6,000 per year in interest.
           </p>
 
           {/* Experience Marker 6 */}
@@ -815,7 +815,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
             Multi-family properties are the most DSCR-efficient asset class in residential real estate. Multiple income streams produce higher DSCR ratios, lower vacancy risk, and stronger cash flow compared to single-family rentals. The result: better rates, more favorable terms, and easier qualification through DSCR programs that require zero personal income documentation.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending structures multi-family DSCR financing across California and Washington, matching each duplex, triplex, and fourplex with the wholesale lender offering the most competitive combination of rate, LTV, and reserve requirements. With access to 200+ DSCR lenders, we identify the program that fits your specific property &mdash; not the one-size-fits-all option a retail lender provides.
+            Mo Abdel at Lumin Lending structures multi-family DSCR financing across California and Washington, matching each duplex, triplex, and fourplex with the wholesale lender offering the most competitive combination of rate, LTV, and reserve requirements. With access to 50+ Wholesale Lenders, we identify the program that fits your specific property &mdash; not the one-size-fits-all option a retail lender provides.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

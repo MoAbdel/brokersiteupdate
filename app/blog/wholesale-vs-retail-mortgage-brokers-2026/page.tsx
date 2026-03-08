@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale vs Retail Mortgage 2026: Why Wholesale Brokers Save You Thousands Over Banks | Mo Abdel',
-  description: 'Wholesale vs retail mortgage brokers compared for 2026: Wholesale brokers access 200+ lenders at institutional pricing, saving borrowers thousands over retail banks and online lenders. NMLS #1426884.',
+  description: 'Wholesale vs retail mortgage brokers compared for 2026: Wholesale brokers access 50+ Wholesale Lenders at institutional pricing, saving borrowers thousands over retail banks and online lenders. NMLS #1426884.',
   keywords: ['wholesale vs retail mortgage', 'wholesale mortgage broker', 'wholesale mortgage rates 2026', 'mortgage broker vs bank', 'wholesale lending channel'],
   openGraph: {
     title: 'Wholesale vs Retail Mortgage 2026: Why Wholesale Brokers Save You Thousands Over Banks',
-    description: 'Wholesale brokers access 200+ lenders at institutional pricing. Compare wholesale vs retail channels for pricing, products, and service in 2026.',
+    description: 'Wholesale brokers access 50+ Wholesale Lenders at institutional pricing. Compare wholesale vs retail channels for pricing, products, and service in 2026.',
     url: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -66,7 +66,7 @@ export default function WholesaleVsRetailMortgagePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        According to Mo Abdel, NMLS #1426884, choosing a <strong>wholesale mortgage broker</strong> over a retail bank in 2026 is the most effective way to access <strong>institutional pricing</strong> and avoid the high overhead costs of traditional branch-based lending. The wholesale channel originated 25.1% of all mortgages by dollar volume in Q3 2025, up from 19.8% in 2022, reflecting growing borrower awareness of wholesale pricing advantages. The AIME (Association of Independent Mortgage Experts) reports that wholesale broker market share reached an all-time high in January 2026, with UWM (United Wholesale Mortgage) alone originating $33.6 billion in Q4 2025 &mdash; a 17% increase over Q3 2025. Unlike retail banks (Chase, Wells Fargo) or online lenders (Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to <strong>200+ lenders</strong>, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles across California and Washington.
+                        According to Mo Abdel, NMLS #1426884, choosing a <strong>wholesale mortgage broker</strong> over a retail bank in 2026 is the most effective way to access <strong>institutional pricing</strong> and avoid the high overhead costs of traditional branch-based lending. The wholesale channel originated 25.1% of all mortgages by dollar volume in Q3 2025, up from 19.8% in 2022, reflecting growing borrower awareness of wholesale pricing advantages. The AIME (Association of Independent Mortgage Experts) reports that wholesale broker market share reached an all-time high in January 2026, with UWM (United Wholesale Mortgage) alone originating $33.6 billion in Q4 2025 &mdash; a 17% increase over Q3 2025. Unlike retail banks (Chase, Wells Fargo) or online lenders (Rocket Mortgage), wholesale brokers operate in a specialized channel that provides direct access to <strong>50+ Wholesale Lenders</strong>, typically resulting in lower interest costs and more flexible underwriting programs for borrowers with unique financial profiles across California and Washington.
                     </p>
                 </div>
 
@@ -81,7 +81,7 @@ export default function WholesaleVsRetailMortgagePage() {
                 </p>
                 <ul>
                     <li>Access to institutional pricing unavailable to retail consumers</li>
-                    <li>Relationships with 200+ lending institutions</li>
+                    <li>Relationships with 50+ Wholesale Lenders</li>
                     <li>Lower overhead costs passed to borrowers</li>
                     <li>Flexibility to match borrowers with optimal lenders</li>
                 </ul>
@@ -174,7 +174,7 @@ export default function WholesaleVsRetailMortgagePage() {
                     </ul>
                     <p><strong>Wholesale Brokers:</strong></p>
                     <ul>
-                        <li>Access to 200+ lenders and hundreds of programs</li>
+                        <li>Access to 50+ Wholesale Lenders and hundreds of programs</li>
                         <li>Specialized products for unique situations</li>
                         <li>Ability to match borrower needs with optimal programs</li>
                     </ul>
@@ -398,7 +398,7 @@ export default function WholesaleVsRetailMortgagePage() {
 
                 <h3>Do wholesale brokers offer the same loan programs as banks?</h3>
                 <p>
-                    Wholesale brokers typically offer MORE loan programs than any single bank. They have access to conventional, FHA, VA, USDA, jumbo, Non-QM, and specialized programs across 200+ lenders. Banks are limited to their own proprietary products.
+                    Wholesale brokers typically offer MORE loan programs than any single bank. They have access to conventional, FHA, VA, USDA, jumbo, Non-QM, and specialized programs across 50+ Wholesale Lenders. Banks are limited to their own proprietary products.
                 </p>
 
                 <h3>Is my information secure with a wholesale broker?</h3>
@@ -418,7 +418,7 @@ export default function WholesaleVsRetailMortgagePage() {
 
                 <h3>How many lenders does a typical wholesale broker work with?</h3>
                 <p>
-                    Experienced wholesale brokers maintain relationships with 200+ lenders, ranging from large institutional investors to specialty non-QM lenders. This network includes conventional, jumbo, FHA, VA, DSCR, bank statement, and foreign national programs. The breadth of lender relationships directly impacts a broker&apos;s ability to find competitive terms for each borrower&apos;s unique situation. In contrast, a retail bank offers only its own proprietary products.
+                    Experienced wholesale brokers maintain relationships with 50+ Wholesale Lenders, ranging from large institutional investors to specialty non-QM lenders. This network includes conventional, jumbo, FHA, VA, DSCR, bank statement, and foreign national programs. The breadth of lender relationships directly impacts a broker&apos;s ability to find competitive terms for each borrower&apos;s unique situation. In contrast, a retail bank offers only its own proprietary products.
                 </p>
 
                 <h3>Are wholesale mortgage rates available in California and Washington?</h3>

@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Jumbo HELOC California 2026: High-Balance Home Equity Lines Over $500K | Mo Abdel',
-  description: 'Jumbo HELOCs in California provide home equity lines from $500K to $5M through wholesale broker access to portfolio lenders. 740+ credit, 60-70% max CLTV. 200+ lenders. NMLS #1426884.',
+  description: 'Jumbo HELOCs in California provide home equity lines from $500K to $5M through wholesale broker access to portfolio lenders. 740+ credit, 60-70% max CLTV. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['jumbo HELOC California', 'high balance HELOC', 'HELOC over 500K', 'jumbo home equity line of credit', 'California jumbo HELOC requirements', 'large HELOC California 2026'],
   openGraph: {
     title: 'Jumbo HELOC California 2026: High-Balance Home Equity Lines Over $500K',
-    description: 'Jumbo HELOCs in California provide home equity lines from $500K to $5M through wholesale broker access to portfolio lenders. 740+ credit, 60-70% max CLTV. 200+ lenders.',
+    description: 'Jumbo HELOCs in California provide home equity lines from $500K to $5M through wholesale broker access to portfolio lenders. 740+ credit, 60-70% max CLTV. 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/jumbo-heloc-california-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -233,7 +233,7 @@ export default function JumboHelocCalifornia2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Three facts define the jumbo HELOC landscape in California for 2026: the median home value in affluent California markets exceeds $1.5 million, making standard HELOC limits inadequate for meaningful equity access. Wholesale broker access to 200+ lenders includes portfolio programs unavailable through any single retail bank. And interest-only payments during the draw period preserve monthly cash flow while providing access to six- and seven-figure credit lines.
+            Three facts define the jumbo HELOC landscape in California for 2026: the median home value in affluent California markets exceeds $1.5 million, making standard HELOC limits inadequate for meaningful equity access. Wholesale broker access to 50+ Wholesale Lenders includes portfolio programs unavailable through any single retail bank. And interest-only payments during the draw period preserve monthly cash flow while providing access to six- and seven-figure credit lines.
           </p>
 
           {/* Jumbo HELOC Tier Comparison Table */}
@@ -401,7 +401,7 @@ export default function JumboHelocCalifornia2026() {
               <div className="bg-emerald-100 text-emerald-700 rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-0.5">4</div>
               <div>
                 <p className="font-semibold text-slate-900">Engage a Wholesale Broker for Lender Matching</p>
-                <p className="text-slate-600">A wholesale mortgage broker compares jumbo HELOC programs across 200+ lenders simultaneously, identifying the portfolio lenders offering the best combination of maximum line amount, margin, draw terms, and fixed-rate conversion options for your specific profile.</p>
+                <p className="text-slate-600">A wholesale mortgage broker compares jumbo HELOC programs across 50+ Wholesale Lenders simultaneously, identifying the portfolio lenders offering the best combination of maximum line amount, margin, draw terms, and fixed-rate conversion options for your specific profile.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -452,7 +452,7 @@ export default function JumboHelocCalifornia2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-8">
-            Through Lumin Lending&apos;s network of 200+ lenders, Mo Abdel identifies the portfolio lenders actively originating jumbo HELOCs in California and Washington &mdash; a pool that shifts as lenders adjust their balance sheet capacity and appetite for different loan sizes throughout the year.
+            Through Lumin Lending&apos;s network of 50+ Wholesale Lenders, Mo Abdel identifies the portfolio lenders actively originating jumbo HELOCs in California and Washington &mdash; a pool that shifts as lenders adjust their balance sheet capacity and appetite for different loan sizes throughout the year.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -662,7 +662,7 @@ export default function JumboHelocCalifornia2026() {
             </p>
 
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-              Mo Abdel, NMLS #1426884, structures jumbo HELOCs through Lumin Lending&apos;s 200+ lender network, matching your equity position, credit profile, and objectives to the portfolio lender offering the optimal line amount, margin, and draw terms. Whether you need $500,000 or $2 million in flexible equity access while preserving your existing first mortgage rate, the wholesale channel provides options that no single retail bank can match.
+              Mo Abdel, NMLS #1426884, structures jumbo HELOCs through Lumin Lending&apos;s 50+ Wholesale Lenders, matching your equity position, credit profile, and objectives to the portfolio lender offering the optimal line amount, margin, and draw terms. Whether you need $500,000 or $2 million in flexible equity access while preserving your existing first mortgage rate, the wholesale channel provides options that no single retail bank can match.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

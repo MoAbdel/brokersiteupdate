@@ -10,7 +10,7 @@ import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'About Mo Abdel | Licensed Orange County Mortgage Broker NMLS #1426884',
-  description: 'Meet Mo Abdel, your trusted Orange County mortgage broker with NMLS #1426884. Access 200+ lenders, 18-day average closings, and expert local knowledge.',
+  description: 'Meet Mo Abdel, your trusted Orange County mortgage broker with NMLS #1426884. Access 50+ Wholesale Lenders, 18-day average closings, and expert local knowledge.',
   alternates: {
     canonical: 'https://www.mothebroker.com/about-mo-abdel-orange-county-mortgage-broker',
     languages: {
@@ -111,7 +111,7 @@ export default function AboutMoAbdelPage() {
               Your Trusted Orange County Mortgage Broker
             </p>
             <p className="text-lg text-blue-600 font-semibold">
-              Orange County Mortgage Broker • 200+ Lender Access
+              Orange County Mortgage Broker • 50+ Wholesale Lenders
             </p>
 
             {/* Quick Contact Bar */}
@@ -163,10 +163,10 @@ export default function AboutMoAbdelPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-slate-700">
                 <p className="mb-4">
-                  As a licensed mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <strong>According to 2025 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</strong> With access to over 200 lenders, I can offer you pricing and equity programs that traditional banks simply cannot match.
+                  As a licensed mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <strong>According to 2025 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</strong> With access to 50+ Wholesale Lenders, I can offer you pricing and equity programs that traditional banks simply cannot match.
                 </p>
                 <p className="mb-4">
-                  Your home is likely your largest asset—let's make it work harder for you. Unlike big banks that push their own products, I work exclusively for you, comparing pricing and terms from 200+ lenders to find the perfect solution for your unique situation.
+                  Your home is likely your largest asset—let's make it work harder for you. Unlike big banks that push their own products, I work exclusively for you, comparing pricing and terms from 50+ Wholesale Lenders to find the perfect solution for your unique situation.
                 </p>
                 <p className="mb-4">
                   Whether you're looking to lower your monthly payments, eliminate PMI, consolidate high-interest debt, or access cash for home improvements, I have the expertise and lender relationships to deliver results. My average closing time of just 18 days means you can start saving sooner.
@@ -284,9 +284,9 @@ export default function AboutMoAbdelPage() {
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Users className="w-8 h-8 text-blue-600" />
                   </div>
-                  <h3 className="text-xl font-bold mb-3">200+ Lender Access</h3>
+                  <h3 className="text-xl font-bold mb-3">50+ Wholesale Lenders</h3>
                   <p className="text-slate-600">
-                    Unlike banks that only offer their products, I shop your loan with 200+ lenders to find the best pricing and terms.
+                    Unlike banks that only offer their products, I shop your loan with 50+ Wholesale Lenders to find the best pricing and terms.
                   </p>
                 </div>
                 <div className="text-center">

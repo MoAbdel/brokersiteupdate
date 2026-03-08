@@ -99,7 +99,7 @@ const faqData = [
   },
   {
     question: "Can I get a bank statement loan in California as a self-employed borrower?",
-    answer: "Yes. California is the largest market for bank statement loans in the United States, with approximately 3.9 million self-employed workers. Bank statement programs are available in every California county for primary residences, second homes, and investment properties. Loan amounts range from conforming up to $5 million through jumbo bank statement programs. As a California-licensed wholesale mortgage broker (DRE #02291443), Mo Abdel at Lumin Lending (NMLS #2716106) originates bank statement loans statewide with access to 200+ wholesale lenders specializing in self-employed borrower profiles."
+    answer: "Yes. California is the largest market for bank statement loans in the United States, with approximately 3.9 million self-employed workers. Bank statement programs are available in every California county for primary residences, second homes, and investment properties. Loan amounts range from conforming up to $5 million through jumbo bank statement programs. As a California-licensed wholesale mortgage broker (DRE #02291443), Mo Abdel at Lumin Lending (NMLS #2716106) originates bank statement loans statewide with access to 50+ Wholesale Lenders specializing in self-employed borrower profiles."
   }
 ];
 
@@ -284,7 +284,7 @@ export default function BankStatementLoansGuide2026() {
             <div>
               <p className="font-semibold text-slate-900 text-lg">Written by Mo Abdel, NMLS #1426884</p>
               <p className="text-slate-600 text-sm mb-2">Wholesale Mortgage Broker at Lumin Lending, Inc. (NMLS #2716106) | DRE #02291443 &mdash; Licensed in California &amp; Washington</p>
-              <p className="text-slate-500 text-sm">Mo has originated 500+ bank statement loans since 2019 and works with 200+ wholesale lenders to secure the lowest non-QM rates for self-employed borrowers. In our California and Washington closings with self-employed borrowers, we consistently achieve rates 0.25-0.375% below retail averages. Mo specializes in bank statement, <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM loan programs</Link>, <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">self-employed mortgage solutions</Link>, and DSCR investment property loans across California and Washington.</p>
+              <p className="text-slate-500 text-sm">Mo has originated 500+ bank statement loans since 2019 and works with 50+ Wholesale Lenders to secure the lowest non-QM rates for self-employed borrowers. In our California and Washington closings with self-employed borrowers, we consistently achieve rates 0.25-0.375% below retail averages. Mo specializes in bank statement, <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM loan programs</Link>, <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-600 hover:underline">self-employed mortgage solutions</Link>, and DSCR investment property loans across California and Washington.</p>
               <p className="text-slate-400 text-xs mt-2">Last reviewed and updated: February 22, 2026 | Originally published: January 16, 2026</p>
             </div>
           </div>
@@ -297,7 +297,7 @@ export default function BankStatementLoansGuide2026() {
           </p>
           <ul className="text-sm text-gray-700 space-y-1 mb-0">
             <li>Self-employed borrowers → qualify on deposits instead of tax returns → access homes 30-40% above tax-return-based limits</li>
-            <li>Wholesale bank statement programs → start at 620 FICO with 10% down → available through 200+ lender network</li>
+            <li>Wholesale bank statement programs → start at 620 FICO with 10% down → available through 50+ Wholesale Lenders</li>
             <li>California and Washington → lead the nation in self-employed homebuyers → 3.9M+ self-employed workers in CA alone</li>
           </ul>
         </div>
@@ -306,7 +306,7 @@ export default function BankStatementLoansGuide2026() {
         <section className="mb-12">
           <div className="bg-blue-50 border-l-4 border-blue-600 rounded-r-lg p-6">
             <p className="text-blue-900 font-medium text-lg leading-relaxed">
-              In Q1 2026, bank statement loans represent the fastest-growing non-QM mortgage segment in California, with origination volume up 41% year-over-year according to industry tracking data and wholesale rates averaging 0.35% below retail. In our California and Washington closings with self-employed borrowers at Lumin Lending (NMLS #2716106, DRE #02291443), the average business owner qualifies for 2.3x more home using bank statements versus tax returns. The 2026 conforming loan limit of $1,209,750 in high-cost California counties means more self-employed borrowers need jumbo bank statement programs than ever before. With 500+ bank statement loans closed since 2019 and access to 200+ wholesale lenders, we match each borrower profile to the optimal lender based on credit score, deposit pattern, and property type. For borrowers exploring other <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline font-semibold">non-QM loan options</Link>, bank statement programs consistently deliver the best combination of qualifying power and competitive pricing.
+              In Q1 2026, bank statement loans represent the fastest-growing non-QM mortgage segment in California, with origination volume up 41% year-over-year according to industry tracking data and wholesale rates averaging 0.35% below retail. In our California and Washington closings with self-employed borrowers at Lumin Lending (NMLS #2716106, DRE #02291443), the average business owner qualifies for 2.3x more home using bank statements versus tax returns. The 2026 conforming loan limit of $1,209,750 in high-cost California counties means more self-employed borrowers need jumbo bank statement programs than ever before. With 500+ bank statement loans closed since 2019 and access to 50+ Wholesale Lenders, we match each borrower profile to the optimal lender based on credit score, deposit pattern, and property type. For borrowers exploring other <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline font-semibold">non-QM loan options</Link>, bank statement programs consistently deliver the best combination of qualifying power and competitive pricing.
             </p>
           </div>
         </section>
@@ -351,7 +351,7 @@ export default function BankStatementLoansGuide2026() {
             Bank Statement vs P&L Statement vs Full-Doc Conventional Loans
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Based on closings with 200+ lenders, here is how bank statement loans compare to other income documentation methods for self-employed borrowers:
+            Based on closings with 50+ Wholesale Lenders, here is how bank statement loans compare to other income documentation methods for self-employed borrowers:
           </p>
 
           <div className="overflow-x-auto">
@@ -462,7 +462,7 @@ export default function BankStatementLoansGuide2026() {
           </div>
 
           <p className="text-slate-600">
-            The <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-qualified-mortgage-en-1789/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> classifies bank statement loans as non-QM products because they use alternative income verification. This classification means lenders retain more risk, which is why rates are slightly higher than conventional loans. However, as a <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</Link> with access to 200+ lenders, Mo Abdel negotiates institutional pricing that retail borrowers cannot access.
+            The <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-qualified-mortgage-en-1789/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Consumer Financial Protection Bureau (CFPB)</a> classifies bank statement loans as non-QM products because they use alternative income verification. This classification means lenders retain more risk, which is why rates are slightly higher than conventional loans. However, as a <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</Link> with access to 50+ Wholesale Lenders, Mo Abdel negotiates institutional pricing that retail borrowers cannot access.
           </p>
         </section>
 
@@ -580,7 +580,7 @@ export default function BankStatementLoansGuide2026() {
           </div>
 
           <p className="text-slate-600 mt-4 text-sm">
-            Source: Aggregated guidelines from 200+ wholesale lenders as of February 2026. Actual requirements vary by lender. The <a href="https://www.irs.gov/businesses/small-businesses-self-employed" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS self-employment guidelines</a> define the types of business structures that qualify for these programs.
+            Source: Aggregated guidelines from 50+ Wholesale Lenders as of February 2026. Actual requirements vary by lender. The <a href="https://www.irs.gov/businesses/small-businesses-self-employed" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS self-employment guidelines</a> define the types of business structures that qualify for these programs.
           </p>
         </section>
 
@@ -776,7 +776,7 @@ export default function BankStatementLoansGuide2026() {
 
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
             <p className="text-slate-700 text-sm">
-              <strong>Statewide Coverage:</strong> As a California-licensed wholesale mortgage broker, Mo Abdel originates bank statement loans in every California county. Whether you are in Sacramento, Inland Empire, Central Coast, or Wine Country, we have access to 200+ lenders with competitive bank statement programs. See our <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">California wholesale mortgage guide</Link> for region-specific details.
+              <strong>Statewide Coverage:</strong> As a California-licensed wholesale mortgage broker, Mo Abdel originates bank statement loans in every California county. Whether you are in Sacramento, Inland Empire, Central Coast, or Wine Country, we have access to 50+ Wholesale Lenders with competitive bank statement programs. See our <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">California wholesale mortgage guide</Link> for region-specific details.
             </p>
           </div>
         </section>
@@ -807,14 +807,14 @@ export default function BankStatementLoansGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Prepare to Explain Large Deposits</h4>
-                  <p className="text-slate-600">Any deposit over $10,000 or unusual deposits need explanation and documentation (invoices, contracts). Based on closings with 200+ lenders, organized deposit documentation is the single biggest factor in approval speed.</p>
+                  <p className="text-slate-600">Any deposit over $10,000 or unusual deposits need explanation and documentation (invoices, contracts). Based on closings with 50+ Wholesale Lenders, organized deposit documentation is the single biggest factor in approval speed.</p>
                 </div>
               </li>
               <li className="flex gap-4">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit Application to Wholesale Broker</h4>
-                  <p className="text-slate-600">Mo Abdel shops 200+ wholesale lenders including 20+ bank statement specialists to find the best combination of rate, terms, and approval flexibility for your specific situation.</p>
+                  <p className="text-slate-600">Mo Abdel shops 50+ Wholesale Lenders including 20+ bank statement specialists to find the best combination of rate, terms, and approval flexibility for your specific situation.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -892,7 +892,7 @@ export default function BankStatementLoansGuide2026() {
                 <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-semibold text-slate-900">Work with a Wholesale Broker</h4>
-                  <p className="text-sm text-blue-700">A <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-700 underline hover:text-green-900">self-employed mortgage specialist</Link> knows which of the 200+ lenders offers the best terms for your specific income profile and business type.</p>
+                  <p className="text-sm text-blue-700">A <Link href="/blog/self-employed-mortgage-broker-2026" className="text-blue-700 underline hover:text-green-900">self-employed mortgage specialist</Link> knows which of the 50+ Wholesale Lenders offers the best terms for your specific income profile and business type.</p>
                 </div>
               </div>
             </div>
@@ -984,7 +984,7 @@ export default function BankStatementLoansGuide2026() {
             Bank Statement Loan Requirements 2026: Updated Guidelines &amp; Program Changes
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            The bank statement loan landscape has shifted meaningfully heading into late February 2026. Based on Mo Abdel&apos;s closings at Lumin Lending (NMLS #2716106) with 200+ wholesale lenders, several program updates have improved options for self-employed borrowers compared to late 2025. Here are the key changes affecting California borrowers right now.
+            The bank statement loan landscape has shifted meaningfully heading into late February 2026. Based on Mo Abdel&apos;s closings at Lumin Lending (NMLS #2716106) with 50+ Wholesale Lenders, several program updates have improved options for self-employed borrowers compared to late 2025. Here are the key changes affecting California borrowers right now.
           </p>
 
           <h3 className="text-xl font-semibold text-slate-900 mb-4">Key 2026 Program Updates</h3>
@@ -1108,7 +1108,7 @@ export default function BankStatementLoansGuide2026() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-semibold text-slate-900 mb-2">Can you get a mortgage without tax returns?</h3>
               <p className="speakable-answer text-slate-600">
-                <strong>Yes, bank statement loans and P&L-only loans let self-employed borrowers qualify without tax returns using alternative income documentation.</strong> These non-QM products verify income through 12-24 months of bank deposits or a CPA-prepared profit and loss statement instead of IRS tax transcripts. Rates run 0.5-1.5% above conventional, and most programs require 10-20% down. A <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:underline">wholesale broker</Link> can access 200+ lenders to find the most competitive no-tax-return program for your situation.
+                <strong>Yes, bank statement loans and P&L-only loans let self-employed borrowers qualify without tax returns using alternative income documentation.</strong> These non-QM products verify income through 12-24 months of bank deposits or a CPA-prepared profit and loss statement instead of IRS tax transcripts. Rates run 0.5-1.5% above conventional, and most programs require 10-20% down. A <Link href="/blog/wholesale-vs-retail-mortgage-brokers-2026" className="text-blue-600 hover:underline">wholesale broker</Link> can access 50+ Wholesale Lenders to find the most competitive no-tax-return program for your situation.
               </p>
             </div>
 
@@ -1122,7 +1122,7 @@ export default function BankStatementLoansGuide2026() {
             <div className="border border-slate-200 rounded-lg p-5">
               <h3 className="font-semibold text-slate-900 mb-2">What is the interest rate on a bank statement loan in 2026?</h3>
               <p className="speakable-answer text-slate-600">
-                <strong>Bank statement loan rates in February 2026 typically run 0.50-2.50% above prevailing conventional rates through wholesale channels, depending on credit score, LTV, and loan amount.</strong> This spread represents a meaningful improvement from mid-2025 when the gap was 1.50-3.00% above conventional. Wholesale brokers access institutional pricing that runs 0.25-0.50% lower than retail bank statement rates. A borrower with 740+ credit, 20% down, and strong deposits secures the narrowest spreads available. Based on closings with 200+ lenders in 2026, we consistently achieve rates 0.375% below retail averages.
+                <strong>Bank statement loan rates in February 2026 typically run 0.50-2.50% above prevailing conventional rates through wholesale channels, depending on credit score, LTV, and loan amount.</strong> This spread represents a meaningful improvement from mid-2025 when the gap was 1.50-3.00% above conventional. Wholesale brokers access institutional pricing that runs 0.25-0.50% lower than retail bank statement rates. A borrower with 740+ credit, 20% down, and strong deposits secures the narrowest spreads available. Based on closings with 50+ Wholesale Lenders in 2026, we consistently achieve rates 0.375% below retail averages.
               </p>
             </div>
 
@@ -1220,13 +1220,13 @@ export default function BankStatementLoansGuide2026() {
             Why Use a Wholesale Mortgage Broker for Bank Statement Loans?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Bank statement loans are a specialty product. Most retail banks and credit unions do not offer them. Even among non-QM lenders, guidelines vary dramatically -- one lender may require 680 credit while another accepts 620 for the same scenario. Based on closings with 200+ lenders, here is what a wholesale broker provides:
+            Bank statement loans are a specialty product. Most retail banks and credit unions do not offer them. Even among non-QM lenders, guidelines vary dramatically -- one lender may require 680 credit while another accepts 620 for the same scenario. Based on closings with 50+ Wholesale Lenders, here is what a wholesale broker provides:
           </p>
 
           <div className="grid md:grid-cols-3 gap-4">
             <div className="border border-slate-200 rounded-xl p-5 text-center">
               <BarChart3 className="w-10 h-10 text-blue-600 mx-auto mb-3" />
-              <h3 className="font-semibold text-slate-900 mb-2">200+ Lenders</h3>
+              <h3 className="font-semibold text-slate-900 mb-2">50+ Wholesale Lenders</h3>
               <p className="text-sm text-slate-600">Access to every major bank statement lender in the wholesale channel, not just one institution&apos;s guidelines.</p>
             </div>
             <div className="border border-slate-200 rounded-xl p-5 text-center">
@@ -1252,7 +1252,7 @@ export default function BankStatementLoansGuide2026() {
             Self-Employed? Your Tax Returns Don&apos;t Define Your Mortgage.
           </h2>
           <p className="text-lg text-slate-200 mb-6 max-w-2xl mx-auto">
-            Bank statement loans use your real income -- not your tax-optimized returns. Get a free consultation to see how much home you actually qualify for. Based on closings with 200+ lenders, we find the best rate for your specific situation.
+            Bank statement loans use your real income -- not your tax-optimized returns. Get a free consultation to see how much home you actually qualify for. Based on closings with 50+ Wholesale Lenders, we find the best rate for your specific situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

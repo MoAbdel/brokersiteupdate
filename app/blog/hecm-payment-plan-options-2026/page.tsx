@@ -70,7 +70,7 @@ const faqData = [
   },
   {
     question: "How does a wholesale broker help seniors choose the right HECM payment plan?",
-    answer: "A wholesale mortgage broker with access to 200+ lenders can compare HECM products across multiple lenders to find the combination of rate, margin, and fees that maximizes your principal limit and monthly payment amounts. Different lenders offer different margins and closing cost structures, which directly affect how much you receive under any payment plan. A broker also runs side-by-side projections of each plan option based on your specific situation."
+    answer: "A wholesale mortgage broker with access to 50+ Wholesale Lenders can compare HECM products across multiple lenders to find the combination of rate, margin, and fees that maximizes your principal limit and monthly payment amounts. Different lenders offer different margins and closing cost structures, which directly affect how much you receive under any payment plan. A broker also runs side-by-side projections of each plan option based on your specific situation."
   }
 ];
 
@@ -238,7 +238,7 @@ export default function HECMPaymentPlanOptions2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            Mo Abdel, a wholesale mortgage broker licensed in California and Washington, has guided hundreds of seniors through HECM plan selection with access to <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800 underline">200+ wholesale lenders</Link>. Each lender offers different margins and rate structures, which directly affect the principal limit and monthly payment amounts under any plan.
+            Mo Abdel, a wholesale mortgage broker licensed in California and Washington, has guided hundreds of seniors through HECM plan selection with access to <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800 underline">50+ Wholesale Lenders</Link>. Each lender offers different margins and rate structures, which directly affect the principal limit and monthly payment amounts under any plan.
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
@@ -617,7 +617,7 @@ export default function HECMPaymentPlanOptions2026() {
             Selecting the right <strong>HECM payment plan</strong> is a decision that shapes your financial security throughout retirement. The tenure plan provides lifetime income certainty. The term plan delivers higher payments during a critical bridge period. The line of credit offers maximum flexibility with a growth feature unavailable in any other financial product. Modified plans combine the benefits of monthly income and flexible reserves. The ability to switch plans after closing for approximately $20 means you are not locked into any single choice permanently.
           </p>
           <p className="text-lg text-slate-700 mb-4 leading-relaxed">
-            The most important variable in maximizing your HECM proceeds is the lender you choose. Different wholesale lenders offer different margins, rate structures, and closing cost packages, all of which directly affect your principal limit and payment amounts. As a wholesale mortgage broker with access to 200+ lenders, I compare HECM products across multiple lender channels to identify the combination that delivers the highest principal limit and most favorable terms for your specific situation.
+            The most important variable in maximizing your HECM proceeds is the lender you choose. Different wholesale lenders offer different margins, rate structures, and closing cost packages, all of which directly affect your principal limit and payment amounts. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I compare HECM products across multiple lender channels to identify the combination that delivers the highest principal limit and most favorable terms for your specific situation.
           </p>
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
             Every borrower&apos;s retirement needs are different. Whether you need steady monthly income to supplement Social Security, a growing line of credit for long-term security, or a combination of both, the right plan depends on your age, equity position, existing income sources, and financial goals. I provide complimentary side-by-side plan projections that show exactly how much you receive under each option.

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans: Programs Only Wholesale Brokers Can Access [2026] | Mo Abdel',
-  description: 'Non-QM loans wholesale broker access 2026: Bank statement, DSCR, asset depletion & foreign national programs from 200+ lenders. NMLS #1426884.',
+  description: 'Non-QM loans wholesale broker access 2026: Bank statement, DSCR, asset depletion & foreign national programs from 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/non-qm-loans-wholesale-broker-2026',
     languages: {
@@ -57,7 +57,7 @@ export default function NonQMLoansWholesalePage() {
                 "name": "Why can't banks offer most non-QM loans?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Banks primarily offer qualified mortgages they can sell to Fannie Mae or Freddie Mac. Non-QM loans require private investors, specialized underwriting, and higher risk tolerance that most banks don't have. Wholesale brokers access 100+ non-QM lenders banks don't work with."
+                  "text": "Banks primarily offer qualified mortgages they can sell to Fannie Mae or Freddie Mac. Non-QM loans require private investors, specialized underwriting, and higher risk tolerance that most banks don't have. Wholesale brokers access 50+ Wholesale Lenders banks don't work with."
                 }
               },
               {
@@ -101,7 +101,7 @@ export default function NonQMLoansWholesalePage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Non-QM (non-qualified mortgage) loans serve borrowers who don't fit conventional guidelines, and <strong>wholesale brokers have exclusive access to 100+ non-QM lenders</strong> that banks don't work with. From bank statement loans for the self-employed to DSCR programs for investors, these specialized products solve problems conventional lending can't address.
+            Non-QM (non-qualified mortgage) loans serve borrowers who don't fit conventional guidelines, and <strong>wholesale brokers have exclusive access to 50+ Wholesale Lenders</strong> that banks don't work with. From bank statement loans for the self-employed to DSCR programs for investors, these specialized products solve problems conventional lending can't address.
           </p>
         </div>
 
@@ -212,7 +212,7 @@ export default function NonQMLoansWholesalePage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">Non-QM Lenders</td><td className="py-2 px-4 border-b">0-1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">100+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Program Types</td><td className="py-2 px-4 border-b">Very limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Full spectrum</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Bank Statement</td><td className="py-2 px-4 border-b">Rarely offered</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">DSCR</td><td className="py-2 px-4 border-b">Not available</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">40+ lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Foreign National</td><td className="py-2 px-4 border-b">Rarely</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">20+ lenders</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Expertise</td><td className="py-2 px-4">General</td><td className="py-2 px-4 text-blue-700 font-semibold">Specialist</td></tr>
@@ -294,7 +294,7 @@ export default function NonQMLoansWholesalePage() {
 
         <h3>Why can't banks offer most non-QM loans?</h3>
         <p>
-          Banks primarily offer qualified mortgages they can sell to Fannie Mae or Freddie Mac. Non-QM loans require private investors, specialized underwriting, and higher risk tolerance that most banks don't have. Wholesale brokers access 100+ non-QM lenders banks don't work with.
+          Banks primarily offer qualified mortgages they can sell to Fannie Mae or Freddie Mac. Non-QM loans require private investors, specialized underwriting, and higher risk tolerance that most banks don't have. Wholesale brokers access 50+ Wholesale Lenders banks don't work with.
         </p>
 
         <h3>What types of non-QM loans are available?</h3>

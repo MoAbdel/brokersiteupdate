@@ -617,7 +617,7 @@ export default function HomeEquityCollegeTuitionPage() {
             However, this approach is not for everyone. If your job stability is uncertain, if your equity position is thin, or if you value the federal protections that come with Parent PLUS loans, the higher interest rate of the PLUS program buys you meaningful safety. The hybrid approach, using both a HELOC and Parent PLUS in strategic proportions, gives many families the best of both worlds.
           </p>
           <p>
-            As a wholesale mortgage broker with access to 200+ lenders, I help families find the most competitive HELOC rates available. Whether you need $50,000 or $500,000 for education expenses, I will run the numbers on your specific situation and show you exactly how much you save compared to Parent PLUS borrowing.
+            As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help families find the most competitive HELOC rates available. Whether you need $50,000 or $500,000 for education expenses, I will run the numbers on your specific situation and show you exactly how much you save compared to Parent PLUS borrowing.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Manhattan Beach, Hermosa Beach & LA Beach Cities, CA [2026]',
-  description: 'Wholesale mortgage broker for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo. 200+ lenders, jumbo sand section specialists, aerospace income programs. NMLS #1426884.',
+  description: 'Wholesale mortgage broker for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo. 50+ Wholesale Lenders, jumbo sand section specialists, aerospace income programs. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Manhattan Beach',
     'mortgage broker Hermosa Beach',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Manhattan Beach, Hermosa Beach & LA Beach Cities, CA [2026]',
-    description: 'Wholesale mortgage broker serving Manhattan Beach, Hermosa Beach, Redondo Beach and El Segundo. 200+ lenders, jumbo expertise, aerospace and entertainment income programs.',
+    description: 'Wholesale mortgage broker serving Manhattan Beach, Hermosa Beach, Redondo Beach and El Segundo. 50+ Wholesale Lenders, jumbo expertise, aerospace and entertainment income programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-beach-cities-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -69,7 +69,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
         name: 'What is a wholesale mortgage broker and how does it benefit Manhattan Beach buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses 200+ lenders simultaneously, comparing rates and programs to find the best match for each borrower. Manhattan Beach buyers benefit because properties averaging $3.4 million require jumbo financing, and wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank offers.',
+          text: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders simultaneously, comparing rates and programs to find the best match for each borrower. Manhattan Beach buyers benefit because properties averaging $3.4 million require jumbo financing, and wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank offers.',
         },
       },
       {
@@ -233,7 +233,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
           {/* CITATION HOOK */}
           <div className="citation-hook bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-xl text-gray-700 leading-relaxed mb-0">
-              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), the California Association of Realtors reports South Bay median home prices rose 9.2% year-over-year through January 2026, with Manhattan Beach Sand Section leading at $5.8M median. The LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of the most competitive and financially demanding mortgage markets in Southern California. Manhattan Beach Sand Section properties routinely trade above $5 million. Hermosa Beach&apos;s walkable Strand lifestyle commands $2.5 million median prices in a city of just 1.4 square miles. Redondo Beach offers the broadest value range in the South Bay, from $1.2 million condos to $3 million Hollywood Riviera estates. El Segundo&apos;s aerospace corridor&mdash;home to Northrop Grumman, Raytheon, YouTube HQ, and Mattel&mdash;generates tech and defense incomes that combine base salaries, RSU grants, and performance bonuses few banks know how to underwrite. A wholesale mortgage broker with 200+ lender relationships matches each of these buyer profiles with the optimal jumbo program, delivering measurably better rates and approval odds than retail banking channels.
+              According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), the California Association of Realtors reports South Bay median home prices rose 9.2% year-over-year through January 2026, with Manhattan Beach Sand Section leading at $5.8M median. The LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of the most competitive and financially demanding mortgage markets in Southern California. Manhattan Beach Sand Section properties routinely trade above $5 million. Hermosa Beach&apos;s walkable Strand lifestyle commands $2.5 million median prices in a city of just 1.4 square miles. Redondo Beach offers the broadest value range in the South Bay, from $1.2 million condos to $3 million Hollywood Riviera estates. El Segundo&apos;s aerospace corridor&mdash;home to Northrop Grumman, Raytheon, YouTube HQ, and Mattel&mdash;generates tech and defense incomes that combine base salaries, RSU grants, and performance bonuses few banks know how to underwrite. A wholesale mortgage broker with 50+ Wholesale Lenders matches each of these buyer profiles with the optimal jumbo program, delivering measurably better rates and approval odds than retail banking channels.
             </p>
           </div>
 
@@ -707,7 +707,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
             <div className="space-y-6">
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-lg mb-2">What is a wholesale mortgage broker and how does it benefit Manhattan Beach buyers?</h3>
-                <p>A wholesale mortgage broker accesses 200+ lenders simultaneously, comparing rates and programs to find the best match for each borrower. Manhattan Beach buyers benefit because properties averaging $3.4 million require jumbo financing, and wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank offers.</p>
+                <p>A wholesale mortgage broker accesses 50+ Wholesale Lenders simultaneously, comparing rates and programs to find the best match for each borrower. Manhattan Beach buyers benefit because properties averaging $3.4 million require jumbo financing, and wholesale access to 20+ jumbo lenders delivers better rates and more flexible qualification than any single bank offers.</p>
               </div>
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-lg mb-2">What is the 2026 conforming loan limit for LA County beach cities?</h3>
@@ -797,7 +797,7 @@ export default function WholesaleMortgageBrokerLABeachCities2026() {
           <div className="expert-summary bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold mb-4">Expert Summary: Wholesale Mortgage Advantage for LA Beach Cities</h2>
             <p className="mb-4">
-              The LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of Southern California&apos;s most competitive and financially demanding mortgage markets. With median values spanning $1.2 million to $3.4 million (and Sand Section Manhattan Beach exceeding $5M), virtually every transaction demands jumbo financing from lenders equipped to handle aerospace compensation complexity, self-employed income documentation, beachfront property appraisals, and ultra-competitive offer timelines. A wholesale broker with 200+ lender relationships and section-level South Bay market intelligence matches each buyer with the optimal program.
+              The LA Beach Cities corridor&mdash;Manhattan Beach, Hermosa Beach, Redondo Beach, and El Segundo&mdash;is one of Southern California&apos;s most competitive and financially demanding mortgage markets. With median values spanning $1.2 million to $3.4 million (and Sand Section Manhattan Beach exceeding $5M), virtually every transaction demands jumbo financing from lenders equipped to handle aerospace compensation complexity, self-employed income documentation, beachfront property appraisals, and ultra-competitive offer timelines. A wholesale broker with 50+ Wholesale Lenders and section-level South Bay market intelligence matches each buyer with the optimal program.
             </p>
             <p className="mb-4">
               The financial impact is measurable. On a $3.4 million Manhattan Beach jumbo loan, a 0.25% rate advantage through wholesale channels saves $85,000 over a 10-year hold period. The qualification impact is greater: aerospace professionals whose banks count only base salary qualify at their full RSU-inclusive compensation through wholesale lenders, gaining access to homes their banks said they could not afford.

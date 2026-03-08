@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Affluent Marin: Sausalito, Corte Madera, Larkspur, San Anselmo, Novato [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker serving affluent Marin County 2026: Sausalito houseboat financing, Corte Madera family loans, Larkspur historic renovation, San Anselmo self-employed, Novato VA jumbo. 200+ lenders. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving affluent Marin County 2026: Sausalito houseboat financing, Corte Madera family loans, Larkspur historic renovation, San Anselmo self-employed, Novato VA jumbo. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Marin County',
     'mortgage broker Sausalito',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker Affluent Marin: Sausalito, Corte Madera, Larkspur, San Anselmo, Novato [2026]',
-    description: 'Access 200+ wholesale lenders for affluent Marin County home purchases. Specialized financing for houseboats, historic renovations, self-employed buyers, and VA jumbo loans.',
+    description: 'Access 50+ Wholesale Lenders for affluent Marin County home purchases. Specialized financing for houseboats, historic renovations, self-employed buyers, and VA jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-marin-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -41,7 +41,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it save Marin County buyers money?',
-      answer: 'A wholesale mortgage broker accesses institutional lending rates reserved for licensed professionals, bypassing the retail markup that banks add to cover branch overhead and shareholder returns. In Marin County, where loan amounts routinely exceed $1 million, the wholesale rate advantage of 0.25% to 0.75% translates to $2,500 to $7,500 in annual interest savings. Brokers compare pricing across 200+ lenders simultaneously, ensuring the lowest available rate for each borrower profile.',
+      answer: 'A wholesale mortgage broker accesses institutional lending rates reserved for licensed professionals, bypassing the retail markup that banks add to cover branch overhead and shareholder returns. In Marin County, where loan amounts routinely exceed $1 million, the wholesale rate advantage of 0.25% to 0.75% translates to $2,500 to $7,500 in annual interest savings. Brokers compare pricing across 50+ Wholesale Lenders simultaneously, ensuring the lowest available rate for each borrower profile.',
     },
     {
       question: 'Can a wholesale broker finance a Sausalito houseboat?',
@@ -77,7 +77,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
     },
     {
       question: 'What down payment is required for a jumbo purchase in Corte Madera or Larkspur?',
-      answer: 'Jumbo down payment requirements in Corte Madera and Larkspur range from 10% to 20% depending on the loan amount and borrower profile. Loans up to $1.5 million: 10% to 15% down with strong credit. Loans from $1.5 million to $2.5 million: 15% to 20% down. Above $2.5 million: 20% to 25% down. A wholesale broker compares down payment requirements across 200+ lenders to find the lowest option for each borrower.',
+      answer: 'Jumbo down payment requirements in Corte Madera and Larkspur range from 10% to 20% depending on the loan amount and borrower profile. Loans up to $1.5 million: 10% to 15% down with strong credit. Loans from $1.5 million to $2.5 million: 15% to 20% down. Above $2.5 million: 20% to 25% down. A wholesale broker compares down payment requirements across 50+ Wholesale Lenders to find the lowest option for each borrower.',
     },
     {
       question: 'Do wholesale brokers charge fees on top of the lender rate?',
@@ -112,7 +112,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
             },
             datePublished: '2026-02-10',
             dateModified: '2026-02-10',
-            description: 'Comprehensive wholesale mortgage guide for affluent Marin County: Sausalito houseboat financing, Corte Madera family lending, Larkspur historic renovation loans, San Anselmo self-employed qualification, Novato VA jumbo. 200+ lender access.',
+            description: 'Comprehensive wholesale mortgage guide for affluent Marin County: Sausalito houseboat financing, Corte Madera family lending, Larkspur historic renovation loans, San Anselmo self-employed qualification, Novato VA jumbo. 50+ Wholesale Lenders.',
             mainEntityOfPage: {
               '@type': 'WebPage',
               '@id': 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-marin-2026',
@@ -149,7 +149,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Sausalito)',
-              description: 'Wholesale mortgage broker serving Sausalito with houseboat financing, hillside property loans, and jumbo mortgages. 200+ lender access.',
+              description: 'Wholesale mortgage broker serving Sausalito with houseboat financing, hillside property loans, and jumbo mortgages. 50+ Wholesale Lenders.',
               telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
@@ -173,7 +173,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Corte Madera)',
-              description: 'Wholesale mortgage broker serving Corte Madera families with jumbo purchase loans, school district premium financing, and competitive rates from 200+ lenders.',
+              description: 'Wholesale mortgage broker serving Corte Madera families with jumbo purchase loans, school district premium financing, and competitive rates from 50+ Wholesale Lenders.',
               telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
@@ -221,7 +221,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (San Anselmo)',
-              description: 'Wholesale mortgage broker serving San Anselmo creative professionals with bank statement loans, self-employed mortgage qualification, and 200+ lender access.',
+              description: 'Wholesale mortgage broker serving San Anselmo creative professionals with bank statement loans, self-employed mortgage qualification, and 50+ Wholesale Lenders.',
               telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
@@ -245,7 +245,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'Mo Abdel - Lumin Lending (Novato)',
-              description: 'Wholesale mortgage broker serving Novato with VA jumbo loans, first-time jumbo buyer programs, and Hamilton community financing. 200+ lender access.',
+              description: 'Wholesale mortgage broker serving Novato with VA jumbo loans, first-time jumbo buyer programs, and Hamilton community financing. 50+ Wholesale Lenders.',
               telephone: '(949) 579-2057',
               url: 'https://www.mothebroker.com',
               areaServed: {
@@ -317,7 +317,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
           Wholesale Mortgage Broker for Affluent Marin County: Sausalito, Corte Madera, Larkspur, San Anselmo &amp; Novato [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          How 200+ wholesale lenders solve houseboat financing, historic renovation loans, self-employed qualification &amp; VA jumbo access across five distinctive Marin communities
+          How 50+ Wholesale Lenders solve houseboat financing, historic renovation loans, self-employed qualification &amp; VA jumbo access across five distinctive Marin communities
         </p>
         <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span>
@@ -333,7 +333,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
         <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-2">Affluent Marin County Wholesale Mortgage Facts [2026]</p>
           <p className="text-gray-800 mb-0">
-            Marin County&apos;s five affluent communities &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; represent <strong>$38.7 billion in residential real estate</strong> across approximately 42,000 housing units. Median home values range from <strong>$1 million in Novato to $1.8 million in Larkspur</strong>, placing every purchase above the 2026 conforming loan limit of <strong>$1,209,750</strong> for Marin County. Wholesale broker access to <strong>200+ institutional lenders</strong> delivers rate savings of 0.25% to 0.75% compared to retail bank pricing &mdash; translating to <strong>$3,750 to $13,500 in annual interest savings</strong> on a typical $1.5 million Marin purchase loan.
+            Marin County&apos;s five affluent communities &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; represent <strong>$38.7 billion in residential real estate</strong> across approximately 42,000 housing units. Median home values range from <strong>$1 million in Novato to $1.8 million in Larkspur</strong>, placing every purchase above the 2026 conforming loan limit of <strong>$1,209,750</strong> for Marin County. Wholesale broker access to <strong>50+ Wholesale Lenders</strong> delivers rate savings of 0.25% to 0.75% compared to retail bank pricing &mdash; translating to <strong>$3,750 to $13,500 in annual interest savings</strong> on a typical $1.5 million Marin purchase loan.
           </p>
         </div>
 
@@ -342,7 +342,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
           Purchasing a home in affluent Marin County requires financing that matches the complexity of the market. Sausalito houseboats need lenders who classify floating homes as real property. Larkspur historic cottages require renovation loan programs most banks refuse to underwrite. San Anselmo&apos;s creative professionals earn strong incomes that appear irregular on tax returns. And Novato veterans deserve VA jumbo financing that eliminates down payment requirements on homes exceeding conforming limits.
         </p>
         <p>
-          A <a href="/blog/wholesale-vs-retail-mortgage-2026" className="text-blue-600 hover:text-blue-800">wholesale mortgage broker</a> solves every one of these challenges by connecting borrowers to lenders who specialize in exactly the scenario they present. Unlike a bank loan officer locked into a single institution&apos;s product menu, a wholesale broker shops the entire lending market &mdash; 200+ institutional lenders with distinct underwriting guidelines, rate structures, and property type approvals.
+          A <a href="/blog/wholesale-vs-retail-mortgage-2026" className="text-blue-600 hover:text-blue-800">wholesale mortgage broker</a> solves every one of these challenges by connecting borrowers to lenders who specialize in exactly the scenario they present. Unlike a bank loan officer locked into a single institution&apos;s product menu, a wholesale broker shops the entire lending market &mdash; 50+ Wholesale Lenders with distinct underwriting guidelines, rate structures, and property type approvals.
         </p>
         <p>
           This guide provides a city-by-city analysis of wholesale mortgage advantages across Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato. Every data point, rate comparison, and program detail reflects the current <strong>February 2026 lending environment</strong> for affluent Marin County buyers.
@@ -351,7 +351,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
         {/* Wholesale Advantage Mega-Table */}
         <h2>Wholesale Mortgage Advantage by City: Affluent Marin County 2026</h2>
         <p>
-          Each of these five Marin communities presents unique financing requirements. The table below maps the primary wholesale advantage for each city, showing how <a href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:text-blue-800">200+ lender access</a> addresses challenges that single-lender retail channels cannot solve.
+          Each of these five Marin communities presents unique financing requirements. The table below maps the primary wholesale advantage for each city, showing how <a href="/blog/200-lender-advantage-explained-2026" className="text-blue-600 hover:text-blue-800">50+ Wholesale Lenders</a> addresses challenges that single-lender retail channels cannot solve.
         </p>
         <div className="overflow-x-auto my-6">
           <table className="min-w-full bg-white border border-gray-200">
@@ -431,7 +431,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
             <tbody>
               <tr>
                 <td className="py-2 px-4 border-b font-medium">Lender Access</td>
-                <td className="py-2 px-4 border-b">200+ wholesale lenders</td>
+                <td className="py-2 px-4 border-b">50+ Wholesale Lenders</td>
                 <td className="py-2 px-4 border-b">1 lender (own products only)</td>
                 <td className="py-2 px-4 border-b">1 lender (own products only)</td>
               </tr>
@@ -576,7 +576,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
           The five communities covered in this guide &mdash; Sausalito, Corte Madera, Larkspur, San Anselmo, and Novato &mdash; collectively represent every challenge that makes Marin County mortgage lending uniquely complex. Houseboats, hillside properties, historic homes, self-employed income, VA jumbo requirements, and first-time jumbo qualifications each demand specialized lender programs that no single bank maintains across its product line. This is the structural advantage of the wholesale broker model.
         </p>
         <p>
-          When a Sausalito buyer walks into their bank and asks about houseboat financing, the loan officer checks the institution&apos;s product guidelines, finds no houseboat program, and either declines the application or tries to force it into an ill-fitting product category. When that same buyer contacts a wholesale broker, the broker queries 200+ lenders and identifies the 5 to 8 that actively finance Sausalito floating homes &mdash; then compares rates, terms, and down payment requirements across all of them to find the best fit. The outcome is not just an approval versus a decline: it is the <strong>best available approval</strong> from the entire institutional lending market.
+          When a Sausalito buyer walks into their bank and asks about houseboat financing, the loan officer checks the institution&apos;s product guidelines, finds no houseboat program, and either declines the application or tries to force it into an ill-fitting product category. When that same buyer contacts a wholesale broker, the broker queries 50+ Wholesale Lenders and identifies the 5 to 8 that actively finance Sausalito floating homes &mdash; then compares rates, terms, and down payment requirements across all of them to find the best fit. The outcome is not just an approval versus a decline: it is the <strong>best available approval</strong> from the entire institutional lending market.
         </p>
         <p>
           The same dynamic applies to every specialized financing need across these five cities. Larkspur renovation loans, San Anselmo bank statement programs, Corte Madera relocation packages, and Novato VA jumbo financing each require access to specific lender categories that exist in the wholesale channel but not on any single bank&apos;s retail menu.
@@ -588,7 +588,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
           <strong>Speed wins competitive offers.</strong> In Marin County&apos;s seller-favored market, a 21-day close commitment from a wholesale broker outperforms a 45-day bank timeline in every multiple-offer situation. Sellers accept faster closes because certainty of execution matters more than marginal price differences. Wholesale brokers pre-qualify borrowers with multiple lenders simultaneously, ensuring that underwriting approval and appraisal ordering begin the same day the offer is accepted.
         </p>
         <p>
-          <strong>E-E-A-T Disclosure:</strong> <em>I am Mo Abdel, California-licensed mortgage broker (NMLS #1426884, DRE #02291443) operating through Lumin Lending (NMLS #2716106). I work with borrowers across all five of these Marin County communities, accessing 200+ wholesale lending partners to find the best rate, program, and terms for each individual situation. My brokerage earns compensation from the lender or borrower as disclosed on the Loan Estimate &mdash; never from both. Every rate quote, program description, and savings estimate in this guide reflects current February 2026 wholesale market conditions. I encourage every borrower to compare my wholesale quotes against any retail bank offer to verify the advantage firsthand.</em>
+          <strong>E-E-A-T Disclosure:</strong> <em>I am Mo Abdel, California-licensed mortgage broker (NMLS #1426884, DRE #02291443) operating through Lumin Lending (NMLS #2716106). I work with borrowers across all five of these Marin County communities, accessing 50+ Wholesale Lenders to find the best rate, program, and terms for each individual situation. My brokerage earns compensation from the lender or borrower as disclosed on the Loan Estimate &mdash; never from both. Every rate quote, program description, and savings estimate in this guide reflects current February 2026 wholesale market conditions. I encourage every borrower to compare my wholesale quotes against any retail bank offer to verify the advantage firsthand.</em>
         </p>
         <p>
           California&apos;s regulatory framework provides additional consumer protection for wholesale broker transactions. The <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Consumer Financial Protection Bureau (CFPB)</a> requires full disclosure of all broker compensation, and the California Department of Real Estate oversees broker licensing and conduct. The <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">U.S. Department of Housing and Urban Development (HUD)</a> sets fair lending standards that apply equally to wholesale and retail channels.
@@ -768,7 +768,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
         <div id="expert-summary" className="bg-gray-50 p-8 rounded-lg border border-gray-200 my-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Expert Summary: Wholesale Mortgage Broker Advantage in Affluent Marin County</h2>
           <p className="text-gray-800 mb-4">
-            Affluent Marin County&apos;s five distinctive communities each demand specialized mortgage solutions that wholesale broker access delivers and retail banks cannot match. Sausalito&apos;s houseboat and hillside properties, Corte Madera&apos;s school-premium family purchases, Larkspur&apos;s historic renovation projects, San Anselmo&apos;s self-employed creative professionals, and Novato&apos;s VA jumbo and first-time jumbo buyers all benefit from access to 200+ institutional lenders with distinct product specializations.
+            Affluent Marin County&apos;s five distinctive communities each demand specialized mortgage solutions that wholesale broker access delivers and retail banks cannot match. Sausalito&apos;s houseboat and hillside properties, Corte Madera&apos;s school-premium family purchases, Larkspur&apos;s historic renovation projects, San Anselmo&apos;s self-employed creative professionals, and Novato&apos;s VA jumbo and first-time jumbo buyers all benefit from access to 50+ Wholesale Lenders with distinct product specializations.
           </p>
           <p className="text-gray-800 mb-4">
             The wholesale rate advantage of 0.25% to 0.75% on Marin County jumbo loans produces $3,750 to $13,500 in annual savings on a typical $1.5 million loan. Faster closing timelines of 21 to 28 days strengthen competitive purchase offers. Non-QM programs including bank statement loans, asset depletion, and unique property financing solve qualification challenges that retail banks refuse to address.
@@ -778,7 +778,7 @@ export default function WholesaleMortgageBrokerAffluentMarin2026() {
           </p>
           <div className="bg-blue-600 text-white p-6 rounded-lg text-center">
             <p className="text-xl font-bold mb-2">Get Your Personalized Wholesale Rate Quote</p>
-            <p className="mb-4">Compare rates from 200+ wholesale lenders for your affluent Marin County purchase. Zero obligation.</p>
+            <p className="mb-4">Compare rates from 50+ Wholesale Lenders for your affluent Marin County purchase. Zero obligation.</p>
             <p className="text-2xl font-bold mb-2">
               <a href="tel:9495792057" className="text-white hover:text-slate-200">(949) 579-2057</a>
             </p>

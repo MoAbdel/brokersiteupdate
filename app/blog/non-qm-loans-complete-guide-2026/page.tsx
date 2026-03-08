@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors | Mo Abdel',
-  description: 'Non-QM loans Orange County 2026: Bank statement, DSCR, asset depletion loans for self-employed and investors. Wholesale rates from 200+ lenders. NMLS #1426884.',
+  description: 'Non-QM loans Orange County 2026: Bank statement, DSCR, asset depletion loans for self-employed and investors. Wholesale rates from 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['Non-QM loans Orange County', 'bank statement loans California', 'DSCR loans Orange County', 'self-employed mortgage 2026'],
   openGraph: {
     title: 'Non-QM Loans Orange County 2026: Complete Guide for Self-Employed & Investors',
@@ -367,7 +367,7 @@ export default function NonQMLoansGuide2026() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 text-white font-bold shrink-0">3</span>
                 <div>
                   <h4 className="font-semibold text-slate-900">Submit to Wholesale Non-QM Specialist</h4>
-                  <p className="text-slate-600">Mo Abdel accesses 100+ wholesale lenders including 20+ Non-QM specialists for the most competitive rates.</p>
+                  <p className="text-slate-600">Mo Abdel accesses 50+ Wholesale Lenders including 20+ Non-QM specialists for the most competitive rates.</p>
                 </div>
               </li>
               <li className="flex gap-4">

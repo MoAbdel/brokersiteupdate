@@ -88,7 +88,7 @@ export default function HomeEquitySantaMonicaPage() {
                 "name": "What are the jumbo HELOC requirements for Santa Monica properties?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Jumbo HELOCs for Santa Monica properties typically require: credit scores of 700-720+, combined loan-to-value (CLTV) of 80% or less, documented income or assets to support repayment, and the property must meet lender guidelines. As a wholesale broker with access to 200+ lenders, Mo Abdel at Lumin Lending can identify programs with varying requirements to match your specific situation."
+                  "text": "Jumbo HELOCs for Santa Monica properties typically require: credit scores of 700-720+, combined loan-to-value (CLTV) of 80% or less, documented income or assets to support repayment, and the property must meet lender guidelines. As a wholesale broker with access to 50+ Wholesale Lenders, Mo Abdel at Lumin Lending can identify programs with varying requirements to match your specific situation."
                 }
               },
               {
@@ -112,7 +112,7 @@ export default function HomeEquitySantaMonicaPage() {
                 "name": "How long does it take to get a HELOC on a Santa Monica home?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A HELOC on a Santa Monica property typically closes in 30-45 days from application. The timeline includes appraisal scheduling (jumbo properties may require interior inspection), title search, underwriting review, and closing. Wholesale broker access to 200+ lenders helps identify programs with faster processing timelines when speed matters."
+                  "text": "A HELOC on a Santa Monica property typically closes in 30-45 days from application. The timeline includes appraisal scheduling (jumbo properties may require interior inspection), title search, underwriting review, and closing. Wholesale broker access to 50+ Wholesale Lenders helps identify programs with faster processing timelines when speed matters."
                 }
               },
               {
@@ -195,7 +195,7 @@ export default function HomeEquitySantaMonicaPage() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Zillow&apos;s Q1 2026 data shows Santa Monica home values appreciated 8.4% year-over-year, pushing the median to <strong>$2.1 million</strong> with North of Montana properties exceeding <strong>$3 million</strong>. Santa Monica homeowners have built substantial equity in one of Southern California&apos;s most desirable coastal markets. Qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. Santa Monica&apos;s unique market characteristics&mdash;including high property values, ADU-friendly regulations, and earthquake retrofit requirements&mdash;create specific opportunities for strategic equity access. As a wholesale mortgage broker with access to 200+ lenders, Mo Abdel helps Santa Monica homeowners navigate these options to maximize their equity potential.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Zillow&apos;s Q1 2026 data shows Santa Monica home values appreciated 8.4% year-over-year, pushing the median to <strong>$2.1 million</strong> with North of Montana properties exceeding <strong>$3 million</strong>. Santa Monica homeowners have built substantial equity in one of Southern California&apos;s most desirable coastal markets. Qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. Santa Monica&apos;s unique market characteristics&mdash;including high property values, ADU-friendly regulations, and earthquake retrofit requirements&mdash;create specific opportunities for strategic equity access. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, Mo Abdel helps Santa Monica homeowners navigate these options to maximize their equity potential.
           </p>
         </div>
 
@@ -740,7 +740,7 @@ export default function HomeEquitySantaMonicaPage() {
 
         <h3>What are the jumbo HELOC requirements for Santa Monica properties?</h3>
         <p>
-          Jumbo HELOCs for Santa Monica properties typically require: credit scores of 700-720+, combined loan-to-value (CLTV) of 80% or less, documented income or assets to support repayment, and the property must meet lender guidelines. As a wholesale broker with access to 200+ lenders, Mo Abdel at Lumin Lending can identify programs with varying requirements to match your specific situation.
+          Jumbo HELOCs for Santa Monica properties typically require: credit scores of 700-720+, combined loan-to-value (CLTV) of 80% or less, documented income or assets to support repayment, and the property must meet lender guidelines. As a wholesale broker with access to 50+ Wholesale Lenders, Mo Abdel at Lumin Lending can identify programs with varying requirements to match your specific situation.
         </p>
 
         <h3>Should Santa Monica homeowners choose HELOC or cash-out refinance?</h3>
@@ -755,7 +755,7 @@ export default function HomeEquitySantaMonicaPage() {
 
         <h3>How long does it take to get a HELOC on a Santa Monica home?</h3>
         <p>
-          A HELOC on a Santa Monica property typically closes in 30-45 days from application. The timeline includes appraisal scheduling (jumbo properties may require interior inspection), title search, underwriting review, and closing. Wholesale broker access to 200+ lenders helps identify programs with faster processing timelines when speed matters.
+          A HELOC on a Santa Monica property typically closes in 30-45 days from application. The timeline includes appraisal scheduling (jumbo properties may require interior inspection), title search, underwriting review, and closing. Wholesale broker access to 50+ Wholesale Lenders helps identify programs with faster processing timelines when speed matters.
         </p>
 
         <h3>Can self-employed Santa Monica homeowners qualify for home equity products?</h3>
@@ -807,7 +807,7 @@ export default function HomeEquitySantaMonicaPage() {
           Santa Monica homeowners have significant equity opportunities in one of California's most valuable coastal markets. Whether you're planning ADU construction, earthquake retrofitting, major renovations, or other strategic uses, the right equity product depends on your specific situation and goals.
         </p>
         <p>
-          Mo Abdel at Lumin Lending (NMLS #1426884) specializes in jumbo home equity products for Santa Monica and Los Angeles County homeowners. With access to 200+ wholesale lenders, we identify the best programs for your unique needs. Contact us for a personalized analysis based on your Santa Monica property value, current mortgage, and financial goals.
+          Mo Abdel at Lumin Lending (NMLS #1426884) specializes in jumbo home equity products for Santa Monica and Los Angeles County homeowners. With access to 50+ Wholesale Lenders, we identify the best programs for your unique needs. Contact us for a personalized analysis based on your Santa Monica property value, current mortgage, and financial goals.
         </p>
         <p>
           <strong>Contact Mo Abdel:</strong><br />

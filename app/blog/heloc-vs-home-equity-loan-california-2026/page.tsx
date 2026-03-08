@@ -41,7 +41,7 @@ const faqData = [
   },
   {
     question: 'Is a HELOC or home equity loan better for California homeowners in 2026?',
-    answer: 'The right choice depends on your specific needs. A HELOC is better if you need ongoing access to funds, want flexibility, or are funding a phased project like an ADU build. A home equity loan is better if you need a specific lump sum, prefer payment certainty, or want to lock in a fixed rate. A wholesale mortgage broker can compare both products across 200+ lenders to find your optimal terms.',
+    answer: 'The right choice depends on your specific needs. A HELOC is better if you need ongoing access to funds, want flexibility, or are funding a phased project like an ADU build. A home equity loan is better if you need a specific lump sum, prefer payment certainty, or want to lock in a fixed rate. A wholesale mortgage broker can compare both products across 50+ Wholesale Lenders to find your optimal terms.',
   },
   {
     question: 'Can I convert my HELOC to a fixed rate in California?',
@@ -169,7 +169,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    description: 'Licensed California and Washington mortgage broker specializing in HELOCs, home equity loans, and wholesale lending with access to 200+ lenders.',
+    description: 'Licensed California and Washington mortgage broker specializing in HELOCs, home equity loans, and wholesale lending with access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com',
     telephone: '(949) 579-2057',
     priceRange: '$$',
@@ -253,7 +253,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           <p>
-            This guide delivers a head-to-head comparison of every dimension that matters: rate structure, payment mechanics, closing costs, tax treatment, and California-specific use cases including ADU financing and Prop 13 implications. As a wholesale mortgage broker with access to <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">200+ lenders across California</Link>, I run both products simultaneously for every equity client to identify which option, or combination, delivers the strongest financial outcome.
+            This guide delivers a head-to-head comparison of every dimension that matters: rate structure, payment mechanics, closing costs, tax treatment, and California-specific use cases including ADU financing and Prop 13 implications. As a wholesale mortgage broker with access to <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">50+ Wholesale Lenders across California</Link>, I run both products simultaneously for every equity client to identify which option, or combination, delivers the strongest financial outcome.
           </p>
 
           {/* Side-by-Side Quick Comparison Table */}
@@ -288,7 +288,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
               <li><strong>Best for certainty:</strong> HELOAN — locked rate and payment from closing</li>
               <li><strong>California advantage:</strong> Higher home values mean larger credit lines and more lender competition</li>
               <li><strong>Tax deduction:</strong> Interest deductible only when funds improve the securing property (IRS Publication 936)</li>
-              <li><strong>Wholesale edge:</strong> A broker shops both products across 200+ lenders in one application</li>
+              <li><strong>Wholesale edge:</strong> A broker shops both products across 50+ Wholesale Lenders in one application</li>
             </ul>
           </div>
 
@@ -342,7 +342,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
               <strong>Evaluate the tax deductibility of your intended use.</strong> If you are using funds to improve the property securing the loan (renovation, ADU construction), the interest may be deductible under <a href="https://www.irs.gov/publications/p936" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS Publication 936</a>. If you are consolidating debt or funding education, the interest is not deductible regardless of which product you choose.
             </li>
             <li>
-              <strong>Compare across 200+ lenders through a wholesale broker.</strong> Retail banks typically offer only their own HELOC or their own HELOAN. A wholesale mortgage broker runs both products across the full lender network simultaneously, identifying the lender with the most competitive terms for your specific credit profile, property type, and loan amount.
+              <strong>Compare across 50+ Wholesale Lenders through a wholesale broker.</strong> Retail banks typically offer only their own HELOC or their own HELOAN. A wholesale mortgage broker runs both products across the full lender network simultaneously, identifying the lender with the most competitive terms for your specific credit profile, property type, and loan amount.
             </li>
           </ol>
 
@@ -402,14 +402,14 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           {/* E-E-A-T H2 #4: Wholesale Broker Advantage */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">The Wholesale Broker Advantage: Comparing Both Products Across 200+ Lenders</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">The Wholesale Broker Advantage: Comparing Both Products Across 50+ Wholesale Lenders</h2>
 
           <p>
             When you walk into a bank and ask about home equity options, that bank offers its own HELOC product and its own HELOAN product. The rates, terms, and CLTV limits are set by that single institution. If the bank&apos;s HELOAN pricing is competitive but its HELOC terms are not, you have no way to discover that without applying at a second institution and starting the process over.
           </p>
 
           <p>
-            A wholesale mortgage broker eliminates this inefficiency. With a single application and one credit pull, I run your scenario across 200+ wholesale lenders that each price HELOCs and HELOANs based on their current appetite for your loan profile. One lender may offer an exceptionally competitive HELOC rate for borrowers above 760 credit scores. Another may specialize in high-CLTV HELOANs that go to 90% for California properties. A third may offer a HELOC with no closing costs and a below-market introductory margin.
+            A wholesale mortgage broker eliminates this inefficiency. With a single application and one credit pull, I run your scenario across 50+ Wholesale Lenders that each price HELOCs and HELOANs based on their current appetite for your loan profile. One lender may offer an exceptionally competitive HELOC rate for borrowers above 760 credit scores. Another may specialize in high-CLTV HELOANs that go to 90% for California properties. A third may offer a HELOC with no closing costs and a below-market introductory margin.
           </p>
 
           <p>
@@ -539,12 +539,12 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           <p>
-            As a wholesale mortgage broker processing both products across 200+ lenders in California and Washington, I structure the comparison so you see real pricing, not estimates. One application, one credit pull, and you receive the top HELOC and top HELOAN options side by side with exact rates, payments, and total cost projections for your borrowing amount and timeframe.
+            As a wholesale mortgage broker processing both products across 50+ Wholesale Lenders in California and Washington, I structure the comparison so you see real pricing, not estimates. One application, one credit pull, and you receive the top HELOC and top HELOAN options side by side with exact rates, payments, and total cost projections for your borrowing amount and timeframe.
           </p>
 
           <div className="bg-blue-50 p-8 rounded-xl my-8 text-center">
             <h3 className="text-2xl font-bold text-blue-900 mb-3">Get Your Free HELOC vs HELOAN Comparison</h3>
-            <p className="text-blue-800 mb-4">One application. Both products. Real lender pricing from 200+ wholesale lenders.</p>
+            <p className="text-blue-800 mb-4">One application. Both products. Real lender pricing from 50+ Wholesale Lenders.</p>
             <p className="text-xl font-bold text-blue-900 mb-2">Mo Abdel | (949) 579-2057</p>
             <p className="text-blue-700 mb-4">NMLS #1426884 | Lumin Lending NMLS #2716106</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

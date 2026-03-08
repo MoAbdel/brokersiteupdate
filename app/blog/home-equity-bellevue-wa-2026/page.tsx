@@ -84,7 +84,7 @@ export default function HomeEquityBellevue() {
         name: 'What is the maximum HELOC credit line available for Bellevue homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Bellevue homeowners with high-value properties can access jumbo HELOC credit lines of $500,000 to $2 million or more through specialized lenders. Standard HELOC programs cap at $500,000, but wholesale broker access to 200+ lenders includes super-jumbo HELOC products designed for luxury markets like West Bellevue and Medina.',
+          text: 'Bellevue homeowners with high-value properties can access jumbo HELOC credit lines of $500,000 to $2 million or more through specialized lenders. Standard HELOC programs cap at $500,000, but wholesale broker access to 50+ Wholesale Lenders includes super-jumbo HELOC products designed for luxury markets like West Bellevue and Medina.',
         },
       },
       {
@@ -121,7 +121,7 @@ export default function HomeEquityBellevue() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Bellevue homeowners sit on significant home equity&mdash;often $500,000 to $2 million or more in established neighborhoods.&quot; The Bellevue housing market recorded a median sale price of $1.62 million in January 2026, up 5.8% year-over-year according to Redfin data, with West Bellevue estates exceeding $3 million. Whether you&apos;re planning renovations, consolidating debt, funding education, or making investments, accessing that equity through a HELOC, home equity loan, or cash-out refinance requires comparing your options carefully. As a wholesale mortgage broker licensed in Washington, I help Bellevue homeowners find the best equity solution with access to 200+ lenders. For a broader view, see our <a href="/blog/home-equity-seattle-eastside-guide-2026" className="text-blue-600 hover:underline">Seattle Eastside home equity guide</a>.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Bellevue homeowners sit on significant home equity&mdash;often $500,000 to $2 million or more in established neighborhoods.&quot; The Bellevue housing market recorded a median sale price of $1.62 million in January 2026, up 5.8% year-over-year according to Redfin data, with West Bellevue estates exceeding $3 million. Whether you&apos;re planning renovations, consolidating debt, funding education, or making investments, accessing that equity through a HELOC, home equity loan, or cash-out refinance requires comparing your options carefully. As a wholesale mortgage broker licensed in Washington, I help Bellevue homeowners find the best equity solution with access to 50+ Wholesale Lenders. For a broader view, see our <a href="/blog/home-equity-seattle-eastside-guide-2026" className="text-blue-600 hover:underline">Seattle Eastside home equity guide</a>.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Why Bellevue Homeowners Are Tapping Equity</h2>
@@ -255,7 +255,7 @@ export default function HomeEquityBellevue() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Get Your Bellevue Home Equity Assessment</h2>
           <p>
-            As a wholesale mortgage broker serving Bellevue, I access 200+ lenders for HELOCs, home equity loans, and cash-out refinances. Get competitive rates and personalized guidance to find the best option for your situation.
+            As a wholesale mortgage broker serving Bellevue, I access 50+ Wholesale Lenders for HELOCs, home equity loans, and cash-out refinances. Get competitive rates and personalized guidance to find the best option for your situation.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

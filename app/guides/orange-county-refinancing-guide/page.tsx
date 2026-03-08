@@ -241,7 +241,7 @@ const entityGraph = buildBrokerEntityGraph({
   pageUrl: PAGE_URL,
   serviceType: 'Mortgage Refinancing',
   serviceName: 'Orange County Refinancing Services',
-  serviceDescription: 'Complete refinancing guidance for Orange County homeowners including rate-and-term, cash-out, HELOC, and HELOAN options with access to 200+ wholesale lenders.',
+  serviceDescription: 'Complete refinancing guidance for Orange County homeowners including rate-and-term, cash-out, HELOC, and HELOAN options with access to 50+ Wholesale Lenders.',
 });
 
 const webPageSchema = buildServiceWebPageSchema({
@@ -325,7 +325,7 @@ export default function OrangeCountyRefinancingGuide() {
               Orange County Refinancing Options
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Choose the right refinancing solution for your goals. Access Competitive pricing from 200+ lenders
+              Choose the right refinancing solution for your goals. Access Competitive pricing from 50+ Wholesale Lenders
               with personalized guidance from experienced Orange County mortgage broker Mo Abdel.
             </p>
           </div>
@@ -569,7 +569,7 @@ export default function OrangeCountyRefinancingGuide() {
           </h2>
           <p className="text-xl mb-8 text-slate-200">
             Get personalized refinancing advice and Competitive pricing from experienced Orange County mortgage broker Mo Abdel, NMLS #1426884.
-            Access 200+ lenders for the best terms on rate-and-term refinancing, cash-out refinancing, HELOCs, and HELOANs.
+            Access 50+ Wholesale Lenders for the best terms on rate-and-term refinancing, cash-out refinancing, HELOCs, and HELOANs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

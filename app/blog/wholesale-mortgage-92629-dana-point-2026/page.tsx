@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92629 | Dana Point Coastal Jumbo Loans | Mo Abdel',
-  description: 'Dana Point 92629 wholesale mortgage broker with 200+ lender access. Monarch Beach, Niguel Shores jumbo loans, VA coastal financing. NMLS #1426884.',
+  description: 'Dana Point 92629 wholesale mortgage broker with 50+ Wholesale Lenders. Monarch Beach, Niguel Shores jumbo loans, VA coastal financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92629-dana-point-2026',
     languages: {
@@ -73,7 +73,7 @@ export default function WholesaleMortgage92629DanaPointPage() {
                 "name": "Why choose wholesale for Dana Point coastal properties?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access 200+ lenders with programs for coastal luxury homes. Dana Point's $1.9M median requires jumbo financing, and wholesale channels offer more lenders, better rates, and VA jumbo expertise."
+                  "text": "Wholesale brokers access 50+ Wholesale Lenders with programs for coastal luxury homes. Dana Point's $1.9M median requires jumbo financing, and wholesale channels offer more lenders, better rates, and VA jumbo expertise."
                 }
               },
               {
@@ -116,14 +116,14 @@ export default function WholesaleMortgage92629DanaPointPage() {
           Wholesale Mortgage Broker 92629 | Dana Point Coastal Jumbo & VA Specialist
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for Monarch Beach, Niguel Shores & Lantern Village
+          50+ Wholesale Lenders for Monarch Beach, Niguel Shores & Lantern Village
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Dana Point 92629 offers some of Orange County&apos;s most spectacular coastal living, with a <strong>median home price of $1.9 million</strong>. From Monarch Beach&apos;s resort community to Niguel Shores&apos; oceanfront bluffs, buyers need jumbo financing tailored to coastal property values. Mo Abdel at Lumin Lending provides <strong>200+ wholesale lender relationships</strong> including specialized VA jumbo programs for veterans seeking 0% down coastal home purchases.
+            Dana Point 92629 offers some of Orange County&apos;s most spectacular coastal living, with a <strong>median home price of $1.9 million</strong>. From Monarch Beach&apos;s resort community to Niguel Shores&apos; oceanfront bluffs, buyers need jumbo financing tailored to coastal property values. Mo Abdel at Lumin Lending provides <strong>50+ Wholesale Lenders</strong> including specialized VA jumbo programs for veterans seeking 0% down coastal home purchases.
           </p>
         </div>
 
@@ -275,7 +275,7 @@ export default function WholesaleMortgage92629DanaPointPage() {
 
         <h3>Why choose wholesale for Dana Point coastal properties?</h3>
         <p>
-          Wholesale brokers access 200+ lenders with programs specifically designed for coastal luxury homes. Dana Point&apos;s $1.9M median price requires jumbo financing, and wholesale channels offer more lenders competing for your business, better rates through competition, and VA jumbo expertise that most retail banks lack.
+          Wholesale brokers access 50+ Wholesale Lenders with programs specifically designed for coastal luxury homes. Dana Point&apos;s $1.9M median price requires jumbo financing, and wholesale channels offer more lenders competing for your business, better rates through competition, and VA jumbo expertise that most retail banks lack.
         </p>
 
         <h3>Can investors finance Dana Point vacation rentals?</h3>

@@ -58,7 +58,7 @@ const faqData = [
   },
   {
     question: "Can I get a proprietary reverse mortgage on a manufactured home that does not qualify for HECM?",
-    answer: "Some proprietary reverse mortgage lenders accept manufactured homes that do not meet all FHA HECM requirements. Proprietary programs are private-label products not insured by FHA, so they set their own eligibility criteria. However, availability is limited and terms vary significantly. A wholesale broker with access to 200+ lenders can identify proprietary options when HECM eligibility is not achievable."
+    answer: "Some proprietary reverse mortgage lenders accept manufactured homes that do not meet all FHA HECM requirements. Proprietary programs are private-label products not insured by FHA, so they set their own eligibility criteria. However, availability is limited and terms vary significantly. A wholesale broker with access to 50+ Wholesale Lenders can identify proprietary options when HECM eligibility is not achievable."
   },
   {
     question: "How does the appraisal process differ for a manufactured home reverse mortgage?",
@@ -451,7 +451,7 @@ export default function ReverseMortgageManufacturedHome2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            When HECM is not achievable, <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:text-blue-700 hover:underline">proprietary reverse mortgage programs</Link> offer an alternative path. Proprietary reverse mortgages are private-label products not insured by FHA, which means lenders set their own eligibility standards. Some proprietary lenders accept manufactured homes without foundation certification, homes on leased land, or properties that do not meet all HUD Code specifications. Availability and terms vary by lender. As a wholesale broker with access to 200+ lenders, Mo Abdel identifies proprietary options when FHA HECM eligibility is not possible.
+            When HECM is not achievable, <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:text-blue-700 hover:underline">proprietary reverse mortgage programs</Link> offer an alternative path. Proprietary reverse mortgages are private-label products not insured by FHA, which means lenders set their own eligibility standards. Some proprietary lenders accept manufactured homes without foundation certification, homes on leased land, or properties that do not meet all HUD Code specifications. Availability and terms vary by lender. As a wholesale broker with access to 50+ Wholesale Lenders, Mo Abdel identifies proprietary options when FHA HECM eligibility is not possible.
           </p>
 
           <h3 className="text-2xl font-semibold text-slate-900 mb-4">
@@ -656,7 +656,7 @@ export default function ReverseMortgageManufacturedHome2026() {
             A manufactured home qualifies for an FHA HECM reverse mortgage when it was built after June 15, 1976, sits on a certified permanent foundation, has intact HUD labels, meets the 400 square foot minimum, and is titled as real property with the land. Homeowners 62 and older who meet these requirements can eliminate monthly mortgage payments and access home equity through the same HECM program available to site-built homeowners.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending provides free manufactured home eligibility evaluations for homeowners in California and Washington. As a wholesale broker with access to 200+ lenders, Mo identifies the optimal HECM or proprietary reverse mortgage program for each manufactured home scenario &mdash; including homes that do not meet standard FHA requirements.
+            Mo Abdel at Lumin Lending provides free manufactured home eligibility evaluations for homeowners in California and Washington. As a wholesale broker with access to 50+ Wholesale Lenders, Mo identifies the optimal HECM or proprietary reverse mortgage program for each manufactured home scenario &mdash; including homes that do not meet standard FHA requirements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -713,7 +713,7 @@ export default function ReverseMortgageManufacturedHome2026() {
             Licensed in: CA, WA
           </p>
           <p className="mb-4">
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Reverse mortgage information is not provided by, nor is it approved by, the Federal Housing Administration (FHA), the Department of Housing and Urban Development (HUD), or any other government agency. Reverse mortgage borrowers must be 62 years or older, occupy the property as their primary residence, and complete HUD-approved counseling before loan closing. Reverse mortgage proceeds are generally not considered taxable income; consult your tax advisor for guidance on your specific situation. Manufactured home eligibility requirements described in this article are based on current FHA HECM guidelines, which are subject to change. Foundation certification costs, title conversion timelines, and proprietary program availability vary by location, lender, and individual circumstances. This content is for educational purposes only and does not constitute financial, tax, or legal advice. Contact a licensed loan officer for personalized guidance. Mo Abdel, NMLS #1426884, is licensed in California and Washington. Access to 200+ lenders available through wholesale broker channels in CA and WA only.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Reverse mortgage information is not provided by, nor is it approved by, the Federal Housing Administration (FHA), the Department of Housing and Urban Development (HUD), or any other government agency. Reverse mortgage borrowers must be 62 years or older, occupy the property as their primary residence, and complete HUD-approved counseling before loan closing. Reverse mortgage proceeds are generally not considered taxable income; consult your tax advisor for guidance on your specific situation. Manufactured home eligibility requirements described in this article are based on current FHA HECM guidelines, which are subject to change. Foundation certification costs, title conversion timelines, and proprietary program availability vary by location, lender, and individual circumstances. This content is for educational purposes only and does not constitute financial, tax, or legal advice. Contact a licensed loan officer for personalized guidance. Mo Abdel, NMLS #1426884, is licensed in California and Washington. Access to 50+ Wholesale Lenders available through wholesale broker channels in CA and WA only.
           </p>
         </section>
       </article>

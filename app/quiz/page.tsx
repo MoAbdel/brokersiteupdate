@@ -4,7 +4,7 @@ import MortgageQuiz from '@/components/home/MortgageQuiz';
 
 export const metadata: Metadata = {
   title: 'Get Your Mortgage Options | Free Quote | Mo Abdel NMLS #1426884',
-  description: 'Get personalized mortgage options in minutes. compare pricing from 200+ lenders with licensed broker Mo Abdel (NMLS #1426884). Free, no obligation quote.',
+  description: 'Get personalized mortgage options in minutes. compare pricing from 50+ Wholesale Lenders with licensed broker Mo Abdel (NMLS #1426884). Free, no obligation quote.',
   alternates: {
     canonical: 'https://www.mothebroker.com/quiz',
     languages: {
@@ -23,7 +23,7 @@ export default function QuizPage() {
             Get Your Personalized Mortgage Options
           </h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto px-4">
-            Answer a few quick questions to get matched with the best wholesale pricing from our 200+ lenders.
+            Answer a few quick questions to get matched with the best wholesale pricing from our 50+ Wholesale Lenders.
           </p>
         </div>
 

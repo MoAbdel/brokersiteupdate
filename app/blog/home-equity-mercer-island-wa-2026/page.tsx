@@ -71,7 +71,7 @@ export default function HomeEquityMercerIsland() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Mercer Island homeowners often sit on extraordinary equity—frequently $1 million to $3 million or more. Whether you&apos;re planning major renovations, funding investments, helping children with home purchases, or consolidating debt, accessing that equity requires specialized jumbo products. As a wholesale mortgage broker licensed in Washington, I help island homeowners find the best equity solution with access to 200+ lenders including jumbo specialists.
+            Mercer Island homeowners often sit on extraordinary equity—frequently $1 million to $3 million or more. Whether you&apos;re planning major renovations, funding investments, helping children with home purchases, or consolidating debt, accessing that equity requires specialized jumbo products. As a wholesale mortgage broker licensed in Washington, I help island homeowners find the best equity solution with access to 50+ Wholesale Lenders including jumbo specialists.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Why Mercer Island Homeowners Are Tapping Equity</h2>
@@ -205,7 +205,7 @@ export default function HomeEquityMercerIsland() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Get Your Mercer Island Home Equity Assessment</h2>
           <p>
-            As a wholesale mortgage broker serving Mercer Island, I access 200+ lenders including jumbo specialists for HELOCs, home equity loans, and cash-out refinances. Get competitive rates for your significant equity position.
+            As a wholesale mortgage broker serving Mercer Island, I access 50+ Wholesale Lenders including jumbo specialists for HELOCs, home equity loans, and cash-out refinances. Get competitive rates for your significant equity position.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

@@ -808,8 +808,8 @@ export default function ReverseMortgageEastBaySFGuide2026() {
             </li>
             <li>
               <a href="/blog/wholesale-mortgage-broker-east-bay-sf-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Wholesale Mortgage Broker East Bay &amp; San Francisco: 200+ Lenders [2026]
-              </a> -- Learn how wholesale mortgage access benefits East Bay and SF homebuyers, refinancers, and investors with competitive rates from 200+ lenders.
+                Wholesale Mortgage Broker East Bay &amp; San Francisco: 50+ Wholesale Lenders [2026]
+              </a> -- Learn how wholesale mortgage access benefits East Bay and SF homebuyers, refinancers, and investors with competitive rates from 50+ Wholesale Lenders.
             </li>
             <li>
               <a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">

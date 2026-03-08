@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: "How do DSCR blanket loan interest rates compare to individual DSCR loans?",
-    answer: "DSCR blanket loan rates are typically comparable to or slightly higher than individual DSCR loan rates, reflecting the added complexity of multi-property underwriting. The rate premium varies by lender, property count, and aggregate DSCR ratio. Some wholesale lenders offer competitive blanket pricing for portfolios with strong aggregate DSCR ratios above 1.25. Wholesale broker access across 200+ lenders ensures competitive blanket rate shopping."
+    answer: "DSCR blanket loan rates are typically comparable to or slightly higher than individual DSCR loan rates, reflecting the added complexity of multi-property underwriting. The rate premium varies by lender, property count, and aggregate DSCR ratio. Some wholesale lenders offer competitive blanket pricing for portfolios with strong aggregate DSCR ratios above 1.25. Wholesale broker access across 50+ Wholesale Lenders ensures competitive blanket rate shopping."
   },
   {
     question: "What are the closing costs on a DSCR blanket loan?",
@@ -764,7 +764,7 @@ export default function DSCRBlanketLoanPortfolio2026() {
             DSCR blanket loans are a specialty product within the already specialized non-QM lending market. While over 80% of wholesale DSCR lenders offer individual property loans, only an estimated 20-30% offer blanket programs. This limited availability means retail borrowers approaching a single bank or direct lender have a low probability of finding a blanket program that fits their portfolio profile.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            A wholesale mortgage broker with access to 200+ lenders can identify the subset of lenders offering blanket DSCR programs, compare their terms side by side, and match the investor&apos;s portfolio to the blanket lender with the best combination of pricing, release clause flexibility, property count capacity, and LTV limits. Mo Abdel at Lumin Lending uses the wholesale network to locate blanket programs that align with each portfolio investor&apos;s specific requirements.
+            A wholesale mortgage broker with access to 50+ Wholesale Lenders can identify the subset of lenders offering blanket DSCR programs, compare their terms side by side, and match the investor&apos;s portfolio to the blanket lender with the best combination of pricing, release clause flexibility, property count capacity, and LTV limits. Mo Abdel at Lumin Lending uses the wholesale network to locate blanket programs that align with each portfolio investor&apos;s specific requirements.
           </p>
 
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">

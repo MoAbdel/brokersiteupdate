@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity Bay Area Peninsula & Silicon Valley Guide [2026]',
-    description: 'HELOC, HELOAN & cash-out refinance guide for 15 Bay Area Peninsula cities. Wholesale broker access to 200+ lenders.',
+    description: 'HELOC, HELOAN & cash-out refinance guide for 15 Bay Area Peninsula cities. Wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-bay-area-peninsula-guide-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -348,7 +348,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
 
           <p>
             <em>As a wholesale mortgage broker (NMLS #1426884), I access HELOC, HELOAN, and cash-out refinance
-            products from 200+ lenders simultaneously. For Peninsula homeowners with jumbo equity positions,
+            products from 50+ Wholesale Lenders simultaneously. For Peninsula homeowners with jumbo equity positions,
             this access is the difference between a $500,000 bank HELOC and a $3 million wholesale HELOC
             with better terms.</em>
           </p>
@@ -532,8 +532,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
             <em>Qualification insight from Mo Abdel, NMLS #1426884:</em> The most common qualification challenge
             for Peninsula homeowners is not credit or equity — it is income documentation. Tech executives with
             compensation packages split between base salary, RSUs, bonuses, and stock options need a lender who
-            understands how to calculate qualifying income from these sources. Wholesale broker access to 200+
-            lenders means I can match each income profile to the lender with the most favorable interpretation.
+            understands how to calculate qualifying income from these sources. Wholesale broker access to 50+ Wholesale Lenders means I can match each income profile to the lender with the most favorable interpretation.
           </p>
 
           {/* ========== REGIONAL MARKET OVERVIEW ========== */}
@@ -913,7 +912,7 @@ export default function HomeEquityBayAreaPeninsulaGuide2026() {
             <h3 className="font-bold text-lg mb-3">Ready to Access Your Peninsula Home Equity?</h3>
             <p className="mb-2">
               Contact Mo Abdel for a complimentary home equity consultation. I serve all 15 Bay Area Peninsula
-              and Silicon Valley cities with wholesale access to 200+ HELOC, HELOAN, and cash-out refinance lenders.
+              and Silicon Valley cities with wholesale access to 50+ Wholesale Lenders.
             </p>
             <ul className="space-y-1 mb-0">
               <li><strong>Phone:</strong> <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></li>

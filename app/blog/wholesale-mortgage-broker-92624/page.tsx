@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach | Jumbo Loan Specialists',
-  description: 'Capistrano Beach wholesale mortgage broker serving 92624. Access 200+ lenders for jumbo loans, beach property financing & better rates. NMLS #1426884.',
+  description: 'Capistrano Beach wholesale mortgage broker serving 92624. Access 50+ Wholesale Lenders for jumbo loans, beach property financing & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92624',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach Jumbo Loan Specialists',
-    description: 'Capistrano Beach wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Capistrano Beach wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92624',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -57,7 +57,7 @@ export default function WholesaleMortgageBroker92624Page() {
                 "name": "What is a wholesale mortgage broker in Capistrano Beach (92624)?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Capistrano Beach is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for beach property purchases and jumbo loan financing."
+                  "text": "A wholesale mortgage broker in Capistrano Beach is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for beach property purchases and jumbo loan financing."
                 }
               },
               {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBroker92624Page() {
                 "name": "How do Capistrano Beach wholesale rates compare to Farmers & Merchants or Pacific Western?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 200+ lenders who compete for Capistrano Beach jumbo financing, compared to single-product offerings at local banks."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 50+ Wholesale Lenders who compete for Capistrano Beach jumbo financing, compared to single-product offerings at local banks."
                 }
               },
               {
@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92624Page() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Wholesale Mortgage Broker",
-            "description": "Capistrano Beach wholesale mortgage broker serving 92624 with 200+ lender access for jumbo loans and beach property financing.",
+            "description": "Capistrano Beach wholesale mortgage broker serving 92624 with 50+ Wholesale Lenders for jumbo loans and beach property financing.",
             "telephone": "(949) 579-2057",
             "areaServed": {
               "@type": "PostalAddress",
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBroker92624Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Capistrano Beach homebuyers in 92624 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than Farmers &amp; Merchants, Pacific Western, and other Orange County banks. With Capistrano Beach median home prices around $1.8 million, buyers need jumbo loan expertise that wholesale brokers deliver for this oceanfront community.
+            Capistrano Beach homebuyers in 92624 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than Farmers &amp; Merchants, Pacific Western, and other Orange County banks. With Capistrano Beach median home prices around $1.8 million, buyers need jumbo loan expertise that wholesale brokers deliver for this oceanfront community.
           </p>
         </div>
 
@@ -244,7 +244,7 @@ export default function WholesaleMortgageBroker92624Page() {
 
         <h3>What is a wholesale mortgage broker in Capistrano Beach (92624)?</h3>
         <p>
-          A wholesale mortgage broker in Capistrano Beach is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for beach property purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—including specialized coastal and second-home programs.
+          A wholesale mortgage broker in Capistrano Beach is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for beach property purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—including specialized coastal and second-home programs.
         </p>
 
         <h3>Can I get a jumbo loan for a Capistrano Beach oceanfront property?</h3>
@@ -254,7 +254,7 @@ export default function WholesaleMortgageBroker92624Page() {
 
         <h3>How do Capistrano Beach wholesale rates compare to Farmers &amp; Merchants or Pacific Western?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for Capistrano Beach jumbo financing, versus the single product offering at any bank.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Capistrano Beach jumbo financing, versus the single product offering at any bank.
         </p>
 
         <h3>What is the jumbo loan limit for Capistrano Beach in 2026?</h3>

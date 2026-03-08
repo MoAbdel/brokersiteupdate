@@ -204,7 +204,7 @@ export default function DscrCashOutRefinancePage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to 200+ lenders including 50+ DSCR-specific programs, <strong>DSCR cash-out refinancing</strong> is the single most efficient way for real estate investors to recycle equity from performing rental properties into new acquisitions&mdash;without producing a single tax return, W-2, or pay stub. A Debt Service Coverage Ratio loan qualifies the <strong>property</strong>, not the borrower, by comparing the property&apos;s rental income to its total mortgage payment (principal, interest, taxes, insurance, and association dues). When the DSCR meets or exceeds the lender&apos;s minimum threshold&mdash;typically 1.00 to 1.25&mdash;the investor can refinance and extract cash at loan-to-value ratios up to 75%. The <a href="https://www.federalreserve.gov/releases/z1/" target="_blank" rel="noopener noreferrer">Federal Reserve&apos;s Flow of Funds report</a> shows that U.S. households held $35.2 trillion in real estate equity as of Q3 2025, with investment property equity representing a growing share. For portfolio investors operating across California and Washington, DSCR cash-out refinancing unlocks this trapped equity for reinvestment without the documentation burdens that make conventional investment property refinancing impractical for self-employed borrowers and multi-property investors.
+            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to 50+ Wholesale Lenders including 50+ DSCR-specific programs, <strong>DSCR cash-out refinancing</strong> is the single most efficient way for real estate investors to recycle equity from performing rental properties into new acquisitions&mdash;without producing a single tax return, W-2, or pay stub. A Debt Service Coverage Ratio loan qualifies the <strong>property</strong>, not the borrower, by comparing the property&apos;s rental income to its total mortgage payment (principal, interest, taxes, insurance, and association dues). When the DSCR meets or exceeds the lender&apos;s minimum threshold&mdash;typically 1.00 to 1.25&mdash;the investor can refinance and extract cash at loan-to-value ratios up to 75%. The <a href="https://www.federalreserve.gov/releases/z1/" target="_blank" rel="noopener noreferrer">Federal Reserve&apos;s Flow of Funds report</a> shows that U.S. households held $35.2 trillion in real estate equity as of Q3 2025, with investment property equity representing a growing share. For portfolio investors operating across California and Washington, DSCR cash-out refinancing unlocks this trapped equity for reinvestment without the documentation burdens that make conventional investment property refinancing impractical for self-employed borrowers and multi-property investors.
           </p>
         </div>
 
@@ -589,7 +589,7 @@ export default function DscrCashOutRefinancePage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage: Why 50+ DSCR Lenders Matters for Cash-Out Refinancing</h2>
 
         <p>
-          Not all DSCR lenders offer the same cash-out refinance terms. Minimum DSCR ratios, LTV limits, seasoning requirements, prepayment penalty structures, reserve requirements, and eligible property types vary dramatically across lenders. Working with a wholesale mortgage broker who accesses 50+ DSCR-specific programs&mdash;within a network of 200+ total lenders&mdash;provides critical advantages:
+          Not all DSCR lenders offer the same cash-out refinance terms. Minimum DSCR ratios, LTV limits, seasoning requirements, prepayment penalty structures, reserve requirements, and eligible property types vary dramatically across lenders. Working with a wholesale mortgage broker who accesses 50+ DSCR-specific programs&mdash;within a network of 50+ Wholesale Lenders&mdash;provides critical advantages:
         </p>
 
         <ol>
@@ -780,7 +780,7 @@ export default function DscrCashOutRefinancePage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. Serving real estate investors across California and Washington with access to 200+ wholesale lenders.
+            Free consultation. Serving real estate investors across California and Washington with access to 50+ Wholesale Lenders.
           </p>
         </div>
 

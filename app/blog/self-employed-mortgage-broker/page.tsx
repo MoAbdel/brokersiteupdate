@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Self-Employed? Why You Need a Wholesale Mortgage Broker [2026]',
-  description: 'Complete guide for self-employed borrowers seeking mortgages. Learn how wholesale brokers with 200+ lenders provide bank statement loans, flexible qualification, and better approval rates. NMLS #1426884.',
+  description: 'Complete guide for self-employed borrowers seeking mortgages. Learn how wholesale brokers with 50+ Wholesale Lenders provide bank statement loans, flexible qualification, and better approval rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/self-employed-mortgage-broker',
     languages: {

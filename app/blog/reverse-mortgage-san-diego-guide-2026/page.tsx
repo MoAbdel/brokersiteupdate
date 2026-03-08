@@ -572,7 +572,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
 
         <h3>Access to Multiple Lenders</h3>
         <p>
-          As a wholesale mortgage broker with access to over 200 lenders, I can compare reverse mortgage products across the full spectrum of available programs. This is particularly important for San Diego&apos;s high-value properties, where the difference between proprietary programs can mean tens of thousands of dollars in available proceeds. Banks and retail lenders typically offer only their own proprietary product, limiting your options.
+          As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I can compare reverse mortgage products across the full spectrum of available programs. This is particularly important for San Diego&apos;s high-value properties, where the difference between proprietary programs can mean tens of thousands of dollars in available proceeds. Banks and retail lenders typically offer only their own proprietary product, limiting your options.
         </p>
 
         <h3>HUD Counseling Coordination</h3>

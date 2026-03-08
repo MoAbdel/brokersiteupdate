@@ -361,7 +361,7 @@ export default function HomeEquitySeattleEastside() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Access Your Seattle Eastside Home Equity</h2>
           <p>
-            As a wholesale mortgage broker serving the entire Seattle Eastside, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the best fit for your situation. Whether you&apos;re a Bellevue tech worker, Kirkland waterfront owner, or Sammamish estate resident, I help you access your equity efficiently.
+            As a wholesale mortgage broker serving the entire Seattle Eastside, I compare HELOC, cash-out refinance, and HELOAN options from 50+ Wholesale Lenders to find the best fit for your situation. Whether you&apos;re a Bellevue tech worker, Kirkland waterfront owner, or Sammamish estate resident, I help you access your equity efficiently.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

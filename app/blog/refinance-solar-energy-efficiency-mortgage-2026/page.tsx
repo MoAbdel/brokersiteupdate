@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Solar Panel Refinance & Energy-Efficient Mortgage Options [2026]',
-    description: 'Complete guide to refinancing with solar panels, paying off PACE loans, and accessing energy-efficient mortgage programs. 200+ lenders compared.',
+    description: 'Complete guide to refinancing with solar panels, paying off PACE loans, and accessing energy-efficient mortgage programs. 50+ Wholesale Lenders compared.',
     url: 'https://www.mothebroker.com/blog/refinance-solar-energy-efficiency-mortgage-2026',
     type: 'article',
     publishedTime: '2026-03-07',
@@ -180,7 +180,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
           Solar Panel Refinance &amp; Energy-Efficient Mortgage Options: Green Home Financing [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A comprehensive guide to refinancing homes with solar panels, paying off PACE loans through mortgage refinancing, accessing FHA Energy Efficient Mortgage and Fannie Mae HomeStyle Energy programs, and leveraging green appraisals to maximize your home&apos;s value. Learn how wholesale broker access to 200+ lenders creates financing advantages for energy-efficient properties in California and Washington.
+          A comprehensive guide to refinancing homes with solar panels, paying off PACE loans through mortgage refinancing, accessing FHA Energy Efficient Mortgage and Fannie Mae HomeStyle Energy programs, and leveraging green appraisals to maximize your home&apos;s value. Learn how wholesale broker access to 50+ Wholesale Lenders creates financing advantages for energy-efficient properties in California and Washington.
         </p>
         <p className="text-sm text-gray-500 mt-2">
           By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026
@@ -246,7 +246,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Have Solar Panels or a PACE Loan? Get a Free Refinance Assessment</h3>
           <p className="mb-3">
-            Mo Abdel works with 200+ lenders&mdash;including specialists in green home financing&mdash;to find the refinance structure that captures your full home value. No obligation, no cost for the initial consultation.
+            Mo Abdel works with 50+ Wholesale Lenders&mdash;including specialists in green home financing&mdash;to find the refinance structure that captures your full home value. No obligation, no cost for the initial consultation.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">schedule your consultation online</Link>.
@@ -268,7 +268,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
         <ol className="list-decimal pl-6 my-4 space-y-2">
           <li><strong>Full payoff at closing:</strong> The PACE balance is paid from refinance proceeds. This is the cleanest solution and eliminates the assessment entirely. If your PACE balance is $25,000 and your <Link href="/blog/refinance-closing-costs-2026" className="text-blue-600 hover:text-blue-800">refinance closing costs</Link> are $4,500, your total cost to eliminate the PACE lien is factored into the new loan amount.</li>
           <li><strong>PACE subordination:</strong> The PACE administrator agrees to subordinate the lien behind your new mortgage. This option preserves the PACE payment schedule but requires administrator cooperation&mdash;processing takes 5 to 10 business days and is not guaranteed.</li>
-          <li><strong>Lender exception:</strong> Some portfolio lenders and credit unions accept PACE liens in first position. A wholesale broker with access to 200+ lenders can identify these specialized programs that retail banks do not offer.</li>
+          <li><strong>Lender exception:</strong> Some portfolio lenders and credit unions accept PACE liens in first position. A wholesale broker with access to 50+ Wholesale Lenders can identify these specialized programs that retail banks do not offer.</li>
         </ol>
 
         <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">PACE Payoff Cost-Benefit Analysis</h3>
@@ -406,7 +406,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Which Green Mortgage Program Fits Your Situation?</h3>
           <p className="mb-3">
-            FHA EEM, HomeStyle Energy, cash-out refinance, and portfolio lender options each serve different borrower profiles. Mo Abdel compares programs across 200+ lenders to identify the lowest-cost structure for your specific energy goals.
+            FHA EEM, HomeStyle Energy, cash-out refinance, and portfolio lender options each serve different borrower profiles. Mo Abdel compares programs across 50+ Wholesale Lenders to identify the lowest-cost structure for your specific energy goals.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">request a personalized comparison</Link>.
@@ -446,7 +446,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
           <li><strong>Zero appraisal value:</strong> Leased systems add no value to your home because you do not own the equipment. The appraiser assigns $0 incremental value regardless of system size or energy production.</li>
         </ol>
         <p>
-          If you have a solar lease, the most strategic approach to refinancing involves either buying out the lease before applying (converting to owned status and gaining the appraisal value) or working with a lender that has experience underwriting properties with UCC fixture filings. Wholesale broker access to 200+ lenders is critical here because many retail banks automatically decline properties with any UCC filing.
+          If you have a solar lease, the most strategic approach to refinancing involves either buying out the lease before applying (converting to owned status and gaining the appraisal value) or working with a lender that has experience underwriting properties with UCC fixture filings. Wholesale broker access to 50+ Wholesale Lenders is critical here because many retail banks automatically decline properties with any UCC filing.
         </p>
 
         {/* Section 6 */}
@@ -478,11 +478,11 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
           Green home refinancing requires lender flexibility that most retail banks and credit unions do not offer. A <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:text-blue-800">wholesale mortgage broker</Link> provides structural advantages that directly address the challenges solar homeowners face:
         </p>
         <ul className="list-disc pl-6 my-4 space-y-2">
-          <li><strong>PACE-friendly lender identification:</strong> Among 200+ wholesale lenders, specific institutions specialize in PACE subordination or accept PACE liens without payoff. Retail banks typically have a single internal policy with no alternatives.</li>
+          <li><strong>PACE-friendly lender identification:</strong> Among 50+ Wholesale Lenders, specific institutions specialize in PACE subordination or accept PACE liens without payoff. Retail banks typically have a single internal policy with no alternatives.</li>
           <li><strong>Green appraisal access:</strong> Wholesale lenders work with AMCs that maintain panels of green-certified appraisers. Retail bank AMCs rarely prioritize this specialty.</li>
           <li><strong>UCC fixture filing expertise:</strong> Certain wholesale lenders have established policies for underwriting properties with solar leases, including clear guidelines for UCC filing treatment.</li>
           <li><strong>Program stacking:</strong> A wholesale broker can combine energy-efficient mortgage features with other programs&mdash;for example, a <Link href="/blog/no-closing-cost-refinance-guide-2026" className="text-blue-600 hover:text-blue-800">no-closing-cost refinance</Link> structure that still accommodates PACE payoff.</li>
-          <li><strong>Rate comparison across green programs:</strong> Different lenders price energy-efficient mortgages differently. Comparing across 200+ options ensures you access the most competitive terms available.</li>
+          <li><strong>Rate comparison across green programs:</strong> Different lenders price energy-efficient mortgages differently. Comparing across 50+ Wholesale Lenders ensures you access the most competitive terms available.</li>
         </ul>
         <p>
           The difference in outcomes is measurable. A solar homeowner who refinances through a retail bank with a standard appraisal and PACE payoff requirement typically leaves $15,000 to $30,000 in home value unrecognized. The same homeowner working through a wholesale broker with green appraisal access and PACE-specialized lender options captures that value while securing more competitive terms. Understanding <Link href="/blog/when-to-refinance-2026" className="text-blue-600 hover:text-blue-800">when to refinance</Link> becomes even more critical when energy improvements are involved.
@@ -525,7 +525,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
           <li><strong>Determine ownership status:</strong> Confirm whether your system is owned, leased, or financed through PACE. Each status requires a different refinancing approach.</li>
           <li><strong>Calculate your energy equity:</strong> Multiply your system&apos;s capacity in watts by $20 to estimate the green appraisal premium. An 8kW system equals approximately $24,000 to $32,000 in additional value.</li>
           <li><strong>Assess PACE payoff economics:</strong> If you have PACE financing, compare your PACE interest rate and remaining balance against the cost of rolling it into your new mortgage. Use the <Link href="/tools/mortgage-calculator" className="text-blue-600 hover:text-blue-800">mortgage calculator</Link> to model scenarios.</li>
-          <li><strong>Consult a wholesale broker:</strong> A broker with access to 200+ lenders identifies the program (FHA EEM, HomeStyle Energy, conventional cash-out, or portfolio) that matches your goals, credit profile, and property characteristics.</li>
+          <li><strong>Consult a wholesale broker:</strong> A broker with access to 50+ Wholesale Lenders identifies the program (FHA EEM, HomeStyle Energy, conventional cash-out, or portfolio) that matches your goals, credit profile, and property characteristics.</li>
           <li><strong>Request a green appraisal:</strong> Ensure your lender&apos;s AMC assigns a green-certified appraiser. Provide all solar and energy documentation directly to the appraiser at the inspection.</li>
           <li><strong>Review the closing disclosure:</strong> Verify that PACE payoff (if applicable) is itemized, energy improvement costs are correctly allocated, and your new combined payment achieves the savings target.</li>
           <li><strong>Monitor post-close:</strong> Confirm PACE lien release within 30 days of closing. Verify your property tax bill no longer includes the PACE assessment in the next billing cycle.</li>
@@ -566,7 +566,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
           <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Do energy-efficient homes qualify for lower mortgage insurance rates?</h3>
           <p>
-            <strong>Some programs offer reduced mortgage insurance for energy-efficient homes.</strong> Fannie Mae&apos;s green mortgage-backed securities program and certain portfolio lenders provide rate or MI incentives for homes meeting specific energy benchmarks. A HERS score below 80 or ENERGY STAR certification may qualify for these benefits. Your wholesale broker identifies which of the 200+ available lenders offer energy-efficiency incentives.
+            <strong>Some programs offer reduced mortgage insurance for energy-efficient homes.</strong> Fannie Mae&apos;s green mortgage-backed securities program and certain portfolio lenders provide rate or MI incentives for homes meeting specific energy benchmarks. A HERS score below 80 or ENERGY STAR certification may qualify for these benefits. Your wholesale broker identifies which of the 50+ Wholesale Lenders offer energy-efficiency incentives.
           </p>
         </div>
 
@@ -586,7 +586,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
             Solar homeowners deserve refinancing that captures the full value of their energy investments. Whether you need to pay off a PACE loan, access energy-efficient mortgage programs, or ensure a green appraisal documents your home&apos;s true worth, the right wholesale broker makes the difference between leaving equity on the table and maximizing your financial position.
           </p>
           <p className="mb-4">
-            <strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">schedule a consultation</Link> to compare green refinancing options across 200+ wholesale lenders.
+            <strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-800">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:text-blue-800">schedule a consultation</Link> to compare green refinancing options across 50+ Wholesale Lenders.
           </p>
           <p className="text-sm text-gray-600 mt-4">
             <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />

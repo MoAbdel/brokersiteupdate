@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: ['DSCR loan 1031 exchange', '1031 exchange DSCR financing', 'DSCR loan replacement property', '1031 exchange mortgage qualification', 'investment property exchange DSCR', 'tax deferred exchange DSCR loan 2026', '1031 exchange deadline financing', 'reverse 1031 exchange DSCR'],
   openGraph: {
     title: 'DSCR Loans + 1031 Exchange: Investor Financing Strategy Guide [2026]',
-    description: 'How DSCR loans solve the biggest 1031 exchange financing challenge. No income verification, faster closings, and wholesale rates from 200+ lenders for replacement property acquisition.',
+    description: 'How DSCR loans solve the biggest 1031 exchange financing challenge. No income verification, faster closings, and wholesale rates from 50+ Wholesale Lenders for replacement property acquisition.',
     url: 'https://www.mothebroker.com/blog/dscr-1031-exchange-financing-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -696,7 +696,7 @@ export default function DSCR1031ExchangeFinancing2026() {
             The combination of DSCR financing and 1031 exchanges is the most powerful wealth-building strategy available to real estate investors in 2026. DSCR loans eliminate the income verification bottleneck that causes conventional loans to miss exchange deadlines. The property-based qualification means no DTI constraints, no property count limits, and no documentation delays &mdash; exactly the financing profile that 1031 exchange timelines demand.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending provides access to DSCR programs from 200+ lenders &mdash; each with different timelines, DSCR minimums, and exchange-specific experience. Whether you are executing your first 1031 exchange or your tenth sequential exchange, the wholesale channel delivers faster closings, more flexible terms, and a single point of contact coordinating with your qualified intermediary, CPA, and tax attorney.
+            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending provides access to DSCR programs from 50+ Wholesale Lenders &mdash; each with different timelines, DSCR minimums, and exchange-specific experience. Whether you are executing your first 1031 exchange or your tenth sequential exchange, the wholesale channel delivers faster closings, more flexible terms, and a single point of contact coordinating with your qualified intermediary, CPA, and tax attorney.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

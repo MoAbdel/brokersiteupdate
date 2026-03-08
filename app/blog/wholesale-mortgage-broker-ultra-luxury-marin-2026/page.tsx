@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Ross, Tiburon & Marin County, CA [2026]',
-  description: 'Wholesale mortgage broker Ross, Tiburon, Belvedere & Mill Valley 2026: 200+ lenders, jumbo purchase financing, trust/LLC ownership, complex income. Marin County wholesale specialist. NMLS #1426884.',
+  description: 'Wholesale mortgage broker Ross, Tiburon, Belvedere & Mill Valley 2026: 50+ Wholesale Lenders, jumbo purchase financing, trust/LLC ownership, complex income. Marin County wholesale specialist. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Ross CA',
     'mortgage broker Tiburon CA',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Ross, Tiburon & Marin County, CA [2026]',
-    description: 'Access 200+ wholesale lenders for ultra-luxury Marin purchases. Trust, LLC & complex income specialists for Ross, Tiburon, Belvedere & Mill Valley. NMLS #1426884.',
+    description: 'Access 50+ Wholesale Lenders for ultra-luxury Marin purchases. Trust, LLC & complex income specialists for Ross, Tiburon, Belvedere & Mill Valley. NMLS #1426884.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-ultra-luxury-marin-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -51,7 +51,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
     },
     datePublished: '2026-02-09',
     dateModified: '2026-02-09',
-    description: 'Complete wholesale mortgage broker guide for ultra-luxury Marin County: Ross, Tiburon, Belvedere, and Mill Valley. 200+ lenders, trust financing, LLC ownership, and complex income qualification.',
+    description: 'Complete wholesale mortgage broker guide for ultra-luxury Marin County: Ross, Tiburon, Belvedere, and Mill Valley. 50+ Wholesale Lenders, trust financing, LLC ownership, and complex income qualification.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-ultra-luxury-marin-2026',
   };
 
@@ -64,7 +64,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
         name: 'What is a wholesale mortgage broker and how does it help in Ross and Tiburon?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker submits your loan application to multiple lenders simultaneously, creating competition for your business. In Ross and Tiburon where jumbo loan amounts of $2M to $5M+ are standard, this competition between 200+ lenders produces better rates and more flexible underwriting than any single retail bank can offer.',
+          text: 'A wholesale mortgage broker submits your loan application to multiple lenders simultaneously, creating competition for your business. In Ross and Tiburon where jumbo loan amounts of $2M to $5M+ are standard, this competition between 50+ Wholesale Lenders produces better rates and more flexible underwriting than any single retail bank can offer.',
         },
       },
       {
@@ -80,7 +80,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
         name: 'How does a wholesale broker handle complex income for Mill Valley creative professionals?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Mill Valley creative professionals with variable income, royalties, and 1099 contractor earnings qualify through bank statement programs, asset depletion calculations, and CPA-verified income methods. Wholesale access to 200+ lenders includes specialists in non-traditional income documentation that retail banks typically decline.',
+          text: 'Mill Valley creative professionals with variable income, royalties, and 1099 contractor earnings qualify through bank statement programs, asset depletion calculations, and CPA-verified income methods. Wholesale access to 50+ Wholesale Lenders includes specialists in non-traditional income documentation that retail banks typically decline.',
         },
       },
       {
@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
         name: 'How does wholesale compare to using a private bank for Marin luxury purchases?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Private banks offer relationship-based lending with personalized service but limited rate competition. A wholesale broker accesses private banks AND 200+ other lenders, creating rate competition that a single private bank relationship cannot match. Many ultra-luxury Marin buyers use wholesale brokers to benchmark private bank offers against the broader market.',
+          text: 'Private banks offer relationship-based lending with personalized service but limited rate competition. A wholesale broker accesses private banks AND 50+ Wholesale Lenders, creating rate competition that a single private bank relationship cannot match. Many ultra-luxury Marin buyers use wholesale brokers to benchmark private bank offers against the broader market.',
         },
       },
       {
@@ -228,7 +228,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to the National Association of Realtors, Marin County recorded 2,847 residential transactions in the 12 months ending January 2026, with an aggregate transaction value exceeding $4.2 billion. The ultra-luxury corridor of Ross, Tiburon, Belvedere, and Mill Valley accounted for approximately 38% of that dollar volume despite representing fewer than 25% of total sales. &quot;Ultra-luxury Marin transactions involve complexities that retail banks are not equipped to handle,&quot; explains Mo Abdel, NMLS #1426884. &quot;Trust-held properties, LLC purchases, multi-generational ownership transfers, creative professional income verification, and waterfront property underwriting all require lenders with specific expertise. With 200+ wholesale lenders, I match each transaction to the lender whose underwriting specialty aligns with the borrower&apos;s exact situation.&quot;
+              According to the National Association of Realtors, Marin County recorded 2,847 residential transactions in the 12 months ending January 2026, with an aggregate transaction value exceeding $4.2 billion. The ultra-luxury corridor of Ross, Tiburon, Belvedere, and Mill Valley accounted for approximately 38% of that dollar volume despite representing fewer than 25% of total sales. &quot;Ultra-luxury Marin transactions involve complexities that retail banks are not equipped to handle,&quot; explains Mo Abdel, NMLS #1426884. &quot;Trust-held properties, LLC purchases, multi-generational ownership transfers, creative professional income verification, and waterfront property underwriting all require lenders with specific expertise. With 50+ Wholesale Lenders, I match each transaction to the lender whose underwriting specialty aligns with the borrower&apos;s exact situation.&quot;
             </p>
           </div>
 
@@ -326,7 +326,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
               <tbody>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Lender Access</td>
-                  <td className="px-4 py-3 text-sm text-gray-800">200+ lenders compete for your loan</td>
+                  <td className="px-4 py-3 text-sm text-gray-800">50+ Wholesale Lenders compete for your loan</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (the bank itself)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (the company itself)</td>
                 </tr>
@@ -422,7 +422,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Individual (Standard)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Mill Valley, Tiburon (first-time jumbo, straightforward purchase)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">Standard income, asset, and credit documentation</td>
-                  <td className="px-4 py-3 text-sm text-gray-800">200+ lenders competing on rate and terms for jumbo purchases</td>
+                  <td className="px-4 py-3 text-sm text-gray-800">50+ Wholesale Lenders competing on rate and terms for jumbo purchases</td>
                 </tr>
               </tbody>
             </table>
@@ -468,7 +468,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
           </p>
 
           <p>
-            Wholesale access addresses this directly. Among 200+ lenders, multiple specialize in trust-based jumbo financing with dedicated legal review teams, streamlined trust certification processes, and underwriting guidelines that accommodate non-arm&apos;s-length family transactions. The broker&apos;s role is matching the specific trust structure and transaction type to the lender with the most compatible guidelines and the most competitive jumbo rate.
+            Wholesale access addresses this directly. Among 50+ Wholesale Lenders, multiple specialize in trust-based jumbo financing with dedicated legal review teams, streamlined trust certification processes, and underwriting guidelines that accommodate non-arm&apos;s-length family transactions. The broker&apos;s role is matching the specific trust structure and transaction type to the lender with the most compatible guidelines and the most competitive jumbo rate.
           </p>
 
           <p>
@@ -606,7 +606,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
           </p>
 
           <p>
-            As a wholesale mortgage broker licensed in California (NMLS #1426884) through Lumin Lending (NMLS #2716106, DRE #02291443), I occupy a unique position in this market. My role is not to originate the loan from a single institution&apos;s product menu. My role is to analyze the borrower&apos;s complete financial profile &mdash; income type, documentation availability, ownership structure, property characteristics, and financial objectives &mdash; and then identify which of 200+ wholesale lenders offers the most competitive combination of rate, terms, and underwriting flexibility for that exact scenario.
+            As a wholesale mortgage broker licensed in California (NMLS #1426884) through Lumin Lending (NMLS #2716106, DRE #02291443), I occupy a unique position in this market. My role is not to originate the loan from a single institution&apos;s product menu. My role is to analyze the borrower&apos;s complete financial profile &mdash; income type, documentation availability, ownership structure, property characteristics, and financial objectives &mdash; and then identify which of 50+ Wholesale Lenders offers the most competitive combination of rate, terms, and underwriting flexibility for that exact scenario.
           </p>
 
           <p>
@@ -744,12 +744,12 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">How does the broker select which lenders to submit my application to?</h3>
-              <p>Lender selection is based on your specific loan scenario: loan amount, property type, income documentation type, ownership structure, credit profile, and financial goals. I identify the 2 to 4 lenders from 200+ whose guidelines best match your exact profile, then obtain rate quotes and term comparisons from each.</p>
+              <p>Lender selection is based on your specific loan scenario: loan amount, property type, income documentation type, ownership structure, credit profile, and financial goals. I identify the 2 to 4 lenders from 50+ Wholesale Lenders whose guidelines best match your exact profile, then obtain rate quotes and term comparisons from each.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Can I refinance a jumbo mortgage through a wholesale broker?</h3>
-              <p>Yes. Wholesale refinancing offers the same 200+ lender access for rate-and-term refinances, cash-out refinances, and loan restructuring. Marin homeowners with existing jumbo mortgages benefit from wholesale rate competition to optimize their current mortgage terms.</p>
+              <p>Yes. Wholesale refinancing offers the same 50+ Wholesale Lenders for rate-and-term refinances, cash-out refinances, and loan restructuring. Marin homeowners with existing jumbo mortgages benefit from wholesale rate competition to optimize their current mortgage terms.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -784,7 +784,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is the first step to get a wholesale mortgage in Marin?</h3>
-              <p>Call <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a> for a complimentary consultation. I will review your financial profile, identify the strongest lender matches from 200+ wholesale options, and provide a personalized rate and term comparison. Pre-approvals can be issued within 24 hours for well-documented borrowers.</p>
+              <p>Call <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a> for a complimentary consultation. I will review your financial profile, identify the strongest lender matches from 50+ Wholesale Lenders, and provide a personalized rate and term comparison. Pre-approvals can be issued within 24 hours for well-documented borrowers.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -814,13 +814,13 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
-              Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; demands a wholesale mortgage broker approach. With median home values from $2.7 million to $5 million, ownership structures spanning trusts and LLCs, and income profiles ranging from creative professionals to multi-generational wealth, no single retail bank accommodates the full spectrum of scenarios this market produces. Wholesale access to 200+ lenders through Lumin Lending (NMLS #2716106) provides the lender matching, rate competition, and underwriting flexibility that ultra-luxury Marin transactions require.
+              Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; demands a wholesale mortgage broker approach. With median home values from $2.7 million to $5 million, ownership structures spanning trusts and LLCs, and income profiles ranging from creative professionals to multi-generational wealth, no single retail bank accommodates the full spectrum of scenarios this market produces. Wholesale access to 50+ Wholesale Lenders through Lumin Lending (NMLS #2716106) provides the lender matching, rate competition, and underwriting flexibility that ultra-luxury Marin transactions require.
             </p>
             <p className="text-lg leading-relaxed">
               Whether you are purchasing a $5 million estate in Ross through a family trust, financing a waterfront home in Tiburon with RSU income, acquiring a Belvedere island property through an LLC, or qualifying for a Mill Valley canyon home with bank statement documentation &mdash; the wholesale channel contains the lender whose guidelines align with your exact scenario.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to experience the wholesale advantage in ultra-luxury Marin?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary consultation. I will review your financial profile, property target, and ownership structure to identify the optimal lender match from 200+ wholesale options &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              <strong>Ready to experience the wholesale advantage in ultra-luxury Marin?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary consultation. I will review your financial profile, property target, and ownership structure to identify the optimal lender match from 50+ Wholesale Lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

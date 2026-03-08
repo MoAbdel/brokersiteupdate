@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance for Home Renovation: ROI by Project Type [2026]',
-  description: 'Cash-out refinance for home renovation guide: ROI by project type (kitchen, bath, ADU, pool), renovation loan vs cash-out comparison, construction draws, appraisal considerations, and wholesale broker advantage across 200+ lenders. NMLS #1426884.',
+  description: 'Cash-out refinance for home renovation guide: ROI by project type (kitchen, bath, ADU, pool), renovation loan vs cash-out comparison, construction draws, appraisal considerations, and wholesale broker advantage across 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/cash-out-refinance-home-renovation-roi-2026',
     languages: {
@@ -64,7 +64,7 @@ const faqData = [
   },
   {
     question: 'What are the closing costs on a cash-out refinance for renovation?',
-    answer: 'Closing costs on a cash-out refinance typically range from 1.5% to 4% of the new loan amount. On a $600,000 cash-out refinance, expect $9,000 to $24,000 in closing costs, which include origination fees, appraisal ($500-$800), title insurance ($1,500-$3,000), recording fees, and prepaid items (taxes, insurance, per-diem interest). Cash-out refinances often carry slightly higher pricing (rate or fees) than rate-and-term refinances because of the additional risk the lender assumes with a higher loan balance. A wholesale broker comparing pricing across 200+ lenders can minimize these costs.',
+    answer: 'Closing costs on a cash-out refinance typically range from 1.5% to 4% of the new loan amount. On a $600,000 cash-out refinance, expect $9,000 to $24,000 in closing costs, which include origination fees, appraisal ($500-$800), title insurance ($1,500-$3,000), recording fees, and prepaid items (taxes, insurance, per-diem interest). Cash-out refinances often carry slightly higher pricing (rate or fees) than rate-and-term refinances because of the additional risk the lender assumes with a higher loan balance. A wholesale broker comparing pricing across 50+ Wholesale Lenders can minimize these costs.',
   },
   {
     question: 'Can I refinance again after the renovation increases my home value?',
@@ -183,7 +183,7 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
           Cash-Out Refinance for Home Renovation: ROI by Project Type [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A data-driven guide to using a cash-out refinance for home renovations&mdash;covering ROI by project type (kitchen, bathroom, ADU, pool, landscaping), renovation loan vs cash-out comparison, construction draw mechanics, appraisal considerations for renovation properties, California-specific ADU opportunities, and how a wholesale broker&apos;s access to 200+ lenders optimizes both refinance pricing and renovation financing structure.
+          A data-driven guide to using a cash-out refinance for home renovations&mdash;covering ROI by project type (kitchen, bathroom, ADU, pool, landscaping), renovation loan vs cash-out comparison, construction draw mechanics, appraisal considerations for renovation properties, California-specific ADU opportunities, and how a wholesale broker&apos;s access to 50+ Wholesale Lenders optimizes both refinance pricing and renovation financing structure.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, homeowners considering a cash-out refinance for renovation need to evaluate two numbers: <strong>the cost of capital (refinance rate and closing costs) and the expected return on the renovation (value increase plus utility gain)</strong>. According to the <a href="https://www.nar.realtor/research-and-statistics/research-reports/remodeling-impact" target="_blank" rel="noopener noreferrer">National Association of Realtors 2025 Remodeling Impact Report</a>, the average kitchen remodel recovers 75%&ndash;85% of cost at resale, while hardwood flooring installation in some markets recovers 106%&ndash;118%. In California, ADU construction delivers among the highest ROI of any renovation category, with Orange County ADUs producing $1,800&ndash;$3,500/month in rental income while adding $150,000&ndash;$300,000+ to property value. A wholesale mortgage broker comparing cash-out refinance pricing from 200+ lenders ensures the lowest cost of capital for renovation financing, maximizing the net ROI of every improvement dollar.
+            According to Mo Abdel, NMLS #1426884, homeowners considering a cash-out refinance for renovation need to evaluate two numbers: <strong>the cost of capital (refinance rate and closing costs) and the expected return on the renovation (value increase plus utility gain)</strong>. According to the <a href="https://www.nar.realtor/research-and-statistics/research-reports/remodeling-impact" target="_blank" rel="noopener noreferrer">National Association of Realtors 2025 Remodeling Impact Report</a>, the average kitchen remodel recovers 75%&ndash;85% of cost at resale, while hardwood flooring installation in some markets recovers 106%&ndash;118%. In California, ADU construction delivers among the highest ROI of any renovation category, with Orange County ADUs producing $1,800&ndash;$3,500/month in rental income while adding $150,000&ndash;$300,000+ to property value. A wholesale mortgage broker comparing cash-out refinance pricing from 50+ Wholesale Lenders ensures the lowest cost of capital for renovation financing, maximizing the net ROI of every improvement dollar.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">minimizes the cost of renovation capital by comparing cash-out pricing across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to deliver the lowest rate and closing costs for renovation refinancing</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to deliver the lowest rate and closing costs for renovation refinancing</td>
               </tr>
             </tbody>
           </table>
@@ -257,7 +257,7 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Planning a Renovation? Find Out How Much Equity You Can Access</h3>
           <p className="text-green-800 mb-2">
-            Get a free equity analysis and cash-out refinance quote for your renovation project. I compare pricing from 200+ lenders to find the lowest cost of capital.
+            Get a free equity analysis and cash-out refinance quote for your renovation project. I compare pricing from 50+ Wholesale Lenders to find the lowest cost of capital.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Free Renovation Financing Quote</Link>
@@ -452,14 +452,14 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
         </p>
 
         <p>
-          For homeowners considering ADU construction, the financing decision between a cash-out refinance and a <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC</Link> depends on whether you want a fixed-rate lump sum (cash-out) or a revolving line you draw from as construction progresses (HELOC). Both options are available through our network of 200+ lending partners.
+          For homeowners considering ADU construction, the financing decision between a cash-out refinance and a <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC</Link> depends on whether you want a fixed-rate lump sum (cash-out) or a revolving line you draw from as construction progresses (HELOC). Both options are available through our network of 50+ Wholesale Lenders.
         </p>
 
         {/* CTA 2: Mid CTA */}
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Considering an ADU or Major Renovation? Get Your Cash-Out Quote</h3>
           <p className="text-green-800 mb-2">
-            I will calculate your maximum cash-out amount, compare pricing from 200+ lenders, and show you the net ROI of your renovation plan. Free, no-obligation analysis.
+            I will calculate your maximum cash-out amount, compare pricing from 50+ Wholesale Lenders, and show you the net ROI of your renovation plan. Free, no-obligation analysis.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Renovation Financing Analysis</Link>
@@ -631,11 +631,11 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
         </p>
 
         <ul>
-          <li><strong>Rate comparison across 200+ lenders:</strong> Cash-out refinance pricing varies meaningfully between lenders. A 0.125% rate difference on a $600,000 cash-out refinance saves approximately $750 per year&mdash;$22,500 over 30 years. Wholesale comparison finds the best pricing available.</li>
+          <li><strong>Rate comparison across 50+ Wholesale Lenders:</strong> Cash-out refinance pricing varies meaningfully between lenders. A 0.125% rate difference on a $600,000 cash-out refinance saves approximately $750 per year&mdash;$22,500 over 30 years. Wholesale comparison finds the best pricing available.</li>
           <li><strong>LTV overlay differences:</strong> While Fannie Mae guidelines cap cash-out at 80% LTV, some lenders add overlays that reduce the maximum to 75%. A broker identifies lenders at the full 80% guideline, maximizing your renovation budget.</li>
           <li><strong>Cash-out pricing adjustments vary:</strong> Lenders apply different loan-level pricing adjustments (LLPAs) for cash-out transactions. These adjustments can vary by 0.25%&ndash;0.75% between lenders for the same borrower profile. A broker finds lenders with the smallest cash-out LLPA.</li>
           <li><strong>Seasoning requirements differ:</strong> Some lenders require 6 months from purchase before allowing cash-out; others require 12 months. If you purchased recently and want to renovate quickly, a broker identifies lenders with the shortest seasoning requirements.</li>
-          <li><strong>Renovation loan expertise:</strong> If a cash-out refinance does not provide enough funding, a broker can pivot to FHA 203(k) or HomeStyle renovation loans&mdash;products that not every lender offers. Access to 200+ lenders ensures the right product is available regardless of your situation.</li>
+          <li><strong>Renovation loan expertise:</strong> If a cash-out refinance does not provide enough funding, a broker can pivot to FHA 203(k) or HomeStyle renovation loans&mdash;products that not every lender offers. Access to 50+ Wholesale Lenders ensures the right product is available regardless of your situation.</li>
         </ul>
 
         {/* Data Hub */}
@@ -759,7 +759,7 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
             <li><strong>Cash-out vs HELOC depends on your current rate:</strong> Replace the mortgage (cash-out) if your rate is above market; preserve the mortgage (HELOC) if your rate is below market</li>
             <li><strong>Renovation loans lend against future value:</strong> FHA 203(k) and HomeStyle are better when current equity is insufficient but projected after-renovation value supports the loan</li>
             <li><strong>Appraisal preparation matters:</strong> Cosmetic improvements, comparable sales data, and documentation of previous upgrades can increase the appraised value and available equity</li>
-            <li><strong>A wholesale broker minimizes cost of capital:</strong> Rate and fee variation across 200+ lenders means the same renovation loan can cost thousands less with the right lender selection</li>
+            <li><strong>A wholesale broker minimizes cost of capital:</strong> Rate and fee variation across 50+ Wholesale Lenders means the same renovation loan can cost thousands less with the right lender selection</li>
           </ol>
         </div>
 
@@ -767,7 +767,7 @@ export default function CashOutRefinanceHomeRenovationROIPage() {
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Ready to Finance Your Renovation? Get Your Free Cash-Out Analysis</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me your home value, current balance, and renovation budget. I will calculate the maximum cash-out available, compare pricing from 200+ lenders, and determine whether a cash-out refinance, HELOC, or renovation loan is the best fit for your project. No obligation, no pressure.
+            Tell me your home value, current balance, and renovation budget. I will calculate the maximum cash-out available, compare pricing from 50+ Wholesale Lenders, and determine whether a cash-out refinance, HELOC, or renovation loan is the best fit for your project. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

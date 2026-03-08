@@ -103,7 +103,7 @@ export default function HomeEquityArcadiaCAPage() {
         "name": "How long does it take to close a HELOC in Arcadia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A HELOC on an Arcadia property typically closes in 30-45 days from application. Jumbo HELOCs for properties exceeding $1.2 million may require full interior appraisals, adding 5-7 days. Wholesale broker access to 200+ lenders helps identify programs with the fastest processing for time-sensitive situations."
+          "text": "A HELOC on an Arcadia property typically closes in 30-45 days from application. Jumbo HELOCs for properties exceeding $1.2 million may require full interior appraisals, adding 5-7 days. Wholesale broker access to 50+ Wholesale Lenders helps identify programs with the fastest processing for time-sensitive situations."
         }
       },
       {
@@ -734,7 +734,7 @@ export default function HomeEquityArcadiaCAPage() {
 
         <h3>How long does it take to close a HELOC in Arcadia?</h3>
         <p>
-          A HELOC on an Arcadia property typically closes in 30-45 days from application. Jumbo HELOCs for properties exceeding $1.2 million may require full interior appraisals, adding 5-7 days. Wholesale broker access to 200+ lenders helps identify programs with the fastest processing for time-sensitive situations.
+          A HELOC on an Arcadia property typically closes in 30-45 days from application. Jumbo HELOCs for properties exceeding $1.2 million may require full interior appraisals, adding 5-7 days. Wholesale broker access to 50+ Wholesale Lenders helps identify programs with the fastest processing for time-sensitive situations.
         </p>
 
         <h3>Does accessing home equity in Arcadia trigger a property tax reassessment?</h3>
@@ -758,7 +758,7 @@ export default function HomeEquityArcadiaCAPage() {
           Arcadia homeowners have built substantial equity in one of Southern California's most desirable communities. Whether you're planning an ADU for multigenerational living, a major renovation to maximize resale value, or accessing funds for investment opportunities, the right equity product makes a significant difference.
         </p>
         <p>
-          Mo Abdel at Lumin Lending (NMLS #1426884) specializes in helping Arcadia homeowners navigate jumbo equity products. With access to 200+ wholesale lenders, Mo identifies the best rates and terms for your specific situation rather than being limited to a single bank's offerings.
+          Mo Abdel at Lumin Lending (NMLS #1426884) specializes in helping Arcadia homeowners navigate jumbo equity products. With access to 50+ Wholesale Lenders, Mo identifies the best rates and terms for your specific situation rather than being limited to a single bank's offerings.
         </p>
         <p>
           <strong>Contact Mo Abdel today:</strong><br />

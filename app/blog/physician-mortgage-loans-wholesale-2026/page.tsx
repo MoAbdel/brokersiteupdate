@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026] | Mo Abdel',
-  description: 'Physician mortgage loans in California & Washington: 0-10% down, no PMI, student debt flexibility for MDs, DOs, DDS, DMD, OD, DPM, PharmD, PA, NP. 200+ lender access via wholesale broker. NMLS #1426884.',
+  description: 'Physician mortgage loans in California & Washington: 0-10% down, no PMI, student debt flexibility for MDs, DOs, DDS, DMD, OD, DPM, PharmD, PA, NP. 50+ Wholesale Lenders via wholesale broker. NMLS #1426884.',
   keywords: [
     'physician mortgage loans California',
     'doctor mortgage loans',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026]',
-    description: 'Physician mortgage loans: 0-10% down, no PMI, student debt flexibility for medical professionals. 200+ wholesale lenders. Licensed in CA & WA.',
+    description: 'Physician mortgage loans: 0-10% down, no PMI, student debt flexibility for medical professionals. 50+ Wholesale Lenders. Licensed in CA & WA.',
     url: 'https://www.mothebroker.com/blog/physician-mortgage-loans-wholesale-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: 'Can I use a physician mortgage loan to buy a home in both California and Washington?',
-    answer: 'Yes. Mo Abdel is licensed to originate physician mortgage loans in both California (DRE #02291443) and Washington. As a wholesale broker with access to 200+ lenders, Mo shops physician loan programs across multiple states. Whether purchasing in Orange County, Los Angeles, San Francisco, Seattle, Bellevue, or any other CA or WA market, the same physician mortgage benefits apply including low down payment, no PMI, and flexible student debt treatment.',
+    answer: 'Yes. Mo Abdel is licensed to originate physician mortgage loans in both California (DRE #02291443) and Washington. As a wholesale broker with access to 50+ Wholesale Lenders, Mo shops physician loan programs across multiple states. Whether purchasing in Orange County, Los Angeles, San Francisco, Seattle, Bellevue, or any other CA or WA market, the same physician mortgage benefits apply including low down payment, no PMI, and flexible student debt treatment.',
   },
   {
     question: 'What down payment options are available for physician mortgage loans?',
@@ -96,7 +96,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026]",
-    "description": "Complete guide to physician mortgage loans in California and Washington. How medical professionals get 0-10% down, no PMI, and flexible student debt treatment through wholesale broker access to 200+ lenders.",
+    "description": "Complete guide to physician mortgage loans in California and Washington. How medical professionals get 0-10% down, no PMI, and flexible student debt treatment through wholesale broker access to 50+ Wholesale Lenders.",
     "about": {
       "@type": "FinancialProduct",
       "name": "Physician Mortgage Loan",
@@ -236,7 +236,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
           Physician Mortgage Loans in California &amp; Washington: Wholesale Broker Guide [2026]
         </h1>
         <p className="text-blue-100 text-lg md:text-xl mb-6 max-w-3xl">
-          How MDs, DOs, dentists, pharmacists, PAs, and nurse practitioners access physician mortgage programs with 0-10% down, no PMI, and flexible student debt treatment through 200+ wholesale lenders.
+          How MDs, DOs, dentists, pharmacists, PAs, and nurse practitioners access physician mortgage programs with 0-10% down, no PMI, and flexible student debt treatment through 50+ Wholesale Lenders.
         </p>
         <div className="flex items-center text-sm text-blue-200 space-x-4 mb-6">
           <span>By <strong className="text-white">Mo Abdel</strong>, NMLS #1426884</span>
@@ -610,7 +610,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
           A retail bank — even one with a physician mortgage program — offers exactly one physician loan product with fixed terms. The bank&apos;s physician program has specific eligibility criteria, set down payment tiers, a defined list of qualifying designations, and one approach to student debt treatment. If the borrower&apos;s profile does not fit that single program, the bank declines the application.
         </p>
         <p>
-          A wholesale mortgage broker like Mo Abdel accesses 200+ total lenders, of which 15-20+ actively offer physician mortgage programs. Each physician lender has different:
+          A wholesale mortgage broker like Mo Abdel accesses 50+ Wholesale Lenders, of which 15-20+ actively offer physician mortgage programs. Each physician lender has different:
         </p>
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Eligible professional designations</strong> — some accept only MDs and DOs; others include PAs, NPs, CRNAs, and PharmDs</li>

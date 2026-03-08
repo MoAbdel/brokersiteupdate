@@ -6,11 +6,11 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'DSCR Loans for Portfolio Investors: Scaling to 10+ Properties with Wholesale Rates [2026] | Mo Abdel',
-  description: 'DSCR loans for portfolio investors scaling to 10+ properties in 2026. Blanket loans, entity structuring, 1031 exchange strategies, and wholesale rates from 200+ lenders. NMLS #1426884.',
+  description: 'DSCR loans for portfolio investors scaling to 10+ properties in 2026. Blanket loans, entity structuring, 1031 exchange strategies, and wholesale rates from 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['dscr loan portfolio investor', 'DSCR loans multiple properties', 'portfolio investor DSCR financing', 'blanket DSCR loan', 'scaling rental portfolio 2026', 'LLC entity structuring DSCR'],
   openGraph: {
     title: 'DSCR Loans for Portfolio Investors: Scaling to 10+ Properties with Wholesale Rates [2026]',
-    description: 'How portfolio investors use DSCR loans to scale past conventional limits. Blanket loans, entity structuring, 1031 exchanges, and wholesale rate access from 200+ lenders.',
+    description: 'How portfolio investors use DSCR loans to scale past conventional limits. Blanket loans, entity structuring, 1031 exchanges, and wholesale rate access from 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -216,7 +216,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
         <section className="mb-12">
           <LeadMagnetCTA
             title="Free: Portfolio Scaling Strategy Session"
-            description="Share your current portfolio details and acquisition targets. We&apos;ll map the optimal DSCR financing structure across 100+ wholesale lenders."
+            description="Share your current portfolio details and acquisition targets. We&apos;ll map the optimal DSCR financing structure across 50+ Wholesale Lenders."
             href="/contact"
             badge="Free portfolio analysis"
             ctaText="Request portfolio review"
@@ -406,7 +406,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
                 <span className="flex items-center justify-center w-10 h-10 rounded-full bg-purple-600 text-white font-bold shrink-0">4</span>
                 <div>
                   <h4 className="font-semibold text-slate-900 text-lg">Engage a Wholesale Mortgage Broker</h4>
-                  <p className="text-slate-600">A wholesale broker compares DSCR programs from 200+ lenders simultaneously. For portfolio investors, this means identifying lenders with no property-count rate adjustments, favorable reserve policies, and entity-friendly underwriting.</p>
+                  <p className="text-slate-600">A wholesale broker compares DSCR programs from 50+ Wholesale Lenders simultaneously. For portfolio investors, this means identifying lenders with no property-count rate adjustments, favorable reserve policies, and entity-friendly underwriting.</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -542,7 +542,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">4</span>
-              <span><strong>Submit all scenarios to a wholesale broker</strong> &mdash; compare refinance terms from 100+ DSCR lenders for each property simultaneously</span>
+              <span><strong>Submit all scenarios to a wholesale broker</strong> &mdash; compare refinance terms from 50+ Wholesale Lenders for each property simultaneously</span>
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-blue-700 font-bold text-sm shrink-0">5</span>
@@ -601,7 +601,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             The rate spread between DSCR lenders for the same borrower profile can exceed 1.5 percentage points. On a single $500,000 loan, that gap represents roughly $7,500 per year in interest cost. For a portfolio investor with 15 properties averaging $400,000 in loan balances, the aggregate annual savings from accessing the most competitive wholesale rates versus accepting the first lender&apos;s offer can reach five figures.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            Beyond rate competition, wholesale brokers provide portfolio investors with policy expertise across lenders. Some lenders cap exposure at 10 properties while others allow 50+. Some require reserves on every financed property while others only require reserves for the subject property. Some apply rate adjustments for property counts above 10, while others have no count-based pricing penalties. Only a broker who actively works with 100+ wholesale lenders knows which policies apply at which lenders for your specific scenario.
+            Beyond rate competition, wholesale brokers provide portfolio investors with policy expertise across lenders. Some lenders cap exposure at 10 properties while others allow 50+. Some require reserves on every financed property while others only require reserves for the subject property. Some apply rate adjustments for property counts above 10, while others have no count-based pricing penalties. Only a broker who actively works with 50+ Wholesale Lenders knows which policies apply at which lenders for your specific scenario.
           </p>
 
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
@@ -613,7 +613,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
               <div>
                 <p className="text-sm font-medium text-slate-700 mb-2">Rate &amp; Pricing Benefits:</p>
                 <ul className="text-sm text-slate-600 space-y-1">
-                  <li>&bull; Compare DSCR rates from 200+ lenders per deal</li>
+                  <li>&bull; Compare DSCR rates from 50+ Wholesale Lenders per deal</li>
                   <li>&bull; Identify lenders with no property-count rate adjustments</li>
                   <li>&bull; Access volume-based relationship pricing</li>
                   <li>&bull; Negotiate prepayment penalty structures per property</li>
@@ -703,7 +703,7 @@ export default function DSCRLoansPortfolioInvestorsScaling2026() {
             Expert Summary: Scale Your Portfolio with Wholesale DSCR Access
           </h2>
           <p className="text-lg text-slate-200 mb-4 max-w-3xl mx-auto">
-            Portfolio investors who rely on conventional financing hit predictable walls at the 10-property limit and DTI ceiling. DSCR loans remove both barriers while adding entity vesting, unlimited property counts, and no personal income documentation. The difference between retail and wholesale DSCR access is the difference between one lender&apos;s terms and the best terms from 200+ lenders.
+            Portfolio investors who rely on conventional financing hit predictable walls at the 10-property limit and DTI ceiling. DSCR loans remove both barriers while adding entity vesting, unlimited property counts, and no personal income documentation. The difference between retail and wholesale DSCR access is the difference between one lender&apos;s terms and the best terms from 50+ Wholesale Lenders.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
             Mo Abdel at Lumin Lending structures DSCR portfolio financing across California and Washington, matching each property in your portfolio with the lender offering the most competitive rate, reserves policy, and entity-friendly underwriting. Whether you own 5 properties or 50, wholesale DSCR access makes every acquisition more efficient.

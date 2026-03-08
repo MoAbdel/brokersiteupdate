@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How to Get Wholesale Mortgage Rates in California [2026 Guide]',
-  description: 'Get wholesale mortgage rates in California through licensed brokers with 200+ lender access. Save 0.125-0.375% vs bank rates. Learn how wholesale pricing works. NMLS #1426884.',
+  description: 'Get wholesale mortgage rates in California through licensed brokers with 50+ Wholesale Lenders. Save 0.125-0.375% vs bank rates. Learn how wholesale pricing works. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/how-to-get-wholesale-rates',
     languages: {
@@ -56,7 +56,7 @@ export default function HowToGetWholesaleRatesPage() {
                 "name": "How do I get wholesale mortgage rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "You get wholesale mortgage rates by working with a licensed mortgage broker. Brokers have direct access to wholesale lender pricing that consumers cannot access directly. The broker shops your loan across 200+ wholesale lenders and presents you with the best available rates."
+                  "text": "You get wholesale mortgage rates by working with a licensed mortgage broker. Brokers have direct access to wholesale lender pricing that consumers cannot access directly. The broker shops your loan across 50+ Wholesale Lenders and presents you with the best available rates."
                 }
               },
               {
@@ -96,7 +96,7 @@ export default function HowToGetWholesaleRatesPage() {
                 "name": "How do I find a wholesale mortgage broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Search for 'mortgage broker' (not 'mortgage lender' or 'bank') in your area. Verify their NMLS license at nmlsconsumeraccess.org. Ask how many wholesale lenders they work with—quality brokers access 50-200+ lenders."
+                  "text": "Search for 'mortgage broker' (not 'mortgage lender' or 'bank') in your area. Verify their NMLS license at nmlsconsumeraccess.org. Ask how many wholesale lenders they work with—quality brokers access 50+ Wholesale Lenders."
                 }
               }
             ]
@@ -123,7 +123,7 @@ export default function HowToGetWholesaleRatesPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            <strong>Wholesale mortgage rates</strong> are available to any California borrower who works with a licensed mortgage broker instead of applying directly with a bank. Wholesale lenders offer institutional pricing to brokers that consumers cannot access directly—typically <strong>0.125-0.375% lower</strong> than retail bank rates. On a $750,000 California home loan, this rate advantage saves $13,500-40,500 in interest over 30 years. According to Mo Abdel (NMLS #1426884) at Lumin Lending, &quot;The wholesale channel exists specifically to provide better pricing through competition—when 200+ lenders compete for your business, you win.&quot;
+            <strong>Wholesale mortgage rates</strong> are available to any California borrower who works with a licensed mortgage broker instead of applying directly with a bank. Wholesale lenders offer institutional pricing to brokers that consumers cannot access directly—typically <strong>0.125-0.375% lower</strong> than retail bank rates. On a $750,000 California home loan, this rate advantage saves $13,500-40,500 in interest over 30 years. According to Mo Abdel (NMLS #1426884) at Lumin Lending, &quot;The wholesale channel exists specifically to provide better pricing through competition—when 50+ Wholesale Lenders compete for your business, you win.&quot;
           </p>
         </div>
 
@@ -256,7 +256,7 @@ export default function HowToGetWholesaleRatesPage() {
         </p>
 
         <ul>
-          <li>Compares rates from 10-200+ lenders for your specific scenario</li>
+          <li>Compares rates from 10-50+ Wholesale Lenders for your specific scenario</li>
           <li>Evaluates total cost including fees</li>
           <li>Identifies best options for your priorities (rate vs. cost vs. speed)</li>
           <li>Presents multiple options for your selection</li>
@@ -376,7 +376,7 @@ export default function HowToGetWholesaleRatesPage() {
 
         <ul>
           <li><strong>Active NMLS license:</strong> Verify at nmlsconsumeraccess.org</li>
-          <li><strong>Multiple lender relationships:</strong> 50-200+ wholesale lenders</li>
+          <li><strong>Multiple lender relationships:</strong> 50+ Wholesale Lenders</li>
           <li><strong>Experience level:</strong> Years in mortgage industry</li>
           <li><strong>Specialization:</strong> Expertise in your loan type</li>
           <li><strong>Reviews and references:</strong> Track record of client satisfaction</li>
@@ -516,7 +516,7 @@ export default function HowToGetWholesaleRatesPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How do I get wholesale mortgage rates?</h3>
             <p className="mb-0">
-              You get wholesale mortgage rates by working with a licensed mortgage broker. Brokers have direct access to wholesale lender pricing that consumers cannot access directly. The broker shops your loan across 200+ wholesale lenders and presents you with the best available rates.
+              You get wholesale mortgage rates by working with a licensed mortgage broker. Brokers have direct access to wholesale lender pricing that consumers cannot access directly. The broker shops your loan across 50+ Wholesale Lenders and presents you with the best available rates.
             </p>
           </div>
 
@@ -551,7 +551,7 @@ export default function HowToGetWholesaleRatesPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How do I find a wholesale mortgage broker?</h3>
             <p className="mb-0">
-              Search for &quot;mortgage broker&quot; (not &quot;mortgage lender&quot; or &quot;bank&quot;) in your area. Verify their NMLS license at nmlsconsumeraccess.org. Ask how many wholesale lenders they work with—quality brokers access 50-200+ lenders.
+              Search for &quot;mortgage broker&quot; (not &quot;mortgage lender&quot; or &quot;bank&quot;) in your area. Verify their NMLS license at nmlsconsumeraccess.org. Ask how many wholesale lenders they work with—quality brokers access 50+ Wholesale Lenders.
             </p>
           </div>
         </div>
@@ -565,7 +565,7 @@ export default function HowToGetWholesaleRatesPage() {
               <li><Link href="/wholesale-mortgage-broker-california" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/wholesale-vs-retail-mortgage" className="text-blue-600 hover:underline">Wholesale vs Retail Mortgage</Link></li>
               <li><Link href="/wholesale-mortgage-broker-california/mortgage-broker-vs-bank" className="text-blue-600 hover:underline">Mortgage Broker vs Bank</Link></li>
-              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">The 200+ Lender Advantage</Link></li>
+              <li><Link href="/wholesale-mortgage-broker-california/200-lender-advantage" className="text-blue-600 hover:underline">50+ Wholesale Lenders</Link></li>
             </ul>
           </div>
           <div className="bg-gray-50 p-4 rounded-lg">

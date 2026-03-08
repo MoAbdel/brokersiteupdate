@@ -36,7 +36,7 @@ export default function ComprehensiveMortgageFAQ() {
         },
         {
           question: "Why do mortgage brokers often have Better pricing than banks?",
-          answer: "Mortgage brokers access wholesale pricing from multiple lenders, typically 0.125-0.25% lower than retail bank rates. Brokers compare offerings from 200+ lenders to find the best rate and terms for your specific situation. Banks only offer their own products at retail rates. Brokers also have lower overhead costs than bank branches, allowing them to pass savings to borrowers.",
+          answer: "Mortgage brokers access wholesale pricing from multiple lenders, typically 0.125-0.25% lower than retail bank rates. Brokers compare offerings from 50+ Wholesale Lenders to find the best rate and terms for your specific situation. Banks only offer their own products at retail rates. Brokers also have lower overhead costs than bank branches, allowing them to pass savings to borrowers.",
           tags: ["broker benefits", "wholesale pricing", "comparison"]
         },
         {

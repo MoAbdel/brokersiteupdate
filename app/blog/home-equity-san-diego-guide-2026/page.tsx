@@ -638,7 +638,7 @@ export default function HomeEquitySanDiegoGuidePage() {
           <p className="text-gray-700">Explore additional San Diego-focused mortgage guides:</p>
           <ul className="space-y-2">
             <li><a href="/blog/reverse-mortgage-san-diego-guide-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage San Diego Guide: HECM for Seniors 62+</a> &mdash; For homeowners 62+ seeking reverse mortgage options</li>
-            <li><a href="/blog/wholesale-mortgage-broker-san-diego-2026" className="text-blue-600 hover:underline font-medium">Wholesale Mortgage Broker San Diego: 200+ Lender Access</a> &mdash; How wholesale pricing benefits San Diego home buyers</li>
+            <li><a href="/blog/wholesale-mortgage-broker-san-diego-2026" className="text-blue-600 hover:underline font-medium">Wholesale Mortgage Broker San Diego: 50+ Wholesale Lenders</a> &mdash; How wholesale pricing benefits San Diego home buyers</li>
             <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline font-medium">California Home Equity Guide 2026</a> &mdash; Statewide overview of home equity products and strategies</li>
             <li><a href="/blog/home-equity-coronado-2026" className="text-blue-600 hover:underline font-medium">Home Equity Coronado</a> &mdash; Detailed guide for Coronado island homeowners</li>
             <li><a href="/blog/home-equity-rancho-santa-fe-2026" className="text-blue-600 hover:underline font-medium">Home Equity Rancho Santa Fe</a> &mdash; Estate property equity strategies for Rancho Santa Fe</li>
@@ -724,7 +724,7 @@ export default function HomeEquitySanDiegoGuidePage() {
             For most San Diego homeowners, the choice between HELOC, HELOAN, and cash-out refinance depends on three factors: your current first mortgage rate, how you plan to use the funds, and whether you need flexibility or payment certainty. The majority of San Diego equity borrowers in the luxury market benefit from jumbo HELOC products that preserve favorable first mortgage rates while providing flexible access to substantial credit lines.
           </p>
           <p className="text-gray-800 mb-0">
-            Working with a wholesale mortgage broker provides San Diego homeowners with access to 200+ lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.
+            Working with a wholesale mortgage broker provides San Diego homeowners with access to 50+ Wholesale Lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.
           </p>
         </div>
 

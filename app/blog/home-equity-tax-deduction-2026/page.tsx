@@ -785,7 +785,7 @@ export default function HomeEquityTaxDeductionPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. No obligation. Access to 200+ lenders for the best rates on your home equity loan or HELOC.
+            Free consultation. No obligation. Access to 50+ Wholesale Lenders for the best rates on your home equity loan or HELOC.
           </p>
         </div>
 

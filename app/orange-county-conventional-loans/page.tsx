@@ -8,7 +8,7 @@ import EnhancedContactForm from '@/components/EnhancedContactForm';
 
 export const metadata: Metadata = {
   title: 'Orange County Conventional Loans | Low pricing | Mo Abdel NMLS #1426884',
-  description: 'Orange County conventional loans with Competitive pricing and 3% down options. Licensed broker Mo Abdel (NMLS #1426884) with access to 200+ lenders. Get approved today!',
+  description: 'Orange County conventional loans with Competitive pricing and 3% down options. Licensed broker Mo Abdel (NMLS #1426884) with access to 50+ Wholesale Lenders. Get approved today!',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-conventional-loans',
     languages: {
@@ -134,7 +134,7 @@ export default function OrangeCountyConventionalLoansPage() {
               Orange County Conventional Loans - Best pricing
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Get the best conventional loan pricing in Orange County with down payments as low as 3%. Licensed broker Mo Abdel (NMLS #1426884) compares 200+ lenders to secure your ideal mortgage terms.
+              Get the best conventional loan pricing in Orange County with down payments as low as 3%. Licensed broker Mo Abdel (NMLS #1426884) compares 50+ Wholesale Lenders to secure your ideal mortgage terms.
             </p>
             
             {/* Quick Stats */}
@@ -159,7 +159,7 @@ export default function OrangeCountyConventionalLoansPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-4 md:mb-0">
                 <h3 className="text-lg font-semibold">Ready for Your Conventional Loan?</h3>
-                <p className="text-slate-200">compare pricing from 200+ lenders today</p>
+                <p className="text-slate-200">compare pricing from 50+ Wholesale Lenders today</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:+19495792057">
@@ -361,9 +361,9 @@ export default function OrangeCountyConventionalLoansPage() {
                       <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <Users className="w-8 h-8 text-blue-600" />
                       </div>
-                      <h3 className="text-lg font-bold mb-3">200+ Lender Network</h3>
+                      <h3 className="text-lg font-bold mb-3">50+ Wholesale Lenders</h3>
                       <p className="text-slate-600">
-                        Compare conventional loan pricing from 200+ lenders for the best deal.
+                        Compare conventional loan pricing from 50+ Wholesale Lenders for the best deal.
                       </p>
                     </div>
                     <div className="text-center">

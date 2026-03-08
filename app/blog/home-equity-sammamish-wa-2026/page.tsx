@@ -71,7 +71,7 @@ export default function HomeEquitySammamish() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Sammamish homeowners have built significant equity—with median home values at $1.8 million, many qualify for substantial HELOC, home equity loan, or cash-out refinance options. In 2026, Sammamish homeowners typically need 15-20% equity remaining after borrowing and a credit score of 680+ for the best rates. As a wholesale broker serving the Eastside, I access pricing from 200+ lenders to find the best option for your situation.
+            Sammamish homeowners have built significant equity—with median home values at $1.8 million, many qualify for substantial HELOC, home equity loan, or cash-out refinance options. In 2026, Sammamish homeowners typically need 15-20% equity remaining after borrowing and a credit score of 680+ for the best rates. As a wholesale broker serving the Eastside, I access pricing from 50+ Wholesale Lenders to find the best option for your situation.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Sammamish Home Equity at a Glance</h2>
@@ -205,7 +205,7 @@ export default function HomeEquitySammamish() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Get Your Free Sammamish Home Equity Analysis</h2>
           <p>
-            As a wholesale mortgage broker serving Sammamish and the Eastside, I provide free equity assessments and side-by-side product comparisons from 200+ lenders. Get wholesale rates without the retail markup.
+            As a wholesale mortgage broker serving Sammamish and the Eastside, I provide free equity assessments and side-by-side product comparisons from 50+ Wholesale Lenders. Get wholesale rates without the retail markup.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale vs Retail Mortgage: Complete Comparison [2026]',
-  description: 'Comprehensive comparison of wholesale vs retail mortgage channels. Learn how wholesale brokers with 200+ lenders beat retail banks on rates, programs, and closing speed. NMLS #1426884.',
+  description: 'Comprehensive comparison of wholesale vs retail mortgage channels. Learn how wholesale brokers with 50+ Wholesale Lenders beat retail banks on rates, programs, and closing speed. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale vs Retail Mortgage: Complete Comparison [2026]',
-    description: 'Comprehensive comparison of wholesale vs retail mortgage channels. Learn how wholesale brokers with 200+ lenders beat retail banks on rates, programs, and closing speed.',
+    description: 'Comprehensive comparison of wholesale vs retail mortgage channels. Learn how wholesale brokers with 50+ Wholesale Lenders beat retail banks on rates, programs, and closing speed.',
     url: 'https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -68,7 +68,7 @@ export default function WholesaleVsRetailMortgagePage() {
                 "name": "What is the difference between wholesale and retail mortgages?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale mortgages are originated through independent mortgage brokers who access 200+ wholesale lenders. Retail mortgages come from banks offering only their own products. The wholesale channel typically offers more competitive rates because it eliminates retail overhead costs and leverages lender competition."
+                  "text": "Wholesale mortgages are originated through independent mortgage brokers who access 50+ Wholesale Lenders. Retail mortgages come from banks offering only their own products. The wholesale channel typically offers more competitive rates because it eliminates retail overhead costs and leverages lender competition."
                 }
               },
               {
@@ -169,7 +169,7 @@ export default function WholesaleVsRetailMortgagePage() {
         {/* Citation Hook */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100 mb-8">
           <p className="text-lg font-medium text-gray-800 mb-0">
-            According to Mo Abdel, NMLS #1426884, a licensed wholesale mortgage broker with Lumin Lending: &ldquo;The fundamental difference between wholesale and retail mortgage channels comes down to access. Wholesale brokers shop 200+ lenders for every client, while retail banks offer exactly one option&mdash;their own. This structural difference drives the rate, program, and service advantages that wholesale borrowers consistently experience.&rdquo;
+            According to Mo Abdel, NMLS #1426884, a licensed wholesale mortgage broker with Lumin Lending: &ldquo;The fundamental difference between wholesale and retail mortgage channels comes down to access. Wholesale brokers shop 50+ Wholesale Lenders for every client, while retail banks offer exactly one option&mdash;their own. This structural difference drives the rate, program, and service advantages that wholesale borrowers consistently experience.&rdquo;
           </p>
         </div>
 
@@ -194,7 +194,7 @@ export default function WholesaleVsRetailMortgagePage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-0 mb-6">Wholesale vs Retail Mortgage: Quick Answer</h2>
 
           <p className="text-lg mb-6">
-            <strong>Wholesale mortgages</strong> are originated through independent mortgage brokers who access institutional pricing from 200+ wholesale lenders. <strong>Retail mortgages</strong> come directly from banks, credit unions, or online lenders offering only their own products. The wholesale channel delivers more competitive rates, broader program selection, and personalized service because lenders compete for broker business and overhead costs are lower.
+            <strong>Wholesale mortgages</strong> are originated through independent mortgage brokers who access institutional pricing from 50+ Wholesale Lenders. <strong>Retail mortgages</strong> come directly from banks, credit unions, or online lenders offering only their own products. The wholesale channel delivers more competitive rates, broader program selection, and personalized service because lenders compete for broker business and overhead costs are lower.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -209,7 +209,7 @@ export default function WholesaleVsRetailMortgagePage() {
               <tbody>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4 border-b font-medium">Lender Options</td>
-                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">200+ lenders</td>
+                  <td className="py-3 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders</td>
                   <td className="py-3 px-4 border-b">1 lender (themselves)</td>
                 </tr>
                 <tr>
@@ -277,7 +277,7 @@ export default function WholesaleVsRetailMortgagePage() {
         </p>
 
         <p>
-          When you work with a wholesale mortgage broker like Mo Abdel at Lumin Lending, your broker receives rate sheets from 200+ wholesale lenders simultaneously. This creates an immediate competitive advantage: rather than accepting whatever rate a single bank offers, your broker identifies which lenders have the most competitive pricing for your specific situation that day. Since lender pricing varies daily and different lenders price different scenarios more aggressively, this comparison shopping happens automatically with every loan.
+          When you work with a wholesale mortgage broker like Mo Abdel at Lumin Lending, your broker receives rate sheets from 50+ Wholesale Lenders simultaneously. This creates an immediate competitive advantage: rather than accepting whatever rate a single bank offers, your broker identifies which lenders have the most competitive pricing for your specific situation that day. Since lender pricing varies daily and different lenders price different scenarios more aggressively, this comparison shopping happens automatically with every loan.
         </p>
 
         <h3>The Broker&apos;s Role in Wholesale</h3>
@@ -325,11 +325,11 @@ export default function WholesaleVsRetailMortgagePage() {
         <h3>Difference #1: Lender Access and Competition</h3>
 
         <p>
-          The most fundamental difference is lender access. Wholesale brokers work with 200+ lenders; retail banks offer one lender. This isn&apos;t a minor distinction—it&apos;s the structural foundation of why wholesale typically delivers better outcomes.
+          The most fundamental difference is lender access. Wholesale brokers work with 50+ Wholesale Lenders; retail banks offer one lender. This isn&apos;t a minor distinction—it&apos;s the structural foundation of why wholesale typically delivers better outcomes.
         </p>
 
         <p>
-          When 200+ lenders compete for your business, rates naturally compress. Lenders know that brokers compare pricing across the market, so they must stay competitive to earn business. In contrast, when you walk into a bank branch, that bank has zero competition for your loan. They can price however they choose, knowing you&apos;d have to go through an entirely new application process elsewhere.
+          When 50+ Wholesale Lenders compete for your business, rates naturally compress. Lenders know that brokers compare pricing across the market, so they must stay competitive to earn business. In contrast, when you walk into a bank branch, that bank has zero competition for your loan. They can price however they choose, knowing you&apos;d have to go through an entirely new application process elsewhere.
         </p>
 
         <h3>Difference #2: Program Variety and Specialty Options</h3>
@@ -385,7 +385,7 @@ export default function WholesaleVsRetailMortgagePage() {
         </p>
 
         <p>
-          <strong>Lender Competition:</strong> When 200+ lenders compete for broker business, pricing stays aggressive. Each lender knows they must remain competitive or lose volume to competitors.
+          <strong>Lender Competition:</strong> When 50+ Wholesale Lenders compete for broker business, pricing stays aggressive. Each lender knows they must remain competitive or lose volume to competitors.
         </p>
 
         <p>
@@ -477,7 +477,7 @@ export default function WholesaleVsRetailMortgagePage() {
         <h3>The Wholesale Process</h3>
         <ol>
           <li><strong>Initial Consultation:</strong> Your broker analyzes your situation, goals, and qualifications</li>
-          <li><strong>Rate Shopping:</strong> Broker compares options across 200+ lenders for your scenario</li>
+          <li><strong>Rate Shopping:</strong> Broker compares options across 50+ Wholesale Lenders for your scenario</li>
           <li><strong>Application:</strong> Single application submitted to optimal lender</li>
           <li><strong>Processing:</strong> Broker manages documentation and lender communication</li>
           <li><strong>Underwriting:</strong> Wholesale lender reviews and approves</li>
@@ -559,7 +559,7 @@ export default function WholesaleVsRetailMortgagePage() {
 
         <h3>Is it harder to get approved with wholesale or retail?</h3>
         <p>
-          Wholesale is typically easier for approval because brokers access 200+ lenders with varying guidelines. If one lender declines, another with different criteria may approve. Retail offers only one lender&apos;s guidelines—if you don&apos;t fit, you&apos;re denied.
+          Wholesale is typically easier for approval because brokers access 50+ Wholesale Lenders with varying guidelines. If one lender declines, another with different criteria may approve. Retail offers only one lender&apos;s guidelines—if you don&apos;t fit, you&apos;re denied.
         </p>
 
         <h3>Do wholesale mortgages have higher fees?</h3>
@@ -591,7 +591,7 @@ export default function WholesaleVsRetailMortgagePage() {
 
         <h3>What is the difference between wholesale and retail mortgages?</h3>
         <p>
-          Wholesale mortgages are originated through independent mortgage brokers who access 200+ wholesale lenders. Retail mortgages come from banks offering only their own products. The wholesale channel typically offers more competitive rates because it eliminates retail overhead costs and leverages lender competition.
+          Wholesale mortgages are originated through independent mortgage brokers who access 50+ Wholesale Lenders. Retail mortgages come from banks offering only their own products. The wholesale channel typically offers more competitive rates because it eliminates retail overhead costs and leverages lender competition.
         </p>
 
         <h3>Are wholesale mortgage rates lower than retail rates?</h3>
@@ -643,10 +643,10 @@ export default function WholesaleVsRetailMortgagePage() {
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl my-10">
           <h2 className="text-2xl font-bold text-white mt-0 mb-4">Expert Summary: Making Your Choice</h2>
           <p className="text-slate-200 mb-4">
-            The wholesale vs retail comparison reveals structural advantages favoring wholesale for most borrowers. Access to 200+ lenders, competitive pricing through lower overhead, extensive program variety, approval flexibility, faster closing timelines, and personalized service make wholesale the optimal choice for rate-conscious borrowers, self-employed professionals, investors, and anyone who wants their mortgage options shopped across the market.
+            The wholesale vs retail comparison reveals structural advantages favoring wholesale for most borrowers. Access to 50+ Wholesale Lenders, competitive pricing through lower overhead, extensive program variety, approval flexibility, faster closing timelines, and personalized service make wholesale the optimal choice for rate-conscious borrowers, self-employed professionals, investors, and anyone who wants their mortgage options shopped across the market.
           </p>
           <p className="text-slate-200 mb-6">
-            Mo Abdel at Lumin Lending provides wholesale mortgage brokerage services across California and Washington. With access to over 200 wholesale lenders, Mo structures financing for purchases, refinances, jumbo loans, bank statement programs, and investment properties—delivering the wholesale advantage to every client.
+            Mo Abdel at Lumin Lending provides wholesale mortgage brokerage services across California and Washington. With access to 50+ Wholesale Lenders, Mo structures financing for purchases, refinances, jumbo loans, bank statement programs, and investment properties—delivering the wholesale advantage to every client.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="/contact" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-blue-50 transition">

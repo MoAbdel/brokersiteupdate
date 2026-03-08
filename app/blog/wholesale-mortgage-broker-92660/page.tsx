@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92660 | Newport Beach | Jumbo Loan Specialists',
-  description: 'Newport Beach wholesale mortgage broker serving 92660. Access 200+ lenders for jumbo loans, non-QM programs & better rates. NMLS #1426884.',
+  description: 'Newport Beach wholesale mortgage broker serving 92660. Access 50+ Wholesale Lenders for jumbo loans, non-QM programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92660',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92660 | Newport Beach Jumbo Loan Specialists',
-    description: 'Newport Beach wholesale mortgage broker with 200+ lenders for jumbo loans up to $10M+.',
+    description: 'Newport Beach wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $10M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92660',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92660Page() {
                 "name": "Why use a wholesale broker instead of Wells Fargo, Chase, or First Republic in 92660?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your Newport Beach jumbo loan. Wells Fargo, Chase, and First Republic offer only their own products at retail pricing. On a $2 million mortgage, wholesale access typically yields better rates and more flexible underwriting."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your Newport Beach jumbo loan. Wells Fargo, Chase, and First Republic offer only their own products at retail pricing. On a $2 million mortgage, wholesale access typically yields better rates and more flexible underwriting."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92660Page() {
           Wholesale Mortgage Broker 92660 | Newport Beach Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Newport Beach&apos;s established residential market
+          Access wholesale rates and 50+ Wholesale Lenders for Newport Beach&apos;s established residential market
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Beach 92660 encompasses the city&apos;s established residential neighborhoods at a <strong>$2.8 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 41% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and non-QM expertise—not a bank with limited flexibility. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo, Chase, or First Republic</strong> for Newport Beach buyers.
+            Newport Beach 92660 encompasses the city&apos;s established residential neighborhoods at a <strong>$2.8 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 41% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and non-QM expertise—not a bank with limited flexibility. Our access to 50+ Wholesale Lenders delivers <strong>better rates than Wells Fargo, Chase, or First Republic</strong> for Newport Beach buyers.
           </p>
         </div>
 
@@ -285,7 +285,7 @@ export default function WholesaleMortgageBroker92660Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why use a wholesale broker instead of Wells Fargo, Chase, or First Republic in 92660?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your Newport Beach jumbo loan. Wells Fargo, Chase, and First Republic offer only their own products at retail pricing. On a $2 million mortgage, wholesale access typically yields better rates and more flexible underwriting.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your Newport Beach jumbo loan. Wells Fargo, Chase, and First Republic offer only their own products at retail pricing. On a $2 million mortgage, wholesale access typically yields better rates and more flexible underwriting.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What Newport Beach 92660 neighborhoods does your brokerage serve?</h3>

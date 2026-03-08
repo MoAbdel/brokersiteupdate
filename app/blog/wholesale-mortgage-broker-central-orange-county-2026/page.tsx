@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Central Orange County: Irvine, Newport Beach, Costa Mesa [2026]',
-  description: 'Wholesale mortgage broker serving Central Orange County. Irvine, Newport Beach, Costa Mesa, Tustin. 200+ lenders, jumbo & tech professional specialists. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Central Orange County. Irvine, Newport Beach, Costa Mesa, Tustin. 50+ Wholesale Lenders, jumbo & tech professional specialists. NMLS #1426884.',
   keywords: ['wholesale mortgage broker Central OC', 'Irvine mortgage broker', 'Newport Beach jumbo loans', 'Costa Mesa mortgage', 'Tustin home loans'],
   openGraph: {
     title: 'Wholesale Mortgage Broker Central Orange County [2026]',
@@ -95,7 +95,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Central Orange County represents the economic and cultural heart of the region—from Irvine&apos;s tech corridors and master-planned communities to Newport Beach&apos;s waterfront luxury to Costa Mesa&apos;s arts district. With median prices ranging from $900K in Costa Mesa to $4M+ along Newport&apos;s harbor, Central OC buyers need wholesale broker access for jumbo loans, tech professional programs, and self-employed financing. I provide 200+ lender relationships delivering wholesale rates for every Central OC community.
+            Central Orange County represents the economic and cultural heart of the region—from Irvine&apos;s tech corridors and master-planned communities to Newport Beach&apos;s waterfront luxury to Costa Mesa&apos;s arts district. With median prices ranging from $900K in Costa Mesa to $4M+ along Newport&apos;s harbor, Central OC buyers need wholesale broker access for jumbo loans, tech professional programs, and self-employed financing. I provide 50+ Wholesale Lenders delivering wholesale rates for every Central OC community.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -392,7 +392,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Get Wholesale Rates for Your Central OC Purchase</h2>
           <p>
-            As a wholesale mortgage broker serving all of Central Orange County, I provide access to 200+ lenders competing for your business. Whether you&apos;re buying a tech professional&apos;s first home in Irvine, waterfront luxury in Newport Beach, or a family home in Costa Mesa, wholesale access delivers better rates and specialized programs.
+            As a wholesale mortgage broker serving all of Central Orange County, I provide access to 50+ Wholesale Lenders competing for your business. Whether you&apos;re buying a tech professional&apos;s first home in Irvine, waterfront luxury in Newport Beach, or a family home in Costa Mesa, wholesale access delivers better rates and specialized programs.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Palos Verdes Estates, Rolling Hills & PV Peninsula, CA [2026]',
-  description: 'Wholesale mortgage broker serving Palos Verdes Estates, Rolling Hills, Rolling Hills Estates & Rancho Palos Verdes. 200+ lenders, jumbo specialists, gated estate financing. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Palos Verdes Estates, Rolling Hills, Rolling Hills Estates & Rancho Palos Verdes. 50+ Wholesale Lenders, jumbo specialists, gated estate financing. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Palos Verdes',
     'mortgage broker Palos Verdes Estates',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Palos Verdes Estates, Rolling Hills & PV Peninsula, CA [2026]',
-    description: 'Wholesale mortgage broker for Palos Verdes Peninsula. 200+ lenders, jumbo loan specialists for gated hilltop estates and equestrian properties.',
+    description: 'Wholesale mortgage broker for Palos Verdes Peninsula. 50+ Wholesale Lenders, jumbo loan specialists for gated hilltop estates and equestrian properties.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-palos-verdes-peninsula-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -74,7 +74,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
         name: 'What is a wholesale mortgage broker and how does it benefit Palos Verdes Peninsula buyers?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses rates from 200+ lenders who do not work directly with the public. Palos Verdes Peninsula buyers benefit because jumbo loans above $1,209,750 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M-$5M+ peninsula properties.',
+          text: 'A wholesale mortgage broker accesses rates from 50+ Wholesale Lenders who do not work directly with the public. Palos Verdes Peninsula buyers benefit because jumbo loans above $1,209,750 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M-$5M+ peninsula properties.',
         },
       },
       {
@@ -250,7 +250,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
               <li>Median home values range from $2M (Rancho Palos Verdes &amp; Rolling Hills Estates) to $3M (Rolling Hills), with oceanfront estates exceeding $15M</li>
               <li>98% of PV Peninsula purchases require jumbo financing above the $1,209,750 LA County conforming limit</li>
               <li>Rolling Hills is one of only two fully gated cities in California &mdash; all 690 homes sit on 1+ acre lots with equestrian zoning</li>
-              <li>Wholesale broker access to 200+ lenders delivers an average 0.25%&ndash;0.50% rate savings on jumbo products versus single-bank retail pricing</li>
+              <li>Wholesale broker access to 50+ Wholesale Lenders delivers an average 0.25%&ndash;0.50% rate savings on jumbo products versus single-bank retail pricing</li>
             </ul>
           </div>
 
@@ -274,7 +274,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Palos Verdes Peninsula sits above the Pacific on the southern edge of Los Angeles County, home to four distinct cities that share panoramic ocean views, expansive lots, and property values that demand specialized mortgage expertise. From the ocean bluff estates of Palos Verdes Estates to the equestrian compounds of Rolling Hills, virtually every purchase on the peninsula requires jumbo financing &mdash; and the difference between a retail bank&apos;s single jumbo product and a wholesale broker&apos;s access to 200+ lenders translates directly to lower rates, better terms, and thousands in savings over the life of each loan.
+            The Palos Verdes Peninsula sits above the Pacific on the southern edge of Los Angeles County, home to four distinct cities that share panoramic ocean views, expansive lots, and property values that demand specialized mortgage expertise. From the ocean bluff estates of Palos Verdes Estates to the equestrian compounds of Rolling Hills, virtually every purchase on the peninsula requires jumbo financing &mdash; and the difference between a retail bank&apos;s single jumbo product and a wholesale broker&apos;s access to 50+ Wholesale Lenders translates directly to lower rates, better terms, and thousands in savings over the life of each loan.
           </p>
 
           <p>
@@ -295,7 +295,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold">Factor</th>
                   <th className="px-4 py-3 text-left font-semibold">Retail Bank</th>
-                  <th className="px-4 py-3 text-left font-semibold">Wholesale Broker (200+ Lenders)</th>
+                  <th className="px-4 py-3 text-left font-semibold">Wholesale Broker (50+ Wholesale Lenders)</th>
                 </tr>
               </thead>
               <tbody>
@@ -418,7 +418,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">2</div>
               <div>
                 <h4 className="font-bold text-lg">Multi-Lender Rate Shopping</h4>
-                <p>We compare jumbo products from 200+ wholesale lenders, presenting the top 3&ndash;5 options ranked by rate, fees, and program features. You select the best fit for your PV Peninsula purchase.</p>
+                <p>We compare jumbo products from 50+ Wholesale Lenders, presenting the top 3&ndash;5 options ranked by rate, fees, and program features. You select the best fit for your PV Peninsula purchase.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -565,7 +565,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           </p>
 
           <p>
-            <strong>Financing advantage &mdash; more accessible jumbo territory:</strong> At a $2M median, Rolling Hills Estates sits in a jumbo lending sweet spot where multiple wholesale lenders compete aggressively for loan amounts in the $1.3M&ndash;$2.5M range. This competition drives rates lower than the ultra-jumbo products required for $3M+ purchases elsewhere on the peninsula. A wholesale broker shopping 200+ lenders for a $1.6M Rolling Hills Estates loan finds rate spreads of 0.375%&ndash;0.625% between the highest and lowest offers &mdash; translating to $40,000&ndash;$80,000 in total interest savings over the loan&apos;s life.
+            <strong>Financing advantage &mdash; more accessible jumbo territory:</strong> At a $2M median, Rolling Hills Estates sits in a jumbo lending sweet spot where multiple wholesale lenders compete aggressively for loan amounts in the $1.3M&ndash;$2.5M range. This competition drives rates lower than the ultra-jumbo products required for $3M+ purchases elsewhere on the peninsula. A wholesale broker shopping 50+ Wholesale Lenders for a $1.6M Rolling Hills Estates loan finds rate spreads of 0.375%&ndash;0.625% between the highest and lowest offers &mdash; translating to $40,000&ndash;$80,000 in total interest savings over the loan&apos;s life.
           </p>
 
           <p>
@@ -710,7 +710,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           <div className="space-y-6 my-6">
             <div>
               <h3 className="font-semibold text-lg mb-1">How much does a wholesale broker save on a PV Peninsula jumbo mortgage?</h3>
-              <p><strong>Wholesale broker access to 200+ lenders saves 0.25%&ndash;0.50% on rate versus retail, translating to $50K&ndash;$150K+ in total interest savings.</strong></p>
+              <p><strong>Wholesale broker access to 50+ Wholesale Lenders saves 0.25%&ndash;0.50% on rate versus retail, translating to $50K&ndash;$150K+ in total interest savings.</strong></p>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">What is the minimum down payment for a Palos Verdes jumbo loan?</h3>
@@ -748,7 +748,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker and how does it benefit Palos Verdes Peninsula buyers?</h3>
-              <p>A wholesale mortgage broker accesses rates from 200+ lenders who do not work directly with the public. PV Peninsula buyers benefit because jumbo loans above $1,209,750 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M&ndash;$5M+ peninsula properties.</p>
+              <p>A wholesale mortgage broker accesses rates from 50+ Wholesale Lenders who do not work directly with the public. PV Peninsula buyers benefit because jumbo loans above $1,209,750 require specialized lender access. Wholesale brokers compare 20+ jumbo lenders simultaneously, delivering lower rates and better terms than any single bank offers on $2M&ndash;$5M+ peninsula properties.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How do I finance an equestrian property in Rolling Hills?</h3>
@@ -814,7 +814,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
             </a>
             <a href="/blog/wholesale-mortgage-broker-california-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">California Wholesale Mortgage Guide</h3>
-              <p className="text-sm text-gray-600">Statewide overview of wholesale mortgage broker advantages, licensing, and how 200+ lender access benefits California buyers.</p>
+              <p className="text-sm text-gray-600">Statewide overview of wholesale mortgage broker advantages, licensing, and how 50+ Wholesale Lenders benefits California buyers.</p>
             </a>
           </div>
 
@@ -822,13 +822,13 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
           <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8 expert-summary">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgages on the Palos Verdes Peninsula</h2>
             <p className="text-slate-900 mb-3">
-              The Palos Verdes Peninsula&apos;s four cities &mdash; Palos Verdes Estates ($2.9M median), Rolling Hills ($3M median), Rancho Palos Verdes ($2M median), and Rolling Hills Estates ($2M median) &mdash; represent some of Southern California&apos;s most distinctive and valuable residential real estate. With 98% of purchases requiring jumbo financing, wholesale broker access to 200+ lenders is not a luxury but a necessity for securing competitive rates and appropriate loan programs.
+              The Palos Verdes Peninsula&apos;s four cities &mdash; Palos Verdes Estates ($2.9M median), Rolling Hills ($3M median), Rancho Palos Verdes ($2M median), and Rolling Hills Estates ($2M median) &mdash; represent some of Southern California&apos;s most distinctive and valuable residential real estate. With 98% of purchases requiring jumbo financing, wholesale broker access to 50+ Wholesale Lenders is not a luxury but a necessity for securing competitive rates and appropriate loan programs.
             </p>
             <p className="text-slate-900 mb-3">
               From equestrian estate financing in Rolling Hills to cliff-side appraisals in Lunada Bay, from Portuguese Bend geological documentation to trust purchases in gated communities, every PV Peninsula transaction benefits from specialized lending knowledge. The difference between an informed wholesale broker and a generic bank loan officer translates directly to better rates, smoother transactions, and successful closings.
             </p>
             <p className="text-slate-900">
-              As your PV Peninsula wholesale mortgage broker, I deliver 200+ lender competition for your loan, peninsula-experienced appraisers, direct underwriter relationships, and the local market expertise that these unique properties demand. Contact me today for a free consultation and pre-qualification.
+              As your PV Peninsula wholesale mortgage broker, I deliver 50+ Wholesale Lenders for your loan, peninsula-experienced appraisers, direct underwriter relationships, and the local market expertise that these unique properties demand. Contact me today for a free consultation and pre-qualification.
             </p>
           </div>
 
@@ -840,7 +840,7 @@ export default function WholesaleMortgageBrokerPalosVerdesPeninsula2026() {
             <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 4 PV Peninsula cities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders | Jumbo, trust, equestrian &amp; DSCR specialist</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders | Jumbo, trust, equestrian &amp; DSCR specialist</p>
           </div>
 
           {/* Disclaimer */}

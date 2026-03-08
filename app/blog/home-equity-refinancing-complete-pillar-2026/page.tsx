@@ -204,7 +204,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
               {
                 "@type": "HowToStep",
                 "name": "Shop Multiple Lenders",
-                "text": "Work with a wholesale broker who can compare 200+ lenders to find competitive pricing for your specific situation."
+                "text": "Work with a wholesale broker who can compare 50+ Wholesale Lenders to find competitive pricing for your specific situation."
               },
               {
                 "@type": "HowToStep",
@@ -789,7 +789,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-bold text-gray-900 mb-2">What are current home equity loan rates in California 2026?</h3>
             <p className="text-gray-700 mb-0">
-              California home equity loan rates in early 2026 range from 7.5% to 10% for fixed-rate HELOANs and 9.00% to 11.50% for HELOCs (Prime + margin, variable). Exact rates depend on credit score, loan-to-value ratio, loan amount, and lender. Wholesale mortgage brokers consistently secure rates 0.25-0.50% below direct retail bank offers by comparing options across 200+ lenders.
+              California home equity loan rates in early 2026 range from 7.5% to 10% for fixed-rate HELOANs and 9.00% to 11.50% for HELOCs (Prime + margin, variable). Exact rates depend on credit score, loan-to-value ratio, loan amount, and lender. Wholesale mortgage brokers consistently secure rates 0.25-0.50% below direct retail bank offers by comparing options across 50+ Wholesale Lenders.
             </p>
           </div>
 
@@ -920,7 +920,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
           <div className="pb-4">
             <h3 className="text-lg font-bold text-gray-900 mb-2">How do wholesale mortgage brokers find better HELOC rates?</h3>
             <p className="text-gray-700">
-              Wholesale mortgage brokers access institutional pricing from 200+ lenders simultaneously - rates reserved for volume producers rather than retail customers. By comparing multiple lenders' offerings against your specific profile (credit score, LTV, loan amount), brokers identify which lender offers the most competitive terms for your situation. This shopping advantage, combined with lower overhead than bank branches, typically results in rates 0.25-0.50% below retail offers.
+              Wholesale mortgage brokers access institutional pricing from 50+ Wholesale Lenders simultaneously - rates reserved for volume producers rather than retail customers. By comparing multiple lenders' offerings against your specific profile (credit score, LTV, loan amount), brokers identify which lender offers the most competitive terms for your situation. This shopping advantage, combined with lower overhead than bank branches, typically results in rates 0.25-0.50% below retail offers.
             </p>
           </div>
         </div>
@@ -936,7 +936,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
             The 2026 rate environment - with conforming limits at $1,209,750 and many homeowners sitting on sub-4% first mortgages from 2020-2021 - makes the HELOC vs. cash-out decision particularly nuanced. A thorough analysis of your current rate, funding needs, risk tolerance, and time horizon determines the optimal path.
           </p>
           <p className="text-gray-800 mb-0">
-            As a wholesale mortgage broker, I compare options from 200+ lenders to identify not just which product suits your situation, but which lender offers the most competitive terms for your specific profile. This comparison shopping consistently saves California homeowners thousands in interest costs over the life of their equity financing.
+            As a wholesale mortgage broker, I compare options from 50+ Wholesale Lenders to identify not just which product suits your situation, but which lender offers the most competitive terms for your specific profile. This comparison shopping consistently saves California homeowners thousands in interest costs over the life of their equity financing.
           </p>
         </div>
 

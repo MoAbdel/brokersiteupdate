@@ -249,7 +249,7 @@ export default function ReverseMortgageHomeRepairsAgingModifications2026() {
               <strong>Can you use a reverse mortgage for home repairs and aging-in-place modifications?</strong>
             </p>
             <p className="text-lg text-slate-700 mb-0">
-              According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker licensed in California and Washington with access to 200+ lenders: <strong>Yes &mdash; HECM reverse mortgage proceeds have no usage restrictions</strong>, meaning homeowners 62 and older can fund any home repair or aging-in-place modification including bathroom remodels, wheelchair ramps, stair lifts, widened doorways, grab bars, first-floor master suites, and ADU caregiver suites. The HECM line of credit is the preferred option because <strong>unused funds grow over time</strong>, creating a larger pool of money for future repairs. Borrowers have <strong>no required monthly principal and interest payments</strong> but must maintain property taxes, homeowner&apos;s insurance, and the home in reasonable condition.
+              According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker licensed in California and Washington with access to 50+ Wholesale Lenders: <strong>Yes &mdash; HECM reverse mortgage proceeds have no usage restrictions</strong>, meaning homeowners 62 and older can fund any home repair or aging-in-place modification including bathroom remodels, wheelchair ramps, stair lifts, widened doorways, grab bars, first-floor master suites, and ADU caregiver suites. The HECM line of credit is the preferred option because <strong>unused funds grow over time</strong>, creating a larger pool of money for future repairs. Borrowers have <strong>no required monthly principal and interest payments</strong> but must maintain property taxes, homeowner&apos;s insurance, and the home in reasonable condition.
             </p>
           </div>
 
@@ -434,7 +434,7 @@ export default function ReverseMortgageHomeRepairsAgingModifications2026() {
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 font-bold text-sm shrink-0">2</span>
               <div>
                 <strong className="text-slate-900">Submit your HECM application</strong>
-                <p className="mt-1">Provide your counseling certificate, property documentation, and financial information. As a wholesale broker with access to 200+ lenders, I compare HECM terms across multiple sources to identify the strongest option for your situation.</p>
+                <p className="mt-1">Provide your counseling certificate, property documentation, and financial information. As a wholesale broker with access to 50+ Wholesale Lenders, I compare HECM terms across multiple sources to identify the strongest option for your situation.</p>
               </div>
             </li>
             <li className="flex gap-3">
@@ -786,7 +786,7 @@ export default function ReverseMortgageHomeRepairsAgingModifications2026() {
             For seniors 62 and older in California and Washington, the HECM reverse mortgage is the most powerful tool for funding home repairs and aging-in-place modifications without adding monthly payment obligations. No required monthly principal and interest payments. A credit line that grows every year. FHA non-recourse protection ensuring you never owe more than the home is worth. Funds for everything from grab bars and walk-in tubs to first-floor master suites and full ADU construction.
           </p>
           <p className="text-lg text-emerald-100 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending works with 200+ lenders to find the strongest HECM terms for your home repair and modification needs. Every consultation includes a detailed analysis of your available equity, payout options, and a customized modification funding strategy. HUD-approved counseling referrals provided at no cost.
+            Mo Abdel at Lumin Lending works with 50+ Wholesale Lenders to find the strongest HECM terms for your home repair and modification needs. Every consultation includes a detailed analysis of your available equity, payout options, and a customized modification funding strategy. HUD-approved counseling referrals provided at no cost.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

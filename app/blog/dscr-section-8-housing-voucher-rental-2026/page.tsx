@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Do DSCR lenders accept Section 8 Housing Choice Voucher income?',
-    answer: 'Yes, many DSCR lenders accept Section 8 Housing Choice Voucher income, but policies vary significantly. Some lenders count 100% of the total rent (tenant portion plus Housing Authority Payment, or HAP), some discount the HAP portion by 10-25%, and some do not accept voucher income at all. A wholesale mortgage broker with access to 200+ lenders identifies which programs fully count Section 8 income for DSCR calculation purposes.',
+    answer: 'Yes, many DSCR lenders accept Section 8 Housing Choice Voucher income, but policies vary significantly. Some lenders count 100% of the total rent (tenant portion plus Housing Authority Payment, or HAP), some discount the HAP portion by 10-25%, and some do not accept voucher income at all. A wholesale mortgage broker with access to 50+ Wholesale Lenders identifies which programs fully count Section 8 income for DSCR calculation purposes.',
   },
   {
     question: 'How do DSCR lenders calculate the ratio on a Section 8 rental property?',
@@ -74,7 +74,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help find Section 8-friendly DSCR lenders?',
-    answer: 'A wholesale mortgage broker maintains relationships with 200+ lenders and knows which DSCR programs accept Section 8 income, how they treat the HAP payment in their calculations, and what documentation they require. This matters because the difference between a lender that counts 100% of voucher income and one that discounts it by 25% can mean the difference between qualifying and not qualifying. The broker also identifies lenders with experience closing Section 8 DSCR transactions, reducing the risk of mid-process surprises or last-minute underwriting issues.',
+    answer: 'A wholesale mortgage broker maintains relationships with 50+ Wholesale Lenders and knows which DSCR programs accept Section 8 income, how they treat the HAP payment in their calculations, and what documentation they require. This matters because the difference between a lender that counts 100% of voucher income and one that discounts it by 25% can mean the difference between qualifying and not qualifying. The broker also identifies lenders with experience closing Section 8 DSCR transactions, reducing the risk of mid-process surprises or last-minute underwriting issues.',
   },
   {
     question: 'Can I convert a market-rate rental to Section 8 after getting a DSCR loan?',
@@ -204,7 +204,7 @@ export default function DscrSection8RentalPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving California and Washington investors with access to 200+ lenders, <strong>Section 8 Housing Choice Voucher properties</strong> represent one of the most reliable income streams available for <strong>DSCR loan qualification</strong>&mdash;yet many investors struggle to find DSCR lenders that accept voucher income. The key challenge is that DSCR lender policies on Section 8 income vary dramatically: some count 100% of the Housing Assistance Payment (HAP), some discount it by 10&ndash;25%, and some reject voucher income entirely. According to the <a href="https://www.hud.gov/program_offices/public_indian_housing/programs/hcv" target="_blank" rel="noopener noreferrer">U.S. Department of Housing and Urban Development (HUD)</a>, over 2.3 million households participate in the Housing Choice Voucher program nationally, creating substantial demand for landlords willing to accept vouchers. The <a href="https://www.cbpp.org/research/housing/housing-choice-voucher-program-overview" target="_blank" rel="noopener noreferrer">Center on Budget and Policy Priorities</a> reports that voucher holders remain in their units an average of 7 years, providing exceptional tenant retention compared to market-rate rentals. For investors who understand how to pair Section 8 income with DSCR financing, the result is government-backed rent stability combined with no-income-verification loan qualification.
+            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving California and Washington investors with access to 50+ Wholesale Lenders, <strong>Section 8 Housing Choice Voucher properties</strong> represent one of the most reliable income streams available for <strong>DSCR loan qualification</strong>&mdash;yet many investors struggle to find DSCR lenders that accept voucher income. The key challenge is that DSCR lender policies on Section 8 income vary dramatically: some count 100% of the Housing Assistance Payment (HAP), some discount it by 10&ndash;25%, and some reject voucher income entirely. According to the <a href="https://www.hud.gov/program_offices/public_indian_housing/programs/hcv" target="_blank" rel="noopener noreferrer">U.S. Department of Housing and Urban Development (HUD)</a>, over 2.3 million households participate in the Housing Choice Voucher program nationally, creating substantial demand for landlords willing to accept vouchers. The <a href="https://www.cbpp.org/research/housing/housing-choice-voucher-program-overview" target="_blank" rel="noopener noreferrer">Center on Budget and Policy Priorities</a> reports that voucher holders remain in their units an average of 7 years, providing exceptional tenant retention compared to market-rate rentals. For investors who understand how to pair Section 8 income with DSCR financing, the result is government-backed rent stability combined with no-income-verification loan qualification.
           </p>
         </div>
 
@@ -231,7 +231,7 @@ export default function DscrSection8RentalPage() {
                 <td className="border border-gray-200 px-4 py-2">HAP contract income, requiring wholesale broker sourcing</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">identifies Section 8-friendly DSCR programs across</td>
                 <td className="border border-gray-200 px-4 py-2">California and Washington markets for optimal qualification</td>
               </tr>
@@ -261,7 +261,7 @@ export default function DscrSection8RentalPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Financing Section 8 Rental Investors in California and Washington</h3>
           <p className="text-blue-800 mb-0">
-            I have structured DSCR financing for dozens of Section 8 rental property investors across California and Washington. The single most common frustration these investors face is not the Section 8 program itself&mdash;it is finding a DSCR lender that properly values their voucher income. I have seen investors apply to a retail lender, get told that Section 8 income &quot;does not qualify,&quot; and assume they cannot get a DSCR loan. In reality, the problem was not the program&mdash;it was the lender selection. Among the 200+ wholesale lenders I work with, approximately 40&ndash;50 offer DSCR programs, and of those, roughly half accept Section 8 income in some form. The investors who succeed with Section 8 DSCR financing are the ones who work with a broker who knows exactly which lenders accept HAP income at 100% versus those that discount it. A 25% discount on your HAP income can drop your DSCR ratio below the minimum threshold and kill your deal. I have rescued multiple transactions by simply moving the file from a lender that discounted voucher income to one that counted it in full. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have structured DSCR financing for dozens of Section 8 rental property investors across California and Washington. The single most common frustration these investors face is not the Section 8 program itself&mdash;it is finding a DSCR lender that properly values their voucher income. I have seen investors apply to a retail lender, get told that Section 8 income &quot;does not qualify,&quot; and assume they cannot get a DSCR loan. In reality, the problem was not the program&mdash;it was the lender selection. Among the 50+ Wholesale Lenders I work with, approximately 40&ndash;50 offer DSCR programs, and of those, roughly half accept Section 8 income in some form. The investors who succeed with Section 8 DSCR financing are the ones who work with a broker who knows exactly which lenders accept HAP income at 100% versus those that discount it. A 25% discount on your HAP income can drop your DSCR ratio below the minimum threshold and kill your deal. I have rescued multiple transactions by simply moving the file from a lender that discounted voucher income to one that counted it in full. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -290,7 +290,7 @@ export default function DscrSection8RentalPage() {
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
           <h4 className="font-bold text-green-800 mt-0">Ready to Finance a Section 8 Rental Property?</h4>
           <p className="text-green-900 mb-0">
-            <Link href="/contact" className="text-green-700 font-semibold hover:underline">Contact Mo Abdel</Link> at Lumin Lending to identify DSCR lenders that accept 100% of your Section 8 voucher income. With access to 200+ wholesale lenders, we find the program that maximizes your DSCR qualification on government-backed rental income.
+            <Link href="/contact" className="text-green-700 font-semibold hover:underline">Contact Mo Abdel</Link> at Lumin Lending to identify DSCR lenders that accept 100% of your Section 8 voucher income. With access to 50+ Wholesale Lenders, we find the program that maximizes your DSCR qualification on government-backed rental income.
           </p>
         </div>
 
@@ -595,7 +595,7 @@ export default function DscrSection8RentalPage() {
         <h3>What a Wholesale Broker Does Differently for Section 8 DSCR Deals</h3>
 
         <ol>
-          <li><strong>Lender pre-qualification:</strong> Before submitting your application, the broker identifies which lenders in their 200+ network accept Section 8 income and confirms the specific treatment policy (100%, discounted, or market rent only)</li>
+          <li><strong>Lender pre-qualification:</strong> Before submitting your application, the broker identifies which lenders in their 50+ Wholesale Lenders accept Section 8 income and confirms the specific treatment policy (100%, discounted, or market rent only)</li>
           <li><strong>Documentation packaging:</strong> The broker ensures your HAP contract, lease, PHA payment history, and HQS inspection reports are formatted to meet each lender&apos;s specific requirements</li>
           <li><strong>DSCR ratio optimization:</strong> If one lender&apos;s voucher discount drops your DSCR below the minimum, the broker redirects to a lender that accepts full HAP income&mdash;without starting the process over</li>
           <li><strong>Pricing comparison:</strong> Among lenders that accept Section 8, pricing (rate, fees, prepayment penalties) still varies significantly. The broker compares multiple options to find the most competitive overall cost</li>
@@ -717,13 +717,13 @@ export default function DscrSection8RentalPage() {
         </p>
 
         <p>
-          The difference between a lender that counts 100% of your HAP income and one that discounts it by 25% can determine whether your deal qualifies. This is precisely why wholesale broker access to 200+ lenders is not a luxury for Section 8 investors&mdash;it is a necessity. The broker identifies which programs accept full voucher income, packages your HAP contract documentation to meet lender requirements, and routes your file to underwriters experienced with Section 8 transactions.
+          The difference between a lender that counts 100% of your HAP income and one that discounts it by 25% can determine whether your deal qualifies. This is precisely why wholesale broker access to 50+ Wholesale Lenders is not a luxury for Section 8 investors&mdash;it is a necessity. The broker identifies which programs accept full voucher income, packages your HAP contract documentation to meet lender requirements, and routes your file to underwriters experienced with Section 8 transactions.
         </p>
 
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <h3 className="font-bold text-blue-900 mt-0">Next Steps: Get Section 8 DSCR Financing Through a Wholesale Broker</h3>
           <p className="text-blue-800">
-            <Link href="/contact" className="text-blue-700 font-semibold hover:underline">Contact Mo Abdel at Lumin Lending</Link> (NMLS #1426884) to discuss your Section 8 rental property investment. Whether you are acquiring a new property with a voucher tenant already in place, converting an existing rental to Section 8, or building a portfolio of government-backed rental properties, we identify the DSCR lender that maximizes your qualification based on full HAP contract income. Available in California and Washington with access to 200+ wholesale lenders. DRE #02291443.
+            <Link href="/contact" className="text-blue-700 font-semibold hover:underline">Contact Mo Abdel at Lumin Lending</Link> (NMLS #1426884) to discuss your Section 8 rental property investment. Whether you are acquiring a new property with a voucher tenant already in place, converting an existing rental to Section 8, or building a portfolio of government-backed rental properties, we identify the DSCR lender that maximizes your qualification based on full HAP contract income. Available in California and Washington with access to 50+ Wholesale Lenders. DRE #02291443.
           </p>
         </div>
 

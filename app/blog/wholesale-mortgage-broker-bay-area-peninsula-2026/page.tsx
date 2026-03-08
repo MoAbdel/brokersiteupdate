@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Bay Area Peninsula & Silicon Valley [2026]',
-  description: 'Wholesale mortgage broker Bay Area Peninsula 2026: 200+ lenders, jumbo specialists for Atherton, Palo Alto, Mountain View & 12 more cities. NMLS #1426884.',
+  description: 'Wholesale mortgage broker Bay Area Peninsula 2026: 50+ Wholesale Lenders, jumbo specialists for Atherton, Palo Alto, Mountain View & 12 more cities. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Bay Area Peninsula',
     'mortgage broker Silicon Valley',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker Bay Area Peninsula & Silicon Valley [2026]',
-    description: 'Wholesale mortgage broker serving 15 Bay Area Peninsula cities. 200+ lenders, jumbo specialists, RSU income experts.',
+    description: 'Wholesale mortgage broker serving 15 Bay Area Peninsula cities. 50+ Wholesale Lenders, jumbo specialists, RSU income experts.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-bay-area-peninsula-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
         name: 'What is a wholesale mortgage broker and how is it different from a bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale mortgage broker accesses the institutional lending channel, shopping 200+ lenders simultaneously on your behalf. Banks offer only their own products at retail pricing. The wholesale channel provides lower rates, more product options, and flexible qualification criteria because lenders compete for your business through the broker.',
+          text: 'A wholesale mortgage broker accesses the institutional lending channel, shopping 50+ Wholesale Lenders simultaneously on your behalf. Banks offer only their own products at retail pricing. The wholesale channel provides lower rates, more product options, and flexible qualification criteria because lenders compete for your business through the broker.',
         },
       },
       {
@@ -246,7 +246,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
               from $1.3 million in Campbell to $10.8 million in Atherton, over 85% of purchase transactions require
               jumbo financing above the $1,209,750 conforming limit. &quot;Peninsula buyers compete in one of the most
               aggressive real estate markets in the world,&quot; Abdel explains. &quot;They need a wholesale broker who
-              can deliver jumbo rates from 200+ lenders, qualify RSU and stock-based income, and close in 21 days
+              can deliver jumbo rates from 50+ Wholesale Lenders, qualify RSU and stock-based income, and close in 21 days
               to win against all-cash offers. That is what the wholesale channel provides.&quot;
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
           <p>
             The wholesale mortgage channel operates fundamentally differently from the retail banking channel.
             When you walk into a bank or credit union, you access that single institution&apos;s products and pricing.
-            When you work with a wholesale broker, you access the products and pricing of 200+ competing lenders
+            When you work with a wholesale broker, you access the products and pricing of 50+ Wholesale Lenders
             through a single application process. For Bay Area Peninsula buyers dealing with jumbo loan amounts,
             complex income structures, and ultra-competitive purchase timelines, this distinction translates to
             measurable financial advantages.
@@ -295,7 +295,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender options</td>
                   <td className="px-4 py-3 border-t">1 lender (their own products)</td>
-                  <td className="px-4 py-3 border-t text-blue-700">200+ competing lenders</td>
+                  <td className="px-4 py-3 border-t text-blue-700">50+ Wholesale Lenders</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Jumbo products</td>
@@ -809,7 +809,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">What is a wholesale mortgage broker and how is it different from a bank?</h3>
-              <p>A wholesale mortgage broker accesses the institutional lending channel, shopping 200+ lenders simultaneously on your behalf. Banks offer only their own products at retail pricing. The wholesale channel provides lower rates, more product options, and flexible qualification criteria because lenders compete for your business through the broker.</p>
+              <p>A wholesale mortgage broker accesses the institutional lending channel, shopping 50+ Wholesale Lenders simultaneously on your behalf. Banks offer only their own products at retail pricing. The wholesale channel provides lower rates, more product options, and flexible qualification criteria because lenders compete for your business through the broker.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -903,7 +903,7 @@ export default function WholesaleMortgageBrokerBayAreaPeninsula2026() {
             <h3 className="font-bold text-lg mb-3">Ready to Get Your Peninsula Mortgage Started?</h3>
             <p className="mb-2">
               Contact Mo Abdel for a complimentary pre-approval consultation. I serve all 15 Bay Area Peninsula
-              and Silicon Valley cities with wholesale access to 200+ lenders including 25+ jumbo specialists.
+              and Silicon Valley cities with wholesale access to 50+ Wholesale Lenders including 25+ jumbo specialists.
             </p>
             <ul className="space-y-1 mb-0">
               <li><strong>Phone:</strong> <a href="tel:9495792057" className="text-blue-600">(949) 579-2057</a></li>

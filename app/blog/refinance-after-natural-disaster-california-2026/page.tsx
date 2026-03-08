@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Can I refinance my home after a wildfire in California?',
-    answer: 'Yes, you can refinance after a wildfire in California, but timing and property condition matter. If your home sustained damage, most conventional lenders require full repairs before approving a refinance. FHA 203(h) disaster loans allow financing for replacement housing within one year of a presidential disaster declaration. A wholesale broker with access to 200+ lenders can identify programs that work with your specific situation.',
+    answer: 'Yes, you can refinance after a wildfire in California, but timing and property condition matter. If your home sustained damage, most conventional lenders require full repairs before approving a refinance. FHA 203(h) disaster loans allow financing for replacement housing within one year of a presidential disaster declaration. A wholesale broker with access to 50+ Wholesale Lenders can identify programs that work with your specific situation.',
   },
   {
     question: 'What is an FHA 203(h) disaster loan and who qualifies?',
@@ -79,7 +79,7 @@ const faqData = [
   },
   {
     question: 'Does a wholesale mortgage broker help with disaster refinancing?',
-    answer: 'A wholesale mortgage broker provides significant advantages for disaster refinancing. With access to 200+ lenders, a broker can identify specialized programs for disaster-affected properties, negotiate with lenders experienced in disaster-zone appraisals, and find programs with shorter post-forbearance seasoning requirements. This access is especially valuable when conventional channels decline applications due to property condition.',
+    answer: 'A wholesale mortgage broker provides significant advantages for disaster refinancing. With access to 50+ Wholesale Lenders, a broker can identify specialized programs for disaster-affected properties, negotiate with lenders experienced in disaster-zone appraisals, and find programs with shorter post-forbearance seasoning requirements. This access is especially valuable when conventional channels decline applications due to property condition.',
   },
   {
     question: 'What documents do I need to refinance after a natural disaster?',
@@ -202,7 +202,7 @@ export default function RefinanceAfterNaturalDisasterCaliforniaPage() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, California homeowners affected by wildfires, earthquakes, or floods have multiple refinancing pathways available &mdash; from FHA 203(h) disaster loans requiring zero down payment to cash-out refinancing for rebuilding &mdash; and a wholesale mortgage broker with access to 200+ lenders identifies the fastest route to recovery for each unique property and insurance situation.
+            According to Mo Abdel, NMLS #1426884, California homeowners affected by wildfires, earthquakes, or floods have multiple refinancing pathways available &mdash; from FHA 203(h) disaster loans requiring zero down payment to cash-out refinancing for rebuilding &mdash; and a wholesale mortgage broker with access to 50+ Wholesale Lenders identifies the fastest route to recovery for each unique property and insurance situation.
           </p>
         </div>
 
@@ -249,7 +249,7 @@ export default function RefinanceAfterNaturalDisasterCaliforniaPage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <p className="font-semibold text-gray-900 mb-2">Affected by a California Natural Disaster?</p>
           <p className="text-gray-700">
-            Mo Abdel works with 200+ lenders to find disaster recovery mortgage programs that fit your specific situation. <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Schedule a free consultation</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">(949) 579-2057</a> to explore your options today.
+            Mo Abdel works with 50+ Wholesale Lenders to find disaster recovery mortgage programs that fit your specific situation. <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Schedule a free consultation</Link> or call <a href="tel:+19495792057" className="text-blue-600 font-semibold hover:underline">(949) 579-2057</a> to explore your options today.
           </p>
         </div>
 
@@ -467,7 +467,7 @@ export default function RefinanceAfterNaturalDisasterCaliforniaPage() {
 
         <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">Post-Forbearance Refinancing Requirements</h3>
         <p>
-          The waiting period after forbearance is the critical factor for refinancing. Different loan types impose different seasoning requirements, and this is where a <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">wholesale mortgage broker&apos;s access to 200+ lenders</Link> provides a measurable advantage. Here are the standard waiting periods:
+          The waiting period after forbearance is the critical factor for refinancing. Different loan types impose different seasoning requirements, and this is where a <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">wholesale mortgage broker&apos;s access to 50+ Wholesale Lenders</Link> provides a measurable advantage. Here are the standard waiting periods:
         </p>
 
         <ul className="list-disc pl-6 space-y-2">
@@ -529,7 +529,7 @@ export default function RefinanceAfterNaturalDisasterCaliforniaPage() {
         </p>
 
         <ol className="list-decimal pl-6 space-y-2">
-          <li><strong>200+ lender network:</strong> Access to lenders with specific disaster recovery programs, including those that specialize in California wildfire, earthquake, and flood-damaged properties</li>
+          <li><strong>50+ Wholesale Lenders:</strong> Access to lenders with specific disaster recovery programs, including those that specialize in California wildfire, earthquake, and flood-damaged properties</li>
           <li><strong>Non-QM flexibility:</strong> Wholesale channels include non-QM lenders who offer shorter post-forbearance waiting periods, alternative income documentation, and disaster-specific underwriting overlays</li>
           <li><strong>Appraisal expertise:</strong> Wholesale lenders often have appraiser panels experienced in disaster-zone valuations, reducing the risk of inaccurate low appraisals that derail conventional applications</li>
           <li><strong>Speed of execution:</strong> When rebuilding timelines are critical, a broker can submit your application to multiple lenders simultaneously, identifying the fastest path to closing</li>
@@ -546,7 +546,7 @@ export default function RefinanceAfterNaturalDisasterCaliforniaPage() {
           <li><strong>Explore FHA 203(h):</strong> If your home was destroyed or requires major reconstruction, apply within one year of the presidential disaster declaration</li>
           <li><strong>Begin repairs with insurance proceeds:</strong> Complete as many repairs as insurance funds allow, maintaining all receipts and contractor documentation</li>
           <li><strong>Exit forbearance and resume payments:</strong> Once financially able, exit forbearance and begin building the on-time payment history lenders require</li>
-          <li><strong>Consult a wholesale mortgage broker:</strong> After 3-6 months of on-time payments (or immediately if not in forbearance), explore refinancing options across 200+ lenders</li>
+          <li><strong>Consult a wholesale mortgage broker:</strong> After 3-6 months of on-time payments (or immediately if not in forbearance), explore refinancing options across 50+ Wholesale Lenders</li>
           <li><strong>Obtain post-repair appraisal:</strong> Once repairs are complete, get a new appraisal reflecting the restored property value</li>
           <li><strong>Close on your refinance:</strong> Consolidate all disaster-related debt into a single, optimized mortgage with the best available terms from your broker&apos;s lender network</li>
         </ol>
@@ -618,7 +618,7 @@ export default function RefinanceAfterNaturalDisasterCaliforniaPage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Explore Disaster Recovery Refinancing? Get Expert Guidance</h2>
           <p className="text-gray-700">
-            &quot;Recovering from a natural disaster is overwhelming, but your mortgage recovery doesn&apos;t have to be. With access to 200+ lenders offering specialized disaster programs, I help California homeowners find the fastest, most affordable path from disaster to financial stability &mdash; whether that&apos;s FHA 203(h), a cash-out refinance for rebuilding, or a post-forbearance rate optimization.&quot;
+            &quot;Recovering from a natural disaster is overwhelming, but your mortgage recovery doesn&apos;t have to be. With access to 50+ Wholesale Lenders offering specialized disaster programs, I help California homeowners find the fastest, most affordable path from disaster to financial stability &mdash; whether that&apos;s FHA 203(h), a cash-out refinance for rebuilding, or a post-forbearance rate optimization.&quot;
           </p>
           <p className="mt-4">
             <strong>Contact Mo Abdel today</strong> at{' '}

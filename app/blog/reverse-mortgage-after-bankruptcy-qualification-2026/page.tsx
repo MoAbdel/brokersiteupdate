@@ -80,7 +80,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker help with HECM after bankruptcy?',
-    answer: 'A wholesale mortgage broker accesses HECM products from 200+ lenders, each with different overlay requirements for post-bankruptcy applicants. Some lenders have stricter overlays beyond FHA minimums, while others stick to base FHA guidelines. A broker identifies lenders with the most favorable post-bankruptcy policies, potentially qualifying borrowers who would be declined at a single retail lender.',
+    answer: 'A wholesale mortgage broker accesses HECM products from 50+ Wholesale Lenders, each with different overlay requirements for post-bankruptcy applicants. Some lenders have stricter overlays beyond FHA minimums, while others stick to base FHA guidelines. A broker identifies lenders with the most favorable post-bankruptcy policies, potentially qualifying borrowers who would be declined at a single retail lender.',
   },
 ];
 
@@ -265,7 +265,7 @@ export default function ReverseMortgageAfterBankruptcy() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Need Help Navigating HECM After Bankruptcy?</h3>
           <p className="text-gray-700 mb-4">
-            Mo Abdel works with 200+ wholesale lenders offering HECM products, each with different overlay requirements for post-bankruptcy applicants. He identifies lenders with the most favorable post-bankruptcy HECM policies for your specific situation.
+            Mo Abdel works with 50+ Wholesale Lenders offering HECM products, each with different overlay requirements for post-bankruptcy applicants. He identifies lenders with the most favorable post-bankruptcy HECM policies for your specific situation.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:underline">request a free HECM eligibility review</Link>.
@@ -541,7 +541,7 @@ export default function ReverseMortgageAfterBankruptcy() {
         </p>
 
         <p>
-          As a wholesale <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">mortgage broker</Link>, Mo Abdel accesses HECM products from 200+ wholesale lenders and knows which ones maintain the most favorable post-bankruptcy policies. This matters because a single retail lender&apos;s denial does not mean you are ineligible&mdash;it means that particular lender&apos;s overlays excluded you. A broker who works with multiple HECM investors can identify the right lender match for your specific bankruptcy timeline, credit profile, and income situation.
+          As a wholesale <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">mortgage broker</Link>, Mo Abdel accesses HECM products from 50+ Wholesale Lenders and knows which ones maintain the most favorable post-bankruptcy policies. This matters because a single retail lender&apos;s denial does not mean you are ineligible&mdash;it means that particular lender&apos;s overlays excluded you. A broker who works with multiple HECM investors can identify the right lender match for your specific bankruptcy timeline, credit profile, and income situation.
         </p>
 
         <p>
@@ -659,7 +659,7 @@ export default function ReverseMortgageAfterBankruptcy() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Explore Your HECM Options After Bankruptcy? Get Expert Guidance</h2>
           <p className="text-gray-700">
-            Qualifying for a reverse mortgage after bankruptcy requires navigating FHA financial assessment rules, LESA calculations, and lender overlay differences. Mo Abdel specializes in post-bankruptcy HECM origination and works with 200+ wholesale lenders to find the right match for your specific timeline, credit profile, and income situation. Every consultation is confidential and obligation-free.
+            Qualifying for a reverse mortgage after bankruptcy requires navigating FHA financial assessment rules, LESA calculations, and lender overlay differences. Mo Abdel specializes in post-bankruptcy HECM origination and works with 50+ Wholesale Lenders to find the right match for your specific timeline, credit profile, and income situation. Every consultation is confidential and obligation-free.
           </p>
           <p className="mt-4">
             <strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline">schedule a consultation</Link>.

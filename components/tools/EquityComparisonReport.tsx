@@ -220,7 +220,7 @@ export default function EquityComparisonReport({
             </li>
             <li className="flex items-start gap-2">
               <span className="font-bold text-white">2.</span>
-              Get rate quotes from 200+ wholesale lenders — one application covers all of them
+              Get rate quotes from 50+ Wholesale Lenders — one application covers all of them
             </li>
             <li className="flex items-start gap-2">
               <span className="font-bold text-white">3.</span>

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Seattle Eastside Home Equity: No-Income-Tax State HELOC & Cash-Out Guide [2026]',
-  description: 'Home equity Seattle Eastside guide covering HELOC, HELOAN & cash-out refinance for 14 cities. No WA state income tax advantage. 200+ lender access. NMLS #1426884.',
+  description: 'Home equity Seattle Eastside guide covering HELOC, HELOAN & cash-out refinance for 14 cities. No WA state income tax advantage. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'home equity Seattle Eastside',
     'HELOC Seattle Eastside',
@@ -101,7 +101,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
         name: 'Can I get a HELOC on a $5 million Medina home?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, but it requires a jumbo HELOC lender. Standard HELOC products cap at $500K-$1M. Through wholesale broker access to 200+ lenders, we connect Medina homeowners with jumbo HELOC programs that provide $1M-$3M+ credit lines on high-value properties.',
+          text: 'Yes, but it requires a jumbo HELOC lender. Standard HELOC products cap at $500K-$1M. Through wholesale broker access to 50+ Wholesale Lenders, we connect Medina homeowners with jumbo HELOC programs that provide $1M-$3M+ credit lines on high-value properties.',
         },
       },
       {
@@ -165,7 +165,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
         name: 'How does a wholesale broker get better HELOC rates than my bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares HELOC products from 200+ lenders simultaneously. Your bank offers only its own product at its own rate. By creating competition among lenders for your business, wholesale brokers consistently find lower rates, higher credit limits, and better terms than any single institution can offer.',
+          text: 'A wholesale broker compares HELOC products from 50+ Wholesale Lenders simultaneously. Your bank offers only its own product at its own rate. By creating competition among lenders for your business, wholesale brokers consistently find lower rates, higher credit limits, and better terms than any single institution can offer.',
         },
       },
       {
@@ -256,7 +256,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Seattle Eastside homeowners hold an estimated $82 billion in total residential equity across 14 cities as of Q1 2026 &mdash; with Bellevue alone seeing a 12.4% year-over-year median price increase to $1.5 million. From Medina estates with $3 million or more in accessible equity to Bothell family homes with $500,000 in built-up value, the Eastside provides extraordinary opportunities to leverage your equity for renovations, investments, debt consolidation, education, and more. As a wholesale mortgage broker with access to over 200 lenders, I help Eastside homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; all amplified by Washington State&apos;s zero state income tax advantage.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Seattle Eastside homeowners hold an estimated $82 billion in total residential equity across 14 cities as of Q1 2026 &mdash; with Bellevue alone seeing a 12.4% year-over-year median price increase to $1.5 million. From Medina estates with $3 million or more in accessible equity to Bothell family homes with $500,000 in built-up value, the Eastside provides extraordinary opportunities to leverage your equity for renovations, investments, debt consolidation, education, and more. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help Eastside homeowners compare HELOC, HELOAN, and cash-out refinance products to find the lowest rates and best terms available &mdash; all amplified by Washington State&apos;s zero state income tax advantage.
           </p>
 
           <p>
@@ -622,7 +622,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">2</div>
               <div>
                 <h3 className="font-bold text-lg">Lender Shopping &amp; Rate Lock</h3>
-                <p>We compare HELOC products from 200+ wholesale lenders, presenting you with the top 3-5 options ranked by rate, credit line amount, draw period terms, and closing costs. You select the best fit and we lock your terms.</p>
+                <p>We compare HELOC products from 50+ Wholesale Lenders, presenting you with the top 3-5 options ranked by rate, credit line amount, draw period terms, and closing costs. You select the best fit and we lock your terms.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -644,13 +644,13 @@ export default function HomeEquitySeattleEastsideGuide2026() {
           {/* Why Wholesale Broker */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Why Eastside Homeowners Choose a Wholesale Broker for Home Equity</h2>
           <p>
-            Choosing between your bank&apos;s HELOC and a wholesale broker&apos;s access to 200+ lender products is not a close comparison. Here is why sophisticated Eastside homeowners consistently choose the broker route.
+            Choosing between your bank&apos;s HELOC and a wholesale broker&apos;s access to 50+ Wholesale Lenders products is not a close comparison. Here is why sophisticated Eastside homeowners consistently choose the broker route.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Rate Competition</h3>
-              <p>Your bank offers one rate — theirs. A wholesale broker creates competition among 200+ lenders for your business, consistently securing rates that are lower than any single institution. On a $500,000 HELOC, even a small rate difference saves thousands annually in interest payments.</p>
+              <p>Your bank offers one rate — theirs. A wholesale broker creates competition among 50+ Wholesale Lenders for your business, consistently securing rates that are lower than any single institution. On a $500,000 HELOC, even a small rate difference saves thousands annually in interest payments.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-bold text-lg mb-2">Jumbo Expertise</h3>
@@ -679,7 +679,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
             </a>
             <a href="/blog/wholesale-mortgage-broker-seattle-eastside-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker Seattle Eastside</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 200+ lenders delivers better rates for Eastside purchases, refinances, and investment properties.</p>
+              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates for Eastside purchases, refinances, and investment properties.</p>
             </a>
             <a href="/blog/home-equity-washington-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Washington State Home Equity Guide</h3>
@@ -731,7 +731,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I get a HELOC on a $5 million Medina home?</h3>
-              <p>Yes, through jumbo HELOC lenders. Standard HELOC products cap at $500K-$1M, which is insufficient for Medina, Hunts Point, and Yarrow Point properties. Through wholesale broker access to 200+ lenders, we connect ultra-luxury homeowners with jumbo HELOC programs offering $1M-$3M+ credit lines. Some specialty lenders provide HELOCs up to $5M on qualifying properties.</p>
+              <p>Yes, through jumbo HELOC lenders. Standard HELOC products cap at $500K-$1M, which is insufficient for Medina, Hunts Point, and Yarrow Point properties. Through wholesale broker access to 50+ Wholesale Lenders, we connect ultra-luxury homeowners with jumbo HELOC programs offering $1M-$3M+ credit lines. Some specialty lenders provide HELOCs up to $5M on qualifying properties.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does RSU income affect my HELOC qualification on the Eastside?</h3>
@@ -739,7 +739,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What credit score do I need for a HELOC on the Eastside?</h3>
-              <p>Most HELOC lenders require a minimum 680 credit score, with the best rates available at 740+. For jumbo HELOCs above $500K, some lenders require 720+ scores. Wholesale broker access to 200+ lenders means we can find competitive HELOC programs across a range of credit profiles, including options for 660-680 scores with slightly higher rates.</p>
+              <p>Most HELOC lenders require a minimum 680 credit score, with the best rates available at 740+. For jumbo HELOCs above $500K, some lenders require 720+ scores. Wholesale broker access to 50+ Wholesale Lenders means we can find competitive HELOC programs across a range of credit profiles, including options for 660-680 scores with slightly higher rates.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How long does it take to get a HELOC on the Seattle Eastside?</h3>
@@ -763,7 +763,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker get better HELOC rates than my bank?</h3>
-              <p>Your bank offers one HELOC product at one rate — their own. A wholesale broker simultaneously compares products from 200+ lenders, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and better draw period terms than any single financial institution can offer. The broker&apos;s compensation is the same regardless of which lender you choose, ensuring unbiased recommendations.</p>
+              <p>Your bank offers one HELOC product at one rate — their own. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and better draw period terms than any single financial institution can offer. The broker&apos;s compensation is the same regardless of which lender you choose, ensuring unbiased recommendations.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can I use equity from my Eastside home to invest in rental property?</h3>
@@ -781,7 +781,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
               Washington State&apos;s zero state income tax amplifies the value of strategic equity deployment. Whether funding ADU construction, acquiring investment properties, consolidating debt, or bridging stock liquidation, every dollar of return faces no state income taxation. Over a decade, this advantage compounds to tens of thousands of dollars compared to high-tax states like California.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 200+ lenders to secure the lowest rate and best terms for your unique Eastside property and financial profile. Tech income qualification, jumbo equity products, and entity-owned property expertise are standard service — not add-ons.
+              As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products from 50+ Wholesale Lenders to secure the lowest rate and best terms for your unique Eastside property and financial profile. Tech income qualification, jumbo equity products, and entity-owned property expertise are standard service — not add-ons.
             </p>
           </div>
 
@@ -796,7 +796,7 @@ export default function HomeEquitySeattleEastsideGuide2026() {
             <p className="mb-1">Phone: <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all 14 Seattle Eastside cities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ HELOC, HELOAN &amp; cash-out refinance lenders</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders</p>
           </div>
 
           {/* Disclaimer */}

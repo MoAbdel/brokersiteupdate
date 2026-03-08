@@ -70,7 +70,7 @@ const faqData = [
   },
   {
     question: "How does a wholesale broker help with vacation rental DSCR financing?",
-    answer: "A wholesale broker accesses 200+ lenders including those with dedicated STR programs that accept AirDNA projections and vacation rental income. Most retail banks do not offer DSCR loans for short-term rentals. A broker compares STR-specific pricing, DSCR thresholds, and IO options across the full network."
+    answer: "A wholesale broker accesses 50+ Wholesale Lenders including those with dedicated STR programs that accept AirDNA projections and vacation rental income. Most retail banks do not offer DSCR loans for short-term rentals. A broker compares STR-specific pricing, DSCR thresholds, and IO options across the full network."
   }
 ];
 
@@ -178,7 +178,7 @@ export default function DSCRVacationRentalMarketsCaliforniia2026() {
             </h1>
 
             <p className="speakable-hook text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, California&apos;s $8.5 billion vacation rental market represents one of the strongest investment opportunities for DSCR loan financing in 2026. AirDNA reports over 120,000 active short-term rental listings across California, generating an average of $41,000 in annual host revenue statewide &mdash; with mountain and desert resort markets averaging significantly higher. The California Tourism Commission projects 285 million domestic trips to the state in 2025, fueling year-round demand across Big Bear, Palm Springs, Lake Tahoe, Mammoth Lakes, and coastal destinations. The <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline">Consumer Financial Protection Bureau</a> data confirms non-QM lending, including DSCR products, grew 35% year-over-year through Q3 2025. DSCR loans qualify investors based on the vacation rental property&apos;s projected or actual income &mdash; no W-2s, no tax returns, no personal income verification &mdash; making them the ideal financing vehicle for California vacation rental acquisitions. With 200+ wholesale lenders offering STR-specific DSCR programs, wholesale broker access delivers competitive pricing that no single retail bank can match.
+              According to Mo Abdel, NMLS #1426884, California&apos;s $8.5 billion vacation rental market represents one of the strongest investment opportunities for DSCR loan financing in 2026. AirDNA reports over 120,000 active short-term rental listings across California, generating an average of $41,000 in annual host revenue statewide &mdash; with mountain and desert resort markets averaging significantly higher. The California Tourism Commission projects 285 million domestic trips to the state in 2025, fueling year-round demand across Big Bear, Palm Springs, Lake Tahoe, Mammoth Lakes, and coastal destinations. The <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="text-amber-400 underline">Consumer Financial Protection Bureau</a> data confirms non-QM lending, including DSCR products, grew 35% year-over-year through Q3 2025. DSCR loans qualify investors based on the vacation rental property&apos;s projected or actual income &mdash; no W-2s, no tax returns, no personal income verification &mdash; making them the ideal financing vehicle for California vacation rental acquisitions. With 50+ Wholesale Lenders offering STR-specific DSCR programs, wholesale broker access delivers competitive pricing that no single retail bank can match.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -633,7 +633,7 @@ export default function DSCRVacationRentalMarketsCaliforniia2026() {
             Most traditional banks and credit unions do not offer DSCR loans for vacation rental properties. The STR DSCR product is primarily available through non-QM wholesale lenders that distribute exclusively through mortgage brokers. This means investors who walk into a bank and ask for a DSCR loan on a Big Bear cabin or Palm Springs pool home will likely be declined or offered a conventional loan requiring full income documentation.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses 200+ wholesale lenders, including dozens that offer dedicated STR DSCR programs accepting AirDNA projections. The broker compares STR programs across the entire network, evaluating each lender&apos;s income calculation method, DSCR threshold, pricing, IO options, prepayment penalty structures, and California market experience. This comparison delivers better terms than any single retail lender can provide, because competition among lenders drives pricing optimization.
+            A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses 50+ Wholesale Lenders, including dozens that offer dedicated STR DSCR programs accepting AirDNA projections. The broker compares STR programs across the entire network, evaluating each lender&apos;s income calculation method, DSCR threshold, pricing, IO options, prepayment penalty structures, and California market experience. This comparison delivers better terms than any single retail lender can provide, because competition among lenders drives pricing optimization.
           </p>
 
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
@@ -656,7 +656,7 @@ export default function DSCRVacationRentalMarketsCaliforniia2026() {
               </div>
               <div className="bg-white rounded-lg p-4">
                 <h4 className="font-medium text-slate-900 mb-2">Competitive Rate Shopping</h4>
-                <p className="text-sm text-slate-600">With 200+ lenders offering varying STR DSCR pricing, a broker creates competition that drives rates lower than any single lender would offer independently. Rate differences compound over the life of the loan.</p>
+                <p className="text-sm text-slate-600">With 50+ Wholesale Lenders offering varying STR DSCR pricing, a broker creates competition that drives rates lower than any single lender would offer independently. Rate differences compound over the life of the loan.</p>
               </div>
             </div>
           </div>
@@ -814,7 +814,7 @@ export default function DSCRVacationRentalMarketsCaliforniia2026() {
             California&apos;s vacation rental market &mdash; spanning Big Bear&apos;s mountain cabins, Palm Springs&apos; desert retreats, Lake Tahoe&apos;s year-round resorts, and the Central Coast&apos;s wine country &mdash; offers exceptional investment opportunities for investors who access the right financing. DSCR loans eliminate the income documentation barrier that prevents many investors from entering these high-revenue markets, qualifying based on the property&apos;s vacation rental potential rather than the investor&apos;s tax returns.
           </p>
           <p className="text-lg text-amber-100 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares vacation rental DSCR programs from 200+ lenders to match each investor with the optimal combination of income calculation method (AirDNA, booking history, or 1007), DSCR threshold, IO options, and pricing. Whether you are acquiring your first Big Bear cabin or expanding a Palm Springs vacation rental portfolio, wholesale broker access delivers financing that no single retail bank provides.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares vacation rental DSCR programs from 50+ Wholesale Lenders to match each investor with the optimal combination of income calculation method (AirDNA, booking history, or 1007), DSCR threshold, IO options, and pricing. Whether you are acquiring your first Big Bear cabin or expanding a Palm Springs vacation rental portfolio, wholesale broker access delivers financing that no single retail bank provides.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

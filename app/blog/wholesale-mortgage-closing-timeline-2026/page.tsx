@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     question: 'Why do wholesale mortgages close faster than retail bank loans?',
-    answer: 'Wholesale brokers shop the loan across 200+ lenders before submitting to underwriting. This pre-qualification step eliminates mismatches between borrower profiles and lender guidelines that cause retail delays. Brokers also maintain direct relationships with underwriters.',
+    answer: 'Wholesale brokers shop the loan across 50+ Wholesale Lenders before submitting to underwriting. This pre-qualification step eliminates mismatches between borrower profiles and lender guidelines that cause retail delays. Brokers also maintain direct relationships with underwriters.',
   },
   {
     question: 'What is the 3-day closing disclosure waiting period?',
@@ -62,11 +62,11 @@ const faqData = [
   },
   {
     question: 'How does the broker choose which lender to submit my loan to?',
-    answer: 'Your broker evaluates your credit profile, income type, property type, and loan amount against guidelines from 200+ lenders. They identify the lenders offering the most competitive pricing for your specific scenario, then submit to the one with the best combination of rate, fees, and closing speed.',
+    answer: 'Your broker evaluates your credit profile, income type, property type, and loan amount against guidelines from 50+ Wholesale Lenders. They identify the lenders offering the most competitive pricing for your specific scenario, then submit to the one with the best combination of rate, fees, and closing speed.',
   },
   {
     question: 'What happens if the appraisal comes in low during the wholesale closing process?',
-    answer: 'Your broker can request a reconsideration of value with additional comparable sales, negotiate a price reduction with the seller, switch to a different lender with more favorable appraisal policies, or restructure the loan amount. Having 200+ lenders gives brokers more options than retail banks.',
+    answer: 'Your broker can request a reconsideration of value with additional comparable sales, negotiate a price reduction with the seller, switch to a different lender with more favorable appraisal policies, or restructure the loan amount. Having 50+ Wholesale Lenders gives brokers more options than retail banks.',
   },
   {
     question: 'Is the wholesale mortgage broker paid by the borrower or the lender?',
@@ -200,7 +200,7 @@ export default function WholesaleMortgageClosingTimeline2026() {
               <p className="text-gray-700 mb-4">
                 &quot;The wholesale mortgage closing process is fundamentally different from the retail bank experience.
                 In our California and Washington closings, we consistently complete purchase transactions in 21-30 days
-                because we shop the loan across 200+ lenders <em>before</em> submission — not after. Retail banks submit
+                because we shop the loan across 50+ Wholesale Lenders <em>before</em> submission — not after. Retail banks submit
                 your application into their single pipeline and hope for the best. We match your profile to the right
                 lender upfront, which eliminates the biggest source of delays: guideline mismatches discovered mid-underwriting.&quot;
               </p>
@@ -253,7 +253,7 @@ export default function WholesaleMortgageClosingTimeline2026() {
                 <tr className="border-b border-gray-100">
                   <td className="p-4 font-medium text-blue-700">Day 1-3</td>
                   <td className="p-4 font-semibold text-gray-900">Application &amp; Lender Selection</td>
-                  <td className="p-4 text-gray-700">Broker collects your application, runs credit, analyzes your profile, and shops across 200+ lenders for best-execution pricing. Rate lock decision made.</td>
+                  <td className="p-4 text-gray-700">Broker collects your application, runs credit, analyzes your profile, and shops across 50+ Wholesale Lenders for best-execution pricing. Rate lock decision made.</td>
                   <td className="p-4 text-gray-600">Submit application and documents</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50/50">
@@ -341,7 +341,7 @@ export default function WholesaleMortgageClosingTimeline2026() {
           alternative without starting over at a different institution.
         </p>
         <p>
-          In the wholesale model, your broker analyzes your financial profile and shops it across 200+ lenders <em>before</em> submitting to
+          In the wholesale model, your broker analyzes your financial profile and shops it across 50+ Wholesale Lenders <em>before</em> submitting to
           underwriting. This pre-submission matching eliminates the most common cause of closing delays: discovering mid-process that the
           lender&apos;s guidelines don&apos;t match your situation.
         </p>
@@ -641,7 +641,7 @@ export default function WholesaleMortgageClosingTimeline2026() {
           </p>
           <ol className="space-y-2 text-gray-700">
             <li><strong>1. Your broker locks your rate</strong> with a wholesale lender to protect you from market rate increases.</li>
-            <li><strong>2. Shopping continues</strong> across the 200+ lender network for better execution — lower fees, faster turn times, or more favorable conditions.</li>
+            <li><strong>2. Shopping continues</strong> across the 50+ Wholesale Lenders for better execution — lower fees, faster turn times, or more favorable conditions.</li>
             <li><strong>3. If a better option emerges</strong>, your broker places the loan with the superior lender. If not, you proceed with your locked rate.</li>
             <li><strong>4. You are protected either way</strong> — your rate is locked in case markets move against you during the closing process.</li>
           </ol>
@@ -770,7 +770,7 @@ export default function WholesaleMortgageClosingTimeline2026() {
           </h2>
           <p className="text-blue-100 text-lg mb-4">
             The wholesale mortgage closing process delivers faster timelines, better pricing, and a smoother experience than
-            retail banking. With access to 200+ wholesale lenders, direct underwriter relationships, and a dedicated closing
+            retail banking. With access to 50+ Wholesale Lenders, direct underwriter relationships, and a dedicated closing
             coordination process, your transaction is managed from application to funding by an experienced licensed professional.
           </p>
           <p className="text-blue-200 mb-6">

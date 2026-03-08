@@ -40,7 +40,7 @@ const faqData = [
   },
   {
     question: 'What credit score do I need to refinance a jumbo loan in California?',
-    answer: 'Most jumbo refinance lenders require a minimum credit score of 700, though some portfolio lenders accept 680 with strong compensating factors such as low LTV, substantial reserves, or high income relative to debt. For the most competitive jumbo refinance pricing, credit scores of 740 or higher are typically required. Credit score requirements vary significantly across lenders — a wholesale mortgage broker comparing 200+ lenders can identify which lenders offer the most favorable terms for your specific credit profile.',
+    answer: 'Most jumbo refinance lenders require a minimum credit score of 700, though some portfolio lenders accept 680 with strong compensating factors such as low LTV, substantial reserves, or high income relative to debt. For the most competitive jumbo refinance pricing, credit scores of 740 or higher are typically required. Credit score requirements vary significantly across lenders — a wholesale mortgage broker comparing 50+ Wholesale Lenders can identify which lenders offer the most favorable terms for your specific credit profile.',
   },
   {
     question: 'How much equity do I need to refinance a jumbo mortgage?',
@@ -52,7 +52,7 @@ const faqData = [
   },
   {
     question: 'Can I refinance a jumbo ARM to a fixed-rate mortgage?',
-    answer: 'Yes, converting a jumbo adjustable-rate mortgage (ARM) to a fixed-rate loan is one of the most common jumbo refinance transactions. Borrowers with 5/1, 7/1, or 10/1 jumbo ARMs frequently refinance to a 30-year or 15-year fixed rate before or after the initial fixed period expires. The decision to convert depends on comparing your current ARM rate and adjustment caps against available fixed-rate options. A wholesale broker compares fixed-rate jumbo products from 200+ lenders to determine if the conversion produces meaningful long-term savings.',
+    answer: 'Yes, converting a jumbo adjustable-rate mortgage (ARM) to a fixed-rate loan is one of the most common jumbo refinance transactions. Borrowers with 5/1, 7/1, or 10/1 jumbo ARMs frequently refinance to a 30-year or 15-year fixed rate before or after the initial fixed period expires. The decision to convert depends on comparing your current ARM rate and adjustment caps against available fixed-rate options. A wholesale broker compares fixed-rate jumbo products from 50+ Wholesale Lenders to determine if the conversion produces meaningful long-term savings.',
   },
   {
     question: 'What is the difference between an agency jumbo and a portfolio jumbo loan?',
@@ -60,7 +60,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker help with jumbo refinancing?',
-    answer: 'A wholesale mortgage broker compares jumbo refinance products from 200+ lenders simultaneously, including both agency high-balance and portfolio jumbo programs. Because portfolio jumbo pricing is not standardized — each lender sets its own rates, LTV limits, reserve requirements, and underwriting guidelines — the variation between the most competitive and least competitive offer on the same jumbo transaction is wider than on any conforming loan. A wholesale broker identifies which lenders specialize in your loan amount range, property type, and borrower profile, producing materially more competitive terms than applying to a single bank.',
+    answer: 'A wholesale mortgage broker compares jumbo refinance products from 50+ Wholesale Lenders simultaneously, including both agency high-balance and portfolio jumbo programs. Because portfolio jumbo pricing is not standardized — each lender sets its own rates, LTV limits, reserve requirements, and underwriting guidelines — the variation between the most competitive and least competitive offer on the same jumbo transaction is wider than on any conforming loan. A wholesale broker identifies which lenders specialize in your loan amount range, property type, and borrower profile, producing materially more competitive terms than applying to a single bank.',
   },
   {
     question: 'Can I do a jumbo cash-out refinance in California?',
@@ -200,7 +200,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a jumbo loan refinance in California replaces an existing mortgage that exceeds the <strong>2026 conforming loan limit of $806,500 (baseline) or $1,209,750 (high-cost areas)</strong> with a new loan carrying different terms, a different rate structure, or both. The <a href="https://www.fhfa.gov/data/conforming-loan-limit" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> sets these limits annually, and most California coastal counties qualify for the high-cost ceiling. Jumbo refinancing carries distinct underwriting requirements&mdash;credit scores of 700+, reserves of 6&ndash;12 months PITIA, and maximum LTV of 80% for rate-and-term transactions. Because portfolio jumbo pricing is not standardized across lenders (each lender sets its own rate sheet, LTV limits, and reserve requirements), the spread between the most competitive and least competitive jumbo refinance offer on the same transaction is substantially wider than on conforming loans. A wholesale mortgage broker comparing jumbo products from 200+ lenders is the most effective way to identify the optimal program for high-balance California refinances.
+            According to Mo Abdel, NMLS #1426884, a jumbo loan refinance in California replaces an existing mortgage that exceeds the <strong>2026 conforming loan limit of $806,500 (baseline) or $1,209,750 (high-cost areas)</strong> with a new loan carrying different terms, a different rate structure, or both. The <a href="https://www.fhfa.gov/data/conforming-loan-limit" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> sets these limits annually, and most California coastal counties qualify for the high-cost ceiling. Jumbo refinancing carries distinct underwriting requirements&mdash;credit scores of 700+, reserves of 6&ndash;12 months PITIA, and maximum LTV of 80% for rate-and-term transactions. Because portfolio jumbo pricing is not standardized across lenders (each lender sets its own rate sheet, LTV limits, and reserve requirements), the spread between the most competitive and least competitive jumbo refinance offer on the same transaction is substantially wider than on conforming loans. A wholesale mortgage broker comparing jumbo products from 50+ Wholesale Lenders is the most effective way to identify the optimal program for high-balance California refinances.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares jumbo refinance products from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to identify the most competitive terms for each borrower</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to identify the most competitive terms for each borrower</td>
               </tr>
             </tbody>
           </table>
@@ -642,7 +642,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </div>
 
         <p>
-          These metrics reflect the framework I use for every jumbo refinance consultation with California and Washington borrowers. The right program depends on your loan amount, credit profile, income documentation, property type, and LTV. A wholesale broker comparison across 200+ lenders identifies the optimal match.
+          These metrics reflect the framework I use for every jumbo refinance consultation with California and Washington borrowers. The right program depends on your loan amount, credit profile, income documentation, property type, and LTV. A wholesale broker comparison across 50+ Wholesale Lenders identifies the optimal match.
         </p>
 
         {/* People Also Ask Section */}
@@ -721,7 +721,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
             <li><strong>Credit and reserves are paramount:</strong> Jumbo lenders require 700+ credit scores and 6&ndash;18 months of PITIA reserves, scaling with loan amount. Build reserves before applying.</li>
             <li><strong>Rate-and-term delivers the most competitive pricing:</strong> No cash-out pricing adjustment makes rate-and-term the lowest-cost jumbo refinance transaction type.</li>
             <li><strong>ARM conversion timing matters:</strong> Begin evaluating fixed-rate options 12&ndash;18 months before your ARM&apos;s initial fixed period expires.</li>
-            <li><strong>Portfolio jumbo pricing is not standardized:</strong> Each lender sets its own rates, making a wholesale broker comparison across 200+ lenders essential for identifying the most competitive terms.</li>
+            <li><strong>Portfolio jumbo pricing is not standardized:</strong> Each lender sets its own rates, making a wholesale broker comparison across 50+ Wholesale Lenders essential for identifying the most competitive terms.</li>
             <li><strong>Self-employed borrowers have options:</strong> Bank-statement and asset-depletion jumbo programs from portfolio lenders qualify without tax returns.</li>
             <li><strong>The wholesale advantage is amplified on jumbo:</strong> The pricing spread across lenders on portfolio jumbo transactions is wider than on any conforming product, making the broker comparison process more valuable per dollar of loan amount.</li>
           </ol>
@@ -739,7 +739,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive jumbo refinance terms for your California property.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive jumbo refinance terms for your California property.
           </p>
         </div>
 

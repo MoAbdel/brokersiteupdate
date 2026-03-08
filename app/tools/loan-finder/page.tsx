@@ -27,7 +27,7 @@ const faqs = [
   {
     question: 'Is this quiz accurate?',
     answer:
-      'The quiz provides a strong starting point based on common program matching criteria. However, every borrower\'s situation is unique — factors like credit score, exact income, and property specifics affect final program eligibility. For a definitive answer, contact Mo Abdel for a free scenario review with access to 200+ wholesale lenders.',
+      'The quiz provides a strong starting point based on common program matching criteria. However, every borrower\'s situation is unique — factors like credit score, exact income, and property specifics affect final program eligibility. For a definitive answer, contact Mo Abdel for a free scenario review with access to 50+ Wholesale Lenders.',
   },
   {
     question: 'What programs does the quiz match to?',

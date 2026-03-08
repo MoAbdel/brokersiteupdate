@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92651 | Laguna Beach | Jumbo Loan Specialists',
-  description: 'Laguna Beach wholesale mortgage broker serving 92651. Access 200+ lenders for jumbo loans, second home financing & better rates. NMLS #1426884.',
+  description: 'Laguna Beach wholesale mortgage broker serving 92651. Access 50+ Wholesale Lenders for jumbo loans, second home financing & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92651',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92651 | Laguna Beach Jumbo Loan Specialists',
-    description: 'Laguna Beach wholesale mortgage broker with 200+ lenders for jumbo loans up to $10M+.',
+    description: 'Laguna Beach wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $10M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92651',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92651Page() {
                 "name": "Why use a wholesale broker instead of Comerica or Pacific Premier for Laguna Beach?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your Laguna Beach jumbo loan. Banks like Comerica, Pacific Premier, and Montecito Bank offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically yields better rates."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your Laguna Beach jumbo loan. Banks like Comerica, Pacific Premier, and Montecito Bank offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically yields better rates."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92651Page() {
           Wholesale Mortgage Broker 92651 | Laguna Beach Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Laguna Beach&apos;s artistic coastal market
+          Access wholesale rates and 50+ Wholesale Lenders for Laguna Beach&apos;s artistic coastal market
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Laguna Beach 92651 combines artistic heritage with coastal luxury at a <strong>$3.2 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 36% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and second home expertise—not a bank with a single product. Our access to 200+ lenders delivers <strong>better rates than Comerica, Pacific Premier, or Montecito Bank</strong> for Laguna Beach buyers.
+            Laguna Beach 92651 combines artistic heritage with coastal luxury at a <strong>$3.2 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 36% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and second home expertise—not a bank with a single product. Our access to 50+ Wholesale Lenders delivers <strong>better rates than Comerica, Pacific Premier, or Montecito Bank</strong> for Laguna Beach buyers.
           </p>
         </div>
 
@@ -284,7 +284,7 @@ export default function WholesaleMortgageBroker92651Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why use a wholesale broker instead of Comerica or Pacific Premier for Laguna Beach?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your Laguna Beach jumbo loan. Banks like Comerica, Pacific Premier, and Montecito Bank offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically yields better rates.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your Laguna Beach jumbo loan. Banks like Comerica, Pacific Premier, and Montecito Bank offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically yields better rates.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What Laguna Beach neighborhoods does your brokerage serve?</h3>

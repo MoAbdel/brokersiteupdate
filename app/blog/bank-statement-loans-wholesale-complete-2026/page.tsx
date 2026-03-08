@@ -825,7 +825,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
               <ul className="text-sm">
                 <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California</a></li>
                 <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank Comparison</a></li>
-                <li><a href="/blog/200-lender-advantage-explained-2026">200+ Lender Advantage Explained</a></li>
+                <li><a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders Explained</a></li>
               </ul>
             </div>
           </div>

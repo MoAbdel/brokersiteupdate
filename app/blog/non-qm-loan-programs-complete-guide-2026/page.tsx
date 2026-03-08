@@ -175,7 +175,7 @@ export default function NonQMLoanProgramsCompleteGuide2026Page() {
         "name": "Are non-QM loans available in all states?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Non-QM loans are available in most states, though lender availability varies by location. Mo Abdel originates non-QM loans throughout California and Washington through Lumin Lending's network of 200+ wholesale lenders, including 50+ specialized non-QM lenders covering all seven program types."
+          "text": "Non-QM loans are available in most states, though lender availability varies by location. Mo Abdel originates non-QM loans throughout California and Washington through Lumin Lending's network of 50+ Wholesale Lenders, including 50+ specialized non-QM lenders covering all seven program types."
         }
       }
     ]
@@ -1047,7 +1047,7 @@ export default function NonQMLoanProgramsCompleteGuide2026Page() {
             <h3 className="text-base font-semibold text-gray-900 mt-0">Can I get a non-QM loan in California and Washington through Mo Abdel?</h3>
             <p>
               Mo Abdel originates non-QM loans throughout California and Washington through Lumin Lending (NMLS #2716106,
-              DRE #02291443). With access to 200+ wholesale lenders including 50+ dedicated non-QM lenders, all seven
+              DRE #02291443). With access to 50+ Wholesale Lenders including 50+ dedicated non-QM lenders, all seven
               program types are available for qualified borrowers in both states. Contact Mo at (949) 579-2057 for a
               personalized non-QM scenario review.
             </p>

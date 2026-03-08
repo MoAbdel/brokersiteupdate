@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Greater Seattle Wholesale Mortgage Broker: 200+ Lenders for King County Buyers [2026] | Mo Abdel',
-  description: 'Greater Seattle wholesale mortgage broker with 200+ lender access. RSU income, bank statement loans, jumbo & condo financing for King County. NMLS #1426884.',
+  title: 'Greater Seattle Wholesale Mortgage Broker: 50+ Wholesale Lenders for King County Buyers [2026] | Mo Abdel',
+  description: 'Greater Seattle wholesale mortgage broker with 50+ Wholesale Lenders. RSU income, bank statement loans, jumbo & condo financing for King County. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Greater Seattle',
     'King County mortgage broker',
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     'non-QM loans Seattle',
   ],
   openGraph: {
-    title: 'Greater Seattle Wholesale Mortgage Broker: 200+ Lenders for King County Buyers [2026]',
-    description: 'Greater Seattle wholesale mortgage broker with 200+ lender access. RSU income, bank statement loans & jumbo financing for King County buyers.',
+    title: 'Greater Seattle Wholesale Mortgage Broker: 50+ Wholesale Lenders for King County Buyers [2026]',
+    description: 'Greater Seattle wholesale mortgage broker with 50+ Wholesale Lenders. RSU income, bank statement loans & jumbo financing for King County buyers.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-greater-seattle-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -39,7 +39,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it benefit Greater Seattle buyers?',
-      answer: 'A wholesale mortgage broker is a licensed professional who accesses institutional lending channels unavailable to consumers. In Greater Seattle, this means shopping 200+ wholesale lenders simultaneously to find rates and programs optimized for King County property values, tech industry income structures, and Washington state regulations. Wholesale pricing bypasses retail markup, saving borrowers an average of 0.25-0.50% on rate.',
+      answer: 'A wholesale mortgage broker is a licensed professional who accesses institutional lending channels unavailable to consumers. In Greater Seattle, this means shopping 50+ Wholesale Lenders simultaneously to find rates and programs optimized for King County property values, tech industry income structures, and Washington state regulations. Wholesale pricing bypasses retail markup, saving borrowers an average of 0.25-0.50% on rate.',
     },
     {
       question: 'Can a wholesale broker use my RSU and stock income to qualify for a Seattle mortgage?',
@@ -67,7 +67,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
     },
     {
       question: 'Can I get a wholesale mortgage for a Bainbridge Island property?',
-      answer: 'Absolutely. Bainbridge Island properties qualify for all wholesale lending programs including conventional, jumbo, bank statement, and non-QM. With median values around $1.1 million, most Bainbridge purchases require jumbo financing where wholesale brokers access 200+ lenders versus a single jumbo product at a bank.',
+      answer: 'Absolutely. Bainbridge Island properties qualify for all wholesale lending programs including conventional, jumbo, bank statement, and non-QM. With median values around $1.1 million, most Bainbridge purchases require jumbo financing where wholesale brokers access 50+ Wholesale Lenders versus a single jumbo product at a bank.',
     },
     {
       question: 'What documentation do I need for a wholesale mortgage application in Seattle?',
@@ -87,7 +87,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
     },
     {
       question: 'Can I refinance through a wholesale broker if my current lender is a bank?',
-      answer: 'Yes. You can refinance through a wholesale broker regardless of your current lender. Wholesale refinance rates are typically lower than retention offers from banks. A wholesale broker shops 200+ lenders to find the best refinance rate and can often beat any bank offer by 0.125-0.375% on rate.',
+      answer: 'Yes. You can refinance through a wholesale broker regardless of your current lender. Wholesale refinance rates are typically lower than retention offers from banks. A wholesale broker shops 50+ Wholesale Lenders to find the best refinance rate and can often beat any bank offer by 0.125-0.375% on rate.',
     },
     {
       question: 'What makes Greater Seattle different from other Washington markets for wholesale lending?',
@@ -103,7 +103,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Greater Seattle Wholesale Mortgage Broker: 200+ Lenders for King County Buyers [2026]',
+            headline: 'Greater Seattle Wholesale Mortgage Broker: 50+ Wholesale Lenders for King County Buyers [2026]',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -120,7 +120,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             datePublished: '2026-02-08',
             dateModified: '2026-02-08',
             mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-greater-seattle-2026',
-            description: 'Greater Seattle wholesale mortgage broker with 200+ lender access. RSU income, bank statement loans, jumbo & condo financing for King County.',
+            description: 'Greater Seattle wholesale mortgage broker with 50+ Wholesale Lenders. RSU income, bank statement loans, jumbo & condo financing for King County.',
           }),
         }}
       />
@@ -148,7 +148,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             name: 'Mo Abdel - Lumin Lending',
-            description: 'Greater Seattle wholesale mortgage broker with 200+ lender access serving King County homebuyers and homeowners.',
+            description: 'Greater Seattle wholesale mortgage broker with 50+ Wholesale Lenders serving King County homebuyers and homeowners.',
             telephone: '(949) 579-2057',
             email: 'mo@mothebroker.com',
             url: 'https://www.mothebroker.com',
@@ -198,7 +198,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
           <span className="text-gray-900">Greater Seattle Guide</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Greater Seattle Wholesale Mortgage Broker: 200+ Lenders for King County Buyers [2026]
+          Greater Seattle Wholesale Mortgage Broker: 50+ Wholesale Lenders for King County Buyers [2026]
         </h1>
         <p className="text-lg text-gray-600">
           How tech workers, self-employed professionals, and homebuyers across King County access wholesale mortgage pricing that beats banks
@@ -223,7 +223,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             Greater Seattle Wholesale Mortgage Fact
           </p>
           <p className="text-blue-800 mb-0">
-            King County homebuyers who use wholesale mortgage brokers save an average of $47,000 over the life of a 30-year loan compared to retail bank financing, according to 2026 industry data. With median home prices in Seattle at $875,000 and Bainbridge Island exceeding $1.1 million, wholesale access to 200+ lenders provides the rate competition that a single bank cannot match. Greater Seattle&apos;s tech-driven economy creates unique income profiles&mdash;RSU compensation, stock options, and contractor income&mdash;that wholesale lenders underwrite more favorably than traditional retail channels.
+            King County homebuyers who use wholesale mortgage brokers save an average of $47,000 over the life of a 30-year loan compared to retail bank financing, according to 2026 industry data. With median home prices in Seattle at $875,000 and Bainbridge Island exceeding $1.1 million, wholesale access to 50+ Wholesale Lenders provides the rate competition that a single bank cannot match. Greater Seattle&apos;s tech-driven economy creates unique income profiles&mdash;RSU compensation, stock options, and contractor income&mdash;that wholesale lenders underwrite more favorably than traditional retail channels.
           </p>
         </div>
 
@@ -232,7 +232,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
           Why Greater Seattle Homebuyers Choose Wholesale Mortgage Brokers Over Banks
         </h2>
         <p>
-          The Greater Seattle mortgage market operates differently from most American metros. Property values in King County rank among the highest in the nation, tech industry compensation packages include RSU vesting schedules and stock option grants that confuse traditional bank underwriters, and the region&apos;s condo market features building types and HOA structures that require specialized lending expertise. Wholesale mortgage brokers solve every one of these challenges by accessing institutional lending channels where 200+ lenders compete for your business.
+          The Greater Seattle mortgage market operates differently from most American metros. Property values in King County rank among the highest in the nation, tech industry compensation packages include RSU vesting schedules and stock option grants that confuse traditional bank underwriters, and the region&apos;s condo market features building types and HOA structures that require specialized lending expertise. Wholesale mortgage brokers solve every one of these challenges by accessing institutional lending channels where 50+ Wholesale Lenders compete for your business.
         </p>
         <p>
           <strong>Mo Abdel (NMLS #1426884)</strong> operates as a wholesale mortgage broker through <strong>Lumin Lending (NMLS #2716106, DRE #02291443)</strong>, serving Greater Seattle homebuyers with direct access to wholesale pricing from conventional, jumbo, bank statement, and non-QM lenders. This guide explains exactly how wholesale mortgage brokerage works in King County, which programs benefit specific borrower types, and why the wholesale channel consistently delivers better outcomes than retail banking for Seattle-area purchases and refinances.
@@ -244,7 +244,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Professional Insight:</strong> Mo Abdel has originated wholesale mortgages across King County for tech workers, self-employed professionals, and first-time buyers. Licensed in Washington and California (NMLS #1426884), Mo provides direct wholesale lender access through Lumin Lending&apos;s 200+ lender network.
+            <strong>Professional Insight:</strong> Mo Abdel has originated wholesale mortgages across King County for tech workers, self-employed professionals, and first-time buyers. Licensed in Washington and California (NMLS #1426884), Mo provides direct wholesale lender access through Lumin Lending&apos;s 50+ Wholesale Lenders.
           </p>
         </div>
 
@@ -260,7 +260,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             <thead>
               <tr className="bg-gray-100">
                 <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Feature</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Wholesale Broker (200+ Lenders)</th>
+                <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Wholesale Broker (50+ Wholesale Lenders)</th>
                 <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Retail Bank (Single Lender)</th>
               </tr>
             </thead>
@@ -277,7 +277,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Lender Options</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">50+ Wholesale Lenders</td>
                 <td className="border border-gray-300 px-4 py-3">1 lender (the bank)</td>
               </tr>
               <tr className="bg-gray-50">
@@ -369,7 +369,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
                 <td className="border border-gray-300 px-4 py-3">$780,000</td>
                 <td className="border border-gray-300 px-4 py-3">W-2 mixed industry</td>
                 <td className="border border-gray-300 px-4 py-3">Conforming with rate buydown</td>
-                <td className="border border-gray-300 px-4 py-3">200+ lenders competing produces lowest conforming rates</td>
+                <td className="border border-gray-300 px-4 py-3">50+ Wholesale Lenders competing produces lowest conforming rates</td>
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-300 px-4 py-3 font-semibold">Lake Forest Park</td>
@@ -484,7 +484,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
               <tr>
                 <td className="border border-gray-300 px-4 py-3">Program Availability</td>
                 <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">25+ wholesale lenders</td>
-                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">200+ wholesale lenders</td>
+                <td className="border border-gray-300 px-4 py-3 font-semibold text-blue-700">50+ Wholesale Lenders</td>
                 <td className="border border-gray-300 px-4 py-3">0-1 bank programs</td>
               </tr>
               <tr className="bg-gray-50">
@@ -694,7 +694,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         </p>
         <ol>
           <li className="mb-3"><strong>Initial Consultation (Day 1):</strong> Mo reviews your income documentation, credit profile, property target, and financial goals. For tech workers, this includes analyzing RSU vesting schedules and stock compensation to maximize qualifying income. No cost, no obligation.</li>
-          <li className="mb-3"><strong>Lender Shopping (Days 1-2):</strong> Your profile is matched against 200+ wholesale lenders to identify the 3-5 best program fits based on rate, fees, underwriting flexibility, and closing timeline. You receive a comparison showing your specific options.</li>
+          <li className="mb-3"><strong>Lender Shopping (Days 1-2):</strong> Your profile is matched against 50+ Wholesale Lenders to identify the 3-5 best program fits based on rate, fees, underwriting flexibility, and closing timeline. You receive a comparison showing your specific options.</li>
           <li className="mb-3"><strong>Pre-Approval Issuance (Days 2-3):</strong> A full pre-approval letter is issued specifying your approved loan amount, program type, and conditions. Seattle listing agents recognize wholesale pre-approvals as equivalent or superior to bank pre-approvals.</li>
           <li className="mb-3"><strong>Offer and Contract:</strong> Your pre-approval accompanies your offer. Mo communicates directly with listing agents to confirm financing strength, which improves your offer competitiveness in multi-bid situations.</li>
           <li className="mb-3"><strong>Underwriting Submission (Days 1-3 after contract):</strong> Complete loan file submitted to the selected wholesale lender. Wholesale lender underwriting teams operate dedicated broker channels with 24-48 hour initial review times.</li>
@@ -733,10 +733,10 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
             Greater Seattle&apos;s mortgage market demands more than a single bank can provide. Property values exceeding $1 million in premium neighborhoods, tech industry compensation packages that confuse traditional underwriters, a condo market with complex project characteristics, and ferry-connected island communities all require the breadth and flexibility that only wholesale broker access delivers.
           </p>
           <p className="text-slate-900 mb-4">
-            Working with a wholesale mortgage broker for your King County purchase or refinance means accessing 200+ lenders competing for your business, programs specifically designed for RSU income and self-employed borrowers, condo financing options beyond any bank&apos;s approved list, and rates that save $42,000-$56,000 over the life of your loan.
+            Working with a wholesale mortgage broker for your King County purchase or refinance means accessing 50+ Wholesale Lenders competing for your business, programs specifically designed for RSU income and self-employed borrowers, condo financing options beyond any bank&apos;s approved list, and rates that save $42,000-$56,000 over the life of your loan.
           </p>
           <p className="text-slate-900 mb-4">
-            <strong>Mo Abdel (NMLS #1426884)</strong> provides direct wholesale lender access through <strong>Lumin Lending (NMLS #2716106)</strong> for Greater Seattle homebuyers and homeowners. With Washington and California licensing and relationships with 200+ wholesale lenders, Mo delivers the rate competition, program diversity, and underwriting expertise that King County buyers need to compete and win.
+            <strong>Mo Abdel (NMLS #1426884)</strong> provides direct wholesale lender access through <strong>Lumin Lending (NMLS #2716106)</strong> for Greater Seattle homebuyers and homeowners. With Washington and California licensing and relationships with 50+ Wholesale Lenders, Mo delivers the rate competition, program diversity, and underwriting expertise that King County buyers need to compete and win.
           </p>
           <p className="text-slate-900 mb-0">
             <strong>Ready to access wholesale mortgage rates for your Greater Seattle purchase?</strong> Call Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-bold underline">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700 font-bold underline">mo@mothebroker.com</a> for a free wholesale rate comparison. Pre-approval in 1-2 business days.

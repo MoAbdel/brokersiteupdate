@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dana Point Wholesale Mortgage Broker | 200+ Lenders | Mo Abdel',
-  description: 'Dana Point wholesale mortgage broker with 200+ lender access. Jumbo loans, coastal luxury financing & better rates than local banks. NMLS #1426884.',
+  title: 'Dana Point Wholesale Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel',
+  description: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, coastal luxury financing & better rates than local banks. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-dana-point-2026',
     languages: {
@@ -21,7 +21,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Dana Point Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Dana Point Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -49,7 +49,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
                 "name": "What is a wholesale mortgage broker in Dana Point?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for luxury coastal home purchases."
+                  "text": "A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for luxury coastal home purchases."
                 }
               },
               {
@@ -65,7 +65,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
                 "name": "How do Dana Point wholesale rates compare to local banks?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 200+ lenders who compete for Dana Point luxury home financing."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 50+ Wholesale Lenders who compete for Dana Point luxury home financing."
                 }
               },
               {
@@ -91,7 +91,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Dana Point Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Dana Point Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-lg text-gray-600">
           Access wholesale pricing and jumbo loan expertise for South Orange County&apos;s premier coastal community
@@ -101,7 +101,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Dana Point homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than local banks. With Dana Point median home prices around $1.9 million, most buyers need jumbo loans—and that is where wholesale brokers provide the biggest advantage over Wells Fargo, Chase, and other Orange County banks.
+            Dana Point homebuyers access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than local banks. With Dana Point median home prices around $1.9 million, most buyers need jumbo loans—and that is where wholesale brokers provide the biggest advantage over Wells Fargo, Chase, and other Orange County banks.
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>The Wholesale Advantage in Dana Point</h3>
         <ul>
-          <li><strong>200+ Lender Access:</strong> More options than any single bank can offer</li>
+          <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank can offer</li>
           <li><strong>Super Jumbo Expertise:</strong> Loans up to $10M+ for luxury properties</li>
           <li><strong>Rate Shopping:</strong> Lender competition drives better pricing</li>
           <li><strong>Program Variety:</strong> Bank statement, jumbo, interest-only, asset-based</li>
@@ -227,7 +227,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>What is a wholesale mortgage broker in Dana Point?</h3>
         <p>
-          A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for luxury coastal home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
+          A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for luxury coastal home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
         </p>
 
         <h3>Can I get a jumbo loan in Dana Point through a wholesale broker?</h3>
@@ -237,7 +237,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>How do Dana Point wholesale rates compare to local banks?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for Dana Point luxury home financing.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Dana Point luxury home financing.
         </p>
 
         <h3>Are there special programs for Monarch Beach properties?</h3>

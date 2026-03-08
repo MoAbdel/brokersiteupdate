@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County 2026 | Mo Abdel - Orange County Mortgage Broker',
-  description: 'FHA loans Orange County 2026: Loan limits up to $1,209,750, 3.5% down payment, 580+ credit score. Compare FHA lenders through a wholesale broker with 200+ partners. NMLS #1426884.',
+  description: 'FHA loans Orange County 2026: Loan limits up to $1,209,750, 3.5% down payment, 580+ credit score. Compare FHA lenders through a wholesale broker with 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/fha-loans-orange-county-2026',
     languages: {
@@ -91,7 +91,7 @@ export default function FHALoansOrangeCountyPage() {
                             {
                                 "@type": "Question",
                                 "name": "How does a wholesale broker help with FHA loans?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "A wholesale broker compares FHA programs across 200+ lenders to find the best pricing, fewest overlays, and fastest closing. Different lenders have different minimum credit scores, DTI limits, and fee structures for FHA loans." }
+                                "acceptedAnswer": { "@type": "Answer", "text": "A wholesale broker compares FHA programs across 50+ Wholesale Lenders to find the best pricing, fewest overlays, and fastest closing. Different lenders have different minimum credit scores, DTI limits, and fee structures for FHA loans." }
                             },
                             {
                                 "@type": "Question",
@@ -221,7 +221,7 @@ export default function FHALoansOrangeCountyPage() {
                     Retail banks offer only their own FHA products. Wholesale brokers can:
                 </p>
                 <ul>
-                    <li>Compare FHA programs across 200+ lenders</li>
+                    <li>Compare FHA programs across 50+ Wholesale Lenders</li>
                     <li>Find lenders with minimal overlays for challenging scenarios</li>
                     <li>Match your specific situation with the optimal lender</li>
                 </ul>
@@ -424,7 +424,7 @@ export default function FHALoansOrangeCountyPage() {
 
                 <h3>How does a wholesale broker help with FHA loans?</h3>
                 <p>
-                    A wholesale broker compares FHA programs across 200+ lenders to find the best pricing, fewest overlays, and fastest closing timeline. Different lenders apply different minimum credit scores, DTI limits, and fee structures for FHA loans. A wholesale broker identifies the lender whose guidelines best match your financial profile.
+                    A wholesale broker compares FHA programs across 50+ Wholesale Lenders to find the best pricing, fewest overlays, and fastest closing timeline. Different lenders apply different minimum credit scores, DTI limits, and fee structures for FHA loans. A wholesale broker identifies the lender whose guidelines best match your financial profile.
                 </p>
 
                 <h3>Can I use an FHA loan to buy a multi-unit property in Orange County?</h3>

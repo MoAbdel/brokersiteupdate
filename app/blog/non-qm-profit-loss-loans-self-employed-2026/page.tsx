@@ -6,14 +6,14 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'P&L Statement Loans: How Self-Employed Borrowers Qualify [2026] | Mo Abdel',
-  description: 'P&L statement loans let self-employed borrowers qualify using a CPA-prepared profit and loss statement instead of tax returns. Access 200+ wholesale lenders offering P&L mortgage programs in California and Washington. NMLS #1426884.',
+  description: 'P&L statement loans let self-employed borrowers qualify using a CPA-prepared profit and loss statement instead of tax returns. Access 50+ Wholesale Lenders offering P&L mortgage programs in California and Washington. NMLS #1426884.',
   keywords: ['P&L statement loan self-employed', 'profit and loss statement mortgage', 'P&L loan California', 'self-employed mortgage no tax returns', 'CPA prepared P&L mortgage', 'non-QM P&L loan 2026', 'profit loss statement home loan', 'self-employed P&L qualification'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/non-qm-profit-loss-loans-self-employed-2026',
   },
   openGraph: {
     title: 'P&L Statement Loans: How Self-Employed Borrowers Qualify [2026]',
-    description: 'Profit and loss statement mortgage programs for self-employed borrowers. Qualify using a CPA-prepared P&L instead of tax returns. Wholesale rates from 200+ lenders across California and Washington.',
+    description: 'Profit and loss statement mortgage programs for self-employed borrowers. Qualify using a CPA-prepared P&L instead of tax returns. Wholesale rates from 50+ Wholesale Lenders across California and Washington.',
     url: 'https://www.mothebroker.com/blog/non-qm-profit-loss-loans-self-employed-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -63,7 +63,7 @@ const faqData = [
   },
   {
     question: "Why do wholesale brokers have more P&L loan options than banks?",
-    answer: "Retail banks and credit unions rarely offer P&L statement loan programs because these are non-QM products that require specialized underwriting guidelines. Wholesale mortgage brokers access 200+ lenders, including non-QM specialists that focus specifically on alternative income documentation programs. This gives wholesale brokers access to 30+ P&L lenders with varying guidelines, allowing them to match borrowers with the most competitive program for their specific situation."
+    answer: "Retail banks and credit unions rarely offer P&L statement loan programs because these are non-QM products that require specialized underwriting guidelines. Wholesale mortgage brokers access 50+ Wholesale Lenders, including non-QM specialists that focus specifically on alternative income documentation programs. This gives wholesale brokers access to 30+ P&L lenders with varying guidelines, allowing them to match borrowers with the most competitive program for their specific situation."
   },
   {
     question: "What documents do I need for a P&L statement loan?",
@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: "Are P&L loan rates higher than conventional mortgage rates?",
-    answer: "Yes, P&L loan rates carry a premium above conventional mortgage rates because they involve alternative income documentation and manual underwriting. The rate premium varies by lender, credit score, LTV, and loan amount. Working with a wholesale mortgage broker who accesses 200+ lenders is the most effective way to secure competitive P&L loan pricing, as wholesale rates are typically lower than retail non-QM rates."
+    answer: "Yes, P&L loan rates carry a premium above conventional mortgage rates because they involve alternative income documentation and manual underwriting. The rate premium varies by lender, credit score, LTV, and loan amount. Working with a wholesale mortgage broker who accesses 50+ Wholesale Lenders is the most effective way to secure competitive P&L loan pricing, as wholesale rates are typically lower than retail non-QM rates."
   }
 ];
 
@@ -239,7 +239,7 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
             <div className="mt-8 flex flex-wrap gap-6 text-sm text-slate-400">
               <span className="flex items-center gap-2"><Shield className="w-4 h-4 text-blue-400" /> NMLS #1426884</span>
               <span className="flex items-center gap-2"><Building2 className="w-4 h-4 text-blue-400" /> Lumin Lending NMLS #2716106</span>
-              <span className="flex items-center gap-2"><Users className="w-4 h-4 text-blue-400" /> 200+ Wholesale Lenders</span>
+              <span className="flex items-center gap-2"><Users className="w-4 h-4 text-blue-400" /> 50+ Wholesale Lenders</span>
               <span className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-400" /> Licensed in CA &amp; WA</span>
             </div>
           </div>
@@ -258,7 +258,7 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
                 <div>
                   <h2 className="text-2xl font-bold text-slate-900 mb-3">Expert Insight: P&amp;L Statement Loans in 2026</h2>
                   <blockquote className="text-lg text-slate-700 italic border-l-4 border-blue-500 pl-4">
-                    &ldquo;According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to 200+ lenders: P&amp;L statement loans are the most underutilized tool in the self-employed borrower&apos;s toolkit. I&apos;ve closed loans for business owners who were told by their bank that they didn&apos;t qualify — only to find that their CPA-prepared P&amp;L showed two to three times the income reflected on their tax returns. The wholesale channel has over 30 lenders offering P&amp;L programs, each with different guidelines on credit, LTV, and loan amounts.&rdquo;
+                    &ldquo;According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker with access to 50+ Wholesale Lenders: P&amp;L statement loans are the most underutilized tool in the self-employed borrower&apos;s toolkit. I&apos;ve closed loans for business owners who were told by their bank that they didn&apos;t qualify — only to find that their CPA-prepared P&amp;L showed two to three times the income reflected on their tax returns. The wholesale channel has over 30 lenders offering P&amp;L programs, each with different guidelines on credit, LTV, and loan amounts.&rdquo;
                   </blockquote>
                 </div>
               </div>
@@ -593,7 +593,7 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
                   The wholesale channel — where licensed mortgage brokers act as intermediaries between borrowers and lenders — is where <strong>non-QM specialists operate</strong>. These lenders have built their entire business around alternative documentation programs like P&amp;L loans, bank statement loans, <Link href="/blog/asset-depletion-loans-guide-2026" className="text-blue-600 hover:text-blue-800 underline">asset depletion loans</Link>, and <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-800 underline">DSCR investment loans</Link>.
                 </p>
                 <p>
-                  As a wholesale mortgage broker with access to <strong>200+ lenders</strong>, I work with over 30 lenders that offer P&amp;L statement loan programs. Each lender has different guidelines on critical factors:
+                  As a wholesale mortgage broker with access to <strong>50+ Wholesale Lenders</strong>, I work with over 30 lenders that offer P&amp;L statement loan programs. Each lender has different guidelines on critical factors:
                 </p>
                 <ul className="list-none space-y-3 mt-4">
                   <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-emerald-600 mt-1 shrink-0" /> <span><strong>P&amp;L period:</strong> Some require 24-month P&amp;L, others accept 12 months</span></li>
@@ -892,7 +892,7 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Qualify Using Your P&amp;L Statement?</h2>
             <p className="text-xl text-slate-300 mb-4 leading-relaxed">
-              If your tax returns don&apos;t reflect your true earning power, a P&amp;L statement loan can unlock the financing you deserve. As a wholesale mortgage broker with access to 200+ lenders — including 30+ that offer P&amp;L programs — I match your specific business profile with the lender whose guidelines produce the most competitive terms.
+              If your tax returns don&apos;t reflect your true earning power, a P&amp;L statement loan can unlock the financing you deserve. As a wholesale mortgage broker with access to 50+ Wholesale Lenders — including 30+ that offer P&amp;L programs — I match your specific business profile with the lender whose guidelines produce the most competitive terms.
             </p>
             <p className="text-lg text-slate-400 mb-8">
               Every self-employed borrower&apos;s situation is different. The right documentation path depends on your business type, account structure, credit profile, and target loan amount. Let&apos;s run the numbers together.
@@ -918,7 +918,7 @@ export default function NonQmProfitLossLoansSelfEmployed2026() {
               <p className="text-slate-300 text-sm">
                 <strong className="text-white">Mo Abdel</strong> | NMLS #1426884 | Lumin Lending, Inc. NMLS #2716106 | DRE #02291443
               </p>
-              <p className="text-slate-400 text-sm mt-1">Licensed in California &amp; Washington | 200+ Wholesale Lenders</p>
+              <p className="text-slate-400 text-sm mt-1">Licensed in California &amp; Washington | 50+ Wholesale Lenders</p>
             </div>
 
             {/* Related Articles */}

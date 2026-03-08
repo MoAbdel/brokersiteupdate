@@ -218,7 +218,7 @@ export default function HomeEquityLAWestsideBeach() {
               <li><strong>Jumbo HELOC Available:</strong> Yes, credit lines up to $1M+ on qualified properties</li>
               <li><strong>Top Equity Uses:</strong> Beach home renovation, ADU construction, investment property, debt consolidation</li>
               <li><strong>Cities Covered:</strong> Manhattan Beach, Hermosa Beach, Redondo Beach, El Segundo, Culver City, Playa del Rey, Marina del Rey, Westchester</li>
-              <li><strong>Wholesale Advantage:</strong> Access to 200+ lenders for best rate comparison</li>
+              <li><strong>Wholesale Advantage:</strong> Access to 50+ Wholesale Lenders for best rate comparison</li>
             </ul>
           </div>
 

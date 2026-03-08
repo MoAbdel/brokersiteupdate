@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <h3 className="text-base font-semibold mb-3">About</h3>
             <p className="text-slate-300 text-sm leading-relaxed mb-3">
-              Mortgage broker serving California & Washington. Access 200+ lenders, compare options, close fast.
+              Mortgage broker serving California & Washington. Access 50+ Wholesale Lenders, compare options, close fast.
               NMLS #1426884.
             </p>
             <div className="flex flex-wrap gap-3">

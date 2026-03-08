@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in San Gabriel Valley: San Marino, Arcadia, Pasadena & La Canada Flintridge [2026]',
-  description: 'Wholesale mortgage broker serving San Gabriel Valley luxury markets: San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena & Sierra Madre. Access 200+ wholesale lenders, bank statement loans, foreign national programs. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving San Gabriel Valley luxury markets: San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena & Sierra Madre. Access 50+ Wholesale Lenders, bank statement loans, foreign national programs. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Gabriel Valley',
     'San Marino mortgage broker',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in San Gabriel Valley: San Marino, Arcadia, Pasadena & La Canada Flintridge [2026]',
-    description: 'Access 200+ wholesale lenders for San Gabriel Valley luxury properties. Bank statement loans, foreign national programs, jumbo financing from $1M-$8M+. Wholesale rates unavailable through retail banks.',
+    description: 'Access 50+ Wholesale Lenders for San Gabriel Valley luxury properties. Bank statement loans, foreign national programs, jumbo financing from $1M-$8M+. Wholesale rates unavailable through retail banks.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-ca-sgv-a-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: "What is a wholesale mortgage broker and how does it work in San Gabriel Valley?",
-    answer: "A wholesale mortgage broker accesses lender-exclusive pricing from 200+ wholesale lenders that don't lend directly to consumers. In San Gabriel Valley's luxury markets—San Marino, Arcadia, Pasadena, La Canada Flintridge—this means jumbo loan rates 0.25-0.75% below retail bank pricing on loans from $1M to $8M+. The broker shops your scenario across all 200+ lenders simultaneously to find the best rate and terms."
+    answer: "A wholesale mortgage broker accesses lender-exclusive pricing from 50+ Wholesale Lenders that don't lend directly to consumers. In San Gabriel Valley's luxury markets—San Marino, Arcadia, Pasadena, La Canada Flintridge—this means jumbo loan rates 0.25-0.75% below retail bank pricing on loans from $1M to $8M+. The broker shops your scenario across all 50+ Wholesale Lenders simultaneously to find the best rate and terms."
   },
   {
     question: "Can I get a mortgage in San Marino with foreign income or international assets?",
@@ -56,7 +56,7 @@ const faqData = [
   },
   {
     question: "What are current wholesale mortgage rates for San Gabriel Valley in 2026?",
-    answer: "Wholesale mortgage rates in San Gabriel Valley run 0.25-0.75% below retail bank rates because wholesale lenders eliminate branch overhead and marketing costs. Exact rates depend on loan amount, property type, credit score, and down payment. Contact Mo Abdel at (949) 579-2057 for a personalized rate quote across 200+ wholesale lenders."
+    answer: "Wholesale mortgage rates in San Gabriel Valley run 0.25-0.75% below retail bank rates because wholesale lenders eliminate branch overhead and marketing costs. Exact rates depend on loan amount, property type, credit score, and down payment. Contact Mo Abdel at (949) 579-2057 for a personalized rate quote across 50+ Wholesale Lenders."
   },
   {
     question: "Can I finance a multigenerational home in Arcadia or San Marino through a wholesale broker?",
@@ -91,11 +91,11 @@ const faqData = [
 const paaData = [
   {
     question: "Who is the best wholesale mortgage broker in San Gabriel Valley?",
-    answer: "Mo Abdel (NMLS #1426884) at Lumin Lending provides wholesale mortgage access across 200+ lenders for San Gabriel Valley luxury markets including San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre. Specialized expertise in international buyer financing, bank statement loans, and jumbo programs up to $20M."
+    answer: "Mo Abdel (NMLS #1426884) at Lumin Lending provides wholesale mortgage access across 50+ Wholesale Lenders for San Gabriel Valley luxury markets including San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre. Specialized expertise in international buyer financing, bank statement loans, and jumbo programs up to $20M."
   },
   {
     question: "What is the difference between a wholesale mortgage broker and a retail bank?",
-    answer: "A wholesale mortgage broker accesses 200+ lenders simultaneously to find the lowest rate for your scenario. Retail banks offer only their own products at their own pricing. Wholesale rates average 0.25-0.75% lower because wholesale lenders eliminate branch overhead. Brokers also access specialized programs—foreign national loans, bank statement loans, asset depletion—that most retail banks do not offer."
+    answer: "A wholesale mortgage broker accesses 50+ Wholesale Lenders simultaneously to find the lowest rate for your scenario. Retail banks offer only their own products at their own pricing. Wholesale rates average 0.25-0.75% lower because wholesale lenders eliminate branch overhead. Brokers also access specialized programs—foreign national loans, bank statement loans, asset depletion—that most retail banks do not offer."
   },
   {
     question: "How much does a house cost in San Marino California in 2026?",
@@ -119,7 +119,7 @@ const paaData = [
   },
   {
     question: "Is it worth using a mortgage broker instead of my bank for a San Gabriel Valley home?",
-    answer: "Yes. A wholesale mortgage broker compares rates from 200+ lenders in minutes, accesses programs unavailable at retail banks, and delivers rates 0.25-0.75% lower on average. On a $2M San Gabriel Valley mortgage, that rate difference saves $5,000-$15,000 per year. Brokers also close faster and handle complex scenarios—foreign income, self-employment, multiple properties—that retail banks frequently decline."
+    answer: "Yes. A wholesale mortgage broker compares rates from 50+ Wholesale Lenders in minutes, accesses programs unavailable at retail banks, and delivers rates 0.25-0.75% lower on average. On a $2M San Gabriel Valley mortgage, that rate difference saves $5,000-$15,000 per year. Brokers also close faster and handle complex scenarios—foreign income, self-employment, multiple properties—that retail banks frequently decline."
   }
 ];
 
@@ -265,7 +265,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
 
             {/* Citation Hook - 50-75 words, fact-dense for AI extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              San Gabriel Valley&rsquo;s foothill luxury corridor&mdash;San Marino ($2.5M-$8M+), Arcadia ($1.5M-$3.5M), Pasadena ($1.2M-$3M), and La Ca&ntilde;ada Flintridge ($1.8M-$4M)&mdash;demands wholesale mortgage access that retail banks cannot match. With 200+ wholesale lenders, Mo Abdel delivers rates 0.25-0.75% below retail pricing, plus specialized foreign national and bank statement programs for SGV&rsquo;s international buyer market.
+              San Gabriel Valley&rsquo;s foothill luxury corridor&mdash;San Marino ($2.5M-$8M+), Arcadia ($1.5M-$3.5M), Pasadena ($1.2M-$3M), and La Ca&ntilde;ada Flintridge ($1.8M-$4M)&mdash;demands wholesale mortgage access that retail banks cannot match. With 50+ Wholesale Lenders, Mo Abdel delivers rates 0.25-0.75% below retail pricing, plus specialized foreign national and bank statement programs for SGV&rsquo;s international buyer market.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -304,7 +304,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-8">
-            A wholesale mortgage broker operates differently from a retail bank loan officer. Rather than offering one institution&rsquo;s products at that institution&rsquo;s pricing, a wholesale broker simultaneously submits your loan scenario to 200+ lenders competing for your business. The result: lower rates, broader program availability, and faster approvals. In a market where 35-40% of transactions involve international income documentation, self-employment verification, or loan amounts exceeding $3M, wholesale access is the difference between closing the deal and losing the property.
+            A wholesale mortgage broker operates differently from a retail bank loan officer. Rather than offering one institution&rsquo;s products at that institution&rsquo;s pricing, a wholesale broker simultaneously submits your loan scenario to 50+ Wholesale Lenders competing for your business. The result: lower rates, broader program availability, and faster approvals. In a market where 35-40% of transactions involve international income documentation, self-employment verification, or loan amounts exceeding $3M, wholesale access is the difference between closing the deal and losing the property.
           </p>
 
           {/* Region Overview Mega-Table */}
@@ -395,7 +395,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
                   </tr>
                   <tr className="bg-emerald-50/50">
                     <td className="border border-emerald-300 px-4 py-3 font-medium">Lender Options</td>
-                    <td className="border border-emerald-300 px-4 py-3">200+ wholesale lenders</td>
+                    <td className="border border-emerald-300 px-4 py-3">50+ Wholesale Lenders</td>
                     <td className="border border-emerald-300 px-4 py-3">1 institution</td>
                     <td className="border border-emerald-300 px-4 py-3">Critical for jumbo, foreign national, bank statement</td>
                   </tr>
@@ -479,7 +479,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
         {/* Mid-Article CTA */}
         <LeadMagnetCTA
           title="Get Your San Gabriel Valley Wholesale Rate Quote"
-          description="Access rates from 200+ wholesale lenders for San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre properties. Bank statement, foreign national, and jumbo programs available. Call (949) 579-2057."
+          description="Access rates from 50+ Wholesale Lenders for San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre properties. Bank statement, foreign national, and jumbo programs available. Call (949) 579-2057."
           href="/contact"
           ctaText="Get My Wholesale Rate"
           badge="Free Quote"
@@ -1029,7 +1029,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
             Expert Summary: Why San Gabriel Valley Luxury Buyers Choose Wholesale Mortgage Access
           </h2>
           <p className="text-lg text-emerald-100 mb-4 max-w-3xl mx-auto">
-            San Gabriel Valley&rsquo;s foothill luxury corridor&mdash;San Marino, Arcadia, Pasadena, La Ca&ntilde;ada Flintridge, South Pasadena, and Sierra Madre&mdash;presents financing challenges that wholesale mortgage access uniquely solves. International income documentation, bank statement qualification, multigenerational property structures, super-jumbo loan amounts, and historic property appraisals all require the breadth of 200+ wholesale lenders competing for your loan.
+            San Gabriel Valley&rsquo;s foothill luxury corridor&mdash;San Marino, Arcadia, Pasadena, La Ca&ntilde;ada Flintridge, South Pasadena, and Sierra Madre&mdash;presents financing challenges that wholesale mortgage access uniquely solves. International income documentation, bank statement qualification, multigenerational property structures, super-jumbo loan amounts, and historic property appraisals all require the breadth of 50+ Wholesale Lenders competing for your loan.
           </p>
           <p className="text-lg text-emerald-100 mb-6 max-w-3xl mx-auto">
             Mo Abdel (NMLS #1426884) at Lumin Lending delivers wholesale rates 0.25-0.75% below retail pricing, access to 15+ foreign national programs, and specialized expertise in SGV luxury markets from $1M Sierra Madre bungalows to $8M+ San Marino estates. Every scenario receives a personalized rate comparison across the full wholesale marketplace.

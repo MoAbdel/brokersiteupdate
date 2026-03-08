@@ -309,7 +309,7 @@ export default function OrangeCountyHomeBuyerGuide() {
               Orange County Mortgage Loan Options
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Choose the right financing option for your Orange County home purchase with access to 200+ lenders.
+              Choose the right financing option for your Orange County home purchase with access to 50+ Wholesale Lenders.
             </p>
           </div>
 
@@ -501,7 +501,7 @@ export default function OrangeCountyHomeBuyerGuide() {
             Ready to Start Your Orange County Home Buying Journey?
           </h2>
           <p className="text-xl mb-8 text-slate-200">
-            Get pre-approved today and start shopping with confidence. Access Competitive pricing from 200+ lenders 
+            Get pre-approved today and start shopping with confidence. Access Competitive pricing from 50+ Wholesale Lenders 
             with personalized service from experienced Orange County mortgage broker Mo Abdel.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

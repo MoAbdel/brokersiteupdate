@@ -64,7 +64,7 @@ const faqData = [
   },
   {
     question: 'Can I assume a mortgage if I have a lower credit score?',
-    answer: 'Credit requirements for loan assumptions are set by the individual servicer, not by standardized agency guidelines used for new originations. Most servicers require a minimum credit score in the 580 to 640 range for FHA loan assumptions, and 620 to 660 for VA loan assumptions. These thresholds vary because each servicer establishes its own assumption underwriting criteria. Some servicers are more lenient on credit scores for assumptions because the loan is already performing and the risk profile is partially established. A wholesale broker who works with 200+ lenders knows which servicers have the most accessible assumption qualification criteria.',
+    answer: 'Credit requirements for loan assumptions are set by the individual servicer, not by standardized agency guidelines used for new originations. Most servicers require a minimum credit score in the 580 to 640 range for FHA loan assumptions, and 620 to 660 for VA loan assumptions. These thresholds vary because each servicer establishes its own assumption underwriting criteria. Some servicers are more lenient on credit scores for assumptions because the loan is already performing and the risk profile is partially established. A wholesale broker who works with 50+ Wholesale Lenders knows which servicers have the most accessible assumption qualification criteria.',
   },
   {
     question: 'How does the buyer cover the difference between the home price and the assumed loan balance?',
@@ -80,7 +80,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with loan assumption transactions?',
-    answer: 'A wholesale broker with access to 200+ lenders provides several advantages in assumption transactions: (1) identifying which existing loans have the most favorable assumable terms, (2) understanding servicer-specific assumption processing requirements and timelines, (3) coordinating the assumption application with the existing servicer, (4) arranging secondary financing to cover the equity gap when needed, (5) comparing assumption economics against refinancing alternatives to confirm the assumption is the better strategy, and (6) managing the complex paperwork and communication between buyer, seller, and servicer throughout the 60-120 day process.',
+    answer: 'A wholesale broker with access to 50+ Wholesale Lenders provides several advantages in assumption transactions: (1) identifying which existing loans have the most favorable assumable terms, (2) understanding servicer-specific assumption processing requirements and timelines, (3) coordinating the assumption application with the existing servicer, (4) arranging secondary financing to cover the equity gap when needed, (5) comparing assumption economics against refinancing alternatives to confirm the assumption is the better strategy, and (6) managing the complex paperwork and communication between buyer, seller, and servicer throughout the 60-120 day process.',
   },
 ];
 
@@ -191,7 +191,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
           Assumable Mortgage Loans: VA &amp; FHA Loan Assumption Guide [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to assuming VA and FHA mortgages&mdash;covering how loan assumption works, eligibility requirements, lender approval timelines, assumption fees versus refinance costs, due-on-sale clause exceptions under the Garn-St. Germain Act, the buyer and seller process, and how a wholesale broker navigates assumption transactions across 200+ lenders.
+          A complete guide to assuming VA and FHA mortgages&mdash;covering how loan assumption works, eligibility requirements, lender approval timelines, assumption fees versus refinance costs, due-on-sale clause exceptions under the Garn-St. Germain Act, the buyer and seller process, and how a wholesale broker navigates assumption transactions across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -229,7 +229,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">coordinates assumption transactions and secondary financing across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to bridge equity gaps and optimize total cost</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to bridge equity gaps and optimize total cost</td>
               </tr>
             </tbody>
           </table>
@@ -258,7 +258,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Navigating Loan Assumption Transactions</h3>
           <p className="text-blue-800 mb-0">
-            I have helped buyers and sellers in California and Washington navigate VA and FHA loan assumptions&mdash;transactions that most retail lenders are unfamiliar with. The single biggest challenge is servicer processing time: some servicers take 45 days while others take 120 days or more, and the buyer and seller need accurate timelines to structure the purchase contract correctly. The second challenge is the equity gap&mdash;when a home has appreciated significantly since the original loan was originated, the buyer needs substantial cash or secondary financing to cover the difference between the purchase price and the assumed loan balance. I coordinate across 200+ lenders to arrange subordinate financing alongside the assumption, turning a transaction that most agents and loan officers avoid into a completed deal that saves the buyer thousands in interest over the life of the loan. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have helped buyers and sellers in California and Washington navigate VA and FHA loan assumptions&mdash;transactions that most retail lenders are unfamiliar with. The single biggest challenge is servicer processing time: some servicers take 45 days while others take 120 days or more, and the buyer and seller need accurate timelines to structure the purchase contract correctly. The second challenge is the equity gap&mdash;when a home has appreciated significantly since the original loan was originated, the buyer needs substantial cash or secondary financing to cover the difference between the purchase price and the assumed loan balance. I coordinate across 50+ Wholesale Lenders to arrange subordinate financing alongside the assumption, turning a transaction that most agents and loan officers avoid into a completed deal that saves the buyer thousands in interest over the life of the loan. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -266,7 +266,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Interested in Assuming a Below-Market-Rate Mortgage?</h3>
           <p className="text-green-800 mb-2">
-            Get expert guidance on VA and FHA loan assumptions&mdash;including equity gap financing from 200+ lenders.
+            Get expert guidance on VA and FHA loan assumptions&mdash;including equity gap financing from 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Consultation</Link>
@@ -460,7 +460,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </div>
 
         <p>
-          The qualification process for assumptions is less standardized than new originations because each servicer establishes its own assumption underwriting guidelines. A wholesale broker who works with 200+ lenders understands which servicers have the most accessible qualification criteria, which accelerates the approval process.
+          The qualification process for assumptions is less standardized than new originations because each servicer establishes its own assumption underwriting guidelines. A wholesale broker who works with 50+ Wholesale Lenders understands which servicers have the most accessible qualification criteria, which accelerates the approval process.
         </p>
 
         {/* Section 5: Assumption Fees vs Refinance Costs */}
@@ -629,14 +629,14 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage in Assumption Transactions</h2>
 
         <p>
-          Loan assumption transactions are complex, multi-party processes that most retail lenders and real estate agents rarely encounter. A wholesale broker adds value at every stage of the assumption because the broker&apos;s network of 200+ lenders provides resources that individual servicers and banks cannot match.
+          Loan assumption transactions are complex, multi-party processes that most retail lenders and real estate agents rarely encounter. A wholesale broker adds value at every stage of the assumption because the broker&apos;s network of 50+ Wholesale Lenders provides resources that individual servicers and banks cannot match.
         </p>
 
         <h3>Why a Wholesale Broker Makes Assumption Transactions Possible</h3>
 
         <ol>
           <li><strong>Servicer navigation:</strong> Each servicer has different assumption processing procedures, documentation requirements, and timelines. A broker who has completed assumption transactions across multiple servicers knows exactly what each requires and how to expedite approvals.</li>
-          <li><strong>Equity gap financing:</strong> Arranging secondary financing to cover the equity gap requires finding a lender willing to originate a subordinate lien on a property with an assumed first mortgage. Not all lenders do this. Access to 200+ lenders dramatically increases the probability of finding compatible secondary financing.</li>
+          <li><strong>Equity gap financing:</strong> Arranging secondary financing to cover the equity gap requires finding a lender willing to originate a subordinate lien on a property with an assumed first mortgage. Not all lenders do this. Access to 50+ Wholesale Lenders dramatically increases the probability of finding compatible secondary financing.</li>
           <li><strong>Cost optimization:</strong> The broker compares the total cost of the assumption (assumption fee + equity gap financing costs) against the total cost of a new mortgage at current rates to confirm that the assumption is genuinely the superior strategy.</li>
           <li><strong>Timeline management:</strong> Assumption processing takes 45&ndash;120 days, and delays can jeopardize the purchase contract. A broker experienced in assumption timelines helps structure the contract with realistic contingency periods.</li>
           <li><strong>Entitlement coordination (VA):</strong> For VA loan assumptions involving entitlement substitution, the broker coordinates with both veterans and the VA to ensure entitlement records are properly updated.</li>
@@ -785,14 +785,14 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
             <li><strong>Processing takes 45&ndash;120 days:</strong> Assumption timelines are significantly longer than standard purchase closings, requiring realistic contract contingency periods</li>
             <li><strong>VA entitlement is a critical consideration for veteran sellers:</strong> Non-veteran buyers leave the seller&apos;s entitlement committed; veteran buyers can substitute entitlement to release the seller&apos;s</li>
             <li><strong>Always process assumptions formally through the servicer:</strong> Informal &ldquo;subject-to&rdquo; transfers do not constitute legal assumptions and leave the seller exposed to liability</li>
-            <li><strong>A wholesale broker coordinates the entire process:</strong> From servicer navigation to equity gap financing across 200+ lenders, the broker turns a complex transaction into a completed deal</li>
+            <li><strong>A wholesale broker coordinates the entire process:</strong> From servicer navigation to equity gap financing across 50+ Wholesale Lenders, the broker turns a complex transaction into a completed deal</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Explore Loan Assumption Options in California and Washington</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me about the property you are considering purchasing&mdash;if the seller has an assumable VA or FHA loan with a below-market rate, I will coordinate the assumption process and arrange equity gap financing from 200+ lenders. No obligation, no pressure.
+            Tell me about the property you are considering purchasing&mdash;if the seller has an assumable VA or FHA loan with a below-market rate, I will coordinate the assumption process and arrange equity gap financing from 50+ Wholesale Lenders. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

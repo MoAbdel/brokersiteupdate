@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Foreign National Mortgage Loans: How Non-US Citizens Buy Property [2026] | Mo Abdel',
-  description: 'Foreign national mortgage loans 2026: How non-US citizens buy property in California and Washington. Visa types, ITIN loans, down payment requirements, documentation guide. Wholesale rates from 200+ lenders. NMLS #1426884.',
+  description: 'Foreign national mortgage loans 2026: How non-US citizens buy property in California and Washington. Visa types, ITIN loans, down payment requirements, documentation guide. Wholesale rates from 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['foreign national mortgage loans', 'non-US citizen home loans', 'ITIN mortgage loans 2026', 'foreign national property purchase', 'H-1B visa mortgage', 'non-resident alien home loan', 'foreign buyer mortgage California', 'foreign national mortgage Washington'],
   openGraph: {
     title: 'Foreign National Mortgage Loans: How Non-US Citizens Buy Property [2026]',

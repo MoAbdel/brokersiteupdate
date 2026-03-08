@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     question: "Can I get a DSCR loan with no prepayment penalty?",
-    answer: "Yes, some wholesale DSCR lenders offer no-prepayment-penalty options, though these programs carry higher interest rates to compensate the lender for the early payoff risk. The rate premium for no-PPP varies by lender, typically adding a pricing adjustment to the base rate. A wholesale broker compares no-PPP options across 200+ lenders to find the most competitive terms."
+    answer: "Yes, some wholesale DSCR lenders offer no-prepayment-penalty options, though these programs carry higher interest rates to compensate the lender for the early payoff risk. The rate premium for no-PPP varies by lender, typically adding a pricing adjustment to the base rate. A wholesale broker compares no-PPP options across 50+ Wholesale Lenders to find the most competitive terms."
   },
   {
     question: "How is a yield maintenance prepayment penalty calculated?",
@@ -561,7 +561,7 @@ export default function DSCRLoanPrepaymentPenaltyGuide2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold shrink-0 mt-0.5">1</div>
               <div>
                 <h4 className="font-semibold text-slate-900">Multi-Lender PPP Comparison</h4>
-                <p className="text-slate-600 mt-1">A wholesale broker submits the same loan scenario to multiple lenders and receives back different PPP options at different pricing levels. One lender may offer a 5-4-3-2-1 at the lowest rate while another offers a 3-year flat at a slightly higher rate and a third offers no-PPP at a premium. Mo Abdel compares these options across 200+ wholesale lenders to identify the optimal PPP-to-rate tradeoff for each investor&apos;s specific timeline.</p>
+                <p className="text-slate-600 mt-1">A wholesale broker submits the same loan scenario to multiple lenders and receives back different PPP options at different pricing levels. One lender may offer a 5-4-3-2-1 at the lowest rate while another offers a 3-year flat at a slightly higher rate and a third offers no-PPP at a premium. Mo Abdel compares these options across 50+ Wholesale Lenders to identify the optimal PPP-to-rate tradeoff for each investor&apos;s specific timeline.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -799,8 +799,8 @@ export default function DSCRLoanPrepaymentPenaltyGuide2026() {
             </div>
 
             <div className="border-l-4 border-blue-500 pl-4">
-              <h3 className="font-semibold text-slate-900 mb-2">How does a 200+ lender network help with PPP options?</h3>
-              <p className="text-slate-600"><strong>A wholesale broker with access to 200+ lenders can compare PPP structures and pricing across the entire wholesale market, identifying lenders that offer the specific PPP structure the investor needs at the most competitive rate.</strong> Retail borrowers are limited to one lender&apos;s PPP options. Wholesale access transforms PPP from a take-it-or-leave-it term into a negotiable variable.</p>
+              <h3 className="font-semibold text-slate-900 mb-2">How does a 50+ Wholesale Lenders help with PPP options?</h3>
+              <p className="text-slate-600"><strong>A wholesale broker with access to 50+ Wholesale Lenders can compare PPP structures and pricing across the entire wholesale market, identifying lenders that offer the specific PPP structure the investor needs at the most competitive rate.</strong> Retail borrowers are limited to one lender&apos;s PPP options. Wholesale access transforms PPP from a take-it-or-leave-it term into a negotiable variable.</p>
             </div>
           </div>
         </section>
@@ -830,7 +830,7 @@ export default function DSCRLoanPrepaymentPenaltyGuide2026() {
             The prepayment penalty on a DSCR loan is not a minor detail &mdash; it is a core structural decision that affects the investor&apos;s exit flexibility, total cost of ownership, and portfolio management options for up to five years. The 5-4-3-2-1 stepdown delivers the lowest rate for long-term holders, the 3-year flat provides a balanced middle ground, and no-PPP programs offer maximum flexibility at a higher rate. The DSCR formula (Net Operating Income &divide; Annual Debt Service) determines qualification, but the PPP structure determines exit economics.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending, NMLS #1426884, structures every DSCR loan by starting with the investor&apos;s exit strategy and working backward to the optimal PPP structure. With access to 200+ wholesale lenders offering every PPP variant &mdash; including no-PPP, reduced-PPP, buydown options, and soft PPP programs &mdash; the wholesale channel provides PPP flexibility that no single retail bank can match. Whether the investment is a long-term hold in <Link href="/blog/dscr-loans-california-best-markets-2026" className="text-white underline">California</Link> or a value-add play targeting a near-term refinance, the PPP structure is optimized to protect investor returns.
+            Mo Abdel at Lumin Lending, NMLS #1426884, structures every DSCR loan by starting with the investor&apos;s exit strategy and working backward to the optimal PPP structure. With access to 50+ Wholesale Lenders offering every PPP variant &mdash; including no-PPP, reduced-PPP, buydown options, and soft PPP programs &mdash; the wholesale channel provides PPP flexibility that no single retail bank can match. Whether the investment is a long-term hold in <Link href="/blog/dscr-loans-california-best-markets-2026" className="text-white underline">California</Link> or a value-add play targeting a near-term refinance, the PPP structure is optimized to protect investor returns.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

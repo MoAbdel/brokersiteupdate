@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92688 | Rancho Santa Margarita | Jumbo Specialists',
-  description: 'Rancho Santa Margarita wholesale mortgage broker serving 92688. Access 200+ lenders for jumbo loans near RSM Lake. NMLS #1426884.',
+  description: 'Rancho Santa Margarita wholesale mortgage broker serving 92688. Access 50+ Wholesale Lenders for jumbo loans near RSM Lake. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92688',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92688 | RSM Jumbo Specialists',
-    description: 'Rancho Santa Margarita wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Rancho Santa Margarita wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92688',
     type: 'article',
     publishedTime: '2026-02-03',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92688Page() {
                 "name": "Why choose a wholesale broker over banks in RSM?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For RSM's family-oriented homes at the jumbo threshold, wholesale brokers optimize your loan for the best rate and terms."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For RSM's family-oriented homes at the jumbo threshold, wholesale brokers optimize your loan for the best rate and terms."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92688Page() {
           Wholesale Mortgage Broker 92688 | Rancho Santa Margarita Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for RSM&apos;s family-friendly lake community
+          Access wholesale rates and 50+ Wholesale Lenders for RSM&apos;s family-friendly lake community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Rancho Santa Margarita 92688 offers family-oriented living with <strong>$1.0 million median home prices</strong> and access to RSM Lake amenities. At the conforming-jumbo threshold where strategic loan structuring matters, a <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps families navigate financing options for this popular South County community.
+            Rancho Santa Margarita 92688 offers family-oriented living with <strong>$1.0 million median home prices</strong> and access to RSM Lake amenities. At the conforming-jumbo threshold where strategic loan structuring matters, a <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and helps families navigate financing options for this popular South County community.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92688Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over banks in RSM?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For RSM&apos;s family-oriented homes at the jumbo threshold, wholesale brokers optimize your loan for the best rate and terms.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For RSM&apos;s family-oriented homes at the jumbo threshold, wholesale brokers optimize your loan for the best rate and terms.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92688 does your wholesale brokerage serve?</h3>

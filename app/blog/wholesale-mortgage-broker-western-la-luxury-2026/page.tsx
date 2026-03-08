@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Hidden Hills, Calabasas & Western LA, CA [2026]',
-  description: 'Wholesale mortgage broker serving Hidden Hills, Calabasas, Agoura Hills & Westlake Village. 200+ lenders, celebrity estate financing, entertainment income, bank statement loans. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Hidden Hills, Calabasas, Agoura Hills & Westlake Village. 50+ Wholesale Lenders, celebrity estate financing, entertainment income, bank statement loans. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Hidden Hills',
     'Calabasas mortgage broker',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Hidden Hills, Calabasas & Western LA, CA [2026]',
-    description: 'How wholesale mortgage pricing benefits Western LA luxury homebuyers. 200+ lenders, entertainment income expertise, celebrity estate financing, and bank statement programs.',
+    description: 'How wholesale mortgage pricing benefits Western LA luxury homebuyers. 50+ Wholesale Lenders, entertainment income expertise, celebrity estate financing, and bank statement programs.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-western-la-luxury-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -157,7 +157,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
         name: 'Why should Western LA borrowers choose a wholesale broker over a private bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Private banks serve a narrow segment of ultra-high-net-worth clients and require substantial deposit relationships ($1M+). Wholesale brokers access the same tier of luxury lending plus 200+ additional lenders, without requiring banking relationships. For Western LA borrowers who want competitive rates without moving assets, wholesale channels deliver superior options and pricing transparency.',
+          text: 'Private banks serve a narrow segment of ultra-high-net-worth clients and require substantial deposit relationships ($1M+). Wholesale brokers access the same tier of luxury lending plus 50+ Wholesale Lenders, without requiring banking relationships. For Western LA borrowers who want competitive rates without moving assets, wholesale channels deliver superior options and pricing transparency.',
         },
       },
     ],
@@ -167,7 +167,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Mo Abdel - Lumin Lending',
-    description: 'Wholesale mortgage broker serving Western LA luxury communities with 200+ lender access',
+    description: 'Wholesale mortgage broker serving Western LA luxury communities with 50+ Wholesale Lenders',
     telephone: '(949) 579-2057',
     url: 'https://www.mothebroker.com',
     areaServed: [
@@ -256,7 +256,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Western LA Luxury Mortgage Market</p>
             <p className="text-gray-800 mb-0">
-              Western Los Angeles&apos;s luxury corridor&mdash;Hidden Hills, Calabasas, Agoura Hills, and Westlake Village&mdash;generated approximately <strong>$3.8 billion in residential mortgage originations</strong> during 2025, according to LA County Assessor and Ventura County transaction data. Hidden Hills, California&apos;s most exclusive fully gated city, maintains a median home value exceeding <strong>$6 million with 100% of purchases requiring super jumbo financing</strong>. Calabasas&apos;s entertainment industry concentration creates a borrower base where <strong>over 40% of applicants have non-traditional income sources</strong>&mdash;royalties, residuals, production company revenue, and brand partnerships&mdash;that traditional banks struggle to document and underwrite. Wholesale broker access to 200+ lenders, including super jumbo specialists and entertainment-income lenders, delivers measurable financing advantages across this corridor.
+              Western Los Angeles&apos;s luxury corridor&mdash;Hidden Hills, Calabasas, Agoura Hills, and Westlake Village&mdash;generated approximately <strong>$3.8 billion in residential mortgage originations</strong> during 2025, according to LA County Assessor and Ventura County transaction data. Hidden Hills, California&apos;s most exclusive fully gated city, maintains a median home value exceeding <strong>$6 million with 100% of purchases requiring super jumbo financing</strong>. Calabasas&apos;s entertainment industry concentration creates a borrower base where <strong>over 40% of applicants have non-traditional income sources</strong>&mdash;royalties, residuals, production company revenue, and brand partnerships&mdash;that traditional banks struggle to document and underwrite. Wholesale broker access to 50+ Wholesale Lenders, including super jumbo specialists and entertainment-income lenders, delivers measurable financing advantages across this corridor.
             </p>
           </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
           {/* WHOLESALE VS RETAIL TABLE */}
           <h2 id="wholesale-advantage" className="text-2xl font-bold mt-10 mb-4">Wholesale vs. Retail Mortgage Pricing: Western LA Luxury Comparison</h2>
           <p>
-            Western LA&apos;s luxury mortgage market demands lender specialization that retail banks rarely provide. Entertainment industry income, celebrity privacy requirements, complex ownership structures, and property values from $1.1 million to $20 million+ create financing scenarios where wholesale broker access to 200+ competing lenders delivers both rate advantages and program availability that single-institution banking cannot replicate.
+            Western LA&apos;s luxury mortgage market demands lender specialization that retail banks rarely provide. Entertainment industry income, celebrity privacy requirements, complex ownership structures, and property values from $1.1 million to $20 million+ create financing scenarios where wholesale broker access to 50+ Wholesale Lenders delivers both rate advantages and program availability that single-institution banking cannot replicate.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
@@ -296,7 +296,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
               <tbody>
                 <tr>
                   <td className="py-3 px-4 border-b font-medium">Lender Options</td>
-                  <td className="py-3 px-4 border-b">200+ wholesale lenders</td>
+                  <td className="py-3 px-4 border-b">50+ Wholesale Lenders</td>
                   <td className="py-3 px-4 border-b">1 lender (their own products)</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -717,7 +717,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
           <div className="space-y-6 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker in Western LA?</h3>
-              <p><strong>A wholesale broker accesses 200+ lenders to find the best super jumbo rates for Hidden Hills, Calabasas, Agoura Hills, and Westlake Village buyers.</strong> Unlike bank loan officers limited to one institution&apos;s products, wholesale brokers shop the entire lending marketplace. This is especially valuable for entertainment industry borrowers whose income complexity requires specialized lender programs.</p>
+              <p><strong>A wholesale broker accesses 50+ Wholesale Lenders to find the best super jumbo rates for Hidden Hills, Calabasas, Agoura Hills, and Westlake Village buyers.</strong> Unlike bank loan officers limited to one institution&apos;s products, wholesale brokers shop the entire lending marketplace. This is especially valuable for entertainment industry borrowers whose income complexity requires specialized lender programs.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How much does a Hidden Hills buyer save with a wholesale broker?</h3>
@@ -801,7 +801,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Why should Western LA borrowers choose a wholesale broker over a private bank?</h3>
-              <p>Private banks serve a narrow segment of ultra-high-net-worth clients and require substantial deposit relationships ($1M+). Wholesale brokers access the same tier of luxury lending plus 200+ additional lenders, without requiring banking relationships. For Western LA borrowers who want competitive rates without moving assets, wholesale channels deliver superior options and pricing transparency.</p>
+              <p>Private banks serve a narrow segment of ultra-high-net-worth clients and require substantial deposit relationships ($1M+). Wholesale brokers access the same tier of luxury lending plus 50+ Wholesale Lenders, without requiring banking relationships. For Western LA borrowers who want competitive rates without moving assets, wholesale channels deliver superior options and pricing transparency.</p>
             </div>
           </div>
 
@@ -826,7 +826,7 @@ export default function WholesaleMortgageBrokerWesternLALuxury() {
           <div className="expert-summary bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold mt-0 mb-4">Get Wholesale Rates for Your Western LA Luxury Purchase</h2>
             <p>
-              Western LA&apos;s luxury real estate market&mdash;from Hidden Hills&apos; celebrity estates to Calabasas&apos; entertainment community to Westlake Village&apos;s lakefront properties&mdash;demands wholesale broker access. With 200+ lenders competing for your business, including super jumbo specialists, entertainment income experts, and entity vesting programs, wholesale access delivers better rates, specialized solutions, and faster closings than any single bank can offer.
+              Western LA&apos;s luxury real estate market&mdash;from Hidden Hills&apos; celebrity estates to Calabasas&apos; entertainment community to Westlake Village&apos;s lakefront properties&mdash;demands wholesale broker access. With 50+ Wholesale Lenders competing for your business, including super jumbo specialists, entertainment income experts, and entity vesting programs, wholesale access delivers better rates, specialized solutions, and faster closings than any single bank can offer.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free rate quote:</p>
             <p className="text-lg mb-1">(949) 579-2057</p>

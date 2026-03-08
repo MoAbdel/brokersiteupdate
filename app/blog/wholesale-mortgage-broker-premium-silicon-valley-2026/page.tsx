@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Palo Alto, Los Altos & Silicon Valley, CA [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker serving Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino. 200+ lenders, RSU/stock option qualification, jumbo expertise for Silicon Valley tech professionals. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino. 50+ Wholesale Lenders, RSU/stock option qualification, jumbo expertise for Silicon Valley tech professionals. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Palo Alto',
     'mortgage broker Silicon Valley',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Palo Alto, Los Altos & Silicon Valley, CA [2026]',
-    description: 'Wholesale mortgage broker with 200+ lenders serving Silicon Valley tech professionals. RSU/stock qualification expertise for jumbo purchases.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders serving Silicon Valley tech professionals. RSU/stock qualification expertise for jumbo purchases.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-premium-silicon-valley-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -56,7 +56,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
     },
     datePublished: '2026-02-09',
     dateModified: '2026-02-09',
-    description: 'Comprehensive wholesale mortgage broker guide for Premium Silicon Valley covering tech executive jumbo purchases, RSU qualification strategies, and 200+ lender access for Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino.',
+    description: 'Comprehensive wholesale mortgage broker guide for Premium Silicon Valley covering tech executive jumbo purchases, RSU qualification strategies, and 50+ Wholesale Lenders for Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-premium-silicon-valley-2026',
     about: [
       { '@type': 'FinancialProduct', name: 'Wholesale Jumbo Purchase Loans' },
@@ -68,7 +68,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker in Silicon Valley?',
-      answer: 'A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders including 50+ jumbo specialists to find the best rates and programs for Silicon Valley borrowers. Unlike bank loan officers who offer one institution&apos;s products, wholesale brokers shop across the entire market to find optimal pricing for jumbo purchases, refinances, and complex income qualification.',
+      answer: 'A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders including 50+ jumbo specialists to find the best rates and programs for Silicon Valley borrowers. Unlike bank loan officers who offer one institution&apos;s products, wholesale brokers shop across the entire market to find optimal pricing for jumbo purchases, refinances, and complex income qualification.',
     },
     {
       question: 'How does a wholesale broker help with RSU income qualification?',
@@ -96,7 +96,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
     },
     {
       question: 'How does a wholesale broker help with self-employed tech founders?',
-      answer: 'Self-employed tech founders who show low taxable income on tax returns benefit from bank statement loan programs available through wholesale channels. These programs use 12-24 months of business or personal bank deposits to calculate qualifying income, bypassing tax return limitations. Through 200+ lender access, we find bank statement programs with competitive rates and terms specifically designed for high-earning self-employed borrowers.',
+      answer: 'Self-employed tech founders who show low taxable income on tax returns benefit from bank statement loan programs available through wholesale channels. These programs use 12-24 months of business or personal bank deposits to calculate qualifying income, bypassing tax return limitations. Through 50+ Wholesale Lenders, we find bank statement programs with competitive rates and terms specifically designed for high-earning self-employed borrowers.',
     },
     {
       question: 'What is the closing timeline for a jumbo purchase in Silicon Valley?',
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
       { '@type': 'City', name: 'Cupertino', containedInPlace: { '@type': 'State', name: 'California' } },
     ],
     priceRange: 'Contact for rates',
-    description: 'Wholesale mortgage broker with 200+ lender access specializing in jumbo purchase loans, RSU/stock income qualification, and tech professional mortgage financing for Silicon Valley.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders specializing in jumbo purchase loans, RSU/stock income qualification, and tech professional mortgage financing for Silicon Valley.',
   };
 
   const breadcrumbJsonLd = {
@@ -182,7 +182,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
             By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated February 9, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
-            200+ lender access | Jumbo &amp; super-jumbo purchase expertise | RSU &amp; stock option qualification | Licensed in CA &amp; WA
+            50+ Wholesale Lenders | Jumbo &amp; super-jumbo purchase expertise | RSU &amp; stock option qualification | Licensed in CA &amp; WA
           </p>
         </header>
 
@@ -212,7 +212,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Silicon Valley&apos;s housing market operates almost entirely in the jumbo and super-jumbo loan space, where the difference between the best and average lender can cost a homebuyer $5,000&ndash;$15,000 annually. As a wholesale mortgage broker with access to over 200 lenders &mdash; including 50+ jumbo specialists &mdash; I serve Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino homebuyers and homeowners by creating lender competition that produces better pricing, faster closings, and expert qualification of complex tech compensation. Every home in this corridor exceeds conforming loan limits, making wholesale jumbo expertise the difference between overpaying at a bank and finding the best rate available in the market.
+            Silicon Valley&apos;s housing market operates almost entirely in the jumbo and super-jumbo loan space, where the difference between the best and average lender can cost a homebuyer $5,000&ndash;$15,000 annually. As a wholesale mortgage broker with access to 50+ Wholesale Lenders &mdash; including 50+ jumbo specialists &mdash; I serve Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino homebuyers and homeowners by creating lender competition that produces better pricing, faster closings, and expert qualification of complex tech compensation. Every home in this corridor exceeds conforming loan limits, making wholesale jumbo expertise the difference between overpaying at a bank and finding the best rate available in the market.
           </p>
 
           <p>
@@ -292,7 +292,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
               <tbody>
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Lender Access</td>
-                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">200+ lenders, 50+ jumbo</td>
+                  <td className="px-4 py-3 border-t text-blue-700 font-semibold">50+ Wholesale Lenders, 50+ jumbo</td>
                   <td className="px-4 py-3 border-t">1 lender (own products only)</td>
                   <td className="px-4 py-3 border-t">1 lender (own products only)</td>
                 </tr>
@@ -521,7 +521,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
           <div className="space-y-4 my-6">
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is a wholesale mortgage broker?</h3>
-              <p>A wholesale broker is a licensed professional who originates loans through wholesale channels, accessing 200+ lenders to find the best rates for borrowers.</p>
+              <p>A wholesale broker is a licensed professional who originates loans through wholesale channels, accessing 50+ Wholesale Lenders to find the best rates for borrowers.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How much can I save with a wholesale broker in Silicon Valley?</h3>
@@ -533,7 +533,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Can a wholesale broker help if my bank denied my mortgage?</h3>
-              <p>Yes. Access to 200+ lenders means alternative qualification programs exist for RSU-heavy income, self-employed borrowers, and complex financial situations.</p>
+              <p>Yes. Access to 50+ Wholesale Lenders means alternative qualification programs exist for RSU-heavy income, self-employed borrowers, and complex financial situations.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How do wholesale brokers get paid?</h3>
@@ -587,19 +587,19 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
           <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-600 my-8">
             <h2 className="text-xl font-bold text-green-900 mb-3">Expert Summary: Wholesale Mortgage Broker in Premium Silicon Valley</h2>
             <p className="text-slate-900 mb-3">
-              Premium Silicon Valley&apos;s $3.2M average median home value and tech-dominated compensation landscape demand a mortgage approach that no single bank can provide. Wholesale broker access to 200+ lenders &mdash; including 50+ jumbo and super-jumbo specialists &mdash; creates the lender competition that produces better rates, higher qualification amounts, and faster closings for Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino homebuyers.
+              Premium Silicon Valley&apos;s $3.2M average median home value and tech-dominated compensation landscape demand a mortgage approach that no single bank can provide. Wholesale broker access to 50+ Wholesale Lenders &mdash; including 50+ jumbo and super-jumbo specialists &mdash; creates the lender competition that produces better rates, higher qualification amounts, and faster closings for Palo Alto, Los Altos, Saratoga, Los Gatos, and Cupertino homebuyers.
             </p>
             <p className="text-slate-900 mb-3">
               The core value: strategic lender matching for complex tech compensation. RSU income, stock options, sabbatical pay, startup equity, and variable bonuses require lenders who understand these structures. The difference between conservative and favorable lender treatment routinely adds $50K&ndash;$300K in qualifying income, translating directly to $150K&ndash;$800K more in purchase power. In Silicon Valley&apos;s competitive market, this qualification advantage determines whether you win the home you want.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I deliver 200+ lender competition, RSU/stock expert qualification, and super-jumbo access for every Silicon Valley purchase. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free compensation analysis and pre-approval.
+              As your wholesale mortgage broker, I deliver 50+ Wholesale Lenders, RSU/stock expert qualification, and super-jumbo access for every Silicon Valley purchase. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free compensation analysis and pre-approval.
             </p>
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Get Your Free Silicon Valley Mortgage Pre-Approval</h2>
           <p>
-            Ready to explore how wholesale broker access to 200+ lenders maximizes your Silicon Valley purchasing power? Contact Mo Abdel for a free, no-obligation compensation analysis and pre-approval. Within 48 hours, you receive a full income qualification showing how your RSUs, stock options, bonuses, and base salary translate to maximum purchase power through the most favorable lender for your specific compensation structure.
+            Ready to explore how wholesale broker access to 50+ Wholesale Lenders maximizes your Silicon Valley purchasing power? Contact Mo Abdel for a free, no-obligation compensation analysis and pre-approval. Within 48 hours, you receive a full income qualification showing how your RSUs, stock options, bonuses, and base salary translate to maximum purchase power through the most favorable lender for your specific compensation structure.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6 border-l-4 border-blue-500">
@@ -608,7 +608,7 @@ export default function WholesaleMortgageBrokerPremiumSiliconValley2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Premium Silicon Valley communities</p>
-            <p className="text-sm">Wholesale broker with 200+ lender access | RSU &amp; stock option qualification expert</p>
+            <p className="text-sm">Wholesale broker with 50+ Wholesale Lenders | RSU &amp; stock option qualification expert</p>
           </div>
 
           {/* Disclaimer */}

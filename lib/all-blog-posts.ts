@@ -23,7 +23,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'refinance-multiple-properties-portfolio-strategy-2026',
     title: 'Refinancing Multiple Properties: Portfolio Strategy & Sequencing Guide [2026]',
-    excerpt: 'Refinancing multiple properties requires strategic sequencing, DTI management, and reserve planning. Portfolio strategy guide for investors with wholesale broker access to 200+ lenders.',
+    excerpt: 'Refinancing multiple properties requires strategic sequencing, DTI management, and reserve planning. Portfolio strategy guide for investors with wholesale broker access to 50+ Wholesale Lenders.',
     date: '2026-03-07',
     category: 'Refinance',
     readTime: '12 min read',
@@ -509,7 +509,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'reverse-mortgage-interest-rates-current-2026',
     title: 'Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide and Comparison',
-    excerpt: 'How HECM reverse mortgage interest rates are structured: lender margin plus index, MIP components, and how rates affect principal limit factors. Compare rates across 200+ lenders. NMLS #1426884.',
+    excerpt: 'How HECM reverse mortgage interest rates are structured: lender margin plus index, MIP components, and how rates affect principal limit factors. Compare rates across 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-03-01',
     category: 'Reverse Mortgage',
     readTime: '11 min read',
@@ -630,7 +630,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-renovation-203k-2026',
     title: 'Wholesale Mortgage Renovation Loans 2026: FHA 203k, Conventional & Rehab Programs',
-    excerpt: 'Wholesale brokers access FHA 203k Standard, FHA 203k Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation from 200+ lenders. Compare renovation loan programs, requirements, and eligible improvements.',
+    excerpt: 'Wholesale brokers access FHA 203k Standard, FHA 203k Limited, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation from 50+ Wholesale Lenders. Compare renovation loan programs, requirements, and eligible improvements.',
     date: '2026-02-28',
     category: 'Wholesale',
     readTime: '13 min read',
@@ -638,7 +638,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-debt-consolidation-2026',
     title: 'Wholesale Mortgage Debt Consolidation 2026: Refinance to Eliminate High-Interest Debt',
-    excerpt: 'Cash-out refinance and HELOC can consolidate high-interest debt into lower mortgage payments. Wholesale brokers compare 200+ lenders for the best execution. Understand risks of converting unsecured to secured debt.',
+    excerpt: 'Cash-out refinance and HELOC can consolidate high-interest debt into lower mortgage payments. Wholesale brokers compare 50+ Wholesale Lenders for the best execution. Understand risks of converting unsecured to secured debt.',
     date: '2026-02-28',
     category: 'Wholesale',
     readTime: '12 min read',
@@ -719,7 +719,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-trust-vesting-2026',
     title: 'Buying Property in a Trust 2026: Wholesale Mortgage Options for Trust Vesting',
-    excerpt: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 200+ lenders with trust-friendly programs.',
+    excerpt: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 50+ Wholesale Lenders with trust-friendly programs.',
     date: '2026-02-26',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -825,7 +825,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'fha-streamline-refinance-guide-2026',
     title: 'FHA Streamline Refinance 2026: No Appraisal, Lower Payment in 15-21 Days',
-    excerpt: 'FHA streamline refinance eliminates appraisal and income verification for existing FHA borrowers. Close in 15-21 days through wholesale channels. 200+ lenders.',
+    excerpt: 'FHA streamline refinance eliminates appraisal and income verification for existing FHA borrowers. Close in 15-21 days through wholesale channels. 50+ Wholesale Lenders.',
     date: '2026-02-21',
     category: 'Refinance',
     readTime: '11 min read',
@@ -833,7 +833,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'va-irrrl-streamline-refinance-2026',
     title: 'VA IRRRL Streamline Refinance 2026: No Appraisal, Lower Rate for Veterans',
-    excerpt: 'VA IRRRL streamline refinance for veterans: no appraisal, no income docs, 0.5% funding fee. Close in 15-25 days through 200+ wholesale lenders.',
+    excerpt: 'VA IRRRL streamline refinance for veterans: no appraisal, no income docs, 0.5% funding fee. Close in 15-25 days through 50+ Wholesale Lenders.',
     date: '2026-02-21',
     category: 'Refinance',
     readTime: '11 min read',
@@ -963,7 +963,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'hecm-refinance-existing-reverse-mortgage-2026',
     title: 'How to Refinance an Existing Reverse Mortgage [2026]',
-    excerpt: 'Complete guide to HECM-to-HECM refinance: when it makes sense, net tangible benefit test, 5x rule, costs, and how wholesale broker access to 200+ lenders finds the best terms.',
+    excerpt: 'Complete guide to HECM-to-HECM refinance: when it makes sense, net tangible benefit test, 5x rule, costs, and how wholesale broker access to 50+ Wholesale Lenders finds the best terms.',
     date: '2026-02-19',
     category: 'Reverse Mortgage',
     readTime: '12 min read',
@@ -1148,8 +1148,8 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-lender-network-2026',
-    title: 'The 200+ Lender Advantage: How Wholesale Mortgage Broker Networks Work [2026]',
-    excerpt: 'How wholesale mortgage broker networks work: 200+ lender access, rate shopping mechanics, lender specialization, and why brokers consistently beat retail bank pricing.',
+    title: '50+ Wholesale Lenders: How Wholesale Mortgage Broker Networks Work [2026]',
+    excerpt: 'How wholesale mortgage broker networks work: 50+ Wholesale Lenders, rate shopping mechanics, lender specialization, and why brokers consistently beat retail bank pricing.',
     date: '2026-02-16',
     category: 'Wholesale',
     readTime: '12 min read',
@@ -1230,7 +1230,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-tech-corridor-eastside-wa-2026',
     title: 'Wholesale Mortgage Broker in Kirkland, Redmond & Tech Corridor Eastside, WA [2026]',
-    excerpt: 'Wholesale mortgage broker serving Kirkland, Redmond, Woodinville, Issaquah & Bothell. 200+ lenders for tech workers: jumbo, bank statement, DSCR. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Kirkland, Redmond, Woodinville, Issaquah & Bothell. 50+ Wholesale Lenders for tech workers: jumbo, bank statement, DSCR. NMLS #1426884.',
     date: '2026-02-15',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1343,7 +1343,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'home-equity-wine-country-2026',
     title: 'Wine Country Home Equity 2026: HELOC & Cash-Out for Healdsburg, St. Helena, Napa',
-    excerpt: 'Wine Country home equity guide 2026. HELOC, HELOAN, cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, Yountville homeowners. Vineyard estate equity, 200+ wholesale lenders. NMLS #1426884.',
+    excerpt: 'Wine Country home equity guide 2026. HELOC, HELOAN, cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, Yountville homeowners. Vineyard estate equity, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
@@ -1351,7 +1351,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-ca-pv-a-2026',
     title: 'Wholesale Mortgage Broker in Palos Verdes & South Bay: Manhattan Beach, Hermosa Beach & PV Estates [2026]',
-    excerpt: 'Wholesale mortgage broker serving Palos Verdes Peninsula & South Bay 2026. Access 200+ lenders for jumbo, non-QM, and conventional loans in Manhattan Beach, Hermosa Beach, Redondo Beach, PV Estates & Rolling Hills. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Palos Verdes Peninsula & South Bay 2026. Access 50+ Wholesale Lenders for jumbo, non-QM, and conventional loans in Manhattan Beach, Hermosa Beach, Redondo Beach, PV Estates & Rolling Hills. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1359,7 +1359,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-ca-pv-b-2026',
     title: 'Wholesale Mortgage Broker in Western LA: Santa Monica, Pacific Palisades, Malibu & Calabasas [2026]',
-    excerpt: 'Wholesale mortgage broker serving Santa Monica, Brentwood, Pacific Palisades, Malibu & Calabasas. Access 200+ lenders for jumbo, non-QM & super-jumbo loans. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Santa Monica, Brentwood, Pacific Palisades, Malibu & Calabasas. Access 50+ Wholesale Lenders for jumbo, non-QM & super-jumbo loans. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1367,7 +1367,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-ca-sd-a-2026',
     title: 'Wholesale Mortgage Broker in Coastal North San Diego: Del Mar, La Jolla, Rancho Santa Fe & More [2026]',
-    excerpt: 'Wholesale mortgage broker serving Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas & Carlsbad. 200+ lender access, jumbo & super-jumbo loans, bank statement programs. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas & Carlsbad. 50+ Wholesale Lenders, jumbo & super-jumbo loans, bank statement programs. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1375,7 +1375,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-ca-sgv-a-2026',
     title: 'Wholesale Mortgage Broker in San Gabriel Valley: San Marino, Arcadia, Pasadena & La Canada Flintridge [2026]',
-    excerpt: 'Wholesale mortgage broker serving San Gabriel Valley luxury markets: San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena & Sierra Madre. Access 200+ wholesale lenders, bank statement loans, foreign national programs. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving San Gabriel Valley luxury markets: San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena & Sierra Madre. Access 50+ Wholesale Lenders, bank statement loans, foreign national programs. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1391,7 +1391,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-suburban-king-county-2026',
     title: 'Suburban King County Wholesale Mortgage Broker: Shoreline, Lake Forest Park, Kenmore & Snoqualmie [2026]',
-    excerpt: 'Wholesale mortgage broker Suburban King County with 200+ lender access for Shoreline, Lake Forest Park, Kenmore & Snoqualmie. Renovation loans, new construction, family lending. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker Suburban King County with 50+ Wholesale Lenders for Shoreline, Lake Forest Park, Kenmore & Snoqualmie. Renovation loans, new construction, family lending. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1399,7 +1399,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-ultra-luxury-eastside-wa-2026',
     title: 'Wholesale Mortgage Broker in Medina, Hunts Point & Ultra-Luxury Eastside, WA [2026]',
-    excerpt: 'Ultra-luxury Eastside WA wholesale mortgage broker 2026. 200+ lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point. Jumbo, bank statement, DSCR. NMLS #1426884.',
+    excerpt: 'Ultra-luxury Eastside WA wholesale mortgage broker 2026. 50+ Wholesale Lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point. Jumbo, bank statement, DSCR. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1407,7 +1407,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-urban-seattle-premium-2026',
     title: 'Urban Seattle Premium Wholesale Mortgage Broker: Capitol Hill, Queen Anne, Ballard & Bainbridge Island [2026]',
-    excerpt: 'Wholesale mortgage broker for Seattle premium neighborhoods and Bainbridge Island. Jumbo loans $1M-$5M, tech RSU income, DSCR investment property, bank statement loans. 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for Seattle premium neighborhoods and Bainbridge Island. Jumbo loans $1M-$5M, tech RSU income, DSCR investment property, bank statement loans. 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
@@ -1545,7 +1545,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-la-westside-luxury-2026',
     title: 'Wholesale Mortgage Broker in Culver City, Marina del Rey & LA Westside [2026]',
-    excerpt: 'Wholesale mortgage broker serving Culver City, Playa del Rey, Marina del Rey & Westchester. 200+ lenders, entertainment income, condo financing, DSCR investor loans. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Culver City, Playa del Rey, Marina del Rey & Westchester. 50+ Wholesale Lenders, entertainment income, condo financing, DSCR investor loans. NMLS #1426884.',
     date: '2026-02-12',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1553,7 +1553,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-pasadena-corridor-2026',
     title: 'Wholesale Mortgage Broker in Pasadena, Glendale & SGV Corridor [2026]',
-    excerpt: 'Wholesale mortgage broker serving Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta. 200+ lenders, JPL/Caltech income, bank statement loans, historic home financing. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Pasadena, Sierra Madre, Glendale, Montrose & La Crescenta. 50+ Wholesale Lenders, JPL/Caltech income, bank statement loans, historic home financing. NMLS #1426884.',
     date: '2026-02-12',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1651,7 +1651,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
     title: 'Wholesale Mortgage Broker in La Jolla, Coronado & Coastal SD, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for La Jolla, Coronado, Carlsbad & Poway. Biotech income, military transitions, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for La Jolla, Coronado, Carlsbad & Poway. Biotech income, military transitions, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1667,7 +1667,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-affluent-marin-2026',
     title: 'Wholesale Mortgage Broker in Sausalito, Larkspur & Affluent Marin, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. Houseboat financing, self-employed creative professionals, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. Houseboat financing, self-employed creative professionals, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1683,7 +1683,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
     title: 'Wholesale Mortgage Broker in Danville, Walnut Creek & Suburban East Bay, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Blackhawk estates, Tri-Valley tech, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Blackhawk estates, Tri-Valley tech, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1700,7 +1700,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-coastal-north-sd-2026',
     title: 'Wholesale Mortgage Broker in Del Mar, Rancho Santa Fe & Coastal North SD, CA [2026]',
-    excerpt: 'Wholesale mortgage broker serving Del Mar, Rancho Santa Fe, Solana Beach & Encinitas. 200+ lenders, equestrian estate financing, complex income qualification. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker serving Del Mar, Rancho Santa Fe, Solana Beach & Encinitas. 50+ Wholesale Lenders, equestrian estate financing, complex income qualification. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1716,7 +1716,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-western-la-luxury-2026',
     title: 'Wholesale Mortgage Broker in Hidden Hills, Calabasas & Western LA, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Hidden Hills, Calabasas, Agoura Hills & Westlake Village. Celebrity estate financing, entertainment income, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for Hidden Hills, Calabasas, Agoura Hills & Westlake Village. Celebrity estate financing, entertainment income, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1724,7 +1724,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-palos-verdes-peninsula-2026',
     title: 'Wholesale Mortgage Broker in Palos Verdes Estates, Rolling Hills & PV Peninsula, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Palos Verdes Estates, Rolling Hills, Rancho PV & Rolling Hills Estates. Gated estate financing, equestrian properties, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for Palos Verdes Estates, Rolling Hills, Rancho PV & Rolling Hills Estates. Gated estate financing, equestrian properties, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1748,7 +1748,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-foothill-luxury-2026',
     title: 'Wholesale Mortgage Broker in San Marino, La Cañada Flintridge & Foothill Luxury, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for San Marino, La Cañada Flintridge, South Pasadena & Arcadia. Legacy estate financing, Caltech/JPL professionals, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for San Marino, La Cañada Flintridge, South Pasadena & Arcadia. Legacy estate financing, Caltech/JPL professionals, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1756,7 +1756,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-la-beach-cities-2026',
     title: 'Wholesale Mortgage Broker in Manhattan Beach, Hermosa Beach & LA Beach Cities, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo. Aerospace/entertainment income, sand section financing, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo. Aerospace/entertainment income, sand section financing, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1788,7 +1788,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-premium-east-bay-sf-2026',
     title: 'Wholesale Mortgage Broker in SF, Piedmont, Orinda & East Bay, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for San Francisco, Piedmont, Orinda, Lafayette & Moraga. Urban luxury, TIC financing, Lamorinda estates, 200+ lenders. NMLS #1426884.',
+    excerpt: 'Wholesale mortgage broker for San Francisco, Piedmont, Orinda, Lafayette & Moraga. Urban luxury, TIC financing, Lamorinda estates, 50+ Wholesale Lenders. NMLS #1426884.',
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1829,7 +1829,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-peninsula-ultra-luxury-2026',
     title: 'Wholesale Mortgage Broker in Atherton, Hillsborough & Peninsula, CA [2026]',
-    excerpt: 'Wholesale mortgage broker serving Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills. Trust/LLC financing, complex income, 200+ lender access.',
+    excerpt: 'Wholesale mortgage broker serving Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills. Trust/LLC financing, complex income, 50+ Wholesale Lenders.',
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1853,7 +1853,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-premium-silicon-valley-2026',
     title: 'Wholesale Mortgage Broker in Palo Alto, Los Altos & Silicon Valley, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino. RSU/stock income qualification, Stanford faculty, 200+ lender access.',
+    excerpt: 'Wholesale mortgage broker for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino. RSU/stock income qualification, Stanford faculty, 50+ Wholesale Lenders.',
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1877,7 +1877,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
     title: 'Wholesale Mortgage Broker in Mountain View, Sunnyvale & Silicon Valley, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Mountain View, Sunnyvale, San Jose, Santa Clara & Campbell. Google, Intel, Apple employee financing. 200+ lenders.',
+    excerpt: 'Wholesale mortgage broker for Mountain View, Sunnyvale, San Jose, Santa Clara & Campbell. Google, Intel, Apple employee financing. 50+ Wholesale Lenders.',
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
@@ -1901,7 +1901,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-ultra-luxury-marin-2026',
     title: 'Wholesale Mortgage Broker in Ross, Tiburon & Marin County, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Ross, Tiburon, Belvedere & Mill Valley. Trust/LLC ownership, waterfront property, creative income. 200+ lender access.',
+    excerpt: 'Wholesale mortgage broker for Ross, Tiburon, Belvedere & Mill Valley. Trust/LLC ownership, waterfront property, creative income. 50+ Wholesale Lenders.',
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
@@ -2013,7 +2013,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-greater-seattle-2026',
-    title: 'Greater Seattle Wholesale Mortgage Broker: 200+ Lenders for King County Buyers [2026]',
+    title: 'Greater Seattle Wholesale Mortgage Broker: 50+ Wholesale Lenders for King County Buyers [2026]',
     excerpt: 'Greater Seattle wholesale mortgage broker guide. Tech RSU/stock income, Amazon/Microsoft programs, bank statement loans across King County.',
     date: '2026-02-08',
     category: 'Guides',
@@ -2054,8 +2054,8 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-marin-county-2026',
-    title: 'Marin County Mortgage Broker: 200+ Lenders for Self-Employed & Luxury Buyers [2026]',
-    excerpt: 'Marin County wholesale mortgage broker guide. 200+ lender access for jumbo, bank statement, self-employed loans across 9 Marin cities.',
+    title: 'Marin County Mortgage Broker: 50+ Wholesale Lenders for Self-Employed & Luxury Buyers [2026]',
+    excerpt: 'Marin County wholesale mortgage broker guide. 50+ Wholesale Lenders for jumbo, bank statement, self-employed loans across 9 Marin cities.',
     date: '2026-02-07',
     category: 'Guides',
     readTime: '16 min read',
@@ -2079,7 +2079,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-east-bay-sf-2026',
     title: 'East Bay & SF Wholesale Mortgage: Tech & Biotech Income Solutions [2026]',
-    excerpt: 'East Bay & SF wholesale mortgage broker guide. Tech, biotech, medical income qualification with 200+ lender access across 10 cities.',
+    excerpt: 'East Bay & SF wholesale mortgage broker guide. Tech, biotech, medical income qualification with 50+ Wholesale Lenders across 10 cities.',
     date: '2026-02-07',
     category: 'Guides',
     readTime: '16 min read',
@@ -2127,7 +2127,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-san-diego-2026',
     title: 'San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]',
-    excerpt: 'San Diego wholesale mortgage broker guide. Biotech, military, self-employed income qualification with 200+ lender access across 8 cities.',
+    excerpt: 'San Diego wholesale mortgage broker guide. Biotech, military, self-employed income qualification with 50+ Wholesale Lenders across 8 cities.',
     date: '2026-02-07',
     category: 'Guides',
     readTime: '16 min read',
@@ -2151,7 +2151,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-sgv-pasadena-2026',
     title: 'SGV & Pasadena Mortgage Broker: Caltech, Healthcare & International Buyers [2026]',
-    excerpt: 'SGV & Pasadena wholesale mortgage broker guide. JPL/Caltech, healthcare, international buyer income qualification. 200+ lenders across 9 cities.',
+    excerpt: 'SGV & Pasadena wholesale mortgage broker guide. JPL/Caltech, healthcare, international buyer income qualification. 50+ Wholesale Lenders across 9 cities.',
     date: '2026-02-07',
     category: 'Guides',
     readTime: '16 min read',
@@ -2175,8 +2175,8 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-california-2026',
-    title: 'Wholesale Mortgage Broker California: 200+ Lender Access [2026]',
-    excerpt: 'California wholesale mortgage broker guide. 200+ lender access for jumbo, bank statement, and specialty loans across 6 metro areas.',
+    title: 'Wholesale Mortgage Broker California: 50+ Wholesale Lenders [2026]',
+    excerpt: 'California wholesale mortgage broker guide. 50+ Wholesale Lenders for jumbo, bank statement, and specialty loans across 6 metro areas.',
     date: '2026-02-06',
     category: 'Guides',
     readTime: '15 min read',
@@ -2199,8 +2199,8 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'wholesale-mortgage-broker-washington-2026',
-    title: 'Wholesale Mortgage Broker Washington: 200+ Lender Access [2026]',
-    excerpt: 'Washington wholesale mortgage broker guide. 200+ lender access for tech income, jumbo, and specialty loans across Seattle metro.',
+    title: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
+    excerpt: 'Washington wholesale mortgage broker guide. 50+ Wholesale Lenders for tech income, jumbo, and specialty loans across Seattle metro.',
     date: '2026-02-06',
     category: 'Guides',
     readTime: '15 min read',
@@ -2224,7 +2224,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-bay-area-peninsula-2026',
     title: 'Wholesale Mortgage Broker Bay Area Peninsula & Silicon Valley [2026]',
-    excerpt: 'Bay Area Peninsula wholesale mortgage broker. 200+ lenders for tech RSU income, jumbo loans, bank statement programs across Silicon Valley.',
+    excerpt: 'Bay Area Peninsula wholesale mortgage broker. 50+ Wholesale Lenders for tech RSU income, jumbo loans, bank statement programs across Silicon Valley.',
     date: '2026-02-06',
     category: 'Guides',
     readTime: '16 min read',
@@ -2248,7 +2248,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-la-westside-beach-2026',
     title: 'Wholesale Mortgage Broker LA Westside & Beach Cities [2026]',
-    excerpt: 'LA Westside wholesale mortgage broker. 200+ lenders for entertainment, aerospace income. Manhattan Beach, Hermosa Beach, Culver City.',
+    excerpt: 'LA Westside wholesale mortgage broker. 50+ Wholesale Lenders for entertainment, aerospace income. Manhattan Beach, Hermosa Beach, Culver City.',
     date: '2026-02-06',
     category: 'Guides',
     readTime: '16 min read',
@@ -2272,7 +2272,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-la-south-bay-palos-verdes-2026',
     title: 'Wholesale Mortgage Broker LA South Bay & Palos Verdes [2026]',
-    excerpt: 'Palos Verdes and South Bay wholesale mortgage broker. 200+ lenders for aerospace, entertainment, equestrian property financing.',
+    excerpt: 'Palos Verdes and South Bay wholesale mortgage broker. 50+ Wholesale Lenders for aerospace, entertainment, equestrian property financing.',
     date: '2026-02-06',
     category: 'Guides',
     readTime: '16 min read',
@@ -2362,7 +2362,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-south-orange-county-2026',
     title: 'Wholesale Mortgage Broker South Orange County: Dana Point, Laguna, San Clemente [2026]',
-    excerpt: 'Wholesale mortgage broker for South OC. Dana Point, Laguna Beach, Laguna Niguel, San Clemente. 200+ jumbo lenders, vacation rental income programs.',
+    excerpt: 'Wholesale mortgage broker for South OC. Dana Point, Laguna Beach, Laguna Niguel, San Clemente. 50+ Wholesale Lenders, vacation rental income programs.',
     date: '2026-02-04',
     category: 'Wholesale',
     readTime: '16 min read',
@@ -2370,7 +2370,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-central-orange-county-2026',
     title: 'Wholesale Mortgage Broker Central Orange County: Irvine, Newport Beach, Costa Mesa [2026]',
-    excerpt: 'Wholesale mortgage broker for Central OC. Irvine, Newport Beach, Costa Mesa, Tustin. 200+ lenders, tech professional & jumbo specialists.',
+    excerpt: 'Wholesale mortgage broker for Central OC. Irvine, Newport Beach, Costa Mesa, Tustin. 50+ Wholesale Lenders, tech professional & jumbo specialists.',
     date: '2026-02-04',
     category: 'Wholesale',
     readTime: '17 min read',
@@ -2445,7 +2445,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92691',
     title: 'Wholesale Mortgage Broker 92691 | Mission Viejo Casta del Sol',
-    excerpt: 'Mission Viejo 92691 wholesale mortgage broker serving Casta del Sol. Access 200+ lenders for retirement community financing.',
+    excerpt: 'Mission Viejo 92691 wholesale mortgage broker serving Casta del Sol. Access 50+ Wholesale Lenders for retirement community financing.',
     date: '2026-02-03',
     category: 'Wholesale',
     readTime: '10 min read',
@@ -2453,7 +2453,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92617',
     title: 'Wholesale Mortgage Broker 92617 | Irvine UCI & Turtle Rock',
-    excerpt: 'Irvine 92617 wholesale mortgage broker near UCI. Access 200+ lenders for jumbo loans, foreign national programs & faculty financing.',
+    excerpt: 'Irvine 92617 wholesale mortgage broker near UCI. Access 50+ Wholesale Lenders for jumbo loans, foreign national programs & faculty financing.',
     date: '2026-02-03',
     category: 'Wholesale',
     readTime: '10 min read',
@@ -2461,7 +2461,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92618',
     title: 'Wholesale Mortgage Broker 92618 | Irvine Spectrum & Great Park',
-    excerpt: 'Irvine Spectrum 92618 wholesale mortgage broker. Access 200+ lenders for new construction, jumbo loans & tech professional programs.',
+    excerpt: 'Irvine Spectrum 92618 wholesale mortgage broker. Access 50+ Wholesale Lenders for new construction, jumbo loans & tech professional programs.',
     date: '2026-02-03',
     category: 'Wholesale',
     readTime: '10 min read',
@@ -2469,7 +2469,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92610',
     title: 'Wholesale Mortgage Broker 92610 | Foothill Ranch Lake Forest',
-    excerpt: 'Foothill Ranch 92610 wholesale mortgage broker. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Foothill Ranch 92610 wholesale mortgage broker. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-03',
     category: 'Wholesale',
     readTime: '10 min read',
@@ -2477,7 +2477,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92688',
     title: 'Wholesale Mortgage Broker 92688 | Rancho Santa Margarita RSM',
-    excerpt: 'Rancho Santa Margarita 92688 wholesale mortgage broker. Access 200+ lenders for jumbo loans, VA programs & better rates.',
+    excerpt: 'Rancho Santa Margarita 92688 wholesale mortgage broker. Access 50+ Wholesale Lenders for jumbo loans, VA programs & better rates.',
     date: '2026-02-03',
     category: 'Wholesale',
     readTime: '10 min read',
@@ -2567,7 +2567,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92867',
     title: 'Wholesale Mortgage Broker 92867 | Villa Park Jumbo Loan Specialists',
-    excerpt: 'Villa Park wholesale mortgage broker serving 92867. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Villa Park wholesale mortgage broker serving 92867. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2575,7 +2575,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92602',
     title: 'Wholesale Mortgage Broker 92602 | Irvine (Northpark) Jumbo Loan Specialists',
-    excerpt: 'Irvine Northpark wholesale mortgage broker serving 92602. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Irvine Northpark wholesale mortgage broker serving 92602. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2583,7 +2583,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92612',
     title: 'Wholesale Mortgage Broker 92612 | Irvine (University) Jumbo Loan Specialists',
-    excerpt: 'Irvine University area wholesale mortgage broker serving 92612. Access 200+ lenders for jumbo loans & bank statement programs.',
+    excerpt: 'Irvine University area wholesale mortgage broker serving 92612. Access 50+ Wholesale Lenders for jumbo loans & bank statement programs.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2591,7 +2591,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92886',
     title: 'Wholesale Mortgage Broker 92886 | Yorba Linda Jumbo Loan Specialists',
-    excerpt: 'Yorba Linda wholesale mortgage broker serving 92886. Access 200+ lenders for jumbo loans, self-employed programs & better rates.',
+    excerpt: 'Yorba Linda wholesale mortgage broker serving 92886. Access 50+ Wholesale Lenders for jumbo loans, self-employed programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2599,7 +2599,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92887',
     title: 'Wholesale Mortgage Broker 92887 | Yorba Linda (Black Gold) Jumbo Loan Specialists',
-    excerpt: 'Yorba Linda Black Gold wholesale mortgage broker serving 92887. Access 200+ lenders for jumbo loans & equestrian property financing.',
+    excerpt: 'Yorba Linda Black Gold wholesale mortgage broker serving 92887. Access 50+ Wholesale Lenders for jumbo loans & equestrian property financing.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2607,7 +2607,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92614',
     title: 'Wholesale Mortgage Broker 92614 | Irvine (Woodbridge) Jumbo Loan Specialists',
-    excerpt: 'Irvine Woodbridge wholesale mortgage broker serving 92614. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Irvine Woodbridge wholesale mortgage broker serving 92614. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2615,7 +2615,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92673',
     title: 'Wholesale Mortgage Broker 92673 | San Clemente Jumbo Loan Specialists',
-    excerpt: 'San Clemente wholesale mortgage broker serving 92673. Access 200+ lenders for jumbo loans, second home financing & better rates.',
+    excerpt: 'San Clemente wholesale mortgage broker serving 92673. Access 50+ Wholesale Lenders for jumbo loans, second home financing & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2623,7 +2623,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92653',
     title: 'Wholesale Mortgage Broker 92653 | Laguna Hills Jumbo Loan Specialists',
-    excerpt: 'Laguna Hills wholesale mortgage broker serving 92653. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Laguna Hills wholesale mortgage broker serving 92653. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2631,7 +2631,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92692',
     title: 'Wholesale Mortgage Broker 92692 | Mission Viejo Jumbo Loan Specialists',
-    excerpt: 'Mission Viejo wholesale mortgage broker serving 92692. Access 200+ lenders for jumbo loans, self-employed programs & better rates.',
+    excerpt: 'Mission Viejo wholesale mortgage broker serving 92692. Access 50+ Wholesale Lenders for jumbo loans, self-employed programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2639,7 +2639,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92656',
     title: 'Wholesale Mortgage Broker 92656 | Aliso Viejo Jumbo Loan Specialists',
-    excerpt: 'Aliso Viejo wholesale mortgage broker serving 92656. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Aliso Viejo wholesale mortgage broker serving 92656. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2665,7 +2665,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92657',
     title: 'Wholesale Mortgage Broker 92657 | Newport Coast Jumbo Loan Specialists',
-    excerpt: 'Newport Coast wholesale mortgage broker serving 92657. Access 200+ lenders for jumbo loans up to $10M+, bank statement programs & better rates.',
+    excerpt: 'Newport Coast wholesale mortgage broker serving 92657. Access 50+ Wholesale Lenders for jumbo loans up to $10M+, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2673,7 +2673,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92662',
     title: 'Wholesale Mortgage Broker 92662 | Balboa Island Jumbo Loan Specialists',
-    excerpt: 'Balboa Island wholesale mortgage broker serving 92662. Access 200+ lenders for jumbo loans, second home financing & better rates.',
+    excerpt: 'Balboa Island wholesale mortgage broker serving 92662. Access 50+ Wholesale Lenders for jumbo loans, second home financing & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2681,7 +2681,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92625',
     title: 'Wholesale Mortgage Broker 92625 | Corona del Mar Jumbo Loan Specialists',
-    excerpt: 'Corona del Mar wholesale mortgage broker serving 92625. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Corona del Mar wholesale mortgage broker serving 92625. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2689,7 +2689,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92661',
     title: 'Wholesale Mortgage Broker 92661 | Newport Beach (Balboa) Jumbo Loan Specialists',
-    excerpt: 'Newport Beach wholesale mortgage broker serving 92661. Access 200+ lenders for jumbo loans, investment property financing & better rates.',
+    excerpt: 'Newport Beach wholesale mortgage broker serving 92661. Access 50+ Wholesale Lenders for jumbo loans, investment property financing & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2697,7 +2697,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92651',
     title: 'Wholesale Mortgage Broker 92651 | Laguna Beach Jumbo Loan Specialists',
-    excerpt: 'Laguna Beach wholesale mortgage broker serving 92651. Access 200+ lenders for jumbo loans, second home financing & better rates.',
+    excerpt: 'Laguna Beach wholesale mortgage broker serving 92651. Access 50+ Wholesale Lenders for jumbo loans, second home financing & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2705,7 +2705,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92663',
     title: 'Wholesale Mortgage Broker 92663 | Newport Beach (Peninsula) Jumbo Loan Specialists',
-    excerpt: 'Newport Peninsula wholesale mortgage broker serving 92663. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Newport Peninsula wholesale mortgage broker serving 92663. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2713,7 +2713,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92660',
     title: 'Wholesale Mortgage Broker 92660 | Newport Beach Jumbo Loan Specialists',
-    excerpt: 'Newport Beach wholesale mortgage broker serving 92660. Access 200+ lenders for jumbo loans, non-QM programs & better rates.',
+    excerpt: 'Newport Beach wholesale mortgage broker serving 92660. Access 50+ Wholesale Lenders for jumbo loans, non-QM programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2721,7 +2721,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92603',
     title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists',
-    excerpt: 'Turtle Rock wholesale mortgage broker serving 92603. Access 200+ lenders for jumbo loans, bank statement programs & better rates.',
+    excerpt: 'Turtle Rock wholesale mortgage broker serving 92603. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2729,7 +2729,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92679',
     title: 'Wholesale Mortgage Broker 92679 | Coto de Caza Jumbo Loan Specialists',
-    excerpt: 'Coto de Caza wholesale mortgage broker serving 92679. Access 200+ lenders for jumbo loans, self-employed programs & better rates.',
+    excerpt: 'Coto de Caza wholesale mortgage broker serving 92679. Access 50+ Wholesale Lenders for jumbo loans, self-employed programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2737,7 +2737,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92629',
     title: 'Wholesale Mortgage Broker 92629 | Dana Point Jumbo Loan Specialists',
-    excerpt: 'Dana Point wholesale mortgage broker serving 92629. Access 200+ lenders for jumbo loans, VA programs & better rates.',
+    excerpt: 'Dana Point wholesale mortgage broker serving 92629. Access 50+ Wholesale Lenders for jumbo loans, VA programs & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2745,7 +2745,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92624',
     title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach Jumbo Loan Specialists',
-    excerpt: 'Capistrano Beach wholesale mortgage broker serving 92624. Access 200+ lenders for jumbo loans & better rates.',
+    excerpt: 'Capistrano Beach wholesale mortgage broker serving 92624. Access 50+ Wholesale Lenders for jumbo loans & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2753,7 +2753,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92677',
     title: 'Wholesale Mortgage Broker 92677 | Laguna Niguel Jumbo Loan Specialists',
-    excerpt: 'Laguna Niguel wholesale mortgage broker serving 92677. Access 200+ lenders for jumbo loans & better rates.',
+    excerpt: 'Laguna Niguel wholesale mortgage broker serving 92677. Access 50+ Wholesale Lenders for jumbo loans & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2761,7 +2761,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92672',
     title: 'Wholesale Mortgage Broker 92672 | San Clemente Jumbo Loan Specialists',
-    excerpt: 'San Clemente wholesale mortgage broker serving 92672. Access 200+ lenders for jumbo loans, second home financing & better rates.',
+    excerpt: 'San Clemente wholesale mortgage broker serving 92672. Access 50+ Wholesale Lenders for jumbo loans, second home financing & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2769,7 +2769,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92675',
     title: 'Wholesale Mortgage Broker 92675 | San Juan Capistrano Jumbo Loan Specialists',
-    excerpt: 'San Juan Capistrano wholesale mortgage broker serving 92675. Access 200+ lenders for jumbo loans & better rates.',
+    excerpt: 'San Juan Capistrano wholesale mortgage broker serving 92675. Access 50+ Wholesale Lenders for jumbo loans & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2777,7 +2777,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-92620',
     title: 'Wholesale Mortgage Broker 92620 | Irvine (Northwood) Jumbo Loan Specialists',
-    excerpt: 'Northwood Irvine wholesale mortgage broker serving 92620. Access 200+ lenders for jumbo loans & better rates.',
+    excerpt: 'Northwood Irvine wholesale mortgage broker serving 92620. Access 50+ Wholesale Lenders for jumbo loans & better rates.',
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
@@ -2785,48 +2785,48 @@ export const allBlogPosts: BlogPost[] = [
   // ===== WHOLESALE CITY POSTS (Jan 31, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-irvine-2026',
-    title: 'Irvine Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Irvine wholesale mortgage broker with 200+ lender access. Jumbo loans, bank statement programs & better rates for OC\'s master-planned city.',
+    title: 'Irvine Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Irvine wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, bank statement programs & better rates for OC\'s master-planned city.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-tustin-2026',
-    title: 'Tustin Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Tustin wholesale mortgage broker with 200+ lender access. Jumbo loans, bank statement programs & better rates for Old Town Tustin and Legacy.',
+    title: 'Tustin Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Tustin wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, bank statement programs & better rates for Old Town Tustin and Legacy.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-santa-ana-2026',
-    title: 'Santa Ana Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Santa Ana wholesale mortgage broker with 200+ lender access. FHA, conventional & investment loans for OC\'s urban core.',
+    title: 'Santa Ana Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Santa Ana wholesale mortgage broker with 50+ Wholesale Lenders. FHA, conventional & investment loans for OC\'s urban core.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-dana-point-2026',
-    title: 'Dana Point Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Dana Point wholesale mortgage broker with 200+ lender access. Jumbo loans & better rates for coastal luxury properties.',
+    title: 'Dana Point Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans & better rates for coastal luxury properties.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-garden-grove-2026',
-    title: 'Garden Grove Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Garden Grove wholesale mortgage broker with 200+ lender access. Competitive rates for FHA, conventional & investment properties.',
+    title: 'Garden Grove Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Garden Grove wholesale mortgage broker with 50+ Wholesale Lenders. Competitive rates for FHA, conventional & investment properties.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-huntington-beach-2026',
-    title: 'Huntington Beach Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Huntington Beach wholesale mortgage broker with 200+ lender access. Jumbo loans & better rates for Surf City beachfront properties.',
+    title: 'Huntington Beach Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Huntington Beach wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans & better rates for Surf City beachfront properties.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
@@ -3071,24 +3071,24 @@ export const allBlogPosts: BlogPost[] = [
   // ===== WHOLESALE CORE POSTS (Jan 25, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-yorba-linda-2026',
-    title: 'Yorba Linda Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Yorba Linda wholesale mortgage broker with 200+ lender access. Jumbo loans & better rates for Black Gold estates.',
+    title: 'Yorba Linda Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Yorba Linda wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans & better rates for Black Gold estates.',
     date: '2026-01-25',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-costa-mesa-2026',
-    title: 'Costa Mesa Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Costa Mesa wholesale mortgage broker with 200+ lender access. Competitive rates for Mesa Verde and East Side.',
+    title: 'Costa Mesa Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Costa Mesa wholesale mortgage broker with 50+ Wholesale Lenders. Competitive rates for Mesa Verde and East Side.',
     date: '2026-01-25',
     category: 'Wholesale',
     readTime: '8 min read',
   },
   {
     slug: 'wholesale-mortgage-broker-anaheim-2026',
-    title: 'Anaheim Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    excerpt: 'Anaheim wholesale mortgage broker with 200+ lender access. FHA, conventional & investment loan programs.',
+    title: 'Anaheim Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    excerpt: 'Anaheim wholesale mortgage broker with 50+ Wholesale Lenders. FHA, conventional & investment loan programs.',
     date: '2026-01-25',
     category: 'Wholesale',
     readTime: '8 min read',
@@ -3178,7 +3178,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'mortgage-broker-vs-bank-2026',
     title: 'Mortgage Broker vs Bank: Why Brokers Win [2026]',
-    excerpt: 'Compare mortgage brokers and banks. 200+ lender access vs single-product limits. See why wholesale brokers save money.',
+    excerpt: 'Compare mortgage brokers and banks. 50+ Wholesale Lenders vs single-product limits. See why wholesale brokers save money.',
     date: '2026-01-23',
     category: 'Wholesale',
     readTime: '11 min read',
@@ -3267,8 +3267,8 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: '200-lender-advantage-explained-2026',
-    title: 'The 200+ Lender Advantage Explained: Wholesale Broker Power [2026]',
-    excerpt: 'How 200+ lender relationships benefit borrowers. Rate competition, niche programs, and closing reliability.',
+    title: '50+ Wholesale Lenders Explained: Wholesale Broker Power [2026]',
+    excerpt: 'How 50+ Wholesale Lenders benefit borrowers. Rate competition, niche programs, and closing reliability.',
     date: '2026-01-21',
     category: 'Wholesale',
     readTime: '9 min read',
@@ -3276,7 +3276,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-orange-county-2026',
     title: 'Orange County Wholesale Mortgage Broker: Complete Guide [2026]',
-    excerpt: 'Orange County wholesale mortgage broker with 200+ lenders. Better rates for jumbo, conventional & specialty loans.',
+    excerpt: 'Orange County wholesale mortgage broker with 50+ Wholesale Lenders. Better rates for jumbo, conventional & specialty loans.',
     date: '2026-01-21',
     category: 'Wholesale',
     readTime: '12 min read',
@@ -3284,7 +3284,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-california-guide-2026',
     title: 'Wholesale Mortgage Broker California: Ultimate Guide [2026]',
-    excerpt: 'California wholesale mortgage broker guide: Access 200+ lenders, better rates, and programs banks don\'t offer.',
+    excerpt: 'California wholesale mortgage broker guide: Access 50+ Wholesale Lenders, better rates, and programs banks don\'t offer.',
     date: '2026-01-21',
     category: 'Wholesale',
     readTime: '14 min read',

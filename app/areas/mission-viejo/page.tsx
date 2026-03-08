@@ -5,7 +5,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-
 export const metadata = {
   title: 'Mission Viejo Mortgage Broker | Home Loans & HELOCs in Mission Viejo, CA',
   description:
-    'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
+    'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 50+ Wholesale Lenders.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/mission-viejo',
     languages: {
@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: 'Mission Viejo Mortgage Broker | HELOC, Cash-Out & Home Loans',
     description:
-      'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
+      'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/areas/mission-viejo',
     type: 'website',
   },
@@ -26,7 +26,7 @@ export const metadata = {
 export default function Page() {
   const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
-    { q: 'Do you serve Mission Viejo with multiple lender options?', a: 'Yes. As a wholesale broker we shop across 200+ lenders to find the best fit for Mission Viejo homeowners and buyers, whether for purchase or refinance.' },
+    { q: 'Do you serve Mission Viejo with multiple lender options?', a: 'Yes. As a wholesale broker we shop across 50+ Wholesale Lenders to find the best fit for Mission Viejo homeowners and buyers, whether for purchase or refinance.' },
     { q: 'What loan types are common in Mission Viejo?', a: 'We see strong demand for jumbo loans due to higher property values, HELOCs for home improvements, and conventional loans for first-time buyers in established neighborhoods.' },
     { q: 'How long does a Mission Viejo home loan take to close?', a: 'Typical timelines are 2-3 weeks for straightforward files, though complex documentation or unique property features may extend the process. We coordinate with local professionals to minimize delays.' },
     { q: 'Are there advantages to working locally in Mission Viejo?', a: 'Absolutely. We understand the local market, work with area appraisers familiar with Mission Viejo communities, and have relationships with realtors and escrow companies in South Orange County.' },
@@ -39,7 +39,7 @@ export default function Page() {
     serviceType: 'Mission Viejo Mortgage Brokerage Services',
     serviceName: 'Mission Viejo Mortgage Broker',
     serviceDescription:
-      'Wholesale mortgage broker serving Mission Viejo with access to 200+ lenders for home loans, HELOCs, and refinancing in South Orange County.',
+      'Wholesale mortgage broker serving Mission Viejo with access to 50+ Wholesale Lenders for home loans, HELOCs, and refinancing in South Orange County.',
     areaServedName: 'Mission Viejo, Orange County, CA',
   });
 
@@ -57,7 +57,7 @@ export default function Page() {
     pageUrl: 'https://www.mothebroker.com/areas/mission-viejo',
     title: 'Mission Viejo Mortgage Broker | Home Loans & HELOCs in Mission Viejo, CA',
     description:
-      'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 200+ lenders.',
+      'Local mortgage broker serving Mission Viejo homeowners and buyers. Compare HELOCs, cash-out refinance, jumbo, FHA, VA loans with wholesale pricing and 50+ Wholesale Lenders.',
     breadcrumbName: 'Mission Viejo',
   });
 
@@ -73,7 +73,7 @@ export default function Page() {
             or looking to refinance your existing home, having a wholesale mortgage broker provides access to the full lending market.
           </p>
           <p>
-            We compare programs across 200+ lenders—including jumbo loans common in Mission Viejo, conventional financing, 
+            We compare programs across 50+ Wholesale Lenders—including jumbo loans common in Mission Viejo, conventional financing, 
             FHA and VA options, plus specialized products like HELOCs and investment property loans. Our wholesale approach 
             means you're not limited to one lender's products or pricing, allowing us to match the right loan structure 
             to your specific situation and timeline.
@@ -127,7 +127,7 @@ export default function Page() {
           <p>
             We begin by understanding your specific needs: are you purchasing in Mission Viejo, refinancing an existing property, 
             or accessing equity for improvements or other goals? We review your financial profile, timeline, and preferences 
-            to identify the most suitable loan programs from our network of 200+ lenders.
+            to identify the most suitable loan programs from our network of 50+ Wholesale Lenders.
           </p>
           <p>
             For Mission Viejo properties, we consider factors like community amenities, HOA structures, and local market conditions 

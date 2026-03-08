@@ -201,7 +201,7 @@ export default function DscrMixedUsePropertyLoan2026() {
             {/* Citation Hook */}
             <div className="citation-hook bg-teal-700/40 border border-teal-500/30 rounded-xl p-6 mb-8">
               <p className="text-lg text-slate-200 leading-relaxed speakable-summary voice-answer">
-                According to Mo Abdel, NMLS #1426884, mixed-use properties represent one of the strongest risk-adjusted investment opportunities in California and Washington real estate, yet most investors assume they need commercial bank financing to acquire them. The <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="underline text-teal-300 hover:text-white">Consumer Financial Protection Bureau</a> classifies mixed-use properties with majority residential square footage as eligible for residential lending programs, including DSCR loans. In our closings at Lumin Lending, we consistently place mixed-use DSCR loans with 30-year fixed terms, no income verification, and minimum DSCR ratios as low as 1.0 &mdash; terms that commercial bank lenders cannot match. With access to 200+ wholesale lenders, we identify the specific DSCR programs that accept mixed-use configurations and close them at terms that give investors long-term stability over their blended residential and commercial income streams.
+                According to Mo Abdel, NMLS #1426884, mixed-use properties represent one of the strongest risk-adjusted investment opportunities in California and Washington real estate, yet most investors assume they need commercial bank financing to acquire them. The <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer" className="underline text-teal-300 hover:text-white">Consumer Financial Protection Bureau</a> classifies mixed-use properties with majority residential square footage as eligible for residential lending programs, including DSCR loans. In our closings at Lumin Lending, we consistently place mixed-use DSCR loans with 30-year fixed terms, no income verification, and minimum DSCR ratios as low as 1.0 &mdash; terms that commercial bank lenders cannot match. With access to 50+ Wholesale Lenders, we identify the specific DSCR programs that accept mixed-use configurations and close them at terms that give investors long-term stability over their blended residential and commercial income streams.
               </p>
             </div>
 
@@ -544,7 +544,7 @@ export default function DscrMixedUsePropertyLoan2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            The fewer lender options for 5-8 unit mixed-use properties highlights why wholesale broker access matters. While a single lender or bank may decline a 7-unit mixed-use property, a wholesale broker who accesses 200+ lenders identifies the specific programs that accommodate larger mixed-use configurations. At Lumin Lending, we maintain relationships with every DSCR lender that accepts mixed-use properties across their full range of unit limits, giving our investors maximum flexibility in their acquisition strategy.
+            The fewer lender options for 5-8 unit mixed-use properties highlights why wholesale broker access matters. While a single lender or bank may decline a 7-unit mixed-use property, a wholesale broker who accesses 50+ Wholesale Lenders identifies the specific programs that accommodate larger mixed-use configurations. At Lumin Lending, we maintain relationships with every DSCR lender that accepts mixed-use properties across their full range of unit limits, giving our investors maximum flexibility in their acquisition strategy.
           </p>
         </section>
 
@@ -554,7 +554,7 @@ export default function DscrMixedUsePropertyLoan2026() {
             What Commercial Uses Are Allowed in Mixed-Use DSCR Loan Properties?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            DSCR lenders carefully evaluate the type of commercial activity in mixed-use properties. The general guideline is that <strong>low-risk, service-oriented commercial uses</strong> are accepted while <strong>high-risk, hazardous, or entertainment-focused uses</strong> are excluded. The specific list of accepted and excluded commercial uses varies by lender, which is another reason wholesale broker access to multiple programs is valuable. Here is a representative list based on our experience across 200+ wholesale DSCR lenders.
+            DSCR lenders carefully evaluate the type of commercial activity in mixed-use properties. The general guideline is that <strong>low-risk, service-oriented commercial uses</strong> are accepted while <strong>high-risk, hazardous, or entertainment-focused uses</strong> are excluded. The specific list of accepted and excluded commercial uses varies by lender, which is another reason wholesale broker access to multiple programs is valuable. Here is a representative list based on our experience across 50+ Wholesale Lenders.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -728,7 +728,7 @@ export default function DscrMixedUsePropertyLoan2026() {
             Why a Wholesale Mortgage Broker Delivers the Best Mixed-Use DSCR Loan Terms
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Mixed-use properties present more underwriting complexity than standard residential investment properties. Not every DSCR lender accepts mixed-use properties, and among those that do, the specific policies on unit limits, commercial tenant types, DSCR minimums, and LTV caps vary significantly. This is where the wholesale broker advantage becomes most pronounced: access to 200+ lenders means the broker identifies the specific programs that fit each mixed-use property&apos;s unique configuration.
+            Mixed-use properties present more underwriting complexity than standard residential investment properties. Not every DSCR lender accepts mixed-use properties, and among those that do, the specific policies on unit limits, commercial tenant types, DSCR minimums, and LTV caps vary significantly. This is where the wholesale broker advantage becomes most pronounced: access to 50+ Wholesale Lenders means the broker identifies the specific programs that fit each mixed-use property&apos;s unique configuration.
           </p>
 
           <div className="border border-slate-200 rounded-xl p-6 mb-6">

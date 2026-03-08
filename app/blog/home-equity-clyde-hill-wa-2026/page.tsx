@@ -71,7 +71,7 @@ export default function HomeEquityClydeHill() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Clyde Hill homeowners have built extraordinary equity—with median home values at $3.5 million, many qualify for substantial jumbo HELOC, home equity loan, or cash-out refinance options. As one of Washington&apos;s most prestigious communities, Clyde Hill requires specialized jumbo lending expertise. As a wholesale broker, I access pricing from 200+ lenders including those specializing in luxury home financing.
+            Clyde Hill homeowners have built extraordinary equity—with median home values at $3.5 million, many qualify for substantial jumbo HELOC, home equity loan, or cash-out refinance options. As one of Washington&apos;s most prestigious communities, Clyde Hill requires specialized jumbo lending expertise. As a wholesale broker, I access pricing from 50+ Wholesale Lenders including those specializing in luxury home financing.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Clyde Hill Home Equity at a Glance</h2>
@@ -205,7 +205,7 @@ export default function HomeEquityClydeHill() {
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Get Your Free Clyde Hill Home Equity Analysis</h2>
           <p>
-            As a wholesale mortgage broker serving Clyde Hill and the Eastside, I provide access to jumbo lending specialists and side-by-side product comparisons from 200+ lenders. Get wholesale rates on luxury home financing.
+            As a wholesale mortgage broker serving Clyde Hill and the Eastside, I provide access to jumbo lending specialists and side-by-side product comparisons from 50+ Wholesale Lenders. Get wholesale rates on luxury home financing.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

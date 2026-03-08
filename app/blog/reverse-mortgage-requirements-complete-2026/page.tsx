@@ -1056,7 +1056,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
             <h4 className="font-semibold text-gray-900">Mo Abdel</h4>
             <p className="text-gray-600 text-sm">NMLS #1426884 | Reverse Mortgage Specialist</p>
             <p className="text-gray-600 text-sm mt-2">
-              Mo Abdel is a licensed wholesale mortgage broker specializing in reverse mortgages and home equity solutions for seniors in California and Washington. With access to 200+ lenders, he helps clients navigate HECM requirements, compare options, and connect with HUD-approved counseling resources.
+              Mo Abdel is a licensed wholesale mortgage broker specializing in reverse mortgages and home equity solutions for seniors in California and Washington. With access to 50+ Wholesale Lenders, he helps clients navigate HECM requirements, compare options, and connect with HUD-approved counseling resources.
             </p>
           </div>
         </div>

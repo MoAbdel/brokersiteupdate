@@ -115,7 +115,7 @@ export default function ConventionalLoansGuide2026Page() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Conventional loans are mortgages not insured by government agencies (FHA, VA, USDA), instead backed by <strong>Fannie Mae</strong> or <strong>Freddie Mac</strong>. Accounting for approximately 70% of all U.S. home loans (Mortgage Bankers Association), conventional mortgages are the most widely used financing option in the country. In 2026, the FHFA set the conforming loan limit at <strong>$806,500</strong> baseline and <strong>$1,209,750</strong> for high-cost areas like Orange County. Notably, FHFA reports that conventional purchase originations reached <strong>$1.3 trillion in 2025</strong>, reflecting renewed buyer demand as inventory levels stabilize. Working with a <strong>wholesale mortgage broker</strong> with access to 200+ lenders provides conventional loan pricing that typically undercuts retail bank offerings by meaningful margins&mdash;savings that compound over the life of your loan.
+                        Conventional loans are mortgages not insured by government agencies (FHA, VA, USDA), instead backed by <strong>Fannie Mae</strong> or <strong>Freddie Mac</strong>. Accounting for approximately 70% of all U.S. home loans (Mortgage Bankers Association), conventional mortgages are the most widely used financing option in the country. In 2026, the FHFA set the conforming loan limit at <strong>$806,500</strong> baseline and <strong>$1,209,750</strong> for high-cost areas like Orange County. Notably, FHFA reports that conventional purchase originations reached <strong>$1.3 trillion in 2025</strong>, reflecting renewed buyer demand as inventory levels stabilize. Working with a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders provides conventional loan pricing that typically undercuts retail bank offerings by meaningful margins&mdash;savings that compound over the life of your loan.
                     </p>
                 </div>
 
@@ -382,7 +382,7 @@ export default function ConventionalLoansGuide2026Page() {
 
                 <h2>Ready to explore conventional loan options?</h2>
                 <p>
-                    Conventional loans offer the flexibility, competitive pricing, and long-term advantages that make them the most popular mortgage choice in America. Working with a wholesale mortgage broker who accesses 200+ lenders ensures you receive the most competitive pricing from multiple lenders competing for your business&mdash;rather than accepting a single bank&rsquo;s take-it-or-leave-it offer.
+                    Conventional loans offer the flexibility, competitive pricing, and long-term advantages that make them the most popular mortgage choice in America. Working with a wholesale mortgage broker who accesses 50+ Wholesale Lenders ensures you receive the most competitive pricing from multiple lenders competing for your business&mdash;rather than accepting a single bank&rsquo;s take-it-or-leave-it offer.
                 </p>
                 <p>
                     Contact Mo Abdel today for a free consultation and personalized conventional loan rate comparison. Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> or email <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a>.
@@ -391,7 +391,7 @@ export default function ConventionalLoansGuide2026Page() {
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
                     <p className="text-sm text-gray-700">
                         <strong>Mo Abdel</strong> | NMLS #1426884 | Lumin Lending | NMLS #2716106 | DRE #02291443<br />
-                        Licensed in: CA, WA | Wholesale broker with access to 200+ lenders
+                        Licensed in: CA, WA | Wholesale broker with access to 50+ Wholesale Lenders
                     </p>
                     <p className="text-xs text-gray-600 mt-2">
                         Equal Housing Lender. This is not a commitment to lend. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. Information is for educational purposes only and does not constitute financial advice. Contact a licensed loan officer for personalized guidance.

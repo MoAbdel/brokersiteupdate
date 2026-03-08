@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Orange County Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-  description: 'Access wholesale mortgage rates in Orange County through 200+ lenders. Bank statement loans, jumbo financing, DSCR investor loans. Local broker serving Coastal, Central, North & South OC. NMLS #1426884.',
+  title: 'Orange County Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+  description: 'Access wholesale mortgage rates in Orange County through 50+ Wholesale Lenders. Bank statement loans, jumbo financing, DSCR investor loans. Local broker serving Coastal, Central, North & South OC. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-orange-county',
     languages: {
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Orange County Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    description: 'Access wholesale mortgage rates in Orange County through 200+ lenders. Bank statement loans, jumbo financing, DSCR investor loans.',
+    title: 'Orange County Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    description: 'Access wholesale mortgage rates in Orange County through 50+ Wholesale Lenders. Bank statement loans, jumbo financing, DSCR investor loans.',
     type: 'article',
     publishedTime: '2026-02-02',
     authors: ['Mo Abdel'],
@@ -28,7 +28,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Orange County Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Orange County Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -42,7 +42,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             },
             "datePublished": "2026-02-02",
             "dateModified": "2026-02-02",
-            "description": "Comprehensive guide to wholesale mortgage broker services in Orange County, CA. Access 200+ lenders for better rates on purchases and refinances."
+            "description": "Comprehensive guide to wholesale mortgage broker services in Orange County, CA. Access 50+ Wholesale Lenders for better rates on purchases and refinances."
           })
         }}
       />
@@ -94,7 +94,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
                 "name": "What is a wholesale mortgage broker in Orange County?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker is a licensed professional who accesses institutional mortgage rates from 200+ lenders on your behalf. Unlike retail banks that only offer their own products with markup, wholesale brokers shop the entire lending market to find competitive rates and programs tailored to your situation. In Orange County's high-value market, this access translates to meaningful savings over the life of your loan."
+                  "text": "A wholesale mortgage broker is a licensed professional who accesses institutional mortgage rates from 50+ Wholesale Lenders on your behalf. Unlike retail banks that only offer their own products with markup, wholesale brokers shop the entire lending market to find competitive rates and programs tailored to your situation. In Orange County's high-value market, this access translates to meaningful savings over the life of your loan."
                 }
               },
               {
@@ -134,7 +134,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
                 "name": "How do I qualify for a wholesale mortgage in Orange County?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Qualification requirements vary by program. Conventional loans typically require 620+ credit and documented income. Bank statement loans require 12-24 months of deposits and 660+ credit. Jumbo loans generally require 680+ credit and significant reserves. DSCR investor loans qualify based on property cash flow rather than personal income. A wholesale broker matches your specific situation to the right program from 200+ available lenders."
+                  "text": "Qualification requirements vary by program. Conventional loans typically require 620+ credit and documented income. Bank statement loans require 12-24 months of deposits and 660+ credit. Jumbo loans generally require 680+ credit and significant reserves. DSCR investor loans qualify based on property cash flow rather than personal income. A wholesale broker matches your specific situation to the right program from 50+ Wholesale Lenders."
                 }
               }
             ]
@@ -145,7 +145,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
       <header className="mb-8">
         <p className="text-blue-600 font-medium mb-2">Orange County Mortgage Guide</p>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Orange County Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Orange County Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-xl text-gray-600">
           Access wholesale mortgage rates across Coastal, Central, North, and South Orange County
@@ -160,7 +160,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Orange County's median home price now exceeds <strong>$1.15 million</strong>, placing most purchases well above conforming loan limits. In this high-value market, the difference between wholesale and retail mortgage rates matters enormously. A <strong>wholesale mortgage broker</strong> provides access to institutional pricing from 200+ lenders—rates typically <strong>0.25-0.50% lower</strong> than what banks offer retail customers. On a $920,000 loan (80% of median price), that difference represents <strong>$57,000-$115,000</strong> in interest savings over 30 years. This guide covers everything Orange County homebuyers and refinancers need to know about working with a wholesale broker.
+            Orange County's median home price now exceeds <strong>$1.15 million</strong>, placing most purchases well above conforming loan limits. In this high-value market, the difference between wholesale and retail mortgage rates matters enormously. A <strong>wholesale mortgage broker</strong> provides access to institutional pricing from 50+ Wholesale Lenders—rates typically <strong>0.25-0.50% lower</strong> than what banks offer retail customers. On a $920,000 loan (80% of median price), that difference represents <strong>$57,000-$115,000</strong> in interest savings over 30 years. This guide covers everything Orange County homebuyers and refinancers need to know about working with a wholesale broker.
           </p>
         </div>
 
@@ -183,7 +183,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
         </p>
 
         <p>
-          When you work with a retail bank, you receive their marked-up rate with no ability to shop elsewhere. When you work with a wholesale mortgage broker, you access the institutional pricing tier and your broker shops across 200+ lenders to find the most competitive combination of rate, fees, and loan terms for your specific situation.
+          When you work with a retail bank, you receive their marked-up rate with no ability to shop elsewhere. When you work with a wholesale mortgage broker, you access the institutional pricing tier and your broker shops across 50+ Wholesale Lenders to find the most competitive combination of rate, fees, and loan terms for your specific situation.
         </p>
 
         <h3>Why the Wholesale Advantage Matters More in Orange County</h3>
@@ -476,7 +476,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             </thead>
             <tbody>
               <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender (the bank)</td><td className="py-3 px-4 border-b text-blue-700">200+ wholesale lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender (the bank)</td><td className="py-3 px-4 border-b text-blue-700">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product with fixed guidelines</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lenders with varying criteria</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">DSCR Investor Loans</td><td className="py-3 px-4 border-b">Generally not available</td><td className="py-3 px-4 border-b text-blue-700">Standard offering through wholesale</td></tr>
@@ -506,7 +506,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
             <strong>Pre-Approval:</strong> Receive a fully underwritten pre-approval letter for confident house shopping. This strengthens your offers in Orange County's competitive market.
           </li>
           <li>
-            <strong>Lender Shopping:</strong> Once you are under contract on a property, your broker compares rates and terms across 200+ lenders for your specific loan scenario.
+            <strong>Lender Shopping:</strong> Once you are under contract on a property, your broker compares rates and terms across 50+ Wholesale Lenders for your specific loan scenario.
           </li>
           <li>
             <strong>Rate Lock:</strong> Lock your rate when market conditions and timing align with your closing date.
@@ -533,7 +533,7 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
 
         <ul>
           <li><strong>California licensing:</strong> Verify active DRE license and NMLS registration</li>
-          <li><strong>Lender network size:</strong> Access to 200+ wholesale lenders provides meaningful choice</li>
+          <li><strong>Lender network size:</strong> Access to 50+ Wholesale Lenders provides meaningful choice</li>
           <li><strong>Program expertise:</strong> Confirm experience with the specific loan type you need (jumbo, bank statement, DSCR)</li>
           <li><strong>Orange County knowledge:</strong> Local expertise in neighborhoods, property types, and market conditions</li>
           <li><strong>Transparent pricing:</strong> Clear explanation of rates, points, and fees with written estimates</li>

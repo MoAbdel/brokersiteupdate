@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity in Atherton, Hillsborough & Peninsula Ultra-Luxury, CA [2026]',
-    description: 'Jumbo HELOC, HELOAN & cash-out refinance for ultra-luxury Peninsula properties valued $4M-$10M+. Access estate-level equity with 200+ lender options.',
+    description: 'Jumbo HELOC, HELOAN & cash-out refinance for ultra-luxury Peninsula properties valued $4M-$10M+. Access estate-level equity with 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-peninsula-ultra-luxury-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -76,7 +76,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
     },
     {
       question: 'Why use a wholesale mortgage broker for Peninsula home equity?',
-      answer: 'A wholesale broker accesses 200+ lenders simultaneously, finding specialized jumbo equity programs that match ultra-luxury property requirements. This includes lenders with higher credit lines, trust-friendly policies, and experience with complex Peninsula properties that retail banks cannot match.'
+      answer: 'A wholesale broker accesses 50+ Wholesale Lenders simultaneously, finding specialized jumbo equity programs that match ultra-luxury property requirements. This includes lenders with higher credit lines, trust-friendly policies, and experience with complex Peninsula properties that retail banks cannot match.'
     }
   ];
 
@@ -200,7 +200,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
         <h2 className="text-2xl font-bold text-gray-900">Peninsula Ultra-Luxury Home Equity Overview: Atherton to Los Altos Hills</h2>
 
         <p>
-          Peninsula ultra-luxury homeowners face a unique financial paradox: enormous wealth locked inside estate-grade real estate with limited conventional lending options to access it. Standard HELOC programs cap at $500,000. Conforming cash-out refinance products max out well below the property values in this corridor. Only jumbo and super-jumbo equity products&mdash;available through wholesale broker channels with access to 200+ lenders&mdash;adequately serve this market.
+          Peninsula ultra-luxury homeowners face a unique financial paradox: enormous wealth locked inside estate-grade real estate with limited conventional lending options to access it. Standard HELOC programs cap at $500,000. Conforming cash-out refinance products max out well below the property values in this corridor. Only jumbo and super-jumbo equity products&mdash;available through wholesale broker channels with access to 50+ Wholesale Lenders&mdash;adequately serve this market.
         </p>
 
         <h3 className="text-xl font-semibold text-gray-900">Equity Overview: Peninsula Ultra-Luxury Cities at a Glance</h3>
@@ -333,7 +333,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
           <li><strong>Verify liquid reserves:</strong> Jumbo programs typically require 12&ndash;24 months of mortgage payments in liquid reserves. Peninsula borrowers often use brokerage accounts, retirement funds, or trust assets.</li>
           <li><strong>Obtain a luxury property appraisal:</strong> Ultra-luxury properties require appraisers experienced with estate-grade homes. Comparable sales must support the value, which is straightforward in these well-established neighborhoods.</li>
           <li><strong>Review trust or entity documentation:</strong> Properties held in revocable living trusts, LLCs, or family partnerships require additional documentation. A wholesale broker identifies lenders with flexible entity requirements.</li>
-          <li><strong>Select the right product and lender:</strong> A wholesale broker compares programs from 200+ lenders to find the best combination of rate, credit line size, and terms for your specific property and financial situation.</li>
+          <li><strong>Select the right product and lender:</strong> A wholesale broker compares programs from 50+ Wholesale Lenders to find the best combination of rate, credit line size, and terms for your specific property and financial situation.</li>
         </ol>
 
         <h3 className="text-xl font-semibold text-gray-900">Peninsula Equity Access Process: Application to Funding</h3>
@@ -350,7 +350,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
         </p>
 
         <p>
-          Atherton homeowners predominantly hold properties through revocable living trusts and family LLCs for estate planning purposes. This ownership structure requires lenders experienced with trust-held property lending. As a wholesale broker with access to 200+ lenders, I identify programs that accommodate trust ownership without requiring property transfers or title changes that trigger reassessment under Proposition 19 implications.
+          Atherton homeowners predominantly hold properties through revocable living trusts and family LLCs for estate planning purposes. This ownership structure requires lenders experienced with trust-held property lending. As a wholesale broker with access to 50+ Wholesale Lenders, I identify programs that accommodate trust ownership without requiring property transfers or title changes that trigger reassessment under Proposition 19 implications.
         </p>
 
         <div className="overflow-x-auto my-6">
@@ -566,7 +566,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
         </p>
 
         <p>
-          As a wholesale mortgage broker licensed in California (DRE #02291443) with access to over 200 wholesale lenders, I serve as a single point of access to the full spectrum of jumbo equity programs. This includes portfolio lenders who hold loans on their own balance sheet, private banks with ultra-high-net-worth programs, agricultural lending specialists for equestrian properties, and asset-based lenders who qualify borrowers on financial strength rather than income documentation.
+          As a wholesale mortgage broker licensed in California (DRE #02291443) with access to 50+ Wholesale Lenders, I serve as a single point of access to the full spectrum of jumbo equity programs. This includes portfolio lenders who hold loans on their own balance sheet, private banks with ultra-high-net-worth programs, agricultural lending specialists for equestrian properties, and asset-based lenders who qualify borrowers on financial strength rather than income documentation.
         </p>
 
         <p>
@@ -659,7 +659,7 @@ export default function HomeEquityPeninsulaUltraLuxuryPage() {
         <p>Yes, most wholesale jumbo lenders accommodate revocable living trust ownership with proper documentation and named trustee requirements.</p>
 
         <h3>How does a wholesale broker find better HELOC rates?</h3>
-        <p>Wholesale brokers access 200+ lenders simultaneously, comparing rates and terms to find programs unavailable through retail banking channels.</p>
+        <p>Wholesale brokers access 50+ Wholesale Lenders simultaneously, comparing rates and terms to find programs unavailable through retail banking channels.</p>
 
         <h3>Do equestrian properties qualify for home equity products?</h3>
         <p>Yes, portfolio lenders and agricultural lending specialists properly value equestrian improvements and offer jumbo equity programs for ranch properties.</p>

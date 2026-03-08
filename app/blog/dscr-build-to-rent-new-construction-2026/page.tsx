@@ -78,7 +78,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with build-to-rent DSCR financing?',
-    answer: 'A wholesale mortgage broker provides value at each phase of the BTR financing cycle. During construction, the broker connects investors with construction lenders or hard money lenders offering competitive draw schedules and terms. For the permanent DSCR takeout, the broker compares 200+ lender programs to find optimal LTV, DSCR minimums, and pricing for the completed property. For single-close CTP programs, the broker identifies the limited number of DSCR lenders offering this product and negotiates terms. The broker also coordinates timing between construction completion and DSCR loan closing to minimize the gap period and carrying costs.',
+    answer: 'A wholesale mortgage broker provides value at each phase of the BTR financing cycle. During construction, the broker connects investors with construction lenders or hard money lenders offering competitive draw schedules and terms. For the permanent DSCR takeout, the broker compares 50+ Wholesale Lenders to find optimal LTV, DSCR minimums, and pricing for the completed property. For single-close CTP programs, the broker identifies the limited number of DSCR lenders offering this product and negotiates terms. The broker also coordinates timing between construction completion and DSCR loan closing to minimize the gap period and carrying costs.',
   },
 ];
 
@@ -204,7 +204,7 @@ export default function DscrBuildToRentPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving California and Washington investors with access to 200+ lenders, the <strong>build-to-rent (BTR) strategy</strong> is one of the fastest-growing segments of rental property investment&mdash;and <strong>DSCR loans</strong> are the permanent financing vehicle that makes BTR economically viable at scale. BTR investors construct new homes specifically designed for long-term rental rather than resale, then finance the completed property with a DSCR loan based on the rental income it generates. According to the <a href="https://www.census.gov/construction/nrc/index.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau&apos;s New Residential Construction survey</a>, single-family homes built for rent accounted for approximately 6&ndash;7% of all single-family starts nationally in recent years, up from under 3% a decade ago. The <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer">National Association of Realtors</a> reports that institutional and individual investors are increasingly turning to new construction for rental portfolios because new homes offer lower maintenance costs, higher rents, and tenant appeal that older properties cannot match. DSCR financing eliminates the need for personal income documentation, qualifying the loan entirely on the new property&apos;s rental income potential.
+            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving California and Washington investors with access to 50+ Wholesale Lenders, the <strong>build-to-rent (BTR) strategy</strong> is one of the fastest-growing segments of rental property investment&mdash;and <strong>DSCR loans</strong> are the permanent financing vehicle that makes BTR economically viable at scale. BTR investors construct new homes specifically designed for long-term rental rather than resale, then finance the completed property with a DSCR loan based on the rental income it generates. According to the <a href="https://www.census.gov/construction/nrc/index.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau&apos;s New Residential Construction survey</a>, single-family homes built for rent accounted for approximately 6&ndash;7% of all single-family starts nationally in recent years, up from under 3% a decade ago. The <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer">National Association of Realtors</a> reports that institutional and individual investors are increasingly turning to new construction for rental portfolios because new homes offer lower maintenance costs, higher rents, and tenant appeal that older properties cannot match. DSCR financing eliminates the need for personal income documentation, qualifying the loan entirely on the new property&apos;s rental income potential.
           </p>
         </div>
 
@@ -231,7 +231,7 @@ export default function DscrBuildToRentPage() {
                 <td className="border border-gray-200 px-4 py-2">PITIA payment, using subject-to-completion appraisal methodology</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">sources construction and DSCR permanent financing across</td>
                 <td className="border border-gray-200 px-4 py-2">California and Washington for optimized BTR execution</td>
               </tr>
@@ -358,7 +358,7 @@ export default function DscrBuildToRentPage() {
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
           <h4 className="font-bold text-green-800 mt-0">Planning a Build-to-Rent Project?</h4>
           <p className="text-green-900 mb-0">
-            <Link href="/contact" className="text-green-700 font-semibold hover:underline">Contact Mo Abdel</Link> at Lumin Lending to evaluate both two-phase and single-close construction-to-permanent DSCR options for your BTR project. With access to 200+ wholesale lenders, we identify the optimal financing structure for your timeline, budget, and experience level.
+            <Link href="/contact" className="text-green-700 font-semibold hover:underline">Contact Mo Abdel</Link> at Lumin Lending to evaluate both two-phase and single-close construction-to-permanent DSCR options for your BTR project. With access to 50+ Wholesale Lenders, we identify the optimal financing structure for your timeline, budget, and experience level.
           </p>
         </div>
 
@@ -646,7 +646,7 @@ export default function DscrBuildToRentPage() {
         </div>
 
         {/* Section 8: Wholesale Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Sourcing BTR Construction and DSCR Financing Across 200+ Lenders</h2>
+        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Sourcing BTR Construction and DSCR Financing Across 50+ Wholesale Lenders</h2>
 
         <p>
           Build-to-rent financing is a specialized niche that requires coordination across two or more lending products (construction and permanent). A wholesale mortgage broker provides a significant advantage at every phase of the BTR financing cycle.
@@ -657,7 +657,7 @@ export default function DscrBuildToRentPage() {
         <ol>
           <li><strong>Construction lender sourcing:</strong> The broker identifies hard money, bridge, and bank construction lenders that fund BTR projects in your target market. Not all construction lenders finance investor builds&mdash;many restrict lending to owner-occupied new construction.</li>
           <li><strong>Pre-approved DSCR takeout:</strong> Before construction begins, the broker obtains a conditional DSCR commitment from a permanent lender, confirming that the completed property will qualify for long-term financing. This provides certainty of exit and satisfies construction lender requirements.</li>
-          <li><strong>Single-close CTP identification:</strong> The broker knows which of the 200+ wholesale lenders offer single-close construction-to-permanent DSCR programs, a niche product available from relatively few lenders.</li>
+          <li><strong>Single-close CTP identification:</strong> The broker knows which of the 50+ Wholesale Lenders offer single-close construction-to-permanent DSCR programs, a niche product available from relatively few lenders.</li>
           <li><strong>Timeline coordination:</strong> The broker manages the transition from construction to permanent financing, ensuring the DSCR appraisal, tenant placement, and loan closing align with the construction completion date to minimize the gap period.</li>
           <li><strong>Pricing optimization:</strong> Among DSCR lenders that finance newly built properties, pricing varies significantly. The broker compares rate, fees, LTV limits, and prepayment terms across multiple programs to find the most competitive option for your project.</li>
         </ol>
@@ -792,7 +792,7 @@ export default function DscrBuildToRentPage() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <h3 className="font-bold text-blue-900 mt-0">Next Steps: Get Build-to-Rent DSCR Financing Through a Wholesale Broker</h3>
           <p className="text-blue-800">
-            <Link href="/contact" className="text-blue-700 font-semibold hover:underline">Contact Mo Abdel at Lumin Lending</Link> (NMLS #1426884) to discuss your build-to-rent project financing. Whether you need construction-phase funding, a DSCR permanent takeout loan on a completed BTR property, or a single-close construction-to-permanent program, we source the optimal solution from 200+ wholesale lenders. Available in California and Washington. DRE #02291443.
+            <Link href="/contact" className="text-blue-700 font-semibold hover:underline">Contact Mo Abdel at Lumin Lending</Link> (NMLS #1426884) to discuss your build-to-rent project financing. Whether you need construction-phase funding, a DSCR permanent takeout loan on a completed BTR property, or a single-close construction-to-permanent program, we source the optimal solution from 50+ Wholesale Lenders. Available in California and Washington. DRE #02291443.
           </p>
         </div>
 

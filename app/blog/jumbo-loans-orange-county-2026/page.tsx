@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2026: Above $1,209,750 Limit, 10% Down & Wholesale Rates | Mo Abdel',
-  description: 'Orange County jumbo loans above $1,209,750 with 10% down through wholesale channels. Compare jumbo vs conforming, save $5K-$18K/yr over retail banks. 200+ lenders. NMLS #1426884.',
+  description: 'Orange County jumbo loans above $1,209,750 with 10% down through wholesale channels. Compare jumbo vs conforming, save $5K-$18K/yr over retail banks. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'jumbo loans Orange County',
     'jumbo loan rates Orange County 2026',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Jumbo Loans Orange County 2026: Wholesale Rates & Luxury Home Financing',
-    description: 'Access 200+ wholesale lenders for jumbo loans above $1,209,750 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
+    description: 'Access 50+ Wholesale Lenders for jumbo loans above $1,209,750 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
     url: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -525,7 +525,7 @@ export default function JumboLoansOrangeCountyPage() {
                     Jumbo loans involve more thorough underwriting than conforming mortgages. In our Orange County jumbo closings, we have refined this process to minimize delays and maximize certainty. Here is the typical timeline for an Orange County jumbo loan through wholesale channels:
                 </p>
                 <ol>
-                    <li className="mb-3"><strong>Pre-Qualification (Day 1-2):</strong> Initial review of income, assets, and credit. We shop 200+ wholesale lenders to identify the best jumbo programs for your profile.</li>
+                    <li className="mb-3"><strong>Pre-Qualification (Day 1-2):</strong> Initial review of income, assets, and credit. We shop 50+ Wholesale Lenders to identify the best jumbo programs for your profile.</li>
                     <li className="mb-3"><strong>Full Application &amp; Document Collection (Day 2-7):</strong> Submit complete documentation package including tax returns (or bank statements for non-QM), asset verification, and identity documents.</li>
                     <li className="mb-3"><strong>Pre-Approval Issuance (Day 5-10):</strong> Receive a strong pre-approval letter that carries weight in Orange County&apos;s competitive luxury market. Sellers and listing agents prefer wholesale pre-approvals backed by institutional underwriting.</li>
                     <li className="mb-3"><strong>Property Under Contract &amp; Appraisal (Day 10-20):</strong> Once your offer is accepted, the lender orders an appraisal. Jumbo appraisals in OC often require a second appraisal for properties above $2M.</li>
@@ -738,13 +738,13 @@ export default function JumboLoansOrangeCountyPage() {
                     Financing a million-dollar-plus property requires more than just a pre-approval &mdash; it requires a strategic partnership with a broker who understands Orange County&apos;s luxury market dynamics. Whether you are purchasing in Newport Coast, refinancing in Laguna Beach, investing in Irvine, or upgrading in Huntington Beach, the wholesale jumbo channel delivers institutional pricing that retail banks cannot match.
                 </p>
                 <p>
-                    With access to 200+ wholesale lenders, including 30+ institutional jumbo desks, we identify the optimal program for your specific financial profile. In February 2026, the rate spread between wholesale and retail jumbo loans averages 0.25-0.625% &mdash; on a $2 million loan, that translates to $5,000-$12,500 in annual interest savings. Over the life of a 30-year mortgage, the wholesale advantage compounds to $150,000-$375,000 in total savings.
+                    With access to 50+ Wholesale Lenders, including 30+ institutional jumbo desks, we identify the optimal program for your specific financial profile. In February 2026, the rate spread between wholesale and retail jumbo loans averages 0.25-0.625% &mdash; on a $2 million loan, that translates to $5,000-$12,500 in annual interest savings. Over the life of a 30-year mortgage, the wholesale advantage compounds to $150,000-$375,000 in total savings.
                 </p>
 
                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-8 text-center">
                     <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-3">Ready for Your Orange County Jumbo Loan?</h3>
                     <p className="text-gray-700 mb-4">
-                        Get a personalized jumbo rate quote and program recommendation based on your financial profile. We compare 200+ wholesale lenders to find the optimal solution for your Orange County purchase, refinance, or investment.
+                        Get a personalized jumbo rate quote and program recommendation based on your financial profile. We compare 50+ Wholesale Lenders to find the optimal solution for your Orange County purchase, refinance, or investment.
                     </p>
                     <p className="text-lg font-bold text-blue-800 mb-2">
                         Call <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline">Request a Consultation</Link>

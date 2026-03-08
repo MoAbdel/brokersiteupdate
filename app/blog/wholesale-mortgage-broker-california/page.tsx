@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker California | 200+ Lenders, Better Rates [2026]',
-  description: 'California wholesale mortgage broker with 200+ lender access. Learn how wholesale pricing works, why brokers beat banks for jumbo, bank statement & non-QM loans. NMLS #1426884.',
+  title: 'Wholesale Mortgage Broker California | 50+ Wholesale Lenders, Better Rates [2026]',
+  description: 'California wholesale mortgage broker with 50+ Wholesale Lenders. Learn how wholesale pricing works, why brokers beat banks for jumbo, bank statement & non-QM loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'The Complete Guide to Wholesale Mortgage Brokers in California [2026]',
-    description: 'Discover how California wholesale mortgage brokers access 200+ lenders to find better rates than banks. Expert guide to jumbo, bank statement, and non-QM loans.',
+    description: 'Discover how California wholesale mortgage brokers access 50+ Wholesale Lenders to find better rates than banks. Expert guide to jumbo, bank statement, and non-QM loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-california',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -30,7 +30,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "The Complete Guide to Wholesale Mortgage Brokers in California [2026]",
-            "description": "Comprehensive guide to wholesale mortgage brokers in California covering 200+ lender access, pricing advantages, and specialty loan programs.",
+            "description": "Comprehensive guide to wholesale mortgage brokers in California covering 50+ Wholesale Lenders, pricing advantages, and specialty loan programs.",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
                 "name": "What is a wholesale mortgage broker in California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders to find the best rates and programs for borrowers. Unlike bank employees who offer only their institution's products, brokers shop across the entire wholesale market. Mo Abdel (NMLS #1426884) at Lumin Lending provides wholesale broker services throughout California."
+                  "text": "A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders to find the best rates and programs for borrowers. Unlike bank employees who offer only their institution's products, brokers shop across the entire wholesale market. Mo Abdel (NMLS #1426884) at Lumin Lending provides wholesale broker services throughout California."
                 }
               },
               {
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
                 "name": "How do wholesale mortgage rates compare to bank rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale mortgage rates are typically more competitive because they exclude the overhead costs built into bank rates such as branch networks, advertising campaigns, and corporate structure. The competitive nature of wholesale lending with 200+ lenders bidding for broker business often produces better pricing for borrowers."
+                  "text": "Wholesale mortgage rates are typically more competitive because they exclude the overhead costs built into bank rates such as branch networks, advertising campaigns, and corporate structure. The competitive nature of wholesale lending with 50+ Wholesale Lenders bidding for broker business often produces better pricing for borrowers."
                 }
               },
               {
@@ -126,7 +126,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
                 "name": "What's the difference between a mortgage broker and a loan officer?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A mortgage broker is an independent professional with access to multiple lenders (200+ in Mo Abdel's network). A loan officer is an employee of a single bank or lender, limited to that institution's products and rates. Brokers can shop across the market; loan officers cannot."
+                  "text": "A mortgage broker is an independent professional with access to multiple lenders (50+ Wholesale Lenders). A loan officer is an employee of a single bank or lender, limited to that institution's products and rates. Brokers can shop across the market; loan officers cannot."
                 }
               },
               {
@@ -142,7 +142,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
                 "name": "Can a wholesale broker help if I was denied by a bank?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, this is a common scenario where brokers excel. Different lenders have different guidelines. If one lender denies your application, a broker can submit to another lender with different criteria. With 200+ lenders in the network, there are often solutions for complex situations that banks won't touch."
+                  "text": "Yes, this is a common scenario where brokers excel. Different lenders have different guidelines. If one lender denies your application, a broker can submit to another lender with different criteria. With 50+ Wholesale Lenders in the network, there are often solutions for complex situations that banks won't touch."
                 }
               },
               {
@@ -187,7 +187,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           The Complete Guide to Wholesale Mortgage Brokers in California [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          How to access institutional mortgage pricing through licensed wholesale brokers with 200+ lender relationships
+          How to access institutional mortgage pricing through licensed wholesale brokers with 50+ Wholesale Lenders
         </p>
         <div className="mt-4 text-sm text-gray-500">
           <span>By Mo Abdel, NMLS #1426884</span> | <span>Updated February 2026</span> | <span>25 min read</span>
@@ -198,7 +198,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            California homebuyers and refinancers access wholesale mortgage rates through licensed mortgage brokers who maintain relationships with <strong>200+ wholesale lenders</strong>. According to the National Association of Mortgage Brokers, broker-originated loans account for approximately 23% of all mortgages in the United States, with that share growing as borrowers discover the rate and program advantages of wholesale channels. Unlike banks that offer a single rate from a single source, wholesale brokers like Mo Abdel at Lumin Lending (NMLS #1426884) shop across dozens of lenders simultaneously to find the best rate and program for each borrower's unique situation—particularly valuable in California's high-cost real estate market where jumbo loans, bank statement programs, and non-QM options are essential for closing transactions.
+            California homebuyers and refinancers access wholesale mortgage rates through licensed mortgage brokers who maintain relationships with <strong>50+ Wholesale Lenders</strong>. According to the National Association of Mortgage Brokers, broker-originated loans account for approximately 23% of all mortgages in the United States, with that share growing as borrowers discover the rate and program advantages of wholesale channels. Unlike banks that offer a single rate from a single source, wholesale brokers like Mo Abdel at Lumin Lending (NMLS #1426884) shop across dozens of lenders simultaneously to find the best rate and program for each borrower's unique situation—particularly valuable in California's high-cost real estate market where jumbo loans, bank statement programs, and non-QM options are essential for closing transactions.
           </p>
         </div>
 
@@ -210,7 +210,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
             <li><a href="#how-wholesale-pricing-works">How Wholesale Pricing Works</a></li>
             <li><a href="#wholesale-vs-retail">Wholesale vs Retail: Complete Comparison</a></li>
             <li><a href="#why-california-borrowers-choose-wholesale">Why California Borrowers Choose Wholesale</a></li>
-            <li><a href="#200-lender-advantage">The 200+ Lender Advantage</a></li>
+            <li><a href="#200-lender-advantage">50+ Wholesale Lenders</a></li>
             <li><a href="#loan-programs">Loan Programs Available Through Wholesale</a></li>
             <li><a href="#self-employed-solutions">Self-Employed Solutions</a></li>
             <li><a href="#jumbo-loan-expertise">Jumbo Loan Expertise</a></li>
@@ -229,7 +229,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels rather than as an employee of a single bank or financial institution. This fundamental distinction shapes everything about how brokers serve California borrowers—from the rates they can offer to the loan programs they can access to the overall experience of getting a mortgage.
         </p>
         <p>
-          Mo Abdel, a licensed mortgage broker serving California through Lumin Lending (NMLS #2716106), explains the difference simply: "When you walk into a bank, you're working with someone who can only offer that bank's products. When you work with me, you're accessing 200+ lenders who are all competing for your business. That competition translates directly into better rates and more options for the borrower."
+          Mo Abdel, a licensed mortgage broker serving California through Lumin Lending (NMLS #2716106), explains the difference simply: "When you walk into a bank, you're working with someone who can only offer that bank's products. When you work with me, you're accessing 50+ Wholesale Lenders who are all competing for your business. That competition translates directly into better rates and more options for the borrower."
         </p>
 
         <h3>The Legal and Regulatory Framework</h3>
@@ -258,7 +258,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
             <tbody>
               <tr><td className="py-2 px-4 border-b font-semibold">State and Federal Licensing</td><td className="py-2 px-4 border-b">Licensed by California DRE and federally through NMLS with ongoing compliance requirements</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Independence</td><td className="py-2 px-4 border-b">Not employed by any single lender; works on behalf of the borrower to find best options</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Lender Network</td><td className="py-2 px-4 border-b">Maintains relationships with 200+ wholesale lender partners offering diverse products</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Lender Network</td><td className="py-2 px-4 border-b">Maintains relationships with 50+ Wholesale Lenders partners offering diverse products</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Transparent Compensation</td><td className="py-2 px-4 border-b">Paid by lender with full disclosure to borrower on Loan Estimate; typically 1-2.75% of loan</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Shopping Responsibility</td><td className="py-2 px-4">Active duty to compare multiple lenders to find best terms for each borrower's situation</td></tr>
             </tbody>
@@ -270,7 +270,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           The mortgage industry includes several types of professionals, and understanding the differences helps borrowers make informed decisions:
         </p>
         <ul>
-          <li><strong>Wholesale Mortgage Broker:</strong> Independent professional with access to 200+ lenders; shops the market on your behalf</li>
+          <li><strong>Wholesale Mortgage Broker:</strong> Independent professional with access to 50+ Wholesale Lenders; shops the market on your behalf</li>
           <li><strong>Bank Loan Officer:</strong> Employee of a single bank; can only offer that bank's products and rates</li>
           <li><strong>Credit Union Loan Officer:</strong> Employee of a credit union; limited to that institution's offerings</li>
           <li><strong>Correspondent Lender:</strong> Originates loans but sells them to larger investors; more options than banks but fewer than brokers</li>
@@ -371,7 +371,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           When you work with a wholesale mortgage broker like Mo Abdel, you access the wholesale channel with these advantages:
         </p>
         <ul>
-          <li><strong>Multiple Lenders:</strong> 200+ options across the wholesale lender network</li>
+          <li><strong>Multiple Lenders:</strong> 50+ Wholesale Lenders across the wholesale lender network</li>
           <li><strong>Varied Guidelines:</strong> Each lender has different rules; if one says no, another may say yes</li>
           <li><strong>Lower Overhead:</strong> Lean operations mean better pricing for borrowers</li>
           <li><strong>Extensive Programs:</strong> Bank statement, DSCR, non-QM, jumbo, and specialty products</li>
@@ -467,15 +467,15 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           <li><strong>Non-Traditional Income:</strong> Trust income, royalties, cryptocurrency, and other sources</li>
         </ul>
 
-        {/* Section 5: The 200+ Lender Advantage */}
-        <h2 id="200-lender-advantage">The 200+ Lender Advantage</h2>
+        {/* Section 5: 50+ Wholesale Lenders */}
+        <h2 id="200-lender-advantage">50+ Wholesale Lenders</h2>
         <p>
-          The wholesale broker's greatest asset is access to a network of 200+ lending partners. This network creates multiple advantages that directly benefit California borrowers.
+          The wholesale broker's greatest asset is access to a network of 50+ Wholesale Lenders. This network creates multiple advantages that directly benefit California borrowers.
         </p>
 
         <h3>Rate Advantage: Competition Drives Pricing</h3>
         <p>
-          With 200+ lenders competing for broker business, borrowers benefit from:
+          With 50+ Wholesale Lenders competing for broker business, borrowers benefit from:
         </p>
         <ul>
           <li><strong>Multiple Rate Quotes:</strong> See pricing from numerous lenders for every scenario</li>
@@ -494,7 +494,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
         <ul>
           <li><strong>Denial Isn't Final:</strong> If one lender denies, another may approve</li>
           <li><strong>Unique Niches:</strong> Lenders specialize in different borrower profiles</li>
-          <li><strong>Complex Situations Find Solutions:</strong> 200+ sets of guidelines means more possibilities</li>
+          <li><strong>Complex Situations Find Solutions:</strong> 50+ Wholesale Lenders means more possibilities</li>
           <li><strong>Higher Overall Approval Rates:</strong> Access to more lenders = more approvals</li>
         </ul>
 
@@ -821,7 +821,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>Step 3: Lender Selection and Submission</h3>
         <ul>
-          <li>Broker compares options across 200+ lender network</li>
+          <li>Broker compares options across 50+ Wholesale Lenders</li>
           <li>Select best lender for rate, program, and timeline</li>
           <li>Submit complete package to chosen lender</li>
           <li>Receive lender acknowledgment and timeline</li>
@@ -907,7 +907,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>What is the difference between wholesale and retail mortgage lending?</h3>
         <p>
-          Wholesale lending is the institutional channel where mortgage brokers access rates from 200+ lenders, while retail lending is the consumer-facing channel at banks where you get one lender's rates. Wholesale pricing excludes bank overhead costs (branches, advertising, corporate expenses), making it typically more competitive.
+          Wholesale lending is the institutional channel where mortgage brokers access rates from 50+ Wholesale Lenders, while retail lending is the consumer-facing channel at banks where you get one lender's rates. Wholesale pricing excludes bank overhead costs (branches, advertising, corporate expenses), making it typically more competitive.
         </p>
 
         <h3>How do I know if a wholesale broker is giving me a good rate?</h3>
@@ -917,7 +917,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>Can a wholesale broker help me get approved after a bank denied me?</h3>
         <p>
-          Yes, this is common. Banks have one set of guidelines; if you don't fit, you're denied. Wholesale brokers access 200+ lenders with different guidelines. A bank denial often means that specific bank's criteria didn't work—not that no lender will approve you. Mo Abdel at Lumin Lending regularly helps borrowers who were declined elsewhere find appropriate solutions.
+          Yes, this is common. Banks have one set of guidelines; if you don't fit, you're denied. Wholesale brokers access 50+ Wholesale Lenders with different guidelines. A bank denial often means that specific bank's criteria didn't work—not that no lender will approve you. Mo Abdel at Lumin Lending regularly helps borrowers who were declined elsewhere find appropriate solutions.
         </p>
 
         <h3>Is my loan sold after closing when I use a wholesale broker?</h3>
@@ -950,12 +950,12 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>What is a wholesale mortgage broker in California?</h3>
         <p>
-          A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders to find the best rates and programs for California borrowers. Unlike bank employees who offer only their institution's products, brokers shop across the entire wholesale market. Mo Abdel (NMLS #1426884) at Lumin Lending provides wholesale broker services throughout California and Washington.
+          A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders to find the best rates and programs for California borrowers. Unlike bank employees who offer only their institution's products, brokers shop across the entire wholesale market. Mo Abdel (NMLS #1426884) at Lumin Lending provides wholesale broker services throughout California and Washington.
         </p>
 
         <h3>How do wholesale mortgage rates compare to bank rates?</h3>
         <p>
-          Wholesale mortgage rates are typically more competitive because they exclude the overhead costs built into bank rates such as branch networks, advertising campaigns, and corporate structure. The competitive nature of wholesale lending with 200+ lenders bidding for broker business often produces better pricing for California borrowers.
+          Wholesale mortgage rates are typically more competitive because they exclude the overhead costs built into bank rates such as branch networks, advertising campaigns, and corporate structure. The competitive nature of wholesale lending with 50+ Wholesale Lenders bidding for broker business often produces better pricing for California borrowers.
         </p>
 
         <h3>Can I get a jumbo loan through a California wholesale broker?</h3>
@@ -990,7 +990,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>What's the difference between a mortgage broker and a loan officer?</h3>
         <p>
-          A mortgage broker is an independent professional with access to multiple lenders (200+ in Mo Abdel's network at Lumin Lending). A loan officer is an employee of a single bank or lender, limited to that institution's products and rates. Brokers can shop across the market; loan officers cannot.
+          A mortgage broker is an independent professional with access to multiple lenders (50+ Wholesale Lenders). A loan officer is an employee of a single bank or lender, limited to that institution's products and rates. Brokers can shop across the market; loan officers cannot.
         </p>
 
         <h3>Do wholesale brokers charge higher fees?</h3>
@@ -1000,7 +1000,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
 
         <h3>Can a wholesale broker help if I was denied by a bank?</h3>
         <p>
-          Yes, this is a common scenario where brokers excel. Different lenders have different guidelines. If one lender denies your application, a broker can submit to another lender with different criteria. With 200+ lenders in the network, there are often solutions for complex situations that banks won't touch.
+          Yes, this is a common scenario where brokers excel. Different lenders have different guidelines. If one lender denies your application, a broker can submit to another lender with different criteria. With 50+ Wholesale Lenders in the network, there are often solutions for complex situations that banks won't touch.
         </p>
 
         <h3>What California cities do wholesale brokers serve?</h3>
@@ -1026,7 +1026,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
         {/* Call to Action */}
         <h2>Work with a California Wholesale Mortgage Broker</h2>
         <p>
-          Ready to access wholesale mortgage rates in California? Mo Abdel at Lumin Lending provides wholesale broker services across California and Washington, with 200+ lender relationships and expertise in jumbo, bank statement, DSCR, and non-QM loans. Whether you're purchasing, refinancing, or investing, the wholesale channel offers rate and program advantages that retail banking cannot match.
+          Ready to access wholesale mortgage rates in California? Mo Abdel at Lumin Lending provides wholesale broker services across California and Washington, with 50+ Wholesale Lenders and expertise in jumbo, bank statement, DSCR, and non-QM loans. Whether you're purchasing, refinancing, or investing, the wholesale channel offers rate and program advantages that retail banking cannot match.
         </p>
 
         {/* Related Resources */}
@@ -1038,7 +1038,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
             <li><a href="/blog/bank-statement-loans-self-employed-2026">Bank Statement Loans: The Wholesale Advantage</a></li>
             <li><a href="/blog/non-qm-loans-complete-guide-2026">Non-QM Loans: Programs Only Wholesale Brokers Offer</a></li>
             <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates</a></li>
-            <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained</a></li>
+            <li><a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders Explained</a></li>
           </ul>
           <h4>Loan Programs</h4>
           <ul>

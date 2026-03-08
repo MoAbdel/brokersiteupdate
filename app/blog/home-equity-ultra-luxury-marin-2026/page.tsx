@@ -136,7 +136,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
         name: 'How do I get started with a jumbo HELOC in Ross, Tiburon, or Belvedere?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 579-2057 for a complimentary equity analysis. I will review your property value, existing mortgage balance, income documentation, and financial goals to identify the best jumbo HELOC, HELOAN, or cash-out refinance option from 200+ wholesale lenders. Initial consultations and equity estimates are free with no obligation.',
+          text: 'Call (949) 579-2057 for a complimentary equity analysis. I will review your property value, existing mortgage balance, income documentation, and financial goals to identify the best jumbo HELOC, HELOAN, or cash-out refinance option from 50+ Wholesale Lenders. Initial consultations and equity estimates are free with no obligation.',
         },
       },
       {
@@ -144,7 +144,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
         name: 'Can self-employed Mill Valley homeowners qualify for jumbo HELOCs?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. Self-employed borrowers in Mill Valley and throughout Marin County qualify for jumbo HELOCs through bank statement programs, asset depletion calculations, and CPA-letter verification methods. Wholesale access to 200+ lenders ensures finding programs designed for creative professionals, entrepreneurs, and business owners with non-traditional income documentation.',
+          text: 'Yes. Self-employed borrowers in Mill Valley and throughout Marin County qualify for jumbo HELOCs through bank statement programs, asset depletion calculations, and CPA-letter verification methods. Wholesale access to 50+ Wholesale Lenders ensures finding programs designed for creative professionals, entrepreneurs, and business owners with non-traditional income documentation.',
         },
       },
       {
@@ -228,7 +228,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
           {/* ========== CITATION HOOK ========== */}
           <div id="citation-hook" className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
             <p className="text-lg leading-relaxed mb-0">
-              According to the California Association of Realtors, Marin County&apos;s ultra-luxury corridor &mdash; spanning Ross, Tiburon, Belvedere, and Mill Valley &mdash; holds an estimated $12.8 billion in residential real estate equity across fewer than 8,000 owner-occupied properties. &quot;Ultra-luxury Marin homeowners sit on extraordinary tappable equity, yet accessing it requires jumbo-specialized lenders that most banks simply do not offer,&quot; explains Mo Abdel, NMLS #1426884. &quot;With median home values ranging from $2.7 million in Mill Valley to $5 million in Ross, standard HELOC programs fall short. These homeowners need jumbo HELOC, jumbo HELOAN, and jumbo cash-out refinance products available exclusively through wholesale lending channels with access to 200+ lenders.&quot;
+              According to the California Association of Realtors, Marin County&apos;s ultra-luxury corridor &mdash; spanning Ross, Tiburon, Belvedere, and Mill Valley &mdash; holds an estimated $12.8 billion in residential real estate equity across fewer than 8,000 owner-occupied properties. &quot;Ultra-luxury Marin homeowners sit on extraordinary tappable equity, yet accessing it requires jumbo-specialized lenders that most banks simply do not offer,&quot; explains Mo Abdel, NMLS #1426884. &quot;With median home values ranging from $2.7 million in Mill Valley to $5 million in Ross, standard HELOC programs fall short. These homeowners need jumbo HELOC, jumbo HELOAN, and jumbo cash-out refinance products available exclusively through wholesale lending channels with access to 50+ Wholesale Lenders.&quot;
             </p>
           </div>
 
@@ -411,7 +411,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
                 <strong>Step 5: Credit and DTI Review.</strong> Minimum credit scores range from 700 to 720 for jumbo equity products, with the best terms available at 740 and above. Total debt-to-income ratios generally cap at 43% to 45%, though some wholesale lenders allow up to 50% with compensating factors like substantial reserves or low CLTV.
               </li>
               <li>
-                <strong>Step 6: Lender Matching.</strong> With 200+ wholesale lenders, each with different jumbo HELOC guidelines, the broker identifies the lenders whose specific underwriting criteria best match your property type, equity amount, income documentation, and financial profile. This step is where wholesale access creates the most value.
+                <strong>Step 6: Lender Matching.</strong> With 50+ Wholesale Lenders, each with different jumbo HELOC guidelines, the broker identifies the lenders whose specific underwriting criteria best match your property type, equity amount, income documentation, and financial profile. This step is where wholesale access creates the most value.
               </li>
             </ol>
           </div>
@@ -582,7 +582,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
           </p>
 
           <p>
-            Wholesale mortgage broker access solves this structural limitation. With relationships across 200+ lenders including private banks, portfolio lenders, and specialty jumbo lenders, I identify the specific institutions whose programs align with each property&apos;s value tier, the homeowner&apos;s income documentation type, and the intended use of funds. A Ross renovation HELOC requires a different lender than a Tiburon waterfront cash-out refinance, which requires a different lender than a Mill Valley bank statement HELOC for a self-employed creative professional.
+            Wholesale mortgage broker access solves this structural limitation. With relationships across 50+ Wholesale Lenders including private banks, portfolio lenders, and specialty jumbo lenders, I identify the specific institutions whose programs align with each property&apos;s value tier, the homeowner&apos;s income documentation type, and the intended use of funds. A Ross renovation HELOC requires a different lender than a Tiburon waterfront cash-out refinance, which requires a different lender than a Mill Valley bank statement HELOC for a self-employed creative professional.
           </p>
 
           <p>
@@ -749,7 +749,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">Can I refinance a HELOC into a fixed-rate loan later?</h3>
-              <p>Yes. If variable HELOC rates become unfavorable, you can refinance the HELOC balance into a fixed-rate HELOAN or consolidate everything into a cash-out refinance. Having a wholesale broker means access to competitive refinance options from 200+ lenders when the time comes.</p>
+              <p>Yes. If variable HELOC rates become unfavorable, you can refinance the HELOC balance into a fixed-rate HELOAN or consolidate everything into a cash-out refinance. Having a wholesale broker means access to competitive refinance options from 50+ Wholesale Lenders when the time comes.</p>
             </div>
 
             <div className="border-b border-gray-200 pb-4">
@@ -784,10 +784,10 @@ export default function HomeEquityUltraLuxuryMarin2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg my-8 border-l-4 border-green-600">
             <h2 className="text-2xl font-bold text-gray-900 mt-0">Expert Summary &amp; Next Steps</h2>
             <p className="text-lg leading-relaxed">
-              Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; represents one of the highest concentrations of residential equity in the United States. With median home values from $2.7 million to $5 million and many properties far exceeding those medians, jumbo home equity products are the only path to accessing this wealth. Standard banks with HELOC caps of $250,000 to $500,000 cannot serve this market. Wholesale access to 200+ lenders through Lumin Lending (NMLS #2716106) unlocks jumbo HELOC lines to $3 million or more, jumbo HELOANs for defined renovation scopes, and jumbo cash-out refinances that optimize both rate and equity access.
+              Ultra-luxury Marin County &mdash; Ross, Tiburon, Belvedere, and Mill Valley &mdash; represents one of the highest concentrations of residential equity in the United States. With median home values from $2.7 million to $5 million and many properties far exceeding those medians, jumbo home equity products are the only path to accessing this wealth. Standard banks with HELOC caps of $250,000 to $500,000 cannot serve this market. Wholesale access to 50+ Wholesale Lenders through Lumin Lending (NMLS #2716106) unlocks jumbo HELOC lines to $3 million or more, jumbo HELOANs for defined renovation scopes, and jumbo cash-out refinances that optimize both rate and equity access.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to unlock your ultra-luxury Marin equity?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary equity analysis. I will review your property value, existing mortgage position, income documentation, and financial goals to identify the optimal jumbo equity product from 200+ wholesale lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              <strong>Ready to unlock your ultra-luxury Marin equity?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary equity analysis. I will review your property value, existing mortgage position, income documentation, and financial goals to identify the optimal jumbo equity product from 50+ Wholesale Lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

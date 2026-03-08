@@ -8,7 +8,7 @@ export const contentType = 'image/png';
 export default async function Image() {
   return generateOGImage({
     title: 'About Mo Abdel',
-    subtitle: 'Licensed Orange County mortgage broker with access to 200+ wholesale lenders',
+    subtitle: 'Licensed Orange County mortgage broker with access to 50+ Wholesale Lenders',
     category: 'About',
   });
 }

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92679 | Coto de Caza | Jumbo Loan Specialists',
-  description: 'Coto de Caza wholesale mortgage broker serving 92679. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
+  description: 'Coto de Caza wholesale mortgage broker serving 92679. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92679',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92679 | Coto de Caza Jumbo Loan Specialists',
-    description: 'Coto de Caza wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Coto de Caza wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92679',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -57,7 +57,7 @@ export default function WholesaleMortgageBroker92679Page() {
                 "name": "What is a wholesale mortgage broker in Coto de Caza (92679)?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Coto de Caza is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for luxury gated community home purchases and self-employed borrowers."
+                  "text": "A wholesale mortgage broker in Coto de Caza is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for luxury gated community home purchases and self-employed borrowers."
                 }
               },
               {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBroker92679Page() {
                 "name": "How do Coto de Caza wholesale rates compare to US Bank or Union Bank?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 200+ lenders who compete for Coto de Caza jumbo financing, compared to single-product offerings at US Bank or Union Bank."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 50+ Wholesale Lenders who compete for Coto de Caza jumbo financing, compared to single-product offerings at US Bank or Union Bank."
                 }
               },
               {
@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92679Page() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Wholesale Mortgage Broker",
-            "description": "Coto de Caza wholesale mortgage broker serving 92679 with 200+ lender access for jumbo loans and self-employed financing.",
+            "description": "Coto de Caza wholesale mortgage broker serving 92679 with 50+ Wholesale Lenders for jumbo loans and self-employed financing.",
             "telephone": "(949) 579-2057",
             "areaServed": {
               "@type": "PostalAddress",
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBroker92679Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Coto de Caza homebuyers in 92679 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than US Bank, Union Bank, and First Citizens. With Coto de Caza median home prices around $2.1 million and a large self-employed population, buyers need specialized jumbo and bank statement programs that wholesale brokers deliver.
+            Coto de Caza homebuyers in 92679 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than US Bank, Union Bank, and First Citizens. With Coto de Caza median home prices around $2.1 million and a large self-employed population, buyers need specialized jumbo and bank statement programs that wholesale brokers deliver.
           </p>
         </div>
 
@@ -244,7 +244,7 @@ export default function WholesaleMortgageBroker92679Page() {
 
         <h3>What is a wholesale mortgage broker in Coto de Caza (92679)?</h3>
         <p>
-          A wholesale mortgage broker in Coto de Caza is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for luxury gated community home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—critical for self-employed borrowers needing bank statement programs.
+          A wholesale mortgage broker in Coto de Caza is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for luxury gated community home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—critical for self-employed borrowers needing bank statement programs.
         </p>
 
         <h3>Can self-employed borrowers get jumbo loans in 92679?</h3>
@@ -254,7 +254,7 @@ export default function WholesaleMortgageBroker92679Page() {
 
         <h3>How do Coto de Caza wholesale rates compare to US Bank or Union Bank?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for Coto de Caza jumbo financing, versus the single product offering at any bank.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Coto de Caza jumbo financing, versus the single product offering at any bank.
         </p>
 
         <h3>What is the jumbo loan limit for Coto de Caza in 2026?</h3>

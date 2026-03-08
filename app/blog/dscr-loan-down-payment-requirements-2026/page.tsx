@@ -36,11 +36,11 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is the minimum down payment for a DSCR loan on a single-family rental?',
-    answer: 'The minimum down payment for a DSCR loan on a single-family rental (SFR) typically ranges from 15% to 25%, depending on the lender, the borrower\'s DSCR ratio, credit score, and the specific loan program. Lenders offering 15% down DSCR programs generally require a DSCR ratio of 1.25 or higher and a credit score of 720+. Most mainstream DSCR programs require 20% down on SFR properties with a DSCR ratio of 1.00 or above. A wholesale broker with access to 200+ lenders can identify which programs offer the lowest down payment for your specific property and financial profile.',
+    answer: 'The minimum down payment for a DSCR loan on a single-family rental (SFR) typically ranges from 15% to 25%, depending on the lender, the borrower\'s DSCR ratio, credit score, and the specific loan program. Lenders offering 15% down DSCR programs generally require a DSCR ratio of 1.25 or higher and a credit score of 720+. Most mainstream DSCR programs require 20% down on SFR properties with a DSCR ratio of 1.00 or above. A wholesale broker with access to 50+ Wholesale Lenders can identify which programs offer the lowest down payment for your specific property and financial profile.',
   },
   {
     question: 'How does DSCR ratio affect the required down payment?',
-    answer: 'DSCR ratio directly affects the required down payment in an inverse relationship: the higher your DSCR ratio, the lower your required down payment, and vice versa. A property with a DSCR of 1.25 or higher (strong cash flow) may qualify for 15%-20% down, while a property with a DSCR of 1.00 (break-even) typically requires 20%-25% down. Properties with a DSCR below 1.00 (negative cash flow) often require 25%-30% or more down, and some lenders will not finance below a 0.75 DSCR at any down payment level. Each lender sets its own DSCR-to-LTV matrix, which is why comparing across 200+ lenders through a wholesale broker matters significantly.',
+    answer: 'DSCR ratio directly affects the required down payment in an inverse relationship: the higher your DSCR ratio, the lower your required down payment, and vice versa. A property with a DSCR of 1.25 or higher (strong cash flow) may qualify for 15%-20% down, while a property with a DSCR of 1.00 (break-even) typically requires 20%-25% down. Properties with a DSCR below 1.00 (negative cash flow) often require 25%-30% or more down, and some lenders will not finance below a 0.75 DSCR at any down payment level. Each lender sets its own DSCR-to-LTV matrix, which is why comparing across 50+ Wholesale Lenders through a wholesale broker matters significantly.',
   },
   {
     question: 'What is the down payment requirement for a DSCR loan on a 2-4 unit property?',
@@ -48,7 +48,7 @@ const faqData = [
   },
   {
     question: 'Can I use gift funds for a DSCR loan down payment?',
-    answer: 'Gift fund policies for DSCR loans vary significantly by lender. Some DSCR lenders allow gift funds from family members for a portion of the down payment (typically up to 50% of the down payment amount), while others require 100% of the down payment to come from the borrower\'s own funds. A smaller number of lenders allow full gift funds on DSCR loans. When gift funds are permitted, the donor typically must provide a gift letter confirming the funds are not a loan and must document the source of the gift. Business entity borrowers (LLCs) may face additional restrictions on gift funds. A wholesale broker can identify which of the 200+ lending partners accept gift funds on DSCR loans and under what conditions.',
+    answer: 'Gift fund policies for DSCR loans vary significantly by lender. Some DSCR lenders allow gift funds from family members for a portion of the down payment (typically up to 50% of the down payment amount), while others require 100% of the down payment to come from the borrower\'s own funds. A smaller number of lenders allow full gift funds on DSCR loans. When gift funds are permitted, the donor typically must provide a gift letter confirming the funds are not a loan and must document the source of the gift. Business entity borrowers (LLCs) may face additional restrictions on gift funds. A wholesale broker can identify which of the 50+ Wholesale Lenders accept gift funds on DSCR loans and under what conditions.',
   },
   {
     question: 'What are DSCR loan reserve requirements after the down payment?',
@@ -72,7 +72,7 @@ const faqData = [
   },
   {
     question: 'Can I get a DSCR loan with only 15% down?',
-    answer: 'Yes, 15% down DSCR loan programs exist, but they are not widely available and come with stricter qualification requirements. To qualify for 15% down on a DSCR loan, you typically need: a DSCR ratio of 1.25 or higher, a credit score of 720 or above, a single-family rental property (not multi-unit), 12+ months of reserves, and the property must be in an eligible market. These programs are offered by a limited number of lenders, which is why wholesale broker access is critical. A broker comparing 200+ lenders can determine whether a 15% down program is available for your specific scenario and whether the trade-offs (potentially higher rate or fees) make it the best overall option compared to a 20% down program.',
+    answer: 'Yes, 15% down DSCR loan programs exist, but they are not widely available and come with stricter qualification requirements. To qualify for 15% down on a DSCR loan, you typically need: a DSCR ratio of 1.25 or higher, a credit score of 720 or above, a single-family rental property (not multi-unit), 12+ months of reserves, and the property must be in an eligible market. These programs are offered by a limited number of lenders, which is why wholesale broker access is critical. A broker comparing 50+ Wholesale Lenders can determine whether a 15% down program is available for your specific scenario and whether the trade-offs (potentially higher rate or fees) make it the best overall option compared to a 20% down program.',
   },
 ];
 
@@ -183,7 +183,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
           DSCR Loan Down Payment Requirements: Minimum Down by Property Type &amp; DSCR Ratio [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete breakdown of DSCR loan down payment requirements by property type&mdash;single-family rentals (15%&ndash;25%), 2-4 unit multifamily (20%&ndash;25%), 5+ unit commercial (25%&ndash;35%), and short-term rentals (25%&ndash;30%)&mdash;plus how your DSCR ratio directly affects the minimum down payment, gift fund eligibility, LLC entity structuring, cross-collateralization strategies, reserves requirements, and how a wholesale broker accesses lower-down DSCR programs across 200+ lending partners.
+          A complete breakdown of DSCR loan down payment requirements by property type&mdash;single-family rentals (15%&ndash;25%), 2-4 unit multifamily (20%&ndash;25%), 5+ unit commercial (25%&ndash;35%), and short-term rentals (25%&ndash;30%)&mdash;plus how your DSCR ratio directly affects the minimum down payment, gift fund eligibility, LLC entity structuring, cross-collateralization strategies, reserves requirements, and how a wholesale broker accesses lower-down DSCR programs across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -192,7 +192,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, <strong>DSCR loan down payment requirements range from 15% to 35% depending on property type, DSCR ratio, and lender program</strong>&mdash;and the difference between the lowest and highest available down payment for the same property can represent tens of thousands of dollars in out-of-pocket cost. Single-family rental properties qualify for the lowest DSCR down payments (as low as 15% with strong cash flow and credit), while short-term rentals and 5+ unit commercial properties require 25%&ndash;35% down. According to <a href="https://www.fanniemae.com/research-and-insights/perspectives/investment-property-financing" target="_blank" rel="noopener noreferrer">Fannie Mae research on investment property financing</a>, non-QM products including DSCR loans have expanded significantly as investor demand grows, with down payment structures varying widely across lenders. A wholesale mortgage broker comparing DSCR products from 200+ lenders identifies the lowest down payment available for each investor&apos;s specific property type, DSCR ratio, and credit profile&mdash;a comparison that is impossible to replicate when working with a single bank or direct lender.
+            According to Mo Abdel, NMLS #1426884, <strong>DSCR loan down payment requirements range from 15% to 35% depending on property type, DSCR ratio, and lender program</strong>&mdash;and the difference between the lowest and highest available down payment for the same property can represent tens of thousands of dollars in out-of-pocket cost. Single-family rental properties qualify for the lowest DSCR down payments (as low as 15% with strong cash flow and credit), while short-term rentals and 5+ unit commercial properties require 25%&ndash;35% down. According to <a href="https://www.fanniemae.com/research-and-insights/perspectives/investment-property-financing" target="_blank" rel="noopener noreferrer">Fannie Mae research on investment property financing</a>, non-QM products including DSCR loans have expanded significantly as investor demand grows, with down payment structures varying widely across lenders. A wholesale mortgage broker comparing DSCR products from 50+ Wholesale Lenders identifies the lowest down payment available for each investor&apos;s specific property type, DSCR ratio, and credit profile&mdash;a comparison that is impossible to replicate when working with a single bank or direct lender.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">compares DSCR down payment requirements across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to find the lowest down payment available for each investor scenario</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to find the lowest down payment available for each investor scenario</td>
               </tr>
             </tbody>
           </table>
@@ -258,7 +258,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Find the Lowest DSCR Down Payment for Your Property</h3>
           <p className="text-green-800 mb-2">
-            Get a free DSCR loan quote with the exact down payment requirement for your investment property&mdash;compared across 200+ lenders.
+            Get a free DSCR loan quote with the exact down payment requirement for your investment property&mdash;compared across 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request a DSCR Quote Online</Link>
@@ -486,7 +486,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
           <li><strong>Commercial appraisal required:</strong> A commercial appraisal uses the income approach (cap rate and NOI) rather than comparable sales, adding $2,000&ndash;$5,000 to acquisition costs</li>
           <li><strong>Rent roll and operating statement required:</strong> Lenders analyze the property&apos;s actual income and expense history, not just market rent estimates</li>
           <li><strong>Higher DSCR minimum:</strong> Commercial DSCR lenders typically require a 1.20&ndash;1.50 minimum DSCR, compared to 0.75&ndash;1.00 minimums available on 1-4 unit</li>
-          <li><strong>Fewer DSCR lenders offer 5+ unit:</strong> The pool of lenders narrows significantly above 4 units, making broker access to 200+ lenders even more critical</li>
+          <li><strong>Fewer DSCR lenders offer 5+ unit:</strong> The pool of lenders narrows significantly above 4 units, making broker access to 50+ Wholesale Lenders even more critical</li>
         </ul>
 
         <p>
@@ -497,7 +497,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Ready to Calculate Your DSCR Loan Down Payment?</h3>
           <p className="text-green-800 mb-2">
-            Tell me the property type, purchase price, and expected rent&mdash;I&apos;ll show you the lowest down payment available across 200+ DSCR lenders.
+            Tell me the property type, purchase price, and expected rent&mdash;I&apos;ll show you the lowest down payment available across 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Submit Your Property Details</Link>
@@ -650,7 +650,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
         <h2 id="wholesale-advantage">Wholesale Broker Access to Lower-Down DSCR Programs</h2>
 
         <p>
-          The down payment is the single largest variable cost in a DSCR loan transaction, and the range across lenders for the same property can be 10 percentage points or more. This means on a $750,000 property, the difference between a 15% and 25% down payment is <strong>$75,000 in additional cash required</strong>. That $75,000 difference makes the case for working with a wholesale broker who compares DSCR programs across 200+ lenders.
+          The down payment is the single largest variable cost in a DSCR loan transaction, and the range across lenders for the same property can be 10 percentage points or more. This means on a $750,000 property, the difference between a 15% and 25% down payment is <strong>$75,000 in additional cash required</strong>. That $75,000 difference makes the case for working with a wholesale broker who compares DSCR programs across 50+ Wholesale Lenders.
         </p>
 
         <h3>Why Down Payment Varies So Widely Across DSCR Lenders</h3>
@@ -665,7 +665,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
         <h3>What a Wholesale Broker Does That a Direct Lender Cannot</h3>
 
         <p>
-          A direct DSCR lender quotes you <em>their</em> down payment requirement. A wholesale broker quotes you the <em>market&apos;s</em> down payment requirement by running your scenario through 200+ lending partners simultaneously. The broker identifies:
+          A direct DSCR lender quotes you <em>their</em> down payment requirement. A wholesale broker quotes you the <em>market&apos;s</em> down payment requirement by running your scenario through 50+ Wholesale Lenders simultaneously. The broker identifies:
         </p>
 
         <ul>
@@ -743,7 +743,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
 
         <h3>Can I get a DSCR loan with no money down?</h3>
         <p>
-          True zero-down DSCR loans are extremely rare and generally not available from mainstream DSCR lenders. However, investors can effectively achieve a low or zero cash-down DSCR purchase through cross-collateralization (pledging equity in an existing property), seller concessions applied to closing costs (reducing total cash needed), or partnership structures where one party contributes the down payment and another manages the property. A wholesale broker can identify the most creative low-cash-down strategies available across 200+ lenders.
+          True zero-down DSCR loans are extremely rare and generally not available from mainstream DSCR lenders. However, investors can effectively achieve a low or zero cash-down DSCR purchase through cross-collateralization (pledging equity in an existing property), seller concessions applied to closing costs (reducing total cash needed), or partnership structures where one party contributes the down payment and another manages the property. A wholesale broker can identify the most creative low-cash-down strategies available across 50+ Wholesale Lenders.
         </p>
 
         <h3>Does my credit score affect the DSCR loan down payment?</h3>
@@ -804,7 +804,7 @@ export default function DSCRLoanDownPaymentRequirementsPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get the Lowest DSCR Down Payment for Your Investment Property</h3>
           <p className="text-green-800 mb-2">
-            Mo Abdel compares DSCR programs across 200+ lenders to find the lowest down payment and best terms for your specific property type, DSCR ratio, and credit profile. Free analysis with no obligation.
+            Mo Abdel compares DSCR programs across 50+ Wholesale Lenders to find the lowest down payment and best terms for your specific property type, DSCR ratio, and credit profile. Free analysis with no obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request a Free DSCR Quote</Link>

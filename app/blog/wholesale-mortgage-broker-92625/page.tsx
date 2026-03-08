@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92625 | Corona del Mar | Jumbo Loan Specialists',
-  description: 'Corona del Mar wholesale mortgage broker serving 92625. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
+  description: 'Corona del Mar wholesale mortgage broker serving 92625. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92625',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92625 | Corona del Mar Jumbo Loan Specialists',
-    description: 'Corona del Mar wholesale mortgage broker with 200+ lenders for jumbo loans up to $10M+.',
+    description: 'Corona del Mar wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $10M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92625',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92625Page() {
                 "name": "Why use a wholesale broker instead of Wells Fargo or First Republic in CdM?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your Corona del Mar jumbo loan. Banks offer only their own products at retail pricing. On a $3 million CdM mortgage, wholesale access typically delivers better rates without requiring large deposit relationships."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your Corona del Mar jumbo loan. Banks offer only their own products at retail pricing. On a $3 million CdM mortgage, wholesale access typically delivers better rates without requiring large deposit relationships."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92625Page() {
           Wholesale Mortgage Broker 92625 | Corona del Mar Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Corona del Mar&apos;s prestigious coastal market
+          Access wholesale rates and 50+ Wholesale Lenders for Corona del Mar&apos;s prestigious coastal market
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Corona del Mar 92625 combines village charm with coastal luxury at a <strong>$3.8 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers barely 30% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 200+ jumbo lenders and bank statement programs—not a bank limited to a single product menu. Our wholesale access consistently <strong>beats Wells Fargo Private Bank and First Republic</strong> on Corona del Mar jumbo financing.
+            Corona del Mar 92625 combines village charm with coastal luxury at a <strong>$3.8 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers barely 30% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders and bank statement programs—not a bank limited to a single product menu. Our wholesale access consistently <strong>beats Wells Fargo Private Bank and First Republic</strong> on Corona del Mar jumbo financing.
           </p>
         </div>
 
@@ -284,7 +284,7 @@ export default function WholesaleMortgageBroker92625Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why use a wholesale broker instead of Wells Fargo or First Republic in CdM?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your Corona del Mar jumbo loan. Banks offer only their own products at retail pricing. On a $3 million CdM mortgage, wholesale access typically delivers better rates without requiring large deposit relationships.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your Corona del Mar jumbo loan. Banks offer only their own products at retail pricing. On a $3 million CdM mortgage, wholesale access typically delivers better rates without requiring large deposit relationships.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What Corona del Mar neighborhoods does your brokerage serve?</h3>

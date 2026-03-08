@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker San Diego Guide: VA, Jumbo, Biotech & Self-Employed Options [2026] | Mo Abdel',
   description:
-    'Wholesale mortgage broker San Diego guide (2026). Compare lender options for VA, jumbo, bank statement, and investment loans with broker access to 200+ lenders. NMLS #1426884.',
+    'Wholesale mortgage broker San Diego guide (2026). Compare lender options for VA, jumbo, bank statement, and investment loans with broker access to 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker San Diego',
     'San Diego mortgage broker',

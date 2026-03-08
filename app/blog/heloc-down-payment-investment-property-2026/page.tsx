@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Using a HELOC for Investment Property Down Payment: Strategy & Requirements [2026]',
-  description: 'Complete guide to using a HELOC on your primary residence to fund an investment property down payment — seasoning requirements, DTI impact, HELOC vs cash-out refinance for investment capital, and how a wholesale broker structures HELOC + investment financing across 200+ lenders. NMLS #1426884.',
+  description: 'Complete guide to using a HELOC on your primary residence to fund an investment property down payment — seasoning requirements, DTI impact, HELOC vs cash-out refinance for investment capital, and how a wholesale broker structures HELOC + investment financing across 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-down-payment-investment-property-2026',
     languages: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Using a HELOC for Investment Property Down Payment: Strategy & Requirements [2026]',
-    description: 'Complete guide to using a HELOC on your primary residence to fund an investment property down payment — seasoning requirements, DTI impact, HELOC vs cash-out refinance for investment capital, and wholesale broker advantage across 200+ lenders.',
+    description: 'Complete guide to using a HELOC on your primary residence to fund an investment property down payment — seasoning requirements, DTI impact, HELOC vs cash-out refinance for investment capital, and wholesale broker advantage across 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/heloc-down-payment-investment-property-2026',
     type: 'article',
     publishedTime: '2026-03-05',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Can I use a HELOC for a down payment on an investment property?',
-    answer: 'Yes. Most conventional and DSCR lenders accept HELOC proceeds as a down payment source for investment properties, provided the funds meet seasoning requirements. The HELOC must be drawn from a property you own (typically your primary residence), and the lender financing the investment property will include the HELOC payment in your debt-to-income ratio calculation. A wholesale broker with access to 200+ lenders identifies which lenders have the most favorable policies for HELOC-sourced down payments.',
+    answer: 'Yes. Most conventional and DSCR lenders accept HELOC proceeds as a down payment source for investment properties, provided the funds meet seasoning requirements. The HELOC must be drawn from a property you own (typically your primary residence), and the lender financing the investment property will include the HELOC payment in your debt-to-income ratio calculation. A wholesale broker with access to 50+ Wholesale Lenders identifies which lenders have the most favorable policies for HELOC-sourced down payments.',
   },
   {
     question: 'What is the seasoning requirement for HELOC funds used as a down payment?',
@@ -52,11 +52,11 @@ const faqData = [
   },
   {
     question: 'Is it better to use a HELOC or cash-out refinance to fund an investment property down payment?',
-    answer: 'A HELOC is typically better if you want to preserve your existing first mortgage rate on your primary residence, need flexible access to capital (draw only what you need), and prefer interest-only payments during the draw period. A cash-out refinance is better if you want a fixed rate on the entire equity withdrawal, need a large lump sum, or if current rates are lower than your existing mortgage rate. A wholesale broker models both options side by side across 200+ lenders to determine which delivers the lowest total cost.',
+    answer: 'A HELOC is typically better if you want to preserve your existing first mortgage rate on your primary residence, need flexible access to capital (draw only what you need), and prefer interest-only payments during the draw period. A cash-out refinance is better if you want a fixed rate on the entire equity withdrawal, need a large lump sum, or if current rates are lower than your existing mortgage rate. A wholesale broker models both options side by side across 50+ Wholesale Lenders to determine which delivers the lowest total cost.',
   },
   {
     question: 'Can I combine a HELOC with a DSCR loan for maximum leverage?',
-    answer: 'Yes. This is one of the most effective strategies for real estate investors. You draw HELOC funds from your primary residence for the down payment, then finance the investment property with a DSCR loan that qualifies based on the rental income of the investment property rather than your personal income. The DSCR lender verifies the HELOC funds meet their seasoning requirements but does not count the HELOC payment in the DSCR calculation because DSCR ratios are property-specific. A wholesale broker structures this combination across 200+ lenders.',
+    answer: 'Yes. This is one of the most effective strategies for real estate investors. You draw HELOC funds from your primary residence for the down payment, then finance the investment property with a DSCR loan that qualifies based on the rental income of the investment property rather than your personal income. The DSCR lender verifies the HELOC funds meet their seasoning requirements but does not count the HELOC payment in the DSCR calculation because DSCR ratios are property-specific. A wholesale broker structures this combination across 50+ Wholesale Lenders.',
   },
   {
     question: 'What credit score do I need to use a HELOC for an investment property down payment?',
@@ -76,11 +76,11 @@ const faqData = [
   },
   {
     question: 'Can I use a HELOC to buy multiple investment properties?',
-    answer: 'Yes. A HELOC is a revolving line of credit, so you can draw funds for one investment property down payment, repay some or all of the balance over time, and then draw again for another property. This recycling strategy allows investors to use the same HELOC repeatedly to build a portfolio. Each subsequent investment property purchase still requires qualifying for new financing, and your cumulative DTI increases with each property. A wholesale broker helps structure portfolio financing across 200+ lenders as your holdings grow.',
+    answer: 'Yes. A HELOC is a revolving line of credit, so you can draw funds for one investment property down payment, repay some or all of the balance over time, and then draw again for another property. This recycling strategy allows investors to use the same HELOC repeatedly to build a portfolio. Each subsequent investment property purchase still requires qualifying for new financing, and your cumulative DTI increases with each property. A wholesale broker helps structure portfolio financing across 50+ Wholesale Lenders as your holdings grow.',
   },
   {
     question: 'How does a wholesale broker help with HELOC-funded investment property purchases?',
-    answer: 'A wholesale broker adds value at every stage of this strategy. First, the broker sources the HELOC from 200+ lenders to find the lowest rate and highest credit limit on your primary residence. Second, the broker structures the investment property financing (conventional or DSCR) from the same lender pool, identifying which lenders have the most favorable policies for HELOC-sourced down payments. Third, the broker coordinates timing between the HELOC draw and the investment property closing to meet seasoning requirements. This coordinated approach across 200+ lenders is not available through a single bank.',
+    answer: 'A wholesale broker adds value at every stage of this strategy. First, the broker sources the HELOC from 50+ Wholesale Lenders to find the lowest rate and highest credit limit on your primary residence. Second, the broker structures the investment property financing (conventional or DSCR) from the same lender pool, identifying which lenders have the most favorable policies for HELOC-sourced down payments. Third, the broker coordinates timing between the HELOC draw and the investment property closing to meet seasoning requirements. This coordinated approach across 50+ Wholesale Lenders is not available through a single bank.',
   },
 ];
 
@@ -191,7 +191,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
           Using a HELOC for Investment Property Down Payment: Strategy &amp; Requirements [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to leveraging your primary residence equity through a HELOC to fund investment property down payments&mdash;covering seasoning requirements, DTI impact calculations, HELOC vs cash-out refinance for investment capital, DSCR loan combinations, tax considerations, and how a wholesale broker structures this strategy across 200+ lenders.
+          A complete guide to leveraging your primary residence equity through a HELOC to fund investment property down payments&mdash;covering seasoning requirements, DTI impact calculations, HELOC vs cash-out refinance for investment capital, DSCR loan combinations, tax considerations, and how a wholesale broker structures this strategy across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -200,7 +200,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, homeowners with substantial primary residence equity can <strong>use a HELOC to fund the down payment on an investment property</strong>&mdash;a strategy that preserves their existing mortgage rate while unlocking capital for portfolio growth. Conventional investment property loans require <strong>15&ndash;25% down</strong> depending on unit count, and most lenders accept HELOC proceeds as a verified down payment source after a <strong>60-day seasoning period</strong>. According to <a href="https://www.fanniemae.com/content/guide/selling/b3/4.3/06.html" target="_blank" rel="noopener noreferrer">Fannie Mae&apos;s Selling Guide (B3-4.3-06)</a>, equity from a borrower&apos;s owned property is an acceptable source of funds for down payment, provided it is properly documented. The key challenge is structuring the HELOC draw, seasoning timeline, and investment property financing so that the HELOC payment does not disqualify the borrower on DTI. A wholesale mortgage broker comparing products from 200+ lenders coordinates both sides of this transaction&mdash;sourcing the HELOC with the best terms and identifying investment property lenders with the most favorable policies for HELOC-sourced down payments.
+            According to Mo Abdel, NMLS #1426884, homeowners with substantial primary residence equity can <strong>use a HELOC to fund the down payment on an investment property</strong>&mdash;a strategy that preserves their existing mortgage rate while unlocking capital for portfolio growth. Conventional investment property loans require <strong>15&ndash;25% down</strong> depending on unit count, and most lenders accept HELOC proceeds as a verified down payment source after a <strong>60-day seasoning period</strong>. According to <a href="https://www.fanniemae.com/content/guide/selling/b3/4.3/06.html" target="_blank" rel="noopener noreferrer">Fannie Mae&apos;s Selling Guide (B3-4.3-06)</a>, equity from a borrower&apos;s owned property is an acceptable source of funds for down payment, provided it is properly documented. The key challenge is structuring the HELOC draw, seasoning timeline, and investment property financing so that the HELOC payment does not disqualify the borrower on DTI. A wholesale mortgage broker comparing products from 50+ Wholesale Lenders coordinates both sides of this transaction&mdash;sourcing the HELOC with the best terms and identifying investment property lenders with the most favorable policies for HELOC-sourced down payments.
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">coordinates HELOC sourcing and investment financing from</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders to optimize both sides of the transaction</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to optimize both sides of the transaction</td>
               </tr>
             </tbody>
           </table>
@@ -257,7 +257,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Structuring HELOC-Funded Investment Purchases</h3>
           <p className="text-blue-800 mb-0">
-            I have structured hundreds of HELOC-to-investment-property transactions for California and Washington investors. The most common mistake I see is drawing HELOC funds too close to the investment property closing date&mdash;the 60-day seasoning requirement catches investors off guard and delays their purchase. The second most common mistake is not calculating the DTI impact of the HELOC payment before applying for the investment property loan. When I structure these transactions, I coordinate the HELOC draw timing, season the funds properly, and then identify the investment property lender from 200+ wholesale options whose underwriting guidelines best accommodate HELOC-sourced down payments. This coordinated approach is the difference between a smooth closing and a last-minute scramble. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have structured hundreds of HELOC-to-investment-property transactions for California and Washington investors. The most common mistake I see is drawing HELOC funds too close to the investment property closing date&mdash;the 60-day seasoning requirement catches investors off guard and delays their purchase. The second most common mistake is not calculating the DTI impact of the HELOC payment before applying for the investment property loan. When I structure these transactions, I coordinate the HELOC draw timing, season the funds properly, and then identify the investment property lender from 50+ Wholesale Lenders whose underwriting guidelines best accommodate HELOC-sourced down payments. This coordinated approach is the difference between a smooth closing and a last-minute scramble. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -265,7 +265,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Ready to Use Your Home Equity for an Investment Property?</h3>
           <p className="text-green-800 mb-2">
-            Get a free HELOC quote and investment property financing strategy from 200+ lenders&mdash;coordinated by one broker.
+            Get a free HELOC quote and investment property financing strategy from 50+ Wholesale Lenders&mdash;coordinated by one broker.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
@@ -280,7 +280,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         </p>
 
         <ol>
-          <li><strong>Establish a HELOC on your primary residence:</strong> Apply for a home equity line of credit secured by your primary home. Most lenders allow a combined loan-to-value (CLTV) of 80&ndash;90%, which determines your maximum draw amount. A wholesale broker compares HELOC products from 200+ lenders to find the lowest rate and highest credit limit for your situation.</li>
+          <li><strong>Establish a HELOC on your primary residence:</strong> Apply for a home equity line of credit secured by your primary home. Most lenders allow a combined loan-to-value (CLTV) of 80&ndash;90%, which determines your maximum draw amount. A wholesale broker compares HELOC products from 50+ Wholesale Lenders to find the lowest rate and highest credit limit for your situation.</li>
           <li><strong>Draw the HELOC funds:</strong> Once the HELOC is open, draw the amount you need for the investment property down payment plus estimated closing costs. Transfer these funds to your checking or savings account.</li>
           <li><strong>Season the funds for 60 days:</strong> Most conventional lenders require the drawn funds to sit in your bank account for at least 60 days before they qualify as verified assets. This is the <Link href="/blog/cash-out-refinance-seasoning-requirements-2026" className="text-blue-600 hover:underline">seasoning requirement</Link> that catches unprepared investors. Plan your timeline accordingly.</li>
           <li><strong>Apply for investment property financing:</strong> With seasoned funds in your account, apply for a conventional loan, <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:underline">DSCR loan</Link>, or other investment property financing. The lender will verify the down payment source and include your HELOC payment in your DTI calculation.</li>
@@ -342,7 +342,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         <h3>Paper Trail Documentation Alternative</h3>
 
         <p>
-          Some lenders accept a <strong>clear paper trail</strong> instead of the full 60-day seasoning period. A paper trail means documenting the HELOC draw with the HELOC statement showing the advance, the bank statement showing the corresponding deposit, and a letter from the HELOC servicer confirming the draw. This approach works with certain conventional lenders and most <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline">DSCR lenders</Link>, but not all. A wholesale broker knows which of their 200+ lending partners accept paper trail documentation in lieu of full seasoning.
+          Some lenders accept a <strong>clear paper trail</strong> instead of the full 60-day seasoning period. A paper trail means documenting the HELOC draw with the HELOC statement showing the advance, the bank statement showing the corresponding deposit, and a letter from the HELOC servicer confirming the draw. This approach works with certain conventional lenders and most <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline">DSCR lenders</Link>, but not all. A wholesale broker knows which of their 50+ Wholesale Lenders accept paper trail documentation in lieu of full seasoning.
         </p>
 
         {/* Section 3: DTI Impact */}
@@ -461,7 +461,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Get Your HELOC + Investment Property Strategy Modeled</h3>
           <p className="text-green-800 mb-2">
-            I will calculate your maximum HELOC draw, DTI impact, and investment property purchasing power&mdash;then source both loans from 200+ lenders. No obligation.
+            I will calculate your maximum HELOC draw, DTI impact, and investment property purchasing power&mdash;then source both loans from 50+ Wholesale Lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -546,7 +546,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
         </ol>
 
         <p>
-          This combination is particularly effective for self-employed investors, W-2 employees with high existing DTI, and investors scaling beyond 4&ndash;10 financed properties where conventional lending guidelines become restrictive. A wholesale broker structures both sides of this transaction across 200+ lenders, identifying the best HELOC terms for the down payment draw and the strongest <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline">DSCR loan pricing</Link> for the investment property.
+          This combination is particularly effective for self-employed investors, W-2 employees with high existing DTI, and investors scaling beyond 4&ndash;10 financed properties where conventional lending guidelines become restrictive. A wholesale broker structures both sides of this transaction across 50+ Wholesale Lenders, identifying the best HELOC terms for the down payment draw and the strongest <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline">DSCR loan pricing</Link> for the investment property.
         </p>
 
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
@@ -657,7 +657,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Will my HELOC payment prevent me from qualifying for an investment property loan?</h3>
             <p className="mb-0">
-              <strong>Your HELOC payment will affect conventional loan qualification by increasing your DTI ratio, but it will not affect DSCR loan qualification because DSCR ratios are property-specific.</strong> Before drawing HELOC funds, calculate the DTI impact and ensure you still qualify for the investment property financing. A wholesale broker can run this analysis across 200+ lenders before you commit to the strategy.
+              <strong>Your HELOC payment will affect conventional loan qualification by increasing your DTI ratio, but it will not affect DSCR loan qualification because DSCR ratios are property-specific.</strong> Before drawing HELOC funds, calculate the DTI impact and ensure you still qualify for the investment property financing. A wholesale broker can run this analysis across 50+ Wholesale Lenders before you commit to the strategy.
             </p>
           </div>
 
@@ -685,7 +685,7 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale broker help with this strategy compared to a bank?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker coordinates both the HELOC and the investment property financing from 200+ lenders simultaneously&mdash;something a single bank cannot do.</strong> The broker identifies the HELOC with the lowest rate and highest credit limit, then matches you with the investment property lender that has the most favorable policies for HELOC-sourced down payments, the shortest seasoning requirements, and the best pricing. This dual-optimization is the core advantage of the wholesale channel.
+              <strong>A wholesale broker coordinates both the HELOC and the investment property financing from 50+ Wholesale Lenders simultaneously&mdash;something a single bank cannot do.</strong> The broker identifies the HELOC with the lowest rate and highest credit limit, then matches you with the investment property lender that has the most favorable policies for HELOC-sourced down payments, the shortest seasoning requirements, and the best pricing. This dual-optimization is the core advantage of the wholesale channel.
             </p>
           </div>
         </div>
@@ -715,14 +715,14 @@ export default function HELOCDownPaymentInvestmentPropertyPage() {
             <li><strong>Budget for 15&ndash;25% down plus closing costs:</strong> Conventional investment loans require 15% (1-unit) to 25% (2-4 units); DSCR loans require 20&ndash;25% regardless of unit count</li>
             <li><strong>HELOC revolving feature enables portfolio scaling:</strong> Repay the HELOC from rental income or investment property refinance proceeds, then draw again for the next acquisition</li>
             <li><strong>Consult your CPA on interest deductibility:</strong> HELOC interest used for investment property acquisition follows interest tracing rules that differ from personal residence deductions</li>
-            <li><strong>A wholesale broker optimizes both sides:</strong> Sourcing the HELOC and the investment property financing from 200+ lenders produces materially better outcomes than using a single bank</li>
+            <li><strong>A wholesale broker optimizes both sides:</strong> Sourcing the HELOC and the investment property financing from 50+ Wholesale Lenders produces materially better outcomes than using a single bank</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Free HELOC + Investment Property Financing Strategy</h3>
           <p className="text-green-800 text-lg mb-4">
-            Tell me about your primary residence equity and investment property goals&mdash;I will calculate your maximum HELOC draw, model the DTI impact, identify the best DSCR or conventional loan pairing from 200+ lenders, and coordinate the timing. No obligation, no pressure.
+            Tell me about your primary residence equity and investment property goals&mdash;I will calculate your maximum HELOC draw, model the DTI impact, identify the best DSCR or conventional loan pairing from 50+ Wholesale Lenders, and coordinate the timing. No obligation, no pressure.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

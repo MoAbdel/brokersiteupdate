@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) | Jumbo Loan Specialists',
-  description: 'Irvine Turtle Rock wholesale mortgage broker serving 92603. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
+  description: 'Irvine Turtle Rock wholesale mortgage broker serving 92603. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92603',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists',
-    description: 'Irvine Turtle Rock wholesale mortgage broker with 200+ lenders for jumbo loans up to $10M+.',
+    description: 'Irvine Turtle Rock wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $10M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92603',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92603Page() {
                 "name": "Why use a wholesale broker instead of Bank of America, Wells Fargo, or Chase in 92603?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your Irvine jumbo loan. Bank of America, Wells Fargo, and Chase offer only their own products at retail pricing. On a $1.8 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your Irvine jumbo loan. Bank of America, Wells Fargo, and Chase offer only their own products at retail pricing. On a $1.8 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92603Page() {
           Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Irvine&apos;s premier residential market
+          Access wholesale rates and 50+ Wholesale Lenders for Irvine&apos;s premier residential market
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92603 encompasses Orange County&apos;s most prestigious Irvine neighborhoods at a <strong>$2.2 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 52% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited flexibility. Our access to 200+ lenders delivers <strong>better rates than Bank of America, Wells Fargo, or Chase</strong> for Irvine buyers.
+            Irvine 92603 encompasses Orange County&apos;s most prestigious Irvine neighborhoods at a <strong>$2.2 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 52% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited flexibility. Our access to 50+ Wholesale Lenders delivers <strong>better rates than Bank of America, Wells Fargo, or Chase</strong> for Irvine buyers.
           </p>
         </div>
 
@@ -284,7 +284,7 @@ export default function WholesaleMortgageBroker92603Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why use a wholesale broker instead of Bank of America, Wells Fargo, or Chase in 92603?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your Irvine jumbo loan. Bank of America, Wells Fargo, and Chase offer only their own products at retail pricing. On a $1.8 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your Irvine jumbo loan. Bank of America, Wells Fargo, and Chase offer only their own products at retail pricing. On a $1.8 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What Irvine 92603 neighborhoods does your brokerage serve?</h3>

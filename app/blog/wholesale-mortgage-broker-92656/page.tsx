@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92656 | Aliso Viejo | Jumbo Loan Specialists',
-  description: 'Aliso Viejo wholesale mortgage broker serving 92656. Access 200+ lenders for jumbo loans in this family-friendly community. NMLS #1426884.',
+  description: 'Aliso Viejo wholesale mortgage broker serving 92656. Access 50+ Wholesale Lenders for jumbo loans in this family-friendly community. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92656 | Aliso Viejo Jumbo Specialists',
-    description: 'Aliso Viejo wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Aliso Viejo wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92656',
     type: 'article',
     publishedTime: '2026-02-02T00:00:00Z',
@@ -72,7 +72,7 @@ export default function WholesaleMortgageBroker92656Page() {
                 "name": "Why choose a wholesale broker over banks in Aliso Viejo?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For Aliso Viejo's mix of condos, townhomes, and single-family homes, wholesale brokers match you with the best program for your property type."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For Aliso Viejo's mix of condos, townhomes, and single-family homes, wholesale brokers match you with the best program for your property type."
                 }
               },
               {
@@ -112,7 +112,7 @@ export default function WholesaleMortgageBroker92656Page() {
                 "name": "Can I refinance my Aliso Viejo home through a wholesale broker?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale refinancing in Aliso Viejo saves homeowners an average of 0.25-0.50% compared to retail bank rates. Whether you need a rate-term refinance or cash-out refinance, 200+ lender access ensures the most competitive terms for your property."
+                  "text": "Yes. Wholesale refinancing in Aliso Viejo saves homeowners an average of 0.25-0.50% compared to retail bank rates. Whether you need a rate-term refinance or cash-out refinance, 50+ Wholesale Lenders ensures the most competitive terms for your property."
                 }
               }
             ]
@@ -152,7 +152,7 @@ export default function WholesaleMortgageBroker92656Page() {
           Wholesale Mortgage Broker 92656 | Aliso Viejo Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Aliso Viejo&apos;s family-friendly community
+          Access wholesale rates and 50+ Wholesale Lenders for Aliso Viejo&apos;s family-friendly community
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
       </header>
@@ -160,7 +160,7 @@ export default function WholesaleMortgageBroker92656Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Aliso Viejo 92656 attracts young professionals and families with its <strong>$1.1 million median home price</strong> and excellent schools &mdash; with year-over-year appreciation of 6.8% making early 2026 a strategic window for buyers. At the jumbo threshold where the 2026 conforming limit sits at $1,209,750, many 92656 buyers benefit from <strong>expert financing guidance</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates and helps you navigate the conforming-to-jumbo transition.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), Aliso Viejo 92656 attracts young professionals and families with its <strong>$1.1 million median home price</strong> and excellent schools &mdash; with year-over-year appreciation of 6.8% making early 2026 a strategic window for buyers. At the jumbo threshold where the 2026 conforming limit sits at $1,209,750, many 92656 buyers benefit from <strong>expert financing guidance</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates and helps you navigate the conforming-to-jumbo transition.
           </p>
         </div>
 
@@ -310,7 +310,7 @@ export default function WholesaleMortgageBroker92656Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over banks in Aliso Viejo?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while banks offer only their own products. For Aliso Viejo&apos;s mix of condos, townhomes, and single-family homes, wholesale brokers match you with the best program for your property type.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while banks offer only their own products. For Aliso Viejo&apos;s mix of condos, townhomes, and single-family homes, wholesale brokers match you with the best program for your property type.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92656 does your wholesale brokerage serve?</h3>
@@ -330,7 +330,7 @@ export default function WholesaleMortgageBroker92656Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Can I refinance my Aliso Viejo home through a wholesale broker?</h3>
-            <p className="mb-0">Yes. Wholesale refinancing in Aliso Viejo saves homeowners an average of 0.25-0.50% compared to retail bank rates. Whether you need a rate-term refinance or cash-out refinance, 200+ lender access ensures the most competitive terms for your property.</p>
+            <p className="mb-0">Yes. Wholesale refinancing in Aliso Viejo saves homeowners an average of 0.25-0.50% compared to retail bank rates. Whether you need a rate-term refinance or cash-out refinance, 50+ Wholesale Lenders ensures the most competitive terms for your property.</p>
           </div>
         </div>
 

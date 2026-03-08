@@ -660,7 +660,7 @@ export default function HomeEquityLoanPage() {
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-xl mt-12 not-prose">
           <h3 className="text-2xl font-bold mb-4">Find the Right Home Equity Solution</h3>
           <p className="text-slate-200 mb-6">
-            With access to 200+ lenders, I can help you compare home equity loans, HELOCs, and
+            With access to 50+ Wholesale Lenders, I can help you compare home equity loans, HELOCs, and
             cash-out refinance options to find the best fit for your goals and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

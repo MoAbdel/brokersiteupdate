@@ -649,7 +649,7 @@ export default function HowDoesHELOCWorkPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4">Ready to Explore HELOC Options for Your Home?</h2>
 
           <p>
-            Mo Abdel, NMLS #1426884, helps Orange County homeowners navigate HELOC options from multiple lenders. As a wholesale mortgage broker with access to over 200 lenders, Mo provides competitive rate comparisons and personalized guidance for accessing your home equity efficiently.
+            Mo Abdel, NMLS #1426884, helps Orange County homeowners navigate HELOC options from multiple lenders. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, Mo provides competitive rate comparisons and personalized guidance for accessing your home equity efficiently.
           </p>
 
           <p>

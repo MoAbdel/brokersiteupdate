@@ -61,7 +61,7 @@ export default function SelfEmployedMortgageBrokerPage() {
                 "name": "Can I get a mortgage if I'm self-employed?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 200+ specialized lenders."
+                  "text": "Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 50+ Wholesale Lenders."
                 }
               },
               {
@@ -117,7 +117,7 @@ export default function SelfEmployedMortgageBrokerPage() {
                 "name": "Do self-employed borrowers pay higher mortgage rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Non-QM programs like bank statement loans do carry slightly higher rates than conventional full-documentation mortgages, typically ranging from 0.5% to 1.5% above conventional rates. However, wholesale broker access to 200+ lenders creates competitive pricing pressure. Many self-employed borrowers find that qualifying for a larger loan at a slightly higher rate beats being denied or limited to a smaller loan at a conventional bank."
+                  "text": "Non-QM programs like bank statement loans do carry slightly higher rates than conventional full-documentation mortgages, typically ranging from 0.5% to 1.5% above conventional rates. However, wholesale broker access to 50+ Wholesale Lenders creates competitive pricing pressure. Many self-employed borrowers find that qualifying for a larger loan at a slightly higher rate beats being denied or limited to a smaller loan at a conventional bank."
                 }
               },
               {
@@ -146,7 +146,7 @@ export default function SelfEmployedMortgageBrokerPage() {
           Self-Employed? Why You Need a Wholesale Mortgage Broker [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          Bank statement loans, asset depletion, and 200+ lenders that understand self-employment
+          Bank statement loans, asset depletion, and 50+ Wholesale Lenders that understand self-employment
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | <time dateTime="2026-02-22">Updated February 22, 2026</time></p>
       </header>
@@ -154,7 +154,7 @@ export default function SelfEmployedMortgageBrokerPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Self-employed borrowers face unique mortgage challenges that wholesale brokers solve through access to <strong>bank statement loans, asset depletion programs, and 200+ lenders</strong> with varying income calculation methods.&quot; The Bureau of Labor Statistics reports 16.5 million Americans are self-employed as of Q4 2025, yet traditional lenders deny 40-60% of self-employed mortgage applications due to tax-return-based income calculations. While banks require tax returns that understate self-employed income, wholesale lenders look at actual cash flow&mdash;often qualifying borrowers for significantly more than banks would approve. For more on non-QM options, see our <a href="/blog/non-qm-loans-wholesale-broker-2026">non-QM wholesale guide</a>.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;Self-employed borrowers face unique mortgage challenges that wholesale brokers solve through access to <strong>bank statement loans, asset depletion programs, and 50+ Wholesale Lenders</strong> with varying income calculation methods.&quot; The Bureau of Labor Statistics reports 16.5 million Americans are self-employed as of Q4 2025, yet traditional lenders deny 40-60% of self-employed mortgage applications due to tax-return-based income calculations. While banks require tax returns that understate self-employed income, wholesale lenders look at actual cash flow&mdash;often qualifying borrowers for significantly more than banks would approve. For more on non-QM options, see our <a href="/blog/non-qm-loans-wholesale-broker-2026">non-QM wholesale guide</a>.
           </p>
         </div>
 
@@ -204,7 +204,7 @@ export default function SelfEmployedMortgageBrokerPage() {
 
         <h3>Single-Lender Denial = Dead End</h3>
         <p>
-          When a bank denies your application, you have one option: start over somewhere else. With a wholesale broker, if one lender says no, you can try another lender the same day—each of 200+ lenders has different guidelines.
+          When a bank denies your application, you have one option: start over somewhere else. With a wholesale broker, if one lender says no, you can try another lender the same day—each of 50+ Wholesale Lenders has different guidelines.
         </p>
 
         <h2>How Wholesale Brokers Solve Self-Employed Challenges</h2>
@@ -329,7 +329,7 @@ export default function SelfEmployedMortgageBrokerPage() {
             </thead>
             <tbody>
               <tr><td className="py-2 px-4 border-b">Bank statement programs</td><td className="py-2 px-4 border-b">Actual deposits = real income</td></tr>
-              <tr><td className="py-2 px-4 border-b">200+ lender options</td><td className="py-2 px-4 border-b">Find lender that fits your situation</td></tr>
+              <tr><td className="py-2 px-4 border-b">50+ Wholesale Lenders</td><td className="py-2 px-4 border-b">Find lender that fits your situation</td></tr>
               <tr><td className="py-2 px-4 border-b">Varied guidelines</td><td className="py-2 px-4 border-b">Each lender calculates differently</td></tr>
               <tr><td className="py-2 px-4 border-b">Multiple doc types</td><td className="py-2 px-4 border-b">P&L, 1099, assets, bank statements</td></tr>
               <tr><td className="py-2 px-4">If denied, try another</td><td className="py-2 px-4">Same-day alternative options</td></tr>
@@ -337,9 +337,9 @@ export default function SelfEmployedMortgageBrokerPage() {
           </table>
         </div>
 
-        <h2>The 200+ Lender Advantage for Self-Employed</h2>
+        <h2>50+ Wholesale Lenders for Self-Employed</h2>
         <p>
-          Each of 200+ wholesale lenders has different guidelines. This matters enormously for self-employed borrowers:
+          Each of 50+ Wholesale Lenders has different guidelines. This matters enormously for self-employed borrowers:
         </p>
 
         <h3>Different Income Calculations</h3>
@@ -459,7 +459,7 @@ export default function SelfEmployedMortgageBrokerPage() {
 
         <h3>Can I get a mortgage if I'm self-employed?</h3>
         <p>
-          Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 200+ specialized lenders.
+          Yes. Self-employed borrowers have multiple mortgage options including bank statement loans (using 12-24 months of deposits), asset depletion programs (using investments to qualify), and P&L loans (using CPA-prepared financials). Wholesale brokers access these programs from 50+ Wholesale Lenders.
         </p>
 
         <h3>Why do banks deny self-employed borrowers?</h3>
@@ -484,7 +484,7 @@ export default function SelfEmployedMortgageBrokerPage() {
 
         <h2>Get Started: Self-Employed Mortgage Solutions</h2>
         <p>
-          If you're self-employed and have been denied by banks or told you don't qualify for the home you want, a wholesale mortgage broker can help. With access to 200+ lenders offering bank statement, asset depletion, and other self-employed programs, there's likely a solution for your situation.
+          If you're self-employed and have been denied by banks or told you don't qualify for the home you want, a wholesale mortgage broker can help. With access to 50+ Wholesale Lenders offering bank statement, asset depletion, and other self-employed programs, there's likely a solution for your situation.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

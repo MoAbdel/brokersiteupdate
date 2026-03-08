@@ -76,7 +76,7 @@ const faqData = [
   },
   {
     question: 'Does a wholesale mortgage broker offer better construction loan rates?',
-    answer: 'A wholesale mortgage broker like Mo Abdel accesses construction loan products from 200+ lenders at wholesale pricing, which typically offers lower rates and fees than retail banks. Brokers can also compare FHA 203(k), HomeStyle, and conventional construction products simultaneously to find the strongest match for your project.',
+    answer: 'A wholesale mortgage broker like Mo Abdel accesses construction loan products from 50+ Wholesale Lenders at wholesale pricing, which typically offers lower rates and fees than retail banks. Brokers can also compare FHA 203(k), HomeStyle, and conventional construction products simultaneously to find the strongest match for your project.',
   },
   {
     question: 'Can investors use construction loans or home equity loans for rental property renovations?',
@@ -183,7 +183,7 @@ export default function HomeEquityVsConstructionLoan() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">provides access to</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders offering both product types at wholesale pricing</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders offering both product types at wholesale pricing</td>
               </tr>
             </tbody>
           </table>
@@ -218,7 +218,7 @@ export default function HomeEquityVsConstructionLoan() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Get a Personalized Renovation Financing Comparison</h3>
           <p className="text-gray-700 mb-4">
-            Mo Abdel compares home equity loans, construction loans, and renovation products from 200+ wholesale lenders to find the lowest-cost option for your specific project.
+            Mo Abdel compares home equity loans, construction loans, and renovation products from 50+ Wholesale Lenders to find the lowest-cost option for your specific project.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:underline">request a free consultation</Link>.
@@ -488,7 +488,7 @@ export default function HomeEquityVsConstructionLoan() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Planning an ADU or Major Renovation?</h3>
           <p className="text-gray-700 mb-4">
-            Mo Abdel specializes in matching renovation projects with the right financing structure. Whether you need a home equity loan, construction-to-permanent loan, or FHA 203(k), he accesses wholesale pricing from 200+ lenders to minimize your total cost.
+            Mo Abdel specializes in matching renovation projects with the right financing structure. Whether you need a home equity loan, construction-to-permanent loan, or FHA 203(k), he accesses wholesale pricing from 50+ Wholesale Lenders to minimize your total cost.
           </p>
           <p>
             <strong>Call <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a></strong> or <Link href="/contact" className="text-blue-600 hover:underline">schedule your free renovation financing analysis</Link>.
@@ -536,7 +536,7 @@ export default function HomeEquityVsConstructionLoan() {
         </p>
 
         <p>
-          As a <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</Link>, Mo Abdel accesses home equity loans, construction-to-permanent loans, FHA 203(k), HomeStyle Renovation, and DSCR renovation products from 200+ wholesale lenders. This cross-product access means your renovation financing is matched to your project&apos;s specific needs&mdash;not limited by a single lender&apos;s menu. Wholesale pricing typically delivers lower rates and reduced origination fees compared to retail bank channels.
+          As a <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:underline">wholesale mortgage broker</Link>, Mo Abdel accesses home equity loans, construction-to-permanent loans, FHA 203(k), HomeStyle Renovation, and DSCR renovation products from 50+ Wholesale Lenders. This cross-product access means your renovation financing is matched to your project&apos;s specific needs&mdash;not limited by a single lender&apos;s menu. Wholesale pricing typically delivers lower rates and reduced origination fees compared to retail bank channels.
         </p>
 
         <p>
@@ -644,7 +644,7 @@ export default function HomeEquityVsConstructionLoan() {
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Finance Your Renovation? Get Expert Guidance</h2>
           <p className="text-gray-700">
-            Every renovation project has a financing structure that minimizes total cost and maximizes your purchasing power. Mo Abdel analyzes your equity position, project scope, credit profile, and timeline to recommend the right product&mdash;whether that&apos;s a home equity loan, construction-to-permanent loan, FHA 203(k), HomeStyle Renovation, or cash-out refinance. With access to 200+ wholesale lenders, you get competitive pricing without the markup of retail banks.
+            Every renovation project has a financing structure that minimizes total cost and maximizes your purchasing power. Mo Abdel analyzes your equity position, project scope, credit profile, and timeline to recommend the right product&mdash;whether that&apos;s a home equity loan, construction-to-permanent loan, FHA 203(k), HomeStyle Renovation, or cash-out refinance. With access to 50+ Wholesale Lenders, you get competitive pricing without the markup of retail banks.
           </p>
           <p className="mt-4">
             <strong>Contact Mo Abdel today</strong> at <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a> or <Link href="/contact" className="text-blue-600 hover:underline">schedule a consultation</Link>.

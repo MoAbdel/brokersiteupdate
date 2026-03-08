@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92603 | Irvine Turtle Rock Jumbo Loans | Mo Abdel',
-  description: 'Irvine Turtle Rock 92603 wholesale mortgage broker with 200+ lender access. Jumbo loans for self-employed, Shady Canyon & Turtle Ridge financing. NMLS #1426884.',
+  description: 'Irvine Turtle Rock 92603 wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans for self-employed, Shady Canyon & Turtle Ridge financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026',
     languages: {
@@ -81,7 +81,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
                 "name": "Why use wholesale for 92603 instead of Irvine banks?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers access 200+ lenders versus one bank's limited products. For Turtle Rock's $2.2M median price, this means more jumbo options, self-employed programs, and competitive rate shopping unavailable at single institutions."
+                  "text": "Wholesale brokers access 50+ Wholesale Lenders versus one bank's limited products. For Turtle Rock's $2.2M median price, this means more jumbo options, self-employed programs, and competitive rate shopping unavailable at single institutions."
                 }
               }
             ]
@@ -116,14 +116,14 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
           Wholesale Mortgage Broker 92603 | Irvine Turtle Rock & Shady Canyon Specialist
         </h1>
         <p className="text-lg text-gray-600">
-          200+ lender access for Turtle Rock, Shady Canyon & Turtle Ridge jumbo financing
+          50+ Wholesale Lenders for Turtle Rock, Shady Canyon & Turtle Ridge jumbo financing
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine 92603 includes Turtle Rock, Shady Canyon, and Turtle Ridge—some of Orange County&apos;s most desirable master-planned communities with a <strong>median home price of $2.2 million</strong>. This area attracts tech executives, entrepreneurs, and medical professionals who often have complex income situations requiring specialized financing. Mo Abdel at Lumin Lending provides <strong>200+ wholesale lender relationships</strong> with expertise in self-employed, RSU income, and high-balance jumbo programs.
+            Irvine 92603 includes Turtle Rock, Shady Canyon, and Turtle Ridge—some of Orange County&apos;s most desirable master-planned communities with a <strong>median home price of $2.2 million</strong>. This area attracts tech executives, entrepreneurs, and medical professionals who often have complex income situations requiring specialized financing. Mo Abdel at Lumin Lending provides <strong>50+ Wholesale Lenders</strong> with expertise in self-employed, RSU income, and high-balance jumbo programs.
           </p>
         </div>
 
@@ -227,7 +227,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
               <tr><td className="py-2 px-4 border-b font-semibold">Lender Options</td><td className="py-2 px-4 border-b">1</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">Self-Employed</td><td className="py-2 px-4 border-b">Tax returns required</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Bank statement options</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">RSU Income</td><td className="py-2 px-4 border-b">Varies</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Specialized lenders</td></tr>
-              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">200+ lenders</td></tr>
+              <tr><td className="py-2 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-2 px-4 border-b">1 product</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-2 px-4 border-b font-semibold">$3M+ Loans</td><td className="py-2 px-4 border-b">Limited</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Multiple options</td></tr>
               <tr><td className="py-2 px-4 font-semibold">Denied Fallback</td><td className="py-2 px-4">Start over</td><td className="py-2 px-4 text-blue-700 font-semibold">Pivot same day</td></tr>
             </tbody>
@@ -280,7 +280,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
 
         <h3>Why use wholesale for 92603 instead of Irvine banks?</h3>
         <p>
-          Wholesale brokers access 200+ lenders versus one bank&apos;s limited products. For Turtle Rock&apos;s $2.2M median price and high self-employed population, this means more jumbo options, specialized self-employed programs, and competitive rate shopping unavailable at single institutions. If one lender declines, brokers pivot to another same-day without starting the process over.
+          Wholesale brokers access 50+ Wholesale Lenders versus one bank&apos;s limited products. For Turtle Rock&apos;s $2.2M median price and high self-employed population, this means more jumbo options, specialized self-employed programs, and competitive rate shopping unavailable at single institutions. If one lender declines, brokers pivot to another same-day without starting the process over.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

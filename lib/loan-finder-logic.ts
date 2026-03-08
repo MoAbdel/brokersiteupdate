@@ -118,7 +118,7 @@ export function getQuizResult(answers: QuizAnswers): QuizResult {
         confidence: 'likely',
         reasons: [
           'Your situation has variables that a calculator can\'t capture well',
-          'That\'s actually common — and exactly why working with a broker who accesses 200+ lenders matters',
+          'That\'s actually common — and exactly why working with a broker who accesses 50+ Wholesale Lenders matters',
         ],
         calculatorLink: null,
         calculatorLabel: null,

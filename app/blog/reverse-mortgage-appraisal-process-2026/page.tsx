@@ -191,7 +191,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
           Reverse Mortgage Appraisal Process: FHA Requirements &amp; What to Expect [2026]
         </h1>
         <p className="text-lg text-gray-600">
-          A complete guide to the HECM appraisal process&mdash;covering FHA Roster appraiser requirements, minimum property standards, health and safety inspections, repair set-asides, second appraisal triggers, appraisal costs and timeline, how appraised value determines your principal limit, and how a wholesale broker navigates appraisal issues across 200+ HECM lenders.
+          A complete guide to the HECM appraisal process&mdash;covering FHA Roster appraiser requirements, minimum property standards, health and safety inspections, repair set-asides, second appraisal triggers, appraisal costs and timeline, how appraised value determines your principal limit, and how a wholesale broker navigates appraisal issues across 50+ Wholesale Lenders.
         </p>
         <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
       </header>
@@ -200,7 +200,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, the reverse mortgage appraisal is <strong>the single most consequential step in the HECM process because it determines both eligibility and how much money you can access</strong>. Every HECM reverse mortgage requires an appraisal by an <a href="https://entp.hud.gov/idapp/html/apprlook.cfm" target="_blank" rel="noopener noreferrer">FHA Roster appraiser</a>&mdash;a licensed appraiser specifically approved by the Federal Housing Administration. According to <a href="https://www.hud.gov/program_offices/housing/sfh/hecm" target="_blank" rel="noopener noreferrer">HUD&apos;s HECM program guidelines</a>, the appraisal must confirm the property meets FHA Minimum Property Requirements (MPR) and establish the home&apos;s market value, which directly feeds into the principal limit calculation. Appraisals typically cost $400&ndash;$700 and take 2&ndash;3 weeks to complete. A wholesale mortgage broker working with 200+ HECM lenders understands how different lenders handle appraisal issues&mdash;including repair set-asides, second appraisal triggers, and valuation disputes&mdash;and routes your application to the lender most likely to move forward smoothly.
+            According to Mo Abdel, NMLS #1426884, the reverse mortgage appraisal is <strong>the single most consequential step in the HECM process because it determines both eligibility and how much money you can access</strong>. Every HECM reverse mortgage requires an appraisal by an <a href="https://entp.hud.gov/idapp/html/apprlook.cfm" target="_blank" rel="noopener noreferrer">FHA Roster appraiser</a>&mdash;a licensed appraiser specifically approved by the Federal Housing Administration. According to <a href="https://www.hud.gov/program_offices/housing/sfh/hecm" target="_blank" rel="noopener noreferrer">HUD&apos;s HECM program guidelines</a>, the appraisal must confirm the property meets FHA Minimum Property Requirements (MPR) and establish the home&apos;s market value, which directly feeds into the principal limit calculation. Appraisals typically cost $400&ndash;$700 and take 2&ndash;3 weeks to complete. A wholesale mortgage broker working with 50+ Wholesale Lenders understands how different lenders handle appraisal issues&mdash;including repair set-asides, second appraisal triggers, and valuation disputes&mdash;and routes your application to the lender most likely to move forward smoothly.
           </p>
         </div>
 
@@ -234,7 +234,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">navigates appraisal issues across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ HECM lenders to find the best resolution path</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders to find the best resolution path</td>
               </tr>
             </tbody>
           </table>
@@ -263,7 +263,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Navigating HECM Appraisals</h3>
           <p className="text-blue-800 mb-0">
-            I have guided hundreds of California and Washington homeowners age 62 and older through the HECM appraisal process. The most common issue I encounter is borrowers who are surprised by repair requirements&mdash;especially peeling paint on pre-1978 homes and deferred maintenance on roofing or HVAC systems. The second most common issue is appraisal values that come in lower than expected, which directly reduces the available proceeds. Because I work with 200+ HECM lenders, I know which lenders offer the most flexible repair set-aside policies, which are most accommodating on Reconsideration of Value requests, and which have the fastest appraisal turnaround times in specific geographic areas. This knowledge allows me to route each application to the lender that gives the borrower the best chance of a smooth appraisal outcome. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have guided hundreds of California and Washington homeowners age 62 and older through the HECM appraisal process. The most common issue I encounter is borrowers who are surprised by repair requirements&mdash;especially peeling paint on pre-1978 homes and deferred maintenance on roofing or HVAC systems. The second most common issue is appraisal values that come in lower than expected, which directly reduces the available proceeds. Because I work with 50+ Wholesale Lenders, I know which lenders offer the most flexible repair set-aside policies, which are most accommodating on Reconsideration of Value requests, and which have the fastest appraisal turnaround times in specific geographic areas. This knowledge allows me to route each application to the lender that gives the borrower the best chance of a smooth appraisal outcome. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -271,7 +271,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Considering a Reverse Mortgage?</h3>
           <p className="text-green-800 mb-2">
-            Get a free assessment of your home&apos;s HECM eligibility and estimated principal limit from a broker who works with 200+ lenders.
+            Get a free assessment of your home&apos;s HECM eligibility and estimated principal limit from a broker who works with 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a> | <Link href="/contact" className="text-green-700 hover:underline">Request Online Quote</Link>
@@ -495,14 +495,14 @@ export default function ReverseMortgageAppraisalProcessPage() {
         </div>
 
         <p>
-          Not all lenders handle repair set-asides the same way. Some HECM lenders are more accommodating with set-asides than others, and some have lower caps on the maximum set-aside amount. This is where a wholesale broker&apos;s knowledge of 200+ lenders becomes critical&mdash;matching the borrower&apos;s situation to the lender with the most favorable repair set-aside policy. For related information on HECM costs and fees, see our <Link href="/blog/reverse-mortgage-closing-costs-guide-2026" className="text-blue-600 hover:underline">reverse mortgage closing costs guide</Link>.
+          Not all lenders handle repair set-asides the same way. Some HECM lenders are more accommodating with set-asides than others, and some have lower caps on the maximum set-aside amount. This is where a wholesale broker&apos;s knowledge of 50+ Wholesale Lenders becomes critical&mdash;matching the borrower&apos;s situation to the lender with the most favorable repair set-aside policy. For related information on HECM costs and fees, see our <Link href="/blog/reverse-mortgage-closing-costs-guide-2026" className="text-blue-600 hover:underline">reverse mortgage closing costs guide</Link>.
         </p>
 
         {/* CTA 2: Mid-Article CTA */}
         <div className="bg-green-50 p-6 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-xl font-bold text-green-900 mt-0">Have Questions About HECM Appraisal Requirements?</h3>
           <p className="text-green-800 mb-2">
-            I will review your property details and identify potential appraisal issues before you apply. Free consultation with a broker who works with 200+ HECM lenders.
+            I will review your property details and identify potential appraisal issues before you apply. Free consultation with a broker who works with 50+ Wholesale Lenders.
           </p>
           <p className="text-green-900 font-bold text-lg mb-0">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>
@@ -695,7 +695,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage in Navigating HECM Appraisal Issues</h2>
 
         <p>
-          The HECM appraisal process creates several decision points where lender selection directly affects the outcome. Different HECM lenders have different policies on repair set-asides, different approaches to Reconsideration of Value requests, and different levels of experience with complex appraisal situations. A wholesale broker who works with 200+ lenders knows which lender is the best fit for each specific situation.
+          The HECM appraisal process creates several decision points where lender selection directly affects the outcome. Different HECM lenders have different policies on repair set-asides, different approaches to Reconsideration of Value requests, and different levels of experience with complex appraisal situations. A wholesale broker who works with 50+ Wholesale Lenders knows which lender is the best fit for each specific situation.
         </p>
 
         <h3>Where Lender Selection Matters in the Appraisal Process</h3>
@@ -813,7 +813,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Does a wholesale broker help with appraisal problems on a reverse mortgage?</h3>
             <p className="mb-0">
-              <strong>Yes, a wholesale broker who works with 200+ HECM lenders knows which lenders have the most flexible repair set-aside policies, fastest appraisal turnaround, and strongest ROV support.</strong> If an appraisal issue arises with one lender, a broker can evaluate whether a different lender&apos;s policies would produce a better outcome without starting the entire process over.
+              <strong>Yes, a wholesale broker who works with 50+ Wholesale Lenders knows which lenders have the most flexible repair set-aside policies, fastest appraisal turnaround, and strongest ROV support.</strong> If an appraisal issue arises with one lender, a broker can evaluate whether a different lender&apos;s policies would produce a better outcome without starting the entire process over.
             </p>
           </div>
         </div>
@@ -843,14 +843,14 @@ export default function ReverseMortgageAppraisalProcessPage() {
             <li><strong>Repair set-asides provide flexibility:</strong> You do not always need to complete repairs before closing&mdash;many lenders allow set-asides from your proceeds</li>
             <li><strong>Second appraisals are FHA-triggered and use the lower value:</strong> If your property triggers a second appraisal, your available proceeds may decrease</li>
             <li><strong>Appraised value directly controls your principal limit:</strong> Every dollar of appraised value translates to additional available proceeds (up to the FHA cap)</li>
-            <li><strong>A wholesale broker navigates appraisal issues across 200+ lenders:</strong> Different lenders handle repair set-asides, ROV requests, and second appraisals differently&mdash;broker knowledge finds the best path forward</li>
+            <li><strong>A wholesale broker navigates appraisal issues across 50+ Wholesale Lenders:</strong> Different lenders handle repair set-asides, ROV requests, and second appraisals differently&mdash;broker knowledge finds the best path forward</li>
           </ol>
         </div>
 
         <div className="bg-green-50 p-8 rounded-xl border border-green-200 my-8 text-center">
           <h3 className="text-2xl font-bold text-green-900 mt-0">Get Your Free HECM Assessment</h3>
           <p className="text-green-800 text-lg mb-4">
-            I will evaluate your property&apos;s HECM eligibility, identify potential appraisal concerns, and estimate your principal limit based on current FHA factors. Free consultation with a broker who works with 200+ HECM lenders. No obligation.
+            I will evaluate your property&apos;s HECM eligibility, identify potential appraisal concerns, and estimate your principal limit based on current FHA factors. Free consultation with a broker who works with 50+ Wholesale Lenders. No obligation.
           </p>
           <p className="text-green-900 font-bold text-xl mb-2">
             Call Mo Abdel: <a href="tel:9495792057" className="text-green-700 hover:underline">(949) 579-2057</a>

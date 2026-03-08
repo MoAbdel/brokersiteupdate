@@ -53,7 +53,7 @@ export default function HomeEquityBeverlyHillsPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Beverly Hills homeowners have built substantial equity in one of America's most exclusive markets. With median values exceeding <strong>$5.5 million</strong>, qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. As a wholesale broker, I access specialized jumbo equity programs from 200+ lenders.
+            Beverly Hills homeowners have built substantial equity in one of America's most exclusive markets. With median values exceeding <strong>$5.5 million</strong>, qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. As a wholesale broker, I access specialized jumbo equity programs from 50+ Wholesale Lenders.
           </p>
         </div>
 

@@ -521,7 +521,7 @@ export default function CashOutRefinancePage() {
             {
               subject: 'Wholesale broker cash-out rates',
               predicate: 'are typically lower than retail because',
-              object: 'brokers access lender-direct pricing from 200+ wholesale lenders simultaneously',
+              object: 'brokers access lender-direct pricing from 50+ Wholesale Lenders simultaneously',
             },
           ]}
         />

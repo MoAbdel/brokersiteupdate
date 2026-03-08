@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker Bay Area Guide: SF, Peninsula, East Bay & Silicon Valley Jumbo Strategy [2026] | Mo Abdel',
   description:
-    'Wholesale mortgage broker Bay Area guide (2026). How broker access to 200+ lenders helps Bay Area buyers and homeowners with jumbo loans, RSU/bonus income, and competitive timelines. NMLS #1426884.',
+    'Wholesale mortgage broker Bay Area guide (2026). How broker access to 50+ Wholesale Lenders helps Bay Area buyers and homeowners with jumbo loans, RSU/bonus income, and competitive timelines. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Bay Area',
     'San Francisco mortgage broker',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92663 | Newport Beach (Peninsula) | Jumbo Loan Specialists',
-  description: 'Newport Peninsula wholesale mortgage broker serving 92663. Access 200+ lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
+  description: 'Newport Peninsula wholesale mortgage broker serving 92663. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92663',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92663 | Newport Beach (Peninsula) Jumbo Loan Specialists',
-    description: 'Newport Peninsula wholesale mortgage broker with 200+ lenders for jumbo loans up to $10M+.',
+    description: 'Newport Peninsula wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $10M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92663',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92663Page() {
                 "name": "Why use a wholesale broker instead of Wells Fargo or Chase in 92663?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your Newport Peninsula jumbo loan. Wells Fargo and Chase offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your Newport Peninsula jumbo loan. Wells Fargo and Chase offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92663Page() {
           Wholesale Mortgage Broker 92663 | Newport Beach (Peninsula) Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Newport Peninsula&apos;s beach lifestyle market
+          Access wholesale rates and 50+ Wholesale Lenders for Newport Peninsula&apos;s beach lifestyle market
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Newport Peninsula 92663 delivers classic California beach living at a <strong>$3.0 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 38% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited options. Our access to 200+ lenders delivers <strong>better rates than Wells Fargo or Chase</strong> for Newport Peninsula buyers.
+            Newport Peninsula 92663 delivers classic California beach living at a <strong>$3.0 million median home price</strong>. When the 2026 conforming limit of $1,209,750 covers only 38% of the typical purchase, you need a <strong>wholesale mortgage broker</strong> with jumbo and bank statement expertise—not a bank with limited options. Our access to 50+ Wholesale Lenders delivers <strong>better rates than Wells Fargo or Chase</strong> for Newport Peninsula buyers.
           </p>
         </div>
 
@@ -284,7 +284,7 @@ export default function WholesaleMortgageBroker92663Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why use a wholesale broker instead of Wells Fargo or Chase in 92663?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your Newport Peninsula jumbo loan. Wells Fargo and Chase offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your Newport Peninsula jumbo loan. Wells Fargo and Chase offer only their own products at retail pricing. On a $2.5 million mortgage, wholesale access typically delivers better rates without requiring large deposit relationships.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What Newport Peninsula neighborhoods does your brokerage serve?</h3>

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Can you get a HELOC on a rental or investment property?',
-    answer: 'Yes, you can get a HELOC on a rental or investment property, but it is significantly harder than getting a HELOC on a primary residence. Fewer lenders offer investment property HELOCs, LTV limits are lower (typically 65% to 75% combined LTV versus 80% to 90% for primary residences), interest rates carry a premium of 0.5% to 1.5% above primary residence HELOC rates, and qualification requirements are stricter. A wholesale broker with access to 200+ lenders is essential because many retail banks do not offer investment property HELOCs at all, while certain wholesale and portfolio lenders specialize in this product.',
+    answer: 'Yes, you can get a HELOC on a rental or investment property, but it is significantly harder than getting a HELOC on a primary residence. Fewer lenders offer investment property HELOCs, LTV limits are lower (typically 65% to 75% combined LTV versus 80% to 90% for primary residences), interest rates carry a premium of 0.5% to 1.5% above primary residence HELOC rates, and qualification requirements are stricter. A wholesale broker with access to 50+ Wholesale Lenders is essential because many retail banks do not offer investment property HELOCs at all, while certain wholesale and portfolio lenders specialize in this product.',
   },
   {
     question: 'What are the LTV limits for a HELOC on an investment property?',
@@ -44,7 +44,7 @@ const faqData = [
   },
   {
     question: 'How much higher are HELOC rates on rental properties compared to primary residences?',
-    answer: 'Investment property HELOC rates typically carry a premium of 0.5% to 1.5% above comparable primary residence HELOC rates. The exact premium depends on the lender, your credit score, the LTV, and the property type (single-family rental vs multi-unit). Some lenders apply a flat rate adder (e.g., +0.75%), while others use a separate pricing tier for investment properties. A wholesale broker comparing rates from 200+ lenders identifies the smallest premium available for your specific profile.',
+    answer: 'Investment property HELOC rates typically carry a premium of 0.5% to 1.5% above comparable primary residence HELOC rates. The exact premium depends on the lender, your credit score, the LTV, and the property type (single-family rental vs multi-unit). Some lenders apply a flat rate adder (e.g., +0.75%), while others use a separate pricing tier for investment properties. A wholesale broker comparing rates from 50+ Wholesale Lenders identifies the smallest premium available for your specific profile.',
   },
   {
     question: 'What credit score do I need for an investment property HELOC?',
@@ -60,7 +60,7 @@ const faqData = [
   },
   {
     question: 'How many rental properties can I have HELOCs on simultaneously?',
-    answer: 'There is no universal limit on the number of rental properties you can have HELOCs on, but each lender sets its own portfolio concentration limits. Many lenders restrict investment property HELOCs to borrowers with 4 or fewer financed properties. Some portfolio lenders accommodate borrowers with 5 to 10 financed properties but may require higher credit scores, lower LTV, and additional reserves. Borrowers with 10+ financed properties typically need to work with specialty lenders that a wholesale broker can identify from a 200+ lender network.',
+    answer: 'There is no universal limit on the number of rental properties you can have HELOCs on, but each lender sets its own portfolio concentration limits. Many lenders restrict investment property HELOCs to borrowers with 4 or fewer financed properties. Some portfolio lenders accommodate borrowers with 5 to 10 financed properties but may require higher credit scores, lower LTV, and additional reserves. Borrowers with 10+ financed properties typically need to work with specialty lenders that a wholesale broker can identify from a 50+ Wholesale Lenders.',
   },
   {
     question: 'What reserves are required for an investment property HELOC?',
@@ -72,7 +72,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help me get a HELOC on an investment property?',
-    answer: 'A wholesale broker adds critical value for investment property HELOCs because this product has the most variation in availability and pricing across lenders. Many retail banks and credit unions do not offer investment property HELOCs at all. A wholesale broker with access to 200+ lenders identifies which lenders actively offer the product, compares rate premiums and LTV limits across those lenders, matches your specific property type (SFR, 2-4 unit, condo) and financial profile to the lenders with the most favorable terms, and navigates the stricter underwriting requirements. Without broker access, you may apply to multiple banks and get declined before finding a lender that offers the product.',
+    answer: 'A wholesale broker adds critical value for investment property HELOCs because this product has the most variation in availability and pricing across lenders. Many retail banks and credit unions do not offer investment property HELOCs at all. A wholesale broker with access to 50+ Wholesale Lenders identifies which lenders actively offer the product, compares rate premiums and LTV limits across those lenders, matches your specific property type (SFR, 2-4 unit, condo) and financial profile to the lenders with the most favorable terms, and navigates the stricter underwriting requirements. Without broker access, you may apply to multiple banks and get declined before finding a lender that offers the product.',
   },
 ];
 
@@ -192,7 +192,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, <strong>getting a HELOC on a rental or investment property is significantly harder than on a primary residence&mdash;fewer lenders offer the product, LTV limits are 10&ndash;25 percentage points lower, and rate premiums add 0.5% to 1.5% above primary residence HELOC pricing</strong>. According to <a href="https://www.federalreserve.gov/publications/2025-november-financial-stability-report.htm" target="_blank" rel="noopener noreferrer">Federal Reserve financial stability data</a>, investment property lending carries higher risk profiles that drive these stricter terms. An estimated 30% to 40% of retail banks and credit unions do not offer investment property HELOCs at all, making wholesale broker access to 200+ lenders essential for finding competitive terms. The alternative strategy&mdash;using a primary residence HELOC to fund investment purchases&mdash;provides better rates and higher LTV limits but shifts the collateral risk to your home.
+            According to Mo Abdel, NMLS #1426884, <strong>getting a HELOC on a rental or investment property is significantly harder than on a primary residence&mdash;fewer lenders offer the product, LTV limits are 10&ndash;25 percentage points lower, and rate premiums add 0.5% to 1.5% above primary residence HELOC pricing</strong>. According to <a href="https://www.federalreserve.gov/publications/2025-november-financial-stability-report.htm" target="_blank" rel="noopener noreferrer">Federal Reserve financial stability data</a>, investment property lending carries higher risk profiles that drive these stricter terms. An estimated 30% to 40% of retail banks and credit unions do not offer investment property HELOCs at all, making wholesale broker access to 50+ Wholesale Lenders essential for finding competitive terms. The alternative strategy&mdash;using a primary residence HELOC to fund investment purchases&mdash;provides better rates and higher LTV limits but shifts the collateral risk to your home.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
                 <td className="border border-gray-200 px-4 py-2">identifies investment HELOC lenders and compares terms across</td>
-                <td className="border border-gray-200 px-4 py-2">200+ lenders including portfolio and specialty lenders unavailable at retail</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders including portfolio and specialty lenders unavailable at retail</td>
               </tr>
             </tbody>
           </table>
@@ -249,7 +249,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Investment Property HELOC Lending</h3>
           <p className="text-blue-800 mb-0">
-            I work with real estate investors across California and Washington who need to access equity in their rental properties, and the most common frustration I hear is &ldquo;my bank told me they do not offer HELOCs on investment properties.&rdquo; That response is accurate for many retail banks&mdash;but it does not mean the product does not exist. Through my wholesale network of 200+ lenders, I consistently find 15 to 25 lenders actively offering investment property HELOCs at any given time, with meaningful differences in LTV limits, rate premiums, and reserve requirements. The second strategy I use frequently is structuring a primary residence HELOC to fund investment purchases, which gives the investor better rates and higher credit limits while keeping the investment property free from a second lien. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I work with real estate investors across California and Washington who need to access equity in their rental properties, and the most common frustration I hear is &ldquo;my bank told me they do not offer HELOCs on investment properties.&rdquo; That response is accurate for many retail banks&mdash;but it does not mean the product does not exist. Through my wholesale network of 50+ Wholesale Lenders, I consistently find 15 to 25 lenders actively offering investment property HELOCs at any given time, with meaningful differences in LTV limits, rate premiums, and reserve requirements. The second strategy I use frequently is structuring a primary residence HELOC to fund investment purchases, which gives the investor better rates and higher credit limits while keeping the investment property free from a second lien. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -592,7 +592,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
         <h3>What a Wholesale Broker Provides</h3>
 
         <ul>
-          <li><strong>Product availability screening:</strong> Instantly identify which of 200+ lenders currently offer investment property HELOCs for your property type (SFR, 2-unit, 3-4 unit, condo)</li>
+          <li><strong>Product availability screening:</strong> Instantly identify which of 50+ Wholesale Lenders currently offer investment property HELOCs for your property type (SFR, 2-unit, 3-4 unit, condo)</li>
           <li><strong>Rate and LTV comparison:</strong> Compare rate premiums and maximum CLTV across all available lenders to find the most favorable terms</li>
           <li><strong>Reserve requirement matching:</strong> Identify lenders with the lowest reserve requirements for your property count</li>
           <li><strong>Entity structure guidance:</strong> Determine which lenders allow HELOC origination when the property is held in an LLC vs individual name</li>
@@ -654,7 +654,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Is it hard to get a HELOC on a rental property?</h3>
             <p className="mb-0">
-              <strong>Yes, getting a HELOC on a rental property is significantly harder than on a primary residence because fewer lenders offer the product, LTV limits are lower (65%&ndash;75% vs 80%&ndash;90%), credit requirements are higher (700&ndash;720 minimum), and reserve requirements are 6&ndash;12 months per property.</strong> A wholesale broker with access to 200+ lenders identifies the lenders that actively offer investment property HELOCs and finds the most competitive terms for your profile.
+              <strong>Yes, getting a HELOC on a rental property is significantly harder than on a primary residence because fewer lenders offer the product, LTV limits are lower (65%&ndash;75% vs 80%&ndash;90%), credit requirements are higher (700&ndash;720 minimum), and reserve requirements are 6&ndash;12 months per property.</strong> A wholesale broker with access to 50+ Wholesale Lenders identifies the lenders that actively offer investment property HELOCs and finds the most competitive terms for your profile.
             </p>
           </div>
 
@@ -675,7 +675,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Are investment property HELOC rates higher than primary residence HELOC rates?</h3>
             <p className="mb-0">
-              <strong>Yes, investment property HELOC rates carry a premium of 0.5% to 1.5% above comparable primary residence HELOC rates because lenders face higher default risk on investment properties.</strong> The exact premium varies by lender, credit score, LTV, and property type. A wholesale broker shopping 200+ lenders finds the smallest available premium.
+              <strong>Yes, investment property HELOC rates carry a premium of 0.5% to 1.5% above comparable primary residence HELOC rates because lenders face higher default risk on investment properties.</strong> The exact premium varies by lender, credit score, LTV, and property type. A wholesale broker shopping 50+ Wholesale Lenders finds the smallest available premium.
             </p>
           </div>
 
@@ -719,7 +719,7 @@ export default function HelocRentalPropertyInvestmentStrategyPage() {
             <li><strong>Rental income helps qualification:</strong> Lenders use 75% of gross rental income (25% vacancy factor) to supplement your DTI calculation</li>
             <li><strong>Multi-property investors need portfolio strategy:</strong> Concentrate HELOC access on the strongest property or use primary residence as the central funding engine</li>
             <li><strong>LLC ownership complicates HELOC access:</strong> Most lenders require individual borrower; specialty lenders accommodate entity structures</li>
-            <li><strong>Wholesale broker access is essential:</strong> With 30%&ndash;40% of retail lenders not offering the product, a broker shopping 200+ lenders is the most efficient path to approval and competitive terms</li>
+            <li><strong>Wholesale broker access is essential:</strong> With 30%&ndash;40% of retail lenders not offering the product, a broker shopping 50+ Wholesale Lenders is the most efficient path to approval and competitive terms</li>
           </ol>
         </div>
 

@@ -410,7 +410,7 @@ export default function EnhancedQuickQuote() {
             Get Your Orange County Mortgage pricing Quote
           </h2>
           <p className="text-xl text-slate-600 mb-4">
-            Personalized pricing from 200+ lenders • 3-step process • NMLS #1426884
+            Personalized pricing from 50+ Wholesale Lenders • 3-step process • NMLS #1426884
           </p>
           <div className="flex items-center justify-center space-x-4 text-sm text-slate-500 mb-6">
             <div className="flex items-center">

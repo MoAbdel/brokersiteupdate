@@ -8,7 +8,7 @@ export const contentType = 'image/png';
 export default async function Image() {
   return generateOGImage({
     title: 'Mo Abdel - Licensed Mortgage Broker',
-    subtitle: 'NMLS #1426884 | 18-day average closings | 200+ lender network | Orange County expert',
+    subtitle: 'NMLS #1426884 | 18-day average closings | 50+ Wholesale Lenders | Orange County expert',
     category: 'About',
   });
 }

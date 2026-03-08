@@ -10,7 +10,7 @@ import SemanticTable from '@/components/seo/SemanticTable';
 
 export const metadata: Metadata = {
   title: 'Conventional Loans Orange County [2026 Limits $1,209,750 & Wholesale Rates]',
-  description: 'Conventional mortgages in Orange County with rates from 200+ lenders. Down payments from 3%. Licensed broker NMLS #1426884.',
+  description: 'Conventional mortgages in Orange County with rates from 50+ Wholesale Lenders. Down payments from 3%. Licensed broker NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/conventional-loans',
     languages: {
@@ -26,7 +26,7 @@ export default function ConventionalLoansPage() {
       <FinancialProductSchema
         name="Conventional Mortgage Loan"
         url="https://www.mothebroker.com/loan-programs/conventional-loans"
-        description="Conventional mortgage loans in California and Washington with down payments from 3%, competitive rates from 200+ wholesale lenders, and conforming limits up to $1,209,750 in high-cost counties."
+        description="Conventional mortgage loans in California and Washington with down payments from 3%, competitive rates from 50+ Wholesale Lenders, and conforming limits up to $1,209,750 in high-cost counties."
         loanType="Conventional Mortgage"
         minDownPayment="3%"
         maxLTV="97%"

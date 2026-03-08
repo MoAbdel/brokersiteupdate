@@ -490,7 +490,7 @@ export default function NeighborhoodGuidePage() {
                 <TrendingUp className="w-6 h-6 text-blue-600 mr-3 mt-1" />
                 <div>
                   <h3 className="font-bold text-slate-900">Lumin Lending Access</h3>
-                  <p className="text-slate-600">Access to 200+ lenders means Better pricing and terms than retail banks</p>
+                  <p className="text-slate-600">Access to 50+ Wholesale Lenders means Better pricing and terms than retail banks</p>
                 </div>
               </div>
               <div className="flex items-start">

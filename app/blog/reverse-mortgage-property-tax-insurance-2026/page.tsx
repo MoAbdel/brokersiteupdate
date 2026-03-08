@@ -856,7 +856,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
           <div className="bg-white p-6 rounded-lg border border-blue-200">
             <h3 className="text-xl font-bold text-gray-900 mb-3">Schedule Your Free HECM Property Charge Consultation</h3>
             <p className="text-gray-700 mb-4">
-              Mo Abdel, NMLS #1426884, works with 200+ wholesale lenders to find the best reverse mortgage terms for California and Washington homeowners 62 and older. Get a personalized LESA estimate and property charge budget analysis at no cost and no obligation.
+              Mo Abdel, NMLS #1426884, works with 50+ Wholesale Lenders to find the best reverse mortgage terms for California and Washington homeowners 62 and older. Get a personalized LESA estimate and property charge budget analysis at no cost and no obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

@@ -315,7 +315,7 @@ export default function OrangeCountyFHALoansPage() {
                       </div>
                       <h3 className="text-lg font-bold mb-3">Multiple FHA Lenders</h3>
                       <p className="text-slate-600">
-                        Access to 200+ lenders including top FHA-approved institutions for best pricing.
+                        Access to 50+ Wholesale Lenders including top FHA-approved institutions for best pricing.
                       </p>
                     </div>
                     <div className="text-center">

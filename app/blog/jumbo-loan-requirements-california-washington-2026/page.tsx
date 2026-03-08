@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Jumbo Loan Requirements 2026: Qualifying for High-Balance Mortgages in CA & WA',
-  description: 'Jumbo loan requirements 2026: credit scores, down payments, reserve requirements, and conforming limits by county for California and Washington. 200+ lender access. NMLS #1426884.',
+  description: 'Jumbo loan requirements 2026: credit scores, down payments, reserve requirements, and conforming limits by county for California and Washington. 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: [
     'jumbo loan requirements 2026',
     'jumbo mortgage California',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Jumbo Loan Requirements 2026: Qualifying for High-Balance Mortgages in CA & WA',
-    description: 'Jumbo loan requirements 2026: credit scores, down payments, reserve requirements, and conforming limits by county for California and Washington. 200+ lender access.',
+    description: 'Jumbo loan requirements 2026: credit scores, down payments, reserve requirements, and conforming limits by county for California and Washington. 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/jumbo-loan-requirements-california-washington-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -79,7 +79,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with jumbo loans?',
-    answer: 'A wholesale mortgage broker accesses 200+ lenders including 50+ jumbo-specific investors, each with different rates, qualification criteria, and program features. Retail banks offer their single jumbo product with fixed terms. A broker compares jumbo options across dozens of lenders to find the best rate, lowest required down payment, most flexible reserve requirements, and fastest closing timeline. For borrowers with non-traditional income, complex assets, or unique situations, a broker identifies the lender whose guidelines accommodate the specific profile.',
+    answer: 'A wholesale mortgage broker accesses 50+ Wholesale Lenders including 50+ jumbo-specific investors, each with different rates, qualification criteria, and program features. Retail banks offer their single jumbo product with fixed terms. A broker compares jumbo options across dozens of lenders to find the best rate, lowest required down payment, most flexible reserve requirements, and fastest closing timeline. For borrowers with non-traditional income, complex assets, or unique situations, a broker identifies the lender whose guidelines accommodate the specific profile.',
   },
   {
     question: 'Can I get a jumbo loan with less than 20% down?',
@@ -244,7 +244,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         {/* Citation Hook */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), jumbo loan originations in California and Washington exceeded $142 billion in 2025, representing the largest share of high-balance mortgage activity in the nation. Jumbo loans finance properties that exceed the <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> conforming loan limits. In 2026, the baseline conforming limit is <strong>$806,500</strong>, while high-cost counties in California and Washington have limits of <strong>$1,209,750</strong>. Any mortgage above these thresholds requires jumbo financing with stricter qualification standards: higher credit scores, larger down payments, and more substantial reserves. As a <strong>wholesale mortgage broker</strong> with access to 200+ lenders including 50+ jumbo investors, I help borrowers navigate these requirements daily across California and Washington markets where median home prices routinely exceed conforming limits.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443), jumbo loan originations in California and Washington exceeded $142 billion in 2025, representing the largest share of high-balance mortgage activity in the nation. Jumbo loans finance properties that exceed the <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> conforming loan limits. In 2026, the baseline conforming limit is <strong>$806,500</strong>, while high-cost counties in California and Washington have limits of <strong>$1,209,750</strong>. Any mortgage above these thresholds requires jumbo financing with stricter qualification standards: higher credit scores, larger down payments, and more substantial reserves. As a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders including 50+ jumbo investors, I help borrowers navigate these requirements daily across California and Washington markets where median home prices routinely exceed conforming limits.
           </p>
         </div>
 
@@ -620,7 +620,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
 
         <h3>Step 1: Pre-Qualification and Lender Selection (Days 1-3)</h3>
         <p>
-          A wholesale broker reviews the borrower&apos;s financial profile and identifies the best-fit jumbo lenders. This includes analyzing credit scores, income sources, asset positions, property type, and loan amount to narrow the field from 200+ lenders to the 3-5 that offer the best rate and terms for the specific scenario.
+          A wholesale broker reviews the borrower&apos;s financial profile and identifies the best-fit jumbo lenders. This includes analyzing credit scores, income sources, asset positions, property type, and loan amount to narrow the field from 50+ Wholesale Lenders to the 3-5 that offer the best rate and terms for the specific scenario.
         </p>
 
         <h3>Step 2: Full Application and Document Collection (Days 3-10)</h3>
@@ -720,7 +720,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Are jumbo loan rates higher than conforming rates?</h3>
             <p className="mb-0">
-              Jumbo loan rates are typically <strong>0.125% to 0.75% higher</strong> than conforming loan rates, depending on the loan amount, credit score, and down payment. However, this gap has narrowed significantly in recent years. In some cases, jumbo ARM rates are actually lower than conforming fixed rates. The rate premium is lowest for borrowers with 740+ credit, 20%+ down, and strong reserves. A wholesale broker comparison across 200+ lenders minimizes the rate premium.
+              Jumbo loan rates are typically <strong>0.125% to 0.75% higher</strong> than conforming loan rates, depending on the loan amount, credit score, and down payment. However, this gap has narrowed significantly in recent years. In some cases, jumbo ARM rates are actually lower than conforming fixed rates. The rate premium is lowest for borrowers with 740+ credit, 20%+ down, and strong reserves. A wholesale broker comparison across 50+ Wholesale Lenders minimizes the rate premium.
             </p>
           </div>
 
@@ -793,7 +793,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <h3 className="text-lg font-bold text-gray-900 mt-0 mb-3">Related Mortgage Guides</h3>
           <ul className="space-y-2 mb-0">
             <li><Link href="/blog/interest-only-mortgage-loans-2026" className="text-blue-600 hover:underline">Interest-Only Mortgage Loans 2026: Who Qualifies & When They Make Sense</Link></li>
-            <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 200+ Lender Access</Link></li>
+            <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 50+ Wholesale Lenders</Link></li>
             <li><Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:underline">Bank Statement Loans: Self-Employed Mortgage Solutions</Link></li>
             <li><Link href="/blog/asset-depletion-loans-guide-2026" className="text-blue-600 hover:underline">Asset Depletion Loans: Qualify Using Your Assets</Link></li>
             <li><Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-600 hover:underline">Conventional Loans: Complete Guide for 2026</Link></li>

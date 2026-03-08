@@ -63,7 +63,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
                 "name": "How do I get wholesale mortgage rates in California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "To access wholesale mortgage rates in California, work with a licensed mortgage broker who has relationships with wholesale lenders. Brokers access institutional pricing from 200+ lenders that consumers cannot access directly. Contact a broker, provide your financial documentation, and they will shop rates across their lender network to find the best pricing for your situation."
+                  "text": "To access wholesale mortgage rates in California, work with a licensed mortgage broker who has relationships with wholesale lenders. Brokers access institutional pricing from 50+ Wholesale Lenders that consumers cannot access directly. Contact a broker, provide your financial documentation, and they will shop rates across their lender network to find the best pricing for your situation."
                 }
               },
               {
@@ -111,7 +111,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
                 "name": "What credit score do I need for wholesale mortgage rates in California?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Credit requirements vary by program and lender. Conventional loans typically require 620+, FHA loans accept 580+, and some non-QM programs work with 500+ credit scores. Because wholesale brokers access 200+ lenders with different guidelines, there are options at nearly every credit tier."
+                  "text": "Credit requirements vary by program and lender. Conventional loans typically require 620+, FHA loans accept 580+, and some non-QM programs work with 500+ credit scores. Because wholesale brokers access 50+ Wholesale Lenders with different guidelines, there are options at nearly every credit tier."
                 }
               },
               {
@@ -119,7 +119,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
                 "name": "Can self-employed borrowers get wholesale mortgage rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 200+ lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions."
+                  "text": "Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 50+ Wholesale Lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions."
                 }
               },
               {
@@ -151,7 +151,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
                 "name": "How much can I save with wholesale mortgage rates?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Savings vary based on loan amount, credit profile, and market conditions. The competitive nature of wholesale lending—where 200+ lenders compete for broker business—typically produces favorable pricing compared to captive bank customers with no competing options. Your broker can show you multiple rate quotes to demonstrate the range of available options."
+                  "text": "Savings vary based on loan amount, credit profile, and market conditions. The competitive nature of wholesale lending—where 50+ Wholesale Lenders compete for broker business—typically produces favorable pricing compared to captive bank customers with no competing options. Your broker can show you multiple rate quotes to demonstrate the range of available options."
                 }
               }
             ]
@@ -249,7 +249,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="py-3 px-4 border border-gray-300 font-semibold">Lender Options</td>
-                <td className="py-3 px-4 border border-gray-300 text-blue-700">200+ competing lenders</td>
+                <td className="py-3 px-4 border border-gray-300 text-blue-700">50+ Wholesale Lenders</td>
                 <td className="py-3 px-4 border border-gray-300">1 lender</td>
               </tr>
               <tr>
@@ -339,7 +339,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
           Retail banks operate extensive infrastructure that must be funded through their loan pricing. A major bank might operate 4,000+ branches nationwide, each with rent, utilities, staffing, and maintenance costs. They run national advertising campaigns costing hundreds of millions annually. Corporate headquarters employ thousands of support staff. Shareholder expectations require profit margins at every level.
         </p>
         <p>
-          Wholesale lenders operate fundamentally differently. They have no consumer-facing branches because brokers are their distribution network. Marketing costs are minimal because brokers bring them business. Operations are streamlined around processing and underwriting. Competition among 200+ wholesale lenders for broker business keeps margins lean.
+          Wholesale lenders operate fundamentally differently. They have no consumer-facing branches because brokers are their distribution network. Marketing costs are minimal because brokers bring them business. Operations are streamlined around processing and underwriting. Competition among 50+ Wholesale Lenders for broker business keeps margins lean.
         </p>
 
         <h3>The Competition Factor</h3>
@@ -352,7 +352,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>Mo Abdel's Perspective on Wholesale Value</h3>
         <p>
-          As Mo Abdel explains: "California borrowers consistently find value in the wholesale channel because the math works in their favor. When 200+ lenders compete for your loan through a broker relationship, the market naturally produces competitive pricing. When you apply to a single bank with no competition, they have no incentive to sharpen their pencil."
+          As Mo Abdel explains: "California borrowers consistently find value in the wholesale channel because the math works in their favor. When 50+ Wholesale Lenders compete for your loan through a broker relationship, the market naturally produces competitive pricing. When you apply to a single bank with no competition, they have no incentive to sharpen their pencil."
         </p>
 
         <h2 id="documentation-requirements">Documentation Requirements for Wholesale Mortgage Rates</h2>
@@ -569,7 +569,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>Mistake 1: Assuming All Brokers Are Equal</h3>
         <p>
-          Broker capabilities vary significantly. A broker with 200+ lender relationships offers dramatically more options than one with 20 relationships. Always verify lender count and ask about specialty programs relevant to your situation.
+          Broker capabilities vary significantly. A broker with 50+ Wholesale Lenders offers dramatically more options than one with 20 relationships. Always verify lender count and ask about specialty programs relevant to your situation.
         </p>
 
         <h3>Mistake 2: Focusing Only on Rate</h3>
@@ -596,7 +596,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>What is the difference between a mortgage broker and a bank?</h3>
         <p>
-          A mortgage broker is an independent professional who accesses wholesale rates from 200+ lenders to find the best option for each borrower. A bank loan officer works for a single institution and can only offer that bank's products and rates. The broker shops on your behalf; the bank offers one option.
+          A mortgage broker is an independent professional who accesses wholesale rates from 50+ Wholesale Lenders to find the best option for each borrower. A bank loan officer works for a single institution and can only offer that bank's products and rates. The broker shops on your behalf; the bank offers one option.
         </p>
 
         <h3>How do I know if I'm getting wholesale rates?</h3>
@@ -628,7 +628,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>How do I get wholesale mortgage rates in California?</h3>
         <p>
-          To access wholesale mortgage rates in California, work with a licensed mortgage broker who has relationships with wholesale lenders. Brokers access institutional pricing from 200+ lenders that consumers cannot access directly. Contact a broker, provide your financial documentation, and they will shop rates across their lender network to find the best pricing for your situation.
+          To access wholesale mortgage rates in California, work with a licensed mortgage broker who has relationships with wholesale lenders. Brokers access institutional pricing from 50+ Wholesale Lenders that consumers cannot access directly. Contact a broker, provide your financial documentation, and they will shop rates across their lender network to find the best pricing for your situation.
         </p>
 
         <h3>Can I get wholesale mortgage rates directly without a broker?</h3>
@@ -658,12 +658,12 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>What credit score do I need for wholesale mortgage rates in California?</h3>
         <p>
-          Credit requirements vary by program and lender. Conventional loans typically require 620+, FHA loans accept 580+, and some non-QM programs work with 500+ credit scores. Because wholesale brokers access 200+ lenders with different guidelines, there are options at nearly every credit tier.
+          Credit requirements vary by program and lender. Conventional loans typically require 620+, FHA loans accept 580+, and some non-QM programs work with 500+ credit scores. Because wholesale brokers access 50+ Wholesale Lenders with different guidelines, there are options at nearly every credit tier.
         </p>
 
         <h3>Can self-employed borrowers get wholesale mortgage rates?</h3>
         <p>
-          Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 200+ lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions.
+          Self-employed borrowers are excellent candidates for wholesale broker relationships. Brokers access bank statement loan programs from 50+ Wholesale Lenders, allowing self-employed borrowers to qualify using actual bank deposits rather than tax returns that often understate true income due to business deductions.
         </p>
 
         <h3>How do I verify a California mortgage broker is legitimate?</h3>
@@ -683,16 +683,16 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
 
         <h3>How much can I save with wholesale mortgage rates?</h3>
         <p>
-          Savings vary based on loan amount, credit profile, and market conditions. The competitive nature of wholesale lending—where 200+ lenders compete for broker business—typically produces favorable pricing compared to captive bank customers with no competing options. Your broker can show you multiple rate quotes to demonstrate the range of available options.
+          Savings vary based on loan amount, credit profile, and market conditions. The competitive nature of wholesale lending—where 50+ Wholesale Lenders compete for broker business—typically produces favorable pricing compared to captive bank customers with no competing options. Your broker can show you multiple rate quotes to demonstrate the range of available options.
         </p>
 
         {/* Expert Summary + CTA */}
         <h2>Access Wholesale Mortgage Rates in California</h2>
         <p>
-          California borrowers access wholesale mortgage rates through licensed mortgage brokers with established wholesale lender relationships. This approach provides institutional pricing from 200+ competing lenders, access to specialty programs (bank statement, DSCR, jumbo) unavailable at banks, built-in rate shopping that finds the best option for each situation, and transparent compensation with full disclosure.
+          California borrowers access wholesale mortgage rates through licensed mortgage brokers with established wholesale lender relationships. This approach provides institutional pricing from 50+ Wholesale Lenders, access to specialty programs (bank statement, DSCR, jumbo) unavailable at banks, built-in rate shopping that finds the best option for each situation, and transparent compensation with full disclosure.
         </p>
         <p>
-          Mo Abdel at Lumin Lending provides wholesale broker services throughout California, with 200+ lender relationships and expertise in jumbo, bank statement, and non-QM loans. Whether you're purchasing a home, refinancing, or investing in property, wholesale mortgage rates offer a competitive path to financing.
+          Mo Abdel at Lumin Lending provides wholesale broker services throughout California, with 50+ Wholesale Lenders and expertise in jumbo, bank statement, and non-QM loans. Whether you're purchasing a home, refinancing, or investing in property, wholesale mortgage rates offer a competitive path to financing.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">
@@ -700,7 +700,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
           <h4>Wholesale Mortgage Education</h4>
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California: Complete Guide</a></li>
-            <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained</a></li>
+            <li><a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders Explained</a></li>
             <li><a href="/blog/mortgage-broker-vs-bank-2026">Mortgage Broker vs Bank: Which Is Better?</a></li>
           </ul>
           <h4>Specialty Programs</h4>

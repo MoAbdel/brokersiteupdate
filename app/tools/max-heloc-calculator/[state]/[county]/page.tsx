@@ -65,7 +65,7 @@ export default async function CountyHelocPage({ params }: Props) {
     },
     {
       question: `What is the difference between a HELOC and a home equity loan (HELOAN)?`,
-      answer: `A HELOC is a revolving credit line with variable rates — you draw funds as needed during the draw period (typically 10 years) and only pay interest on what you use. A HELOAN is a lump-sum loan with a fixed rate and fixed monthly payments. Both use your home as collateral. Mo Abdel offers both products through 200+ wholesale lenders.`,
+      answer: `A HELOC is a revolving credit line with variable rates — you draw funds as needed during the draw period (typically 10 years) and only pay interest on what you use. A HELOAN is a lump-sum loan with a fixed rate and fixed monthly payments. Both use your home as collateral. Mo Abdel offers both products through 50+ Wholesale Lenders.`,
     },
     {
       question: `How does CLTV affect my HELOC approval in ${county.name}?`,

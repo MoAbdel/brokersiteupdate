@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: "Can self-employed borrowers access home equity for business expansion?",
-    answer: "Yes. Self-employed homeowners with sufficient equity qualify for HELOCs and cash-out refinances. Bank statement loan programs allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. A wholesale broker with access to 200+ lenders identifies programs specifically designed for self-employed borrowers who need business capital."
+    answer: "Yes. Self-employed homeowners with sufficient equity qualify for HELOCs and cash-out refinances. Bank statement loan programs allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. A wholesale broker with access to 50+ Wholesale Lenders identifies programs specifically designed for self-employed borrowers who need business capital."
   },
   {
     question: "Is it better to use home equity or an SBA loan for a startup?",
@@ -330,7 +330,7 @@ export default function HomeEquityBusinessStartupFunding2026() {
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-7 h-7 bg-emerald-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
-                <span><strong>Compare lender offers through a wholesale broker.</strong> A wholesale broker accesses HELOC products from 200+ lenders, including business-purpose HELOC programs not available at retail banks.</span>
+                <span><strong>Compare lender offers through a wholesale broker.</strong> A wholesale broker accesses HELOC products from 50+ Wholesale Lenders, including business-purpose HELOC programs not available at retail banks.</span>
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-7 h-7 bg-emerald-600 text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
@@ -502,7 +502,7 @@ export default function HomeEquityBusinessStartupFunding2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-            The classification depends on how the majority of funds will be used. If more than 50% of the proceeds fund a business, many lenders classify the transaction as business-purpose. Disclose your intended use honestly to your loan officer &mdash; proper classification ensures the loan is structured correctly under the appropriate regulatory framework. A wholesale broker with access to 200+ lenders identifies programs specifically designed for business-purpose equity withdrawals, including products from non-bank lenders that specialize in <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-700 hover:underline">self-employed and entrepreneurial borrowers</Link>.
+            The classification depends on how the majority of funds will be used. If more than 50% of the proceeds fund a business, many lenders classify the transaction as business-purpose. Disclose your intended use honestly to your loan officer &mdash; proper classification ensures the loan is structured correctly under the appropriate regulatory framework. A wholesale broker with access to 50+ Wholesale Lenders identifies programs specifically designed for business-purpose equity withdrawals, including products from non-bank lenders that specialize in <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:text-blue-700 hover:underline">self-employed and entrepreneurial borrowers</Link>.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -655,7 +655,7 @@ export default function HomeEquityBusinessStartupFunding2026() {
             Home equity provides California and Washington entrepreneurs with the fastest, most flexible, and lowest-cost capital available for starting a business. HELOCs deliver revolving access with interest-only payments on drawn amounts. Cash-out refinances provide fixed-rate lump sums for major capital needs. Neither requires a business plan, operating history, or revenue projections &mdash; qualification is based on your home&apos;s value, existing equity, and creditworthiness.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            Mo Abdel at Lumin Lending provides wholesale access to 200+ lenders, including specialized business-purpose HELOC and cash-out refinance programs not available at retail banks. Whether you are launching your first venture or expanding an existing business, Mo structures the optimal equity strategy to maximize available capital while managing risk.
+            Mo Abdel at Lumin Lending provides wholesale access to 50+ Wholesale Lenders, including specialized business-purpose HELOC and cash-out refinance programs not available at retail banks. Whether you are launching your first venture or expanding an existing business, Mo structures the optimal equity strategy to maximize available capital while managing risk.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -725,7 +725,7 @@ export default function HomeEquityBusinessStartupFunding2026() {
             Licensed in: CA, WA
           </p>
           <p className="mb-4">
-            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Information is for educational purposes only and does not constitute financial, tax, legal, or investment advice. Consult a CPA for tax implications. Using home equity for business involves risk of losing your home if you are unable to make loan payments. Business-purpose loans may have different terms and regulatory protections than consumer-purpose loans. Equity availability, loan-to-value ratios, credit score requirements, and program terms vary by lender and are subject to change without notice. The data, statistics, and examples in this article are for illustration purposes; actual terms, equity amounts, and qualification requirements will vary by borrower, property, and market conditions. This content is not investment advice and should not be relied upon for business investment decisions. Mo Abdel, NMLS #1426884, is licensed in California and Washington. Access to 200+ lenders available through wholesale broker channels in CA and WA only. Contact a licensed loan officer for personalized guidance.
+            Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Information is for educational purposes only and does not constitute financial, tax, legal, or investment advice. Consult a CPA for tax implications. Using home equity for business involves risk of losing your home if you are unable to make loan payments. Business-purpose loans may have different terms and regulatory protections than consumer-purpose loans. Equity availability, loan-to-value ratios, credit score requirements, and program terms vary by lender and are subject to change without notice. The data, statistics, and examples in this article are for illustration purposes; actual terms, equity amounts, and qualification requirements will vary by borrower, property, and market conditions. This content is not investment advice and should not be relied upon for business investment decisions. Mo Abdel, NMLS #1426884, is licensed in California and Washington. Access to 50+ Wholesale Lenders available through wholesale broker channels in CA and WA only. Contact a licensed loan officer for personalized guidance.
           </p>
         </section>
       </article>

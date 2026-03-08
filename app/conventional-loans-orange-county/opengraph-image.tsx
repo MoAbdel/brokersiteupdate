@@ -8,7 +8,7 @@ export const contentType = 'image/png';
 export default async function Image() {
   return generateOGImage({
     title: 'Conventional Loans in Orange County',
-    subtitle: 'Traditional home financing with competitive rates from 200+ lenders',
+    subtitle: 'Traditional home financing with competitive rates from 50+ Wholesale Lenders',
     category: 'Loan Program',
   });
 }

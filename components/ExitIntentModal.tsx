@@ -183,7 +183,7 @@ export default function ExitIntentModal() {
                     See Your Potential Savings
                 </h3>
                 <p className="text-slate-600">
-                    Get a custom rate quote from 200+ lenders in minutes. No credit check. No commitment. We shop multiple lenders to find competitive rates for your situation.
+                    Get a custom rate quote from 50+ Wholesale Lenders in minutes. No credit check. No commitment. We shop multiple lenders to find competitive rates for your situation.
                 </p>
               </div>
 
@@ -227,7 +227,7 @@ export default function ExitIntentModal() {
                         Where should we send your quote?
                     </h3>
                     <p className="text-slate-600">
-                        We'll analyze 200+ lenders to find your best option.
+                        We'll analyze 50+ Wholesale Lenders to find your best option.
                     </p>
                 </div>
 

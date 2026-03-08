@@ -62,7 +62,7 @@ const faqData = [
   },
   {
     question: 'Why do mortgage brokers recommend HELOCs over equity sharing?',
-    answer: 'Mortgage brokers recommend HELOCs because the total cost is transparent, interest may be tax deductible, you keep 100% of your home&apos;s appreciation, and you maintain full control over your property. A wholesale broker can compare HELOC options from 200+ lenders to find competitive terms.',
+    answer: 'Mortgage brokers recommend HELOCs because the total cost is transparent, interest may be tax deductible, you keep 100% of your home&apos;s appreciation, and you maintain full control over your property. A wholesale broker can compare HELOC options from 50+ Wholesale Lenders to find competitive terms.',
   },
   {
     question: 'What credit score do I need for a HELOC in California?',
@@ -514,7 +514,7 @@ export default function HomeEquitySharingVsHeloc2026() {
           <p className="text-blue-900 font-medium text-sm">
             <strong>Important:</strong> Before choosing equity sharing, explore all traditional options first. Many homeowners
             who believe they don&apos;t qualify for a HELOC or HELOAN are surprised by the flexible programs available through
-            wholesale lenders. A broker who shops 200+ lenders can often find solutions that direct-to-consumer equity
+            wholesale lenders. A broker who shops 50+ Wholesale Lenders can often find solutions that direct-to-consumer equity
             sharing companies cannot match.
           </p>
         </div>
@@ -567,7 +567,7 @@ export default function HomeEquitySharingVsHeloc2026() {
       </section>
 
       <LeadMagnetCTA
-        title="Compare Your HELOC Options from 200+ Lenders"
+        title="Compare Your HELOC Options from 50+ Wholesale Lenders"
         description="Before considering equity sharing, see what HELOC rates and terms you qualify for through a wholesale broker. Free analysis, no obligation."
         href="/contact"
         badge="Free comparison"
@@ -582,7 +582,7 @@ export default function HomeEquitySharingVsHeloc2026() {
         </h2>
         <p className="text-slate-700">
           A wholesale mortgage broker operates differently from both banks and equity sharing companies. Instead of
-          offering products from a single institution, a wholesale broker has access to 200+ lenders — each with
+          offering products from a single institution, a wholesale broker has access to 50+ Wholesale Lenders — each with
           different HELOC programs, qualification criteria, and pricing structures.
         </p>
         <p className="text-slate-700">
@@ -609,7 +609,7 @@ export default function HomeEquitySharingVsHeloc2026() {
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
-              <p>A wholesale broker compares 200+ lenders to find HELOC terms that work for your credit, income, and property type.</p>
+              <p>A wholesale broker compares 50+ Wholesale Lenders to find HELOC terms that work for your credit, income, and property type.</p>
             </div>
           </div>
         </div>
@@ -742,7 +742,7 @@ export default function HomeEquitySharingVsHeloc2026() {
             <h3 className="font-bold text-slate-900 mb-2">Can I get a HELOC with a 620 credit score?</h3>
             <p className="text-slate-700 text-sm">
               <strong>Some wholesale lenders offer HELOC programs for borrowers with credit scores as low as 620, though terms vary.</strong>{' '}
-              A mortgage broker with access to 200+ lenders can identify programs that fit your credit profile.
+              A mortgage broker with access to 50+ Wholesale Lenders can identify programs that fit your credit profile.
               Higher equity and lower debt-to-income ratios can help offset a lower credit score.
             </p>
           </div>
@@ -818,7 +818,7 @@ export default function HomeEquitySharingVsHeloc2026() {
               What a Wholesale Broker Provides
             </h3>
             <ul className="text-sm text-blue-100 space-y-2">
-              <li>Access to 200+ lenders with different HELOC programs</li>
+              <li>Access to 50+ Wholesale Lenders with different HELOC programs</li>
               <li>Competitive wholesale pricing unavailable at retail banks</li>
               <li>Single application compared across the full lender network</li>
               <li>Licensed guidance on the product that fits your situation</li>

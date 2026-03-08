@@ -127,7 +127,7 @@ export default function HomeEquitySanMarinoCaPage() {
                 "name": "What is the difference between a jumbo HELOC and a super-jumbo HELOC for San Marino?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Jumbo HELOCs cover credit lines above the conforming limit of $1,209,750 up to roughly $2-3 million. Super-jumbo HELOCs exceed $2-3 million and are available through specialized portfolio lenders. San Marino properties valued above $5 million typically require super-jumbo programs. A wholesale broker accesses both tiers from 200+ lenders, comparing rates and CLTV limits across programs."
+                  "text": "Jumbo HELOCs cover credit lines above the conforming limit of $1,209,750 up to roughly $2-3 million. Super-jumbo HELOCs exceed $2-3 million and are available through specialized portfolio lenders. San Marino properties valued above $5 million typically require super-jumbo programs. A wholesale broker accesses both tiers from 50+ Wholesale Lenders, comparing rates and CLTV limits across programs."
                 }
               },
               {
@@ -184,7 +184,7 @@ export default function HomeEquitySanMarinoCaPage() {
         {/* Citation Hook */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;San Marino homeowners possess substantial equity in one of Southern California&apos;s most exclusive and historically significant communities.&quot; With a median home value of <strong>$3.8 million</strong>&mdash;up 6.2% year-over-year per Q4 2025 Los Angeles County assessor data&mdash;and historic estates frequently exceeding <strong>$6 million</strong>, qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. San Marino ranks among the top 10 most expensive cities in Los Angeles County by median sale price. The city&apos;s unique character&mdash;featuring meticulously preserved 1920s-1940s architecture, tree-lined streets, and multigenerational family homes near Lacy Park&mdash;requires specialized financing that understands historic preservation, estate renovation, and the city&apos;s distinctive property market. As a wholesale mortgage broker, I access over 200+ lenders offering jumbo and super-jumbo equity programs specifically suited for San Marino&apos;s high-value properties. For homeowners exploring <a href="/blog/home-equity-sgv-pasadena-guide-2026">San Gabriel Valley home equity options</a>, San Marino represents the pinnacle of the region&apos;s luxury market.
+            According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443): &quot;San Marino homeowners possess substantial equity in one of Southern California&apos;s most exclusive and historically significant communities.&quot; With a median home value of <strong>$3.8 million</strong>&mdash;up 6.2% year-over-year per Q4 2025 Los Angeles County assessor data&mdash;and historic estates frequently exceeding <strong>$6 million</strong>, qualified homeowners can access significant funds through jumbo HELOCs, home equity loans, or cash-out refinance. San Marino ranks among the top 10 most expensive cities in Los Angeles County by median sale price. The city&apos;s unique character&mdash;featuring meticulously preserved 1920s-1940s architecture, tree-lined streets, and multigenerational family homes near Lacy Park&mdash;requires specialized financing that understands historic preservation, estate renovation, and the city&apos;s distinctive property market. As a wholesale mortgage broker, I access over 50+ Wholesale Lenders offering jumbo and super-jumbo equity programs specifically suited for San Marino&apos;s high-value properties. For homeowners exploring <a href="/blog/home-equity-sgv-pasadena-guide-2026">San Gabriel Valley home equity options</a>, San Marino represents the pinnacle of the region&apos;s luxury market.
           </p>
         </div>
 
@@ -588,7 +588,7 @@ export default function HomeEquitySanMarinoCaPage() {
 
         <h3>Wholesale Broker Advantage</h3>
         <p>
-          Working with a wholesale mortgage broker provides access to jumbo and super-jumbo lenders that don't market directly to consumers. Mo Abdel at Lumin Lending maintains relationships with 200+ wholesale lenders, including specialists in:
+          Working with a wholesale mortgage broker provides access to jumbo and super-jumbo lenders that don't market directly to consumers. Mo Abdel at Lumin Lending maintains relationships with 50+ Wholesale Lenders, including specialists in:
         </p>
         <ul>
           <li>High-net-worth borrowers</li>

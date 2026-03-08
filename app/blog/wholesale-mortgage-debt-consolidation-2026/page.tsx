@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Debt Consolidation 2026: Refinance to Eliminate High-Interest Debt | Mo Abdel',
-  description: 'Use cash-out refinance or HELOC to consolidate high-interest debt through a wholesale broker with 200+ lenders. Understand risks, calculate breakeven, and compare options. NMLS #1426884.',
+  description: 'Use cash-out refinance or HELOC to consolidate high-interest debt through a wholesale broker with 50+ Wholesale Lenders. Understand risks, calculate breakeven, and compare options. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-debt-consolidation-2026',
     languages: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Debt Consolidation 2026: Refinance to Eliminate High-Interest Debt',
-    description: 'Use cash-out refinance or HELOC to consolidate high-interest debt through a wholesale broker with 200+ lenders. Understand risks, benefits, and when it makes sense.',
+    description: 'Use cash-out refinance or HELOC to consolidate high-interest debt through a wholesale broker with 50+ Wholesale Lenders. Understand risks, benefits, and when it makes sense.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-debt-consolidation-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -42,7 +42,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale broker help with debt consolidation refinancing?',
-    answer: 'A wholesale broker shops your consolidation refinance across 200+ lenders to find the best pricing for your specific equity position, credit score, and debt profile. Different lenders have different overlays for cash-out transactions, and a broker identifies the most favorable terms.',
+    answer: 'A wholesale broker shops your consolidation refinance across 50+ Wholesale Lenders to find the best pricing for your specific equity position, credit score, and debt profile. Different lenders have different overlays for cash-out transactions, and a broker identifies the most favorable terms.',
   },
   {
     question: 'What is the biggest risk of consolidating credit card debt into a mortgage?',
@@ -74,7 +74,7 @@ const faqData = [
   },
   {
     question: 'Does Mo Abdel originate debt consolidation refinances in California and Washington?',
-    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) originates cash-out refinance and HELOC products for debt consolidation in both California and Washington. Access to 200+ wholesale lenders ensures competitive pricing on consolidation transactions.',
+    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) originates cash-out refinance and HELOC products for debt consolidation in both California and Washington. Access to 50+ Wholesale Lenders ensures competitive pricing on consolidation transactions.',
   },
   {
     question: 'What is the breakeven point for debt consolidation refinancing?',
@@ -185,7 +185,7 @@ export default function WholesaleMortgageDebtConsolidation2026() {
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl">
             Convert high-interest credit card and personal loan debt into a lower-rate mortgage payment through a
-            wholesale broker with access to 200+ lenders. Understand the real math, the genuine risks, and when
+            wholesale broker with access to 50+ Wholesale Lenders. Understand the real math, the genuine risks, and when
             consolidation truly makes financial sense.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -220,7 +220,7 @@ export default function WholesaleMortgageDebtConsolidation2026() {
                 APR with debt at a fraction of that rate saves thousands per year in interest. But arithmetic alone is not
                 enough. The decision to convert unsecured debt into secured debt backed by your home requires honest
                 self-assessment, realistic budgeting, and a commitment to behavioral change. Through the wholesale channel,
-                we access 200+ lenders to find the most favorable cash-out or HELOC terms — but I always start the
+                we access 50+ Wholesale Lenders to find the most favorable cash-out or HELOC terms — but I always start the
                 conversation with whether consolidation is the right move, not just whether it is available.&quot;
               </p>
             </div>
@@ -321,7 +321,7 @@ export default function WholesaleMortgageDebtConsolidation2026() {
                 <li>- One monthly payment replaces mortgage plus all consolidated debts</li>
                 <li>- Potentially lower rate than your current mortgage (if rates have dropped)</li>
                 <li>- Large lump sum available for paying off substantial debt balances</li>
-                <li>- Wholesale broker access to 200+ lenders optimizes your rate</li>
+                <li>- Wholesale broker access to 50+ Wholesale Lenders optimizes your rate</li>
               </ul>
             </div>
             <div className="bg-red-50 border border-red-100 rounded-lg p-4 mb-6">
@@ -482,7 +482,7 @@ export default function WholesaleMortgageDebtConsolidation2026() {
         </p>
         <p>
           Mo Abdel approaches every debt consolidation conversation at Lumin Lending with this reality front and center.
-          The wholesale channel offers better pricing because we shop across 200+ lenders, but better pricing does
+          The wholesale channel offers better pricing because we shop across 50+ Wholesale Lenders, but better pricing does
           not eliminate the structural risk. Before proceeding, every borrower should honestly evaluate three questions:
         </p>
         <ul>
@@ -798,7 +798,7 @@ export default function WholesaleMortgageDebtConsolidation2026() {
             </Link>
             <Link href="/blog/wholesale-mortgage-broker-california-2026" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all">
               <h4 className="font-semibold text-gray-900 mb-1 text-sm">Wholesale Mortgage Broker California</h4>
-              <p className="text-xs text-gray-600">How wholesale brokers access better pricing across 200+ lenders.</p>
+              <p className="text-xs text-gray-600">How wholesale brokers access better pricing across 50+ Wholesale Lenders.</p>
               <span className="text-blue-600 text-xs font-medium flex items-center gap-1 mt-2">Read more <ArrowRight className="w-3 h-3" /></span>
             </Link>
           </div>
@@ -827,7 +827,7 @@ export default function WholesaleMortgageDebtConsolidation2026() {
           </h2>
           <p className="text-blue-100 text-lg mb-4">
             Debt consolidation through a wholesale mortgage broker gives you access to competitive pricing across
-            200+ lenders, honest analysis of whether consolidation makes sense for your situation, and professional
+            50+ Wholesale Lenders, honest analysis of whether consolidation makes sense for your situation, and professional
             guidance through the cash-out or HELOC process. The wholesale channel does not change the fundamental
             math — it ensures you get the best execution on that math through lender competition and expert
             loan structuring.

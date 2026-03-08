@@ -104,7 +104,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For LA Westside homeowners with entertainment industry income, the advantage extends beyond rate to qualification methodology. A wholesale broker matches you with the lender whose income calculation rules maximize your HELOC approval amount.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For LA Westside homeowners with entertainment industry income, the advantage extends beyond rate to qualification methodology. A wholesale broker matches you with the lender whose income calculation rules maximize your HELOC approval amount.',
     },
     {
       question: 'Can pilots and flight crew at LAX qualify for a Playa del Rey HELOC?',
@@ -209,7 +209,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The LA Westside corridor &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; represents one of Southern California&apos;s most dynamic residential equity markets. Anchored by the entertainment industry&apos;s historic and expanding presence at Amazon Studios, Sony Pictures, and Culver Studios, this four-community corridor attracts entertainment professionals, creative industry workers, airline crew based at LAX, and waterfront lifestyle buyers who accumulate substantial home equity in a market that has appreciated 28&ndash;38% over the past five years. With median values ranging from $1.1M in Westchester and Marina del Rey to $1.3M in Culver City, most equity products fall into the jumbo category, requiring specialized lender access that a wholesale broker with 200+ lending partners provides. As a licensed mortgage broker serving the LA Westside, I help homeowners navigate the entertainment industry income landscape and jumbo equity market to find the best rates across dozens of competing lenders.
+            The LA Westside corridor &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; represents one of Southern California&apos;s most dynamic residential equity markets. Anchored by the entertainment industry&apos;s historic and expanding presence at Amazon Studios, Sony Pictures, and Culver Studios, this four-community corridor attracts entertainment professionals, creative industry workers, airline crew based at LAX, and waterfront lifestyle buyers who accumulate substantial home equity in a market that has appreciated 28&ndash;38% over the past five years. With median values ranging from $1.1M in Westchester and Marina del Rey to $1.3M in Culver City, most equity products fall into the jumbo category, requiring specialized lender access that a wholesale broker with 50+ Wholesale Lenders provides. As a licensed mortgage broker serving the LA Westside, I help homeowners navigate the entertainment industry income landscape and jumbo equity market to find the best rates across dozens of competing lenders.
           </p>
 
           <p>
@@ -502,7 +502,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
             Marina del Rey at $1.1 million median is the world&apos;s largest man-made recreational small-boat harbor, hosting approximately 5,300 boat slips across 19 marinas within a community that is predominantly condo and townhome housing. This unique property mix creates a distinct equity landscape compared to the single-family-home-dominated markets of Culver City, Playa del Rey, and Westchester. The Marina Peninsula &mdash; the narrow strip between the harbor channel and the ocean &mdash; features the most valuable properties at $1.5M&ndash;$3M+ for oceanfront and channel-front townhomes. The Shores, Via Marina, and Burton Way developments offer waterfront condo living from $800K&ndash;$1.5M. Admiralty Village and the developments along Mindanao Way provide more accessible entry from $600K&ndash;$1M.
           </p>
           <p>
-            Marina del Rey condo HELOCs require specialized lender knowledge because condo financing adds building-level warrantability requirements that single-family-home HELOCs do not have. Lenders evaluate the building&apos;s owner-occupancy ratio, HOA reserve adequacy, pending litigation, commercial space percentage, single-entity ownership concentration, and insurance coverage before approving a HELOC on any individual unit. Some Marina del Rey buildings with high investor-ownership ratios or pending HOA litigation may be non-warrantable with certain lenders but fully eligible with others. A wholesale broker&apos;s value in Marina del Rey is identifying which of 200+ lenders will approve your specific building and unit, rather than discovering after weeks of processing that your bank does not lend in your complex. Boat owners who combine marina living with slip ownership represent a lifestyle asset profile that certain portfolio lenders view favorably, as boat slip leasehold values in Marina del Rey range from $200K&ndash;$800K+ and signal substantial liquid wealth.
+            Marina del Rey condo HELOCs require specialized lender knowledge because condo financing adds building-level warrantability requirements that single-family-home HELOCs do not have. Lenders evaluate the building&apos;s owner-occupancy ratio, HOA reserve adequacy, pending litigation, commercial space percentage, single-entity ownership concentration, and insurance coverage before approving a HELOC on any individual unit. Some Marina del Rey buildings with high investor-ownership ratios or pending HOA litigation may be non-warrantable with certain lenders but fully eligible with others. A wholesale broker&apos;s value in Marina del Rey is identifying which of 50+ Wholesale Lenders will approve your specific building and unit, rather than discovering after weeks of processing that your bank does not lend in your complex. Boat owners who combine marina living with slip ownership represent a lifestyle asset profile that certain portfolio lenders view favorably, as boat slip leasehold values in Marina del Rey range from $200K&ndash;$800K+ and signal substantial liquid wealth.
           </p>
 
           <p>
@@ -682,11 +682,11 @@ export default function HomeEquityLAWestsideLuxury2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Do Marina del Rey condo buildings qualify for HELOCs?</h3>
-              <p><strong>Most Marina del Rey buildings qualify with at least one wholesale lender experienced in condo financing.</strong> Warrantability depends on owner-occupancy ratios, HOA reserves, litigation status, and commercial space. Broker comparison across 200+ lenders finds the best fit.</p>
+              <p><strong>Most Marina del Rey buildings qualify with at least one wholesale lender experienced in condo financing.</strong> Warrantability depends on owner-occupancy ratios, HOA reserves, litigation status, and commercial space. Broker comparison across 50+ Wholesale Lenders finds the best fit.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the HELOC rate in Playa del Rey right now?</h3>
-              <p><strong>HELOC rates for Playa del Rey vary by lender, credit profile, property type, and CLTV ratio.</strong> Wholesale broker comparison across 200+ lenders ensures the most competitive rate for your specific property and financial situation.</p>
+              <p><strong>HELOC rates for Playa del Rey vary by lender, credit profile, property type, and CLTV ratio.</strong> Wholesale broker comparison across 50+ Wholesale Lenders ensures the most competitive rate for your specific property and financial situation.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is a HELOC or cash-out refinance better for Westchester homeowners?</h3>
@@ -724,7 +724,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <a href="/blog/wholesale-mortgage-broker-la-westside-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker LA Westside</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 200+ lenders delivers better rates for entertainment and aviation professionals.</p>
+              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates for entertainment and aviation professionals.</p>
             </a>
             <a href="/blog/home-equity-la-beach-cities-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">LA Beach Cities Home Equity Hub</h3>
@@ -751,7 +751,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
               The LA Westside corridor &mdash; Culver City, Playa del Rey, Marina del Rey, and Westchester &mdash; holds an estimated $8.6 billion in combined residential equity, driven by the entertainment industry&apos;s expansion at Amazon Studios, Sony Pictures, and Culver Studios alongside LAX&apos;s massive aviation workforce. With median values ranging from $1.1M in Westchester and Marina del Rey to $1.3M in Culver City, qualifying homeowners access $440K to $650K+ in tappable equity per property. The corridor&apos;s rapid appreciation of 33&ndash;38% over five years has created new equity positions for owners who purchased as recently as 2020&ndash;2022.
             </p>
             <p className="text-slate-900 mb-3">
-              The LA Westside&apos;s entertainment, aviation, and creative professional income landscape &mdash; residuals, episodic fees, production bonuses, flight hour premiums, per diem, and freelance creative income &mdash; demands lenders who understand these structures. Conservative banks leave $30K&ndash;$120K+ in qualifying income on the table by excluding non-standard compensation. Marina del Rey&apos;s condo market adds building warrantability requirements that eliminate many retail bank options. Through wholesale broker access to 200+ lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type and property.
+              The LA Westside&apos;s entertainment, aviation, and creative professional income landscape &mdash; residuals, episodic fees, production bonuses, flight hour premiums, per diem, and freelance creative income &mdash; demands lenders who understand these structures. Conservative banks leave $30K&ndash;$120K+ in qualifying income on the table by excluding non-standard compensation. Marina del Rey&apos;s condo market adds building warrantability requirements that eliminate many retail bank options. Through wholesale broker access to 50+ Wholesale Lenders, I match each homeowner with the lender using the most favorable qualification methodology for their specific income type and property.
             </p>
             <p className="text-slate-900">
               As your wholesale mortgage broker, I compare HELOC, HELOAN, and cash-out refinance products across dozens of competing lenders to secure the best rate and terms for your LA Westside property. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free equity analysis.
@@ -769,7 +769,7 @@ export default function HomeEquityLAWestsideLuxury2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all LA Westside communities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders including 50+ jumbo specialists</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders including 50+ jumbo specialists</p>
           </div>
 
           {/* Disclaimer */}

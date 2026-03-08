@@ -43,7 +43,7 @@ const faqData = [
   },
   {
     question: "Are DSCR loan rates higher for short-term rentals than long-term rentals?",
-    answer: "Generally yes. DSCR loan rates for short-term rental properties carry a small premium compared to long-term rental DSCR programs, typically reflected as a pricing adjustment rather than a dramatically different rate. The premium accounts for the perceived higher risk of seasonal and variable income. Wholesale broker access helps minimize this premium by comparing STR-specific pricing across 200+ lenders."
+    answer: "Generally yes. DSCR loan rates for short-term rental properties carry a small premium compared to long-term rental DSCR programs, typically reflected as a pricing adjustment rather than a dramatically different rate. The premium accounts for the perceived higher risk of seasonal and variable income. Wholesale broker access helps minimize this premium by comparing STR-specific pricing across 50+ Wholesale Lenders."
   },
   {
     question: "What down payment is required for a short-term rental DSCR loan?",
@@ -151,7 +151,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, short-term rental investors using Airbnb, VRBO, and Booking.com are turning to DSCR loans to finance vacation rental properties at record pace. AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue. Airbnb&apos;s Q4 2025 earnings disclosed 448 million nights and experiences booked globally &mdash; a 12% year-over-year increase &mdash; signaling sustained demand that directly impacts STR investor returns. The average California Airbnb host earned $41,000 in annual revenue in 2025 according to AirDNA MarketMinder data, with coastal markets in Orange County and the San Juan Islands averaging significantly higher. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 200+ wholesale lenders offering STR-specific DSCR programs in February 2026, the financing landscape for vacation rental investors has never been more competitive.
+              According to Mo Abdel, NMLS #1426884, short-term rental investors using Airbnb, VRBO, and Booking.com are turning to DSCR loans to finance vacation rental properties at record pace. AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue. Airbnb&apos;s Q4 2025 earnings disclosed 448 million nights and experiences booked globally &mdash; a 12% year-over-year increase &mdash; signaling sustained demand that directly impacts STR investor returns. The average California Airbnb host earned $41,000 in annual revenue in 2025 according to AirDNA MarketMinder data, with coastal markets in Orange County and the San Juan Islands averaging significantly higher. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 50+ Wholesale Lenders offering STR-specific DSCR programs in February 2026, the financing landscape for vacation rental investors has never been more competitive.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -289,7 +289,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Lender Availability</td>
                   <td className="px-4 py-3 text-sm text-slate-600">Growing but fewer lenders than LTR</td>
-                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely available (200+ lenders)</td>
+                  <td className="px-4 py-3 text-sm text-blue-600 font-medium">Widely available (50+ Wholesale Lenders)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 text-sm font-medium text-slate-900">Local Regulation Review</td>
@@ -588,7 +588,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             The wholesale mortgage broker advantage is amplified for STR DSCR loans because the variation between lender programs is even greater than standard DSCR lending. Not all DSCR lenders accept short-term rental income. Among those that do, the differences in income calculation methods, discount factors, operating history requirements, and geographic restrictions create a complex landscape that a single retail lender cannot navigate.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            Mo Abdel at Lumin Lending accesses STR DSCR programs from 200+ wholesale lenders simultaneously, identifying the specific programs that match each investor&apos;s scenario. One lender accepts AirDNA projections with no operating history; another requires 12 months of booking data but offers better pricing. One lender allows 80% LTV on STR purchases; another caps at 75% but accepts lower DSCR ratios. Wholesale access means finding the intersection of the best rate, terms, and qualification flexibility for each unique deal.
+            Mo Abdel at Lumin Lending accesses STR DSCR programs from 50+ Wholesale Lenders simultaneously, identifying the specific programs that match each investor&apos;s scenario. One lender accepts AirDNA projections with no operating history; another requires 12 months of booking data but offers better pricing. One lender allows 80% LTV on STR purchases; another caps at 75% but accepts lower DSCR ratios. Wholesale access means finding the intersection of the best rate, terms, and qualification flexibility for each unique deal.
           </p>
 
           <h3 className="text-xl font-bold text-slate-900 mb-4">6 Reasons STR Investors Choose a Wholesale Broker for DSCR Financing</h3>
@@ -1042,7 +1042,7 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
             Short-term rental investors no longer need to choose between maximizing Airbnb revenue and qualifying for a mortgage. DSCR loans bridge this gap by evaluating the property&apos;s vacation rental income potential &mdash; not the investor&apos;s W-2s, tax returns, or employment status. With AirDNA projections, actual booking history, and hybrid income calculation methods, STR DSCR programs accommodate investors at every stage, from first-time Airbnb hosts to seasoned vacation rental portfolio operators.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares STR DSCR programs from 200+ lenders to match each investor with the optimal combination of income calculation method, DSCR ratio threshold, pricing, and terms. Whether you are purchasing your first vacation rental or scaling an existing STR portfolio across California and Washington, wholesale broker access delivers better outcomes than any single retail lender.
+            As a wholesale mortgage broker, Mo Abdel at Lumin Lending compares STR DSCR programs from 50+ Wholesale Lenders to match each investor with the optimal combination of income calculation method, DSCR ratio threshold, pricing, and terms. Whether you are purchasing your first vacation rental or scaling an existing STR portfolio across California and Washington, wholesale broker access delivers better outcomes than any single retail lender.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

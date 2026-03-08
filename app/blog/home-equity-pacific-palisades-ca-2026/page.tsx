@@ -240,7 +240,7 @@ export default function HomeEquityPacificPalisadesPage() {
           Homeowners who purchased in Pacific Palisades before 2020 have witnessed substantial appreciation, with many properties doubling or tripling in value over the past decade. This accumulated equity represents significant financial flexibility—whether for luxury renovations, wildfire mitigation improvements, investment opportunities, or lifestyle enhancements that maintain and increase property values.
         </p>
         <p>
-          As a wholesale mortgage broker with access to 200+ lenders, I specialize in connecting Pacific Palisades homeowners with jumbo and super-jumbo equity products that match the unique characteristics of this ultra-luxury market. Standard lending programs rarely accommodate $4-10 million properties, which is why working with a broker who understands high-value real estate financing is essential.
+          As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I specialize in connecting Pacific Palisades homeowners with jumbo and super-jumbo equity products that match the unique characteristics of this ultra-luxury market. Standard lending programs rarely accommodate $4-10 million properties, which is why working with a broker who understands high-value real estate financing is essential.
         </p>
 
         <h2>Pacific Palisades Neighborhoods and Property Values 2026</h2>
@@ -490,7 +490,7 @@ export default function HomeEquityPacificPalisadesPage() {
         </p>
 
         <ol>
-          <li><strong>Initial consultation and equity analysis</strong> — We review your property value, existing debt, and equity access goals to identify appropriate programs from our 200+ lender network.</li>
+          <li><strong>Initial consultation and equity analysis</strong> — We review your property value, existing debt, and equity access goals to identify appropriate programs from our 50+ Wholesale Lenders.</li>
           <li><strong>Lender selection and application</strong> — Based on your specific situation, we recommend lenders with competitive pricing and terms for Pacific Palisades properties. Application includes income verification, asset documentation, and credit authorization.</li>
           <li><strong>Luxury property appraisal</strong> — A qualified appraiser with ultra-luxury experience evaluates your property. Palisades appraisals require familiarity with this unique market and typically take longer than standard appraisals.</li>
           <li><strong>Underwriting review</strong> — The lender verifies all documentation, confirms property value, and issues conditional then final approval. Super-jumbo loans may require additional review layers.</li>
@@ -570,7 +570,7 @@ export default function HomeEquityPacificPalisadesPage() {
           Ultra-luxury properties require specialized financing that most retail lenders cannot provide. As a wholesale mortgage broker, I offer Pacific Palisades homeowners distinct advantages:
         </p>
         <ul>
-          <li><strong>Access to 200+ lenders</strong> — Including private banks, portfolio lenders, and specialized jumbo lenders that serve the $4-15M market</li>
+          <li><strong>Access to 50+ Wholesale Lenders</strong> — Including private banks, portfolio lenders, and specialized jumbo lenders that serve the $4-15M market</li>
           <li><strong>Super-jumbo expertise</strong> — Experience with loans exceeding $3 million that require specialized underwriting</li>
           <li><strong>Relationship-based lending</strong> — Connections with lenders who make exceptions for qualified borrowers with unique situations</li>
           <li><strong>Competitive pricing</strong> — Wholesale access means lower rates than retail channels typically offer</li>
@@ -652,7 +652,7 @@ export default function HomeEquityPacificPalisadesPage() {
             Pacific Palisades represents one of California's most valuable residential markets, and your equity represents significant financial flexibility. Whether you are planning wildfire mitigation improvements, luxury renovations, pool and tennis court additions, or investment property acquisitions, the right financing structure makes all the difference.
           </p>
           <p className="text-blue-800 mb-4">
-            As a wholesale mortgage broker specializing in jumbo and super-jumbo equity products, I connect Pacific Palisades homeowners with lenders who understand ultra-luxury real estate financing. With access to 200+ lenders, including private banks and portfolio lenders that serve the $4-15 million market, I find competitive pricing that retail channels cannot match.
+            As a wholesale mortgage broker specializing in jumbo and super-jumbo equity products, I connect Pacific Palisades homeowners with lenders who understand ultra-luxury real estate financing. With access to 50+ Wholesale Lenders, including private banks and portfolio lenders that serve the $4-15 million market, I find competitive pricing that retail channels cannot match.
           </p>
           <p className="text-blue-800 mb-4">
             Contact Mo Abdel at <a href="tel:9495792057" className="font-semibold text-blue-900 hover:underline">(949) 579-2057</a> to discuss your Pacific Palisades home equity options and receive personalized guidance on the best approach for your situation.

@@ -383,7 +383,7 @@ export default function FixAndFlipLoanVsDSCRComparison2026() {
             </li>
             <li className="flex gap-3">
               <span className="flex items-center justify-center w-7 h-7 rounded-full bg-amber-100 text-amber-700 font-bold text-sm shrink-0">8</span>
-              <span><strong>Work with a wholesale broker</strong> &mdash; a <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 underline">wholesale broker</Link> accesses both fix-and-flip and DSCR programs from 200+ lenders, finding the optimal product and pricing for each deal</span>
+              <span><strong>Work with a wholesale broker</strong> &mdash; a <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700 underline">wholesale broker</Link> accesses both fix-and-flip and DSCR programs from 50+ Wholesale Lenders, finding the optimal product and pricing for each deal</span>
             </li>
           </ol>
         </section>
@@ -761,7 +761,7 @@ export default function FixAndFlipLoanVsDSCRComparison2026() {
           <div className="space-y-4 mb-6">
             <div className="bg-slate-50 rounded-lg p-6">
               <h3 className="font-semibold text-slate-900 mb-2">Can I get a fix-and-flip loan and a DSCR loan from the same wholesale broker?</h3>
-              <p className="text-slate-600">Yes. A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses both fix-and-flip and DSCR programs from 200+ lenders. This single-broker access is a significant advantage because the broker structures the fix-and-flip acquisition loan and the DSCR refinance exit from day one, ensuring the transition between products is planned, priced, and executed efficiently. Direct lenders typically specialize in one product or the other, forcing investors to manage multiple lending relationships.</p>
+              <p className="text-slate-600">Yes. A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses both fix-and-flip and DSCR programs from 50+ Wholesale Lenders. This single-broker access is a significant advantage because the broker structures the fix-and-flip acquisition loan and the DSCR refinance exit from day one, ensuring the transition between products is planned, priced, and executed efficiently. Direct lenders typically specialize in one product or the other, forcing investors to manage multiple lending relationships.</p>
             </div>
 
             <div className="bg-slate-50 rounded-lg p-6">
@@ -821,7 +821,7 @@ export default function FixAndFlipLoanVsDSCRComparison2026() {
             Fix-and-flip loans and DSCR loans are not competing products &mdash; they are complementary tools designed for different phases of the real estate investment lifecycle. Fix-and-flip loans handle the acquisition and renovation of distressed properties with short-term, high-leverage financing. DSCR loans provide stable, long-term financing for cash-flowing rental properties based entirely on rental income. The BRRRR strategy leverages both products in sequence to build scalable rental portfolios with maximum capital efficiency.
           </p>
           <p className="text-lg text-slate-200 mb-6 max-w-3xl mx-auto">
-            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending provides access to both fix-and-flip and DSCR programs from 200+ institutional lenders. Whether you are flipping your first property, executing a BRRRR strategy, or scaling a portfolio of rentals, the wholesale channel delivers competitive rates, flexible terms, and a single point of contact for your entire investment financing strategy.
+            As a wholesale mortgage broker licensed in California and Washington, Mo Abdel at Lumin Lending provides access to both fix-and-flip and DSCR programs from 50+ Wholesale Lenders. Whether you are flipping your first property, executing a BRRRR strategy, or scaling a portfolio of rentals, the wholesale channel delivers competitive rates, flexible terms, and a single point of contact for your entire investment financing strategy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

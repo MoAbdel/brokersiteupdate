@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Home Equity in Mountain View, Sunnyvale & Tech Corridor: HELOC & Cash-Out [2026]',
-    description: 'HELOC, HELOAN & cash-out refinance guide for 5 Silicon Valley Tech Corridor cities. Jumbo equity products through wholesale broker access to 200+ lenders.',
+    description: 'HELOC, HELOAN & cash-out refinance guide for 5 Silicon Valley Tech Corridor cities. Jumbo equity products through wholesale broker access to 50+ Wholesale Lenders.',
     url: 'https://www.mothebroker.com/blog/home-equity-tech-corridor-silicon-valley-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -268,7 +268,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
           </h2>
 
           <p>
-            The five cities forming the Silicon Valley Tech Corridor represent a combined residential real estate market worth hundreds of billions of dollars. Every city in this corridor has a median home value exceeding $1.3 million, placing the vast majority of equity products in jumbo territory. Standard bank HELOCs and home equity loans typically cap between $250,000 and $500,000 &mdash; a fraction of what Tech Corridor homeowners actually need. Wholesale broker access to 200+ lenders unlocks jumbo products that match the scale of Silicon Valley real estate.
+            The five cities forming the Silicon Valley Tech Corridor represent a combined residential real estate market worth hundreds of billions of dollars. Every city in this corridor has a median home value exceeding $1.3 million, placing the vast majority of equity products in jumbo territory. Standard bank HELOCs and home equity loans typically cap between $250,000 and $500,000 &mdash; a fraction of what Tech Corridor homeowners actually need. Wholesale broker access to 50+ Wholesale Lenders unlocks jumbo products that match the scale of Silicon Valley real estate.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -399,7 +399,7 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
           </div>
 
           <p>
-            <em>As a wholesale mortgage broker (NMLS #1426884), I access HELOC, HELOAN, and cash-out refinance products from 200+ lenders simultaneously. For Tech Corridor homeowners with jumbo equity positions, this access means the difference between a capped bank HELOC and a $1 million+ wholesale HELOC with better terms.</em>
+            <em>As a wholesale mortgage broker (NMLS #1426884), I access HELOC, HELOAN, and cash-out refinance products from 50+ Wholesale Lenders simultaneously. For Tech Corridor homeowners with jumbo equity positions, this access means the difference between a capped bank HELOC and a $1 million+ wholesale HELOC with better terms.</em>
           </p>
 
           {/* ========== QUALIFICATION STEPS ========== */}
@@ -847,13 +847,13 @@ export default function HomeEquityTechCorridorSiliconValley2026() {
               The Silicon Valley Tech Corridor &mdash; Mountain View, Sunnyvale, San Jose, Santa Clara, and Campbell &mdash; represents one of the most equity-rich corridors in the United States. With median home values ranging from $1.3 million to $2 million, virtually every homeowner in this corridor holds equity that exceeds what standard bank products can access. Jumbo HELOCs, specialty HELOANs, and jumbo cash-out refinances available through the wholesale channel are the tools that unlock this value.
             </p>
             <p>
-              Tech compensation complexity &mdash; RSUs, stock options, bonuses, and equity grants &mdash; makes multi-lender access essential. One lender&apos;s income calculation can differ by hundreds of thousands of dollars from another&apos;s, directly impacting how much equity you can access. A wholesale broker compares these calculations in real time across 200+ lenders.
+              Tech compensation complexity &mdash; RSUs, stock options, bonuses, and equity grants &mdash; makes multi-lender access essential. One lender&apos;s income calculation can differ by hundreds of thousands of dollars from another&apos;s, directly impacting how much equity you can access. A wholesale broker compares these calculations in real time across 50+ Wholesale Lenders.
             </p>
             <p>
               Whether you are a Google engineer in Cuesta Park considering an ADU, a dual-income LinkedIn couple in Cherry Chase consolidating debt, a first-generation homeowner in Cambrian funding college tuition, or a Campbell condo owner leveraging equity into a single-family upgrade, the right equity product at the right rate from the right lender changes the financial outcome.
             </p>
             <p className="mb-0">
-              <strong>Ready to explore your Tech Corridor home equity options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a confidential consultation. As a wholesale broker with access to 200+ lenders, I compare HELOC, HELOAN, and cash-out refinance programs side by side to find the best fit for your Silicon Valley home and financial goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
+              <strong>Ready to explore your Tech Corridor home equity options?</strong> Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a confidential consultation. As a wholesale broker with access to 50+ Wholesale Lenders, I compare HELOC, HELOAN, and cash-out refinance programs side by side to find the best fit for your Silicon Valley home and financial goals. No obligation, no pressure &mdash; just honest guidance from a licensed professional.
             </p>
           </div>
 

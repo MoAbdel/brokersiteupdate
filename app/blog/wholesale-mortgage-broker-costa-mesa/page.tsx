@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Costa Mesa Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-  description: 'Access wholesale mortgage rates in Costa Mesa through 200+ lenders. Serving Mesa Verde, Eastside, Westside, South Coast Metro. Bank statement loans, jumbo financing. NMLS #1426884.',
+  title: 'Costa Mesa Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+  description: 'Access wholesale mortgage rates in Costa Mesa through 50+ Wholesale Lenders. Serving Mesa Verde, Eastside, Westside, South Coast Metro. Bank statement loans, jumbo financing. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-costa-mesa',
     languages: {
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Costa Mesa Wholesale Mortgage Broker | 200+ Lenders, Better Rates',
-    description: 'Access wholesale mortgage rates in Costa Mesa through 200+ lenders. Bank statement loans, jumbo financing, DSCR investor loans.',
+    title: 'Costa Mesa Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
+    description: 'Access wholesale mortgage rates in Costa Mesa through 50+ Wholesale Lenders. Bank statement loans, jumbo financing, DSCR investor loans.',
     type: 'article',
     publishedTime: '2026-02-02',
     authors: ['Mo Abdel'],
@@ -28,7 +28,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Costa Mesa Wholesale Mortgage Broker | 200+ Lenders, Better Rates",
+            "headline": "Costa Mesa Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -42,7 +42,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
             },
             "datePublished": "2026-02-02",
             "dateModified": "2026-02-02",
-            "description": "Comprehensive guide to wholesale mortgage broker services in Costa Mesa, CA. Access 200+ lenders for better rates on purchases and refinances."
+            "description": "Comprehensive guide to wholesale mortgage broker services in Costa Mesa, CA. Access 50+ Wholesale Lenders for better rates on purchases and refinances."
           })
         }}
       />
@@ -92,7 +92,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
                 "name": "What is a wholesale mortgage broker in Costa Mesa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Costa Mesa is a licensed professional who shops your loan across 200+ wholesale lenders to find competitive rates and programs. Unlike retail banks that only offer their own products with markup, wholesale brokers access institutional pricing and specialty programs including bank statement loans for self-employed buyers and jumbo options for Costa Mesa's higher-priced neighborhoods like Mesa Verde."
+                  "text": "A wholesale mortgage broker in Costa Mesa is a licensed professional who shops your loan across 50+ Wholesale Lenders to find competitive rates and programs. Unlike retail banks that only offer their own products with markup, wholesale brokers access institutional pricing and specialty programs including bank statement loans for self-employed buyers and jumbo options for Costa Mesa's higher-priced neighborhoods like Mesa Verde."
                 }
               },
               {
@@ -143,7 +143,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
       <header className="mb-8">
         <p className="text-blue-600 font-medium mb-2">Costa Mesa Mortgage Guide</p>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Costa Mesa Wholesale Mortgage Broker | 200+ Lenders, Better Rates
+          Costa Mesa Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates
         </h1>
         <p className="text-xl text-gray-600">
           Access wholesale mortgage rates for Mesa Verde, Eastside, Westside & South Coast Metro
@@ -158,7 +158,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Costa Mesa sits at the heart of Orange County with a unique blend of beachy culture, established neighborhoods, and urban amenities. The city's median home price of approximately <strong>$1.1 million</strong> means most buyers benefit significantly from wholesale mortgage access, while premium Mesa Verde properties reaching <strong>$2 million or more</strong> require jumbo loan expertise. A <strong>wholesale mortgage broker</strong> provides access to institutional rates from 200+ lenders, bank statement programs for Costa Mesa's entrepreneurial community, and specialty financing for condos near South Coast Plaza. On typical Costa Mesa purchases, wholesale rates represent <strong>$55,000-$110,000+</strong> in potential savings compared to retail bank pricing.
+            Costa Mesa sits at the heart of Orange County with a unique blend of beachy culture, established neighborhoods, and urban amenities. The city's median home price of approximately <strong>$1.1 million</strong> means most buyers benefit significantly from wholesale mortgage access, while premium Mesa Verde properties reaching <strong>$2 million or more</strong> require jumbo loan expertise. A <strong>wholesale mortgage broker</strong> provides access to institutional rates from 50+ Wholesale Lenders, bank statement programs for Costa Mesa's entrepreneurial community, and specialty financing for condos near South Coast Plaza. On typical Costa Mesa purchases, wholesale rates represent <strong>$55,000-$110,000+</strong> in potential savings compared to retail bank pricing.
           </p>
         </div>
 
@@ -521,7 +521,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
             </thead>
             <tbody>
               <tr><td className="py-3 px-4 border-b font-semibold">Rate Pricing</td><td className="py-3 px-4 border-b">Retail (includes bank margin)</td><td className="py-3 px-4 border-b text-blue-700">Wholesale (institutional pricing)</td></tr>
-              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-blue-700">200+ wholesale lenders</td></tr>
+              <tr><td className="py-3 px-4 border-b font-semibold">Lender Options</td><td className="py-3 px-4 border-b">1 lender only</td><td className="py-3 px-4 border-b text-blue-700">50+ Wholesale Lenders</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Bank Statement Loans</td><td className="py-3 px-4 border-b">Rarely offered</td><td className="py-3 px-4 border-b text-blue-700">Multiple 12 and 24 month options</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Jumbo Programs</td><td className="py-3 px-4 border-b">Single product</td><td className="py-3 px-4 border-b text-blue-700">20+ jumbo lender options</td></tr>
               <tr><td className="py-3 px-4 border-b font-semibold">Condo Expertise</td><td className="py-3 px-4 border-b">Limited flexibility</td><td className="py-3 px-4 border-b text-blue-700">Non-warrantable options available</td></tr>
@@ -548,7 +548,7 @@ export default function WholesaleMortgageBrokerCostaMesaPage() {
             <strong>Property-Specific Analysis:</strong> When you identify a property, your broker analyzes which lenders offer optimal terms for that specific purchase—especially important for condos requiring HOA review.
           </li>
           <li>
-            <strong>Lender Shopping:</strong> Compare rates and terms across 200+ lenders for your specific scenario and property type.
+            <strong>Lender Shopping:</strong> Compare rates and terms across 50+ Wholesale Lenders for your specific scenario and property type.
           </li>
           <li>
             <strong>Rate Lock:</strong> Lock when timing aligns with your closing date and market conditions.

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92602 | Irvine Northpark | Jumbo Loan Specialists',
-  description: 'Irvine Northpark wholesale mortgage broker serving 92602. Access 200+ lenders for jumbo loans, tech professional programs & better rates. NMLS #1426884.',
+  description: 'Irvine Northpark wholesale mortgage broker serving 92602. Access 50+ Wholesale Lenders for jumbo loans, tech professional programs & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92602',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92602 | Irvine Northpark Jumbo Loan Specialists',
-    description: 'Irvine Northpark wholesale mortgage broker with 200+ lenders for jumbo loans up to $3M+.',
+    description: 'Irvine Northpark wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans up to $3M+.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92602',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -62,7 +62,7 @@ export default function WholesaleMortgageBroker92602Page() {
                 "name": "Why choose a wholesale mortgage broker over Bank of America in Irvine?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker accesses 200+ lenders competing for your business, while Bank of America offers only their own products. For Irvine tech professionals requiring jumbo financing, this competitive access delivers better rates and faster closings."
+                  "text": "A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, while Bank of America offers only their own products. For Irvine tech professionals requiring jumbo financing, this competitive access delivers better rates and faster closings."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92602Page() {
           Wholesale Mortgage Broker 92602 | Irvine Northpark Jumbo Loan Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Irvine&apos;s premier master-planned Northpark community
+          Access wholesale rates and 50+ Wholesale Lenders for Irvine&apos;s premier master-planned Northpark community
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Irvine Northpark 92602 attracts tech professionals, executives, and families to its master-planned community with a <strong>$1.5 million median home price</strong>. With the 2026 conforming loan limit at $1,209,750, most Northpark buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 200+ lender access delivers better rates than Bank of America, Wells Fargo, or Chase—especially for the tech professionals who call 92602 home.
+            Irvine Northpark 92602 attracts tech professionals, executives, and families to its master-planned community with a <strong>$1.5 million median home price</strong>. With the 2026 conforming loan limit at $1,209,750, most Northpark buyers need <strong>jumbo financing</strong>. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders delivers better rates than Bank of America, Wells Fargo, or Chase—especially for the tech professionals who call 92602 home.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function WholesaleMortgageBroker92602Page() {
 
         <h3>The Conforming Loan Gap</h3>
         <p>
-          The 2026 conforming loan limit of $1,209,750 doesn&apos;t stretch far in Northpark. With a $1.5M median price, the typical 92602 buyer needs a <strong>jumbo loan of $1.1-1.8 million</strong>. Banks offer jumbo products, but wholesale brokers access <strong>200+ lenders competing</strong> for your business—delivering better pricing for Irvine&apos;s tech-savvy buyers.
+          The 2026 conforming loan limit of $1,209,750 doesn&apos;t stretch far in Northpark. With a $1.5M median price, the typical 92602 buyer needs a <strong>jumbo loan of $1.1-1.8 million</strong>. Banks offer jumbo products, but wholesale brokers access <strong>50+ Wholesale Lenders competing</strong> for your business—delivering better pricing for Irvine&apos;s tech-savvy buyers.
         </p>
 
         <h2>92602 Real Estate Snapshot</h2>
@@ -272,7 +272,7 @@ export default function WholesaleMortgageBroker92602Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale mortgage broker over Bank of America in Irvine?</h3>
-            <p className="mb-0">A wholesale mortgage broker accesses 200+ lenders competing for your business, while Bank of America offers only their own products. For Irvine tech professionals requiring jumbo financing, this competitive access delivers better rates and faster closings.</p>
+            <p className="mb-0">A wholesale mortgage broker accesses 50+ Wholesale Lenders competing for your business, while Bank of America offers only their own products. For Irvine tech professionals requiring jumbo financing, this competitive access delivers better rates and faster closings.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do wholesale brokers understand Mello-Roos in 92602?</h3>

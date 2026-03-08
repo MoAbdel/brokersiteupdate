@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92675 | San Juan Capistrano | Jumbo Loan Specialists',
-  description: 'San Juan Capistrano wholesale mortgage broker serving 92675. Access 200+ lenders for jumbo loans, historic district financing & better rates. NMLS #1426884.',
+  description: 'San Juan Capistrano wholesale mortgage broker serving 92675. Access 50+ Wholesale Lenders for jumbo loans, historic district financing & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92675',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92675 | San Juan Capistrano Jumbo Loan Specialists',
-    description: 'San Juan Capistrano wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'San Juan Capistrano wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92675',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -57,7 +57,7 @@ export default function WholesaleMortgageBroker92675Page() {
                 "name": "What is a wholesale mortgage broker in San Juan Capistrano (92675)?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in San Juan Capistrano is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for this historic California community, including jumbo loan financing."
+                  "text": "A wholesale mortgage broker in San Juan Capistrano is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for this historic California community, including jumbo loan financing."
                 }
               },
               {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBroker92675Page() {
                 "name": "How do San Juan Capistrano wholesale rates compare to Farmers & Merchants or Pacific Western?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 200+ lenders who compete for San Juan Capistrano financing, compared to single-product offerings at local banks."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead. Brokers shop across 50+ Wholesale Lenders who compete for San Juan Capistrano financing, compared to single-product offerings at local banks."
                 }
               },
               {
@@ -103,7 +103,7 @@ export default function WholesaleMortgageBroker92675Page() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Mo Abdel - Wholesale Mortgage Broker",
-            "description": "San Juan Capistrano wholesale mortgage broker serving 92675 with 200+ lender access for jumbo loans and historic property financing.",
+            "description": "San Juan Capistrano wholesale mortgage broker serving 92675 with 50+ Wholesale Lenders for jumbo loans and historic property financing.",
             "telephone": "(949) 579-2057",
             "areaServed": {
               "@type": "PostalAddress",
@@ -128,7 +128,7 @@ export default function WholesaleMortgageBroker92675Page() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            San Juan Capistrano homebuyers in 92675 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>200+ lender relationships</strong> for better rates than Farmers &amp; Merchants, Pacific Western, and other Orange County banks. With San Juan Capistrano median home prices around $1.6 million, buyers need jumbo loan expertise that wholesale brokers deliver for this historic California community.
+            San Juan Capistrano homebuyers in 92675 access wholesale mortgage rates through Mo Abdel at Lumin Lending, with <strong>50+ Wholesale Lenders</strong> for better rates than Farmers &amp; Merchants, Pacific Western, and other Orange County banks. With San Juan Capistrano median home prices around $1.6 million, buyers need jumbo loan expertise that wholesale brokers deliver for this historic California community.
           </p>
         </div>
 
@@ -248,7 +248,7 @@ export default function WholesaleMortgageBroker92675Page() {
 
         <h3>What is a wholesale mortgage broker in San Juan Capistrano (92675)?</h3>
         <p>
-          A wholesale mortgage broker in San Juan Capistrano is an independent licensed professional who accesses institutional pricing from 200+ lenders to find the best rates for this historic California community. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—including specialists in historic and equestrian properties.
+          A wholesale mortgage broker in San Juan Capistrano is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for this historic California community. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market—including specialists in historic and equestrian properties.
         </p>
 
         <h3>Can I get a jumbo loan in San Juan Capistrano through a wholesale broker?</h3>
@@ -258,7 +258,7 @@ export default function WholesaleMortgageBroker92675Page() {
 
         <h3>How do San Juan Capistrano wholesale rates compare to Farmers &amp; Merchants or Pacific Western?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 200+ lenders who compete for San Juan Capistrano financing, versus the single product offering at any bank.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for San Juan Capistrano financing, versus the single product offering at any bank.
         </p>
 
         <h3>Are there special financing programs for historic district properties?</h3>

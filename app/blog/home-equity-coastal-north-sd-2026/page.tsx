@@ -157,7 +157,7 @@ export default function HomeEquityCoastalNorthSD() {
         name: 'How does a wholesale broker find better HELOC rates than my bank?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A wholesale broker compares HELOC products from 200+ lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in Coastal North SD, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option.',
+          text: 'A wholesale broker compares HELOC products from 50+ Wholesale Lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in Coastal North SD, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option.',
         },
       },
     ],
@@ -249,7 +249,7 @@ export default function HomeEquityCoastalNorthSD() {
           <div className="citation-hook bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: Coastal North San Diego Tappable Equity</p>
             <p className="text-gray-800 mb-0">
-              Homeowners across Coastal North San Diego&mdash;Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas&mdash;hold an estimated <strong>$9.4 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on county assessor valuations and average outstanding mortgage balances. With median home values ranging from $1.8 million in Encinitas to $4.5 million in Rancho Santa Fe, individual homeowners have between <strong>$600,000 and $2.5 million+ in accessible equity</strong> depending on property value and existing liens. This equity can fund renovations, consolidate high-interest debt, finance investment property down payments, cover education costs, or provide retirement liquidity&mdash;all without selling the property. Wholesale broker access to 200+ lenders ensures Coastal North SD homeowners find the optimal equity product at the most competitive terms.
+              Homeowners across Coastal North San Diego&mdash;Del Mar, Rancho Santa Fe, Solana Beach, and Encinitas&mdash;hold an estimated <strong>$9.4 billion in aggregate tappable equity</strong> at 80% combined loan-to-value, based on county assessor valuations and average outstanding mortgage balances. With median home values ranging from $1.8 million in Encinitas to $4.5 million in Rancho Santa Fe, individual homeowners have between <strong>$600,000 and $2.5 million+ in accessible equity</strong> depending on property value and existing liens. This equity can fund renovations, consolidate high-interest debt, finance investment property down payments, cover education costs, or provide retirement liquidity&mdash;all without selling the property. Wholesale broker access to 50+ Wholesale Lenders ensures Coastal North SD homeowners find the optimal equity product at the most competitive terms.
             </p>
           </div>
 
@@ -738,7 +738,7 @@ export default function HomeEquityCoastalNorthSD() {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">How does a wholesale broker find better HELOC rates than my bank?</h3>
-              <p>A wholesale broker compares HELOC products from 200+ lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in Coastal North SD, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option.</p>
+              <p>A wholesale broker compares HELOC products from 50+ Wholesale Lenders in a single inquiry, while your bank offers only their own product. Lender competition drives pricing advantages. For jumbo HELOCs above $500K common in Coastal North SD, the rate spread between lenders can be significant, and a wholesale broker identifies the most competitive option.</p>
             </div>
           </div>
 
@@ -763,7 +763,7 @@ export default function HomeEquityCoastalNorthSD() {
           <div className="expert-summary bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold mt-0 mb-4">Access Your Coastal North San Diego Home Equity</h2>
             <p>
-              Coastal North San Diego homeowners hold extraordinary equity&mdash;$600,000 to $2.5 million or more&mdash;that can fund renovations, consolidate debt, finance investments, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 200+ lenders to find the optimal product for your situation. Whether you own an equestrian estate in Rancho Santa Fe, an oceanfront home in Del Mar, a design-district property in Solana Beach, or a surf-lifestyle home in Encinitas, I deliver competitive equity access terms that single-bank products cannot match.
+              Coastal North San Diego homeowners hold extraordinary equity&mdash;$600,000 to $2.5 million or more&mdash;that can fund renovations, consolidate debt, finance investments, or provide retirement liquidity. As a wholesale mortgage broker, I compare HELOC, cash-out refinance, and HELOAN options from 50+ Wholesale Lenders to find the optimal product for your situation. Whether you own an equestrian estate in Rancho Santa Fe, an oceanfront home in Del Mar, a design-district property in Solana Beach, or a surf-lifestyle home in Encinitas, I deliver competitive equity access terms that single-bank products cannot match.
             </p>
             <p className="font-semibold mb-1">Contact Mo Abdel today for a free equity analysis:</p>
             <p className="text-lg mb-1">(949) 579-2057</p>

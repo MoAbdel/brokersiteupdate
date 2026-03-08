@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker in Danville, Walnut Creek & Suburban East Bay, CA [2026] | Mo Abdel',
-  description: 'Wholesale mortgage broker serving Danville, Walnut Creek, Pleasanton, Dublin & Fremont. 200+ lenders, jumbo ranch property financing, Blackhawk gated community, Tri-Valley tech dual-income, new construction. NMLS #1426884.',
+  description: 'Wholesale mortgage broker serving Danville, Walnut Creek, Pleasanton, Dublin & Fremont. 50+ Wholesale Lenders, jumbo ranch property financing, Blackhawk gated community, Tri-Valley tech dual-income, new construction. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Danville CA',
     'mortgage broker Walnut Creek CA',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Wholesale Mortgage Broker in Danville, Walnut Creek & Suburban East Bay, CA [2026]',
-    description: 'Wholesale mortgage broker with 200+ lenders serving Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Blackhawk gated, Rossmoor 55+, Tri-Valley tech, new construction & Tesla/tech manufacturing financing.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders serving Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Blackhawk gated, Rossmoor 55+, Tri-Valley tech, new construction & Tesla/tech manufacturing financing.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -56,7 +56,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
     },
     datePublished: '2026-02-10',
     dateModified: '2026-02-10',
-    description: 'Comprehensive wholesale mortgage broker guide for Affluent Suburban East Bay covering Blackhawk gated financing, Rossmoor 55+ community lending, Ruby Hill and Tri-Valley tech dual-income qualification, Dublin new construction, Fremont Tesla/tech manufacturing income, and 200+ lender access for Danville, Walnut Creek, Pleasanton, Dublin, and Fremont.',
+    description: 'Comprehensive wholesale mortgage broker guide for Affluent Suburban East Bay covering Blackhawk gated financing, Rossmoor 55+ community lending, Ruby Hill and Tri-Valley tech dual-income qualification, Dublin new construction, Fremont Tesla/tech manufacturing income, and 50+ Wholesale Lenders for Danville, Walnut Creek, Pleasanton, Dublin, and Fremont.',
     mainEntityOfPage: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
     about: [
       { '@type': 'FinancialProduct', name: 'Wholesale Jumbo Purchase Loans' },
@@ -69,7 +69,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
   const faqData = [
     {
       question: 'What is a wholesale mortgage broker and how does it benefit Danville and Walnut Creek homebuyers?',
-      answer: 'A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 200+ lenders including 50+ jumbo specialists. For Danville and Walnut Creek buyers, where median home values range from $1.1M to $1.8M and virtually every purchase enters jumbo territory, wholesale lender competition produces better pricing and more flexible underwriting than any single retail bank. Blackhawk gated community purchases, Rossmoor 55+ financing, and ranch property appraisals all require specialized lenders that wholesale channels access directly.',
+      answer: 'A wholesale mortgage broker is a licensed professional who originates loans through wholesale lending channels, accessing 50+ Wholesale Lenders including 50+ jumbo specialists. For Danville and Walnut Creek buyers, where median home values range from $1.1M to $1.8M and virtually every purchase enters jumbo territory, wholesale lender competition produces better pricing and more flexible underwriting than any single retail bank. Blackhawk gated community purchases, Rossmoor 55+ financing, and ranch property appraisals all require specialized lenders that wholesale channels access directly.',
     },
     {
       question: 'Can a wholesale broker finance a home in Blackhawk gated community in Danville?',
@@ -105,7 +105,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
     },
     {
       question: 'How do I qualify for a mortgage in Pleasanton with dual tech income?',
-      answer: 'Pleasanton dual-income tech households qualify through multiple wholesale programs designed for complex compensation. Lenders evaluate combined base salary, bonuses, RSU income, and stock option exercises. For couples where both work at Tri-Valley employers like Workday, Roche, or Safeway corporate, combined income documentation is straightforward. For mixed-income households where one earner is W-2 and the other is self-employed or contract-based, wholesale access to 200+ lenders ensures the most favorable qualification method for the specific income combination.',
+      answer: 'Pleasanton dual-income tech households qualify through multiple wholesale programs designed for complex compensation. Lenders evaluate combined base salary, bonuses, RSU income, and stock option exercises. For couples where both work at Tri-Valley employers like Workday, Roche, or Safeway corporate, combined income documentation is straightforward. For mixed-income households where one earner is W-2 and the other is self-employed or contract-based, wholesale access to 50+ Wholesale Lenders ensures the most favorable qualification method for the specific income combination.',
     },
     {
       question: 'What documentation do I need for a wholesale jumbo mortgage in the Suburban East Bay?',
@@ -113,7 +113,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
     },
     {
       question: 'Can a wholesale broker help if I was turned down by a bank for a Danville or Walnut Creek purchase?',
-      answer: 'Frequently, yes. A retail bank decline means one lender said no based on their specific guidelines. With 200+ lenders in the wholesale channel, there are alternative programs that accommodate scenarios retail banks decline. Common examples include ranch property appraisals that fall below purchase price, self-employed income that does not meet bank guidelines, DTI ratios above standard thresholds, and properties with unique characteristics like equestrian facilities, guest houses, or non-standard construction.',
+      answer: 'Frequently, yes. A retail bank decline means one lender said no based on their specific guidelines. With 50+ Wholesale Lenders in the wholesale channel, there are alternative programs that accommodate scenarios retail banks decline. Common examples include ranch property appraisals that fall below purchase price, self-employed income that does not meet bank guidelines, DTI ratios above standard thresholds, and properties with unique characteristics like equestrian facilities, guest houses, or non-standard construction.',
     },
   ];
 
@@ -144,7 +144,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
       { '@type': 'City', name: 'Fremont', containedInPlace: { '@type': 'State', name: 'California' } },
     ],
     priceRange: 'Contact for rates',
-    description: 'Wholesale mortgage broker with 200+ lender access specializing in jumbo purchases, gated community financing, new construction loans, 55+ community lending, and DSCR investment properties for the Affluent Suburban East Bay including Danville, Walnut Creek, Pleasanton, Dublin, and Fremont.',
+    description: 'Wholesale mortgage broker with 50+ Wholesale Lenders specializing in jumbo purchases, gated community financing, new construction loans, 55+ community lending, and DSCR investment properties for the Affluent Suburban East Bay including Danville, Walnut Creek, Pleasanton, Dublin, and Fremont.',
   };
 
   const breadcrumbJsonLd = {
@@ -192,7 +192,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
             By <strong>Mo Abdel</strong>, NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443 | Updated February 10, 2026
           </p>
           <p className="text-gray-500 text-sm mt-1">
-            200+ lender access | Jumbo &amp; gated community financing | Blackhawk, Ruby Hill, Rossmoor specialist | Licensed in CA &amp; WA
+            50+ Wholesale Lenders | Jumbo &amp; gated community financing | Blackhawk, Ruby Hill, Rossmoor specialist | Licensed in CA &amp; WA
           </p>
         </header>
 
@@ -232,7 +232,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </nav>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Affluent Suburban East Bay &mdash; spanning Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; represents one of Northern California&apos;s most dynamic mortgage markets. Median home values range from $1.1M in Walnut Creek, Dublin, and Fremont to $1.8M in Danville, placing the vast majority of purchase transactions squarely in jumbo financing territory. As a wholesale mortgage broker with access to over 200 lenders &mdash; including 50+ jumbo specialists, gated community financing experts, and programs designed for tech manufacturing income &mdash; I serve this corridor by creating lender competition that delivers better pricing, faster closings, and expert handling of the diverse property types and buyer profiles that define Suburban East Bay real estate. Whether you are purchasing a Blackhawk estate, a Rossmoor retirement condo, a Ruby Hill luxury home, new construction in Dublin Ranch, or a family home near Tesla&apos;s Fremont factory, wholesale access ensures you see every competitive option the lending market offers.
+            The Affluent Suburban East Bay &mdash; spanning Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; represents one of Northern California&apos;s most dynamic mortgage markets. Median home values range from $1.1M in Walnut Creek, Dublin, and Fremont to $1.8M in Danville, placing the vast majority of purchase transactions squarely in jumbo financing territory. As a wholesale mortgage broker with access to 50+ Wholesale Lenders &mdash; including 50+ jumbo specialists, gated community financing experts, and programs designed for tech manufacturing income &mdash; I serve this corridor by creating lender competition that delivers better pricing, faster closings, and expert handling of the diverse property types and buyer profiles that define Suburban East Bay real estate. Whether you are purchasing a Blackhawk estate, a Rossmoor retirement condo, a Ruby Hill luxury home, new construction in Dublin Ranch, or a family home near Tesla&apos;s Fremont factory, wholesale access ensures you see every competitive option the lending market offers.
           </p>
 
           <p>
@@ -305,7 +305,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </h2>
 
           <p>
-            The Affluent Suburban East Bay mortgage market demands wholesale access because no single retail bank competitively serves the full range of financing scenarios this corridor produces. A Blackhawk estate purchase at $3.2M, a Rossmoor 55+ cooperative unit at $680K, new construction at Dublin Ranch at $1.4M, and a Tesla employee&apos;s first home in Warm Springs at $1.15M each require fundamentally different lender specializations, underwriting approaches, and product categories. Wholesale access to 200+ lenders ensures each transaction is matched to the lender whose guidelines, pricing, and product specialty align with the specific scenario.
+            The Affluent Suburban East Bay mortgage market demands wholesale access because no single retail bank competitively serves the full range of financing scenarios this corridor produces. A Blackhawk estate purchase at $3.2M, a Rossmoor 55+ cooperative unit at $680K, new construction at Dublin Ranch at $1.4M, and a Tesla employee&apos;s first home in Warm Springs at $1.15M each require fundamentally different lender specializations, underwriting approaches, and product categories. Wholesale access to 50+ Wholesale Lenders ensures each transaction is matched to the lender whose guidelines, pricing, and product specialty align with the specific scenario.
           </p>
 
           <div className="overflow-x-auto my-6">
@@ -381,13 +381,13 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
               <tbody>
                 <tr className="border-b">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Lender Access</td>
-                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">200+ lenders, 50+ jumbo</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">50+ Wholesale Lenders, 50+ jumbo</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                   <td className="px-4 py-3 text-sm text-gray-800">1 lender (own products only)</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="px-4 py-3 text-sm font-medium text-gray-800">Rate Shopping</td>
-                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Automatic &mdash; broker shops 200+ lenders</td>
+                  <td className="px-4 py-3 text-sm text-blue-700 font-semibold">Automatic &mdash; broker shops 50+ Wholesale Lenders</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must apply at multiple banks</td>
                   <td className="px-4 py-3 text-sm text-gray-800">You must compare multiple sites</td>
                 </tr>
@@ -432,7 +432,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </div>
 
           <p>
-            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> The wholesale advantage is amplified in the Suburban East Bay because of the region&apos;s buyer and property diversity. A $3M Blackhawk estate purchase, a $680K Rossmoor cooperative unit, a $1.4M Dublin Ranch new build, and a $1.15M Mission San Jose family home each require entirely different lender specializations. No single retail bank handles all four competitively. With 200+ wholesale lenders, I match each transaction to the lender whose product specialty, underwriting guidelines, and pricing align with the borrower&apos;s specific property type and financial profile.
+            <strong>E-E-A-T Insight from Mo Abdel, NMLS #1426884:</strong> The wholesale advantage is amplified in the Suburban East Bay because of the region&apos;s buyer and property diversity. A $3M Blackhawk estate purchase, a $680K Rossmoor cooperative unit, a $1.4M Dublin Ranch new build, and a $1.15M Mission San Jose family home each require entirely different lender specializations. No single retail bank handles all four competitively. With 50+ Wholesale Lenders, I match each transaction to the lender whose product specialty, underwriting guidelines, and pricing align with the borrower&apos;s specific property type and financial profile.
           </p>
 
           {/* ========== CITY DEEP DIVE 1: DANVILLE ========== */}
@@ -453,7 +453,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </p>
 
           <p>
-            <strong>Executive income qualification</strong> in Danville frequently involves complex compensation: C-suite base salary plus annual bonus, deferred compensation, stock options from Bay Area tech firms, and partnership distributions from professional practices. Wholesale broker access to 200+ lenders ensures the most favorable income calculation method for each executive&apos;s specific compensation structure. For self-employed Danville residents, <a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">bank statement loan programs</a> offer qualification using 12&ndash;24 months of deposits instead of tax returns.
+            <strong>Executive income qualification</strong> in Danville frequently involves complex compensation: C-suite base salary plus annual bonus, deferred compensation, stock options from Bay Area tech firms, and partnership distributions from professional practices. Wholesale broker access to 50+ Wholesale Lenders ensures the most favorable income calculation method for each executive&apos;s specific compensation structure. For self-employed Danville residents, <a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">bank statement loan programs</a> offer qualification using 12&ndash;24 months of deposits instead of tax returns.
           </p>
 
           {/* ========== CITY DEEP DIVE 2: WALNUT CREEK ========== */}
@@ -583,11 +583,11 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           </p>
 
           <p>
-            Fremont reveals the wholesale advantage in income diversity. A Tesla production supervisor&apos;s income profile &mdash; hourly base plus overtime plus production bonuses plus stock grants &mdash; is accurately captured by some lenders and dramatically underqualified by others. A wholesale broker&apos;s ability to present this income to 200+ lenders and select the one whose qualification methodology most accurately represents the borrower&apos;s true earning capacity is the difference between a $950K pre-approval and a $1.15M pre-approval. For Fremont&apos;s multi-generational families, wholesale access provides lenders comfortable with non-occupant co-borrower arrangements, larger property purchases, and income from multiple household members &mdash; scenarios that standard retail bank guidelines often cannot accommodate.
+            Fremont reveals the wholesale advantage in income diversity. A Tesla production supervisor&apos;s income profile &mdash; hourly base plus overtime plus production bonuses plus stock grants &mdash; is accurately captured by some lenders and dramatically underqualified by others. A wholesale broker&apos;s ability to present this income to 50+ Wholesale Lenders and select the one whose qualification methodology most accurately represents the borrower&apos;s true earning capacity is the difference between a $950K pre-approval and a $1.15M pre-approval. For Fremont&apos;s multi-generational families, wholesale access provides lenders comfortable with non-occupant co-borrower arrangements, larger property purchases, and income from multiple household members &mdash; scenarios that standard retail bank guidelines often cannot accommodate.
           </p>
 
           <p>
-            The consistent theme across all five cities is specialization matching. The Affluent Suburban East Bay requires a broker who understands which of 200+ lenders specializes in gated community appraisals (Danville), cooperative 55+ ownership (Walnut Creek), tech dual-income RSU counting (Pleasanton), extended new construction rate locks (Dublin), and manufacturing income qualification (Fremont). That specificity of lender selection is the wholesale broker advantage, and it is why Suburban East Bay homebuyers who work with a wholesale broker consistently achieve better pricing, faster closings, and higher approval rates than those who apply at a single retail bank.
+            The consistent theme across all five cities is specialization matching. The Affluent Suburban East Bay requires a broker who understands which of 50+ Wholesale Lenders specializes in gated community appraisals (Danville), cooperative 55+ ownership (Walnut Creek), tech dual-income RSU counting (Pleasanton), extended new construction rate locks (Dublin), and manufacturing income qualification (Fremont). That specificity of lender selection is the wholesale broker advantage, and it is why Suburban East Bay homebuyers who work with a wholesale broker consistently achieve better pricing, faster closings, and higher approval rates than those who apply at a single retail bank.
           </p>
 
           {/* ========== DATA HUB ========== */}
@@ -731,13 +731,13 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 my-8">
             <h2 className="text-2xl font-bold text-green-900 mt-0 mb-4">Expert Summary: Wholesale Mortgage Broker for the Affluent Suburban East Bay</h2>
             <p className="text-slate-900 text-lg mb-3">
-              The Affluent Suburban East Bay &mdash; Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; demands wholesale mortgage access because no single retail bank competitively serves the full spectrum of financing scenarios this corridor produces. Blackhawk and Ruby Hill gated community purchases require portfolio jumbo specialists. Rossmoor 55+ transactions need cooperative ownership and asset depletion expertise. Dublin new construction demands extended rate locks up to 360 days. Pleasanton tech dual-income households need lenders who maximize RSU income counting. Fremont Tesla employees need manufacturing income specialists who count total compensation. With 200+ lenders including 50+ jumbo specialists, I match each Suburban East Bay transaction to the lender whose specific expertise, pricing, and underwriting guidelines deliver the best outcome for that exact scenario.
+              The Affluent Suburban East Bay &mdash; Danville, Walnut Creek, Pleasanton, Dublin, and Fremont &mdash; demands wholesale mortgage access because no single retail bank competitively serves the full spectrum of financing scenarios this corridor produces. Blackhawk and Ruby Hill gated community purchases require portfolio jumbo specialists. Rossmoor 55+ transactions need cooperative ownership and asset depletion expertise. Dublin new construction demands extended rate locks up to 360 days. Pleasanton tech dual-income households need lenders who maximize RSU income counting. Fremont Tesla employees need manufacturing income specialists who count total compensation. With 50+ Wholesale Lenders including 50+ jumbo specialists, I match each Suburban East Bay transaction to the lender whose specific expertise, pricing, and underwriting guidelines deliver the best outcome for that exact scenario.
             </p>
             <p className="text-slate-900 mb-3">
               <strong>The wholesale rate advantage in this corridor is $2,400 to $12,000 per year on typical loan amounts.</strong> Over a 7-year average hold period, that is $16,800 to $84,000 in total savings &mdash; money that stays in your household rather than subsidizing a retail bank&apos;s overhead.
             </p>
             <p className="text-slate-900">
-              Whether you are a first-time jumbo buyer in Dublin, a Blackhawk estate purchaser in Danville, a Rossmoor retiree in Walnut Creek, a dual-income tech family in Pleasanton, or a Tesla employee in Fremont, the first step is a conversation about your specific property, income, and financing goals. I will show you exactly what 200+ wholesale lenders offer for your scenario.
+              Whether you are a first-time jumbo buyer in Dublin, a Blackhawk estate purchaser in Danville, a Rossmoor retiree in Walnut Creek, a dual-income tech family in Pleasanton, or a Tesla employee in Fremont, the first step is a conversation about your specific property, income, and financing goals. I will show you exactly what 50+ Wholesale Lenders offer for your scenario.
             </p>
           </div>
 
@@ -748,7 +748,7 @@ export default function WholesaleMortgageBrokerAffluentSuburbanEastBay2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Suburban East Bay communities</p>
-            <p className="text-sm">Wholesale broker with 200+ lender access | Blackhawk, Ruby Hill, Rossmoor, new construction &amp; Tesla/tech specialist</p>
+            <p className="text-sm">Wholesale broker with 50+ Wholesale Lenders | Blackhawk, Ruby Hill, Rossmoor, new construction &amp; Tesla/tech specialist</p>
           </div>
 
           {/* ========== DISCLAIMER ========== */}

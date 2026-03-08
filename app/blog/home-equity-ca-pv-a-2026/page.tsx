@@ -71,7 +71,7 @@ export default function HomeEquityCaPvA2026() {
   const faqData = [
     {
       question: 'How much equity can I access from a Palos Verdes Estates home?',
-      answer: 'Palos Verdes Estates homeowners with properties valued at $2.5M-$6M+ typically access $1M-$3.5M in tappable equity through jumbo HELOC, HELOAN, or cash-out refinance products. The exact amount depends on your existing mortgage balance, credit profile, and the lender\'s maximum combined loan-to-value (CLTV) ratio, typically 70-80% for jumbo programs. A wholesale broker compares 200+ lenders to find maximum equity access at competitive rates.',
+      answer: 'Palos Verdes Estates homeowners with properties valued at $2.5M-$6M+ typically access $1M-$3.5M in tappable equity through jumbo HELOC, HELOAN, or cash-out refinance products. The exact amount depends on your existing mortgage balance, credit profile, and the lender\'s maximum combined loan-to-value (CLTV) ratio, typically 70-80% for jumbo programs. A wholesale broker compares 50+ Wholesale Lenders to find maximum equity access at competitive rates.',
     },
     {
       question: 'What HELOC options exist for Rolling Hills equestrian estates?',
@@ -91,7 +91,7 @@ export default function HomeEquityCaPvA2026() {
     },
     {
       question: 'What credit score do I need for a jumbo HELOC in Palos Verdes?',
-      answer: 'Most jumbo HELOC lenders serving the Palos Verdes Peninsula require minimum credit scores of 700-720, with the best rates available at 760+. For super-jumbo HELOCs above $1M, some lenders require 740+ scores. Through wholesale broker access to 200+ lenders, competitive HELOC programs exist across credit tiers, and compensating factors like low CLTV ratios and substantial liquid reserves offset credit score requirements with certain lenders.',
+      answer: 'Most jumbo HELOC lenders serving the Palos Verdes Peninsula require minimum credit scores of 700-720, with the best rates available at 760+. For super-jumbo HELOCs above $1M, some lenders require 740+ scores. Through wholesale broker access to 50+ Wholesale Lenders, competitive HELOC programs exist across credit tiers, and compensating factors like low CLTV ratios and substantial liquid reserves offset credit score requirements with certain lenders.',
     },
     {
       question: 'Is HELOC interest tax deductible on my Palos Verdes home?',
@@ -103,7 +103,7 @@ export default function HomeEquityCaPvA2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For the Palos Verdes and South Bay jumbo market, the rate difference between the best and average lender saves $3,000-$12,000 annually on a $750K+ HELOC.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For the Palos Verdes and South Bay jumbo market, the rate difference between the best and average lender saves $3,000-$12,000 annually on a $750K+ HELOC.',
     },
     {
       question: 'Can I use a Palos Verdes HELOC for investment property down payments?',
@@ -210,12 +210,12 @@ export default function HomeEquityCaPvA2026() {
               <li>The Palos Verdes Peninsula and South Bay corridor holds an estimated <strong>$58 billion</strong> in combined residential equity across seven cities &mdash; the highest per-capita equity concentration in Los Angeles County outside Bel Air and Pacific Palisades</li>
               <li>Average tappable equity per homeowner ranges from <strong>$900K in Redondo Beach to $3.5M+ in Rolling Hills</strong>, assuming 75% CLTV and typical mortgage balances for long-term owners</li>
               <li>Los Angeles County recorded <strong>4,128 HELOC originations in Q3 2025</strong>, with a 28% year-over-year increase in jumbo HELOC applications driven by aerospace compensation growth and renovation demand (CoreLogic)</li>
-              <li>A wholesale broker comparing <strong>200+ lenders</strong> saves Palos Verdes and South Bay homeowners $4,000&ndash;$15,000 annually on jumbo HELOCs versus single-bank pricing &mdash; because 90%+ of homes here exceed the $1,209,750 LA County conforming limit</li>
+              <li>A wholesale broker comparing <strong>50+ Wholesale Lenders</strong> saves Palos Verdes and South Bay homeowners $4,000&ndash;$15,000 annually on jumbo HELOCs versus single-bank pricing &mdash; because 90%+ of homes here exceed the $1,209,750 LA County conforming limit</li>
             </ul>
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            The Palos Verdes Peninsula and South Bay corridor &mdash; Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills Estates, Rolling Hills, Manhattan Beach, Hermosa Beach, and Redondo Beach &mdash; represents Southern California&apos;s deepest concentration of luxury residential equity outside the Westside. From Rolling Hills equestrian estates valued at $4M&ndash;$12M+ to Manhattan Beach Sand Section beachfront properties exceeding $10M, homeowners across these seven cities hold extraordinary equity positions that jumbo HELOC, HELOAN, and cash-out refinance products convert into active financial power. Nearly every home on the Palos Verdes Peninsula exceeds conforming loan limits, requiring specialized jumbo lender access that a wholesale broker with 200+ lending partners provides. As a licensed mortgage broker serving the South Bay and Palos Verdes Peninsula, I help homeowners navigate the jumbo and super-jumbo equity landscape to find the best rates across dozens of competing lenders &mdash; not the single product a bank offers.
+            The Palos Verdes Peninsula and South Bay corridor &mdash; Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills Estates, Rolling Hills, Manhattan Beach, Hermosa Beach, and Redondo Beach &mdash; represents Southern California&apos;s deepest concentration of luxury residential equity outside the Westside. From Rolling Hills equestrian estates valued at $4M&ndash;$12M+ to Manhattan Beach Sand Section beachfront properties exceeding $10M, homeowners across these seven cities hold extraordinary equity positions that jumbo HELOC, HELOAN, and cash-out refinance products convert into active financial power. Nearly every home on the Palos Verdes Peninsula exceeds conforming loan limits, requiring specialized jumbo lender access that a wholesale broker with 50+ Wholesale Lenders provides. As a licensed mortgage broker serving the South Bay and Palos Verdes Peninsula, I help homeowners navigate the jumbo and super-jumbo equity landscape to find the best rates across dozens of competing lenders &mdash; not the single product a bank offers.
           </p>
 
           <p>
@@ -259,7 +259,7 @@ export default function HomeEquityCaPvA2026() {
               <li><strong>Most unique properties:</strong> Rolling Hills &mdash; gated equestrian estates require specialized appraisal panels with acreage and equestrian facility experience</li>
               <li><strong>Product requirement:</strong> 92-98% jumbo/super-jumbo across the corridor &mdash; wholesale broker access is essential</li>
               <li><strong>Processing time:</strong> 3&ndash;5 weeks standard jumbo, 4&ndash;6 weeks super-jumbo, 5&ndash;7 weeks equestrian/unique properties</li>
-              <li><strong>Wholesale advantage:</strong> 200+ lenders with 50+ jumbo specialists competing vs. single bank product</li>
+              <li><strong>Wholesale advantage:</strong> 50+ Wholesale Lenders with 50+ jumbo specialists competing vs. single bank product</li>
             </ul>
           </div>
 
@@ -340,7 +340,7 @@ export default function HomeEquityCaPvA2026() {
           {/* ========== PRODUCT COMPARISON TABLE ========== */}
           <h2 id="product-comparison" className="text-2xl font-bold mt-10 mb-4">HELOC vs. HELOAN vs. Cash-Out Refinance: Palos Verdes &amp; South Bay Comparison</h2>
           <p>
-            Three primary products allow Palos Verdes Peninsula and South Bay homeowners to access their home equity. Palos Verdes Estates, Rolling Hills, and Manhattan Beach homeowners operate almost exclusively in the super-jumbo space, while Redondo Beach homeowners may access both conforming and jumbo products depending on property value and existing mortgage. As a wholesale broker with access to 200+ lenders including 50+ jumbo specialists, I ensure homeowners compare across the full market rather than accepting a single bank&apos;s terms. For a deeper product comparison, see our{' '}
+            Three primary products allow Palos Verdes Peninsula and South Bay homeowners to access their home equity. Palos Verdes Estates, Rolling Hills, and Manhattan Beach homeowners operate almost exclusively in the super-jumbo space, while Redondo Beach homeowners may access both conforming and jumbo products depending on property value and existing mortgage. As a wholesale broker with access to 50+ Wholesale Lenders including 50+ jumbo specialists, I ensure homeowners compare across the full market rather than accepting a single bank&apos;s terms. For a deeper product comparison, see our{' '}
             <Link href="/blog/heloan-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOAN vs. Cash-Out Refinance Guide</Link>.
           </p>
 
@@ -729,7 +729,7 @@ export default function HomeEquityCaPvA2026() {
           </ul>
 
           <p>
-            The wholesale broker advantage is matching each income profile with the lender whose underwriting guidelines maximize qualifying income. A single bank offers one set of guidelines; I compare 200+ lenders to find the one that best serves each South Bay homeowner&apos;s specific compensation structure. For more on how wholesale broker access works, visit our{' '}
+            The wholesale broker advantage is matching each income profile with the lender whose underwriting guidelines maximize qualifying income. A single bank offers one set of guidelines; I compare 50+ Wholesale Lenders to find the one that best serves each South Bay homeowner&apos;s specific compensation structure. For more on how wholesale broker access works, visit our{' '}
             <Link href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Cash-Out Refinance Complete Guide</Link>.
           </p>
 
@@ -770,7 +770,7 @@ export default function HomeEquityCaPvA2026() {
                   <td className="px-4 py-3 border-t">$800K&ndash;$1.5M</td>
                   <td className="px-4 py-3 border-t">$400K&ndash;$900K</td>
                   <td className="px-4 py-3 border-t">Redondo Beach (North Redondo, condos), select Rancho PV condos</td>
-                  <td className="px-4 py-3 border-t">Conforming + jumbo lenders (100+ options)</td>
+                  <td className="px-4 py-3 border-t">Conforming + jumbo lenders (50+ Wholesale Lenders)</td>
                 </tr>
               </tbody>
             </table>
@@ -913,7 +913,7 @@ export default function HomeEquityCaPvA2026() {
           <div id="expert-summary" className="bg-slate-50 p-6 rounded-lg border-l-4 border-green-500 my-8 expert-summary">
             <h2 className="text-2xl font-bold text-green-900 mb-4">Expert Summary: Palos Verdes &amp; South Bay Home Equity</h2>
             <p className="text-slate-900 mb-4">
-              The Palos Verdes Peninsula and South Bay corridor holds an estimated $58 billion in combined residential equity across seven cities, making it one of the most valuable equity markets in all of Southern California. From Rolling Hills estates with $3.5M+ in tappable equity to Redondo Beach homes where rapid appreciation has created unexpected wealth, homeowners across this corridor hold extraordinary financial positions that jumbo and super-jumbo equity products unlock efficiently. The critical factor is lender access: with 92&ndash;98% of properties exceeding conforming loan limits, a wholesale broker comparing 200+ lenders &mdash; including 50+ jumbo specialists and 15&ndash;20 super-jumbo specialists &mdash; consistently outperforms any single bank&apos;s offering on rates, terms, and maximum credit limits.
+              The Palos Verdes Peninsula and South Bay corridor holds an estimated $58 billion in combined residential equity across seven cities, making it one of the most valuable equity markets in all of Southern California. From Rolling Hills estates with $3.5M+ in tappable equity to Redondo Beach homes where rapid appreciation has created unexpected wealth, homeowners across this corridor hold extraordinary financial positions that jumbo and super-jumbo equity products unlock efficiently. The critical factor is lender access: with 92&ndash;98% of properties exceeding conforming loan limits, a wholesale broker comparing 50+ Wholesale Lenders &mdash; including 50+ jumbo specialists and 15&ndash;20 super-jumbo specialists &mdash; consistently outperforms any single bank&apos;s offering on rates, terms, and maximum credit limits.
             </p>
             <p className="text-slate-900 mb-4">
               Whether you are modernizing a Palos Verdes Estates cliff-top estate, building an ADU in Rancho Palos Verdes, upgrading equestrian facilities in Rolling Hills Estates, managing a Rolling Hills estate portfolio, renovating a Manhattan Beach Sand Section property, converting a Hermosa Beach cottage, or leveraging Redondo Beach&apos;s appreciation for investment property acquisitions, the right equity product at the right rate transforms locked equity into active financial power.
@@ -921,7 +921,7 @@ export default function HomeEquityCaPvA2026() {
             <div className="bg-slate-100 p-4 rounded-lg mt-4">
               <p className="text-green-900 font-bold text-lg mb-2">Get Your Personalized Palos Verdes &amp; South Bay Equity Analysis</p>
               <p className="text-slate-900 mb-3">
-                Contact Mo Abdel for a complimentary equity analysis comparing rates from 200+ lenders. I specialize in jumbo and super-jumbo HELOC, HELOAN, and cash-out refinance products for Palos Verdes Peninsula and South Bay homeowners.
+                Contact Mo Abdel for a complimentary equity analysis comparing rates from 50+ Wholesale Lenders. I specialize in jumbo and super-jumbo HELOC, HELOAN, and cash-out refinance products for Palos Verdes Peninsula and South Bay homeowners.
               </p>
               <ul className="text-slate-900 space-y-1">
                 <li><strong>Phone:</strong> <a href="tel:9495792057" className="text-blue-700 hover:underline">(949) 579-2057</a></li>

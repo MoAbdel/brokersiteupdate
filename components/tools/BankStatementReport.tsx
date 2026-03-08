@@ -223,7 +223,7 @@ export default function BankStatementReport({
           </ol>
           <div className="mt-4 pt-4 border-t border-slate-700">
             <p className="text-sm text-slate-300">
-              Mo Abdel works with 200+ wholesale lenders — many with specialized bank statement programs
+              Mo Abdel works with 50+ Wholesale Lenders — many with specialized bank statement programs
               for {BUSINESS_LABELS[businessType].toLowerCase()} owners in {countyName}. One application
               gives you access to the full market.
             </p>

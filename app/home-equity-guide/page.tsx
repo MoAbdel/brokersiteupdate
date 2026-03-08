@@ -148,7 +148,7 @@ export default function HomeEquityGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        Home equity represents one of the most powerful financial tools available to homeowners. In 2026, Southern California homeowners hold record levels of equity, with the median Orange County home valued at $1.2 million. This guide provides a comprehensive comparison of the three primary methods for accessing that equity: cash-out refinancing, home equity lines of credit (HELOCs), and home equity loans (HELOANs). As a wholesale mortgage broker with access to 200+ lenders, I help clients select the optimal product based on their specific financial situation, existing mortgage terms, and long-term goals.
+                        Home equity represents one of the most powerful financial tools available to homeowners. In 2026, Southern California homeowners hold record levels of equity, with the median Orange County home valued at $1.2 million. This guide provides a comprehensive comparison of the three primary methods for accessing that equity: cash-out refinancing, home equity lines of credit (HELOCs), and home equity loans (HELOANs). As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help clients select the optimal product based on their specific financial situation, existing mortgage terms, and long-term goals.
                     </p>
                 </div>
 
@@ -832,7 +832,7 @@ export default function HomeEquityGuidePage() {
                 </p>
 
                 <ul>
-                    <li><strong>Multi-lender comparison</strong> - Access to 200+ lenders with varying appetites for different loan profiles</li>
+                    <li><strong>Multi-lender comparison</strong> - Access to 50+ Wholesale Lenders with varying appetites for different loan profiles</li>
                     <li><strong>Competitive pricing</strong> - Wholesale rates without retail markup</li>
                     <li><strong>Product flexibility</strong> - Broader selection including non-QM options for unique situations</li>
                     <li><strong>Expert guidance</strong> - Blended rate calculations and strategic recommendations</li>

@@ -69,7 +69,7 @@ export default function EnhancedLocalSchema({
     "@context": "https://schema.org",
     "@type": ["MortgageLoan", "FinancialProduct", "Service"],
     "name": `${city ? city + ' ' : 'California & Washington '}Mortgage Broker Services`,
-    "description": `Professional mortgage broker services in ${coverageLabel}. Access to 200+ lenders for competitive pricing on home loans, refinancing, FHA, VA, and jumbo loans.`,
+    "description": `Professional mortgage broker services in ${coverageLabel}. Access to 50+ Wholesale Lenders for competitive pricing on home loans, refinancing, FHA, VA, and jumbo loans.`,
     "provider": {
       "@type": ["Person", "FinancialService"],
       "name": BROKER_NAME,
@@ -178,7 +178,7 @@ export default function EnhancedLocalSchema({
       "Su 10:00-16:00"
     ],
     "priceRange": "$$",
-    "description": `Licensed mortgage broker serving ${coverageLabel}. Access to 200+ lenders for competitive mortgage pricing, fast closings, and personalized service. NMLS #1426884.`,
+    "description": `Licensed mortgage broker serving ${coverageLabel}. Access to 50+ Wholesale Lenders for competitive mortgage pricing, fast closings, and personalized service. NMLS #1426884.`,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Mortgage Loan Programs",

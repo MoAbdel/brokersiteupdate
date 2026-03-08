@@ -221,7 +221,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Greater Seattle seniors own some of the most valuable residential real estate in the Pacific Northwest. With an estimated 142,000 King County homeowners aged 62 and older holding a combined $78 billion in residential equity, the Greater Seattle area represents Washington State&apos;s largest reverse mortgage opportunity. From Queen Anne Victorians and Capitol Hill craftsman homes to Bainbridge Island waterfront estates and Snoqualmie mountain-view properties, King County homeowners age 62 and older sit on substantial home equity that a reverse mortgage converts into retirement loan proceeds &mdash; all without monthly mortgage payments. As a wholesale mortgage broker with access to over 200 lenders, I help Greater Seattle seniors compare HECM, jumbo reverse mortgage, and HECM for Purchase products to find the optimal program for their specific property, age, and financial goals.
+            Greater Seattle seniors own some of the most valuable residential real estate in the Pacific Northwest. With an estimated 142,000 King County homeowners aged 62 and older holding a combined $78 billion in residential equity, the Greater Seattle area represents Washington State&apos;s largest reverse mortgage opportunity. From Queen Anne Victorians and Capitol Hill craftsman homes to Bainbridge Island waterfront estates and Snoqualmie mountain-view properties, King County homeowners age 62 and older sit on substantial home equity that a reverse mortgage converts into retirement loan proceeds &mdash; all without monthly mortgage payments. As a wholesale mortgage broker with access to 50+ Wholesale Lenders, I help Greater Seattle seniors compare HECM, jumbo reverse mortgage, and HECM for Purchase products to find the optimal program for their specific property, age, and financial goals.
           </p>
 
           <p>
@@ -670,7 +670,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
             </a>
             <a href="/blog/wholesale-mortgage-broker-greater-seattle-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker Greater Seattle</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 200+ lenders delivers better rates for Seattle purchases, refinances, and investment properties.</p>
+              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates for Seattle purchases, refinances, and investment properties.</p>
             </a>
             <a href="/blog/reverse-mortgage-seattle-eastside-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Seattle Eastside Reverse Mortgage Guide</h3>
@@ -711,7 +711,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
               <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 font-bold">3</div>
               <div>
                 <h3 className="font-bold text-lg">Application &amp; Appraisal (Days 7-21)</h3>
-                <p>We submit your application to the selected lender (chosen from our 200+ lender network based on best terms for your situation). An FHA-approved appraiser inspects your property to determine current market value and verify it meets FHA minimum property standards. Seattle&apos;s older homes sometimes need minor repairs; these can be addressed through a repair set-aside built into the loan.</p>
+                <p>We submit your application to the selected lender (chosen from our 50+ Wholesale Lenders based on best terms for your situation). An FHA-approved appraiser inspects your property to determine current market value and verify it meets FHA minimum property standards. Seattle&apos;s older homes sometimes need minor repairs; these can be addressed through a repair set-aside built into the loan.</p>
               </div>
             </div>
             <div className="flex gap-4 items-start">
@@ -770,7 +770,7 @@ export default function ReverseMortgageGreaterSeattleGuide2026() {
               The Urban Seattle Premium hub (Queen Anne, Magnolia, Capitol Hill, Ballard, West Seattle, Bainbridge Island) offers both HECM and jumbo reverse options for homes ranging from $800,000 to $3,000,000+. The Suburban King County hub (Shoreline, Lake Forest Park, Kenmore, Snoqualmie) provides streamlined single-family home HECM qualification with 30-35 day processing. HECM for Purchase enables urban-to-suburban downsizing without monthly mortgage payments &mdash; a strategy that preserves sale proceeds for retirement while securing a new home.
             </p>
             <p className="text-slate-900">
-              As your wholesale mortgage broker, I compare reverse mortgage products from 200+ lenders to secure the optimal program for your age, property value, and financial goals. Condo approval expertise, jumbo reverse access, and multi-lender rate competition are standard service. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free reverse mortgage analysis.
+              As your wholesale mortgage broker, I compare reverse mortgage products from 50+ Wholesale Lenders to secure the optimal program for your age, property value, and financial goals. Condo approval expertise, jumbo reverse access, and multi-lender rate competition are standard service. Call <a href="tel:9495792057" className="text-blue-700 font-semibold underline">(949) 579-2057</a> for your free reverse mortgage analysis.
             </p>
           </div>
 

@@ -67,7 +67,7 @@ export default async function CityEquityComparisonPage({ params }: Props) {
     },
     {
       question: `What are home equity loan rates in ${city.name}, ${county.name}?`,
-      answer: `Home equity loan rates in ${city.name} depend on your credit score, CLTV ratio, and loan amount. As a wholesale broker, Mo Abdel accesses 200+ lenders to find the most competitive HELOC, cash-out refinance, and HELOAN rates in ${county.name}. The calculator above uses current market rates for an accurate comparison of all three options.`,
+      answer: `Home equity loan rates in ${city.name} depend on your credit score, CLTV ratio, and loan amount. As a wholesale broker, Mo Abdel accesses 50+ Wholesale Lenders to find the most competitive HELOC, cash-out refinance, and HELOAN rates in ${county.name}. The calculator above uses current market rates for an accurate comparison of all three options.`,
     },
   ];
 

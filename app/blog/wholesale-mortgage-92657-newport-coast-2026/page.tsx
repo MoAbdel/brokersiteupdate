@@ -149,7 +149,7 @@ export default function WholesaleMortgage92657NewportCoastPage() {
 
         <h2>Why Newport Coast Buyers Choose Wholesale</h2>
         <ul>
-          <li><strong>Super Jumbo Access:</strong> 200+ lenders offering loans from $1.5M to $30M</li>
+          <li><strong>Super Jumbo Access:</strong> 50+ Wholesale Lenders offering loans from $1.5M to $30M</li>
           <li><strong>Private Bank Rates:</strong> Institutional pricing without private banking minimums</li>
           <li><strong>Asset Depletion Programs:</strong> Qualify using liquid assets, not just income</li>
           <li><strong>Bank Statement Options:</strong> Self-employed and business owner solutions</li>

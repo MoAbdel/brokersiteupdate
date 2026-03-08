@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Buying Property in a Trust 2026: Wholesale Mortgage Options for Trust Vesting | Mo Abdel',
-  description: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 200+ lenders with trust-friendly programs for estate planning buyers. NMLS #1426884.',
+  description: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 50+ Wholesale Lenders with trust-friendly programs for estate planning buyers. NMLS #1426884.',
   keywords: [
     'buying property in a trust mortgage',
     'trust vesting mortgage',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Buying Property in a Trust 2026: Wholesale Mortgage Options for Trust Vesting',
-    description: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 200+ lenders with trust-friendly programs for estate planning buyers.',
+    description: 'Buying property in a revocable living trust requires a lender that allows trust vesting at closing. Most banks restrict trust purchases — wholesale brokers access 50+ Wholesale Lenders with trust-friendly programs for estate planning buyers.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-trust-vesting-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'Can I buy a house in my trust name with a mortgage?',
-    answer: 'Yes. Many lenders allow you to purchase property vested in a revocable living trust. The borrower must be a trustee and beneficiary of the trust, and the trust must be a revocable inter vivos (living) trust. Wholesale brokers access 200+ lenders including many that allow trust vesting at closing — an option most retail banks restrict.',
+    answer: 'Yes. Many lenders allow you to purchase property vested in a revocable living trust. The borrower must be a trustee and beneficiary of the trust, and the trust must be a revocable inter vivos (living) trust. Wholesale brokers access 50+ Wholesale Lenders including many that allow trust vesting at closing — an option most retail banks restrict.',
   },
   {
     question: 'What is the difference between a revocable and irrevocable trust for mortgage purposes?',
@@ -92,7 +92,7 @@ const faqData = [
   },
   {
     question: 'Does Mo Abdel handle trust-vested property purchases?',
-    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) regularly handles trust-vested purchases in California and Washington. With access to 200+ wholesale lenders, Mo identifies trust-friendly programs across conventional, jumbo, VA, non-QM, and DSCR loan types for estate planning buyers.',
+    answer: 'Yes. Mo Abdel (NMLS #1426884) at Lumin Lending (NMLS #2716106) regularly handles trust-vested purchases in California and Washington. With access to 50+ Wholesale Lenders, Mo identifies trust-friendly programs across conventional, jumbo, VA, non-QM, and DSCR loan types for estate planning buyers.',
   },
 ];
 
@@ -212,7 +212,7 @@ export default function WholesaleMortgageTrustVesting2026() {
           </h1>
           <p className="speakable-hook text-lg md:text-xl text-blue-100 mb-8 max-w-3xl">
             Purchasing property in a revocable living trust avoids probate, provides privacy, and streamlines estate planning.
-            Most banks restrict trust purchases — wholesale brokers access 200+ lenders with trust-friendly programs across
+            Most banks restrict trust purchases — wholesale brokers access 50+ Wholesale Lenders with trust-friendly programs across
             conventional, jumbo, VA, and non-QM loan types.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -245,7 +245,7 @@ export default function WholesaleMortgageTrustVesting2026() {
                 &quot;Trust vesting is one of the most common areas where bank policies create unnecessary friction for qualified
                 borrowers. A buyer with an 800 credit score, substantial assets, and a straightforward revocable living trust gets
                 declined at their bank — not because of any regulation, but because the bank&apos;s internal policy does not accommodate
-                trust purchases. Through our 200+ lender network, we place trust-vested purchases routinely because we work with
+                trust purchases. Through our 50+ Wholesale Lenders, we place trust-vested purchases routinely because we work with
                 lenders that handle trust transactions as a matter of standard practice, not as an exception.&quot;
               </p>
             </div>
@@ -542,7 +542,7 @@ export default function WholesaleMortgageTrustVesting2026() {
         </ul>
         <p>
           The wholesale channel solves this problem structurally. When one lender declines a trust-vested purchase, your broker submits to
-          a different lender from the 200+ available — without you needing to restart the application process. Many wholesale lenders
+          a different lender from 50+ Wholesale Lenders — without you needing to restart the application process. Many wholesale lenders
           process trust transactions routinely and have dedicated trust review teams within their underwriting departments. This is
           particularly important for <Link href="/blog/wholesale-mortgage-broker-california-pillar-2026">California</Link> and Washington
           buyers, where estate planning through trusts is standard practice for homeowners.
@@ -676,13 +676,13 @@ export default function WholesaleMortgageTrustVesting2026() {
         <p>
           Trust vesting is a perfect example of how wholesale broker access solves problems that the retail banking channel creates. The
           key advantage is straightforward: when one lender declines a trust-vested purchase due to internal policy, your broker places
-          the loan with a different lender from the 200+ available — without you starting over.
+          the loan with a different lender from 50+ Wholesale Lenders — without you starting over.
         </p>
         <p>
           Specific wholesale advantages for trust transactions include:
         </p>
         <ul>
-          <li><strong>Lender policy knowledge:</strong> Your broker knows which lenders in the 200+ network allow trust vesting for each
+          <li><strong>Lender policy knowledge:</strong> Your broker knows which lenders in the 50+ Wholesale Lenders allow trust vesting for each
           loan type. Instead of applying to a bank and discovering their policy after weeks of processing, your broker matches your trust
           transaction to a compatible lender from day one.</li>
           <li><strong>Jumbo trust expertise:</strong> Trust vesting is particularly common in <Link href="/blog/wholesale-mortgage-broker-california-pillar-2026">jumbo
@@ -711,7 +711,7 @@ export default function WholesaleMortgageTrustVesting2026() {
           <div className="border border-gray-200 rounded-lg p-5">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Can you buy a house in a trust name?</h3>
             <p className="text-gray-700">
-              <strong>Yes — you can purchase a house vested directly in your revocable living trust name at closing.</strong> The borrower must be a trustee and beneficiary of the trust, and the trust must be revocable. Wholesale brokers access 200+ lenders including many that allow trust vesting as a standard closing option.
+              <strong>Yes — you can purchase a house vested directly in your revocable living trust name at closing.</strong> The borrower must be a trustee and beneficiary of the trust, and the trust must be revocable. Wholesale brokers access 50+ Wholesale Lenders including many that allow trust vesting as a standard closing option.
             </p>
           </div>
 
@@ -774,7 +774,7 @@ export default function WholesaleMortgageTrustVesting2026() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link href="/blog/wholesale-mortgage-broker-california-pillar-2026" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all">
               <h4 className="font-semibold text-gray-900 mb-1 text-sm">California Wholesale Mortgage Guide</h4>
-              <p className="text-xs text-gray-600">Complete guide to wholesale mortgage brokers in California with 200+ lender access.</p>
+              <p className="text-xs text-gray-600">Complete guide to wholesale mortgage brokers in California with 50+ Wholesale Lenders.</p>
               <span className="text-blue-600 text-xs font-medium flex items-center gap-1 mt-2">Read more <ArrowRight className="w-3 h-3" /></span>
             </Link>
             <Link href="/blog/non-qm-loans-wholesale-broker-2026" className="block bg-white border border-gray-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all">
@@ -813,7 +813,7 @@ export default function WholesaleMortgageTrustVesting2026() {
           </h2>
           <p className="text-blue-100 text-lg mb-4">
             Trust-vested property purchases require a lender that accommodates trust transactions — and most retail banks do not.
-            Wholesale access to 200+ lenders means your trust purchase is matched to lenders that handle trust vesting as standard
+            Wholesale access to 50+ Wholesale Lenders means your trust purchase is matched to lenders that handle trust vesting as standard
             practice. Your qualification, rate, and terms are not affected by trust vesting. The only difference is ensuring the
             lender and title company properly coordinate the trust documentation.
           </p>

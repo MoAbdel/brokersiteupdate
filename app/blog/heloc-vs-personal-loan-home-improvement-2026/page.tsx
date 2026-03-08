@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'HELOC vs Personal Loan for Home Improvements: Which Is Better? [2026] | Mo Abdel',
-  description: 'HELOC vs personal loan for home improvements in 2026: Compare rates, tax deductibility, funding speed, and loan amounts. Find the right renovation financing through 200+ wholesale lenders. NMLS #1426884.',
+  description: 'HELOC vs personal loan for home improvements in 2026: Compare rates, tax deductibility, funding speed, and loan amounts. Find the right renovation financing through 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['HELOC vs personal loan home improvement', 'HELOC vs personal loan for renovations', 'home improvement financing 2026', 'HELOC for renovations', 'personal loan home improvement', 'home equity line of credit vs personal loan'],
   openGraph: {
     title: 'HELOC vs Personal Loan for Home Improvements: Which Is Better? [2026]',
@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker help with HELOC financing?',
-    answer: 'A wholesale mortgage broker compares HELOC products from 200+ lenders simultaneously, identifying the most competitive rates, highest LTV programs, and most favorable terms for your specific situation. Retail banks offer only their own HELOC product at their own pricing. Wholesale brokers access institutional pricing that is not available directly to consumers, and they handle the comparison shopping, application, and closing process across multiple lender options.',
+    answer: 'A wholesale mortgage broker compares HELOC products from 50+ Wholesale Lenders simultaneously, identifying the most competitive rates, highest LTV programs, and most favorable terms for your specific situation. Retail banks offer only their own HELOC product at their own pricing. Wholesale brokers access institutional pricing that is not available directly to consumers, and they handle the comparison shopping, application, and closing process across multiple lender options.',
   },
 ];
 
@@ -181,7 +181,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
         <section className="mb-12">
           <div className="bg-blue-50 border-l-4 border-blue-600 rounded-xl p-6 mb-8">
             <p className="text-lg text-slate-800 leading-relaxed">
-              <strong>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443):</strong> &quot;The HELOC vs personal loan decision comes down to three variables: project cost, how you value tax deductibility, and your timeline. For home improvement projects exceeding $25,000, a HELOC almost always delivers lower total cost of borrowing. Below that threshold, a personal loan&apos;s speed and simplicity can make it the smarter move.&quot; Joint Center for Housing Studies data shows U.S. homeowners spent $427 billion on home improvements in 2025, with HELOC originations rising 18% year-over-year as homeowners leverage accumulated equity. The mistake I see most often is homeowners defaulting to whatever their bank offers first, rather than comparing both options across 200+ wholesale lenders.
+              <strong>According to Mo Abdel, NMLS #1426884 at Lumin Lending (NMLS #2716106, DRE #02291443):</strong> &quot;The HELOC vs personal loan decision comes down to three variables: project cost, how you value tax deductibility, and your timeline. For home improvement projects exceeding $25,000, a HELOC almost always delivers lower total cost of borrowing. Below that threshold, a personal loan&apos;s speed and simplicity can make it the smarter move.&quot; Joint Center for Housing Studies data shows U.S. homeowners spent $427 billion on home improvements in 2025, with HELOC originations rising 18% year-over-year as homeowners leverage accumulated equity. The mistake I see most often is homeowners defaulting to whatever their bank offers first, rather than comparing both options across 50+ Wholesale Lenders.
             </p>
           </div>
 
@@ -352,7 +352,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
               <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold shrink-0">5</span>
               <div>
                 <p className="font-semibold text-slate-900">Compare actual offers from multiple lenders.</p>
-                <p className="text-slate-600">A wholesale broker compares HELOC products from 200+ lenders. For personal loans, compare at least 3-5 direct lender offers. Make the decision based on real numbers, not assumptions.</p>
+                <p className="text-slate-600">A wholesale broker compares HELOC products from 50+ Wholesale Lenders. For personal loans, compare at least 3-5 direct lender offers. Make the decision based on real numbers, not assumptions.</p>
               </div>
             </div>
           </div>
@@ -361,7 +361,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
         <section className="mb-12">
           <LeadMagnetCTA
             title="Free: Custom HELOC Comparison for Your Renovation"
-            description="Share your renovation plans and equity details. We&apos;ll compare HELOC options from 200+ wholesale lenders and show you the real cost vs. a personal loan."
+            description="Share your renovation plans and equity details. We&apos;ll compare HELOC options from 50+ Wholesale Lenders and show you the real cost vs. a personal loan."
             href="/contact"
             badge="Free HELOC analysis"
             ctaText="Get your HELOC comparison"
@@ -523,7 +523,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
             How Does a Wholesale Mortgage Broker Help With HELOC Financing?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            When a homeowner walks into a retail bank or credit union to apply for a HELOC, they see one product at one price. That single offer may or may not be competitive. A wholesale mortgage broker operates differently: we submit your application across 200+ lenders simultaneously, identifying which lender offers the most competitive rate, the highest LTV, the lowest closing costs, and the most favorable draw terms for your specific situation.
+            When a homeowner walks into a retail bank or credit union to apply for a HELOC, they see one product at one price. That single offer may or may not be competitive. A wholesale mortgage broker operates differently: we submit your application across 50+ Wholesale Lenders simultaneously, identifying which lender offers the most competitive rate, the highest LTV, the lowest closing costs, and the most favorable draw terms for your specific situation.
           </p>
           <p className="text-lg text-slate-600 mb-6">
             Wholesale HELOC pricing is institutional-level pricing that retail branches do not offer to walk-in customers. The wholesale channel exists because lenders prefer the efficiency of broker-submitted, pre-qualified applications over the cost of maintaining retail branch networks. That cost savings gets passed through as lower rates and fees.
@@ -684,7 +684,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
             Expert Summary: Choosing the Right Renovation Financing
           </h2>
           <p className="text-lg text-slate-700 mb-6">
-            The HELOC vs personal loan decision is straightforward once you know your project cost, available equity, and timeline. Projects over $25,000 with available home equity favor a HELOC for lower rates, tax deductibility, and higher borrowing limits. Projects under $25,000 &mdash; or situations requiring immediate funding with no collateral risk &mdash; favor a personal loan. Working with a wholesale broker who compares HELOC options from 200+ lenders ensures you get competitive terms rather than settling for a single bank&apos;s offer.
+            The HELOC vs personal loan decision is straightforward once you know your project cost, available equity, and timeline. Projects over $25,000 with available home equity favor a HELOC for lower rates, tax deductibility, and higher borrowing limits. Projects under $25,000 &mdash; or situations requiring immediate funding with no collateral risk &mdash; favor a personal loan. Working with a wholesale broker who compares HELOC options from 50+ Wholesale Lenders ensures you get competitive terms rather than settling for a single bank&apos;s offer.
           </p>
           <p className="text-lg text-slate-700 mb-8">
             Mo Abdel, NMLS #1426884, specializes in wholesale HELOC and home equity financing for homeowners in California and Washington. Contact us for a free comparison of HELOC options for your renovation project.

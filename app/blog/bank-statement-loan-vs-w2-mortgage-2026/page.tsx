@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loan vs W-2 Mortgage: Side-by-Side Comparison [2026] | Mo Abdel',
-  description: 'Bank statement loan vs W-2 mortgage comparison 2026: Documentation, down payment, rates, and qualification differences. Self-employed mortgage options from 200+ lenders. NMLS #1426884.',
+  description: 'Bank statement loan vs W-2 mortgage comparison 2026: Documentation, down payment, rates, and qualification differences. Self-employed mortgage options from 50+ Wholesale Lenders. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/bank-statement-loan-vs-w2-mortgage-2026',
     languages: {
@@ -104,7 +104,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
                 "name": "Can I use both W-2 income and bank statements to qualify?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Some lenders offer hybrid qualification programs that combine W-2 employment income with self-employment income documented through bank statements. This benefits borrowers with a primary W-2 job and significant side business income. A wholesale broker can identify which of their 200+ lenders offer these hybrid programs."
+                  "text": "Some lenders offer hybrid qualification programs that combine W-2 employment income with self-employment income documented through bank statements. This benefits borrowers with a primary W-2 job and significant side business income. A wholesale broker can identify which of their 50+ Wholesale Lenders offer these hybrid programs."
                 }
               },
               {
@@ -255,7 +255,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
               {
                 "@type": "HowToStep",
                 "name": "Consult a wholesale broker",
-                "text": "A wholesale broker can run both qualification pathways simultaneously, comparing conventional qualification against bank statement qualification across 200+ lenders to identify which produces the best terms for your scenario."
+                "text": "A wholesale broker can run both qualification pathways simultaneously, comparing conventional qualification against bank statement qualification across 50+ Wholesale Lenders to identify which produces the best terms for your scenario."
               }
             ]
           })
@@ -434,7 +434,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
             <li><strong>Step 2: Calculate the gap between deposits and tax return income.</strong> If your monthly bank deposits exceed your tax return income by 30% or more, a bank statement loan likely produces a higher qualifying amount.</li>
             <li><strong>Step 3: Assess your down payment capacity.</strong> Bank statement loans require 10-20% down. If you have limited savings, a conventional loan at 3-5% down may be the only viable option&mdash;which means adjusting your tax strategy for future filings.</li>
             <li><strong>Step 4: Check your credit score range.</strong> Both loan types are accessible at 620+, but bank statement lenders with the most competitive pricing typically require 700+. Borrowers with scores between 620-680 face a narrower field of bank statement lenders.</li>
-            <li><strong>Step 5: Consult a wholesale mortgage broker.</strong> A broker with access to <a href="/blog/wholesale-mortgage-lender-network-2026">200+ lenders</a> can run both qualification pathways simultaneously&mdash;comparing conventional versus bank statement outcomes across dozens of lenders.</li>
+            <li><strong>Step 5: Consult a wholesale mortgage broker.</strong> A broker with access to <a href="/blog/wholesale-mortgage-lender-network-2026">50+ Wholesale Lenders</a> can run both qualification pathways simultaneously&mdash;comparing conventional versus bank statement outcomes across dozens of lenders.</li>
           </ol>
 
           <div className="bg-yellow-50 p-5 rounded-xl border border-yellow-200">
@@ -536,7 +536,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
         </div>
 
         <p>
-          This advantage compounds for borrowers in California's high-cost housing markets. A self-employed tech consultant purchasing a $1.2 million home in Irvine needs every dollar of qualifying income. The difference between two lender expense factor calculations can determine whether the borrower qualifies for the target property or falls short. Access to <a href="/blog/200-lender-advantage-explained-2026">200+ wholesale lenders</a>&mdash;including 50+ bank statement specialists&mdash;ensures the borrower's scenario reaches the lender whose methodology produces the strongest qualification.
+          This advantage compounds for borrowers in California's high-cost housing markets. A self-employed tech consultant purchasing a $1.2 million home in Irvine needs every dollar of qualifying income. The difference between two lender expense factor calculations can determine whether the borrower qualifies for the target property or falls short. Access to <a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders</a>&mdash;including 50+ bank statement specialists&mdash;ensures the borrower's scenario reaches the lender whose methodology produces the strongest qualification.
         </p>
 
         {/* SECTION 4: Data & Comparison Hub (400-500 words) */}
@@ -825,7 +825,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
             <li><a href="/loan-programs/bank-statement-loans">Bank Statement Loan Programs</a></li>
             <li><a href="/blog/asset-depletion-loans-guide-2026">Asset Depletion Loans Guide</a></li>
             <li><a href="/blog/wholesale-mortgage-lender-network-2026">Wholesale Mortgage Lender Network</a></li>
-            <li><a href="/blog/200-lender-advantage-explained-2026">The 200+ Lender Advantage Explained</a></li>
+            <li><a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders Explained</a></li>
           </ul>
         </div>
 
@@ -841,7 +841,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
                 Licensed in: California, Washington
               </p>
               <p className="text-sm text-gray-600 mb-0">
-                Mo Abdel is a licensed mortgage broker specializing in wholesale lending with access to 200+ lenders. With expertise in bank statement loans, non-QM programs, and self-employed mortgage solutions, Mo helps borrowers throughout California and Washington access institutional pricing and qualification pathways unavailable through retail banks.
+                Mo Abdel is a licensed mortgage broker specializing in wholesale lending with access to 50+ Wholesale Lenders. With expertise in bank statement loans, non-QM programs, and self-employed mortgage solutions, Mo helps borrowers throughout California and Washington access institutional pricing and qualification pathways unavailable through retail banks.
               </p>
             </div>
           </div>

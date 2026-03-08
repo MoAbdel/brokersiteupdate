@@ -204,7 +204,7 @@ export default function DscrBrrrrStrategyPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving California and Washington investors with access to 200+ lenders, the <strong>BRRRR strategy</strong> (Buy, Rehab, Rent, Refinance, Repeat) is the most capital-efficient method for building a rental property portfolio&mdash;and <strong>DSCR loans</strong> are the financing engine that makes the &quot;Refinance&quot; and &quot;Repeat&quot; steps possible at scale. The strategy works by acquiring distressed properties below market value, renovating them to increase value, placing tenants to generate income, then refinancing into a long-term DSCR loan based on the property&apos;s rental income rather than the investor&apos;s personal tax returns. According to the <a href="https://www.census.gov/housing/hvs/index.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau&apos;s Housing Vacancies and Homeownership Survey</a>, approximately 14.0 million individually owned rental units exist in the United States, and <a href="https://www.nar.realtor/research-and-statistics/research-reports/investment-and-vacation-home-buyers-survey" target="_blank" rel="noopener noreferrer">National Association of Realtors data</a> shows investment property purchases accounted for 16% of all home sales in 2025. BRRRR investors represent a growing segment of this market, and DSCR financing is what allows them to scale beyond the conventional loan limits.
+            According to Mo Abdel, NMLS #1426884, a wholesale mortgage broker serving California and Washington investors with access to 50+ Wholesale Lenders, the <strong>BRRRR strategy</strong> (Buy, Rehab, Rent, Refinance, Repeat) is the most capital-efficient method for building a rental property portfolio&mdash;and <strong>DSCR loans</strong> are the financing engine that makes the &quot;Refinance&quot; and &quot;Repeat&quot; steps possible at scale. The strategy works by acquiring distressed properties below market value, renovating them to increase value, placing tenants to generate income, then refinancing into a long-term DSCR loan based on the property&apos;s rental income rather than the investor&apos;s personal tax returns. According to the <a href="https://www.census.gov/housing/hvs/index.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau&apos;s Housing Vacancies and Homeownership Survey</a>, approximately 14.0 million individually owned rental units exist in the United States, and <a href="https://www.nar.realtor/research-and-statistics/research-reports/investment-and-vacation-home-buyers-survey" target="_blank" rel="noopener noreferrer">National Association of Realtors data</a> shows investment property purchases accounted for 16% of all home sales in 2025. BRRRR investors represent a growing segment of this market, and DSCR financing is what allows them to scale beyond the conventional loan limits.
           </p>
         </div>
 
@@ -233,7 +233,7 @@ export default function DscrBrrrrStrategyPage() {
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale broker network</td>
                 <td className="border border-gray-200 px-4 py-2">coordinates both hard money and DSCR phases</td>
-                <td className="border border-gray-200 px-4 py-2">across 200+ lenders for seamless BRRRR execution</td>
+                <td className="border border-gray-200 px-4 py-2">across 50+ Wholesale Lenders for seamless BRRRR execution</td>
               </tr>
             </tbody>
           </table>
@@ -699,7 +699,7 @@ export default function DscrBrrrrStrategyPage() {
         <h2 id="wholesale-advantage">Wholesale Broker Advantage: Coordinating Both Phases of BRRRR Financing</h2>
 
         <p>
-          A wholesale mortgage broker provides unique value to BRRRR investors because the strategy requires two distinct financing phases&mdash;each with different lender relationships, guidelines, and timelines. Here is how a broker with access to 200+ total lenders (including 50+ DSCR programs) adds value at each phase:
+          A wholesale mortgage broker provides unique value to BRRRR investors because the strategy requires two distinct financing phases&mdash;each with different lender relationships, guidelines, and timelines. Here is how a broker with access to 50+ Wholesale Lenders (including 50+ DSCR programs) adds value at each phase:
         </p>
 
         <h3>Acquisition Phase Broker Value</h3>
@@ -854,7 +854,7 @@ export default function DscrBrrrrStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale broker help with BRRRR deals?</h3>
             <p className="mb-0">
-              <strong>A wholesale broker coordinates both the hard money acquisition and DSCR refinance across 200+ lenders, optimizing each phase for speed and cost.</strong> Pre-qualifying the DSCR exit during acquisition prevents financing surprises, and access to 50+ DSCR programs ensures the shortest seasoning and most favorable refinance terms.
+              <strong>A wholesale broker coordinates both the hard money acquisition and DSCR refinance across 50+ Wholesale Lenders, optimizing each phase for speed and cost.</strong> Pre-qualifying the DSCR exit during acquisition prevents financing surprises, and access to 50+ DSCR programs ensures the shortest seasoning and most favorable refinance terms.
             </p>
           </div>
         </div>
@@ -883,7 +883,7 @@ export default function DscrBrrrrStrategyPage() {
             <li><strong>Conservative ARV estimation is the single most important BRRRR success factor</strong>&mdash;overestimating value leads to insufficient capital recovery</li>
             <li><strong>DSCR loans have no property count limit</strong>&mdash;scale your BRRRR portfolio to 10, 20, or 50+ properties without hitting conventional caps</li>
             <li><strong>Run the DSCR calculation before you acquire</strong>&mdash;confirm the exit refinance is viable before committing capital</li>
-            <li><strong>A wholesale broker coordinating both BRRRR phases</strong> across 200+ lenders delivers faster cycles, more competitive terms, and fewer financing surprises</li>
+            <li><strong>A wholesale broker coordinating both BRRRR phases</strong> across 50+ Wholesale Lenders delivers faster cycles, more competitive terms, and fewer financing surprises</li>
           </ol>
         </div>
 
@@ -899,7 +899,7 @@ export default function DscrBrrrrStrategyPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. Serving real estate investors across California and Washington with access to 200+ wholesale lenders including 50+ DSCR programs.
+            Free consultation. Serving real estate investors across California and Washington with access to 50+ Wholesale Lenders including 50+ DSCR programs.
           </p>
         </div>
 

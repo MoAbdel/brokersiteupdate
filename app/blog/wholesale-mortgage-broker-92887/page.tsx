@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wholesale Mortgage Broker 92887 | Yorba Linda Black Gold | Jumbo Specialists',
-  description: 'Yorba Linda Black Gold wholesale mortgage broker serving 92887. Access 200+ lenders for jumbo loans, equestrian properties & better rates. NMLS #1426884.',
+  description: 'Yorba Linda Black Gold wholesale mortgage broker serving 92887. Access 50+ Wholesale Lenders for jumbo loans, equestrian properties & better rates. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92887',
     languages: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Wholesale Mortgage Broker 92887 | Yorba Linda Black Gold Jumbo Specialists',
-    description: 'Yorba Linda Black Gold wholesale mortgage broker with 200+ lenders for jumbo loans.',
+    description: 'Yorba Linda Black Gold wholesale mortgage broker with 50+ Wholesale Lenders for jumbo loans.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-92887',
     type: 'article',
     publishedTime: '2026-02-02',
@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92887Page() {
                 "name": "Why choose a wholesale broker over local banks in Yorba Linda?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 200+ lenders competing for your business while local banks offer only their own products. For Yorba Linda's unique mix of suburban and semi-rural properties, wholesale brokers match you with lenders who understand your property type."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Yorba Linda's unique mix of suburban and semi-rural properties, wholesale brokers match you with lenders who understand your property type."
                 }
               },
               {
@@ -125,14 +125,14 @@ export default function WholesaleMortgageBroker92887Page() {
           Wholesale Mortgage Broker 92887 | Yorba Linda Black Gold Jumbo Specialists
         </h1>
         <p className="text-lg text-gray-600">
-          Access wholesale rates and 200+ lenders for Yorba Linda&apos;s Black Gold and equestrian communities
+          Access wholesale rates and 50+ Wholesale Lenders for Yorba Linda&apos;s Black Gold and equestrian communities
         </p>
       </header>
 
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Yorba Linda 92887 encompasses the prestigious Black Gold community and semi-rural equestrian properties with a <strong>$1.3 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92887 buyers need <strong>jumbo financing</strong>—especially for larger homes on acreage. A <strong>wholesale mortgage broker</strong> with 200+ lender access finds specialized lenders who understand equestrian properties and semi-rural estates.
+            Yorba Linda 92887 encompasses the prestigious Black Gold community and semi-rural equestrian properties with a <strong>$1.3 million median home price</strong>. With the 2026 conforming limit at $1,209,750, many 92887 buyers need <strong>jumbo financing</strong>—especially for larger homes on acreage. A <strong>wholesale mortgage broker</strong> with 50+ Wholesale Lenders finds specialized lenders who understand equestrian properties and semi-rural estates.
           </p>
         </div>
 
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92887Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over local banks in Yorba Linda?</h3>
-            <p className="mb-0">A wholesale broker accesses 200+ lenders competing for your business while local banks offer only their own products. For Yorba Linda&apos;s unique mix of suburban and semi-rural properties, wholesale brokers match you with lenders who understand your property type.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Yorba Linda&apos;s unique mix of suburban and semi-rural properties, wholesale brokers match you with lenders who understand your property type.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92887 does your wholesale brokerage serve?</h3>

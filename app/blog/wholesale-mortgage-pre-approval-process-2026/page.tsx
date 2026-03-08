@@ -63,7 +63,7 @@ const faqData = [
   },
   {
     question: 'How is a wholesale broker pre-approval different from a bank pre-approval?',
-    answer: 'A wholesale broker pre-approval evaluates your profile against guidelines from 200+ lenders simultaneously, identifying the programs and pricing that match your specific situation. A bank pre-approval evaluates you against only that bank single set of guidelines. If you do not fit the bank profile, you are denied and must start over elsewhere.',
+    answer: 'A wholesale broker pre-approval evaluates your profile against guidelines from 50+ Wholesale Lenders simultaneously, identifying the programs and pricing that match your specific situation. A bank pre-approval evaluates you against only that bank single set of guidelines. If you do not fit the bank profile, you are denied and must start over elsewhere.',
   },
   {
     question: 'What is an underwritten pre-approval?',
@@ -83,7 +83,7 @@ const faqData = [
   },
   {
     question: 'What credit score do I need for a mortgage pre-approval?',
-    answer: 'Minimum credit scores vary by loan program: conventional loans typically require 620-640, FHA loans require 580-620, VA loans require 580-620, and non-QM programs vary by lender. A wholesale broker reviews your credit profile and identifies programs across 200+ lenders that match your score range, maximizing your approval options.',
+    answer: 'Minimum credit scores vary by loan program: conventional loans typically require 620-640, FHA loans require 580-620, VA loans require 580-620, and non-QM programs vary by lender. A wholesale broker reviews your credit profile and identifies programs across 50+ Wholesale Lenders that match your score range, maximizing your approval options.',
   },
   {
     question: 'What states does Mo Abdel provide mortgage pre-approvals in?',
@@ -353,7 +353,7 @@ export default function WholesaleMortgagePreApprovalProcess2026() {
           evaluates it against their specific overlays. If you receive an Approve/Eligible through DU but the bank
           only uses LP (or has overlays that disqualify you), you are denied. In the wholesale channel, I run your
           file through both DU and LP, identify which system returns the strongest finding, and then match that
-          finding to lenders in our 200+ network that accept it. This multi-system, multi-lender approach
+          finding to lenders in our 50+ Wholesale Lenders that accept it. This multi-system, multi-lender approach
           maximizes your approval options.
         </p>
         <p>
@@ -379,7 +379,7 @@ export default function WholesaleMortgagePreApprovalProcess2026() {
               <tbody>
                 <tr className="border-b border-gray-100">
                   <td className="p-4 font-medium text-gray-900">Lenders Evaluated</td>
-                  <td className="p-4 text-gray-700">200+ wholesale lenders</td>
+                  <td className="p-4 text-gray-700">50+ Wholesale Lenders</td>
                   <td className="p-4 text-gray-700">1 lender (the bank itself)</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50/50">
@@ -520,7 +520,7 @@ export default function WholesaleMortgagePreApprovalProcess2026() {
           this problem by providing access to alternative documentation programs that banks typically do not offer.
         </p>
         <p>
-          Through our 200+ lender network, self-employed borrowers can obtain pre-approval using bank statement
+          Through our 50+ Wholesale Lenders, self-employed borrowers can obtain pre-approval using bank statement
           programs (12 or 24 months of personal or business bank deposits), profit-and-loss statement programs
           (CPA-prepared P&amp;L in lieu of tax returns), asset depletion programs (qualifying based on liquid assets
           rather than income), and 1099 income programs (for independent contractors). Each lender calculates
@@ -648,7 +648,7 @@ export default function WholesaleMortgagePreApprovalProcess2026() {
         </p>
         <p>
           This is precisely why the wholesale broker model is efficient: I pull your credit once, and that
-          single report is used to evaluate your file across 200+ lenders. You do not need separate credit
+          single report is used to evaluate your file across 50+ Wholesale Lenders. You do not need separate credit
           pulls from each lender because I have direct access to all of them. If you are also comparing against
           a direct lender or bank, the additional credit pull during the rate shopping window will not cause
           additional score damage.
@@ -776,7 +776,7 @@ export default function WholesaleMortgagePreApprovalProcess2026() {
             The wholesale mortgage pre-approval process is fundamentally different from the bank experience, and
             that difference produces measurably better outcomes for borrowers. A bank evaluates you against one
             set of guidelines using one underwriting system. A wholesale broker evaluates your profile against
-            200+ lenders using multiple automated underwriting systems and identifies the programs that maximize
+            50+ Wholesale Lenders using multiple automated underwriting systems and identifies the programs that maximize
             your approval odds, your purchasing power, and your rate options.
           </p>
           <p className="text-gray-700 mb-4">

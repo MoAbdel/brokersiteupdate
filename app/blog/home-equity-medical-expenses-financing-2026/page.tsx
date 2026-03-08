@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     question: 'Is it a good idea to take out a home equity loan for medical bills?',
-    answer: 'A home equity loan (HELOAN) can be a sound option when you face a large, known medical cost — such as a scheduled surgery, dental reconstruction, or fertility treatment — and the total amount exceeds what you can pay from savings or through a payment plan. HELOANs offer fixed rates and fixed payments, making budgeting predictable. However, you are converting unsecured medical debt into secured debt against your home, which means your home serves as collateral. Before using home equity, exhaust medical billing negotiation, hospital financial assistance programs, and insurance appeals. If you proceed, a wholesale broker comparing 200+ lenders can secure the lowest total cost of borrowing.',
+    answer: 'A home equity loan (HELOAN) can be a sound option when you face a large, known medical cost — such as a scheduled surgery, dental reconstruction, or fertility treatment — and the total amount exceeds what you can pay from savings or through a payment plan. HELOANs offer fixed rates and fixed payments, making budgeting predictable. However, you are converting unsecured medical debt into secured debt against your home, which means your home serves as collateral. Before using home equity, exhaust medical billing negotiation, hospital financial assistance programs, and insurance appeals. If you proceed, a wholesale broker comparing 50+ Wholesale Lenders can secure the lowest total cost of borrowing.',
   },
   {
     question: 'What is the difference between using a HELOC vs a HELOAN for medical bills?',
@@ -70,7 +70,7 @@ const faqData = [
   },
   {
     question: 'What credit score do I need to get a home equity loan for medical bills?',
-    answer: 'Minimum credit score requirements for home equity products vary by lender. Through a wholesale broker with access to 200+ lenders, the general ranges are: HELOC minimum credit score of 620 to 680 depending on the lender, HELOAN minimum of 640 to 700, and cash-out refinance minimum of 620 to 680. Higher credit scores unlock better rates and higher loan-to-value ratios. If your credit score has been impacted by medical collections, some wholesale lenders have programs that disregard medical collections in their underwriting. Your broker identifies which lenders offer the most favorable terms for your specific credit profile.',
+    answer: 'Minimum credit score requirements for home equity products vary by lender. Through a wholesale broker with access to 50+ Wholesale Lenders, the general ranges are: HELOC minimum credit score of 620 to 680 depending on the lender, HELOAN minimum of 640 to 700, and cash-out refinance minimum of 620 to 680. Higher credit scores unlock better rates and higher loan-to-value ratios. If your credit score has been impacted by medical collections, some wholesale lenders have programs that disregard medical collections in their underwriting. Your broker identifies which lenders offer the most favorable terms for your specific credit profile.',
   },
   {
     question: 'How much equity do I need to borrow for medical expenses?',
@@ -204,7 +204,7 @@ export default function HomeEquityMedicalExpensesPage() {
         {/* Citation Hook / Speakable Summary */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-0">
-            According to Mo Abdel, NMLS #1426884, a senior mortgage broker with Lumin Lending who structures home equity products across California and Washington through 200+ wholesale lenders, <strong>home equity for medical expenses</strong> is one of the most common reasons borrowers tap their equity outside of home improvement. The <a href="https://www.kff.org/health-costs/" target="_blank" rel="noopener noreferrer">KFF (Kaiser Family Foundation)</a> reports that approximately 100 million Americans carry medical debt, and the <a href="https://www.consumerfinance.gov/data-research/research-reports/medical-debt-burden-in-the-united-states/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a> estimates that medical debt accounts for over $88 billion on consumer credit reports. For homeowners in California and Washington where median home values exceed $500,000 in most metro areas, a HELOC, HELOAN, or cash-out refinance provides access to substantial funds at rates significantly lower than medical credit cards, personal loans, or payment plan financing. The right home equity product depends on whether your medical costs are known and one-time, ongoing and uncertain, or part of a larger debt consolidation strategy.
+            According to Mo Abdel, NMLS #1426884, a senior mortgage broker with Lumin Lending who structures home equity products across California and Washington through 50+ Wholesale Lenders, <strong>home equity for medical expenses</strong> is one of the most common reasons borrowers tap their equity outside of home improvement. The <a href="https://www.kff.org/health-costs/" target="_blank" rel="noopener noreferrer">KFF (Kaiser Family Foundation)</a> reports that approximately 100 million Americans carry medical debt, and the <a href="https://www.consumerfinance.gov/data-research/research-reports/medical-debt-burden-in-the-united-states/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a> estimates that medical debt accounts for over $88 billion on consumer credit reports. For homeowners in California and Washington where median home values exceed $500,000 in most metro areas, a HELOC, HELOAN, or cash-out refinance provides access to substantial funds at rates significantly lower than medical credit cards, personal loans, or payment plan financing. The right home equity product depends on whether your medical costs are known and one-time, ongoing and uncertain, or part of a larger debt consolidation strategy.
           </p>
         </div>
 
@@ -231,7 +231,7 @@ export default function HomeEquityMedicalExpensesPage() {
                 <td className="border border-gray-200 px-4 py-2">ongoing or uncertain treatment costs with variable draw amounts</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">compares terms across</td>
                 <td className="border border-gray-200 px-4 py-2">multiple home equity programs to minimize borrowing cost for medical financing</td>
               </tr>
@@ -262,7 +262,7 @@ export default function HomeEquityMedicalExpensesPage() {
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 mb-8">
           <h3 className="font-bold text-blue-900 mt-0">From My Practice: Helping Homeowners Finance Medical Expenses</h3>
           <p className="text-blue-800 mb-0">
-            I have structured home equity products for dozens of California and Washington homeowners who faced unexpected medical expenses ranging from $25,000 to over $300,000. The pattern is consistent: a medical event occurs that exceeds insurance coverage and personal savings, and the homeowner needs a financing strategy that preserves their financial stability while covering the cost of care. The right product depends on the medical situation &mdash; a HELOC for a cancer patient facing months of treatment with unpredictable costs, a HELOAN for a scheduled joint replacement with a known out-of-pocket amount, a cash-out refinance for a family consolidating accumulated medical debt from multiple providers. In every case, I compare pricing across 200+ wholesale lenders to minimize the cost of converting home equity into healthcare financing. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
+            I have structured home equity products for dozens of California and Washington homeowners who faced unexpected medical expenses ranging from $25,000 to over $300,000. The pattern is consistent: a medical event occurs that exceeds insurance coverage and personal savings, and the homeowner needs a financing strategy that preserves their financial stability while covering the cost of care. The right product depends on the medical situation &mdash; a HELOC for a cancer patient facing months of treatment with unpredictable costs, a HELOAN for a scheduled joint replacement with a known out-of-pocket amount, a cash-out refinance for a family consolidating accumulated medical debt from multiple providers. In every case, I compare pricing across 50+ Wholesale Lenders to minimize the cost of converting home equity into healthcare financing. &mdash; <strong>Mo Abdel, NMLS #1426884</strong>
           </p>
         </div>
 
@@ -292,7 +292,7 @@ export default function HomeEquityMedicalExpensesPage() {
         </div>
 
         <p>
-          <Link href="/contact" className="text-blue-600 hover:underline font-semibold">Schedule a consultation with Mo Abdel</Link> to review your home equity options and determine which product, if any, fits your medical financing needs. I compare pricing across 200+ wholesale lenders at no cost to you.
+          <Link href="/contact" className="text-blue-600 hover:underline font-semibold">Schedule a consultation with Mo Abdel</Link> to review your home equity options and determine which product, if any, fits your medical financing needs. I compare pricing across 50+ Wholesale Lenders at no cost to you.
         </p>
 
         {/* Section 2: Three Options Compared */}
@@ -701,7 +701,7 @@ export default function HomeEquityMedicalExpensesPage() {
 
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">Does medical debt affect my ability to qualify for a home equity loan?</h3>
-            <p className="mb-0">Medical debt in collections can affect your credit score, which in turn affects your home equity loan qualification. However, many wholesale lenders have updated their underwriting guidelines to minimize the impact of medical collections. Some lenders exclude medical collections entirely from their credit evaluation. Others require only that medical collections are paid or in a payment plan. Your broker identifies which of the 200+ wholesale lenders offer the most favorable treatment of medical debt in their underwriting guidelines.</p>
+            <p className="mb-0">Medical debt in collections can affect your credit score, which in turn affects your home equity loan qualification. However, many wholesale lenders have updated their underwriting guidelines to minimize the impact of medical collections. Some lenders exclude medical collections entirely from their credit evaluation. Others require only that medical collections are paid or in a payment plan. Your broker identifies which of the 50+ Wholesale Lenders offer the most favorable treatment of medical debt in their underwriting guidelines.</p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -734,7 +734,7 @@ export default function HomeEquityMedicalExpensesPage() {
             <li><strong>Cash-out refinance works for large-scale medical debt consolidation</strong> &mdash; but only if refinancing does not sacrifice a favorable existing mortgage rate</li>
             <li><strong>Seniors 62+ should evaluate HECM reverse mortgage</strong> &mdash; no required monthly P&amp;I payments and a growing credit line make HECM well-suited for senior medical costs</li>
             <li><strong>Understand the secured vs unsecured debt conversion</strong> &mdash; using home equity for medical bills puts your home at risk if you cannot make payments</li>
-            <li><strong>A wholesale broker comparing 200+ lenders</strong> finds the lowest total cost structure for your specific medical financing needs</li>
+            <li><strong>A wholesale broker comparing 50+ Wholesale Lenders</strong> finds the lowest total cost structure for your specific medical financing needs</li>
           </ol>
         </div>
 
@@ -750,7 +750,7 @@ export default function HomeEquityMedicalExpensesPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I compare home equity options across 200+ wholesale lenders to find the lowest total cost for financing your medical expenses.
+            Free consultation. I compare home equity options across 50+ Wholesale Lenders to find the lowest total cost for financing your medical expenses.
           </p>
         </div>
 

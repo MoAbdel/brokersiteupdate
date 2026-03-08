@@ -104,7 +104,7 @@ export default function HomeEquityPremiumSiliconValley2026() {
     },
     {
       question: 'How does a wholesale broker get better HELOC rates than my bank?',
-      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 200+ lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For Silicon Valley&apos;s jumbo and super-jumbo market, the rate difference between the best and average lender can save $5,000-$15,000 annually on a $1M+ HELOC.',
+      answer: 'Your bank offers one HELOC product at one rate. A wholesale broker simultaneously compares products from 50+ Wholesale Lenders, including 50+ jumbo specialists, creating competition for your business. This competitive dynamic consistently produces lower rates, higher credit limits, lower closing costs, and more flexible draw period terms. For Silicon Valley&apos;s jumbo and super-jumbo market, the rate difference between the best and average lender can save $5,000-$15,000 annually on a $1M+ HELOC.',
     },
     {
       question: 'Can I use a Silicon Valley HELOC for investment property down payments?',
@@ -206,7 +206,7 @@ export default function HomeEquityPremiumSiliconValley2026() {
           </div>
 
           <p className="text-xl text-gray-700 leading-relaxed">
-            Premium Silicon Valley represents the highest-value residential equity corridor in California. From Old Palo Alto estates built on Stanford faculty wealth to Los Altos hilltop properties commanding panoramic Bay views, and from Saratoga&apos;s wine country estates to Cupertino&apos;s Apple-campus-adjacent neighborhoods, homeowners in these five cities hold extraordinary equity positions that jumbo HELOC, HELOAN, and cash-out refinance products convert into active financial power. Every home in this corridor exceeds conforming loan limits, requiring specialized jumbo lender access that a wholesale broker with 200+ lending partners provides. As a licensed mortgage broker serving Silicon Valley, I help homeowners navigate the jumbo and super-jumbo equity landscape to find the best rates across dozens of competing lenders.
+            Premium Silicon Valley represents the highest-value residential equity corridor in California. From Old Palo Alto estates built on Stanford faculty wealth to Los Altos hilltop properties commanding panoramic Bay views, and from Saratoga&apos;s wine country estates to Cupertino&apos;s Apple-campus-adjacent neighborhoods, homeowners in these five cities hold extraordinary equity positions that jumbo HELOC, HELOAN, and cash-out refinance products convert into active financial power. Every home in this corridor exceeds conforming loan limits, requiring specialized jumbo lender access that a wholesale broker with 50+ Wholesale Lenders provides. As a licensed mortgage broker serving Silicon Valley, I help homeowners navigate the jumbo and super-jumbo equity landscape to find the best rates across dozens of competing lenders.
           </p>
 
           <p>
@@ -549,7 +549,7 @@ export default function HomeEquityPremiumSiliconValley2026() {
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">What is the HELOC rate in Los Altos right now?</h3>
-              <p>Jumbo HELOC rates for Los Altos homeowners vary by lender, credit profile, and CLTV ratio. Wholesale broker comparison across 200+ lenders ensures the most competitive available rate.</p>
+              <p>Jumbo HELOC rates for Los Altos homeowners vary by lender, credit profile, and CLTV ratio. Wholesale broker comparison across 50+ Wholesale Lenders ensures the most competitive available rate.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-lg">
               <h3 className="font-semibold text-lg mb-2">Is a HELOC or cash-out refinance better in Cupertino?</h3>
@@ -591,7 +591,7 @@ export default function HomeEquityPremiumSiliconValley2026() {
             </a>
             <a href="/blog/wholesale-mortgage-broker-premium-silicon-valley-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker Premium Silicon Valley</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 200+ lenders delivers better rates for tech executive jumbo purchases and RSU-based qualification.</p>
+              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates for tech executive jumbo purchases and RSU-based qualification.</p>
             </a>
             <a href="/blog/home-equity-peninsula-ultra-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Peninsula Ultra-Luxury Home Equity Guide</h3>
@@ -632,7 +632,7 @@ export default function HomeEquityPremiumSiliconValley2026() {
             <p className="mb-1">Email: <a href="mailto:mo@mothebroker.com" className="text-blue-700">mo@mothebroker.com</a></p>
             <p className="mb-1">NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443</p>
             <p className="text-sm mt-2">Licensed in California and Washington | Serving all Premium Silicon Valley communities</p>
-            <p className="text-sm">Wholesale broker with access to 200+ lenders including 50+ jumbo specialists</p>
+            <p className="text-sm">Wholesale broker with access to 50+ Wholesale Lenders including 50+ jumbo specialists</p>
           </div>
 
           {/* Disclaimer */}

@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Cash-Out Refinance for Rental Property: Complete Investor Guide [2026] | Mo Abdel',
-  description: 'Cash-out refinance for rental property investors in 2026. Conventional, DSCR, and non-QM cash-out options for portfolio expansion. Wholesale rates from 200+ lenders. NMLS #1426884.',
+  description: 'Cash-out refinance for rental property investors in 2026. Conventional, DSCR, and non-QM cash-out options for portfolio expansion. Wholesale rates from 50+ Wholesale Lenders. NMLS #1426884.',
   keywords: ['cash-out refinance rental property', 'investment property cash-out refinance', 'DSCR cash-out refinance', 'rental property equity', 'BRRRR strategy refinance', 'cash-out refi investment property 2026'],
   openGraph: {
     title: 'Cash-Out Refinance for Rental Property: Complete Investor Guide [2026]',
@@ -59,7 +59,7 @@ const faqData = [
   },
   {
     question: "Can I cash-out refinance a rental property in an LLC?",
-    answer: "Yes. DSCR and non-QM lenders routinely close cash-out refinances with LLC or entity vesting. Conventional lenders generally require individual ownership, though some allow LLCs with personal guarantees. Vesting in an LLC provides liability protection but may limit lender options. A wholesale broker identifies which lenders among 200+ accept entity-vested investment properties for cash-out refinance."
+    answer: "Yes. DSCR and non-QM lenders routinely close cash-out refinances with LLC or entity vesting. Conventional lenders generally require individual ownership, though some allow LLCs with personal guarantees. Vesting in an LLC provides liability protection but may limit lender options. A wholesale broker identifies which lenders among 50+ Wholesale Lenders accept entity-vested investment properties for cash-out refinance."
   },
   {
     question: "How much cash can I pull out of a rental property?",
@@ -204,7 +204,7 @@ export default function CashOutRefinanceRentalPropertyInvestors2026() {
             Conventional vs. DSCR vs. Non-QM Cash-Out Refinance: Side-by-Side Comparison
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Rental property investors have three primary cash-out refinance pathways, each with distinct qualification criteria, LTV limits, and documentation requirements. The right program depends on your documentation capacity, property count, entity structure, and speed requirements. Mo Abdel compares all three across 200+ wholesale lenders to identify the optimal program for each investor&apos;s portfolio.
+            Rental property investors have three primary cash-out refinance pathways, each with distinct qualification criteria, LTV limits, and documentation requirements. The right program depends on your documentation capacity, property count, entity structure, and speed requirements. Mo Abdel compares all three across 50+ Wholesale Lenders to identify the optimal program for each investor&apos;s portfolio.
           </p>
 
           <div className="overflow-x-auto mb-8">
@@ -305,7 +305,7 @@ export default function CashOutRefinanceRentalPropertyInvestors2026() {
               <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
               <div>
                 <h3 className="font-semibold text-slate-900 text-lg">Select the Right Cash-Out Program</h3>
-                <p className="text-slate-600 mt-1">Choose between conventional (lowest rates, most documentation), DSCR (no income docs, no property count limit), or non-QM (bank statements or asset depletion) based on your documentation capacity, property count, and entity structure. A wholesale broker compares across 200+ lenders to identify the optimal program.</p>
+                <p className="text-slate-600 mt-1">Choose between conventional (lowest rates, most documentation), DSCR (no income docs, no property count limit), or non-QM (bank statements or asset depletion) based on your documentation capacity, property count, and entity structure. A wholesale broker compares across 50+ Wholesale Lenders to identify the optimal program.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -461,7 +461,7 @@ export default function CashOutRefinanceRentalPropertyInvestors2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            Many portfolio investors use a hybrid approach: conventional cash-out for the first 8-9 properties where documentation is straightforward, then transition to DSCR cash-out for properties 10 and beyond. This strategy captures the lower conventional rates early while maintaining scaling capacity through DSCR. Mo Abdel structures these hybrid portfolios across 200+ lenders to optimize rate and capacity at every stage.
+            Many portfolio investors use a hybrid approach: conventional cash-out for the first 8-9 properties where documentation is straightforward, then transition to DSCR cash-out for properties 10 and beyond. This strategy captures the lower conventional rates early while maintaining scaling capacity through DSCR. Mo Abdel structures these hybrid portfolios across 50+ Wholesale Lenders to optimize rate and capacity at every stage.
           </p>
         </section>
 
@@ -540,7 +540,7 @@ export default function CashOutRefinanceRentalPropertyInvestors2026() {
             How a Wholesale Broker Finds the Right Cash-Out Program for Your Rental Portfolio
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Investment property cash-out refinances involve more lender-to-lender variation than any other loan category. Maximum LTV, seasoning requirements, reserve calculations, entity vesting policies, and prepayment penalty structures differ significantly across lenders. A retail bank or direct lender offers one set of guidelines. A wholesale broker like Mo Abdel accesses 200+ lenders simultaneously to identify the specific program that matches your property, portfolio, and qualification profile.
+            Investment property cash-out refinances involve more lender-to-lender variation than any other loan category. Maximum LTV, seasoning requirements, reserve calculations, entity vesting policies, and prepayment penalty structures differ significantly across lenders. A retail bank or direct lender offers one set of guidelines. A wholesale broker like Mo Abdel accesses 50+ Wholesale Lenders simultaneously to identify the specific program that matches your property, portfolio, and qualification profile.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -857,7 +857,7 @@ export default function CashOutRefinanceRentalPropertyInvestors2026() {
               Ready to Extract Equity from Your Rental Properties?
             </h2>
             <p className="text-lg text-slate-300 mb-6">
-              Mo Abdel, NMLS #1426884, specializes in investment property cash-out refinancing for portfolio investors in California and Washington. With access to 200+ wholesale lenders including conventional, DSCR, and non-QM programs, Mo identifies the optimal cash-out structure for your specific portfolio &mdash; whether you own 2 properties or 20+. Every investor receives a personalized comparison of programs, LTV options, seasoning timelines, and rate scenarios before committing to a single application.
+              Mo Abdel, NMLS #1426884, specializes in investment property cash-out refinancing for portfolio investors in California and Washington. With access to 50+ Wholesale Lenders including conventional, DSCR, and non-QM programs, Mo identifies the optimal cash-out structure for your specific portfolio &mdash; whether you own 2 properties or 20+. Every investor receives a personalized comparison of programs, LTV options, seasoning timelines, and rate scenarios before committing to a single application.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">

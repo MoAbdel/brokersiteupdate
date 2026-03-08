@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: 'How does a wholesale mortgage broker help me get a better HECM rate?',
-    answer: 'A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses pricing from 200+ lenders rather than offering a single institution\'s rate. This competition among lenders often results in more competitive rates and lower origination costs for both fixed and adjustable HECM products.',
+    answer: 'A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses pricing from 50+ Wholesale Lenders rather than offering a single institution\'s rate. This competition among lenders often results in more competitive rates and lower origination costs for both fixed and adjustable HECM products.',
   },
   {
     question: 'What is the age requirement for a reverse mortgage?',
@@ -457,7 +457,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
           <strong>Second, strong long-term appreciation makes the adjustable-rate line of credit especially valuable.</strong> In markets where home values trend upward over multi-year periods, the combination of credit line growth and rising equity creates compounding financial flexibility. Borrowers who establish a HECM line of credit early in retirement &mdash; even if they do not immediately need the funds &mdash; position themselves with a growing pool of accessible capital that can be deployed strategically in later years for healthcare costs, <Link href="/blog/reverse-mortgage-aging-in-place-california-2026" className="text-blue-600 hover:text-blue-800">aging-in-place modifications</Link>, or supplemental income.
         </p>
         <p>
-          Working with a wholesale broker who accesses 200+ lenders allows California and Washington borrowers to compare HECM pricing across multiple institutions, which can result in more competitive margins and lower origination costs than going directly to a single retail lender.
+          Working with a wholesale broker who accesses 50+ Wholesale Lenders allows California and Washington borrowers to compare HECM pricing across multiple institutions, which can result in more competitive margins and lower origination costs than going directly to a single retail lender.
         </p>
 
         {/* ============================================================
@@ -620,7 +620,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
             The fixed vs adjustable rate reverse mortgage decision comes down to one question: do you need all of your available proceeds right now? If the answer is yes &mdash; because you are paying off a large existing mortgage or funding an immediate major expense &mdash; the fixed-rate lump sum provides rate certainty and simplicity. If the answer is no, the adjustable-rate HECM delivers superior long-term value through the line of credit growth feature, flexible payout options, and the ability to adapt your strategy as retirement needs evolve.
           </p>
           <p>
-            For California and Washington homeowners with high-value properties, the adjustable-rate line of credit paired with strong home appreciation creates a compounding financial tool that becomes more powerful over time. Working with a wholesale broker who accesses 200+ lenders ensures you receive competitive pricing on whichever rate structure fits your situation.
+            For California and Washington homeowners with high-value properties, the adjustable-rate line of credit paired with strong home appreciation creates a compounding financial tool that becomes more powerful over time. Working with a wholesale broker who accesses 50+ Wholesale Lenders ensures you receive competitive pricing on whichever rate structure fits your situation.
           </p>
           <p className="mt-4">
             <strong>Ready to compare your HECM options?</strong>{' '}

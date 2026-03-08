@@ -231,7 +231,7 @@ export default function ReverseMortgageStandbyLineOfCreditStrategyPage() {
                 <td className="border border-gray-200 px-4 py-2">the loan interest rate plus 0.5% FHA MIP (contractual growth feature)</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 200+ lenders</td>
+                <td className="border border-gray-200 px-4 py-2">Wholesale broker with 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">optimizes</td>
                 <td className="border border-gray-200 px-4 py-2">HECM terms by comparing margins across multiple HECM originators</td>
               </tr>
@@ -604,7 +604,7 @@ export default function ReverseMortgageStandbyLineOfCreditStrategyPage() {
         <h3>Your Mortgage Broker&apos;s Role</h3>
 
         <ol>
-          <li><strong>Product selection:</strong> Comparing HECM products from 200+ wholesale lenders to find the most competitive margin and terms for your standby credit line</li>
+          <li><strong>Product selection:</strong> Comparing HECM products from 50+ Wholesale Lenders to find the most competitive margin and terms for your standby credit line</li>
           <li><strong>Structuring the credit line:</strong> Determining the optimal amount to draw (if any) at closing versus leaving in the credit line</li>
           <li><strong>Rate selection:</strong> Advising on fixed vs adjustable-rate HECM products (adjustable-rate HECMs are required for the LOC option)</li>
           <li><strong>Cost optimization:</strong> Identifying lender credits and fee structures that minimize upfront costs</li>
@@ -805,7 +805,7 @@ export default function ReverseMortgageStandbyLineOfCreditStrategyPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale mortgage broker help with a standby HECM strategy?</h3>
             <p className="mb-0">
-              <strong>A wholesale mortgage broker accesses 200+ HECM lenders to find competitive margins, reducing the interest rate that drives both cost and credit line growth.</strong> Lower margins mean lower total cost of borrowing if draws are made, while the credit line growth rate remains competitive. Single-lender retail originators offer only one set of terms.
+              <strong>A wholesale mortgage broker accesses 50+ Wholesale Lenders to find competitive margins, reducing the interest rate that drives both cost and credit line growth.</strong> Lower margins mean lower total cost of borrowing if draws are made, while the credit line growth rate remains competitive. Single-lender retail originators offer only one set of terms.
             </p>
           </div>
         </div>
@@ -834,7 +834,7 @@ export default function ReverseMortgageStandbyLineOfCreditStrategyPage() {
             <li><strong>Set clear draw triggers</strong> with your financial planner: a portfolio decline threshold of 15&ndash;20% is the most common framework for switching to HECM draws.</li>
             <li><strong>The HECM credit line cannot be frozen or reduced</strong> by the lender, unlike a HELOC that can be suspended during economic downturns when you need it most.</li>
             <li><strong>HECM proceeds are generally not considered taxable income</strong>&mdash;an important advantage over selling portfolio assets that may trigger capital gains taxes (consult your CPA).</li>
-            <li><strong>A wholesale mortgage broker comparing 200+ HECM lenders</strong> delivers more competitive terms than single-lender retail origination, directly impacting the cost and growth rate of your standby credit line.</li>
+            <li><strong>A wholesale mortgage broker comparing 50+ Wholesale Lenders</strong> delivers more competitive terms than single-lender retail origination, directly impacting the cost and growth rate of your standby credit line.</li>
           </ol>
         </div>
 
@@ -850,7 +850,7 @@ export default function ReverseMortgageStandbyLineOfCreditStrategyPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive HECM reverse mortgage terms for your standby credit line strategy.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive HECM reverse mortgage terms for your standby credit line strategy.
           </p>
         </div>
 

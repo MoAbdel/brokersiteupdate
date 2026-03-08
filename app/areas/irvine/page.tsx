@@ -26,7 +26,7 @@ export const metadata = {
 export default function Page() {
   const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
-    { q: 'Do you work with multiple lenders in Irvine?', a: 'Yes. As a wholesale broker we shop across 200+ lenders to match your goals and documentation profile for Irvine properties.' },
+    { q: 'Do you work with multiple lenders in Irvine?', a: 'Yes. As a wholesale broker we shop across 50+ Wholesale Lenders to match your goals and documentation profile for Irvine properties.' },
     { q: 'Can I get a HELOC in Irvine?', a: 'Typically yes if you have sufficient equity and qualify on income/credit. Terms vary by lender; we outline options side-by-side for your Irvine home.' },
     { q: 'How fast can a cash-out refi close in Irvine?', a: 'Straightforward W-2 files may close in ~2–3 weeks; complex files may need more time. Timelines depend on appraisal and underwriting specific to Orange County.' },
     { q: 'Do you offer DSCR or bank-statement loans for Irvine investors?', a: 'Yes, for investors and self-employed borrowers in Irvine, subject to qualification and lender overlays.' },
@@ -39,7 +39,7 @@ export default function Page() {
     serviceType: 'Irvine Mortgage Brokerage Services',
     serviceName: 'Irvine Mortgage Broker',
     serviceDescription:
-      'Wholesale mortgage broker serving Irvine with access to 200+ lenders for home loans, HELOCs, and refinancing. NMLS #1426884.',
+      'Wholesale mortgage broker serving Irvine with access to 50+ Wholesale Lenders for home loans, HELOCs, and refinancing. NMLS #1426884.',
     areaServedName: 'Irvine, Orange County, CA',
   });
 
@@ -69,7 +69,7 @@ export default function Page() {
         <>
           <p>
             If you live in Irvine or you're relocating to this master-planned community, having a wholesale broker on your side makes financing simpler.
-            We compare programs across 200+ lenders—conventional, jumbo, FHA, VA, DSCR, bank-statement, and second-lien options like HELOCs—so you see trade-offs clearly.
+            We compare programs across 50+ Wholesale Lenders—conventional, jumbo, FHA, VA, DSCR, bank-statement, and second-lien options like HELOCs—so you see trade-offs clearly.
             Irvine's higher property values often require jumbo financing, and our wholesale network provides competitive options.
           </p>
           <p>

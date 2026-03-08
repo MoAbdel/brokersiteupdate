@@ -232,7 +232,7 @@ export default function ReverseMortgageVsAnnuityPage() {
               </tr>
               <tr>
                 <td className="border border-gray-200 px-4 py-2">Wholesale broker comparison</td>
-                <td className="border border-gray-200 px-4 py-2">accesses 200+ HECM lenders</td>
+                <td className="border border-gray-200 px-4 py-2">accesses 50+ Wholesale Lenders</td>
                 <td className="border border-gray-200 px-4 py-2">delivering competitive margins vs single-lender retail origination</td>
               </tr>
             </tbody>
@@ -373,7 +373,7 @@ export default function ReverseMortgageVsAnnuityPage() {
         </ol>
 
         <p>
-          Based on Mo Abdel&apos;s experience structuring HECM loans through 200+ wholesale lenders, the total upfront cost of a HECM on a $900,000 California home typically ranges from $15,000 to $25,000 (including IMIP, origination, and closing costs). A $200,000 fixed annuity purchase carries no explicit upfront fee, but surrender charges of $10,000&ndash;$20,000 would apply if you terminated the contract in the first year. The true cost of each product reveals itself over time.
+          Based on Mo Abdel&apos;s experience structuring HECM loans through 50+ Wholesale Lenders, the total upfront cost of a HECM on a $900,000 California home typically ranges from $15,000 to $25,000 (including IMIP, origination, and closing costs). A $200,000 fixed annuity purchase carries no explicit upfront fee, but surrender charges of $10,000&ndash;$20,000 would apply if you terminated the contract in the first year. The true cost of each product reveals itself over time.
         </p>
 
         <div className="bg-green-50 p-6 rounded-lg border border-green-200 my-6">
@@ -749,7 +749,7 @@ export default function ReverseMortgageVsAnnuityPage() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mt-0">How does a wholesale mortgage broker help with reverse mortgage vs annuity decisions?</h3>
             <p className="mb-0">
-              <strong>A wholesale mortgage broker accesses 200+ HECM lenders to find competitive terms, while an annuity requires a separate insurance agent.</strong> Working with a wholesale broker ensures you compare HECM products from multiple lenders rather than accepting a single institution&apos;s offering.
+              <strong>A wholesale mortgage broker accesses 50+ Wholesale Lenders to find competitive terms, while an annuity requires a separate insurance agent.</strong> Working with a wholesale broker ensures you compare HECM products from multiple lenders rather than accepting a single institution&apos;s offering.
             </p>
           </div>
         </div>
@@ -778,7 +778,7 @@ export default function ReverseMortgageVsAnnuityPage() {
             <li><strong>The HECM requires you to stay in your home</strong>&mdash;the annuity is fully portable and has no residency requirement</li>
             <li><strong>Upfront HECM costs are explicit</strong> (FHA MIP, origination, closing); annuity costs are embedded in the product and less visible</li>
             <li><strong>Combining both products often produces the strongest retirement income plan</strong>&mdash;annuity for income floor, HECM for growing reserve</li>
-            <li><strong>A wholesale mortgage broker comparing 200+ HECM lenders</strong> delivers more competitive terms than a single-lender retail origination</li>
+            <li><strong>A wholesale mortgage broker comparing 50+ Wholesale Lenders</strong> delivers more competitive terms than a single-lender retail origination</li>
           </ol>
         </div>
 
@@ -794,7 +794,7 @@ export default function ReverseMortgageVsAnnuityPage() {
             NMLS #1426884 | Lumin Lending NMLS #2716106
           </p>
           <p className="text-green-800 text-sm mt-3">
-            Free consultation. I work with 200+ lenders to find the most competitive HECM reverse mortgage terms for your specific situation.
+            Free consultation. I work with 50+ Wholesale Lenders to find the most competitive HECM reverse mortgage terms for your specific situation.
           </p>
         </div>
 
