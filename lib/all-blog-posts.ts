@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 24: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 9, 2026) =====
+  {
+    slug: 'refinance-with-student-loan-debt-dti-2026',
+    title: 'Refinancing with Student Loan Debt: DTI Strategies for Fannie Mae, FHA & VA [2026]',
+    excerpt: 'How student loan debt affects refinance qualification. IBR/IDR payment treatment by Fannie Mae vs FHA vs VA, DTI strategies, and student loan payoff vs refinance timing.',
+    date: '2026-03-09',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-cosigner-removal-strategy-2026',
+    title: 'Refinancing to Remove a Cosigner: Solo Qualification Strategy Guide [2026]',
+    excerpt: 'How to refinance your mortgage to remove a cosigner. Solo qualification requirements, credit building timeline, rate impact analysis, and loan assumption alternatives.',
+    date: '2026-03-09',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-after-late-payments-credit-2026',
+    title: 'Refinancing After Late Payments: Seasoning Requirements & Credit Recovery Guide [2026]',
+    excerpt: 'How to refinance after late payments. Seasoning requirements by loan type, credit recovery strategies, compensating factors, and rate-and-term vs cash-out timing.',
+    date: '2026-03-09',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-on-paid-off-home-free-clear-2026',
+    title: 'HELOC on a Paid-Off Home: Unlocking Equity on Free & Clear Property [2026]',
+    excerpt: 'Getting a HELOC on a paid-off home. First-lien advantages, faster approval, higher limits, tax considerations, and HELOC vs cash-out refi on free and clear property.',
+    date: '2026-03-09',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-self-employed-qualification-2026',
+    title: 'HELOC Self-Employed Qualification 2026: Documentation, DTI & Bank Statement Programs',
+    excerpt: 'How self-employed borrowers qualify for a HELOC: tax return documentation, bank statement programs, DTI calculation with variable income, and wholesale broker advantages for business owners.',
+    date: '2026-03-09',
+    category: 'Home Equity',
+    readTime: '14 min read',
+  },
+  {
+    slug: 'reverse-mortgage-eligible-property-types-2026',
+    title: 'Reverse Mortgage Eligible Property Types 2026: Which Homes Qualify for HECM',
+    excerpt: 'Which property types qualify for a HECM reverse mortgage: single-family homes, 2-4 unit properties, FHA-approved condos, manufactured homes, HUD MPR requirements, and repair set-asides.',
+    date: '2026-03-09',
+    category: 'Reverse Mortgage',
+    readTime: '15 min read',
+  },
+  {
+    slug: 'reverse-mortgage-existing-mortgage-payoff-2026',
+    title: 'Reverse Mortgage to Pay Off Existing Mortgage: HECM Proceeds & Net Benefit Guide [2026]',
+    excerpt: 'How a reverse mortgage pays off your existing mortgage. HECM mandatory payoff, net principal limit calculation, when it makes sense, and comparison with traditional refinancing.',
+    date: '2026-03-09',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-fha-insurance-protection-2026',
+    title: 'Reverse Mortgage FHA Insurance: Non-Recourse Protection & MIP Cost Guide [2026]',
+    excerpt: 'FHA insurance on reverse mortgages explained. HECM MIP costs, non-recourse protection, lender guarantee, line of credit growth guarantee, and how FHA protects borrowers and heirs.',
+    date: '2026-03-09',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-self-storage-facility-loan-2026',
+    title: 'DSCR Loans for Self-Storage Facilities: Investor Financing Guide [2026]',
+    excerpt: 'DSCR loans for self-storage facility investments. NOI calculation with occupancy rates, unit mix analysis, DSCR vs SBA comparison, and wholesale broker advantage.',
+    date: '2026-03-09',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-senior-housing-assisted-living-2026',
+    title: 'DSCR Loans for Senior Housing & Assisted Living Investments [2026]',
+    excerpt: 'DSCR loans for senior housing and assisted living facilities. Per-bed revenue analysis, staffing cost impact, demographic tailwinds, and bridge-to-DSCR strategies.',
+    date: '2026-03-09',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 23: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 7, 2026) =====
   {
     slug: 'refinance-solar-energy-efficiency-mortgage-2026',
