@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 25: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 11, 2026) =====
+  {
+    slug: 'refinance-commission-bonus-income-qualification-2026',
+    title: 'Refinancing with Commission & Bonus Income: Qualification Guide [2026]',
+    excerpt: 'How mortgage underwriters evaluate commission, bonus, and variable income for refinance qualification. Fannie Mae vs FHA vs VA calculation methods, 2-year averaging, and wholesale broker strategies.',
+    date: '2026-03-11',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-remove-deceased-spouse-mortgage-2026',
+    title: 'Refinancing After a Spouse Passes Away: Mortgage Transfer & Qualification Guide [2026]',
+    excerpt: 'How surviving spouses handle the mortgage after a partner\'s death. Garn-St. Germain Act protections, assumption vs refinance options, single-income qualification, and community property considerations.',
+    date: '2026-03-11',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-construction-to-permanent-loan-2026',
+    title: 'Construction-to-Permanent Loan Refinance: One-Close vs Two-Close Guide [2026]',
+    excerpt: 'Complete guide to construction-to-permanent loan refinancing. One-time-close vs two-time-close structures, rate lock considerations, draw schedules, and wholesale broker CTP programs.',
+    date: '2026-03-11',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'heloc-vs-401k-loan-home-improvement-2026',
+    title: 'HELOC vs 401(k) Loan for Home Improvements: Complete Comparison [2026]',
+    excerpt: 'HELOC vs 401(k) loan comparison for home improvements. Interest deductibility, opportunity cost, repayment terms, job change risk, and which option maximizes your renovation ROI.',
+    date: '2026-03-11',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-manufactured-mobile-home-2026',
+    title: 'HELOC on a Manufactured or Mobile Home: Eligibility, Lenders & Alternatives [2026]',
+    excerpt: 'Whether and how you can get a HELOC on a manufactured or mobile home. Real property vs personal property, permanent foundation requirements, title conversion, and niche lender programs.',
+    date: '2026-03-11',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-widow-widower-financial-planning-2026',
+    title: 'Reverse Mortgage for Widows & Widowers: Financial Planning After Loss [2026]',
+    excerpt: 'How widows and widowers 62+ use reverse mortgages to stabilize finances after losing a spouse. Income replacement, Social Security coordination, non-borrowing spouse protections, and HECM options.',
+    date: '2026-03-11',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-55-plus-retirement-community-2026',
+    title: 'Reverse Mortgage in 55+ Retirement Communities: Eligibility & HOA Rules [2026]',
+    excerpt: 'Reverse mortgage eligibility in 55+ age-restricted communities. FHA condo approval, HOA financial health, land-lease vs fee-simple, manufactured home restrictions, and HECM set-aside calculations.',
+    date: '2026-03-11',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-delay-social-security-strategy-2026',
+    title: 'Using a Reverse Mortgage to Delay Social Security: HECM Bridge Strategy [2026]',
+    excerpt: 'HECM line of credit as a bridge to delay Social Security from 62 to 70. Delayed retirement credits, break-even analysis, line of credit growth, and retirement income coordination strategies.',
+    date: '2026-03-11',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-mobile-home-park-investment-2026',
+    title: 'DSCR Loans for Mobile Home Park Investments: Financing Guide [2026]',
+    excerpt: 'How investors use DSCR loans to finance mobile home park acquisitions. Lot rent income calculations, pad count requirements, TOH vs POH distinctions, and wholesale broker MHP lending programs.',
+    date: '2026-03-11',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-adu-garage-conversion-rental-2026',
+    title: 'DSCR Loans for ADU & Garage Conversion Rentals: Investor Financing Guide [2026]',
+    excerpt: 'DSCR loans for properties with ADUs and garage conversions. California AB 1033, combined rental income qualification, appraisal challenges, and wholesale broker ADU-friendly lending programs.',
+    date: '2026-03-11',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
   // ===== BATCH 24: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 9, 2026) =====
   {
     slug: 'refinance-with-student-loan-debt-dti-2026',
