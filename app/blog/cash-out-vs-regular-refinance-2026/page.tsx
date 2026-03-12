@@ -375,7 +375,7 @@ export default function CashOutVsRegularRefinancePage() {
 
                 <h3>Alternative: Consider a HELOC Instead</h3>
                 <p>
-                    If you have a low-rate first mortgage you want to keep, a <a href="/blog/how-does-heloc-work-2026" className="text-blue-600 hover:underline">HELOC</a> or <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">home equity loan</a> lets you access equity without touching your primary mortgage. Compare all options in our <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs Cash-Out Refinance</a> guide.
+                    If you have a low-rate first mortgage you want to keep, a <a href="/loan-programs/heloc" className="text-blue-600 hover:underline">HELOC</a> or <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">home equity loan</a> lets you access equity without touching your primary mortgage. Compare all options in our <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs Cash-Out Refinance</a> guide.
                 </p>
 
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 my-8">

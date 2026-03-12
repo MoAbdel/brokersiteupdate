@@ -711,7 +711,7 @@ export default function HowToGetWholesaleMortgageRatesCaliforniaPage() {
           </ul>
           <h4>California Markets</h4>
           <ul>
-            <li><a href="/loans/jumbo">Jumbo Loans in California</a></li>
+            <li><a href="/loan-programs/jumbo-loans">Jumbo Loans in California</a></li>
             <li><a href="/blog/newport-beach-mortgage-guide-2026">Newport Beach Mortgage Guide</a></li>
             <li><a href="/blog/irvine-mortgage-guide-2026">Irvine Mortgage Guide</a></li>
           </ul>

@@ -567,7 +567,7 @@ export default function ReverseMortgageSGVPasadenaGuidePage() {
           <ul>
             <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-semibold">California Reverse Mortgage Guide 2026</a> &mdash; Statewide overview and program comparison</li>
             <li><a href="/blog/reverse-mortgage-la-westside-beach-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage LA Westside &amp; Beach Cities Guide</a> &mdash; Beverly Hills, Santa Monica, Malibu, Pacific Palisades</li>
-            <li><a href="/blog/reverse-mortgage-la-south-bay-pv-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage South Bay &amp; Palos Verdes Guide</a> &mdash; Manhattan Beach, Palos Verdes Estates, Redondo Beach</li>
+            <li><a href="/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage South Bay &amp; Palos Verdes Guide</a> &mdash; Manhattan Beach, Palos Verdes Estates, Redondo Beach</li>
           </ul>
           <h3>Cross-Track Guides for the San Gabriel Valley</h3>
           <ul>

@@ -603,7 +603,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-800 font-semibold">Wholesale Mortgage Broker California Guide 2026</a> &mdash; Statewide overview of wholesale lending</li>
             <li><a href="/blog/wholesale-mortgage-broker-la-westside-beach-2026" className="text-blue-600 hover:text-blue-800">Wholesale Mortgage Broker LA Westside &amp; Beach Cities 2026</a> &mdash; Beverly Hills, Santa Monica, Pacific Palisades</li>
-            <li><a href="/blog/wholesale-mortgage-broker-la-south-bay-pv-2026" className="text-blue-600 hover:text-blue-800">Wholesale Mortgage Broker South Bay &amp; Palos Verdes 2026</a> &mdash; Manhattan Beach, Palos Verdes, Redondo Beach</li>
+            <li><a href="/blog/wholesale-mortgage-broker-la-south-bay-palos-verdes-2026" className="text-blue-600 hover:text-blue-800">Wholesale Mortgage Broker South Bay &amp; Palos Verdes 2026</a> &mdash; Manhattan Beach, Palos Verdes, Redondo Beach</li>
           </ul>
           <h3>Cross-Track Guides for the San Gabriel Valley</h3>
           <ul>

@@ -285,7 +285,7 @@ export default function HomeEquityRefinancingGuide2026Page() {
           <li>Credit line can be frozen if home values drop</li>
           <li>Second lien position</li>
         </ul>
-        <p>Learn more: <a href="/blog/how-does-heloc-work-2026">How Does a HELOC Work?</a></p>
+        <p>Learn more: <a href="/loan-programs/heloc">How Does a HELOC Work?</a></p>
 
         <h2 id="heloan">HELOAN: Home Equity Loan Guide</h2>
         <p>
@@ -482,7 +482,7 @@ export default function HomeEquityRefinancingGuide2026Page() {
           <h3 className="mt-0">Related Home Equity Resources</h3>
           <ul>
             <li><a href="/blog/cash-out-refinance-complete-guide-2026">Cash-Out Refinance Guide</a></li>
-            <li><a href="/blog/how-does-heloc-work-2026">How Does a HELOC Work?</a></li>
+            <li><a href="/loan-programs/heloc">How Does a HELOC Work?</a></li>
             <li><a href="/blog/home-equity-loan-fixed-rate-2026">Home Equity Loan Guide</a></li>
             <li><a href="/blog/heloc-vs-cash-out-refinance-2026">HELOC vs Cash-Out Refinance</a></li>
             <li><a href="/blog/heloc-vs-home-equity-loan-2026">HELOC vs Home Equity Loan</a></li>

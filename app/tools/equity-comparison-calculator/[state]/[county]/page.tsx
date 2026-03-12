@@ -84,7 +84,7 @@ export default async function CountyEquityComparisonPage({ params }: Props) {
     { label: 'All Mortgage Tools', href: '/tools' },
     { label: 'HELOC Program', href: '/loan-programs/heloc' },
     { label: 'Cash-Out Refinance', href: '/loan-programs/cash-out-refinance' },
-    { label: 'Home Equity Loans', href: '/loan-programs/home-equity-loans' },
+    { label: 'Home Equity Loans', href: '/loan-programs/heloan' },
     { label: 'Contact Mo Abdel', href: '/contact' },
     ...(cities.length > 0
       ? cities.slice(0, 6).map((c) => ({

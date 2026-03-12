@@ -372,7 +372,7 @@ export default function HELOCvsCashOutGuide() {
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>
             <ul className="space-y-2">
-              <li><a href="/blog/how-does-heloc-work-2026" className="text-blue-600 hover:underline">How Does a HELOC Work? Complete Guide</a></li>
+              <li><a href="/loan-programs/heloc" className="text-blue-600 hover:underline">How Does a HELOC Work? Complete Guide</a></li>
               <li><a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">How Does a Cash-Out Refinance Work?</a></li>
               <li><a href="/blog/heloc-vs-home-equity-loan-2026" className="text-blue-600 hover:underline">HELOC vs Home Equity Loan Comparison</a></li>
               <li><a href="/cash-out-refinance" className="text-blue-600 hover:underline">Cash-Out Refinance Programs</a></li>

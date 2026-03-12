@@ -323,7 +323,7 @@ export default function HomeEquityForRenovationsPage() {
           <h3 className="mt-0">Related Resources</h3>
           <ul>
             <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity Complete Guide</a></li>
-            <li><a href="/blog/how-does-heloc-work-2026">How Does a HELOC Work?</a></li>
+            <li><a href="/loan-programs/heloc">How Does a HELOC Work?</a></li>
             <li><a href="/blog/home-equity-loan-fixed-rate-2026">Home Equity Loan Guide</a></li>
             <li><a href="/blog/heloc-vs-cash-out-refinance-2026">HELOC vs Cash-Out Refinance</a></li>
           </ul>

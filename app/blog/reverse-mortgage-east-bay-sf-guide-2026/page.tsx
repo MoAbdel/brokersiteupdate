@@ -925,7 +925,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
               <strong>Ready to explore your options?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary reverse mortgage consultation. I will provide a personalized estimate of your HECM
               proceeds based on your specific property, age, and financial situation -- with no obligation and
-              no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              no pressure. You can also start with a <a href="https://www.mothebroker.com/contact" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

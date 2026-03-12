@@ -270,7 +270,7 @@ export default function WholesaleMortgage92662BalboaIslandPage() {
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Orange County Wholesale Mortgage Broker</a></li>
             <li><a href="/blog/second-home-mortgage-wholesale-2026">Second Home Mortgage Guide</a></li>
             <li><a href="/blog/jumbo-loans-wholesale-2026">Jumbo Loans Guide</a></li>
-            <li><a href="/cities/newport-beach">Newport Beach Mortgage Services</a></li>
+            <li><a href="/areas/newport-beach-mortgage-broker">Newport Beach Mortgage Services</a></li>
           </ul>
         </div>
 

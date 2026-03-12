@@ -1080,7 +1080,7 @@ export default function ReverseMortgagesCaliforniaGuidePage() {
           </ul>
           <h4>Location-Specific Guides</h4>
           <ul>
-            <li><a href="/blog/reverse-mortgage-irvine-ca-2026">Reverse Mortgage Irvine CA</a></li>
+            <li><a href="/areas/irvine-mortgage-broker">Reverse Mortgage Irvine CA</a></li>
             <li><a href="/blog/reverse-mortgage-beverly-hills-2026">Reverse Mortgage Beverly Hills</a></li>
             <li><a href="/blog/reverse-mortgage-medina-wa-2026">Reverse Mortgage Medina WA</a></li>
           </ul>

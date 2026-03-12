@@ -328,7 +328,7 @@ export default function DebtConsolidationRefinancePage() {
           <ul>
             <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity Complete Guide</a></li>
             <li><a href="/blog/heloc-vs-cash-out-refinance-2026">HELOC vs Cash-Out Refinance</a></li>
-            <li><a href="/blog/how-does-heloc-work-2026">How Does a HELOC Work?</a></li>
+            <li><a href="/loan-programs/heloc">How Does a HELOC Work?</a></li>
             <li><a href="/blog/refinance-credit-requirements-2026">Refinance Credit Requirements</a></li>
           </ul>
         </div>

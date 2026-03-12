@@ -963,7 +963,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               <strong>Ready to experience the wholesale difference?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary mortgage consultation. I will review your financial profile, identify the best
               lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison -- with
-              no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/contact" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

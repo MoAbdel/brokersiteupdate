@@ -820,7 +820,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryMarin2026() {
               Whether you are purchasing a $5 million estate in Ross through a family trust, financing a waterfront home in Tiburon with RSU income, acquiring a Belvedere island property through an LLC, or qualifying for a Mill Valley canyon home with bank statement documentation &mdash; the wholesale channel contains the lender whose guidelines align with your exact scenario.
             </p>
             <p className="text-lg leading-relaxed mb-0">
-              <strong>Ready to experience the wholesale advantage in ultra-luxury Marin?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary consultation. I will review your financial profile, property target, and ownership structure to identify the optimal lender match from 50+ Wholesale Lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              <strong>Ready to experience the wholesale advantage in ultra-luxury Marin?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a complimentary consultation. I will review your financial profile, property target, and ownership structure to identify the optimal lender match from 50+ Wholesale Lenders &mdash; with no obligation and no cost for the consultation. You can also start with a <a href="https://www.mothebroker.com/contact" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

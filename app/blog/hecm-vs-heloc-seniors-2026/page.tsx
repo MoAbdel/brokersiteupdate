@@ -472,7 +472,7 @@ export default function HECMvsHELOCSeniorsPage() {
           <li><Link href="/blog/what-is-reverse-mortgage-2026" className="text-blue-600 hover:underline">What Is a Reverse Mortgage?</Link></li>
           <li><Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements</Link></li>
           <li><Link href="/home-equity-guide" className="text-blue-600 hover:underline">Home Equity Guide: All Options</Link></li>
-          <li><Link href="/blog/how-does-heloc-work-2026" className="text-blue-600 hover:underline">How Does a HELOC Work?</Link></li>
+          <li><Link href="/loan-programs/heloc" className="text-blue-600 hover:underline">How Does a HELOC Work?</Link></li>
         </ul>
       </section>
 

@@ -276,7 +276,7 @@ export default function WholesaleMortgageBroker92675Page() {
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California Guide</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Orange County Wholesale Mortgage Broker</a></li>
-            <li><a href="/blog/wholesale-mortgage-broker-92672">Nearby: San Clemente (92672)</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-south-orange-county-2026#san-clemente">Nearby: San Clemente (92672)</a></li>
             <li><a href="/blog/wholesale-mortgage-broker-92677">Nearby: Laguna Niguel (92677)</a></li>
           </ul>
         </div>

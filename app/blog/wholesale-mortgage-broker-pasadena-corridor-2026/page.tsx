@@ -89,7 +89,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
       "significantLink": [
-        "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-guide-2026",
+        "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-2026",
         "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-2026"
       ]
     },
@@ -204,7 +204,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mothebroker.com" },
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mothebroker.com/blog" },
       { "@type": "ListItem", "position": 3, "name": "CA Wholesale Mortgage Guide", "item": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-2026" },
-      { "@type": "ListItem", "position": 4, "name": "SGV/Pasadena Guide", "item": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-guide-2026" },
+      { "@type": "ListItem", "position": 4, "name": "SGV/Pasadena Guide", "item": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sgv-pasadena-2026" },
       { "@type": "ListItem", "position": 5, "name": "Pasadena Corridor", "item": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026" },
     ]
   };
@@ -251,7 +251,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
             <a href="/" className="hover:text-blue-600">Home</a> &rsaquo;{' '}
             <a href="/blog" className="hover:text-blue-600">Blog</a> &rsaquo;{' '}
             <a href="/blog/wholesale-mortgage-broker-california-2026" className="hover:text-blue-600">CA Wholesale Mortgage Guide</a> &rsaquo;{' '}
-            <a href="/blog/wholesale-mortgage-broker-sgv-pasadena-guide-2026" className="hover:text-blue-600">SGV/Pasadena Guide</a> &rsaquo;{' '}
+            <a href="/blog/wholesale-mortgage-broker-sgv-pasadena-2026" className="hover:text-blue-600">SGV/Pasadena Guide</a> &rsaquo;{' '}
             <span className="text-gray-700">Pasadena Corridor</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -789,7 +789,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
           <div className="bg-gray-50 p-6 rounded-xl my-8">
             <h3 className="mt-0">Related Resources</h3>
             <ul>
-              <li><a href="/blog/wholesale-mortgage-broker-sgv-pasadena-guide-2026">SGV/Pasadena Regional Pillar Guide</a></li>
+              <li><a href="/blog/wholesale-mortgage-broker-sgv-pasadena-2026">SGV/Pasadena Regional Pillar Guide</a></li>
               <li><a href="/blog/wholesale-mortgage-broker-california-2026">Wholesale Mortgage Broker California: State Guide</a></li>
               <li><a href="/blog/bank-statement-loans-wholesale-2026">Bank Statement Loans: Complete Wholesale Guide</a></li>
               <li><a href="/blog/non-qm-loans-wholesale-broker-2026">Non-QM Loans Through Wholesale Brokers</a></li>

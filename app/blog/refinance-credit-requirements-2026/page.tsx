@@ -362,7 +362,7 @@ export default function RefinanceCreditRequirementsPage() {
             <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity Complete Guide</a></li>
             <li><a href="/blog/when-to-refinance-2026">When Is Refinancing Worth It?</a></li>
             <li><a href="/blog/refinance-debt-consolidation-2026">Debt Consolidation Refinance</a></li>
-            <li><a href="/blog/how-does-heloc-work-2026">How Does a HELOC Work?</a></li>
+            <li><a href="/loan-programs/heloc">How Does a HELOC Work?</a></li>
           </ul>
         </div>
 

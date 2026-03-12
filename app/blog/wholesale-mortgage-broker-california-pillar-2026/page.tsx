@@ -798,8 +798,8 @@ export default function WholesaleMortgageBrokerCaliforniaPillarPage() {
           <h4>Regional Coverage</h4>
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Wholesale Broker Orange County</a></li>
-            <li><a href="/loans/jumbo">Jumbo Loans</a></li>
-            <li><a href="/loans/conventional">Conventional Loans</a></li>
+            <li><a href="/loan-programs/jumbo-loans">Jumbo Loans</a></li>
+            <li><a href="/loan-programs/conventional-loans">Conventional Loans</a></li>
           </ul>
         </div>
 

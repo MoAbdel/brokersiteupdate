@@ -271,7 +271,7 @@ export default function WholesaleMortgage92661NewportBeachPage() {
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Orange County Wholesale Mortgage Broker</a></li>
             <li><a href="/blog/dscr-loans-wholesale-2026">DSCR Loans Guide</a></li>
             <li><a href="/blog/investment-property-loans-wholesale-2026">Investment Property Loans Guide</a></li>
-            <li><a href="/cities/newport-beach">Newport Beach Mortgage Services</a></li>
+            <li><a href="/areas/newport-beach-mortgage-broker">Newport Beach Mortgage Services</a></li>
           </ul>
         </div>
 

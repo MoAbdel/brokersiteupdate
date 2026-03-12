@@ -270,7 +270,7 @@ export default function WholesaleMortgage92625CoronaDelMarPage() {
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Orange County Wholesale Mortgage Broker</a></li>
             <li><a href="/blog/bank-statement-loans-wholesale-2026">Bank Statement Loans Guide</a></li>
             <li><a href="/blog/jumbo-loans-wholesale-2026">Jumbo Loans Guide</a></li>
-            <li><a href="/cities/newport-beach">Newport Beach Mortgage Services</a></li>
+            <li><a href="/areas/newport-beach-mortgage-broker">Newport Beach Mortgage Services</a></li>
           </ul>
         </div>
 

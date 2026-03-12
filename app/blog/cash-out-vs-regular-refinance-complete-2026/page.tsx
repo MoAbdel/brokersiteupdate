@@ -580,7 +580,7 @@ export default function CashOutVsRegularRefinanceCompletePage() {
               <p className="font-semibold text-purple-900 mb-3">Situation:</p>
               <p className="text-purple-800 mb-4">Michael and Lisa want to add a $200,000 accessory dwelling unit (ADU) to their property. Their home is worth $1.2 million with a $400,000 mortgage at 4.5%.</p>
               <p className="font-semibold text-purple-900 mb-2">Best Choice: Consider a HELOC or Home Equity Loan</p>
-              <p className="text-purple-800">With a low existing rate of 4.5%, a cash-out refinance at 6.5% would increase their entire loan&apos;s rate. A <a href="/blog/how-does-heloc-work-2026" className="text-blue-600 hover:underline">HELOC</a> or <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">home equity loan</a> keeps their favorable first mortgage intact while accessing equity for the ADU.</p>
+              <p className="text-purple-800">With a low existing rate of 4.5%, a cash-out refinance at 6.5% would increase their entire loan&apos;s rate. A <a href="/loan-programs/heloc" className="text-blue-600 hover:underline">HELOC</a> or <a href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-600 hover:underline">home equity loan</a> keeps their favorable first mortgage intact while accessing equity for the ADU.</p>
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4">Scenario 3: Debt Consolidation with High Current Rate</h3>

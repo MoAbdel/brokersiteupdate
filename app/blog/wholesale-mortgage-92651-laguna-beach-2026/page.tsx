@@ -271,7 +271,7 @@ export default function WholesaleMortgage92651LagunaBeachPage() {
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Orange County Wholesale Mortgage Broker</a></li>
             <li><a href="/blog/second-home-mortgage-wholesale-2026">Second Home Mortgage Guide</a></li>
             <li><a href="/blog/bank-statement-loans-wholesale-2026">Bank Statement Loans Guide</a></li>
-            <li><a href="/cities/laguna-beach">Laguna Beach Mortgage Services</a></li>
+            <li><a href="/areas/laguna-beach-mortgage-broker">Laguna Beach Mortgage Services</a></li>
           </ul>
         </div>
 

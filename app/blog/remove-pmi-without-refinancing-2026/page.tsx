@@ -155,7 +155,7 @@ export default function RemovePmiWithoutRefinancingPage() {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Home Equity',
-                item: 'https://www.mothebroker.com/loan-programs/home-equity',
+                item: 'https://www.mothebroker.com/home-equity-guide',
               },
               {
                 '@type': 'ListItem',
@@ -183,7 +183,7 @@ export default function RemovePmiWithoutRefinancingPage() {
         <nav className="text-sm text-gray-500 mb-4">
           <Link href="/" className="hover:text-blue-600">Home</Link>
           <span className="mx-2">/</span>
-          <Link href="/loan-programs/home-equity" className="hover:text-blue-600">Home Equity</Link>
+          <Link href="/home-equity-guide" className="hover:text-blue-600">Home Equity</Link>
           <span className="mx-2">/</span>
           <span className="text-gray-900">Remove PMI Without Refinancing</span>
         </nav>

@@ -746,7 +746,7 @@ export default function HomeEquitySacramentoAffluent2026() {
           <h2 id="cross-links" className="text-2xl font-bold mt-10 mb-4">Related Sacramento &amp; California Mortgage Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
-            <a href="/blog/reverse-mortgage-sacramento-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <a href="/blog/reverse-mortgage-sacramento-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Sacramento Reverse Mortgage Guide</h3>
               <p className="text-sm text-gray-600">HECM and jumbo reverse mortgage options for El Dorado Hills, Granite Bay, Folsom, Roseville, and Davis seniors 62+.</p>
             </a>

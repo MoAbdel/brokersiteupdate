@@ -160,7 +160,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mothebroker.com' },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.mothebroker.com/blog' },
       { '@type': 'ListItem', position: 3, name: 'CA Reverse Mortgage Guide', item: 'https://www.mothebroker.com/blog/reverse-mortgage-california-guide-2026' },
-      { '@type': 'ListItem', position: 4, name: 'LA South Bay / PV Reverse Mortgage', item: 'https://www.mothebroker.com/blog/reverse-mortgage-la-south-bay-pv-guide-2026' },
+      { '@type': 'ListItem', position: 4, name: 'LA South Bay / PV Reverse Mortgage', item: 'https://www.mothebroker.com/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026' },
       { '@type': 'ListItem', position: 5, name: 'PV Peninsula', item: 'https://www.mothebroker.com/blog/reverse-mortgage-palos-verdes-peninsula-2026' },
     ],
   };
@@ -188,7 +188,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             <a href="/" className="hover:text-blue-600">Home</a> &gt;{' '}
             <a href="/blog" className="hover:text-blue-600">Blog</a> &gt;{' '}
             <a href="/blog/reverse-mortgage-california-guide-2026" className="hover:text-blue-600">CA Reverse Mortgage Guide</a> &gt;{' '}
-            <a href="/blog/reverse-mortgage-la-south-bay-pv-guide-2026" className="hover:text-blue-600">LA South Bay / PV Reverse Mortgage</a> &gt;{' '}
+            <a href="/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026" className="hover:text-blue-600">LA South Bay / PV Reverse Mortgage</a> &gt;{' '}
             <span className="text-gray-700">PV Peninsula</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -726,7 +726,7 @@ export default function ReverseMortgagePalosVerdesPeninsula2026() {
             <ul className="space-y-2">
               <li><a href="/blog/home-equity-palos-verdes-peninsula-2026" className="text-blue-600 hover:underline font-medium">Home Equity PV Peninsula Guide</a> &mdash; HELOC, cash-out refinance &amp; HELOAN for all 4 PV Peninsula cities</li>
               <li><a href="/blog/wholesale-mortgage-broker-palos-verdes-peninsula-2026" className="text-blue-600 hover:underline font-medium">Wholesale Mortgage Broker PV Peninsula Guide</a> &mdash; Purchase financing, jumbo loans &amp; wholesale rates</li>
-              <li><a href="/blog/reverse-mortgage-la-south-bay-pv-guide-2026" className="text-blue-600 hover:underline font-medium">LA South Bay / PV Reverse Mortgage Guide</a> &mdash; Regional pillar covering South Bay and Palos Verdes</li>
+              <li><a href="/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026" className="text-blue-600 hover:underline font-medium">LA South Bay / PV Reverse Mortgage Guide</a> &mdash; Regional pillar covering South Bay and Palos Verdes</li>
               <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline font-medium">California Reverse Mortgage Guide 2026</a> &mdash; Statewide overview of HECM and proprietary programs</li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Payout Options Explained</a> &mdash; Complete guide to lump sum, tenure, term, credit line &amp; combo</li>
               <li><a href="/blog/reverse-mortgage-myths-debunked-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Myths Debunked</a> &mdash; Common misconceptions clarified with facts</li>

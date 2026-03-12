@@ -1020,7 +1020,7 @@ export default function HomeEquityGuidePage() {
           <h4>Product Guides</h4>
           <ul>
             <li><a href="/blog/cash-out-refinance-how-it-works-2026">Cash-Out Refinance: How It Works</a></li>
-            <li><a href="/blog/how-does-heloc-work-2026">How Does a HELOC Work?</a></li>
+            <li><a href="/loan-programs/heloc">How Does a HELOC Work?</a></li>
             <li><a href="/blog/home-equity-loan-fixed-rate-2026">Home Equity Loan (Fixed Rate) Guide</a></li>
             <li><a href="/blog/second-mortgage-explained-2026">Second Mortgage Explained</a></li>
           </ul>

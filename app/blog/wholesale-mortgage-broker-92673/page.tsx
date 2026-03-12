@@ -303,7 +303,7 @@ export default function WholesaleMortgageBroker92673Page() {
           <h3 className="mt-0">Related Resources</h3>
           <ul>
             <li><a href="/blog/wholesale-mortgage-broker-orange-county-2026">Wholesale Mortgage Broker Orange County</a></li>
-            <li><a href="/blog/wholesale-mortgage-broker-92672">Wholesale Mortgage Broker 92672 San Clemente</a></li>
+            <li><a href="/blog/wholesale-mortgage-broker-south-orange-county-2026#san-clemente">Wholesale Mortgage Broker 92672 San Clemente</a></li>
             <li><a href="/blog/va-loans-orange-county-2026">VA Loans Orange County Guide</a></li>
             <li><a href="/blog/jumbo-loans-orange-county-2026">Jumbo Loans Orange County Guide</a></li>
           </ul>

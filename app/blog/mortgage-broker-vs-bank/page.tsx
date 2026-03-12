@@ -676,8 +676,8 @@ export default function MortgageBrokerVsBankPage() {
             <div>
               <h4 className="text-sm font-semibold text-gray-600 uppercase mb-2">Loan Programs</h4>
               <ul className="space-y-2 mb-0">
-                <li><a href="/loans/jumbo" className="text-blue-600 hover:underline">Jumbo Loans</a></li>
-                <li><a href="/loans/conventional" className="text-blue-600 hover:underline">Conventional Loans</a></li>
+                <li><a href="/loan-programs/jumbo-loans" className="text-blue-600 hover:underline">Jumbo Loans</a></li>
+                <li><a href="/loan-programs/conventional-loans" className="text-blue-600 hover:underline">Conventional Loans</a></li>
                 <li><a href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:underline">Non-QM Loan Programs</a></li>
               </ul>
             </div>

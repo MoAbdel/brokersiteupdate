@@ -532,7 +532,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">LA San Gabriel Valley</h3>
               <p className="text-gray-600 text-sm">San Marino, Arcadia, Pasadena, South Pasadena. Median: $1.45M. Diverse community HECM options with strong equity positions.</p>
-              <a href="/blog/reverse-mortgage-la-sgv-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read LA SGV Guide &rarr;</a>
+              <a href="/blog/reverse-mortgage-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read LA SGV Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">LA South Bay</h3>
@@ -542,7 +542,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Orange County</h3>
               <p className="text-gray-600 text-sm">Newport Beach, Laguna Beach, Irvine, Dana Point. Median: $1.25M. Coastal and suburban HECM programs for OC homeowners.</p>
-              <a href="/blog/reverse-mortgage-orange-county-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Orange County Guide &rarr;</a>
+              <a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Orange County Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">San Diego Coastal</h3>

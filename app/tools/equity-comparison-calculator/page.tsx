@@ -37,7 +37,7 @@ const internalLinks = [
   { label: 'All Mortgage Tools', href: '/tools' },
   { label: 'HELOC Program', href: '/loan-programs/heloc' },
   { label: 'Cash-Out Refinance', href: '/loan-programs/cash-out-refinance' },
-  { label: 'Home Equity Loans', href: '/loan-programs/home-equity-loans' },
+  { label: 'Home Equity Loans', href: '/loan-programs/heloan' },
   { label: 'DSCR Qualification Calculator', href: '/tools/dscr-qualification-calculator' },
   { label: 'Bank Statement Loan Estimator', href: '/tools/bank-statement-loan-estimator' },
   { label: 'Contact Mo Abdel', href: '/contact' },

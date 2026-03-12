@@ -22,7 +22,7 @@ export default function SeoServicePage({
   county: _county = 'Orange County, CA',
   slug: _slug,
   lastUpdatedISO,
-  heroCTA = { label: 'Get a free quote', href: '/apply' },
+  heroCTA = { label: 'Get a free quote', href: '/contact' },
   sections,
   bullets = [],
   faqs,

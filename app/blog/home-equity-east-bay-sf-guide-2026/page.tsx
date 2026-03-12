@@ -890,7 +890,7 @@ export default function HomeEquityEastBaySFGuide2026() {
               <strong>Ready to access your home equity?</strong> Call <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for
               a complimentary equity consultation. I will provide a personalized analysis of your available equity,
               recommend the optimal product (HELOC, HELOAN, or cash-out), and identify the best lender match from
-              50+ Wholesale Lenders -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/quick-quote" className="text-blue-700 font-semibold">free online quote</a>.
+              50+ Wholesale Lenders -- with no obligation and no pressure. You can also start with a <a href="https://www.mothebroker.com/contact" className="text-blue-700 font-semibold">free online quote</a>.
             </p>
           </div>
 

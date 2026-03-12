@@ -1042,11 +1042,11 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           </ul>
           <h4>Loan Programs</h4>
           <ul>
-            <li><a href="/loans/jumbo">Jumbo Loans in California</a></li>
-            <li><a href="/loans/conventional">Conventional Loans</a></li>
-            <li><a href="/loans/fha">FHA Loans</a></li>
-            <li><a href="/loans/va">VA Loans</a></li>
-            <li><a href="/loans/bank-statement">Bank Statement Loans</a></li>
+            <li><a href="/loan-programs/jumbo-loans">Jumbo Loans in California</a></li>
+            <li><a href="/loan-programs/conventional-loans">Conventional Loans</a></li>
+            <li><a href="/loan-programs/fha-loans">FHA Loans</a></li>
+            <li><a href="/loan-programs/orange-county-va-loans">VA Loans</a></li>
+            <li><a href="/loan-programs/bank-statement-loans">Bank Statement Loans</a></li>
           </ul>
           <h4>Regional Coverage</h4>
           <ul>

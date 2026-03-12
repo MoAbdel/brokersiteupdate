@@ -12,6 +12,17 @@ const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
   /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
 ];
 
+const NON_CONTENT_PATH_PATTERNS: RegExp[] = [
+  /\/opengraph-image$/i,
+  /^\/robots\.txt$/i,
+  /^\/sitemap(?:-[a-z0-9-]+)?\.xml$/i,
+  /^\/manifest\.json$/i,
+  /^\/.*\.vcf$/i,
+  /^\/llms(?:-full)?\.txt$/i,
+];
+
+const APPLY_URL = 'https://luminlending-apply-mo-abdel.my1003app.com/register';
+
 function shouldNoindexRequest(pathname: string, search: string): boolean {
   if (pathname === '/guides' && search.length > 0) {
     return true;
@@ -25,6 +36,10 @@ function shouldNoindexRequest(pathname: string, search: string): boolean {
     return true;
   }
 
+  if (NON_CONTENT_PATH_PATTERNS.some((pattern) => pattern.test(pathname))) {
+    return true;
+  }
+
   return false;
 }
 
@@ -32,11 +47,6 @@ export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const host = request.headers.get('host') || '';
   const localHost = isLocalHost(host);
-
-  if (!localHost && host === 'mothebroker.com') {
-    const redirectUrl = new URL(`https://www.mothebroker.com${pathname}${search}`);
-    return NextResponse.redirect(redirectUrl, 301);
-  }
 
   // Canonicalize duplicate blog variants to their 2026 versions.
   // (Avoids split indexing / duplicate content.)
@@ -87,6 +97,29 @@ export function middleware(request: NextRequest) {
     '/blog/wholesale-vs-retail-mortgage-brokers-2026': '/blog/wholesale-vs-retail-mortgage-complete-2026',
     '/blog/reverse-mortgage-la-beach-cities-2026': '/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
     '/blog/reverse-mortgage-california-washington-pillar-2026': '/blog/reverse-mortgage-complete-guide-2026',
+    '/blog/wholesale-mortgage-broker-sgv-pasadena-guide-2026': '/blog/wholesale-mortgage-broker-sgv-pasadena-2026',
+    '/blog/wholesale-mortgage-broker-la-westside-beach-cities-2026': '/blog/wholesale-mortgage-broker-la-westside-beach-2026',
+    '/blog/wholesale-mortgage-broker-la-south-bay-pv-2026': '/blog/wholesale-mortgage-broker-la-south-bay-palos-verdes-2026',
+    '/blog/wholesale-vs-retail-mortgage-2026': '/blog/wholesale-vs-retail-mortgage-complete-2026',
+    '/blog/reverse-mortgage-sacramento-2026': '/blog/reverse-mortgage-sacramento-guide-2026',
+    '/blog/reverse-mortgage-sacramento-metro-guide-2026': '/blog/reverse-mortgage-sacramento-guide-2026',
+    '/blog/reverse-mortgage-orange-county-guide-2026': '/blog/reverse-mortgage-california-guide-2026',
+    '/blog/reverse-mortgage-la-sgv-guide-2026': '/blog/reverse-mortgage-sgv-pasadena-guide-2026',
+    '/blog/reverse-mortgage-la-south-bay-pv-guide-2026': '/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
+    '/blog/reverse-mortgage-central-coast-2026': '/blog/reverse-mortgage-central-coast-guide-2026',
+    '/blog/reverse-mortgage-san-diego-coastal-guide-2026': '/blog/reverse-mortgage-coastal-north-sd-2026',
+    '/blog/reverse-mortgage-la-south-bay-guide-2026': '/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
+    '/blog/home-equity-la-westside-guide-2026': '/blog/home-equity-la-westside-beach-guide-2026',
+    '/blog/home-equity-orange-county-guide-2026': '/home-equity-guide',
+    '/blog/home-equity-la-sgv-guide-2026': '/blog/home-equity-sgv-pasadena-guide-2026',
+    '/blog/home-equity-la-sgv-pasadena-guide-2026': '/blog/home-equity-sgv-pasadena-guide-2026',
+    '/blog/home-equity-la-south-bay-pv-guide-2026': '/blog/home-equity-la-south-bay-palos-verdes-guide-2026',
+    '/blog/home-equity-la-south-bay-guide-2026': '/blog/home-equity-la-south-bay-palos-verdes-guide-2026',
+    '/blog/home-equity-san-diego-coastal-guide-2026': '/blog/home-equity-san-diego-guide-2026',
+    '/blog/home-equity-sacramento-gold-country-guide-2026': '/blog/home-equity-sacramento-guide-2026',
+    '/blog/dscr-loans-wholesale-2026': '/blog/dscr-investment-property-loans-2026',
+    '/blog/jumbo-loans-wholesale-2026': '/blog/jumbo-loans-orange-county-2026',
+    '/blog/refinance-credit-score-requirements-2026': '/blog/refinance-credit-requirements-2026',
   };
 
   const pageRedirects: Record<string, string> = {
@@ -113,17 +146,48 @@ export function middleware(request: NextRequest) {
     '/guides/laguna-beach-mortgage-guide-2025': '/blog/laguna-beach-mortgage-guide-2026',
     '/guides/first-time-homebuyer-orange-county-2025': '/blog/first-time-homebuyer-guide-orange-county-2026',
     '/guides/fha-loans-orange-county-complete-guide': '/blog/fha-loans-orange-county-2026',
+    '/loan-programs/home-equity': '/home-equity-guide',
+    '/loan-programs/home-equity-loans': '/loan-programs/heloan',
+    '/loan-programs/home-equity-loan': '/loan-programs/heloan',
+    '/quick-quote': '/contact',
+    '/zip-codes': '/areas',
+    '/cities/newport-beach': '/areas/newport-beach-mortgage-broker',
+    '/cities/laguna-beach': '/areas/laguna-beach-mortgage-broker',
+    '/areas/orange-county-mortgage-broker': '/areas/california',
+    '/areas/los-angeles-mortgage-broker': '/blog/wholesale-mortgage-broker-los-angeles-guide-2026',
+    '/areas/tustin-mortgage-broker': '/areas',
+    '/areas/corona-del-mar-mortgage-broker': '/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker',
+    '/areas/balboa-island-mortgage-broker': '/areas/newport-beach-neighborhoods/balboa-island-mortgage-broker',
+    '/resources/orange-county-mortgage-glossary': '/resources/glossary',
+    '/Orange': '/areas/orange-mortgage-broker',
   };
 
-  const redirectTarget = blogRedirects[pathname] || pageRedirects[pathname];
+  const familyRedirects: Record<string, string> = {
+    '/loans/jumbo': '/loan-programs/jumbo-loans',
+    '/loans/conventional': '/loan-programs/conventional-loans',
+    '/loans/fha': '/loan-programs/fha-loans',
+    '/loans/va': '/loan-programs/orange-county-va-loans',
+    '/loans/bank-statement': '/loan-programs/bank-statement-loans',
+  };
+
+  const redirectTarget = blogRedirects[pathname] || pageRedirects[pathname] || familyRedirects[pathname];
   if (redirectTarget) {
     const redirectUrl = new URL(`https://www.mothebroker.com${redirectTarget}${search}`);
     return NextResponse.redirect(redirectUrl, 301);
   }
 
+  if (pathname === '/apply') {
+    return NextResponse.redirect(APPLY_URL, 301);
+  }
+
   // Catch-all for legacy /articles/* URLs not explicitly mapped above.
   if (pathname.startsWith('/articles/')) {
     const redirectUrl = new URL(`https://www.mothebroker.com/blog${search}`);
+    return NextResponse.redirect(redirectUrl, 301);
+  }
+
+  if (!localHost && host === 'mothebroker.com') {
+    const redirectUrl = new URL(`https://www.mothebroker.com${pathname}${search}`);
     return NextResponse.redirect(redirectUrl, 301);
   }
 
@@ -140,7 +204,7 @@ export function middleware(request: NextRequest) {
   response.headers.set('Vary', 'x-vercel-ip-country, cf-ipcountry');
 
   if (shouldNoindexRequest(pathname, search)) {
-    response.headers.set('X-Robots-Tag', 'noindex, follow');
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
   }
 
   return response;

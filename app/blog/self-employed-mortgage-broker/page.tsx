@@ -678,7 +678,7 @@ export default function SelfEmployedMortgageBrokerPage() {
               <ul className="space-y-2 mb-0">
                 <li><a href="/blog/asset-depletion-loans-guide-2026" className="text-blue-600 hover:underline">Asset Depletion Loans</a></li>
                 <li><a href="/blog/non-qm-loans-complete-guide-2026" className="text-blue-600 hover:underline">Non-QM Loan Programs</a></li>
-                <li><a href="/loans/jumbo" className="text-blue-600 hover:underline">Jumbo Loans</a></li>
+                <li><a href="/loan-programs/jumbo-loans" className="text-blue-600 hover:underline">Jumbo Loans</a></li>
               </ul>
             </div>
           </div>

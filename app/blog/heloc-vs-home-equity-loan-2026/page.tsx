@@ -328,7 +328,7 @@ export default function HELOCvsHELOANGuide() {
           <div className="bg-blue-50 p-6 rounded-lg mt-8">
             <h3 className="font-bold mb-2">Related Resources:</h3>
             <ul className="space-y-2">
-              <li><a href="/blog/how-does-heloc-work-2026" className="text-blue-600 hover:underline">How Does a HELOC Work? Complete Guide</a></li>
+              <li><a href="/loan-programs/heloc" className="text-blue-600 hover:underline">How Does a HELOC Work? Complete Guide</a></li>
               <li><a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs Cash-Out Refinance Comparison</a></li>
               <li><a href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Programs in Orange County</a></li>
               <li><a href="/heloan-orange-county" className="text-blue-600 hover:underline">Home Equity Loan Programs</a></li>

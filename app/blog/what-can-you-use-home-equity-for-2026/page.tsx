@@ -565,7 +565,7 @@ export default function WhatCanYouUseHomeEquityForPage() {
               <p className="text-sm text-gray-600 mt-1">Compare HELOC, HELOAN, and cash-out refinance</p>
             </Link>
             <Link
-              href="/blog/how-does-heloc-work-2026"
+              href="/loan-programs/heloc"
               className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
             >
               <span className="font-semibold text-blue-600">How Does a HELOC Work? →</span>
