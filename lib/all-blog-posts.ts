@@ -11,6 +11,87 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 26: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 12, 2026) =====
+  {
+    slug: 'refinance-trust-owned-property-california-2026',
+    title: 'Refinancing a Home in a Living Trust: California & Washington Guide [2026]',
+    excerpt: 'How to refinance when your property is held in a revocable or irrevocable living trust. Trust certification requirements, Fannie Mae trust guidelines, FHA/VA trust rules, and when you need to deed out of trust.',
+    date: '2026-03-12',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'refinance-high-dti-strategies-qualification-2026',
+    title: 'How to Refinance with a High Debt-to-Income Ratio: DTI Strategies [2026]',
+    excerpt: 'Strategies for refinancing when your DTI exceeds 43-50%. Compensating factors, DU findings vs manual underwrite, FHA 50% DTI cap, VA residual income, Non-QM options, and wholesale broker overlay comparison.',
+    date: '2026-03-12',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'va-cash-out-refinance-100-percent-ltv-2026',
+    title: 'VA Cash-Out Refinance: Up to 100% LTV Complete Guide [2026]',
+    excerpt: 'VA cash-out refinance allows eligible veterans to access up to 100% of their home equity. COE requirements, funding fee structure, VA appraisal process, and how VA cash-out compares to conventional cash-out.',
+    date: '2026-03-12',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-second-home-vacation-property-2026',
+    title: 'HELOC on a Second Home or Vacation Property: Eligibility & Requirements [2026]',
+    excerpt: 'Getting a HELOC on a second home or vacation property. Occupancy classification, higher LTV restrictions, rate premiums, lender availability, rental restrictions, and investment property reclassification risk.',
+    date: '2026-03-12',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'home-equity-loan-vs-securities-backed-lending-2026',
+    title: 'Home Equity Loan vs Securities-Based Lending (SBLOC): Complete Comparison [2026]',
+    excerpt: 'Comparing home equity loans and HELOCs to Securities-Based Lines of Credit (SBLOC). Collateral differences, tax implications, margin call risk, and when each strategy makes sense for affluent borrowers.',
+    date: '2026-03-12',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-home-equity-sharing-vs-hecm-2026',
+    title: 'HECM vs Home Equity Sharing Agreements: Reverse Mortgage vs Hometap & Unlock [2026]',
+    excerpt: 'Comparing HECM reverse mortgages to home equity sharing agreements from Hometap, Point, and Unlock. Cost comparison over 5/10/15 years, FHA protections, appreciation sharing, and qualification differences.',
+    date: '2026-03-12',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'reverse-mortgage-rental-income-qualification-2026',
+    title: 'How Rental Income Affects HECM Reverse Mortgage Qualification [2026]',
+    excerpt: 'How rental income from 2-4 unit properties affects HECM qualification. Rental income for financial assessment, residual income calculation, documentation requirements, and multi-unit HECM eligibility.',
+    date: '2026-03-12',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'reverse-mortgage-home-renovation-hecm-proceeds-2026',
+    title: 'Using Reverse Mortgage Proceeds for Home Renovations & Aging-in-Place Modifications [2026]',
+    excerpt: 'Using HECM proceeds for home renovation and aging-in-place modifications. Repair set-asides, contractor requirements, modification cost data, renovation ROI, and HECM for Purchase as alternative.',
+    date: '2026-03-12',
+    category: 'Reverse Mortgage',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-foreign-national-investor-california-2026',
+    title: 'DSCR Loans for Foreign National Real Estate Investors: California & Washington Guide [2026]',
+    excerpt: 'How foreign nationals qualify for DSCR investment property loans without SSN or US income verification. Passport documentation, ITIN process, 25-30% down payment, US LLC structure, and FIRPTA tax implications.',
+    date: '2026-03-12',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'dscr-rate-buydown-investment-property-2026',
+    title: 'DSCR Rate Buydowns & Discount Points for Investment Properties: Strategy Guide [2026]',
+    excerpt: 'Using discount points and rate buydowns on DSCR loans. Permanent vs temporary buydowns, DSCR ratio improvement analysis, break-even calculations, seller concession strategies, and wholesale lender comparison.',
+    date: '2026-03-12',
+    category: 'DSCR',
+    readTime: '12 min read',
+  },
   // ===== BATCH 25: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 11, 2026) =====
   {
     slug: 'refinance-commission-bonus-income-qualification-2026',
