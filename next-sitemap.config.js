@@ -155,6 +155,9 @@ const THIN_OVERLAP_ROUTE_PATTERNS = [
 const LOW_YIELD_TOOL_ROUTE_PATTERN =
   /^\/tools\/(?:cash-out-limit-calculator|dscr-rent-analyzer|max-heloc-calculator)\/[a-z0-9-]+(?:\/[a-z0-9-]+){0,2}$/i;
 
+const LOCALIZED_TOOL_CITY_ROUTE_PATTERN =
+  /^\/tools\/(?:bank-statement-loan-estimator|cash-out-limit-calculator|dscr-qualification-calculator|dscr-rent-analyzer|equity-comparison-calculator|max-heloc-calculator|property-tax-estimator)\/[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+$/i;
+
 function isLowEquityBlogRoute(routePath) {
   const normalizedRoutePath = normalizeRoutePath(routePath);
 
@@ -174,6 +177,10 @@ function isThinOverlapRoute(routePath) {
 
 function isLowYieldToolRoute(routePath) {
   return LOW_YIELD_TOOL_ROUTE_PATTERN.test(normalizeRoutePath(routePath));
+}
+
+function isLocalizedToolCityRoute(routePath) {
+  return LOCALIZED_TOOL_CITY_ROUTE_PATTERN.test(normalizeRoutePath(routePath));
 }
 
 module.exports = {
@@ -374,7 +381,12 @@ module.exports = {
 
     // Keep low-equity programmatic ZIP variants crawlable for discovery of links,
     // but out of XML sitemaps so crawl budget stays on priority pages.
-    if (isLowEquityBlogRoute(routePath) || isThinOverlapRoute(routePath) || isLowYieldToolRoute(routePath)) {
+    if (
+      isLowEquityBlogRoute(routePath) ||
+      isThinOverlapRoute(routePath) ||
+      isLowYieldToolRoute(routePath) ||
+      isLocalizedToolCityRoute(routePath)
+    ) {
       return null;
     }
 
@@ -551,6 +563,7 @@ module.exports = {
         !isLowEquityBlogRoute(routePath) &&
         !isThinOverlapRoute(routePath) &&
         !isLowYieldToolRoute(routePath) &&
+        !isLocalizedToolCityRoute(routePath) &&
         !redirectSourceRoutes.has(normalizeRoutePath(routePath))
       ) {
         existingAdditionalPaths.push(routePath);

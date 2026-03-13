@@ -21,6 +21,7 @@
     "gsc:export-queries": "GSC_DIMENSIONS=page,query node scripts/export-gsc-performance.mjs",
     "gsc:prune-candidates": "node scripts/build-prune-candidates.mjs",
     "seo:opportunity-queue": "node scripts/build-opportunity-queue.mjs",
+    "seo:audit": "node scripts/build-seo-audit.mjs",
     "seo:build-batch": "node scripts/build-generation-batch.mjs",
     "seo:preflight-batch": "node scripts/preflight-generation-batch.mjs",
     "seo:cannibal-gate": "node scripts/check-cannibalization-gate.mjs",

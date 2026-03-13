@@ -34,6 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Compare HELOC, cash-out refinance, and home equity loan options in ${city.name}, ${county.name}, ${stateName}. Median home: ${formatCurrency(city.medianHomePrice)}. Find the best equity access method with local market data.`,
     path: `/tools/equity-comparison-calculator/${state}/${countySlug}/${citySlug}`,
     type: 'website',
+    noindex: true,
   });
 }
 

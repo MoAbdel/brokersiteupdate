@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loan Requirements in California 2026: Complete Investor Qualification Guide | Mo Abdel',
-  description: 'DSCR loan California requirements 2026: Minimum ratios by property type, Mello-Roos impact on DSCR, LLC structuring, top CA markets, and wholesale broker access to 50+ DSCR lenders. NMLS #1426884.',
+  title: 'California DSCR Loan Requirements 2026: Investor Qualification Guide | Mo Abdel',
+  description: 'California-only DSCR loan requirements for 2026: minimum ratios by property type, Mello-Roos impact, LLC structuring, top investor markets, and wholesale access to 50+ DSCR lenders. NMLS #1426884.',
   keywords: ['DSCR loan California requirements 2026', 'DSCR loan California', 'California DSCR loan requirements', 'DSCR investment property California', 'DSCR loan qualification California 2026', 'investor loans California'],
   openGraph: {
-    title: 'DSCR Loan Requirements in California 2026: Complete Investor Qualification Guide',
-    description: 'California-specific DSCR requirements: ratios by property type, Mello-Roos and HOA impact, entity structuring, top markets, and wholesale access to 50+ DSCR-specific lenders.',
+    title: 'California DSCR Loan Requirements 2026: Investor Qualification Guide',
+    description: 'California-only DSCR requirements: ratios by property type, Mello-Roos and HOA impact, entity structuring, top markets, and wholesale access to 50+ DSCR lenders.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-california-requirements-complete-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',

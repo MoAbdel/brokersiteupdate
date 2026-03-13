@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Estimate property taxes in ${city.name}, ${county.name}, ${stateName}. Median home value: ${formatCurrency(city.medianHomePrice)}. 2026 effective rate: ${rate}%. Calculate annual and monthly property tax costs.`,
     path: `/tools/property-tax-estimator/${state}/${countySlug}/${citySlug}`,
     type: 'website',
+    noindex: true,
   });
 }
 

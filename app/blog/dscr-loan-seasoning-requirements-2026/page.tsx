@@ -4,12 +4,12 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, AlertTriangle, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loan Seasoning Requirements 2026: Title, Cash-Out & Rate-Term Timelines | Mo Abdel',
-  description: 'DSCR loan seasoning requirements explained: title seasoning, cash-out refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 50+ Wholesale Lenders through wholesale channels. NMLS #1426884.',
+  title: 'DSCR Cash-Out Seasoning Requirements 2026: BRRRR, Title & Delayed Financing Rules | Mo Abdel',
+  description: 'DSCR cash-out seasoning rules for 2026: title seasoning, BRRRR refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 50+ Wholesale Lenders through wholesale channels. NMLS #1426884.',
   keywords: ['DSCR loan seasoning requirements', 'DSCR cash-out seasoning', 'DSCR title seasoning', 'DSCR refinance seasoning period', 'DSCR loan waiting period', 'DSCR seasoning 2026'],
   openGraph: {
-    title: 'DSCR Loan Seasoning Requirements 2026: Title, Cash-Out & Rate-Term Timelines',
-    description: 'DSCR loan seasoning requirements explained: title seasoning, cash-out refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 50+ Wholesale Lenders through wholesale channels.',
+    title: 'DSCR Cash-Out Seasoning Requirements 2026: BRRRR, Title & Delayed Financing Rules',
+    description: 'DSCR cash-out seasoning rules for title seasoning, BRRRR exits, rate-term refinances, and delayed financing exceptions.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',

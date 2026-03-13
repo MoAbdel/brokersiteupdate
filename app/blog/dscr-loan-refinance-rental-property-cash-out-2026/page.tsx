@@ -791,7 +791,7 @@ export default function DscrCashOutRefinancePage() {
           <li><Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline">DSCR Loan Requirements: What Investors Need to Qualify</Link></li>
           <li><Link href="/blog/cash-out-refinance-investment-property-rental-2026" className="text-blue-600 hover:underline">Cash-Out Refinance for Investment Property: Complete Guide</Link></li>
           <li><Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:underline">DSCR Loans for Portfolio Investors: Scaling Rental Property Holdings</Link></li>
-          <li><Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance Guide 2026</Link></li>
+          <li><Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance Guide 2026</Link></li>
           <li><Link href="/blog/dscr-brrrr-strategy-financing-guide-2026" className="text-blue-600 hover:underline">BRRRR Strategy Financing: How DSCR Loans Power Buy-Rehab-Rent-Refinance-Repeat</Link></li>
         </ul>
 

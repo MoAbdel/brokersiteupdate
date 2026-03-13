@@ -799,7 +799,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
 
         <ul>
           <li><Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works [2026]</Link></li>
-          <li><Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance Overview</Link></li>
+          <li><Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance Overview</Link></li>
           <li><Link href="/blog/dscr-loan-refinance-rental-property-cash-out-2026" className="text-blue-600 hover:underline">DSCR Loan Refinance for Rental Property Cash-Out</Link></li>
           <li><Link href="/blog/home-equity-refinancing-guide-2026" className="text-blue-600 hover:underline">Home Equity Refinancing Guide 2026</Link></li>
           <li><Link href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Complete Guide to Cash-Out Refinancing</Link></li>

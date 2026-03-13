@@ -614,7 +614,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
               <div>
                 <h3 className="font-semibold text-slate-900 text-lg mb-2">Phase 2: Equity Extraction and Reinvestment (Properties 2&ndash;4)</h3>
                 <p className="text-slate-600">
-                  Once the first property appreciates or stabilizes, investors use <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">cash-out refinancing</Link> (typically 70&ndash;75% LTV on DSCR properties) to extract equity for down payments on the next acquisition. Each subsequent purchase should be analyzed through the multi-family lens: can I acquire a duplex or triplex instead of another single-family at this price point? The answer determines how quickly the portfolio&apos;s aggregate DSCR strengthens.
+                  Once the first property appreciates or stabilizes, investors use <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">cash-out refinancing</Link> (typically 70&ndash;75% LTV on DSCR properties) to extract equity for down payments on the next acquisition. Each subsequent purchase should be analyzed through the multi-family lens: can I acquire a duplex or triplex instead of another single-family at this price point? The answer determines how quickly the portfolio&apos;s aggregate DSCR strengthens.
                 </p>
               </div>
             </div>
@@ -889,7 +889,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
               <Link href="/blog/dscr-first-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
                 <ArrowRight className="w-4 h-4" /> DSCR for First Investment Property
               </Link>
-              <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
+              <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
                 <ArrowRight className="w-4 h-4" /> Investment Property Cash-Out Refinance
               </Link>
             </div>
@@ -981,7 +981,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
             <Link href="/blog/dscr-first-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR for First Investment Property
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Investment Property Cash-Out Refinance
             </Link>
           </div>

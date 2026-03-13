@@ -903,7 +903,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
               <Building2 className="w-5 h-5 text-blue-600 shrink-0" />
               <span className="text-slate-700 font-medium">DSCR Loans for Portfolio Investors: Scaling to 10+ Properties</span>
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="flex items-center gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="flex items-center gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
               <DollarSign className="w-5 h-5 text-blue-600 shrink-0" />
               <span className="text-slate-700 font-medium">Investment Property Cash-Out Refinance Guide</span>
             </Link>

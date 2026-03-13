@@ -826,12 +826,12 @@ export default function CashOutRefinanceRentalPropertyInvestors2026() {
               </h3>
               <p className="text-sm text-slate-600 mt-2">Complete guide to cash-out refinancing for all property types including primary residences and investment properties.</p>
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-md transition-all group">
+            <Link href="/blog/cash-out-refinance-seasoning-requirements-2026" className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-md transition-all group">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 flex items-center gap-2">
-                <Building2 className="w-5 h-5 text-green-600" />
-                Investment Property Cash-Out Refinance [2026]
+                <Shield className="w-5 h-5 text-green-600" />
+                Cash-Out Refinance Seasoning Requirements [2026]
               </h3>
-              <p className="text-sm text-slate-600 mt-2">Unlock rental equity to grow your portfolio with conventional, DSCR, and portfolio loan options.</p>
+              <p className="text-sm text-slate-600 mt-2">Review waiting periods, delayed financing rules, and ownership timelines before you plan a rental-property cash-out refinance.</p>
             </Link>
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="bg-white border border-slate-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-md transition-all group">
               <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 flex items-center gap-2">

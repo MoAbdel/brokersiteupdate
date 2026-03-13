@@ -842,7 +842,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Portfolio Investors: Scaling to 10+ Properties
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Investment Property Cash-Out Refinance Guide
             </Link>
             <Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:text-blue-700 hover:underline">

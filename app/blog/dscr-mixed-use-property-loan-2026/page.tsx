@@ -867,7 +867,7 @@ export default function DscrMixedUsePropertyLoan2026() {
             <Link href="/blog/bridge-loans-vs-dscr-investment-2026" className="text-teal-600 hover:text-teal-700 hover:underline">
               &rarr; Bridge Loans vs DSCR Loans Comparison
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-teal-600 hover:text-teal-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-teal-600 hover:text-teal-700 hover:underline">
               &rarr; Investment Property Cash-Out Refinance 2026
             </Link>
           </div>

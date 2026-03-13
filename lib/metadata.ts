@@ -27,9 +27,9 @@ export function generateMetadata({
   const robots = noindex
     ? {
         index: false,
-        follow: false,
-        googleBot: { index: false, follow: false },
-        bingbot: { index: false, follow: false },
+        follow: true,
+        googleBot: { index: false, follow: true },
+        bingbot: { index: false, follow: true },
       }
     : {
         index: true,

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-02-22T06:15:50.079Z",
-  "gscDataRange": "20251124_20260222",
-  "queryDataAvailable": false,
+  "generated": "2026-03-13T05:14:23.542Z",
+  "gscDataRange": "20251213_20260313",
+  "queryDataAvailable": true,
   "weights": {
     "demand": 25,
     "striking": 25,
@@ -12,389 +12,2197 @@
   },
   "refreshCandidates": [
     {
-      "url": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
-      "slug": "bank-statement-loans-self-employed-2026",
-      "track": "wholesale",
-      "position": 8.6,
-      "impressions": 389,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 8.6 with 389 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/dscr-loan-requirements-2026",
-      "slug": "dscr-loan-requirements-2026",
-      "track": "wholesale",
-      "position": 9.3,
-      "impressions": 325,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 9.3 with 325 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026",
-      "slug": "hecm-counseling-requirements-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-age-62-requirements-2026",
+      "slug": "reverse-mortgage-age-62-requirements-2026",
       "track": "hecm",
-      "position": 9.4,
-      "impressions": 221,
+      "position": 14.1,
+      "impressions": 1267,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 9.4 with 221 impressions — update content to push into top 5"
+      "reason": "Position 14.1 with 1267 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
+      "slug": "dscr-loan-llc-entity-structure-2026",
+      "track": "wholesale",
+      "position": 8,
+      "impressions": 1025,
+      "clicks": 1,
+      "ctr": 0.001,
+      "action": "refresh",
+      "reason": "Position 8.0 with 1025 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026",
+      "slug": "foreign-national-mortgage-loans-2026",
+      "track": "equity",
+      "position": 11,
+      "impressions": 893,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.0 with 893 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-vs-personal-loan-home-improvement-2026",
+      "slug": "heloc-vs-personal-loan-home-improvement-2026",
+      "track": "equity",
+      "position": 11.3,
+      "impressions": 855,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.3 with 855 impressions — update content to push into top 5"
     },
     {
       "url": "https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026",
       "slug": "dscr-loans-short-term-rentals-airbnb-2026",
       "track": "wholesale",
-      "position": 23.6,
-      "impressions": 118,
+      "position": 13.7,
+      "impressions": 846,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 23.6 with 118 impressions — update content to push into top 5"
+      "reason": "Position 13.7 with 846 impressions — update content to push into top 5"
     },
     {
-      "url": "https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026",
-      "slug": "jumbo-loans-orange-county-2026",
-      "track": "equity",
-      "position": 8.2,
-      "impressions": 116,
+      "url": "https://www.mothebroker.com/blog/dscr-loan-requirements-2026",
+      "slug": "dscr-loan-requirements-2026",
+      "track": "wholesale",
+      "position": 8.4,
+      "impressions": 781,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 8.2 with 116 impressions — update content to push into top 5"
+      "reason": "Position 8.4 with 781 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-2-4-unit-2026",
+      "slug": "dscr-loans-multi-family-2-4-unit-2026",
+      "track": "wholesale",
+      "position": 8.7,
+      "impressions": 780,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.7 with 780 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-first-investment-property-2026",
+      "slug": "dscr-first-investment-property-2026",
+      "track": "wholesale",
+      "position": 8.6,
+      "impressions": 733,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.6 with 733 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-sharing-vs-heloc-2026",
+      "slug": "home-equity-sharing-vs-heloc-2026",
+      "track": "equity",
+      "position": 9.7,
+      "impressions": 719,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.7 with 719 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-freeze-reduction-lender-rights-2026",
+      "slug": "heloc-freeze-reduction-lender-rights-2026",
+      "track": "equity",
+      "position": 8.3,
+      "impressions": 661,
+      "clicks": 1,
+      "ctr": 0.0015,
+      "action": "refresh",
+      "reason": "Position 8.3 with 661 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loans-california-best-markets-2026",
+      "slug": "dscr-loans-california-best-markets-2026",
+      "track": "wholesale",
+      "position": 9.4,
+      "impressions": 570,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.4 with 570 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/jumbo-loan-requirements-california-washington-2026",
+      "slug": "jumbo-loan-requirements-california-washington-2026",
+      "track": "equity",
+      "position": 14.3,
+      "impressions": 534,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 14.3 with 534 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-loan-after-bankruptcy-california-2026",
+      "slug": "home-equity-loan-after-bankruptcy-california-2026",
+      "track": "equity",
+      "position": 9.7,
+      "impressions": 498,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.7 with 498 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-tax-implications-2026",
+      "slug": "reverse-mortgage-tax-implications-2026",
+      "track": "hecm",
+      "position": 14.7,
+      "impressions": 490,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 14.7 with 490 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-tax-deduction-2026",
+      "slug": "home-equity-tax-deduction-2026",
+      "track": "equity",
+      "position": 8.1,
+      "impressions": 487,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.1 with 487 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-jumbo-loan-pricing-2026",
+      "slug": "wholesale-mortgage-jumbo-loan-pricing-2026",
+      "track": "wholesale",
+      "position": 16.8,
+      "impressions": 430,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 16.8 with 430 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-condo-requirements-2026",
+      "slug": "reverse-mortgage-condo-requirements-2026",
+      "track": "hecm",
+      "position": 10.3,
+      "impressions": 391,
+      "clicks": 1,
+      "ctr": 0.0026,
+      "action": "refresh",
+      "reason": "Position 10.3 with 391 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/assumable-mortgage-loan-assumption-guide-2026",
+      "slug": "assumable-mortgage-loan-assumption-guide-2026",
+      "track": "equity",
+      "position": 15.7,
+      "impressions": 388,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 15.7 with 388 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026",
+      "slug": "hecm-counseling-requirements-2026",
+      "track": "hecm",
+      "position": 8.1,
+      "impressions": 376,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.1 with 376 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/bank-statement-loan-vs-w2-mortgage-2026",
+      "slug": "bank-statement-loan-vs-w2-mortgage-2026",
+      "track": "wholesale",
+      "position": 8.2,
+      "impressions": 351,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.2 with 351 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-manufactured-home-2026",
+      "slug": "reverse-mortgage-manufactured-home-2026",
+      "track": "hecm",
+      "position": 21.7,
+      "impressions": 341,
+      "clicks": 1,
+      "ctr": 0.0029,
+      "action": "refresh",
+      "reason": "Position 21.7 with 341 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-property-tax-insurance-2026",
+      "slug": "reverse-mortgage-property-tax-insurance-2026",
+      "track": "hecm",
+      "position": 11.8,
+      "impressions": 338,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.8 with 338 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-selling-home-payoff-2026",
+      "slug": "reverse-mortgage-selling-home-payoff-2026",
+      "track": "hecm",
+      "position": 17.1,
+      "impressions": 317,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 17.1 with 317 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loan-refinance-rental-property-cash-out-2026",
+      "slug": "dscr-loan-refinance-rental-property-cash-out-2026",
+      "track": "wholesale",
+      "position": 12.1,
+      "impressions": 290,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 12.1 with 290 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/hecm-refinance-existing-reverse-mortgage-2026",
+      "slug": "hecm-refinance-existing-reverse-mortgage-2026",
+      "track": "hecm",
+      "position": 11.4,
+      "impressions": 267,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.4 with 267 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/fha-streamline-refinance-guide-2026",
+      "slug": "fha-streamline-refinance-guide-2026",
+      "track": "equity",
+      "position": 8,
+      "impressions": 266,
+      "clicks": 1,
+      "ctr": 0.0038,
+      "action": "refresh",
+      "reason": "Position 8.0 with 266 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-vs-selling-home-california-2026",
+      "slug": "reverse-mortgage-vs-selling-home-california-2026",
+      "track": "hecm",
+      "position": 8.6,
+      "impressions": 236,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.6 with 236 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
+      "slug": "reverse-mortgage-requirements-complete-2026",
+      "track": "hecm",
+      "position": 8.5,
+      "impressions": 229,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.5 with 229 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loan-calculator-ratio-2026",
+      "slug": "dscr-loan-calculator-ratio-2026",
+      "track": "wholesale",
+      "position": 19.2,
+      "impressions": 208,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 19.2 with 208 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-investment-property-down-payment-2026",
+      "slug": "home-equity-investment-property-down-payment-2026",
+      "track": "equity",
+      "position": 10.5,
+      "impressions": 207,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.5 with 207 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-emergency-fund-strategy-2026",
+      "slug": "heloc-emergency-fund-strategy-2026",
+      "track": "equity",
+      "position": 13.2,
+      "impressions": 204,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 13.2 with 204 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-build-to-rent-new-construction-2026",
+      "slug": "dscr-build-to-rent-new-construction-2026",
+      "track": "wholesale",
+      "position": 10.5,
+      "impressions": 196,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.5 with 196 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/arm-to-fixed-refinance-strategy-2026",
+      "slug": "arm-to-fixed-refinance-strategy-2026",
+      "track": "equity",
+      "position": 11.3,
+      "impressions": 192,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.3 with 192 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-vs-home-equity-loan-california-2026",
+      "slug": "heloc-vs-home-equity-loan-california-2026",
+      "track": "equity",
+      "position": 21.6,
+      "impressions": 190,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 21.6 with 190 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-fixed-vs-adjustable-rate-hecm-2026",
+      "slug": "reverse-mortgage-fixed-vs-adjustable-rate-hecm-2026",
+      "track": "hecm",
+      "position": 8.8,
+      "impressions": 185,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.8 with 185 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-social-security-medicare-2026",
+      "slug": "reverse-mortgage-social-security-medicare-2026",
+      "track": "hecm",
+      "position": 14.9,
+      "impressions": 179,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 14.9 with 179 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loan-down-payment-requirements-2026",
+      "slug": "dscr-loan-down-payment-requirements-2026",
+      "track": "wholesale",
+      "position": 9.8,
+      "impressions": 170,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.8 with 170 impressions — update content to push into top 5"
     },
     {
       "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026",
       "slug": "wholesale-vs-retail-mortgage-brokers-2026",
       "track": "wholesale",
-      "position": 21.8,
-      "impressions": 109,
+      "position": 18.5,
+      "impressions": 158,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 21.8 with 109 impressions — update content to push into top 5"
+      "reason": "Position 18.5 with 158 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-surviving-spouse-rights-2026",
+      "slug": "reverse-mortgage-surviving-spouse-rights-2026",
+      "track": "hecm",
+      "position": 17.8,
+      "impressions": 153,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 17.8 with 153 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-closing-process-timeline-2026",
+      "slug": "reverse-mortgage-closing-process-timeline-2026",
+      "track": "hecm",
+      "position": 12.3,
+      "impressions": 147,
+      "clicks": 1,
+      "ctr": 0.0068,
+      "action": "refresh",
+      "reason": "Position 12.3 with 147 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-payment-shock-repayment-strategy-2026",
+      "slug": "heloc-payment-shock-repayment-strategy-2026",
+      "track": "equity",
+      "position": 15.4,
+      "impressions": 136,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 15.4 with 136 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/hecm-trust-ownership-requirements-2026",
+      "slug": "hecm-trust-ownership-requirements-2026",
+      "track": "hecm",
+      "position": 13.6,
+      "impressions": 120,
+      "clicks": 1,
+      "ctr": 0.0083,
+      "action": "refresh",
+      "reason": "Position 13.6 with 120 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-medicaid-planning-2026",
+      "slug": "reverse-mortgage-medicaid-planning-2026",
+      "track": "hecm",
+      "position": 13.1,
+      "impressions": 119,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 13.1 with 119 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/investment-property-cash-out-refinance-2026",
+      "slug": "investment-property-cash-out-refinance-2026",
+      "track": "equity",
+      "position": 8.2,
+      "impressions": 117,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.2 with 117 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-home-renovation-roi-2026",
+      "slug": "cash-out-refinance-home-renovation-roi-2026",
+      "track": "equity",
+      "position": 10.5,
+      "impressions": 113,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.5 with 113 impressions — update content to push into top 5"
     },
     {
       "url": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
       "slug": "dscr-investment-property-loans-2026",
       "track": "wholesale",
-      "position": 11.2,
-      "impressions": 91,
+      "position": 11.6,
+      "impressions": 112,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 11.2 with 91 impressions — update content to push into top 5"
+      "reason": "Position 11.6 with 112 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
+      "slug": "wholesale-mortgage-broker-california-guide-2026",
+      "track": "wholesale",
+      "position": 14.9,
+      "impressions": 106,
+      "clicks": 1,
+      "ctr": 0.0094,
+      "action": "refresh",
+      "reason": "Position 14.9 with 106 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
+      "slug": "yorba-linda-mortgage-guide-2026",
+      "track": "equity",
+      "position": 9.3,
+      "impressions": 106,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.3 with 106 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-complete-2026",
+      "slug": "wholesale-vs-retail-mortgage-complete-2026",
+      "track": "wholesale",
+      "position": 12.3,
+      "impressions": 102,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 12.3 with 102 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/divorce-refinance-spouse-buyout-qualifying-2026",
+      "slug": "divorce-refinance-spouse-buyout-qualifying-2026",
+      "track": "equity",
+      "position": 13.7,
+      "impressions": 97,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 13.7 with 97 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026",
+      "slug": "home-equity-affluent-suburban-east-bay-2026",
+      "track": "equity",
+      "position": 18,
+      "impressions": 92,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 18.0 with 92 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-vs-personal-loan-2026",
+      "slug": "cash-out-refinance-vs-personal-loan-2026",
+      "track": "equity",
+      "position": 12.3,
+      "impressions": 88,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 12.3 with 88 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/fha-loans-orange-county-2026",
+      "slug": "fha-loans-orange-county-2026",
+      "track": "equity",
+      "position": 9.3,
+      "impressions": 84,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.3 with 84 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/refinance-after-forbearance-guide-2026",
+      "slug": "refinance-after-forbearance-guide-2026",
+      "track": "equity",
+      "position": 16.7,
+      "impressions": 83,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 16.7 with 83 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
+      "slug": "rancho-santa-margarita-mortgage-guide-2026",
+      "track": "equity",
+      "position": 8,
+      "impressions": 82,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.0 with 82 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-couples-age-gap-younger-spouse-2026",
+      "slug": "reverse-mortgage-couples-age-gap-younger-spouse-2026",
+      "track": "hecm",
+      "position": 14.3,
+      "impressions": 82,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 14.3 with 82 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-seller-concessions-credits-2026",
+      "slug": "wholesale-mortgage-seller-concessions-credits-2026",
+      "track": "wholesale",
+      "position": 10.1,
+      "impressions": 78,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.1 with 78 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-ventura-affluent-ca-2026",
+      "slug": "home-equity-ventura-affluent-ca-2026",
+      "track": "equity",
+      "position": 8.8,
+      "impressions": 76,
+      "clicks": 1,
+      "ctr": 0.0132,
+      "action": "refresh",
+      "reason": "Position 8.8 with 76 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/refinance-solar-energy-efficiency-mortgage-2026",
+      "slug": "refinance-solar-energy-efficiency-mortgage-2026",
+      "track": "equity",
+      "position": 9.5,
+      "impressions": 76,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.5 with 76 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026",
+      "slug": "home-equity-sacramento-affluent-2026",
+      "track": "equity",
+      "position": 9.1,
+      "impressions": 75,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.1 with 75 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-payout-options-2026",
+      "slug": "reverse-mortgage-payout-options-2026",
+      "track": "hecm",
+      "position": 21.5,
+      "impressions": 75,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 21.5 with 75 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/no-closing-cost-refinance-guide-2026",
+      "slug": "no-closing-cost-refinance-guide-2026",
+      "track": "equity",
+      "position": 16.3,
+      "impressions": 72,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 16.3 with 72 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
+      "slug": "wholesale-mortgage-broker-pasadena-corridor-2026",
+      "track": "wholesale",
+      "position": 19.4,
+      "impressions": 70,
+      "clicks": 1,
+      "ctr": 0.0143,
+      "action": "refresh",
+      "reason": "Position 19.4 with 70 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-loan-vs-construction-loan-renovation-2026",
+      "slug": "home-equity-loan-vs-construction-loan-renovation-2026",
+      "track": "equity",
+      "position": 8.7,
+      "impressions": 69,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.7 with 69 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-complete-guide-2026",
+      "slug": "heloc-complete-guide-2026",
+      "track": "equity",
+      "position": 9.3,
+      "impressions": 67,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.3 with 67 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/mortgage-broker-vs-bank-2026",
+      "slug": "mortgage-broker-vs-bank-2026",
+      "track": "wholesale",
+      "position": 9.6,
+      "impressions": 67,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.6 with 67 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-central-coast-communities-2026",
+      "slug": "home-equity-central-coast-communities-2026",
+      "track": "equity",
+      "position": 9,
+      "impressions": 64,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.0 with 64 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-greater-seattle-guide-2026",
+      "slug": "reverse-mortgage-greater-seattle-guide-2026",
+      "track": "hecm",
+      "position": 12.7,
+      "impressions": 64,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 12.7 with 64 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-property-tax-prop-19-california-2026",
+      "slug": "reverse-mortgage-property-tax-prop-19-california-2026",
+      "track": "hecm",
+      "position": 13.1,
+      "impressions": 64,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 13.1 with 64 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026",
+      "slug": "reverse-mortgage-premium-east-bay-sf-2026",
+      "track": "hecm",
+      "position": 16.4,
+      "impressions": 60,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 16.4 with 60 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026",
+      "slug": "home-equity-south-sound-guide-2026",
+      "track": "equity",
+      "position": 9.2,
+      "impressions": 59,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.2 with 59 impressions — update content to push into top 5"
     },
     {
       "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-2026",
       "slug": "reverse-mortgage-requirements-2026",
       "track": "hecm",
       "position": 13.1,
+      "impressions": 59,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 13.1 with 59 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-ca-pv-b-2026",
+      "slug": "home-equity-ca-pv-b-2026",
+      "track": "equity",
+      "position": 8.7,
+      "impressions": 58,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.7 with 58 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-westside-luxury-2026",
+      "slug": "wholesale-mortgage-broker-la-westside-luxury-2026",
+      "track": "wholesale",
+      "position": 16.4,
       "impressions": 57,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 13.1 with 57 impressions — update content to push into top 5"
+      "reason": "Position 16.4 with 57 impressions — update content to push into top 5"
     },
     {
-      "url": "https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026",
-      "slug": "foreign-national-mortgage-loans-2026",
-      "track": "equity",
-      "position": 12.7,
-      "impressions": 54,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 12.7 with 54 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026",
-      "slug": "home-equity-sacramento-affluent-2026",
-      "track": "equity",
-      "position": 9.8,
-      "impressions": 48,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 9.8 with 48 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-line-of-credit-growth-2026",
-      "slug": "reverse-mortgage-line-of-credit-growth-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-home-repairs-aging-modifications-2026",
+      "slug": "reverse-mortgage-home-repairs-aging-modifications-2026",
       "track": "hecm",
-      "position": 8.5,
-      "impressions": 46,
+      "position": 16.7,
+      "impressions": 55,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 8.5 with 46 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026",
-      "slug": "home-equity-affluent-suburban-east-bay-2026",
-      "track": "equity",
-      "position": 11.4,
-      "impressions": 40,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 11.4 with 40 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/rancho-santa-margarita-mortgage-guide-2026",
-      "slug": "rancho-santa-margarita-mortgage-guide-2026",
-      "track": "equity",
-      "position": 8.7,
-      "impressions": 40,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 8.7 with 40 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026",
-      "slug": "dscr-loans-portfolio-investors-scaling-2026",
-      "track": "wholesale",
-      "position": 8.1,
-      "impressions": 39,
-      "clicks": 1,
-      "ctr": 0.0256,
-      "action": "refresh",
-      "reason": "Position 8.1 with 39 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-central-coast-communities-2026",
-      "slug": "home-equity-central-coast-communities-2026",
-      "track": "equity",
-      "position": 10.2,
-      "impressions": 39,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 10.2 with 39 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/refinance-closing-costs-2026",
-      "slug": "refinance-closing-costs-2026",
-      "track": "equity",
-      "position": 10.9,
-      "impressions": 39,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 10.9 with 39 impressions — update content to push into top 5"
+      "reason": "Position 16.7 with 55 impressions — update content to push into top 5"
     },
     {
       "url": "https://www.mothebroker.com/blog/home-equity-ventura-county-guide-2026",
       "slug": "home-equity-ventura-county-guide-2026",
       "track": "equity",
-      "position": 8.1,
-      "impressions": 38,
-      "clicks": 1,
-      "ctr": 0.0263,
-      "action": "refresh",
-      "reason": "Position 8.1 with 38 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/dscr-loans-explained-investors-2026",
-      "slug": "dscr-loans-explained-investors-2026",
-      "track": "wholesale",
-      "position": 9,
-      "impressions": 38,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 9.0 with 38 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/fha-loans-orange-county-2026",
-      "slug": "fha-loans-orange-county-2026",
-      "track": "equity",
-      "position": 11.2,
-      "impressions": 38,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 11.2 with 38 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/mortgage-broker-vs-bank-2026",
-      "slug": "mortgage-broker-vs-bank-2026",
-      "track": "wholesale",
-      "position": 9.5,
-      "impressions": 36,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 9.5 with 36 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-california-guide-2026",
-      "slug": "reverse-mortgage-california-guide-2026",
-      "track": "hecm",
-      "position": 11.5,
-      "impressions": 33,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 11.5 with 33 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
-      "slug": "wholesale-mortgage-broker-california-guide-2026",
-      "track": "wholesale",
-      "position": 11.7,
-      "impressions": 32,
-      "clicks": 1,
-      "ctr": 0.0313,
-      "action": "refresh",
-      "reason": "Position 11.7 with 32 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-wine-country-2026",
-      "slug": "home-equity-wine-country-2026",
-      "track": "equity",
       "position": 8.6,
-      "impressions": 32,
+      "impressions": 51,
+      "clicks": 1,
+      "ctr": 0.0196,
+      "action": "refresh",
+      "reason": "Position 8.6 with 51 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/non-qm-loans-complete-guide-2026",
+      "slug": "non-qm-loans-complete-guide-2026",
+      "track": "wholesale",
+      "position": 8.5,
+      "impressions": 51,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 8.6 with 32 impressions — update content to push into top 5"
+      "reason": "Position 8.5 with 51 impressions — update content to push into top 5"
     },
     {
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-la-westside-luxury-2026",
-      "slug": "reverse-mortgage-la-westside-luxury-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-washington-guide-2026",
+      "slug": "reverse-mortgage-washington-guide-2026",
       "track": "hecm",
-      "position": 23.7,
-      "impressions": 32,
+      "position": 17.3,
+      "impressions": 51,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 23.7 with 32 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-greater-seattle-guide-2026",
-      "slug": "reverse-mortgage-greater-seattle-guide-2026",
-      "track": "hecm",
-      "position": 16.4,
-      "impressions": 31,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 16.4 with 31 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-urban-seattle-premium-2026",
-      "slug": "home-equity-urban-seattle-premium-2026",
-      "track": "equity",
-      "position": 8.1,
-      "impressions": 28,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 8.1 with 28 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026",
-      "slug": "home-equity-pasadena-corridor-2026",
-      "track": "equity",
-      "position": 10.2,
-      "impressions": 27,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 10.2 with 27 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
-      "slug": "yorba-linda-mortgage-guide-2026",
-      "track": "equity",
-      "position": 10,
-      "impressions": 26,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 10.0 with 26 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/home-equity-washington-guide-2026",
-      "slug": "home-equity-washington-guide-2026",
-      "track": "equity",
-      "position": 11.2,
-      "impressions": 25,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 11.2 with 25 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
-      "slug": "conventional-loans-complete-guide-2026",
-      "track": "equity",
-      "position": 11.3,
-      "impressions": 24,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 11.3 with 24 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026",
-      "slug": "aliso-viejo-mortgage-guide-2026",
-      "track": "equity",
-      "position": 23.6,
-      "impressions": 23,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 23.6 with 23 impressions — update content to push into top 5"
-    },
-    {
-      "url": "https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026",
-      "slug": "cash-out-refinance-complete-guide-2026",
-      "track": "equity",
-      "position": 14,
-      "impressions": 21,
-      "clicks": 0,
-      "ctr": 0,
-      "action": "refresh",
-      "reason": "Position 14.0 with 21 impressions — update content to push into top 5"
+      "reason": "Position 17.3 with 51 impressions — update content to push into top 5"
     },
     {
       "url": "https://www.mothebroker.com/blog/home-equity-coastal-sd-inland-premium-2026",
       "slug": "home-equity-coastal-sd-inland-premium-2026",
       "track": "equity",
-      "position": 9.8,
+      "position": 8.5,
+      "impressions": 48,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.5 with 48 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-bay-area-peninsula-guide-2026",
+      "slug": "home-equity-bay-area-peninsula-guide-2026",
+      "track": "equity",
+      "position": 10.1,
+      "impressions": 47,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.1 with 47 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/hecm-pros-cons-2026",
+      "slug": "hecm-pros-cons-2026",
+      "track": "hecm",
+      "position": 8.2,
+      "impressions": 44,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.2 with 44 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/refinance-credit-requirements-2026",
+      "slug": "refinance-credit-requirements-2026",
+      "track": "equity",
+      "position": 22,
+      "impressions": 44,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 22.0 with 44 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/cash-out-vs-regular-refinance-2026",
+      "slug": "cash-out-vs-regular-refinance-2026",
+      "track": "equity",
+      "position": 9.5,
+      "impressions": 43,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.5 with 43 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/bank-statement-loans-wholesale-2026",
+      "slug": "bank-statement-loans-wholesale-2026",
+      "track": "wholesale",
+      "position": 8.9,
+      "impressions": 37,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.9 with 37 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-inland-empire-affluent-2026",
+      "slug": "home-equity-inland-empire-affluent-2026",
+      "track": "equity",
+      "position": 8.2,
+      "impressions": 37,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.2 with 37 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-pasadena-corridor-2026",
+      "slug": "home-equity-pasadena-corridor-2026",
+      "track": "equity",
+      "position": 11.2,
+      "impressions": 37,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.2 with 37 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026",
+      "slug": "reverse-mortgage-ultra-luxury-eastside-wa-2026",
+      "track": "hecm",
+      "position": 10.1,
+      "impressions": 37,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.1 with 37 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/refinance-multiple-properties-portfolio-strategy-2026",
+      "slug": "refinance-multiple-properties-portfolio-strategy-2026",
+      "track": "equity",
+      "position": 8.3,
+      "impressions": 36,
+      "clicks": 2,
+      "ctr": 0.0556,
+      "action": "refresh",
+      "reason": "Position 8.3 with 36 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-sacramento-guide-2026",
+      "slug": "reverse-mortgage-sacramento-guide-2026",
+      "track": "hecm",
+      "position": 8.7,
+      "impressions": 34,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.7 with 34 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-north-sound-guide-2026",
+      "slug": "home-equity-north-sound-guide-2026",
+      "track": "equity",
+      "position": 12.3,
+      "impressions": 33,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 12.3 with 33 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-north-sound-islands-wa-2026",
+      "slug": "home-equity-north-sound-islands-wa-2026",
+      "track": "equity",
+      "position": 11.9,
+      "impressions": 33,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.9 with 33 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026",
+      "slug": "how-to-get-wholesale-mortgage-rates-2026",
+      "track": "wholesale",
+      "position": 10,
+      "impressions": 33,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.0 with 33 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-after-bankruptcy-qualification-2026",
+      "slug": "reverse-mortgage-after-bankruptcy-qualification-2026",
+      "track": "hecm",
+      "position": 10.1,
+      "impressions": 32,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.1 with 32 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+      "slug": "wholesale-mortgage-broker-los-angeles-guide-2026",
+      "track": "wholesale",
+      "position": 19.2,
+      "impressions": 31,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 19.2 with 31 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/what-can-you-use-home-equity-for-2026",
+      "slug": "what-can-you-use-home-equity-for-2026",
+      "track": "equity",
+      "position": 12.5,
+      "impressions": 30,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 12.5 with 30 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
+      "slug": "conventional-loans-complete-guide-2026",
+      "track": "equity",
+      "position": 11.2,
+      "impressions": 29,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.2 with 29 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026",
+      "slug": "aliso-viejo-mortgage-guide-2026",
+      "track": "equity",
+      "position": 20.3,
+      "impressions": 28,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 20.3 with 28 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-affluent-marin-2026",
+      "slug": "home-equity-affluent-marin-2026",
+      "track": "equity",
+      "position": 10.1,
+      "impressions": 28,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.1 with 28 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/when-not-to-get-reverse-mortgage-2026",
+      "slug": "when-not-to-get-reverse-mortgage-2026",
+      "track": "hecm",
+      "position": 11.9,
+      "impressions": 28,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 11.9 with 28 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-vs-cash-out-refinance-2026",
+      "slug": "heloc-vs-cash-out-refinance-2026",
+      "track": "equity",
+      "position": 10.7,
+      "impressions": 27,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.7 with 27 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-guide-2026",
+      "slug": "reverse-mortgage-seattle-eastside-guide-2026",
+      "track": "hecm",
+      "position": 15,
+      "impressions": 27,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 15.0 with 27 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-seattle-eastside-guide-2026",
+      "slug": "home-equity-seattle-eastside-guide-2026",
+      "track": "equity",
+      "position": 8.7,
+      "impressions": 26,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.7 with 26 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026",
+      "slug": "heloan-vs-cash-out-refinance-2026",
+      "track": "equity",
+      "position": 8.2,
+      "impressions": 24,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.2 with 24 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-pacific-palisades-ca-2026",
+      "slug": "home-equity-pacific-palisades-ca-2026",
+      "track": "equity",
+      "position": 10.5,
+      "impressions": 24,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 10.5 with 24 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-refinancing-complete-pillar-2026",
+      "slug": "home-equity-refinancing-complete-pillar-2026",
+      "track": "equity",
+      "position": 8.1,
+      "impressions": 24,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 8.1 with 24 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-palos-verdes-peninsula-2026",
+      "slug": "home-equity-palos-verdes-peninsula-2026",
+      "track": "equity",
+      "position": 9.4,
+      "impressions": 23,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 9.4 with 23 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-student-housing-college-town-2026",
+      "slug": "dscr-student-housing-college-town-2026",
+      "track": "wholesale",
+      "position": 21.9,
+      "impressions": 22,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 21.9 with 22 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-san-marino-ca-2026",
+      "slug": "home-equity-san-marino-ca-2026",
+      "track": "equity",
+      "position": 15,
+      "impressions": 22,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 15.0 with 22 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-central-coast-guide-2026",
+      "slug": "reverse-mortgage-central-coast-guide-2026",
+      "track": "hecm",
+      "position": 9.9,
       "impressions": 21,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 9.8 with 21 impressions — update content to push into top 5"
+      "reason": "Position 9.9 with 21 impressions — update content to push into top 5"
     },
     {
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026",
-      "slug": "reverse-mortgage-premium-east-bay-sf-2026",
-      "track": "hecm",
-      "position": 18,
+      "url": "https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026",
+      "slug": "home-equity-loan-fixed-rate-2026",
+      "track": "equity",
+      "position": 15,
       "impressions": 20,
       "clicks": 0,
       "ctr": 0,
       "action": "refresh",
-      "reason": "Position 17.9 with 20 impressions — update content to push into top 5"
+      "reason": "Position 15.0 with 20 impressions — update content to push into top 5"
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/irvine-mortgage-guide-2026",
+      "slug": "irvine-mortgage-guide-2026",
+      "track": "equity",
+      "position": 15,
+      "impressions": 20,
+      "clicks": 0,
+      "ctr": 0,
+      "action": "refresh",
+      "reason": "Position 15.0 with 20 impressions — update content to push into top 5"
     }
   ],
   "scoredQueue": [],
-  "cannibalizationAlerts": [],
+  "cannibalizationAlerts": [
+    {
+      "query": "mothebroker.com",
+      "impressions": 532,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/",
+          "impressions": 61,
+          "clicks": 0,
+          "position": 1
+        },
+        {
+          "url": "https://www.mothebroker.com/heloc-orange-county",
+          "impressions": 42,
+          "clicks": 0,
+          "position": 4.023809523809524
+        },
+        {
+          "url": "https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide",
+          "impressions": 27,
+          "clicks": 0,
+          "position": 4.037037037037037
+        },
+        {
+          "url": "https://www.mothebroker.com/guides/summer-2025-market-guide",
+          "impressions": 25,
+          "clicks": 0,
+          "position": 8.559999999999999
+        },
+        {
+          "url": "https://www.mothebroker.com/luxury-markets",
+          "impressions": 24,
+          "clicks": 0,
+          "position": 2.166666666666667
+        },
+        {
+          "url": "https://www.mothebroker.com/areas/seal-beach-mortgage-broker",
+          "impressions": 19,
+          "clicks": 0,
+          "position": 4.684210526315789
+        },
+        {
+          "url": "https://www.mothebroker.com/resources/credit-repair",
+          "impressions": 19,
+          "clicks": 0,
+          "position": 9.421052631578947
+        },
+        {
+          "url": "https://www.mothebroker.com/zip-codes/92625-corona-del-mar-mortgage-broker",
+          "impressions": 19,
+          "clicks": 0,
+          "position": 10.68421052631579
+        },
+        {
+          "url": "https://www.mothebroker.com/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide",
+          "impressions": 18,
+          "clicks": 0,
+          "position": 10.444444444444445
+        },
+        {
+          "url": "https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison",
+          "impressions": 16,
+          "clicks": 0,
+          "position": 6.9375
+        },
+        {
+          "url": "https://www.mothebroker.com/guides/orange-county-investment-property",
+          "impressions": 13,
+          "clicks": 0,
+          "position": 3.6153846153846154
+        },
+        {
+          "url": "https://www.mothebroker.com/zip-codes/92614-irvine-mortgage-broker",
+          "impressions": 13,
+          "clicks": 0,
+          "position": 9.307692307692308
+        },
+        {
+          "url": "https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2026",
+          "impressions": 13,
+          "clicks": 0,
+          "position": 12.692307692307692
+        },
+        {
+          "url": "https://www.mothebroker.com/articles/wholesale-vs-retail-mortgages-comparison",
+          "impressions": 13,
+          "clicks": 0,
+          "position": 10.846153846153847
+        },
+        {
+          "url": "https://www.mothebroker.com/areas/irvine-mortgage-broker",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 8
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-central-coast-guide-2026",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 9.8
+        },
+        {
+          "url": "https://www.mothebroker.com/calculator",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 3.8
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
+          "impressions": 9,
+          "clicks": 0,
+          "position": 10.333333333333334
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-wine-country-guide-2026",
+          "impressions": 9,
+          "clicks": 0,
+          "position": 11.777777777777779
+        },
+        {
+          "url": "https://www.mothebroker.com/guides",
+          "impressions": 9,
+          "clicks": 0,
+          "position": 7.555555555555555
+        },
+        {
+          "url": "https://www.mothebroker.com/guides/spring-2025-home-buying-guide",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 14.625
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-jumbo-loan-pricing-2026",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 7.125
+        },
+        {
+          "url": "https://www.mothebroker.com/guides",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 2.625
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 7.666666666666667
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 11.833333333333334
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 13
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/non-qm-loans-complete-guide-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 8.333333333333332
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 11.333333333333334
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/villa-park-mortgage-guide-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 12.333333333333334
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-bay-area-guide-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 9.333333333333334
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 5.666666666666667
+        },
+        {
+          "url": "https://www.mothebroker.com/articles/dana-point-first-time-homebuyer-guide",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 8.4
+        },
+        {
+          "url": "https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 5.6
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/200-lender-advantage-explained-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.8
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 15.6
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-ca-pv-a-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.6
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-inland-empire-affluent-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 4
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 13.6
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-suburban-king-county-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 6.8
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/home-equity-ventura-affluent-ca-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 5.4
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/mission-viejo-mortgage-guide-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 17.8
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-westside-luxury-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 14
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sacramento-guide-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 10.4
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-san-diego-guide-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 7.4
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-closing-timeline-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.2
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.2
+        }
+      ],
+      "action": "investigate",
+      "severity": "high"
+    },
+    {
+      "query": "mortgage broker vs bank",
+      "impressions": 73,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison",
+          "impressions": 59,
+          "clicks": 0,
+          "position": 79.23728813559322
+        },
+        {
+          "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+          "impressions": 14,
+          "clicks": 0,
+          "position": 80.64285714285714
+        }
+      ],
+      "action": "investigate",
+      "severity": "medium"
+    },
+    {
+      "query": "orange county ca property tax rate 2026",
+      "impressions": 64,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+          "impressions": 40,
+          "clicks": 0,
+          "position": 8.05
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+          "impressions": 24,
+          "clicks": 0,
+          "position": 4.5
+        }
+      ],
+      "action": "investigate",
+      "severity": "medium"
+    },
+    {
+      "query": "fannie mae cash-out refinance seasoning requirements 2026",
+      "impressions": 46,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026",
+          "impressions": 32,
+          "clicks": 0,
+          "position": 7.1875
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/cash-out-refinance-seasoning-requirements-2026",
+          "impressions": 14,
+          "clicks": 0,
+          "position": 8.642857142857142
+        }
+      ],
+      "action": "investigate",
+      "severity": "medium"
+    },
+    {
+      "query": "dscr loan requirements 2026",
+      "impressions": 46,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loan-california-requirements-complete-2026",
+          "impressions": 17,
+          "clicks": 0,
+          "position": 8.764705882352942
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026",
+          "impressions": 15,
+          "clicks": 0,
+          "position": 9.733333333333333
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-first-investment-property-2026",
+          "impressions": 14,
+          "clicks": 0,
+          "position": 9.785714285714286
+        }
+      ],
+      "action": "investigate",
+      "severity": "medium"
+    },
+    {
+      "query": "california property tax calculator",
+      "impressions": 41,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/lake-county",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 65.45454545454545
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/marin-county",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 76.5
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/irvine",
+          "impressions": 9,
+          "clicks": 0,
+          "position": 87.11111111111111
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-mateo-county/south-san-francisco",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 87.33333333333333
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/imperial-county",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 85.4
+        }
+      ],
+      "action": "investigate",
+      "severity": "medium"
+    },
+    {
+      "query": "average property tax rate los angeles county 2026",
+      "impressions": 32,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county/los-angeles",
+          "impressions": 25,
+          "clicks": 0,
+          "position": 9.28
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 5
+        }
+      ],
+      "action": "investigate",
+      "severity": "medium"
+    },
+    {
+      "query": "irvine mortgage rates",
+      "impressions": 30,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/areas/irvine-mortgage-broker",
+          "impressions": 20,
+          "clicks": 0,
+          "position": 49.85
+        },
+        {
+          "url": "https://www.mothebroker.com/areas",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 62.9
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "how do mortgage brokers get wholesale rates 2026",
+      "impressions": 23,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/wholesale-mortgage-rate-comparison-2026",
+          "impressions": 16,
+          "clicks": 0,
+          "position": 1.0625
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 4.428571428571429
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "reverse mortgage spouse protection",
+      "impressions": 23,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-non-borrowing-spouse-2026",
+          "impressions": 13,
+          "clicks": 0,
+          "position": 49.46153846153846
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-surviving-spouse-rights-2026",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 62.8
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "orange county california property tax rate 2026",
+      "impressions": 23,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+          "impressions": 17,
+          "clicks": 0,
+          "position": 5.470588235294118
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 10.333333333333334
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr multifamily loan",
+      "impressions": 22,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-2-4-unit-2026",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 62.27272727272727
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 76
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans inyo county",
+      "impressions": 21,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loans-california-best-markets-2026",
+          "impressions": 14,
+          "clicks": 0,
+          "position": 15.428571428571429
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/inyo-county",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 10.285714285714286
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans monterey county",
+      "impressions": 21,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/monterey-county",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 13.818181818181818
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/monterey-county/monterey",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 8.2
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/monterey-county/salinas",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 13
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "non borrowing spouse reverse mortgage",
+      "impressions": 20,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-non-borrowing-spouse-2026",
+          "impressions": 12,
+          "clicks": 0,
+          "position": 69.25
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-surviving-spouse-rights-2026",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 83.5
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "effective property tax rate spokane county wa 2026",
+      "impressions": 20,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/spokane-county",
+          "impressions": 12,
+          "clicks": 0,
+          "position": 5.666666666666667
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/spokane-county/spokane",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 7.25
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "effective property tax rate spokane county washington 2026",
+      "impressions": 19,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/spokane-county",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 8.09090909090909
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/spokane-county/spokane",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 6.625
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "los angeles county effective property tax rate 2026",
+      "impressions": 17,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county",
+          "impressions": 12,
+          "clicks": 0,
+          "position": 6.75
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county/los-angeles",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.2
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans el dorado county",
+      "impressions": 16,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/el-dorado-county",
+          "impressions": 11,
+          "clicks": 0,
+          "position": 8.181818181818182
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/el-dorado-county/el-dorado-hills",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 10
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "san diego property tax calculator",
+      "impressions": 15,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/carlsbad",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 74
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/vista",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 91
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "cash out refinance seasoning period requirements 2026",
+      "impressions": 14,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 5.75
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/cash-out-refinance-seasoning-requirements-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 6.333333333333333
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "how does a reverse mortgage affect medicaid",
+      "impressions": 14,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-medicaid-planning-2026",
+          "impressions": 9,
+          "clicks": 0,
+          "position": 28.88888888888889
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-social-security-medicare-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 89.8
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "cash out refinance requirements",
+      "impressions": 13,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/cash-out-refinance-complete-guide-2026",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 81.14285714285714
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 81.5
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "reverse mortgage and medicaid",
+      "impressions": 13,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-medicaid-planning-2026",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 53.857142857142854
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-social-security-medicare-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 79.83333333333333
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "heloc orange",
+      "impressions": 13,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/loan-programs/heloc",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 24.142857142857142
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/equity-comparison-calculator/ca/orange-county/orange",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 46.166666666666664
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans san luis obispo county",
+      "impressions": 13,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/san-luis-obispo-county",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 9.125
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/san-luis-obispo-county/san-luis-obispo",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 14
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans trinity county",
+      "impressions": 12,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/trinity-county",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 6.571428571428571
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/trinity-county",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 2.2
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loan for investment property how to apply 2026",
+      "impressions": 11,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 8.666666666666668
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/dscr-first-investment-property-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 7.6
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans sonoma county",
+      "impressions": 11,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/sonoma-county",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 13.5
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/sonoma-county/santa-rosa",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 17.4
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "will taking a reverse mortgage trigger a property reassessment",
+      "impressions": 11,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-property-tax-prop-19-california-2026",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 73.83333333333333
+        },
+        {
+          "url": "https://www.mothebroker.com/blog/reverse-mortgage-property-tax-insurance-2026",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 66.8
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans butte county",
+      "impressions": 10,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/butte-county",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.8
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/butte-county",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 17
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "dscr loans san mateo county",
+      "impressions": 10,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/san-mateo-county",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 5.8
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/san-mateo-county/daly-city",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 11.6
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    },
+    {
+      "query": "kirkland wa property tax rate 2026",
+      "impressions": 10,
+      "pages": [
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/king-county",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 9.4
+        },
+        {
+          "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/king-county/kirkland",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 4.2
+        }
+      ],
+      "action": "investigate",
+      "severity": "low"
+    }
+  ],
   "summary": {
     "totalPending": 0,
     "totalScored": 0,
     "opportunityBucket": 0,
     "explorationBucket": 0,
-    "refreshCandidates": 34,
-    "cannibalizationAlerts": 0,
+    "refreshCandidates": 111,
+    "cannibalizationAlerts": 33,
     "topScore": 0,
     "bottomScore": 0
   }

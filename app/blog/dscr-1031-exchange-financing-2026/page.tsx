@@ -723,7 +723,7 @@ export default function DSCR1031ExchangeFinancing2026() {
             <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
               &rarr; DSCR Loan Calculator &amp; Ratio Guide 2026
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">
               &rarr; Investment Property Cash-Out Refinance 2026
             </Link>
             <Link href="/blog/bridge-loans-vs-dscr-investment-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">

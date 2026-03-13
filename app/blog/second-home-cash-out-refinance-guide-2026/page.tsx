@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Cash-Out Refinance on a Second Home: 2026 Rules, LTV Limits & Qualification Guide | Mo Abdel NMLS #1426884',
-  description: 'Second home cash out refinance 2026: Fannie Mae 75% max LTV, 6-month seasoning, reserve requirements, and qualification rules. Wholesale broker access to 50+ Wholesale Lenders for vacation home equity. NMLS #1426884.',
+  title: 'Second Home Cash-Out Refinance 2026: Vacation Home Rules, 75% LTV & 6-Month Seasoning | Mo Abdel NMLS #1426884',
+  description: 'Second home cash-out refinance 2026 for vacation homes only: Fannie Mae 75% max LTV, 6-month seasoning, reserve requirements, and occupancy rules. Not the same as rental property cash-out financing. NMLS #1426884.',
   keywords: ['second home cash out refinance', 'cash out refinance vacation home', 'second home refinance LTV', 'second home equity access', 'vacation home cash out refinance 2026', 'refinance second home rules'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026',
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Cash-Out Refinance on a Second Home: 2026 Rules, LTV Limits & Qualification Guide',
-    description: 'Complete guide to tapping equity in your vacation or second home. Fannie Mae LTV limits, seasoning rules, reserve requirements, and jumbo options for high-value properties.',
+    title: 'Second Home Cash-Out Refinance 2026: Vacation Home Rules, 75% LTV & 6-Month Seasoning',
+    description: 'Guide to tapping equity from a vacation or second home only. Covers 75% max LTV, 6-month seasoning, reserve requirements, and jumbo options.',
     type: 'article',
     publishedTime: '2026-03-01',
     modifiedTime: '2026-03-01',
@@ -172,6 +172,14 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             <p className="text-gray-800">
               For homeowners in high-appreciation vacation markets across California and Washington, these equity positions represent substantial untapped liquidity. A wholesale broker with access to <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700">50+ Wholesale Lenders</Link> can source conventional conforming programs, jumbo second-home overlays, and non-QM alternatives that most retail banks do not carry&mdash;matching borrowers with the program that delivers the right combination of LTV, reserves, and pricing for their specific property and financial profile.
             </p>
+            <p className="text-gray-800 mt-4">
+              If you need the broader waiting-period rules across primary residences, second homes,
+              rentals, and delayed financing scenarios, review our{' '}
+              <Link href="/blog/cash-out-refinance-seasoning-requirements-2026" className="text-blue-600 hover:text-blue-700">
+                cash-out refinance seasoning requirements guide
+              </Link>{' '}
+              before choosing the property-type-specific option.
+            </p>
           </div>
 
           {/* ===== SECTION 2: BING POWER BLOCK (600-800 words) ===== */}
@@ -280,7 +288,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             <li><strong>Post-closing audits:</strong> Some lenders and the agencies themselves conduct periodic occupancy audits after closing</li>
           </ul>
           <p>
-            If underwriting reclassifies your property from second home to investment, the transaction reprices entirely: LTV drops to 70&ndash;75%, reserves increase, and rate adjustments stack higher. Misrepresenting occupancy constitutes mortgage fraud under federal law&mdash;a risk that no amount of rate savings justifies. If you do rent the property, <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700">investment property cash-out refinance</Link> programs exist specifically for that scenario.
+            If underwriting reclassifies your property from second home to investment, the transaction reprices entirely: LTV drops to 70&ndash;75%, reserves increase, and rate adjustments stack higher. Misrepresenting occupancy constitutes mortgage fraud under federal law&mdash;a risk that no amount of rate savings justifies. If you do rent the property, <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700">rental property cash-out refinance</Link> programs exist specifically for that scenario.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">California and Washington Vacation Home Markets: Where Equity Concentrates</h2>
@@ -308,7 +316,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             The cash liberated from a <strong>vacation home cash out refinance 2026</strong> transaction flows into several strategic applications. Unlike investment property refinances, second home cash-out proceeds face no lender restrictions on how you deploy them:
           </p>
           <ul className="list-disc pl-6 space-y-2 my-4">
-            <li><strong>Investment property acquisition:</strong> Use second home equity as the down payment for a rental property. This approach converts non-income-producing equity into a cash-flowing asset. Learn more about <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700">investment property financing strategies</Link>.</li>
+            <li><strong>Investment property acquisition:</strong> Use second home equity as the down payment for a rental property. This approach converts non-income-producing equity into a cash-flowing asset. Learn more about <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700">rental property cash-out strategies</Link>.</li>
             <li><strong>Property renovations and upgrades:</strong> Remodel the kitchen, add a pool, upgrade HVAC, or convert a garage to a guest suite. Improvements that increase appraised value rebuild the equity cushion you tapped.</li>
             <li><strong>High-interest debt consolidation:</strong> Replace credit card debt, personal loans, or auto loans with a single mortgage payment at a lower rate. This strategy works particularly well for borrowers carrying balances accumulated during the purchase or renovation of the second home.</li>
             <li><strong>Education funding:</strong> Fund tuition without student loan debt. The interest rate on a <Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:text-blue-700">cash-out refinance</Link> is typically lower than private student loan rates.</li>
@@ -425,7 +433,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
 
           <h3 className="text-lg font-semibold mt-5 mb-2">Can I rent out my second home and still do a cash-out refinance as a second home?</h3>
           <p>
-            No. A property classified as a second home cannot be subject to a rental agreement, listed on short-term rental platforms, or managed by a property management company. If you rent the property, it must be financed as an <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700">investment property</Link>, which carries stricter LTV limits and higher pricing adjustments.
+            No. A property classified as a second home cannot be subject to a rental agreement, listed on short-term rental platforms, or managed by a property management company. If you rent the property, it must be financed as a <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700">rental property cash-out refinance</Link>, which carries stricter LTV limits and higher pricing adjustments.
           </p>
 
           <h3 className="text-lg font-semibold mt-5 mb-2">What credit score do I need for a second home cash-out refinance?</h3>

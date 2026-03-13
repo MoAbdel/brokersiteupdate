@@ -582,7 +582,7 @@ export default function CashOutRefinanceVsHelocInvestmentPropertyPage() {
             <h2 className="text-3xl font-bold mt-12 mb-6">DSCR Cash-Out Refinance: The Portfolio Investor&apos;s Equity Tool</h2>
 
             <p>
-              For investors who have outgrown conventional financing &mdash; either by exceeding 10 financed properties or by having tax returns that obscure actual income through depreciation and business deductions &mdash; the <a href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">DSCR cash-out refinance</a> solves a fundamental qualification problem.
+              For investors who have outgrown conventional financing &mdash; either by exceeding 10 financed properties or by having tax returns that obscure actual income through depreciation and business deductions &mdash; the <a href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">DSCR cash-out refinance</a> solves a fundamental qualification problem.
             </p>
 
             <h3 className="text-2xl font-semibold mt-6 mb-4">How DSCR Qualification Works for Cash-Out</h3>
@@ -774,7 +774,7 @@ export default function CashOutRefinanceVsHelocInvestmentPropertyPage() {
 
               <div className="border-l-4 border-blue-500 pl-4">
                 <h3 className="font-bold mb-2">Can I do a cash-out refinance on a 2-4 unit investment property?</h3>
-                <p>Yes, though LTV limits are lower. Conventional cash-out on a 2-4 unit investment caps at 65&ndash;70% LTV. DSCR lenders allow 70&ndash;75% LTV on multi-unit investment properties with strong aggregate rental income. The higher unit count typically produces better DSCR ratios because multiple income streams cover the single mortgage payment. See our <a href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">investment property cash-out refinance guide</a> for detailed requirements.</p>
+                <p>Yes, though LTV limits are lower. Conventional cash-out on a 2-4 unit investment caps at 65&ndash;70% LTV. DSCR lenders allow 70&ndash;75% LTV on multi-unit investment properties with strong aggregate rental income. The higher unit count typically produces better DSCR ratios because multiple income streams cover the single mortgage payment. See our <a href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">investment property cash-out refinance guide</a> for detailed requirements.</p>
               </div>
 
               <div className="border-l-4 border-blue-500 pl-4">
@@ -820,7 +820,7 @@ export default function CashOutRefinanceVsHelocInvestmentPropertyPage() {
               <ul className="space-y-3">
                 <li><a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">Cash-Out Refinance: How It Works (Complete Guide)</a></li>
                 <li><a href="/blog/heloc-complete-guide-2026" className="text-blue-600 hover:underline">HELOC Complete Guide 2026</a></li>
-                <li><a href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance 2026</a></li>
+                <li><a href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance 2026</a></li>
                 <li><a href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:underline">DSCR Loan Calculator &amp; Ratio Guide 2026</a></li>
                 <li><a href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:underline">DSCR Loans for Portfolio Investors: Scaling Guide</a></li>
                 <li><a href="/blog/heloan-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOAN vs Cash-Out Refinance Comparison</a></li>

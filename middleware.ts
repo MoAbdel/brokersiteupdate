@@ -12,6 +12,9 @@ const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
   /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
 ];
 
+const LOCALIZED_TOOL_CITY_ROUTE_PATTERN =
+  /^\/tools\/(?:bank-statement-loan-estimator|cash-out-limit-calculator|dscr-qualification-calculator|dscr-rent-analyzer|equity-comparison-calculator|max-heloc-calculator|property-tax-estimator)\/[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+$/i;
+
 const NON_CONTENT_PATH_PATTERNS: RegExp[] = [
   /\/opengraph-image$/i,
   /^\/robots\.txt$/i,
@@ -23,24 +26,28 @@ const NON_CONTENT_PATH_PATTERNS: RegExp[] = [
 
 const APPLY_URL = 'https://luminlending-apply-mo-abdel.my1003app.com/register';
 
-function shouldNoindexRequest(pathname: string, search: string): boolean {
+function getRobotsDirective(pathname: string, search: string): string | null {
   if (pathname === '/guides' && search.length > 0) {
-    return true;
+    return 'noindex, nofollow';
   }
 
   if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return true;
+    return 'noindex, nofollow';
   }
 
   if (THIN_OVERLAP_ROUTE_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return true;
+    return 'noindex, nofollow';
   }
 
   if (NON_CONTENT_PATH_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return true;
+    return 'noindex, nofollow';
   }
 
-  return false;
+  if (LOCALIZED_TOOL_CITY_ROUTE_PATTERN.test(pathname)) {
+    return 'noindex, follow';
+  }
+
+  return null;
 }
 
 export function middleware(request: NextRequest) {
@@ -53,6 +60,7 @@ export function middleware(request: NextRequest) {
   const blogRedirects: Record<string, string> = {
     '/blog/bank-statement-loans-wholesale': '/blog/bank-statement-loans-wholesale-2026',
     '/blog/cash-out-refinance-how-it-works': '/blog/cash-out-refinance-how-it-works-2026',
+    '/blog/investment-property-cash-out-refinance-2026': '/blog/cash-out-refinance-rental-property-investors-2026',
     '/blog/how-does-heloc-work': '/loan-programs/heloc',
     '/blog/heloc-vs-cash-out-refinance-california-homeowners-2026': '/blog/heloc-vs-cash-out-refinance-2026',
     '/blog/heloc-vs-home-equity-loan': '/blog/heloc-vs-home-equity-loan-2026',
@@ -203,8 +211,9 @@ export function middleware(request: NextRequest) {
   response.headers.set('x-audience-us-eligible', audience.isUsEligible ? '1' : '0');
   response.headers.set('Vary', 'x-vercel-ip-country, cf-ipcountry');
 
-  if (shouldNoindexRequest(pathname, search)) {
-    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+  const robotsDirective = getRobotsDirective(pathname, search);
+  if (robotsDirective) {
+    response.headers.set('X-Robots-Tag', robotsDirective);
   }
 
   return response;

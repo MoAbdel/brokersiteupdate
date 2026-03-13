@@ -501,7 +501,7 @@ export default function CashOutRefinanceSeasoningRequirementsPage() {
           </div>
 
           <p>
-            This is where a wholesale broker provides the most value. With access to 50+ Wholesale Lenders, I can identify which <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">investment property cash-out refinance</Link> lenders match your specific seasoning timeline, LTV needs, and property type.
+            This is where a wholesale broker provides the most value. With access to 50+ Wholesale Lenders, I can identify which <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">cash-out refinance for rental property investors</Link> lenders match your specific seasoning timeline, LTV needs, and property type.
           </p>
 
           {/* Special Situations */}
@@ -617,7 +617,7 @@ export default function CashOutRefinanceSeasoningRequirementsPage() {
               <li><Link href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">How Does a Cash-Out Refinance Work?</Link></li>
               <li><Link href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Cash-Out Refinance Complete Guide 2026</Link></li>
               <li><Link href="/blog/cash-out-vs-regular-refinance-2026" className="text-blue-600 hover:underline">Cash-Out vs Rate-and-Term Refinance Comparison</Link></li>
-              <li><Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance</Link></li>
+              <li><Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">Cash-Out Refinance for Rental Property Investors</Link></li>
               <li><Link href="/blog/dscr-refinance-investment-property-2026" className="text-blue-600 hover:underline">DSCR Refinance for Investment Properties</Link></li>
               <li><Link href="/blog/va-loan-benefits-guide-2026" className="text-blue-600 hover:underline">VA Loan Benefits Guide 2026</Link></li>
               <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel for a Free Quote</Link></li>

@@ -548,7 +548,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
             <Link href="/blog/foreign-national-mortgage-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Foreign National Mortgage Loans Guide
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → Investment Property Cash-Out Refinance
             </Link>
             <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">

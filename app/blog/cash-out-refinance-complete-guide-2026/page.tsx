@@ -762,7 +762,7 @@ export default function CashOutRefinanceCompleteGuidePage() {
               </a>
             </li>
             <li>
-              <a href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">
+              <a href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">
                 Investment Property Cash-Out Refinance Guide [2026]
               </a>
             </li>

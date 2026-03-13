@@ -4,12 +4,12 @@ import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, AlertTriangle, 
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: 'How to Buy Your First Investment Property with a DSCR Loan [2026] | Mo Abdel',
-  description: 'DSCR loans let first-time investors qualify on rental income — no W-2s or tax returns needed. 20% down, 660+ credit. Access 50+ DSCR lenders through wholesale channels. NMLS #1426884.',
+  title: 'First-Time Investor DSCR Loan 2026: How to Buy Your First Rental Property | Mo Abdel',
+  description: 'First-time investor DSCR loan guide for 2026. Learn how to buy your first rental property with rental-income qualification, 20% down, 660+ credit, reserve requirements, and wholesale lender access. NMLS #1426884.',
   keywords: ['DSCR loan first investment property', 'first rental property DSCR loan', 'DSCR loan for beginners', 'investment property no income verification', 'DSCR loan down payment', 'first time investor DSCR', 'rental property financing 2026'],
   openGraph: {
-    title: 'How to Buy Your First Investment Property with a DSCR Loan [2026]',
-    description: 'DSCR loans let first-time investors qualify on rental income — no W-2s or tax returns needed. 20% down, 660+ credit. Access 50+ DSCR lenders through wholesale channels.',
+    title: 'First-Time Investor DSCR Loan 2026: Buy Your First Rental Property',
+    description: 'How first-time investors qualify with rental income, 20% down, 660+ credit, reserve requirements, and wholesale DSCR lender access.',
     url: 'https://www.mothebroker.com/blog/dscr-first-investment-property-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -197,7 +197,7 @@ export default function DSCRFirstInvestmentProperty2026() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
-              According to Mo Abdel, NMLS #1426884, a DSCR loan is the single most accessible path to your first investment property &mdash; qualifying on the rental income the property generates rather than your personal W-2s or tax returns, with as little as 20% down through wholesale channels.
+              According to Mo Abdel, NMLS #1426884, a DSCR loan is the single most accessible path to your first investment property &mdash; qualifying on the rental income the property generates rather than your personal W-2s or tax returns, with as little as 20% down through wholesale channels. If you need the broad qualification baseline first, start with our <Link href="/blog/dscr-loan-requirements-2026" className="text-purple-300 underline hover:text-white">DSCR loan requirements guide</Link>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -665,7 +665,7 @@ export default function DSCRFirstInvestmentProperty2026() {
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            For a deeper look at DSCR mechanics, see our <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline">DSCR loan calculator and ratio guide</Link>. If you are comparing DSCR to conventional financing, review our <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">investment property cash-out refinance guide</Link>.
+            For the broad qualification baseline, start with our <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">DSCR loan requirements guide</Link>. For a deeper look at ratio math, see our <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline">DSCR loan calculator and ratio guide</Link>. If you are comparing DSCR to tapping equity from an existing rental, review our <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">cash-out refinance for rental property investors guide</Link>.
           </p>
         </section>
 
@@ -886,14 +886,17 @@ export default function DSCRFirstInvestmentProperty2026() {
             <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans: Investment Property Financing Without Tax Returns
             </Link>
+            <Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loan Requirements 2026: Minimum Ratios, Credit Scores & Down Payment
+            </Link>
             <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Calculator: How to Calculate Your Ratio
             </Link>
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Portfolio Investors: Scaling Your Rental Portfolio
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
-              &rarr; Investment Property Cash-Out Refinance Guide
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; Cash-Out Refinance for Rental Property Investors
             </Link>
             <Link href="/blog/wholesale-vs-retail-mortgage-complete-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; Wholesale vs. Retail Mortgage: Complete Comparison

@@ -756,7 +756,7 @@ export default function BridgeLoansVsDSCRInvestment2026() {
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-indigo-600 hover:text-indigo-700 hover:underline">
               &rarr; DSCR Loans for Portfolio Investors: Scaling Guide
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-indigo-600 hover:text-indigo-700 hover:underline">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-indigo-600 hover:text-indigo-700 hover:underline">
               &rarr; Investment Property Cash-Out Refinance 2026
             </Link>
             <Link href="/blog/non-qm-loans-complete-guide-2026" className="text-indigo-600 hover:text-indigo-700 hover:underline">

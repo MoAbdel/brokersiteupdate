@@ -783,7 +783,7 @@ export default function NonQMLoansWholesaleBrokerPage() {
           <ul>
             <li><a href="/blog/self-employed-mortgage-broker-2026">Self-Employed Mortgage Guide</a></li>
             <li><a href="/loan-programs/jumbo-loans">Jumbo Loans in California</a></li>
-            <li><a href="/blog/investment-property-cash-out-refinance-2026">Investment Property Cash-Out Refinance</a></li>
+            <li><a href="/blog/cash-out-refinance-rental-property-investors-2026">Investment Property Cash-Out Refinance</a></li>
           </ul>
         </div>
 

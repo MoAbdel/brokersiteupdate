@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const rate = (county.avgPropertyTaxRate * 100).toFixed(2);
   return genMeta({
-    title: `Property Tax Estimator — ${county.name}, ${stateName} [2026 Tax Rate ${rate}% & Annual Cost Calculator]`,
-    description: `Estimate property taxes in ${county.name}, ${stateName}. 2026 average effective rate: ${rate}%. Median home value: ${formatCurrency(county.medianHomePrice)}. Calculate annual and monthly property tax costs instantly.`,
+    title: `${county.name}, ${stateName} Property Tax Rate 2026 | Calculator & Annual Cost`,
+    description: `${county.name}, ${stateName} property tax rate for 2026: ${rate}% average effective rate. Median home value ${formatCurrency(county.medianHomePrice)}. Estimate annual and monthly property tax costs instantly.`,
     path: `/tools/property-tax-estimator/${state}/${countySlug}`,
     type: 'website',
   });
@@ -48,6 +48,7 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
   const cities = getCitiesByCounty(state, countySlug);
   const annualTaxMedian = Math.round(county.medianHomePrice * county.avgPropertyTaxRate);
   const monthlyTaxMedian = Math.round(annualTaxMedian / 12);
+  const rate = (county.avgPropertyTaxRate * 100).toFixed(2);
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },
@@ -96,8 +97,8 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
   ];
 
   const schemas = buildToolSchemas({
-    toolName: `Property Tax Estimator — ${county.name}, ${stateName}`,
-    description: `Estimate annual and monthly property taxes for ${county.name}, ${stateName} using 2026 county-specific tax rates.`,
+    toolName: `Property Tax Rate Calculator — ${county.name}, ${stateName}`,
+    description: `Estimate annual and monthly property taxes for ${county.name}, ${stateName} using the 2026 average effective property tax rate of ${rate}%.`,
     url: `/tools/property-tax-estimator/${state}/${countySlug}`,
     countyName: county.name,
     stateName,
@@ -107,8 +108,8 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
 
   return (
     <ToolPageLayout
-      title={`${county.name} Property Tax Estimator`}
-      subtitle={`Estimate your property taxes in ${county.name} using the 2026 average effective rate of ${(county.avgPropertyTaxRate * 100).toFixed(2)}% and median home value of ${formatCurrency(county.medianHomePrice)}.`}
+      title={`${county.name} Property Tax Rate & Calculator`}
+      subtitle={`Use the 2026 average effective rate of ${rate}% and the median home value of ${formatCurrency(county.medianHomePrice)} to estimate annual and monthly property taxes in ${county.name}.`}
       badgeText={`${county.name}, ${state.toUpperCase()}`}
       badgeColor="bg-blue-100 text-blue-700"
       breadcrumbs={breadcrumbs}

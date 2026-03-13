@@ -361,7 +361,7 @@ export default function ConventionalLoansGuide2026Page() {
 
                 <h3>What is the conventional loan limit for a duplex, triplex, or fourplex?</h3>
                 <p>
-                    Conforming loan limits increase for multi-unit properties. In high-cost areas like Orange County for 2026: 2-unit properties allow up to $1,548,975, 3-unit properties allow up to $1,872,225, and 4-unit properties allow up to $2,326,875. These higher limits make multi-family investing with conventional financing accessible for buyers who plan to occupy one unit as their primary residence. See our <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">investment property cash-out refinance guide</Link> for equity access strategies on multi-unit properties.
+                    Conforming loan limits increase for multi-unit properties. In high-cost areas like Orange County for 2026: 2-unit properties allow up to $1,548,975, 3-unit properties allow up to $1,872,225, and 4-unit properties allow up to $2,326,875. These higher limits make multi-family investing with conventional financing accessible for buyers who plan to occupy one unit as their primary residence. See our <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">investment property cash-out refinance guide</Link> for equity access strategies on multi-unit properties.
                 </p>
 
                 <h2>Related Mortgage Guides</h2>

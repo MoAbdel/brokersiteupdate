@@ -8,9 +8,9 @@ import { getCountiesByState } from '@/lib/geo-data';
 import { formatCurrency } from '@/lib/geo-data/calculations';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'Property Tax Estimator by County [2026 Tax Rates for CA & WA]',
+  title: '2026 Property Tax Rates by County: California & Washington Calculator',
   description:
-    'Estimate annual and monthly property taxes using county-specific 2026 tax rates. Covers all 58 California counties and 39 Washington counties with median home values and Prop 13 analysis.',
+    'Browse 2026 property tax rates by county and estimate annual and monthly property taxes across California and Washington using county-specific rates, median home values, and local assessment rules.',
   path: '/tools/property-tax-estimator',
   type: 'website',
 });
@@ -35,11 +35,12 @@ export default function PropertyTaxEstimatorIndex() {
         <div className="text-center mb-12">
           <Badge className="bg-blue-100 text-blue-700 mb-4">Home Buyers</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            Property Tax Estimator
+            2026 Property Tax Rate Calculator by County
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
-            Select your county to estimate annual and monthly property taxes based on 2026
-            county-specific tax rates, median home values, and local assessment rules.
+            Select your county to compare 2026 property tax rates and estimate annual and
+            monthly property taxes using county-specific rates, median home values, and local
+            assessment rules.
           </p>
         </div>
 
@@ -52,7 +53,7 @@ export default function PropertyTaxEstimatorIndex() {
               {name} Counties ({counties.length})
             </h2>
             <p className="text-slate-600 mb-6">
-              Select a {name} county to estimate your property taxes.
+              Select a {name} county to view 2026 tax rates and estimate your property taxes.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {counties.map((county) => (

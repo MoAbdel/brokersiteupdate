@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const counties = getCountiesByState(state);
   return genMeta({
-    title: `Property Tax Estimator — All ${counties.length} ${stateName} Counties [2026 Tax Rates]`,
-    description: `Estimate property taxes for any of ${counties.length} ${stateName} counties. Uses 2026 county-specific tax rates, median home values, and local assessment data.`,
+    title: `${stateName} Property Tax Rates by County 2026 | Calculator`,
+    description: `Compare 2026 property tax rates across all ${counties.length} ${stateName} counties. View county averages, median home values, and estimate annual property tax costs.`,
     path: `/tools/property-tax-estimator/${state}`,
     type: 'website',
   });
@@ -59,11 +59,12 @@ export default async function StatePage({ params }: Props) {
         <div className="text-center mb-10">
           <Badge className="bg-blue-100 text-blue-700 mb-4">{counties.length} Counties</Badge>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            {stateName} Property Tax Estimator by County
+            {stateName} Property Tax Rates by County
           </h1>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
             {stateName} has {counties.length} counties with an average effective property tax rate of{' '}
-            {(avgRate * 100).toFixed(2)}% for 2026. Select your county for a personalized tax estimate.
+            {(avgRate * 100).toFixed(2)}% for 2026. Select your county to view the local tax
+            rate and estimate annual property tax cost.
           </p>
         </div>
 

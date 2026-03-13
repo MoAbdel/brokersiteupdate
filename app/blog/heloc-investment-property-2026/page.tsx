@@ -365,7 +365,7 @@ export default function HELOCInvestmentProperty2026() {
               <div className="bg-emerald-100 text-emerald-700 rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-0.5">1</div>
               <div>
                 <p className="font-semibold text-slate-900">Confirm Your Credit Score Is 720 or Higher</p>
-                <p className="text-slate-600">Pull all three credit bureaus. Investment HELOC lenders use the middle score. If your score falls between 700&ndash;719, compensating factors like lower CLTV requests (under 65%) or substantial reserves (12+ months) may satisfy select lenders. Below 700, a <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">cash-out refinance on your investment property</Link> or a DSCR cash-out becomes the more viable path.</p>
+                <p className="text-slate-600">Pull all three credit bureaus. Investment HELOC lenders use the middle score. If your score falls between 700&ndash;719, compensating factors like lower CLTV requests (under 65%) or substantial reserves (12+ months) may satisfy select lenders. Below 700, a <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">cash-out refinance on your investment property</Link> or a DSCR cash-out becomes the more viable path.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
@@ -434,7 +434,7 @@ export default function HELOCInvestmentProperty2026() {
           </p>
 
           <p className="text-lg text-slate-600 mb-8">
-            A wholesale mortgage broker with access to 50+ Wholesale Lenders maintains current knowledge of which lenders are actively funding investment HELOCs, what their specific requirements are, and which documentation approach each lender prefers. This access point eliminates the trial-and-error process of calling individual banks and being told &ldquo;we don&rsquo;t offer that program&rdquo; &mdash; a frustration that drives many investors to abandon the HELOC path entirely and default to a <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-blue-600 hover:underline">cash-out refinance</Link> when a HELOC would have been the better financial tool.
+            A wholesale mortgage broker with access to 50+ Wholesale Lenders maintains current knowledge of which lenders are actively funding investment HELOCs, what their specific requirements are, and which documentation approach each lender prefers. This access point eliminates the trial-and-error process of calling individual banks and being told &ldquo;we don&rsquo;t offer that program&rdquo; &mdash; a frustration that drives many investors to abandon the HELOC path entirely and default to a <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">cash-out refinance</Link> when a HELOC would have been the better financial tool.
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
@@ -680,7 +680,7 @@ export default function HELOCInvestmentProperty2026() {
             </p>
 
             <p className="text-lg text-slate-300 mb-8 leading-relaxed">
-              Whether a HELOC, <Link href="/blog/investment-property-cash-out-refinance-2026" className="text-emerald-400 hover:underline">cash-out refinance</Link>, or <Link href="/blog/dscr-refinance-investment-property-2026" className="text-emerald-400 hover:underline">DSCR cash-out</Link> is the right equity access tool depends on your existing first mortgage rate, how you plan to use the funds, and your income documentation situation. Mo Abdel analyzes all three options side by side for every investor consultation &mdash; the right answer varies by property, portfolio, and financial objective.
+              Whether a HELOC, <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-emerald-400 hover:underline">cash-out refinance</Link>, or <Link href="/blog/dscr-refinance-investment-property-2026" className="text-emerald-400 hover:underline">DSCR cash-out</Link> is the right equity access tool depends on your existing first mortgage rate, how you plan to use the funds, and your income documentation situation. Mo Abdel analyzes all three options side by side for every investor consultation &mdash; the right answer varies by property, portfolio, and financial objective.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -713,7 +713,7 @@ export default function HELOCInvestmentProperty2026() {
               <p className="font-semibold text-slate-900">Cash-Out Refi vs. HELOC for Investment Property</p>
               <p className="text-sm text-slate-500">Side-by-side comparison for rental property owners</p>
             </Link>
-            <Link href="/blog/investment-property-cash-out-refinance-2026" className="block p-4 border border-slate-200 rounded-xl hover:border-emerald-300 hover:bg-emerald-50 transition-colors">
+            <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="block p-4 border border-slate-200 rounded-xl hover:border-emerald-300 hover:bg-emerald-50 transition-colors">
               <p className="font-semibold text-slate-900">Investment Property Cash-Out Refinance</p>
               <p className="text-sm text-slate-500">Requirements, LTV limits, and lender options</p>
             </Link>
