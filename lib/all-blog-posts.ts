@@ -11,6 +11,31 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 27: 1 Refi + 1 HELOC + 1 HECM (Mar 23, 2026) =====
+  {
+    slug: 'cash-out-refinance-ltv-limits-by-loan-type-2026',
+    title: 'Cash-Out Refinance Maximum LTV Limits by Loan Type: Complete Guide [2026]',
+    excerpt: 'Cash-out refinance maximum LTV limits by loan type in 2026. Conventional 80%, FHA 80%, VA 100%, jumbo 70-75%. Compare programs side by side with qualification requirements.',
+    date: '2026-03-23',
+    category: 'Refinance',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'hecm-for-purchase-reverse-mortgage-home-buying-2026',
+    title: 'HECM for Purchase: How to Buy a Home with a Reverse Mortgage [2026]',
+    excerpt: 'HECM for Purchase lets seniors 62+ buy a new home with a reverse mortgage. Down payment requirements, closing costs, eligible properties, and HUD counseling process.',
+    date: '2026-03-23',
+    category: 'Reverse Mortgage',
+    readTime: '12 min read',
+  },
+  {
+    slug: 'heloc-interest-tax-deduction-rules-2026',
+    title: 'HELOC Interest Tax Deduction Rules: What Qualifies in 2026',
+    excerpt: 'HELOC interest tax deduction rules for 2026. Deductible when used for home improvements under TCJA. $750K mortgage debt limit, IRS requirements, and documentation needed.',
+    date: '2026-03-23',
+    category: 'Home Equity',
+    readTime: '12 min read',
+  },
   // ===== BATCH 26: 3 Refi + 2 HELOC + 3 HECM + 2 DSCR (Mar 12, 2026) =====
   {
     slug: 'refinance-trust-owned-property-california-2026',
