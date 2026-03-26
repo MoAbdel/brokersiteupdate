@@ -11,6 +11,31 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 28: 1 Refi + 1 HELOC + 1 DSCR (Mar 26, 2026) =====
+  {
+    slug: 'refinance-after-bankruptcy-waiting-periods-2026',
+    title: 'Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods [2026]',
+    excerpt: 'Refinance after bankruptcy with Mo Abdel NMLS #1426884. Chapter 7 requires 2-4 year waiting period, Chapter 13 requires 1-2 years. FHA, VA, Conventional options. Call (949) 579-2057.',
+    date: '2026-03-26',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'heloc-after-refinancing-timing-qualification-2026',
+    title: 'HELOC After Refinancing: When You Can Apply & How to Qualify [2026]',
+    excerpt: 'Apply for a HELOC after refinancing with proper timing. Most lenders require 6-12 months seasoning. CLTV limits, equity requirements, qualification steps. Mo Abdel NMLS #1426884.',
+    date: '2026-03-26',
+    category: 'Home Equity',
+    readTime: '11 min read',
+  },
+  {
+    slug: 'dscr-mid-term-rentals-corporate-housing-2026',
+    title: 'DSCR Loans for Mid-Term Rentals: Corporate Housing & Travel Nurse Properties [2026]',
+    excerpt: 'DSCR loans finance mid-term rentals (30-90 day stays) for corporate housing and travel nurses. Qualify on rental income, not tax returns. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    date: '2026-03-26',
+    category: 'DSCR',
+    readTime: '11 min read',
+  },
   // ===== BATCH 27: 1 Refi + 1 HELOC + 1 HECM (Mar 23, 2026) =====
   {
     slug: 'cash-out-refinance-ltv-limits-by-loan-type-2026',
