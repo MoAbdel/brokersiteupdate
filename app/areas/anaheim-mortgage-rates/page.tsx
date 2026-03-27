@@ -43,7 +43,9 @@ const anaheimData = {
     'Diverse housing options',
     'Strong rental market'
   ],
-  keywordPhrase: 'Anaheim mortgage pricing'
+  keywordPhrase: 'Anaheim mortgage pricing',
+  lat: 33.8366,
+  lng: -117.9143,
 };
 
 export default function AnaheimMortgageRatesPage() {

@@ -1,7 +1,21 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { JsonLd } from '@/app/(marketing)/components/Schema';
 import { SITE_ORIGIN } from '@/lib/site';
+import DefaultPageSchema from '@/components/seo/DefaultPageSchema';
+
+export const metadata: Metadata = {
+  openGraph: {
+    type: 'article',
+    authors: ['Mo Abdel'],
+    siteName: 'Mo Abdel | Mortgage Broker',
+  },
+  other: {
+    'article:author': 'Mo Abdel, NMLS #1426884',
+    'article:publisher': SITE_ORIGIN,
+  },
+};
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {
   const breadcrumbSchema = {
@@ -25,6 +39,11 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <>
+      <DefaultPageSchema
+        title="Mo Abdel | Mortgage Broker Blog"
+        description="Expert mortgage guidance for California and Washington homeowners from Mo Abdel, NMLS #1426884."
+        url={`${SITE_ORIGIN}/blog`}
+      />
       <JsonLd json={breadcrumbSchema} />
       {children}
       <section className="max-w-4xl mx-auto px-4 pb-12">

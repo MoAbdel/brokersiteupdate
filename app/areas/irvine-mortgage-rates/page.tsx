@@ -44,7 +44,9 @@ const irvineData = {
     'Master-planned communities',
     'Tech hub location'
   ],
-  keywordPhrase: 'Irvine mortgage rates'
+  keywordPhrase: 'Irvine mortgage rates',
+  lat: 33.6846,
+  lng: -117.8265,
 };
 
 export default function IrvineMortgageRatesPage() {

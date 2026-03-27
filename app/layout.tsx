@@ -90,6 +90,7 @@ export default function RootLayout({
         {/* Local SEO / Geo Tags - Critical for Bing Local Search */}
         <meta name="geo.region" content="US" />
         <meta name="geo.placename" content="California and Washington" />
+        <meta name="language" content="en" />
 
 
 

@@ -25,6 +25,8 @@ interface CityData {
   };
   localFactors: string[];
   keywordPhrase: string;
+  lat?: number;
+  lng?: number;
 }
 
 interface CityPageProps {
@@ -64,7 +66,16 @@ export function generateCityMetadata(cityData: CityData): Metadata {
       card: 'summary_large_image',
       title,
       description
-    }
+    },
+    other: {
+      'geo.region': 'US-CA',
+      'geo.placename': `${cityData.name}, California`,
+      ...(cityData.lat && cityData.lng ? {
+        'geo.position': `${cityData.lat};${cityData.lng}`,
+        'ICBM': `${cityData.lat}, ${cityData.lng}`,
+      } : {}),
+      language: 'en',
+    },
   };
 }
 

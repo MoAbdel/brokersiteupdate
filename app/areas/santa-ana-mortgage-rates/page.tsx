@@ -44,7 +44,9 @@ const santaAnaData = {
     'County government seat',
     'Diverse communities'
   ],
-  keywordPhrase: 'Santa Ana mortgage pricing'
+  keywordPhrase: 'Santa Ana mortgage pricing',
+  lat: 33.7455,
+  lng: -117.8677,
 };
 
 export default function SantaAnaMortgageRatesPage() {

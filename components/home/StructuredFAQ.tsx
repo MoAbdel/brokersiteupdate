@@ -84,9 +84,10 @@ export default function StructuredFAQ() {
               </dt>
               <dd
                 id={`faq-answer-${index}`}
-                className={`${
-                  openIndex === index ? 'block' : 'hidden'
-                } px-6 pb-4`}
+                className={`px-6 overflow-hidden transition-all duration-200 ${
+                  openIndex === index ? 'max-h-96 pb-4 opacity-100' : 'max-h-0 pb-0 opacity-0'
+                }`}
+                aria-hidden={openIndex !== index}
               >
                 <p className="text-slate-600 leading-relaxed">
                   {faq.answer}

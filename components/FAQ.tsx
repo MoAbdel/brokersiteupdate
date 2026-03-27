@@ -115,20 +115,19 @@ export default function FAQ({
                   </div>
                 </button>
                 
-                {isOpen && (
-                  <div
-                    id={`faq-answer-${index}`}
-                    className="px-6 pb-4"
-                    role="region"
-                    aria-labelledby={`faq-question-${index}`}
-                  >
-                    <div className="border-t border-slate-200 pt-4">
-                      <p className="text-slate-700 leading-relaxed">
-                        {faq.answer}
-                      </p>
-                    </div>
+                <div
+                  id={`faq-answer-${index}`}
+                  className={`px-6 overflow-hidden transition-all duration-200 ${isOpen ? 'max-h-96 pb-4 opacity-100' : 'max-h-0 pb-0 opacity-0'}`}
+                  role="region"
+                  aria-labelledby={`faq-question-${index}`}
+                  aria-hidden={!isOpen}
+                >
+                  <div className="border-t border-slate-200 pt-4">
+                    <p className="text-slate-700 leading-relaxed">
+                      {faq.answer}
+                    </p>
                   </div>
-                )}
+                </div>
               </div>
             );
           })}
