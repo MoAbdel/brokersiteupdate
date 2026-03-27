@@ -8,6 +8,8 @@ const MobileStickyCallButton = dynamic(() => import('@/components/MobileStickyCa
 const SupportBubble = dynamic(() => import('@/components/SupportBubble'), { ssr: false });
 const ExitIntentModal = dynamic(() => import('@/components/ExitIntentModal'), { ssr: false });
 const ConditionalSiteEnhancements = dynamic(() => import('@/components/ConditionalSiteEnhancements'), { ssr: false });
+const AccessibilityWidget = dynamic(() => import('@/components/AccessibilityWidget'), { ssr: false });
+const CookieBanner = dynamic(() => import('@/components/CookieBanner'), { ssr: false });
 
 export default function DeferredWidgets() {
   return (
@@ -18,6 +20,8 @@ export default function DeferredWidgets() {
       <ExitIntentModal />
       <SupportBubble />
       <MobileStickyCallButton />
+      <AccessibilityWidget />
+      <CookieBanner />
     </>
   );
 }
