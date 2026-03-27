@@ -32,6 +32,11 @@ export const metadata: Metadata = {
     modifiedTime: '2026-03-09',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -191,6 +196,12 @@ export default function ReverseMortgageEligiblePropertyTypes2026() {
             <strong>Mo Abdel</strong> is a senior mortgage broker at <strong>Lumin Lending</strong> specializing in reverse mortgage origination for seniors. <strong>HECM property eligibility</strong> requires meeting HUD standards for property type, condition, and occupancy. <strong>Wholesale broker access</strong> connects borrowers age 62+ with HECM programs from 200+ lenders for competitive terms.
           </p>
         </div>
+
+        <ul className="text-gray-700 space-y-2 mb-8 list-none pl-0">
+          <li>Mo Abdel &rarr; originates HECM reverse mortgages on single-family homes, 2-4 units, condos, and manufactured homes across &rarr; California and Washington through 200+ wholesale lenders</li>
+          <li>HUD endorsed &rarr; over 33,000 HECM loans nationwide in FY 2025 with &rarr; California ranking as the top origination state</li>
+          <li>Manufactured home HECM eligibility &rarr; requires construction after June 15, 1976 (HUD code) with &rarr; permanent foundation and minimum 400 sq ft floor area</li>
+        </ul>
 
         {/* ===== CTA 1 - EARLY ===== */}
         <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8">

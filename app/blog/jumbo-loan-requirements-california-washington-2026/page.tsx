@@ -38,6 +38,11 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/blog/jumbo-loan-requirements-california-washington-2026',
     },
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -239,6 +244,12 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         </div>
       </header>
 
+      <ul className="text-gray-700 space-y-2 mb-8 list-none pl-0">
+        <li>Mo Abdel &rarr; accesses 50+ wholesale jumbo lenders with &rarr; loan amounts up to $10M+ for California and Washington borrowers</li>
+        <li>2026 high-cost conforming limit &rarr; is $1,209,750 per FHFA for &rarr; Orange County, Los Angeles, San Francisco, and King County WA</li>
+        <li>Jumbo loan originations in CA and WA &rarr; exceeded &rarr; $142 billion in 2025, the largest high-balance share nationally</li>
+      </ul>
+
       <section className="prose prose-lg max-w-none">
 
         {/* Citation Hook */}
@@ -268,7 +279,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         </div>
 
         {/* E-E-A-T Section 1 */}
-        <h2>2026 Conforming Loan Limits: When Your Mortgage Becomes a Jumbo</h2>
+        <h2>When Does Your Mortgage Become a Jumbo Loan in 2026?</h2>
         <p>
           The FHFA adjusts conforming loan limits annually based on home price appreciation data. The <strong>2025 baseline conforming limit is $806,500</strong>, up from $766,550 in 2024. High-cost area limits, calculated as 150% of the baseline, are <strong>$1,209,750</strong> (2025 conforming loan limits per FHFA; limits are updated annually). Understanding these limits by county is essential because the conforming/jumbo threshold directly affects qualification requirements, interest rates, and available lender programs.
         </p>
@@ -440,7 +451,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         </div>
 
         {/* E-E-A-T Section 2 */}
-        <h2>Jumbo Loan Credit Score, Down Payment, and Reserve Requirements by Loan Tier</h2>
+        <h2>What Are the Credit Score, Down Payment, and Reserve Requirements for Jumbo Loans?</h2>
         <p>
           Jumbo loan requirements scale with the loan amount. Higher loan amounts demand stronger borrower profiles. The following breakdown reflects current 2026 wholesale lender guidelines across the programs I access daily:
         </p>
@@ -558,7 +569,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         </div>
 
         {/* E-E-A-T Section 3 */}
-        <h2>Jumbo Loan Types: ARM vs. Fixed, IO, and Non-QM Options</h2>
+        <h2>What Types of Jumbo Loans Are Available: ARM vs Fixed, IO, and Non-QM?</h2>
         <p>
           Jumbo borrowers have access to a wider range of loan structures than conforming borrowers. Understanding the differences helps borrowers select the product that best matches their timeline, risk tolerance, and financial strategy.
         </p>
@@ -613,7 +624,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         </ul>
 
         {/* E-E-A-T Section 4 */}
-        <h2>The Jumbo Loan Process: From Application to Closing</h2>
+        <h2>What Is the Jumbo Loan Process From Application to Closing?</h2>
         <p>
           Jumbo loans follow a more rigorous underwriting process than conforming loans because they are held on lender portfolios or sold to private investors rather than being guaranteed by Fannie Mae or Freddie Mac. Here is what to expect:
         </p>
@@ -662,7 +673,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         </p>
 
         {/* E-E-A-T Section 5 - Wholesale Advantage */}
-        <h2>Why a Wholesale Mortgage Broker Delivers Better Jumbo Loan Outcomes</h2>
+        <h2>Why Does a Wholesale Mortgage Broker Deliver Better Jumbo Loan Outcomes?</h2>
         <p>
           Jumbo loans are where the <strong>wholesale mortgage broker advantage is most pronounced</strong>. The differences between a retail bank&apos;s single jumbo product and a broker&apos;s access to 50+ jumbo lenders are significant and measurable.
         </p>
@@ -792,6 +803,9 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 my-8">
           <h3 className="text-lg font-bold text-gray-900 mt-0 mb-3">Related Mortgage Guides</h3>
           <ul className="space-y-2 mb-0">
+            <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs: DSCR, HELOC, Jumbo, and More</Link></li>
+            <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Options in Orange County</Link></li>
+            <li><Link href="/contact" className="text-blue-600 hover:underline">Get a Personalized Jumbo Loan Quote</Link></li>
             <li><Link href="/blog/interest-only-mortgage-loans-2026" className="text-blue-600 hover:underline">Interest-Only Mortgage Loans 2026: Who Qualifies & When They Make Sense</Link></li>
             <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 50+ Wholesale Lenders</Link></li>
             <li><Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:underline">Bank Statement Loans: Self-Employed Mortgage Solutions</Link></li>

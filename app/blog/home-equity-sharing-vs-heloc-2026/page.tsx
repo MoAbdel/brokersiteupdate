@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-19',
     authors: ['Mo Abdel'],
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -159,6 +164,12 @@ export default function HomeEquitySharingVsHeloc2026() {
         <p className="text-xs text-blue-200 mt-4">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Licensed in CA &amp; WA</p>
       </header>
 
+      <ul className="text-slate-700 space-y-2 mb-8 list-none pl-0">
+        <li>Mo Abdel &rarr; compares HELOC options from 50+ wholesale lenders against &rarr; equity sharing agreements from Hometap, Unison, and Point for CA and WA homeowners</li>
+        <li>Equity sharing companies &rarr; claim 15-40% of home appreciation over &rarr; a 10-30 year term, costing $30K-$80K on a home that appreciates $200K</li>
+        <li>Orange County median home appreciation &rarr; averaged 5-8% annually in &rarr; desirable markets from 2020-2025 per CoreLogic data</li>
+      </ul>
+
       {/* Citation Hook */}
       <section className="mb-12">
         <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-8">
@@ -236,7 +247,7 @@ export default function HomeEquitySharingVsHeloc2026() {
       <section className="mb-12">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6 flex items-center gap-3">
           <Shield className="w-7 h-7 text-blue-600" />
-          Complete Product Comparison: Equity Sharing vs HELOC vs HELOAN vs Cash-Out Refinance
+          How Does Equity Sharing Compare to a HELOC, HELOAN, and Cash-Out Refinance?
         </h2>
         <p className="text-slate-600 mb-6">
           This side-by-side comparison covers every major equity access product available to California and Washington homeowners in 2026.
@@ -619,7 +630,7 @@ export default function HomeEquitySharingVsHeloc2026() {
       <section className="mb-12">
         <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6 flex items-center gap-3">
           <Calculator className="w-7 h-7 text-blue-600" />
-          Data Hub: True Cost of Equity Sharing vs HELOC Over Time
+          What Is the True Cost of Equity Sharing vs a HELOC Over 10, 20, and 30 Years?
         </h2>
         <p className="text-slate-600 mb-6">
           The tables below illustrate the total cost difference between a $100,000 equity share (with 25% appreciation share)
@@ -845,6 +856,9 @@ export default function HomeEquitySharingVsHeloc2026() {
       {/* Cross-Links */}
       <section className="mb-12">
         <h2 className="text-xl font-bold text-slate-900 mb-4">Related Home Equity Guides</h2>
+        <p className="text-slate-600 mb-4">
+          Explore additional equity access options: compare <Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC programs in Orange County</Link>, review <Link href="/heloan-orange-county" className="text-blue-600 hover:underline">HELOAN fixed-rate options</Link>, or learn about <Link href="/loan-programs" className="text-blue-600 hover:underline">all available loan programs</Link> through Mo Abdel at Lumin Lending. Homeowners considering a <Link href="/areas/irvine-cash-out-refinance" className="text-blue-600 hover:underline">cash-out refinance in Irvine</Link> can compare that option against both HELOCs and equity sharing.
+        </p>
         <div className="grid md:grid-cols-3 gap-4">
           <Link href="/blog/heloc-complete-guide-2026" className="border border-slate-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md transition-all group">
             <h3 className="font-bold text-slate-900 group-hover:text-blue-600 mb-2">HELOC Complete Guide 2026</h3>

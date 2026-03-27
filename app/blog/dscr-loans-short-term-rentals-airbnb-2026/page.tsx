@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -150,8 +155,14 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
               DSCR Loans for Airbnb &amp; Short-Term Rentals 2026: Qualify Using STR Income, No Tax Returns
             </h1>
 
+            <p className="text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
+              According to Mo Abdel, NMLS #1426884, short-term rental investors using Airbnb, VRBO, and Booking.com are turning to DSCR loans to finance vacation rental properties at record pace. AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue.
+            </p>
+            <p className="text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed">
+              Airbnb&apos;s Q4 2025 earnings disclosed 448 million nights and experiences booked globally &mdash; a 12% year-over-year increase. The average California Airbnb host earned $41,000 in annual revenue in 2025 according to AirDNA MarketMinder data, with coastal Orange County and San Juan Islands markets averaging significantly higher.
+            </p>
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884, short-term rental investors using Airbnb, VRBO, and Booking.com are turning to DSCR loans to finance vacation rental properties at record pace. AirDNA reports over 1.5 million active short-term rental listings across the U.S. in 2025, with California and Washington ranking among the top 5 states for STR revenue. Airbnb&apos;s Q4 2025 earnings disclosed 448 million nights and experiences booked globally &mdash; a 12% year-over-year increase &mdash; signaling sustained demand that directly impacts STR investor returns. The average California Airbnb host earned $41,000 in annual revenue in 2025 according to AirDNA MarketMinder data, with coastal markets in Orange County and the San Juan Islands averaging significantly higher. Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. With over 50+ Wholesale Lenders offering STR-specific DSCR programs in February 2026, the financing landscape for vacation rental investors has never been more competitive.
+              Unlike conventional mortgages that ignore STR income potential, DSCR loans qualify investors based on the property&apos;s actual or projected short-term rental revenue &mdash; no W-2s, no tax returns, no income verification required. Over 50+ Wholesale Lenders now offer STR-specific DSCR programs in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -176,19 +187,34 @@ export default function DSCRLoansShortTermRentalsAirbnb2026() {
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
 
+        <ul className="text-slate-700 space-y-2 mb-8 list-none pl-0">
+          <li>Mo Abdel &rarr; closes STR DSCR loans across California and Washington with &rarr; 50+ wholesale lenders accepting AirDNA income projections</li>
+          <li>Average California Airbnb host &rarr; earned &rarr; $41,000 annual revenue in 2025 per AirDNA MarketMinder data</li>
+          <li>STR DSCR loan programs &rarr; require minimum ratios as low as &rarr; 0.75 with 25% down and 720+ credit scores</li>
+        </ul>
+
         {/* What Are DSCR Loans for STRs */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
             What Is a DSCR Loan for Short-Term Rentals and How Does It Work?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            A DSCR loan for short-term rentals is a non-QM mortgage product designed specifically for investors who operate or plan to operate properties on platforms like Airbnb, VRBO, Booking.com, and other vacation rental marketplaces. The loan qualification is based entirely on the property&apos;s short-term rental income potential rather than the borrower&apos;s personal income, W-2s, or tax returns.
+            A DSCR loan for short-term rentals is a non-QM mortgage product designed specifically for investors who operate or plan to operate properties on platforms like Airbnb, VRBO, Booking.com, and other vacation rental marketplaces.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            The fundamental mechanics mirror traditional DSCR lending: the property&apos;s gross rental income is divided by the total monthly mortgage payment (PITIA) to produce a debt service coverage ratio. The critical difference lies in how rental income is determined. Instead of using a signed long-term lease or the appraiser&apos;s 1007 rent schedule, STR DSCR lenders accept income data from short-term rental analytics platforms like AirDNA, actual booking history from Airbnb and VRBO host accounts, or a combination of both.
+            The loan qualification is based entirely on the property&apos;s short-term rental income potential rather than the borrower&apos;s personal income, W-2s, or tax returns.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            The STR DSCR lending market has expanded significantly since 2023. According to industry estimates, vacation rental properties financed through DSCR programs grew by over 40% between 2024 and 2025, driven by investor demand and the maturation of income verification tools like AirDNA. By 2026, STR-specific DSCR programs are available from dozens of wholesale lenders, creating competitive pricing that benefits borrowers who shop through wholesale broker channels.
+            The fundamental mechanics mirror traditional DSCR lending: the property&apos;s gross rental income is divided by the total monthly mortgage payment (PITIA) to produce a debt service coverage ratio. The critical difference lies in how rental income is determined.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            Instead of using a signed long-term lease or the appraiser&apos;s 1007 rent schedule, STR DSCR lenders accept income data from short-term rental analytics platforms like AirDNA, actual booking history from Airbnb and VRBO host accounts, or a combination of both.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            The STR DSCR lending market has expanded significantly since 2023. According to industry estimates, vacation rental properties financed through DSCR programs grew by over 40% between 2024 and 2025, driven by investor demand and the maturation of income verification tools like AirDNA.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            By 2026, STR-specific DSCR programs are available from dozens of wholesale lenders, creating competitive pricing that benefits borrowers who shop through wholesale broker channels.
           </p>
 
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">

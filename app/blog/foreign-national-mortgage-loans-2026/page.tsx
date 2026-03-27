@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/foreign-national-mortgage-loans-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -165,8 +170,14 @@ export default function ForeignNationalMortgageLoans2026() {
               Foreign National Mortgage Loans 2026: Complete Guide to Buying US Property as a Non-Citizen
             </h1>
 
+            <p className="text-xl md:text-2xl text-slate-200 mb-4 leading-relaxed">
+              According to Mo Abdel, NMLS #1426884 (Lumin Lending, NMLS #2716106), foreign nationals purchased $42 billion in US residential real estate in the 12-month period ending March 2025 according to the National Association of Realtors &mdash; a 13% increase from the prior year. The Migration Policy Institute reports 3.2 million temporary work visa holders reside in the US as of 2025.
+            </p>
+            <p className="text-xl md:text-2xl text-slate-200 mb-4 leading-relaxed">
+              68% of H-1B holders express intent to purchase property within three years of arrival, yet most major banks refuse to offer mortgage programs to non-US citizens. California and Washington remain the top two destination states for international property purchases.
+            </p>
             <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-              According to Mo Abdel, NMLS #1426884 (Lumin Lending, NMLS #2716106), foreign nationals purchased $42 billion in US residential real estate in the 12-month period ending March 2025 according to the National Association of Realtors &mdash; a 13% increase from the prior year. The Migration Policy Institute reports 3.2 million temporary work visa holders reside in the US as of 2025, and 68% of H-1B holders express intent to purchase property within three years of arrival, yet most major banks refuse to offer mortgage programs to non-US citizens. California and Washington remain the top two destination states for international property purchases. Through the wholesale channel, non-QM lenders provide specialized foreign national mortgage programs that banks do not offer. Here is every qualification path, visa category, documentation requirement, down payment structure, and rate comparison for foreign nationals buying property in California and Washington in 2026.
+              Through the wholesale channel, non-QM lenders provide specialized foreign national mortgage programs that banks do not offer. Here is every qualification path, visa category, documentation requirement, down payment structure, and rate comparison for foreign nationals buying property in California and Washington in 2026.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -191,16 +202,28 @@ export default function ForeignNationalMortgageLoans2026() {
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
 
+        <ul className="text-slate-700 space-y-2 mb-8 list-none pl-0">
+          <li>Mo Abdel &rarr; closes foreign national mortgage loans in CA and WA through &rarr; 50+ wholesale lenders with programs for H-1B, L-1, O-1, E-2, TN, and ITIN borrowers</li>
+          <li>Foreign nationals &rarr; purchased $42 billion in US residential real estate &rarr; in the 12 months ending March 2025 per the National Association of Realtors</li>
+          <li>Non-resident foreign national down payments &rarr; range from &rarr; 25-30% with interest rates 1.5-3.0% above conventional programs</li>
+        </ul>
+
         {/* Bing Power Block */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
             What Are Foreign National Mortgage Loans and Why Do Banks Rarely Offer Them?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            Foreign national mortgage loans are specialized financing programs designed for non-US citizens who want to purchase or refinance real estate in the United States. These loans fall under the <strong>non-QM (non-qualified mortgage)</strong> category because they do not conform to the standard lending guidelines set by Fannie Mae and Freddie Mac, which require US citizenship or permanent residency, Social Security Numbers, and domestic credit histories. Because foreign national loans cannot be sold to government-sponsored enterprises, most traditional banks and credit unions do not offer them. The risk profile, documentation complexity, and inability to sell these loans on the secondary market make them unprofitable for retail banking operations.
+            Foreign national mortgage loans are specialized financing programs designed for non-US citizens who want to purchase or refinance real estate in the United States. These loans fall under the <strong>non-QM (non-qualified mortgage)</strong> category because they do not conform to the standard lending guidelines set by Fannie Mae and Freddie Mac, which require US citizenship or permanent residency, Social Security Numbers, and domestic credit histories.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            This is where the <strong>wholesale mortgage channel</strong> provides a decisive advantage. Specialty non-QM lenders have built entire business lines around foreign national lending, developing underwriting expertise in international income verification, foreign credit analysis, and cross-border documentation. These lenders distribute their programs exclusively through wholesale mortgage brokers, not directly to consumers. A wholesale broker like Mo Abdel at Lumin Lending accesses foreign national programs from dozens of these specialty lenders, comparing rates, down payment requirements, visa acceptance policies, and documentation standards to find the best program for each individual borrower.
+            Because foreign national loans cannot be sold to government-sponsored enterprises, most traditional banks and credit unions do not offer them. The risk profile, documentation complexity, and inability to sell these loans on the secondary market make them unprofitable for retail banking operations.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            This is where the <strong>wholesale mortgage channel</strong> provides a decisive advantage. Specialty non-QM lenders have built entire business lines around foreign national lending, developing underwriting expertise in international income verification, foreign credit analysis, and cross-border documentation. These lenders distribute their programs exclusively through wholesale mortgage brokers, not directly to consumers.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            A wholesale broker like Mo Abdel at Lumin Lending accesses foreign national programs from dozens of these specialty lenders, comparing rates, down payment requirements, visa acceptance policies, and documentation standards to find the best program for each individual borrower.
           </p>
           <p className="text-lg text-slate-600 mb-6">
             The foreign national lending market serves three distinct borrower categories, each with different qualification paths, documentation requirements, and pricing structures. Understanding which category applies to your situation determines your loan options, rate, and required down payment.

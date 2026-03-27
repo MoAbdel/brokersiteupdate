@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loans-multi-family-2-4-unit-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -191,16 +196,28 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
 
+        <ul className="text-slate-700 space-y-2 mb-8 list-none pl-0">
+          <li>Mo Abdel &rarr; closed 38% of 2025 California DSCR loans on &rarr; multi-family 2-4 unit properties with an average DSCR ratio of 1.24</li>
+          <li>Fourplex DSCR ratios &rarr; typically range from 1.20-1.35 vs. &rarr; 1.05-1.15 on comparable single-family rentals in the same market</li>
+          <li>Multi-family DSCR down payments &rarr; range from 20-30% depending on &rarr; unit count, with duplexes at 20-25% and fourplexes at 25-30%</li>
+        </ul>
+
         {/* Bing Power Block: Why Multi-Family DSCR */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
             Why Are DSCR Loans the Dominant Financing Tool for 2&ndash;4 Unit Investment Properties?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            DSCR loans eliminate the two largest barriers that prevent investors from acquiring multi-family properties: personal income documentation and debt-to-income ratio constraints. Conventional lenders require full tax returns, W-2s, and employment verification, then calculate how the new property&apos;s debt stacks against the borrower&apos;s total obligations. For investors with complex tax situations, multiple existing properties, or self-employment income that shows lower on paper than actual cash flow, conventional qualification becomes increasingly restrictive with each additional unit.
+            DSCR loans eliminate the two largest barriers that prevent investors from acquiring multi-family properties: personal income documentation and debt-to-income ratio constraints. Conventional lenders require full tax returns, W-2s, and employment verification, then calculate how the new property&apos;s debt stacks against the borrower&apos;s total obligations.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            DSCR loans flip the qualification entirely to the property&apos;s income-producing ability. The formula is straightforward: <strong>DSCR = Total Gross Rental Income &divide; Total PITIA (Principal, Interest, Taxes, Insurance, Association Dues)</strong>. For multi-family properties, this calculation inherently favors the investor because 2, 3, or 4 separate rent checks aggregate into a single income figure against one mortgage payment. A fourplex collecting $2,200 per unit ($8,800 total) with a $6,800 PITIA produces a 1.29 DSCR &mdash; comfortably above the 1.0 minimum that most lenders require.
+            For investors with complex tax situations, multiple existing properties, or self-employment income that shows lower on paper than actual cash flow, conventional qualification becomes increasingly restrictive with each additional unit.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            DSCR loans flip the qualification entirely to the property&apos;s income-producing ability. The formula is straightforward: <strong>DSCR = Total Gross Rental Income &divide; Total PITIA (Principal, Interest, Taxes, Insurance, Association Dues)</strong>.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            For multi-family properties, this calculation inherently favors the investor because 2, 3, or 4 separate rent checks aggregate into a single income figure against one mortgage payment. A fourplex collecting $2,200 per unit ($8,800 total) with a $6,800 PITIA produces a 1.29 DSCR &mdash; comfortably above the 1.0 minimum that most lenders require. Explore all available programs on our <Link href="/loan-programs/dscr-investment-loans">DSCR investment loans</Link> page.
           </p>
 
           {/* Experience Marker 1 */}
@@ -248,7 +265,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
         {/* DSCR Requirements by Unit Count Table */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            DSCR Loan Requirements by Unit Count: Duplex vs Triplex vs Fourplex
+            What Are the DSCR Loan Requirements for Duplexes, Triplexes, and Fourplexes?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             DSCR requirements tighten incrementally as unit count increases. Lenders view higher unit counts as slightly more complex collateral, which translates to higher down payment minimums and, in some cases, higher DSCR thresholds. The table below reflects typical wholesale lender guidelines across the 50+ Wholesale Lenders accessible through our broker channel.
@@ -329,7 +346,10 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
             How Does Multi-Unit DSCR Differ from Single-Family Rental DSCR?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            The structural advantage of multi-family DSCR is income diversification. A single-family rental produces one rent check; if that tenant vacates, income drops to zero. A fourplex produces four rent checks, and even with one vacancy, 75% of the income stream remains intact. This income resilience is exactly why DSCR lenders view multi-family properties more favorably than single-family rentals at equivalent loan amounts.
+            The structural advantage of multi-family DSCR is income diversification. A single-family rental produces one rent check; if that tenant vacates, income drops to zero. A fourplex produces four rent checks, and even with one vacancy, 75% of the income stream remains intact.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            This income resilience is exactly why DSCR lenders view multi-family properties more favorably than single-family rentals at equivalent loan amounts.
           </p>
           <p className="text-lg text-slate-600 mb-6">
             The practical impact: multi-family properties naturally produce higher DSCR ratios because the price-to-rent ratio is more favorable. A single-family home in Orange County might sell for $900,000 and rent for $3,200/month. A fourplex in the same market might sell for $1,800,000 (2x the price) but generate $9,600/month in combined rents (3x the income). That disproportionate rent-to-price advantage translates directly into stronger DSCR ratios and better loan terms.
@@ -678,7 +698,7 @@ export default function DSCRLoansMultiFamily2to4Unit2026() {
         {/* Property Management & Insurance */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Property Management &amp; Insurance Considerations for Multi-Family DSCR Loans
+            What Are the Insurance and Property Management Requirements for Multi-Family DSCR Loans?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Two operational factors directly affect multi-family DSCR qualification: property management costs and insurance premiums. Both feed into the PITIA calculation and can push a borderline DSCR ratio below the qualifying threshold if not accounted for during acquisition analysis.

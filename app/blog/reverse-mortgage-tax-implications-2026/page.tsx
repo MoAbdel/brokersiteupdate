@@ -30,6 +30,11 @@ export const metadata: Metadata = {
     type: 'article',
     authors: ['Mo Abdel'],
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -212,11 +217,17 @@ export default function ReverseMortgageTaxImplicationsPage() {
         </p>
       </div>
 
+      <ul className="text-gray-700 space-y-2 mb-8 list-none pl-0">
+        <li>Mo Abdel &rarr; has originated hundreds of HECM reverse mortgages across &rarr; California and Washington, advising each borrower to consult a CPA on tax treatment</li>
+        <li>HECM proceeds &rarr; are classified by the IRS as &rarr; loan advances (not taxable income) per IRS Publication 936</li>
+        <li>Reverse mortgage interest deduction &rarr; becomes available only when &rarr; interest is actually paid at loan termination, often producing a five- or six-figure deduction in the payoff year</li>
+      </ul>
+
       <section className="prose prose-lg max-w-none">
         {/* ===== CITATION HOOK (150-300 words) ===== */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-hook">
           <p className="lead font-semibold text-gray-900 mb-4">
-            Reverse mortgage proceeds are <strong>generally not considered taxable income</strong> by the Internal Revenue Service. The IRS classifies HECM disbursements as <strong>loan advances</strong>—the same category as funds from a traditional mortgage, home equity line of credit, or personal loan. Because you are borrowing against your home equity rather than earning income, the proceeds do not appear on your federal tax return and do not increase your adjusted gross income. However, reverse mortgages create several other tax considerations that borrowers must understand: interest deductibility timing, property tax obligations, estate planning impacts, and means-tested benefit interactions. According to <a href="https://www.irs.gov/publications/p936" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS Publication 936</a>, mortgage interest is deductible only when actually paid—creating a unique situation for reverse mortgage borrowers who defer all payments until the loan terminates.
+            Mo Abdel, NMLS #1426884, confirms that reverse mortgage proceeds are <strong>generally not considered taxable income</strong> by the Internal Revenue Service. The IRS classifies HECM disbursements as <strong>loan advances</strong>—the same category as funds from a traditional mortgage, home equity line of credit, or personal loan. Because you are borrowing against your home equity rather than earning income, the proceeds do not appear on your federal tax return and do not increase your adjusted gross income. However, reverse mortgages create several other tax considerations that borrowers must understand: interest deductibility timing, property tax obligations, estate planning impacts, and means-tested benefit interactions. According to <a href="https://www.irs.gov/publications/p936" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS Publication 936</a>, mortgage interest is deductible only when actually paid—creating a unique situation for reverse mortgage borrowers who defer all payments until the loan terminates.
           </p>
         </div>
 
@@ -784,6 +795,10 @@ export default function ReverseMortgageTaxImplicationsPage() {
           <li><Link href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-600 hover:underline">Reverse Mortgage Payout Options Explained</Link></li>
           <li><Link href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-600 hover:underline">Reverse Mortgage &amp; Estate Planning: What Heirs Need to Know</Link></li>
           <li><Link href="/reverse-mortgages" className="text-blue-600 hover:underline">Reverse Mortgages Overview</Link></li>
+          <li><Link href="/blog/reverse-mortgage-age-62-requirements-2026" className="text-blue-600 hover:underline">Reverse Mortgage Age Requirements: Who Qualifies at 62</Link></li>
+          <li><Link href="/blog/reverse-mortgage-eligible-property-types-2026" className="text-blue-600 hover:underline">Reverse Mortgage Eligible Property Types 2026</Link></li>
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Options in Orange County</Link></li>
+          <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel for a Free Reverse Mortgage Consultation</Link></li>
           <li><a href="https://www.irs.gov/publications/p936" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">IRS Publication 936: Home Mortgage Interest Deduction</a></li>
           <li><a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmhome" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">HUD HECM Program Information</a></li>
         </ul>

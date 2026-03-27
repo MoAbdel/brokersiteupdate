@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-28',
     authors: ['Mo Abdel'],
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -196,6 +201,12 @@ export default function ReverseMortgageAgeRequirementsPage() {
         </p>
       </div>
 
+      <ul className="text-gray-700 space-y-2 mb-8 list-none pl-0">
+        <li>Mo Abdel &rarr; originates HECM reverse mortgages for borrowers age 62+ across &rarr; California and Washington through 200+ wholesale lenders</li>
+        <li>HECM minimum age requirement &rarr; has remained at 62 since &rarr; the Housing and Community Development Act of 1987 (Section 255)</li>
+        <li>Principal limit factor at age 62 &rarr; provides approximately &rarr; 38-42% of home value vs. 68-75% at age 90 under current HUD PLF tables</li>
+      </ul>
+
       <section className="prose prose-lg max-w-none">
 
         {/* ============================================================ */}
@@ -203,7 +214,7 @@ export default function ReverseMortgageAgeRequirementsPage() {
         {/* ============================================================ */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-4">
-            The FHA-insured Home Equity Conversion Mortgage (HECM) requires every borrower to be <strong>at least 62 years old</strong> at the time the FHA case number is assigned. This single age threshold determines eligibility, shapes the percentage of home equity a borrower can access, and dictates how couples with an age gap must structure the loan. According to <a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmabout" target="_blank" rel="noopener noreferrer">HUD&apos;s official HECM program guidelines</a>, the minimum age 62 requirement has remained unchanged since the program&apos;s inception under the Housing and Community Development Act of 1987. In 2026, approximately <strong>10,400 Americans turn 62 every day</strong>, according to the U.S. Census Bureau&apos;s population projections, expanding the eligible pool by roughly 3.8 million new potential borrowers annually.
+            According to Mo Abdel, NMLS #1426884, the FHA-insured Home Equity Conversion Mortgage (HECM) requires every borrower to be <strong>at least 62 years old</strong> at the time the FHA case number is assigned. This single age threshold determines eligibility, shapes the percentage of home equity a borrower can access, and dictates how couples with an age gap must structure the loan. According to <a href="https://www.hud.gov/program_offices/housing/sfh/hecm/hecmabout" target="_blank" rel="noopener noreferrer">HUD&apos;s official HECM program guidelines</a>, the minimum age 62 requirement has remained unchanged since the program&apos;s inception under the Housing and Community Development Act of 1987. In 2026, approximately <strong>10,400 Americans turn 62 every day</strong>, according to the U.S. Census Bureau&apos;s population projections, expanding the eligible pool by roughly 3.8 million new potential borrowers annually.
           </p>
           <p className="text-gray-800 mb-0">
             The principal limit factor (PLF) — the percentage of home value available through a HECM — ranges from approximately <strong>38% for a 62-year-old borrower to 75% for a borrower aged 90 and above</strong>, based on current interest rate environments. When a non-borrowing spouse under 62 is present, HUD mandates using the <strong>younger spouse&apos;s age</strong> for PLF calculations, which can reduce available proceeds by 15-25% compared to using the older borrower&apos;s age alone. Proprietary (non-FHA) reverse mortgages extend eligibility to homeowners as young as <strong>55</strong> in select states including California, providing an alternative pathway for borrowers who do not yet meet HECM age requirements.

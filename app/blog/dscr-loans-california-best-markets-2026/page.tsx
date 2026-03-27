@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loans-california-best-markets-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -202,14 +207,26 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
             </ul>
           </div>
 
+          <ul className="text-slate-700 space-y-2 mb-8 list-none pl-0">
+            <li>Mo Abdel &rarr; compares DSCR loan options from 50+ wholesale lenders for &rarr; California investors targeting markets from Fresno to Orange County</li>
+            <li>CoreLogic Q1 2026 Investor Report &rarr; shows CA investor-purchased properties rose &rarr; 18% year-over-year with DSCR originations leading non-QM growth</li>
+            <li>Inland Empire DSCR ratios &rarr; range from 1.15-1.30 on 25% down purchases vs. &rarr; 0.75-0.90 in coastal Orange County for long-term rentals</li>
+          </ul>
+
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            California DSCR Market Overview: Why Market Selection Matters
+            Why Does California DSCR Market Selection Determine Investor Returns in 2026?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
-            DSCR (Debt Service Coverage Ratio) measures whether a rental property&apos;s income covers its mortgage payment. A DSCR of 1.0 means the rent exactly equals the monthly PITIA (principal, interest, taxes, insurance, and association dues). Above 1.0 indicates positive cash flow; below 1.0 means the investor must supplement the payment from personal funds. California&apos;s massive price variation &mdash; from $250,000 homes in the Central Valley to $2,000,000+ properties in coastal Orange County &mdash; creates equally massive DSCR variation across markets.
+            DSCR (Debt Service Coverage Ratio) measures whether a rental property&apos;s income covers its mortgage payment. A DSCR of 1.0 means the rent exactly equals the monthly PITIA (principal, interest, taxes, insurance, and association dues). Above 1.0 indicates positive cash flow; below 1.0 means the investor must supplement the payment from personal funds.
           </p>
           <p className="text-lg text-slate-600 mb-6">
-            The critical insight most investors miss: <strong>rent-to-price ratios drive DSCR performance more than absolute price levels.</strong> A $400,000 property renting for $2,800/month (0.7% monthly rent-to-price ratio) produces a materially different DSCR outcome than a $900,000 property renting for $4,200/month (0.47% ratio), even though the second property generates more gross rent. Market selection determines where favorable rent-to-price ratios exist at scale.
+            California&apos;s massive price variation &mdash; from $250,000 homes in the Central Valley to $2,000,000+ properties in coastal Orange County &mdash; creates equally massive DSCR variation across markets.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            The critical insight most investors miss: <strong>rent-to-price ratios drive DSCR performance more than absolute price levels.</strong> A $400,000 property renting for $2,800/month (0.7% monthly rent-to-price ratio) produces a materially different DSCR outcome than a $900,000 property renting for $4,200/month (0.47% ratio), even though the second property generates more gross rent.
+          </p>
+          <p className="text-lg text-slate-600 mb-6">
+            Market selection determines where favorable rent-to-price ratios exist at scale. For multi-family DSCR opportunities, see our <Link href="/blog/dscr-loans-multi-family-2-4-unit-2026">DSCR loans for 2-4 unit properties guide</Link>.
           </p>
 
           <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
@@ -265,7 +282,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
             <PieChart className="w-8 h-8 inline-block mr-2 text-blue-600" />
-            California DSCR Market Comparison: 10 Major Metros Ranked
+            How Do California&apos;s 10 Major DSCR Markets Compare for Investors?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The table below compares California&apos;s major investment markets across key DSCR metrics. Median price and rent figures are approximate market averages for single-family rental properties. Estimated DSCR assumes a standard 25% down DSCR loan with typical non-QM pricing. These are estimates for comparison purposes and will vary based on the specific property, loan terms, and lender selected.
@@ -498,7 +515,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
         {/* E-E-A-T Narrative Section 3 */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Short-Term Rental DSCR Opportunities in California Vacation Markets
+            What Are the Best California Vacation Markets for Short-Term Rental DSCR Loans?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             California&apos;s vacation rental markets represent the highest-DSCR opportunities in the state for investors willing to operate short-term rentals. The key variable: <strong>STR regulations are set at the city level</strong>, and the difference between a permitted and non-permitted zone determines whether the strategy is viable.
@@ -527,7 +544,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
         {/* E-E-A-T Narrative Section 4 */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Emerging California Markets Investors Are Targeting for DSCR Deals
+            Which Emerging California Markets Are Investors Targeting for DSCR Deals?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Beyond the established DSCR-friendly markets, several California metros are emerging as targets for DSCR investors in 2026. These markets share a common profile: growing employment bases, below-state-average home prices, and rent growth that is outpacing price appreciation (improving rent-to-price ratios over time).
@@ -626,7 +643,7 @@ export default function DscrLoansCaliforniaBestMarkets2026() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
             <BookOpen className="w-8 h-8 inline-block mr-2 text-blue-600" />
-            Data Hub: California Price-to-Rent Ratio Analysis by Market
+            What Are the Price-to-Rent Ratios Across California DSCR Markets?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Price-to-rent ratio is the inverse perspective of rent-to-price ratio and indicates how many years of rent it takes to equal the purchase price. Lower ratios indicate more favorable DSCR environments. Markets below 15 are generally DSCR-viable for long-term rentals at standard leverage; markets above 20 typically require STR income or larger down payments.
