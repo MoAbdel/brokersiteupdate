@@ -254,6 +254,22 @@ module.exports = {
     '/orange-county-conventional-loans',
     '/quiz',
     '/admin',
+    // Noindexed thin city pages (Phase 3 cleanup)
+    '/areas/dana-point-mortgage-broker',
+    '/areas/laguna-niguel-mortgage-broker',
+    '/areas/yorba-linda-mortgage-broker',
+    '/areas/laguna-beach-mortgage-broker',
+    '/areas/laguna-woods-mortgage-broker',
+    '/areas/fountain-valley-mortgage-broker',
+    '/areas/garden-grove-mortgage-broker',
+    '/areas/orange-mortgage-broker',
+    '/areas/westminster-mortgage-broker',
+    '/areas/fullerton-mortgage-broker',
+    '/areas/laguna-niguel-mortgage-rates',
+    '/areas/yorba-linda-mortgage-rates',
+    '/areas/fountain-valley-mortgage-rates',
+    '/areas/garden-grove-mortgage-rates',
+    '/areas/santa-ana-refinance-rates',
   ],
   robotsTxtOptions: {
     policies: [

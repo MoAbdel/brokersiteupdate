@@ -31,7 +31,10 @@ const orangeData = {
   keywordPhrase: 'Orange mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(orangeData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(orangeData),
+  robots: { index: false, follow: true },
+};
 
 export default function OrangeMortgageBrokerPage() {
   return <CityPageTemplate cityData={orangeData} />;

@@ -46,6 +46,7 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/areas/garden-grove-mortgage-broker',
     },
   },
+  robots: { index: false, follow: true },
 };
 
 export default function GardenGroveMortgageBrokerPage() {

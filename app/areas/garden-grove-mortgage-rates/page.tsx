@@ -17,6 +17,7 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/areas/garden-grove-mortgage-rates',
     },
   },
+  robots: { index: false, follow: true },
 };
 
 const gardenGroveData = {

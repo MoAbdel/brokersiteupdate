@@ -31,7 +31,10 @@ const yorbaLindaData = {
   keywordPhrase: 'Yorba Linda mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(yorbaLindaData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(yorbaLindaData),
+  robots: { index: false, follow: true },
+};
 
 export default function YorbaLindaMortgageBrokerPage() {
   return <CityPageTemplate cityData={yorbaLindaData} />;

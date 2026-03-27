@@ -31,7 +31,10 @@ const fullertonData = {
   keywordPhrase: 'Fullerton mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(fullertonData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(fullertonData),
+  robots: { index: false, follow: true },
+};
 
 export default function FullertonMortgageBrokerPage() {
   return <CityPageTemplate cityData={fullertonData} />;

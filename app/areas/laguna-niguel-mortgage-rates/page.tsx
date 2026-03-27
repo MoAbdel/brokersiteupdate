@@ -17,6 +17,7 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/areas/laguna-niguel-mortgage-rates',
     },
   },
+  robots: { index: false, follow: true },
 };
 
 const lagunaNiguelData = {

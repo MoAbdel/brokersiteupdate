@@ -31,7 +31,10 @@ const lagunaBeachData = {
   keywordPhrase: 'Laguna Beach mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(lagunaBeachData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(lagunaBeachData),
+  robots: { index: false, follow: true },
+};
 
 export default function LagunaBeachMortgageBrokerPage() {
   return <CityPageTemplate cityData={lagunaBeachData} />;

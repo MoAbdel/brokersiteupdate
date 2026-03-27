@@ -31,7 +31,10 @@ const westminsterData = {
   keywordPhrase: 'Westminster mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(westminsterData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(westminsterData),
+  robots: { index: false, follow: true },
+};
 
 export default function WestminsterMortgageBrokerPage() {
   return <CityPageTemplate cityData={westminsterData} />;

@@ -40,6 +40,7 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/areas/dana-point-mortgage-broker',
     },
   },
+  robots: { index: false, follow: true },
 };
 
 export default function DanaPointMortgageBrokerPage() {

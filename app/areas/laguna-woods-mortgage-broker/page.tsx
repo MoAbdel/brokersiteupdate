@@ -31,7 +31,10 @@ const lagunaWoodsData = {
   keywordPhrase: 'Laguna Woods mortgage broker'
 };
 
-export const metadata: Metadata = generateCityMetadata(lagunaWoodsData);
+export const metadata: Metadata = {
+  ...generateCityMetadata(lagunaWoodsData),
+  robots: { index: false, follow: true },
+};
 
 export default function LagunaWoodsMortgageBrokerPage() {
   return <CityPageTemplate cityData={lagunaWoodsData} />;
