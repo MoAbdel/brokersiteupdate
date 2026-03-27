@@ -32,6 +32,11 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/blog/wholesale-mortgage-jumbo-loan-pricing-2026',
     },
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -241,6 +246,37 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
+        {/* Semantic Triples Table */}
+        <div className="overflow-x-auto my-8">
+          <table className="min-w-full border border-gray-200">
+            <caption className="text-sm text-gray-500 mb-2">Semantic Entity Relationships: Wholesale Jumbo Loan Pricing</caption>
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-200 px-4 py-2 text-left">Subject</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Predicate</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Object</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Wholesale jumbo loan pricing</td>
+                <td className="border border-gray-200 px-4 py-2">varies between lenders by</td>
+                <td className="border border-gray-200 px-4 py-2">0.375% to 1.0%+ vs 0.125-0.25% on conforming loans</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">A 0.50% rate difference on $1,500,000</td>
+                <td className="border border-gray-200 px-4 py-2">equals</td>
+                <td className="border border-gray-200 px-4 py-2">$7,500 per year in interest savings ($75,000 over 10 years)</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
+                <td className="border border-gray-200 px-4 py-2">compares jumbo rate sheets from</td>
+                <td className="border border-gray-200 px-4 py-2">50+ Wholesale Lenders with different portfolio pricing strategies</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         {/* Bing Power Block */}
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <h2 className="text-xl font-bold text-blue-900 mt-0 mb-4">Wholesale Jumbo Loan Pricing: Quick Reference</h2>
@@ -261,7 +297,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
         </div>
 
         {/* E-E-A-T Narrative Section 1 */}
-        <h2>Why Jumbo Loans Are More Price-Sensitive to Wholesale Shopping Than Conforming Loans</h2>
+        <h2>Why Are Wholesale Jumbo Loan Prices More Competitive Than Retail Bank Pricing?</h2>
         <p>
           Every borrower benefits from wholesale pricing, but jumbo borrowers benefit <strong>disproportionately more</strong> than conforming borrowers. This is not marketing language&mdash;it is a structural reality of how the mortgage market operates. Having originated jumbo loans across California and Washington for years, I see this pricing dynamic on every rate sheet comparison.
         </p>
@@ -279,7 +315,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
-        <h2>How Wholesale Jumbo Pricing Works: Rate Sheets, Par Pricing &amp; Lender Competition</h2>
+        <h2>How Do Wholesale Jumbo Loan Rate Sheets, Par Pricing, and Lender Competition Work?</h2>
         <p>
           Understanding how wholesale pricing flows from lender to broker to borrower demystifies why the wholesale channel delivers superior jumbo economics. The mechanics are transparent and documented on every Loan Estimate per <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">CFPB</a> requirements.
         </p>
@@ -314,7 +350,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
-        <h2>Jumbo Loan Thresholds &amp; Super Jumbo Tiers: Where Pricing Changes</h2>
+        <h2>At What Jumbo Loan Thresholds and Super Jumbo Tiers Does Pricing Change?</h2>
         <p>
           Jumbo loan pricing is not flat. It changes at specific loan amount thresholds, and each lender defines its own tier structure. Understanding these tiers is essential because crossing a threshold by even $1 can change your pricing, lender options, and qualification requirements.
         </p>
@@ -397,7 +433,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
-        <h2>Conforming Loan Limits: High-Cost Area Thresholds for CA &amp; WA</h2>
+        <h2>What Are the 2025 Conforming Loan Limits for California and Washington High-Cost Areas?</h2>
         <p>
           The <a href="https://www.fhfa.gov/" target="_blank" rel="noopener noreferrer">FHFA</a> publishes conforming loan limits annually. These limits determine the threshold where a loan becomes a jumbo. The <strong>2025 baseline conforming limit is $806,500</strong>. High-cost areas&mdash;including most major California and Washington metro counties&mdash;have a ceiling of <strong>$1,209,750</strong> (2025 conforming loan limits per FHFA; limits are updated annually).
         </p>
@@ -405,7 +441,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           For wholesale jumbo pricing purposes, the conforming limit matters because it defines where a borrower transitions from GSE-standardized pricing (tight spreads) to portfolio-based pricing (wide spreads). In Orange County, Los Angeles County, San Francisco County, San Mateo County, Santa Clara County, and King County WA, the $1,209,750 high-cost limit means jumbo financing starts at $1,209,751.
         </p>
 
-        <h2>Bank vs. Broker vs. Correspondent: Jumbo Lending Channel Comparison</h2>
+        <h2>Which Jumbo Loan Channel Offers the Best Pricing: Bank, Broker, or Correspondent?</h2>
         <p>
           Understanding the three primary mortgage distribution channels clarifies why wholesale brokers consistently deliver superior jumbo pricing. Each channel has a different cost structure, and those costs are embedded in the rate offered to borrowers.
         </p>
@@ -492,7 +528,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
-        <h2>How Wholesale Brokers Shop 50+ Wholesale Lenders for Jumbo Pricing</h2>
+        <h2>How Does a Wholesale Broker Compare Jumbo Loan Pricing Across 50+ Lenders?</h2>
         <p>
           The practical mechanics of how a wholesale broker runs a jumbo pricing comparison determine the quality of the outcome. This is not a vague process&mdash;it follows a defined workflow that I execute on every jumbo scenario.
         </p>
@@ -509,7 +545,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           This process takes approximately 30 to 60 minutes for a standard jumbo scenario and up to 90 minutes for complex super jumbo or Non-QM jumbo scenarios. A borrower calling individual banks to replicate this comparison would need to contact 50+ institutions and parse 50+ different pricing formats&mdash;a process that is functionally impossible for an individual to complete before rate sheets expire the next morning.
         </p>
 
-        <h2>Non-QM Jumbo Options: Bank Statement, Asset Depletion &amp; DSCR</h2>
+        <h2>What Non-QM Jumbo Loan Options Are Available Through Wholesale Brokers?</h2>
         <p>
           The wholesale pricing advantage is most pronounced on <strong>Non-QM jumbo loans</strong>. These programs serve borrowers who do not fit traditional agency underwriting: self-employed borrowers, high-net-worth retirees, and real estate investors. Non-QM jumbo lenders are almost exclusively wholesale-channel lenders, meaning they do not accept direct consumer applications.
         </p>
@@ -536,7 +572,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           </p>
         </div>
 
-        <h2>The Typical Pricing Advantage on Jumbo Loans: What the Data Shows</h2>
+        <h2>How Much Can a Wholesale Broker Save You on Jumbo Loan Pricing?</h2>
         <p>
           While specific interest rates change daily and vary by borrower profile, the <strong>structural pricing advantage</strong> of the wholesale channel on jumbo loans is consistent and measurable. Based on daily rate sheet analysis across the wholesale marketplace:
         </p>
@@ -550,7 +586,7 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
           On a $2,000,000 jumbo loan with a 0.375% wholesale pricing advantage, the borrower saves approximately <strong>$7,500 per year</strong> in interest. Over a 7-year average hold period, that equals <strong>$52,500 in total savings</strong>&mdash;more than enough to justify the 30-minute consultation required to access wholesale pricing.
         </p>
 
-        <h2>How Jumbo Lender Competition Benefits Borrowers Through Wholesale</h2>
+        <h2>How Does Jumbo Lender Competition Benefit Borrowers Who Use a Wholesale Broker?</h2>
         <p>
           The wholesale jumbo marketplace is a competitive arena where lenders actively price against each other to attract broker volume. This competition directly benefits borrowers because:
         </p>
@@ -671,6 +707,10 @@ export default function WholesaleMortgageJumboLoanPricing2026Page() {
             <li><Link href="/blog/how-to-get-wholesale-mortgage-rates-2026" className="text-blue-600 hover:underline">How to Get Wholesale Mortgage Rates in 2026</Link></li>
             <li><Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Broker California: 50+ Wholesale Lenders</Link></li>
             <li><Link href="/blog/bank-statement-loans-wholesale-2026" className="text-blue-600 hover:underline">Bank Statement Loans: Self-Employed Wholesale Mortgage Solutions</Link></li>
+            <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Orange County: Home Equity Line of Credit</Link></li>
+            <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Loan Programs</Link></li>
+            <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
+            <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel for a Free Jumbo Loan Quote</Link></li>
           </ul>
         </div>
 

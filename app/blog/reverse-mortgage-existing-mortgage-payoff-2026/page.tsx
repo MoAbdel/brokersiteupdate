@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-09',
     modifiedTime: '2026-03-09',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -211,6 +216,37 @@ export default function ReverseMortgageExistingMortgagePayoff2026() {
           </p>
         </div>
 
+        {/* Semantic Triples Table */}
+        <div className="overflow-x-auto my-8">
+          <table className="min-w-full border border-gray-200">
+            <caption className="text-sm text-gray-500 mb-2">Semantic Entity Relationships: Reverse Mortgage Existing Mortgage Payoff</caption>
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-200 px-4 py-2 text-left">Subject</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Predicate</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Object</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">HECM reverse mortgage</td>
+                <td className="border border-gray-200 px-4 py-2">mandatorily pays off</td>
+                <td className="border border-gray-200 px-4 py-2">all existing liens on the property at closing before disbursing proceeds</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Net principal limit</td>
+                <td className="border border-gray-200 px-4 py-2">equals the gross limit minus</td>
+                <td className="border border-gray-200 px-4 py-2">existing mortgage payoff amount plus closing costs and set-asides</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Approximately 60% of HECM borrowers</td>
+                <td className="border border-gray-200 px-4 py-2">carry an existing mortgage with</td>
+                <td className="border border-gray-200 px-4 py-2">a median balance of approximately $125,000 at the time of application</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         {/* ========== EARLY CTA ========== */}
         <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8 not-prose">
           <p className="font-semibold text-green-900 mb-2">See How Much You Could Free Up</p>
@@ -221,7 +257,7 @@ export default function ReverseMortgageExistingMortgagePayoff2026() {
         </div>
 
         {/* ========== BING POWER BLOCK: HOW THE PAYOFF WORKS ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How a Reverse Mortgage Pays Off Your Existing Mortgage at Closing</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Does a Reverse Mortgage Pay Off Your Existing Mortgage at Closing?</h2>
 
         <p>When you close on a HECM reverse mortgage, the first dollars disbursed go directly to your existing mortgage lender. This is not optional — HUD and FHA require that all liens secured by the property be satisfied at closing before any remaining proceeds become available. In my experience structuring reverse mortgages across Orange County, Los Angeles, and the greater California market, most borrowers find this process straightforward once they understand the mechanics.</p>
 
@@ -242,7 +278,7 @@ export default function ReverseMortgageExistingMortgagePayoff2026() {
         <p>I have guided clients through this exact process hundreds of times. One of the most common reactions is relief — homeowners who have been making $1,800 to $2,500 monthly mortgage payments suddenly have that cash flow available for other needs, including property taxes, medical expenses, or daily living costs.</p>
 
         {/* ========== DATA TABLE: PRINCIPAL LIMIT EXAMPLES ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Net Principal Limit After Existing Mortgage Payoff: Example Scenarios</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">What Is the Net Principal Limit After a Reverse Mortgage Pays Off Your Existing Mortgage?</h2>
 
         <p>The net principal limit is the most important number in this equation. It represents the actual money available to you after your existing mortgage is paid off and closing costs are covered. Higher home values and lower existing mortgage balances produce larger net principal limits.</p>
 
@@ -335,7 +371,7 @@ export default function ReverseMortgageExistingMortgagePayoff2026() {
         <p>A reverse mortgage is not the right tool for everyone. If you have strong retirement income that easily covers mortgage payments and you plan to leave a fully unencumbered home to heirs, a traditional <Link href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:text-blue-800">refinance</Link> may preserve more equity long-term. Similarly, if you expect to sell the home within 2-3 years, the upfront costs of a HECM (including the 2% initial mortgage insurance premium on the home value) may not be recouped before you move.</p>
 
         {/* ========== COMPARISON TABLE: HECM vs REFINANCE ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Reverse Mortgage vs Traditional Refinance for Paying Off an Existing Mortgage</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Should Seniors Choose a Reverse Mortgage or Traditional Refinance to Pay Off an Existing Mortgage?</h2>
 
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full border-collapse border border-gray-300">

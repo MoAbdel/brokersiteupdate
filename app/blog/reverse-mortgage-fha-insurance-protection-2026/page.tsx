@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-09',
     modifiedTime: '2026-03-09',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -211,6 +216,37 @@ export default function ReverseMortgageFHAInsuranceProtection2026() {
           </p>
         </div>
 
+        {/* Semantic Triples Table */}
+        <div className="overflow-x-auto my-8">
+          <table className="min-w-full border border-gray-200">
+            <caption className="text-sm text-gray-500 mb-2">Semantic Entity Relationships: Reverse Mortgage FHA Insurance</caption>
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-200 px-4 py-2 text-left">Subject</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Predicate</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Object</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">FHA HECM insurance (MIP)</td>
+                <td className="border border-gray-200 px-4 py-2">provides three guarantees:</td>
+                <td className="border border-gray-200 px-4 py-2">non-recourse protection, lender failure coverage, and line of credit growth</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Upfront MIP on a HECM</td>
+                <td className="border border-gray-200 px-4 py-2">costs exactly</td>
+                <td className="border border-gray-200 px-4 py-2">2% of home value, plus 0.5% annual MIP on outstanding balance</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Non-recourse protection</td>
+                <td className="border border-gray-200 px-4 py-2">guarantees heirs pay no more than</td>
+                <td className="border border-gray-200 px-4 py-2">95% of the current appraised value regardless of loan balance</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         {/* ========== EARLY CTA ========== */}
         <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8 not-prose">
           <p className="font-semibold text-green-900 mb-2">Understand Your HECM Insurance Costs Before You Apply</p>
@@ -221,7 +257,7 @@ export default function ReverseMortgageFHAInsuranceProtection2026() {
         </div>
 
         {/* ========== BING POWER BLOCK: THREE GUARANTEES ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Three Guarantees FHA Insurance Provides on HECM Reverse Mortgages</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">What Three Guarantees Does FHA Insurance Provide on HECM Reverse Mortgages?</h2>
 
         <p>FHA insurance on a HECM is fundamentally different from conventional mortgage insurance (PMI). Conventional PMI protects only the lender — when you default on a traditional mortgage, PMI covers the lender&apos;s losses, not yours. HECM FHA insurance protects the borrower, the heirs, and the lender simultaneously. This is why I consistently recommend FHA-insured HECMs over proprietary alternatives for clients who qualify.</p>
 
@@ -250,7 +286,7 @@ export default function ReverseMortgageFHAInsuranceProtection2026() {
         <p>Consider this scenario from my practice: a 67-year-old client established a HECM line of credit with an initial available balance of $180,000. Over 10 years of growth, that credit line expanded to approximately $320,000 — all without the client drawing a single dollar. The growth created a financial safety net that far exceeded the original amount, funded entirely by FHA insurance guarantees.</p>
 
         {/* ========== MIP COST TABLE ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">HECM FHA Mortgage Insurance Premium: Upfront and Annual Costs</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Much Does Reverse Mortgage FHA Insurance Cost in Upfront and Annual MIP?</h2>
 
         <p>FHA insurance is not free — borrowers fund the protection through two separate Mortgage Insurance Premium fees. Understanding these costs is essential for evaluating the total expense of a HECM reverse mortgage.</p>
 
@@ -332,7 +368,7 @@ export default function ReverseMortgageFHAInsuranceProtection2026() {
         <p>One critical detail I always emphasize with clients: the upfront MIP is almost always financed into the loan balance rather than paid out of pocket. This means it reduces your net principal limit but does not require a cash outlay at closing. Over the life of the loan, you pay interest on the financed MIP amount — making the true cost higher than the nominal 2%. This is a legitimate cost that I calculate for every client so there are no surprises.</p>
 
         {/* ========== HECM vs PROPRIETARY COMPARISON ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">HECM FHA Insurance vs Proprietary Reverse Mortgage: Safety Comparison</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Does FHA-Insured HECM Compare to Proprietary Reverse Mortgage Safety?</h2>
 
         <p>Proprietary (jumbo) reverse mortgages serve homeowners whose property values exceed the FHA HECM lending limit of $1,209,750. However, proprietary products do not carry FHA insurance — and the absence of that insurance creates meaningful differences in borrower and heir protections.</p>
 
@@ -424,7 +460,7 @@ export default function ReverseMortgageFHAInsuranceProtection2026() {
         <p>I walked a family through this process recently when a 91-year-old client passed away after holding a HECM for 18 years. The loan balance had grown to $485,000, but the home appraised at $920,000. The heirs sold the property, repaid the HECM, and kept over $400,000 in surplus equity. The <Link href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-blue-600 hover:text-blue-800">inheritance outcome</Link> was substantially positive because home appreciation outpaced loan balance growth.</p>
 
         {/* ========== HOW MIP FUNDS THE HECM INSURANCE FUND ========== */}
-        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How the Mortgage Insurance Premium Funds the FHA HECM Insurance Program</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">How Does the Mortgage Insurance Premium Fund the FHA Reverse Mortgage Program?</h2>
 
         <p>Understanding where your MIP dollars go provides important context for why these fees exist. The upfront and annual MIP payments from all HECM borrowers flow into the FHA Mutual Mortgage Insurance Fund (MMIF), which HUD manages to cover losses across the entire HECM portfolio.</p>
 

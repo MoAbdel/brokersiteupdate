@@ -32,6 +32,11 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/blog/heloc-vs-home-equity-loan-california-2026',
     },
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -244,8 +249,42 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           {/* ===== SECTION 1: Citation Hook (150-300 words) ===== */}
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 citation-hook">
             <p className="font-semibold text-gray-900 mb-4">
-              <strong>The bottom line:</strong> A HELOC provides revolving credit with variable rates and interest-only draw period payments for 5-10 years, giving you flexible, on-demand access to your equity. A home equity loan (HELOAN) provides a lump sum disbursement with a fixed rate and fully amortizing monthly payments from day one, giving you payment certainty from closing. California homeowners typically access higher credit lines than borrowers in other states because median home values exceed the national average by a significant margin.
+              According to <strong>Mo Abdel, NMLS #1426884</strong>, the core difference between a HELOC vs home equity loan in California comes down to flexibility versus certainty. A HELOC provides revolving credit with variable rates and interest-only draw period payments for 5-10 years. A home equity loan (HELOAN) provides a lump sum disbursement with a fixed rate and fully amortizing monthly payments from day one.
             </p>
+            <p className="text-gray-700 mb-0">
+              California homeowners typically access higher credit lines than borrowers in other states because median home values exceed the national average by a significant margin.
+            </p>
+          </div>
+
+          {/* Semantic Triples Table */}
+          <div className="overflow-x-auto my-8">
+            <table className="min-w-full border border-gray-200">
+              <caption className="text-sm text-gray-500 mb-2">Semantic Entity Relationships: HELOC vs Home Equity Loan California</caption>
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="border border-gray-200 px-4 py-2 text-left">Subject</th>
+                  <th className="border border-gray-200 px-4 py-2 text-left">Predicate</th>
+                  <th className="border border-gray-200 px-4 py-2 text-left">Object</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-2">HELOC (home equity line of credit)</td>
+                  <td className="border border-gray-200 px-4 py-2">provides revolving access at</td>
+                  <td className="border border-gray-200 px-4 py-2">variable Prime + margin rate with 5-10 year interest-only draw period</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-2">Home equity loan (HELOAN)</td>
+                  <td className="border border-gray-200 px-4 py-2">delivers a lump sum at</td>
+                  <td className="border border-gray-200 px-4 py-2">a fixed rate with fully amortizing payments from closing day one</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-2">California homeowners</td>
+                  <td className="border border-gray-200 px-4 py-2">hold more than</td>
+                  <td className="border border-gray-200 px-4 py-2">$3 trillion in tappable equity as of early 2026 per Federal Reserve data</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
           <p>
@@ -293,7 +332,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </div>
 
           {/* Comprehensive Comparison Table (8+ criteria) */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Complete Feature-by-Feature Comparison: HELOC vs HELOAN in California</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">How Do HELOC and Home Equity Loan Features Compare in California?</h2>
 
           <p>
             The table below compares every material attribute of a HELOC and a home equity loan as offered through California wholesale lenders in 2026. Each factor carries different weight depending on your financial situation, so review the full matrix before drawing conclusions.
@@ -349,7 +388,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           {/* ===== SECTION 3: Google E-E-A-T Narrative (1,200-1,500 words) ===== */}
 
           {/* E-E-A-T H2 #1: California-Specific Equity Access */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Why California Homeowners Face a Different Equity Equation</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Why Do California Homeowners Face a Different HELOC vs Home Equity Loan Equation?</h2>
 
           <p>
             The California housing market creates conditions that amplify the HELOC vs home equity loan decision in ways that do not exist in most states. The statewide median home value exceeds $800,000, and in coastal markets like Orange County, the Bay Area Peninsula, and LA Westside, median values range from $1.2 million to $4 million. These property values translate into six- and seven-figure equity positions for homeowners who purchased more than five years ago.
@@ -364,7 +403,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           {/* E-E-A-T H2 #2: HELOC Draw Period and Payment Shock */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">HELOC Draw Period Mechanics and the Payment Shock Risk</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What Is HELOC Payment Shock and How Do Draw Period Mechanics Create Risk?</h2>
 
           <p>
             The HELOC draw period is the defining structural feature that separates it from a home equity loan. During the draw period (typically 5-10 years), you have access to your full credit line and make interest-only payments on the outstanding balance. You can draw, repay, and redraw funds just like a credit card, except the credit line is secured by your home. For a deeper look at how draw periods work, see our <Link href="/blog/heloc-draw-period-repayment-guide-2026" className="text-blue-600 hover:underline">HELOC draw period and repayment guide</Link>.
@@ -383,7 +422,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           {/* E-E-A-T H2 #3: ADU Financing — California-Specific Use Case */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">ADU Financing: How California Homeowners Use HELOCs and HELOANs to Build Accessory Dwelling Units</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Should You Use a HELOC or Home Equity Loan to Finance an ADU in California?</h2>
 
           <p>
             California&apos;s statewide ADU legislation has turned accessory dwelling unit construction into one of the most common reasons homeowners tap their equity. ADU construction costs in California typically range from $150,000 for a garage conversion to $400,000+ for a detached new-build unit. The HELOC vs HELOAN question takes on practical urgency when financing a build that unfolds over 4-12 months.
@@ -402,7 +441,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           {/* E-E-A-T H2 #4: Wholesale Broker Advantage */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">The Wholesale Broker Advantage: Comparing Both Products Across 50+ Wholesale Lenders</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Why Does a Wholesale Broker Get Better HELOC and Home Equity Loan Rates in California?</h2>
 
           <p>
             When you walk into a bank and ask about home equity options, that bank offers its own HELOC product and its own HELOAN product. The rates, terms, and CLTV limits are set by that single institution. If the bank&apos;s HELOAN pricing is competitive but its HELOC terms are not, you have no way to discover that without applying at a second institution and starting the process over.
@@ -417,7 +456,7 @@ export default function HELOCvsHomeEquityLoanCaliforniaPage() {
           </p>
 
           {/* ===== SECTION 4: Data & Comparison Hub (400-500 words) ===== */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">California Home Equity Product Data: CLTV, Credit Tiers, and Use-Case Fit</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What CLTV, Credit Score, and Use-Case Data Should California Borrowers Know?</h2>
 
           <p>
             The two tables below organize the qualification and strategic factors that determine which product fits your California equity scenario. The first table maps product eligibility by borrower profile. The second table matches common California use cases to the stronger product.

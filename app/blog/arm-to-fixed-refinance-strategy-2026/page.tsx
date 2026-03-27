@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-04',
     modifiedTime: '2026-03-04',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -273,7 +278,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </div>
 
         {/* Section 1: How ARMs Work */}
-        <h2 id="how-arms-work">How ARMs Work: Rate Structures, Caps, and Adjustment Mechanics</h2>
+        <h2 id="how-arms-work">How Do ARM Rate Structures, Caps, and Adjustment Mechanics Work?</h2>
 
         <p>
           An adjustable-rate mortgage has two phases: an initial fixed-rate period and a subsequent adjustment period. During the fixed period (typically 3, 5, 7, or 10 years), your rate and payment remain constant. After the fixed period expires, the rate adjusts periodically&mdash;usually once per year&mdash;based on a benchmark index plus a margin.
@@ -351,7 +356,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </div>
 
         {/* Section 2: SOFR vs Prime */}
-        <h2 id="sofr-vs-prime">SOFR vs Prime: Understanding Your ARM Index</h2>
+        <h2 id="sofr-vs-prime">What Is the Difference Between SOFR and Prime for ARM to Fixed Refinance Decisions?</h2>
 
         <p>
           Your ARM rate at each adjustment equals the index value plus your margin. The two primary indexes used in modern ARMs are SOFR and Prime Rate. Knowing which index your ARM uses helps you predict future rate adjustments and evaluate refinance timing.
@@ -407,7 +412,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </p>
 
         {/* Section 3: ARM vs Fixed Cost Comparison */}
-        <h2 id="arm-vs-fixed-cost">ARM vs Fixed Rate: Cost Comparison Over 5, 10, 15, and 30 Years</h2>
+        <h2 id="arm-vs-fixed-cost">How Does ARM vs Fixed Rate Cost Compare Over 5, 10, and 30 Years?</h2>
 
         <p>
           The following comparison illustrates the potential cost difference between keeping an ARM (under different adjustment scenarios) and refinancing to a fixed rate. This analysis assumes a $600,000 loan balance.
@@ -462,7 +467,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </p>
 
         {/* Section 4: ARM Reset Scenarios */}
-        <h2 id="reset-scenarios">ARM Reset Scenarios: What Happens at Each Adjustment Period</h2>
+        <h2 id="reset-scenarios">What Happens at Each ARM Reset Adjustment Period?</h2>
 
         <p>
           Understanding exactly how your ARM rate will change at each adjustment helps you calculate the urgency of refinancing. The following table models a 5/1 ARM with a 5/2/5 cap structure across several adjustment periods.
@@ -519,7 +524,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </p>
 
         {/* Section 5: Break-Even Analysis */}
-        <h2 id="break-even">Break-Even Analysis for ARM to Fixed Rate Conversion</h2>
+        <h2 id="break-even">How Do You Calculate the Break-Even Point for an ARM to Fixed Rate Refinance?</h2>
 
         <p>
           The break-even analysis determines how long it takes for the fixed-rate refinance to pay for itself through avoided ARM adjustments. There are two scenarios to analyze:
@@ -570,7 +575,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </div>
 
         {/* Section 6: Who Should Convert */}
-        <h2 id="who-should-convert">Who Should Convert to Fixed Rate and Who Should Keep Their ARM</h2>
+        <h2 id="who-should-convert">Who Should Refinance From ARM to Fixed Rate and Who Should Keep Their ARM?</h2>
 
         <h3>Refinance to Fixed Rate If:</h3>
 
@@ -600,7 +605,7 @@ export default function ArmToFixedRefinanceStrategyPage() {
         </div>
 
         {/* Section 7: Wholesale Broker Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage in Finding Fixed-Rate Pricing for ARM Conversions</h2>
+        <h2 id="wholesale-advantage">Why Do Wholesale Brokers Find Better Fixed-Rate Pricing for ARM Conversions?</h2>
 
         <p>
           ARM-to-fixed refinancing is one of the transaction types where the wholesale broker advantage is most pronounced. Different lenders price fixed-rate products based on their current portfolio composition, funding costs, and strategic priorities&mdash;creating meaningful pricing variation on the same loan scenario.

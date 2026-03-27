@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-20',
     modifiedTime: '2026-02-20',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -174,6 +179,37 @@ export default function HomeEquityBuySecondHomeVacationPage() {
             </p>
           </div>
 
+          {/* Semantic Triples Table */}
+          <div className="overflow-x-auto my-8">
+            <table className="min-w-full border border-gray-200">
+              <caption className="text-sm text-gray-500 mb-2">Semantic Entity Relationships: Home Equity for Second Home Purchase</caption>
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="border border-gray-200 px-4 py-2 text-left">Subject</th>
+                  <th className="border border-gray-200 px-4 py-2 text-left">Predicate</th>
+                  <th className="border border-gray-200 px-4 py-2 text-left">Object</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-2">Home equity extraction (HELOC, cash-out refi, HELOAN)</td>
+                  <td className="border border-gray-200 px-4 py-2">funds the down payment for</td>
+                  <td className="border border-gray-200 px-4 py-2">second home purchases requiring 10-20% down on conventional financing</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-2">Second home mortgage rates</td>
+                  <td className="border border-gray-200 px-4 py-2">carry a premium of</td>
+                  <td className="border border-gray-200 px-4 py-2">0.25-0.50% above primary residence rates with 10-20% down payment</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-200 px-4 py-2">California and Washington homeowners</td>
+                  <td className="border border-gray-200 px-4 py-2">hold a median tappable equity of</td>
+                  <td className="border border-gray-200 px-4 py-2">$410,000 as of early 2026 per Federal Reserve data</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           {/* Bing Power Block */}
           <div className="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-blue-500">
             <h2 className="text-xl font-bold text-blue-900 mt-0 mb-3">Quick Answer: Using Home Equity for a Second Home Purchase</h2>
@@ -189,7 +225,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </div>
 
           {/* E-E-A-T Narrative Section 1 */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Why 2026 Is a Strong Year for Using Home Equity to Buy a Second Home</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Why Is 2026 a Strong Year for Using Home Equity to Buy a Second Home?</h2>
           <p>
             American homeowners are sitting on a record <strong>$17.6 trillion in home equity</strong> as of Q4 2025, according to Federal Reserve data. In California and Washington&mdash;two of the strongest appreciation markets in the country&mdash;the median homeowner with a mortgage holds over <strong>$410,000 in tappable equity</strong> (the amount accessible while maintaining a 20% equity cushion). That is more than enough to cover the down payment on a second home or vacation property in most markets.
           </p>
@@ -201,7 +237,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </p>
 
           {/* E-E-A-T Narrative Section 2 */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Three Methods to Tap Home Equity for a Second Home Purchase</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What Are the Three Best Ways to Use Home Equity for a Second Home Purchase?</h2>
           <p>
             Every equity extraction method has distinct advantages depending on your current mortgage rate, how much equity you need, and your preference for fixed vs. variable payments. Here is how each one works in the context of funding a second home.
           </p>
@@ -243,7 +279,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </ul>
 
           {/* Comparison Table 1 */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Equity Extraction Methods Compared for Second Home Purchase</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Which Equity Extraction Method Works Best for Buying a Second Home?</h2>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
@@ -314,7 +350,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </div>
 
           {/* E-E-A-T Narrative Section 3 */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Second Home vs. Investment Property: Why the Classification Changes Everything</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What Is the Difference Between a Second Home and an Investment Property for Mortgage Purposes?</h2>
           <p>
             How your second property is classified&mdash;as a second home or an investment property&mdash;affects your mortgage rate, down payment requirement, tax treatment, and long-term flexibility. Getting this classification right from the start is critical. I have seen buyers lose thousands of dollars by misunderstanding this distinction.
           </p>
@@ -387,7 +423,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </p>
 
           {/* Data Hub: Down Payment and DTI Math */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">The Financial Math: Down Payment, DTI, and Qualification Scenarios</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">How Do Down Payment, DTI, and Qualification Work When Buying a Second Home?</h2>
           <p>
             The biggest hurdle in buying a second home with equity is not extracting the down payment&mdash;it is qualifying for the second mortgage while carrying the equity debt. Here is how the numbers work across different price points and income levels.
           </p>
@@ -466,7 +502,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </p>
 
           {/* Tax Implications */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Tax Implications of Using Home Equity for a Second Home</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Is Mortgage Interest on a Second Home Tax Deductible When Using Home Equity?</h2>
           <p>
             The tax treatment of second home financing creates meaningful deductions that improve the after-tax cost of ownership. However, the rules are specific, and the interaction between equity extraction debt and second home acquisition debt adds complexity. Consult your CPA or tax advisor before making decisions based on tax benefits.
           </p>
@@ -484,7 +520,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </p>
 
           {/* Rental Income Offset Strategies */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Rental Income Offset Strategies: Reducing the Cost of Ownership</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Can Rental Income From a Second Home Offset Your Mortgage Costs?</h2>
           <p>
             Many second home buyers offset carrying costs by renting the property during weeks they are not using it. The key is managing rental activity within the boundaries that preserve your second home (not investment property) classification.
           </p>
@@ -509,7 +545,7 @@ export default function HomeEquityBuySecondHomeVacationPage() {
           </p>
 
           {/* California and Washington Vacation Markets */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">California &amp; Washington Vacation Markets: Where Equity Buyers Are Purchasing</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Where Are California and Washington Home Equity Buyers Purchasing Vacation Properties?</h2>
           <p>
             Across my California and Washington client base, four vacation markets consistently attract the most second home purchases funded by primary residence equity. Each market offers a distinct combination of accessibility, appreciation potential, and rental demand.
           </p>
@@ -662,6 +698,10 @@ export default function HomeEquityBuySecondHomeVacationPage() {
               <li><Link href="/blog/home-equity-washington-guide-2026" className="text-blue-600 hover:underline">Home Equity Washington Guide 2026</Link></li>
               <li><Link href="/blog/home-equity-tax-deduction-2026" className="text-blue-600 hover:underline">Home Equity Tax Deduction Rules 2026</Link></li>
               <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel for a Free Quote</Link></li>
+              <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Orange County</Link></li>
+              <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">HELOAN Orange County</Link></li>
+              <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Loan Programs</Link></li>
+              <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
             </ul>
           </div>
 

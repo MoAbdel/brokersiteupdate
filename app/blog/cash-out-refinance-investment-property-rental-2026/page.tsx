@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-03',
     modifiedTime: '2026-03-03',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -263,7 +268,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         {/* Section 1: How It Works */}
-        <h2 id="how-it-works">How Cash-Out Refinancing on Investment Property Works</h2>
+        <h2 id="how-it-works">How Does a Cash-Out Refinance on an Investment Property Work?</h2>
 
         <p>
           A cash-out refinance on an investment property replaces your existing mortgage with a new, larger loan&mdash;and you receive the difference between the new loan amount and the old balance as cash at closing. The property must be an investment or rental property (not your primary residence or second home) and must have sufficient equity to meet the lender&apos;s maximum LTV requirements.
@@ -284,7 +289,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </p>
 
         {/* Section 2: LTV Limits */}
-        <h2 id="ltv-limits">LTV Limits: Investment Property Cash-Out vs Primary Residence</h2>
+        <h2 id="ltv-limits">What Are the LTV Limits for a Cash-Out Refinance on Investment Property vs Primary Residence?</h2>
 
         <p>
           The maximum loan-to-value ratio for investment property cash-out refinancing is lower than for primary residences. Understanding these limits is essential for calculating how much equity you can access.
@@ -342,7 +347,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         {/* Section 3: Conventional vs DSCR */}
-        <h2 id="conventional-vs-dscr">Conventional vs DSCR Cash-Out Refinance: Side-by-Side Comparison for Investment Property</h2>
+        <h2 id="conventional-vs-dscr">Should You Choose a Conventional or DSCR Cash-Out Refinance for Investment Property?</h2>
 
         <p>
           Investment property owners have two primary pathways for cash-out refinancing: conventional loans (Fannie Mae/Freddie Mac guidelines) and DSCR loans (non-QM programs based on property cash flow). Each serves a different investor profile.
@@ -417,7 +422,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </p>
 
         {/* Section 4: Qualification Requirements */}
-        <h2 id="qualification">Qualification Requirements and Reserve Guidelines for Investment Property Cash-Out</h2>
+        <h2 id="qualification">What Are the Qualification Requirements for Investment Property Cash-Out Refinance?</h2>
 
         <p>
           Investment property cash-out refinancing carries stricter qualification requirements than primary residence transactions. Lenders view investment properties as higher risk because borrowers are statistically more likely to default on a rental property than their own home during financial stress.
@@ -455,7 +460,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         {/* Section 5: Portfolio Strategy */}
-        <h2 id="portfolio-strategy">Using Cash-Out Refinance Proceeds to Grow Your Rental Property Portfolio</h2>
+        <h2 id="portfolio-strategy">How Can Cash-Out Refinance Proceeds Grow Your Rental Property Portfolio?</h2>
 
         <p>
           The most common use of investment property cash-out refinance proceeds is acquiring additional rental properties. This strategy&mdash;often called the <strong>BRRRR method</strong> (Buy, Rehab, Rent, Refinance, Repeat)&mdash;allows investors to recycle equity from existing properties into new acquisitions.
@@ -522,7 +527,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </p>
 
         {/* Section 6: Rate Considerations */}
-        <h2 id="rate-considerations">Rate and Pricing Adjustments for Investment Property Cash-Out Refinances</h2>
+        <h2 id="rate-considerations">What Rate and Pricing Adjustments Apply to Investment Property Cash-Out Refinances?</h2>
 
         <p>
           Investment property cash-out refinances carry pricing adjustments that increase the cost compared to primary residence transactions. Understanding these adjustments helps you calculate the true cost of accessing your rental property equity.
@@ -582,7 +587,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </div>
 
         {/* Section 7: LLC Ownership */}
-        <h2 id="llc-ownership">LLC Ownership and Entity Structure Considerations for Cash-Out Refinancing</h2>
+        <h2 id="llc-ownership">Can You Cash-Out Refinance an Investment Property Held in an LLC?</h2>
 
         <p>
           Many real estate investors hold rental properties in LLCs (Limited Liability Companies) for asset protection and liability management. The entity structure directly affects your cash-out refinance options.
@@ -601,7 +606,7 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
         </p>
 
         {/* Section 8: Tax Implications */}
-        <h2 id="tax-implications">Tax Implications of Investment Property Cash-Out Refinancing</h2>
+        <h2 id="tax-implications">What Are the Tax Implications of a Cash-Out Refinance on Investment Property?</h2>
 
         <p>
           Cash-out refinance proceeds on an investment property are not taxable income&mdash;you are borrowing against your own equity, not realizing a gain. However, the tax implications of an investment property cash-out refinance extend beyond the transaction itself. <strong>Consult your CPA for guidance specific to your situation.</strong>
@@ -805,6 +810,11 @@ export default function CashOutRefinanceInvestmentPropertyPage() {
           <li><Link href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:underline">Complete Guide to Cash-Out Refinancing</Link></li>
           <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Loan Programs</Link></li>
           <li><Link href="/loan-programs/cash-out-refinance" className="text-blue-600 hover:underline">Cash-Out Refinance Programs</Link></li>
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC Orange County: Home Equity Line of Credit</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">HELOAN Orange County: Home Equity Loan</Link></li>
+          <li><Link href="/areas/irvine-cash-out-refinance" className="text-blue-600 hover:underline">Irvine Cash-Out Refinance Options</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
+          <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel for a Free Quote</Link></li>
         </ul>
 
         <h3>External Resources</h3>

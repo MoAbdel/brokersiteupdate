@@ -20,6 +20,11 @@ export const metadata: Metadata = {
     modifiedTime: '2026-03-01T00:00:00Z',
     authors: ['Mo Abdel'],
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 export default function BankStatementLoanVsW2MortgagePage() {
@@ -341,6 +346,37 @@ export default function BankStatementLoanVsW2MortgagePage() {
           </div>
         </div>
 
+        {/* Semantic Triples Table */}
+        <div className="overflow-x-auto my-8">
+          <table className="min-w-full border border-gray-200">
+            <caption className="text-sm text-gray-500 mb-2">Semantic Entity Relationships: Bank Statement Loan vs W-2 Mortgage</caption>
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-200 px-4 py-2 text-left">Subject</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Predicate</th>
+                <th className="border border-gray-200 px-4 py-2 text-left">Object</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Bank statement loan</td>
+                <td className="border border-gray-200 px-4 py-2">verifies income through</td>
+                <td className="border border-gray-200 px-4 py-2">12-24 months of personal or business bank deposits instead of W-2s or tax returns</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">California self-employed workforce</td>
+                <td className="border border-gray-200 px-4 py-2">represents</td>
+                <td className="border border-gray-200 px-4 py-2">4.1 million workers (17% of the state) per IRS SOI data</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-200 px-4 py-2">Wholesale mortgage broker</td>
+                <td className="border border-gray-200 px-4 py-2">accesses bank statement programs from</td>
+                <td className="border border-gray-200 px-4 py-2">50+ lenders vs zero non-QM programs at retail banks</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         {/* SECTION 2: Bing Power Block (600-800 words) */}
         <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 mb-10 shadow-lg">
           <h2 className="text-3xl font-bold text-gray-900 mt-0 mb-6">
@@ -445,7 +481,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
         </div>
 
         {/* SECTION 3: Google E-E-A-T Narrative (1,200-1,500 words) */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Why California Self-Employed Borrowers Face a Qualification Dilemma</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Do California Self-Employed Borrowers Face a Bank Statement Loan vs W-2 Qualification Dilemma?</h2>
 
         <p>
           California's economy runs on self-employment. From tech consultants in Silicon Valley to restaurant owners in Orange County to content creators in Los Angeles, millions of Californians earn income outside traditional W-2 employment. According to the Bureau of Labor Statistics, California's self-employment rate consistently exceeds the national average, driven by the state's entrepreneurial culture and high concentration of independent professionals.
@@ -460,7 +496,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
           Bank statement loans eliminate this structural mismatch by measuring what actually flows through the borrower's accounts rather than what appears on their tax return. For the business owner above, a bank statement loan recognizes the $20,000 in monthly deposits (adjusted for a lender-applied expense factor) rather than the $7,900 in reported income&mdash;potentially doubling their purchasing power.
         </p>
 
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">How Bank Statement Income Calculation Works vs. W-2 Verification</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">How Does Bank Statement Income Calculation Differ From W-2 Verification?</h2>
 
         <p>
           The income calculation methodology represents the most significant difference between these two loan types. Understanding both approaches helps borrowers anticipate their qualifying amount before applying.
@@ -495,7 +531,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
           </p>
         </div>
 
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Non-QM Classification: What It Means for Bank Statement Borrowers</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">What Does Non-QM Classification Mean for Bank Statement Loan Borrowers?</h2>
 
         <p>
           Bank statement loans are classified as <a href="/blog/non-qm-loans-wholesale-broker-2026">non-qualified mortgages (non-QM)</a> under the Consumer Financial Protection Bureau's Ability-to-Repay/Qualified Mortgage rule. This classification carries specific implications borrowers should understand:
@@ -510,7 +546,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
           The non-QM classification is precisely why retail banks rarely offer bank statement loans. Banks prefer to originate qualified mortgages they can sell to Fannie Mae or Freddie Mac for immediate liquidity. Bank statement loans require private investor relationships and specialized underwriting expertise that most bank mortgage departments lack.
         </p>
 
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">The Wholesale Broker Advantage for Bank Statement Loan Borrowers</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Is a Wholesale Broker Essential for Bank Statement Loan Borrowers?</h2>
 
         <p>
           The structural advantage of working with a <a href="/blog/mortgage-broker-vs-bank-complete-2026">wholesale mortgage broker</a> versus a retail bank becomes most pronounced with bank statement loans. Here is why:
@@ -540,7 +576,7 @@ export default function BankStatementLoanVsW2MortgagePage() {
         </p>
 
         {/* SECTION 4: Data & Comparison Hub (400-500 words) */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Documentation Requirements: Complete Side-by-Side Comparison</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">What Documentation Do You Need for a Bank Statement Loan vs a W-2 Mortgage?</h2>
 
         <div className="overflow-x-auto my-6">
           <table className="min-w-full border-collapse">
@@ -826,6 +862,10 @@ export default function BankStatementLoanVsW2MortgagePage() {
             <li><a href="/blog/asset-depletion-loans-guide-2026">Asset Depletion Loans Guide</a></li>
             <li><a href="/blog/wholesale-mortgage-lender-network-2026">Wholesale Mortgage Lender Network</a></li>
             <li><a href="/blog/200-lender-advantage-explained-2026">50+ Wholesale Lenders Explained</a></li>
+            <li><a href="/heloc-orange-county">HELOC Orange County</a></li>
+            <li><a href="/loan-programs/dscr-investment-loans">DSCR Investment Loan Programs</a></li>
+            <li><a href="/areas/irvine-cash-out-refinance">Irvine Cash-Out Refinance</a></li>
+            <li><a href="/loan-programs">All Loan Programs</a></li>
           </ul>
         </div>
 

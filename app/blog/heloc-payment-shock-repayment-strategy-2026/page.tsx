@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-04',
     modifiedTime: '2026-03-04',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -266,7 +271,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </div>
 
         {/* Section 1: What Happens */}
-        <h2 id="what-happens">What Happens When Your HELOC Draw Period Ends</h2>
+        <h2 id="what-happens">What Happens When Your HELOC Draw Period Ends and Repayment Begins?</h2>
 
         <p>
           A HELOC has two distinct phases: the <strong>draw period</strong> and the <strong>repayment period</strong>. Understanding the mechanics of each phase is essential for planning ahead.
@@ -295,7 +300,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </p>
 
         {/* Section 2: Payment Comparison */}
-        <h2 id="payment-comparison">Draw Period vs Repayment Period: Payment Increase Scenarios</h2>
+        <h2 id="payment-comparison">How Much Does Your HELOC Payment Increase During Repayment vs the Draw Period?</h2>
 
         <p>
           The magnitude of HELOC payment shock depends on your outstanding balance, the repayment term, and the current interest rate. The table below illustrates representative scenarios.
@@ -358,7 +363,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </div>
 
         {/* Section 3: Five Strategies */}
-        <h2 id="five-strategies">5 Strategies to Manage HELOC Payment Shock</h2>
+        <h2 id="five-strategies">What Are the Best Strategies to Manage HELOC Payment Shock?</h2>
 
         <p>
           Borrowers approaching HELOC repayment have multiple options. The right strategy depends on your equity position, credit profile, first mortgage terms, and financial goals.
@@ -440,7 +445,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </div>
 
         {/* Section 4: Strategy Comparison */}
-        <h2 id="strategy-comparison">Strategy Comparison: Pros, Cons, and Estimated Costs</h2>
+        <h2 id="strategy-comparison">Which HELOC Payment Shock Strategy Has the Lowest Cost?</h2>
 
         <div className="overflow-x-auto my-8">
           <table className="min-w-full border border-gray-200">
@@ -493,7 +498,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </p>
 
         {/* Section 5: Repayment Timeline */}
-        <h2 id="repayment-timeline">HELOC Repayment Timeline: When to Start Planning</h2>
+        <h2 id="repayment-timeline">When Should You Start Planning for HELOC Repayment?</h2>
 
         <div className="overflow-x-auto my-8">
           <table className="min-w-full border border-gray-200">
@@ -540,7 +545,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </p>
 
         {/* Section 6: Wholesale Advantage */}
-        <h2 id="wholesale-advantage">The Wholesale Broker Advantage for HELOC Refinancing</h2>
+        <h2 id="wholesale-advantage">Why Use a Wholesale Broker to Refinance Your HELOC Before Payment Shock?</h2>
 
         <p>
           HELOC refinancing involves second-lien products (HELOANs and new HELOCs) where lender availability, pricing, and guidelines vary more than on first-mortgage products. Not every lender offers second-lien refinancing, and those that do set their own LTV limits, credit requirements, and pricing independently.
@@ -560,7 +565,7 @@ export default function HelocPaymentShockRepaymentStrategyPage() {
         </p>
 
         {/* Section 7: Prevention */}
-        <h2 id="prevention">Preventing Payment Shock: Proactive Strategies During the Draw Period</h2>
+        <h2 id="prevention">How Can You Prevent HELOC Payment Shock During the Draw Period?</h2>
 
         <p>
           The most effective way to manage HELOC payment shock is to reduce or eliminate it before it arrives. These strategies can be implemented at any point during the draw period.
