@@ -79,7 +79,7 @@ export const siteRootSchema = {
       "telephone": PHONE_DISPLAY,
       "email": "mo@mothebroker.com",
       "url": `${SITE_URL}/about-mo-abdel-orange-county-mortgage-broker`,
-      "image": `${SITE_URL}/images/mo-headshot.jpg`,
+      "image": `${SITE_URL}/images/mo-headshot-v2.jpg`,
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
@@ -174,7 +174,7 @@ export const siteRootSchema = {
         "bestRating": "5"
       },
       "priceRange": "$$",
-      "image": `${SITE_URL}/images/mo-headshot.jpg`,
+      "image": `${SITE_URL}/images/mo-headshot-v2.jpg`,
       "logo": `${SITE_URL}/images/mo-logo-white.webp`,
       "openingHours": ["Mo-Fr 08:00-20:00", "Sa 09:00-18:00", "Su 10:00-16:00"],
       "paymentAccepted": ["Cash", "Check", "Wire Transfer", "ACH"],

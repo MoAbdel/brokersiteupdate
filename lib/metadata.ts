@@ -16,7 +16,7 @@ export function generateMetadata({
   description,
   keywords,
   path,
-  image = '/images/mo-headshot.jpg',
+  image = '/images/mo-headshot-v2.jpg',
   type = 'website',
   noindex = false
 }: SEOMetadata): Metadata {

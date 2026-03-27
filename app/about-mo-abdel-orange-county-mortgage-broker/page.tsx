@@ -89,7 +89,7 @@ export default function AboutMoAbdelPage() {
           <div className="text-center mb-16">
             <div className="relative w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-xl">
               <Image
-                src="/images/mo-headshot.jpg"
+                src="/images/mo-headshot-v2.jpg"
                 alt="Mo Abdel - Licensed Orange County Mortgage Broker NMLS #1426884"
                 fill
                 className="object-cover scale-110"

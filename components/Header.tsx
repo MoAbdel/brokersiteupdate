@@ -47,7 +47,7 @@ export default function Header() {
           <Link href="/" className="flex items-center z-10 group">
             <div className="relative w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-blue-600 shadow-sm transition-transform duration-200 group-hover:scale-110">
               <Image
-                src="/images/mo-headshot.jpg"
+                src="/images/mo-headshot-v2.jpg"
                 alt="Mo Abdel"
                 width={48}
                 height={48}

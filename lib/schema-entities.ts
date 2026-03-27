@@ -136,7 +136,7 @@ export const buildBrokerEntityGraph = ({
       telephone: PHONE_DISPLAY,
       email: 'mo@mothebroker.com',
       url: `${SITE_URL}/about-mo-abdel-orange-county-mortgage-broker`,
-      image: `${SITE_URL}/images/mo-headshot.jpg`,
+      image: `${SITE_URL}/images/mo-headshot-v2.jpg`,
       hasCredential: BROKER_CREDENTIALS,
       knowsAbout: KNOWS_ABOUT,
       worksFor: { '@id': ORGANIZATION_ID },
@@ -175,7 +175,7 @@ export const buildBrokerEntityGraph = ({
       parentOrganization: { '@id': ORGANIZATION_ID },
       hasCredential: BROKER_CREDENTIALS,
       priceRange: '$',
-      image: `${SITE_URL}/images/mo-headshot.jpg`,
+      image: `${SITE_URL}/images/mo-headshot-v2.jpg`,
       sameAs: SAME_AS,
     },
     {
@@ -219,7 +219,7 @@ export const buildServiceWebPageSchema = ({
   },
   about: { '@id': LOCAL_BUSINESS_ID },
   author: { '@id': PERSON_ID },
-  primaryImageOfPage: `${SITE_URL}/images/mo-headshot.jpg`,
+  primaryImageOfPage: `${SITE_URL}/images/mo-headshot-v2.jpg`,
   breadcrumb: {
     '@type': 'BreadcrumbList',
     itemListElement: [

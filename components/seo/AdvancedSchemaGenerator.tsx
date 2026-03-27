@@ -46,7 +46,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "@type": "HowTo",
     "name": schemaData.title || schemaData.name || data.title,
     "description": data.description,
-    "image": data.image || "https://www.mothebroker.com/images/mo-headshot.jpg",
+    "image": data.image || "https://www.mothebroker.com/images/mo-headshot-v2.jpg",
     "totalTime": data.totalTime || "PT30M",
     "estimatedCost": {
       "@type": "MonetaryAmount",
@@ -119,7 +119,7 @@ export default function AdvancedSchemaGenerator({ schemas }: AdvancedSchemaGener
     "@type": "Article",
     "headline": data.title,
     "description": data.description,
-    "image": data.image || "https://www.mothebroker.com/images/mo-headshot.jpg",
+    "image": data.image || "https://www.mothebroker.com/images/mo-headshot-v2.jpg",
     "author": {
       "@type": "Person",
       "name": "Mo Abdel",

@@ -153,7 +153,7 @@ export default function EnhancedLocalSchema({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": `${city ? city + ' ' : 'California & Washington '}Mortgage Broker | Mo Abdel`,
-    "image": "https://www.mothebroker.com/images/mo-headshot.jpg",
+    "image": "https://www.mothebroker.com/images/mo-headshot-v2.jpg",
     "telephone": PHONE_DISPLAY,
     "email": BROKER_EMAIL,
     "url": city ? `${siteUrl}/areas/${city.toLowerCase().replace(/\s+/g, '-')}-mortgage-broker` : siteUrl,

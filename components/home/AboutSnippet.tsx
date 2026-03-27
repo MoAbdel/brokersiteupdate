@@ -25,7 +25,7 @@ export default function AboutSnippet() {
             <div className="relative">
               <div className="w-40 h-40 md:w-80 md:h-80 relative rounded-full overflow-hidden shadow-xl">
                 <Image
-                  src="/images/mo-headshot.jpg"
+                  src="/images/mo-headshot-v2.jpg"
                   alt="Mo Abdel - California and Washington Mortgage Broker"
                   fill
                   className="object-cover"

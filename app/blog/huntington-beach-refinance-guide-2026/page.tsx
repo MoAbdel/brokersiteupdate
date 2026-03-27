@@ -31,7 +31,7 @@ export default function HuntingtonBeachRefinance2025() {
             "name": "Lumin Lending, Inc.",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.mothebroker.com/images/mo-headshot.jpg"
+                "url": "https://www.mothebroker.com/images/mo-headshot-v2.jpg"
             }
         },
         "datePublished": "2026-01-14",
