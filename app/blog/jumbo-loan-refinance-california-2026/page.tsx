@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     'high balance refinance California',
     'wholesale jumbo refinance',
   ],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
   openGraph: {
     title: 'Jumbo Loan Refinance California: Requirements, Rates & Strategy [2026]',
     description: 'Complete guide to jumbo loan refinancing in California — conforming limits, credit score and reserve requirements, rate-term vs cash-out jumbo refi, ARM-to-fixed conversion, and wholesale broker advantage.',
@@ -262,7 +267,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </div>
 
         {/* Section 1: Conforming Limits */}
-        <h2 id="conforming-limits">2026 California Conforming Loan Limits and Jumbo Thresholds</h2>
+        <h2 id="conforming-limits">What Are the 2026 California Conforming Loan Limits and Jumbo Thresholds?</h2>
 
         <p>
           The <strong>conforming loan limit</strong> determines the dividing line between conventional (Fannie Mae/Freddie Mac) loans and jumbo loans. The <a href="https://www.fhfa.gov/data/conforming-loan-limit" target="_blank" rel="noopener noreferrer">Federal Housing Finance Agency (FHFA)</a> updates these limits annually based on home price appreciation data. For 2026, the limits are:
@@ -311,7 +316,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </div>
 
         {/* Section 2: Requirements */}
-        <h2 id="requirements">Jumbo Refinance Requirements: Credit Score, Reserves, and LTV</h2>
+        <h2 id="requirements">What Credit Score, Reserves, and LTV Do You Need for a Jumbo Refinance?</h2>
 
         <p>
           Jumbo loan refinance requirements are more stringent than conforming loan requirements because the lender takes on greater risk with higher loan amounts. Here are the qualification benchmarks across the three primary program types.
@@ -403,7 +408,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </p>
 
         {/* Section 3: Rate-Term vs Cash-Out */}
-        <h2 id="rate-term-vs-cashout">Rate-and-Term vs Cash-Out Jumbo Refinance in California</h2>
+        <h2 id="rate-term-vs-cashout">Should You Choose Rate-and-Term or Cash-Out for Your Jumbo Refinance?</h2>
 
         <p>
           Jumbo refinances fall into two primary categories: <strong>rate-and-term</strong> (replacing your existing loan with a new loan at different terms, with no cash extracted) and <strong>cash-out</strong> (replacing your existing loan with a larger loan and receiving the difference as cash). The choice affects your LTV limits, pricing, and qualification requirements.
@@ -432,7 +437,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </p>
 
         {/* Section 4: ARM Conversion */}
-        <h2 id="arm-conversion">Jumbo ARM to Fixed-Rate Conversion: When and How to Refinance</h2>
+        <h2 id="arm-conversion">When Should You Convert a Jumbo ARM to a Fixed-Rate Mortgage?</h2>
 
         <p>
           A significant portion of jumbo mortgages in California are originated as adjustable-rate mortgages (ARMs)&mdash;5/1, 7/1, and 10/1 ARM structures are common in the jumbo market. Converting a jumbo ARM to a fixed-rate mortgage through refinancing is a strategic decision that depends on several factors.
@@ -463,7 +468,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </div>
 
         {/* Section 5: Agency vs Portfolio */}
-        <h2 id="agency-vs-portfolio">Agency Jumbo vs Portfolio Jumbo: Side-by-Side Comparison</h2>
+        <h2 id="agency-vs-portfolio">What Is the Difference Between Agency Jumbo and Portfolio Jumbo Loans?</h2>
 
         <p>
           The distinction between agency jumbo (high-balance conforming) and portfolio jumbo is critical because it determines your underwriting experience, pricing structure, and lender options.
@@ -529,7 +534,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </p>
 
         {/* Section 6: Wholesale Advantage */}
-        <h2 id="wholesale-advantage">The Wholesale Broker Advantage for Jumbo Refinancing</h2>
+        <h2 id="wholesale-advantage">Why Do Jumbo Borrowers Benefit Most from a Wholesale Mortgage Broker?</h2>
 
         <p>
           The wholesale channel advantage is amplified on jumbo transactions for a specific structural reason: <strong>portfolio jumbo pricing is not standardized</strong>. On a conforming loan, the pricing between two lenders on the same borrower profile may differ by a modest amount. On a portfolio jumbo, the pricing variation across lenders is substantially wider because each lender sets rates based on its own balance sheet appetite, risk tolerance, and target market.
@@ -556,7 +561,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
         </div>
 
         {/* Section 7: Self-Employed */}
-        <h2 id="self-employed">Jumbo Refinance Options for Self-Employed California Borrowers</h2>
+        <h2 id="self-employed">What Jumbo Refinance Options Exist for Self-Employed California Borrowers?</h2>
 
         <p>
           Self-employed borrowers face a specific challenge with jumbo refinancing: their tax returns often understate their true income because of legitimate business deductions, depreciation, and pass-through entity structures. Portfolio jumbo lenders address this with alternative documentation programs.

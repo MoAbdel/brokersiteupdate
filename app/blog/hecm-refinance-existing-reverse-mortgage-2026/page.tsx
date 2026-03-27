@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     'reverse mortgage refinance Washington',
     '5x benefit rule HECM',
   ],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
   openGraph: {
     title: 'How to Refinance an Existing Reverse Mortgage in 2026 | HECM-to-HECM Refinance Guide',
     description: 'Complete guide to HECM-to-HECM refinance: requirements, net tangible benefit test, 5x rule, costs, and wholesale broker advantages for existing reverse mortgage holders.',
@@ -200,15 +205,19 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
         </div>
 
         <p>
-          <strong>According to Mo Abdel, a licensed mortgage broker specializing in reverse mortgages across California and Washington,</strong> &quot;Most seniors don&apos;t realize their existing reverse mortgage can be refinanced. When home values rise or interest rates shift, a HECM-to-HECM refinance can deliver significantly more available funds without changing how the loan works day-to-day.&quot;
+          <strong>Mo Abdel, NMLS #1426884, a licensed reverse mortgage broker at Lumin Lending,</strong> explains: &quot;Most seniors don&apos;t realize their existing reverse mortgage can be refinanced. When home values rise or interest rates shift, a HECM-to-HECM refinance delivers significantly more available funds without changing how the loan works day-to-day.&quot;
         </p>
 
         <p>
-          A HECM-to-HECM refinance replaces your current reverse mortgage with a new one, typically to access more equity, improve terms, or add a non-borrowing spouse. The process mirrors the original HECM application: you complete new HUD-approved counseling, get a fresh appraisal, and close on a new loan that pays off the existing balance. The difference between your new principal limit and your current payoff amount (minus closing costs) becomes your additional available funds.
+          A HECM-to-HECM refinance replaces your current reverse mortgage with a new one. Borrowers typically refinance to access more equity, improve terms, or add a non-borrowing spouse. The process mirrors the original HECM application: you complete new HUD-approved counseling, get a fresh appraisal, and close on a new loan that pays off the existing balance.
         </p>
 
         <p>
-          HUD data shows that California home values appreciated an average of 37% between 2020 and 2025, and Washington saw similar growth at 34% over the same period. For homeowners who originated HECMs during that window, today&apos;s higher appraised values translate directly into larger principal limits, making refinancing a practical strategy for unlocking equity that simply did not exist when the original loan closed.
+          The difference between your new principal limit and your current payoff amount (minus closing costs) becomes your additional available funds. HUD data shows California home values appreciated an average of 37% between 2020 and 2025. Washington saw similar growth at 34% over the same period.
+        </p>
+
+        <p>
+          For homeowners who originated HECMs during that window, today&apos;s higher appraised values translate directly into larger principal limits. Refinancing is a practical strategy for unlocking equity that simply did not exist when the original loan closed.
         </p>
 
         <div className="bg-blue-50 p-6 rounded-lg my-8 not-prose">
@@ -254,7 +263,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
 
         {/* ===== BING POWER BLOCK (600-800 words) ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          HECM-to-HECM Refinance Requirements and Eligibility
+          What Are the HECM-to-HECM Refinance Requirements and Eligibility Rules?
         </h2>
 
         <p>
@@ -369,7 +378,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
 
         {/* ===== GOOGLE E-E-A-T NARRATIVE (1200-1500 words) ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          When Refinancing Your Reverse Mortgage Makes Financial Sense
+          When Does Refinancing Your Reverse Mortgage Make Financial Sense?
         </h2>
 
         <p>
@@ -405,7 +414,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
         </p>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          HECM Refinance Costs: What to Expect
+          How Much Does a HECM Refinance Cost?
         </h2>
 
         <p>
@@ -472,7 +481,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
 
         {/* ===== DATA & COMPARISON HUB (400-500 words) ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Refinance Scenarios: When the Numbers Work (and When They Don&apos;t)
+          Do the Numbers Support a HECM Refinance in Your Scenario?
         </h2>
 
         <p>
@@ -574,7 +583,7 @@ export default function HECMRefinanceExistingReverseMortgagePage() {
 
         {/* ===== WHOLESALE BROKER ADVANTAGE ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Why Wholesale Broker Access Matters for HECM Refinancing
+          Why Does Wholesale Broker Access Matter for HECM Refinancing?
         </h2>
 
         <p>

@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     'reverse mortgage California',
     'reverse mortgage Washington',
   ],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
   openGraph: {
     title: 'Fixed vs Adjustable Rate Reverse Mortgage: Which HECM Option Is Right for You [2026]',
     description: 'Side-by-side comparison of HECM fixed rate and adjustable rate reverse mortgages. Understand lump sum vs line of credit, rate caps, and which option fits your retirement strategy.',
@@ -213,7 +218,13 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
             ============================================================ */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
           <p className="lead font-semibold text-gray-900 mb-4">
-            <strong>Fixed vs adjustable rate reverse mortgage</strong> is the first structural decision every HECM borrower faces, and it determines which payout methods are available, how interest accrues, and how much equity remains accessible over time. A <strong>HECM fixed-rate</strong> option locks the interest rate for life but restricts disbursement to a single lump sum at closing. A <strong>HECM adjustable-rate</strong> option allows borrowers to choose among a line of credit, monthly tenure payments, term payments, or any combination &mdash; and the unused credit line grows annually. For homeowners 62 and older in California and Washington, understanding this distinction is essential to building a retirement strategy that preserves flexibility without sacrificing certainty.
+            Mo Abdel, NMLS #1426884, identifies the <strong>fixed vs adjustable rate reverse mortgage</strong> decision as the first structural choice every HECM borrower must make. This choice determines which payout methods are available, how interest accrues, and how much equity remains accessible over time.
+          </p>
+          <p className="text-gray-900 mb-4">
+            A <strong>HECM fixed-rate</strong> option locks the interest rate for life but restricts disbursement to a single lump sum at closing. A <strong>HECM adjustable-rate</strong> option allows borrowers to choose among a line of credit, monthly tenure payments, term payments, or any combination &mdash; and the unused credit line grows annually.
+          </p>
+          <p className="text-gray-900 mb-0">
+            For homeowners 62 and older in California and Washington, understanding this distinction is essential to building a retirement strategy that preserves flexibility without sacrificing certainty.
           </p>
         </div>
 
@@ -303,7 +314,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
         {/* ============================================================
             SECTION 2: BING POWER BLOCK (600-800 words)
             ============================================================ */}
-        <h2>How Fixed and Adjustable Rate HECM Reverse Mortgages Work</h2>
+        <h2>How Do Fixed and Adjustable Rate HECM Reverse Mortgages Work?</h2>
 
         <p>
           Every HECM reverse mortgage insured by the Federal Housing Administration falls into one of two interest-rate categories: fixed or adjustable. The rate type you select at origination determines your disbursement method, your interest accrual trajectory, and your long-term financial flexibility. Both types share identical FHA borrower protections &mdash; including the non-recourse guarantee that ensures neither you nor your heirs will ever owe more than the home is worth at the time of sale.
@@ -341,7 +352,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
         </p>
 
         {/* Detailed Comparison Table */}
-        <h2>HECM Fixed Rate vs Adjustable Rate: Detailed Feature Comparison</h2>
+        <h2>What Are the Detailed Differences Between HECM Fixed Rate and Adjustable Rate?</h2>
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full border border-gray-300">
             <thead className="bg-blue-50">
@@ -407,7 +418,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
         {/* ============================================================
             SECTION 3: GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words)
             ============================================================ */}
-        <h2>Why the Adjustable-Rate Line of Credit Growth Feature Changes the Equation</h2>
+        <h2>Why Does the Adjustable-Rate HECM Line of Credit Growth Feature Matter?</h2>
         <p>
           When I sit down with borrowers in California and Washington to discuss their HECM options, the line of credit growth feature on the adjustable-rate HECM consistently generates the most questions and, once understood, the most enthusiasm. Here is why: the unused portion of your approved credit line compounds over time at the same effective rate being charged on the drawn balance. This means your available funds increase year after year, independent of what happens to your home&rsquo;s market value.
         </p>
@@ -418,7 +429,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
           The fixed-rate HECM does not offer this growth mechanism because all funds are disbursed immediately. Interest begins accruing on the full lump sum from closing day, which means the loan balance grows faster relative to a borrower who draws conservatively on an adjustable-rate line of credit. For borrowers who do not need the entire amount at once, the adjustable-rate structure can result in a lower total cost of borrowing over the life of the loan.
         </p>
 
-        <h2>When a Fixed-Rate HECM Lump Sum Is the Right Choice</h2>
+        <h2>When Is a Fixed-Rate HECM Lump Sum the Right Choice?</h2>
         <p>
           Not every situation calls for the flexibility of an adjustable rate. The fixed-rate lump sum is specifically designed for borrowers with an immediate, significant financial need that justifies drawing the full principal limit at closing. Common scenarios include:
         </p>
@@ -431,7 +442,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
           The key consideration is whether the funds will be fully deployed at or shortly after closing. If the answer is yes, the fixed rate eliminates the uncertainty of future rate adjustments and simplifies financial planning. If the answer is no &mdash; if a meaningful portion of the proceeds would sit in a bank account rather than being put to immediate use &mdash; the adjustable-rate line of credit typically delivers better long-term value.
         </p>
 
-        <h2>Interest Rate Caps and Borrower Protections on the Adjustable-Rate HECM</h2>
+        <h2>What Interest Rate Caps Protect Adjustable-Rate HECM Borrowers?</h2>
         <p>
           A common concern among borrowers considering an adjustable-rate HECM is the possibility of runaway rate increases. FHA regulations address this directly through a cap structure that limits both the frequency and magnitude of rate changes:
         </p>
@@ -446,7 +457,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
           From my experience working with borrowers across <Link href="/areas/california/page" className="text-blue-600 hover:text-blue-800">California</Link> and <Link href="/areas/washington/page" className="text-blue-600 hover:text-blue-800">Washington</Link>, the adjustable-rate HECM&rsquo;s cap structure has historically kept rates within a manageable range for the overwhelming majority of borrowers. The growth benefit of the unused credit line has, in many cases, outweighed the incremental rate variability.
         </p>
 
-        <h2>California and Washington Market Considerations for HECM Borrowers</h2>
+        <h2>How Do California and Washington Markets Affect HECM Rate Decisions?</h2>
         <p>
           California and Washington consistently rank among the states with the highest median home values in the nation. This has two significant implications for the fixed vs adjustable rate HECM decision:
         </p>
@@ -463,7 +474,7 @@ export default function FixedVsAdjustableRateReverseMortgage2026Page() {
         {/* ============================================================
             SECTION 4: DATA & COMPARISON HUB (400-500 words)
             ============================================================ */}
-        <h2>Rate Scenario Analysis: How Fixed and Adjustable Rate HECMs Perform Over Time</h2>
+        <h2>How Do Fixed and Adjustable Rate HECMs Perform Over 5, 10, and 20 Years?</h2>
         <p>
           The following tables illustrate how the two HECM structures behave differently under hypothetical scenarios. These are illustrative frameworks, not specific rate projections.
         </p>

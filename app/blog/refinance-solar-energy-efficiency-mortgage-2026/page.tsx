@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     'energy improvement refinance',
     'PACE loan payoff',
   ],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
   openGraph: {
     title: 'Solar Panel Refinance & Energy-Efficient Mortgage Options [2026]',
     description: 'Complete guide to refinancing with solar panels, paying off PACE loans, and accessing energy-efficient mortgage programs. 50+ Wholesale Lenders compared.',
@@ -230,7 +235,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 1 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Why Solar Homeowners Face Unique Refinancing Challenges in 2026
+          Why Do Solar Homeowners Face Unique Refinancing Challenges in 2026?
         </h2>
         <p>
           Over 1.5 million California homes now have rooftop solar installations, and Washington state&apos;s residential solar capacity grew 34% between 2024 and 2026. Despite the clear financial and environmental benefits, solar homeowners encounter refinancing obstacles that non-solar homeowners never face. These challenges fall into three categories: lien priority conflicts with PACE assessments, appraisal valuation gaps for energy improvements, and underwriting complexity around solar leases versus owned systems.
@@ -255,7 +260,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 2 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          PACE Loan Payoff Through Refinancing: Strategy, Process &amp; Costs
+          How Do You Pay Off a PACE Loan Through Refinancing?
         </h2>
         <p>
           PACE financing funded an estimated $2.8 billion in California residential energy improvements between 2014 and 2025. While PACE programs made solar installations accessible to homeowners who lacked upfront capital, the resulting property tax assessments create refinancing complications that require deliberate strategy to resolve.
@@ -324,7 +329,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 3 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          FHA Energy Efficient Mortgage (EEM): Requirements &amp; Benefits
+          What Are the FHA Energy Efficient Mortgage (EEM) Requirements and Benefits?
         </h2>
         <p>
           The FHA Energy Efficient Mortgage program allows borrowers to wrap energy improvement costs into their FHA-insured loan without increasing the down payment requirement. This program is available for both purchase and refinance transactions, making it accessible to homeowners looking to add solar panels or upgrade their home&apos;s energy profile during a refinance.
@@ -345,7 +350,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 4 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Fannie Mae HomeStyle Energy Mortgage: Conventional Green Financing
+          How Does the Fannie Mae HomeStyle Energy Mortgage Work?
         </h2>
         <p>
           For borrowers who prefer conventional financing or exceed FHA loan limits, the Fannie Mae HomeStyle Energy program offers a more generous energy improvement allowance. This program finances improvements up to 15% of the as-completed appraised value&mdash;significantly more than the FHA EEM&apos;s $8,000 cap.
@@ -415,7 +420,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 5 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Solar Lease vs. Owned Panels: Impact on Refinancing &amp; Home Value
+          How Do Solar Leases vs Owned Panels Affect Your Refinance and Home Value?
         </h2>
         <p>
           The distinction between leased and owned solar systems creates dramatically different refinancing scenarios. Understanding these differences before you apply prevents delays, appraisal surprises, and potential loan denials.
@@ -451,7 +456,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 6 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Green Appraisals: Capturing the Full Value of Energy Improvements
+          What Is a Green Appraisal and How Does It Capture Energy Improvement Value?
         </h2>
         <p>
           A green appraisal is performed by an appraiser who holds a green building certification from the Appraisal Institute (AI-GRS or AI-RRS designation). These appraisers use specialized addenda&mdash;including the Appraisal Institute&apos;s Residential Green and Energy Efficient Addendum&mdash;to document and value energy features that standard appraisals ignore.
@@ -472,7 +477,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 7 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Wholesale Broker Advantage for Green Refinancing
+          Why Does a Wholesale Broker Provide an Advantage for Green Refinancing?
         </h2>
         <p>
           Green home refinancing requires lender flexibility that most retail banks and credit unions do not offer. A <Link href="/blog/mortgage-broker-vs-bank-2026" className="text-blue-600 hover:text-blue-800">wholesale mortgage broker</Link> provides structural advantages that directly address the challenges solar homeowners face:
@@ -490,7 +495,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 8 - Cross-topic: DSCR */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Solar Panels on Rental Properties: DSCR Loan Considerations for Investors
+          How Do Solar Panels on Rental Properties Affect DSCR Loan Qualification?
         </h2>
         <p>
           Real estate investors installing solar on rental properties create a unique financing dynamic. Solar panels reduce operating expenses, which directly improves the debt service coverage ratio used in <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-800">DSCR loan underwriting</Link>.
@@ -504,7 +509,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 9 - Cross-topic: HECM */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Seniors with Solar: Reverse Mortgage &amp; Energy Equity Considerations
+          Can Seniors with Solar Panels Benefit from a Reverse Mortgage?
         </h2>
         <p>
           Homeowners aged 62 and older who installed solar panels over the past decade hold significant energy equity that a <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800">reverse mortgage (HECM)</Link> can help them access. The higher appraised value from a green appraisal translates directly into a larger reverse mortgage principal limit.
@@ -518,7 +523,7 @@ export default function RefinanceSolarEnergyEfficiencyMortgage2026() {
 
         {/* Section 10 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Step-by-Step: Refinancing Your Solar Home in 2026
+          What Are the Steps to Refinance a Solar Home in 2026?
         </h2>
         <ol className="list-decimal pl-6 my-4 space-y-3">
           <li><strong>Gather solar documentation:</strong> Collect your purchase agreement or lease contract, system specifications, installation date, warranty information, current production data, and any PACE loan statements.</li>

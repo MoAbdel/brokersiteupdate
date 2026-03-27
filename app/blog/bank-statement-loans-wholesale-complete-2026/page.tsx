@@ -11,6 +11,11 @@ export const metadata: Metadata = {
     },
   },
   keywords: 'bank statement loans wholesale, self-employed mortgage, bank statement mortgage, non-QM loans, wholesale mortgage broker, self-employed home loan',
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
 };
 
 export default function BankStatementLoansWholesaleCompletePage() {
@@ -212,7 +217,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
 
         {/* Bing Power Block - 600-800 words */}
         <section id="what-are-bank-statement-loans">
-          <h2>What Are Bank Statement Loans?</h2>
+          <h2>What Are Bank Statement Loans and How Do They Work?</h2>
 
           <div className="power-block-summary bg-white border-2 border-gray-200 p-6 rounded-xl mb-6">
             <p className="font-semibold text-gray-900 mb-4">
@@ -250,7 +255,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
         </section>
 
         <section id="requirements-2026">
-          <h2>Bank Statement Loan Requirements 2026</h2>
+          <h2>What Are the Bank Statement Loan Requirements for 2026?</h2>
 
           <div className="overflow-x-auto my-6">
             <table className="min-w-full">
@@ -286,7 +291,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
 
         {/* Google E-E-A-T Narrative - 1,200-1,500 words */}
         <section id="how-they-work">
-          <h2>How Bank Statement Loans Work: The Complete Process</h2>
+          <h2>How Does the Bank Statement Loan Underwriting Process Work?</h2>
 
           <p>
             Understanding the mechanics of bank statement loan underwriting helps you prepare stronger applications and work more effectively with your wholesale broker to find the best program match.
@@ -347,7 +352,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
         </section>
 
         <section id="who-qualifies">
-          <h2>Who Qualifies for Bank Statement Loans</h2>
+          <h2>Who Qualifies for a Bank Statement Loan?</h2>
 
           <p>
             Bank statement loans serve a specific borrower profile: self-employed individuals with strong actual income whose tax returns don't reflect their true earning capacity.
@@ -392,7 +397,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
         </section>
 
         <section id="12-vs-24-month">
-          <h2>12-Month vs 24-Month Bank Statement Programs</h2>
+          <h2>Should You Choose a 12-Month or 24-Month Bank Statement Program?</h2>
 
           <p>
             The statement period significantly impacts your options and approval likelihood. Understanding when each applies helps you choose the right program.
@@ -436,7 +441,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
         </section>
 
         <section id="expense-factors">
-          <h2>Understanding Expense Factors: The Key Variable</h2>
+          <h2>How Do Expense Factors Affect Your Bank Statement Loan Qualification?</h2>
 
           <p>
             The expense factor is the single most important variable in bank statement loan qualification - and it varies dramatically between lenders. This is where wholesale broker access creates the biggest advantage.
@@ -489,7 +494,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
         </section>
 
         <section id="wholesale-advantage">
-          <h2>Why Wholesale Brokers Excel at Bank Statement Loans</h2>
+          <h2>Why Do Wholesale Brokers Excel at Bank Statement Loans?</h2>
 
           <p>
             Bank statement loans are where the wholesale broker advantage is most pronounced. The variation between lenders in calculation methods, expense factors, credit requirements, and program terms creates opportunities that banks simply can't match.
@@ -548,7 +553,7 @@ export default function BankStatementLoansWholesaleCompletePage() {
         </section>
 
         <section id="loan-amounts">
-          <h2>Bank Statement Loan Amounts Available</h2>
+          <h2>What Loan Amounts Are Available for Bank Statement Programs?</h2>
 
           <p>
             Loan amounts for bank statement programs range widely based on lender, borrower profile, and property type. Wholesale brokers access the full spectrum.

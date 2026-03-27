@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     authors: ['Mo Abdel'],
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
 };
 
 export default function HELOCCompleteGuidePage() {
@@ -164,7 +169,7 @@ export default function HELOCCompleteGuidePage() {
                     <li><strong>Revolving access</strong> - Reuse available credit as you pay down</li>
                 </ul>
 
-                <h2>Why choose a HELOC over cash-out refinancing?</h2>
+                <h2>Why Should You Choose a HELOC Over Cash-Out Refinancing?</h2>
                 <p>
                     HELOCs make sense in several key situations:
                 </p>
@@ -190,7 +195,7 @@ export default function HELOCCompleteGuidePage() {
                     HELOCs typically have lower closing costs than full refinances. Many lenders offer no-closing-cost HELOCs for qualified borrowers.
                 </p>
 
-                <h2>How do I qualify for a HELOC in 2026?</h2>
+                <h2>How Do You Qualify for a HELOC in 2026?</h2>
                 <p>
                     HELOC qualification involves several factors:
                 </p>
@@ -238,7 +243,7 @@ export default function HELOCCompleteGuidePage() {
                     </table>
                 </div>
 
-                <h2>Common HELOC uses in 2026</h2>
+                <h2>What Are the Most Common HELOC Uses in 2026?</h2>
                 <ul>
                     <li><strong>Home improvements</strong> - Kitchen, bathroom, ADU additions</li>
                     <li><strong>Debt consolidation</strong> - Pay off high-interest credit cards</li>

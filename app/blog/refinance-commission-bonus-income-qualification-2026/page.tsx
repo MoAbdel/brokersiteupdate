@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     'FHA commission income requirements',
     'wholesale mortgage broker commission income',
   ],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
   openGraph: {
     title: 'Refinancing with Commission & Bonus Income: Qualification Guide [2026]',
     description: 'Refinance with commission income guide: Fannie Mae vs FHA vs VA calculation methods, 2-year income averaging, declining income analysis, and wholesale broker advantage across 200+ lenders.',
@@ -320,7 +325,7 @@ export default function RefinanceCommissionBonusIncomeQualificationPage() {
         </div>
 
         {/* Section 1: How Underwriters Evaluate Commission and Bonus Income */}
-        <h2 id="how-underwriters-evaluate">How Underwriters Evaluate Commission and Bonus Income for Refinancing</h2>
+        <h2 id="how-underwriters-evaluate">How Do Underwriters Evaluate Commission and Bonus Income for Refinancing?</h2>
 
         <p>
           Mortgage underwriters treat commission and bonus income fundamentally differently from base salary. A salaried employee earning $8,000 per month has a straightforward income calculation: $8,000 qualifies. A commission earner who made $120,000 last year and $85,000 the year before does not automatically qualify at $120,000 per year or even $102,500 (the simple average). The underwriter applies a structured methodology that accounts for income variability, historical trends, and the reasonable likelihood of continuance.
@@ -347,7 +352,7 @@ export default function RefinanceCommissionBonusIncomeQualificationPage() {
         </p>
 
         {/* Section 2: Fannie Mae vs FHA vs VA */}
-        <h2 id="fannie-fha-va-comparison">Fannie Mae vs FHA vs VA: How Each Program Calculates Commission Income</h2>
+        <h2 id="fannie-fha-va-comparison">How Does Fannie Mae vs FHA vs VA Calculate Commission Income Differently?</h2>
 
         <p>
           Each major loan program has its own guidelines for evaluating commission income, and the differences directly affect how much you qualify for. Understanding these distinctions is critical because a borrower who does not qualify under conventional guidelines may qualify under FHA or VA rules&mdash;or vice versa.
@@ -392,7 +397,7 @@ export default function RefinanceCommissionBonusIncomeQualificationPage() {
         </div>
 
         {/* Section 3: Declining Income Analysis */}
-        <h2 id="declining-income">What Happens When Commission Income Declines Year Over Year</h2>
+        <h2 id="declining-income">What Happens When Commission Income Declines Year Over Year?</h2>
 
         <p>
           Declining commission income is the single most common reason commission-based borrowers are denied or approved for less than expected on a refinance. When your most recent year&rsquo;s commission earnings are lower than the prior year, every underwriter applies additional scrutiny&mdash;but how they quantify the impact varies significantly by lender.
@@ -510,7 +515,7 @@ export default function RefinanceCommissionBonusIncomeQualificationPage() {
         </div>
 
         {/* Section 5: Lender Overlays */}
-        <h2 id="lender-overlays">Lender Overlays: Why the Same Commission Income Qualifies Differently at Different Lenders</h2>
+        <h2 id="lender-overlays">Why Does the Same Commission Income Qualify Differently at Different Lenders?</h2>
 
         <p>
           Lender overlays are the additional requirements that individual lending institutions layer on top of Fannie Mae, FHA, or VA base guidelines. For commission income borrowers, overlays create the widest qualification disparity of any income type. Two lenders both offering Fannie Mae conventional loans can reach dramatically different qualifying income figures for the same borrower because their internal overlay policies differ on income trending, declining income thresholds, and documentation requirements.
@@ -601,7 +606,7 @@ export default function RefinanceCommissionBonusIncomeQualificationPage() {
         </div>
 
         {/* Section 7: Wholesale Broker Advantage */}
-        <h2 id="wholesale-broker-advantage">Why Commission Income Borrowers Need a Wholesale Broker</h2>
+        <h2 id="wholesale-broker-advantage">Why Do Commission Income Borrowers Need a Wholesale Mortgage Broker?</h2>
 
         <p>
           Commission and bonus income refinances represent the clearest use case for working with a wholesale mortgage broker rather than a direct lender, bank, or credit union. The variability in how lenders treat commission income means that lender selection is not a secondary consideration&mdash;it is the primary factor that determines your qualifying income amount and whether you receive an approval or denial.

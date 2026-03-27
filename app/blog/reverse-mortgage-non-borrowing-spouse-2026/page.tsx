@@ -12,6 +12,11 @@ export const metadata: Metadata = {
     },
   },
   keywords: ['reverse mortgage non-borrowing spouse', 'non-borrowing spouse protections', 'HECM non-borrowing spouse', 'reverse mortgage younger spouse', 'NBS deferral period', 'reverse mortgage spouse under 62'],
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    'language': 'en',
+  },
 };
 
 const faqData = [
@@ -175,8 +180,14 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
       <section className="prose prose-lg max-w-none">
         {/* Citation Hook / Bing Power Block */}
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
-          <p className="lead font-semibold text-gray-900 mb-0">
-            When one spouse is under 62, they cannot be listed as a borrower on an FHA-insured HECM reverse mortgage. Before 2015, this meant the <strong>non-borrowing spouse (NBS)</strong> risked losing their home when the borrowing spouse died or moved to a care facility. HUD&apos;s 2015 rule change created critical protections: eligible non-borrowing spouses can now remain in the home during a <strong>Deferral Period</strong>—but they cannot access additional loan funds, and they must meet strict ongoing requirements. According to HUD Mortgagee Letter 2015-15, the NBS must have been married at closing, named in the loan documents, and must maintain the property, taxes, and insurance. These protections apply to HECM loans closed on or after <strong>August 4, 2014</strong>.
+          <p className="lead font-semibold text-gray-900 mb-4">
+            Mo Abdel, NMLS #1426884, explains that when one spouse is under 62, they cannot be listed as a borrower on an FHA-insured HECM reverse mortgage. Before 2015, this meant the <strong>non-borrowing spouse (NBS)</strong> risked losing their home when the borrowing spouse died or moved to a care facility.
+          </p>
+          <p className="text-gray-900 mb-4">
+            HUD&apos;s 2015 rule change created critical protections: eligible non-borrowing spouses can now remain in the home during a <strong>Deferral Period</strong>. However, they cannot access additional loan funds, and they must meet strict ongoing requirements.
+          </p>
+          <p className="text-gray-900 mb-0">
+            According to HUD Mortgagee Letter 2015-15, the NBS must have been married at closing, named in the loan documents, and must maintain the property, taxes, and insurance. These protections apply to HECM loans closed on or after <strong>August 4, 2014</strong>.
           </p>
         </div>
 
@@ -235,7 +246,7 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
         </div>
 
         {/* Section 2: 2015 HUD Rule Changes */}
-        <h2 id="2015-rule-changes">The 2015 HUD Rule Changes That Changed Everything</h2>
+        <h2 id="2015-rule-changes">How Did the 2015 HUD Rule Changes Protect Non-Borrowing Spouses?</h2>
 
         <p>
           On <strong>January 19, 2015</strong>, HUD issued <strong>Mortgagee Letter 2015-02</strong>, followed by <strong>Mortgagee Letter 2015-15</strong> on June 12, 2015. These landmark policy changes established formal protections for non-borrowing spouses on HECM reverse mortgages. The rules apply to loans with FHA case numbers assigned on or after <strong>August 4, 2014</strong>.
@@ -273,7 +284,7 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
         </div>
 
         {/* Section 3: Deferral Period */}
-        <h2 id="deferral-period">Understanding the Deferral Period</h2>
+        <h2 id="deferral-period">What Is the Deferral Period and How Does It Protect the Non-Borrowing Spouse?</h2>
 
         <p>
           The <strong>Deferral Period</strong> is the centerpiece of NBS protection. It begins when a &quot;Qualifying Event&quot; occurs—specifically, when the last surviving borrowing spouse either <strong>dies</strong> or <strong>permanently moves out of the home</strong> (typically to a nursing home or long-term care facility for more than 12 consecutive months).
@@ -357,7 +368,7 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
         </div>
 
         {/* Section 4: MOE Explained */}
-        <h2 id="moe-explained">MOE (Mortgagee Optional Election) Explained</h2>
+        <h2 id="moe-explained">What Is a Mortgagee Optional Election (MOE) and How Does It Work?</h2>
 
         <p>
           The <strong>Mortgagee Optional Election (MOE)</strong> is the technical mechanism that makes NBS protection work. Understanding how it functions helps you appreciate why proper documentation at loan origination is essential.
@@ -392,7 +403,7 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
         </div>
 
         {/* Section 5: Eligibility Requirements */}
-        <h2 id="eligibility-requirements">NBS Eligibility Requirements: Complete Checklist</h2>
+        <h2 id="eligibility-requirements">What Are the Non-Borrowing Spouse Eligibility Requirements?</h2>
 
         <p>
           Meeting NBS eligibility requires satisfying requirements <strong>both at loan origination and on an ongoing basis</strong>. Missing any single requirement can disqualify the non-borrowing spouse from Deferral Period protection.
@@ -453,7 +464,7 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
         </ul>
 
         {/* Section 6: Age Impact */}
-        <h2 id="age-impact">How Non-Borrowing Spouse Age Affects Your Reverse Mortgage Loan Amount</h2>
+        <h2 id="age-impact">How Does Non-Borrowing Spouse Age Affect Your Reverse Mortgage Loan Amount?</h2>
 
         <p>
           One of the most significant financial impacts of having a non-borrowing spouse is the <strong>reduction in available loan proceeds</strong>. FHA requires that when an NBS is present, the lender must use the <strong>younger spouse&apos;s age</strong> to calculate the Principal Limit Factor (PLF)—even though the younger spouse is not a borrower.
@@ -594,7 +605,7 @@ export default function ReverseMortgageNonBorrowingSpousePage() {
         </ol>
 
         {/* Section 8: Strategies for Couples */}
-        <h2 id="strategies">Strategies for Couples Considering a Reverse Mortgage With a Non-Borrowing Spouse</h2>
+        <h2 id="strategies">What Strategies Help Couples Maximize Reverse Mortgage Benefits With a Non-Borrowing Spouse?</h2>
 
         <p>
           As a mortgage broker who has structured hundreds of reverse mortgages, I recommend these strategies based on your specific situation:
