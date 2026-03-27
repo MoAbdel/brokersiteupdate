@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { Home, RefreshCw, Briefcase, ArrowRight, ArrowLeft, MapPin, CreditCard, Building, DollarSign, Percent } from "lucide-react";
 import { getResponseErrorMessage } from '@/lib/api-client';
-import { getTermsConsentPayload } from '@/lib/terms-consent';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 
 interface QuizData {
   intent: string;
@@ -85,8 +85,6 @@ export default function MortgageQuiz() {
     setErrorMessage(null);
 
     try {
-      const parseCurrency = (value: string) => parseFloat(value.replace(/[^0-9.]/g, '')) || 0;
-
       const notes = [
         `Quiz intent: ${formData.intent}`,
         formData.purchasePrice ? `Purchase price: ${formData.purchasePrice}` : '',
@@ -99,32 +97,24 @@ export default function MortgageQuiz() {
         .filter(Boolean)
         .join(' | ');
 
-      const response = await fetch('/api/quotes', {
+      const fd = new FormData();
+      fd.append('full_name', formData.firstName || 'Quiz User');
+      fd.append('email', formData.email);
+      fd.append('phone', formData.phone);
+      fd.append('loan_type', formData.specialtyLoanType || formData.intent || 'quiz');
+      fd.append('loan_purpose', formData.intent);
+      fd.append('credit_score', formData.creditRange);
+      fd.append('down_payment', formData.downPaymentPercent || '');
+      fd.append('zip_code', formData.zipCode);
+      fd.append('occupancy', formData.occupancy);
+      fd.append('source', 'Quiz');
+      fd.append('notes', notes);
+      appendTermsConsentToFormData(fd);
+
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          ...getTermsConsentPayload(),
-          full_name: formData.firstName || 'Quiz User',
-          email: formData.email,
-          phone: formData.phone,
-          loan_amount: parseCurrency(formData.purchasePrice || formData.homeValue || ''),
-          property_value: parseCurrency(formData.homeValue || formData.purchasePrice || ''),
-          loan_type: formData.specialtyLoanType || formData.intent || 'quiz',
-          loan_purpose: formData.intent,
-          credit_score: formData.creditRange,
-          down_payment: formData.downPaymentPercent || '',
-          zip_code: formData.zipCode,
-          occupancy: formData.occupancy,
-          current_pricing: formData.currentRate || '',
-          cash_amount: formData.cashAmount || '',
-          specialty_loan_type: formData.specialtyLoanType || '',
-          source: 'Quiz',
-          notes,
-          status: 'new',
-        }),
+        headers: { Accept: 'application/json' },
+        body: fd,
       });
 
       if (!response.ok) {

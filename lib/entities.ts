@@ -1,23 +1,6 @@
 // Mock entities for Base44 functionality
 // In production, these would connect to actual database/API
 
-interface RateQuoteData {
-  id?: string;
-  full_name: string;
-  email: string;
-  phone: string;
-  loan_amount: number;
-  property_value?: number;
-  credit_score?: string;
-  loan_type?: string;
-  down_payment?: number;
-  employment_status?: string;
-  annual_income?: number;
-  status?: string;
-  notes?: string;
-  created_at?: string;
-}
-
 interface MortgageRateData {
   id?: string;
   loan_type: string;
@@ -58,7 +41,6 @@ interface NewsletterSubscriptionData {
 }
 
 // Mock data storage (in production, this would be a database)
-let rateQuotes: RateQuoteData[] = [];
 let newsletterSubscriptions: NewsletterSubscriptionData[] = [];
 let mortgageRates: MortgageRateData[] = [
   {
@@ -163,50 +145,6 @@ let marketInsights: MarketInsightData[] = [
 ];
 
 // Mock Entity Classes
-export class RateQuote {
-  static async create(data: Omit<RateQuoteData, 'id' | 'created_at'>): Promise<RateQuoteData> {
-    const newQuote: RateQuoteData = {
-      ...data,
-      id: Math.random().toString(36).substring(2, 11),
-      created_at: new Date().toISOString(),
-      status: data.status || 'new'
-    };
-    rateQuotes.push(newQuote);
-    
-    // Simulate API delay
-    await new Promise(resolve => setTimeout(resolve, 500));
-    return newQuote;
-  }
-
-  static async list(orderBy?: string): Promise<RateQuoteData[]> {
-    await new Promise(resolve => setTimeout(resolve, 200));
-    return [...rateQuotes].sort((a, b) => {
-      if (orderBy === '-created_at') {
-        return new Date(b.created_at!).getTime() - new Date(a.created_at!).getTime();
-      }
-      return 0;
-    });
-  }
-
-  static async update(id: string, data: Partial<RateQuoteData>): Promise<RateQuoteData | null> {
-    await new Promise(resolve => setTimeout(resolve, 300));
-    const index = rateQuotes.findIndex(q => q.id === id);
-    if (index === -1) return null;
-    
-    rateQuotes[index] = { ...rateQuotes[index], ...data };
-    return rateQuotes[index];
-  }
-
-  static async delete(id: string): Promise<boolean> {
-    await new Promise(resolve => setTimeout(resolve, 200));
-    const index = rateQuotes.findIndex(q => q.id === id);
-    if (index === -1) return false;
-    
-    rateQuotes.splice(index, 1);
-    return true;
-  }
-}
-
 export class MortgageRate {
   static async create(data: Omit<MortgageRateData, 'id' | 'created_at'>): Promise<MortgageRateData> {
     const newRate: MortgageRateData = {

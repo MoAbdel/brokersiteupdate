@@ -10,14 +10,13 @@ import { Textarea } from "@/components/ui/Textarea";
 import { Badge } from "@/components/ui/Badge";
 import { Settings, Plus, Edit3, Trash2, TrendingUp, TrendingDown, Save, RefreshCw, Download, Calendar } from "lucide-react";
 import Link from "next/link";
-import { MortgageRate, MarketInsight, RateQuote } from "@/lib/entities";
+import { MortgageRate, MarketInsight } from "@/lib/entities";
 import PasswordProtection from "@/components/PasswordProtection";
 
 export default function AdminPage() {
   const [activeTab, setActiveTab] = useState('rates');
   const [rates, setRates] = useState<any[]>([]);
   const [insights, setInsights] = useState<any[]>([]);
-  const [quotes, setQuotes] = useState<any[]>([]);
   const [editingRate, setEditingRate] = useState<any>(null);
   const [editingInsight, setEditingInsight] = useState<any>(null);
   const [isScrapingRates, setIsScrapingRates] = useState(false);
@@ -49,14 +48,12 @@ export default function AdminPage() {
 
   const loadData = async () => {
     try {
-      const [ratesData, insightsData, quotesData] = await Promise.all([
+      const [ratesData, insightsData] = await Promise.all([
         MortgageRate.list('loan_type'),
         MarketInsight.list('display_order'),
-        RateQuote.list('-created_at')
       ]);
       setRates(ratesData);
       setInsights(insightsData);
-      setQuotes(quotesData);
     } catch (error) {
       console.error('Error loading data:', error);
     }
@@ -162,18 +159,6 @@ export default function AdminPage() {
       } catch (error) {
         console.error('Error deleting insight:', error);
       }
-    }
-  };
-
-  const updateQuoteStatus = async (id: string, status: string) => {
-    try {
-      const quote = quotes.find(q => q.id === id);
-      if (quote) {
-        await RateQuote.update(id, { ...quote, status });
-        loadData();
-      }
-    } catch (error) {
-      console.error('Error updating quote status:', error);
     }
   };
 
@@ -288,14 +273,14 @@ export default function AdminPage() {
                 Market Insights ({insights.length})
               </button>
               <button
-                onClick={() => setActiveTab('quotes')}
+                onClick={() => setActiveTab('leads')}
                 className={`py-4 px-1 border-b-2 font-medium text-sm ${
-                  activeTab === 'quotes'
+                  activeTab === 'leads'
                     ? 'border-blue-500 text-blue-600'
                     : 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300'
                 }`}
               >
-                Loan Quotes ({quotes.length})
+                Lead Submissions
               </button>
             </nav>
           </div>
@@ -633,69 +618,16 @@ export default function AdminPage() {
           </div>
         )}
 
-        {/* Quotes Tab */}
-        {activeTab === 'quotes' && (
-          <div className="space-y-4">
-            {quotes.length === 0 ? (
-              <Card className="shadow-sm border-slate-200">
-                <CardContent className="p-8 text-center">
-                  <p className="text-slate-500">No loan quotes yet.</p>
-                </CardContent>
-              </Card>
-            ) : (
-              quotes.map((quote) => (
-                <Card key={quote.id} className="shadow-sm border-slate-200">
-                  <CardContent className="p-6">
-                    <div className="flex items-start justify-between">
-                      <div className="flex-1">
-                        <div className="flex items-center space-x-3 mb-2">
-                          <h3 className="text-lg font-semibold text-slate-900">{quote.full_name}</h3>
-                          <Badge className={
-                            quote.status === 'new' ? 'bg-blue-100 text-blue-800' :
-                            quote.status === 'contacted' ? 'bg-yellow-100 text-yellow-800' :
-                            quote.status === 'qualified' ? 'bg-slate-100 text-slate-900' :
-                            'bg-slate-100 text-slate-800'
-                          }>
-                            {quote.status}
-                          </Badge>
-                        </div>
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                          <div>
-                            <span className="font-medium text-slate-700">Email:</span>
-                            <div className="text-slate-600">{quote.email}</div>
-                          </div>
-                          <div>
-                            <span className="font-medium text-slate-700">Phone:</span>
-                            <div className="text-slate-600">{quote.phone}</div>
-                          </div>
-                          <div>
-                            <span className="font-medium text-slate-700">Loan Amount:</span>
-                            <div className="text-slate-600">${quote.loan_amount?.toLocaleString()}</div>
-                          </div>
-                          <div>
-                            <span className="font-medium text-slate-700">Credit Score:</span>
-                            <div className="text-slate-600">{quote.credit_score}</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex space-x-2 ml-4">
-                        <Select value={quote.status} onValueChange={(value) => updateQuoteStatus(quote.id, value)}>
-                          <SelectTrigger className="w-32">
-                            <SelectValue />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="new">New</SelectItem>
-                            <SelectItem value="contacted">Contacted</SelectItem>
-                            <SelectItem value="qualified">Qualified</SelectItem>
-                            <SelectItem value="closed">Closed</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))
-            )}
+        {/* Leads Tab */}
+        {activeTab === 'leads' && (
+          <div className="bg-white rounded-lg shadow p-6">
+            <h2 className="text-lg font-semibold text-slate-900 mb-4">Lead Submissions</h2>
+            <p className="text-slate-600">
+              All lead submissions are now managed in{' '}
+              <a href="https://formspree.io" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                Formspree Dashboard
+              </a>. Log in to view, export, and manage all contact form and quote submissions.
+            </p>
           </div>
         )}
       </div>

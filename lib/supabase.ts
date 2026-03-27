@@ -27,19 +27,3 @@ export interface NewsletterSubscription {
   created_at?: string;
 }
 
-export interface RateQuote {
-  id?: string;
-  full_name: string;
-  email: string;
-  phone: string;
-  loan_amount: number;
-  property_value?: number;
-  credit_score?: string;
-  loan_type?: string;
-  down_payment?: number;
-  employment_status?: string;
-  annual_income?: number;
-  status: string;
-  notes?: string;
-  created_at?: string;
-}

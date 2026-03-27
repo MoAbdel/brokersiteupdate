@@ -1,6 +1,7 @@
 import SeoServicePage from '@/app/(marketing)/components/SeoServicePage';
 import { JsonLd } from '@/app/(marketing)/components/Schema';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import QualificationCallout from '@/components/QualificationCallout';
 
 export const metadata = {
   title: 'Newport Beach Mortgage Broker | Luxury Home Loans & Jumbo Financing',
@@ -215,6 +216,7 @@ export default function Page() {
         faqs={faqs}
         internalLinks={links}
       />
+      <QualificationCallout variant="equity" className="my-8 mx-auto max-w-3xl" />
       <JsonLd json={pageSchema} />
       <JsonLd json={localBusiness} />
       <JsonLd json={faqSchema} />

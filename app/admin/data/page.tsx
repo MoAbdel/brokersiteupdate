@@ -1,23 +1,10 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
-import { Mail, Download, Users, MessageCircle } from 'lucide-react';
+import { Button } from '@/components/ui/Button';
+import { Mail, Download } from 'lucide-react';
 import PasswordProtection from '@/components/PasswordProtection';
-
-interface Quote {
-  id: string;
-  full_name: string;
-  email: string;
-  phone: string;
-  loan_amount: number;
-  loan_type: string;
-  credit_score: string;
-  status: string;
-  notes: string;
-  created_at: string;
-}
 
 interface Newsletter {
   id: string;
@@ -29,7 +16,6 @@ interface Newsletter {
 }
 
 export default function AdminDataPage() {
-  const [quotes, setQuotes] = useState<Quote[]>([]);
   const [newsletters, setNewsletters] = useState<Newsletter[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -40,20 +26,12 @@ export default function AdminDataPage() {
   const loadData = async () => {
     setLoading(true);
     try {
-      // Fetch from API endpoints instead of direct Supabase
-      const [quotesResponse, newslettersResponse] = await Promise.all([
-        fetch('/api/quotes').then(res => res.json()),
-        fetch('/api/newsletter').then(res => res.json())
-      ]);
-      
-      if (!quotesResponse.success) {
-        console.error('Error fetching quotes:', quotesResponse.error);
-      }
+      const newslettersResponse = await fetch('/api/newsletter').then(res => res.json());
+
       if (!newslettersResponse.success) {
         console.error('Error fetching newsletters:', newslettersResponse.error);
       }
-      
-      setQuotes(quotesResponse.data || []);
+
       setNewsletters(newslettersResponse.data?.map((sub: any) => ({
         ...sub,
         firstName: sub.first_name,
@@ -69,15 +47,15 @@ export default function AdminDataPage() {
 
   const exportToCSV = (data: any[], filename: string) => {
     if (data.length === 0) return;
-    
+
     const headers = Object.keys(data[0]);
     const csvContent = [
       headers.join(','),
-      ...data.map(row => headers.map(header => 
+      ...data.map(row => headers.map(header =>
         JSON.stringify(row[header] || '')
       ).join(','))
     ].join('\n');
-    
+
     const blob = new Blob([csvContent], { type: 'text/csv' });
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -85,15 +63,6 @@ export default function AdminDataPage() {
     a.download = filename;
     a.click();
     window.URL.revokeObjectURL(url);
-  };
-
-  const formatCurrency = (amount: number) => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(amount);
   };
 
   const formatDate = (dateString: string) => {
@@ -125,118 +94,19 @@ export default function AdminDataPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-slate-900 mb-2">Data Collection Dashboard</h1>
-            <p className="text-slate-600">View and export quote requests and newsletter subscriptions</p>
+            <p className="text-slate-600">View and export newsletter subscriptions</p>
           </div>
 
-        {/* Stats Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center">
-                <MessageCircle className="w-8 h-8 text-blue-600" />
-                <div className="ml-4">
-                  <p className="text-2xl font-bold text-slate-900">{quotes.length}</p>
-                  <p className="text-slate-600">Quote Requests</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center">
-                <Mail className="w-8 h-8 text-blue-600" />
-                <div className="ml-4">
-                  <p className="text-2xl font-bold text-slate-900">{newsletters.filter(n => n.isActive).length}</p>
-                  <p className="text-slate-600">Newsletter Subscribers</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center">
-                <Users className="w-8 h-8 text-blue-600" />
-                <div className="ml-4">
-                  <p className="text-2xl font-bold text-slate-900">
-                    {new Set([...quotes.map(q => q.email), ...newsletters.map(n => n.email)]).size}
-                  </p>
-                  <p className="text-slate-600">Total Unique Leads</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+        {/* Lead Submissions */}
+        <div className="bg-white rounded-lg shadow p-6 mb-8">
+          <h2 className="text-lg font-semibold text-slate-900 mb-4">Lead Submissions</h2>
+          <p className="text-slate-600">
+            All lead submissions are now managed in{' '}
+            <a href="https://formspree.io" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              Formspree Dashboard
+            </a>. Log in to view, export, and manage all contact form and quote submissions.
+          </p>
         </div>
-
-        {/* Quote Requests */}
-        <Card className="mb-8">
-          <CardHeader className="flex flex-row items-center justify-between">
-            <CardTitle className="flex items-center">
-              <MessageCircle className="w-6 h-6 mr-2 text-blue-600" />
-              Quote Requests ({quotes.length})
-            </CardTitle>
-            <Button
-              onClick={() => exportToCSV(quotes, 'quote-requests.csv')}
-              className="bg-slate-900 hover:bg-slate-800"
-              disabled={quotes.length === 0}
-            >
-              <Download className="w-4 h-4 mr-2" />
-              Export CSV
-            </Button>
-          </CardHeader>
-          <CardContent>
-            {quotes.length === 0 ? (
-              <p className="text-slate-600 text-center py-8">No quote requests yet.</p>
-            ) : (
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="border-b border-slate-200">
-                      <th className="text-left py-3 px-2">Name</th>
-                      <th className="text-left py-3 px-2">Email</th>
-                      <th className="text-left py-3 px-2">Phone</th>
-                      <th className="text-left py-3 px-2">Loan Amount</th>
-                      <th className="text-left py-3 px-2">Loan Type</th>
-                      <th className="text-left py-3 px-2">Credit Score</th>
-                      <th className="text-left py-3 px-2">Notes</th>
-                      <th className="text-left py-3 px-2">Status</th>
-                      <th className="text-left py-3 px-2">Date</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {quotes.map((quote) => (
-                      <tr key={quote.id} className="border-b border-slate-100 hover:bg-slate-50">
-                        <td className="py-3 px-2 font-medium">{quote.full_name}</td>
-                        <td className="py-3 px-2">{quote.email}</td>
-                        <td className="py-3 px-2">{quote.phone}</td>
-                        <td className="py-3 px-2">{formatCurrency(quote.loan_amount)}</td>
-                        <td className="py-3 px-2 capitalize">{quote.loan_type}</td>
-                        <td className="py-3 px-2 capitalize">{quote.credit_score || 'N/A'}</td>
-                        <td className="py-3 px-2 max-w-xs">
-                          <div className="truncate" title={quote.notes}>
-                            {quote.notes ? quote.notes.substring(0, 50) + (quote.notes.length > 50 ? '...' : '') : 'N/A'}
-                          </div>
-                        </td>
-                        <td className="py-3 px-2">
-                          <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            quote.status === 'new' ? 'bg-blue-100 text-blue-800' :
-                            quote.status === 'contacted' ? 'bg-yellow-100 text-yellow-800' :
-                            quote.status === 'qualified' ? 'bg-slate-100 text-slate-900' :
-                            'bg-slate-100 text-slate-800'
-                          }`}>
-                            {quote.status}
-                          </span>
-                        </td>
-                        <td className="py-3 px-2">{formatDate(quote.created_at)}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            )}
-          </CardContent>
-        </Card>
 
         {/* Newsletter Subscriptions */}
         <Card>
