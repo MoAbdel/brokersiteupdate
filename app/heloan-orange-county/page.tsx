@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, TrendingUp, Shield, DollarSign, Clock, CreditCard, PiggyBank, Lightbulb } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+import QualificationCallout from '@/components/QualificationCallout';
 
 export const metadata: Metadata = {
   title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
@@ -107,7 +108,7 @@ const faqs = [
   },
   {
     question: "How much can I borrow with a HELOAN in Orange County?",
-    answer: "Most lenders allow you to borrow up to 80-90% of your home's value, minus what you owe on your first mortgage. With Orange County's median home value around $1.2 million, many homeowners can access $200K-500K+ through a HELOAN, depending on their current mortgage balance and lender requirements."
+    answer: "Most lenders allow you to borrow up to 80-90% of your home's value, minus what you owe on your first mortgage. With Orange County's median home value around $1.2 million, many homeowners can access $200K–$500K through a HELOAN, depending on their current mortgage balance and lender requirements."
   }
 ];
 
@@ -238,6 +239,8 @@ export default function HELOANOrangeCountyPage() {
               </Link>
             </div>
           </div>
+
+          <QualificationCallout variant="equity" className="my-8" />
 
           {/* 2026 Loan Limits for Home Equity */}
           <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="2026 home equity loan limits in Orange County">

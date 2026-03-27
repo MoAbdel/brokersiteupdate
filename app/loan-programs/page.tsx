@@ -127,7 +127,7 @@ export default function ProgramsPage() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900">HELOC (Home Equity Line of Credit)</h3>
-                  <p className="text-slate-700">Flexible credit line up to $500K</p>
+                  <p className="text-slate-700">Flexible credit line up to $750K</p>
                 </div>
               </div>
 
@@ -143,7 +143,7 @@ export default function ProgramsPage() {
 
               <div className="bg-slate-100 border border-slate-200 rounded-lg p-4 mb-6">
                 <p className="text-slate-900 font-bold text-center text-lg">
-                  Access $50K - $500K • Competitive variable rates
+                  Access $50K - $750K • Competitive variable rates
                 </p>
               </div>
 
@@ -510,7 +510,7 @@ export default function ProgramsPage() {
                   <Target className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2 text-lg">DSCR Investment Loans</h3>
-                <p className="text-sm text-slate-600 mb-3">Qualify based on rental income, not personal income</p>
+                <p className="text-sm text-slate-600 mb-3">Qualify based on rental income, not personal income. Available in California &amp; Washington.</p>
                 <div className="text-xs text-slate-500 mb-4">
                   • No income documentation<br />
                   • Portfolio lenders<br />

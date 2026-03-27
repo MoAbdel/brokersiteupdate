@@ -182,7 +182,7 @@ export default function NonQMLoansPage() {
                     <div>• Investment properties only</div>
                     <div>• 20-25% down payment</div>
                   </div>
-                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Real estate investors</p>
+                  <p className="text-sm font-semibold text-blue-600 mb-4">Best for: Real estate investors. Available in California and Washington.</p>
                   <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-2 text-sm">
                     Learn More →
                   </Button>

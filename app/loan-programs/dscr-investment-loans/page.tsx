@@ -6,16 +6,22 @@ import { Badge } from '@/components/ui/Badge';
 import FinancialProductSchema from '@/components/seo/FinancialProductSchema';
 import AISummary from '@/components/seo/AISummary';
 import SemanticTable from '@/components/seo/SemanticTable';
+import QualificationCallout from '@/components/QualificationCallout';
 
 export const metadata: Metadata = {
-  title: 'DSCR Investment Loans [2026 Cash-Flow Qualification Matrix & No-Doc Rates]',
-  description: 'DSCR investment loans in Orange County. Qualify based on rental income, not personal income. No employment verification. Perfect for real estate investors. Call (949) 579-2057.',
+  title: 'DSCR Investment Loans – California & Washington [2026 No-Doc Rates]',
+  description: 'DSCR investment loans in California and Washington. Qualify based on rental income, not personal income. No employment verification. Mo Abdel, NMLS #1426884. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
     languages: {
       'en-US': 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
       'x-default': 'https://www.mothebroker.com/loan-programs/dscr-investment-loans',
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'California',
+    language: 'en',
   },
 };
 
@@ -40,7 +46,7 @@ export default function DSCRInvestmentLoansPage() {
         <div className="text-center mb-16">
           <Badge className="bg-blue-100 text-blue-600 mb-4">Investment Property Program</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            <span className="text-blue-600">DSCR Investment Loans</span> in Orange County
+            <span className="text-blue-600">DSCR Investment Loans</span> in California and Washington
           </h1>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Qualify for investment property loans based on the property's rental income, not your personal income. 
@@ -59,6 +65,8 @@ export default function DSCRInvestmentLoansPage() {
             </a>
           </div>
         </div>
+
+        <QualificationCallout variant="dscr" className="my-8" />
 
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">

@@ -6,6 +6,7 @@ import { TrendingUp, DollarSign, Home, Zap, Users, CheckCircle, Calculator, Cred
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+import QualificationCallout from '@/components/QualificationCallout';
 
 export const metadata: Metadata = {
   title: 'Orange County HELOC | Flexible Home Equity Credit Line',
@@ -70,7 +71,7 @@ const helocBenefits = [
     icon: DollarSign,
     description: 'Access up to 80-90% of your home\'s value',
     details: [
-      'Credit lines from $50K to $500K+',
+      'Credit lines from $50K to $750K',
       'Based on home value and equity',
       'Higher limits than other loan types',
       'Orange County\'s high values = more access'
@@ -100,7 +101,7 @@ const faqs = [
   },
   {
     question: "How much can I borrow with a HELOC in Orange County?",
-    answer: "Most lenders allow you to borrow up to 80-90% of your home's value, minus what you owe on your first mortgage. With Orange County's median home value around $1.2 million, many homeowners can access $200K-500K+ in available credit, depending on their current mortgage balance."
+    answer: "Most lenders allow you to borrow up to 80-90% of your home's value, minus what you owe on your first mortgage. With Orange County's median home value around $1.2 million, many homeowners can access $200K–$750K in available credit, depending on their current mortgage balance."
   },
   {
     question: "HELOC vs Cash-Out Refinance - which is better?",
@@ -188,6 +189,8 @@ export default function HELOCOrangeCountyPage() {
               </Button>
             </div>
           </div>
+
+          <QualificationCallout variant="equity" className="my-8" />
 
           {/* How a HELOC Works */}
           <section className="mb-16 bg-slate-50 rounded-xl p-8" aria-label="How a HELOC works in Orange County">
