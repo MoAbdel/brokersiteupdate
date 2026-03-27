@@ -6,8 +6,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
 import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
-import { getTermsConsentPayload } from '@/lib/terms-consent';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
 import { getResponseErrorMessage } from '@/lib/api-client';
+import { qualify } from '@/lib/leadQualification';
 
 interface ToolLeadCaptureFormProps {
   source: string;
@@ -38,6 +39,7 @@ export default function ToolLeadCaptureForm({
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [timeline, setTimeline] = useState('');
+  const [propertyState, setPropertyState] = useState('');
   const [termsChecked, setTermsChecked] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
@@ -58,20 +60,27 @@ export default function ToolLeadCaptureForm({
         priority: timeline === 'ready_now' ? 'high' : 'normal',
       });
 
-      const body = {
-        full_name: fullName.trim(),
-        email: email.trim(),
-        phone: phone.trim() || null,
-        source,
-        status: timeline === 'ready_now' ? 'hot' : 'new',
-        notes,
-        ...getTermsConsentPayload(),
-      };
+      const formDataSubmit = new FormData();
+      formDataSubmit.append('full_name', fullName.trim());
+      formDataSubmit.append('email', email.trim());
+      formDataSubmit.append('phone', phone.trim() || '');
+      formDataSubmit.append('source', source);
+      formDataSubmit.append('notes', notes);
+      formDataSubmit.append('property_state', propertyState || '');
+      formDataSubmit.append('_subject', `Tool Lead - ${source} - ${fullName.trim()}`);
 
-      const response = await fetch('/api/quotes', {
+      const qual = qualify({
+        state: propertyState || undefined,
+      });
+      formDataSubmit.append('qualification_status', qual.status);
+      if (qual.reason) formDataSubmit.append('out_of_scope_reason', qual.reason);
+
+      appendTermsConsentToFormData(formDataSubmit);
+
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
+        body: formDataSubmit,
+        headers: { 'Accept': 'application/json' },
       });
 
       if (!response.ok) {
@@ -179,6 +188,27 @@ export default function ToolLeadCaptureForm({
                 </option>
               ))}
             </select>
+          </div>
+
+          {/* Property State */}
+          <div className="space-y-1.5">
+            <Label htmlFor="lead-property-state">Property State</Label>
+            <select
+              id="lead-property-state"
+              value={propertyState}
+              onChange={(e) => setPropertyState(e.target.value)}
+              className="flex h-10 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            >
+              <option value="">Select State</option>
+              <option value="CA">California</option>
+              <option value="WA">Washington</option>
+              <option value="Other">Other State</option>
+            </select>
+            {propertyState === 'Other' && (
+              <p className="text-sm text-blue-700 bg-blue-50 rounded-md p-3 mt-2">
+                Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$3M. If your needs fall outside this range, Mo will connect you with the right resource.
+              </p>
+            )}
           </div>
 
           {/* Terms Consent */}

@@ -10,6 +10,7 @@ import { Calculator, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User
 import { fbTrack } from '@/components/FacebookPixel';
 import { getResponseErrorMessage } from '@/lib/api-client';
 import { appendTermsConsentToFormData } from '@/lib/terms-consent';
+import { qualify } from '@/lib/leadQualification';
 
 // Compliant 2026 Orange County Data
 const ORANGE_COUNTY_DATA = {
@@ -55,6 +56,7 @@ interface FormData {
   // Step 1: Location & Purpose
   loanPurpose: string;
   timeline: string;
+  propertyState: string;
 
   // Step 2: Loan Details
   loanAmount: string;
@@ -101,6 +103,7 @@ export default function EnhancedContactForm() {
   const [formData, setFormData] = useState<FormData>({
     loanPurpose: '',
     timeline: '',
+    propertyState: '',
     loanAmount: '',
     homeValue: '',
     downPayment: '',
@@ -240,7 +243,16 @@ export default function EnhancedContactForm() {
       formData_submit.append('home_value', formData.homeValue || 'N/A');
       formData_submit.append('additional_info', formData.additionalInfo || '');
       formData_submit.append('loan_type', results?.loanType || 'N/A');
+      formData_submit.append('property_state', formData.propertyState || '');
       formData_submit.append('_subject', `Enhanced Contact Form - ${formData.firstName} ${formData.lastName}`);
+
+      const qual = qualify({
+        loanAmount: parseFloat((formData.loanAmount || '').replace(/[^0-9.]/g, '')) || undefined,
+        state: formData.propertyState || undefined,
+      });
+      formData_submit.append('qualification_status', qual.status);
+      if (qual.reason) formData_submit.append('out_of_scope_reason', qual.reason);
+
       appendTermsConsentToFormData(formData_submit);
 
       const response = await fetch('/api/contact', {
@@ -297,6 +309,7 @@ export default function EnhancedContactForm() {
     setFormData({
       loanPurpose: '',
       timeline: '',
+      propertyState: '',
       loanAmount: '',
       homeValue: '',
       downPayment: '',
@@ -460,6 +473,28 @@ export default function EnhancedContactForm() {
                   <option value="90-days">Within 90 days</option>
                   <option value="exploring">Just exploring options</option>
                 </select>
+              </div>
+
+              <div>
+                <label htmlFor="enhanced-property-state" className="block text-sm font-medium text-slate-700 mb-1">
+                  Property State
+                </label>
+                <select
+                  id="enhanced-property-state"
+                  value={formData.propertyState}
+                  onChange={(e) => handleInputChange('propertyState', e.target.value)}
+                  className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm"
+                >
+                  <option value="">Select State</option>
+                  <option value="CA">California</option>
+                  <option value="WA">Washington</option>
+                  <option value="Other">Other State</option>
+                </select>
+                {formData.propertyState === 'Other' && (
+                  <p className="text-sm text-blue-700 bg-blue-50 rounded-md p-3 mt-2">
+                    Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$3M. If your needs fall outside this range, Mo will connect you with the right resource.
+                  </p>
+                )}
               </div>
             </div>
           )}

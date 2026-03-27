@@ -7,7 +7,8 @@ import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { ArrowRight, Shield } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 import { getResponseErrorMessage } from '@/lib/api-client';
-import { getTermsConsentPayload } from '@/lib/terms-consent';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
+import { qualify } from '@/lib/leadQualification';
 
 // Google Ads conversion tracking
 
@@ -36,7 +37,8 @@ export default function QuickQuote() {
     loanPurpose: "",
     loanAmount: "",
     timeline: "",
-    additionalInfo: ""
+    additionalInfo: "",
+    propertyState: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
@@ -49,21 +51,30 @@ export default function QuickQuote() {
     setErrorMessage(null);
     
     try {
-      const response = await fetch('/api/quotes', {
+      const formDataSubmit = new FormData();
+      formDataSubmit.append('full_name', `${formData.firstName} ${formData.lastName}`);
+      formDataSubmit.append('email', formData.email);
+      formDataSubmit.append('phone', formData.phone);
+      formDataSubmit.append('loan_purpose', formData.loanPurpose || 'inquiry');
+      formDataSubmit.append('loan_amount', formData.loanAmount || 'Not specified');
+      formDataSubmit.append('timeline', formData.timeline || 'Not specified');
+      formDataSubmit.append('additional_info', formData.additionalInfo || '');
+      formDataSubmit.append('property_state', formData.propertyState || '');
+      formDataSubmit.append('_subject', `Quick Quote - ${formData.firstName} ${formData.lastName}`);
+
+      const qual = qualify({
+        loanAmount: parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || undefined,
+        state: formData.propertyState || undefined,
+      });
+      formDataSubmit.append('qualification_status', qual.status);
+      if (qual.reason) formDataSubmit.append('out_of_scope_reason', qual.reason);
+
+      appendTermsConsentToFormData(formDataSubmit);
+
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          ...getTermsConsentPayload(),
-          full_name: `${formData.firstName} ${formData.lastName}`,
-          email: formData.email,
-          phone: formData.phone,
-          loan_type: formData.loanPurpose || 'purchase',
-          loan_amount: 0, // Will be determined during consultation
-          notes: `Quick Quote - Loan Amount: ${formData.loanAmount || 'Not specified'}, Timeline: ${formData.timeline || 'Not specified'}, Purpose: ${formData.loanPurpose || 'General inquiry'}${formData.additionalInfo ? ', Additional Info: ' + formData.additionalInfo : ''}`,
-          status: "new"
-        }),
+        body: formDataSubmit,
+        headers: { 'Accept': 'application/json' },
       });
 
       if (!response.ok) {
@@ -95,7 +106,8 @@ export default function QuickQuote() {
         loanPurpose: "",
         loanAmount: "",
         timeline: "",
-        additionalInfo: ""
+        additionalInfo: "",
+        propertyState: ""
       });
       setTermsConsent(false);
     } catch (error) {
@@ -264,6 +276,28 @@ export default function QuickQuote() {
                   placeholder="$500,000"
                 />
               </div>
+            </div>
+
+            <div>
+              <label htmlFor="propertyState" className="block text-sm font-medium text-slate-700 mb-1">
+                Property State
+              </label>
+              <select
+                id="propertyState"
+                value={formData.propertyState}
+                onChange={(e) => handleInputChange('propertyState', e.target.value)}
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm"
+              >
+                <option value="">Select State</option>
+                <option value="CA">California</option>
+                <option value="WA">Washington</option>
+                <option value="Other">Other State</option>
+              </select>
+              {formData.propertyState === 'Other' && (
+                <p className="text-sm text-blue-700 bg-blue-50 rounded-md p-3 mt-2">
+                  Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$3M. If your needs fall outside this range, Mo will connect you with the right resource.
+                </p>
+              )}
             </div>
             
             <div>

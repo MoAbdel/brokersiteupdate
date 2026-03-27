@@ -8,7 +8,8 @@ import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { Calculator, ArrowRight, Shield, ChevronRight, ChevronLeft, MapPin, DollarSign, User, Phone, Mail, FileText } from "lucide-react";
 import { fbTrack } from '@/components/FacebookPixel';
 import { getResponseErrorMessage } from '@/lib/api-client';
-import { getTermsConsentPayload } from '@/lib/terms-consent';
+import { appendTermsConsentToFormData } from '@/lib/terms-consent';
+import { qualify } from '@/lib/leadQualification';
 
 // Compliant 2026 Orange County Data (verified via web search)
 const ORANGE_COUNTY_DATA = {
@@ -64,7 +65,8 @@ interface FormData {
   city: string;
   loanPurpose: string;
   timeline: string;
-  
+  propertyState: string;
+
   // Step 2: Loan Details
   loanAmount: string;
   homeValue: string;
@@ -74,7 +76,7 @@ interface FormData {
   currentRate: string;
   cashOutAmount: string;
   loanType: string;
-  
+
   // Step 3: Contact Info
   firstName: string;
   lastName: string;
@@ -99,6 +101,7 @@ export default function EnhancedQuickQuote() {
     city: '',
     loanPurpose: '',
     timeline: '',
+    propertyState: '',
     loanAmount: '',
     homeValue: '',
     downPayment: '',
@@ -288,21 +291,32 @@ export default function EnhancedQuickQuote() {
     setErrorMessage(null);
     
     try {
-      const response = await fetch('/api/quotes', {
+      const formDataSubmit = new FormData();
+      formDataSubmit.append('full_name', `${formData.firstName} ${formData.lastName}`);
+      formDataSubmit.append('email', formData.email);
+      formDataSubmit.append('phone', formData.phone);
+      formDataSubmit.append('loan_purpose', formData.loanPurpose || 'inquiry');
+      formDataSubmit.append('loan_amount', formData.loanAmount || 'Not specified');
+      formDataSubmit.append('home_value', formData.homeValue || 'Not specified');
+      formDataSubmit.append('timeline', formData.timeline || 'Not specified');
+      formDataSubmit.append('city', formData.city || '');
+      formDataSubmit.append('additional_info', formData.additionalInfo || '');
+      formDataSubmit.append('property_state', formData.propertyState || '');
+      formDataSubmit.append('_subject', `Enhanced Quote - ${formData.firstName} ${formData.lastName}`);
+
+      const qual = qualify({
+        loanAmount: parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || undefined,
+        state: formData.propertyState || undefined,
+      });
+      formDataSubmit.append('qualification_status', qual.status);
+      if (qual.reason) formDataSubmit.append('out_of_scope_reason', qual.reason);
+
+      appendTermsConsentToFormData(formDataSubmit);
+
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          ...getTermsConsentPayload(),
-          full_name: `${formData.firstName} ${formData.lastName}`,
-          email: formData.email,
-          phone: formData.phone,
-          loan_type: formData.loanPurpose || 'purchase',
-          loan_amount: parseFloat(formData.loanAmount.replace(/[^0-9.]/g, '')) || 0,
-          notes: `Enhanced Quote - City: ${formData.city}, Loan Amount: ${formData.loanAmount}, Home Value: ${formData.homeValue}, Timeline: ${formData.timeline}, Purpose: ${formData.loanPurpose}${calculatorResults ? `, Estimated Payment: $${Math.round(calculatorResults.monthlyPayment)}` : ''}${formData.additionalInfo ? ', Additional Info: ' + formData.additionalInfo : ''}`,
-          status: "new"
-        }),
+        body: formDataSubmit,
+        headers: { 'Accept': 'application/json' },
       });
 
       if (!response.ok) {
@@ -325,7 +339,7 @@ export default function EnhancedQuickQuote() {
       
       setShowSuccess(true);
       setFormData({
-        city: '', loanPurpose: '', timeline: '', loanAmount: '', homeValue: '', 
+        city: '', loanPurpose: '', timeline: '', propertyState: '', loanAmount: '', homeValue: '',
         downPayment: '', currentLoanAmount: '', currentRate: '', cashOutAmount: '', loanType: '',
         firstName: '', lastName: '', email: '', phone: '', additionalInfo: ''
       });
@@ -555,6 +569,28 @@ export default function EnhancedQuickQuote() {
                     <option value="90-days">Within 90 days</option>
                     <option value="exploring">Just exploring options</option>
                   </select>
+                </div>
+
+                <div>
+                  <label htmlFor="propertyState" className="block text-sm font-medium text-slate-700 mb-1">
+                    Property State
+                  </label>
+                  <select
+                    id="propertyState"
+                    value={formData.propertyState}
+                    onChange={(e) => handleInputChange('propertyState', e.target.value)}
+                    className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm"
+                  >
+                    <option value="">Select State</option>
+                    <option value="CA">California</option>
+                    <option value="WA">Washington</option>
+                    <option value="Other">Other State</option>
+                  </select>
+                  {formData.propertyState === 'Other' && (
+                    <p className="text-sm text-blue-700 bg-blue-50 rounded-md p-3 mt-2">
+                      Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$3M. If your needs fall outside this range, Mo will connect you with the right resource.
+                    </p>
+                  )}
                 </div>
 
                 {/* Show selected program benefits */}

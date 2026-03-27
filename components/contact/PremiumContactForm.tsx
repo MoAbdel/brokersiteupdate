@@ -12,6 +12,7 @@ import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 import { getResponseErrorMessage } from '@/lib/api-client';
 import { appendTermsConsentToFormData } from '@/lib/terms-consent';
+import { qualify } from '@/lib/leadQualification';
 
 const makeInputId = (label: string) =>
   String(label || '')
@@ -165,6 +166,7 @@ const INVESTMENT_LOAN_TYPE_OPTIONS = ['Conventional Investment', 'DSCR', 'Bank S
 interface FormData {
   loanPurpose: string;
   timeline: string;
+  propertyState: string;
   loanAmount: string;
   homeValue: string;
   downPayment: string;
@@ -194,6 +196,7 @@ export default function PremiumContactForm({
   const [formData, setFormData] = useState<FormData>({
     loanPurpose: '',
     timeline: '',
+    propertyState: '',
     loanAmount: '',
     homeValue: '',
     downPayment: '',
@@ -347,7 +350,16 @@ export default function PremiumContactForm({
       formData_submit.append('home_value', formData.homeValue || 'N/A');
       formData_submit.append('additional_info', formData.additionalInfo || '');
       formData_submit.append('loan_type', results?.loanType || 'N/A');
+      formData_submit.append('property_state', formData.propertyState || '');
       formData_submit.append('_subject', `Premium Quote Request - ${formData.firstName} ${formData.lastName}`);
+
+      const qual = qualify({
+        loanAmount: parseFloat((formData.loanAmount || '').replace(/[^0-9.]/g, '')) || undefined,
+        state: formData.propertyState || undefined,
+      });
+      formData_submit.append('qualification_status', qual.status);
+      if (qual.reason) formData_submit.append('out_of_scope_reason', qual.reason);
+
       appendTermsConsentToFormData(formData_submit);
 
       const response = await fetch('/api/contact', {
@@ -550,6 +562,28 @@ export default function PremiumContactForm({
                       </select>
                       <ChevronRight className="absolute right-4 top-3.5 w-5 h-5 text-slate-400 rotate-90" />
                     </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm text-slate-500 mb-3">Property State</label>
+                    <div className="relative">
+                      <select
+                        value={formData.propertyState}
+                        onChange={(e) => handleInputChange('propertyState', e.target.value)}
+                        className="w-full bg-slate-50 border border-slate-300 text-slate-900 rounded-xl px-4 py-3 appearance-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all outline-none"
+                      >
+                        <option value="">Select State</option>
+                        <option value="CA">California</option>
+                        <option value="WA">Washington</option>
+                        <option value="Other">Other State</option>
+                      </select>
+                      <ChevronRight className="absolute right-4 top-3.5 w-5 h-5 text-slate-400 rotate-90" />
+                    </div>
+                    {formData.propertyState === 'Other' && (
+                      <p className="text-sm text-blue-700 bg-blue-50 rounded-md p-3 mt-2">
+                        Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$3M. If your needs fall outside this range, Mo will connect you with the right resource.
+                      </p>
+                    )}
                   </div>
                 </motion.div>
               )}
