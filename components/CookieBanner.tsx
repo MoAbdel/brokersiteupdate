@@ -28,7 +28,7 @@ export default function CookieBanner() {
       role="dialog"
       aria-label="Cookie consent"
       aria-live="polite"
-      className="fixed bottom-0 left-0 right-0 z-[99999] bg-slate-900 border-t border-slate-700 px-4 py-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3"
+      className="hidden sm:flex fixed bottom-0 left-0 right-0 z-[99999] bg-slate-900 border-t border-slate-700 px-4 py-3 flex-col sm:flex-row items-start sm:items-center justify-between gap-3"
     >
       <p className="text-slate-300 text-sm flex-1">
         We use cookies to improve your experience and analyze site traffic.{' '}

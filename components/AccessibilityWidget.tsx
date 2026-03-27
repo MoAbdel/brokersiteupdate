@@ -136,7 +136,7 @@ export default function AccessibilityWidget() {
         aria-expanded={open}
         aria-controls="a11y-panel"
         aria-label="Open accessibility options"
-        className="fixed left-4 z-[99995] flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-full shadow-lg shadow-blue-600/40 transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
+        className="hidden sm:flex fixed left-4 z-[99995] items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-full shadow-lg shadow-blue-600/40 transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
         style={{ bottom: 'calc(env(safe-area-inset-bottom, 0px) + 80px)' }}
       >
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
