@@ -335,6 +335,18 @@ export const navigationItems: NavigationItem[] = [
     icon: Home,
   },
   {
+    title: 'About',
+    page: 'About',
+    url: '/about',
+    icon: User,
+  },
+  {
+    title: 'Contact',
+    page: 'Contact',
+    url: '/contact',
+    icon: Phone,
+  },
+  {
     title: 'Loan Programs',
     page: 'Loan Programs',
     url: '/loan-programs',
@@ -357,17 +369,5 @@ export const navigationItems: NavigationItem[] = [
     icon: FileText,
     hasDropdown: true,
     dropdownItems: blogDropdown
-  },
-  {
-    title: 'About',
-    page: 'About',
-    url: '/about',
-    icon: User,
-  },
-  {
-    title: 'Contact',
-    page: 'Contact',
-    url: '/contact',
-    icon: Phone,
   },
 ];
