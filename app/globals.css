@@ -188,3 +188,74 @@
     animation: bounce-subtle 2s infinite;
   }
 }
+
+/* ─── Accessibility Widget Overrides ─────────────────────────────── */
+
+/* Font size steps */
+html[data-font-size="xs"] { font-size: 12px !important; }
+html[data-font-size="sm"] { font-size: 14px !important; }
+/* md = default, no override needed */
+html[data-font-size="lg"] { font-size: 18px !important; }
+html[data-font-size="xl"] { font-size: 20px !important; }
+html[data-font-size="2xl"] { font-size: 22px !important; }
+
+/* High contrast */
+html.high-contrast,
+html.high-contrast body {
+  background: #000 !important;
+  color: #fff !important;
+}
+html.high-contrast a { color: #ff0 !important; }
+html.high-contrast button,
+html.high-contrast input,
+html.high-contrast select,
+html.high-contrast textarea {
+  background: #000 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+html.high-contrast img { filter: contrast(1.2) brightness(0.9); }
+
+/* Dyslexia font */
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/fonts/OpenDyslexic-Regular.otf') format('opentype');
+  font-display: swap;
+}
+html.dyslexia-font,
+html.dyslexia-font body,
+html.dyslexia-font p,
+html.dyslexia-font h1,
+html.dyslexia-font h2,
+html.dyslexia-font h3,
+html.dyslexia-font h4,
+html.dyslexia-font h5,
+html.dyslexia-font h6,
+html.dyslexia-font span,
+html.dyslexia-font li,
+html.dyslexia-font a,
+html.dyslexia-font button,
+html.dyslexia-font input,
+html.dyslexia-font label {
+  font-family: 'OpenDyslexic', sans-serif !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.7 !important;
+}
+
+/* Highlight links */
+html.highlight-links a {
+  text-decoration: underline !important;
+  background-color: #fef08a !important;
+  color: #1e293b !important;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+/* Reduce motion */
+html.reduce-motion *,
+html.reduce-motion *::before,
+html.reduce-motion *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
