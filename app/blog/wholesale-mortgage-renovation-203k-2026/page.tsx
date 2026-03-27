@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     title: 'Wholesale Mortgage Renovation Loans 2026: FHA 203k, HomeStyle & Rehab Programs',
     description: 'Compare FHA 203k, HomeStyle, and CHOICERenovation through a wholesale broker with 50+ Wholesale Lenders.',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -212,15 +217,14 @@ export default function WholesaleMortgageRenovation203k2026() {
             <Shield className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
             <div>
               <p className="text-lg font-semibold text-gray-900 mb-3">
-                According to Mo Abdel, licensed mortgage broker (NMLS #1426884) with Lumin Lending:
+                Mo Abdel, NMLS #1426884, specializes in <strong>wholesale mortgage renovation loans</strong> including FHA 203k, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation through Lumin Lending (NMLS #2716106).
               </p>
               <p className="text-gray-700 mb-4">
-                &quot;Renovation loans are the single most underutilized financing tool in real estate. Buyers walk away from
-                properties that need work because they assume they need cash for repairs after closing. The reality is that
-                FHA 203k, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation programs let you roll purchase price and
-                renovation costs into one mortgage — based on the <em>after-renovation</em> value. Through the wholesale channel,
-                we access lenders who specialize in renovation financing, which matters because these are complex products that
-                many retail banks simply do not offer.&quot;
+                Renovation loans are the single most underutilized financing tool in real estate. Buyers walk away from
+                properties that need work because they assume they need cash for repairs after closing. FHA 203k, Fannie Mae HomeStyle, and Freddie Mac CHOICERenovation programs roll purchase price and
+                renovation costs into one mortgage &mdash; based on the <em>after-renovation</em> value. Through the wholesale channel,
+                brokers access lenders who specialize in renovation financing, which matters because these are complex products that
+                many retail banks do not offer.
               </p>
             </div>
           </div>
@@ -249,6 +253,13 @@ export default function WholesaleMortgageRenovation203k2026() {
               <span className="text-sm text-gray-600">Loan Amount Based On</span>
             </div>
           </div>
+
+          {/* Semantic Triples Bullets */}
+          <ul className="list-disc pl-6 space-y-2 mt-6 text-gray-700">
+            <li><strong>FHA 203k Standard</strong> &rarr; covers structural work exceeding $35,000 &rarr; requires HUD consultant oversight and up to 5 draw disbursements</li>
+            <li><strong>Fannie Mae HomeStyle</strong> &rarr; allows luxury improvements (pools, landscaping) &rarr; no mortgage insurance required with 20% equity</li>
+            <li><strong>Wholesale renovation lending</strong> &rarr; accesses 50+ lenders specializing in rehab products &rarr; closing in 45&ndash;60 days vs 60&ndash;90 at retail banks</li>
+          </ul>
 
           {/* First Table: Quick Program Comparison */}
           <div className="mt-6 overflow-x-auto">
@@ -321,7 +332,7 @@ export default function WholesaleMortgageRenovation203k2026() {
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden mb-10 shadow-sm">
           <div className="bg-slate-800 text-white p-4 flex items-center gap-2">
             <Building2 className="w-5 h-5" />
-            <h2 className="text-xl font-bold m-0 text-white">Renovation Loan Programs Compared: Qualification, Limits &amp; Eligible Improvements</h2>
+            <h2 className="text-xl font-bold m-0 text-white">How Do FHA 203k, HomeStyle, and CHOICERenovation Loan Programs Compare?</h2>
           </div>
 
           <div className="p-6">
@@ -471,7 +482,7 @@ export default function WholesaleMortgageRenovation203k2026() {
         {/* Google E-E-A-T Narrative Section 1 */}
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4 flex items-center gap-2">
           <TrendingUp className="w-6 h-6 text-blue-600" />
-          Why Wholesale Brokers Outperform Retail Banks for Renovation Loans
+          Why Do Wholesale Brokers Get Better Renovation Loan Terms Than Retail Banks?
         </h2>
         <p>
           Renovation mortgages are the most complex products in residential lending. They require specialized underwriting
@@ -505,7 +516,7 @@ export default function WholesaleMortgageRenovation203k2026() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4 flex items-center gap-2">
           <Home className="w-6 h-6 text-blue-600" />
-          How Renovation Loan Draw Schedules Work
+          How Do Renovation Loan Draw Schedules Work?
         </h2>
         <p>
           Unlike a standard mortgage where all funds disburse at closing, renovation loans hold the improvement portion
@@ -578,7 +589,7 @@ export default function WholesaleMortgageRenovation203k2026() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4 flex items-center gap-2">
           <Building2 className="w-6 h-6 text-blue-600" />
-          Contractor Requirements for Renovation Mortgages
+          What Are the Contractor Requirements for Renovation Mortgage Loans?
         </h2>
         <p>
           Every renovation loan program requires contractors who meet specific lender criteria. This is non-negotiable —
@@ -636,7 +647,7 @@ export default function WholesaleMortgageRenovation203k2026() {
 
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4 flex items-center gap-2">
           <DollarSign className="w-6 h-6 text-blue-600" />
-          How Renovation Loan Amounts Are Calculated
+          How Are Renovation Loan Amounts Calculated?
         </h2>
         <p>
           Renovation loans are unique because the loan amount is based on the <strong>lesser of</strong> the purchase
@@ -831,6 +842,17 @@ export default function WholesaleMortgageRenovation203k2026() {
             </Link>
           </div>
         </div>
+
+        {/* Additional Cross-Topic Links */}
+        <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Explore More Mortgage Programs</h2>
+        <ul className="list-disc pl-6 space-y-2 mb-8 text-gray-700">
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">Orange County HELOC Programs</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+          <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Property Loans</Link></li>
+          <li><Link href="/areas/irvine-cash-out-refinance" className="text-blue-600 hover:underline">Irvine Cash-Out Refinance</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
+          <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel</Link></li>
+        </ul>
 
         {/* FAQ Section */}
         <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions: Wholesale Renovation Mortgage Loans</h2>

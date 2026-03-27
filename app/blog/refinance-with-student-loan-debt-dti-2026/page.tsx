@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-09',
     modifiedTime: '2026-03-09',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -265,7 +270,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 1 */}
         <h2 id="student-loan-dti-challenge" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Why Student Loan Debt Creates Refinancing Challenges in 2026
+          How Does Student Loan Debt Affect Your Refinance DTI Ratio?
         </h2>
         <p>
           The Federal Reserve reports that 43.2 million Americans carry student loan debt totaling $1.77 trillion as of Q4 2025. For homeowners in California and Washington&mdash;where median home prices exceed $700,000 and $580,000 respectively&mdash;the combination of a large mortgage payment and student loan obligations creates DTI pressure that narrows refinancing options.
@@ -279,7 +284,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 2 */}
         <h2 id="fannie-mae-rules" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Fannie Mae Student Loan DTI Rules: How IBR/IDR Payments Are Treated
+          How Does Fannie Mae Calculate Student Loan Payments for Refinance DTI?
         </h2>
         <p>
           Fannie Mae updated its student loan guidelines to be the most borrower-friendly among the three major loan categories. Understanding these rules is essential for any homeowner with student debt considering a <Link href="/blog/rate-and-term-refinance-break-even-calculator-2026" className="text-blue-600 hover:text-blue-800">rate-and-term refinance</Link>.
@@ -307,7 +312,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 3 */}
         <h2 id="fha-va-comparison" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          FHA vs VA Student Loan DTI Calculation: Side-by-Side Comparison
+          How Do FHA and VA Treat Student Loan Debt Differently for Refinancing?
         </h2>
         <p>
           The difference between FHA and VA student loan treatment is dramatic. Understanding this comparison helps borrowers and their wholesale broker select the optimal program. If you have explored <Link href="/blog/fha-streamline-refinance-guide-2026" className="text-blue-600 hover:text-blue-800">FHA streamline refinancing</Link>, the student loan DTI rules are a critical factor in your decision.
@@ -390,7 +395,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 4 */}
         <h2 id="dti-strategies" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Seven DTI Strategies for Refinancing with Student Loan Debt
+          What DTI Strategies Help You Refinance with Student Loan Debt?
         </h2>
         <p>
           Reducing your DTI is a mathematical exercise with multiple levers. These seven strategies, ranked by impact, address the most common DTI challenges borrowers with student debt face when pursuing a refinance.
@@ -407,7 +412,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 5 */}
         <h2 id="payoff-vs-refinance" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Student Loan Payoff vs Refinance Timing: When Each Strategy Wins
+          Should You Pay Off Student Loans Before or After Refinancing Your Mortgage?
         </h2>
         <p>
           The decision to pay off student loans before refinancing, consolidate them through a cash-out refinance, or keep them separate involves multiple financial variables. This analysis framework helps you determine the optimal sequence.
@@ -463,7 +468,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 6 */}
         <h2 id="cash-out-consolidation" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Cash-Out Refinance for Student Loan Consolidation: Process &amp; Considerations
+          Can You Use a Cash-Out Refinance to Pay Off Student Loans?
         </h2>
         <p>
           A <Link href="/blog/cash-out-refinance-complete-guide-2026" className="text-blue-600 hover:text-blue-800">cash-out refinance</Link> to pay off student loans is one of the most common <Link href="/blog/refinance-debt-consolidation-2026" className="text-blue-600 hover:text-blue-800">debt consolidation refinance</Link> strategies. The mechanics are straightforward: you refinance your existing mortgage for a higher amount than what you owe and use the difference to pay off student loans at closing.
@@ -491,7 +496,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 7: Cross-topic HELOC */}
         <h2 id="cross-topic-heloc" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          HELOC as an Alternative Strategy for Student Loan Payoff
+          Is a HELOC Better Than Refinancing When You Have Student Loan Debt?
         </h2>
         <p>
           A <Link href="/blog/heloc-complete-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity Line of Credit (HELOC)</Link> provides an alternative path to student loan elimination that preserves your existing mortgage terms. This matters when your current mortgage rate is lower than current market rates&mdash;a <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:text-blue-800">cash-out refinance would replace your low-rate mortgage</Link> with a higher-rate one, while a HELOC accesses equity without touching the first mortgage.
@@ -505,7 +510,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Section 8: Cross-topic DSCR */}
         <h2 id="cross-topic-dscr" className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Student Loans and Investment Property Financing: Why DSCR Loans Ignore Your Student Debt
+          Do DSCR Investment Loans Ignore Your Student Loan Debt for Qualification?
         </h2>
         <p>
           Homeowners with significant student debt who also own rental properties face compounded DTI challenges on conventional refinances. <Link href="/blog/dscr-loans-explained-investors-2026" className="text-blue-600 hover:text-blue-800">DSCR (Debt Service Coverage Ratio) loans</Link> solve this problem entirely because they qualify based on the property&apos;s rental income relative to its mortgage payment&mdash;not the borrower&apos;s personal income or debts.
@@ -519,7 +524,7 @@ export default function RefinanceWithStudentLoanDebtDTI2026() {
 
         {/* Cross-topic HECM */}
         <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-          Parent Borrowers Approaching Retirement: HECM and Student Loan Considerations
+          Can a HECM Reverse Mortgage Help Parents with Student Loan Debt?
         </h2>
         <p>
           Parents who took out Parent PLUS loans to fund their children&apos;s education and are now approaching age 62 face a unique intersection of student debt and retirement planning. A <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity Conversion Mortgage (HECM)</Link> allows these parents to access home equity without monthly mortgage payments, which can offset the financial burden of ongoing Parent PLUS loan payments.

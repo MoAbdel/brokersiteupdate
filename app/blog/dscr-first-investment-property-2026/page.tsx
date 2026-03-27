@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-first-investment-property-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -355,7 +360,7 @@ export default function DSCRFirstInvestmentProperty2026() {
           </p>
 
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            DSCR Loan Requirements for Your First Investment Property in 2026
+            What Are the DSCR Loan Requirements for a First Investment Property in 2026?
           </h2>
 
           <div className="space-y-4 mb-8">
@@ -672,7 +677,7 @@ export default function DSCRFirstInvestmentProperty2026() {
         {/* Data & Comparison Hub */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            DSCR Calculations at Different Price Points: What First-Time Investors Should Expect
+            What DSCR Ratio Should First-Time Investors Expect at Different Price Points?
           </h2>
 
           <p className="text-lg text-slate-600 mb-6">

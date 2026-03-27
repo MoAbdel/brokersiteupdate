@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-04',
     modifiedTime: '2026-03-04',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -266,7 +271,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </div>
 
         {/* Section 1: Why Trust Ownership Matters */}
-        <h2 id="why-trusts-matter">Why Trust Ownership Matters for HECM Reverse Mortgage Borrowers</h2>
+        <h2 id="why-trusts-matter">Why Does Trust Ownership Matter for HECM Reverse Mortgage Eligibility?</h2>
 
         <p>
           Estate planning attorneys in California and Washington routinely advise homeowners to transfer their primary residence into a <strong>revocable living trust</strong> to avoid probate, maintain privacy, and streamline asset transfer to heirs. This is sound estate planning advice. However, when these homeowners later explore a HECM reverse mortgage at age 62 or older, the trust adds a layer of complexity to the lending process that does not exist for property held in the borrower&apos;s individual name.
@@ -306,7 +311,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </div>
 
         {/* Section 2: Revocable vs Irrevocable */}
-        <h2 id="revocable-vs-irrevocable">Revocable vs Irrevocable Trust: HECM Eligibility Comparison</h2>
+        <h2 id="revocable-vs-irrevocable">Can You Get a HECM Reverse Mortgage with a Revocable vs Irrevocable Trust?</h2>
 
         <p>
           The single most important distinction for <strong>HECM trust ownership</strong> eligibility is whether the trust is revocable or irrevocable. This distinction determines whether FHA considers the borrower to be the effective property owner.
@@ -376,7 +381,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </p>
 
         {/* Section 3: FHA Trust Requirements */}
-        <h2 id="fha-trust-requirements">FHA Trust Requirements for HECM Approval</h2>
+        <h2 id="fha-trust-requirements">What Are the FHA Trust Requirements for HECM Reverse Mortgage Approval?</h2>
 
         <p>
           FHA has established specific requirements that a trust must meet for the property to be eligible for a HECM reverse mortgage. These requirements are designed to ensure that the borrower maintains effective control over the property throughout the life of the loan.
@@ -401,7 +406,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </div>
 
         {/* Section 4: Trust Review Process */}
-        <h2 id="trust-review-process">Trust Review Process: Timeline and Document Requirements</h2>
+        <h2 id="trust-review-process">How Long Does the HECM Trust Review Process Take?</h2>
 
         <p>
           Every HECM lender that accepts trust-held property conducts a <strong>trust review</strong> before issuing a commitment. This review is performed by the lender&apos;s legal department, a designated trust review company, or an outside attorney specializing in trust and estate matters. The purpose is to verify that the trust meets all FHA requirements for HECM eligibility.
@@ -496,7 +501,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </p>
 
         {/* Section 5: Trust Type Matrix */}
-        <h2 id="trust-types-matrix">Trust Type Eligibility Matrix for HECM Reverse Mortgages</h2>
+        <h2 id="trust-types-matrix">Which Trust Types Qualify for a HECM Reverse Mortgage?</h2>
 
         <p>
           Beyond the basic revocable/irrevocable distinction, there are several trust variations that borrowers and their attorneys should understand in the context of HECM eligibility.
@@ -566,7 +571,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </p>
 
         {/* Section 6: Death and Trust */}
-        <h2 id="death-and-trust">What Happens When the Borrower Dies and the Trust Holds the Property</h2>
+        <h2 id="death-and-trust">What Happens to the HECM When the Borrower Dies and the Property Is in a Trust?</h2>
 
         <p>
           One of the primary reasons homeowners place property in a revocable living trust is to simplify the transfer process when they pass away. The HECM does not interfere with this objective&mdash;but the loan must be resolved as part of the estate settlement process.
@@ -597,7 +602,7 @@ export default function HecmTrustOwnershipRequirementsPage() {
         </p>
 
         {/* Section 7: Wholesale Broker Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Trust-Friendly HECM Lenders</h2>
+        <h2 id="wholesale-advantage">How Does a Wholesale Broker Find Trust-Friendly HECM Lenders?</h2>
 
         <p>
           Not all HECM lenders handle trust-held properties with the same level of expertise. This is where a wholesale mortgage broker&apos;s access to 50+ Wholesale Lenders provides a measurable advantage for borrowers with trust-held homes.
@@ -788,6 +793,10 @@ export default function HecmTrustOwnershipRequirementsPage() {
           <li><Link href="/blog/heloc-on-inherited-property-california-2026" className="text-blue-600 hover:underline">HELOC on Inherited Property in California</Link></li>
           <li><Link href="/blog/wholesale-mortgage-trust-vesting-2026" className="text-blue-600 hover:underline">Wholesale Mortgage Trust and Vesting Guide</Link></li>
           <li><Link href="/reverse-mortgages" className="text-blue-600 hover:underline">Reverse Mortgage Programs Overview</Link></li>
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">Orange County HELOC Programs</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+          <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Property Loans</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
           <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel</Link></li>
         </ul>
 

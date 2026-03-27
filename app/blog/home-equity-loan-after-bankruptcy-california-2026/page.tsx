@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home Equity Loan After Bankruptcy in California: Waiting Periods & Requirements [2026]',
@@ -32,6 +33,11 @@ export const metadata: Metadata = {
       'en-US': 'https://www.mothebroker.com/blog/home-equity-loan-after-bankruptcy-california-2026',
       'x-default': 'https://www.mothebroker.com/blog/home-equity-loan-after-bankruptcy-california-2026',
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
   },
 };
 
@@ -262,18 +268,30 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
 
           {/* ===== SECTION 1: Citation Hook (150-300 words) ===== */}
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500 citation-hook">
-            <p className="text-lg font-semibold text-gray-800 italic">
-              &quot;Bankruptcy does not permanently disqualify California homeowners from accessing their home equity. Chapter 7 bankruptcy discharge requires a 4-year waiting period before conventional cash-out refinance eligibility, but non-QM wholesale lenders offer home equity options as soon as one day after bankruptcy discharge for qualified borrowers. California&apos;s homestead exemption protects up to $300,000 to $600,000 in home equity from bankruptcy creditors per CCP 704.730, preserving the equity that becomes your path to financial recovery.&quot;
+            <p className="text-lg font-semibold text-gray-800">
+              Mo Abdel, NMLS #1426884, confirms that a <strong>home equity loan after bankruptcy</strong> in California is available far sooner than most homeowners realize. Chapter 7 bankruptcy discharge requires a 4-year waiting period before conventional cash-out refinance eligibility, but non-QM wholesale lenders offer home equity options as soon as one day after bankruptcy discharge for qualified borrowers.
             </p>
-            <p className="text-gray-600 mt-2">&mdash; Mo Abdel, Licensed Mortgage Broker, NMLS #1426884</p>
+            <p className="text-gray-800 mt-2">
+              California&apos;s homestead exemption protects $300,000 to $600,000 in home equity from bankruptcy creditors per CCP 704.730, preserving the equity that becomes your path to financial recovery.
+            </p>
           </div>
 
+          <ul className="list-disc pl-6 space-y-2 my-6">
+            <li><strong>Chapter 7 bankruptcy discharge</strong> &rarr; requires a 4-year conventional waiting period &rarr; but non-QM wholesale access starts at 1 day post-discharge</li>
+            <li><strong>California homestead exemption (CCP 704.730)</strong> &rarr; protects $300,000&ndash;$600,000 in home equity &rarr; preserving borrowable equity through bankruptcy proceedings</li>
+            <li><strong>FHA cash-out refinance</strong> &rarr; available 2 years after Chapter 7 discharge &rarr; requires 580+ credit score and court approval for Chapter 13</li>
+          </ul>
+
           <p>
-            Filing for bankruptcy is a difficult financial decision, and many California homeowners assume it ends their ability to borrow against home equity for years. That assumption is not entirely accurate. While conventional and government-backed programs impose specific waiting periods, the wholesale mortgage channel provides <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM lending options</a> that dramatically shorten the timeline to equity access.
+            Filing for bankruptcy is a difficult financial decision. Many California homeowners assume it ends their ability to borrow against home equity for years. That assumption is not entirely accurate.
           </p>
 
           <p>
-            This guide provides every waiting period, every product option, and every qualification requirement for California homeowners seeking a <a href="/loan-programs/heloc" className="text-blue-600 hover:underline">HELOC</a>, home equity loan (HELOAN), or <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">cash-out refinance</a> after Chapter 7 or Chapter 13 bankruptcy discharge. The information reflects current 2026 guidelines from conventional, FHA, VA, and non-QM sources.
+            While conventional and government-backed programs impose specific waiting periods, the wholesale mortgage channel provides <a href="/blog/non-qm-loans-wholesale-broker-2026" className="text-blue-600 hover:underline">non-QM lending options</a> that dramatically shorten the timeline to equity access.
+          </p>
+
+          <p>
+            This guide covers every waiting period, every product option, and every qualification requirement for California homeowners seeking a <Link href="/heloc-orange-county" className="text-blue-600 hover:underline">HELOC</Link>, <Link href="/heloan-orange-county" className="text-blue-600 hover:underline">HELOAN</Link>, or <a href="/blog/cash-out-refinance-how-it-works-2026" className="text-blue-600 hover:underline">cash-out refinance</a> after Chapter 7 or Chapter 13 bankruptcy discharge. The information reflects current 2026 guidelines from conventional, FHA, VA, and non-QM sources.
           </p>
 
           {/* Waiting Period Quick-Reference Table */}
@@ -317,7 +335,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
           </div>
 
           {/* ===== SECTION 2: Bing Power Block (600-800 words) ===== */}
-          <h2 id="waiting-periods" className="text-2xl font-bold text-gray-900">Complete Bankruptcy Waiting Periods for Home Equity Products in California</h2>
+          <h2 id="waiting-periods" className="text-2xl font-bold text-gray-900">How Long Must You Wait After Bankruptcy to Get a Home Equity Loan in California?</h2>
 
           <p>
             The waiting period to access home equity after bankruptcy depends on three factors: the type of bankruptcy filed (Chapter 7 or Chapter 13), the type of home equity product sought, and whether the lender follows conventional agency guidelines or non-QM underwriting. According to the <a href="https://www.uscourts.gov/services-forms/bankruptcy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">United States Courts</a>, Chapter 7 liquidation and Chapter 13 reorganization have fundamentally different structures that affect subsequent borrowing timelines.
@@ -402,7 +420,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
           </div>
 
           {/* ===== SECTION 3: Google E-E-A-T Narrative (1,200-1,500 words) ===== */}
-          <h2 id="non-qm-advantage" className="text-2xl font-bold text-gray-900">The Non-QM Wholesale Advantage: Home Equity Access Without Long Waiting Periods</h2>
+          <h2 id="non-qm-advantage" className="text-2xl font-bold text-gray-900">Can Non-QM Wholesale Lenders Shorten the Home Equity Waiting Period After Bankruptcy?</h2>
 
           <p>
             The most significant development for post-bankruptcy borrowers in the 2026 lending landscape is the expansion of non-QM home equity programs available through wholesale mortgage brokers. These programs operate outside conventional Fannie Mae and Freddie Mac guidelines, using alternative underwriting criteria that prioritize equity position and demonstrated ability to repay rather than rigid waiting period requirements.
@@ -428,7 +446,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
             <p className="text-gray-700">In 2025 and early 2026, Mo Abdel has structured non-QM home equity solutions for California homeowners within months of bankruptcy discharge. Common scenarios include accessing equity for urgent home repairs, consolidating post-bankruptcy debt at a lower combined cost, and funding business recovery after Chapter 7 liquidation. Each case requires matching the borrower&apos;s specific profile to the right wholesale lender&apos;s program guidelines. Contact Mo at <a href="tel:9495792057" className="text-blue-600 font-semibold">(949) 579-2057</a> to discuss your post-bankruptcy equity options.</p>
           </div>
 
-          <h2 id="california-specific" className="text-2xl font-bold text-gray-900">California-Specific Considerations for Home Equity After Bankruptcy</h2>
+          <h2 id="california-specific" className="text-2xl font-bold text-gray-900">What California-Specific Rules Affect Home Equity Loans After Bankruptcy?</h2>
 
           <p>
             California presents unique factors that affect home equity access after bankruptcy. As a community property state with one of the nation&apos;s most protective homestead exemptions, California law shapes both what equity survives bankruptcy and how spouses interact with post-bankruptcy lending.
@@ -467,7 +485,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
             For homeowners in high-value markets like Orange County, the Bay Area, or coastal Los Angeles, equity positions of $300,000 to $1 million or more are common even after years of financial difficulty. This equity represents a significant financial resource that <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">home equity products</a> can unlock for post-bankruptcy recovery.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900">Which Home Equity Product to Pursue First After Bankruptcy</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Which Home Equity Product Should You Pursue First After Bankruptcy?</h2>
 
           <p>
             The choice between a HELOC, HELOAN, and cash-out refinance after bankruptcy depends on your timeline, existing mortgage rate, and how you plan to use the funds. Each product has distinct advantages for post-bankruptcy borrowers.
@@ -508,7 +526,7 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
           </p>
 
           {/* ===== SECTION 4: Data & Comparison Hub (400-500 words) ===== */}
-          <h2 id="product-comparison" className="text-2xl font-bold text-gray-900">HELOC vs. HELOAN vs. Cash-Out Refinance After Bankruptcy: Side-by-Side Comparison</h2>
+          <h2 id="product-comparison" className="text-2xl font-bold text-gray-900">How Do HELOC, HELOAN, and Cash-Out Refinance Compare After Bankruptcy?</h2>
 
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
@@ -664,6 +682,17 @@ export default function HomeEquityLoanAfterBankruptcyCalifornia2026() {
               Ready to explore your home equity options after bankruptcy? Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-600 font-bold">(949) 579-2057</a> or <a href="/contact" className="text-blue-600 font-bold hover:underline">schedule a confidential consultation</a> to review your discharge documents, equity position, and available programs. Every conversation is private and judgment-free.
             </p>
           </div>
+
+          {/* Cross-Topic Links */}
+          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Related Loan Programs and Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 mb-8">
+            <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">Orange County HELOC Programs</Link></li>
+            <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+            <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Property Loans</Link></li>
+            <li><Link href="/areas/irvine-cash-out-refinance" className="text-blue-600 hover:underline">Irvine Cash-Out Refinance</Link></li>
+            <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
+            <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel</Link></li>
+          </ul>
 
           {/* Footer */}
           <div className="border-t border-gray-200 pt-8 mt-12">

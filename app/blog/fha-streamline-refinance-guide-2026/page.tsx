@@ -11,6 +11,11 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/blog/fha-streamline-refinance-guide-2026',
     },
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 export default function FHAStreamlineRefinanceGuidePage() {
@@ -242,6 +247,12 @@ export default function FHAStreamlineRefinanceGuidePage() {
           </p>
         </div>
 
+        <ul className="list-disc pl-6 space-y-2 my-6">
+          <li><strong>FHA streamline refinance</strong> &rarr; eliminates appraisal and income verification &rarr; closing in 15&ndash;21 days vs 30&ndash;45 for conventional refinance</li>
+          <li><strong>Net tangible benefit test</strong> &rarr; requires a minimum 5% combined payment reduction &rarr; protecting borrowers from unprofitable refinancing</li>
+          <li><strong>Upfront MIP on streamline</strong> &rarr; reduced to 0.01% of loan amount &rarr; compared to 1.75% on new FHA originations</li>
+        </ul>
+
         {/* FHA Streamline vs Full FHA Refinance Table */}
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full border-collapse border border-gray-300">
@@ -301,7 +312,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
         {/* ================================================
             SECTION 2: BING POWER BLOCK (600-800 words)
             ================================================ */}
-        <h2>What Is an FHA Streamline Refinance?</h2>
+        <h2>What Is an FHA Streamline Refinance and Who Qualifies?</h2>
         <p>
           An <strong>FHA streamline refinance</strong> is a simplified refinance program created by the U.S. Department of Housing and Urban Development (HUD) exclusively for homeowners who already have an FHA-insured mortgage. The program&apos;s defining characteristic is its reduced documentation: HUD waives the appraisal, income verification, and employment verification that standard refinances require.
         </p>
@@ -312,7 +323,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
           There are two types of FHA streamline refinances. A <strong>non-credit qualifying streamline</strong> requires no credit pull and no income documentation; the lender simply verifies your mortgage payment history and confirms the net tangible benefit. A <strong>credit qualifying streamline</strong> includes a credit check and debt-to-income analysis, typically used when adding or removing a borrower from the loan. In our California and Washington FHA streamline closings, approximately 85% of borrowers qualify for the non-credit qualifying version.
         </p>
 
-        <h2>FHA Streamline Refinance Requirements 2026</h2>
+        <h2>What Are the FHA Streamline Refinance Requirements in 2026?</h2>
         <p>
           HUD publishes specific eligibility requirements that every <strong>FHA streamline refinance</strong> must satisfy. Here are the requirements for 2026:
         </p>
@@ -385,7 +396,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
         {/* ================================================
             SECTION 3: GOOGLE E-E-A-T NARRATIVE (1,200-1,500 words)
             ================================================ */}
-        <h2>How Does the Net Tangible Benefit Test Work for FHA Streamline?</h2>
+        <h2>How Does the FHA Streamline Net Tangible Benefit Test Work?</h2>
         <p>
           The net tangible benefit (NTB) test is HUD&apos;s safeguard against borrowers refinancing into loans that do not provide meaningful improvement. For a standard rate-and-term FHA streamline, the NTB calculation is straightforward: your new combined monthly payment — including principal, interest, and FHA mortgage insurance premium — must be at least 5% lower than your current combined payment.
         </p>
@@ -405,7 +416,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
           In our California and Washington FHA streamline closings, we calculate the NTB before submitting any application. This pre-qualification step ensures that no borrower invests time in a process that cannot result in an approval.
         </p>
 
-        <h2>When Should You Choose FHA Streamline Over a Conventional Refinance?</h2>
+        <h2>When Should You Choose an FHA Streamline Refinance Over Conventional?</h2>
         <p>
           The decision between an FHA streamline and a conventional refinance depends on several interconnected factors. The streamline is clearly superior in specific scenarios, while a conventional refinance wins in others.
         </p>
@@ -428,7 +439,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
           <li><strong>You plan to stay long-term and want to eliminate MIP:</strong> Borrowers who can switch from FHA to conventional save thousands annually by removing permanent mortgage insurance. See our <Link href="/blog/conventional-loans-complete-guide-2026" className="text-blue-700 hover:underline">conventional loans guide</Link> for full details.</li>
         </ul>
 
-        <h2>What Are the Real Closing Costs for an FHA Streamline in 2026?</h2>
+        <h2>What Are the Closing Costs for an FHA Streamline Refinance in 2026?</h2>
         <p>
           FHA streamline refinance closing costs are materially lower than other refinance programs because the program eliminates the appraisal and much of the underwriting documentation. Here is the actual cost breakdown for borrowers in California and Washington:
         </p>
@@ -448,7 +459,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
           The dramatically reduced upfront MIP is the single largest cost difference. A borrower refinancing a $500,000 FHA loan saves $8,700 in upfront MIP alone by choosing the streamline over a full FHA refinance ($50 vs $8,750).
         </p>
 
-        <h2>How Does FHA Mortgage Insurance Factor Into Streamline Refinancing?</h2>
+        <h2>How Does FHA Mortgage Insurance Affect Your Streamline Refinance Savings?</h2>
         <p>
           FHA mortgage insurance is the most frequently misunderstood element of streamline refinancing. Here are the facts that matter for 2026:
         </p>
@@ -520,7 +531,7 @@ export default function FHAStreamlineRefinanceGuidePage() {
           </table>
         </div>
 
-        <h2>FHA Streamline Refinance Timeline: Day-by-Day Process</h2>
+        <h2>What Does the FHA Streamline Refinance Timeline Look Like Day by Day?</h2>
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full border-collapse border border-gray-300">
             <thead>
@@ -671,6 +682,16 @@ export default function FHAStreamlineRefinanceGuidePage() {
         {/* ================================================
             SECTION 7: EXPERT SUMMARY + CTA (150-200 words)
             ================================================ */}
+        <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Related Refinance and Loan Resources</h2>
+        <ul className="list-disc pl-6 space-y-2 mb-8">
+          <li><Link href="/heloc-orange-county" className="text-blue-700 hover:underline">Orange County HELOC Programs</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-700 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+          <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-700 hover:underline">DSCR Investment Property Loans</Link></li>
+          <li><Link href="/areas/irvine-cash-out-refinance" className="text-blue-700 hover:underline">Irvine Cash-Out Refinance</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-700 hover:underline">All Loan Programs</Link></li>
+          <li><Link href="/contact" className="text-blue-700 hover:underline">Contact Mo Abdel</Link></li>
+        </ul>
+
         <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-12 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Expert Summary: Is an FHA Streamline Refinance Right for You?</h2>
           <p className="text-gray-800 mb-4">

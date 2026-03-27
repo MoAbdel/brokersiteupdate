@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-05',
     modifiedTime: '2026-03-05',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -274,7 +279,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </div>
 
         {/* Section 1: What Is a Loan Assumption */}
-        <h2 id="what-is-assumption">What Is a Loan Assumption and How Does It Work?</h2>
+        <h2 id="what-is-assumption">What Is an Assumable Mortgage and How Does Loan Assumption Work?</h2>
 
         <p>
           A loan assumption occurs when a home buyer takes over the seller&apos;s existing mortgage instead of obtaining a new loan. The buyer inherits the original loan&apos;s interest rate, remaining balance, repayment schedule, and all other terms. The seller is released from the mortgage obligation once the lender formally approves the assumption.
@@ -302,7 +307,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </p>
 
         {/* Section 2: VA vs FHA Assumption */}
-        <h2 id="va-vs-fha">VA Loan Assumption vs FHA Loan Assumption: Key Differences</h2>
+        <h2 id="va-vs-fha">How Does a VA Loan Assumption Differ from an FHA Loan Assumption?</h2>
 
         <p>
           Both VA and FHA loans are assumable by federal regulation, but the specific requirements, fees, and processes differ between the two programs. Understanding these differences helps buyers and sellers determine which assumption path applies to their transaction.
@@ -368,7 +373,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </p>
 
         {/* Section 3: Due-on-Sale Clause */}
-        <h2 id="due-on-sale">Due-on-Sale Clause and the Garn-St. Germain Depository Institutions Act of 1982</h2>
+        <h2 id="due-on-sale">Why Does the Due-on-Sale Clause Prevent Conventional Loan Assumptions?</h2>
 
         <p>
           The due-on-sale clause is the contractual provision that determines whether a mortgage is assumable. Understanding the legal history behind this clause explains why VA and FHA loans remain assumable while conventional loans do not.
@@ -403,7 +408,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </p>
 
         {/* Section 4: Eligibility Requirements */}
-        <h2 id="eligibility">Buyer Eligibility and Qualification Requirements for Loan Assumption</h2>
+        <h2 id="eligibility">What Are the Buyer Eligibility Requirements for Assuming a Mortgage?</h2>
 
         <p>
           Buyers assuming VA or FHA loans must satisfy the existing servicer&apos;s underwriting requirements. While these requirements are generally similar to new loan origination standards, there are important differences.
@@ -464,7 +469,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </p>
 
         {/* Section 5: Assumption Fees vs Refinance Costs */}
-        <h2 id="assumption-vs-refinance">Loan Assumption Fees vs Refinance Closing Costs: Complete Cost Comparison</h2>
+        <h2 id="assumption-vs-refinance">How Do Loan Assumption Fees Compare to Refinance Closing Costs?</h2>
 
         <p>
           The cost advantage of loan assumption over refinancing is substantial. Assumption fees are a fraction of the closing costs associated with originating a new mortgage through a refinance.
@@ -541,7 +546,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </div>
 
         {/* Section 6: Buyer and Seller Process */}
-        <h2 id="buyer-seller-process">Step-by-Step Buyer and Seller Process for Loan Assumption</h2>
+        <h2 id="buyer-seller-process">What Is the Step-by-Step Process for Assuming a Mortgage?</h2>
 
         <p>
           The loan assumption process involves coordination between the buyer, seller, servicer, and (if applicable) a secondary financing lender. Here is the complete process from initial agreement to closing:
@@ -575,7 +580,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </ol>
 
         {/* Section 7: Bridging the Equity Gap */}
-        <h2 id="equity-gap">Bridging the Equity Gap: Secondary Financing Options</h2>
+        <h2 id="equity-gap">How Do Buyers Bridge the Equity Gap in a Loan Assumption?</h2>
 
         <p>
           The equity gap&mdash;the difference between the home&apos;s purchase price and the remaining balance on the assumable loan&mdash;is the most significant financial hurdle in loan assumption transactions. In markets where home values have appreciated substantially, the equity gap can be hundreds of thousands of dollars.
@@ -626,7 +631,7 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
         </p>
 
         {/* Section 8: Wholesale Broker Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage in Assumption Transactions</h2>
+        <h2 id="wholesale-advantage">How Does a Wholesale Broker Help with Assumable Mortgage Transactions?</h2>
 
         <p>
           Loan assumption transactions are complex, multi-party processes that most retail lenders and real estate agents rarely encounter. A wholesale broker adds value at every stage of the assumption because the broker&apos;s network of 50+ Wholesale Lenders provides resources that individual servicers and banks cannot match.
@@ -816,6 +821,10 @@ export default function AssumableMortgageLoanAssumptionGuidePage() {
           <li><Link href="/blog/when-to-refinance-2026" className="text-blue-600 hover:underline">When Is Refinancing Worth It? Complete 2026 Decision Guide</Link></li>
           <li><Link href="/blog/mortgage-rate-lock-guide-2026" className="text-blue-600 hover:underline">Mortgage Rate Lock Guide [2026]</Link></li>
           <li><Link href="/blog/arm-to-fixed-refinance-strategy-2026" className="text-blue-600 hover:underline">ARM to Fixed Rate Refinance Strategy</Link></li>
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">Orange County HELOC Programs</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+          <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Property Loans</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
           <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel for a Free Quote</Link></li>
         </ul>
 

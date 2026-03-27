@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-03',
     modifiedTime: '2026-03-03',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -266,7 +271,7 @@ export default function DscrCashOutRefinancePage() {
         </div>
 
         {/* Section 1: How It Works */}
-        <h2 id="how-dscr-cashout-works">How DSCR Cash-Out Refinancing Works for Rental Properties</h2>
+        <h2 id="how-dscr-cashout-works">How Does a DSCR Cash-Out Refinance Work for Rental Properties?</h2>
 
         <p>
           A <strong>DSCR cash-out refinance</strong> replaces your existing mortgage on a rental property with a new, larger loan&mdash;and you receive the difference as cash at closing. The &quot;DSCR&quot; component means the lender qualifies the loan based on the property&apos;s Debt Service Coverage Ratio rather than your personal income, employment, or tax returns. Here is the step-by-step process:
@@ -344,7 +349,7 @@ export default function DscrCashOutRefinancePage() {
         </p>
 
         {/* Section 2: Requirements */}
-        <h2 id="requirements">DSCR Cash-Out Refinance Requirements: What Lenders Evaluate</h2>
+        <h2 id="requirements">What Are the Requirements for a DSCR Cash-Out Refinance?</h2>
 
         <p>
           DSCR cash-out refinances are not &quot;no-doc&quot; loans. They require different documentation than conventional loans, focused on the property rather than the borrower&apos;s personal income. Here are the standard requirements across most DSCR lenders:
@@ -377,7 +382,7 @@ export default function DscrCashOutRefinancePage() {
         </p>
 
         {/* Section 3: DSCR vs Conventional Cash-Out */}
-        <h2 id="dscr-vs-conventional">DSCR Cash-Out vs Conventional Cash-Out Refinance for Investment Properties</h2>
+        <h2 id="dscr-vs-conventional">How Does DSCR Cash-Out Compare to Conventional Cash-Out Refinance?</h2>
 
         <p>
           Both DSCR and conventional loan programs offer cash-out refinancing for investment properties, but they serve fundamentally different investor profiles. Understanding the trade-offs between these two options is essential for choosing the right refinance strategy.
@@ -453,7 +458,7 @@ export default function DscrCashOutRefinancePage() {
         </p>
 
         {/* Section 4: Rate-and-Term vs Cash-Out */}
-        <h2 id="rate-term-vs-cashout">DSCR Rate-and-Term Refinance vs Cash-Out Refinance: Key Differences</h2>
+        <h2 id="rate-term-vs-cashout">What Is the Difference Between DSCR Rate-and-Term and Cash-Out Refinance?</h2>
 
         <p>
           DSCR lenders offer two refinance types: rate-and-term and cash-out. The distinction matters because it affects your LTV limit, pricing, and seasoning requirements.
@@ -509,7 +514,7 @@ export default function DscrCashOutRefinancePage() {
         </p>
 
         {/* Section 5: Using Cash-Out Proceeds */}
-        <h2 id="proceeds-strategies">Using DSCR Cash-Out Proceeds for Next Acquisition: The Reinvestment Cycle</h2>
+        <h2 id="proceeds-strategies">How Can You Use DSCR Cash-Out Proceeds to Buy Your Next Rental Property?</h2>
 
         <p>
           The primary reason investors pursue DSCR cash-out refinancing is to redeploy equity into additional income-producing properties. This creates a compounding cycle: each property generates rental income, builds equity, and eventually produces cash-out proceeds that fund the next acquisition. Here is how experienced investors in California and Washington structure this reinvestment strategy:
@@ -535,7 +540,7 @@ export default function DscrCashOutRefinancePage() {
         </p>
 
         {/* Section 6: Seasoning */}
-        <h2 id="seasoning">Seasoning Periods and Timing Strategies for DSCR Cash-Out Refinance</h2>
+        <h2 id="seasoning">What Are the Seasoning Requirements for a DSCR Cash-Out Refinance?</h2>
 
         <p>
           The <strong>seasoning period</strong> is the minimum length of time you must own a property before a lender will approve a cash-out refinance. For DSCR loans, seasoning requirements vary significantly across lenders, making wholesale broker access particularly valuable.
@@ -586,7 +591,7 @@ export default function DscrCashOutRefinancePage() {
         </p>
 
         {/* Section 7: Wholesale Broker Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Why 50+ DSCR Lenders Matters for Cash-Out Refinancing</h2>
+        <h2 id="wholesale-advantage">Why Does Access to 50+ DSCR Lenders Matter for Cash-Out Refinancing?</h2>
 
         <p>
           Not all DSCR lenders offer the same cash-out refinance terms. Minimum DSCR ratios, LTV limits, seasoning requirements, prepayment penalty structures, reserve requirements, and eligible property types vary dramatically across lenders. Working with a wholesale mortgage broker who accesses 50+ DSCR-specific programs&mdash;within a network of 50+ Wholesale Lenders&mdash;provides critical advantages:
@@ -793,6 +798,10 @@ export default function DscrCashOutRefinancePage() {
           <li><Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:underline">DSCR Loans for Portfolio Investors: Scaling Rental Property Holdings</Link></li>
           <li><Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:underline">Investment Property Cash-Out Refinance Guide 2026</Link></li>
           <li><Link href="/blog/dscr-brrrr-strategy-financing-guide-2026" className="text-blue-600 hover:underline">BRRRR Strategy Financing: How DSCR Loans Power Buy-Rehab-Rent-Refinance-Repeat</Link></li>
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">Orange County HELOC Programs</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
+          <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel</Link></li>
         </ul>
 
         <h3>External Resources</h3>

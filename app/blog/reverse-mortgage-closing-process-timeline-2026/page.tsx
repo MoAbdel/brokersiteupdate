@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-04',
     modifiedTime: '2026-03-04',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -265,7 +270,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         </div>
 
         {/* Section 1: Overview */}
-        <h2 id="overview">HECM Closing Process Overview: 10 Stages From Consultation to Funding</h2>
+        <h2 id="overview">What Are the 10 Stages of the Reverse Mortgage Closing Process?</h2>
 
         <p>
           The <strong>reverse mortgage closing process</strong> follows a regulated 10-stage sequence that every HECM borrower must complete. While the general flow resembles a conventional mortgage closing, several stages are unique to the HECM program and are mandated by <a href="https://www.hud.gov/program_offices/housing/sfh/hecm" target="_blank" rel="noopener noreferrer">FHA/HUD regulations</a>.
@@ -303,7 +308,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         </div>
 
         {/* Section 2: Stage-by-Stage Timeline */}
-        <h2 id="stage-timeline">Stage-by-Stage HECM Closing Timeline With Durations</h2>
+        <h2 id="stage-timeline">How Long Does Each Stage of the HECM Closing Process Take?</h2>
 
         <p>
           The following timeline represents typical durations for each stage of the <strong>HECM reverse mortgage closing process</strong>. Actual timelines vary based on borrower preparation, property condition, lender capacity, and geographic location.
@@ -473,7 +478,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         </p>
 
         {/* Section 3: Document Requirements */}
-        <h2 id="document-requirements">Document Requirements at Each Stage of the HECM Closing Process</h2>
+        <h2 id="document-requirements">What Documents Do You Need at Each Stage of the Reverse Mortgage Closing?</h2>
 
         <div className="overflow-x-auto my-8">
           <table className="min-w-full border border-gray-200">
@@ -541,7 +546,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         </div>
 
         {/* Section 4: Common Delays */}
-        <h2 id="common-delays">Common Causes of HECM Reverse Mortgage Closing Delays</h2>
+        <h2 id="common-delays">What Causes Delays in the HECM Reverse Mortgage Closing Process?</h2>
 
         <p>
           Understanding what causes delays allows you to take proactive steps to avoid them. Based on my experience closing hundreds of HECM loans in California and Washington, here are the most common delay causes ranked by frequency.
@@ -602,7 +607,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         </p>
 
         {/* Section 5: Rescission */}
-        <h2 id="rescission">Right of Rescission: The 3-Business-Day Cooling-Off Period</h2>
+        <h2 id="rescission">How Does the 3-Business-Day Right of Rescission Work for Reverse Mortgages?</h2>
 
         <p>
           The <strong>right of rescission</strong> is a federally mandated borrower protection under the Truth in Lending Act (TILA) that applies to HECM reverse mortgages secured by the borrower&apos;s primary residence. After signing the closing documents, the borrower has 3 full business days to cancel the transaction without penalty.
@@ -633,7 +638,7 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
         </div>
 
         {/* Section 6: Wholesale Advantage */}
-        <h2 id="wholesale-advantage">Wholesale Broker Advantage: Faster HECM Closings</h2>
+        <h2 id="wholesale-advantage">How Does a Wholesale Broker Accelerate HECM Reverse Mortgage Closings?</h2>
 
         <p>
           A wholesale mortgage broker with access to 50+ Wholesale Lenders provides specific advantages that directly impact <strong>HECM closing timeline</strong> performance. These advantages come from the ability to select the optimal lender for each file based on the borrower&apos;s specific circumstances.
@@ -825,6 +830,10 @@ export default function ReverseMortgageClosingProcessTimelinePage() {
           <li><Link href="/blog/home-equity-loan-closing-costs-fees-guide-2026" className="text-blue-600 hover:underline">Home Equity Loan Closing Costs and Fees Guide</Link></li>
           <li><Link href="/blog/dscr-loan-requirements-2026" className="text-blue-600 hover:underline">DSCR Loan Requirements 2026</Link></li>
           <li><Link href="/reverse-mortgages" className="text-blue-600 hover:underline">Reverse Mortgage Programs Overview</Link></li>
+          <li><Link href="/heloc-orange-county" className="text-blue-600 hover:underline">Orange County HELOC Programs</Link></li>
+          <li><Link href="/heloan-orange-county" className="text-blue-600 hover:underline">Orange County Home Equity Loan (HELOAN)</Link></li>
+          <li><Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:underline">DSCR Investment Property Loans</Link></li>
+          <li><Link href="/loan-programs" className="text-blue-600 hover:underline">All Loan Programs</Link></li>
           <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Mo Abdel</Link></li>
         </ul>
 
