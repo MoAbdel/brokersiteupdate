@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-03-04',
     modifiedTime: '2026-03-04',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -243,18 +248,18 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         <nav className="bg-blue-50 p-6 rounded-xl border border-blue-200 mb-8">
           <h2 className="text-xl font-bold text-blue-900 mb-3">On This Page: Reverse Mortgage and Medicaid Planning Guide</h2>
           <ul className="text-blue-800 space-y-2">
-            <li><a href="#income-vs-asset" className="hover:underline">HECM Proceeds: Income vs Asset Classification</a></li>
-            <li><a href="#program-impact" className="hover:underline">How HECM Affects Each Government Benefit Program</a></li>
-            <li><a href="#medicaid-asset-rules" className="hover:underline">Medicaid Asset Limits and the Calendar Month Rule</a></li>
-            <li><a href="#spend-down" className="hover:underline">Spend-Down Strategies: Timing HECM Draws for Medicaid Compliance</a></li>
-            <li><a href="#california" className="hover:underline">California Medi-Cal and Reverse Mortgages</a></li>
-            <li><a href="#washington" className="hover:underline">Washington Apple Health and Reverse Mortgages</a></li>
-            <li><a href="#estate-recovery" className="hover:underline">Medicaid Estate Recovery and HECM Liens</a></li>
-            <li><a href="#elder-law" className="hover:underline">Working With an Elder Law Attorney: Essential Coordination</a></li>
-            <li><a href="#data-hub" className="hover:underline">Data &amp; Comparison Hub</a></li>
-            <li><a href="#paa" className="hover:underline">People Also Ask</a></li>
-            <li><a href="#faqs" className="hover:underline">Extended FAQ (12 Questions)</a></li>
-            <li><a href="#expert-summary" className="hover:underline">Expert Summary + Next Steps</a></li>
+            <li><a href="#income-vs-asset" className="hover:underline">Are Reverse Mortgage Proceeds Income or Assets for Medicaid?</a></li>
+            <li><a href="#program-impact" className="hover:underline">How Do HECM Proceeds Affect Medicaid, SSI, and Medicare?</a></li>
+            <li><a href="#medicaid-asset-rules" className="hover:underline">What Are the Medicaid Asset Limits and Calendar Month Rule?</a></li>
+            <li><a href="#spend-down" className="hover:underline">How Do Spend-Down Strategies Work for Medicaid Compliance?</a></li>
+            <li><a href="#california" className="hover:underline">How Does California Medi-Cal Treat Reverse Mortgage Proceeds?</a></li>
+            <li><a href="#washington" className="hover:underline">How Does Washington Apple Health Treat Reverse Mortgage Proceeds?</a></li>
+            <li><a href="#estate-recovery" className="hover:underline">How Does Medicaid Estate Recovery Interact with HECM Liens?</a></li>
+            <li><a href="#elder-law" className="hover:underline">Why Is an Elder Law Attorney Essential for HECM and Medicaid?</a></li>
+            <li><a href="#data-hub" className="hover:underline">Key Data Points for Reverse Mortgage and Medicaid</a></li>
+            <li><a href="#paa" className="hover:underline">What Do People Ask About Reverse Mortgages and Medicaid?</a></li>
+            <li><a href="#faqs" className="hover:underline">12 Most Common Reverse Mortgage Medicaid Questions</a></li>
+            <li><a href="#expert-summary" className="hover:underline">Bottom Line on Reverse Mortgage Medicaid Planning</a></li>
           </ul>
         </nav>
 
@@ -267,7 +272,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </div>
 
         {/* Section 1: Income vs Asset */}
-        <h2 id="income-vs-asset">HECM Proceeds: The Critical Distinction Between Income and Assets</h2>
+        <h2 id="income-vs-asset">Are Reverse Mortgage Proceeds Considered Income or Assets for Medicaid?</h2>
 
         <p>
           The foundation of reverse mortgage Medicaid planning rests on a single legal classification: <strong>HECM proceeds are loan advances, not income</strong>. This distinction is established in federal regulations and applies across all states and all means-tested benefit programs.
@@ -310,7 +315,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Section 2: Program Impact Table */}
-        <h2 id="program-impact">How HECM Reverse Mortgage Proceeds Affect Each Government Benefit Program</h2>
+        <h2 id="program-impact">How Do Reverse Mortgage Proceeds Affect Medicaid, SSI, and Medicare?</h2>
 
         <p>
           Not all government benefits are means-tested. The following table clarifies which programs are affected by HECM proceeds and which are not.
@@ -387,7 +392,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Section 3: Medicaid Asset Rules */}
-        <h2 id="medicaid-asset-rules">Medicaid Asset Limits and the Calendar Month Rule in Detail</h2>
+        <h2 id="medicaid-asset-rules">What Are the Medicaid Asset Limits and How Does the Calendar Month Rule Apply to Reverse Mortgages?</h2>
 
         <p>
           Medicaid asset limits determine how much a person can own (in countable assets) and still qualify for Medicaid benefits. These limits vary significantly by state and by the specific Medicaid program category.
@@ -456,7 +461,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Section 4: Spend-Down Strategies */}
-        <h2 id="spend-down">Spend-Down Strategies: Timing HECM Draws for Medicaid Compliance</h2>
+        <h2 id="spend-down">How Do Spend-Down Strategies Work for Reverse Mortgage Medicaid Compliance?</h2>
 
         <p>
           A <strong>spend-down strategy</strong> is a planned approach to receiving and spending HECM funds within the same calendar month so they do not carry over as countable assets. This is the primary tool for maintaining Medicaid eligibility while accessing reverse mortgage proceeds.
@@ -496,7 +501,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </div>
 
         {/* Section 5: California */}
-        <h2 id="california">California Medi-Cal and Reverse Mortgages: Post-2024 Asset Test Elimination</h2>
+        <h2 id="california">How Does California Medi-Cal Treat Reverse Mortgage Proceeds After the 2024 Asset Test Elimination?</h2>
 
         <p>
           California implemented one of the most significant Medicaid policy changes in the nation when it eliminated the asset test for most Medi-Cal programs effective January 1, 2024, under Assembly Bill 133. This change dramatically simplified reverse mortgage planning for many California seniors.
@@ -522,7 +527,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Section 6: Washington */}
-        <h2 id="washington">Washington Apple Health and Reverse Mortgages</h2>
+        <h2 id="washington">How Does Washington Apple Health Treat Reverse Mortgage Proceeds?</h2>
 
         <p>
           Washington State&apos;s Medicaid program (Apple Health) operates under its own set of rules that differ from California&apos;s. Washington expanded Medicaid under the Affordable Care Act, and its asset test framework has evolved over time.
@@ -542,7 +547,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Section 7: Estate Recovery */}
-        <h2 id="estate-recovery">Medicaid Estate Recovery and HECM Reverse Mortgage Liens</h2>
+        <h2 id="estate-recovery">How Does Medicaid Estate Recovery Interact with Reverse Mortgage Liens?</h2>
 
         <p>
           <strong>Medicaid estate recovery</strong> is the process by which a state seeks reimbursement from the estate of a deceased Medicaid recipient for benefits paid during their lifetime. Federal law requires states to pursue estate recovery for certain Medicaid benefits, including nursing facility services, home and community-based services, and related hospital and prescription drug services.
@@ -566,7 +571,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Section 8: Elder Law Attorney */}
-        <h2 id="elder-law">Working With an Elder Law Attorney: Essential Coordination for HECM and Medicaid</h2>
+        <h2 id="elder-law">Why Is an Elder Law Attorney Essential for Reverse Mortgage Medicaid Planning?</h2>
 
         <p>
           <strong>Consulting an elder law attorney is not optional when HECM reverse mortgage and Medicaid eligibility intersect.</strong> HUD-approved counseling (which is required for all HECM borrowers) covers the general mechanics of reverse mortgages but does not provide the individualized Medicaid planning, asset structuring, and benefits coordination that an elder law attorney delivers.
@@ -592,7 +597,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </p>
 
         {/* Data & Comparison Hub */}
-        <h2 id="data-hub">Data &amp; Comparison Hub: Reverse Mortgage and Medicaid</h2>
+        <h2 id="data-hub">What Are the Key Data Points for Reverse Mortgage and Medicaid Planning?</h2>
 
         <div className="overflow-x-auto my-8">
           <table className="min-w-full border border-gray-200">
@@ -640,7 +645,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </div>
 
         {/* People Also Ask */}
-        <h2 id="paa" className="speakable-paa">People Also Ask: Reverse Mortgage and Medicaid</h2>
+        <h2 id="paa" className="speakable-paa">What Do People Ask About Reverse Mortgages and Medicaid?</h2>
 
         <div className="space-y-6">
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -680,7 +685,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </div>
 
         {/* Extended FAQ */}
-        <h2 id="faqs">Extended FAQ: Reverse Mortgage and Medicaid (12 Questions)</h2>
+        <h2 id="faqs">What Are the 12 Most Common Reverse Mortgage and Medicaid Questions?</h2>
 
         <div className="space-y-4">
           {faqData.map((faq, index) => (
@@ -692,7 +697,7 @@ export default function ReverseMortgageMedicaidPlanningPage() {
         </div>
 
         {/* Expert Summary + CTA */}
-        <h2 id="expert-summary">Expert Summary: Reverse Mortgage and Medicaid Planning</h2>
+        <h2 id="expert-summary">What Is the Bottom Line on Reverse Mortgage and Medicaid Planning?</h2>
 
         <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 my-6">
           <h3 className="font-bold text-blue-900 mt-0">Key Takeaways for HECM and Medicaid Coordination</h3>

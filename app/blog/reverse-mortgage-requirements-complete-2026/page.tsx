@@ -37,6 +37,11 @@ export const metadata: Metadata = {
     title: 'Reverse Mortgage Requirements 2026: Complete HECM Eligibility Checklist',
     description: 'Complete guide to reverse mortgage requirements 2026. Age 62+, primary residence, HUD counseling, financial assessment.',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 export default function ReverseMortgageRequirementsCompletePage() {
@@ -274,7 +279,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Reverse Mortgage Requirements 2026: Complete Overview
+          What Are the Reverse Mortgage Requirements in 2026?
         </h2>
 
         <p>
@@ -286,7 +291,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         </p>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          HECM Eligibility Checklist: Six Core Requirements
+          What Are the Six Core HECM Eligibility Requirements?
         </h2>
 
         <div className="bg-gray-50 p-6 rounded-lg my-8 not-prose">
@@ -367,7 +372,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Who Qualifies for a Reverse Mortgage? Age Requirements Explained
+          What Is the Minimum Age Requirement for a Reverse Mortgage in 2026?
         </h2>
 
         <p>
@@ -607,7 +612,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Reverse Mortgage Requirements by Loan Type: 2026 Comparison
+          How Do Reverse Mortgage Requirements Differ by Loan Type in 2026?
         </h2>
 
         <p>
@@ -723,7 +728,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-16 mb-8">
-          People Also Ask About Reverse Mortgage Requirements
+          What Do People Ask About Reverse Mortgage Requirements?
         </h2>
 
         <div className="space-y-6 not-prose">
@@ -805,7 +810,7 @@ export default function ReverseMortgageRequirementsCompletePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-16 mb-8">
-          Frequently Asked Questions About Reverse Mortgage Eligibility
+          What Are the Most Common Reverse Mortgage Eligibility Questions?
         </h2>
 
         <div className="space-y-6 not-prose">

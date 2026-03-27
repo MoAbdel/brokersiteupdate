@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-manufactured-home-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -295,7 +300,7 @@ export default function ReverseMortgageManufacturedHome2026() {
         {/* Section 2: Bing Power Block */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Reverse Mortgage for Manufactured Homes: FHA Eligibility Requirements
+            What Are the FHA Eligibility Requirements for a Reverse Mortgage on a Manufactured Home?
           </h2>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
@@ -482,7 +487,7 @@ export default function ReverseMortgageManufacturedHome2026() {
         {/* Section 4: Data & Comparison Hub */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Manufactured Home Reverse Mortgage: Key Data Comparisons
+            How Does a Manufactured Home Reverse Mortgage Compare to Site-Built HECM?
           </h2>
 
           <h3 className="text-2xl font-semibold text-slate-900 mb-4">
@@ -590,7 +595,7 @@ export default function ReverseMortgageManufacturedHome2026() {
         {/* Section 5: People Also Ask */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            People Also Ask: Reverse Mortgages and Manufactured Homes
+            What Do People Ask About Reverse Mortgages for Manufactured Homes?
           </h2>
 
           <div className="space-y-6">
@@ -634,7 +639,7 @@ export default function ReverseMortgageManufacturedHome2026() {
         {/* Section 6: Extended FAQ */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Frequently Asked Questions: Reverse Mortgage for Manufactured Homes
+            What Are the Most Common Reverse Mortgage Manufactured Home Questions?
           </h2>
 
           <div className="space-y-4">

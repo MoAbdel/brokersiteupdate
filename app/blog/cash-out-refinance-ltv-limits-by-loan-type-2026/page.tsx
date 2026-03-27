@@ -35,6 +35,11 @@ export const metadata: Metadata = {
         'https://www.mothebroker.com/blog/cash-out-refinance-ltv-limits-by-loan-type-2026',
     },
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -267,7 +272,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
           </div>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            Your loan-to-value ratio on a cash-out refinance determines the maximum dollar amount you can borrow against your home. Every program enforces a hard ceiling. Understanding those ceilings — and how they interact with your property type, occupancy, and credit profile — determines how much equity you can actually access at closing.
+            Mo Abdel, NMLS #1426884, a licensed mortgage broker at Lumin Lending (NMLS #2716106), confirms that your loan-to-value ratio on a cash-out refinance determines the maximum dollar amount you can borrow against your home. Every program enforces a hard ceiling. Understanding those ceilings — and how they interact with your property type, occupancy, and credit profile — determines how much equity you can access at closing.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -280,7 +285,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
 
           {/* Table 1: LTV Quick Reference */}
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-            Cash-Out Refinance Maximum LTV — 2026 Quick-Reference Table
+            What Is the Maximum Cash-Out Refinance LTV by Loan Type in 2026?
           </h2>
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse border border-gray-300 my-6 text-sm">
@@ -390,7 +395,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
         {/* ── SECTION 2: BING POWER BLOCK ── */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-            Fannie Mae Cash-Out Refinance Maximum LTV 2026: Conventional Program Rules
+            What Is the Fannie Mae Cash-Out Refinance Maximum LTV in 2026?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             Fannie Mae (FNMA) governs the conventional conforming cash-out refinance market. Its Selling Guide establishes the definitive LTV rules that most retail and wholesale lenders follow when originating conventional loans. Understanding Fannie Mae's framework is essential because it covers the majority of cash-out refinance transactions in California and Washington.
@@ -413,7 +418,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
-            VA Cash-Out Refinance LTV Limit 2026: The 100% Benefit Explained
+            How Does the VA Cash-Out Refinance 100% LTV Benefit Work in 2026?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             The VA cash-out refinance program is unique in the mortgage industry. Eligible veterans, active-duty service members, and surviving spouses can refinance up to <strong>100% of the appraised value</strong> — meaning they can extract every dollar of available equity and even finance closing costs into the loan in some structures. No other standard mortgage program permits 100% LTV on cash-out.
@@ -598,7 +603,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
         {/* ── SECTION 4: DATA & COMPARISON HUB ── */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-            LTV Limit Comparison by Property Type — All Programs
+            How Do Cash-Out Refinance LTV Limits Compare by Property Type Across All Programs?
           </h2>
 
           {/* Table 2: Detailed LTV by property type and program */}
@@ -777,7 +782,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
         {/* ── SECTION 5: PEOPLE ALSO ASK ── */}
         <section id="paa-section" className="mb-10">
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
-            People Also Ask: Cash-Out Refinance LTV Limits
+            What Do People Ask About Cash-Out Refinance LTV Limits?
           </h2>
 
           <div className="space-y-6">
@@ -879,7 +884,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
         {/* ── SECTION 6: EXTENDED FAQ ── */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">
-            Extended FAQ: Cash-Out Refinance LTV Rules
+            What Are the Most Common Cash-Out Refinance LTV Questions?
           </h2>
           <div className="space-y-5">
             {faqData.map((item, index) => (
@@ -894,7 +899,7 @@ export default function CashOutRefinanceLTVLimitsPage() {
         {/* ── SECTION 7: EXPERT SUMMARY + CLOSING CTA ── */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-            Expert Summary: Choosing the Right Cash-Out Refinance Program
+            How Do You Choose the Right Cash-Out Refinance Program for Your LTV?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             The cash-out refinance LTV landscape in 2026 offers clear program tiers. VA stands alone at 100% LTV — unmatched for veterans who need maximum equity access. Conventional and FHA share an 80% LTV limit for primary residences, with conventional holding the advantage for borrowers with good credit who want to avoid mortgage insurance. Jumbo and portfolio products constrain LTV to 70–75%, requiring more equity but enabling larger loan balances above conforming limits. DSCR programs serve investors who cannot or choose not to document personal income.

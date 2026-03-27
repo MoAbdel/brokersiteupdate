@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-21',
     authors: ['Mo Abdel'],
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 export default function ReverseMortgageCondoRequirements2026Page() {
@@ -609,7 +614,7 @@ export default function ReverseMortgageCondoRequirements2026Page() {
 
         {/* ===== SECTION 4: DATA & COMPARISON HUB ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Condo HECM Proceeds by Value Tier: What to Expect
+          How Much Can You Get from a Condo Reverse Mortgage by Value Tier?
         </h2>
 
         <p>
@@ -724,7 +729,7 @@ export default function ReverseMortgageCondoRequirements2026Page() {
 
         {/* ===== SECTION 5: PEOPLE ALSO ASK ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-16 mb-8">
-          People Also Ask: Condo Reverse Mortgage Questions
+          What Do People Ask About Reverse Mortgages for Condos?
         </h2>
 
         <div className="speakable-faq space-y-6">
@@ -803,7 +808,7 @@ export default function ReverseMortgageCondoRequirements2026Page() {
 
         {/* ===== SECTION 6: EXTENDED FAQ ===== */}
         <h2 className="text-3xl font-bold text-gray-900 mt-16 mb-8">
-          Frequently Asked Questions: Condo Reverse Mortgage Requirements
+          What Are the Most Common Condo Reverse Mortgage Requirement Questions?
         </h2>
 
         <div className="space-y-6">
@@ -918,7 +923,7 @@ export default function ReverseMortgageCondoRequirements2026Page() {
 
         {/* ===== SECTION 7: EXPERT SUMMARY + CTA ===== */}
         <div className="bg-slate-50 p-8 rounded-xl mt-16 not-prose">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Expert Summary: Condo Reverse Mortgage Options in 2026</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">What Are Your Condo Reverse Mortgage Options in 2026?</h2>
           <p className="text-gray-700 mb-4">
             Condo owners 62 and older have more reverse mortgage options today than at any point in the program&apos;s history. FHA project approval, single-unit approval, and proprietary products create three distinct pathways — and a qualified wholesale mortgage broker with access to 50+ Wholesale Lenders can identify which route fits your specific condominium and financial situation. The first step is determining your condo&apos;s FHA approval status and evaluating whether the complex meets the core requirements.
           </p>

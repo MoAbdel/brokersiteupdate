@@ -28,6 +28,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-21',
     authors: ['Mo Abdel'],
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 export default function ReverseMortgagePropertyTaxInsurancePage() {
@@ -351,7 +356,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
         </ol>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Reverse Mortgage Property Tax Insurance Requirements 2026
+          What Are the Reverse Mortgage Property Tax Insurance Requirements in 2026?
         </h2>
 
         <p>
@@ -538,7 +543,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
         </ol>
 
         <p>
-          Related reading: <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800">Complete Guide to Reverse Mortgages 2026</Link> | <Link href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:text-blue-800">HECM Pros and Cons</Link> | <Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Requirements</Link>
+          Related reading: <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:text-blue-800">Complete Guide to Reverse Mortgages 2026</Link> | <Link href="/blog/hecm-pros-cons-2026" className="text-blue-600 hover:text-blue-800">HECM Pros and Cons</Link> | <Link href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Requirements</Link> | <Link href="/blog/reverse-mortgage-selling-home-payoff-2026" className="text-blue-600 hover:text-blue-800">Selling a Home with a Reverse Mortgage</Link> | <Link href="/blog/reverse-mortgage-condo-requirements-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Condo Requirements</Link> | <Link href="/blog/heloc-vs-home-equity-loan-2026" className="text-blue-600 hover:text-blue-800">HELOC vs Home Equity Loan</Link>
         </p>
 
         {/* ============================================ */}
@@ -546,7 +551,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Property Tax Rates and LESA Calculations: Key Data for HECM Borrowers
+          How Do Property Tax Rates Affect Reverse Mortgage LESA Calculations?
         </h2>
 
         <p>
@@ -700,7 +705,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          People Also Ask: Reverse Mortgage Property Tax &amp; Insurance
+          What Do People Ask About Reverse Mortgage Property Tax &amp; Insurance?
         </h2>
 
         <div className="space-y-6 my-8 speakable-faq">
@@ -745,7 +750,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Extended FAQ: HECM Property Charges, LESA, and Compliance
+          What Are the Most Common HECM Property Charge and LESA Questions?
         </h2>
 
         <div className="space-y-4 my-8">
@@ -839,7 +844,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
         {/* ============================================ */}
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
-          Expert Summary: Protecting Your Home with Proper HECM Property Charge Management
+          How Do You Protect Your Home with Proper Reverse Mortgage Property Charge Management?
         </h2>
 
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-lg my-8 not-prose">

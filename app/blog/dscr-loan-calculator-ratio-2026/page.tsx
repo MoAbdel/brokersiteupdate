@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loan-calculator-ratio-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -179,7 +184,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* DSCR Formula Deep Dive */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            The DSCR Formula: Understanding Every Component of the Calculation
+            What Is the DSCR Formula and How Does Each Component Affect Your Ratio?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The Debt Service Coverage Ratio is the metric that determines whether an investment property qualifies for a DSCR loan. The formula itself is simple: divide the property&apos;s monthly gross rental income by the total monthly mortgage payment. The result tells lenders whether the property generates enough rental revenue to cover its own debt obligation.
@@ -240,7 +245,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* Step-by-Step Calculation */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            How to Calculate DSCR Step-by-Step: 4 Worked Examples
+            How Do You Calculate DSCR Step-by-Step for Investment Properties?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The following four worked examples demonstrate exactly how the DSCR calculation works at different price points and property types. Each example walks through the complete process from gathering inputs to interpreting the result. These examples use representative figures for illustration purposes; actual rates, taxes, and insurance will vary by location and lender.
@@ -394,7 +399,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* DSCR at Different Price Points Table */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            DSCR Calculations at Different Price Points: Comparative Analysis
+            How Does the DSCR Calculation Change at Different Property Price Points?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The following table compares DSCR calculations across four common price points for investment properties. All examples assume 75% LTV (25% down), representative interest rates, and market-typical rents, taxes, and insurance for each price tier. Actual figures will vary by location, lender, and market conditions.
@@ -503,7 +508,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* How Variables Impact DSCR */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            How Every Variable Impacts Your DSCR Ratio: Sensitivity Analysis
+            How Does Each Variable Impact Your DSCR Ratio?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Understanding how each variable affects the DSCR ratio empowers investors to make strategic decisions that improve qualification odds. Small changes in rent, taxes, insurance, or down payment can shift a property from &quot;does not qualify&quot; to &quot;approved with premium pricing.&quot; The following analysis uses the $300K SFR example (baseline DSCR 1.17) to demonstrate each variable&apos;s impact.
@@ -582,7 +587,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* Strategies to Improve DSCR */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            7 Proven Strategies to Improve Your DSCR Ratio Before Applying
+            What Are the Best Strategies to Improve Your DSCR Ratio Before Applying?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             If your initial DSCR calculation falls short of the lender&apos;s minimum threshold, several actionable strategies can improve the ratio. Each strategy targets either the numerator (increasing income) or the denominator (decreasing PITIA) to shift the ratio in your favor.
@@ -623,7 +628,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* Common Mistakes */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            5 Common DSCR Calculation Mistakes Investors Make
+            What Are the Most Common DSCR Calculation Mistakes Investors Make?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Calculating DSCR incorrectly leads to misguided investment decisions and wasted time submitting loan applications that do not qualify. These are the five most common mistakes Mo Abdel sees investors make when running their own DSCR calculations.
@@ -671,7 +676,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* DSCR by Property Type */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            DSCR Calculation Differences by Property Type
+            How Does the DSCR Calculation Differ by Property Type?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             While the DSCR formula remains constant across all property types, the inputs and lender adjustments differ depending on whether you are financing a single-family home, a multi-unit property, a condo, or a short-term rental. Understanding these differences helps investors set accurate expectations.
@@ -736,7 +741,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* Wholesale Broker Role in DSCR Optimization */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            How a Wholesale Broker Optimizes Your DSCR Loan Qualification
+            How Does a Wholesale Broker Help Optimize Your DSCR Loan Qualification?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The DSCR calculation produces a single number, but the number&apos;s significance depends entirely on which lender evaluates it. A DSCR of 0.95 results in a denial at one lender and an approval at another. A DSCR of 1.15 receives standard pricing from one lender and premium pricing from another whose threshold for best rates is 1.10 rather than 1.25.
@@ -786,7 +791,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* Advanced DSCR Considerations */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Advanced DSCR Calculation Considerations for Experienced Investors
+            What Advanced DSCR Calculation Factors Should Experienced Investors Know?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Beyond the basic formula, experienced investors encounter several advanced DSCR scenarios that require nuanced understanding. These situations often arise with portfolio expansion, property conversions, and complex deal structures.
@@ -825,7 +830,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* People Also Ask */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            People Also Ask About DSCR Calculations
+            What Do People Ask About DSCR Calculations?
           </h2>
 
           <div className="space-y-6">
@@ -874,7 +879,7 @@ export default function DSCRLoanCalculatorRatio2026() {
         {/* Extended FAQ */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Frequently Asked Questions: DSCR Calculator &amp; Ratio Calculations
+            What Are the Most Common DSCR Calculator and Ratio Questions?
           </h2>
 
           <div className="space-y-4">

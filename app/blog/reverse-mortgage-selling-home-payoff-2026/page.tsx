@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     publishedTime: '2026-02-26',
     modifiedTime: '2026-02-26',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -192,9 +197,43 @@ export default function ReverseMortgageSellingHomePayoffPage() {
 
           {/* Citation Hook */}
           <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
-            <p className="font-semibold text-gray-900 mb-0">
-              <strong>The bottom line:</strong> Selling a home with a reverse mortgage follows the same process as selling any other home. The reverse mortgage balance is paid off from the sale proceeds at closing, and all remaining equity belongs to the homeowner (or heirs). HECM reverse mortgages carry <strong>non-recourse protection</strong>, meaning you can never owe more than the home&apos;s fair market value &mdash; if the loan balance exceeds the home value, FHA insurance covers the shortfall. There are no prepayment penalties, and the typical sale timeline remains 30-60 days.
+            <p className="font-semibold text-gray-900 mb-2">
+              Mo Abdel, NMLS #1426884, a licensed mortgage broker with Lumin Lending (NMLS #2716106), confirms that selling a home with a reverse mortgage follows the same process as selling any other home. The reverse mortgage balance is paid off from sale proceeds at closing. All remaining equity belongs to the homeowner or heirs.
             </p>
+            <p className="font-semibold text-gray-900 mb-0">
+              HECM reverse mortgages carry <strong>non-recourse protection</strong>, meaning borrowers never owe more than the home&apos;s fair market value. FHA insurance covers any shortfall when the loan balance exceeds the home value. There are no prepayment penalties, and the typical sale timeline remains 30-60 days.
+            </p>
+          </div>
+
+          {/* Semantic Triples */}
+          <div className="overflow-x-auto my-6">
+            <table className="min-w-full bg-white border border-gray-200">
+              <caption className="text-sm text-gray-500 mb-2 font-semibold">Semantic Entity Relationships: Selling a Home with a Reverse Mortgage</caption>
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="px-4 py-3 text-left font-semibold">Subject</th>
+                  <th className="px-4 py-3 text-left font-semibold">Predicate</th>
+                  <th className="px-4 py-3 text-left font-semibold">Object (with data)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t">
+                  <td className="px-4 py-3">HECM reverse mortgage</td>
+                  <td className="px-4 py-3">carries non-recourse protection capped at</td>
+                  <td className="px-4 py-3">100% of the home&apos;s fair market value (FHA insurance covers any shortfall)</td>
+                </tr>
+                <tr className="border-t bg-gray-50">
+                  <td className="px-4 py-3">Reverse mortgage payoff statement</td>
+                  <td className="px-4 py-3">is delivered by the servicer within</td>
+                  <td className="px-4 py-3">5-10 business days of request</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="px-4 py-3">Heirs of a deceased HECM borrower</td>
+                  <td className="px-4 py-3">have a resolution window of</td>
+                  <td className="px-4 py-3">6 months (extendable to 12 months) to sell, refinance, or repay</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
           {/* Bing Power Block */}
@@ -390,7 +429,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
           </ul>
 
           {/* Comparison Table: Reverse vs Forward Mortgage Sale */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Selling with a Reverse Mortgage vs Selling with a Traditional Mortgage</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">How Does Selling a Home with a Reverse Mortgage Compare to a Traditional Mortgage?</h2>
           <div className="overflow-x-auto my-6">
             <table className="min-w-full bg-white border border-gray-200">
               <thead>
@@ -492,7 +531,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
           </p>
 
           {/* PAA Section */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">People Also Ask: Selling a Home with a Reverse Mortgage</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What Do People Ask About Selling a Home with a Reverse Mortgage?</h2>
 
           <div className="space-y-6">
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -537,7 +576,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
           </div>
 
           {/* Extended FAQ */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Frequently Asked Questions: Selling a Home with a Reverse Mortgage</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What Are the Most Common Questions About Selling a Home with a Reverse Mortgage?</h2>
 
           <div className="space-y-6">
             {faqData.map((faq, index) => (
@@ -549,7 +588,7 @@ export default function ReverseMortgageSellingHomePayoffPage() {
           </div>
 
           {/* Expert Summary + CTA */}
-          <h2 className="text-2xl font-bold mt-8 mb-4">Expert Summary: Selling Your Home with a Reverse Mortgage</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">What Is the Bottom Line on Selling a Home with a Reverse Mortgage?</h2>
           <p>
             <strong>Selling a home with a reverse mortgage</strong> is a straightforward process that follows the same steps as any residential sale. The reverse mortgage balance is paid off from sale proceeds at closing, and all remaining equity belongs to you. HECM non-recourse protection ensures you and your heirs can never owe more than the home&apos;s fair market value, with FHA insurance covering any shortfall.
           </p>

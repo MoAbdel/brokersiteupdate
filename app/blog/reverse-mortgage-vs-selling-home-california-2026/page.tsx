@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-vs-selling-home-california-2026',
   },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Orange County, California',
+    language: 'en',
+  },
 };
 
 const faqData = [
@@ -263,7 +268,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
         {/* Section 2: Bing Power Block */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Reverse Mortgage vs Selling Your Home: Head-to-Head Financial Comparison
+            How Does a Reverse Mortgage Compare Financially to Selling Your California Home?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The financial comparison between a <Link href="/reverse-mortgages" className="text-emerald-600 hover:text-emerald-700 hover:underline">HECM reverse mortgage</Link> and selling your California home involves multiple dimensions: upfront costs, ongoing costs, total equity access, tax implications, and long-term impact on your net worth. Below is the comprehensive comparison that covers every financial variable.
@@ -365,7 +370,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
         {/* Section 3: Google E-E-A-T Narrative */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            California Prop 19 Changed the Selling vs Reverse Mortgage Equation
+            How Did California Prop 19 Change the Reverse Mortgage vs Selling Decision?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Before Proposition 19 took effect in April 2021, selling and downsizing carried a hidden penalty that made reverse mortgages the default choice for most California seniors. Under Proposition 13, property taxes are based on the purchase price (assessed value), increasing a maximum of 2% per year. A home purchased in 1990 for $200,000 carries an assessed value of approximately $350,000 in 2026 and annual property taxes of approximately $4,375. Selling that home and buying a $650,000 replacement triggered reassessment at market value, jumping property taxes to approximately $8,125 per year &mdash; an 86% increase.
@@ -398,7 +403,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            The Aging-in-Place Case: When a Reverse Mortgage Is the Right Answer
+            When Is a Reverse Mortgage the Right Choice for Aging in Place in California?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Financial analysis alone does not capture the full picture. In Mo Abdel&apos;s experience, approximately half of the seniors who initially plan to sell change their minds during the process because the emotional cost of leaving their home proves greater than they anticipated. The <Link href="/blog/reverse-mortgage-aging-in-place-california-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">aging-in-place advantage of a reverse mortgage</Link> goes far beyond financial math.
@@ -428,7 +433,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Heir Impact: How Reverse Mortgage vs Selling Affects Your Children&apos;s Inheritance
+            How Does Choosing a Reverse Mortgage vs Selling Affect Your Heirs&apos; Inheritance?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             The <Link href="/blog/reverse-mortgage-inheritance-heirs-2026" className="text-emerald-600 hover:text-emerald-700 hover:underline">inheritance question</Link> is one of the most emotionally charged aspects of this decision. Many California seniors resist reverse mortgages because they want to leave the home to their children. Others resist selling because the home itself represents the inheritance. The financial reality is more nuanced than either assumption.
@@ -485,7 +490,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Hybrid Strategy: Reverse Mortgage Now, Sell Later
+            Can You Get a Reverse Mortgage Now and Sell Your California Home Later?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             For seniors who are genuinely undecided, a hybrid approach provides optionality. Establish a HECM line of credit now, draw on it as needed, and preserve the option to sell later. If circumstances change &mdash; health declines, the home becomes too much to manage, or family moves away &mdash; you can sell, repay the HECM balance from the proceeds, and keep the remaining equity.
@@ -521,7 +526,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
         {/* Section 4: Data & Comparison Hub */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Cost Comparison: Reverse Mortgage Upfront Costs vs Selling Costs in California
+            What Are the Upfront Costs of a Reverse Mortgage vs Selling a Home in California?
           </h2>
           <p className="text-lg text-slate-600 mb-6">
             Understanding the cost structure of each option is essential. A reverse mortgage has lower upfront costs but ongoing compounding interest. Selling has higher one-time costs but no ongoing debt. The following table illustrates how costs compare across different home values.
@@ -663,7 +668,7 @@ export default function ReverseMortgageVsSellingHomeCalifornia2026() {
         {/* Section 5: People Also Ask */}
         <section className="mb-12 speakable-paa">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            People Also Ask: Reverse Mortgage vs Selling Home in California
+            What Do California Seniors Ask About Reverse Mortgage vs Selling Their Home?
           </h2>
 
           <div className="space-y-6">
