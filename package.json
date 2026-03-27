@@ -30,6 +30,7 @@
     "seo:record-delta-from-batch": "node scripts/record-indexing-delta.mjs --from-batch",
     "seo:record-delta-from-approved-batch": "node scripts/record-indexing-delta.mjs --from-approved-batch",
     "indexing:submit-delta-auto": "node scripts/auto-submit-indexing-delta.mjs",
+    "seo:ctr-prune": "node scripts/build-ctr-prune-candidates.mjs",
     "seo:internal-links": "node scripts/internal-link-audit.mjs",
     "prepare": "husky"
   },
