@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Reverse Mortgage & Estate Planning: What Heirs Need to Know [2026]',
   description: 'How reverse mortgages affect inheritance and estate planning. Non-recourse protection, heir options, and timeline explained for seniors 62+. NMLS #1426884.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-inheritance-heirs-2026',
     languages: {

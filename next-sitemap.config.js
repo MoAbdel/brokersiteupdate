@@ -156,7 +156,7 @@ const LOW_YIELD_TOOL_ROUTE_PATTERN =
   /^\/tools\/(?:cash-out-limit-calculator|dscr-rent-analyzer|max-heloc-calculator)\/[a-z0-9-]+(?:\/[a-z0-9-]+){0,2}$/i;
 
 const LOCALIZED_TOOL_CITY_ROUTE_PATTERN =
-  /^\/tools\/(?:bank-statement-loan-estimator|cash-out-limit-calculator|dscr-qualification-calculator|dscr-rent-analyzer|equity-comparison-calculator|max-heloc-calculator|property-tax-estimator)\/[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+$/i;
+  /^\/tools\/(?:bank-statement-loan-estimator|cash-out-limit-calculator|dscr-qualification-calculator|dscr-rent-analyzer|equity-comparison-calculator|max-heloc-calculator|property-tax-estimator)\/[a-z0-9-]+\/[a-z0-9-]+(?:\/[a-z0-9-]+)?$/i;
 
 function isLowEquityBlogRoute(routePath) {
   const normalizedRoutePath = normalizeRoutePath(routePath);
@@ -270,6 +270,16 @@ module.exports = {
     '/areas/fountain-valley-mortgage-rates',
     '/areas/garden-grove-mortgage-rates',
     '/areas/santa-ana-refinance-rates',
+    // CTR-pruned zero-click pages (2026-03-27)
+    '/blog/asset-depletion-loans-guide-2026',
+    '/blog/reverse-mortgage-calculator-2026',
+    '/blog/reverse-mortgage-complete-guide-2026',
+    '/blog/reverse-mortgage-inheritance-heirs-2026',
+    '/blog/reverse-mortgage-payout-options-2026',
+    '/blog/when-not-to-get-reverse-mortgage-2026',
+    '/blog/equity-extraction-risks-2026',
+    '/blog/irvine-mortgage-guide-2026',
+    '/guides/fha-loans-orange-county-complete-guide',
   ],
   robotsTxtOptions: {
     policies: [
@@ -537,7 +547,7 @@ module.exports = {
       '/blog/fha-loans-orange-county-2026',
       '/blog/wholesale-vs-retail-mortgage-brokers-2026',
       '/blog/san-clemente-mortgage-guide-2026',
-      '/blog/irvine-mortgage-guide-2026',
+      // '/blog/irvine-mortgage-guide-2026', // CTR-pruned: noindexed zero-click page
       '/blog/newport-coast-mortgage-guide-2026',
       '/blog/va-loans-orange-county-2026',
       '/blog/jumbo-loans-orange-county-2026',

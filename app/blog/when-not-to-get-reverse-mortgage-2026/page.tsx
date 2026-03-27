@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'When NOT to Get a Reverse Mortgage: Alternatives for Seniors [2026]',
   description: 'Discover when a reverse mortgage is NOT the right choice and explore better alternatives. Honest guidance for seniors 62+ considering home equity options. NMLS #1426884.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/when-not-to-get-reverse-mortgage-2026',
     languages: {

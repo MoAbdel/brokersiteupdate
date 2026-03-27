@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Reverse Mortgage Payout Options: Lump Sum vs Line of Credit vs Monthly [2026]',
   description: 'Compare HECM payout options: lump sum, line of credit with growth feature, tenure payments, and term payments. Find the best option for seniors 62+. NMLS #1426884.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-payout-options-2026',
     languages: {

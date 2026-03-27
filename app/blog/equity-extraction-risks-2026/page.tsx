@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Risks of Tapping Home Equity: What You Need to Know [2026] | Mo Abdel',
   description: 'Risks of tapping home equity 2026: Understand the dangers of HELOCs, cash-out refinance, and home equity loans before borrowing. NMLS #1426884.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/equity-extraction-risks-2026',
     languages: {

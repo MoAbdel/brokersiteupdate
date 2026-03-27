@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Irvine Mortgage Guide 2026 | Mo Abdel - Orange County Mortgage Broker',
   description: 'Orange County mortgage broker offering competitive rates and expert guidance. Licensed NMLS #1426884.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/irvine-mortgage-guide-2026',
     languages: {

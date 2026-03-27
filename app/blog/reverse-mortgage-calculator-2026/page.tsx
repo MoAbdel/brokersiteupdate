@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'How Much Can I Get From a Reverse Mortgage? 2026 Calculator Guide | Mo Abdel NMLS #1426884',
   description: 'How much can I get from a reverse mortgage? 2026 calculator guide for seniors 62+. Learn factors affecting proceeds, PLF tables, and get personalized estimates.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-calculator-2026',
     languages: {
