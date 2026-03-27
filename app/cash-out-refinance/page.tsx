@@ -601,6 +601,39 @@ export default function CashOutRefinancePage() {
             </div>
           </section>
 
+          {/* Cash-Out Refinance by City */}
+          <section aria-label="Cash-out refinance by Orange County city" className="mb-16">
+            <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
+              Cash-Out Refinance by Orange County City
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <Link href="/areas/irvine-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Irvine Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/mission-viejo-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Mission Viejo Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/laguna-niguel-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Laguna Niguel Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/dana-point-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Dana Point Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/san-clemente-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">San Clemente Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/lake-forest-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Lake Forest Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/aliso-viejo-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Aliso Viejo Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/yorba-linda-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Yorba Linda Cash-Out Refinance</span>
+              </Link>
+            </div>
+          </section>
+
           {/* CTA Section */}
           <section aria-label="Get started with cash-out refinance" className="text-center bg-green-600 text-white rounded-lg p-8">
             <h2 className="text-3xl font-bold mb-4">Ready to Access Your Home's Equity?</h2>

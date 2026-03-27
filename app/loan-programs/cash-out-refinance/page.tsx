@@ -461,6 +461,39 @@ export default function CashOutRefinancePage() {
           />
         </div>
 
+        {/* Cash-Out Refinance by City */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
+            Cash-Out Refinance by Orange County City
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link href="/areas/irvine-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Irvine</span>
+            </Link>
+            <Link href="/areas/mission-viejo-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Mission Viejo</span>
+            </Link>
+            <Link href="/areas/laguna-niguel-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Laguna Niguel</span>
+            </Link>
+            <Link href="/areas/dana-point-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Dana Point</span>
+            </Link>
+            <Link href="/areas/san-clemente-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">San Clemente</span>
+            </Link>
+            <Link href="/areas/lake-forest-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Lake Forest</span>
+            </Link>
+            <Link href="/areas/aliso-viejo-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Aliso Viejo</span>
+            </Link>
+            <Link href="/areas/yorba-linda-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Yorba Linda</span>
+            </Link>
+          </div>
+        </div>
+
         {/* CTA Section */}
         <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">

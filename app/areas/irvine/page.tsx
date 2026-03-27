@@ -172,6 +172,8 @@ export default function Page() {
   const links = [
     { label: 'HELOCs and home equity options', href: '/heloc-orange-county' },
     { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
+    { label: 'Irvine cash-out refinance', href: '/areas/irvine-cash-out-refinance' },
+    { label: 'Irvine rate & term refinance', href: '/areas/irvine-rate-term-refinance' },
     { label: 'Home equity loans', href: '/heloan-orange-county' },
     { label: 'Orange County service areas', href: '/areas' },
     { label: 'Irvine neighborhoods guide', href: '/areas/irvine-neighborhoods' },

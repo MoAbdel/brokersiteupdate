@@ -440,6 +440,32 @@ export default function ProgramsPage() {
           </div>
         </div>
 
+        {/* Refinance by City */}
+        <div className="bg-white border border-slate-200 rounded-xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">Refinance by Orange County City</h2>
+          <p className="text-slate-600 mb-6">
+            City-specific refinance guides with local market data, equity estimates, and tailored advice.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-cash-out-refinance">Irvine Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine-rate-term-refinance">Irvine Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/mission-viejo-cash-out-refinance">Mission Viejo Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/mission-viejo-rate-term-refinance">Mission Viejo Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/laguna-niguel-cash-out-refinance">Laguna Niguel Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/laguna-niguel-rate-term-refinance">Laguna Niguel Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/dana-point-cash-out-refinance">Dana Point Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/dana-point-rate-term-refinance">Dana Point Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/san-clemente-cash-out-refinance">San Clemente Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/san-clemente-rate-term-refinance">San Clemente Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/lake-forest-cash-out-refinance">Lake Forest Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/lake-forest-rate-term-refinance">Lake Forest Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/aliso-viejo-cash-out-refinance">Aliso Viejo Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/aliso-viejo-rate-term-refinance">Aliso Viejo Rate &amp; Term Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/yorba-linda-cash-out-refinance">Yorba Linda Cash-Out Refinance</Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/yorba-linda-rate-term-refinance">Yorba Linda Rate &amp; Term Refinance</Link>
+          </div>
+        </div>
+
         {/* Non-QM & Specialty Programs */}
         <div className="bg-slate-50 rounded-xl p-8 mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-2 text-center">

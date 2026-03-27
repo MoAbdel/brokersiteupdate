@@ -489,6 +489,23 @@ export default function IrvineMortgageBrokerPage() {
           </div>
         </div>
 
+        {/* Irvine Refinance Options */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-center text-slate-900 mb-6">
+            Irvine Refinance Options
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Link href="/areas/irvine-cash-out-refinance" className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow border border-slate-200">
+              <span className="text-blue-600 font-medium text-lg">Irvine Cash-Out Refinance</span>
+              <p className="text-slate-600 text-sm mt-1">Access your Irvine home equity with a cash-out refinance</p>
+            </Link>
+            <Link href="/areas/irvine-rate-term-refinance" className="p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow border border-slate-200">
+              <span className="text-blue-600 font-medium text-lg">Irvine Rate &amp; Term Refinance</span>
+              <p className="text-slate-600 text-sm mt-1">Lower your monthly payment or shorten your loan term</p>
+            </Link>
+          </div>
+        </div>
+
         {/* CTA Section */}
         <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">

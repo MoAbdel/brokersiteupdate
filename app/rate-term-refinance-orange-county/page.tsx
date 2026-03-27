@@ -444,6 +444,41 @@ export default function RateTermRefinanceOrangeCounty() {
         </div>
       </section>
 
+      {/* Rate & Term Refinance by City */}
+      <section aria-label="Rate and term refinance by Orange County city" className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
+            Rate &amp; Term Refinance by Orange County City
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link href="/areas/irvine-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Irvine Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/mission-viejo-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Mission Viejo Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/laguna-niguel-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Laguna Niguel Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/dana-point-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Dana Point Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/san-clemente-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">San Clemente Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/lake-forest-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Lake Forest Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/aliso-viejo-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Aliso Viejo Rate &amp; Term Refinance</span>
+            </Link>
+            <Link href="/areas/yorba-linda-rate-term-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+              <span className="text-blue-600 font-medium">Yorba Linda Rate &amp; Term Refinance</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section aria-label="Get started with rate and term refinancing" className="py-16 bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

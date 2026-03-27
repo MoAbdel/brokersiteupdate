@@ -192,6 +192,8 @@ export default function Page() {
   const links = [
     { label: 'HELOC options and rates', href: '/heloc-orange-county' },
     { label: 'Cash-out refinancing guide', href: '/cash-out-refinance' },
+    { label: 'Mission Viejo cash-out refinance', href: '/areas/mission-viejo-cash-out-refinance' },
+    { label: 'Mission Viejo rate & term refinance', href: '/areas/mission-viejo-rate-term-refinance' },
     { label: 'Home equity loan comparison', href: '/heloan-orange-county' },
     { label: 'Orange County mortgage services', href: '/areas' },
     { label: 'Wholesale mortgage broker benefits', href: '/guides/why-choose-local-mortgage-broker' },

@@ -479,6 +479,27 @@ export default function HELOCOrangeCountyPage() {
             </div>
           </section>
 
+          {/* Compare with Refinancing */}
+          <section className="mb-16" aria-label="Compare HELOC with refinancing options">
+            <h2 className="text-2xl font-bold text-slate-900 mb-4 text-center">
+              Compare with Cash-Out Refinancing
+            </h2>
+            <p className="text-slate-600 text-center mb-6 max-w-2xl mx-auto">
+              A cash-out refinance replaces your entire mortgage with a new, larger loan. Depending on your goals, it may be a better fit than a HELOC. Explore city-specific refinance options below.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <Link href="/areas/irvine-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Irvine Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/dana-point-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Dana Point Cash-Out Refinance</span>
+              </Link>
+              <Link href="/areas/mission-viejo-cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
+                <span className="text-blue-600 font-medium">Mission Viejo Cash-Out Refinance</span>
+              </Link>
+            </div>
+          </section>
+
           {/* CTA Section */}
           <section className="text-center bg-slate-900 text-white rounded-lg p-8" aria-label="Get started with your HELOC application">
             <h2 className="text-3xl font-bold mb-4">Ready to Access Your Home's Equity?</h2>
