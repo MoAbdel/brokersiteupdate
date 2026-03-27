@@ -59,7 +59,7 @@ const benefits = [
   },
   {
     number: '04',
-    title: '100+ Lenders',
+    title: '50+ Lenders',
     description: 'We shop the entire market to find the perfect program for your profile.',
     icon: Users
   }
@@ -149,7 +149,9 @@ export default function ContactPageClient({
           </motion.div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-32">
+        <div className="flex flex-col">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-32 lg:order-1 order-2">
           {contactInfo.map((item, index) => (
             <a key={index} href={item.action} target={item.action.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer">
               <motion.div
@@ -178,12 +180,12 @@ export default function ContactPageClient({
           ))}
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32">
-          <div className="lg:col-span-7 order-2 lg:order-1">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32 order-first lg:order-2">
+          <div className="lg:col-span-7 order-first lg:order-1">
             <PremiumContactForm leadCaptureEnabled={leadCaptureEnabled} />
           </div>
 
-          <div className="lg:col-span-5 order-1 lg:order-2 flex flex-col justify-center">
+          <div className="lg:col-span-5 lg:order-2 flex flex-col justify-center">
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
               <h2 className="text-3xl md:text-4xl font-bold mb-12 text-slate-900">
                 Why Clients Trust <br />
@@ -224,6 +226,8 @@ export default function ContactPageClient({
             </motion.div>
           </div>
         </div>
+
+        </div>{/* end flex-col wrapper */}
       </div>
     </div>
   );
