@@ -1,3 +1,40 @@
+# 2026-03-31 Skill V2 Rebase
+
+## Plan
+
+- [x] Rebase the mortgage blog-generator skill around current runtime source-of-truth files and qualification policy.
+- [x] Replace outdated geo-generation guidance with the new page-family and action-classification model.
+- [x] Add Bing governance upgrades: answer capsule, anti-AEL rotation, paragraph limits, schema mirroring, and Bing verification.
+- [x] Align supporting reference files so they no longer conflict with the new refinance-city and pruning workflow.
+- [x] Verify the updated skill references current repo truth and document results here.
+
+## Review
+
+- Updated the active `.agents` mortgage blog-generator skill to read runtime truth first (`leadQualification`, `QualificationCallout`, `RefinanceCityTemplate`, `lib/site`, sitemap/queue/prune files) and to choose `generate` / `refresh` / `keep` / `noindex` / `redirect` before drafting content.
+- Replaced the old equal 25% topic split and blanket city-page deprecation with the new governance model: weighted queue priorities, page families (`conversion`, `support`, `suppressed`), refresh-first logic, and the approved 16-page refinance-city exception.
+- Added Bing/editorial governance directly to the skill: answer capsule, qualification-callout placement, paragraph-length limits, schema-to-visible-content mirroring, editorial variation checks, and a Bing verification loop (IndexNow, Bing Webmaster, AI Performance, Markup Validator).
+- Aligned supporting references in the active skill bundle: added `qualification-funnel-governance.md`, updated `city-topic-matrix.md`, updated `geo-templates.md`, and rewrote lender-count/compliance guidance in `compliance-rules.md` to mirror live repo truth instead of forcing stale hardcoded counts.
+- Synced the same updated files into the repo's `.claude` mirror to avoid future drift between Codex and Claude skill bundles.
+
+---
+
+# 2026-03-31 Blog Generator Gap Analysis
+
+## Plan
+
+- [x] Inspect the MoTheBroker blog generator skill and its supporting reference files.
+- [x] Inspect the Advanced Dentistry blog generator skill, support trackers, and Bing-specific guidance.
+- [x] Compare both systems across discovery workflow, Bing optimization, anti-duplication controls, compliance, and post-publish operations.
+- [x] Write the outcome into a dated report in `reports/`.
+
+## Review
+
+- The MoTheBroker skill is already stronger in opportunity discovery, duplicate/cannibalization control, mortgage compliance, and AI distribution (`all-blog-posts.ts` + `llms.txt`).
+- The Advanced Dentistry skill is stronger in Bing-specific editorial controls: answer-capsule design, anti-AEL safeguards, paragraph-length limits, title/format rotation, and Bing Webmaster verification.
+- Recommended direction: keep the MoTheBroker core architecture, then import only the high-value Bing/editorial safeguards from Advanced Dentistry.
+
+---
+
 # 2026-02-26 Validation Pass (Sitemap + Build)
 
 ## Plan

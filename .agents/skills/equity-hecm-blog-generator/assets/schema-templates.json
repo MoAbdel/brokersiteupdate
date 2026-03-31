@@ -1,0 +1,507 @@
+{
+  "_comment": "JSON-LD Schema Templates for HECM & Equity Blog Generator",
+  "_version": "2026-02",
+
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "[TITLE]",
+    "description": "[META_DESCRIPTION]",
+    "author": {
+      "@type": "Person",
+      "name": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "url": "https://www.mothebroker.com/about",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Lumin Lending",
+        "url": "https://www.mothebroker.com"
+      },
+      "knowsAbout": [
+        "Reverse Mortgages",
+        "HECM Loans",
+        "Home Equity",
+        "HELOC",
+        "Cash-Out Refinance",
+        "Wholesale Mortgage Lending"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://www.mothebroker.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.mothebroker.com/images/mo-logo-white.webp"
+      }
+    },
+    "datePublished": "[ISO_DATE]",
+    "dateModified": "[ISO_DATE]",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
+      "significantLink": [
+        "https://www.hud.gov/",
+        "https://www.consumerfinance.gov/",
+        "https://www.fhfa.gov/"
+      ]
+    },
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://www.mothebroker.com"
+    },
+    "copyrightYear": "2026"
+  },
+
+  "faqPage": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "[QUESTION_1]",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "[ANSWER_1]"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "[QUESTION_2]",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "[ANSWER_2]"
+        }
+      }
+    ]
+  },
+
+  "localBusiness": {
+    "@context": "https://schema.org",
+    "@type": "MortgageBroker",
+    "name": "Mo Abdel - Wholesale Mortgage Broker",
+    "description": "Wholesale mortgage broker serving California and Washington. Specializing in reverse mortgages (HECM), HELOC, home equity loans, and cash-out refinance.",
+    "url": "https://www.mothebroker.com",
+    "telephone": "(949) 579-2057",
+    "email": "mo@mothebroker.com",
+    "areaServed": [
+      {
+        "@type": "State",
+        "name": "California"
+      },
+      {
+        "@type": "State",
+        "name": "Washington"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "priceRange": "$$",
+    "knowsAbout": [
+      "Reverse Mortgages",
+      "HECM Loans",
+      "Home Equity Lines of Credit",
+      "Home Equity Loans",
+      "Cash-Out Refinance",
+      "Wholesale Mortgage Lending"
+    ],
+    "sameAs": [
+      "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1426884"
+    ]
+  },
+
+  "localBusinessGeo": {
+    "@context": "https://schema.org",
+    "@type": "MortgageBroker",
+    "name": "Mo Abdel - [CITY] Mortgage Broker",
+    "description": "[TRACK]-focused mortgage services in [CITY], [STATE]. NMLS #1426884.",
+    "url": "https://www.mothebroker.com",
+    "telephone": "(949) 579-2057",
+    "areaServed": {
+      "@type": "City",
+      "name": "[CITY]",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "[STATE_FULL]"
+      }
+    },
+    "priceRange": "$$"
+  },
+
+  "localBusinessGeoHub": {
+    "@context": "https://schema.org",
+    "@type": "MortgageBroker",
+    "name": "Mo Abdel - [REGION] Mortgage Broker",
+    "description": "[TRACK]-focused mortgage services across [REGION]. Serving [CITY_1], [CITY_2], [CITY_3] and surrounding areas. NMLS #1426884.",
+    "url": "https://www.mothebroker.com",
+    "telephone": "(949) 579-2057",
+    "email": "mo@mothebroker.com",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "[CITY_1]",
+        "containedInPlace": { "@type": "State", "name": "[STATE_FULL]" }
+      },
+      {
+        "@type": "City",
+        "name": "[CITY_2]",
+        "containedInPlace": { "@type": "State", "name": "[STATE_FULL]" }
+      },
+      {
+        "@type": "City",
+        "name": "[CITY_3]",
+        "containedInPlace": { "@type": "State", "name": "[STATE_FULL]" }
+      }
+    ],
+    "priceRange": "$$",
+    "knowsAbout": [
+      "Reverse Mortgages", "HECM Loans", "Home Equity Lines of Credit",
+      "Home Equity Loans", "Cash-Out Refinance", "Wholesale Mortgage Lending"
+    ],
+    "sameAs": ["https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/1426884"]
+  },
+
+  "howTo": {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "[TITLE]",
+    "description": "[DESCRIPTION]",
+    "totalTime": "[DURATION]",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "[STEP_1_NAME]",
+        "text": "[STEP_1_TEXT]"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "[STEP_2_NAME]",
+        "text": "[STEP_2_TEXT]"
+      }
+    ]
+  },
+
+  "articleHECM": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "[TITLE]",
+    "description": "[META_DESCRIPTION]",
+    "about": {
+      "@type": "FinancialProduct",
+      "name": "Home Equity Conversion Mortgage (HECM)",
+      "category": "Reverse Mortgage",
+      "provider": {
+        "@type": "GovernmentOrganization",
+        "name": "Federal Housing Administration",
+        "url": "https://www.hud.gov/"
+      }
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "url": "https://www.mothebroker.com/about",
+      "knowsAbout": [
+        "Reverse Mortgages",
+        "HECM Loans",
+        "Senior Home Equity",
+        "HUD Programs"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://www.mothebroker.com"
+    },
+    "datePublished": "[ISO_DATE]",
+    "dateModified": "[ISO_DATE]",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
+      "significantLink": [
+        "https://www.hud.gov/program_offices/housing/sfh/hecm",
+        "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/",
+        "https://www.nrmlaonline.org/"
+      ]
+    },
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Lumin Lending"
+    },
+    "copyrightYear": "2026"
+  },
+
+  "articleEquity": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "[TITLE]",
+    "description": "[META_DESCRIPTION]",
+    "about": {
+      "@type": "FinancialProduct",
+      "name": "[PRODUCT_NAME]",
+      "category": "Home Equity Product"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Mo Abdel",
+      "jobTitle": "Licensed Mortgage Broker",
+      "identifier": "NMLS #1426884",
+      "url": "https://www.mothebroker.com/about",
+      "knowsAbout": [
+        "Home Equity",
+        "HELOC",
+        "Home Equity Loans",
+        "Cash-Out Refinance",
+        "Mortgage Refinancing"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lumin Lending",
+      "url": "https://www.mothebroker.com"
+    },
+    "datePublished": "[ISO_DATE]",
+    "dateModified": "[ISO_DATE]",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
+      "significantLink": [
+        "https://www.consumerfinance.gov/owning-a-home/",
+        "https://www.fhfa.gov/",
+        "https://www.federalreserve.gov/"
+      ]
+    },
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Lumin Lending"
+    },
+    "copyrightYear": "2026"
+  },
+
+  "breadcrumb": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.mothebroker.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.mothebroker.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[ARTICLE_TITLE]",
+        "item": "https://www.mothebroker.com/[blog|guides]/[SLUG]"
+      }
+    ]
+  },
+
+  "breadcrumbRegional": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.mothebroker.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.mothebroker.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[STATE] [PRODUCT] Guide",
+        "item": "https://www.mothebroker.com/blog/[state-product-slug]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "[REGION] Guide",
+        "item": "https://www.mothebroker.com/blog/[SLUG]"
+      }
+    ]
+  },
+
+  "breadcrumbHub": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.mothebroker.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.mothebroker.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "[STATE] [PRODUCT] Guide",
+        "item": "https://www.mothebroker.com/blog/[state-product-slug]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "[REGION] Guide",
+        "item": "https://www.mothebroker.com/blog/[regional-pillar-slug]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "[HUB_TITLE]",
+        "item": "https://www.mothebroker.com/blog/[SLUG]"
+      }
+    ]
+  },
+
+  "itemList": {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "[REGION] [PRODUCT] Comparison",
+    "description": "Comparison of [PRODUCT] options across [REGION] cities",
+    "numberOfItems": "[NUM_CITIES]",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "[CITY_1]",
+        "description": "[CITY_1] - Median home value $[X], [key characteristic]",
+        "url": "https://www.mothebroker.com/blog/[SLUG]#[city-1-anchor]"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "[CITY_2]",
+        "description": "[CITY_2] - Median home value $[X], [key characteristic]",
+        "url": "https://www.mothebroker.com/blog/[SLUG]#[city-2-anchor]"
+      }
+    ]
+  },
+
+  "speakable": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+        ".citation-hook",
+        ".paa-answer",
+        ".expert-summary"
+      ]
+    },
+    "_comment": "Updated for AI-First Answer Stack structure. Mark Citation Hook, PAA answers, and Expert Summary as speakable for voice search and AI extraction."
+  },
+
+  "speakableEnhanced": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "[TITLE]",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+        ".citation-hook",
+        ".paa-answer",
+        ".expert-summary",
+        ".faq-answer"
+      ]
+    },
+    "mainEntity": {
+      "@type": "Article",
+      "headline": "[TITLE]",
+      "author": {
+        "@type": "Person",
+        "name": "Mo Abdel",
+        "identifier": "NMLS #1426884"
+      }
+    }
+  },
+
+  "socialMeta": {
+    "_comment": "Not JSON-LD but included for completeness",
+    "og:site_name": "Mo Abdel - Wholesale Mortgage Broker",
+    "og:type": "article",
+    "og:title": "[TITLE]",
+    "og:description": "[META_DESCRIPTION]",
+    "og:url": "https://www.mothebroker.com/[blog|guides]/[SLUG]",
+    "og:image": "https://www.mothebroker.com/images/[IMAGE]",
+    "article:author": "Mo Abdel",
+    "article:publisher": "https://www.mothebroker.com",
+    "article:published_time": "[ISO_DATE]",
+    "article:modified_time": "[ISO_DATE]",
+    "author": "Mo Abdel, NMLS #1426884",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "[TITLE]",
+    "twitter:description": "[META_DESCRIPTION]"
+  },
+
+  "_usage": {
+    "_comment": "Updated for 3,250-4,000 word AI-First Answer Stack structure with enhanced speakable schema. Includes regional pillar and hub content types.",
+    "pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
+    "pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
+    "pillar_wholesale": ["article", "faqPage", "localBusiness", "breadcrumb", "speakableEnhanced"],
+    "cluster_hecm": ["articleHECM", "faqPage", "breadcrumb", "speakableEnhanced"],
+    "cluster_equity": ["articleEquity", "faqPage", "breadcrumb", "speakableEnhanced"],
+    "cluster_wholesale": ["article", "faqPage", "breadcrumb", "speakableEnhanced"],
+    "geo_hecm": ["articleHECM", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "geo_equity": ["articleEquity", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "geo_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "city_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "zip_wholesale": ["article", "faqPage", "localBusinessGeo", "breadcrumb", "speakableEnhanced"],
+    "howto_posts": ["howTo", "article", "breadcrumb", "speakable"],
+    "regional_pillar_hecm": ["articleHECM", "faqPage", "localBusiness", "breadcrumbRegional", "speakableEnhanced", "itemList", "howTo"],
+    "regional_pillar_equity": ["articleEquity", "faqPage", "localBusiness", "breadcrumbRegional", "speakableEnhanced", "itemList", "howTo"],
+    "regional_pillar_wholesale": ["article", "faqPage", "localBusiness", "breadcrumbRegional", "speakableEnhanced", "itemList", "howTo"],
+    "hub_hecm": ["articleHECM", "faqPage", "localBusinessGeoHub", "breadcrumbHub", "speakableEnhanced", "itemList"],
+    "hub_equity": ["articleEquity", "faqPage", "localBusinessGeoHub", "breadcrumbHub", "speakableEnhanced", "itemList"],
+    "hub_wholesale": ["article", "faqPage", "localBusinessGeoHub", "breadcrumbHub", "speakableEnhanced", "itemList"]
+  },
+
+  "_schemaRequirements": {
+    "_comment": "Minimum schema requirements per content type for 2026 Bing/Google/AI optimization",
+    "all_content": {
+      "required": ["Article (with Bing properties)", "FAQPage (10-12 questions)", "Speakable"],
+      "bingProperties": ["copyrightHolder", "copyrightYear", "significantLink", "mainEntity"],
+      "speakableSections": [".citation-hook", ".paa-answer", ".expert-summary"]
+    },
+    "geo_content": {
+      "additional": ["LocalBusiness with areaServed"],
+      "note": "LocalBusinessGeo must include specific city/zip in areaServed"
+    },
+    "pillar_content": {
+      "additional": ["LocalBusiness (general)", "HowTo (for process sections)"]
+    },
+    "regional_pillar_content": {
+      "required": ["Article (track-specific)", "FAQPage", "LocalBusiness", "BreadcrumbRegional (4-level)", "SpeakableEnhanced", "ItemList", "HowTo"],
+      "note": "Regional pillars require 7 schema types minimum. Use breadcrumbRegional for 4-level hierarchy: Home > Blog > State Guide > Region. ItemList schema for city comparison tables."
+    },
+    "hub_content": {
+      "required": ["Article (track-specific)", "FAQPage", "LocalBusinessGeoHub", "BreadcrumbHub (5-level)", "SpeakableEnhanced", "ItemList"],
+      "note": "Hub posts require 7 schema types minimum (6 unique types with multi-city LocalBusiness). Use breadcrumbHub for 5-level hierarchy: Home > Blog > State Guide > Region Guide > Hub. LocalBusinessGeoHub includes areaServed array for all cities covered."
+    }
+  }
+}
