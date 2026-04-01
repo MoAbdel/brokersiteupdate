@@ -11,6 +11,49 @@ export interface BlogPost {
 }
 
 export const allBlogPosts: BlogPost[] = [
+  // ===== BATCH 31: 2 Refi + HELOC + DSCR + HECM (Apr 1, 2026) =====
+  {
+    slug: 'refinance-rental-income-qualifying-2026',
+    title: 'Refinancing with Rental Income: How Investment Property Income Helps You Qualify [2026]',
+    excerpt: 'Use rental income from investment properties to qualify for refinance in California and Washington. Schedule E, 75% rule, lease documentation. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    date: '2026-04-01',
+    category: 'Refinance',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'cash-out-refinance-adu-construction-california-2026',
+    title: 'Cash-Out Refinance for ADU Construction: Convert Your Equity Into Rental Income [2026]',
+    excerpt: 'Use a cash-out refinance to fund ADU construction in California or Washington. Build rental income with your home equity. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    date: '2026-04-01',
+    category: 'Refinance',
+    readTime: '11 min read',
+  },
+  // ===== BATCH 30: HECM (Apr 1, 2026) =====
+  {
+    slug: 'hecm-line-of-credit-growth-compound-2026',
+    title: 'HECM Line of Credit Growth Rate: How Your Unused Reverse Mortgage Balance Compounds [2026]',
+    excerpt: 'HECM line of credit compounds automatically on unused balance — the longer you wait, the more you access. Complete LOC growth rate guide. Mo Abdel NMLS #1426884.',
+    date: '2026-04-01',
+    category: 'Reverse Mortgage',
+    readTime: '10 min read',
+  },
+  // ===== BATCH 29: HELOC + DSCR (Apr 1, 2026) =====
+  {
+    slug: 'heloc-draw-period-strategies-2026',
+    title: 'HELOC Draw Period Strategies: How to Maximize Your Credit Line [$50K–$750K] in 2026',
+    excerpt: 'HELOC draw period strategies for California and Washington homeowners. Access up to $750K during the 5-10 year draw period. Maximize interest-only payments, manage usage, avoid pitfalls. Mo Abdel NMLS #1426884.',
+    date: '2026-04-01',
+    category: 'Home Equity',
+    readTime: '10 min read',
+  },
+  {
+    slug: 'dscr-loan-interest-only-option-2026',
+    title: 'DSCR Loans with Interest-Only Option: Maximize Investment Property Cash Flow [2026]',
+    excerpt: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    date: '2026-04-01',
+    category: 'DSCR',
+    readTime: '10 min read',
+  },
   // ===== BATCH 28: 1 Refi + 1 HELOC + 1 DSCR (Mar 26, 2026) =====
   {
     slug: 'refinance-after-bankruptcy-waiting-periods-2026',
