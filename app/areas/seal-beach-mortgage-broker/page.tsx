@@ -256,7 +256,7 @@ export default function SealBeachMortgageBrokerPage() {
                 Many Seal Beach coastal properties exceed conforming limits. Wholesale jumbo loans offer competitive rates for high-value homes with more flexible qualification criteria.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
-                <li>• Loan amounts up to $3M+</li>
+                <li>• Loan amounts up to $2.5M</li>
                 <li>• 10-20% down payment typical</li>
                 <li>• 680+ credit score preferred</li>
               </ul>

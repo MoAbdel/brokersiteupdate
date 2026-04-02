@@ -8,7 +8,7 @@ import { DollarSign, FileText, TrendingUp, Users, Check, AlertCircle, Calculator
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loans Irvine CA | Self-Employed Mortgage | No Income Documentation | Mo Abdel NMLS #1426884',
-  description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $3M loan amounts. Expert Non-QM lender serving Irvine. Call (949) 579-2057.',
+  description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $2.5M loan amounts. Expert Non-QM lender serving Irvine. Call (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine',
     languages: {
@@ -119,7 +119,7 @@ export default function BankStatementLoansIrvinePage() {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <DollarSign className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                  <span className="text-slate-700">Loan amounts up to $3M+</span>
+                  <span className="text-slate-700">Loan amounts up to $2.5M</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FileText className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
@@ -313,7 +313,7 @@ export default function BankStatementLoansIrvinePage() {
                 <p className="text-slate-700">
                   The process is straightforward: First, submit 12-24 months of personal or business bank statements. Then, we calculate 
                   your qualifying income from deposits and cash flow rather than tax returns. Finally, get fast approval to compete 
-                  effectively in Irvine's fast-moving real estate market with loan amounts up to $3M+ and down payments starting at 10%.
+                  effectively in Irvine's fast-moving real estate market with loan amounts up to $2.5M and down payments starting at 10%.
                 </p>
               </CardContent>
             </Card>

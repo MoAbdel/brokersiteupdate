@@ -104,7 +104,7 @@ function GeneralContent() {
     <>
       <p className="mb-3 text-sm text-slate-700">
         Mo Abdel, NMLS #1426884, specializes in residential mortgage loans from
-        $100K&ndash;$3M across California and Washington. Wholesale pricing
+        $100K&ndash;$2.5M across California and Washington. Wholesale pricing
         through 50+ lender partners.
       </p>
 

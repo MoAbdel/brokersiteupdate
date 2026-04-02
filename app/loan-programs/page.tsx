@@ -485,7 +485,7 @@ export default function ProgramsPage() {
                 <p className="text-sm text-slate-600 mb-3">Perfect for self-employed borrowers who can't document traditional income</p>
                 <div className="text-xs text-slate-500 mb-4">
                   • 12-24 month bank statements<br />
-                  • Up to $3M loan amounts<br />
+                  • Up to $2.5M loan amounts<br />
                   • Investment properties OK
                 </div>
                 <Button className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white py-2 text-sm">

@@ -73,7 +73,7 @@ export default function ForeignNationalLoansPage() {
               <h3 className="text-xl font-bold text-red-600 mb-4">Loan Terms</h3>
               <ul className="text-left space-y-2 text-slate-700">
                 <li>• 25-40% down payment required</li>
-                <li>• Loan amounts up to $3M</li>
+                <li>• Loan amounts up to $2.5M</li>
                 <li>• 15, 20, 25, 30 year terms</li>
                 <li>• Fixed and ARM options</li>
                 <li>• Purchase and refinance available</li>

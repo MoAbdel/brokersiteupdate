@@ -71,7 +71,7 @@ const faqData = [
   },
   {
     question: 'What is the maximum cash-out amount for a primary residence in California?',
-    answer: 'For conventional loans, the maximum is 80% LTV, with loan amounts up to the conforming limit ($806,500 baseline; $1,209,750 in Orange County and Los Angeles high-cost areas for 2026). Loans above these thresholds are jumbo and may have lower maximum LTV. Our loan range is $100K–$3M.',
+    answer: 'For conventional loans, the maximum is 80% LTV, with loan amounts up to the conforming limit ($806,500 baseline; $1,209,750 in Orange County and Los Angeles high-cost areas for 2026). Loans above these thresholds are jumbo and may have lower maximum LTV. Our loan range is $100K–$2.5M.',
   },
   {
     question: 'Should I use a cash-out refinance or a HELOC to fund ADU construction in California?',
@@ -308,7 +308,7 @@ export default function CashOutRefinanceADUConstructionPage() {
           <li><strong>Conventional (Fannie Mae/Freddie Mac):</strong> Maximum 80% LTV for primary and secondary residences</li>
           <li><strong>FHA Cash-Out Refinance:</strong> Maximum 80% LTV; borrower must have owned property for 12+ months</li>
           <li><strong>VA Cash-Out Refinance:</strong> Up to 100% LTV for eligible veterans and active-duty service members — the highest available LTV</li>
-          <li><strong>Jumbo Cash-Out Refinance:</strong> Typically 70–75% LTV, with lender-specific overlays; loan amounts from $806,500 to $3M in our range</li>
+          <li><strong>Jumbo Cash-Out Refinance:</strong> Typically 70–75% LTV, with lender-specific overlays; loan amounts from $806,500 to $2.5M in our range</li>
           <li><strong>Investment Property:</strong> Generally 70–75% LTV with higher rate adjustments</li>
         </ul>
 
@@ -561,7 +561,7 @@ export default function CashOutRefinanceADUConstructionPage() {
             },
             {
               q: 'What is the maximum cash-out amount for a primary residence in California?',
-              a: 'Conventional: 80% LTV up to $1,209,750 (Orange County/LA 2026 conforming limit). Jumbo programs allow up to $3M at 70–75% LTV in our network.',
+              a: 'Conventional: 80% LTV up to $1,209,750 (Orange County/LA 2026 conforming limit). Jumbo programs allow up to $2.5M at 70–75% LTV in our network.',
             },
           ].map((item, i) => (
             <div key={i} className="border-l-4 border-blue-500 pl-5 paa-answer">

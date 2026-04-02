@@ -1339,7 +1339,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'physician-mortgage-loans-wholesale-2026',
     title: 'Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026]',
-    excerpt: 'Doctor and physician loan programs through wholesale brokers: 0-10% down with no PMI, student debt solutions, and 15-20+ physician lenders. MD, DO, DDS, DMD, OD, PA, NP eligible.',
+    excerpt: 'Doctor and physician loan programs through wholesale brokers: 10% down (90% max LTV) with no PMI, up to $2M, student debt solutions, and 15-20+ physician lenders. MD, DO, DDS, DMD, OD, NP eligible.',
     date: '2026-02-19',
     category: 'Wholesale',
     readTime: '12 min read',

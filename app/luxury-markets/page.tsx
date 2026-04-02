@@ -224,11 +224,11 @@ export default function LuxuryMarketsPage() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                <span className="text-sm">Jumbo loans up to $3M with Competitive pricing</span>
+                <span className="text-sm">Jumbo loans up to $2.5M with Competitive pricing</span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                <span className="text-sm">Portfolio lending for properties above $3M</span>
+                <span className="text-sm">Portfolio lending for properties above $2.5M</span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>

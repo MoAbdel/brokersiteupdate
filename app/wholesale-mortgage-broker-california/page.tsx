@@ -317,7 +317,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           <li>Self-employed borrowers use 12-24 months of deposits</li>
           <li>No tax returns required</li>
           <li>Multiple calculation methods across lenders</li>
-          <li>Up to $3M+ loan amounts</li>
+          <li>Up to $2.5M loan amounts</li>
         </ul>
 
         <h3>DSCR Investment Loans</h3>

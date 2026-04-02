@@ -128,7 +128,7 @@ export default function JumboLoansPage() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Typical OC Jumbo Range:</span>
-                    <span className="font-bold">$800K - $3M</span>
+                    <span className="font-bold">$800K - $2.5M</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-600">Ultra-Jumbo (&gt;$1.5M):</span>

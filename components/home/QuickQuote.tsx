@@ -295,7 +295,7 @@ export default function QuickQuote() {
               </select>
               {formData.propertyState === 'Other' && (
                 <p className="text-sm text-blue-700 bg-blue-50 rounded-md p-3 mt-2">
-                  Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$3M. If your needs fall outside this range, Mo will connect you with the right resource.
+                  Mo Abdel is licensed in California and Washington and specializes in loans from $100K–$2.5M. If your needs fall outside this range, Mo will connect you with the right resource.
                 </p>
               )}
             </div>

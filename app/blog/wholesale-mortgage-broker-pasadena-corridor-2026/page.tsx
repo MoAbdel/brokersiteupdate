@@ -132,7 +132,7 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
     },
     {
       question: 'Can healthcare professionals get special mortgage programs in the Pasadena area?',
-      answer: 'Yes. Wholesale brokers access physician loan programs that offer 0% to 5% down with no PMI for medical doctors, dentists, and other healthcare professionals. These programs accept employment contracts for new physicians who have not yet started earning. Huntington Hospital and other Pasadena medical center employees benefit from these specialized programs.',
+      answer: 'Yes. Wholesale brokers access physician loan programs that offer 10% down (90% max LTV) with no PMI on loans up to $2M for medical doctors, dentists, and other healthcare professionals. These programs accept employment contracts for new physicians who have not yet started earning. Huntington Hospital and other Pasadena medical center employees benefit from these specialized programs.',
     },
     {
       question: 'How do media and entertainment professionals qualify for Glendale mortgages?',
@@ -381,10 +381,10 @@ export default function WholesaleMortgageBrokerPasadenaCorridor2026() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 border-t font-semibold">Physician Loan</td>
-                  <td className="px-4 py-3 border-t">0&ndash;5%</td>
+                  <td className="px-4 py-3 border-t">10% (90% LTV)</td>
                   <td className="px-4 py-3 border-t">Employment contract / W-2</td>
                   <td className="px-4 py-3 border-t">$2M</td>
-                  <td className="px-4 py-3 border-t">MDs, dentists, veterinarians</td>
+                  <td className="px-4 py-3 border-t">MDs, DOs, dentists, NPs</td>
                   <td className="px-4 py-3 border-t text-blue-700">Low (no PMI)</td>
                 </tr>
                 <tr>

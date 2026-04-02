@@ -15,13 +15,13 @@ export const DSCR_STATES: readonly LicensedState[] = LICENSED_STATES;
 
 export const HELOC_RANGE = { min: 50_000, max: 750_000 } as const;
 export const HELOAN_RANGE = { min: 25_000, max: 500_000 } as const;
-export const OVERALL_TARGET = { min: 100_000, max: 3_000_000 } as const;
+export const OVERALL_TARGET = { min: 100_000, max: 2_500_000 } as const;
 
 /* ── Display helpers ─────────────────────────────────────────────────────── */
 
 export const HELOC_DISPLAY = '$50K\u2013$750K';
 export const HELOAN_DISPLAY = '$25K\u2013$500K';
-export const OVERALL_DISPLAY = '$100K\u2013$3M';
+export const OVERALL_DISPLAY = '$100K\u2013$2.5M';
 export const STATES_DISPLAY = 'California and Washington';
 
 /* ── Qualification types ─────────────────────────────────────────────────── */

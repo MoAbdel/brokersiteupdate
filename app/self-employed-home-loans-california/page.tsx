@@ -209,7 +209,7 @@ export default function SelfEmployedHomeLoans() {
                 {[
                   'Use deposits to calculate income (no tax returns required)',
                   'Personal or business bank statements accepted',
-                  'Loan amounts up to $3M+',
+                  'Loan amounts up to $2.5M',
                   'Purchase or refinance',
                   'Down payment as low as 10%'
                 ].map((feature, index) => (

@@ -320,7 +320,7 @@ export default function NonQMLoansWholesalePage() {
           <li><strong>Down payment:</strong> 10-20%</li>
           <li><strong>Self-employment:</strong> 2 years (some allow 1 year)</li>
           <li><strong>Reserves:</strong> 3-12 months PITI</li>
-          <li><strong>Loan amounts:</strong> Up to $3M+</li>
+          <li><strong>Loan amounts:</strong> Up to $2.5M</li>
         </ul>
 
         <div className="bg-blue-50 p-6 rounded-lg my-6">

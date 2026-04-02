@@ -74,7 +74,7 @@ export default function GolfCourseHomesMortgageBrokerPage() {
           },
           {
             question: "What financing options work best for golf course properties?",
-            answer: "Jumbo loans up to $3M, super jumbo loans for higher amounts, and portfolio loans for unique properties. Many golf course homes require 25-30% down payments due to luxury pricing and community amenities."
+            answer: "Jumbo loans up to $2.5M, super jumbo loans for higher amounts, and portfolio loans for unique properties. Many golf course homes require 25-30% down payments due to luxury pricing and community amenities."
           }
         ]
       }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loans Wholesale: Self-Employed Mortgage Programs [2026]',
-  description: 'Access bank statement loans through wholesale mortgage brokers. No tax returns required. 12-24 month deposits qualify. Up to $3M loans for California self-employed borrowers.',
+  description: 'Access bank statement loans through wholesale mortgage brokers. No tax returns required. 12-24 month deposits qualify. Up to $2.5M loans for California self-employed borrowers.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california/bank-statement-loans-wholesale',
     languages: {
@@ -489,7 +489,7 @@ export default function BankStatementLoansWholesalePage() {
         </ul>
 
         <p>
-          Wholesale brokers access jumbo bank statement programs up to $3M-5M, essential for California&apos;s high-cost markets.
+          Wholesale brokers access jumbo bank statement programs up to $2.5M, essential for California&apos;s high-cost markets.
         </p>
 
         <h3>Self-Employment Hub</h3>

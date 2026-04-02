@@ -275,7 +275,7 @@ export default function SelfEmployedMortgageBrokerPage() {
           <li>No tax returns required</li>
           <li>Income calculated from deposit averages</li>
           <li>Expense factor applied (25-50%)</li>
-          <li>Loan amounts up to $3M+</li>
+          <li>Loan amounts up to $2.5M</li>
         </ul>
 
         <div className="bg-blue-50 p-6 rounded-lg my-6">

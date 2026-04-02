@@ -72,7 +72,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "What is a jumbo refinance?",
-    answer: "Jumbo refinances are for loan balances exceeding $1,209,750 in Orange County. I specialize in jumbo refinancing up to $3M with competitive pricing, often better than big banks. Typically requires strong credit (700+) and at least 20% equity.",
+    answer: "Jumbo refinances are for loan balances exceeding $1,209,750 in Orange County. I specialize in jumbo refinancing up to $2.5M with competitive pricing, often better than big banks. Typically requires strong credit (700+) and at least 20% equity.",
     category: "programs",
     keywords: ["jumbo", "luxury", "high", "million", "refinance"],
     followUp: ["What's the jumbo refinance limit?", "What equity for jumbo?"]

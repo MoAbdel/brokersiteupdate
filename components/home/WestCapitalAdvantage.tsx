@@ -6,7 +6,7 @@ export default function WestCapitalAdvantage() {
   const programs = [
     {
       title: 'Conventional/Jumbo',
-      description: 'Up to $3M',
+      description: 'Up to $2.5M',
       details: 'Competitive pricing for strong credit profiles',
       href: '/loan-programs/conventional-loans'
     },

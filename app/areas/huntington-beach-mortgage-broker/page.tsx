@@ -61,7 +61,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     {
       title: 'Jumbo Loans',
       description: 'Financing for Huntington Beach luxury and oceanfront properties',
-      benefits: ['Competitive jumbo rates', 'Up to $3M+ loan amounts', 'Flexible down payments'],
+      benefits: ['Competitive jumbo rates', 'Up to $2.5M loan amounts', 'Flexible down payments'],
       icon: <Building className="w-8 h-8 text-blue-600" />
     },
     {

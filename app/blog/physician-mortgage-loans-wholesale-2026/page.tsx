@@ -6,7 +6,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 
 export const metadata: Metadata = {
   title: 'Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026] | Mo Abdel',
-  description: 'Physician mortgage loans in California & Washington: 0-10% down, no PMI, student debt flexibility for MDs, DOs, DDS, DMD, OD, DPM, PharmD, PA, NP. 50+ Wholesale Lenders via wholesale broker. NMLS #1426884.',
+  description: 'Physician mortgage loans in California & Washington: 10% down, no PMI, student debt flexibility for MDs, DOs, DDS, DMD, OD, DPM, PharmD, NP. Up to $2M. 50+ Wholesale Lenders via wholesale broker. NMLS #1426884.',
   keywords: [
     'physician mortgage loans California',
     'doctor mortgage loans',
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     'doctor home loan no down payment',
     'dentist mortgage loan',
     'nurse practitioner mortgage',
-    'physician assistant home loan',
+    'physician mortgage loan limits 2026',
   ],
   openGraph: {
     title: 'Physician Mortgage Loans California & Washington: Wholesale Broker Guide [2026]',
-    description: 'Physician mortgage loans: 0-10% down, no PMI, student debt flexibility for medical professionals. 50+ Wholesale Lenders. Licensed in CA & WA.',
+    description: 'Physician mortgage loans: up to $2M, 90% max LTV, no PMI, student debt flexibility for medical professionals. 50+ Wholesale Lenders. Licensed in CA & WA.',
     url: 'https://www.mothebroker.com/blog/physician-mortgage-loans-wholesale-2026',
     type: 'article',
     authors: ['Mo Abdel'],
@@ -43,11 +43,11 @@ export const metadata: Metadata = {
 const faqData = [
   {
     question: 'What is a physician mortgage loan and how does it work?',
-    answer: 'A physician mortgage loan is a specialized home loan designed for medical professionals. These loans allow eligible doctors, dentists, and other healthcare providers to purchase homes with as little as 0% to 10% down payment and no private mortgage insurance (PMI). Lenders offer these terms because physicians have high earning potential and historically low default rates. The loans account for medical school debt differently than conventional programs, often excluding deferred student loans or using income-based repayment amounts instead of the full balance.',
+    answer: 'A physician mortgage loan is a specialized home loan designed for medical professionals. These loans allow eligible doctors, dentists, and other healthcare providers to purchase homes with as little as 10% down payment (90% max LTV) on loans up to $2,000,000 and no private mortgage insurance (PMI). Lenders offer these terms because physicians have high earning potential and historically low default rates. The loans account for medical school debt differently than conventional programs, often excluding deferred student loans or using income-based repayment amounts instead of the full balance.',
   },
   {
     question: 'Which medical professionals qualify for physician mortgage loans in California and Washington?',
-    answer: 'Eligible professionals vary by lender but commonly include Medical Doctors (MD), Doctors of Osteopathic Medicine (DO), Doctors of Dental Surgery (DDS), Doctors of Dental Medicine (DMD), Doctors of Optometry (OD), Doctors of Podiatric Medicine (DPM), Doctors of Pharmacy (PharmD), Physician Assistants (PA), Nurse Practitioners (NP), and Certified Registered Nurse Anesthetists (CRNA). Some lenders also extend eligibility to Juris Doctors (JD) and veterinarians (DVM). A wholesale broker accesses 15-20+ physician lenders to find programs matching each professional designation.',
+    answer: 'Eligible professionals vary by lender but commonly include Medical Doctors (MD), Doctors of Osteopathic Medicine (DO), Doctors of Dental Surgery (DDS), Doctors of Dental Medicine (DMD), Doctors of Optometry (OD), Doctors of Podiatric Medicine (DPM), Doctors of Pharmacy (PharmD), Nurse Practitioners (NP), and Certified Registered Nurse Anesthetists (CRNA). Some lenders also extend eligibility to Juris Doctors (JD) and veterinarians (DVM). A wholesale broker accesses 15-20+ physician lenders to find programs matching each professional designation.',
   },
   {
     question: 'Can medical residents and fellows qualify for physician mortgage loans?',
@@ -59,7 +59,7 @@ const faqData = [
   },
   {
     question: 'What is the maximum loan amount for physician mortgage loans in California?',
-    answer: 'Maximum physician mortgage loan amounts in California range from $1,000,000 to $3,500,000+ depending on the lender, with some programs extending to $5,000,000 for well-qualified borrowers. High-cost California markets like Orange County, Los Angeles, San Francisco, and San Diego require higher loan amounts, making physician mortgage programs particularly valuable. Wholesale brokers access lenders with the highest physician loan limits for California metro areas.',
+    answer: 'Maximum physician mortgage loan amounts in California go up to $2,000,000 with a maximum LTV of 90% (10% minimum down payment). High-cost California markets like Orange County, Los Angeles, San Francisco, and San Diego require higher loan amounts, making physician mortgage programs particularly valuable. Wholesale brokers access lenders with the best physician loan terms for California metro areas.',
   },
   {
     question: 'Do physician mortgage loans require private mortgage insurance (PMI)?',
@@ -75,7 +75,7 @@ const faqData = [
   },
   {
     question: 'What down payment options are available for physician mortgage loans?',
-    answer: 'Physician mortgage down payment options range from 0% to 10% depending on the loan amount and lender. Common structures include 0% down on loans up to $750,000 to $1,000,000, 5% down on loans up to $1,000,000 to $1,500,000, and 10% down on loans up to $2,000,000 to $3,500,000. None of these options require PMI. Down payment minimums increase as loan amounts increase, with each lender setting different thresholds. A wholesale broker identifies which lenders offer the lowest down payment for the target purchase price.',
+    answer: 'Physician mortgage loans require a minimum 10% down payment (90% maximum LTV) on loan amounts up to $2,000,000. None of these options require PMI. Each lender sets different thresholds and terms. A wholesale broker identifies which lenders offer the best terms for the target purchase price.',
   },
   {
     question: 'Why should I use a wholesale mortgage broker for a physician loan instead of my bank?',
@@ -87,7 +87,7 @@ const faqData = [
   },
   {
     question: 'Can physician mortgage loans be used for refinancing an existing home?',
-    answer: 'Some physician mortgage lenders offer refinance programs, though availability is more limited than purchase programs. Rate-and-term refinances allow physicians to lower their rate or change loan terms. Cash-out refinances are available from select physician lenders with loan-to-value limits of 80% to 90%. Physicians who initially purchased with a conventional loan and are paying PMI can refinance into a physician mortgage to eliminate PMI and potentially lower their rate. A wholesale broker identifies which lenders offer physician refinance products.',
+    answer: 'Some physician mortgage lenders offer refinance programs, though availability is more limited than purchase programs. Rate-and-term refinances allow physicians to lower their rate or change loan terms. Cash-out refinances are available from select physician lenders with a maximum LTV of 90%. Physicians who initially purchased with a conventional loan and are paying PMI can refinance into a physician mortgage to eliminate PMI and potentially lower their rate. A wholesale broker identifies which lenders offer physician refinance products.',
   },
 ];
 
@@ -236,7 +236,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
           Physician Mortgage Loans in California &amp; Washington: Wholesale Broker Guide [2026]
         </h1>
         <p className="text-blue-100 text-lg md:text-xl mb-6 max-w-3xl">
-          How MDs, DOs, dentists, pharmacists, PAs, and nurse practitioners access physician mortgage programs with 0-10% down, no PMI, and flexible student debt treatment through 50+ Wholesale Lenders.
+          How MDs, DOs, dentists, pharmacists, and nurse practitioners access physician mortgage programs with 10% down (90% max LTV), no PMI, and flexible student debt treatment through 50+ Wholesale Lenders. Loans up to $2M.
         </p>
         <div className="flex items-center text-sm text-blue-200 space-x-4 mb-6">
           <span>By <strong className="text-white">Mo Abdel</strong>, NMLS #1426884</span>
@@ -274,7 +274,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
                 <Shield className="w-5 h-5 text-blue-600" />
                 <span className="text-sm font-semibold text-blue-800">No PMI Required</span>
               </div>
-              <p className="text-sm text-gray-600 mb-0">Physician loans eliminate PMI even with 0-10% down, saving $3,000-$15,000+ per year on high-balance loans</p>
+              <p className="text-sm text-gray-600 mb-0">Physician loans eliminate PMI with just 10% down (90% max LTV), saving $3,000-$15,000+ per year on high-balance loans up to $2M</p>
             </div>
             <div className="bg-white rounded-lg p-4 shadow-sm">
               <div className="flex items-center gap-2 mb-1">
@@ -286,7 +286,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
             <div className="bg-white rounded-lg p-4 shadow-sm">
               <div className="flex items-center gap-2 mb-1">
                 <DollarSign className="w-5 h-5 text-indigo-600" />
-                <span className="text-sm font-semibold text-indigo-800">Up to $3.5M+ Loan Amounts</span>
+                <span className="text-sm font-semibold text-indigo-800">Up to $2M Loan Amounts</span>
               </div>
               <p className="text-sm text-gray-600 mb-0">High-balance physician programs cover California and Washington&apos;s expensive metro housing markets</p>
             </div>
@@ -317,7 +317,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
             <tbody>
               <tr className="bg-white">
                 <td className="border border-gray-200 px-4 py-3 font-medium">Minimum Down Payment</td>
-                <td className="border border-gray-200 px-4 py-3 text-center text-green-700 font-semibold">0-10%</td>
+                <td className="border border-gray-200 px-4 py-3 text-center text-green-700 font-semibold">10% (90% LTV)</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">3-5%</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">3.5%</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">10-20%</td>
@@ -338,14 +338,14 @@ export default function PhysicianMortgageLoansWholesale2026() {
               </tr>
               <tr className="bg-gray-50">
                 <td className="border border-gray-200 px-4 py-3 font-medium">Maximum Loan Amount</td>
-                <td className="border border-gray-200 px-4 py-3 text-center text-green-700 font-semibold">$1M-$3.5M+</td>
+                <td className="border border-gray-200 px-4 py-3 text-center text-green-700 font-semibold">Up to $2M</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">$806,500-$1,209,750</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">$498,257-$1,209,750</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">$2M-$10M+</td>
               </tr>
               <tr className="bg-white">
                 <td className="border border-gray-200 px-4 py-3 font-medium">Eligible Professionals</td>
-                <td className="border border-gray-200 px-4 py-3 text-center text-green-700 font-semibold">MD, DO, DDS, PA, NP+</td>
+                <td className="border border-gray-200 px-4 py-3 text-center text-green-700 font-semibold">MD, DO, DDS, NP+</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">All borrowers</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">All borrowers</td>
                 <td className="border border-gray-200 px-4 py-3 text-center">All borrowers</td>
@@ -400,7 +400,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
         <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">How to Qualify for a Physician Mortgage Loan: Step-by-Step</h3>
         <div className="not-prose space-y-3 mb-8">
           {[
-            { step: 1, title: 'Verify Professional Eligibility', desc: 'Confirm your degree (MD, DO, DDS, DMD, OD, DPM, PharmD, PA, NP, CRNA) qualifies with target physician lenders. Each lender accepts different designations.' },
+            { step: 1, title: 'Verify Professional Eligibility', desc: 'Confirm your degree (MD, DO, DDS, DMD, OD, DPM, PharmD, NP, CRNA) qualifies with target physician lenders. Each lender accepts different designations.' },
             { step: 2, title: 'Gather Employment Documentation', desc: 'Provide your employment contract, offer letter, or verification of employment. Residents and fellows can use match letters or signed contracts showing start date and salary.' },
             { step: 3, title: 'Document Student Loan Status', desc: 'Collect student loan statements showing current balances, repayment status (deferred, IBR, standard), and monthly payment amounts. Lenders treat each repayment plan differently.' },
             { step: 4, title: 'Submit to Multiple Physician Lenders', desc: 'Your wholesale broker submits your file to 15-20+ physician lenders simultaneously, comparing rates, terms, down payment requirements, and student debt treatment for your specific scenario.' },
@@ -435,7 +435,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
           Three structural advantages separate physician loans from every other mortgage product available in California and Washington:
         </p>
         <ul className="list-disc pl-6 space-y-2">
-          <li><strong>No PMI regardless of down payment</strong> — conventional loans require PMI with less than 20% down, costing $250 to $1,250+ per month on high-balance loans. Physician loans eliminate this cost entirely.</li>
+          <li><strong>No PMI with 10% down</strong> — conventional loans require PMI with less than 20% down, costing $250 to $1,250+ per month on high-balance loans. Physician loans eliminate this cost entirely with just 10% down (90% max LTV).</li>
           <li><strong>Student debt flexibility</strong> — lenders use the actual IBR/ICR payment or exclude deferred loans, rather than calculating a hypothetical payment based on total balance.</li>
           <li><strong>Employment contract qualifying</strong> — residents, fellows, and newly hired attendings can close on a home 60-90 days before their start date using a signed employment contract as qualifying income.</li>
         </ul>
@@ -528,7 +528,6 @@ export default function PhysicianMortgageLoansWholesale2026() {
             <ul className="space-y-2 text-sm text-gray-700">
               <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" /> <strong>DPM</strong> — Doctor of Podiatric Medicine</li>
               <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" /> <strong>PharmD</strong> — Doctor of Pharmacy</li>
-              <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" /> <strong>PA</strong> — Physician Assistant (Master&apos;s+)</li>
               <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" /> <strong>NP</strong> — Nurse Practitioner (DNP/MSN)</li>
               <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0" /> <strong>CRNA</strong> — Certified Registered Nurse Anesthetist</li>
             </ul>
@@ -613,9 +612,9 @@ export default function PhysicianMortgageLoansWholesale2026() {
           A wholesale mortgage broker like Mo Abdel accesses 50+ Wholesale Lenders, of which 15-20+ actively offer physician mortgage programs. Each physician lender has different:
         </p>
         <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Eligible professional designations</strong> — some accept only MDs and DOs; others include PAs, NPs, CRNAs, and PharmDs</li>
-          <li><strong>Maximum loan amounts</strong> — ranging from $1,000,000 to $3,500,000+ depending on the lender</li>
-          <li><strong>Down payment structures</strong> — 0% down up to $750K at one lender versus 0% down up to $1M at another</li>
+          <li><strong>Eligible professional designations</strong> — some accept only MDs and DOs; others include NPs, CRNAs, and PharmDs</li>
+          <li><strong>Maximum loan amounts</strong> — up to $2,000,000 with 90% max LTV</li>
+          <li><strong>Down payment structures</strong> — 10% minimum down payment (90% max LTV) across physician programs</li>
           <li><strong>Student debt treatment policies</strong> — IBR payment at one lender, excluded deferred loans at another</li>
           <li><strong>Rate pricing</strong> — each lender prices physician loans independently, creating natural competition</li>
           <li><strong>Closing timelines</strong> — 21 days at one lender versus 35 days at another</li>
@@ -811,8 +810,8 @@ export default function PhysicianMortgageLoansWholesale2026() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             <div className="bg-white/10 rounded-lg p-4">
-              <div className="text-3xl font-bold text-white mb-1">0-10%</div>
-              <div className="text-blue-200 text-sm">Down payment with no PMI on loans up to $2M+</div>
+              <div className="text-3xl font-bold text-white mb-1">10%</div>
+              <div className="text-blue-200 text-sm">Down payment (90% max LTV) with no PMI on loans up to $2M</div>
             </div>
             <div className="bg-white/10 rounded-lg p-4">
               <div className="text-3xl font-bold text-white mb-1">15-20+</div>
