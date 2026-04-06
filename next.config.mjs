@@ -146,6 +146,19 @@ const nextConfig = {
         ]
       },
       {
+        source: '/(.*)\\.vcf',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'text/vcard; charset=utf-8'
+          },
+          {
+            key: 'Content-Disposition',
+            value: 'attachment; filename="mo-abdel-contact.vcf"'
+          }
+        ]
+      },
+      {
         source: '/llms.txt',
         headers: [
           {
