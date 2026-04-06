@@ -222,9 +222,9 @@ export default function ExitIntentModal() {
       />
 
       {/* Modal Content */}
-      <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden animate-in zoom-in-95 duration-300 border-4 border-white">
-        
-        <button 
+      <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[85dvh] overflow-y-auto overflow-x-hidden animate-in zoom-in-95 duration-300 border-4 border-white">
+
+        <button
           onClick={handleClose}
           className="absolute top-4 right-4 z-10 text-slate-400 hover:text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-full p-2 transition-colors"
         >
@@ -233,7 +233,7 @@ export default function ExitIntentModal() {
 
         {step === 1 && (
           <div className="grid md:grid-cols-2">
-            <div className="bg-gradient-to-br from-blue-600 to-slate-900 p-8 text-white flex flex-col justify-center relative overflow-hidden">
+            <div className="bg-gradient-to-br from-blue-600 to-slate-900 p-4 md:p-8 text-white flex flex-col justify-center relative overflow-hidden">
                 {/* Background Pattern */}
                 <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
                     <div className="absolute right-0 top-0 transform translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl"></div>
@@ -241,61 +241,61 @@ export default function ExitIntentModal() {
                 </div>
 
                 <div className="relative z-10">
-                    <div className="inline-flex items-center gap-2 bg-blue-500/30 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider mb-6 border border-blue-400/30">
+                    <div className="inline-flex items-center gap-2 bg-blue-500/30 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider mb-3 md:mb-6 border border-blue-400/30">
                         <ShieldCheck className="w-3 h-3" />
                         Wholesale Advantage
                     </div>
-                    <h2 className="text-3xl font-bold leading-tight mb-4">
+                    <h2 className="text-xl md:text-3xl font-bold leading-tight mb-2 md:mb-4">
                         Wait! Don't Overpay For Your Mortgage.
                     </h2>
-                    <p className="text-slate-200 mb-6 text-lg">
+                    <p className="text-slate-200 mb-3 md:mb-6 text-sm md:text-lg">
                         Banks typically offer one set of rates. As a broker, we shop wholesale channels to find competitive pricing.
                     </p>
-                    <ul className="space-y-3 mb-8">
-                        <li className="flex items-start gap-3">
-                            <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-sm">Access to 50+ wholesale lenders</span>
+                    <ul className="space-y-1.5 md:space-y-3 mb-3 md:mb-8">
+                        <li className="flex items-start gap-2 md:gap-3">
+                            <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-green-400 shrink-0 mt-0.5" />
+                            <span className="text-xs md:text-sm">Access to 50+ wholesale lenders</span>
                         </li>
-                        <li className="flex items-start gap-3">
-                            <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-sm">Competitive wholesale interest rates</span>
+                        <li className="flex items-start gap-2 md:gap-3">
+                            <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-green-400 shrink-0 mt-0.5" />
+                            <span className="text-xs md:text-sm">Competitive wholesale interest rates</span>
                         </li>
-                        <li className="flex items-start gap-3">
-                            <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-sm">Streamlined approval process</span>
+                        <li className="flex items-start gap-2 md:gap-3">
+                            <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-green-400 shrink-0 mt-0.5" />
+                            <span className="text-xs md:text-sm">Streamlined approval process</span>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div className="p-8 flex flex-col justify-center bg-white">
-              <div className="text-center md:text-left mb-6">
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">
+            <div className="p-4 md:p-8 flex flex-col justify-center bg-white">
+              <div className="text-center md:text-left mb-3 md:mb-6">
+                <h3 className="text-lg md:text-2xl font-bold text-slate-900 mb-1 md:mb-2">
                     {contextualOffer.headline}
                 </h3>
-                <p className="text-slate-600">
+                <p className="text-slate-600 text-sm md:text-base">
                     {contextualOffer.subheadline}
                 </p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-3 md:space-y-4">
                 <Button
                     onClick={handleCtaClick}
-                    className="w-full bg-slate-900 hover:bg-slate-800 text-white py-6 text-lg shadow-lg hover:shadow-blue-600/20 transition-all duration-300 group"
+                    className="w-full bg-slate-900 hover:bg-slate-800 text-white py-4 md:py-6 text-base md:text-lg shadow-lg hover:shadow-blue-600/20 transition-all duration-300 group"
                 >
                     {contextualOffer.buttonText}{' '}
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
-                
-                <button 
+
+                <button
                     onClick={handleClose}
-                    className="w-full text-slate-400 hover:text-slate-600 text-sm font-medium py-2"
+                    className="w-full text-slate-400 hover:text-slate-600 text-sm font-medium py-1 md:py-2"
                 >
                     No thanks, maybe later
                 </button>
               </div>
-              
-              <div className="mt-8 flex items-center justify-center gap-4 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+
+              <div className="mt-4 md:mt-8 flex items-center justify-center gap-4 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                  {/* Trust Badges Placeholder - using text/icons for simplicity */}
                  <div className="flex items-center gap-1">
                     <ShieldCheck className="w-4 h-4 text-slate-500" />
@@ -312,7 +312,7 @@ export default function ExitIntentModal() {
         )}
 
         {step === 2 && (
-             <div className="p-8 md:p-10">
+             <div className="p-5 md:p-10">
                 <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-slate-900 mb-2">
                         Where should we send your quote?
@@ -388,7 +388,7 @@ export default function ExitIntentModal() {
         )}
 
         {step === 3 && (
-            <div className="p-12 text-center">
+            <div className="p-6 md:p-12 text-center">
                 <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
                     <CheckCircle className="w-10 h-10 text-green-600" />
                 </div>
