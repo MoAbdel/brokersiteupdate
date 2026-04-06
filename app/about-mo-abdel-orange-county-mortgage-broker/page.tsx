@@ -298,33 +298,51 @@ export default function AboutMoAbdelPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-3">Expert Guidance</h3>
                   <p className="text-slate-600">
-                    Licensed professional with deep Orange County market knowledge to guide your decision.
+                    Licensed in California and Washington with the market knowledge to guide your decision.
                   </p>
                 </div>
               </div>
             </CardContent>
           </Card>
 
-          {/* Orange County Expertise */}
+          {/* Markets Served */}
           <Card className="shadow-xl mb-12 bg-gradient-to-r from-blue-50 to-purple-50">
             <CardContent className="p-8">
               <h2 className="text-3xl font-bold text-center text-slate-900 mb-6">
-                Deep Orange County Market Knowledge
+                Where I Work
               </h2>
               <div className="prose prose-lg max-w-none text-slate-700 text-center mb-8">
                 <p>
-                  Based in Irvine and serving clients across California and Washington, I understand the unique aspects of our local market—from Irvine's master-planned communities to Newport Beach's luxury coastal properties.
+                  Based in Irvine and licensed in California and Washington. Whether you're buying in Orange County, refinancing in LA, or investing in Seattle — I can help.
                 </p>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                {[
-                  'Irvine', 'Newport Beach', 'Mission Viejo', 'Lake Forest',
-                  'Laguna Beach', 'Dana Point', 'Costa Mesa', 'Huntington Beach'
-                ].map((city, index) => (
-                  <div key={index} className="bg-white rounded-lg p-3 shadow">
-                    <span className="text-sm font-medium text-slate-700">{city}</span>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h3 className="text-lg font-bold text-slate-900 mb-3 text-center">California</h3>
+                  <div className="grid grid-cols-2 gap-3">
+                    {[
+                      'Orange County', 'Los Angeles', 'San Diego', 'Inland Empire',
+                      'San Francisco', 'Sacramento', 'San Jose', 'Statewide'
+                    ].map((area, index) => (
+                      <div key={index} className="bg-white rounded-lg p-3 shadow text-center">
+                        <span className="text-sm font-medium text-slate-700">{area}</span>
+                      </div>
+                    ))}
                   </div>
-                ))}
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-slate-900 mb-3 text-center">Washington</h3>
+                  <div className="grid grid-cols-2 gap-3">
+                    {[
+                      'Seattle', 'Bellevue', 'Tacoma', 'Spokane',
+                      'Olympia', 'Vancouver', 'Kirkland', 'Statewide'
+                    ].map((area, index) => (
+                      <div key={index} className="bg-white rounded-lg p-3 shadow text-center">
+                        <span className="text-sm font-medium text-slate-700">{area}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </CardContent>
           </Card>
