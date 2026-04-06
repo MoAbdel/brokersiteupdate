@@ -44,9 +44,9 @@ const guideHighlights = [
   'Side-by-side rate comparison: wholesale vs. retail vs. direct lender pricing',
   'How lender-paid compensation works and why it benefits you',
   'The hidden costs in "no-fee" retail loans you need to know',
-  'When a direct lender might outperform a broker (and when they won't)',
+  "When a direct lender might outperform a broker (and when they won't)",
   'How to read a Loan Estimate and spot inflated pricing',
-  'Mo's 3-step process to guarantee best-execution pricing on your loan',
+  "Mo's 3-step process to guarantee best-execution pricing on your loan",
 ];
 
 export default function WholesaleVsRetailGuidePage() {
