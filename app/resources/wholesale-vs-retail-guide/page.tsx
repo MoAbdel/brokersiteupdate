@@ -26,7 +26,7 @@ const keyPoints = [
   {
     icon: Users,
     title: '50+ lenders create real competition',
-    body: 'No single lender relationship means no obligation to use a rate that isn't the best available. Mo shops 50+ wholesale lenders for every deal.',
+    body: "No single lender relationship means no obligation to use a rate that isn't the best available. Mo shops 50+ wholesale lenders for every deal.",
   },
   {
     icon: DollarSign,

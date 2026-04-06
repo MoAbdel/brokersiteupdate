@@ -24,13 +24,13 @@ const nextSteps = [
     step: '2',
     icon: TrendingUp,
     title: 'Rate options within 24 hours',
-    body: 'You'll receive a personalized rate sheet with multiple DSCR loan options — 30-year fixed, ARM, and interest-only where available.',
+    body: "You'll receive a personalized rate sheet with multiple DSCR loan options — 30-year fixed, ARM, and interest-only where available.",
   },
   {
     step: '3',
     icon: Clock,
     title: 'Close in 15–21 days',
-    body: 'Mo's wholesale process is built for speed. Most DSCR deals close in under three weeks so you don't lose deals to slower lenders.',
+    body: "Mo's wholesale process is built for speed. Most DSCR deals close in under three weeks so you don't lose deals to slower lenders.",
   },
 ];
 
