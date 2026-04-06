@@ -4,6 +4,7 @@ import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 import type { QuizAnswers } from '@/lib/loan-finder-logic';
 import { getQuizResult, getGatedQuizReport, getConfidenceLabel } from '@/lib/loan-finder-logic';
 
@@ -155,7 +156,10 @@ export default function QuizResults({ answers }: QuizResultsProps) {
           onSuccess={() => setReportUnlocked(true)}
         />
       ) : gatedReport ? (
-        <GatedReportSection report={gatedReport} />
+        <>
+          <GatedReportSection report={gatedReport} />
+          <PostUnlockCTA />
+        </>
       ) : null}
     </div>
   );

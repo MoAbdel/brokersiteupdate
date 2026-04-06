@@ -101,3 +101,138 @@ export function qualify(input: QualifyInput): QualificationResult {
   // All checks pass
   return { status: 'in_scope' };
 }
+
+/* ── Behavioral lead scoring ─────────────────────────────────────────────── */
+
+export interface LeadSignals {
+  /** Two-letter state abbreviation, e.g. 'CA' | 'WA' | 'Other' */
+  state?: string;
+  /** Purchase timeline */
+  timeline?: 'ready_now' | '1_3_months' | '3_6_months' | 'researching';
+  /** Which calculator or source page was used */
+  toolSource?: string;
+  /** Inferred loan type (populated from toolSource if not explicit) */
+  loanType?: string;
+  /** Whether the user provided a phone number */
+  hasPhone?: boolean;
+}
+
+export interface LeadScore {
+  /** 0–100 composite score */
+  score: number;
+  tier: 'hot' | 'warm' | 'cold' | 'nurture';
+  priority: 'high' | 'medium' | 'low';
+  /** Human-readable next step for Mo */
+  suggestedAction: string;
+  /** CRM tags derived from signals */
+  tags: string[];
+}
+
+/**
+ * Score a lead based on behavioral signals collected from forms and tools.
+ * Returns a composite score, tier, priority, suggested action, and CRM tags.
+ */
+export function scoreLead(signals: LeadSignals): LeadScore {
+  let score = 0;
+  const tags: string[] = [];
+
+  // ── State scoring ──────────────────────────────────────────────────────
+  if (signals.state) {
+    const upperState = signals.state.toUpperCase();
+    if (upperState === 'CA' || upperState === 'WA') {
+      score += 20;
+      tags.push(upperState === 'CA' ? 'ca_borrower' : 'wa_borrower');
+    } else {
+      score -= 30;
+      tags.push('out_of_state');
+    }
+  }
+
+  // ── Timeline scoring ──────────────────────────────────────────────────
+  if (signals.timeline) {
+    switch (signals.timeline) {
+      case 'ready_now':
+        score += 30;
+        tags.push('ready_now');
+        break;
+      case '1_3_months':
+        score += 15;
+        tags.push('timeline_1_3mo');
+        break;
+      case '3_6_months':
+        score += 5;
+        tags.push('timeline_3_6mo');
+        break;
+      case 'researching':
+        // 0 points
+        tags.push('researching');
+        break;
+    }
+  }
+
+  // ── Tool source / loan type scoring ───────────────────────────────────
+  if (signals.toolSource) {
+    const src = signals.toolSource.toLowerCase();
+
+    if (src.startsWith('dscr') || src.includes('dscr') || src === 'investment') {
+      score += 15;
+      tags.push('dscr_investor');
+    } else if (
+      src.includes('bank_statement') ||
+      src.includes('bank-statement') ||
+      src.includes('self_employed') ||
+      src.includes('self-employed')
+    ) {
+      score += 15;
+      tags.push('self_employed');
+    } else if (
+      src.includes('affordability') ||
+      src.includes('first_time') ||
+      src.includes('first-time')
+    ) {
+      score += 10;
+      tags.push('first_time_buyer');
+    } else if (
+      src.includes('heloc') ||
+      src.includes('cash_out') ||
+      src.includes('cash-out')
+    ) {
+      score += 12;
+      tags.push('equity_product');
+    }
+  }
+
+  // ── Phone number bonus ────────────────────────────────────────────────
+  if (signals.hasPhone) {
+    score += 10;
+    tags.push('phone_provided');
+  }
+
+  // ── Clamp score to 0–100 ──────────────────────────────────────────────
+  score = Math.max(0, Math.min(100, score));
+
+  // ── Tier & priority determination ─────────────────────────────────────
+  let tier: LeadScore['tier'];
+  let priority: LeadScore['priority'];
+  let suggestedAction: string;
+
+  if (score >= 70) {
+    tier = 'hot';
+    priority = 'high';
+    suggestedAction = 'Call within 1 hour';
+  } else if (score >= 45) {
+    tier = 'warm';
+    priority = 'medium';
+    suggestedAction = 'Call within 24 hours';
+  } else if (score >= 20) {
+    tier = 'cold';
+    priority = 'low';
+    suggestedAction = 'Add to email nurture sequence';
+  } else {
+    tier = 'nurture';
+    priority = 'low';
+    suggestedAction = 'Monthly newsletter only';
+  }
+
+  return { score, tier, priority, suggestedAction, tags };
+}

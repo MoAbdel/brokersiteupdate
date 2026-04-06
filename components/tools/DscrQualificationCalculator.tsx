@@ -12,6 +12,7 @@ import {
 import { TOOL_RATES } from '@/lib/tool-rates-config';
 import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
 import DscrQualificationReport from '@/components/tools/DscrQualificationReport';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 interface DscrQualificationCalculatorProps {
   countyName: string;
@@ -512,12 +513,15 @@ export default function DscrQualificationCalculator({
           )}
 
           {reportUnlocked && fullReport && (
-            <DscrQualificationReport
-              report={fullReport}
-              locationLabel={locationLabel}
-              stateName={stateFull}
-              loanType={loanType}
-            />
+            <>
+              <DscrQualificationReport
+                report={fullReport}
+                locationLabel={locationLabel}
+                stateName={stateFull}
+                loanType={loanType}
+              />
+              <PostUnlockCTA />
+            </>
           )}
 
           {/* Disclaimer */}

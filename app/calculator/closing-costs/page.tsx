@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import { Calculator, DollarSign, FileText, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 export default function ClosingCostsCalculator() {
   const [homePrice, setHomePrice] = useState('');
@@ -10,11 +12,12 @@ export default function ClosingCostsCalculator() {
   const [loanType, setLoanType] = useState('conventional');
   const [propertyType, setPropertyType] = useState('primary');
   const [results, setResults] = useState<any>(null);
+  const [reportUnlocked, setReportUnlocked] = useState(false);
 
   const calculateClosingCosts = () => {
     const price = parseFloat(homePrice) || 0;
     const loan = parseFloat(loanAmount) || 0;
-    
+
     // Lender fees (typically 0.5-1% of loan amount)
     const originationFee = loan * 0.008; // 0.8%
     const underwritingFee = 500;
@@ -81,8 +84,14 @@ export default function ClosingCostsCalculator() {
         inspection,
         homeInsurance: Math.round(homeInsurance),
         propertyTaxes: Math.round(propertyTaxes)
-      }
+      },
+      // raw inputs for toolData
+      homePrice: price,
+      loanAmount: loan,
+      loanType,
+      propertyType,
     });
+    setReportUnlocked(false);
   };
 
   const formatCurrency = (amount: number) => {
@@ -112,7 +121,7 @@ export default function ClosingCostsCalculator() {
           {/* Calculator Form */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Loan Details</h2>
-            
+
             <div className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-2">
@@ -177,7 +186,7 @@ export default function ClosingCostsCalculator() {
                 </select>
               </div>
 
-              <Button 
+              <Button
                 onClick={calculateClosingCosts}
                 className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg font-semibold"
               >
@@ -189,72 +198,96 @@ export default function ClosingCostsCalculator() {
           {/* Results */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Cost Breakdown</h2>
-            
+
             {results ? (
               <div className="space-y-4">
+                {/* Summary number — always visible */}
                 <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                  <h3 className="text-lg font-semibold text-red-800 mb-2">Total Cash Needed</h3>
-                  <p className="text-3xl font-bold text-red-600">{formatCurrency(results.totalCashNeeded)}</p>
-                  <div className="text-sm text-red-700 mt-2">
-                    <div>Down Payment: {formatCurrency(results.downPayment)}</div>
-                    <div>Closing Costs: {formatCurrency(results.totalClosingCosts)}</div>
-                  </div>
+                  <h3 className="text-lg font-semibold text-red-800 mb-2">Total Estimated Closing Costs</h3>
+                  <p className="text-3xl font-bold text-red-600">{formatCurrency(results.totalClosingCosts)}</p>
+                  <p className="text-sm text-red-700 mt-1">
+                    Total cash needed (including down payment): {formatCurrency(results.totalCashNeeded)}
+                  </p>
                 </div>
 
-                <div className="space-y-3">
-                  <div className="flex justify-between py-2 border-b border-slate-200">
-                    <span className="text-slate-600">Lender Fees</span>
-                    <span className="font-semibold">{formatCurrency(results.lenderFees)}</span>
-                  </div>
-                  
-                  <div className="flex justify-between py-2 border-b border-slate-200">
-                    <span className="text-slate-600">Third-Party Fees</span>
-                    <span className="font-semibold">{formatCurrency(results.thirdPartyFees)}</span>
-                  </div>
-                  
-                  <div className="flex justify-between py-2 border-b border-slate-200">
-                    <span className="text-slate-600">Government Fees</span>
-                    <span className="font-semibold">{formatCurrency(results.governmentFees)}</span>
-                  </div>
-                  
-                  <div className="flex justify-between py-2 border-b border-slate-200">
-                    <span className="text-slate-600">Prepaid Expenses</span>
-                    <span className="font-semibold">{formatCurrency(results.prepaidExpenses)}</span>
-                  </div>
-                  
-                  <div className="flex justify-between py-2 border-b border-slate-200">
-                    <span className="text-slate-600">Escrow Deposit</span>
-                    <span className="font-semibold">{formatCurrency(results.escrowDeposit)}</span>
-                  </div>
-                  
-                  {results.fhaFees > 0 && (
-                    <div className="flex justify-between py-2 border-b border-slate-200">
-                      <span className="text-slate-600">FHA Upfront MIP</span>
-                      <span className="font-semibold">{formatCurrency(results.fhaFees)}</span>
-                    </div>
-                  )}
-                </div>
+                {/* Gate: itemized breakdown */}
+                {!reportUnlocked ? (
+                  <ToolLeadCaptureForm
+                    source="closing_costs_calculator"
+                    toolData={{
+                      homePrice: results.homePrice,
+                      loanAmount: results.loanAmount,
+                      loanType: results.loanType,
+                      propertyType: results.propertyType,
+                      totalClosingCosts: results.totalClosingCosts,
+                      downPayment: results.downPayment,
+                      totalCashNeeded: results.totalCashNeeded,
+                    }}
+                    headline="Unlock Your Full Closing Cost Breakdown"
+                    subtext="See how lender credits can offset your costs — wholesale pricing means you keep more money."
+                    buttonText="Get My Closing Cost Report"
+                    onSuccess={() => setReportUnlocked(true)}
+                  />
+                ) : (
+                  <>
+                    <div className="space-y-3">
+                      <div className="flex justify-between py-2 border-b border-slate-200">
+                        <span className="text-slate-600">Lender Fees</span>
+                        <span className="font-semibold">{formatCurrency(results.lenderFees)}</span>
+                      </div>
 
-                {results.pmiPremium > 0 && (
-                  <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                    <div className="flex items-center mb-2">
-                      <AlertCircle className="w-5 h-5 text-yellow-600 mr-2" />
-                      <h3 className="text-sm font-semibold text-yellow-800">PMI Required</h3>
+                      <div className="flex justify-between py-2 border-b border-slate-200">
+                        <span className="text-slate-600">Third-Party Fees</span>
+                        <span className="font-semibold">{formatCurrency(results.thirdPartyFees)}</span>
+                      </div>
+
+                      <div className="flex justify-between py-2 border-b border-slate-200">
+                        <span className="text-slate-600">Government Fees</span>
+                        <span className="font-semibold">{formatCurrency(results.governmentFees)}</span>
+                      </div>
+
+                      <div className="flex justify-between py-2 border-b border-slate-200">
+                        <span className="text-slate-600">Prepaid Expenses</span>
+                        <span className="font-semibold">{formatCurrency(results.prepaidExpenses)}</span>
+                      </div>
+
+                      <div className="flex justify-between py-2 border-b border-slate-200">
+                        <span className="text-slate-600">Escrow Deposit</span>
+                        <span className="font-semibold">{formatCurrency(results.escrowDeposit)}</span>
+                      </div>
+
+                      {results.fhaFees > 0 && (
+                        <div className="flex justify-between py-2 border-b border-slate-200">
+                          <span className="text-slate-600">FHA Upfront MIP</span>
+                          <span className="font-semibold">{formatCurrency(results.fhaFees)}</span>
+                        </div>
+                      )}
                     </div>
-                    <p className="text-sm text-yellow-700">
-                      Monthly PMI: {formatCurrency(results.pmiPremium)} (less than 20% down)
-                    </p>
-                  </div>
+
+                    {results.pmiPremium > 0 && (
+                      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                        <div className="flex items-center mb-2">
+                          <AlertCircle className="w-5 h-5 text-yellow-600 mr-2" />
+                          <h3 className="text-sm font-semibold text-yellow-800">PMI Required</h3>
+                        </div>
+                        <p className="text-sm text-yellow-700">
+                          Monthly PMI: {formatCurrency(results.pmiPremium)} (less than 20% down)
+                        </p>
+                      </div>
+                    )}
+
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h3 className="text-sm font-semibold text-blue-800 mb-2">Orange County Tips</h3>
+                      <ul className="text-sm text-blue-700 space-y-1">
+                        <li>• Seller can contribute up to 3-6% toward closing costs</li>
+                        <li>• Lender credits can reduce upfront costs</li>
+                        <li>• Some programs offer closing cost assistance</li>
+                      </ul>
+                    </div>
+
+                    <PostUnlockCTA />
+                  </>
                 )}
-
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                  <h3 className="text-sm font-semibold text-blue-800 mb-2">Orange County Tips</h3>
-                  <ul className="text-sm text-blue-700 space-y-1">
-                    <li>• Seller can contribute up to 3-6% toward closing costs</li>
-                    <li>• Lender credits can reduce upfront costs</li>
-                    <li>• Some programs offer closing cost assistance</li>
-                  </ul>
-                </div>
               </div>
             ) : (
               <div className="text-center py-12">
@@ -265,11 +298,11 @@ export default function ClosingCostsCalculator() {
           </div>
         </div>
 
-        {/* Detailed Breakdown */}
-        {results && (
+        {/* Detailed Breakdown — only visible when unlocked */}
+        {results && reportUnlocked && (
           <div className="mt-12 bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Detailed Cost Breakdown</h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div>
                 <h3 className="text-lg font-semibold text-slate-800 mb-3">Lender Fees</h3>
@@ -292,7 +325,7 @@ export default function ClosingCostsCalculator() {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="text-lg font-semibold text-slate-800 mb-3">Third-Party</h3>
                 <ul className="space-y-2 text-sm">
@@ -314,7 +347,7 @@ export default function ClosingCostsCalculator() {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="text-lg font-semibold text-slate-800 mb-3">Prepaid/Escrow</h3>
                 <ul className="space-y-2 text-sm">
@@ -339,7 +372,7 @@ export default function ClosingCostsCalculator() {
                 Get a personalized closing cost estimate and explore ways to reduce costs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:(949) 579-2057">
+                <a href="tel:+19495792057">
                   <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                     Call or Text (949) 579-2057
                   </Button>

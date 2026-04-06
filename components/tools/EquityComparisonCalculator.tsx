@@ -12,6 +12,7 @@ import {
 import { TOOL_RATES } from '@/lib/tool-rates-config';
 import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
 import EquityComparisonReport from '@/components/tools/EquityComparisonReport';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 import type { RepaymentPreference } from '@/lib/geo-data/types';
 
 interface EquityComparisonCalculatorProps {
@@ -333,7 +334,10 @@ export default function EquityComparisonCalculator({
             onSuccess={() => setReportUnlocked(true)}
           />
         ) : fullReport ? (
-          <EquityComparisonReport report={fullReport} countyName={countyName} />
+          <>
+            <EquityComparisonReport report={fullReport} countyName={countyName} />
+            <PostUnlockCTA />
+          </>
         ) : null}
 
         <p className="text-xs text-slate-400 leading-relaxed">

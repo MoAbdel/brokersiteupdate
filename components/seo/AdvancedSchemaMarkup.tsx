@@ -184,7 +184,37 @@ export default function AdvancedSchemaMarkup({
           currenciesAccepted: "USD",
           hasMap: `https://maps.google.com/?q=${encodeURIComponent(
             `${address.streetAddress}, ${address.addressLocality}, ${address.addressRegion} ${address.postalCode}`
-          )}`
+          )}`,
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              opens: "08:00",
+              closes: "18:00",
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Saturday"],
+              opens: "09:00",
+              closes: "15:00",
+            },
+          ],
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "Mortgage Loan Programs",
+            itemListElement: [
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Conventional Loans" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "FHA Loans" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "VA Loans" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Jumbo Loans up to $2.5M" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "DSCR Investment Loans" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Bank Statement Loans" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "HELOC" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Cash-Out Refinance" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fix and Flip Loans" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Foreign National Loans" } },
+            ],
+          },
         };
 
       default:

@@ -5,6 +5,7 @@ import {
     TERMS_SERVICES_REQUIRED_ERROR,
     hasTermsConsent,
 } from '@/lib/terms-consent';
+import { scoreLead, type LeadSignals } from '@/lib/leadQualification';
 
 export async function POST(request: NextRequest) {
     try {
@@ -37,6 +38,47 @@ export async function POST(request: NextRequest) {
         if (!data.get(TERMS_CONSENT_AT_FIELD)) {
             data.append(TERMS_CONSENT_AT_FIELD, new Date().toISOString());
         }
+
+        // ── Lead scoring ────────────────────────────────────────────────
+        const rawState = data.get('state');
+        const rawSource = data.get('source');
+        const rawPhone = data.get('phone');
+        const rawNotes = data.get('notes');
+
+        // Attempt to parse timeline from notes JSON (e.g. {"timeline":"ready_now",...})
+        let parsedTimeline: LeadSignals['timeline'] | undefined;
+        if (rawNotes && typeof rawNotes === 'string') {
+            try {
+                const notesObj = JSON.parse(rawNotes) as Record<string, unknown>;
+                const t = notesObj['timeline'];
+                if (
+                    t === 'ready_now' ||
+                    t === '1_3_months' ||
+                    t === '3_6_months' ||
+                    t === 'researching'
+                ) {
+                    parsedTimeline = t;
+                }
+            } catch {
+                // notes is plain text — timeline unavailable
+            }
+        }
+
+        const signals: LeadSignals = {
+            state: typeof rawState === 'string' ? rawState : undefined,
+            timeline: parsedTimeline,
+            toolSource: typeof rawSource === 'string' ? rawSource : undefined,
+            hasPhone: typeof rawPhone === 'string' && rawPhone.trim().length > 0,
+        };
+
+        const leadScore = scoreLead(signals);
+
+        // Append scoring metadata to the form submission so Formspree captures it
+        data.append('lead_score', String(leadScore.score));
+        data.append('lead_tier', leadScore.tier);
+        data.append('lead_priority', leadScore.priority);
+        data.append('suggested_action', leadScore.suggestedAction);
+        data.append('lead_tags', leadScore.tags.join(', '));
 
         // Server-side submission to Formspree (bypasses browser CORS/Trackers)
         const response = await fetch('https://formspree.io/f/mldpgrok', {

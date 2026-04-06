@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import { Calculator, DollarSign, TrendingDown, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 export default function DebtToIncomeCalculator() {
   const [monthlyIncome, setMonthlyIncome] = useState('');
@@ -12,6 +14,7 @@ export default function DebtToIncomeCalculator() {
   const [studentLoans, setStudentLoans] = useState('');
   const [otherDebts, setOtherDebts] = useState('');
   const [results, setResults] = useState<any>(null);
+  const [reportUnlocked, setReportUnlocked] = useState(false);
 
   const calculateDTI = () => {
     const income = parseFloat(monthlyIncome) || 0;
@@ -22,13 +25,13 @@ export default function DebtToIncomeCalculator() {
     const other = parseFloat(otherDebts) || 0;
 
     const totalDebt = housing + car + credit + student + other;
-    const frontEndRatio = (housing / income) * 100;
-    const backEndRatio = (totalDebt / income) * 100;
+    const frontEndRatio = income > 0 ? (housing / income) * 100 : 0;
+    const backEndRatio = income > 0 ? (totalDebt / income) * 100 : 0;
 
     // Determine approval likelihood
     let approvalStatus = 'excellent';
-    let approvalMessage = 'Excellent DTI ratios - you should qualify for the best pricing!';
-    let recommendations = ['You\'re in great shape for a mortgage approval'];
+    let approvalMessage = "Excellent DTI ratios - you should qualify for the best pricing!";
+    let recommendations = ["You're in great shape for a mortgage approval"];
 
     if (frontEndRatio > 28 || backEndRatio > 36) {
       approvalStatus = 'challenging';
@@ -43,7 +46,7 @@ export default function DebtToIncomeCalculator() {
       approvalStatus = 'good';
       approvalMessage = 'Good DTI ratios - you should qualify for most loan programs';
       recommendations = [
-        'You\'re in good shape for approval',
+        "You're in good shape for approval",
         'Consider the benefits of different loan programs'
       ];
     }
@@ -52,10 +55,18 @@ export default function DebtToIncomeCalculator() {
       frontEndRatio: frontEndRatio.toFixed(1),
       backEndRatio: backEndRatio.toFixed(1),
       totalMonthlyDebt: totalDebt,
+      monthlyIncome: income,
       approvalStatus,
       approvalMessage,
-      recommendations
+      recommendations,
+      // raw inputs for toolData
+      housing,
+      car,
+      credit,
+      student,
+      other,
     });
+    setReportUnlocked(false);
   };
 
   const formatCurrency = (amount: number) => {
@@ -121,8 +132,8 @@ export default function DebtToIncomeCalculator() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Calculator Form */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
-            <h2 className="text-2xl font-bold text-slate-900 mb-6">Monthly Income & Debts</h2>
-            
+            <h2 className="text-2xl font-bold text-slate-900 mb-6">Monthly Income &amp; Debts</h2>
+
             <div className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-2">
@@ -143,7 +154,7 @@ export default function DebtToIncomeCalculator() {
 
               <div className="border-t border-slate-200 pt-6">
                 <h3 className="text-lg font-semibold text-slate-800 mb-4">Monthly Debt Payments</h3>
-                
+
                 <div className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium text-slate-700 mb-2">
@@ -229,7 +240,7 @@ export default function DebtToIncomeCalculator() {
                 </div>
               </div>
 
-              <Button 
+              <Button
                 onClick={calculateDTI}
                 className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg font-semibold"
               >
@@ -241,29 +252,17 @@ export default function DebtToIncomeCalculator() {
           {/* Results */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Your DTI Results</h2>
-            
+
             {results ? (
               <div className="space-y-6">
-                {(() => {
-                  const styles = getStatusStyles(results.approvalStatus);
-                  return (
-                    <div className={`${styles.bg} border ${styles.border} rounded-lg p-4`}>
-                      <div className="flex items-center mb-2">
-                        <AlertCircle className={`w-5 h-5 ${styles.icon} mr-2`} />
-                        <h3 className={`text-lg font-semibold ${styles.title}`}>Approval Outlook</h3>
-                      </div>
-                      <p className={styles.text}>{results.approvalMessage}</p>
-                    </div>
-                  );
-                })()}
-
+                {/* Summary — always visible: the DTI percentage */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center">
                     <h3 className="text-sm font-medium text-slate-600 mb-1">Front-End DTI</h3>
                     <p className="text-2xl font-bold text-slate-900">{results.frontEndRatio}%</p>
                     <p className="text-xs text-slate-500">Housing only</p>
                   </div>
-                  
+
                   <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center">
                     <h3 className="text-sm font-medium text-slate-600 mb-1">Back-End DTI</h3>
                     <p className="text-2xl font-bold text-slate-900">{results.backEndRatio}%</p>
@@ -271,22 +270,62 @@ export default function DebtToIncomeCalculator() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                  <h3 className="text-lg font-semibold text-blue-800 mb-2">Total Monthly Debt</h3>
-                  <p className="text-2xl font-bold text-blue-600">{formatCurrency(results.totalMonthlyDebt)}</p>
-                </div>
+                {/* Gate: full analysis until unlocked */}
+                {!reportUnlocked ? (
+                  <ToolLeadCaptureForm
+                    source="dti_calculator"
+                    toolData={{
+                      monthlyIncome: results.monthlyIncome,
+                      housingPayment: results.housing,
+                      carPayments: results.car,
+                      creditCards: results.credit,
+                      studentLoans: results.student,
+                      otherDebts: results.other,
+                      totalMonthlyDebt: results.totalMonthlyDebt,
+                      frontEndDTI: results.frontEndRatio,
+                      backEndDTI: results.backEndRatio,
+                      approvalStatus: results.approvalStatus,
+                    }}
+                    headline="Unlock Your DTI Analysis & Loan Options"
+                    subtext="See which loan programs you qualify for today based on your debt-to-income ratio."
+                    buttonText="See My Loan Options"
+                    onSuccess={() => setReportUnlocked(true)}
+                  />
+                ) : (
+                  <>
+                    {(() => {
+                      const styles = getStatusStyles(results.approvalStatus);
+                      return (
+                        <div className={`${styles.bg} border ${styles.border} rounded-lg p-4`}>
+                          <div className="flex items-center mb-2">
+                            <AlertCircle className={`w-5 h-5 ${styles.icon} mr-2`} />
+                            <h3 className={`text-lg font-semibold ${styles.title}`}>Approval Outlook</h3>
+                          </div>
+                          <p className={styles.text}>{results.approvalMessage}</p>
+                        </div>
+                      );
+                    })()}
 
-                <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
-                  <h3 className="text-lg font-semibold text-slate-800 mb-3">Recommendations</h3>
-                  <ul className="space-y-2">
-                    {results.recommendations.map((rec: string, index: number) => (
-                      <li key={index} className="text-sm text-slate-600 flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
-                        {rec}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h3 className="text-lg font-semibold text-blue-800 mb-2">Total Monthly Debt</h3>
+                      <p className="text-2xl font-bold text-blue-600">{formatCurrency(results.totalMonthlyDebt)}</p>
+                    </div>
+
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                      <h3 className="text-lg font-semibold text-slate-800 mb-3">Recommendations</h3>
+                      <ul className="space-y-2">
+                        {results.recommendations.map((rec: string, index: number) => (
+                          <li key={index} className="text-sm text-slate-600 flex items-start">
+                            <span className="text-blue-600 mr-2">•</span>
+                            {rec}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <PostUnlockCTA />
+                  </>
+                )}
               </div>
             ) : (
               <div className="text-center py-12">
@@ -300,7 +339,7 @@ export default function DebtToIncomeCalculator() {
         {/* DTI Guidelines */}
         <div className="mt-12 bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">DTI Guidelines by Loan Type</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="text-lg font-semibold text-slate-800 mb-3">Conventional Loans</h3>
@@ -310,7 +349,7 @@ export default function DebtToIncomeCalculator() {
                 <li>• Best pricing with lower DTI</li>
               </ul>
             </div>
-            
+
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="text-lg font-semibold text-slate-800 mb-3">FHA Loans</h3>
               <ul className="space-y-1 text-sm text-slate-600">
@@ -319,7 +358,7 @@ export default function DebtToIncomeCalculator() {
                 <li>• More flexible guidelines</li>
               </ul>
             </div>
-            
+
             <div className="border border-slate-200 rounded-lg p-4">
               <h3 className="text-lg font-semibold text-slate-800 mb-3">VA Loans</h3>
               <ul className="space-y-1 text-sm text-slate-600">
@@ -335,7 +374,7 @@ export default function DebtToIncomeCalculator() {
               Need help improving your DTI or finding the right loan program? Mo Abdel can help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:(949) 579-2057">
+              <a href="tel:+19495792057">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
                   Call or Text (949) 579-2057
                 </Button>

@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
 import { calcMaxHELOC, formatCurrency } from '@/lib/geo-data/calculations';
+import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 interface MaxHelocCalculatorProps {
   countyName: string;
@@ -28,6 +30,7 @@ export default function MaxHelocCalculator({
     Math.round(defaultHomeValue * 0.6).toString()
   );
   const [selectedCLTV, setSelectedCLTV] = useState<number>(85);
+  const [reportUnlocked, setReportUnlocked] = useState(false);
 
   const homeValueNum = parseInt(homeValue.replace(/,/g, ''), 10) || 0;
   const balanceNum = parseInt(mortgageBalance.replace(/,/g, ''), 10) || 0;
@@ -205,97 +208,124 @@ export default function MaxHelocCalculator({
           </CardContent>
         </Card>
 
-        {/* All CLTV Tiers Side by Side */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-xl">HELOC Line by CLTV Tier</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              {allTierResults.map(({ cltv, maxLoanAmount, availableLine }) => {
-                const tierJumbo = maxLoanAmount > conformingLoanLimit;
-                return (
-                  <div
-                    key={cltv}
-                    className={`p-4 rounded-lg border ${
-                      cltv === 80
-                        ? 'border-green-200 bg-green-50'
-                        : cltv === 85
-                          ? 'border-yellow-200 bg-yellow-50'
-                          : 'border-orange-200 bg-orange-50'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="font-semibold text-slate-900">{cltv}% CLTV</span>
-                      {tierJumbo && (
-                        <span className="text-xs px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full font-medium">
-                          Jumbo
-                        </span>
-                      )}
-                    </div>
-                    <div className="grid grid-cols-2 gap-2 text-sm">
-                      <div>
-                        <p className="text-slate-500">Max Total Debt</p>
-                        <p className="font-bold text-slate-900">{formatCurrency(maxLoanAmount)}</p>
+        {/* Gate: full CLTV tier table + projection */}
+        {!reportUnlocked ? (
+          <ToolLeadCaptureForm
+            source="max_heloc_calculator"
+            toolData={{
+              homeValue: homeValueNum,
+              mortgageBalance: balanceNum,
+              selectedCLTV,
+              currentEquity: equity,
+              equityPercent: equityPercent.toFixed(1),
+              availableLine: primaryResult.availableLine,
+              maxLoanAmount: primaryResult.maxLoanAmount,
+              isJumbo,
+              countyName,
+              stateCode,
+            }}
+            headline="Unlock Your Maximum HELOC Amount"
+            subtext="See your full HELOC limit by CLTV tier, 5-year equity projection, and lender recommendations from 50+ wholesale lenders."
+            buttonText="See My HELOC Limit"
+            onSuccess={() => setReportUnlocked(true)}
+          />
+        ) : (
+          <>
+            {/* All CLTV Tiers Side by Side */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-xl">HELOC Line by CLTV Tier</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  {allTierResults.map(({ cltv, maxLoanAmount, availableLine }) => {
+                    const tierJumbo = maxLoanAmount > conformingLoanLimit;
+                    return (
+                      <div
+                        key={cltv}
+                        className={`p-4 rounded-lg border ${
+                          cltv === 80
+                            ? 'border-green-200 bg-green-50'
+                            : cltv === 85
+                              ? 'border-yellow-200 bg-yellow-50'
+                              : 'border-orange-200 bg-orange-50'
+                        }`}
+                      >
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="font-semibold text-slate-900">{cltv}% CLTV</span>
+                          {tierJumbo && (
+                            <span className="text-xs px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full font-medium">
+                              Jumbo
+                            </span>
+                          )}
+                        </div>
+                        <div className="grid grid-cols-2 gap-2 text-sm">
+                          <div>
+                            <p className="text-slate-500">Max Total Debt</p>
+                            <p className="font-bold text-slate-900">{formatCurrency(maxLoanAmount)}</p>
+                          </div>
+                          <div>
+                            <p className="text-slate-500">Available HELOC Line</p>
+                            <p className="font-bold text-emerald-700 text-lg">
+                              {formatCurrency(availableLine)}
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div>
-                        <p className="text-slate-500">Available HELOC Line</p>
-                        <p className="font-bold text-emerald-700 text-lg">
-                          {formatCurrency(availableLine)}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </CardContent>
-        </Card>
+                    );
+                  })}
+                </div>
+              </CardContent>
+            </Card>
 
-        {/* 5-Year Equity Growth Projection */}
-        <Card className="bg-slate-50">
-          <CardContent className="p-6">
-            <h3 className="font-semibold text-slate-900 mb-2">
-              5-Year Equity Growth Projection
-            </h3>
-            <p className="text-sm text-slate-600 mb-4">
-              Based on {(avgAppreciation5yr * 100).toFixed(1)}% historical appreciation in{' '}
-              {countyName}, {stateFull} (at {selectedCLTV}% CLTV):
-            </p>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-slate-300">
-                    <th className="text-left py-2 text-slate-600">Year</th>
-                    <th className="text-right py-2 text-slate-600">Home Value</th>
-                    <th className="text-right py-2 text-slate-600">Equity</th>
-                    <th className="text-right py-2 text-slate-600">HELOC Line</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-slate-200">
-                    <td className="py-2 font-medium">Today</td>
-                    <td className="text-right">{formatCurrency(homeValueNum)}</td>
-                    <td className="text-right">{formatCurrency(equity)}</td>
-                    <td className="text-right font-semibold text-emerald-700">
-                      {formatCurrency(primaryResult.availableLine)}
-                    </td>
-                  </tr>
-                  {projections.map(({ year, projectedValue, projectedEquity, projectedLine }) => (
-                    <tr key={year} className="border-b border-slate-200">
-                      <td className="py-2 font-medium">Year {year}</td>
-                      <td className="text-right">{formatCurrency(projectedValue)}</td>
-                      <td className="text-right">{formatCurrency(projectedEquity)}</td>
-                      <td className="text-right font-semibold text-emerald-700">
-                        {formatCurrency(projectedLine)}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </CardContent>
-        </Card>
+            {/* 5-Year Equity Growth Projection */}
+            <Card className="bg-slate-50">
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">
+                  5-Year Equity Growth Projection
+                </h3>
+                <p className="text-sm text-slate-600 mb-4">
+                  Based on {(avgAppreciation5yr * 100).toFixed(1)}% historical appreciation in{' '}
+                  {countyName}, {stateFull} (at {selectedCLTV}% CLTV):
+                </p>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-300">
+                        <th className="text-left py-2 text-slate-600">Year</th>
+                        <th className="text-right py-2 text-slate-600">Home Value</th>
+                        <th className="text-right py-2 text-slate-600">Equity</th>
+                        <th className="text-right py-2 text-slate-600">HELOC Line</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-slate-200">
+                        <td className="py-2 font-medium">Today</td>
+                        <td className="text-right">{formatCurrency(homeValueNum)}</td>
+                        <td className="text-right">{formatCurrency(equity)}</td>
+                        <td className="text-right font-semibold text-emerald-700">
+                          {formatCurrency(primaryResult.availableLine)}
+                        </td>
+                      </tr>
+                      {projections.map(({ year, projectedValue, projectedEquity, projectedLine }) => (
+                        <tr key={year} className="border-b border-slate-200">
+                          <td className="py-2 font-medium">Year {year}</td>
+                          <td className="text-right">{formatCurrency(projectedValue)}</td>
+                          <td className="text-right">{formatCurrency(projectedEquity)}</td>
+                          <td className="text-right font-semibold text-emerald-700">
+                            {formatCurrency(projectedLine)}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </CardContent>
+            </Card>
+
+            <PostUnlockCTA />
+          </>
+        )}
 
         <p className="text-xs text-slate-400 leading-relaxed">
           Calculations are estimates for educational purposes only. Actual HELOC amounts depend on

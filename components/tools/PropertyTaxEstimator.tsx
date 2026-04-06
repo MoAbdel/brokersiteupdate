@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
 import { calcPropertyTax, formatCurrency } from '@/lib/geo-data/calculations';
+import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 interface PropertyTaxEstimatorProps {
   countyName: string;
@@ -25,6 +27,7 @@ export default function PropertyTaxEstimator({
 }: PropertyTaxEstimatorProps) {
   const [purchasePrice, setPurchasePrice] = useState(defaultHomeValue.toString());
   const [customRate, setCustomRate] = useState((avgPropertyTaxRate * 100).toFixed(3));
+  const [reportUnlocked, setReportUnlocked] = useState(false);
 
   const priceNum = parseInt(purchasePrice.replace(/,/g, ''), 10) || 0;
   const rateNum = parseFloat(customRate) / 100 || 0;
@@ -127,84 +130,108 @@ export default function PropertyTaxEstimator({
           </CardContent>
         </Card>
 
-        {/* Comparison Table */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-xl">
-              Tax at Different Price Points in {countyName}
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-slate-200">
-                    <th className="text-left py-3 px-2 font-semibold text-slate-700">
-                      Home Price
-                    </th>
-                    <th className="text-right py-3 px-2 font-semibold text-slate-700">
-                      Annual Tax
-                    </th>
-                    <th className="text-right py-3 px-2 font-semibold text-slate-700">
-                      Monthly Tax
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparisonData.map((row) => (
-                    <tr
-                      key={row.price}
-                      className={`border-b border-slate-100 ${
-                        row.price === priceNum ? 'bg-blue-50 font-semibold' : ''
-                      }`}
-                    >
-                      <td className="py-3 px-2 text-slate-900">
-                        {formatCurrency(row.price)}
-                      </td>
-                      <td className="py-3 px-2 text-right text-slate-900">
-                        {formatCurrency(row.annualTax)}
-                      </td>
-                      <td className="py-3 px-2 text-right text-slate-900">
-                        {formatCurrency(row.monthlyTax)}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <p className="text-xs text-slate-500 mt-3">
-              Based on {(rateNum * 100).toFixed(3)}% effective tax rate for {countyName}.
-            </p>
-          </CardContent>
-        </Card>
+        {/* Gate: comparison table + PITI impact */}
+        {!reportUnlocked ? (
+          <ToolLeadCaptureForm
+            source="property_tax_estimator"
+            toolData={{
+              purchasePrice: priceNum,
+              taxRate: rateNum,
+              annualTax: result.annualTax,
+              monthlyTax: result.monthlyTax,
+              effectiveRate: result.effectiveRate,
+              countyName,
+              stateCode,
+            }}
+            headline="Get Your Full Property Tax Estimate"
+            subtext="See how your property taxes compare across price points and how they impact your monthly mortgage payment."
+            buttonText="Get My Tax Estimate"
+            onSuccess={() => setReportUnlocked(true)}
+          />
+        ) : (
+          <>
+            {/* Comparison Table */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-xl">
+                  Tax at Different Price Points in {countyName}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-200">
+                        <th className="text-left py-3 px-2 font-semibold text-slate-700">
+                          Home Price
+                        </th>
+                        <th className="text-right py-3 px-2 font-semibold text-slate-700">
+                          Annual Tax
+                        </th>
+                        <th className="text-right py-3 px-2 font-semibold text-slate-700">
+                          Monthly Tax
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {comparisonData.map((row) => (
+                        <tr
+                          key={row.price}
+                          className={`border-b border-slate-100 ${
+                            row.price === priceNum ? 'bg-blue-50 font-semibold' : ''
+                          }`}
+                        >
+                          <td className="py-3 px-2 text-slate-900">
+                            {formatCurrency(row.price)}
+                          </td>
+                          <td className="py-3 px-2 text-right text-slate-900">
+                            {formatCurrency(row.annualTax)}
+                          </td>
+                          <td className="py-3 px-2 text-right text-slate-900">
+                            {formatCurrency(row.monthlyTax)}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-xs text-slate-500 mt-3">
+                  Based on {(rateNum * 100).toFixed(3)}% effective tax rate for {countyName}.
+                </p>
+              </CardContent>
+            </Card>
 
-        {/* PITI Impact */}
-        <Card className="bg-slate-50">
-          <CardContent className="p-6">
-            <h3 className="font-semibold text-slate-900 mb-2">
-              Impact on Monthly Mortgage Payment
-            </h3>
-            <p className="text-sm text-slate-600 mb-3">
-              Property taxes are part of your total PITI (Principal, Interest, Taxes, Insurance)
-              payment. Lenders include {formatCurrency(result.monthlyTax)}/month in your qualifying
-              debt-to-income ratio.
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <p className="text-sm text-slate-500">Monthly Tax Escrow</p>
-                <p className="text-xl font-bold text-slate-900">
-                  {formatCurrency(result.monthlyTax)}
+            {/* PITI Impact */}
+            <Card className="bg-slate-50">
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">
+                  Impact on Monthly Mortgage Payment
+                </h3>
+                <p className="text-sm text-slate-600 mb-3">
+                  Property taxes are part of your total PITI (Principal, Interest, Taxes, Insurance)
+                  payment. Lenders include {formatCurrency(result.monthlyTax)}/month in your qualifying
+                  debt-to-income ratio.
                 </p>
-              </div>
-              <div>
-                <p className="text-sm text-slate-500">Annual Tax Bill</p>
-                <p className="text-xl font-bold text-slate-900">
-                  {formatCurrency(result.annualTax)}
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-sm text-slate-500">Monthly Tax Escrow</p>
+                    <p className="text-xl font-bold text-slate-900">
+                      {formatCurrency(result.monthlyTax)}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-500">Annual Tax Bill</p>
+                    <p className="text-xl font-bold text-slate-900">
+                      {formatCurrency(result.annualTax)}
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <PostUnlockCTA />
+          </>
+        )}
 
         <p className="text-xs text-slate-400 leading-relaxed">
           Calculations are estimates for educational purposes only. Actual property taxes depend on

@@ -13,6 +13,7 @@ import {
   FileText,
   Users,
   Building,
+  Building2,
   CreditCard,
   Home,
   TrendingUp,
@@ -21,6 +22,7 @@ import {
   CheckSquare,
   Map,
   Award,
+  Briefcase,
   Phone,
   ArrowRight
 } from 'lucide-react';
@@ -102,6 +104,46 @@ export default function ResourcesPage() {
       color: 'text-blue-600',
       bgColor: 'bg-slate-100',
       features: ['Vetted Professionals', 'Contact Info', 'Reviews', 'Service Areas']
+    },
+    {
+      title: 'Wholesale vs. Retail Rate Guide',
+      description: 'See real rate comparisons between wholesale broker pricing and retail bank rates. Understand how much a wholesale broker actually saves you.',
+      icon: TrendingUp,
+      link: '/resources/wholesale-vs-retail-guide',
+      badge: 'Lead Magnet',
+      color: 'text-green-600',
+      bgColor: 'bg-green-50',
+      features: ['Rate Comparison Table', 'Why Wholesale Wins', '5 Key Insights', 'Free Guide']
+    },
+    {
+      title: 'DSCR Investor Loan Playbook',
+      description: 'The complete guide to DSCR loans for CA and WA investors. Qualify on rental income — no tax returns or W-2 required.',
+      icon: Building2,
+      link: '/resources/dscr-investor-playbook',
+      badge: 'Investors',
+      color: 'text-blue-600',
+      bgColor: 'bg-slate-100',
+      features: ['DSCR Calculator', 'No Tax Returns', 'Up to $2.5M', '50+ Lenders']
+    },
+    {
+      title: 'Self-Employed Mortgage Guide',
+      description: 'Bank statement loans for self-employed borrowers in CA and WA. Qualify using 12 or 24 months of deposits — not your tax returns.',
+      icon: Briefcase,
+      link: '/resources/self-employed-mortgage-guide',
+      badge: 'Self-Employed',
+      color: 'text-indigo-600',
+      bgColor: 'bg-indigo-50',
+      features: ['12 vs 24 Month Programs', '5 ICP Scenarios', 'Qualification Checklist', 'No Tax Returns']
+    },
+    {
+      title: 'OC First-Time Buyer Checklist',
+      description: 'The complete step-by-step checklist for first-time homebuyers in Orange County — from credit prep to closing day.',
+      icon: Home,
+      link: '/resources/first-time-buyer-checklist',
+      badge: 'First-Time Buyers',
+      color: 'text-emerald-600',
+      bgColor: 'bg-emerald-50',
+      features: ['8-Stage Timeline', 'DPA Programs', 'Loan Program Cards', '30-Item Checklist']
     }
   ];
 
@@ -225,6 +267,18 @@ export default function ResourcesPage() {
               <Link className="text-blue-700 hover:underline" href="/resources/service-providers">
                 Statewide Service Providers
               </Link>
+              <Link className="text-blue-700 hover:underline font-medium" href="/resources/wholesale-vs-retail-guide">
+                Wholesale vs. Retail Rate Guide
+              </Link>
+              <Link className="text-blue-700 hover:underline font-medium" href="/resources/dscr-investor-playbook">
+                DSCR Investor Playbook
+              </Link>
+              <Link className="text-blue-700 hover:underline font-medium" href="/resources/self-employed-mortgage-guide">
+                Self-Employed Mortgage Guide
+              </Link>
+              <Link className="text-blue-700 hover:underline font-medium" href="/resources/first-time-buyer-checklist">
+                OC First-Time Buyer Checklist
+              </Link>
             </div>
           </div>
         </div>
@@ -276,6 +330,38 @@ export default function ResourcesPage() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Lead Magnet Guides CTA Strip */}
+      <section className="py-10 bg-blue-900 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold mb-2">Free Guides — Get Personalized Insights from Mo</h2>
+            <p className="text-blue-200 text-sm">Fill out a short form and receive a custom summary within 1 business day.</p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link href="/resources/wholesale-vs-retail-guide" className="bg-blue-800 hover:bg-blue-700 rounded-xl p-5 block transition-colors">
+              <TrendingUp className="w-6 h-6 text-blue-300 mb-2" />
+              <h3 className="font-semibold mb-1">Wholesale vs. Retail</h3>
+              <p className="text-blue-300 text-xs">See real rate comparisons. Download the free guide.</p>
+            </Link>
+            <Link href="/resources/dscr-investor-playbook" className="bg-blue-800 hover:bg-blue-700 rounded-xl p-5 block transition-colors">
+              <Building2 className="w-6 h-6 text-blue-300 mb-2" />
+              <h3 className="font-semibold mb-1">DSCR Investor Playbook</h3>
+              <p className="text-blue-300 text-xs">Finance rentals without your W-2. Get your rate sheet.</p>
+            </Link>
+            <Link href="/resources/self-employed-mortgage-guide" className="bg-blue-800 hover:bg-blue-700 rounded-xl p-5 block transition-colors">
+              <Briefcase className="w-6 h-6 text-blue-300 mb-2" />
+              <h3 className="font-semibold mb-1">Self-Employed Guide</h3>
+              <p className="text-blue-300 text-xs">Bank statement loans. No tax returns. Get an estimate.</p>
+            </Link>
+            <Link href="/resources/first-time-buyer-checklist" className="bg-blue-800 hover:bg-blue-700 rounded-xl p-5 block transition-colors">
+              <Home className="w-6 h-6 text-blue-300 mb-2" />
+              <h3 className="font-semibold mb-1">OC First-Time Checklist</h3>
+              <p className="text-blue-300 text-xs">30-item checklist + DPA programs for OC buyers.</p>
+            </Link>
           </div>
         </div>
       </section>

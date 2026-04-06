@@ -12,6 +12,7 @@ import {
 import { TOOL_RATES } from '@/lib/tool-rates-config';
 import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
 import BankStatementReport from '@/components/tools/BankStatementReport';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 import type { BusinessType, CreditScoreTier, DocPeriod } from '@/lib/geo-data/types';
 
 interface BankStatementEstimatorProps {
@@ -333,13 +334,16 @@ export default function BankStatementEstimator({
             onSuccess={() => setReportUnlocked(true)}
           />
         ) : fullReport ? (
-          <BankStatementReport
-            report={fullReport}
-            businessType={businessType}
-            creditScore={creditScore}
-            docPeriod={docPeriod}
-            countyName={countyName}
-          />
+          <>
+            <BankStatementReport
+              report={fullReport}
+              businessType={businessType}
+              creditScore={creditScore}
+              docPeriod={docPeriod}
+              countyName={countyName}
+            />
+            <PostUnlockCTA />
+          </>
         ) : null}
 
         <p className="text-xs text-slate-400 leading-relaxed">

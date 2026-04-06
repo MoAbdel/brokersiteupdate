@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import { Calculator, DollarSign, Home, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 export default function AffordabilityCalculator() {
   const [income, setIncome] = useState('');
@@ -10,6 +12,7 @@ export default function AffordabilityCalculator() {
   const [downPayment, setDownPayment] = useState('');
   const [interestRate, setInterestRate] = useState('6.5');
   const [results, setResults] = useState<any>(null);
+  const [reportUnlocked, setReportUnlocked] = useState(false);
 
   const calculateAffordability = () => {
     const monthlyIncome = parseFloat(income) / 12;
@@ -19,21 +22,21 @@ export default function AffordabilityCalculator() {
 
     // 28% front-end ratio (housing costs)
     const maxHousingPayment = monthlyIncome * 0.28;
-    
+
     // 36% back-end ratio (total debt)
     const maxTotalDebt = monthlyIncome * 0.36;
     const maxHousingWithDebt = maxTotalDebt - monthlyDebt;
-    
+
     // Use the more conservative of the two
     const maxMonthlyPayment = Math.min(maxHousingPayment, maxHousingWithDebt);
-    
+
     // Estimate insurance, taxes, PMI - approximately 15% of payment
     const availableForPrincipalInterest = maxMonthlyPayment * 0.85; // 85% for P&I
-    
+
     // Calculate max loan amount
     const numberOfPayments = 30 * 12;
     const maxLoanAmount = availableForPrincipalInterest * ((1 - Math.pow(1 + rate, -numberOfPayments)) / rate);
-    
+
     // Max home price
     const maxHomePrice = maxLoanAmount + downPaymentAmount;
 
@@ -42,8 +45,12 @@ export default function AffordabilityCalculator() {
       maxLoanAmount: Math.round(maxLoanAmount),
       monthlyPayment: Math.round(maxMonthlyPayment),
       principalInterest: Math.round(availableForPrincipalInterest),
-      estimatedTaxesInsurance: Math.round(maxMonthlyPayment - availableForPrincipalInterest)
+      estimatedTaxesInsurance: Math.round(maxMonthlyPayment - availableForPrincipalInterest),
+      downPaymentAmount: Math.round(downPaymentAmount),
+      annualIncome: parseFloat(income) || 0,
+      interestRate: parseFloat(interestRate) || 0,
     });
+    setReportUnlocked(false);
   };
 
   const formatCurrency = (amount: number) => {
@@ -73,7 +80,7 @@ export default function AffordabilityCalculator() {
           {/* Calculator Form */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Your Financial Information</h2>
-            
+
             <div className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-2">
@@ -141,7 +148,7 @@ export default function AffordabilityCalculator() {
                 </div>
               </div>
 
-              <Button 
+              <Button
                 onClick={calculateAffordability}
                 className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 text-lg font-semibold"
               >
@@ -153,9 +160,10 @@ export default function AffordabilityCalculator() {
           {/* Results */}
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Your Results</h2>
-            
+
             {results ? (
               <div className="space-y-4">
+                {/* Summary number — always visible */}
                 <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                   <div className="flex items-center mb-2">
                     <Home className="w-5 h-5 text-blue-600 mr-2" />
@@ -164,41 +172,65 @@ export default function AffordabilityCalculator() {
                   <p className="text-3xl font-bold text-blue-600">{formatCurrency(results.maxHomePrice)}</p>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                  <h3 className="text-lg font-semibold text-blue-800 mb-2">Loan Details</h3>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-slate-600">Max Loan Amount:</span>
-                      <span className="font-semibold">{formatCurrency(results.maxLoanAmount)}</span>
+                {/* Gate: full breakdown hidden until unlocked */}
+                {!reportUnlocked ? (
+                  <ToolLeadCaptureForm
+                    source="affordability_calculator"
+                    toolData={{
+                      annualIncome: results.annualIncome,
+                      monthlyDebts: parseFloat(monthlyDebts) || 0,
+                      downPayment: results.downPaymentAmount,
+                      interestRate: results.interestRate,
+                      maxHomePrice: results.maxHomePrice,
+                      maxLoanAmount: results.maxLoanAmount,
+                      maxMonthlyPayment: results.monthlyPayment,
+                    }}
+                    headline="Unlock Your Full Affordability Breakdown"
+                    subtext="Get your personalized max purchase price with today's rates from 50+ wholesale lenders."
+                    buttonText="Get My Affordability Report"
+                    onSuccess={() => setReportUnlocked(true)}
+                  />
+                ) : (
+                  <>
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h3 className="text-lg font-semibold text-blue-800 mb-2">Loan Details</h3>
+                      <div className="space-y-2">
+                        <div className="flex justify-between">
+                          <span className="text-slate-600">Max Loan Amount:</span>
+                          <span className="font-semibold">{formatCurrency(results.maxLoanAmount)}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-slate-600">Monthly Payment:</span>
+                          <span className="font-semibold">{formatCurrency(results.monthlyPayment)}</span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex justify-between">
-                      <span className="text-slate-600">Monthly Payment:</span>
-                      <span className="font-semibold">{formatCurrency(results.monthlyPayment)}</span>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
-                  <h3 className="text-lg font-semibold text-slate-800 mb-2">Payment Breakdown</h3>
-                  <div className="space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-slate-600">Principal & Interest:</span>
-                      <span className="font-semibold">{formatCurrency(results.principalInterest)}</span>
+                    <div className="bg-slate-50 border border-slate-200 rounded-lg p-4">
+                      <h3 className="text-lg font-semibold text-slate-800 mb-2">Payment Breakdown</h3>
+                      <div className="space-y-2">
+                        <div className="flex justify-between">
+                          <span className="text-slate-600">Principal &amp; Interest:</span>
+                          <span className="font-semibold">{formatCurrency(results.principalInterest)}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-slate-600">Taxes, Insurance, PMI:</span>
+                          <span className="font-semibold">{formatCurrency(results.estimatedTaxesInsurance)}</span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex justify-between">
-                      <span className="text-slate-600">Taxes, Insurance, PMI:</span>
-                      <span className="font-semibold">{formatCurrency(results.estimatedTaxesInsurance)}</span>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                  <h3 className="text-sm font-semibold text-yellow-800 mb-2">Orange County Context</h3>
-                  <p className="text-sm text-yellow-700">
-                    With Orange County's median home price around $1.26M, consider FHA loans (down to $1,209,750) 
-                    or jumbo loans for higher amounts. I can help you explore all available options.
-                  </p>
-                </div>
+                    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                      <h3 className="text-sm font-semibold text-yellow-800 mb-2">Orange County Context</h3>
+                      <p className="text-sm text-yellow-700">
+                        With Orange County&apos;s median home price around $1.26M, consider FHA loans (down to $1,209,750)
+                        or jumbo loans for higher amounts. I can help you explore all available options.
+                      </p>
+                    </div>
+
+                    <PostUnlockCTA />
+                  </>
+                )}
               </div>
             ) : (
               <div className="text-center py-12">
@@ -212,7 +244,7 @@ export default function AffordabilityCalculator() {
         {/* Additional Information */}
         <div className="mt-12 bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Understanding Your Results</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold text-slate-800 mb-4">How We Calculate</h3>
@@ -223,7 +255,7 @@ export default function AffordabilityCalculator() {
                 <li>• Based on 30-year fixed mortgage</li>
               </ul>
             </div>
-            
+
             <div>
               <h3 className="text-xl font-semibold text-slate-800 mb-4">Orange County Tips</h3>
               <ul className="space-y-2 text-slate-600">
@@ -234,7 +266,7 @@ export default function AffordabilityCalculator() {
               </ul>
             </div>
           </div>
-          
+
           <div className="mt-8 pt-8 border-t border-slate-200 text-center">
             <p className="text-slate-600 mb-4">
               Ready to get pre-approved? Contact Lumin Lending for personalized guidance.

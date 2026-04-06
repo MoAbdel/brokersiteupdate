@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
 import { calcMaxCashOut, formatCurrency } from '@/lib/geo-data/calculations';
+import ToolLeadCaptureForm from '@/components/tools/ToolLeadCaptureForm';
+import PostUnlockCTA from '@/components/tools/PostUnlockCTA';
 
 interface CashOutCalculatorProps {
   countyName: string;
@@ -27,6 +29,7 @@ export default function CashOutCalculator({
   const [mortgageBalance, setMortgageBalance] = useState(
     Math.round(defaultHomeValue * 0.6).toString()
   );
+  const [reportUnlocked, setReportUnlocked] = useState(false);
 
   const homeValueNum = parseInt(homeValue.replace(/,/g, ''), 10) || 0;
   const balanceNum = parseInt(mortgageBalance.replace(/,/g, ''), 10) || 0;
@@ -141,81 +144,105 @@ export default function CashOutCalculator({
           </CardContent>
         </Card>
 
-        {/* Cash-Out by LTV Tier */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-xl">Maximum Cash-Out by LTV</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              {[80, 85, 90].map((ltv) => {
-                const cashOut = result.maxCashOutAtLTV[ltv] || 0;
-                const maxLoan = result.maxLoanAtLTV[ltv] || 0;
-                const jumbo = result.isJumbo[ltv];
-                return (
-                  <div
-                    key={ltv}
-                    className={`p-4 rounded-lg border ${
-                      ltv === 80
-                        ? 'border-green-200 bg-green-50'
-                        : ltv === 85
-                          ? 'border-yellow-200 bg-yellow-50'
-                          : 'border-orange-200 bg-orange-50'
-                    }`}
-                  >
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="font-semibold text-slate-900">{ltv}% LTV</span>
-                      {jumbo && (
-                        <span className="text-xs px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full font-medium">
-                          Jumbo
-                        </span>
-                      )}
-                    </div>
-                    <div className="grid grid-cols-2 gap-2 text-sm">
-                      <div>
-                        <p className="text-slate-500">Max New Loan</p>
-                        <p className="font-bold text-slate-900">{formatCurrency(maxLoan)}</p>
+        {/* Gate: cash-out LTV tiers + projection */}
+        {!reportUnlocked ? (
+          <ToolLeadCaptureForm
+            source="cash_out_calculator"
+            toolData={{
+              homeValue: homeValueNum,
+              mortgageBalance: balanceNum,
+              currentEquity: equity,
+              currentLTV: ltvCurrent.toFixed(1),
+              maxCashOut80: result.maxCashOutAtLTV[80] || 0,
+              countyName,
+              stateCode,
+            }}
+            headline="Unlock Your Cash-Out Refinance Limit"
+            subtext="See your maximum cash-out at 80%, 85%, and 90% LTV plus a 5-year equity projection."
+            buttonText="See My Cash-Out Options"
+            onSuccess={() => setReportUnlocked(true)}
+          />
+        ) : (
+          <>
+            {/* Cash-Out by LTV Tier */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-xl">Maximum Cash-Out by LTV</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  {[80, 85, 90].map((ltv) => {
+                    const cashOut = result.maxCashOutAtLTV[ltv] || 0;
+                    const maxLoan = result.maxLoanAtLTV[ltv] || 0;
+                    const jumbo = result.isJumbo[ltv];
+                    return (
+                      <div
+                        key={ltv}
+                        className={`p-4 rounded-lg border ${
+                          ltv === 80
+                            ? 'border-green-200 bg-green-50'
+                            : ltv === 85
+                              ? 'border-yellow-200 bg-yellow-50'
+                              : 'border-orange-200 bg-orange-50'
+                        }`}
+                      >
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="font-semibold text-slate-900">{ltv}% LTV</span>
+                          {jumbo && (
+                            <span className="text-xs px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full font-medium">
+                              Jumbo
+                            </span>
+                          )}
+                        </div>
+                        <div className="grid grid-cols-2 gap-2 text-sm">
+                          <div>
+                            <p className="text-slate-500">Max New Loan</p>
+                            <p className="font-bold text-slate-900">{formatCurrency(maxLoan)}</p>
+                          </div>
+                          <div>
+                            <p className="text-slate-500">Cash Available</p>
+                            <p className="font-bold text-emerald-700 text-lg">
+                              {formatCurrency(cashOut)}
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                      <div>
-                        <p className="text-slate-500">Cash Available</p>
-                        <p className="font-bold text-emerald-700 text-lg">
-                          {formatCurrency(cashOut)}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </CardContent>
-        </Card>
+                    );
+                  })}
+                </div>
+              </CardContent>
+            </Card>
 
-        {/* Projected Appreciation */}
-        <Card className="bg-slate-50">
-          <CardContent className="p-6">
-            <h3 className="font-semibold text-slate-900 mb-2">
-              5-Year Projection for {countyName}
-            </h3>
-            <p className="text-sm text-slate-600 mb-3">
-              Based on {(avgAppreciation5yr * 100).toFixed(1)}% historical appreciation in{' '}
-              {countyName}, {stateFull}:
-            </p>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <p className="text-sm text-slate-500">Projected Value (5yr)</p>
-                <p className="text-xl font-bold text-slate-900">
-                  {formatCurrency(appreciatedValue)}
+            {/* Projected Appreciation */}
+            <Card className="bg-slate-50">
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-slate-900 mb-2">
+                  5-Year Projection for {countyName}
+                </h3>
+                <p className="text-sm text-slate-600 mb-3">
+                  Based on {(avgAppreciation5yr * 100).toFixed(1)}% historical appreciation in{' '}
+                  {countyName}, {stateFull}:
                 </p>
-              </div>
-              <div>
-                <p className="text-sm text-slate-500">Projected Equity Gain</p>
-                <p className="text-xl font-bold text-emerald-700">
-                  {formatCurrency(appreciatedValue - homeValueNum)}
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-sm text-slate-500">Projected Value (5yr)</p>
+                    <p className="text-xl font-bold text-slate-900">
+                      {formatCurrency(appreciatedValue)}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-500">Projected Equity Gain</p>
+                    <p className="text-xl font-bold text-emerald-700">
+                      {formatCurrency(appreciatedValue - homeValueNum)}
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <PostUnlockCTA />
+          </>
+        )}
 
         <p className="text-xs text-slate-400 leading-relaxed">
           Calculations are estimates for educational purposes only. Actual loan amounts depend on

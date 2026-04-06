@@ -83,6 +83,38 @@ const COMPANY_CREDENTIALS = [
   },
 ];
 
+const OPENING_HOURS_SPECIFICATION = [
+  {
+    '@type': 'OpeningHoursSpecification' as const,
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+    opens: '08:00',
+    closes: '18:00',
+  },
+  {
+    '@type': 'OpeningHoursSpecification' as const,
+    dayOfWeek: ['Saturday'],
+    opens: '09:00',
+    closes: '15:00',
+  },
+];
+
+const OFFER_CATALOG = {
+  '@type': 'OfferCatalog' as const,
+  name: 'Mortgage Loan Programs',
+  itemListElement: [
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Conventional Loans' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'FHA Loans' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'VA Loans' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Jumbo Loans up to $2.5M' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'DSCR Investment Loans' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Bank Statement Loans' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'HELOC' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Cash-Out Refinance' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Fix and Flip Loans' } },
+    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Foreign National Loans' } },
+  ],
+};
+
 const KNOWS_ABOUT = [
   'Wholesale Mortgage Brokerage',
   'Conventional Loans',
@@ -177,6 +209,8 @@ export const buildBrokerEntityGraph = ({
       priceRange: '$',
       image: `${SITE_URL}/images/mo-headshot-v2.jpg`,
       sameAs: SAME_AS,
+      openingHoursSpecification: OPENING_HOURS_SPECIFICATION,
+      hasOfferCatalog: OFFER_CATALOG,
     },
     {
       '@type': 'Service',
@@ -241,7 +275,7 @@ export const buildServiceWebPageSchema = ({
     ? {
         speakable: {
           '@type': 'SpeakableSpecification',
-          cssSelector: ['h1', 'h2', '[data-speakable]'],
+          cssSelector: ['h1', '.speakable'],
         },
       }
     : {}),

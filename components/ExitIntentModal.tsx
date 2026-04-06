@@ -1,12 +1,84 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { X, CheckCircle, ArrowRight, ShieldCheck, Banknote, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { useFacebookTracking } from '@/hooks/useFacebookTracking';
 import { getResponseErrorMessage } from '@/lib/api-client';
 import { appendTermsConsentToFormData } from '@/lib/terms-consent';
+
+interface ContextualOffer {
+  headline: string;
+  subheadline: string;
+  buttonText: string;
+  contextKey: string;
+}
+
+function getContextualOffer(): ContextualOffer {
+  if (typeof window === 'undefined') {
+    return {
+      headline: 'Get Your Free Rate Quote',
+      subheadline: 'Access wholesale mortgage pricing from 50+ lenders — rates retail banks can\'t match.',
+      buttonText: 'Get My Free Quote',
+      contextKey: 'general',
+    };
+  }
+
+  const pathname = window.location.pathname;
+
+  if (/dscr|investment|fix-flip|foreign-national/.test(pathname)) {
+    return {
+      headline: 'Get Your Investor Rate Sheet',
+      subheadline: 'Access DSCR rates from 50+ wholesale lenders — one application, institutional pricing.',
+      buttonText: 'Get My Investor Rates',
+      contextKey: 'dscr',
+    };
+  }
+
+  if (/bank-statement|self-employed|non-qm|profit-loss|asset-depletion/.test(pathname)) {
+    return {
+      headline: 'Get Your Bank Statement Loan Estimate',
+      subheadline: 'See how much you qualify for using 12 or 24 months of bank statements — no tax returns needed.',
+      buttonText: 'Get My Loan Estimate',
+      contextKey: 'bank_statement',
+    };
+  }
+
+  if (/heloc|heloan|home-equity|cash-out/.test(pathname)) {
+    return {
+      headline: 'See How Much Equity You Can Access',
+      subheadline: 'Get a free equity analysis from 50+ wholesale lenders — no commitment required.',
+      buttonText: 'Check My Equity Options',
+      contextKey: 'heloc',
+    };
+  }
+
+  if (/fha|va|usda|first-time|purchase/.test(pathname)) {
+    return {
+      headline: 'Get Your Free Pre-Qualification',
+      subheadline: 'Find out how much home you qualify for today — wholesale rates beat the big banks.',
+      buttonText: 'Get Pre-Qualified Free',
+      contextKey: 'purchase',
+    };
+  }
+
+  if (/refinance|rate-term/.test(pathname)) {
+    return {
+      headline: 'See Your Refinance Savings',
+      subheadline: 'Compare your current rate against today\'s wholesale rates — takes 60 seconds.',
+      buttonText: 'See My Savings',
+      contextKey: 'refinance',
+    };
+  }
+
+  return {
+    headline: 'Get Your Free Rate Quote',
+    subheadline: 'Access wholesale mortgage pricing from 50+ lenders — rates retail banks can\'t match.',
+    buttonText: 'Get My Free Quote',
+    contextKey: 'general',
+  };
+}
 
 export default function ExitIntentModal() {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,6 +87,7 @@ export default function ExitIntentModal() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [termsConsent, setTermsConsent] = useState(false);
+  const [contextualOffer, setContextualOffer] = useState<ContextualOffer>(() => getContextualOffer());
   const [formData, setFormData] = useState({
     firstName: '',
     email: '',
@@ -23,35 +96,53 @@ export default function ExitIntentModal() {
 
   const { trackLead } = useFacebookTracking();
 
+  // Track maximum scroll depth for mobile scroll-up detection
+  const maxScrollY = useRef(0);
+
   useEffect(() => {
     // Only set up listeners if we haven't shown it yet
     if (hasShown) return;
 
-    // Logic to detect exit intent
+    const triggerModal = () => {
+      setContextualOffer(getContextualOffer());
+      setIsVisible(true);
+      setHasShown(true);
+    };
+
+    // Desktop: exit intent via mouse leaving top of viewport
     const handleMouseLeave = (e: MouseEvent) => {
       if (e.clientY <= 0) {
-        // User moved mouse out of the top of the viewport
-        if (!hasShown) {
-          setIsVisible(true);
-          setHasShown(true);
-        }
+        triggerModal();
       }
     };
 
-    // Mobile backup: show after 30 seconds of inactivity or scrolling up significantly?
-    // For now, let's stick to desktop exit intent primarily, maybe a timer fallback
+    // Mobile: 45-second inactivity timer
     const timer = setTimeout(() => {
-        if (!hasShown) {
-            // Optional: Timer based trigger for mobile users who don't "mouse out"
-            // setIsVisible(true); 
-            // setHasShown(true);
-        }
+      triggerModal();
     }, 45000); // 45 seconds
 
+    // Mobile: scroll-up detection — user scrolled 300px+ down then back within 100px of top
+    const handleScroll = () => {
+      const currentY = window.scrollY;
+
+      if (currentY > maxScrollY.current) {
+        maxScrollY.current = currentY;
+      }
+
+      const scrolledFarEnough = maxScrollY.current >= 300;
+      const nearTop = currentY <= 100;
+
+      if (scrolledFarEnough && nearTop) {
+        triggerModal();
+      }
+    };
+
     document.addEventListener('mouseleave', handleMouseLeave);
-    
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
     return () => {
       document.removeEventListener('mouseleave', handleMouseLeave);
+      window.removeEventListener('scroll', handleScroll);
       clearTimeout(timer);
     };
   }, [hasShown]);
@@ -91,7 +182,7 @@ export default function ExitIntentModal() {
         if (typeof window !== 'undefined' && (window as any).gtag) {
              (window as any).gtag('event', 'generate_lead', {
                 event_category: 'engagement',
-                event_label: 'Exit Intent Modal'
+                event_label: `exit_intent_${contextualOffer.contextKey}`
              });
         }
         setStep(3);
@@ -180,19 +271,19 @@ export default function ExitIntentModal() {
             <div className="p-8 flex flex-col justify-center bg-white">
               <div className="text-center md:text-left mb-6">
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                    See Your Potential Savings
+                    {contextualOffer.headline}
                 </h3>
                 <p className="text-slate-600">
-                    Get a custom rate quote from 50+ Wholesale Lenders in minutes. No credit check. No commitment. We shop multiple lenders to find competitive rates for your situation.
+                    {contextualOffer.subheadline}
                 </p>
               </div>
 
               <div className="space-y-4">
-                <Button 
+                <Button
                     onClick={handleCtaClick}
                     className="w-full bg-slate-900 hover:bg-slate-800 text-white py-6 text-lg shadow-lg hover:shadow-blue-600/20 transition-all duration-300 group"
                 >
-                    Show Me My Rate {' '}
+                    {contextualOffer.buttonText}{' '}
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 

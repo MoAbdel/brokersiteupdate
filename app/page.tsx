@@ -23,12 +23,22 @@ const pageSchema = buildServiceWebPageSchema({
   breadcrumbName: 'Home',
 });
 
+const speakableSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SpeakableSpecification',
+  cssSelector: ['h1', '.speakable'],
+};
+
 export default function HomePage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
       />
       <SimpleLandingPage />
     </>
