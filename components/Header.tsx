@@ -127,7 +127,7 @@ export default function Header() {
 
           {/* Desktop Right Action */}
           <div className="hidden md:flex items-center z-10">
-            <a href={PHONE_TEL_HREF} onClick={() => trackPhoneCall()}>
+            <a href="/mo-abdel-contact.vcf" download="mo-abdel-contact.vcf" onClick={() => trackPhoneCall()}>
               <Button size="sm" className="bg-slate-900 hover:bg-slate-800 text-white font-semibold">
                 Call or Text {PHONE_DISPLAY}
               </Button>
