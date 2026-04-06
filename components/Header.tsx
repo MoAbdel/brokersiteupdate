@@ -129,7 +129,7 @@ export default function Header() {
           <div className="hidden md:flex items-center z-10">
             <a href={PHONE_TEL_HREF} onClick={() => trackPhoneCall()}>
               <Button size="sm" className="bg-slate-900 hover:bg-slate-800 text-white font-semibold">
-                {PHONE_DISPLAY}
+                Call or Text {PHONE_DISPLAY}
               </Button>
             </a>
           </div>

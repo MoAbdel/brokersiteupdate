@@ -680,7 +680,7 @@ export default function ReverseMortgageWidowWidowerPage() {
           <p className="text-base text-gray-700 mb-3">Mo Abdel | NMLS #1426884 | Lumin Lending NMLS #2716106</p>
           <p className="text-base text-gray-700 mb-3">Licensed in California and Washington</p>
           <a href="tel:9495792057" className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors mb-2">
-            Call (949) 579-2057
+            Call or Text (949) 579-2057
           </a>
           <p className="text-sm text-gray-500 mt-2">
             <Link href="/contact" className="text-blue-600 hover:underline">Or submit a secure online inquiry</Link>

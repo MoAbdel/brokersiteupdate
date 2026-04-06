@@ -656,7 +656,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
               <Link href="tel:9495792057">
                 <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg rounded-lg flex items-center gap-2 w-full sm:w-auto">
                   <Phone className="w-5 h-5" />
-                  Call (949) 579-2057
+                  Call or Text (949) 579-2057
                 </Button>
               </Link>
               <Link href="/contact">

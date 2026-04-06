@@ -242,7 +242,7 @@ export default function AffordabilityCalculator() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+19495792057">
                 <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3">
-                  Call (949) 579-2057
+                  Call or Text (949) 579-2057
                 </Button>
               </a>
               <a href="/contact">

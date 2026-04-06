@@ -519,7 +519,7 @@ export default function HELOANOrangeCountyPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 579-2057">
                 <a href="tel:(949) 579-2057">
-                  Call (949) 579-2057
+                  Call or Text (949) 579-2057
                 </a>
               </Button>
               <Link href="/contact">

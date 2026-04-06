@@ -343,7 +343,7 @@ export default function HECMLineOfCreditGrowthPage() {
               href="tel:+19495792057"
               className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <Link
               href="/contact"
@@ -1077,7 +1077,7 @@ export default function HECMLineOfCreditGrowthPage() {
               href="tel:+19495792057"
               className="bg-white text-blue-900 font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <Link
               href="/contact"

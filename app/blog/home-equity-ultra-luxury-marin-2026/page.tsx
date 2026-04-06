@@ -136,7 +136,7 @@ export default function HomeEquityUltraLuxuryMarin2026() {
         name: 'How do I get started with a jumbo HELOC in Ross, Tiburon, or Belvedere?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 579-2057 for a complimentary equity analysis. I will review your property value, existing mortgage balance, income documentation, and financial goals to identify the best jumbo HELOC, HELOAN, or cash-out refinance option from 50+ Wholesale Lenders. Initial consultations and equity estimates are free with no obligation.',
+          text: 'Call or Text (949) 579-2057 for a complimentary equity analysis. I will review your property value, existing mortgage balance, income documentation, and financial goals to identify the best jumbo HELOC, HELOAN, or cash-out refinance option from 50+ Wholesale Lenders. Initial consultations and equity estimates are free with no obligation.',
         },
       },
       {

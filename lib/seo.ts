@@ -135,11 +135,11 @@ export const siteRootSchema = {
       "parentOrganization": { "@id": ORGANIZATION_ID },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "18301 Von Karman Ave Suite 820",
+        "streetAddress": "18201 Von Karman Ave Suite 800",
         "addressLocality": "Irvine",
         "addressRegion": "CA",
         "addressCountry": "US",
-        "postalCode": "92614"
+        "postalCode": "92612"
       },
       "geo": {
         "@type": "GeoCoordinates",

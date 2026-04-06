@@ -21,7 +21,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'P&L Statement Loans Orange County | CPA Prepared Income Verification | Mo Abdel',
-  description: 'P&L Statement loans for business owners in Orange County. Use CPA-prepared profit & loss statements for income verification instead of tax returns. Flexible Non-QM financing. Call (949) 579-2057.',
+  description: 'P&L Statement loans for business owners in Orange County. Use CPA-prepared profit & loss statements for income verification instead of tax returns. Flexible Non-QM financing. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/profit-loss-statement-loans',
     languages: {
@@ -58,7 +58,7 @@ export default function ProfitLossStatementLoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-purple-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>
@@ -546,7 +546,7 @@ export default function ProfitLossStatementLoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

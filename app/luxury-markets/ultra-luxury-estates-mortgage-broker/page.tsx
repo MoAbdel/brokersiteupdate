@@ -10,7 +10,7 @@ import InternalLinkEngine from '@/components/optimization/InternalLinkEngine';
 
 export const metadata: Metadata = {
   title: 'Orange County Ultra-Luxury Estates Mortgage Broker | $5M+ Properties | Mo Abdel NMLS #1426884',
-  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call (949) 579-2057.',
+  description: 'Orange County ultra-luxury estates mortgage broker specializing in $5M+ properties. Mansions, beachfront estates, and exclusive compounds financing. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/luxury-markets/ultra-luxury-estates-mortgage-broker',
     languages: {
@@ -257,7 +257,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
                 <a href="tel:(949) 579-2057">
                   <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call or Text (949) 579-2057
                   </Button>
                 </a>
                 <a href="/calculator">
@@ -504,7 +504,7 @@ export default function UltraLuxuryEstatesMortgageBrokerPage() {
               <a href="tel:(949) 579-2057">
                 <Button size="lg" variant="outline" className="bg-white text-purple-900 hover:bg-gray-100 w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (949) 579-2057
+                  Call or Text (949) 579-2057
                 </Button>
               </a>
               <a href="/contact">

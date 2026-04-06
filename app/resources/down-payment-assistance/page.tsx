@@ -710,7 +710,7 @@ export default function DownPaymentAssistancePage() {
                     className="text-white border border-white/20 hover:bg-white/10 hover:text-white"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    Call (949) 579-2057
+                    Call or Text (949) 579-2057
                   </Button>
                 </a>
               </div>
@@ -743,7 +743,7 @@ export default function DownPaymentAssistancePage() {
                 className="text-white border border-white/20 hover:bg-white/10 hover:text-white"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

@@ -41,7 +41,7 @@ export default function BankStatementLoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-orange-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>
@@ -395,7 +395,7 @@ export default function BankStatementLoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

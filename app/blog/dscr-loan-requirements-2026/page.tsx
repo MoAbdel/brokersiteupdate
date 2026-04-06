@@ -741,7 +741,7 @@ export default function DSCRLoanRequirements2026() {
             <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

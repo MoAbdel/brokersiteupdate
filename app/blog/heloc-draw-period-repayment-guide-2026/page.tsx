@@ -187,7 +187,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
               Get Your HELOC Quote
             </Link>
             <a href="tel:9495792057" className="bg-white/10 text-white px-8 py-3 rounded-lg font-semibold border border-white/20 hover:bg-white/20 transition-colors text-center">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>
@@ -693,7 +693,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
                 Get Your Free Quote
               </Link>
               <a href="tel:9495792057" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </a>
             </div>
           </div>

@@ -8,7 +8,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-
 
 export const metadata: Metadata = {
   title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
-  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 579-2057.',
+  description: 'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
     languages: {
@@ -29,7 +29,7 @@ const webPageSchema = buildServiceWebPageSchema({
   pageUrl: 'https://www.mothebroker.com/loan-programs/rate-term-refinance',
   title: 'Term Refinance Orange County | Lower Payment & Optimize Loan | Mo The Mortgage Broker',
   description:
-    'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call (949) 579-2057.',
+    'Term refinance in Orange County. Lower your mortgage payment, eliminate PMI, or switch to fixed pricing. Competitive mortgage broker options through Lumin Lending. Call or Text (949) 579-2057.',
   breadcrumbName: 'Rate-Term Refinance',
 });
 
@@ -68,7 +68,7 @@ export default function RateTermRefinancePage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-green-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>
@@ -434,7 +434,7 @@ export default function RateTermRefinancePage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

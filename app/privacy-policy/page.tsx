@@ -141,7 +141,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Contact Form: <Link href="/contact" className="text-blue-600 hover:text-blue-700">Available on our Contact page</Link></li>
               <li>Phone: (949) 579-2057</li>
-              <li>Mail: 18301 Von Karman Ave Suite 820, Irvine, CA 92612</li>
+              <li>Mail: 18201 Von Karman Ave Suite 800, Irvine, CA 92612</li>
             </ul>
           </section>
 
@@ -226,7 +226,7 @@ export default function PrivacyPolicyPage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   Lumin Lending<br />
-                  18301 Von Karman Ave Suite 820<br />
+                  18201 Von Karman Ave Suite 800<br />
                   Irvine, CA 92612
                 </div>
               </div>

@@ -700,7 +700,7 @@ export default function DSCRADUGarageConversionRental2026() {
               Start Your Application
             </Link>
             <a href="tel:+19495792057" className="inline-block border-2 border-blue-700 text-blue-700 font-semibold px-8 py-3 rounded-lg hover:bg-blue-50 transition">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

@@ -509,7 +509,7 @@ export default function WholesaleMortgageBrokerGreaterSeattle2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Broker&apos;s Note:</strong> Bank statement loan programs change frequently across wholesale lenders. Mo Abdel maintains relationships with 25+ bank statement lenders to ensure clients always access the most competitive current programs. Call (949) 579-2057 for today&apos;s bank statement program options.
+            <strong>Broker&apos;s Note:</strong> Bank statement loan programs change frequently across wholesale lenders. Mo Abdel maintains relationships with 25+ bank statement lenders to ensure clients always access the most competitive current programs. Call or Text (949) 579-2057 for today&apos;s bank statement program options.
           </p>
         </div>
 

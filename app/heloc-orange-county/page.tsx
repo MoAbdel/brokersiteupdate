@@ -185,7 +185,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 579-2057">
-                <a href="tel:(949) 579-2057">Call (949) 579-2057</a>
+                <a href="tel:(949) 579-2057">Call or Text (949) 579-2057</a>
               </Button>
             </div>
           </div>
@@ -517,7 +517,7 @@ export default function HELOCOrangeCountyPage() {
                 </Button>
               </a>
               <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg" aria-label="Call Mo Abdel at (949) 579-2057">
-                <a href="tel:(949) 579-2057">Call (949) 579-2057</a>
+                <a href="tel:(949) 579-2057">Call or Text (949) 579-2057</a>
               </Button>
             </div>
             <p className="text-sm text-slate-200 mt-4">

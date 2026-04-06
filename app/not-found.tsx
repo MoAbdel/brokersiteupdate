@@ -40,7 +40,7 @@ export default function NotFound() {
             className="flex items-center justify-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            Call Now
+            Call or Text
           </a>
         </div>
 

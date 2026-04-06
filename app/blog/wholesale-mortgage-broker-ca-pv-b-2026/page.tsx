@@ -1151,7 +1151,7 @@ export default function WholesaleMortgageBrokerCAPVB2026() {
                 href="tel:+19495792057"
                 className="inline-flex items-center justify-center bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition"
               >
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </a>
               <Link
                 href="/contact"

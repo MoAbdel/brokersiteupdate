@@ -387,7 +387,7 @@ export default function PurchaseLoansPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:(949) 579-2057">
                 <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
-                  Call (949) 579-2057
+                  Call or Text (949) 579-2057
                 </Button>
               </a>
               <Link href="/contact">

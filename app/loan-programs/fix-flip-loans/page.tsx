@@ -8,7 +8,7 @@ import { Hammer, Clock, TrendingUp, DollarSign, Check, AlertCircle } from 'lucid
 
 export const metadata: Metadata = {
   title: 'Fix & Flip Loans Orange County | Real Estate Investor Financing | Short-Term Bridge Loans',
-  description: 'Fix & flip loans in Orange County for real estate investors. Quick 7-10 day closings, up to 90% ARV, 6-24 month terms. Experienced investor lender. Call (949) 579-2057.',
+  description: 'Fix & flip loans in Orange County for real estate investors. Quick 7-10 day closings, up to 90% ARV, 6-24 month terms. Experienced investor lender. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fix-flip-loans',
     languages: {
@@ -41,7 +41,7 @@ export default function FixFlipLoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-purple-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>
@@ -426,7 +426,7 @@ export default function FixFlipLoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

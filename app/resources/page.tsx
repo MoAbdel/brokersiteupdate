@@ -554,7 +554,7 @@ export default function ResourcesPage() {
             <a href="tel:(949) 579-2057">
               <Button size="lg" variant="ghost" className="text-blue-600 border-blue-600 hover:bg-blue-50">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

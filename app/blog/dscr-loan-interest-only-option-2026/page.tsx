@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'DSCR Loans with Interest-Only Option: Maximize Investment Property Cash Flow [2026] | Mo Abdel NMLS #1426884',
-  description: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+  description: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
   keywords: [
     'dscr loan interest only option',
     'interest only DSCR loan',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'DSCR Loans with Interest-Only Option: Maximize Investment Property Cash Flow [2026]',
-    description: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    description: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-interest-only-option-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -675,7 +675,7 @@ export default function DSCRLoanInterestOnlyOption2026() {
               href="tel:+19495792057"
               className="font-bold text-green-700 hover:underline mr-3"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             or{' '}
             <Link href="/contact" className="font-semibold text-green-700 hover:underline">
@@ -1022,7 +1022,7 @@ export default function DSCRLoanInterestOnlyOption2026() {
               href="tel:+19495792057"
               className="inline-flex items-center gap-2 bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <Link
               href="/contact"

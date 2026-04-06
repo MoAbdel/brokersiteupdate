@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
-  description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 50+ Wholesale Lenders access. Free consultation, 18-day closings. Call (949) 579-2057 or apply online.',
+  description: 'Contact Mo Abdel, licensed Orange County mortgage broker with 50+ Wholesale Lenders access. Free consultation, 18-day closings. Call or Text (949) 579-2057 or apply online.',
   alternates: {
     canonical: 'https://www.mothebroker.com/contact-orange-county-mortgage-broker',
     languages: {
@@ -29,10 +29,10 @@ const contactSchema = {
   "telephone": "(949) 579-2057",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "18301 Von Karman Ave Suite 820",
+    "streetAddress": "18201 Von Karman Ave Suite 800",
     "addressLocality": "Irvine",
     "addressRegion": "CA",
-    "postalCode": "92614",
+    "postalCode": "92612",
     "addressCountry": "US"
   },
   "areaServed": [
@@ -403,7 +403,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   <a href="tel:+19495792057">
                     <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-4 text-lg font-semibold">
                       <Phone className="w-5 h-5 mr-2" />
-                      Call Now: (949) 579-2057
+                      Call or Text: (949) 579-2057
                     </Button>
                   </a>
                   <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg">

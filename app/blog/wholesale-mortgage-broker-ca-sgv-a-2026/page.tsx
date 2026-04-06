@@ -479,7 +479,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
         {/* Mid-Article CTA */}
         <LeadMagnetCTA
           title="Get Your San Gabriel Valley Wholesale Rate Quote"
-          description="Access rates from 50+ Wholesale Lenders for San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre properties. Bank statement, foreign national, and jumbo programs available. Call (949) 579-2057."
+          description="Access rates from 50+ Wholesale Lenders for San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena, and Sierra Madre properties. Bank statement, foreign national, and jumbo programs available. Call or Text (949) 579-2057."
           href="/contact"
           ctaText="Get My Wholesale Rate"
           badge="Free Quote"
@@ -1044,7 +1044,7 @@ export default function WholesaleMortgageBrokerSGV2026() {
             <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

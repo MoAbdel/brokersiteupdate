@@ -615,7 +615,7 @@ export default function ServiceProvidersPage() {
             <a href="tel:+19495792057">
               <Button size="lg" variant="ghost" className="text-white border-white hover:bg-white/10">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

@@ -11,7 +11,7 @@ import { BarChart3, CheckCircle, DollarSign, Gift, Home, Landmark, RefreshCw, Sh
 
 export const metadata: Metadata = {
   title: 'FHA Loans Orange County [2026 Limits, 3.5% Down & Wholesale MIP Savings]',
-  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with Lumin Lending. Call (949) 579-2057.',
+  description: 'FHA loans in Orange County with just 3.5% down payment. Government-backed mortgages with flexible credit requirements. Licensed mortgage broker with Lumin Lending. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/fha-loans',
     languages: {
@@ -62,7 +62,7 @@ export default function FHALoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>
@@ -451,7 +451,7 @@ export default function FHALoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

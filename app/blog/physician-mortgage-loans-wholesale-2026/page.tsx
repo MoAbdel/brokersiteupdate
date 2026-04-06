@@ -831,7 +831,7 @@ export default function PhysicianMortgageLoansWholesale2026() {
             </Link>
             <Link href="tel:9495792057">
               <Button className="border-2 border-white text-white hover:bg-white/10 font-semibold px-6 py-3 w-full sm:w-auto">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </Link>
           </div>

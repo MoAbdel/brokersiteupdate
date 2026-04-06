@@ -281,7 +281,7 @@ export default function TermsOfServicePage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   Lumin Lending<br />
-                  18301 Von Karman Ave Suite 820<br />
+                  18201 Von Karman Ave Suite 800<br />
                   Irvine, CA 92612
                 </div>
                 <div className="mt-4">

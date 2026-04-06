@@ -840,7 +840,7 @@ export default function HomeEquitySharingVsHeloc2026() {
           <Link href="tel:9495792057">
             <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg flex items-center gap-2">
               <Phone className="w-5 h-5" />
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </Button>
           </Link>
           <Link href="/contact">

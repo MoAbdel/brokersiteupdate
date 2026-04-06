@@ -866,7 +866,7 @@ export default function WholesaleMortgageBrokerUltraLuxuryEastsideWA2026() {
               href="tel:+19495792057"
               className="inline-block bg-slate-900 text-white px-8 py-4 rounded-lg font-semibold text-center hover:bg-slate-800 transition-colors no-underline"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <a
               href="/contact"

@@ -70,7 +70,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="py-2 leading-relaxed">
-                18301 Von Karman Ave Suite 820
+                18201 Von Karman Ave Suite 800
                 <br />
                 Irvine, CA 92612
               </li>
@@ -161,7 +161,7 @@ export default function Footer() {
             <div>
               <p>
                 Information accurate as of 02/17/2026. Not all programs are available in all areas. Not all borrowers will qualify for
-                all programs. Program restrictions apply. Please contact Lumin Lending, 18301 Von Karman Ave Suite 820, Irvine, CA 92612
+                all programs. Program restrictions apply. Please contact Lumin Lending, 18201 Von Karman Ave Suite 800, Irvine, CA 92612
                 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are
                 subject to the specific lender&apos;s underwriting guidelines and available loan products. Approvals may be subject to
                 appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other
@@ -188,7 +188,7 @@ export default function Footer() {
                 <span>DRE #02291443</span>
               </div>
               <p className="text-slate-400 text-[10px]">Licensed in CA and WA only</p>
-              <p className="text-slate-400 text-[10px]">18301 Von Karman Ave Suite 820, Irvine, CA 92612</p>
+              <p className="text-slate-400 text-[10px]">18201 Von Karman Ave Suite 800, Irvine, CA 92612</p>
             </div>
           </div>
 

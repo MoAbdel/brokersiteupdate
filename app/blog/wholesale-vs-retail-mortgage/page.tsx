@@ -653,7 +653,7 @@ export default function WholesaleVsRetailMortgagePage() {
               Get Your Wholesale Rate Quote
             </a>
             <a href="tel:+19495792057" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-white/10 transition">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

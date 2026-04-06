@@ -615,7 +615,7 @@ export default function CashOutRefinanceADUConstructionPage() {
               href="tel:+19495792057"
               className="bg-white text-blue-700 font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <Link
               href="/contact"

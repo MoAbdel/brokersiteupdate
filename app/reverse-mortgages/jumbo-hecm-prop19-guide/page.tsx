@@ -273,7 +273,7 @@ export default function JumboHecmProp19GuidePage() {
               href="tel:9495792057"
               className="inline-flex items-center px-6 py-3 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <span className="text-sm text-slate-500">
               NMLS #1426884 &middot; Lumin Lending NMLS #2716106

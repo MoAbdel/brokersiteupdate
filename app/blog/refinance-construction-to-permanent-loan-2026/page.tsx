@@ -403,7 +403,7 @@ export default function ConstructionToPermanentLoanRefinancePage() {
           <p className="font-semibold text-green-800 mb-2">Mid-Article CTA: Compare CTP Rate Lock Options</p>
           <p className="text-green-900">
             Building a custom home in California or Washington? Mo Abdel compares one-close and two-close rate lock structures from 200+ wholesale lenders to find the strongest protection for your build timeline.{' '}
-            <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Call (949) 579-2057</Link> or{' '}
+            <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Call or Text (949) 579-2057</Link> or{' '}
             <Link href="/contact" className="text-blue-600 font-semibold hover:underline">request a CTP loan comparison</Link>.
           </p>
         </div>

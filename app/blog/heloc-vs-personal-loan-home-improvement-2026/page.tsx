@@ -729,7 +729,7 @@ export default function HelocVsPersonalLoanHomeImprovement2026() {
             <a href="tel:+19495792057">
               <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 text-lg">
                 <Phone className="w-5 h-5 mr-2" />
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

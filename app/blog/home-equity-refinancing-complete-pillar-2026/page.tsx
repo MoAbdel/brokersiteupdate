@@ -950,7 +950,7 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
               Get Your Free Equity Analysis
             </a>
             <a href="tel:+19495792057" className="inline-block bg-white text-gray-900 text-center px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

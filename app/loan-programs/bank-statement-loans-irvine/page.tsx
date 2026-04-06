@@ -8,7 +8,7 @@ import { DollarSign, FileText, TrendingUp, Users, Check, AlertCircle, Calculator
 
 export const metadata: Metadata = {
   title: 'Bank Statement Loans Irvine CA | Self-Employed Mortgage | No Income Documentation | Mo Abdel NMLS #1426884',
-  description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $2.5M loan amounts. Expert Non-QM lender serving Irvine. Call (949) 579-2057.',
+  description: 'Bank statement loans in Irvine CA for self-employed borrowers. Qualify using 12-24 months bank statements. Up to $2.5M loan amounts. Expert Non-QM lender serving Irvine. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine',
     languages: {
@@ -47,7 +47,7 @@ export default function BankStatementLoansIrvinePage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-orange-600 text-blue-600 hover:bg-slate-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

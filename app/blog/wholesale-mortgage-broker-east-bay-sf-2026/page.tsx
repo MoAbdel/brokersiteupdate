@@ -160,7 +160,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
         name: 'How do I get started with a wholesale mortgage broker?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 579-2057 or submit a quick quote at mothebroker.com. I will review your financial profile, identify the best lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison. The initial consultation is free with no obligation. Pre-approvals can be issued within 24 hours for well-documented borrowers.',
+          text: 'Call or Text (949) 579-2057 or submit a quick quote at mothebroker.com. I will review your financial profile, identify the best lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison. The initial consultation is free with no obligation. Pre-approvals can be issued within 24 hours for well-documented borrowers.',
         },
       },
     ],
@@ -937,7 +937,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
 
             <div className="border-b border-gray-200 pb-4">
               <h3 className="text-lg font-semibold mb-2">How do I get started with a wholesale mortgage broker?</h3>
-              <p>Call (949) 579-2057 or submit a quick quote at mothebroker.com. I review your financial profile, identify the best lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison within 24 hours. The initial consultation is free with no obligation. Pre-approvals can be issued the same day for well-documented borrowers.</p>
+              <p>Call or Text (949) 579-2057 or submit a quick quote at mothebroker.com. I review your financial profile, identify the best lender matches from 50+ Wholesale Lenders, and provide a personalized rate comparison within 24 hours. The initial consultation is free with no obligation. Pre-approvals can be issued the same day for well-documented borrowers.</p>
             </div>
           </div>
 

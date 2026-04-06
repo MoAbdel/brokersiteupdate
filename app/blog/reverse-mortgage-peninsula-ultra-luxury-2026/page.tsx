@@ -434,7 +434,7 @@ export default function ReverseMortgagePeninsulaUltraLuxury2026() {
           Qualification Process for Peninsula Ultra-Luxury Reverse Mortgages
         </h2>
         <ol>
-          <li className="mb-3"><strong>Initial Consultation with Mo Abdel:</strong> Review property value, estate structure (trust, LLC, individual ownership), financial goals, and optimal product selection (HECM, jumbo, or combination). Call (949) 579-2057 to schedule.</li>
+          <li className="mb-3"><strong>Initial Consultation with Mo Abdel:</strong> Review property value, estate structure (trust, LLC, individual ownership), financial goals, and optimal product selection (HECM, jumbo, or combination). Call or Text (949) 579-2057 to schedule.</li>
           <li className="mb-3"><strong>HUD Counseling (HECM) or Lender Counseling (Jumbo):</strong> HECM requires mandatory HUD-approved counseling. Some proprietary jumbo lenders also require counseling. Sessions available by phone or video.</li>
           <li className="mb-3"><strong>Trust and Estate Document Review:</strong> Lender reviews trust documents, verifying the property is properly titled and the trust allows encumbrance. Mo coordinates document collection and submission.</li>
           <li className="mb-3"><strong>MAI Appraisal:</strong> Designated MAI appraiser with ultra-luxury experience conducts on-site inspection. For estates valued $5M+, this process takes 3-5 weeks including scheduling, inspection, comparable analysis, and report delivery.</li>

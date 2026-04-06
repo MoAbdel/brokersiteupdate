@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'HELOC After Refinancing: Timing, Seasoning & Qualification Guide 2026 | Mo Abdel NMLS #1426884',
-  description: 'Apply for a HELOC after refinancing with proper timing. Most lenders require 6-12 months seasoning. CLTV limits, equity requirements, qualification steps. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+  description: 'Apply for a HELOC after refinancing with proper timing. Most lenders require 6-12 months seasoning. CLTV limits, equity requirements, qualification steps. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-after-refinancing-timing-qualification-2026',
     languages: {
@@ -598,7 +598,7 @@ export default function HelocAfterRefinancingTimingQualificationPage() {
               Get Your Free HELOC Analysis
             </Link>
             <a href="tel:+19495792057" className="inline-block border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 text-center no-underline">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

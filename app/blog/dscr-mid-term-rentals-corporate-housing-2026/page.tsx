@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'DSCR Loans for Mid-Term Rentals: Corporate Housing & Travel Nurse Properties 2026 | Mo Abdel NMLS #1426884',
-  description: 'DSCR loans finance mid-term rentals (30-90 day stays) for corporate housing and travel nurses. Qualify on rental income, not tax returns. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+  description: 'DSCR loans finance mid-term rentals (30-90 day stays) for corporate housing and travel nurses. Qualify on rental income, not tax returns. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-mid-term-rentals-corporate-housing-2026',
     languages: {
@@ -625,7 +625,7 @@ export default function DSCRMidTermRentalsCorporateHousingPage() {
               Get Your Free DSCR Analysis
             </Link>
             <a href="tel:+19495792057" className="inline-block border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 text-center no-underline">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

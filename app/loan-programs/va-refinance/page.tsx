@@ -7,7 +7,7 @@ import { BarChart3, CheckCircle, ClipboardList, DollarSign, Flag, Home, MapPin, 
 
 export const metadata: Metadata = {
   title: 'VA Refinance Orange County | 100% Cash-Out | Mo The Mortgage Broker NMLS #1426884',
-  description: 'VA Refinance in Orange County. Lower your rate with VA IRRRL or get 100% cash-out. Exclusive military benefits. Licensed mortgage broker with Lumin Lending. Call (949) 579-2057.',
+  description: 'VA Refinance in Orange County. Lower your rate with VA IRRRL or get 100% cash-out. Exclusive military benefits. Licensed mortgage broker with Lumin Lending. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/va-refinance',
     languages: {
@@ -44,7 +44,7 @@ export default function VALoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-red-600 text-red-600 hover:bg-red-50 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>
@@ -471,7 +471,7 @@ export default function VALoansPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-3 text-lg">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

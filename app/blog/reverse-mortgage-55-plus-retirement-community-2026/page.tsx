@@ -256,7 +256,7 @@ export default function ReverseMortgage55PlusCommunityPage() {
         <p className="text-lg font-semibold text-gray-900 mb-2">Not sure if your 55+ community qualifies for a HECM?</p>
         <p className="text-gray-700 mb-4">Mo Abdel checks your community&apos;s FHA status and HOA eligibility at no cost. Access to 200+ wholesale lenders means more approval options.</p>
         <Link href="/contact" className="inline-block bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-800 transition">
-          Check Your 55+ Community Eligibility — Call (949) 579-2057
+          Check Your 55+ Community Eligibility — Call or Text (949) 579-2057
         </Link>
       </div>
 

@@ -35,10 +35,10 @@ const personSchema = {
   "telephone": "(949) 579-2057",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "18301 Von Karman Ave Suite 820",
+    "streetAddress": "18201 Von Karman Ave Suite 800",
     "addressLocality": "Irvine",
     "addressRegion": "CA",
-    "postalCode": "92614",
+    "postalCode": "92612",
     "addressCountry": "US"
   },
   "areaServed": [

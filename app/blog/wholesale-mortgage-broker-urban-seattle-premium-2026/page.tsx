@@ -514,7 +514,7 @@ export default function WholesaleMortgageBrokerUrbanSeattlePremium2026() {
         {/* E-E-A-T Marker */}
         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 my-6">
           <p className="text-sm text-gray-600 mb-0">
-            <strong>Investment Market Note:</strong> Ballard and Fremont DSCR loan programs change frequently across wholesale lenders as rental market conditions evolve. Mo Abdel maintains active relationships with 20+ DSCR lenders to ensure Seattle investors access the most competitive current programs. Call (949) 579-2057 for today&apos;s DSCR rates and qualification requirements.
+            <strong>Investment Market Note:</strong> Ballard and Fremont DSCR loan programs change frequently across wholesale lenders as rental market conditions evolve. Mo Abdel maintains active relationships with 20+ DSCR lenders to ensure Seattle investors access the most competitive current programs. Call or Text (949) 579-2057 for today&apos;s DSCR rates and qualification requirements.
           </p>
         </div>
 

@@ -495,7 +495,7 @@ export default function MarketDataPage() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button size="lg" variant="ghost" className="text-blue-600 border-blue-600 hover:bg-blue-50">
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </Button>
             </a>
           </div>

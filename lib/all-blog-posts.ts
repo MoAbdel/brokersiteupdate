@@ -15,7 +15,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'refinance-rental-income-qualifying-2026',
     title: 'Refinancing with Rental Income: How Investment Property Income Helps You Qualify [2026]',
-    excerpt: 'Use rental income from investment properties to qualify for refinance in California and Washington. Schedule E, 75% rule, lease documentation. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    excerpt: 'Use rental income from investment properties to qualify for refinance in California and Washington. Schedule E, 75% rule, lease documentation. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
     date: '2026-04-01',
     category: 'Refinance',
     readTime: '10 min read',
@@ -23,7 +23,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'cash-out-refinance-adu-construction-california-2026',
     title: 'Cash-Out Refinance for ADU Construction: Convert Your Equity Into Rental Income [2026]',
-    excerpt: 'Use a cash-out refinance to fund ADU construction in California or Washington. Build rental income with your home equity. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    excerpt: 'Use a cash-out refinance to fund ADU construction in California or Washington. Build rental income with your home equity. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
     date: '2026-04-01',
     category: 'Refinance',
     readTime: '11 min read',
@@ -49,7 +49,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'dscr-loan-interest-only-option-2026',
     title: 'DSCR Loans with Interest-Only Option: Maximize Investment Property Cash Flow [2026]',
-    excerpt: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    excerpt: 'DSCR loans with interest-only option reduce monthly payments and improve qualifying ratios for CA and WA investors. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
     date: '2026-04-01',
     category: 'DSCR',
     readTime: '10 min read',
@@ -58,7 +58,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'refinance-after-bankruptcy-waiting-periods-2026',
     title: 'Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods [2026]',
-    excerpt: 'Refinance after bankruptcy with Mo Abdel NMLS #1426884. Chapter 7 requires 2-4 year waiting period, Chapter 13 requires 1-2 years. FHA, VA, Conventional options. Call (949) 579-2057.',
+    excerpt: 'Refinance after bankruptcy with Mo Abdel NMLS #1426884. Chapter 7 requires 2-4 year waiting period, Chapter 13 requires 1-2 years. FHA, VA, Conventional options. Call or Text (949) 579-2057.',
     date: '2026-03-26',
     category: 'Refinance',
     readTime: '11 min read',
@@ -74,7 +74,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'dscr-mid-term-rentals-corporate-housing-2026',
     title: 'DSCR Loans for Mid-Term Rentals: Corporate Housing & Travel Nurse Properties [2026]',
-    excerpt: 'DSCR loans finance mid-term rentals (30-90 day stays) for corporate housing and travel nurses. Qualify on rental income, not tax returns. Mo Abdel NMLS #1426884. Call (949) 579-2057.',
+    excerpt: 'DSCR loans finance mid-term rentals (30-90 day stays) for corporate housing and travel nurses. Qualify on rental income, not tax returns. Mo Abdel NMLS #1426884. Call or Text (949) 579-2057.',
     date: '2026-03-26',
     category: 'DSCR',
     readTime: '11 min read',

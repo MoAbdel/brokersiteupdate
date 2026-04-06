@@ -35,7 +35,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Rates & Pricing
   {
     question: "What are current mortgage pricing?",
-    answer: "Current pricing vary by loan type and credit score. Today's pricing is approximately: 30-year fixed at 6.125%, 15-year fixed at 5.50%, FHA at 6.125%, VA at 5.99%, and Jumbo at 6.625%. These are sample rates - your actual rate depends on credit score, down payment, and loan specifics. Call (949) 579-2057 for your personalized loan quote with no obligation.",
+    answer: "Current pricing vary by loan type and credit score. Today's pricing is approximately: 30-year fixed at 6.125%, 15-year fixed at 5.50%, FHA at 6.125%, VA at 5.99%, and Jumbo at 6.625%. These are sample rates - your actual rate depends on credit score, down payment, and loan specifics. Call or Text (949) 579-2057 for your personalized loan quote with no obligation.",
     category: "rates",
     keywords: ["rates", "interest", "current", "today", "apr", "percentage"],
     followUp: ["What affects my rate?", "Can I lock my rate?"]
@@ -148,7 +148,7 @@ export const chatbotResponses: ChatResponse[] = [
   // Refinancing
   {
     question: "Should I refinance?",
-    answer: "Refinancing makes sense if you can lower your pricing by 0.5% or more, want to eliminate PMI, need to access equity (cash-out), or want to change loan terms. With Current pricing, many homeowners can benefit. I'll analyze your situation free - a 10-minute call could save you thousands. Call (949) 579-2057.",
+    answer: "Refinancing makes sense if you can lower your pricing by 0.5% or more, want to eliminate PMI, need to access equity (cash-out), or want to change loan terms. With Current pricing, many homeowners can benefit. I'll analyze your situation free - a 10-minute call could save you thousands. Call or Text (949) 579-2057.",
     category: "refinance",
     keywords: ["refinance", "refi", "lower rate", "cash out"],
     followUp: ["What are refinance pricing?", "How much can I cash out?"]
@@ -235,7 +235,7 @@ export const chatbotResponses: ChatResponse[] = [
   },
   {
     question: "Can you beat my bank's rate?",
-    answer: "I often find better pricing through my 50+ Wholesale Lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call (949) 579-2057 for your personalized comparison.",
+    answer: "I often find better pricing through my 50+ Wholesale Lenders compared to retail banks. However, pricing depends on many factors including credit score, down payment, and loan type. I'd be happy to provide a free Loan Comparison to see if I can save you money. No obligation to proceed. Call or Text (949) 579-2057 for your personalized comparison.",
     category: "rates",
     keywords: ["beat", "match", "better", "lower", "compete"],
     followUp: ["How much can I save?", "Will you match rates?"]

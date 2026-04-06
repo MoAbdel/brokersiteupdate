@@ -152,7 +152,7 @@ export default function ReverseMortgageAffluentMarin2026() {
         name: 'How do I get started with a reverse mortgage in affluent Marin?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Call (949) 579-2057 for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage balance, and financial objectives to determine whether a standard HECM or jumbo reverse mortgage is the optimal solution. The initial consultation is free with no obligation. HUD-approved counseling is required before any HECM application.',
+          text: 'Call or Text (949) 579-2057 for a complimentary reverse mortgage consultation. I will evaluate your home value, age, existing mortgage balance, and financial objectives to determine whether a standard HECM or jumbo reverse mortgage is the optimal solution. The initial consultation is free with no obligation. HUD-approved counseling is required before any HECM application.',
         },
       },
     ],

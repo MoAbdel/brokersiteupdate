@@ -173,7 +173,7 @@ export default function ReverseMortgageLongTermCarePlanning2026() {
             href="tel:+19495792057"
             className="inline-flex items-center justify-center border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors"
           >
-            Call (949) 579-2057
+            Call or Text (949) 579-2057
           </a>
         </div>
       </div>
@@ -790,7 +790,7 @@ export default function ReverseMortgageLongTermCarePlanning2026() {
               href="tel:+19495792057"
               className="inline-flex items-center justify-center border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors text-center"
             >
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

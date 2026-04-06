@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods 2026 | Mo Abdel NMLS #1426884',
-  description: 'Refinance after bankruptcy with Mo Abdel NMLS #1426884. Chapter 7 requires 2-4 year waiting period, Chapter 13 requires 1-2 years. FHA, VA, Conventional options. Call (949) 579-2057.',
+  description: 'Refinance after bankruptcy with Mo Abdel NMLS #1426884. Chapter 7 requires 2-4 year waiting period, Chapter 13 requires 1-2 years. FHA, VA, Conventional options. Call or Text (949) 579-2057.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/refinance-after-bankruptcy-waiting-periods-2026',
     languages: {
@@ -596,7 +596,7 @@ export default function RefinanceAfterBankruptcyWaitingPeriodsPage() {
               Get Your Free Post-Bankruptcy Review
             </Link>
             <a href="tel:+19495792057" className="inline-block border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 text-center no-underline">
-              Call (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

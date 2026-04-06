@@ -868,7 +868,7 @@ export default function ReverseMortgagePropertyTaxInsurancePage() {
                 href="tel:9495792057"
                 className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
               >
-                Call (949) 579-2057
+                Call or Text (949) 579-2057
               </a>
               <Link
                 href="/contact"

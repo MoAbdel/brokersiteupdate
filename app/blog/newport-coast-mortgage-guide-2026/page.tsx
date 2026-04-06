@@ -1072,7 +1072,7 @@ export default function NewportCoastMortgageGuide2026() {
             Get a personalized rate quote and program recommendation for your Newport Coast purchase or refinance. We compare 50+ Wholesale Lenders to find the optimal solution for your financial profile.
           </p>
           <p className="text-lg font-bold text-blue-800 mb-2">
-            Call (949) 579-2057 or <a href="/contact" className="text-blue-600 hover:underline">Request a Consultation</a>
+            Call or Text (949) 579-2057 or <a href="/contact" className="text-blue-600 hover:underline">Request a Consultation</a>
           </p>
           <p className="text-sm text-gray-500 mb-0">
             Mo Abdel | NMLS #1426884 | Lumin Lending, NMLS #2716106
