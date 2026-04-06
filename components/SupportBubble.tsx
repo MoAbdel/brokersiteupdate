@@ -192,7 +192,7 @@ export default function SupportBubble() {
               </div>
 
               <div className="text-left pr-2 relative z-10">
-                <p className="text-sm font-bold text-slate-800">Chat with Support</p>
+                <p className="text-sm font-bold text-slate-800">Chat with Mo</p>
                 <p className="text-xs text-slate-500">Online now</p>
               </div>
             </motion.button>
@@ -443,12 +443,16 @@ export default function SupportBubble() {
 
               {/* Footer */}
               <div className="bg-slate-50/80 backdrop-blur-sm p-4 text-center border-t border-slate-100">
-                <p className="text-xs text-slate-500 flex items-center justify-center gap-1">
-                  Or call us directly at
-                  <a href="tel:9495792057" className="text-slate-700 font-bold hover:underline hover:text-slate-900">
-                    (949) 579-2057
+                <div className="flex items-center justify-center gap-4 mb-2">
+                  <a href="tel:9495792057" className="text-slate-700 text-xs font-bold hover:underline hover:text-slate-900 flex items-center gap-1">
+                    <Phone className="w-3.5 h-3.5" />
+                    Call or Text (949) 579-2057
                   </a>
-                </p>
+                  <span className="text-slate-300">|</span>
+                  <a href="/mo-abdel-contact.vcf" download="mo-abdel-contact.vcf" className="text-blue-600 text-xs font-bold hover:underline flex items-center gap-1">
+                    Save Contact
+                  </a>
+                </div>
                 <p className="text-xs text-slate-400 mt-2">
                   Not a loan application or commitment to lend. All loans subject to credit approval. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106. Equal Housing Lender.
                 </p>
