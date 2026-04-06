@@ -3,7 +3,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { MessageCircle, X, Send, Phone } from 'lucide-react';
+import { MessageCircle, X, Send, Phone, Download } from 'lucide-react';
 import {
   findBestResponse,
   quickActions,
@@ -153,7 +153,7 @@ function ChatbotUI() {
       {isOpen && (
         <div
           role="dialog"
-          aria-label="Mo's AI Assistant"
+          aria-label="Chat with Mo"
           style={{
             position: 'fixed',
             right: 'max(12px, env(safe-area-inset-right, 12px))',
@@ -213,7 +213,7 @@ function ChatbotUI() {
                 />
               </div>
               <div>
-                <div style={{ fontSize: '16px', fontWeight: 600 }}>Mo&apos;s AI Assistant</div>
+                <div style={{ fontSize: '16px', fontWeight: 600 }}>Chat with Mo</div>
                 <div style={{ fontSize: '12px', opacity: 0.8 }}>Always here to help</div>
               </div>
             </div>
@@ -237,13 +237,16 @@ function ChatbotUI() {
             </button>
           </div>
 
-          {/* Call Mo Banner */}
+          {/* Call or Text Mo Banner */}
           <div
             style={{
               backgroundColor: '#f0fdf4',
               borderBottom: '1px solid #dcfce7',
-              padding: '12px 16px',
-              textAlign: 'center'
+              padding: '10px 16px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '12px'
             }}
           >
             <a
@@ -251,16 +254,32 @@ function ChatbotUI() {
               style={{
                 color: '#166534',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: '13px',
                 fontWeight: 500,
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center',
-                gap: '8px'
+                gap: '6px'
               }}
             >
-              <Phone size={16} />
-              Call Mo directly: (949) 579-2057
+              <Phone size={14} />
+              Call or Text: (949) 579-2057
+            </a>
+            <span style={{ color: '#d1d5db' }}>|</span>
+            <a
+              href="/mo-abdel-contact.vcf"
+              download="mo-abdel-contact.vcf"
+              style={{
+                color: '#166534',
+                textDecoration: 'none',
+                fontSize: '13px',
+                fontWeight: 500,
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+            >
+              <Download size={14} />
+              Save Contact
             </a>
           </div>
 
@@ -463,7 +482,7 @@ function ChatbotUI() {
           @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
           @media (min-width: 768px) {
             /* Desktop/tablet: give it more real estate */
-            [role="dialog"][aria-label="Mo's AI Assistant"] {
+            [role="dialog"][aria-label="Chat with Mo"] {
               width: 384px !important;
               height: 600px !important;
               right: 24px !important;

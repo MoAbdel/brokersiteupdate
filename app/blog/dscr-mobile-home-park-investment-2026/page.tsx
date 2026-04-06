@@ -577,7 +577,7 @@ export default function DSCRMobileHomeParkInvestment2026() {
               Request MHP Loan Scenarios
             </Link>
             <a href="tel:+19495792057" className="inline-block border border-white text-white hover:bg-white/10 font-semibold px-6 py-3 rounded-lg transition-colors">
-              (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>

@@ -396,7 +396,7 @@ export default function OCNeighborhoodsGuide() {
             </Link>
             <a href="tel:(949) 579-2057">
               <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                Call Mo: (949) 579-2057
+                Call or Text Mo: (949) 579-2057
               </Button>
             </a>
           </div>

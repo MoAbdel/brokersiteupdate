@@ -715,7 +715,7 @@ export default function HelocEmergencyFundStrategyPage() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="tel:9495792057" className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors">
               <Phone className="w-5 h-5 mr-2" />
-              (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-400 transition-colors">
               Request HELOC Consultation <ArrowRight className="w-5 h-5 ml-2" />

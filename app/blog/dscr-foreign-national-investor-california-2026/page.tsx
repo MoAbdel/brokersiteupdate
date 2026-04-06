@@ -277,7 +277,7 @@ export default function DSCRForeignNationalInvestorCalifornia2026() {
           <p className="text-slate-700 mb-4">Mo Abdel works with 200+ wholesale lenders offering foreign national DSCR programs. Get a personalized rate comparison for your investment property in California or Washington.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 text-center">Get Your DSCR Quote</Link>
-            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">(949) 579-2057</a>
+            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">Call or Text (949) 579-2057</a>
           </div>
         </div>
 
@@ -418,7 +418,7 @@ export default function DSCRForeignNationalInvestorCalifornia2026() {
           <p className="text-slate-700 mb-4">Mo Abdel has closed DSCR loans for foreign nationals from 15+ countries. Get connected with lenders who specialize in non-resident investor programs.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 text-center">Start Your Application</Link>
-            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">(949) 579-2057</a>
+            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">Call or Text (949) 579-2057</a>
           </div>
         </div>
 
@@ -622,7 +622,7 @@ export default function DSCRForeignNationalInvestorCalifornia2026() {
           <p className="text-slate-700 mb-4">Mo Abdel specializes in DSCR loans for foreign national investors across California and Washington. With access to 200+ wholesale lenders, he matches international investors with the optimal DSCR program for their specific situation &mdash; visa type, documentation, down payment, and target market.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 text-center">Get Your Personalized DSCR Quote</Link>
-            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">(949) 579-2057</a>
+            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">Call or Text (949) 579-2057</a>
           </div>
         </div>
 

@@ -173,7 +173,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
           }
           primaryAction={{
             href: PHONE_TEL_HREF,
-            label: `Call: ${PHONE_DISPLAY}`,
+            label: `Call or Text: ${PHONE_DISPLAY}`,
             icon: Phone,
             ariaLabel: `Call Mo Abdel for a free mortgage quote at ${PHONE_DISPLAY}`,
           }}
@@ -377,7 +377,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
               <a href={PHONE_TEL_HREF}>
                 <Button size="lg" variant="default" className="bg-white text-slate-950 hover:bg-slate-100" aria-label={`Call Mo Abdel at ${PHONE_DISPLAY}`}>
                   <Phone className="w-5 h-5 mr-2" aria-hidden="true" />
-                  Call: {PHONE_DISPLAY}
+                  Call or Text: {PHONE_DISPLAY}
                 </Button>
               </a>
               <Link href="/contact">

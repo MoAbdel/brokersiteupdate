@@ -277,7 +277,7 @@ export default function DSCRRateBuydownInvestmentProperty2026() {
           <p className="text-slate-700 mb-4">Mo Abdel compares buydown pricing across the entire wholesale DSCR market to find the most efficient point structure for your investment property. See how much you can save.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 text-center">Get Your Buydown Analysis</Link>
-            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">(949) 579-2057</a>
+            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">Call or Text (949) 579-2057</a>
           </div>
         </div>
 
@@ -437,7 +437,7 @@ export default function DSCRRateBuydownInvestmentProperty2026() {
           <p className="text-slate-700 mb-4">Mo Abdel runs personalized break-even analyses comparing buydown options across 200+ wholesale DSCR lenders. Get a custom comparison showing your exact savings.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 text-center">Request Your Analysis</Link>
-            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">(949) 579-2057</a>
+            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">Call or Text (949) 579-2057</a>
           </div>
         </div>
 
@@ -588,7 +588,7 @@ export default function DSCRRateBuydownInvestmentProperty2026() {
           <p className="text-slate-700 mb-4">Mo Abdel runs rate buydown comparisons across 200+ wholesale DSCR lenders to find the optimal point structure for your investment property. Whether you&rsquo;re purchasing, refinancing, or evaluating seller concession strategies, get the numbers that matter.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link href="/contact" className="inline-block bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 text-center">Get Your DSCR Quote</Link>
-            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">(949) 579-2057</a>
+            <a href="tel:+19495792057" className="inline-block border border-green-700 text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-green-100 text-center">Call or Text (949) 579-2057</a>
           </div>
         </div>
 

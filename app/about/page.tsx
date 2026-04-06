@@ -214,7 +214,7 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button className="bg-white text-blue-700 hover:bg-slate-50 px-8 py-3 text-lg font-semibold">
-                Schedule a Call
+                Call or Text Mo
               </Button>
             </Link>
             <a href="mailto:mo.abdel@luminlending.com">

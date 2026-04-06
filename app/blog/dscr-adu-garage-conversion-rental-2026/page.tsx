@@ -561,7 +561,7 @@ export default function DSCRADUGarageConversionRental2026() {
               Request a DSCR Quote
             </Link>
             <a href="tel:+19495792057" className="inline-block border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white/10 transition">
-              (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>
@@ -797,7 +797,7 @@ export default function DSCRADUGarageConversionRental2026() {
               Get Your DSCR Analysis
             </Link>
             <a href="tel:+19495792057" className="inline-block border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white/10 transition">
-              (949) 579-2057
+              Call or Text (949) 579-2057
             </a>
           </div>
         </div>
