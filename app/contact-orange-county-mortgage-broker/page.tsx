@@ -177,8 +177,8 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
             <Card className="text-center shadow-lg">
               <CardContent className="p-4">
-                <div className="text-2xl font-bold text-blue-600 mb-1">200+</div>
-                <div className="text-sm text-slate-600">Lender Partners</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">50+</div>
+                <div className="text-sm text-slate-600">Wholesale Lenders</div>
               </CardContent>
             </Card>
             <Card className="text-center shadow-lg">
@@ -247,8 +247,8 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 text-lg">Service Area</h3>
-                      <p className="text-blue-600 font-semibold">All Orange County, California</p>
-                      <p className="text-sm text-slate-600">Based in Lake Forest • Serving all OC cities</p>
+                      <p className="text-blue-600 font-semibold">California &amp; Washington</p>
+                      <p className="text-sm text-slate-600">Based in Irvine, CA • Serving CA &amp; WA statewide</p>
                     </div>
                   </div>
 

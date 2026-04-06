@@ -22,6 +22,11 @@ const ORANGE_COUNTY_DATA = {
 };
 
 const LOAN_PROGRAMS = {
+  purchase: {
+    title: 'Home Purchase',
+    description: 'Buy a primary residence, second home, or investment property',
+    programs: ['Conventional', 'FHA', 'VA', 'Jumbo', 'Bank Statement', 'DSCR']
+  },
   refinance: {
     title: 'Rate & Term Refinance',
     description: 'Lower your monthly payment or change loan terms',
@@ -213,9 +218,11 @@ export default function EnhancedContactForm() {
   };
 
   const canProceedToStep3 = () => {
-    if (!['heloc', 'heloan'].includes(formData.loanPurpose) && !formData.loanType) return false;
+    if (!['heloc', 'heloan', 'purchase'].includes(formData.loanPurpose) && !formData.loanType) return false;
 
-    if (formData.loanPurpose === 'refinance') {
+    if (formData.loanPurpose === 'purchase') {
+      return formData.homeValue && formData.loanAmount;
+    } else if (formData.loanPurpose === 'refinance') {
       return formData.currentLoanAmount && formData.currentRate && formData.homeValue;
     } else if (formData.loanPurpose === 'cash-out') {
       return formData.currentLoanAmount && formData.currentRate && formData.cashOutAmount && formData.homeValue;
@@ -383,7 +390,7 @@ export default function EnhancedContactForm() {
 
           <p className="text-sm text-slate-500">
             Need immediate assistance? Call Mo directly at{' '}
-            <a href="tel:(949) 579-2057" className="text-blue-600 hover:text-blue-700 font-semibold">
+            <a href="tel:+19495792057" className="text-blue-600 hover:text-blue-700 font-semibold">
               (949) 579-2057
             </a>
           </p>
@@ -420,7 +427,7 @@ export default function EnhancedContactForm() {
               <div className="text-center mb-6">
                 <MapPin className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                 <h3 className="text-xl font-bold text-slate-900">Location & Purpose</h3>
-                <p className="text-slate-600">Tell us about your Orange County mortgage needs</p>
+                <p className="text-slate-600">Tell us about your mortgage needs in California or Washington</p>
               </div>
 
               <div>
@@ -585,6 +592,53 @@ export default function EnhancedContactForm() {
                       }}
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       placeholder="7.25"
+                      required
+                    />
+                  </div>
+                </>
+              )}
+
+              {/* Purchase Fields */}
+              {formData.loanPurpose === 'purchase' && (
+                <>
+                  <div>
+                    <label className="block text-sm font-medium text-slate-700 mb-2">
+                      Purchase Price *
+                    </label>
+                    <input
+                      type="text"
+                      value={formData.homeValue}
+                      onChange={(e) => {
+                        const value = e.target.value.replace(/[^0-9]/g, '');
+                        if (value) {
+                          handleInputChange('homeValue', parseInt(value).toLocaleString());
+                        } else {
+                          handleInputChange('homeValue', '');
+                        }
+                      }}
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      placeholder="850,000"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-slate-700 mb-2">
+                      Loan Amount Needed *
+                    </label>
+                    <input
+                      type="text"
+                      value={formData.loanAmount}
+                      onChange={(e) => {
+                        const value = e.target.value.replace(/[^0-9]/g, '');
+                        if (value) {
+                          handleInputChange('loanAmount', parseInt(value).toLocaleString());
+                        } else {
+                          handleInputChange('loanAmount', '');
+                        }
+                      }}
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      placeholder="680,000"
                       required
                     />
                   </div>

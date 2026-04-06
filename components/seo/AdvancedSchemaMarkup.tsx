@@ -80,7 +80,7 @@ export default function AdvancedSchemaMarkup({
   },
   founder = {
     name: "Mo Abdel",
-    jobTitle: "Branch Manager",
+    jobTitle: "Sr. Mortgage Broker",
     sameAs: ["https://luminlending.com/team/mo-abdel"]
   }
 }: SchemaProps) {

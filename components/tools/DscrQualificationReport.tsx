@@ -217,10 +217,10 @@ export default function DscrQualificationReport({
           </ol>
           <div className="flex flex-col sm:flex-row gap-3">
             <a
-              href="tel:+19498229662"
+              href="tel:+19495792057"
               className="inline-flex items-center justify-center rounded-md bg-white text-slate-900 font-semibold px-6 py-3 text-sm hover:bg-slate-100 transition-colors"
             >
-              Call (949) 822-9662
+              Call or Text (949) 579-2057
             </a>
             <Link
               href="/contact"

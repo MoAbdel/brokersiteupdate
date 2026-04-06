@@ -529,7 +529,7 @@ export default function DscrQualificationCalculator({
             Rates as of {TOOL_RATES.lastUpdated}. Calculations are estimates for educational
             purposes only. Actual DSCR requirements, rates, and terms vary by lender, property
             type, and loan program. Most DSCR lenders require a minimum ratio of 1.0&ndash;1.25.
-            Contact Mo Abdel at (949) 822-9662 for a personalized investment property analysis.
+            Contact Mo Abdel at (949) 579-2057 for a personalized investment property analysis.
             NMLS #1426884 | Lumin Lending NMLS #2716106.
           </p>
         </div>

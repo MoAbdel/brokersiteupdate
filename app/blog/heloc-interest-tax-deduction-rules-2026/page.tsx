@@ -970,10 +970,10 @@ export default function HelocInterestTaxDeductionRules2026() {
                 Get My Free HELOC Consultation
               </Link>
               <a
-                href="tel:9498229662"
+                href="tel:+19495792057"
                 className="border-2 border-white text-white font-bold px-7 py-3 rounded-lg hover:bg-blue-700 transition-colors"
               >
-                Call (949) 822-9662
+                Call or Text (949) 579-2057
               </a>
             </div>
             <p className="text-blue-200 text-xs mt-4">
