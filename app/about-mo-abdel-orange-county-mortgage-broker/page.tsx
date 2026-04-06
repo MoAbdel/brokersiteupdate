@@ -25,7 +25,7 @@ const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Mo Abdel",
-  "jobTitle": "Licensed Mortgage Broker",
+  "jobTitle": "Sr. Mortgage Broker",
   "worksFor": {
     "@type": "Organization",
     "name": "Lumin Lending",
@@ -122,7 +122,7 @@ export default function AboutMoAbdelPage() {
               </a>
               <div className="inline-flex items-center text-slate-600">
                 <MapPin className="w-5 h-5 mr-2" />
-                Lake Forest, CA
+                Irvine, CA
               </div>
             </div>
           </div>
@@ -131,8 +131,8 @@ export default function AboutMoAbdelPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             <Card className="text-center shadow-lg">
               <CardContent className="p-6">
-                <div className="text-3xl font-bold text-blue-600 mb-2">200+</div>
-                <div className="text-sm text-slate-600">Lender Partners</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+                <div className="text-sm text-slate-600">Wholesale Lenders</div>
               </CardContent>
             </Card>
             <Card className="text-center shadow-lg">
@@ -163,16 +163,10 @@ export default function AboutMoAbdelPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-slate-700">
                 <p className="mb-4">
-                  As a licensed mortgage broker serving Orange County, I specialize in helping homeowners unlock the power of their home's equity and secure better mortgage terms through strategic refinancing. <strong>According to 2025 HMDA data analysis, research shows that mortgage brokers save borrowers an average of $10,662 over the life of their loan compared to retail lenders.</strong> With access to 50+ Wholesale Lenders, I can offer you pricing and equity programs that traditional banks simply cannot match.
+                  Growing up in Orange County, I watched families build wealth through homeownership. I also watched them get boxed into whatever one bank was willing to offer. That gap is exactly why I became a broker.
                 </p>
                 <p className="mb-4">
-                  Your home is likely your largest asset—let's make it work harder for you. Unlike big banks that push their own products, I work exclusively for you, comparing pricing and terms from 50+ Wholesale Lenders to find the perfect solution for your unique situation.
-                </p>
-                <p className="mb-4">
-                  Whether you're looking to lower your monthly payments, eliminate PMI, consolidate high-interest debt, or access cash for home improvements, I have the expertise and lender relationships to deliver results. My average closing time of just 18 days means you can start saving sooner.
-                </p>
-                <p className="mb-4">
-                  What sets me apart is my commitment to transparency and education. I believe you should understand every aspect of your loan, which is why I take the time to explain options and answer questions throughout the process. My clients appreciate my data-driven approach and the fact that I'm available 24/7 to guide you through every step.
+                  As a wholesale mortgage broker, I'm not tied to any single lender's programs or guidelines. When one lender says no—or offers you a rate that doesn't reflect your full picture—I have <strong>50+ wholesale lenders</strong> I can shop your loan against. That means creative solutions for borrowers who don't fit the cookie-cutter mold: self-employed, investor properties, non-traditional income, jumbo loans, credit rebuilds.
                 </p>
               </div>
             </CardContent>
@@ -319,7 +313,7 @@ export default function AboutMoAbdelPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-slate-700 text-center mb-8">
                 <p>
-                  As a Lake Forest resident serving Orange County, I understand the unique aspects of our local market—from Irvine's master-planned communities to Newport Beach's luxury coastal properties.
+                  Based in Irvine and serving clients across California and Washington, I understand the unique aspects of our local market—from Irvine's master-planned communities to Newport Beach's luxury coastal properties.
                 </p>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">

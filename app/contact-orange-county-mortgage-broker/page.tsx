@@ -168,7 +168,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
               </a>
               <div className="inline-flex items-center text-slate-600 text-lg">
                 <MapPin className="w-5 h-5 mr-2" />
-                Serving All Orange County
+                Serving California &amp; Washington
               </div>
             </div>
           </div>
@@ -343,7 +343,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
               <Card className="shadow-xl">
                 <CardHeader>
                   <CardTitle className="text-2xl text-center">
-                    Get Your Free pricing Quote
+                    Get Your Free Pricing Quote
                   </CardTitle>
                   <p className="text-slate-600 text-center">
                     Fill out the form below and I'll get back to you within hours with a personalized loan quote and loan options.
@@ -361,10 +361,10 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
             <Card className="shadow-xl">
               <CardHeader>
                 <CardTitle className="text-3xl text-center">
-                  Orange County Cities We Serve
+                  Cities We Serve
                 </CardTitle>
                 <p className="text-slate-600 text-center">
-                  Licensed to serve all Orange County communities with local market expertise
+                  Licensed in California and Washington — serving clients statewide
                 </p>
               </CardHeader>
               <CardContent>
@@ -385,7 +385,7 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   ))}
                 </div>
                 <p className="text-center text-slate-600 mt-6 text-lg">
-                  <strong>Complete Orange County Coverage</strong> - Every city, every neighborhood, every community
+                  <strong>Plus Seattle, Bellevue, Tacoma, and all of Washington State</strong>
                 </p>
               </CardContent>
             </Card>
@@ -400,10 +400,10 @@ export default function ContactOrangeCountyMortgageBrokerPage() {
                   Time-sensitive mortgage questions? I'm available 24/7 for urgent inquiries.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="tel:+19495792057">
+                  <a href="/mo-abdel-contact.vcf" download="mo-abdel-contact.vcf">
                     <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-4 text-lg font-semibold">
                       <Phone className="w-5 h-5 mr-2" />
-                      Call or Text: (949) 579-2057
+                      Save Contact — Call or Text
                     </Button>
                   </a>
                   <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 text-lg">
