@@ -3,9 +3,9 @@ import { JsonLd } from '@/app/(marketing)/components/Schema';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata = {
-  title: 'Irvine Neighborhoods Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
+  title: 'Irvine Neighborhood Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
   description:
-    'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
+    'Village-by-village Irvine mortgage guide covering Woodbridge, Turtle Rock, University Park, Great Park, and other Irvine neighborhoods with financing considerations that actually change loan strategy.',
   alternates: {
     canonical: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
     languages: {
@@ -17,14 +17,14 @@ export const metadata = {
   openGraph: {
     title: 'Irvine Neighborhoods Mortgage Guide | Village-Specific Home Financing',
     description:
-      'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
+      'Village-by-village Irvine mortgage guide covering Woodbridge, Turtle Rock, University Park, Great Park, and other Irvine neighborhoods with financing considerations that actually change loan strategy.',
     url: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
     type: 'website',
   },
 };
 
 export default function Page() {
-  const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
+  const LAST_UPDATED_ISO = '2026-04-07T00:00:00.000Z';
   const faqs = [
     { q: 'Do different Irvine neighborhoods require different loan types?', a: 'While most Irvine neighborhoods require jumbo financing due to high property values, specific villages may have different property types (condos vs. single-family) affecting loan programs and qualification.' },
     { q: 'How do Mello-Roos taxes affect financing in newer Irvine developments?', a: 'Mello-Roos taxes in areas like Great Park are factored into debt-to-income calculations. We work with lenders familiar with these assessments and their impact on qualification.' },
@@ -55,27 +55,29 @@ export default function Page() {
 
   const pageSchema = buildServiceWebPageSchema({
     pageUrl: 'https://www.mothebroker.com/areas/irvine-neighborhoods',
-    title: 'Irvine Neighborhoods Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
+    title: 'Irvine Neighborhood Mortgage Guide | Woodbridge, Turtle Rock, Great Park',
     description:
-      'Complete Irvine neighborhoods financing guide. Mortgage options for Woodbridge, Turtle Rock, University Park, Great Park, and all Irvine villages with competitive wholesale pricing.',
+      'Village-by-village Irvine mortgage guide covering Woodbridge, Turtle Rock, University Park, Great Park, and other Irvine neighborhoods with financing considerations that actually change loan strategy.',
     breadcrumbName: 'Irvine Neighborhoods',
+    dateModified: LAST_UPDATED_ISO,
   });
 
   const sections = [
     {
       id: 'overview',
-      heading: 'Irvine neighborhoods financing guide',
+      heading: 'Which Irvine neighborhood financing issues matter most?',
       body: (
         <>
           <p>
-            Irvine's master-planned communities offer diverse neighborhoods, each with unique characteristics that influence 
-            home financing. From established villages like Woodbridge and Turtle Rock to newer developments in Great Park, 
-            understanding neighborhood-specific factors helps optimize your mortgage approach.
+            The biggest Irvine financing mistake is treating every village like the same market. Older neighborhoods with long sales histories,
+            newer master-planned sections with Mello-Roos, condo-heavy zones near UC Irvine, and hillside luxury pockets like Turtle Rock all
+            create different underwriting, appraisal, HOA, and loan-amount decisions. If you want the short answer: established villages tend
+            to reward cleaner appraisal support, while newer neighborhoods require more attention to taxes, assessments, and community overlays.
           </p>
           <p>
-            As a wholesale mortgage broker specializing in Irvine, we understand the nuances of financing in different villages—
-            from Mello-Roos considerations in newer areas to HOA structures in established communities, property type variations, 
-            and neighborhood-specific market dynamics. This expertise ensures we match the right financing solution to your specific Irvine location.
+            As a wholesale mortgage broker specializing in Irvine, we match the loan structure to the village instead of forcing the same advice
+            onto every buyer. That means considering Mello-Roos in Great Park, condo review standards near the university, HOA and reserve
+            questions in established communities, and jumbo thresholds in higher-priced neighborhoods before we recommend a lender path.
           </p>
         </>
       ),
@@ -206,6 +208,7 @@ export default function Page() {
 
   const links = [
     { label: 'Irvine mortgage services', href: '/areas/irvine' },
+    { label: 'Irvine mortgage broker', href: '/areas/irvine-mortgage-broker' },
     { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
     { label: 'HELOC options', href: '/heloc-orange-county' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },

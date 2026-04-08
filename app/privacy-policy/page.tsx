@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Shield, Eye, FileText, Phone } from 'lucide-react';
+import { OFFICE_CITY, OFFICE_POSTAL_CODE, OFFICE_STATE, OFFICE_STREET_ADDRESS, PHONE_DISPLAY } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Mo Abdel Mortgage Broker - NMLS #1426884',
@@ -47,7 +48,7 @@ export default function PrivacyPolicyPage() {
               <h3 className="text-lg font-semibold text-blue-800 mb-2">Your Privacy Matters</h3>
               <p className="text-blue-700">
                 We are committed to protecting your personal and financial information in compliance with federal and state regulations.
-                Questions? Contact us at <strong>(949) 579-2057</strong>.
+                Questions? Contact us at <strong>{PHONE_DISPLAY}</strong>.
               </p>
             </div>
           </div>
@@ -140,8 +141,8 @@ export default function PrivacyPolicyPage() {
             <p className="text-slate-700 mb-4">To exercise your California privacy rights, contact us:</p>
             <ul className="list-disc pl-6 text-slate-700 mb-6">
               <li>Contact Form: <Link href="/contact" className="text-blue-600 hover:text-blue-700">Available on our Contact page</Link></li>
-              <li>Phone: (949) 579-2057</li>
-              <li>Mail: 18201 Von Karman Ave Suite 800, Irvine, CA 92612</li>
+              <li>Phone: {PHONE_DISPLAY}</li>
+              <li>Mail: {OFFICE_STREET_ADDRESS}, {OFFICE_CITY}, {OFFICE_STATE} {OFFICE_POSTAL_CODE}</li>
             </ul>
           </section>
 
@@ -216,7 +217,7 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 579-2057</span>
+                  <span>Phone: {PHONE_DISPLAY}</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
@@ -226,8 +227,8 @@ export default function PrivacyPolicyPage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   Lumin Lending<br />
-                  18201 Von Karman Ave Suite 800<br />
-                  Irvine, CA 92612
+                  {OFFICE_STREET_ADDRESS}<br />
+                  {OFFICE_CITY}, {OFFICE_STATE} {OFFICE_POSTAL_CODE}
                 </div>
               </div>
             </div>

@@ -1,3 +1,38 @@
+# 2026-04-07 Bing-First / Google-Safe Index Cleanup And CTR Lift
+
+## Plan
+
+- [x] Refresh the current April 2026 truth set with GSC/Bing exports, SEO audit outputs, internal-link audit, and opportunity queue data.
+- [x] Add a shared indexing-policy source of truth for middleware, sitemap generation, and metadata defaults.
+- [x] Suppress non-page crawl noise and low-yield tool route families while preserving only the strongest hubs.
+- [x] Consolidate overlap via redirects/canonical fixes, including `/heloc-specialist-orange-county` and calculator metadata inheritance issues.
+- [x] Rewrite priority survivor pages for Bing-first clarity and Google-safe usefulness (`/loan-programs/va-refinance`, `/refinance-loans`, `/areas/irvine-neighborhoods`) and refresh stale high-signal 2026 pages.
+- [x] Run verification (`npm run typecheck`, `npm run sitemap`, `npx next build`) and document results plus follow-up actions.
+
+## Review
+
+- Refreshed the April 2026 local truth set with fresh audits and queue files: `reports/seo-audit-20260408_034055.{json,md}`, `reports/seo-audit-low-ctr-20260408_034055.csv`, `reports/opportunity-queue.json`, `reports/internal-link-audit.{json,csv}`, `reports/noindex-dead-20260408T034106.json`, `reports/striking-distance-keep-20260408T034106.json`, and `reports/cannibalization-merges-20260408T034106.json`.
+- Attempted fresh Google Search Console exports on April 7, 2026, but the configured credentials still return `403 User does not have sufficient permission for site 'sc-domain:mothebroker.com'`. I fixed the Windows-incompatible query export script in `scripts/export-gsc-performance.mjs` / `package.json`, but live GSC refresh remains blocked until the service account is granted access.
+- Added a shared indexing-policy manifest in `lib/seo-route-policy.js` and wired it into `middleware.ts`, `next-sitemap.config.js`, `vercel.json`, and `lib/metadata.ts` so redirect/noindex/sitemap behavior now comes from one source of truth.
+- Suppressed non-page crawl noise and thin programmatic routes: `opengraph-image`, `robots.txt`, `sitemap*.xml`, `llms*.txt`, `*.vcf`, `/cookie-policy`, low-yield tool families, and county/city `property-tax-estimator` pages now resolve to the intended `X-Robots-Tag` and are excluded from the sitemap manifest.
+- Consolidated overlap by redirecting `/heloc-specialist-orange-county` at the page, middleware, and Vercel levels, and by giving the calculator subpages unique metadata/canonical definitions so they no longer inherit `/calculator` signals.
+- Rewrote or materially improved the kept-indexed survivor pages for answer-first Bing/Google optimization: `/loan-programs/va-refinance`, `/refinance-loans`, `/areas/irvine-neighborhoods`, `/areas/irvine-mortgage-broker`, `/areas/newport-beach-mortgage-broker`, `/blog/corona-del-mar-refinance-guide-2026`, and `/blog/heloan-vs-cash-out-refinance-2026`.
+- Standardized entity/NAP signals across schema and contact/legal surfaces with the verified public office address (`18301 Von Karman Ave Suite 820, Irvine, CA 92612`) and public email (`mo.abdel@luminlending.com`), while moving boilerplate disclosures behind `data-nosnippet`.
+- Updated FAQ rendering to crawl-visible `<details>/<summary>` markup in `components/FAQ.tsx` and `components/home/StructuredFAQ.tsx`, while keeping FAQ schema output in place.
+- Verification passed: `npm run typecheck`, `npm run sitemap`, and `npx next build`.
+- Representative post-build checks passed:
+  - `public/sitemap.xml` excludes `/cookie-policy`, `/heloc-specialist-orange-county`, and sampled suppressed tool county/city URLs.
+  - `public/sitemap.xml` still includes survivor routes like `/loan-programs/va-refinance` and `/refinance-loans`.
+  - Sample policy checks confirm `/cookie-policy` and `opengraph-image` resolve to `noindex, nofollow`, localized tool routes resolve to `noindex, follow`, `/tools/property-tax-estimator/ca` stays indexable, and `/heloc-specialist-orange-county` resolves to a redirect bucket targeting `/heloc-orange-county`.
+- Runtime spot-checks against a local production server passed:
+  - `/heloc-specialist-orange-county` returns `301` to `https://www.mothebroker.com/heloc-orange-county`.
+  - `/cookie-policy` returns `x-robots-tag: noindex, nofollow`.
+  - Sample `opengraph-image` routes return `x-robots-tag: noindex, nofollow`.
+  - Sample low-yield tool county/city routes return `x-robots-tag: noindex, follow`.
+- Static asset header backstops for `robots.txt`, `sitemap*.xml`, `llms*.txt`, and `*.vcf` are configured in `vercel.json` and were verified at the config level.
+
+---
+
 # 2026-03-31 Skill V2 Rebase
 
 ## Plan

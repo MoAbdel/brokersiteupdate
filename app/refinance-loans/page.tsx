@@ -1,448 +1,300 @@
-import React from 'react';
-import type { Metadata } from 'next';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+import { ArrowRight, BadgePercent, CheckCircle2, Clock3, Home, Landmark, Wallet } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { TrendingDown, DollarSign, Home, Clock, Calculator, CheckCircle, Zap, CreditCard, PiggyBank, AlertTriangle } from 'lucide-react';
-import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import { buildBrokerEntityGraph, buildFAQPageSchema, buildServiceWebPageSchema } from '@/lib/schema-entities';
+import { generateMetadata } from '@/lib/metadata';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'California & Washington Refinance Loans | Rate-Term, Cash-Out, FHA, VA',
-  description: 'Compare refinance options across California and Washington including rate-term, cash-out, FHA, and VA programs with wholesale lender access and expert guidance.',
-  openGraph: {
-    title: 'California & Washington Refinance Loans | Rate-Term, Cash-Out, FHA, VA',
-    description: 'Compare refinance options across California and Washington including rate-term, cash-out, FHA, and VA programs with wholesale lender access and expert guidance.',
-    url: 'https://www.mothebroker.com/refinance-loans',
-  },
-  alternates: {
-    canonical: 'https://www.mothebroker.com/refinance-loans',
-    languages: {
-      'en-US': 'https://www.mothebroker.com/refinance-loans',
-      'x-default': 'https://www.mothebroker.com/refinance-loans',
-    },
-  },
-};
+const PATH = '/refinance-loans';
+const PAGE_URL = `https://www.mothebroker.com${PATH}`;
+const DATE_MODIFIED = '2026-04-07';
 
-const structuredData = buildBrokerEntityGraph({
-  pageUrl: 'https://www.mothebroker.com/refinance-loans',
-  serviceType: 'Mortgage Refinance Services',
-  serviceName: 'California and Washington Refinance Loans',
-  serviceDescription: 'Expert mortgage refinance services across California and Washington',
-  areaServedNames: ['California', 'Washington'],
-});
-
-const pageSchema = buildServiceWebPageSchema({
-  pageUrl: 'https://www.mothebroker.com/refinance-loans',
-  title: 'California & Washington Refinance Loans | Rate-Term, Cash-Out, FHA, VA',
+export const metadata: Metadata = generateMetadata({
+  title: 'Refinance Loans | Rate-and-Term, Cash-Out, FHA, and VA Options',
   description:
-    'Compare refinance options across California and Washington including rate-term, cash-out, FHA, and VA programs with wholesale lender access and expert guidance.',
-  breadcrumbName: 'Refinance Loans',
+    'Compare refinance options across California and Washington, including rate-and-term, cash-out, FHA streamline, and VA refinance scenarios.',
+  path: PATH,
+  keywords: ['refinance loans', 'cash-out refinance', 'rate and term refinance', 'FHA streamline', 'VA refinance'],
+  dateModified: DATE_MODIFIED,
 });
 
-const refinanceOptions = [
+const options = [
   {
     title: 'Rate-and-Term Refinance',
-    icon: TrendingDown,
-    description: 'Lower your loan pricing or change your loan term',
-    benefits: [
-      'Reduce monthly payments with Lower pricing',
-      'Switch from ARM to fixed-rate for stability',
-      'Eliminate PMI when you reach 20% equity',
-      'Shorten loan term to save on total interest'
+    icon: BadgePercent,
+    bestFor: 'Homeowners who mainly want a cleaner payment, lower rate, or a different loan term.',
+    bullets: [
+      'Lower monthly payment or shorten payoff timeline',
+      'Move from adjustable to fixed-rate stability',
+      'Possible PMI removal when equity supports it',
     ],
-    bestFor: 'Homeowners with rates above current Market pricing',
-    averageSavings: '$200-500/month',
-    link: '/rate-term-refinance-orange-county'
+    href: '/rate-term-refinance-orange-county',
   },
   {
     title: 'Cash-Out Refinance',
-    icon: DollarSign,
-    description: 'Access your home\'s equity while refinancing',
-    benefits: [
-      'Access up to 80% of your home\'s value in cash',
-      'Consolidate high-interest debt',
-      'Fund home improvements or investments',
-      'Tax-deductible interest on home improvements'
+    icon: Wallet,
+    bestFor: 'Borrowers who need equity for debt payoff, renovation, reserves, or a larger liquidity plan.',
+    bullets: [
+      'Convert equity into one lump-sum loan proceeds amount',
+      'Can simplify higher-interest debt into one mortgage structure',
+      'Works best when the new payment still aligns with long-term goals',
     ],
-    bestFor: 'Homeowners with significant equity',
-    averageSavings: '$50K-500K+ cash out',
-    link: '/cash-out-refinance'
+    href: '/cash-out-refinance',
   },
   {
-    title: 'FHA Streamline Refinance',
-    icon: Zap,
-    description: 'Quick refinance for existing FHA borrowers',
-    benefits: [
-      'No appraisal required in most cases',
-      'Minimal documentation needed',
-      'Lower monthly payments guaranteed',
-      'Faster processing (2-3 weeks typical)'
+    title: 'FHA or VA Streamline Paths',
+    icon: Landmark,
+    bestFor: 'Borrowers who already have government-backed loans and want a lower-friction refinance path.',
+    bullets: [
+      'Often fewer documentation steps than a full refinance',
+      'Useful when payment improvement matters more than equity extraction',
+      'Can reduce timeline uncertainty for the right file',
     ],
-    bestFor: 'Current FHA loan holders',
-    averageSavings: 'Up to $300/month',
-    link: '/fha-loans-orange-county'
+    href: '/loan-programs/va-refinance',
   },
-  {
-    title: 'VA Interest Rate Reduction Refinance Loan (IRRRL)',
-    icon: Home,
-    description: 'Streamlined refinance for VA loan holders',
-    benefits: [
-      'No appraisal typically required',
-      'No income verification needed',
-      'Lower loan pricing and payments',
-      'Can refinance up to 100% of home value'
-    ],
-    bestFor: 'Veterans with existing VA loans',
-    averageSavings: '$150-400/month',
-    link: '/va-loans-orange-county'
-  }
 ];
 
 const faqs = [
   {
-    question: "When does refinancing make sense in California or Washington?",
-    answer: "Generally, refinancing makes sense when you can reduce your loan pricing by 0.5-1% or more, eliminate PMI, switch from an ARM to fixed-rate, or access equity through cash-out refinancing. In high-value markets, even small rate reductions can result in significant monthly savings."
+    question: 'When does refinancing actually make sense?',
+    answer:
+      'Refinancing usually makes sense when it clearly improves the mortgage, not just when rates move. The strongest cases are lower monthly payments, a better loan structure, PMI removal, or strategic equity access that still leaves you in a healthier overall position.',
   },
   {
-    question: "How much equity do I need to refinance my California or Washington home?",
-    answer: "For a rate-and-term refinance, you typically need at least 20% equity to avoid PMI on the new loan. For cash-out refinancing, you can generally access up to 80% of your home's value, meaning you'd need at least 20% remaining equity after the cash-out."
+    question: 'How much equity do I need to refinance?',
+    answer:
+      'It depends on the loan type and your goal. Rate-and-term refinances can work with less equity than a cash-out refinance, while cash-out options usually require you to leave meaningful equity in the home after closing.',
   },
   {
-    question: "What are current refinance pricing in California and Washington?",
-    answer: "Rates change daily and vary based on your credit score, loan amount, and property type. As a broker with access to 50+ Wholesale Lenders, I can shop multiple rate options to find your best deal. Call for current pricing specific to your situation."
+    question: 'Should I choose a cash-out refinance or a HELOC instead?',
+    answer:
+      'Choose cash-out when replacing the first mortgage improves the whole structure. Choose a HELOC or HELOAN when keeping an existing low first-lien rate is more valuable and you only need a second-lien equity tool.',
   },
   {
-    question: "How long does the refinance process take?",
-    answer: "Standard refinances typically take 2-3 weeks. Streamline refinances (FHA/VA) can close in 2-3 weeks. The timeline depends on appraisal scheduling, documentation completion, and lender processing times."
+    question: 'How long does a refinance take?',
+    answer:
+      'Many refinances close in a few weeks, but timing depends on the loan type, appraisal requirements, documentation speed, and lender turn times. Streamline scenarios can move faster than full cash-out or jumbo files.',
   },
-  {
-    question: "What costs are involved in refinancing?",
-    answer: "Refinancing costs typically include appraisal ($500-700), title insurance, loan origination fees, and other closing costs. Total costs usually range from 1-2% of the loan amount. I'll provide a detailed cost breakdown and help you determine if the long-term savings justify the upfront costs."
-  }
 ];
 
-const marketInsights = [
-  {
-    stat: "6.8%",
-    description: "Average Rate on Existing Mortgages"
-  },
-  {
-    stat: "6.2%",
-    description: "Current 30-Year Fixed Rates"
-  },
-  {
-    stat: "$1.26M",
-    description: "Typical High-Cost Market Home Value"
-  }
-];
+const brokerSchema = buildBrokerEntityGraph({
+  pageUrl: PAGE_URL,
+  serviceType: 'Mortgage Refinance Services',
+  serviceName: 'California and Washington Refinance Loans',
+  serviceDescription:
+    'Mortgage refinance guidance for rate-and-term, cash-out, FHA, and VA scenarios across California and Washington.',
+  areaServedNames: ['California', 'Washington'],
+});
+
+const pageSchema = buildServiceWebPageSchema({
+  pageUrl: PAGE_URL,
+  title: 'Refinance Loans | Rate-and-Term, Cash-Out, FHA, and VA Options',
+  description:
+    'Compare refinance options across California and Washington, including rate-and-term, cash-out, FHA streamline, and VA refinance scenarios.',
+  breadcrumbName: 'Refinance Loans',
+  dateModified: DATE_MODIFIED,
+});
+
+const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
 
 export default function RefinanceLoansPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
-      />
-      <div className="min-h-screen py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Hero Section */}
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Mortgage Refinance in <span className="text-blue-600">California &amp; Washington</span>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(brokerSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-white">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+          <section className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm md:p-12">
+            <div className="inline-flex items-center rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
+              <Home className="mr-2 h-4 w-4" />
+              Refinance planning hub
+            </div>
+            <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 md:text-5xl">
+              Refinance Loans in California and Washington
             </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              Whether you want to lower your monthly payments, shorten your loan term, or access your home's equity, 
-              refinancing can help you achieve your financial goals. With strong home values across California and Washington,
-              now may be the perfect time to optimize your mortgage.
+            <p className="mt-4 max-w-4xl text-lg leading-8 text-slate-700" data-speakable>
+              Refinance makes the most sense when it clearly improves the loan you already have. That can mean lowering the payment,
+              removing PMI, changing the term, or accessing equity in a way that still strengthens your overall balance sheet. The
+              right option is usually either rate-and-term, cash-out, or a government-backed streamline path, depending on your current loan.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057" className="flex items-center">
-                  <Calculator className="w-5 h-5 mr-2" />
-                  Check My Refinance Options
-                </a>
-              </Button>
-              <Button variant="ghost" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">
-                  Free Rate Review
-                </a>
-              </Button>
-            </div>
-          </div>
-
-          {/* Market Insights */}
-          <section className="mb-16 bg-blue-50 rounded-xl p-8">
-            <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-              California &amp; Washington Refinance Market Data
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {marketInsights.map((insight, index) => (
-                <div key={index} className="text-center">
-                  <h3 className="text-3xl font-bold text-blue-600 mb-2">{insight.stat}</h3>
-                  <p className="text-slate-700">{insight.description}</p>
-                </div>
-              ))}
-            </div>
-            <p className="text-center text-slate-600 mt-6 text-sm">
-              <em>*Rates as of January 2026. Many California and Washington homeowners may benefit from refinancing.</em>
-            </p>
-          </section>
-
-          {/* Types of Refinancing Options */}
-          <section className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
-              Types of Refinancing Options in California &amp; Washington
-            </h2>
-            <p className="text-xl text-slate-600 text-center mb-12 max-w-3xl mx-auto">
-              Different refinancing strategies serve different financial goals. Let's find the right option for your situation.
-            </p>
-            
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {refinanceOptions.map((option, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg p-8 border border-slate-200 hover:shadow-xl transition-shadow">
-                  <div className="flex items-center mb-6">
-                    <option.icon className="w-12 h-12 text-blue-600 mr-4" />
-                    <div>
-                      <h3 className="text-2xl font-bold text-slate-900">{option.title}</h3>
-                      <p className="text-slate-600">{option.description}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
-                    <p className="text-slate-900 font-semibold text-center">
-                      Potential Savings: {option.averageSavings}
-                    </p>
-                  </div>
-
-                  <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-slate-900 mb-3">Key Benefits:</h4>
-                    <ul className="space-y-2">
-                      {option.benefits.map((benefit, idx) => (
-                        <li key={idx} className="flex items-start">
-                          <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" />
-                          <span className="text-slate-700">{benefit}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  
-                  <div className="mb-6">
-                    <p className="text-slate-700">
-                      <strong>Best For:</strong> {option.bestFor}
-                    </p>
-                  </div>
-                  
-                  <Link href={option.link}>
-                    <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3">
-                      Learn More
-                    </Button>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Benefits of Refinancing */}
-          <section className="mb-16 bg-slate-50 rounded-xl p-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              Benefits of Refinancing Your Home
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrendingDown className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Lower Monthly Payments</h3>
-                <p className="text-slate-600">
-                  Reduce your monthly mortgage payment by securing a lower loan pricing, 
-                  freeing up cash for other financial goals.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Shorten Loan Term</h3>
-                <p className="text-slate-600">
-                  Switch to a 15-year mortgage to pay off your home faster and save 
-                  tens of thousands in interest over the life of the loan.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Access Home Equity</h3>
-                <p className="text-slate-600">
-                  With rising home values in many California and Washington markets, cash-out refinancing can
-                  provide significant funds for improvements, investments, or debt consolidation.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Home className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Eliminate PMI</h3>
-                <p className="text-slate-600">
-                  If your home has appreciated or you've paid down your balance, 
-                  you may be able to eliminate private mortgage insurance.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CreditCard className="w-8 h-8 text-red-600" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Debt Consolidation</h3>
-                <p className="text-slate-600">
-                  Use cash-out refinancing to pay off high-interest credit cards, 
-                  personal loans, or other debts at much lower mortgage pricing.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <PiggyBank className="w-8 h-8 text-yellow-600" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Rate Stability</h3>
-                <p className="text-slate-600">
-                  Switch from an adjustable-rate mortgage to a fixed-rate loan 
-                  for predictable payments and protection from rising rates.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* When Does Refinancing Make Sense */}
-          <section className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              When Does Refinancing Make Sense in California or Washington?
-            </h2>
-            
-            <div className="max-w-4xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-4">✓ Good Times to Refinance</h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
-                      <span>Loan pricing have dropped 0.5% or more</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
-                      <span>Your credit score has improved significantly</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
-                      <span>You want to eliminate PMI payments</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
-                      <span>You have significant equity to access</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-blue-600 mr-3 mt-0.5" />
-                      <span>You want to switch from ARM to fixed-rate</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="text-2xl font-bold text-blue-600 mb-4 flex items-center gap-2">
-                    <AlertTriangle className="w-6 h-6 text-orange-500" aria-hidden="true" />
-                    <span>Consider Carefully</span>
-                  </h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
-                      <span>You plan to move within 2-3 years</span>
-                    </li>
-                    <li className="flex items-start">
-                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
-                      <span>Your credit score has declined</span>
-                    </li>
-                    <li className="flex items-start">
-                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
-                      <span>You're close to paying off your current loan</span>
-                    </li>
-                    <li className="flex items-start">
-                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
-                      <span>Closing costs exceed potential savings</span>
-                    </li>
-                    <li className="flex items-start">
-                      <AlertTriangle className="w-5 h-5 text-orange-500 mr-3 mt-0.5 flex-shrink-0" aria-hidden="true" />
-                      <span>Your home value has declined significantly</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ Section */}
-          <section className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-              FAQs for Refinancing in California &amp; Washington
-            </h2>
-            <div className="max-w-4xl mx-auto">
-              {faqs.map((faq, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-md p-6 mb-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{faq.question}</h3>
-                  <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Internal Links Section */}
-          <section className="mb-16">
-            <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">
-              Explore Related Mortgage Services
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/cash-out-refinance" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">Cash-Out Refinance</span>
-              </Link>
-              <Link href="/heloc-orange-county" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">HELOC Options</span>
-              </Link>
-              <Link href="/purchase-loans" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">Purchase Loans</span>
-              </Link>
-              <Link href="/areas/irvine-mortgage-broker" className="text-center p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-                <span className="text-blue-600 font-medium">Irvine Refinancing</span>
-              </Link>
-            </div>
-          </section>
-
-          {/* CTA Section */}
-          <section className="text-center bg-slate-900 text-white rounded-lg p-8">
-            <h2 className="text-3xl font-bold mb-4">Ready to Explore Your Refinance Options?</h2>
-            <p className="text-xl mb-6 text-slate-200">
-              Get your free rate review and discover how much you could save with a refinance in California or Washington.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-slate-950 hover:bg-slate-100 px-8 py-3 text-lg">
-                <a href="tel:(949) 579-2057">
-                  Call or Text (949) 579-2057
-                </a>
-              </Button>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link href="/contact">
-                <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
-                  Request Free Rate Review
+                <Button className="bg-slate-900 px-8 py-3 text-white hover:bg-slate-800">
+                  Review My Refinance Options
                 </Button>
               </Link>
+              <a href={PHONE_TEL_HREF}>
+                <Button variant="ghost" className="border border-blue-600 px-8 py-3 text-blue-600 hover:bg-blue-50">
+                  Call {PHONE_DISPLAY}
+                </Button>
+              </a>
             </div>
-            <p className="text-sm text-slate-200 mt-4">
-              Mo Abdel - NMLS #1426884 | Licensed Mortgage Broker (CA &amp; WA)
+          </section>
+
+          <section className="mt-12 grid gap-6 lg:grid-cols-3">
+            {options.map((option) => (
+              <div key={option.title} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+                <div className="flex items-center gap-3">
+                  <option.icon className="h-6 w-6 text-blue-600" />
+                  <h2 className="text-2xl font-bold text-slate-900">{option.title}</h2>
+                </div>
+                <p className="mt-4 text-sm leading-6 text-slate-700">
+                  <span className="font-semibold text-slate-900">Best for:</span> {option.bestFor}
+                </p>
+                <ul className="mt-5 space-y-3">
+                  {option.bullets.map((bullet) => (
+                    <li key={bullet} className="flex items-start gap-3 text-sm leading-6 text-slate-700">
+                      <CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-blue-600" />
+                      <span>{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Link href={option.href} className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue-700 hover:text-blue-800">
+                  Learn more <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            ))}
+          </section>
+
+          <section className="mt-12 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <h2 className="text-3xl font-bold text-slate-900">How to decide which refinance path fits</h2>
+            <div className="mt-6 overflow-x-auto">
+              <table className="min-w-full border-collapse overflow-hidden rounded-2xl border border-slate-200">
+                <thead className="bg-slate-50">
+                  <tr>
+                    <th className="px-4 py-4 text-left text-sm font-semibold text-slate-900">Question</th>
+                    <th className="px-4 py-4 text-left text-sm font-semibold text-slate-900">If the answer is yes</th>
+                    <th className="px-4 py-4 text-left text-sm font-semibold text-slate-900">Best next look</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-200 bg-white text-sm text-slate-700">
+                  <tr>
+                    <td className="px-4 py-4 font-medium text-slate-900">Do you mainly want a lower payment or cleaner term?</td>
+                    <td className="px-4 py-4">You may not need to change your equity position at all.</td>
+                    <td className="px-4 py-4">Rate-and-term refinance</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-4 font-medium text-slate-900">Do you need cash from the home?</td>
+                    <td className="px-4 py-4">The refinance has to be judged against the new payment and retained equity.</td>
+                    <td className="px-4 py-4">Cash-out refinance or second-lien comparison</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-4 font-medium text-slate-900">Do you already have FHA or VA financing?</td>
+                    <td className="px-4 py-4">A streamline route may reduce friction and documentation.</td>
+                    <td className="px-4 py-4">FHA streamline or VA IRRRL review</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-4 font-medium text-slate-900">Do you have a very low first-mortgage rate already?</td>
+                    <td className="px-4 py-4">Replacing that first lien may not be the best math.</td>
+                    <td className="px-4 py-4">HELOC or HELOAN comparison alongside cash-out</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section className="mt-12 grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
+            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+              <h2 className="text-3xl font-bold text-slate-900">Signals that a refinance is worth deeper review</h2>
+              <div className="mt-6 space-y-5 text-slate-700">
+                <p>
+                  The best refinance files usually have a clear story. Maybe the current payment is too high, maybe the home has appreciated
+                  enough to remove mortgage insurance, or maybe you need liquidity for a defined purpose and the mortgage can provide it more
+                  efficiently than other debt.
+                </p>
+                <p>
+                  What matters most is not just the new rate. It is the combined impact of payment, term reset, closing costs, retained equity,
+                  and how long you expect to keep the loan. That is also the kind of specificity that tends to improve search snippet quality
+                  because the page directly answers the borrower&apos;s real decision.
+                </p>
+                <div className="rounded-2xl bg-slate-50 p-6">
+                  <h3 className="text-xl font-semibold text-slate-900">Quick borrower checklist</h3>
+                  <ul className="mt-4 space-y-3">
+                    <li className="flex items-start gap-3"><CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-blue-600" /><span>You can name the exact outcome you want: lower payment, shorter term, PMI removal, or equity access.</span></li>
+                    <li className="flex items-start gap-3"><CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-blue-600" /><span>You have enough equity for the refinance type you are considering.</span></li>
+                    <li className="flex items-start gap-3"><CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-blue-600" /><span>You understand the closing-cost tradeoff instead of looking at rate alone.</span></li>
+                    <li className="flex items-start gap-3"><CheckCircle2 className="mt-0.5 h-4 w-4 flex-none text-blue-600" /><span>You plan to keep the home long enough for the refinance benefit to matter.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+              <div className="flex items-center gap-3">
+                <Clock3 className="h-6 w-6 text-blue-600" />
+                <h2 className="text-2xl font-bold text-slate-900">Helpful refinance references</h2>
+              </div>
+              <ul className="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="https://www.consumerfinance.gov/owning-a-home/close/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800">
+                    CFPB mortgage closing-cost guidance <ArrowRight className="h-4 w-4" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.hud.gov/federal_housing_administration" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800">
+                    HUD and FHA refinance resources <ArrowRight className="h-4 w-4" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.va.gov/housing-assistance/home-loans/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800">
+                    VA refinance resources <ArrowRight className="h-4 w-4" />
+                  </a>
+                </li>
+              </ul>
+
+              <div className="mt-8 rounded-2xl bg-blue-50 p-6">
+                <h3 className="text-lg font-semibold text-slate-900">Related refinance paths</h3>
+                <div className="mt-4 space-y-3 text-sm">
+                  <Link href="/loan-programs/va-refinance" className="block font-semibold text-blue-700 hover:text-blue-800">
+                    VA refinance options
+                  </Link>
+                  <Link href="/cash-out-refinance" className="block font-semibold text-blue-700 hover:text-blue-800">
+                    Cash-out refinance guide
+                  </Link>
+                  <Link href="/heloc-orange-county" className="block font-semibold text-blue-700 hover:text-blue-800">
+                    Compare against HELOC
+                  </Link>
+                  <Link href="/blog/heloan-vs-cash-out-refinance-2026" className="block font-semibold text-blue-700 hover:text-blue-800">
+                    HELOAN vs. cash-out comparison
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-12 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <h2 className="text-3xl font-bold text-slate-900">Refinance FAQ</h2>
+            <div className="mt-6 space-y-4">
+              {faqs.map((faq) => (
+                <details key={faq.question} className="group rounded-2xl border border-slate-200 bg-slate-50 p-5" open={faq.question === faqs[0]?.question}>
+                  <summary className="cursor-pointer list-none font-semibold text-slate-900">{faq.question}</summary>
+                  <p className="mt-3 text-sm leading-6 text-slate-700">{faq.answer}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-12 rounded-3xl bg-slate-900 p-8 text-white shadow-sm">
+            <h2 className="text-3xl font-bold">Want a refinance comparison that is specific to your loan?</h2>
+            <p className="mt-3 max-w-3xl text-slate-200">
+              We can compare payment impact, closing costs, term reset, and whether a HELOC or HELOAN should stay in the conversation
+              before you commit to a full refinance.
             </p>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link href="/contact">
+                <Button className="bg-white px-8 py-3 text-slate-950 hover:bg-slate-100">
+                  Request My Refinance Review
+                </Button>
+              </Link>
+              <a href={PHONE_TEL_HREF}>
+                <Button variant="ghost" className="border border-white px-8 py-3 text-white hover:bg-white hover:text-slate-900">
+                  Call {PHONE_DISPLAY}
+                </Button>
+              </a>
+            </div>
           </section>
         </div>
       </div>

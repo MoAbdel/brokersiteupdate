@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import EnhancedContactForm from '@/components/EnhancedContactForm';
 import Link from 'next/link';
+import { OFFICE_CITY, OFFICE_POSTAL_CODE, OFFICE_STATE, OFFICE_STREET_ADDRESS } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Contact Orange County Mortgage Broker | Mo Abdel NMLS #1426884',
@@ -29,10 +30,10 @@ const contactSchema = {
   "telephone": "(949) 579-2057",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "18201 Von Karman Ave Suite 800",
-    "addressLocality": "Irvine",
-    "addressRegion": "CA",
-    "postalCode": "92612",
+    "streetAddress": OFFICE_STREET_ADDRESS,
+    "addressLocality": OFFICE_CITY,
+    "addressRegion": OFFICE_STATE,
+    "postalCode": OFFICE_POSTAL_CODE,
     "addressCountry": "US"
   },
   "areaServed": [

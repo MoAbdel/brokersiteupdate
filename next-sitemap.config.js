@@ -3,18 +3,17 @@ const fsSync = require('node:fs');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const vercelConfig = require('./vercel.json');
+const routePolicy = require('./lib/seo-route-policy.js');
 
 const BUILD_ISO = new Date().toISOString();
 const APP_DIR = path.join(process.cwd(), 'app');
 const REDIRECT_SOURCE_TOKEN_PATTERN = /[\*\(\):$]/;
-
-function normalizeRoutePath(routePath) {
-  if (!routePath || routePath === '/') {
-    return '/';
-  }
-
-  return routePath.endsWith('/') ? routePath.slice(0, -1) : routePath;
-}
+const {
+  ROUTE_POLICY_BUCKETS,
+  normalizeRoutePath,
+  shouldExcludeFromSitemap,
+  getRoutePolicy,
+} = routePolicy;
 
 const vercelRedirectSources = new Set(
   (vercelConfig.redirects || [])
@@ -103,82 +102,6 @@ async function routeHasPageFile(routePath) {
   }
 
   return false;
-}
-
-const LOW_EQUITY_BLOG_PATTERNS = [
-  /^\/blog\/wholesale-mortgage-broker-\d{5}(?:-[a-z0-9-]+)?$/i,
-  /^\/blog\/wholesale-mortgage-\d{5}-[a-z0-9-]+$/i,
-];
-
-const STRATEGIC_BLOG_ALLOWLIST = new Set([
-  '/blog/home-equity-california-guide-2026',
-  '/blog/home-equity-washington-guide-2026',
-  '/blog/strategic-refinancing-home-equity-2026',
-  '/blog/heloan-vs-cash-out-refinance-2026',
-  '/blog/heloc-vs-cash-out-refinance-2026',
-  '/blog/home-equity-loan-fixed-rate-2026',
-  '/blog/home-equity-for-renovations-2026',
-  '/blog/home-equity-refinancing-guide-2026',
-  '/blog/what-can-you-use-home-equity-for-2026',
-  '/blog/hecm-vs-heloc-seniors-2026',
-  '/blog/hecm-for-purchase-2026',
-  '/blog/proprietary-reverse-mortgage-2026',
-  '/blog/reverse-mortgage-complete-guide-2026',
-  '/blog/reverse-mortgage-california-guide-2026',
-  '/blog/reverse-mortgage-washington-guide-2026',
-  '/blog/what-is-reverse-mortgage-complete-guide-2026',
-  '/blog/reverse-mortgage-requirements-complete-2026',
-  '/blog/reverse-mortgage-payout-options-2026',
-  '/blog/reverse-mortgage-myths-debunked-2026',
-  '/blog/reverse-mortgage-inheritance-heirs-2026',
-  '/blog/wholesale-vs-retail-mortgage-brokers-2026',
-  '/blog/wholesale-mortgage-broker-orange-county-2026',
-  '/blog/wholesale-mortgage-broker-california-2026',
-  '/blog/wholesale-mortgage-broker-washington-2026',
-  '/blog/wholesale-mortgage-broker-california-guide-2026',
-  '/blog/wholesale-mortgage-broker-california-pillar-2026',
-  '/blog/wholesale-mortgage-broker-north-orange-county-2026',
-  '/blog/wholesale-mortgage-broker-central-orange-county-2026',
-  '/blog/wholesale-mortgage-broker-south-orange-county-2026',
-]);
-
-const PROGRAMMATIC_FAMILY_PATTERN =
-  /^\/blog\/(?:reverse-mortgage|home-equity|wholesale-mortgage-broker)-[a-z0-9-]+-2026$/i;
-
-const THIN_OVERLAP_ROUTE_PATTERNS = [
-  /^\/areas\/[a-z0-9-]+-mortgage-rates$/i,
-  /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
-];
-
-const LOW_YIELD_TOOL_ROUTE_PATTERN =
-  /^\/tools\/(?:cash-out-limit-calculator|dscr-rent-analyzer|max-heloc-calculator)\/[a-z0-9-]+(?:\/[a-z0-9-]+){0,2}$/i;
-
-const LOCALIZED_TOOL_CITY_ROUTE_PATTERN =
-  /^\/tools\/(?:bank-statement-loan-estimator|cash-out-limit-calculator|dscr-qualification-calculator|dscr-rent-analyzer|equity-comparison-calculator|max-heloc-calculator|property-tax-estimator)\/[a-z0-9-]+\/[a-z0-9-]+(?:\/[a-z0-9-]+)?$/i;
-
-function isLowEquityBlogRoute(routePath) {
-  const normalizedRoutePath = normalizeRoutePath(routePath);
-
-  if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(normalizedRoutePath))) {
-    return true;
-  }
-
-  return (
-    PROGRAMMATIC_FAMILY_PATTERN.test(normalizedRoutePath) &&
-    !STRATEGIC_BLOG_ALLOWLIST.has(normalizedRoutePath)
-  );
-}
-
-function isThinOverlapRoute(routePath) {
-  return THIN_OVERLAP_ROUTE_PATTERNS.some((pattern) => pattern.test(routePath));
-}
-
-function isLowYieldToolRoute(routePath) {
-  return LOW_YIELD_TOOL_ROUTE_PATTERN.test(normalizeRoutePath(routePath));
-}
-
-function isLocalizedToolCityRoute(routePath) {
-  return LOCALIZED_TOOL_CITY_ROUTE_PATTERN.test(normalizeRoutePath(routePath));
 }
 
 module.exports = {
@@ -414,19 +337,16 @@ module.exports = {
   },
   transform: async (config, routePath) => {
     const normalizedRoutePath = normalizeRoutePath(routePath);
+    const policy = getRoutePolicy(normalizedRoutePath);
 
-    if (redirectSourceRoutes.has(normalizedRoutePath)) {
+    if (
+      redirectSourceRoutes.has(normalizedRoutePath) ||
+      policy.indexingBucket === ROUTE_POLICY_BUCKETS.REDIRECT
+    ) {
       return null;
     }
 
-    // Keep low-equity programmatic ZIP variants crawlable for discovery of links,
-    // but out of XML sitemaps so crawl budget stays on priority pages.
-    if (
-      isLowEquityBlogRoute(routePath) ||
-      isThinOverlapRoute(routePath) ||
-      isLowYieldToolRoute(routePath) ||
-      isLocalizedToolCityRoute(routePath)
-    ) {
+    if (shouldExcludeFromSitemap(normalizedRoutePath)) {
       return null;
     }
 
@@ -459,7 +379,7 @@ module.exports = {
     }
 
     // Legal/policy pages - important brand content
-    else if (routePath === '/cookie-policy' || routePath === '/privacy-policy' || routePath === '/terms-of-service') {
+    else if (routePath === '/privacy-policy' || routePath === '/terms-of-service') {
       priority = 0.6;
       changefreq = 'monthly';
     }
@@ -543,7 +463,6 @@ module.exports = {
       '/refinance-loans',
       '/home-equity-guide',
       '/self-employed-home-loans-california',
-      '/heloc-specialist-orange-county',
 
       // Legacy/SEO landing pages
       '/fha-loans-orange-county',
@@ -592,19 +511,17 @@ module.exports = {
 
       // Privacy and legal pages
       '/privacy-policy',
-      '/terms-of-service',
-      '/cookie-policy'
+      '/terms-of-service'
     ];
 
     const existingAdditionalPaths = [];
     for (const routePath of additionalPaths) {
+      const normalizedRoutePath = normalizeRoutePath(routePath);
       if (
         (await routeHasPageFile(routePath)) &&
-        !isLowEquityBlogRoute(routePath) &&
-        !isThinOverlapRoute(routePath) &&
-        !isLowYieldToolRoute(routePath) &&
-        !isLocalizedToolCityRoute(routePath) &&
-        !redirectSourceRoutes.has(normalizeRoutePath(routePath))
+        !shouldExcludeFromSitemap(normalizedRoutePath) &&
+        !redirectSourceRoutes.has(normalizedRoutePath) &&
+        getRoutePolicy(normalizedRoutePath).indexingBucket !== ROUTE_POLICY_BUCKETS.REDIRECT
       ) {
         existingAdditionalPaths.push(routePath);
       }

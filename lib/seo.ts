@@ -1,4 +1,14 @@
-import { SITE_ORIGIN, PHONE_DISPLAY, PHONE_E164 } from '@/lib/site';
+import {
+  BROKER_EMAIL,
+  OFFICE_CITY,
+  OFFICE_COUNTRY,
+  OFFICE_POSTAL_CODE,
+  OFFICE_STATE,
+  OFFICE_STREET_ADDRESS,
+  SITE_ORIGIN,
+  PHONE_DISPLAY,
+  PHONE_E164,
+} from '@/lib/site';
 
 export const seoData = {
   Home: {
@@ -77,7 +87,7 @@ export const siteRootSchema = {
       "jobTitle": "Licensed Mortgage Broker",
       "identifier": "NMLS #1426884",
       "telephone": PHONE_DISPLAY,
-      "email": "mo@mothebroker.com",
+      "email": BROKER_EMAIL,
       "url": `${SITE_URL}/about-mo-abdel-orange-county-mortgage-broker`,
       "image": `${SITE_URL}/images/mo-headshot-v2.jpg`,
       "hasCredential": [
@@ -129,17 +139,17 @@ export const siteRootSchema = {
       "description": "Licensed wholesale mortgage broker based in Irvine, CA serving all of California and Washington. Access to 50+ Wholesale Lenders for competitive pricing on purchase, refinance, HELOC, DSCR, and specialty loan programs. NMLS #1426884.",
       "url": SITE_URL,
       "telephone": `+1-949-579-2057`,
-      "email": "mo@mothebroker.com",
+      "email": BROKER_EMAIL,
       "founder": { "@id": PERSON_ID },
       "employee": { "@id": PERSON_ID },
       "parentOrganization": { "@id": ORGANIZATION_ID },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "18201 Von Karman Ave Suite 800",
-        "addressLocality": "Irvine",
-        "addressRegion": "CA",
-        "addressCountry": "US",
-        "postalCode": "92612"
+        "streetAddress": OFFICE_STREET_ADDRESS,
+        "addressLocality": OFFICE_CITY,
+        "addressRegion": OFFICE_STATE,
+        "addressCountry": OFFICE_COUNTRY,
+        "postalCode": OFFICE_POSTAL_CODE
       },
       "geo": {
         "@type": "GeoCoordinates",

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { generateCanonicalUrl } from './canonical';
+import routePolicy from './seo-route-policy';
 
 interface SEOMetadata {
   title: string;
@@ -9,6 +10,7 @@ interface SEOMetadata {
   image?: string;
   type?: 'website' | 'article';
   noindex?: boolean;
+  dateModified?: string;
 }
 
 export function generateMetadata({
@@ -18,18 +20,23 @@ export function generateMetadata({
   path,
   image = '/images/mo-headshot-v2.jpg',
   type = 'website',
-  noindex = false
+  noindex = false,
+  dateModified,
 }: SEOMetadata): Metadata {
   const baseUrl = 'https://www.mothebroker.com';
   const canonicalUrl = generateCanonicalUrl(path);
   const fullImageUrl = image.startsWith('http') ? image : `${baseUrl}${image}`;
+  const policy = routePolicy.getRoutePolicy(path);
+  const policyRobotsDirective = policy.robotsDirective;
+  const shouldNoindex = noindex || policy.indexingBucket === routePolicy.ROUTE_POLICY_BUCKETS.NOINDEX;
+  const shouldFollow = policyRobotsDirective ? !policyRobotsDirective.includes('nofollow') : true;
 
-  const robots = noindex
+  const robots = shouldNoindex
     ? {
         index: false,
-        follow: true,
-        googleBot: { index: false, follow: true },
-        bingbot: { index: false, follow: true },
+        follow: shouldFollow,
+        googleBot: { index: false, follow: shouldFollow },
+        bingbot: { index: false, follow: shouldFollow },
       }
     : {
         index: true,
@@ -88,7 +95,13 @@ export function generateMetadata({
       'og:image:width': '1200',
       'og:image:height': '630',
       'article:author': 'Mo Abdel',
-      'article:publisher': 'https://www.mothebroker.com'
+      'article:publisher': 'https://www.mothebroker.com',
+      ...(dateModified
+        ? {
+            'article:modified_time': dateModified,
+            'og:updated_time': dateModified,
+          }
+        : {}),
     }
   };
 }

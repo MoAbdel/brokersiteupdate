@@ -1,0 +1,452 @@
+[
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county/calabasas",
+    "clicks": 2,
+    "impressions": 54,
+    "ctr": 0.037037037037037035,
+    "position": 3.6481481481481484,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+    "clicks": 2,
+    "impressions": 4183,
+    "ctr": 0.0004781257470714798,
+    "position": 3.8993545302414536,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/interest-only-mortgage-loans-2026",
+    "clicks": 1,
+    "impressions": 1310,
+    "ctr": 0.0007633587786259542,
+    "position": 5.410687022900763,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county/torrance",
+    "clicks": 2,
+    "impressions": 274,
+    "ctr": 0.0072992700729927005,
+    "position": 5.456204379562044,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/dscr-rent-by-room-co-living-investment-2026",
+    "clicks": 1,
+    "impressions": 72,
+    "ctr": 0.013888888888888888,
+    "position": 5.611111111111111,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/wholesale-mortgage-closing-timeline-2026",
+    "clicks": 1,
+    "impressions": 410,
+    "ctr": 0.0024390243902439024,
+    "position": 5.7073170731707314,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-bernardino-county/ontario",
+    "clicks": 1,
+    "impressions": 194,
+    "ctr": 0.005154639175257732,
+    "position": 5.721649484536083,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/home-equity-after-divorce-2026",
+    "clicks": 1,
+    "impressions": 416,
+    "ctr": 0.002403846153846154,
+    "position": 5.752403846153846,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/articles/wholesale-vs-retail-mortgages-comparison",
+    "clicks": 1,
+    "impressions": 292,
+    "ctr": 0.003424657534246575,
+    "position": 5.804794520547945,
+    "group": "other",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/jumbo-heloc-california-2026",
+    "clicks": 1,
+    "impressions": 499,
+    "ctr": 0.002004008016032064,
+    "position": 5.98997995991984,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/santa-barbara-county/santa-barbara",
+    "clicks": 1,
+    "impressions": 93,
+    "ctr": 0.010752688172043012,
+    "position": 6.236559139784946,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-bernardino-county/rancho-cucamonga",
+    "clicks": 1,
+    "impressions": 283,
+    "ctr": 0.0035335689045936395,
+    "position": 6.261484098939929,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/wholesale-mortgage-rate-comparison-2026",
+    "clicks": 2,
+    "impressions": 655,
+    "ctr": 0.0030534351145038168,
+    "position": 6.305343511450381,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/solano-county/fairfield",
+    "clicks": 1,
+    "impressions": 99,
+    "ctr": 0.010101010101010102,
+    "position": 6.656565656565657,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-mateo-county/daly-city",
+    "clicks": 1,
+    "impressions": 129,
+    "ctr": 0.007751937984496124,
+    "position": 6.682170542635659,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/riverside-county/murrieta",
+    "clicks": 1,
+    "impressions": 139,
+    "ctr": 0.007194244604316547,
+    "position": 6.841726618705036,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/dscr-loans-portfolio-investors-scaling-2026",
+    "clicks": 1,
+    "impressions": 245,
+    "ctr": 0.004081632653061225,
+    "position": 6.865306122448979,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/dscr-delayed-financing-cash-purchase-2026",
+    "clicks": 1,
+    "impressions": 253,
+    "ctr": 0.003952569169960474,
+    "position": 6.932806324110672,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/fresno-county/fresno",
+    "clicks": 2,
+    "impressions": 366,
+    "ctr": 0.00546448087431694,
+    "position": 6.98087431693989,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/marin-county/san-rafael",
+    "clicks": 1,
+    "impressions": 29,
+    "ctr": 0.034482758620689655,
+    "position": 7,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/home-equity-ca-sd-a-2026",
+    "clicks": 2,
+    "impressions": 102,
+    "ctr": 0.0196078431372549,
+    "position": 7.029411764705882,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/wa/clark-county/camas",
+    "clicks": 1,
+    "impressions": 158,
+    "ctr": 0.006329113924050633,
+    "position": 7.094936708860759,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/wa/kitsap-county/bremerton",
+    "clicks": 1,
+    "impressions": 119,
+    "ctr": 0.008403361344537815,
+    "position": 7.319327731092437,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/fullerton",
+    "clicks": 1,
+    "impressions": 109,
+    "ctr": 0.009174311926605505,
+    "position": 7.348623853211009,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/anaheim",
+    "clicks": 1,
+    "impressions": 137,
+    "ctr": 0.0072992700729927005,
+    "position": 7.481751824817518,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/sacramento-county",
+    "clicks": 1,
+    "impressions": 349,
+    "ctr": 0.0028653295128939827,
+    "position": 7.521489971346705,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/escondido",
+    "clicks": 1,
+    "impressions": 118,
+    "ctr": 0.00847457627118644,
+    "position": 7.915254237288136,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
+    "clicks": 1,
+    "impressions": 1025,
+    "ctr": 0.000975609756097561,
+    "position": 8.015609756097561,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/sacramento-county/elk-grove",
+    "clicks": 1,
+    "impressions": 299,
+    "ctr": 0.0033444816053511705,
+    "position": 8.036789297658864,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/fha-streamline-refinance-guide-2026",
+    "clicks": 1,
+    "impressions": 266,
+    "ctr": 0.0037593984962406013,
+    "position": 8.048872180451127,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/marin-county/mill-valley",
+    "clicks": 1,
+    "impressions": 57,
+    "ctr": 0.017543859649122806,
+    "position": 8.12280701754386,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/refinance-multiple-properties-portfolio-strategy-2026",
+    "clicks": 2,
+    "impressions": 36,
+    "ctr": 0.05555555555555555,
+    "position": 8.305555555555555,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/heloc-freeze-reduction-lender-rights-2026",
+    "clicks": 1,
+    "impressions": 661,
+    "ctr": 0.0015128593040847202,
+    "position": 8.332829046898638,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county/west-covina",
+    "clicks": 1,
+    "impressions": 91,
+    "ctr": 0.01098901098901099,
+    "position": 8.494505494505495,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/riverside-county",
+    "clicks": 1,
+    "impressions": 259,
+    "ctr": 0.003861003861003861,
+    "position": 8.525096525096526,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/home-equity-ventura-county-guide-2026",
+    "clicks": 1,
+    "impressions": 51,
+    "ctr": 0.0196078431372549,
+    "position": 8.568627450980392,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/inyo-county",
+    "clicks": 1,
+    "impressions": 24,
+    "ctr": 0.041666666666666664,
+    "position": 8.708333333333332,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/home-equity-ventura-affluent-ca-2026",
+    "clicks": 1,
+    "impressions": 76,
+    "ctr": 0.013157894736842105,
+    "position": 8.776315789473685,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/carlsbad",
+    "clicks": 1,
+    "impressions": 334,
+    "ctr": 0.0029940119760479044,
+    "position": 9.152694610778443,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/reverse-mortgage-condo-requirements-2026",
+    "clicks": 1,
+    "impressions": 391,
+    "ctr": 0.0025575447570332483,
+    "position": 10.32992327365729,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/tools/property-tax-estimator/ca/santa-cruz-county",
+    "clicks": 1,
+    "impressions": 65,
+    "ctr": 0.015384615384615385,
+    "position": 11.215384615384615,
+    "group": "tools",
+    "ageDays": 30,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/reverse-mortgage-closing-process-timeline-2026",
+    "clicks": 1,
+    "impressions": 147,
+    "ctr": 0.006802721088435374,
+    "position": 12.326530612244898,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/hecm-trust-ownership-requirements-2026",
+    "clicks": 1,
+    "impressions": 120,
+    "ctr": 0.008333333333333333,
+    "position": 13.583333333333334,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
+    "clicks": 1,
+    "impressions": 106,
+    "ctr": 0.009433962264150943,
+    "position": 14.933962264150944,
+    "group": "blog",
+    "ageDays": 7,
+    "tier": "striking-distance-keep"
+  },
+  {
+    "page": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
+    "clicks": 1,
+    "impressions": 70,
+    "ctr": 0.014285714285714285,
+    "position": 19.4,
+    "group": "blog",
+    "ageDays": 6,
+    "tier": "striking-distance-keep"
+  }
+]

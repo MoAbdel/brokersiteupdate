@@ -6,27 +6,36 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { Phone, Mail, MapPin, Clock, Shield, Star, Zap, Users, ArrowUpRight, TrendingUp } from 'lucide-react';
 import PremiumContactForm from '@/components/contact/PremiumContactForm';
 import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
+import {
+  BROKER_EMAIL,
+  OFFICE_ADDRESS_SINGLE_LINE,
+  OFFICE_CITY,
+  OFFICE_POSTAL_CODE,
+  OFFICE_STATE,
+  PHONE_DISPLAY,
+  PHONE_TEL_HREF,
+} from '@/lib/site';
 
 const contactInfo = [
   {
     icon: Phone,
     title: 'Direct Line',
-    value: '(949) 579-2057',
-    action: 'tel:(949) 579-2057',
+    value: PHONE_DISPLAY,
+    action: PHONE_TEL_HREF,
     subtext: 'Available 24/7'
   },
   {
     icon: Mail,
     title: 'Email',
-    value: 'mo.abdel@luminlending.com',
-    action: 'mailto:mo.abdel@luminlending.com',
+    value: BROKER_EMAIL,
+    action: `mailto:${BROKER_EMAIL}`,
     subtext: '1 hr response time'
   },
   {
     icon: MapPin,
     title: 'Office',
-    value: 'Irvine, CA',
-    action: 'https://maps.google.com/?q=18301+Von+Karman+Ave+Suite+820+Irvine+CA+92612',
+    value: `${OFFICE_CITY}, ${OFFICE_STATE}`,
+    action: `https://maps.google.com/?q=${encodeURIComponent(OFFICE_ADDRESS_SINGLE_LINE)}`,
     subtext: 'By Appointment Only'
   },
   {

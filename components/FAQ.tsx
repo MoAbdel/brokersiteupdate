@@ -1,6 +1,4 @@
-'use client';
-
-import React, { useState } from 'react';
+import React from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import Script from 'next/script';
 
@@ -49,16 +47,6 @@ export default function FAQ({
   pageUrl = "",
   className = "" 
 }: FAQProps) {
-  const [openItems, setOpenItems] = useState<number[]>([]);
-
-  const toggleItem = (index: number) => {
-    setOpenItems(prev => 
-      prev.includes(index) 
-        ? prev.filter(i => i !== index)
-        : [...prev, index]
-    );
-  };
-
   // Generate FAQ structured data
   const faqStructuredData = {
     "@context": "https://schema.org",
@@ -88,49 +76,39 @@ export default function FAQ({
         </div>
 
         <div className="space-y-4">
-          {faqs.map((faq, index) => {
-            const isOpen = openItems.includes(index);
-            
-            return (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg"
+          {faqs.map((faq, index) => (
+            <details
+              key={index}
+              className="group bg-white rounded-lg shadow-md overflow-hidden transition-all duration-200 hover:shadow-lg"
+              open={index === 0}
+            >
+              <summary
+                id={`faq-question-${index}`}
+                className="list-none cursor-pointer px-6 py-4 text-left flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
               >
-                <button
-                  id={`faq-question-${index}`}
-                  className="w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
-                  onClick={() => toggleItem(index)}
-                  aria-expanded={isOpen}
-                  aria-controls={`faq-answer-${index}`}
-                >
-                  <h3 className="text-lg font-semibold text-slate-900 pr-4">
-                    {faq.question}
-                  </h3>
-                  <div className="flex-shrink-0">
-                    {isOpen ? (
-                      <ChevronUp className="w-5 h-5 text-blue-600" />
-                    ) : (
-                      <ChevronDown className="w-5 h-5 text-slate-400" />
-                    )}
-                  </div>
-                </button>
-                
-                <div
-                  id={`faq-answer-${index}`}
-                  className={`px-6 overflow-hidden transition-all duration-200 ${isOpen ? 'max-h-96 pb-4 opacity-100' : 'max-h-0 pb-0 opacity-0'}`}
-                  role="region"
-                  aria-labelledby={`faq-question-${index}`}
-                  aria-hidden={!isOpen}
-                >
-                  <div className="border-t border-slate-200 pt-4">
-                    <p className="text-slate-700 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
+                <h3 className="text-lg font-semibold text-slate-900 pr-4">
+                  {faq.question}
+                </h3>
+                <div className="flex-shrink-0">
+                  <ChevronDown className="w-5 h-5 text-slate-400 group-open:hidden" />
+                  <ChevronUp className="hidden w-5 h-5 text-blue-600 group-open:block" />
+                </div>
+              </summary>
+
+              <div
+                id={`faq-answer-${index}`}
+                className="px-6 pb-4"
+                role="region"
+                aria-labelledby={`faq-question-${index}`}
+              >
+                <div className="border-t border-slate-200 pt-4">
+                  <p className="text-slate-700 leading-relaxed">
+                    {faq.answer}
+                  </p>
                 </div>
               </div>
-            );
-          })}
+            </details>
+          ))}
         </div>
 
         {/* Call to Action */}

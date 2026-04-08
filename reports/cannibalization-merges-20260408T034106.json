@@ -1,0 +1,1342 @@
+[
+  {
+    "query": "mothebroker.com",
+    "clusterImpressions": 658,
+    "severity": "high",
+    "winner": {
+      "url": "https://www.mothebroker.com/",
+      "path": "/",
+      "clicks": 0,
+      "impressions": 61,
+      "position": 1
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/luxury-markets",
+        "path": "/luxury-markets",
+        "clicks": 0,
+        "impressions": 24,
+        "position": 2.166666666666667,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides",
+        "path": "/guides",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 2.625,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026",
+        "path": "/blog/calabasas-cash-out-refinance-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 3.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides/orange-county-investment-property",
+        "path": "/guides/orange-county-investment-property",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 3.6153846153846154,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/calculator",
+        "path": "/calculator",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 3.8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-inland-empire-affluent-2026",
+        "path": "/blog/home-equity-inland-empire-affluent-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/jumbo-loans-orange-county",
+        "path": "/jumbo-loans-orange-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/heloc-orange-county",
+        "path": "/heloc-orange-county",
+        "clicks": 0,
+        "impressions": 42,
+        "position": 4.023809523809524,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides/definitive-orange-county-mortgage-guide",
+        "path": "/guides/definitive-orange-county-mortgage-guide",
+        "clicks": 0,
+        "impressions": 27,
+        "position": 4.037037037037037,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/non-qm-loan-programs-complete-guide-2026",
+        "path": "/blog/non-qm-loan-programs-complete-guide-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 4.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/areas/seal-beach-mortgage-broker",
+        "path": "/areas/seal-beach-mortgage-broker",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 4.684210526315789,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026",
+        "path": "/blog/heloan-vs-cash-out-refinance-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 5.25,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-ventura-affluent-ca-2026",
+        "path": "/blog/home-equity-ventura-affluent-ca-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 5.4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/articles/newport-beach-mortgage-guide-2026",
+        "path": "/articles/newport-beach-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 5.6,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+        "path": "/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 5.666666666666667,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-suburban-king-county-2026",
+        "path": "/blog/home-equity-suburban-king-county-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 6.8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison",
+        "path": "/guides/mortgage-broker-vs-bank-complete-comparison",
+        "clicks": 0,
+        "impressions": 16,
+        "position": 6.9375,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-jumbo-loan-pricing-2026",
+        "path": "/blog/wholesale-mortgage-jumbo-loan-pricing-2026",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 7.125,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/heloc-complete-guide-2026",
+        "path": "/blog/heloc-complete-guide-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 7.25,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-san-diego-guide-2026",
+        "path": "/blog/wholesale-mortgage-broker-san-diego-guide-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 7.4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides",
+        "path": "/guides",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 7.555555555555555,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
+        "path": "/blog/conventional-loans-complete-guide-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 7.666666666666667,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026",
+        "path": "/blog/how-to-get-wholesale-mortgage-rates-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 7.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/areas/irvine-mortgage-broker",
+        "path": "/areas/irvine-mortgage-broker",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/hecm-counseling-requirements-2026",
+        "path": "/blog/hecm-counseling-requirements-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026",
+        "path": "/blog/proprietary-reverse-mortgage-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/cash-out-refinance-how-it-works-2026",
+        "path": "/blog/cash-out-refinance-how-it-works-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 8.25,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/non-qm-loans-complete-guide-2026",
+        "path": "/blog/non-qm-loans-complete-guide-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 8.333333333333332,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/articles/dana-point-first-time-homebuyer-guide",
+        "path": "/articles/dana-point-first-time-homebuyer-guide",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 8.4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/heloc-specialist-orange-county",
+        "path": "/heloc-specialist-orange-county",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 8.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides/summer-2025-market-guide",
+        "path": "/guides/summer-2025-market-guide",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 8.559999999999999,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-la-westside-luxury-2026",
+        "path": "/blog/wholesale-mortgage-broker-la-westside-luxury-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 9,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-closing-timeline-2026",
+        "path": "/blog/wholesale-mortgage-closing-timeline-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 9.2,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-vs-retail-mortgage-brokers-2026",
+        "path": "/blog/wholesale-vs-retail-mortgage-brokers-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 9.2,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/zip-codes/92614-irvine-mortgage-broker",
+        "path": "/zip-codes/92614-irvine-mortgage-broker",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 9.307692307692308,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-bay-area-guide-2026",
+        "path": "/blog/wholesale-mortgage-broker-bay-area-guide-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 9.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-sacramento-affluent-2026",
+        "path": "/blog/home-equity-sacramento-affluent-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 9.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/resources/credit-repair",
+        "path": "/resources/credit-repair",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 9.421052631578947,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/self-employed-mortgage-broker-2026",
+        "path": "/blog/self-employed-mortgage-broker-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 9.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-ca-pv-a-2026",
+        "path": "/blog/home-equity-ca-pv-a-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 9.6,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-ca-pv-b-2026",
+        "path": "/blog/home-equity-ca-pv-b-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 9.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-north-sound-guide-2026",
+        "path": "/blog/home-equity-north-sound-guide-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 9.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-central-coast-guide-2026",
+        "path": "/blog/home-equity-central-coast-guide-2026",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 9.8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/200-lender-advantage-explained-2026",
+        "path": "/blog/200-lender-advantage-explained-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 9.8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-la-westside-luxury-2026",
+        "path": "/blog/reverse-mortgage-la-westside-luxury-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 10,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/home-equity-guide",
+        "path": "/home-equity-guide",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 10,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
+        "path": "/blog/dscr-investment-property-loans-2026",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 10.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-sacramento-guide-2026",
+        "path": "/blog/wholesale-mortgage-broker-sacramento-guide-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 10.4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide",
+        "path": "/neighborhood-guide/huntington-beach-vs-costa-mesa-home-buying-guide",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 10.444444444444445,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/zip-codes/92625-corona-del-mar-mortgage-broker",
+        "path": "/zip-codes/92625-corona-del-mar-mortgage-broker",
+        "clicks": 0,
+        "impressions": 19,
+        "position": 10.68421052631579,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/articles/wholesale-vs-retail-mortgages-comparison",
+        "path": "/articles/wholesale-vs-retail-mortgages-comparison",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 10.846153846153847,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/aliso-viejo-mortgage-guide-2026",
+        "path": "/blog/aliso-viejo-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 11.25,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026",
+        "path": "/blog/reverse-mortgage-ultra-luxury-eastside-wa-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 11.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-loans-short-term-rentals-airbnb-2026",
+        "path": "/blog/dscr-loans-short-term-rentals-airbnb-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 11.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
+        "path": "/blog/wholesale-mortgage-broker-california-guide-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 11.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-wine-country-guide-2026",
+        "path": "/blog/home-equity-wine-country-guide-2026",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 11.777777777777779,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026",
+        "path": "/blog/home-equity-loan-fixed-rate-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 11.833333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/villa-park-mortgage-guide-2026",
+        "path": "/blog/villa-park-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 12.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026",
+        "path": "/blog/yorba-linda-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 12.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/articles/orange-county-mortgage-rate-trends-august-2026",
+        "path": "/articles/orange-county-mortgage-rate-trends-august-2026",
+        "clicks": 0,
+        "impressions": 13,
+        "position": 12.692307692307692,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-inland-empire-guide-2026",
+        "path": "/blog/reverse-mortgage-inland-empire-guide-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 12.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-south-sound-affluent-2026",
+        "path": "/blog/home-equity-south-sound-affluent-2026",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 13,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/max-heloc-calculator/ca/santa-clara-county/gilroy",
+        "path": "/tools/max-heloc-calculator/ca/santa-clara-county/gilroy",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 13,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-irvine-ca-2026",
+        "path": "/blog/reverse-mortgage-irvine-ca-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 13.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-2026",
+        "path": "/blog/reverse-mortgage-requirements-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 13.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-south-sound-guide-2026",
+        "path": "/blog/home-equity-south-sound-guide-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 13.6,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/newport-coast-mortgage-guide-2026",
+        "path": "/blog/newport-coast-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 13.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
+        "path": "/blog/wholesale-mortgage-broker-pasadena-corridor-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 14,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-central-coast-communities-2026",
+        "path": "/blog/reverse-mortgage-central-coast-communities-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 14.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides/spring-2025-home-buying-guide",
+        "path": "/guides/spring-2025-home-buying-guide",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 14.625,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/guides",
+        "path": "/guides",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 14.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-wine-country-guide-2026",
+        "path": "/blog/reverse-mortgage-wine-country-guide-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 15.333333333333334,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/bank-statement-loans-self-employed-2026",
+        "path": "/blog/bank-statement-loans-self-employed-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 15.6,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-premium-east-bay-sf-2026",
+        "path": "/blog/reverse-mortgage-premium-east-bay-sf-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 15.666666666666666,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/ladera-ranch-mortgage-guide-2026",
+        "path": "/blog/ladera-ranch-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 16,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/max-heloc-calculator/ca/los-angeles-county/diamond-bar",
+        "path": "/tools/max-heloc-calculator/ca/los-angeles-county/diamond-bar",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 16,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/home-equity-affluent-suburban-east-bay-2026",
+        "path": "/blog/home-equity-affluent-suburban-east-bay-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 16.25,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/why-real-estate-agents-recommend-mortgage-brokers-2026",
+        "path": "/blog/why-real-estate-agents-recommend-mortgage-brokers-2026",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 16.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/areas/irvine-neighborhoods/northwood-mortgage-broker",
+        "path": "/areas/irvine-neighborhoods/northwood-mortgage-broker",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 17.25,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/mission-viejo-mortgage-guide-2026",
+        "path": "/blog/mission-viejo-mortgage-guide-2026",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 17.8,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/areas/irvine-neighborhoods/turtle-rock-mortgage-broker",
+        "path": "/areas/irvine-neighborhoods/turtle-rock-mortgage-broker",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 18.333333333333332,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "california property tax calculator",
+    "clusterImpressions": 83,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/lake-county",
+      "path": "/tools/property-tax-estimator/ca/lake-county",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 65.45454545454545
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-joaquin-county",
+        "path": "/tools/property-tax-estimator/ca/san-joaquin-county",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 70.75,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/del-norte-county",
+        "path": "/tools/property-tax-estimator/ca/del-norte-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 74.66666666666667,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-benito-county",
+        "path": "/tools/property-tax-estimator/ca/san-benito-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 75.33333333333333,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/mono-county",
+        "path": "/tools/property-tax-estimator/ca/mono-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 75.66666666666667,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/marin-county",
+        "path": "/tools/property-tax-estimator/ca/marin-county",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 76.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+        "path": "/tools/property-tax-estimator/ca/orange-county",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 76.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/sierra-county",
+        "path": "/tools/property-tax-estimator/ca/sierra-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 78,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-francisco-county/san-francisco",
+        "path": "/tools/property-tax-estimator/ca/san-francisco-county/san-francisco",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 81,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/colusa-county",
+        "path": "/tools/property-tax-estimator/ca/colusa-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 81.33333333333333,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/sonoma-county",
+        "path": "/tools/property-tax-estimator/ca/sonoma-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 81.66666666666667,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/sacramento-county",
+        "path": "/tools/property-tax-estimator/ca/sacramento-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 82,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/santa-cruz-county",
+        "path": "/tools/property-tax-estimator/ca/santa-cruz-county",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 83.33333333333333,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-mateo-county/san-mateo",
+        "path": "/tools/property-tax-estimator/ca/san-mateo-county/san-mateo",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 83.5,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-luis-obispo-county/san-luis-obispo",
+        "path": "/tools/property-tax-estimator/ca/san-luis-obispo-county/san-luis-obispo",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 85.33333333333333,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/imperial-county",
+        "path": "/tools/property-tax-estimator/ca/imperial-county",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 85.4,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/irvine",
+        "path": "/tools/property-tax-estimator/ca/orange-county/irvine",
+        "clicks": 0,
+        "impressions": 9,
+        "position": 87.11111111111111,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-mateo-county/south-san-francisco",
+        "path": "/tools/property-tax-estimator/ca/san-mateo-county/south-san-francisco",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 87.33333333333333,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "mortgage broker vs bank",
+    "clusterImpressions": 73,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/guides/mortgage-broker-vs-bank-complete-comparison",
+      "path": "/guides/mortgage-broker-vs-bank-complete-comparison",
+      "clicks": 0,
+      "impressions": 59,
+      "position": 79.23728813559322
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+        "path": "/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 80.64285714285714,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "orange county ca property tax rate 2026",
+    "clusterImpressions": 64,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "path": "/tools/property-tax-estimator/ca/orange-county",
+      "clicks": 0,
+      "impressions": 24,
+      "position": 4.5
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+        "path": "/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+        "clicks": 0,
+        "impressions": 40,
+        "position": 8.05,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "dscr loan requirements 2026",
+    "clusterImpressions": 50,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/dscr-loan-requirements-2026",
+      "path": "/blog/dscr-loan-requirements-2026",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 6
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-loan-california-requirements-complete-2026",
+        "path": "/blog/dscr-loan-california-requirements-complete-2026",
+        "clicks": 0,
+        "impressions": 17,
+        "position": 8.764705882352942,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026",
+        "path": "/blog/dscr-loan-seasoning-requirements-2026",
+        "clicks": 0,
+        "impressions": 15,
+        "position": 9.733333333333333,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-first-investment-property-2026",
+        "path": "/blog/dscr-first-investment-property-2026",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 9.785714285714286,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "fannie mae cash-out refinance seasoning requirements 2026",
+    "clusterImpressions": 46,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026",
+      "path": "/blog/second-home-cash-out-refinance-guide-2026",
+      "clicks": 0,
+      "impressions": 32,
+      "position": 7.1875
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/cash-out-refinance-seasoning-requirements-2026",
+        "path": "/blog/cash-out-refinance-seasoning-requirements-2026",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 8.642857142857142,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "irvine mortgage rates",
+    "clusterImpressions": 34,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/areas/irvine-mortgage-broker",
+      "path": "/areas/irvine-mortgage-broker",
+      "clicks": 0,
+      "impressions": 20,
+      "position": 49.85
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/areas",
+        "path": "/areas",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 62.9,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/areas/irvine-neighborhoods",
+        "path": "/areas/irvine-neighborhoods",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 73.75,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "average property tax rate los angeles county 2026",
+    "clusterImpressions": 32,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county",
+      "path": "/tools/property-tax-estimator/ca/los-angeles-county",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 5
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county/los-angeles",
+        "path": "/tools/property-tax-estimator/ca/los-angeles-county/los-angeles",
+        "clicks": 0,
+        "impressions": 25,
+        "position": 9.28,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "property tax rate orange county california 2026",
+    "clusterImpressions": 30,
+    "severity": "medium",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "path": "/tools/property-tax-estimator/ca/orange-county",
+      "clicks": 0,
+      "impressions": 26,
+      "position": 6.1923076923076925
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+        "path": "/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+        "clicks": 0,
+        "impressions": 4,
+        "position": 10,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "dscr loans monterey county",
+    "clusterImpressions": 27,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/monterey-county",
+      "path": "/tools/dscr-qualification-calculator/ca/monterey-county",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 3.6666666666666665
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/monterey-county/salinas",
+        "path": "/tools/dscr-rent-analyzer/ca/monterey-county/salinas",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 5.333333333333333,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/monterey-county/monterey",
+        "path": "/tools/dscr-qualification-calculator/ca/monterey-county/monterey",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 8.2,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/monterey-county/salinas",
+        "path": "/tools/dscr-qualification-calculator/ca/monterey-county/salinas",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 13,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/monterey-county",
+        "path": "/tools/dscr-rent-analyzer/ca/monterey-county",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 13.818181818181818,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "how do mortgage brokers get wholesale rates 2026",
+    "clusterImpressions": 26,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-rate-comparison-2026",
+      "path": "/blog/wholesale-mortgage-rate-comparison-2026",
+      "clicks": 0,
+      "impressions": 16,
+      "position": 1.0625
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/how-to-get-wholesale-mortgage-rates-2026",
+        "path": "/blog/how-to-get-wholesale-mortgage-rates-2026",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 4.428571428571429,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/how-mortgage-brokers-get-paid-2026",
+        "path": "/blog/how-mortgage-brokers-get-paid-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 7.333333333333333,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "dscr loans inyo county",
+    "clusterImpressions": 25,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/inyo-county",
+      "path": "/tools/dscr-qualification-calculator/ca/inyo-county",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 8.25
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/inyo-county",
+        "path": "/tools/dscr-rent-analyzer/ca/inyo-county",
+        "clicks": 0,
+        "impressions": 7,
+        "position": 10.285714285714286,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-loans-california-best-markets-2026",
+        "path": "/blog/dscr-loans-california-best-markets-2026",
+        "clicks": 0,
+        "impressions": 14,
+        "position": 15.428571428571429,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "seattle reverse mortgage",
+    "clusterImpressions": 24,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-greater-seattle-guide-2026",
+      "path": "/blog/reverse-mortgage-greater-seattle-guide-2026",
+      "clicks": 0,
+      "impressions": 21,
+      "position": 24.61904761904762
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-seattle-eastside-guide-2026",
+        "path": "/blog/reverse-mortgage-seattle-eastside-guide-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 51.666666666666664,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "reverse mortgage spouse protection",
+    "clusterImpressions": 23,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-non-borrowing-spouse-2026",
+      "path": "/blog/reverse-mortgage-non-borrowing-spouse-2026",
+      "clicks": 0,
+      "impressions": 13,
+      "position": 49.46153846153846
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-surviving-spouse-rights-2026",
+        "path": "/blog/reverse-mortgage-surviving-spouse-rights-2026",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 62.8,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "orange county california property tax rate 2026",
+    "clusterImpressions": 23,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "path": "/tools/property-tax-estimator/ca/orange-county",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 5.470588235294118
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+        "path": "/tools/property-tax-estimator/ca/orange-county/costa-mesa",
+        "clicks": 0,
+        "impressions": 6,
+        "position": 10.333333333333334,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "dscr multifamily loan",
+    "clusterImpressions": 22,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-2-4-unit-2026",
+      "path": "/blog/dscr-loans-multi-family-2-4-unit-2026",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 62.27272727272727
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
+        "path": "/blog/dscr-loans-multi-family-guide-2026",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 76,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "san diego property tax calculator",
+    "clusterImpressions": 22,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/la-jolla",
+      "path": "/tools/property-tax-estimator/ca/san-diego-county/la-jolla",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 56.75
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/carlsbad",
+        "path": "/tools/property-tax-estimator/ca/san-diego-county/carlsbad",
+        "clicks": 0,
+        "impressions": 10,
+        "position": 74,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/vista",
+        "path": "/tools/property-tax-estimator/ca/san-diego-county/vista",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 91,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county/encinitas",
+        "path": "/tools/property-tax-estimator/ca/san-diego-county/encinitas",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 91.66666666666667,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "fha loan 3% down payment requirements orange county ca 2025 pmi costs",
+    "clusterImpressions": 21,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/fha-loans-orange-county-2026",
+      "path": "/blog/fha-loans-orange-county-2026",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 6.333333333333333
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/guides/fha-loans-orange-county-complete-guide",
+        "path": "/guides/fha-loans-orange-county-complete-guide",
+        "clicks": 0,
+        "impressions": 18,
+        "position": 7.777777777777778,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "dscr loans el dorado county",
+    "clusterImpressions": 20,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/el-dorado-county",
+      "path": "/tools/dscr-qualification-calculator/ca/el-dorado-county",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 4.25
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-rent-analyzer/ca/el-dorado-county",
+        "path": "/tools/dscr-rent-analyzer/ca/el-dorado-county",
+        "clicks": 0,
+        "impressions": 11,
+        "position": 8.181818181818182,
+        "action": "merge-content-then-redirect"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/dscr-qualification-calculator/ca/el-dorado-county/el-dorado-hills",
+        "path": "/tools/dscr-qualification-calculator/ca/el-dorado-county/el-dorado-hills",
+        "clicks": 0,
+        "impressions": 5,
+        "position": 10,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "westchester reverse mortgage",
+    "clusterImpressions": 20,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-la-westside-luxury-2026",
+      "path": "/blog/reverse-mortgage-la-westside-luxury-2026",
+      "clicks": 0,
+      "impressions": 17,
+      "position": 46.05882352941177
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-la-westside-beach-guide-2026",
+        "path": "/blog/reverse-mortgage-la-westside-beach-guide-2026",
+        "clicks": 0,
+        "impressions": 3,
+        "position": 51.333333333333336,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "non borrowing spouse reverse mortgage",
+    "clusterImpressions": 20,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-non-borrowing-spouse-2026",
+      "path": "/blog/reverse-mortgage-non-borrowing-spouse-2026",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 69.25
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-surviving-spouse-rights-2026",
+        "path": "/blog/reverse-mortgage-surviving-spouse-rights-2026",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 83.5,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  },
+  {
+    "query": "effective property tax rate spokane county wa 2026",
+    "clusterImpressions": 20,
+    "severity": "low",
+    "winner": {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/spokane-county",
+      "path": "/tools/property-tax-estimator/wa/spokane-county",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 5.666666666666667
+    },
+    "losers": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/spokane-county/spokane",
+        "path": "/tools/property-tax-estimator/wa/spokane-county/spokane",
+        "clicks": 0,
+        "impressions": 8,
+        "position": 7.25,
+        "action": "merge-content-then-redirect"
+      }
+    ]
+  }
+]

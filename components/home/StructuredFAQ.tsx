@@ -1,6 +1,4 @@
-'use client';
-
-import React, { useState } from 'react';
+import React from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
@@ -42,8 +40,6 @@ const faqs = [
 export { faqs };
 
 export default function StructuredFAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
   return (
     <section className="py-16 bg-slate-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -56,46 +52,33 @@ export default function StructuredFAQ() {
           </p>
         </div>
 
-        {/* Semantic FAQ Structure with dl/dt/dd */}
-        <dl className="space-y-4">
+        <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div
+            <details
               key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
+              className="group bg-white rounded-lg shadow-md overflow-hidden"
+              open={index === 0}
             >
-              <dt>
-                <button
-                  onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-slate-50 transition-colors"
-                  aria-expanded={openIndex === index}
-                  aria-controls={`faq-answer-${index}`}
-                >
-                  <span className="font-semibold text-slate-900 pr-4">
-                    {faq.question}
-                  </span>
-                  <span className="flex-shrink-0 ml-2">
-                    {openIndex === index ? (
-                      <ChevronUp className="w-5 h-5 text-blue-600" />
-                    ) : (
-                      <ChevronDown className="w-5 h-5 text-slate-400" />
-                    )}
-                  </span>
-                </button>
-              </dt>
-              <dd
-                id={`faq-answer-${index}`}
-                className={`px-6 overflow-hidden transition-all duration-200 ${
-                  openIndex === index ? 'max-h-96 pb-4 opacity-100' : 'max-h-0 pb-0 opacity-0'
-                }`}
-                aria-hidden={openIndex !== index}
+              <summary
+                className="list-none cursor-pointer px-6 py-4 text-left flex justify-between items-center hover:bg-slate-50 transition-colors"
+                aria-controls={`faq-answer-${index}`}
               >
+                <span className="font-semibold text-slate-900 pr-4">
+                  {faq.question}
+                </span>
+                <span className="flex-shrink-0 ml-2">
+                  <ChevronDown className="w-5 h-5 text-slate-400 group-open:hidden" />
+                  <ChevronUp className="hidden w-5 h-5 text-blue-600 group-open:block" />
+                </span>
+              </summary>
+              <div id={`faq-answer-${index}`} className="px-6 pb-4">
                 <p className="text-slate-600 leading-relaxed">
                   {faq.answer}
                 </p>
-              </dd>
-            </div>
+              </div>
+            </details>
           ))}
-        </dl>
+        </div>
 
       </div>
     </section>
@@ -109,7 +92,7 @@ export function generateFAQSchema() {
     "@type": "FAQPage",
     "speakable": {
       "@type": "SpeakableSpecification",
-      "cssSelector": ["h2", "dl", "dt", "dd"]
+      "cssSelector": ["h2", "details", "summary"]
     },
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",

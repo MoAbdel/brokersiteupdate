@@ -1,9 +1,17 @@
 import { Metadata } from 'next'
+import { PHONE_DISPLAY } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Cookie Policy | Mo Abdel Mortgage Broker - NMLS #1426884',
   description: 'Cookie policy for mothebroker.com. Learn how we use cookies to improve your experience on our Orange County mortgage broker website.',
-  robots: 'index, follow',
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
   alternates: {
     canonical: 'https://www.mothebroker.com/cookie-policy',
     languages: {
@@ -72,7 +80,7 @@ export default function CookiePolicyPage() {
             If you have any questions about our Cookie Policy, please contact us:
           </p>
           <ul className="list-none mb-4">
-            <li><strong>Phone:</strong> (949) 579-2057</li>
+            <li><strong>Phone:</strong> {PHONE_DISPLAY}</li>
             <li>
               <strong>Email:</strong>{' '}
               <a href="mailto:mo.abdel@luminlending.com" className="text-blue-600 hover:underline">

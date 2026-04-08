@@ -1,4 +1,4 @@
-import { SITE_ORIGIN, NMLS_ID, PHONE_E164, PHONE_DISPLAY } from '@/lib/site';
+import { BROKER_EMAIL as SITE_BROKER_EMAIL, SITE_ORIGIN, NMLS_ID, PHONE_E164, PHONE_DISPLAY } from '@/lib/site';
 
 // Re-export site constants for convenience
 export { SITE_ORIGIN, NMLS_ID, PHONE_E164, PHONE_DISPLAY };
@@ -7,7 +7,7 @@ export { SITE_ORIGIN, NMLS_ID, PHONE_E164, PHONE_DISPLAY };
 export const COMPANY_NAME = 'Lumin Lending, Inc.';
 export const COMPANY_NMLS = '2716106';
 export const BROKER_NAME = 'Mo Abdel';
-export const BROKER_EMAIL = 'mo@mothebroker.com';
+export const BROKER_EMAIL = SITE_BROKER_EMAIL;
 export const BROKER_JOB_TITLE = 'Licensed Mortgage Broker';
 
 // Schema @id anchors (match schema-entities.ts pattern)

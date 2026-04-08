@@ -1,7 +1,14 @@
 'use client';
 
 import React from 'react';
-import { PHONE_DISPLAY } from '@/lib/site';
+import {
+  OFFICE_CITY,
+  OFFICE_COUNTRY,
+  OFFICE_POSTAL_CODE,
+  OFFICE_STATE,
+  OFFICE_STREET_ADDRESS,
+  PHONE_DISPLAY,
+} from '@/lib/site';
 import {
   BROKER_EMAIL,
   COMPANY_NAME,
@@ -32,11 +39,11 @@ export default function EnhancedLocalSchema({
   const fallbackCoverage = regionName || (state ? stateFull : 'California and Washington');
   const coverageLabel = city ? `${city}, ${stateFull}` : fallbackCoverage;
   const businessAddress = {
-    streetAddress: '18201 Von Karman Ave Suite 800',
-    addressLocality: 'Irvine',
-    addressRegion: 'CA',
-    postalCode: '92612',
-    addressCountry: 'US'
+    streetAddress: OFFICE_STREET_ADDRESS,
+    addressLocality: OFFICE_CITY,
+    addressRegion: OFFICE_STATE,
+    postalCode: OFFICE_POSTAL_CODE,
+    addressCountry: OFFICE_COUNTRY
   };
   const defaultGeo =
     state === 'WA'

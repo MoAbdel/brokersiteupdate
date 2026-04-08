@@ -2,7 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import { createPageUrl } from '@/lib/utils';
 import Image from 'next/image';
-import { PHONE_DISPLAY, PHONE_TEL_HREF } from '@/lib/site';
+import {
+  OFFICE_CITY,
+  OFFICE_POSTAL_CODE,
+  OFFICE_STATE,
+  OFFICE_STREET_ADDRESS,
+  PHONE_DISPLAY,
+  PHONE_TEL_HREF,
+} from '@/lib/site';
 
 const navigationItems = [
   { title: 'Home', url: createPageUrl('Home') },
@@ -70,9 +77,9 @@ export default function Footer() {
                 </a>
               </li>
               <li className="py-2 leading-relaxed">
-                18201 Von Karman Ave Suite 800
+                {OFFICE_STREET_ADDRESS}
                 <br />
-                Irvine, CA 92612
+                {OFFICE_CITY}, {OFFICE_STATE} {OFFICE_POSTAL_CODE}
               </li>
               <li className="py-2">Available 24/7</li>
             </ul>
@@ -140,7 +147,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 mt-6 pt-6">
           {/* Disclosures & Licensing - always visible for CFPB compliance */}
-          <div className="max-w-6xl mx-auto mb-6 space-y-5 text-slate-300 text-xs leading-relaxed">
+          <div className="max-w-6xl mx-auto mb-6 space-y-5 text-slate-300 text-xs leading-relaxed" data-nosnippet>
             <p className="text-sm font-semibold text-slate-200">Disclosures & Licensing</p>
 
             <p className="text-slate-300 font-medium">
@@ -161,7 +168,7 @@ export default function Footer() {
             <div>
               <p>
                 Information accurate as of 02/17/2026. Not all programs are available in all areas. Not all borrowers will qualify for
-                all programs. Program restrictions apply. Please contact Lumin Lending, 18201 Von Karman Ave Suite 800, Irvine, CA 92612
+                all programs. Program restrictions apply. Please contact Lumin Lending, {OFFICE_STREET_ADDRESS}, {OFFICE_CITY}, {OFFICE_STATE} {OFFICE_POSTAL_CODE}
                 to determine eligibility. This is not an offer or extension of credit or a commitment to lend. All loan programs are
                 subject to the specific lender&apos;s underwriting guidelines and available loan products. Approvals may be subject to
                 appraisals and other documentation requirements. Interest rates, loan programs, available loan terms, and other
@@ -188,7 +195,7 @@ export default function Footer() {
                 <span>DRE #02291443</span>
               </div>
               <p className="text-slate-400 text-[10px]">Licensed in CA and WA only</p>
-              <p className="text-slate-400 text-[10px]">18201 Von Karman Ave Suite 800, Irvine, CA 92612</p>
+              <p className="text-slate-400 text-[10px]">{OFFICE_STREET_ADDRESS}, {OFFICE_CITY}, {OFFICE_STATE} {OFFICE_POSTAL_CODE}</p>
             </div>
           </div>
 

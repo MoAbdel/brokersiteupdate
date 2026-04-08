@@ -1,59 +1,15 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { decorateAudienceHeaders, getAudienceContext, isLocalHost } from '@/lib/audience';
-
-const LOW_EQUITY_BLOG_PATTERNS: RegExp[] = [
-  /^\/blog\/wholesale-mortgage-broker-\d{5}(?:-[a-z0-9-]+)?$/i,
-  /^\/blog\/wholesale-mortgage-\d{5}-[a-z0-9-]+$/i,
-];
-
-const THIN_OVERLAP_ROUTE_PATTERNS: RegExp[] = [
-  /^\/areas\/[a-z0-9-]+-mortgage-rates$/i,
-  /^\/areas\/[a-z0-9-]+-refinance-rates$/i,
-];
-
-const LOCALIZED_TOOL_CITY_ROUTE_PATTERN =
-  /^\/tools\/(?:bank-statement-loan-estimator|cash-out-limit-calculator|dscr-qualification-calculator|dscr-rent-analyzer|equity-comparison-calculator|max-heloc-calculator|property-tax-estimator)\/[a-z0-9-]+\/[a-z0-9-]+\/[a-z0-9-]+$/i;
-
-const NON_CONTENT_PATH_PATTERNS: RegExp[] = [
-  /\/opengraph-image$/i,
-  /^\/robots\.txt$/i,
-  /^\/sitemap(?:-[a-z0-9-]+)?\.xml$/i,
-  /^\/manifest\.json$/i,
-  /^\/.*\.vcf$/i,
-  /^\/llms(?:-full)?\.txt$/i,
-];
+import routePolicy from '@/lib/seo-route-policy';
 
 const APPLY_URL = 'https://luminlending-apply-mo-abdel.my1003app.com/register';
-
-function getRobotsDirective(pathname: string, search: string): string | null {
-  if (pathname === '/guides' && search.length > 0) {
-    return 'noindex, nofollow';
-  }
-
-  if (LOW_EQUITY_BLOG_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return 'noindex, nofollow';
-  }
-
-  if (THIN_OVERLAP_ROUTE_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return 'noindex, nofollow';
-  }
-
-  if (NON_CONTENT_PATH_PATTERNS.some((pattern) => pattern.test(pathname))) {
-    return 'noindex, nofollow';
-  }
-
-  if (LOCALIZED_TOOL_CITY_ROUTE_PATTERN.test(pathname)) {
-    return 'noindex, follow';
-  }
-
-  return null;
-}
 
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const host = request.headers.get('host') || '';
   const localHost = isLocalHost(host);
+  const { getRedirectTarget, getRobotsDirective } = routePolicy;
 
   // Canonicalize duplicate blog variants to their 2026 versions.
   // (Avoids split indexing / duplicate content.)
@@ -194,7 +150,9 @@ export function middleware(request: NextRequest) {
     '/loans/bank-statement': '/loan-programs/bank-statement-loans',
   };
 
-  const redirectTarget = blogRedirects[pathname] || pageRedirects[pathname] || familyRedirects[pathname];
+  const strategicRedirectTarget = getRedirectTarget(pathname);
+  const redirectTarget =
+    strategicRedirectTarget || blogRedirects[pathname] || pageRedirects[pathname] || familyRedirects[pathname];
   if (redirectTarget) {
     const redirectUrl = new URL(`https://www.mothebroker.com${redirectTarget}${search}`);
     return NextResponse.redirect(redirectUrl, 301);

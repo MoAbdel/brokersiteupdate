@@ -12,18 +12,36 @@ const CREDENTIALS_PATH = './gsc-credentials.json';
 const DEFAULT_SITE_URL = 'sc-domain:mothebroker.com';
 const DEFAULT_DAYS = 90;
 const DEFAULT_ROW_LIMIT = 25000;
+const cliArgs = process.argv.slice(2);
 
 const formatDate = (date) => date.toISOString().slice(0, 10);
 
+const getCliOption = (flag) => {
+  const directMatch = cliArgs.find((arg) => arg.startsWith(`${flag}=`));
+  if (directMatch) {
+    return directMatch.slice(flag.length + 1);
+  }
+
+  const flagIndex = cliArgs.indexOf(flag);
+  if (flagIndex >= 0) {
+    return cliArgs[flagIndex + 1];
+  }
+
+  return undefined;
+};
+
 const getDateRange = () => {
-  const endDate = process.env.GSC_END_DATE
-    ? new Date(process.env.GSC_END_DATE)
+  const cliEndDate = getCliOption('--end-date');
+  const cliStartDate = getCliOption('--start-date');
+
+  const endDate = cliEndDate || process.env.GSC_END_DATE
+    ? new Date(cliEndDate || process.env.GSC_END_DATE)
     : new Date();
-  const startDate = process.env.GSC_START_DATE
-    ? new Date(process.env.GSC_START_DATE)
+  const startDate = cliStartDate || process.env.GSC_START_DATE
+    ? new Date(cliStartDate || process.env.GSC_START_DATE)
     : new Date(endDate.getTime());
 
-  if (!process.env.GSC_START_DATE) {
+  if (!cliStartDate && !process.env.GSC_START_DATE) {
     startDate.setDate(startDate.getDate() - DEFAULT_DAYS);
   }
 
@@ -51,11 +69,13 @@ const run = async () => {
     process.exit(1);
   }
 
-  const siteUrl = process.env.GSC_SITE_URL || DEFAULT_SITE_URL;
-  const rowLimit = Number(process.env.GSC_ROW_LIMIT || DEFAULT_ROW_LIMIT);
+  const siteUrl = getCliOption('--site-url') || process.env.GSC_SITE_URL || DEFAULT_SITE_URL;
+  const rowLimit = Number(getCliOption('--row-limit') || process.env.GSC_ROW_LIMIT || DEFAULT_ROW_LIMIT);
   const { startDate, endDate } = getDateRange();
 
-  const dimensions = (process.env.GSC_DIMENSIONS || 'page').split(',').map((d) => d.trim());
+  const dimensions = (getCliOption('--dimensions') || process.env.GSC_DIMENSIONS || 'page')
+    .split(',')
+    .map((d) => d.trim());
   const hasQuery = dimensions.includes('query');
 
   console.log(`Site: ${siteUrl}`);

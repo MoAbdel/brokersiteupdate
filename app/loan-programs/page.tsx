@@ -434,7 +434,7 @@ export default function ProgramsPage() {
             <Link className="text-blue-700 hover:underline" href="/non-qm-loans-orange-county">
               Non-QM Loans (Regional)
             </Link>
-            <Link className="text-blue-700 hover:underline" href="/heloc-specialist-orange-county">
+              <Link className="text-blue-700 hover:underline" href="/heloc-orange-county">
               HELOC Specialist (Regional)
             </Link>
           </div>

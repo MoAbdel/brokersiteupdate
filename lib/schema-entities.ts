@@ -1,4 +1,10 @@
 import {
+  BROKER_EMAIL,
+  OFFICE_CITY,
+  OFFICE_COUNTRY,
+  OFFICE_POSTAL_CODE,
+  OFFICE_STATE,
+  OFFICE_STREET_ADDRESS,
   SITE_ORIGIN,
   PHONE_DISPLAY,
 } from '@/lib/site';
@@ -83,38 +89,6 @@ const COMPANY_CREDENTIALS = [
   },
 ];
 
-const OPENING_HOURS_SPECIFICATION = [
-  {
-    '@type': 'OpeningHoursSpecification' as const,
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-    opens: '08:00',
-    closes: '18:00',
-  },
-  {
-    '@type': 'OpeningHoursSpecification' as const,
-    dayOfWeek: ['Saturday'],
-    opens: '09:00',
-    closes: '15:00',
-  },
-];
-
-const OFFER_CATALOG = {
-  '@type': 'OfferCatalog' as const,
-  name: 'Mortgage Loan Programs',
-  itemListElement: [
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Conventional Loans' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'FHA Loans' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'VA Loans' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Jumbo Loans up to $2.5M' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'DSCR Investment Loans' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Bank Statement Loans' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'HELOC' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Cash-Out Refinance' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Fix and Flip Loans' } },
-    { '@type': 'Offer' as const, itemOffered: { '@type': 'Service' as const, name: 'Foreign National Loans' } },
-  ],
-};
-
 const KNOWS_ABOUT = [
   'Wholesale Mortgage Brokerage',
   'Conventional Loans',
@@ -139,8 +113,8 @@ export const buildBrokerEntityGraph = ({
   serviceDescription,
   areaServedName = 'California and Washington',
   areaServedNames,
-  addressLocality = 'Irvine',
-  addressRegion = 'CA',
+  addressLocality = OFFICE_CITY,
+  addressRegion = OFFICE_STATE,
   businessName = 'Mo Abdel - California & Washington Mortgage Broker',
 }: BrokerEntityGraphInput) => ({
   '@context': 'https://schema.org',
@@ -166,7 +140,7 @@ export const buildBrokerEntityGraph = ({
       jobTitle: 'Licensed Mortgage Broker',
       identifier: 'NMLS #1426884',
       telephone: PHONE_DISPLAY,
-      email: 'mo@mothebroker.com',
+      email: BROKER_EMAIL,
       url: `${SITE_URL}/about-mo-abdel-orange-county-mortgage-broker`,
       image: `${SITE_URL}/images/mo-headshot-v2.jpg`,
       hasCredential: BROKER_CREDENTIALS,
@@ -182,16 +156,16 @@ export const buildBrokerEntityGraph = ({
       additionalType: 'https://schema.org/MortgageBroker',
       url: SITE_URL,
       telephone: PHONE_DISPLAY,
-      email: 'mo@mothebroker.com',
+      email: BROKER_EMAIL,
       serviceType,
       description: serviceDescription,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '18201 Von Karman Ave Suite 800',
+        streetAddress: OFFICE_STREET_ADDRESS,
         addressLocality,
         addressRegion,
-        postalCode: '92612',
-        addressCountry: 'US',
+        postalCode: OFFICE_POSTAL_CODE,
+        addressCountry: OFFICE_COUNTRY,
       },
       geo: {
         '@type': 'GeoCoordinates',
@@ -209,8 +183,6 @@ export const buildBrokerEntityGraph = ({
       priceRange: '$',
       image: `${SITE_URL}/images/mo-headshot-v2.jpg`,
       sameAs: SAME_AS,
-      openingHoursSpecification: OPENING_HOURS_SPECIFICATION,
-      hasOfferCatalog: OFFER_CATALOG,
     },
     {
       '@type': 'Service',
@@ -275,7 +247,7 @@ export const buildServiceWebPageSchema = ({
     ? {
         speakable: {
           '@type': 'SpeakableSpecification',
-          cssSelector: ['h1', '.speakable'],
+          cssSelector: ['h1', 'h2', '[data-speakable]'],
         },
       }
     : {}),

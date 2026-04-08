@@ -18,7 +18,7 @@
     "gsc:sitemap": "node scripts/submit-gsc-sitemap.mjs",
     "gsc:indexing": "node scripts/submit-gsc-indexing.mjs",
     "gsc:export": "node scripts/export-gsc-performance.mjs",
-    "gsc:export-queries": "GSC_DIMENSIONS=page,query node scripts/export-gsc-performance.mjs",
+    "gsc:export-queries": "node scripts/export-gsc-performance.mjs --dimensions page,query",
     "gsc:prune-candidates": "node scripts/build-prune-candidates.mjs",
     "seo:opportunity-queue": "node scripts/build-opportunity-queue.mjs",
     "seo:audit": "node scripts/build-seo-audit.mjs",

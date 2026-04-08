@@ -29,11 +29,11 @@ export default function IrvineMortgageBrokerPage() {
         questions: [
           {
             question: "What is the average home price in Irvine?",
-            answer: "The median home price in Irvine is $1.4M as of 2025, with University Park homes averaging $1.6M-$2.5M and Woodbridge homes around $1.26M-$1.8M."
+            answer: "The median home price in Irvine is about $1.4M as of 2026, with University Park homes commonly ranging from $1.6M-$2.5M and Woodbridge homes often landing around $1.26M-$1.8M."
           },
           {
             question: "Do I need a jumbo loan to buy in Irvine?",
-            answer: "85% of Irvine homes exceed the 2025 conforming loan limit of $1,209,750, requiring jumbo loan financing. Mo Abdel specializes in jumbo loans for Irvine properties."
+            answer: "A large share of Irvine homes exceed the 2026 Orange County high-cost conforming loan limit of $1,249,125, which means jumbo financing is still common for move-up and luxury Irvine properties. Mo Abdel specializes in jumbo loans for Irvine buyers and homeowners."
           },
           {
             question: "Which Irvine neighborhoods are best for families?",
@@ -175,7 +175,7 @@ export default function IrvineMortgageBrokerPage() {
           
           {/* Irvine Neighborhood Comparison Table */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold text-center text-slate-900 mb-6">Irvine Neighborhoods - Market Analysis 2025</h3>
+            <h3 className="text-2xl font-bold text-center text-slate-900 mb-6">Irvine Neighborhoods - Market Analysis 2026</h3>
             <p className="text-center text-slate-600 mb-6">
               Data compiled from MLS statistics and Irvine Company reports. Studies confirm these neighborhoods maintain strong resale values.
             </p>
@@ -227,8 +227,8 @@ export default function IrvineMortgageBrokerPage() {
             
             <div className="mt-4 text-center">
               <p className="text-sm text-slate-600">
-                <strong>Data Sources:</strong> Orange County MLS, Irvine Company market reports, 2025 sales data. 
-                Research indicates 85% of Irvine homes require jumbo financing due to conforming loan limits.
+                <strong>Data Sources:</strong> Orange County MLS, Irvine Company market reports, and trailing 12-month market snapshots through 2026.
+                Research indicates many Irvine homes still require jumbo financing because neighborhood pricing regularly exceeds the 2026 conforming limit.
               </p>
             </div>
           </div>
@@ -401,7 +401,7 @@ export default function IrvineMortgageBrokerPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-slate-600">
-                  Yes, many Irvine homes exceed the 2025 conforming loan limit of $1,209,750, 
+                  Yes, many Irvine homes exceed the 2026 Orange County conforming loan limit of $1,249,125,
                   requiring jumbo financing. We specialize in competitive jumbo loan pricing 
                   through our lender network.
                 </p>

@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FileText, AlertTriangle, Scale, Phone } from 'lucide-react';
+import { OFFICE_CITY, OFFICE_POSTAL_CODE, OFFICE_STATE, OFFICE_STREET_ADDRESS, PHONE_DISPLAY } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | Mo Abdel Mortgage Broker - NMLS #1426884',
@@ -47,7 +48,7 @@ export default function TermsOfServicePage() {
               <h3 className="text-lg font-semibold text-blue-800 mb-2">Service Agreement</h3>
               <p className="text-blue-700">
                 By using our services, you agree to these terms. We are committed to transparent, professional mortgage services.
-                Questions? Contact us at <strong>(949) 579-2057</strong>.
+                Questions? Contact us at <strong>{PHONE_DISPLAY}</strong>.
               </p>
             </div>
           </div>
@@ -271,7 +272,7 @@ export default function TermsOfServicePage() {
               <div className="space-y-2 text-slate-700">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2" />
-                  <span>Phone: (949) 579-2057</span>
+                  <span>Phone: {PHONE_DISPLAY}</span>
                 </div>
                 <div className="flex items-center">
                   <FileText className="w-4 h-4 mr-2" />
@@ -281,8 +282,8 @@ export default function TermsOfServicePage() {
                   <strong>Mohammad Abdelfattah, NMLS #1426884</strong><br />
                   Licensed Mortgage Loan Originator<br />
                   Lumin Lending<br />
-                  18201 Von Karman Ave Suite 800<br />
-                  Irvine, CA 92612
+                  {OFFICE_STREET_ADDRESS}<br />
+                  {OFFICE_CITY}, {OFFICE_STATE} {OFFICE_POSTAL_CODE}
                 </div>
                 <div className="mt-4">
                   <strong>License Verification:</strong><br />

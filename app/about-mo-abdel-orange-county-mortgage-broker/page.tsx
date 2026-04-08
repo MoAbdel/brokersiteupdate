@@ -7,6 +7,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Phone, MapPin, Star, Shield, Award, Clock, Users } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import {
+  OFFICE_CITY,
+  OFFICE_POSTAL_CODE,
+  OFFICE_STATE,
+  OFFICE_STREET_ADDRESS,
+  PHONE_DISPLAY,
+  PHONE_TEL_HREF,
+} from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'About Mo Abdel | Licensed Orange County Mortgage Broker NMLS #1426884',
@@ -35,10 +43,10 @@ const personSchema = {
   "telephone": "(949) 579-2057",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "18201 Von Karman Ave Suite 800",
-    "addressLocality": "Irvine",
-    "addressRegion": "CA",
-    "postalCode": "92612",
+    "streetAddress": OFFICE_STREET_ADDRESS,
+    "addressLocality": OFFICE_CITY,
+    "addressRegion": OFFICE_STATE,
+    "postalCode": OFFICE_POSTAL_CODE,
     "addressCountry": "US"
   },
   "areaServed": [
@@ -116,13 +124,13 @@ export default function AboutMoAbdelPage() {
 
             {/* Quick Contact Bar */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-              <a href="tel:9495792057" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
+              <a href={PHONE_TEL_HREF} className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                (949) 579-2057
+                {PHONE_DISPLAY}
               </a>
               <div className="inline-flex items-center text-slate-600">
                 <MapPin className="w-5 h-5 mr-2" />
-                Irvine, CA
+                {OFFICE_CITY}, {OFFICE_STATE}
               </div>
             </div>
           </div>
@@ -360,10 +368,10 @@ export default function AboutMoAbdelPage() {
                     Start My Application
                   </Button>
                 </Link>
-                <a href="tel:9495792057">
+                <a href={PHONE_TEL_HREF}>
                   <Button variant="ghost" className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg">
                     <Phone className="w-5 h-5 mr-2" />
-                    Call or Text (949) 579-2057
+                    Call or Text {PHONE_DISPLAY}
                   </Button>
                 </a>
               </div>
