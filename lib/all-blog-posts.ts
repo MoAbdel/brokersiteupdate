@@ -1861,23 +1861,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-05',
     category: 'Home Equity',
     readTime: '11 min read',
-  },
-  {
-    slug: 'reverse-mortgage-san-marino-ca-2026',
-    title: 'Reverse Mortgage in San Marino, CA: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'San Marino reverse mortgage guide for homeowners 62+. Jumbo reverse options for $3.8M historic estates near Huntington Library.',
-    date: '2026-02-05',
-    category: 'Reverse Mortgage',
-    readTime: '12 min read',
-  },
-  {
-    slug: 'home-equity-san-marino-ca-2026',
-    title: 'Home Equity Options in San Marino, CA: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'San Marino home equity guide 2026: Historic preservation financing, multigenerational additions, and jumbo equity for prestigious estates.',
-    date: '2026-02-05',
-    category: 'Home Equity',
-    readTime: '11 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-arcadia-ca-2026',
     title: 'Reverse Mortgage in Arcadia, CA: HECM Guide for Seniors 62+ [2026]',
@@ -1920,15 +1904,7 @@ export const allBlogPosts: BlogPost[] = [
     readTime: '18 min read',
   },
   // ===== WA REGIONAL HUBS (Feb 4, 2026) =====
-  // ===== WA GEO PAGES (Feb 3, 2026) - Redirected to hubs =====
-  {
-    slug: 'reverse-mortgage-medina-wa-2026',
-    title: 'Reverse Mortgage in Medina, WA: HECM Guide for Seniors [2026]',
-    excerpt: 'Reverse mortgage Medina guide for seniors 62+. Learn HECM eligibility, jumbo reverse options & how to access your ultra-luxury home equity.',
-    date: '2026-02-03',
-    category: 'Reverse Mortgage',
-    readTime: '10 min read',
-  },
+  // ===== WA GEO PAGES (Feb 3, 2026) - Redirected to hubs =====
   {
     slug: 'reverse-mortgage-mercer-island-wa-2026',
     title: 'Reverse Mortgage in Mercer Island, WA: HECM Guide for Seniors [2026]',
@@ -2050,23 +2026,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Home Equity',
     readTime: '10 min read',
-  },
-  {
-    slug: 'reverse-mortgage-clyde-hill-wa-2026',
-    title: 'Reverse Mortgage in Clyde Hill, WA: HECM Guide for Seniors [2026]',
-    excerpt: 'Reverse mortgage Clyde Hill guide for seniors 62+. Learn HECM eligibility, payout options & how to access your luxury home equity.',
-    date: '2026-02-02',
-    category: 'Reverse Mortgage',
-    readTime: '10 min read',
-  },
-  {
-    slug: 'home-equity-clyde-hill-wa-2026',
-    title: 'Home Equity Options in Clyde Hill, WA: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Clyde Hill home equity guide 2026: Compare HELOC, home equity loans, and jumbo cash-out refinance options for luxury homeowners.',
-    date: '2026-02-02',
-    category: 'Home Equity',
-    readTime: '10 min read',
-  },
+  },
   // ===== WHOLESALE OC ZIP PAGES (Feb 2, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-92867',
@@ -2181,15 +2141,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92679',
-    title: 'Wholesale Mortgage Broker 92679 | Coto de Caza Jumbo Loan Specialists',
-    excerpt: 'Coto de Caza wholesale mortgage broker serving 92679. Access 50+ Wholesale Lenders for jumbo loans, self-employed programs & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-92624',
     title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach Jumbo Loan Specialists',
@@ -2319,15 +2271,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-30',
     category: 'Home Equity',
     readTime: '9 min read',
-  },
-  {
-    slug: 'home-equity-beverly-hills-2026',
-    title: 'Home Equity Options in Beverly Hills: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Beverly Hills home equity guide 2026: Access your luxury home equity with competitive wholesale rates.',
-    date: '2026-01-30',
-    category: 'Home Equity',
-    readTime: '9 min read',
-  },
+  },
   // ===== REVERSE MORTGAGE CITY POSTS (Jan 29, 2026) =====
   {
     slug: 'reverse-mortgage-calabasas-2026',
@@ -2376,15 +2320,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-29',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
-  },
-  {
-    slug: 'reverse-mortgage-beverly-hills-2026',
-    title: 'Reverse Mortgage in Beverly Hills: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'Beverly Hills reverse mortgage guide for luxury homeowners 62+. Proprietary jumbo programs for high-value estates.',
-    date: '2026-01-29',
-    category: 'Reverse Mortgage',
-    readTime: '10 min read',
-  },
+  },
   // ===== WHOLESALE EDUCATION & CLUSTER (Jan 28, 2026) =====
   {
     slug: 'non-qm-loans-wholesale-broker-2026',
@@ -2811,15 +2747,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-18',
     category: 'City Guides',
     readTime: '10 min read',
-  },
-  {
-    slug: 'coto-de-caza-mortgage-guide-2026',
-    title: 'Coto de Caza Mortgage Guide: Gated Equestrian Community [2026]',
-    excerpt: 'Coto de Caza mortgage guide: Jumbo loans for this prestigious gated equestrian community.',
-    date: '2026-01-18',
-    category: 'City Guides',
-    readTime: '10 min read',
-  },
+  },
   {
     slug: 'corona-del-mar-refinance-guide-2026',
     title: 'Corona del Mar Refinance Guide: Tapping Coastal Equity [2026]',
