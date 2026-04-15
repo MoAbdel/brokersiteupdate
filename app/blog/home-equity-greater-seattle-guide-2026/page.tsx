@@ -474,7 +474,7 @@ export default function HomeEquityGreaterSeattleGuide2026() {
           </p>
 
           <p>
-            <strong>The Bainbridge Island equity profile:</strong> Bainbridge Island&apos;s combination of $1.3M median values, high homeownership rates, and low mortgage balances (many properties are owned free and clear by long-term residents) creates the largest per-property equity positions in Greater Seattle outside of Medina and similar Eastside ultra-luxury enclaves. The island&apos;s limited housing supply &mdash; constrained by ferry access, land availability, and strict zoning &mdash; supports consistent appreciation that builds equity faster than mainland King County averages. For Bainbridge homeowners, jumbo HELOC products with credit lines of $1M-$2M+ are not unusual, and wholesale broker access ensures these specialty products are priced competitively.
+            <strong>The Bainbridge Island equity profile:</strong> Bainbridge Island&apos;s combination of $1.3M median values, high homeownership rates, and low mortgage balances (many properties are owned free and clear by long-term residents) creates the largest per-property equity positions in Greater Seattle outside of Medina and similar higher-value Eastside enclaves. The island&apos;s limited housing supply &mdash; constrained by ferry access, land availability, and strict zoning &mdash; supports consistent appreciation that builds equity faster than mainland King County averages. For Bainbridge homeowners, jumbo HELOC products with credit lines of $1M-$2M+ are not unusual, and wholesale broker access ensures these specialty products are priced competitively.
           </p>
 
           {/* Hub WA-GS-B: Suburban King County */}

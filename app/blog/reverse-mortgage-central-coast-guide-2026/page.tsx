@@ -351,7 +351,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
         </p>
         <h3>Montecito: Estate-Level Reverse Mortgages</h3>
         <p>
-          Montecito stands as California&apos;s premier enclave for ultra-high-net-worth retirees. With a median home value of $8.5 million and individual estates frequently valued at $15&ndash;$50 million, Montecito demands proprietary reverse mortgage programs exclusively. In our Montecito closings, we work with specialized lenders who underwrite properties above $10 million&mdash;a capability that retail lenders simply do not offer.
+          Montecito stands as one of California&apos;s highest-value communities for retirees. With a median home value of $8.5 million and individual estates frequently valued at $15&ndash;$50 million, Montecito demands proprietary reverse mortgage programs exclusively. In our Montecito closings, we work with specialized lenders who underwrite properties above $10 million&mdash;a capability that retail lenders simply do not offer.
         </p>
         <p>
           Montecito&apos;s senior population includes entertainment industry veterans, tech founders, and multi-generational California families. Many of these homeowners hold properties free and clear, creating ideal conditions for maximum reverse mortgage proceeds. A 75-year-old Montecito homeowner with a $10 million free-and-clear property accesses approximately $4.5&ndash;$5.5 million through proprietary programs.
@@ -468,7 +468,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
         <ul>
           <li><strong>50+ Wholesale Lenders:</strong> Compare HECM and proprietary programs simultaneously to find the lowest rate and lowest fees for your Central Coast property. Retail lenders offer only their own products&mdash;limiting your options and typically costing $3,000&ndash;$7,000 more over the loan&apos;s lifetime.</li>
           <li><strong>Central Coast market knowledge:</strong> Accurate property valuations require understanding neighborhood-level dynamics. The difference between a Mesa home and a Riviera home in Santa Barbara, or a Westside versus Eastside Paso Robles property, significantly affects reverse mortgage proceeds.</li>
-          <li><strong>Luxury property expertise:</strong> Montecito estates and Santa Barbara waterfront properties require lenders who underwrite $5M+ properties. Mo Abdel&apos;s wholesale network includes specialized jumbo reverse mortgage lenders who serve the ultra-luxury segment.</li>
+          <li><strong>High-value property expertise:</strong> Montecito estates and Santa Barbara waterfront properties require lenders who underwrite $5M+ properties. Mo Abdel&apos;s wholesale network includes specialized jumbo reverse mortgage lenders who serve this high-value segment.</li>
           <li><strong>California and Washington licensing:</strong> Seniors with properties in both states work with a single broker for all reverse mortgage needs. Mo Abdel holds CA DRE #02291443 and is licensed in WA.</li>
           <li><strong>Transparent fee structure:</strong> Wholesale pricing means no lender markup. Central Coast seniors receive institutional pricing that was previously available only to banks and large financial institutions.</li>
         </ul>

@@ -307,7 +307,7 @@ export default function HomeEquityCentralCoastGuide2026() {
           Based on Mo Abdel&apos;s experience with Montecito jumbo products, the most common equity access strategies include: establishing $1&ndash;$2 million HELOC credit lines for investment opportunities, executing $2&ndash;$4 million cash-out refinances for property acquisitions, and structuring $500,000&ndash;$1 million HELOANs for major renovations on estate properties. Montecito homeowners who work with a wholesale broker access 8&ndash;12 jumbo lenders simultaneously, compared to the single product offered by their private bank.
         </p>
         <p>
-          Celebrity and ultra-high-net-worth Montecito homeowners also benefit from asset-based underwriting. Rather than relying solely on W-2 income, these programs evaluate total net worth, investment portfolios, and liquid reserves. Mo Abdel&apos;s wholesale network includes lenders who underwrite based on assets totaling $2 million or more, eliminating traditional income documentation requirements.
+          Move-up and equity-rich Montecito homeowners also benefit from asset-based underwriting. Rather than relying solely on W-2 income, these programs evaluate total net worth, investment portfolios, and liquid reserves. Mo Abdel&apos;s wholesale network includes lenders who underwrite based on assets totaling $2 million or more, eliminating traditional income documentation requirements.
         </p>
         <h3>Santa Barbara: Neighborhood-Level Equity Strategies</h3>
         <p>

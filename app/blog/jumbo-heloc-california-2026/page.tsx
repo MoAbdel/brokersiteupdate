@@ -34,7 +34,7 @@ const faqData = [
   },
   {
     question: "What is the maximum HELOC amount available in California?",
-    answer: "The maximum HELOC amount in California depends on the lender and borrower qualifications. Most retail banks cap HELOCs at $500,000. Through wholesale broker channels, portfolio lenders offer HELOCs up to $2 million, and select private lenders extend lines up to $5 million for ultra-high-net-worth borrowers with substantial equity and reserves."
+    answer: "The maximum HELOC amount in California depends on the lender and borrower qualifications. Most retail banks cap HELOCs at $500,000. Through wholesale broker channels, portfolio lenders offer HELOCs up to $2 million, and select private lenders extend lines up to $5 million for borrowers with substantial equity and reserves."
   },
   {
     question: "What is the maximum CLTV for a jumbo HELOC?",

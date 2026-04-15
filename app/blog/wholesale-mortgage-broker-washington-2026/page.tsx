@@ -322,7 +322,7 @@ export default function WholesaleMortgageBrokerWashington() {
                   <td className="px-4 py-3 border-t font-medium">Medina</td>
                   <td className="px-4 py-3 border-t">$5.0M+</td>
                   <td className="px-4 py-3 border-t">$2M – $5M+</td>
-                  <td className="px-4 py-3 border-t">Tech executives, UHNW individuals</td>
+                  <td className="px-4 py-3 border-t">Tech executives, high-net-worth individuals</td>
                   <td className="px-4 py-3 border-t">Super-jumbo, asset-based qualification</td>
                 </tr>
                 <tr>

@@ -50,7 +50,7 @@ export default function HomeEquityRanchoSantaFePage() {
 
         <h2>Super-Jumbo Equity Options</h2>
         <h3>Super-Jumbo HELOC</h3>
-        <ul><li>Credit lines: $1M to $5M+</li><li>Designed for ultra-luxury properties</li><li>Specialized underwriting</li></ul>
+        <ul><li>Credit lines: $1M to $5M+</li><li>Designed for high-value properties</li><li>Specialized underwriting</li></ul>
 
         <h3>Super-Jumbo Home Equity Loan</h3>
         <ul><li>Fixed rate stability</li><li>Loan amounts to $3M+</li><li>Estate-appropriate terms</li></ul>

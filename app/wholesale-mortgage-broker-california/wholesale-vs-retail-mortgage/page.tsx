@@ -412,7 +412,7 @@ export default function WholesaleVsRetailMortgagePage() {
 
         <ul>
           <li><strong>Existing banking relationship:</strong> Some banks offer rate discounts to long-term customers with significant deposits</li>
-          <li><strong>Private banking clients:</strong> Ultra-high-net-worth individuals may access exclusive private bank terms</li>
+          <li><strong>Private banking clients:</strong> Mid-tier and move-up borrowers may access exclusive private bank terms</li>
           <li><strong>Construction loans:</strong> Some banks offer superior construction-to-permanent programs</li>
           <li><strong>Brand preference:</strong> Borrowers who prioritize recognizable national brands</li>
           <li><strong>Bundled products:</strong> Combined mortgage/deposit/investment relationships</li>

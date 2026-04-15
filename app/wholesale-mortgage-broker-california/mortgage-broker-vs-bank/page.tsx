@@ -456,7 +456,7 @@ export default function MortgageBrokerVsBankPage() {
 
         <ul>
           <li><strong>Existing relationship:</strong> Long-term customers with significant deposits may receive rate discounts</li>
-          <li><strong>Private banking:</strong> Ultra-high-net-worth individuals accessing exclusive products</li>
+          <li><strong>Private banking:</strong> Mid-tier and move-up borrowers accessing exclusive bank products</li>
           <li><strong>Construction loans:</strong> Some banks offer superior construction-to-permanent programs</li>
           <li><strong>Brand preference:</strong> Borrowers who strongly prefer recognizable national names</li>
           <li><strong>Bundled products:</strong> Combined mortgage/banking/investment relationships</li>

@@ -95,7 +95,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
     {
       city: "Newport Beach",
       medianPrice: "$2.8M",
-      marketType: "Luxury waterfront community",
+      marketType: "California and Washington coastal community",
       loanConsiderations: "Primarily jumbo loans, luxury financing needed"
     },
     {

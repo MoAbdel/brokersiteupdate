@@ -498,7 +498,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
 
         <h3>Tier 4: Ultra-Jumbo Loans $5,000,001+</h3>
         <p>
-          Ultra-jumbo loans serve the highest end of the market: waterfront estates, trophy properties, and ultra-luxury residences.
+          Ultra-jumbo loans serve the highest end of the market: waterfront estates, trophy properties, and high-value residences.
         </p>
         <ul>
           <li><strong>Credit Score:</strong> 740+ minimum</li>
@@ -506,7 +506,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <li><strong>Reserves:</strong> 24+ months PITI, often requiring $1M+ in liquid assets post-closing</li>
           <li><strong>DTI:</strong> 35% to 40% maximum</li>
           <li><strong>Income Documentation:</strong> Full documentation with CPA letter common</li>
-          <li><strong>Lender Availability:</strong> 5 to 10 wholesale lenders specializing in ultra-high-net-worth lending</li>
+          <li><strong>Lender Availability:</strong> 5 to 10 wholesale lenders specializing in mid-tier and high-value lending</li>
         </ul>
 
         {/* Comprehensive Requirements Table */}

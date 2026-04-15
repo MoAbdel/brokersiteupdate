@@ -151,7 +151,7 @@ export const serviceAreasDropdown: DropdownItem[] = [
   { title: 'Luxury Markets', url: '#', isHeader: true, icon: Gem },
   { title: 'Waterfront Homes', url: '/luxury-markets/waterfront-homes-mortgage-broker' },
   { title: 'Golf Course Homes', url: '/luxury-markets/golf-course-homes-mortgage-broker' },
-  { title: 'Ultra-Luxury Estates', url: '/luxury-markets/ultra-luxury-estates-mortgage-broker' },
+  { title: 'High-Value Estates', url: '/luxury-markets/ultra-luxury-estates-mortgage-broker' },
 
   // School Districts  
   { title: 'School Districts', url: '#', isHeader: true, icon: GraduationCap },

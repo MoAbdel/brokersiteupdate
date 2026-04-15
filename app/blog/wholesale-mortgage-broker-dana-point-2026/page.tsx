@@ -200,7 +200,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>Monarch Beach</h3>
         <p>
-          Ultra-luxury gated community with oceanview estates. Homes range from $3M to $15M+. Super jumbo expertise essential—bank statement and asset-based programs popular with executives and business owners.
+          Gated community with oceanview estates. Homes range from $3M to $15M+. Super jumbo expertise essential—bank statement and asset-based programs popular with executives and business owners.
         </p>
 
         <h3>Strand Beach</h3>

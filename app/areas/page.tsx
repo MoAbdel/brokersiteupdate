@@ -380,7 +380,7 @@ export default function NeighborhoodGuidePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             <Link className="text-blue-700 hover:underline" href="/luxury-markets">Luxury Markets Overview</Link>
             <Link className="text-blue-700 hover:underline" href="/luxury-markets/golf-course-homes-mortgage-broker">Golf Course Homes</Link>
-            <Link className="text-blue-700 hover:underline" href="/luxury-markets/ultra-luxury-estates-mortgage-broker">Ultra-Luxury Estates</Link>
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets/ultra-luxury-estates-mortgage-broker">High-Value Estates</Link>
             <Link className="text-blue-700 hover:underline" href="/luxury-markets/waterfront-homes-mortgage-broker">Waterfront Homes</Link>
           </div>
         </div>

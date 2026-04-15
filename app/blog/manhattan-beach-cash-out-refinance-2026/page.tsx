@@ -247,7 +247,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                 <ul>
                     <li>Premium property values supporting large cash-out amounts</li>
                     <li>Strong appreciation protecting equity positions</li>
-                    <li>Specialized jumbo lenders familiar with ultra-luxury properties</li>
+                    <li>Specialized jumbo lenders familiar with high-value coastal properties</li>
                 </ul>
 
                 <h3>The Sand Section</h3>

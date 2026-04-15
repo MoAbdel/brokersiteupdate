@@ -214,7 +214,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">North Laguna (92651)</h4>
-              <p className="text-sm mb-2">Oceanfront and ocean-view homes $3M-$20M+. Crescent Bay, Shaw&apos;s Cove areas. Ultra-luxury jumbo specialists required.</p>
+              <p className="text-sm mb-2">Oceanfront and ocean-view homes $3M-$20M+. Crescent Bay, Shaw&apos;s Cove areas. Jumbo specialists required.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$8M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -224,7 +224,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">South Laguna (92651)</h4>
-              <p className="text-sm mb-2">Three Arch Bay, Emerald Bay gated communities $4M-$25M+. Private beach access, exclusive programs for ultra-luxury.</p>
+              <p className="text-sm mb-2">Three Arch Bay, Emerald Bay gated communities $4M-$25M+. Private beach access, exclusive jumbo programs.</p>
               <p className="text-sm text-blue-700">Typical loan: $3M-$10M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -286,7 +286,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Cotton&apos;s Point (92672)</h4>
-              <p className="text-sm mb-2">Beachfront and blufftop estates $3M-$15M+. Nixon&apos;s Western White House area. Ultra-luxury jumbo.</p>
+              <p className="text-sm mb-2">Beachfront and blufftop estates $3M-$15M+. Nixon&apos;s Western White House area. Jumbo loans.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$6M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">

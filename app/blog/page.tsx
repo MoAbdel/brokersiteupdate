@@ -75,7 +75,7 @@ const blogPosts = [
     {
         slug: 'newport-coast-mortgage-guide-2026',
         title: 'Newport Coast Mortgage Guide 2026: Luxury Financing',
-        excerpt: 'Expert mortgage guidance for Newport Coast estates. Discover exclusive wholesale jumbo programs and asset-based lending for ultra-luxury coastal properties.',
+        excerpt: 'Expert mortgage guidance for Newport Coast estates. Discover exclusive wholesale jumbo programs and asset-based lending for high-value coastal properties.',
         date: '2026-01-08',
         category: 'Local Guides',
         readTime: '12 min read',

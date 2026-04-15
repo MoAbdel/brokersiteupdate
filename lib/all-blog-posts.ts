@@ -1562,8 +1562,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-15',
     category: 'DSCR',
     readTime: '12 min read',
-  },
-  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
+  },
+  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
   {
     slug: 'home-equity-suburban-king-county-2026',
     title: 'Suburban King County Home Equity: Shoreline, Lake Forest Park, Kenmore & Snoqualmie HELOC Guide [2026]',
@@ -1571,9 +1571,9 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
-  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
+  },
+  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
+  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
   {
     slug: 'reverse-mortgage-pasadena-corridor-2026',
     title: 'Reverse Mortgage in Pasadena, Glendale & SGV Corridor [2026]',
@@ -1581,7 +1581,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-12',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-central-coast-communities-2026',
     title: 'Reverse Mortgage in SLO, Pismo Beach & Central Coast Communities [2026]',
@@ -1589,7 +1589,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-12',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-pasadena-corridor-2026',
     title: 'Wholesale Mortgage Broker in Pasadena, Glendale & SGV Corridor [2026]',
@@ -1598,7 +1598,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'City Guides',
     readTime: '14 min read',
   },
-  // ===== HUB POSTS BATCH 4: 4 Equity + 6 HECM + 2 Refreshes (Feb 11, 2026) =====
+  // ===== HUB POSTS BATCH 4: 4 Equity + 6 HECM + 2 Refreshes (Feb 11, 2026) =====
   {
     slug: 'home-equity-pasadena-corridor-2026',
     title: 'Home Equity in Pasadena, Glendale & SGV Corridor: HELOC & Cash-Out [2026]',
@@ -1614,10 +1614,10 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-11',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
-  // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
-  // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
+  },
+  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
+  // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
+  // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
     title: 'Wholesale Mortgage Broker in Mountain View, Sunnyvale & Silicon Valley, CA [2026]',
@@ -1625,7 +1625,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
-  },
+  },
   // ===== REGIONAL PILLARS BATCH 3 (Feb 8, 2026) =====
   {
     slug: 'reverse-mortgage-central-coast-guide-2026',
@@ -1658,7 +1658,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-08',
     category: 'Guides',
     readTime: '16 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-sacramento-guide-2026',
     title: 'Sacramento Reverse Mortgage: Gold Country & Capital Region HECM Guide [2026]',
@@ -1690,7 +1690,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-08',
     category: 'Guides',
     readTime: '16 min read',
-  },
+  },
   {
     slug: 'home-equity-greater-seattle-guide-2026',
     title: 'Greater Seattle Home Equity: King County HELOC & Cash-Out Refinance Guide [2026]',
@@ -1698,8 +1698,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-08',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  // ===== REGIONAL PILLARS BATCH 2 (Feb 7, 2026) =====
+  },
+  // ===== REGIONAL PILLARS BATCH 2 (Feb 7, 2026) =====
   {
     slug: 'reverse-mortgage-east-bay-sf-guide-2026',
     title: 'East Bay & SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]',
@@ -1723,7 +1723,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-07',
     category: 'Guides',
     readTime: '16 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-san-diego-guide-2026',
     title: 'San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026]',
@@ -1820,7 +1820,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-06',
     category: 'Guides',
     readTime: '15 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-la-westside-beach-guide-2026',
     title: 'Reverse Mortgage LA Westside & Beach Cities Guide [2026]',
@@ -1844,8 +1844,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-06',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  // ===== CA GEO PAGES (Feb 5, 2026) =====
+  },
+  // ===== CA GEO PAGES (Feb 5, 2026) =====
   {
     slug: 'reverse-mortgage-santa-monica-ca-2026',
     title: 'Reverse Mortgage in Santa Monica, CA: HECM Guide for Seniors 62+ [2026]',
@@ -1861,7 +1861,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-05',
     category: 'Home Equity',
     readTime: '11 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-arcadia-ca-2026',
     title: 'Reverse Mortgage in Arcadia, CA: HECM Guide for Seniors 62+ [2026]',
@@ -1903,8 +1903,8 @@ export const allBlogPosts: BlogPost[] = [
     category: 'Wholesale',
     readTime: '18 min read',
   },
-  // ===== WA REGIONAL HUBS (Feb 4, 2026) =====
-  // ===== WA GEO PAGES (Feb 3, 2026) - Redirected to hubs =====
+  // ===== WA REGIONAL HUBS (Feb 4, 2026) =====
+  // ===== WA GEO PAGES (Feb 3, 2026) - Redirected to hubs =====
   {
     slug: 'reverse-mortgage-mercer-island-wa-2026',
     title: 'Reverse Mortgage in Mercer Island, WA: HECM Guide for Seniors [2026]',
@@ -1920,7 +1920,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-03',
     category: 'Home Equity',
     readTime: '10 min read',
-  },
+  },
   // ===== WHOLESALE OC ZIP PAGES (Feb 3, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-92691',
@@ -2026,7 +2026,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Home Equity',
     readTime: '10 min read',
-  },
+  },
   // ===== WHOLESALE OC ZIP PAGES (Feb 2, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-92867',
@@ -2125,7 +2125,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'Home Equity',
     readTime: '15 min read',
   },
-  // ===== WHOLESALE ZIP PAGES (Feb 2, 2026) =====
+  // ===== WHOLESALE ZIP PAGES (Feb 2, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-92662',
     title: 'Wholesale Mortgage Broker 92662 | Balboa Island Jumbo Loan Specialists',
@@ -2133,7 +2133,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-92603',
     title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists',
@@ -2141,7 +2141,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-92624',
     title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach Jumbo Loan Specialists',
@@ -2243,7 +2243,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'home-equity-rancho-santa-fe-2026',
     title: 'Home Equity Options in Rancho Santa Fe: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Rancho Santa Fe home equity guide 2026: Access your ultra-luxury estate equity with competitive wholesale rates.',
+    excerpt: 'Rancho Santa Fe home equity guide 2026: Access your high-value estate equity with competitive wholesale rates.',
     date: '2026-01-30',
     category: 'Home Equity',
     readTime: '9 min read',
@@ -2263,7 +2263,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-30',
     category: 'Home Equity',
     readTime: '9 min read',
-  },
+  },
   {
     slug: 'home-equity-manhattan-beach-2026',
     title: 'Home Equity Options in Manhattan Beach: HELOC, HELOAN & Cash-Out [2026]',
@@ -2271,7 +2271,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-30',
     category: 'Home Equity',
     readTime: '9 min read',
-  },
+  },
   // ===== REVERSE MORTGAGE CITY POSTS (Jan 29, 2026) =====
   {
     slug: 'reverse-mortgage-calabasas-2026',
@@ -2292,7 +2292,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'reverse-mortgage-rancho-santa-fe-2026',
     title: 'Reverse Mortgage in Rancho Santa Fe: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'Rancho Santa Fe reverse mortgage guide for homeowners 62+. Proprietary jumbo reverse for ultra-luxury estates.',
+    excerpt: 'Rancho Santa Fe reverse mortgage guide for homeowners 62+. Proprietary jumbo reverse for high-value estates.',
     date: '2026-01-29',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
@@ -2312,7 +2312,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-29',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-manhattan-beach-2026',
     title: 'Reverse Mortgage in Manhattan Beach: HECM Guide for Seniors 62+ [2026]',
@@ -2320,7 +2320,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-29',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
-  },
+  },
   // ===== WHOLESALE EDUCATION & CLUSTER (Jan 28, 2026) =====
   {
     slug: 'non-qm-loans-wholesale-broker-2026',
@@ -2390,7 +2390,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'reverse-mortgage-medina-wa-2026',
     title: 'Reverse Mortgage in Medina WA: Guide for Seniors 62+ [2026]',
-    excerpt: 'Medina WA reverse mortgage guide for Pacific Northwest seniors. Access luxury waterfront equity.',
+    excerpt: 'Medina WA reverse mortgage guide for Pacific Northwest seniors. California and Washington mortgage broker for waterfront equity access.',
     date: '2026-01-27',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
@@ -2690,7 +2690,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'City Guides',
     readTime: '9 min read',
   },
-  // ===== MORE CITY GUIDES (Jan 19, 2026) =====
+  // ===== MORE CITY GUIDES (Jan 19, 2026) =====
   {
     slug: 'mission-viejo-mortgage-guide-2026',
     title: 'Mission Viejo Mortgage Guide: Lake Community Financing [2026]',
@@ -2722,7 +2722,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-19',
     category: 'Refinance',
     readTime: '10 min read',
-  },
+  },
   // ===== MORE CITY GUIDES (Jan 18, 2026) =====
   {
     slug: 'irvine-mortgage-guide-2026',
@@ -2747,7 +2747,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-18',
     category: 'City Guides',
     readTime: '10 min read',
-  },
+  },
   {
     slug: 'corona-del-mar-refinance-guide-2026',
     title: 'Corona del Mar Refinance Guide: Tapping Coastal Equity [2026]',
@@ -2812,7 +2812,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-17',
     category: 'Loan Programs',
     readTime: '13 min read',
-  },
+  },
   {
     slug: 'newport-beach-mortgage-guide-2026',
     title: 'Newport Beach Mortgage Guide: Coastal Luxury Financing [2026]',

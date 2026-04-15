@@ -189,7 +189,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Shady Canyon (92603)</h4>
-              <p className="text-sm mb-2">Ultra-luxury gated community $3M-$15M+. Golf course, equestrian. Super-jumbo specialists required.</p>
+              <p className="text-sm mb-2">Gated community $3M-$15M+. Golf course, equestrian. Super-jumbo specialists required.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$8M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">

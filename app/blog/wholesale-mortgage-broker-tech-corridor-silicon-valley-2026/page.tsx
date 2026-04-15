@@ -914,7 +914,7 @@ export default function WholesaleMortgageBrokerTechCorridorSiliconValley2026() {
             <ul className="mb-0">
               <li><strong>Parent Guide:</strong> <a href="/blog/wholesale-mortgage-broker-bay-area-peninsula-2026">Wholesale Mortgage Broker Bay Area Peninsula [2026]</a></li>
               <li><strong>State Pillar:</strong> <a href="/blog/wholesale-mortgage-broker-california-guide-2026">Wholesale Mortgage Broker California Guide [2026]</a></li>
-              <li><strong>Sibling Hubs:</strong> <a href="/blog/wholesale-mortgage-broker-peninsula-ultra-luxury-2026">Peninsula Ultra-Luxury</a> | <a href="/blog/wholesale-mortgage-broker-premium-silicon-valley-2026">Premium Silicon Valley</a></li>
+              <li><strong>Sibling Hubs:</strong> <a href="/blog/wholesale-mortgage-broker-peninsula-ultra-luxury-2026">Peninsula High-Value</a> | <a href="/blog/wholesale-mortgage-broker-premium-silicon-valley-2026">Premium Silicon Valley</a></li>
               <li><strong>Cross-Track:</strong> <a href="/blog/reverse-mortgage-tech-corridor-silicon-valley-2026">Tech Corridor Reverse Mortgage [2026]</a> | <a href="/blog/home-equity-tech-corridor-silicon-valley-2026">Tech Corridor Home Equity [2026]</a></li>
               <li><a href="/blog/wholesale-vs-retail-mortgage-complete-2026">Wholesale vs Retail Mortgage Complete Guide [2026]</a></li>
               <li><a href="/blog/how-to-get-wholesale-mortgage-rates-2026">How to Get Wholesale Mortgage Rates [2026]</a></li>
