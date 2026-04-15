@@ -14,6 +14,11 @@ import path from 'node:path';
 const ROOTS = ['app', 'components', 'content', 'lib'];
 const EXTS = new Set(['.ts', '.tsx', '.md', '.mdx']);
 
+// Files that are auto-generated lists of URLs being killed — not prose, skip entirely
+const SKIP_FILES = new Set([
+  'lib/disposition/luxury-urls.ts',
+]);
+
 // Hard-ban patterns — always auto-rewrite
 const HARD_BAN = [
   { re: /UHNW/gi, rewrite: '' },
@@ -46,6 +51,8 @@ const files = ROOTS.flatMap((r) => fs.existsSync(r) ? walk(r) : []);
 
 const rows = [];
 for (const file of files) {
+  const norm = file.replace(/\\/g, '/');
+  if (SKIP_FILES.has(norm)) continue;
   const text = fs.readFileSync(file, 'utf8');
   const lines = text.split('\n');
   for (let i = 0; i < lines.length; i++) {

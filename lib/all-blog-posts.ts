@@ -1562,23 +1562,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-15',
     category: 'DSCR',
     readTime: '12 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-tech-corridor-eastside-wa-2026',
-    title: 'Wholesale Mortgage Broker in Kirkland, Redmond & Tech Corridor Eastside, WA [2026]',
-    excerpt: 'Wholesale mortgage broker serving Kirkland, Redmond, Woodinville, Issaquah & Bothell. 50+ Wholesale Lenders for tech workers: jumbo, bank statement, DSCR. NMLS #1426884.',
-    date: '2026-02-15',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-south-sound-affluent-wa-2026',
-    title: 'Reverse Mortgage in South Sound, WA: Gig Harbor, Maple Valley & More [2026]',
-    excerpt: 'Reverse mortgage guide for South Sound seniors 62+. HECM options in Gig Harbor, Maple Valley, University Place, Bonney Lake & Steilacoom. Local home values and eligibility.',
-    date: '2026-02-15',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'home-equity-ventura-affluent-ca-2026',
     title: 'Home Equity in Ventura County: HELOC, Cash-Out & HELOAN in Westlake Village, Thousand Oaks & More [2026]',
@@ -1586,56 +1570,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-15',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-ultra-luxury-eastside-wa-2026',
-    title: 'Home Equity in Ultra-Luxury Eastside, WA: HELOC & Cash-Out for Medina, Hunts Point & More [2026]',
-    excerpt: 'Ultra-luxury Eastside WA home equity guide: jumbo HELOC, cash-out refinance for Medina, Hunts Point, Clyde Hill, Yarrow Point & Beaux Arts Village. $2M-$5M+ equity access.',
-    date: '2026-02-15',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-premium-eastside-wa-2026',
-    title: 'Home Equity in Premium Eastside, WA: HELOC & Cash-Out for Bellevue, Mercer Island & More [2026]',
-    excerpt: 'Premium Eastside WA home equity guide: HELOC, HELOAN & cash-out refinance for Bellevue, Mercer Island, Sammamish & Newcastle. Tech executive equity strategies.',
-    date: '2026-02-15',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-tech-corridor-eastside-wa-2026',
-    title: 'Home Equity in Tech Corridor Eastside, WA: HELOC & Cash-Out for Kirkland, Redmond & More [2026]',
-    excerpt: 'Tech Corridor Eastside WA home equity guide: HELOC, HELOAN & cash-out refinance for Kirkland, Redmond, Woodinville, Issaquah & Bothell. $1M-$1.4M equity strategies.',
-    date: '2026-02-15',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-north-sound-islands-wa-2026',
-    title: 'Home Equity in North Sound & Islands, WA: HELOC & Cash-Out for Bellingham, San Juan Island & More [2026]',
-    excerpt: 'North Sound & Islands WA home equity guide: HELOC, HELOAN & cash-out refinance for Bellingham, Anacortes, San Juan Island, Friday Harbor, Mukilteo & Edmonds.',
-    date: '2026-02-15',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
-  {
-    slug: 'home-equity-ca-pv-a-2026',
-    title: 'Home Equity in Palos Verdes & South Bay: HELOC, Cash-Out & More in Manhattan Beach, PV Estates & Hermosa [2026]',
-    excerpt: 'Palos Verdes & South Bay home equity guide 2026: HELOC, HELOAN & cash-out refinance for PV Estates, Rancho PV, Rolling Hills, Manhattan Beach, Hermosa & Redondo Beach. Jumbo equity for $1.5M-$6M+ properties. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-ca-pv-b-2026',
-    title: 'Home Equity in Western LA: HELOC, Cash-Out & More in Santa Monica, Malibu & Pacific Palisades [2026]',
-    excerpt: 'Home equity guide for Western LA luxury markets 2026: HELOC, HELOAN, and cash-out refinance in Santa Monica, Brentwood, Pacific Palisades, Malibu, and Calabasas. Jumbo equity access for high-value properties. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
   {
     slug: 'home-equity-ca-sd-a-2026',
     title: 'Home Equity in Coastal North San Diego: HELOC, Cash-Out & More in Del Mar, La Jolla & Rancho Santa Fe [2026]',
@@ -1651,15 +1587,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-south-sound-affluent-2026',
-    title: 'Home Equity South Sound Affluent 2026: HELOC, HELOAN & Cash-Out Refinance | Gig Harbor, Maple Valley, University Place',
-    excerpt: 'Comprehensive guide to unlocking home equity in South Sound affluent cities. Expert strategies for HELOC, HELOAN, and cash-out refinancing in Gig Harbor, Maple Valley, University Place, Bonney Lake, and Steilacoom. Updated February 2026.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'home-equity-suburban-king-county-2026',
     title: 'Suburban King County Home Equity: Shoreline, Lake Forest Park, Kenmore & Snoqualmie HELOC Guide [2026]',
@@ -1667,15 +1595,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-urban-seattle-premium-2026',
-    title: 'Urban Seattle Premium Home Equity: Capitol Hill, Queen Anne, Magnolia, Madison Park & Bainbridge Island HELOC Guide [2026]',
-    excerpt: 'Home equity solutions for Seattle\'s premium urban neighborhoods and Bainbridge Island. HELOC, HELOAN, cash-out refinance strategies for Capitol Hill ($750K), Queen Anne ($950K), Magnolia ($1.1M), Madison Park ($1.5M) & Bainbridge Island ($1.3M). NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'home-equity-wine-country-2026',
     title: 'Wine Country Home Equity 2026: HELOC & Cash-Out for Healdsburg, St. Helena, Napa',
@@ -1683,23 +1603,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-ca-pv-a-2026',
-    title: 'Wholesale Mortgage Broker in Palos Verdes & South Bay: Manhattan Beach, Hermosa Beach & PV Estates [2026]',
-    excerpt: 'Wholesale mortgage broker serving Palos Verdes Peninsula & South Bay 2026. Access 50+ Wholesale Lenders for jumbo, non-QM, and conventional loans in Manhattan Beach, Hermosa Beach, Redondo Beach, PV Estates & Rolling Hills. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-ca-pv-b-2026',
-    title: 'Wholesale Mortgage Broker in Western LA: Santa Monica, Pacific Palisades, Malibu & Calabasas [2026]',
-    excerpt: 'Wholesale mortgage broker serving Santa Monica, Brentwood, Pacific Palisades, Malibu & Calabasas. Access 50+ Wholesale Lenders for jumbo, non-QM & super-jumbo loans. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-ca-sd-a-2026',
     title: 'Wholesale Mortgage Broker in Coastal North San Diego: Del Mar, La Jolla, Rancho Santa Fe & More [2026]',
@@ -1715,39 +1619,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Wholesale',
     readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-premium-eastside-wa-2026',
-    title: 'Wholesale Mortgage Broker Premium Eastside WA: Mercer Island, Newcastle, Woodinville, Kirkland & Redmond [2026]',
-    excerpt: 'Wholesale mortgage broker serving Premium Seattle Eastside. RSU income programs, jumbo loans, bank statement for tech founders. Mercer Island, Newcastle, Woodinville, Kirkland, Redmond. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-suburban-king-county-2026',
-    title: 'Suburban King County Wholesale Mortgage Broker: Shoreline, Lake Forest Park, Kenmore & Snoqualmie [2026]',
-    excerpt: 'Wholesale mortgage broker Suburban King County with 50+ Wholesale Lenders for Shoreline, Lake Forest Park, Kenmore & Snoqualmie. Renovation loans, new construction, family lending. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-ultra-luxury-eastside-wa-2026',
-    title: 'Wholesale Mortgage Broker in Medina, Hunts Point & Ultra-Luxury Eastside, WA [2026]',
-    excerpt: 'Ultra-luxury Eastside WA wholesale mortgage broker 2026. 50+ Wholesale Lenders for Medina, Hunts Point, Clyde Hill, Yarrow Point. Jumbo, bank statement, DSCR. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-urban-seattle-premium-2026',
-    title: 'Urban Seattle Premium Wholesale Mortgage Broker: Capitol Hill, Queen Anne, Ballard & Bainbridge Island [2026]',
-    excerpt: 'Wholesale mortgage broker for Seattle premium neighborhoods and Bainbridge Island. Jumbo loans $1M-$5M, tech RSU income, DSCR investment property, bank statement loans. 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
+  },
   // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
   {
     slug: 'reverse-mortgage-wine-country-2026',
@@ -1772,64 +1644,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-13',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-ultra-luxury-eastside-wa-2026',
-    title: 'Reverse Mortgage Ultra-Luxury Eastside WA: Medina, Clyde Hill, Hunts Point, Yarrow Point & Mercer Island [2026]',
-    excerpt: 'HECM & proprietary reverse mortgage for ultra-luxury Seattle Eastside seniors 62+. Billionaire Row estates, waterfront properties, $2M-$5M+ home equity. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-premium-eastside-wa-2026',
-    title: 'Reverse Mortgage Premium Eastside WA: Kirkland, Sammamish, Newcastle & Woodinville [2026]',
-    excerpt: 'HECM reverse mortgage for Premium Seattle Eastside seniors 62+. Google campus waterfront, estate living, wine country properties. $950K-$1.8M equity access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-tech-corridor-eastside-wa-2026',
-    title: 'Reverse Mortgage Tech Corridor Eastside WA: Redmond, Issaquah, Bothell, Kenmore & Maple Valley [2026]',
-    excerpt: 'HECM reverse mortgage for Tech Corridor Eastside seniors 62+. Microsoft retirees, outdoor lifestyle equity, suburban family wealth. $700K-$1.1M access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-urban-seattle-premium-2026',
-    title: 'Reverse Mortgage Urban Seattle Premium: Capitol Hill, Ballard, Wallingford, Queen Anne & Shoreline [2026]',
-    excerpt: 'HECM reverse mortgage for urban Seattle seniors 62+. Tech worker retirees, craftsman home equity, light rail corridor properties. $600K-$900K access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-suburban-king-county-2026',
-    title: 'Reverse Mortgage Suburban King County: Federal Way, Kent, Renton, Tukwila & SeaTac [2026]',
-    excerpt: 'HECM reverse mortgage for Suburban King County seniors 62+. Boeing retirees, manufacturing heritage equity, diverse communities. $450K-$650K access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-north-sound-islands-2026',
-    title: 'Reverse Mortgage North Sound & Islands: Bainbridge Island, Anacortes, Bellingham, San Juan & Whidbey [2026]',
-    excerpt: 'HECM reverse mortgage for North Sound & Islands seniors 62+. Island living equity, maritime communities, naval base proximity. $550K-$900K access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
-  {
-    slug: 'reverse-mortgage-premium-east-bay-sf-2026',
-    title: 'Reverse Mortgage in San Francisco, Piedmont & Premium East Bay [2026]',
-    excerpt: 'HECM reverse mortgage guide for San Francisco, Piedmont, Orinda, Lafayette & Moraga seniors 62+. Urban luxury condos to hilltop estates, $1.5M-$2.5M home equity access. NMLS #1426884.',
-    date: '2026-02-12',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
   {
     slug: 'reverse-mortgage-affluent-suburban-east-bay-2026',
     title: 'Reverse Mortgage in Danville, Walnut Creek & Affluent Suburban East Bay [2026]',
@@ -1837,15 +1653,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-12',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-la-westside-luxury-2026',
-    title: 'Reverse Mortgage in Culver City, Marina del Rey & LA Westside [2026]',
-    excerpt: 'HECM reverse mortgage for Culver City, Playa del Rey, Marina del Rey & Westchester seniors 62+. Entertainment industry retirees, waterfront equity access. NMLS #1426884.',
-    date: '2026-02-12',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-pasadena-corridor-2026',
     title: 'Reverse Mortgage in Pasadena, Glendale & SGV Corridor [2026]',
@@ -1853,15 +1661,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-12',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-coastal-sd-inland-premium-2026',
-    title: 'Reverse Mortgage in La Jolla, Coronado & Coastal SD [2026]',
-    excerpt: 'HECM reverse mortgage for La Jolla, Coronado, Carlsbad & Poway seniors 62+. Military-to-luxury transition, biotech corridor, island lifestyle equity. NMLS #1426884.',
-    date: '2026-02-12',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-central-coast-communities-2026',
     title: 'Reverse Mortgage in SLO, Pismo Beach & Central Coast Communities [2026]',
@@ -1877,15 +1677,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-12',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-la-westside-luxury-2026',
-    title: 'Wholesale Mortgage Broker in Culver City, Marina del Rey & LA Westside [2026]',
-    excerpt: 'Wholesale mortgage broker serving Culver City, Playa del Rey, Marina del Rey & Westchester. 50+ Wholesale Lenders, entertainment income, condo financing, DSCR investor loans. NMLS #1426884.',
-    date: '2026-02-12',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-pasadena-corridor-2026',
     title: 'Wholesale Mortgage Broker in Pasadena, Glendale & SGV Corridor [2026]',
@@ -1894,15 +1686,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'City Guides',
     readTime: '14 min read',
   },
-  // ===== HUB POSTS BATCH 4: 4 Equity + 6 HECM + 2 Refreshes (Feb 11, 2026) =====
-  {
-    slug: 'home-equity-la-westside-luxury-2026',
-    title: 'Home Equity in Culver City, Marina del Rey & LA Westside: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for Culver City, Playa del Rey, Marina del Rey & Westchester. Entertainment industry income, waterfront condo equity. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  // ===== HUB POSTS BATCH 4: 4 Equity + 6 HECM + 2 Refreshes (Feb 11, 2026) =====
   {
     slug: 'home-equity-pasadena-corridor-2026',
     title: 'Home Equity in Pasadena, Glendale & SGV Corridor: HELOC & Cash-Out [2026]',
@@ -1934,23 +1718,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-11',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-western-la-luxury-2026',
-    title: 'Reverse Mortgage in Hidden Hills, Calabasas & Western LA Luxury [2026]',
-    excerpt: 'HECM reverse mortgage for Hidden Hills, Calabasas, Agoura Hills & Westlake Village seniors 62+. Celebrity estate financing, entertainment wealth equity access. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-palos-verdes-peninsula-2026',
-    title: 'Reverse Mortgage in Palos Verdes Estates, Rolling Hills & PV Peninsula [2026]',
-    excerpt: 'HECM reverse mortgage for PV Estates, Rancho PV, Rolling Hills & Rolling Hills Estates seniors 62+. Ocean bluff estates, equestrian gated communities. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-la-beach-cities-2026',
     title: 'Reverse Mortgage in Manhattan Beach, Hermosa Beach & LA Beach Cities [2026]',
@@ -1958,64 +1726,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-11',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-foothill-luxury-2026',
-    title: 'Reverse Mortgage in La Cañada Flintridge, San Marino & Foothill Luxury [2026]',
-    excerpt: 'HECM reverse mortgage for La Cañada Flintridge, South Pasadena, San Marino & Arcadia seniors 62+. JPL retirees, legacy estates, historic home equity. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-santa-barbara-luxury-2026',
-    title: 'Reverse Mortgage in Montecito, Santa Barbara & Carpinteria [2026]',
-    excerpt: 'HECM reverse mortgage for Montecito, Santa Barbara & Carpinteria seniors 62+. Billionaire retreat equity, American Riviera retirement financing. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
-  {
-    slug: 'home-equity-premium-east-bay-sf-2026',
-    title: 'Home Equity in SF, Piedmont & Premium East Bay: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for San Francisco, Piedmont, Orinda, Lafayette & Moraga. Tap equity from $1.5M-$2.5M Lamorinda and SF properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-coastal-sd-inland-premium-2026',
-    title: 'Wholesale Mortgage Broker in La Jolla, Coronado & Coastal SD, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for La Jolla, Coronado, Carlsbad & Poway. Biotech income, military transitions, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-coastal-sd-inland-premium-2026',
-    title: 'Home Equity in La Jolla, Coronado & Coastal SD: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC & cash-out refinance for La Jolla, Coronado, Carlsbad & Poway homeowners. Tap equity from $1.1M-$2.5M coastal and inland premium properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-affluent-marin-2026',
-    title: 'Wholesale Mortgage Broker in Sausalito, Larkspur & Affluent Marin, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. Houseboat financing, self-employed creative professionals, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-affluent-marin-2026',
-    title: 'Home Equity in Sausalito, Larkspur & Affluent Marin: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC & cash-out refinance for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato. Houseboat equity, hillside HELOC, creative professional access. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
     title: 'Wholesale Mortgage Broker in Danville, Walnut Creek & Suburban East Bay, CA [2026]',
@@ -2048,47 +1760,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-western-la-luxury-2026',
-    title: 'Wholesale Mortgage Broker in Hidden Hills, Calabasas & Western LA, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Hidden Hills, Calabasas, Agoura Hills & Westlake Village. Celebrity estate financing, entertainment income, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-palos-verdes-peninsula-2026',
-    title: 'Wholesale Mortgage Broker in Palos Verdes Estates, Rolling Hills & PV Peninsula, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Palos Verdes Estates, Rolling Hills, Rancho PV & Rolling Hills Estates. Gated estate financing, equestrian properties, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-western-la-luxury-2026',
-    title: 'Home Equity in Hidden Hills, Calabasas & Western LA: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for Hidden Hills, Calabasas, Agoura Hills & Westlake Village. Entertainment industry equity access on $1.1M-$6M estates. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-palos-verdes-peninsula-2026',
-    title: 'Home Equity in Palos Verdes Estates, Rolling Hills & PV Peninsula: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC & cash-out refinance for Palos Verdes Estates, Rolling Hills, Rancho PV & Rolling Hills Estates. Ocean bluff estate equity on $2M-$3M properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-foothill-luxury-2026',
-    title: 'Wholesale Mortgage Broker in San Marino, La Cañada Flintridge & Foothill Luxury, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for San Marino, La Cañada Flintridge, South Pasadena & Arcadia. Legacy estate financing, Caltech/JPL professionals, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-la-beach-cities-2026',
     title: 'Wholesale Mortgage Broker in Manhattan Beach, Hermosa Beach & LA Beach Cities, CA [2026]',
@@ -2096,15 +1768,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-foothill-luxury-2026',
-    title: 'Home Equity in San Marino, La Cañada Flintridge & Foothill Luxury: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for San Marino, La Cañada Flintridge, South Pasadena & Arcadia. Legacy estate equity on $1.8M-$3M properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'home-equity-la-beach-cities-2026',
     title: 'Home Equity in Manhattan Beach, Hermosa Beach & LA Beach Cities: HELOC & Cash-Out [2026]',
@@ -2112,104 +1776,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-10',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-santa-barbara-luxury-2026',
-    title: 'Home Equity in Montecito, Santa Barbara & Central Coast Luxury: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC & cash-out refinance for Montecito, Santa Barbara & Carpinteria. Celebrity retreat estate equity access on $2.3M-$8.5M properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-premium-east-bay-sf-2026',
-    title: 'Wholesale Mortgage Broker in SF, Piedmont, Orinda & East Bay, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for San Francisco, Piedmont, Orinda, Lafayette & Moraga. Urban luxury, TIC financing, Lamorinda estates, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
-  {
-    slug: 'reverse-mortgage-south-sound-guide-2026',
-    title: 'South Sound Reverse Mortgage: Gig Harbor to Steilacoom HECM Guide [2026]',
-    excerpt: 'South Sound reverse mortgage guide for seniors 62+. HECM options in Gig Harbor, Maple Valley, University Place, Bonney Lake, Steilacoom. JBLM military VA-to-HECM transitions.',
-    date: '2026-02-09',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-south-sound-guide-2026',
-    title: 'South Sound Home Equity: Gig Harbor & Tacoma Area HELOC, Cash-Out Guide [2026]',
-    excerpt: 'South Sound home equity guide 2026. HELOC, HELOAN, cash-out refinance for Gig Harbor, Maple Valley, University Place, Bonney Lake, Steilacoom homeowners.',
-    date: '2026-02-09',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'reverse-mortgage-peninsula-ultra-luxury-2026',
-    title: 'Reverse Mortgage in Atherton, Hillsborough & Peninsula Ultra-Luxury, CA [2026]',
-    excerpt: 'Reverse mortgage guide for Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills seniors 62+. Jumbo reverse mortgage for $4M-$10.8M homes. NMLS #1426884.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-peninsula-ultra-luxury-2026',
-    title: 'Home Equity in Atherton, Hillsborough & Peninsula Ultra-Luxury, CA: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC and cash-out refinance guide for Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills. Access equity on $4M-$10.8M properties.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-peninsula-ultra-luxury-2026',
-    title: 'Wholesale Mortgage Broker in Atherton, Hillsborough & Peninsula, CA [2026]',
-    excerpt: 'Wholesale mortgage broker serving Atherton, Hillsborough, Woodside, Portola Valley & Los Altos Hills. Trust/LLC financing, complex income, 50+ Wholesale Lenders.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-premium-silicon-valley-2026',
-    title: 'Reverse Mortgage in Palo Alto, Los Altos & Premium Silicon Valley, CA [2026]',
-    excerpt: 'Reverse mortgage guide for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino seniors 62+. Jumbo reverse mortgage for $2.4M-$4.3M homes. NMLS #1426884.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-premium-silicon-valley-2026',
-    title: 'Home Equity in Palo Alto, Los Altos & Silicon Valley: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC, HELOAN, and cash-out refinance for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino homeowners. Tech income qualification strategies.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-premium-silicon-valley-2026',
-    title: 'Wholesale Mortgage Broker in Palo Alto, Los Altos & Silicon Valley, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Palo Alto, Los Altos, Saratoga, Los Gatos & Cupertino. RSU/stock income qualification, Stanford faculty, 50+ Wholesale Lenders.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-tech-corridor-silicon-valley-2026',
-    title: 'Reverse Mortgage in Mountain View, Sunnyvale & Tech Corridor, CA [2026]',
-    excerpt: 'Reverse mortgage guide for Mountain View, Sunnyvale, San Jose, Santa Clara & Campbell seniors 62+. HECM and jumbo reverse for tech corridor homes.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-tech-corridor-silicon-valley-2026',
-    title: 'Home Equity in Mountain View, Sunnyvale & Tech Corridor: HELOC & Cash-Out [2026]',
-    excerpt: 'HELOC, HELOAN, cash-out refinance for Mountain View, Sunnyvale, San Jose, Santa Clara & Campbell homeowners. Tech income equity strategies.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
     title: 'Wholesale Mortgage Broker in Mountain View, Sunnyvale & Silicon Valley, CA [2026]',
@@ -2217,39 +1785,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-ultra-luxury-marin-2026',
-    title: 'Reverse Mortgage in Ross, Tiburon & Ultra-Luxury Marin County, CA [2026]',
-    excerpt: 'Reverse mortgage guide for Ross, Tiburon, Belvedere & Mill Valley seniors 62+. Jumbo reverse mortgage for $2.7M-$5M Marin homes. NMLS #1426884.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-ultra-luxury-marin-2026',
-    title: 'Home Equity in Ross, Tiburon & Ultra-Luxury Marin: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC and cash-out refinance for Ross, Tiburon, Belvedere & Mill Valley homeowners. Waterfront estate equity access, trust-owned property solutions.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-ultra-luxury-marin-2026',
-    title: 'Wholesale Mortgage Broker in Ross, Tiburon & Marin County, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Ross, Tiburon, Belvedere & Mill Valley. Trust/LLC ownership, waterfront property, creative income. 50+ Wholesale Lenders.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-affluent-marin-2026',
-    title: 'Reverse Mortgage in Sausalito, Larkspur & Affluent Marin, CA [2026]',
-    excerpt: 'Reverse mortgage guide for Sausalito, Corte Madera, Larkspur, San Anselmo & Novato seniors 62+. Houseboat HECM considerations, VA options, NMLS #1426884.',
-    date: '2026-02-09',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
   // ===== REGIONAL PILLARS BATCH 3 (Feb 8, 2026) =====
   {
     slug: 'reverse-mortgage-central-coast-guide-2026',
@@ -2330,15 +1866,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-08',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  {
-    slug: 'reverse-mortgage-greater-seattle-guide-2026',
-    title: 'Greater Seattle Reverse Mortgage: Urban & Suburban King County HECM Guide [2026]',
-    excerpt: 'Greater Seattle reverse mortgage guide for seniors 62+. HECM options in Seattle, Bainbridge Island, Shoreline, Lake Forest Park, Kenmore, Snoqualmie.',
-    date: '2026-02-08',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
+  },
   {
     slug: 'home-equity-greater-seattle-guide-2026',
     title: 'Greater Seattle Home Equity: King County HELOC & Cash-Out Refinance Guide [2026]',
@@ -2346,56 +1874,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-08',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-greater-seattle-2026',
-    title: 'Greater Seattle Wholesale Mortgage Broker: 50+ Wholesale Lenders for King County Buyers [2026]',
-    excerpt: 'Greater Seattle wholesale mortgage broker guide. Tech RSU/stock income, Amazon/Microsoft programs, bank statement loans across King County.',
-    date: '2026-02-08',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'reverse-mortgage-north-sound-guide-2026',
-    title: 'North Sound & Islands Reverse Mortgage: Bellingham to San Juan HECM Guide [2026]',
-    excerpt: 'North Sound & Islands reverse mortgage guide for seniors 62+. HECM options in Bellingham, Anacortes, San Juan Island, Friday Harbor, Mukilteo, Edmonds.',
-    date: '2026-02-08',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-north-sound-guide-2026',
-    title: 'North Sound & Islands Home Equity: Bellingham to Edmonds HELOC Guide [2026]',
-    excerpt: 'North Sound & Islands home equity guide 2026. HELOC, HELOAN, cash-out refinance for Bellingham, Edmonds, Mukilteo, San Juan Island homeowners.',
-    date: '2026-02-08',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  // ===== REGIONAL PILLARS BATCH 2 (Feb 7, 2026) =====
-  {
-    slug: 'reverse-mortgage-marin-county-guide-2026',
-    title: 'Marin County Reverse Mortgage: Waterfront Estate HECM Options [2026]',
-    excerpt: 'Marin County reverse mortgage guide for seniors 62+. HECM options in Ross, Tiburon, Belvedere, Mill Valley, Sausalito & more. Waterfront estates to boutique towns.',
-    date: '2026-02-07',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-marin-county-guide-2026',
-    title: 'Marin County Home Equity: Waterfront & Golden Gate Corridor HELOC Guide [2026]',
-    excerpt: 'Marin County home equity guide 2026. Compare HELOC, HELOAN, cash-out refinance for Ross, Tiburon, Mill Valley, Sausalito homeowners. Wholesale rates.',
-    date: '2026-02-07',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-marin-county-2026',
-    title: 'Marin County Mortgage Broker: 50+ Wholesale Lenders for Self-Employed & Luxury Buyers [2026]',
-    excerpt: 'Marin County wholesale mortgage broker guide. 50+ Wholesale Lenders for jumbo, bank statement, self-employed loans across 9 Marin cities.',
-    date: '2026-02-07',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
+  },
+  // ===== REGIONAL PILLARS BATCH 2 (Feb 7, 2026) =====
   {
     slug: 'reverse-mortgage-east-bay-sf-guide-2026',
     title: 'East Bay & SF Reverse Mortgage: Urban to Hilltop HECM Guide [2026]',
@@ -2419,31 +1899,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-07',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  {
-    slug: 'reverse-mortgage-seattle-eastside-guide-2026',
-    title: 'Seattle Eastside Reverse Mortgage: Billionaire Row to Tech Corridor HECM [2026]',
-    excerpt: 'Seattle Eastside reverse mortgage guide for seniors 62+. HECM options in Bellevue, Medina, Mercer Island, Kirkland, Redmond & 9 more cities.',
-    date: '2026-02-07',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-seattle-eastside-guide-2026',
-    title: 'Seattle Eastside Home Equity: Tax-Free State HELOC & Cash-Out Guide [2026]',
-    excerpt: 'Seattle Eastside home equity guide 2026. HELOC, HELOAN, cash-out refinance for Bellevue, Mercer Island, Kirkland, Redmond homeowners. No state income tax.',
-    date: '2026-02-07',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-seattle-eastside-2026',
-    title: 'Seattle Eastside Mortgage Broker: Amazon, Microsoft & Tech RSU Specialists [2026]',
-    excerpt: 'Seattle Eastside wholesale mortgage broker guide. Tech RSU/stock income, Amazon/Microsoft/Google programs, bank statement loans across 14 cities.',
-    date: '2026-02-07',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-san-diego-guide-2026',
     title: 'San Diego Reverse Mortgage: Coastal & Ranch Estate HECM for Seniors [2026]',
@@ -2540,31 +1996,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-06',
     category: 'Guides',
     readTime: '15 min read',
-  },
-  {
-    slug: 'reverse-mortgage-bay-area-peninsula-guide-2026',
-    title: 'Reverse Mortgage Bay Area Peninsula & Silicon Valley Guide [2026]',
-    excerpt: 'Bay Area Peninsula reverse mortgage guide for seniors 62+. Covering Atherton, Palo Alto, Los Altos, Saratoga, Mountain View and 10+ cities. HECM and jumbo options.',
-    date: '2026-02-06',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-bay-area-peninsula-guide-2026',
-    title: 'Home Equity Bay Area Peninsula & Silicon Valley Guide [2026]',
-    excerpt: 'Bay Area Peninsula home equity guide. HELOC, HELOAN, cash-out refinance for Atherton, Palo Alto, Cupertino, Mountain View homeowners.',
-    date: '2026-02-06',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-bay-area-peninsula-2026',
-    title: 'Wholesale Mortgage Broker Bay Area Peninsula & Silicon Valley [2026]',
-    excerpt: 'Bay Area Peninsula wholesale mortgage broker. 50+ Wholesale Lenders for tech RSU income, jumbo loans, bank statement programs across Silicon Valley.',
-    date: '2026-02-06',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-la-westside-beach-guide-2026',
     title: 'Reverse Mortgage LA Westside & Beach Cities Guide [2026]',
@@ -2588,31 +2020,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-06',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  {
-    slug: 'reverse-mortgage-la-south-bay-palos-verdes-guide-2026',
-    title: 'Reverse Mortgage LA South Bay & Palos Verdes Guide [2026]',
-    excerpt: 'Palos Verdes and South Bay reverse mortgage guide. PV Estates, Rolling Hills, Hidden Hills, Calabasas. HECM and jumbo programs for seniors 62+.',
-    date: '2026-02-06',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-la-south-bay-palos-verdes-guide-2026',
-    title: 'Home Equity LA South Bay & Palos Verdes Guide [2026]',
-    excerpt: 'Palos Verdes and South Bay home equity guide. HELOC, HELOAN, cash-out for hilltop estates, equestrian properties, and entertainment communities.',
-    date: '2026-02-06',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-la-south-bay-palos-verdes-2026',
-    title: 'Wholesale Mortgage Broker LA South Bay & Palos Verdes [2026]',
-    excerpt: 'Palos Verdes and South Bay wholesale mortgage broker. 50+ Wholesale Lenders for aerospace, entertainment, equestrian property financing.',
-    date: '2026-02-06',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
+  },
   // ===== CA GEO PAGES (Feb 5, 2026) =====
   {
     slug: 'reverse-mortgage-malibu-ca-2026',
@@ -2719,23 +2127,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'Wholesale',
     readTime: '18 min read',
   },
-  // ===== WA REGIONAL HUBS (Feb 4, 2026) =====
-  {
-    slug: 'reverse-mortgage-seattle-eastside-wa-2026',
-    title: 'Reverse Mortgage Seattle Eastside WA: Bellevue, Kirkland, Sammamish Guide [2026]',
-    excerpt: 'Complete reverse mortgage guide for Seattle Eastside seniors 62+. Covering Bellevue, Kirkland, Redmond, Sammamish, Mercer Island & more. HECM & jumbo options.',
-    date: '2026-02-04',
-    category: 'Reverse Mortgage',
-    readTime: '18 min read',
-  },
-  {
-    slug: 'home-equity-seattle-eastside-wa-2026',
-    title: 'Home Equity Options Seattle Eastside WA: HELOC, Cash-Out, HELOAN Guide [2026]',
-    excerpt: 'Home equity guide for Seattle Eastside homeowners. HELOC, cash-out refinance, HELOAN options for Bellevue, Kirkland, Redmond, Sammamish.',
-    date: '2026-02-04',
-    category: 'Home Equity',
-    readTime: '15 min read',
-  },
+  // ===== WA REGIONAL HUBS (Feb 4, 2026) =====
   // ===== WA GEO PAGES (Feb 3, 2026) - Redirected to hubs =====
   {
     slug: 'reverse-mortgage-medina-wa-2026',
@@ -2760,23 +2152,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-03',
     category: 'Home Equity',
     readTime: '10 min read',
-  },
-  {
-    slug: 'reverse-mortgage-bellevue-wa-2026',
-    title: 'Reverse Mortgage in Bellevue, WA: HECM Guide for Seniors [2026]',
-    excerpt: 'Reverse mortgage Bellevue guide for seniors 62+. Learn HECM eligibility, payout options & how to access your Bellevue home equity.',
-    date: '2026-02-03',
-    category: 'Reverse Mortgage',
-    readTime: '10 min read',
-  },
-  {
-    slug: 'home-equity-bellevue-wa-2026',
-    title: 'Home Equity Options in Bellevue, WA: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Bellevue home equity guide 2026: Compare HELOC, home equity loans, and cash-out refinance options for Bellevue homeowners.',
-    date: '2026-02-03',
-    category: 'Home Equity',
-    readTime: '10 min read',
-  },
+  },
   // ===== WHOLESALE OC ZIP PAGES (Feb 3, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-92691',
@@ -3199,15 +2575,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-30',
     category: 'Home Equity',
     readTime: '9 min read',
-  },
-  {
-    slug: 'home-equity-palos-verdes-2026',
-    title: 'Home Equity Options in Palos Verdes: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Palos Verdes home equity guide 2026: Access your peninsula estate equity with jumbo programs.',
-    date: '2026-01-30',
-    category: 'Home Equity',
-    readTime: '9 min read',
-  },
+  },
   {
     slug: 'home-equity-manhattan-beach-2026',
     title: 'Home Equity Options in Manhattan Beach: HELOC, HELOAN & Cash-Out [2026]',
@@ -3264,15 +2632,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-29',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
-  },
-  {
-    slug: 'reverse-mortgage-palos-verdes-2026',
-    title: 'Reverse Mortgage in Palos Verdes: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'Palos Verdes reverse mortgage guide for peninsula homeowners 62+. HECM and proprietary programs available.',
-    date: '2026-01-29',
-    category: 'Reverse Mortgage',
-    readTime: '10 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-manhattan-beach-2026',
     title: 'Reverse Mortgage in Manhattan Beach: HECM Guide for Seniors 62+ [2026]',
@@ -3658,15 +3018,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'City Guides',
     readTime: '9 min read',
   },
-  // ===== MORE CITY GUIDES (Jan 19, 2026) =====
-  {
-    slug: 'palos-verdes-cash-out-refinance-2026',
-    title: 'Palos Verdes Cash-Out Refinance: Tap Peninsula Equity [2026]',
-    excerpt: 'Palos Verdes cash-out refinance guide: Access your peninsula estate equity with jumbo programs.',
-    date: '2026-01-19',
-    category: 'Refinance',
-    readTime: '10 min read',
-  },
+  // ===== MORE CITY GUIDES (Jan 19, 2026) =====
   {
     slug: 'mission-viejo-mortgage-guide-2026',
     title: 'Mission Viejo Mortgage Guide: Lake Community Financing [2026]',
@@ -3804,15 +3156,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-17',
     category: 'Loan Programs',
     readTime: '13 min read',
-  },
-  {
-    slug: 'newport-coast-mortgage-guide-2026',
-    title: 'Newport Coast Mortgage Guide: Ultra-Luxury Financing [2026]',
-    excerpt: 'Newport Coast mortgage guide: Super-jumbo loans for gated luxury estates and Crystal Cove adjacent properties.',
-    date: '2026-01-17',
-    category: 'City Guides',
-    readTime: '11 min read',
-  },
+  },
   {
     slug: 'newport-beach-mortgage-guide-2026',
     title: 'Newport Beach Mortgage Guide: Coastal Luxury Financing [2026]',
