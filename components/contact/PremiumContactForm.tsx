@@ -12,7 +12,32 @@ import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 import { getResponseErrorMessage } from '@/lib/api-client';
 import { appendTermsConsentToFormData } from '@/lib/terms-consent';
-import { qualify } from '@/lib/leadQualification';
+import { qualify, capForProduct, type PrequalFailReason, type PrequalProduct } from '@/lib/leadQualification';
+
+function referralReasonText(reason: PrequalFailReason): string {
+  if (reason.type === 'home-value-exceeds-icp') {
+    return 'Homes above $5M typically need a specialist lender.';
+  }
+  // product-cap-exceeded
+  if (reason.product === 'heloc') {
+    return 'HELOCs over $750K are routed to our referral partner.';
+  }
+  const cap = capForProduct(reason.product);
+  return `Total loan amounts over ${new Intl.NumberFormat('en-US', {
+    style: 'currency', currency: 'USD', maximumFractionDigits: 0,
+  }).format(cap)} are routed to our referral partner.`;
+}
+
+function mapProductToPurpose(product: PrequalProduct): string {
+  switch (product) {
+    case 'heloc': return 'heloc';
+    case 'cashOut': return 'cash-out';
+    case 'rateTerm': return 'refinance';
+    case 'purchase': return '';
+    case 'dscr': return 'investment';
+    case 'other': return '';
+  }
+}
 
 const makeInputId = (label: string) =>
   String(label || '')
@@ -187,20 +212,39 @@ interface CalculatorResults {
   isJumbo: boolean;
 }
 
+interface PremiumContactFormProps {
+  leadCaptureEnabled?: boolean;
+  initialValues?: {
+    homeValue?: number;
+    desiredLoan?: number;
+    product?: PrequalProduct;
+    currentMortgage?: number;
+  };
+  caseType?: 'standard' | 'referral';
+  referralReasons?: PrequalFailReason[];
+}
+
 export default function PremiumContactForm({
   leadCaptureEnabled = true,
-}: {
-  leadCaptureEnabled?: boolean;
-}) {
+  initialValues,
+  caseType = 'standard',
+  referralReasons,
+}: PremiumContactFormProps = {}) {
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>({
-    loanPurpose: '',
+    loanPurpose: initialValues?.product ? mapProductToPurpose(initialValues.product) : '',
     timeline: '',
     propertyState: '',
-    loanAmount: '',
-    homeValue: '',
+    loanAmount: initialValues?.desiredLoan
+      ? new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(initialValues.desiredLoan)
+      : '',
+    homeValue: initialValues?.homeValue
+      ? new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(initialValues.homeValue)
+      : '',
     downPayment: '',
-    currentLoanAmount: '',
+    currentLoanAmount: initialValues?.currentMortgage
+      ? new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(initialValues.currentMortgage)
+      : '',
     currentRate: '',
     cashOutAmount: '',
     loanType: '',
@@ -352,6 +396,8 @@ export default function PremiumContactForm({
       formData_submit.append('loan_type', results?.loanType || 'N/A');
       formData_submit.append('property_state', formData.propertyState || '');
       formData_submit.append('_subject', `Premium Quote Request - ${formData.firstName} ${formData.lastName}`);
+
+      formData_submit.append('case_type', caseType);
 
       const qual = qualify({
         loanAmount: parseFloat((formData.loanAmount || '').replace(/[^0-9.]/g, '')) || undefined,
@@ -512,6 +558,19 @@ export default function PremiumContactForm({
               ))}
             </div>
           </div>
+
+          {caseType === 'referral' ? (
+            <div className="mb-6">
+              <h2 className="text-xl font-semibold">
+                Your loan size is outside our in-house range, but we may be able to connect you with a specialist partner. Share your details below and we&apos;ll route you.
+              </h2>
+              {referralReasons && referralReasons.length > 0 && (
+                <p className="mt-2 text-sm text-slate-600" data-testid="referral-reason">
+                  {referralReasonText(referralReasons[0])}
+                </p>
+              )}
+            </div>
+          ) : null}
 
           {errorMessage && (
             <div className="mb-6 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
