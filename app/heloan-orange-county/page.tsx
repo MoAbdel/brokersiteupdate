@@ -6,6 +6,7 @@ import { CheckCircle, Home, Calculator, TrendingUp, Shield, DollarSign, Clock, C
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 import QualificationCallout from '@/components/QualificationCallout';
+import ScenarioExample from '@/components/ScenarioExample';
 
 export const metadata: Metadata = {
   title: 'Orange County Home Equity Loan | Fixed-Rate HELOAN Options',
@@ -239,6 +240,8 @@ export default function HELOANOrangeCountyPage() {
               </Link>
             </div>
           </div>
+
+          <ScenarioExample scenario="heloc" className="mt-8 max-w-xl" />
 
           <QualificationCallout variant="equity" className="my-8" />
 
