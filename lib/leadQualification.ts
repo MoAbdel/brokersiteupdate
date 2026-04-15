@@ -15,13 +15,13 @@ export const DSCR_STATES: readonly LicensedState[] = LICENSED_STATES;
 
 export const HELOC_RANGE = { min: 50_000, max: 750_000 } as const;
 export const HELOAN_RANGE = { min: 25_000, max: 500_000 } as const;
-export const OVERALL_TARGET = { min: 100_000, max: 2_500_000 } as const;
+export const OVERALL_TARGET = { min: 100_000, max: 3_500_000 } as const;
 
 /* ── Display helpers ─────────────────────────────────────────────────────── */
 
 export const HELOC_DISPLAY = '$50K\u2013$750K';
 export const HELOAN_DISPLAY = '$25K\u2013$500K';
-export const OVERALL_DISPLAY = '$100K\u2013$2.5M';
+export const OVERALL_DISPLAY = '$100K\u2013$3.5M';
 export const STATES_DISPLAY = 'California and Washington';
 
 /* ── Qualification types ─────────────────────────────────────────────────── */
@@ -235,4 +235,73 @@ export function scoreLead(signals: LeadSignals): LeadScore {
   }
 
   return { score, tier, priority, suggestedAction, tags };
+}
+
+// ---------------------------------------------------------------------------
+// Slice 5 — Pre-qualification widget surface
+// Richer sibling to qualify(). Used by /contact widget to gate the form.
+// ---------------------------------------------------------------------------
+
+import { LOAN_CAPS } from '@/lib/loan-caps';
+
+export const MAX_HOME_VALUE = 5_000_000;
+
+export type PrequalProduct =
+  | 'heloc'
+  | 'cashOut'
+  | 'rateTerm'
+  | 'purchase'
+  | 'dscr'
+  | 'other';
+
+export interface PrequalInput {
+  homeValue: number;
+  currentMortgage: number;
+  desiredLoan: number;
+  product: PrequalProduct;
+}
+
+export type PrequalFailReason =
+  | { type: 'home-value-exceeds-icp'; limit: number; actual: number }
+  | { type: 'product-cap-exceeded'; product: PrequalProduct; cap: number; actual: number };
+
+export type PrequalResult =
+  | { qualified: true }
+  | { qualified: false; reasons: PrequalFailReason[] };
+
+export function capForProduct(product: PrequalProduct): number {
+  switch (product) {
+    case 'heloc': return LOAN_CAPS.heloc;
+    case 'cashOut': return LOAN_CAPS.cashOut;
+    case 'dscr': return LOAN_CAPS.dscr;
+    case 'rateTerm':
+    case 'purchase':
+    case 'other':
+      return LOAN_CAPS.jumbo;
+  }
+}
+
+export function isPrequalified(input: PrequalInput): PrequalResult {
+  const reasons: PrequalFailReason[] = [];
+
+  if (input.homeValue > MAX_HOME_VALUE) {
+    reasons.push({
+      type: 'home-value-exceeds-icp',
+      limit: MAX_HOME_VALUE,
+      actual: input.homeValue,
+    });
+  }
+
+  const cap = capForProduct(input.product);
+  if (input.desiredLoan > cap) {
+    reasons.push({
+      type: 'product-cap-exceeded',
+      product: input.product,
+      cap,
+      actual: input.desiredLoan,
+    });
+  }
+
+  if (reasons.length === 0) return { qualified: true };
+  return { qualified: false, reasons };
 }
