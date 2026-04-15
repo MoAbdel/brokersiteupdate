@@ -583,7 +583,6 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           <h4>Home Equity &amp; Reverse Mortgage</h4>
           <ul>
             <li><a href="/blog/home-equity-california-guide-2026">California Home Equity Guide 2026</a></li>
-            <li><a href="/blog/home-equity-wine-country-2026">Wine Country Home Equity: HELOC &amp; Cash-Out 2026</a></li>
             <li><a href="/blog/reverse-mortgage-complete-guide-2026">Reverse Mortgage Complete Guide 2026</a></li>
           </ul>
         </div>

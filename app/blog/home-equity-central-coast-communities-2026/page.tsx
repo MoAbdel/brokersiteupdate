@@ -761,10 +761,6 @@ export default function HomeEquityCentralCoastCommunities2026() {
               <h3 className="font-bold text-blue-700 mb-2">Central Coast Reverse Mortgage Guide</h3>
               <p className="text-sm text-gray-600">HECM and jumbo reverse mortgage options for San Luis Obispo, Pismo Beach, Paso Robles, and Cambria seniors 62+.</p>
             </a>
-            <a href="/blog/home-equity-santa-barbara-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <h3 className="font-bold text-blue-700 mb-2">Santa Barbara &amp; Montecito High-Value Home Equity</h3>
-              <p className="text-sm text-gray-600">Jumbo HELOC and cash-out refinance for Santa Barbara, Montecito, and Carpinteria homeowners.</p>
-            </a>
             <a href="/blog/home-equity-central-coast-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Central Coast Home Equity Regional Guide</h3>
               <p className="text-sm text-gray-600">Regional overview covering all Central Coast communities with equity product recommendations and market analysis.</p>
@@ -776,10 +772,6 @@ export default function HomeEquityCentralCoastCommunities2026() {
             <a href="/blog/home-equity-ventura-county-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Ventura County Home Equity Guide</h3>
               <p className="text-sm text-gray-600">Home equity strategies for Thousand Oaks, Camarillo, Ventura, and Oxnard communities south of the Central Coast.</p>
-            </a>
-            <a href="/blog/home-equity-wine-country-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <h3 className="font-bold text-blue-700 mb-2">Wine Country Home Equity Guide</h3>
-              <p className="text-sm text-gray-600">Napa and Sonoma wine country equity strategies for estate properties with vineyard and agricultural components.</p>
             </a>
           </div>
 

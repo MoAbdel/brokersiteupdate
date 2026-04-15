@@ -779,8 +779,6 @@ export default function HomeEquityArcadiaCAPage() {
           <h4>Location-Specific Guides</h4>
           <ul>
             <li><a href="/blog/home-equity-calabasas-2026">Home Equity Calabasas</a></li>
-            <li><a href="/blog/home-equity-beverly-hills-2026">Home Equity Beverly Hills</a></li>
-            <li><a href="/blog/home-equity-palos-verdes-2026">Home Equity Palos Verdes</a></li>
             <li><a href="/blog/home-equity-irvine-2026">Home Equity Irvine</a></li>
             <li><a href="/blog/home-equity-santa-monica-ca-2026">Home Equity Santa Monica</a></li>
             <li><a href="/blog/home-equity-sgv-pasadena-guide-2026">SGV &amp; Pasadena Home Equity Guide</a></li>

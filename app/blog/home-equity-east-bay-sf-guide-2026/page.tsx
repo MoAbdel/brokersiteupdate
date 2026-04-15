@@ -785,16 +785,6 @@ export default function HomeEquityEastBaySFGuide2026() {
                 Home Equity California Statewide Guide [2026]
               </a> -- Comprehensive California home equity overview covering all regions and product types.
             </li>
-            <li>
-              <a href="/blog/home-equity-bay-area-peninsula-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Home Equity Bay Area Peninsula &amp; Silicon Valley Guide [2026]
-              </a> -- HELOC and cash-out guide for Peninsula homeowners in Atherton, Palo Alto, and 13 more cities.
-            </li>
-            <li>
-              <a href="/blog/home-equity-marin-county-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Home Equity Marin County Guide [2026]
-              </a> -- HELOC and equity guide for Marin homeowners in Mill Valley, Tiburon, and surrounding communities.
-            </li>
           </ul>
 
           {/* ========== FAQ SECTION ========== */}

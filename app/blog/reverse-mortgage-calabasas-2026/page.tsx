@@ -118,7 +118,6 @@ export default function ReverseMortgageCalabasasPage() {
           <h3 className="mt-0">Related Resources</h3>
           <ul>
             <li><a href="/blog/reverse-mortgage-complete-guide-2026">Complete Reverse Mortgage Guide</a></li>
-            <li><a href="/blog/reverse-mortgage-beverly-hills-2026">Reverse Mortgage Beverly Hills</a></li>
             <li><a href="/blog/proprietary-reverse-mortgage-2026">Proprietary Reverse Mortgages</a></li>
           </ul>
         </div>

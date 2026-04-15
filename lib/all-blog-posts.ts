@@ -2435,14 +2435,6 @@ export const allBlogPosts: BlogPost[] = [
     readTime: '10 min read',
   },
   {
-    slug: 'reverse-mortgage-medina-wa-2026',
-    title: 'Reverse Mortgage in Medina WA: Guide for Seniors 62+ [2026]',
-    excerpt: 'Medina WA reverse mortgage guide for Pacific Northwest seniors. California and Washington mortgage broker for waterfront equity access.',
-    date: '2026-01-27',
-    category: 'Reverse Mortgage',
-    readTime: '10 min read',
-  },
-  {
     slug: 'reverse-mortgage-la-jolla-ca-2026',
     title: 'Reverse Mortgage in La Jolla CA: Guide for Seniors 62+ [2026]',
     excerpt: 'La Jolla reverse mortgage guide for San Diego seniors. Access your coastal estate equity.',

@@ -554,7 +554,6 @@ export default function ReverseMortgageGuide2026Page() {
           <ul>
             <li><a href="/blog/reverse-mortgage-calabasas-2026">Reverse Mortgage Calabasas</a></li>
             <li><a href="/blog/reverse-mortgage-carlsbad-2026">Reverse Mortgage Carlsbad</a></li>
-            <li><a href="/blog/reverse-mortgage-palos-verdes-2026">Reverse Mortgage Palos Verdes</a></li>
           </ul>
         </div>
 

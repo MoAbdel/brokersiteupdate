@@ -47,7 +47,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     {
       name: 'Brightwater',
       avgPrice: '$2.5M',
-      description: 'Gated community with waterfront homes and resort amenities'
+      description: 'Gated community with homes and resort amenities'
     }
   ];
 

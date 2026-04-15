@@ -64,7 +64,6 @@ export default function HomeEquityCalabasasPage() {
           <h3 className="mt-0">Related Resources</h3>
           <ul>
             <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity Guide</a></li>
-            <li><a href="/blog/home-equity-beverly-hills-2026">Home Equity Beverly Hills</a></li>
           </ul>
         </div>
 

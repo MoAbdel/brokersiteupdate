@@ -1051,7 +1051,6 @@ export default function HomeEquityGuidePage() {
             <li><a href="/home-equity-guide">Home Equity Bellevue WA</a></li>
             <li><a href="/blog/home-equity-calabasas-2026">Home Equity Calabasas</a></li>
             <li><a href="/blog/home-equity-coronado-2026">Home Equity Coronado</a></li>
-            <li><a href="/blog/home-equity-palos-verdes-2026">Home Equity Palos Verdes</a></li>
             <li><a href="/blog/home-equity-rancho-santa-fe-2026">Home Equity Rancho Santa Fe</a></li>
           </ul>
         </div>

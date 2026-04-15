@@ -757,8 +757,6 @@ export default function ReverseMortgageCentralCoastCommunities2026() {
             <ul className="space-y-2">
               <li><a href="/blog/reverse-mortgage-central-coast-guide-2026" className="text-blue-700 underline">Central Coast Reverse Mortgage Regional Guide 2026</a></li>
               <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-700 underline">Reverse Mortgage California Statewide Guide 2026</a></li>
-              <li><a href="/blog/reverse-mortgage-santa-barbara-luxury-2026" className="text-blue-700 underline">Reverse Mortgage Santa Barbara: High-Value Market Guide</a></li>
-              <li><a href="/blog/reverse-mortgage-wine-country-guide-2026" className="text-blue-700 underline">Reverse Mortgage Wine Country Guide 2026</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>

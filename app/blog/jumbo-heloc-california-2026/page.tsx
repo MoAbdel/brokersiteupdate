@@ -492,7 +492,7 @@ export default function JumboHelocCalifornia2026() {
           </h2>
 
           <p className="text-lg text-slate-600 mb-6">
-            Jumbo HELOC demand concentrates in California markets where median home values create equity positions that dwarf standard HELOC limits. <Link href="/blog/home-equity-bay-area-peninsula-guide-2026" className="text-blue-600 hover:underline">The Bay Area Peninsula</Link> &mdash; including Atherton, Hillsborough, Palo Alto, and Los Altos &mdash; has median home values exceeding $3 million, generating equity positions where a $500,000 HELOC represents a fraction of available borrowing power.
+            Jumbo HELOC demand concentrates in California markets where median home values create equity positions that dwarf standard HELOC limits. <Link href="/blog/home-equity-east-bay-sf-guide-2026" className="text-blue-600 hover:underline">The Bay Area Peninsula</Link> &mdash; including Atherton, Hillsborough, Palo Alto, and Los Altos &mdash; has median home values exceeding $3 million, generating equity positions where a $500,000 HELOC represents a fraction of available borrowing power.
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
@@ -715,7 +715,7 @@ export default function JumboHelocCalifornia2026() {
               <ArrowRight className="w-4 h-4 flex-shrink-0" />
               <span>HELOC vs. Home Equity Loan</span>
             </Link>
-            <Link href="/blog/home-equity-bay-area-peninsula-guide-2026" className="flex items-center gap-2 text-blue-600 hover:underline p-3 rounded-lg hover:bg-blue-50 transition-colors">
+            <Link href="/blog/home-equity-east-bay-sf-guide-2026" className="flex items-center gap-2 text-blue-600 hover:underline p-3 rounded-lg hover:bg-blue-50 transition-colors">
               <ArrowRight className="w-4 h-4 flex-shrink-0" />
               <span>Bay Area Peninsula Equity Guide</span>
             </Link>

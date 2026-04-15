@@ -556,8 +556,6 @@ export default function ReverseMortgageSacramentoGuidePage() {
           <h3 className="mt-0">State &amp; Regional Guides</h3>
           <ul>
             <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-semibold">California Reverse Mortgage Guide 2026</a> &mdash; Statewide overview and program comparison</li>
-            <li><a href="/blog/reverse-mortgage-wine-country-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Wine Country Guide</a> &mdash; Napa, Sonoma, and North Bay communities</li>
-            <li><a href="/blog/reverse-mortgage-bay-area-peninsula-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Bay Area &amp; Peninsula Guide</a> &mdash; Atherton, Palo Alto, Hillsborough, Burlingame</li>
             <li><a href="/blog/reverse-mortgage-east-bay-sf-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage East Bay &amp; SF Guide</a> &mdash; Piedmont, Orinda, Lafayette, Walnut Creek</li>
           </ul>
           <h3>Cross-Track Guides for Sacramento</h3>

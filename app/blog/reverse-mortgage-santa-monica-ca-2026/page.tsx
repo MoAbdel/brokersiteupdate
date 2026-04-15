@@ -662,7 +662,6 @@ export default function ReverseMortgageSantaMonicaPage() {
             <h3 className="mt-0 mb-4">Related Resources</h3>
             <ul className="space-y-2 mb-0">
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">Complete Reverse Mortgage Guide 2026</a></li>
-              <li><a href="/blog/reverse-mortgage-beverly-hills-2026" className="text-blue-600 hover:underline">Reverse Mortgage in Beverly Hills</a></li>
               <li><a href="/blog/reverse-mortgage-manhattan-beach-2026" className="text-blue-600 hover:underline">Reverse Mortgage in Manhattan Beach</a></li>
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">HECM vs HELOC for Seniors</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-600 hover:underline">Reverse Mortgage Requirements 2026</a></li>

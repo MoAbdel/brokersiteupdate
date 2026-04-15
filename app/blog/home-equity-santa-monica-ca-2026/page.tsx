@@ -785,13 +785,9 @@ export default function HomeEquitySantaMonicaPage() {
           </ul>
           <h4>Location-Specific Guides</h4>
           <ul>
-            <li><a href="/blog/home-equity-beverly-hills-2026">Home Equity Beverly Hills</a></li>
             <li><a href="/blog/home-equity-manhattan-beach-2026">Home Equity Manhattan Beach</a></li>
-            <li><a href="/blog/home-equity-palos-verdes-2026">Home Equity Palos Verdes</a></li>
             <li><a href="/blog/home-equity-calabasas-2026">Home Equity Calabasas</a></li>
             <li><a href="/blog/home-equity-irvine-2026">Home Equity Irvine</a></li>
-            <li><a href="/blog/home-equity-pacific-palisades-ca-2026">Home Equity Pacific Palisades</a></li>
-            <li><a href="/blog/home-equity-la-beach-cities-2026">Home Equity LA Beach Cities</a></li>
           </ul>
           <h4>Strategy & Planning</h4>
           <ul>

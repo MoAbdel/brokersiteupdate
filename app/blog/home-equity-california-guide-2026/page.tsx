@@ -496,12 +496,12 @@ export default function HomeEquityCaliforniaGuide2026() {
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Bay Area Peninsula</h3>
               <p className="text-gray-600 text-sm">Atherton, Palo Alto, Menlo Park. Avg. equity: $1.8M-$2.5M. Jumbo HELOC strategies for tech wealth and estate properties.</p>
-              <a href="/blog/home-equity-bay-area-peninsula-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Bay Area Peninsula Guide &rarr;</a>
+              <a href="/blog/home-equity-east-bay-sf-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Bay Area &amp; SF Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Marin County</h3>
               <p className="text-gray-600 text-sm">Mill Valley, Tiburon, Ross. Avg. equity: $750K-$1.1M. Coastal property equity access and renovation funding.</p>
-              <a href="/blog/home-equity-marin-county-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Marin County Guide &rarr;</a>
+              <a href="/blog/home-equity-east-bay-sf-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read East Bay &amp; SF Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">East Bay &amp; San Francisco</h3>
@@ -546,7 +546,7 @@ export default function HomeEquityCaliforniaGuide2026() {
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Wine Country</h3>
               <p className="text-gray-600 text-sm">Napa, Sonoma, Healdsburg. Avg. equity: $380K-$600K. Estate and vineyard property equity solutions.</p>
-              <a href="/blog/home-equity-wine-country-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Wine Country Guide &rarr;</a>
+              <a href="/blog/home-equity-sacramento-metro-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Sacramento Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Sacramento Metro</h3>

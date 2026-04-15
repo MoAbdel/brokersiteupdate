@@ -73,14 +73,6 @@ const blogPosts = [
         readTime: '10 min read',
     },
     {
-        slug: 'newport-coast-mortgage-guide-2026',
-        title: 'Newport Coast Mortgage Guide 2026: Wholesale Financing',
-        excerpt: 'Expert mortgage guidance for Newport Coast estates. Discover exclusive wholesale jumbo programs and asset-based lending for high-value coastal properties.',
-        date: '2026-01-08',
-        category: 'Local Guides',
-        readTime: '12 min read',
-    },
-    {
         slug: 'va-loans-orange-county-2026',
         title: 'VA Loans in Orange County 2026: Complete Guide for Veterans',
         excerpt: 'Master the VA loan process in Orange County. Learn about zero-down payment benefits, wholesale rate advantages, and eligibility requirements for 2026.',
@@ -103,14 +95,6 @@ const blogPosts = [
         date: '2026-01-05',
         category: 'Local Guides',
         readTime: '12 min read',
-    },
-    {
-        slug: 'laguna-beach-mortgage-guide-2026',
-        title: 'Laguna Beach Mortgage Guide 2026: Coastal Home Financing Options',
-        excerpt: 'Expert mortgage guidance for Laguna Beach properties. Discover wholesale pricing advantages for coastal homes and competitive financing solutions.',
-        date: '2026-01-04',
-        category: 'Local Guides',
-        readTime: '11 min read',
     },
     {
         slug: 'dana-point-mortgage-guide-2026',
@@ -145,7 +129,7 @@ const featuredGuides = [
     { slug: 'home-equity-guide', title: 'Home Equity Guide' },
     { slug: 'bank-statement-loans-wholesale-complete-2026', title: 'Bank Statement Loans (Wholesale) (2026)' },
     { slug: 'cash-out-vs-regular-refinance-complete-2026', title: 'Cash-Out vs Rate-Term Refinance (2026)' },
-    { slug: 'coto-de-caza-mortgage-guide-2026', title: 'Coto de Caza Mortgage Guide (2026)' },
+
     { slug: 'aliso-viejo-mortgage-guide-2026', title: 'Aliso Viejo Mortgage Guide (2026)' },
     { slug: 'calabasas-cash-out-refinance-2026', title: 'Calabasas Cash-Out Refinance (2026)' },
     { slug: 'dana-point-mortgage-guide-2026', title: 'Dana Point Mortgage Guide (2026)' },
@@ -200,8 +184,7 @@ export default function BlogIndexPage() {
                         <a className="text-blue-700 hover:underline" href="/blog/va-loan-benefits-guide-2026">VA Benefits</a>,{' '}
                         <a className="text-blue-700 hover:underline" href="/blog/what-is-reverse-mortgage-complete-guide-2026">Reverse Mortgage Guide</a>,{' '}
                         <a className="text-blue-700 hover:underline" href="/blog/home-equity-guide">Home Equity Guide</a>,{' '}
-                        <a className="text-blue-700 hover:underline" href="/blog/coto-de-caza-mortgage-guide-2026">Coto de Caza</a>,{' '}
-                        <a className="text-blue-700 hover:underline" href="/blog/aliso-viejo-mortgage-guide-2026">Aliso Viejo</a>,{' '}
+<a className="text-blue-700 hover:underline" href="/blog/aliso-viejo-mortgage-guide-2026">Aliso Viejo</a>,{' '}
                         <a className="text-blue-700 hover:underline" href="/blog/calabasas-cash-out-refinance-2026">Calabasas Cash-Out</a>
                     </div>
                 </section>

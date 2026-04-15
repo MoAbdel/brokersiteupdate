@@ -816,16 +816,6 @@ export default function ReverseMortgageEastBaySFGuide2026() {
                 Reverse Mortgage California Statewide Guide [2026]
               </a> -- Comprehensive California reverse mortgage overview covering all regions and programs.
             </li>
-            <li>
-              <a href="/blog/reverse-mortgage-bay-area-peninsula-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Reverse Mortgage Bay Area Peninsula &amp; Silicon Valley Guide [2026]
-              </a> -- HECM guide for Peninsula homeowners in Atherton, Palo Alto, Mountain View, and 12 more cities.
-            </li>
-            <li>
-              <a href="/blog/reverse-mortgage-marin-county-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Reverse Mortgage Marin County Guide [2026]
-              </a> -- HECM guide for Marin homeowners in Mill Valley, Tiburon, San Rafael, and surrounding communities.
-            </li>
           </ul>
 
           {/* ========== FAQ SECTION ========== */}
