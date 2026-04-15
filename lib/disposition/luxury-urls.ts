@@ -3,7 +3,7 @@
  * Do not edit by hand. Source of truth:
  *   docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv
  *
- * Generated: 2026-04-15T15:58:49.566Z
+ * Generated: 2026-04-15T16:07:42.089Z
  * Kept (not redirected/gone): 1 URL(s) — see CSV __KEEP__ rows
  */
 
@@ -278,5 +278,15 @@ export const GONE_410: readonly string[] = [
   "/blog/wholesale-mortgage-broker-coastal-north-sd-2026",
   "/blog/wholesale-mortgage-broker-la-beach-cities-2026",
   "/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide",
-  "/zip-codes/92660-newport-beach-mortgage-broker"
+  "/zip-codes/92660-newport-beach-mortgage-broker",
+  "/blog/coto-de-caza-mortgage-guide-2026",
+  "/blog/home-equity-beverly-hills-2026",
+  "/blog/home-equity-clyde-hill-wa-2026",
+  "/blog/home-equity-san-marino-ca-2026",
+  "/blog/reverse-mortgage-beverly-hills-2026",
+  "/blog/reverse-mortgage-clyde-hill-wa-2026",
+  "/blog/reverse-mortgage-medina-wa-2026",
+  "/blog/reverse-mortgage-san-marino-ca-2026",
+  "/blog/wholesale-mortgage-92679-coto-de-caza-2026",
+  "/blog/wholesale-mortgage-broker-92679"
 ];
