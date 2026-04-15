@@ -10,4 +10,5 @@ export { longBeach } from './long-beach';
 export { fresno } from './fresno';
 export { elkGrove } from './elk-grove';
 export { roseville } from './roseville';
+export { sanBernardino } from './san-bernardino';
 // etc.
