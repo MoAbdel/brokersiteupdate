@@ -12,4 +12,5 @@ export { elkGrove } from './elk-grove';
 export { roseville } from './roseville';
 export { sanBernardino } from './san-bernardino';
 export { bakersfield } from './bakersfield';
+export { murrieta } from './murrieta';
 // etc.
