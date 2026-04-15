@@ -10,7 +10,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, 
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
-  description: 'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
+  description: 'Get jumbo loans in Orange County above $1,209,750 for high-value homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
   alternates: {
     canonical: 'https://www.mothebroker.com/jumbo-loans-orange-county',
     languages: {
@@ -33,7 +33,7 @@ const pageSchema = buildServiceWebPageSchema({
   pageUrl: PAGE_URL,
   title: 'Jumbo Loans Orange County 2026 | High-Balance Mortgage Financing',
   description:
-    'Get jumbo loans in Orange County above $1,209,750 for luxury homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
+    'Get jumbo loans in Orange County above $1,209,750 for high-value homes. Mo Abdel specializes in high-balance mortgage financing with competitive pricing and flexible terms.',
   breadcrumbName: 'Jumbo Loans',
   dateModified: '2026-02-16',
 });
@@ -41,7 +41,7 @@ const pageSchema = buildServiceWebPageSchema({
 const faqs = [
   {
     question: "What qualifies as a jumbo loan in Orange County?",
-    answer: "Any mortgage above $1,209,750 in Orange County is considered a jumbo loan in 2026. This includes most luxury homes in Newport Beach, high-end Irvine properties, and premium communities throughout OC where home values exceed conforming limits."
+    answer: "Any mortgage above $1,209,750 in Orange County is considered a jumbo loan in 2026. This includes high-value homes in Newport Beach, higher-priced Irvine properties, and premium communities throughout OC where home values exceed conforming limits."
   },
   {
     question: "Are jumbo loan pricing higher than conventional rates?",
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: "Can I get a jumbo loan for an Orange County condo?",
-    answer: "Yes! Jumbo loans are available for luxury condos throughout Orange County, including high-rise buildings in Newport Beach and Irvine. The condo complex must meet lender requirements, and some buildings may require higher down payments or reserves."
+    answer: "Yes! Jumbo loans are available for condos throughout Orange County, including high-rise buildings in Newport Beach and Irvine. The condo complex must meet lender requirements, and some buildings may require higher down payments or reserves."
   },
   {
     question: "What credit score do I need for a jumbo loan?",
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     question: "How long does jumbo loan approval take?",
-    answer: "Jumbo loan approval typically takes 2-3 weeks due to additional documentation and underwriting requirements. Complex financial situations or unique properties may take longer. Pre-approval can expedite the process significantly for serious luxury home buyers."
+    answer: "Jumbo loan approval typically takes 2-3 weeks due to additional documentation and underwriting requirements. Complex financial situations or unique properties may take longer. Pre-approval can expedite the process significantly for serious home buyers."
   },
 ];
 
@@ -69,14 +69,14 @@ const faqSchema = buildFAQPageSchema(faqs, PAGE_URL);
 
 const howToSchema = buildHowToSchema({
   name: 'How to Apply for a Jumbo Loan in Orange County',
-  description: 'Step-by-step jumbo loan application process for luxury home financing above $1,209,750 in Orange County.',
+  description: 'Step-by-step jumbo loan application process for high-balance home financing above $1,209,750 in Orange County.',
   totalTime: 'P21D',
   url: PAGE_URL,
   steps: [
-    { name: 'Pre-Qualification Assessment', text: 'Discuss your financial situation, income, assets, and luxury home goals' },
+    { name: 'Pre-Qualification Assessment', text: 'Discuss your financial situation, income, assets, and high-balance home goals' },
     { name: 'Documentation & Pre-Approval', text: 'Provide comprehensive financial documentation and receive pre-approval letter' },
-    { name: 'Property Selection & Appraisal', text: 'Find your luxury Orange County home and complete professional appraisal' },
-    { name: 'Underwriting & Closing', text: 'Final underwriting review and closing on your luxury home financing' },
+    { name: 'Property Selection & Appraisal', text: 'Find your Orange County home and complete professional appraisal' },
+    { name: 'Underwriting & Closing', text: 'Final underwriting review and closing on your high-balance home financing' },
   ],
 });
 
@@ -108,10 +108,10 @@ export default function JumboLoansOrangeCountyPage() {
             <div className="text-center mb-12">
               <div className="inline-flex items-center bg-slate-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 <Award className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
-                <span>Luxury Home Financing</span>
+                <span>High-Balance Home Financing</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
+                Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Home Financing</span>
               </h1>
               <LoanCapSubheadline
                 productLabel="Jumbo Loans"
@@ -119,7 +119,7 @@ export default function JumboLoansOrangeCountyPage() {
                 regions={['California', 'Washington']}
               />
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8" data-speakable="true">
-                Finance luxury homes above $1,209,750 in Orange County with competitive jumbo loans.
+                Finance high-value homes above $1,209,750 in Orange County with competitive jumbo loans.
                 Mo Abdel specializes in high-balance mortgage financing for Newport Beach, Irvine, Laguna Beach, and premium properties throughout OC.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -161,7 +161,7 @@ export default function JumboLoansOrangeCountyPage() {
               <div className="bg-slate-50 p-6 rounded-lg">
                 <h3 className="font-bold text-slate-900 mb-3">Orange County Jumbo Loan Benefits 2026:</h3>
                 <ul className="space-y-2 text-slate-700">
-                  <li>• Finance luxury homes throughout Orange County without borrowing restrictions</li>
+                  <li>• Finance high-value homes throughout Orange County without borrowing restrictions</li>
                   <li>• Competitive loan pricing for high-balance mortgages</li>
                   <li>• Flexible down payment options starting at 10%</li>
                   <li>• Available for primary residences, second homes, and investment properties</li>
@@ -176,13 +176,13 @@ export default function JumboLoansOrangeCountyPage() {
           <section aria-label="Jumbo loan benefits and advantages" className="mb-16">
             <h2 className="text-3xl font-bold text-center mb-8">What Are the Benefits of Orange County Jumbo Loans?</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto text-center mb-8" data-speakable="true">
-              Jumbo loans provide access to high-value financing with competitive pricing, flexible terms, and premium service for Orange County luxury home buyers.
+              Jumbo loans provide access to high-value financing with competitive pricing, flexible terms, and dedicated service for Orange County home buyers.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Card className="border-2 hover:border-purple-300 transition-all duration-300">
                 <CardHeader>
                   <Building className="w-12 h-12 text-blue-600 mb-4" aria-hidden="true" />
-                  <CardTitle className="text-xl">Luxury Home Access</CardTitle>
+                  <CardTitle className="text-xl">High-Value Home Access</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
@@ -251,8 +251,8 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600">
-                    White-glove service with dedicated jumbo loan specialists who understand
-                    the unique needs of luxury home buyers in Orange County.
+                    Dedicated service with experienced jumbo loan specialists who understand
+                    the unique needs of high-balance home buyers in Orange County.
                   </p>
                 </CardContent>
               </Card>
@@ -315,11 +315,11 @@ export default function JumboLoansOrangeCountyPage() {
           </section>
 
           {/* Popular Orange County Markets for Jumbo Loans */}
-          <section aria-label="Popular Orange County luxury markets for jumbo loans" className="mb-16">
+          <section aria-label="Popular Orange County markets for jumbo loans" className="mb-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                  Which Orange County Luxury Markets Use Jumbo Loans?
+                  Which Orange County Markets Use Jumbo Loans?
                 </h2>
                 <p className="text-lg text-slate-600 mb-6" data-speakable="true">
                   Jumbo loans serve the most desirable communities in Orange County, where median home values exceed conforming limits.
@@ -329,35 +329,35 @@ export default function JumboLoansOrangeCountyPage() {
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Newport Beach</div>
-                      <p className="text-slate-600">Waterfront estates, luxury condos, and premium properties. Median home prices $3M+</p>
+                      <p className="text-slate-600">Waterfront estates, high-rise condos, and premium properties. Median home prices well above conforming limits</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Irvine</div>
-                      <p className="text-slate-600">Luxury master-planned communities, new construction homes $1.5M - $4M+</p>
+                      <p className="text-slate-600">Master-planned communities, new construction homes above conforming limits</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Laguna Beach</div>
-                      <p className="text-slate-600">Ocean-view estates, artistic community homes, unique luxury properties</p>
+                      <p className="text-slate-600">Ocean-view estates, artistic community homes, unique high-value properties</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Manhattan Beach Border</div>
-                      <p className="text-slate-600">Luxury beachside communities, high-end family homes and estates</p>
+                      <p className="text-slate-600">Beachside communities, high-end family homes and estates above conforming limits</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-bold text-slate-900">Yorba Linda & Villa Park</div>
-                      <p className="text-slate-600">Executive homes, gated communities, luxury custom-built properties</p>
+                      <p className="text-slate-600">Executive homes, gated communities, custom-built properties above conforming limits</p>
                     </div>
                   </div>
                 </div>
@@ -408,7 +408,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Finance luxury homes above $1,209,750 in Orange County. Perfect for high-end
+                    Finance high-value homes above $1,209,750 in Orange County. Perfect for
                     properties in Newport Beach, Irvine, and premium OC communities.
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
@@ -427,8 +427,8 @@ export default function JumboLoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Refinance existing jumbo mortgages to Lower pricing, change terms, or access
-                    equity from your Orange County luxury home.
+                    Refinance existing jumbo mortgages to lower pricing, change terms, or access
+                    equity from your Orange County high-value home.
                   </p>
                   <ul className="space-y-2 text-sm text-slate-600">
                     <li>• Rate-and-term refinancing</li>
@@ -492,7 +492,7 @@ export default function JumboLoansOrangeCountyPage() {
                   <CardTitle>Pre-Qualification Assessment</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600">Discuss your financial situation, income, assets, and luxury home goals</p>
+                  <p className="text-slate-600">Discuss your financial situation, income, assets, and high-balance home goals</p>
                 </CardContent>
               </Card>
 
@@ -516,7 +516,7 @@ export default function JumboLoansOrangeCountyPage() {
                   <CardTitle>Property Selection & Appraisal</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600">Find your luxury Orange County home and complete professional appraisal</p>
+                  <p className="text-slate-600">Find your Orange County home and complete professional appraisal</p>
                 </CardContent>
               </Card>
 
@@ -528,7 +528,7 @@ export default function JumboLoansOrangeCountyPage() {
                   <CardTitle>Underwriting & Closing</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600">Final underwriting review and closing on your luxury home financing</p>
+                  <p className="text-slate-600">Final underwriting review and closing on your high-balance home financing</p>
                 </CardContent>
               </Card>
             </div>
@@ -588,7 +588,7 @@ export default function JumboLoansOrangeCountyPage() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600 text-sm text-center">
-                      Access equity from your Orange County luxury home
+                      Access equity from your Orange County home
                     </p>
                   </CardContent>
                 </Card>
@@ -599,7 +599,7 @@ export default function JumboLoansOrangeCountyPage() {
           {/* FAQ Section */}
           <section aria-label="Frequently asked questions about jumbo loans" className="mb-16">
             <h2 className="text-3xl font-bold text-center mb-8">
-              Jumbo Loan FAQ for Orange County Luxury Homes
+              Jumbo Loan FAQ for Orange County High-Value Homes
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {faqs.map((faq, index) => (
@@ -618,10 +618,10 @@ export default function JumboLoansOrangeCountyPage() {
           {/* CTA Section */}
           <section aria-label="Get started with jumbo loan financing" className="text-center bg-slate-900 rounded-2xl p-8 text-white">
             <h2 className="text-3xl font-bold mb-4">
-              Ready to Finance Your Orange County Luxury Home?
+              Ready to Finance Your Orange County High-Value Home?
             </h2>
             <p className="text-xl mb-6 text-slate-200" data-speakable="true">
-              Unlock luxury homeownership with competitive jumbo loan financing. Get started with Mo Abdel,
+              Unlock homeownership above conforming limits with competitive jumbo loan financing. Get started with Mo Abdel,
               your trusted Orange County jumbo loan specialist.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -637,7 +637,7 @@ export default function JumboLoansOrangeCountyPage() {
               </a>
             </div>
             <p className="text-sm text-slate-200 mt-4">
-              Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Specializing in Orange County luxury home financing
+              Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Specializing in Orange County high-balance home financing
             </p>
           </section>
         </div>
