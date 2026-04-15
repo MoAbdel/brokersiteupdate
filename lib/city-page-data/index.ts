@@ -7,4 +7,5 @@
 export { spokane } from './spokane';
 export { riverside } from './riverside';
 export { longBeach } from './long-beach';
+export { fresno } from './fresno';
 // etc.
