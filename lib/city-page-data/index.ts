@@ -5,5 +5,5 @@
 
 // Exports appended here by Tasks 3–12:
 export { spokane } from './spokane';
-// export { riverside } from './riverside';
+export { riverside } from './riverside';
 // etc.
