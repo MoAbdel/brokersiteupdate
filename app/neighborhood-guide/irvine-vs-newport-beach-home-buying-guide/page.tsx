@@ -38,7 +38,7 @@ export default function IrvineVsNewportBeachGuide() {
             <span>Published March 15, 2026 • By Mo Abdel, Orange County Mortgage Broker</span>
           </div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-            Thinking about buying a home in Orange County? Get expert insights comparing Irvine's family-friendly master planning vs Newport Beach's coastal luxury lifestyle. Complete mortgage guide included. See our specialized <Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Irvine mortgage broker services</Link> and <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach home loans</Link>.
+            Thinking about buying a home in Orange County? Get expert insights comparing Irvine's family-friendly master planning vs Newport Beach's coastal waterfront lifestyle. Complete mortgage guide included. See our specialized <Link href="/areas/irvine-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Irvine mortgage broker services</Link> and <Link href="/areas/newport-beach-mortgage-broker" className="text-blue-600 hover:text-blue-700 font-medium">Newport Beach home loans</Link>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -158,7 +158,7 @@ export default function IrvineVsNewportBeachGuide() {
                   <li>• <strong>Oceanfront lifestyle:</strong> Beach access, boating, water activities</li>
                   <li>• <strong>Luxury amenities:</strong> High-end shopping, dining, entertainment</li>
                   <li>• <strong>Investment potential:</strong> Strong appreciation history, desirable location</li>
-                  <li>• <strong>Prestige factor:</strong> Recognized luxury address worldwide</li>
+                  <li>• <strong>Prestige factor:</strong> Recognized high-value address worldwide</li>
                   <li>• <strong>Climate:</strong> Ocean breezes, mild temperatures year-round</li>
                   <li>• <strong>Quality schools:</strong> Newport Mesa and Corona del Mar areas</li>
                 </ul>
@@ -169,7 +169,7 @@ export default function IrvineVsNewportBeachGuide() {
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <p><strong>Median Home Price:</strong> $2,800,000</p>
                   <p><strong>Price per sq ft:</strong> $1,200-$2,500+</p>
-                  <p><strong>Popular Home Types:</strong> Luxury single-family, oceanfront condos, estates</p>
+                  <p><strong>Popular Home Types:</strong> High-value single-family, oceanfront condos, estates</p>
                   <p><strong>Lot Sizes:</strong> 3,000-15,000+ sq ft</p>
                   <p><strong>HOA Fees:</strong> $300-$1,500/month</p>
                 </div>
@@ -210,7 +210,7 @@ export default function IrvineVsNewportBeachGuide() {
                 <li>• <strong>Loan Amount:</strong> $2.8M average (super jumbo territory)</li>
                 <li>• <strong>Down Payment:</strong> 20-30% typical ($560K-$840K)</li>
                 <li>• <strong>Popular Programs:</strong> Jumbo, Super Jumbo, Portfolio loans</li>
-                <li>• <strong>Credit Score:</strong> 740+ essential for luxury market</li>
+                <li>• <strong>Credit Score:</strong> 740+ essential for high-value market</li>
               </ul>
             </div>
           </div>
@@ -262,7 +262,7 @@ export default function IrvineVsNewportBeachGuide() {
                 </div>
                 <div className="border-l-4 border-blue-600 pl-4">
                   <h4 className="font-semibold">Newport Coast</h4>
-                  <p className="text-sm text-slate-600">Luxury gated communities, ocean views. $3M-$15M+</p>
+                  <p className="text-sm text-slate-600">Gated communities, ocean views. $3M-$15M+</p>
                 </div>
                 <div className="border-l-4 border-blue-600 pl-4">
                   <h4 className="font-semibold">Balboa Peninsula</h4>
@@ -295,7 +295,7 @@ export default function IrvineVsNewportBeachGuide() {
               <h3 className="text-xl font-semibold mb-4 text-blue-600">Newport Beach Outlook</h3>
               <ul className="space-y-2 text-slate-700">
                 <li>• Limited inventory keeping prices high</li>
-                <li>• Luxury market showing resilience</li>
+                <li>• High-value market showing resilience</li>
                 <li>• Waterfront properties premium increasing</li>
                 <li>• International buyer interest remains strong</li>
               </ul>

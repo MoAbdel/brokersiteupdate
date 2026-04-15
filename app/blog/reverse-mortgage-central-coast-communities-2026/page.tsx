@@ -607,7 +607,7 @@ export default function ReverseMortgageCentralCoastCommunities2026() {
           </h2>
 
           <p>
-            The Central Coast presents a reverse mortgage landscape that is fundamentally different from Southern California&apos;s luxury markets. Where La Jolla and Beverly Hills require proprietary jumbo programs to access equity above the HECM cap, Central Coast home values align with the FHA lending limit &mdash; making the HECM program with its superior protections the right choice for most homeowners. However, this does not make the decision simple. Paso Robles agricultural properties require careful eligibility evaluation. Cambria&apos;s unique water-supply building moratorium affects property valuation. Shell Beach bluff-top homes need specialized appraisal expertise. And Cal Poly retirement benefits interact with HECM financial assessment requirements in ways that demand knowledgeable guidance.
+            The Central Coast presents a reverse mortgage landscape that is fundamentally different from Southern California&apos;s high-value markets. Where La Jolla and Beverly Hills require proprietary jumbo programs to access equity above the HECM cap, Central Coast home values align with the FHA lending limit &mdash; making the HECM program with its superior protections the right choice for most homeowners. However, this does not make the decision simple. Paso Robles agricultural properties require careful eligibility evaluation. Cambria&apos;s unique water-supply building moratorium affects property valuation. Shell Beach bluff-top homes need specialized appraisal expertise. And Cal Poly retirement benefits interact with HECM financial assessment requirements in ways that demand knowledgeable guidance.
           </p>
 
           <p>
@@ -757,8 +757,6 @@ export default function ReverseMortgageCentralCoastCommunities2026() {
             <ul className="space-y-2">
               <li><a href="/blog/reverse-mortgage-central-coast-guide-2026" className="text-blue-700 underline">Central Coast Reverse Mortgage Regional Guide 2026</a></li>
               <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-700 underline">Reverse Mortgage California Statewide Guide 2026</a></li>
-              <li><a href="/blog/reverse-mortgage-santa-barbara-luxury-2026" className="text-blue-700 underline">Reverse Mortgage Santa Barbara: Luxury Market Guide</a></li>
-              <li><a href="/blog/reverse-mortgage-wine-country-guide-2026" className="text-blue-700 underline">Reverse Mortgage Wine Country Guide 2026</a></li>
               <li><a href="/blog/reverse-mortgage-payout-options-2026" className="text-blue-700 underline">Reverse Mortgage Payout Options Explained</a></li>
               <li><a href="/blog/reverse-mortgage-requirements-complete-2026" className="text-blue-700 underline">Reverse Mortgage Requirements: Complete Checklist</a></li>
               <li><a href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-700 underline">Reverse Mortgage vs. HELOC for Seniors</a></li>

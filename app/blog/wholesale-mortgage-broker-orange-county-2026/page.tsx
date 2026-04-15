@@ -210,11 +210,6 @@ export default function WholesaleMortgageBrokerOrangeCountyPage() {
           <h3 className="mt-0">Popular OC ZIP Guides</h3>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
             <li><a href="/blog/wholesale-mortgage-92603-irvine-turtle-rock-2026">92603 Irvine Turtle Rock</a></li>
-            <li><a href="/blog/wholesale-mortgage-92625-corona-del-mar-2026">92625 Corona del Mar</a></li>
-            <li><a href="/blog/wholesale-mortgage-92651-laguna-beach-2026">92651 Laguna Beach</a></li>
-            <li><a href="/blog/wholesale-mortgage-92657-newport-coast-2026">92657 Newport Coast</a></li>
-            <li><a href="/blog/wholesale-mortgage-92661-newport-beach-2026">92661 Newport Beach</a></li>
-            <li><a href="/blog/wholesale-mortgage-92662-balboa-island-2026">92662 Balboa Island</a></li>
           </ul>
         </div>
         <div className="bg-white border border-gray-200 rounded-xl p-6 my-6">

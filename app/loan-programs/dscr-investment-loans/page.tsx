@@ -8,6 +8,7 @@ import AISummary from '@/components/seo/AISummary';
 import SemanticTable from '@/components/seo/SemanticTable';
 import QualificationCallout from '@/components/QualificationCallout';
 import LoanCapSubheadline from '@/components/LoanCapSubheadline';
+import ScenarioExample from '@/components/ScenarioExample';
 
 export const metadata: Metadata = {
   title: 'DSCR Investment Loans – California & Washington [2026 No-Doc Rates]',
@@ -54,6 +55,7 @@ export default function DSCRInvestmentLoansPage() {
             product="dscr"
             regions={['California', 'Washington']}
           />
+          <ScenarioExample scenario="dscr" className="mt-8 max-w-xl" />
           <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
             Qualify for investment property loans based on the property's rental income, not your personal income. 
             No employment verification or tax returns required. Perfect for real estate investors.

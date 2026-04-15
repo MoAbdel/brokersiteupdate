@@ -306,7 +306,7 @@ export default function FHALoansOrangeCountyPage() {
 
                 <h3>Loan Limits</h3>
                 <p>
-                    Orange County's FHA limits accommodate many properties, but luxury homes and some coastal areas exceed these limits and require alternative financing.
+                    Orange County's FHA limits accommodate many properties, but higher-priced homes and some coastal areas exceed these limits and require alternative financing.
                 </p>
 
                 <h2>FHA vs. Conventional Loans: Which is Better for Orange County?</h2>

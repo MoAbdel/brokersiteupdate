@@ -49,7 +49,7 @@ const homeTypes = [
     bestFor: 'Balance of space and maintenance convenience'
   },
   {
-    type: 'Luxury Properties',
+    type: 'High-Value Properties',
     priceRange: '$2M - $10M+',
     description: 'Premium homes in exclusive communities',
     bestFor: 'Buyers seeking premium finishes and exclusive community amenities'
@@ -82,14 +82,14 @@ const loanOptions = [
     name: 'Jumbo Loans',
     downPayment: '10-20%',
     maxAmount: 'No limit',
-    description: 'High-value loans for luxury and expensive properties',
+    description: 'High-value loans for jumbo and high-cost properties',
     link: '/loan-programs/jumbo-loans'
   }
 ];
 
 const neighborhoods = [
   { name: 'Irvine', medianPrice: '$1.26M', highlight: 'Top schools, master-planned', link: '/areas/irvine-mortgage-broker' },
-  { name: 'Newport Beach', medianPrice: '$2.1M', highlight: 'Coastal luxury, beaches', link: '/areas/newport-beach-mortgage-broker' },
+  { name: 'Newport Beach', medianPrice: '$2.1M', highlight: 'Coastal waterfront, beaches', link: '/areas/newport-beach-mortgage-broker' },
   { name: 'Mission Viejo', medianPrice: '$950K', highlight: 'Family-friendly, safe', link: '/areas/mission-viejo-mortgage-broker' },
   { name: 'Costa Mesa', medianPrice: '$800K', highlight: 'Central location, diverse', link: '/areas/costa-mesa-mortgage-broker' },
   { name: 'Anaheim', medianPrice: '$750K', highlight: 'Affordable, growing', link: '/areas/anaheim-mortgage-broker' },

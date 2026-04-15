@@ -400,7 +400,7 @@ export default function MortgageRateLockGuidePage() {
         <h3>Common Causes of Lock Extension Needs</h3>
 
         <ol className="space-y-3">
-          <li><strong>Appraisal Delays:</strong> Property appraisals taking longer than expected, especially for unique or luxury properties</li>
+          <li><strong>Appraisal Delays:</strong> Property appraisals taking longer than expected, especially for unique or high-value properties</li>
           <li><strong>Underwriting Conditions:</strong> Lender requesting additional documentation (tax returns, bank statements, letters of explanation)</li>
           <li><strong>Title Issues:</strong> Clouds on title, lien disputes, or boundary issues requiring resolution</li>
           <li><strong>Seller Delays:</strong> Seller unable to vacate on time, repair negotiations, or HOA document delays</li>

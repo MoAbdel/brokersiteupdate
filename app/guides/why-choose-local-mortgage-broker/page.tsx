@@ -127,7 +127,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               <CardContent>
                 <p className="text-slate-600">
                   I know Orange County's neighborhoods inside and out - from Irvine's planned communities 
-                  to Newport Beach's luxury market. This local knowledge helps me recommend the right 
+                  to Newport Beach's high-value market. This local knowledge helps me recommend the right 
                   loan programs for specific areas and property types.
                 </p>
               </CardContent>
@@ -302,7 +302,7 @@ export default function WhyChooseLocalMortgageBrokerGuide() {
               </div>
               <h3 className="font-bold text-slate-900 mb-2">High-Value Properties</h3>
               <p className="text-sm text-slate-600">
-                Experience with Orange County's luxury market and jumbo loan requirements
+                Experience with Orange County's high-value market and jumbo loan requirements
               </p>
             </div>
             

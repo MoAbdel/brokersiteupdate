@@ -70,7 +70,7 @@ export default function Page() {
         <>
           <p>
             The biggest Irvine financing mistake is treating every village like the same market. Older neighborhoods with long sales histories,
-            newer master-planned sections with Mello-Roos, condo-heavy zones near UC Irvine, and hillside luxury pockets like Turtle Rock all
+            newer master-planned sections with Mello-Roos, condo-heavy zones near UC Irvine, and hillside neighborhoods like Turtle Rock all
             create different underwriting, appraisal, HOA, and loan-amount decisions. If you want the short answer: established villages tend
             to reward cleaner appraisal support, while newer neighborhoods require more attention to taxes, assessments, and community overlays.
           </p>
@@ -96,7 +96,7 @@ export default function Page() {
           
           <h3 className="text-lg font-semibold mb-2">Turtle Rock</h3>
           <p className="mb-3">
-            Known for its hillside location and stunning views, Turtle Rock offers luxury homes with resort-style amenities. 
+            Known for its hillside location and stunning views, Turtle Rock offers upscale homes with resort-style amenities.
             Properties often require jumbo financing, and the unique topography and custom features require appraisers 
             familiar with hillside valuations and luxury amenities like pools and view premiums.
           </p>
@@ -110,7 +110,7 @@ export default function Page() {
           
           <h3 className="text-lg font-semibold mb-2">Northwood</h3>
           <p>
-            Northwood encompasses multiple phases with diverse housing options from starter homes to luxury properties. 
+            Northwood encompasses multiple phases with diverse housing options from starter homes to move-up properties.
             The established infrastructure and highly rated schools support strong property values, while varied property types
             require different financing approaches depending on specific location and home features.
           </p>
@@ -194,7 +194,7 @@ export default function Page() {
             <li>• <strong>University area:</strong> Strong rental demand from students, faculty, and staff, but consider occupancy restrictions</li>
             <li>• <strong>Established villages:</strong> Stable long-term appreciation with strong rental markets for families</li>
             <li>• <strong>New developments:</strong> Potential for appreciation as communities mature, but consider additional assessments</li>
-            <li>• <strong>Luxury areas:</strong> Higher-end properties with executive rental potential but requiring larger investments</li>
+            <li>• <strong>Higher-end areas:</strong> Higher-priced properties with executive rental potential but requiring larger investments</li>
             <li>• <strong>Condo communities:</strong> Lower maintenance investment options with amenities attractive to renters</li>
           </ul>
           <p className="mt-3">

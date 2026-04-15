@@ -8,7 +8,7 @@ export const contentType = 'image/png';
 export default async function Image() {
   return generateOGImage({
     title: 'Jumbo Loans in Orange County',
-    subtitle: 'High-balance mortgage financing for luxury and high-value properties',
+    subtitle: 'High-balance mortgage financing for jumbo and high-value properties',
     category: 'Loan Program',
   });
 }

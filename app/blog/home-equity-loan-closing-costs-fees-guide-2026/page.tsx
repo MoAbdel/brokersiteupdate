@@ -46,7 +46,7 @@ const faqData = [
   },
   {
     question: 'How much does a home equity appraisal cost in California and Washington?',
-    answer: 'A full residential appraisal for a home equity loan or HELOC in California and Washington typically costs $350 to $600 for a standard single-family home. Complex properties, luxury homes above $1.5 million, rural properties, and multi-unit residences may require enhanced appraisals costing $600 to $1,200 or more. Some lenders accept automated valuation models (AVMs) or desktop appraisals for HELOCs under $250,000 with strong combined loan-to-value ratios, which can reduce or eliminate appraisal costs.',
+    answer: 'A full residential appraisal for a home equity loan or HELOC in California and Washington typically costs $350 to $600 for a standard single-family home. Complex properties, high-value homes above $1.5 million, rural properties, and multi-unit residences may require enhanced appraisals costing $600 to $1,200 or more. Some lenders accept automated valuation models (AVMs) or desktop appraisals for HELOCs under $250,000 with strong combined loan-to-value ratios, which can reduce or eliminate appraisal costs.',
   },
   {
     question: 'Can I roll home equity loan closing costs into the loan balance?',
@@ -278,7 +278,7 @@ export default function HomeEquityLoanClosingCostsPage() {
 
         <h3>2. Appraisal Fee</h3>
         <p>
-          The appraisal determines your home&apos;s current market value, which establishes the maximum combined loan-to-value (CLTV) ratio. Typical range: <strong>$350 to $600</strong> for a standard single-family home in California or Washington. Luxury homes, properties above $1.5 million, multi-unit properties, and rural locations may require enhanced appraisals costing $600 to $1,200. Some wholesale lenders accept <strong>automated valuation models (AVMs)</strong> or <strong>desktop appraisals</strong> for HELOANs under $250,000 with CLTV below 70%, which can reduce or eliminate this cost entirely.
+          The appraisal determines your home&apos;s current market value, which establishes the maximum combined loan-to-value (CLTV) ratio. Typical range: <strong>$350 to $600</strong> for a standard single-family home in California or Washington. High-value homes, properties above $1.5 million, multi-unit properties, and rural locations may require enhanced appraisals costing $600 to $1,200. Some wholesale lenders accept <strong>automated valuation models (AVMs)</strong> or <strong>desktop appraisals</strong> for HELOANs under $250,000 with CLTV below 70%, which can reduce or eliminate this cost entirely.
         </p>
 
         <h3>3. Title Search and Title Insurance</h3>

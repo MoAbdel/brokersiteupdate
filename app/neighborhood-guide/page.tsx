@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const comparisonGuides = [
   {
     title: 'Irvine vs Newport Beach',
-    description: 'Complete comparison of Orange County\'s top family-friendly city against luxury coastal living',
+    description: 'Complete comparison of Orange County\'s top family-friendly city against coastal waterfront living',
     features: ['Home Prices & Market Data', 'School Ratings Comparison', 'Lifestyle & Amenities', 'Mortgage Considerations'],
     url: '/neighborhood-guide/irvine-vs-newport-beach-home-buying-guide',
     badgeClass: 'bg-slate-900',
@@ -149,7 +149,7 @@ export default function NeighborhoodGuidePage() {
               <Card className="h-full hover:shadow-lg transition-shadow duration-300 border hover:border-blue-300">
                 <CardContent className="p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2">Irvine vs Newport Beach</h3>
-                  <p className="text-slate-600 text-sm mb-3">Family-friendly planned community vs luxury coastal living comparison</p>
+                  <p className="text-slate-600 text-sm mb-3">Family-friendly planned community vs coastal living comparison</p>
                   <div className="text-xs text-blue-600 font-medium">Most Popular Guide →</div>
                 </CardContent>
               </Card>
@@ -169,7 +169,7 @@ export default function NeighborhoodGuidePage() {
               <Card className="h-full hover:shadow-lg transition-shadow duration-300 border hover:border-blue-300">
                 <CardContent className="p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2">Newport Beach vs Laguna Beach</h3>
-                  <p className="text-slate-600 text-sm mb-3">Luxury coastal living and investment potential analysis</p>
+                  <p className="text-slate-600 text-sm mb-3">Coastal living and investment potential analysis</p>
                   <div className="text-xs text-blue-600 font-medium">Read Comparison →</div>
                 </CardContent>
               </Card>

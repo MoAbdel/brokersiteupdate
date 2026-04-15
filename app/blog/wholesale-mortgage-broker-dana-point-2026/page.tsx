@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Dana Point Wholesale Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel',
-  description: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, coastal luxury financing & better rates than local banks. NMLS #1426884.',
+  description: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans, coastal high-value financing & better rates than local banks. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-dana-point-2026',
     languages: {
@@ -49,7 +49,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
                 "name": "What is a wholesale mortgage broker in Dana Point?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for luxury coastal home purchases."
+                  "text": "A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for coastal home purchases."
                 }
               },
               {
@@ -65,7 +65,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
                 "name": "How do Dana Point wholesale rates compare to local banks?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 50+ Wholesale Lenders who compete for Dana Point luxury home financing."
+                  "text": "Wholesale rates are often more competitive because they exclude bank overhead costs. Brokers shop across 50+ Wholesale Lenders who compete for Dana Point high-value home financing."
                 }
               },
               {
@@ -73,7 +73,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
                 "name": "Are there special programs for Monarch Beach properties?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Wholesale brokers access super jumbo programs up to $10M+ for Monarch Beach and Strand Beach luxury homes, including bank statement options for high-net-worth borrowers."
+                  "text": "Yes. Wholesale brokers access super jumbo programs up to $10M+ for Monarch Beach and Strand Beach high-value homes, including bank statement options for high-net-worth borrowers."
                 }
               },
               {
@@ -133,10 +133,10 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
         <h3>The Wholesale Advantage in Dana Point</h3>
         <ul>
           <li><strong>50+ Wholesale Lenders:</strong> More options than any single bank can offer</li>
-          <li><strong>Super Jumbo Expertise:</strong> Loans up to $10M+ for luxury properties</li>
+          <li><strong>Super Jumbo Expertise:</strong> Loans up to $10M+ for high-value properties</li>
           <li><strong>Rate Shopping:</strong> Lender competition drives better pricing</li>
           <li><strong>Program Variety:</strong> Bank statement, jumbo, interest-only, asset-based</li>
-          <li><strong>Local Expertise:</strong> Understanding Dana Point&apos;s luxury coastal market</li>
+          <li><strong>Local Expertise:</strong> Understanding Dana Point&apos;s high-value coastal market</li>
         </ul>
 
         <h2>Loan Programs for Dana Point</h2>
@@ -200,7 +200,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>Monarch Beach</h3>
         <p>
-          Ultra-luxury gated community with oceanview estates. Homes range from $3M to $15M+. Super jumbo expertise essential—bank statement and asset-based programs popular with executives and business owners.
+          Gated community with oceanview estates. Homes range from $3M to $15M+. Super jumbo expertise essential—bank statement and asset-based programs popular with executives and business owners.
         </p>
 
         <h3>Strand Beach</h3>
@@ -227,7 +227,7 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>What is a wholesale mortgage broker in Dana Point?</h3>
         <p>
-          A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for luxury coastal home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
+          A wholesale mortgage broker in Dana Point is an independent licensed professional who accesses institutional pricing from 50+ Wholesale Lenders to find the best rates for coastal home purchases. Unlike bank loan officers who only offer their employer&apos;s products, wholesale brokers shop across the entire lending market.
         </p>
 
         <h3>Can I get a jumbo loan in Dana Point through a wholesale broker?</h3>
@@ -237,17 +237,17 @@ export default function WholesaleMortgageBrokerDanaPointPage() {
 
         <h3>How do Dana Point wholesale rates compare to local banks?</h3>
         <p>
-          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Dana Point luxury home financing.
+          Wholesale rates are often more competitive because they exclude bank overhead costs (branches, advertising, corporate structure). Brokers shop across 50+ Wholesale Lenders who compete for Dana Point high-value home financing.
         </p>
 
         <h3>Are there special programs for Monarch Beach properties?</h3>
         <p>
-          Yes. Wholesale brokers access super jumbo programs up to $10M+ specifically suited for Monarch Beach and Strand Beach luxury estates, including bank statement options for high-net-worth borrowers and interest-only features.
+          Yes. Wholesale brokers access super jumbo programs up to $10M+ specifically suited for Monarch Beach and Strand Beach high-value estates, including bank statement options for high-net-worth borrowers and interest-only features.
         </p>
 
         <h3>How long does closing take with a Dana Point wholesale broker?</h3>
         <p>
-          Typical closing timelines range from 21-45 days depending on loan type and property complexity. Wholesale brokers can select fast-closing lenders for competitive situations common in Dana Point&apos;s active luxury market.
+          Typical closing timelines range from 21-45 days depending on loan type and property complexity. Wholesale brokers can select fast-closing lenders for competitive situations common in Dana Point&apos;s active high-value market.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-xl my-8">

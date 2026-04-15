@@ -1217,9 +1217,6 @@ export default function RanchoSantaMargaritaMortgageGuide2026() {
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               → DSCR Loans for Portfolio Investors
             </Link>
-            <Link href="/blog/coto-de-caza-mortgage-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
-              → Coto de Caza Mortgage Guide 2026
-            </Link>
           </div>
         </section>
 

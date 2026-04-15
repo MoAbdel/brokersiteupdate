@@ -129,7 +129,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
               },
               {
                 "@type": "Question",
-                "name": "What super jumbo loan options exist for Yorba Linda luxury homes?",
+                "name": "What super jumbo loan options exist for Yorba Linda high-value homes?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Super jumbo loans for properties above $2 million are available through wholesale broker networks. These specialty lenders offer financing for $2M, $3M, $5M, and even higher loan amounts—essential for Black Gold Estates and other premium Yorba Linda neighborhoods. Programs include various down payment options and asset-based qualification for high-net-worth borrowers."
@@ -158,7 +158,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Known as "The Land of Gracious Living," Yorba Linda is one of Orange County's most affluent cities with a median home price exceeding <strong>$1.3 million</strong>. Premium neighborhoods like Black Gold Estates feature properties from <strong>$3 million to $5 million or more</strong>. At these price points, the difference between wholesale and retail mortgage rates becomes substantial. A <strong>wholesale mortgage broker</strong> provides access to 20+ jumbo lenders with institutional pricing, bank statement programs for Yorba Linda's many successful business owners, and super jumbo options for luxury estates. On typical Yorba Linda purchases, wholesale rates translate to <strong>$75,000-$150,000+</strong> in potential savings over the life of the loan.
+            Known as "The Land of Gracious Living," Yorba Linda is one of Orange County's most affluent cities with a median home price exceeding <strong>$1.3 million</strong>. Premium neighborhoods like Black Gold Estates feature properties from <strong>$3 million to $5 million or more</strong>. At these price points, the difference between wholesale and retail mortgage rates becomes substantial. A <strong>wholesale mortgage broker</strong> provides access to 20+ jumbo lenders with institutional pricing, bank statement programs for Yorba Linda's many successful business owners, and super jumbo options for high-value estates. On typical Yorba Linda purchases, wholesale rates translate to <strong>$75,000-$150,000+</strong> in potential savings over the life of the loan.
           </p>
         </div>
 

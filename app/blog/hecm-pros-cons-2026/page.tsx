@@ -144,7 +144,7 @@ export default function HECMProsConsPage() {
         "name": "What is the difference between a HECM and a proprietary reverse mortgage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A HECM is FHA-insured with a 2026 lending limit of $1,209,750, mandatory HUD counseling, and non-recourse protection. A proprietary reverse mortgage is offered by private lenders with no FHA insurance, allowing access to home values of $2 million to $10 million or more. Proprietary products are essential for luxury homeowners whose properties far exceed the HECM limit."
+          "text": "A HECM is FHA-insured with a 2026 lending limit of $1,209,750, mandatory HUD counseling, and non-recourse protection. A proprietary reverse mortgage is offered by private lenders with no FHA insurance, allowing access to home values of $2 million to $10 million or more. Proprietary products are essential for homeowners whose properties far exceed the HECM limit."
         }
       }
     ]

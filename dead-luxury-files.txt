@@ -1,0 +1,10 @@
+app/blog/coto-de-caza-mortgage-guide-2026/page.tsx
+app/blog/home-equity-beverly-hills-2026/page.tsx
+app/blog/home-equity-clyde-hill-wa-2026/page.tsx
+app/blog/home-equity-san-marino-ca-2026/page.tsx
+app/blog/reverse-mortgage-beverly-hills-2026/page.tsx
+app/blog/reverse-mortgage-clyde-hill-wa-2026/page.tsx
+app/blog/reverse-mortgage-medina-wa-2026/page.tsx
+app/blog/reverse-mortgage-san-marino-ca-2026/page.tsx
+app/blog/wholesale-mortgage-92679-coto-de-caza-2026/page.tsx
+app/blog/wholesale-mortgage-broker-92679/page.tsx

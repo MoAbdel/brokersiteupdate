@@ -250,7 +250,7 @@ export default function HomeEquityEastBaySFGuide2026() {
               <li><a href="#product-comparison">HELOC vs HELOAN vs Cash-Out Refinance: Complete Comparison</a></li>
               <li><a href="#market-context">East Bay &amp; San Francisco Equity Market Context</a></li>
               <li><a href="#scenarios">Real-World Equity Scenarios: SF Condo, Piedmont Renovation, Pleasanton Consolidation</a></li>
-              <li><a href="#hub-a">Hub Preview: Urban Luxury Equity (SF, Piedmont, Orinda, Lafayette, Moraga)</a></li>
+              <li><a href="#hub-a">Hub Preview: High-Value Equity (SF, Piedmont, Orinda, Lafayette, Moraga)</a></li>
               <li><a href="#hub-b">Hub Preview: BART Corridor Equity (Danville, Walnut Creek, Pleasanton, Dublin, Fremont)</a></li>
               <li><a href="#income-docs">Income Documentation Options for Bay Area Borrowers</a></li>
               <li><a href="#wholesale-advantage">Mo&apos;s Wholesale Advantage for Home Equity Products</a></li>
@@ -583,7 +583,7 @@ export default function HomeEquityEastBaySFGuide2026() {
 
           {/* ========== HUB A PREVIEW ========== */}
           <h2 id="hub-a" className="text-2xl font-bold mt-10 mb-4">
-            Hub Preview: Urban Luxury Equity -- San Francisco, Piedmont, Orinda, Lafayette, Moraga
+            Hub Preview: High-Value Equity -- San Francisco, Piedmont, Orinda, Lafayette, Moraga
           </h2>
 
           <p>
@@ -784,16 +784,6 @@ export default function HomeEquityEastBaySFGuide2026() {
               <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
                 Home Equity California Statewide Guide [2026]
               </a> -- Comprehensive California home equity overview covering all regions and product types.
-            </li>
-            <li>
-              <a href="/blog/home-equity-bay-area-peninsula-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Home Equity Bay Area Peninsula &amp; Silicon Valley Guide [2026]
-              </a> -- HELOC and cash-out guide for Peninsula homeowners in Atherton, Palo Alto, and 13 more cities.
-            </li>
-            <li>
-              <a href="/blog/home-equity-marin-county-guide-2026" className="text-blue-600 hover:text-blue-800 font-medium">
-                Home Equity Marin County Guide [2026]
-              </a> -- HELOC and equity guide for Marin homeowners in Mill Valley, Tiburon, and surrounding communities.
             </li>
           </ul>
 

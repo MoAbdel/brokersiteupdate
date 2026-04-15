@@ -225,7 +225,7 @@ export default function CreditRepairPage() {
       minScore: '700',
       idealScore: '740+',
       downPayment: '10-20%',
-      benefits: 'High loan amounts for luxury homes'
+      benefits: 'High loan amounts for high-value homes'
     }
   ];
 

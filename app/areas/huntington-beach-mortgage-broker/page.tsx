@@ -42,12 +42,12 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     {
       name: 'Seacliff',
       avgPrice: '$1.5M',
-      description: 'Upscale oceanfront community with luxury beach properties'
+      description: 'Upscale oceanfront community with premium beach properties'
     },
     {
       name: 'Brightwater',
       avgPrice: '$2.5M',
-      description: 'Luxury gated community with waterfront homes and resort amenities'
+      description: 'Gated community with homes and resort amenities'
     }
   ];
 
@@ -60,7 +60,7 @@ export default function HuntingtonBeachMortgageBrokerPage() {
     },
     {
       title: 'Jumbo Loans',
-      description: 'Financing for Huntington Beach luxury and oceanfront properties',
+      description: 'Financing for Huntington Beach oceanfront and high-value properties',
       benefits: ['Competitive jumbo rates', 'Up to $2.5M loan amounts', 'Flexible down payments'],
       icon: <Building className="w-8 h-8 text-blue-600" />
     },

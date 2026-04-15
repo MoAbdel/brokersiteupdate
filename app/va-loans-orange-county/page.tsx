@@ -543,7 +543,7 @@ export default function VALoansOrangeCountyPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 text-sm text-center">
-                    Financing above $1,209,750 for luxury Orange County homes
+                    Financing above $1,209,750 for high-value Orange County homes
                   </p>
                 </CardContent>
               </Card>

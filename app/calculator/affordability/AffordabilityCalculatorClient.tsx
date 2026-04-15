@@ -215,7 +215,7 @@ export default function AffordabilityCalculatorClient() {
                 <li>• Consider down payment assistance programs</li>
                 <li>• FHA loans available up to $1,209,750</li>
                 <li>• VA loans with no down payment for veterans</li>
-                <li>• Jumbo loans for luxury markets</li>
+                <li>• Jumbo loans for high-value markets</li>
               </ul>
             </div>
           </div>

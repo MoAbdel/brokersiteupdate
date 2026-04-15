@@ -301,7 +301,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             <li><strong>Lake Tahoe (North and South Shore):</strong> Premium lakefront and ski-access properties carry values well into jumbo territory. The combination of limited buildable land, year-round recreation, and Bay Area buyer demand sustains strong appreciation. Many Tahoe second homes exceed the conforming loan limit, requiring <Link href="/loan-programs/jumbo-loans" className="text-blue-600 hover:text-blue-700">jumbo cash-out programs</Link> that wholesale brokers source from portfolio and private-bank lenders.</li>
             <li><strong>Palm Springs and Coachella Valley:</strong> Desert resort communities attract seasonal owners from across Southern California. The relatively lower price points compared to coastal markets mean many transactions fit within conforming limits, simplifying the cash-out process.</li>
             <li><strong>San Diego Coast (La Jolla, Del Mar, Encinitas):</strong> Coastal San Diego second homes command premium values. Owners who purchased during earlier market cycles hold significant equity, often exceeding 50% of current appraised value.</li>
-            <li><strong>Santa Barbara and Montecito:</strong> Ultra-luxury second home territory where jumbo and super-jumbo programs dominate. Wholesale access to private-bank lenders expands options for these high-value transactions.</li>
+            <li><strong>Santa Barbara and Montecito:</strong> High-value second home territory where jumbo and super-jumbo programs dominate. Wholesale access to private-bank lenders expands options for these transactions.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Washington Vacation Markets</h3>

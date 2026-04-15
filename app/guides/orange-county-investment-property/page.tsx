@@ -88,7 +88,7 @@ export default function OrangeCountyInvestmentPropertyGuide() {
       rentRange: "$8,000-$15,000+",
       capRate: "3.2%", 
       cashFlow: "Negative",
-      pros: ["Luxury market", "Prestige location", "High rents"],
+      pros: ["High-value market", "Prestige location", "High rents"],
       cons: ["Very high entry", "Seasonal vacancy"]
     }
   ];

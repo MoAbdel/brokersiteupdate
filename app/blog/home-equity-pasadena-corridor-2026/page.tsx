@@ -74,7 +74,7 @@ export default function HomeEquityPasadenaCorridor2026() {
     },
     {
       question: 'What HELOC options exist for Sierra Madre homes valued over $1.4 million?',
-      answer: 'Sierra Madre homes exceeding $1.4 million require jumbo HELOC programs. Through wholesale broker access, credit lines of $400K-$800K+ are available from specialized lenders who serve the San Gabriel Valley foothill luxury market. Sierra Madre\'s unique character as a small mountain village with homes dating from the early 1900s means appraisers must account for historic home premiums, mountain-view lot values, and limited comparable sales in this community of only 11,000 residents. Wholesale lenders experienced with small-inventory luxury markets provide more accurate valuations than banks relying on broad-area comparables.',
+      answer: 'Sierra Madre homes exceeding $1.4 million require jumbo HELOC programs. Through wholesale broker access, credit lines of $400K-$800K+ are available from specialized lenders who serve the San Gabriel Valley foothill high-value market. Sierra Madre\'s unique character as a small mountain village with homes dating from the early 1900s means appraisers must account for historic home premiums, mountain-view lot values, and limited comparable sales in this community of only 11,000 residents. Wholesale lenders experienced with small-inventory high-value markets provide more accurate valuations than banks relying on broad-area comparables.',
     },
     {
       question: 'Can I use Caltech or JPL income to qualify for a Pasadena HELOC?',
@@ -217,7 +217,7 @@ export default function HomeEquityPasadenaCorridor2026() {
           </p>
 
           <p>
-            This hub covers home equity options for five Pasadena Corridor communities: Pasadena ($1.2M median), Sierra Madre ($1.4M median), Glendale ($1.2M median), Montrose ($1.1M median), and La Crescenta ($1M median). For the broader regional perspective, visit our <a href="/blog/home-equity-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">San Gabriel Valley &amp; Pasadena Home Equity Guide</a> or the statewide <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California Home Equity Guide</a>. For nearby foothill luxury communities, see our <a href="/blog/home-equity-foothill-luxury-2026" className="text-blue-600 hover:underline">Foothill Luxury Home Equity Hub</a>.
+            This hub covers home equity options for five Pasadena Corridor communities: Pasadena ($1.2M median), Sierra Madre ($1.4M median), Glendale ($1.2M median), Montrose ($1.1M median), and La Crescenta ($1M median). For the broader regional perspective, visit our <a href="/blog/home-equity-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">San Gabriel Valley &amp; Pasadena Home Equity Guide</a> or the statewide <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California Home Equity Guide</a>.
           </p>
 
           {/* Table of Contents */}
@@ -770,14 +770,6 @@ export default function HomeEquityPasadenaCorridor2026() {
           <h2 id="cross-links" className="text-2xl font-bold mt-10 mb-4">Related Pasadena Corridor &amp; California Mortgage Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
-            <a href="/blog/wholesale-mortgage-broker-foothill-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <h3 className="font-bold text-blue-700 mb-2">Wholesale Mortgage Broker Foothill Corridor</h3>
-              <p className="text-sm text-gray-600">How wholesale broker access to 50+ Wholesale Lenders delivers better rates for Pasadena Corridor professionals and business owners.</p>
-            </a>
-            <a href="/blog/home-equity-foothill-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <h3 className="font-bold text-blue-700 mb-2">Foothill Luxury Home Equity Hub</h3>
-              <p className="text-sm text-gray-600">HELOC, HELOAN &amp; cash-out refinance for La Ca&ntilde;ada Flintridge, South Pasadena, San Marino &amp; Arcadia.</p>
-            </a>
             <a href="/blog/home-equity-sgv-pasadena-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">San Gabriel Valley &amp; Pasadena Home Equity Guide</h3>
               <p className="text-sm text-gray-600">Regional overview covering all SGV and Pasadena Corridor communities with equity product recommendations.</p>
@@ -789,7 +781,7 @@ export default function HomeEquityPasadenaCorridor2026() {
           </div>
 
           <p>
-            For detailed product comparisons, see our <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance Guide</a>, <a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Loans for Self-Employed</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a>, and <a href="/blog/home-equity-la-westside-luxury-2026" className="text-blue-600 hover:underline">LA Westside Home Equity</a> guides. For reverse mortgage options, see our <a href="/blog/reverse-mortgage-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">SGV &amp; Pasadena Reverse Mortgage Guide</a>.
+            For detailed product comparisons, see our <a href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-600 hover:underline">HELOC vs. Cash-Out Refinance Guide</a>, <a href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Loans for Self-Employed</a>, <a href="/blog/home-equity-for-renovations-2026" className="text-blue-600 hover:underline">Home Equity for Renovations</a> guides. For reverse mortgage options, see our <a href="/blog/reverse-mortgage-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">SGV &amp; Pasadena Reverse Mortgage Guide</a>.
           </p>
 
           {/* Expert Summary + CTA */}

@@ -386,7 +386,7 @@ export default function AssetDepletionLoansPage() {
                   </div>
                   <div className="flex items-center">
                     <Check className="w-4 h-4 text-blue-600 mr-2" />
-                    <span>Perfect for luxury home purchases</span>
+                    <span>Perfect for high-value home purchases</span>
                   </div>
                   <div className="flex items-center">
                     <Check className="w-4 h-4 text-blue-600 mr-2" />

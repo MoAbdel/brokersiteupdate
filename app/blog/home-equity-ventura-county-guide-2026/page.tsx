@@ -58,7 +58,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
     },
     {
       question: 'How does the appraisal process work for Ventura County home equity products?',
-      answer: 'Lenders require a property appraisal to determine current market value. For Ventura County homes, a licensed appraiser evaluates comparable sales, condition, and location factors. Properties in Westlake Village and Oak Park with custom features, large lots, or equestrian facilities require appraisers experienced in luxury suburban properties. Some lenders accept desktop appraisals for lower equity amounts.'
+      answer: 'Lenders require a property appraisal to determine current market value. For Ventura County homes, a licensed appraiser evaluates comparable sales, condition, and location factors. Properties in Westlake Village and Oak Park with custom features, large lots, or equestrian facilities require appraisers experienced in upscale suburban properties. Some lenders accept desktop appraisals for lower equity amounts.'
     },
     {
       question: 'Should I choose a HELOC or cash-out refinance in the current Ventura County market?',
@@ -592,13 +592,13 @@ export default function HomeEquityVenturaCountyGuide2026() {
         </ul>
 
         {/* Hub Preview Sections */}
-        <h2>Hub Preview: Conejo Valley Luxury Equity &mdash; Westlake Village, Oak Park, North Ranch</h2>
+        <h2>Hub Preview: Conejo Valley High-Value Equity &mdash; Westlake Village, Oak Park, North Ranch</h2>
         <p>
-          The Conejo Valley&apos;s luxury tier represents homes valued at $1.2 million to $4 million or more, concentrated in Westlake Village, Oak Park, and the North Ranch/Lake Sherwood area. These communities feature estate-style properties on large lots with resort-level amenities. Key equity considerations for this hub include:
+          The Conejo Valley&apos;s higher-end tier represents homes valued at $1.2 million to $4 million or more, concentrated in Westlake Village, Oak Park, and the North Ranch/Lake Sherwood area. These communities feature estate-style properties on large lots with resort-level amenities. Key equity considerations for this hub include:
         </p>
         <ul>
           <li><strong>Jumbo product dominance:</strong> Nearly all equity products in this hub fall into jumbo territory, requiring lenders who specialize in high-balance HELOCs and cash-out programs</li>
-          <li><strong>Lake Sherwood and North Ranch estates:</strong> Properties with acreage, equestrian facilities, and custom features require specialized appraisals from appraisers who understand luxury suburban properties</li>
+          <li><strong>Lake Sherwood and North Ranch estates:</strong> Properties with acreage, equestrian facilities, and custom features require specialized appraisals from appraisers who understand upscale suburban properties</li>
           <li><strong>Entertainment industry income:</strong> Many homeowners earn variable income through production companies, talent agencies, and freelance entertainment work &mdash; bank statement programs serve this profile</li>
           <li><strong>Privacy and discretion:</strong> High-net-worth clients benefit from wholesale lenders experienced in discreet, relationship-based lending</li>
         </ul>
@@ -646,7 +646,7 @@ export default function HomeEquityVenturaCountyGuide2026() {
             <li><a href="/blog/reverse-mortgage-ventura-county-guide-2026" className="text-blue-600 hover:text-blue-800">Reverse Mortgage Ventura County Guide: HECM for Seniors 62+ [2026]</a> &mdash; Equity access without monthly payments for Ventura County homeowners aged 62+</li>
             <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity California Statewide Guide [2026]</a> &mdash; State-level overview of HELOC, HELOAN, and cash-out refinance across California</li>
             <li><a href="/blog/home-equity-central-coast-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity Central Coast Guide [2026]</a> &mdash; Adjacent region coverage for Santa Barbara and San Luis Obispo County communities</li>
-            <li><a href="/blog/home-equity-calabasas-2026" className="text-blue-600 hover:text-blue-800">Home Equity Calabasas Guide [2026]</a> &mdash; Nearby LA County luxury market equity analysis</li>
+            <li><a href="/blog/home-equity-calabasas-2026" className="text-blue-600 hover:text-blue-800">Home Equity Calabasas Guide [2026]</a> &mdash; Nearby LA County high-value market equity analysis</li>
           </ul>
         </div>
 

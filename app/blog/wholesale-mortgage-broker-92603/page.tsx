@@ -251,7 +251,7 @@ export default function WholesaleMortgageBroker92603Page() {
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Shady Canyon</h4>
-            <p className="text-sm text-gray-700 mb-0">Guard-gated luxury enclave with custom estates and golf course. Homes from $3M-$8M+ in Irvine&apos;s most exclusive address.</p>
+            <p className="text-sm text-gray-700 mb-0">Guard-gated enclave with custom estates and golf course. Homes from $3M-$8M+ in Irvine&apos;s most exclusive address.</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
             <h4 className="font-semibold text-gray-900 mb-2">Turtle Ridge</h4>

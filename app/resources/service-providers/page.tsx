@@ -47,7 +47,7 @@ export default function ServiceProvidersPage() {
         {
           name: 'Jennifer Martinez',
           company: 'Coldwell Banker Realty',
-          specialties: ['Luxury Homes', 'Newport Beach', 'Irvine'],
+          specialties: ['High-Value Homes', 'Newport Beach', 'Irvine'],
           phone: 'Not available',
           emails: ['jennifer.martinez@coldwellbanker.com', 'jmartinez.realtor@gmail.com', 'jen.martinez.oc@outlook.com'],
           rating: 4.9,
@@ -174,7 +174,7 @@ export default function ServiceProvidersPage() {
         {
           name: 'Coastal Insurance Solutions',
           company: 'Independent Agency',
-          specialties: ['Luxury Homes', 'High-Value', 'Coastal Properties'],
+          specialties: ['High-Value Homes', 'High-Value', 'Coastal Properties'],
           phone: 'Not available',
           email: 'info@coastalinsurance.com',
           rating: 4.8,

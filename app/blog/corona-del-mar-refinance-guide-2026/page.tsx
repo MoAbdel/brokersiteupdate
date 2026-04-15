@@ -105,7 +105,7 @@ export default function CoronaDelMarRefinance2026() {
 
         <h2>What makes Corona del Mar refinance decisions different?</h2>
         <p>
-          Corona del Mar sits in a coastal luxury market where even moderate equity percentages can translate into large dollar amounts.
+          Corona del Mar sits in a high-value coastal market where even moderate equity percentages can translate into large dollar amounts.
           That changes the refinance conversation. Borrowers are often balancing jumbo loan sizing, higher insurance and tax costs,
           unique appraisal adjustments for location and view, and the question of whether an old first mortgage should be protected.
         </p>
@@ -155,7 +155,7 @@ export default function CoronaDelMarRefinance2026() {
             {
               title: 'Use equity for one defined project',
               icon: Wallet,
-              body: 'Luxury renovation, reserve buildup, or targeted debt payoff often works better with a fixed lump-sum second lien than a full refinance.',
+              body: 'Home renovation, reserve buildup, or targeted debt payoff often works better with a fixed lump-sum second lien than a full refinance.',
             },
             {
               title: 'Avoid unnecessary first-lien reset',

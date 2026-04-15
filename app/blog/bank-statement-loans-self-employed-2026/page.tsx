@@ -573,7 +573,7 @@ export default function BankStatementLoansGuide2026() {
                 <tr>
                   <td className="p-4 text-slate-600 font-medium">Property Types</td>
                   <td className="p-4 text-slate-600">SFR, Condo, 2-4 units</td>
-                  <td className="p-4 text-slate-600">SFR, Condo, 2-4 units, Luxury</td>
+                  <td className="p-4 text-slate-600">SFR, Condo, 2-4 units, High-Value</td>
                 </tr>
               </tbody>
             </table>

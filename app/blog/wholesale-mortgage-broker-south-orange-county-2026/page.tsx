@@ -165,10 +165,10 @@ export default function WholesaleMortgageBrokerSouthOC() {
 
           <hr className="my-10" />
 
-          <h2 id="dana-point" className="text-3xl font-bold mt-10 mb-4">Dana Point: Harbor Living & Coastal Luxury</h2>
+          <h2 id="dana-point" className="text-3xl font-bold mt-10 mb-4">Dana Point: Harbor Living & Coastal Homes</h2>
 
           <p>
-            Dana Point offers Orange County&apos;s only harbor, creating unique property types from harbor-view condos to oceanfront estates. The Headlands development and Monarch Beach attract luxury buyers seeking resort-style living.
+            Dana Point offers Orange County&apos;s only harbor, creating unique property types from harbor-view condos to oceanfront estates. The Headlands development and Monarch Beach attract high-value buyers seeking resort-style living.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3">Dana Point Neighborhoods & Financing</h3>
@@ -176,7 +176,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Monarch Beach (92629)</h4>
-              <p className="text-sm mb-2">Resort community with St. Regis and Waldorf Astoria. Homes $2M-$15M+. Exclusively jumbo territory with luxury-specialized lenders.</p>
+              <p className="text-sm mb-2">Resort community with St. Regis and Waldorf Astoria. Homes $2M-$15M+. Exclusively jumbo territory. Ultra-jumbo lenders required.</p>
               <p className="text-sm text-blue-700">Typical loan: $1.5M-$5M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -191,7 +191,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">The Headlands</h4>
-              <p className="text-sm mb-2">Newer luxury development with ocean views $3M-$8M+. HOA-governed, architectural standards. Premium jumbo programs.</p>
+              <p className="text-sm mb-2">Newer upscale development with ocean views $3M-$8M+. HOA-governed, architectural standards. Premium jumbo programs.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$5M</p>
             </div>
           </div>
@@ -203,10 +203,10 @@ export default function WholesaleMortgageBrokerSouthOC() {
 
           <hr className="my-10" />
 
-          <h2 id="laguna-beach" className="text-3xl font-bold mt-10 mb-4">Laguna Beach: Artist Colony & Oceanfront Luxury</h2>
+          <h2 id="laguna-beach" className="text-3xl font-bold mt-10 mb-4">Laguna Beach: Artist Colony & Oceanfront Homes</h2>
 
           <p>
-            Laguna Beach commands Orange County&apos;s highest prices outside Newport Coast, with a unique creative community and dramatic oceanfront settings. The combination of artistic heritage and luxury real estate creates diverse financing needs.
+            Laguna Beach commands Orange County&apos;s highest prices outside Newport Coast, with a unique creative community and dramatic oceanfront settings. The combination of artistic heritage and high-value real estate creates diverse financing needs.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3">Laguna Beach Neighborhoods & Financing</h3>
@@ -214,7 +214,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">North Laguna (92651)</h4>
-              <p className="text-sm mb-2">Oceanfront and ocean-view homes $3M-$20M+. Crescent Bay, Shaw&apos;s Cove areas. Ultra-luxury jumbo specialists required.</p>
+              <p className="text-sm mb-2">Oceanfront and ocean-view homes $3M-$20M+. Crescent Bay, Shaw&apos;s Cove areas. Jumbo specialists required.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$8M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -224,7 +224,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">South Laguna (92651)</h4>
-              <p className="text-sm mb-2">Three Arch Bay, Emerald Bay gated communities $4M-$25M+. Private beach access, exclusive programs for ultra-luxury.</p>
+              <p className="text-sm mb-2">Three Arch Bay, Emerald Bay gated communities $4M-$25M+. Private beach access, exclusive jumbo programs.</p>
               <p className="text-sm text-blue-700">Typical loan: $3M-$10M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -286,7 +286,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Cotton&apos;s Point (92672)</h4>
-              <p className="text-sm mb-2">Beachfront and blufftop estates $3M-$15M+. Nixon&apos;s Western White House area. Ultra-luxury jumbo.</p>
+              <p className="text-sm mb-2">Beachfront and blufftop estates $3M-$15M+. Nixon&apos;s Western White House area. Jumbo loans.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$6M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -308,7 +308,7 @@ export default function WholesaleMortgageBrokerSouthOC() {
             <li><strong>Los Rios District (92675):</strong> Historic adobes and cottages, unique properties requiring specialized appraisal</li>
             <li><strong>San Juan Hills:</strong> Golf course community $800K-$1.8M</li>
             <li><strong>Meredith Canyon:</strong> Equestrian properties with land $1.5M-$4M+</li>
-            <li><strong>Rancho Madrina:</strong> Luxury equestrian estates, horse facilities add value complexity</li>
+            <li><strong>Rancho Madrina:</strong> Equestrian estates, horse facilities add value complexity</li>
           </ul>
 
           <hr className="my-10" />

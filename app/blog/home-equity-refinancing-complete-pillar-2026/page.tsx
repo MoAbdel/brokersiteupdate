@@ -969,7 +969,6 @@ export default function HomeEquityRefinancingCompletePillar2026Page() {
             <li><a href="/rate-term-refinance-orange-county" className="text-blue-600 hover:text-blue-800">Rate & Term Refinance (Orange County)</a></li>
             <li><a href="/blog/huntington-beach-refinance-guide-2026" className="text-blue-600 hover:text-blue-800">Huntington Beach Refinance Guide</a></li>
             <li><a href="/blog/ladera-ranch-mortgage-guide-2026" className="text-blue-600 hover:text-blue-800">Ladera Ranch Mortgage Guide</a></li>
-            <li><a href="/blog/newport-coast-mortgage-guide-2026" className="text-blue-600 hover:text-blue-800">Newport Coast Mortgage Guide</a></li>
             <li><a href="/blog/san-clemente-mortgage-guide-2026" className="text-blue-600 hover:text-blue-800">San Clemente Mortgage Guide</a></li>
           </ul>
         </div>

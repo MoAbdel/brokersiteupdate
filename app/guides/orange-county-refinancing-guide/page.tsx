@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, FileText, Users, TrendingUp, Shield, MapPin, DollarSign, Clock, RefreshCw, PiggyBank, CreditCard } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
+import ScenarioExample from '@/components/ScenarioExample';
 
 const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-refinancing-guide';
 
@@ -361,6 +362,10 @@ export default function OrangeCountyRefinancingGuide() {
               </Card>
             ))}
           </div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex flex-col items-center gap-8">
+          <ScenarioExample scenario="heloc" className="my-8 max-w-xl" />
+          <ScenarioExample scenario="cashOut" className="my-8 max-w-xl" />
         </div>
       </section>
 

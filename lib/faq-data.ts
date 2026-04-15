@@ -40,7 +40,7 @@ export const fhaLoanFAQs: FAQItem[] = [
   },
   {
     question: "Can I use an FHA loan to buy a condo in Orange County?",
-    answer: "Yes, but the condo complex must be FHA-approved. Many Orange County condos are FHA-approved, but some luxury developments may not be. Your mortgage broker can help verify FHA approval status and find alternative financing if needed. FHA condos require the same 3.5% down payment and credit requirements as single-family homes."
+    answer: "Yes, but the condo complex must be FHA-approved. Many Orange County condos are FHA-approved, but some upscale developments may not be. Your mortgage broker can help verify FHA approval status and find alternative financing if needed. FHA condos require the same 3.5% down payment and credit requirements as single-family homes."
   }
 ];
 

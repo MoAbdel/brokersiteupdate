@@ -54,7 +54,7 @@ export default function HomeEquityCalabasasPage() {
 
         <h2>Popular Uses</h2>
         <ul>
-          <li><strong>Luxury renovations:</strong> Modern updates to estates</li>
+          <li><strong>Home renovations:</strong> Modern updates to estates</li>
           <li><strong>Entertainment spaces:</strong> Home theaters, outdoor kitchens</li>
           <li><strong>Business ventures:</strong> Entertainment industry capital</li>
           <li><strong>Investment properties:</strong> Portfolio expansion</li>
@@ -64,7 +64,6 @@ export default function HomeEquityCalabasasPage() {
           <h3 className="mt-0">Related Resources</h3>
           <ul>
             <li><a href="/blog/home-equity-refinancing-guide-2026">Home Equity Guide</a></li>
-            <li><a href="/blog/home-equity-beverly-hills-2026">Home Equity Beverly Hills</a></li>
           </ul>
         </div>
 

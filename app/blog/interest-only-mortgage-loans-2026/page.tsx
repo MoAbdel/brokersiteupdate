@@ -238,7 +238,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
         {/* Citation Hook */}
         <div className="citation-hook bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Interest-only mortgage loans allow borrowers to pay <strong>only the interest</strong> on their loan for an initial period of 5 to 10 years, reducing monthly payments by <strong>20% to 35%</strong> compared to fully amortizing loans. In 2026, IO mortgages remain a strategic tool for <strong>high-income earners, real estate investors, and self-employed professionals</strong> in California and Washington luxury markets. According to the <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, borrowers using interest-only features must understand both the payment advantages and the risks of principal deferral. As a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders, I structure IO loans daily for borrowers who need payment flexibility without sacrificing loan competitiveness.
+            Interest-only mortgage loans allow borrowers to pay <strong>only the interest</strong> on their loan for an initial period of 5 to 10 years, reducing monthly payments by <strong>20% to 35%</strong> compared to fully amortizing loans. In 2026, IO mortgages remain a strategic tool for <strong>high-income earners, real estate investors, and self-employed professionals</strong> in California and Washington high-value markets. According to the <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer">Consumer Financial Protection Bureau</a>, borrowers using interest-only features must understand both the payment advantages and the risks of principal deferral. As a <strong>wholesale mortgage broker</strong> with access to 50+ Wholesale Lenders, I structure IO loans daily for borrowers who need payment flexibility without sacrificing loan competitiveness.
           </p>
         </div>
 
@@ -314,7 +314,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
           Business owners, consultants, attorneys, and physicians in private practice experience <strong>significant income variability</strong> between months and years. IO loans provide a lower required payment floor, reducing financial stress during slower periods. Combined with <strong>bank statement loan programs</strong> that offer IO features, self-employed borrowers access both flexible income documentation and flexible payment structures through wholesale Non-QM lenders.
         </p>
 
-        <h3>4. Luxury Homebuyers in High-Cost California and Washington Markets</h3>
+        <h3>4. High-Value Homebuyers in High-Cost California and Washington Markets</h3>
         <p>
           Buyers in <strong>Newport Beach, Beverly Hills, Palo Alto, Bellevue, and Mercer Island</strong> frequently use IO jumbo loans for properties ranging from $1,500,000 to $10,000,000. At these price points, the monthly payment difference between IO and fully amortizing is <strong>$2,000 to $8,000 per month</strong>. These buyers have substantial assets, high incomes, and sophisticated financial planning that incorporates the IO structure into their overall wealth strategy.
         </p>
@@ -662,7 +662,7 @@ export default function InterestOnlyMortgageLoans2026Page() {
             Interest-only mortgage loans serve a specific and valuable purpose in the 2026 lending landscape. They are the right choice for <strong>financially sophisticated borrowers</strong> who benefit from lower required payments while maintaining the discipline and resources to manage the eventual payment increase. IO loans are not the right choice for borrowers stretching to afford a home.
           </p>
           <p>
-            The ideal IO borrower has a <strong>credit score above 720</strong>, makes a <strong>down payment of 20% or more</strong>, maintains <strong>12 to 24 months of reserves</strong>, and has a clear plan for when the IO period expires. In California and Washington luxury markets, IO jumbo loans are a standard product used by thousands of qualified borrowers annually.
+            The ideal IO borrower has a <strong>credit score above 720</strong>, makes a <strong>down payment of 20% or more</strong>, maintains <strong>12 to 24 months of reserves</strong>, and has a clear plan for when the IO period expires. In California and Washington high-value markets, IO jumbo loans are a standard product used by thousands of qualified borrowers annually.
           </p>
           <p>
             As a <strong>wholesale mortgage broker</strong> licensed in California and Washington, I access 50+ Wholesale Lenders offering interest-only programs, including jumbo IO, bank statement IO, and asset depletion IO products not available through retail banks. This competition between lenders delivers better rates, more flexible terms, and faster closings.

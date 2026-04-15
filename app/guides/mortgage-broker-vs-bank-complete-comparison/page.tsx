@@ -246,7 +246,7 @@ export default function MortgageBrokerVsBankComparison() {
     },
     {
       factor: "Property Types",
-      broker: "Lenders specializing in condos, luxury homes, unique properties",
+      broker: "Lenders specializing in condos, high-value homes, unique properties",
       bank: "Standard property guidelines, may not handle unique situations"
     },
     {

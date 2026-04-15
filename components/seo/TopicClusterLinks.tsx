@@ -31,7 +31,7 @@ export default function TopicClusterLinks({ currentPage, clusterType }: TopicClu
       },
       related: [
         { title: 'Irvine', href: '/areas/irvine-mortgage-broker', description: 'Master-planned community loans' },
-        { title: 'Newport Beach', href: '/areas/newport-beach-mortgage-broker', description: 'Luxury coastal property financing' },
+        { title: 'Newport Beach', href: '/areas/newport-beach-mortgage-broker', description: 'Coastal high-value property financing' },
         { title: 'Mission Viejo', href: '/areas/mission-viejo-mortgage-broker', description: 'Family-friendly community loans' },
         { title: 'Anaheim', href: '/areas/anaheim-mortgage-broker', description: 'Diverse housing market options' },
         { title: 'Costa Mesa', href: '/areas/costa-mesa-mortgage-broker', description: 'Urban living mortgage solutions' },

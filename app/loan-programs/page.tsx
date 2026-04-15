@@ -74,10 +74,10 @@ const loanPrograms = [
     features: [
       'Refinance balances above conforming limits',
       'Competitive jumbo rates',
-      'Cash-out options for luxury homes',
+      'Cash-out options for high-value homes',
       'Various ARM and fixed-rate options'
     ],
-    bestFor: 'Luxury homeowners and high-value property owners'
+    bestFor: 'High-value homeowners and high-value property owners'
   }
 ];
 

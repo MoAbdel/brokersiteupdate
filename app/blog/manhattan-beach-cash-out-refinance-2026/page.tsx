@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Manhattan Beach Cash-Out Refinance 2026 | Access Home Equity | Mo Abdel',
-  description: 'Manhattan Beach cash-out refinance 2026: Access your home equity through wholesale channels. 50+ Wholesale Lenders for competitive rates on luxury coastal properties. NMLS #1426884.',
+  description: 'Manhattan Beach cash-out refinance 2026: Access your home equity through wholesale channels. 50+ Wholesale Lenders for competitive rates on high-value coastal properties. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/manhattan-beach-cash-out-refinance-2026',
     languages: {
@@ -35,7 +35,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
                             "url": "https://www.mothebroker.com/about",
-                            "knowsAbout": ["Cash-Out Refinance", "Jumbo Loans", "Manhattan Beach Real Estate", "Luxury Home Financing"]
+                            "knowsAbout": ["Cash-Out Refinance", "Jumbo Loans", "Manhattan Beach Real Estate", "High-Value Home Financing"]
                         },
                         "publisher": {
                             "@type": "Organization",
@@ -118,7 +118,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                     Manhattan Beach Cash-Out Refinance 2026: Unlock Your Coastal Home Equity
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Access competitive wholesale pricing on cash-out refinancing for Manhattan Beach luxury properties
+                    Access competitive wholesale pricing on cash-out refinancing for Manhattan Beach high-value properties
                 </p>
                 <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated January 2026</p>
             </header>
@@ -137,7 +137,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                 <ul>
                     <li><strong>Strong appreciation history</strong> creating significant equity buildup</li>
                     <li><strong>Premium property values</strong> supporting larger loan amounts</li>
-                    <li><strong>Stable luxury market</strong> with consistent demand</li>
+                    <li><strong>Stable high-value market</strong> with consistent demand</li>
                     <li><strong>High-income borrower profiles</strong> qualifying for competitive terms</li>
                     <li><strong>Desirable location</strong> maintaining long-term value</li>
                 </ul>
@@ -247,7 +247,7 @@ export default function ManhattanBeachCashOutRefinancePage() {
                 <ul>
                     <li>Premium property values supporting large cash-out amounts</li>
                     <li>Strong appreciation protecting equity positions</li>
-                    <li>Specialized jumbo lenders familiar with ultra-luxury properties</li>
+                    <li>Specialized jumbo lenders familiar with high-value coastal properties</li>
                 </ul>
 
                 <h3>The Sand Section</h3>

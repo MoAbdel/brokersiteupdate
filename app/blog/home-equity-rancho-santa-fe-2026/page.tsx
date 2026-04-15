@@ -31,7 +31,7 @@ export default function HomeEquityRanchoSantaFePage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Rancho Santa Fe estate owners have built exceptional equity in one of America's wealthiest communities. With median values exceeding <strong>$4.5 million</strong> and estates reaching $20M+, qualified homeowners can access substantial funds through super-jumbo equity products designed for luxury properties.
+            Rancho Santa Fe estate owners have built exceptional equity in one of America's wealthiest communities. With median values exceeding <strong>$4.5 million</strong> and estates reaching $20M+, qualified homeowners can access substantial funds through super-jumbo equity products designed for high-value properties.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function HomeEquityRanchoSantaFePage() {
 
         <h2>Super-Jumbo Equity Options</h2>
         <h3>Super-Jumbo HELOC</h3>
-        <ul><li>Credit lines: $1M to $5M+</li><li>Designed for ultra-luxury properties</li><li>Specialized underwriting</li></ul>
+        <ul><li>Credit lines: $1M to $5M+</li><li>Designed for high-value properties</li><li>Specialized underwriting</li></ul>
 
         <h3>Super-Jumbo Home Equity Loan</h3>
         <ul><li>Fixed rate stability</li><li>Loan amounts to $3M+</li><li>Estate-appropriate terms</li></ul>

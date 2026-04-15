@@ -317,13 +317,13 @@ export default function WholesaleVsRetailMortgagePage() {
 
                 <h3>High-Value Properties</h3>
                 <p>
-                    For jumbo loans and luxury properties:
+                    For jumbo loans and high-value properties:
                 </p>
                 <ul>
                     <li>Access to competitive jumbo pricing across multiple lenders</li>
                     <li>Specialized jumbo programs not available retail</li>
                     <li>Expertise in structuring large loan amounts</li>
-                    <li>Relationships with lenders specializing in luxury properties</li>
+                    <li>Relationships with lenders specializing in high-value properties</li>
                 </ul>
 
                 <h3>Time-Sensitive Transactions</h3>

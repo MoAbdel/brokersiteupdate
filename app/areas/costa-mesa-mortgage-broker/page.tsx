@@ -22,7 +22,7 @@ export default function CostaMesaMortgageBrokerPage() {
     {
       name: 'South Coast Metro',
       avgPrice: '$1.1M',
-      description: 'Business district near South Coast Plaza with luxury condos and townhomes'
+      description: 'Business district near South Coast Plaza with upscale condos and townhomes'
     },
     {
       name: 'Mesa Verde', 
@@ -226,7 +226,7 @@ export default function CostaMesaMortgageBrokerPage() {
                   <h3 className="text-xl font-bold text-slate-900 mb-2">South Coast Plaza Proximity</h3>
                   <p className="text-slate-600">
                     Specialized lending for properties near Orange County's premier shopping and 
-                    business destination. Understanding of luxury condo and townhome markets.
+                    business destination. Understanding of upscale condo and townhome markets.
                   </p>
                 </div>
               </div>
@@ -305,7 +305,7 @@ export default function CostaMesaMortgageBrokerPage() {
               <CardContent>
                 <p className="text-slate-600">
                   Many Costa Mesa homes fall within conforming loan limits of $1,209,750, 
-                  making them eligible for conventional financing. However, luxury properties 
+                  making them eligible for conventional financing. However, high-value properties 
                   near South Coast Plaza may require jumbo loans.
                 </p>
               </CardContent>

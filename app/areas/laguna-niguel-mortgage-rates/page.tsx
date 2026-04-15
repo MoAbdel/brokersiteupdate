@@ -42,7 +42,7 @@ const lagunaNiguelData = {
     'Master-planned communities',
     'Excellent schools',
     'Hillside views',
-    'Luxury suburban lifestyle'
+    'Upscale suburban lifestyle'
   ],
   keywordPhrase: 'Laguna Niguel mortgage rates'
 };

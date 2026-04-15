@@ -81,7 +81,7 @@ const faqData = [
   },
   {
     question: 'Is there a jumbo loan limit in California?',
-    answer: 'There is no maximum jumbo loan amount set by regulation — the term "jumbo" simply means the loan exceeds the conforming limit. Individual lenders set their own maximum loan amounts for jumbo programs. Most jumbo lenders offer loans up to $3 million to $5 million, and some specialty portfolio lenders fund jumbo mortgages up to $10 million or more for luxury properties. As the loan amount increases, credit score, reserve, and LTV requirements become progressively stricter. A wholesale broker identifies lenders that specialize in your specific loan amount tier.',
+    answer: 'There is no maximum jumbo loan amount set by regulation — the term "jumbo" simply means the loan exceeds the conforming limit. Individual lenders set their own maximum loan amounts for jumbo programs. Most jumbo lenders offer loans up to $3 million to $5 million, and some specialty portfolio lenders fund jumbo mortgages up to $10 million or more for high-value properties. As the loan amount increases, credit score, reserve, and LTV requirements become progressively stricter. A wholesale broker identifies lenders that specialize in your specific loan amount tier.',
   },
   {
     question: 'Can I refinance a jumbo loan with a bank statement program?',
@@ -546,7 +546,7 @@ export default function JumboLoanRefinanceCaliforniaPage() {
           <li><strong>Balance sheet capacity:</strong> Portfolio lenders fund jumbo loans from their own deposits. A bank with excess deposits actively prices jumbos more aggressively to deploy capital. A bank near capacity prices defensively to slow volume.</li>
           <li><strong>Geographic specialization:</strong> Some portfolio lenders specialize in California jumbo lending and price accordingly. Others treat California as a secondary market and add geographic risk premiums.</li>
           <li><strong>Loan amount tiers:</strong> Many lenders have pricing tiers that shift at $1.5 million, $2 million, $2.5 million, and $3 million. The lender with the most competitive pricing at $1.2 million may not be competitive at $2.5 million.</li>
-          <li><strong>Property type focus:</strong> Some lenders specialize in single-family jumbo; others compete aggressively on non-warrantable condos or luxury properties. Matching the right lender to your property type matters.</li>
+          <li><strong>Property type focus:</strong> Some lenders specialize in single-family jumbo; others compete aggressively on non-warrantable condos or high-value properties. Matching the right lender to your property type matters.</li>
         </ol>
 
         <p>

@@ -116,7 +116,7 @@ export default function WholesaleMortgageBrokerAnaheimPage() {
                 "name": "Which Anaheim neighborhoods do wholesale brokers serve?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale mortgage brokers serve all Anaheim neighborhoods including Anaheim Hills, West Anaheim, Downtown Anaheim, Platinum Triangle, Colony District, and surrounding areas like Fullerton, Orange, and Placentia. The same wholesale lender access applies whether you're purchasing a condo near Angel Stadium or a luxury home in Anaheim Hills."
+                  "text": "Wholesale mortgage brokers serve all Anaheim neighborhoods including Anaheim Hills, West Anaheim, Downtown Anaheim, Platinum Triangle, Colony District, and surrounding areas like Fullerton, Orange, and Placentia. The same wholesale lender access applies whether you're purchasing a condo near Angel Stadium or a high-value home in Anaheim Hills."
                 }
               },
               {

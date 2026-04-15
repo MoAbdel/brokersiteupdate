@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     'jumbo loan rates Orange County 2026',
     'Orange County jumbo mortgage',
     'jumbo loan limits Orange County',
-    'luxury home financing Orange County',
+    'high-value home financing Orange County',
     'wholesale jumbo loans California',
     'jumbo loan down payment Orange County',
     'jumbo loan requirements 2026',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Jumbo Loans Orange County 2026: Wholesale Rates & Luxury Home Financing',
+    title: 'Jumbo Loans Orange County 2026: Wholesale Rates & High-Value Home Financing',
     description: 'Access 50+ Wholesale Lenders for jumbo loans above $1,209,750 in Orange County. Lower rates, flexible qualification, 10-15% down payment options.',
     url: 'https://www.mothebroker.com/blog/jumbo-loans-orange-county-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
@@ -57,7 +57,7 @@ export default function JumboLoansOrangeCountyPage() {
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
                             "url": "https://www.mothebroker.com/about",
-                            "knowsAbout": ["Jumbo Loans", "Luxury Real Estate Financing", "Orange County Real Estate", "Institutional Lending", "Non-QM Jumbo", "Bank Statement Loans", "Wholesale Mortgage Pricing"]
+                            "knowsAbout": ["Jumbo Loans", "High-Value Real Estate Financing", "Orange County Real Estate", "Institutional Lending", "Non-QM Jumbo", "Bank Statement Loans", "Wholesale Mortgage Pricing"]
                         },
                         "publisher": {
                             "@type": "Organization",
@@ -66,7 +66,7 @@ export default function JumboLoansOrangeCountyPage() {
                         },
                         "datePublished": "2026-01-06",
                         "dateModified": "2026-02-23",
-                        "description": "Unlock luxury home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,209,750. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
+                        "description": "Unlock high-value home financing in Orange County for 2026. Learn why wholesale jumbo loans offer better terms than retail banks for high-value properties above $1,209,750. Updated February 2026 with current rates, loan limits, and city-by-city pricing data."
                     })
                 }}
             />
@@ -99,7 +99,7 @@ export default function JumboLoansOrangeCountyPage() {
                                 "name": "Can I get a jumbo loan for an investment property in Orange County?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Yes. Wholesale jumbo products are available for non-owner occupied properties in Orange County. Investment property jumbos typically require 20-25% down but offer excellent long-term leverage for luxury rental properties."
+                                    "text": "Yes. Wholesale jumbo products are available for non-owner occupied properties in Orange County. Investment property jumbos typically require 20-25% down but offer excellent long-term leverage for high-value rental properties."
                                 }
                             },
                             {
@@ -131,7 +131,7 @@ export default function JumboLoansOrangeCountyPage() {
                                 "name": "Can self-employed borrowers qualify for jumbo loans in Orange County?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Yes. Bank statement jumbo programs allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. This is especially valuable in Orange County where many luxury home buyers are business owners."
+                                    "text": "Yes. Bank statement jumbo programs allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. This is especially valuable in Orange County where many home buyers are business owners."
                                 }
                             },
                             {
@@ -220,10 +220,10 @@ export default function JumboLoansOrangeCountyPage() {
                     Jumbo Loans Orange County 2026: Financing Above $1,209,750, 10% Down &amp; Wholesale Rates
                 </h1>
                 <p className="text-lg text-gray-600 mb-4">
-                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; any mortgage above this threshold requires jumbo financing. With the Orange County median home price reaching $1.15 million, 42% of all local purchases now classified as jumbo (the highest share in a decade according to CoreLogic), and the California Association of Realtors reporting that OC luxury home sales above $2 million rose 18% in Q4 2025 versus Q4 2024, wholesale jumbo access is no longer optional for serious OC buyers.
+                    Navigating high-limit financing for Southern California&apos;s premier residential enclaves. The 2026 conforming loan limit for Orange County is <strong>$1,209,750</strong> &mdash; any mortgage above this threshold requires jumbo financing. With the Orange County median home price reaching $1.15 million, 42% of all local purchases now classified as jumbo (the highest share in a decade according to CoreLogic), and the California Association of Realtors reporting that OC home sales above $2 million rose 18% in Q4 2025 versus Q4 2024, wholesale jumbo access is no longer optional for serious OC buyers.
                 </p>
                 <p className="text-sm text-gray-500">
-                    By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County luxury homebuyers | <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>
+                    By <strong>Mo Abdel</strong>, Licensed Mortgage Broker (NMLS #1426884) | 15+ years serving Orange County homebuyers | <a href="tel:+19495792057" className="text-blue-600 hover:underline">(949) 579-2057</a>
                 </p>
             </header>
 
@@ -241,7 +241,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$1,209,750</strong> for high-cost areas. For luxury homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
+                        In 2026, a <strong>jumbo loan</strong> in Orange County is defined as any mortgage that exceeds the conforming loan limit of <strong>$1,209,750</strong> for high-cost areas. For homebuyers in areas like Newport Coast, Irvine, or San Clemente, the most effective financing strategy involves using <strong>wholesale jumbo channels</strong>—which provide institutional pricing and custom underwriting that typically offer lower interest costs and more flexible down payment options (as low as 10-15%) compared to traditional big-box retail banks.
                     </p>
                 </div>
 
@@ -294,7 +294,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <h2>Why Choose a Wholesale Jumbo Loan Over a Retail Bank in Orange County?</h2>
                 <p>
-                    Most buyers instinctively go to a big retail bank for a million-dollar loan. However, in our Orange County jumbo closings over the past 15+ years, the <strong>wholesale jumbo channel</strong> consistently outperforms retail banks on three critical fronts. I have closed over $100M in jumbo loans across Newport Beach, Irvine, Laguna Beach, and other OC luxury markets—and the wholesale advantage is real and measurable.
+                    Most buyers instinctively go to a big retail bank for a million-dollar loan. However, in our Orange County jumbo closings over the past 15+ years, the <strong>wholesale jumbo channel</strong> consistently outperforms retail banks on three critical fronts. I have closed over $100M in jumbo loans across Newport Beach, Irvine, Laguna Beach, and other OC markets—and the wholesale advantage is real and measurable.
                 </p>
 
                 <h3>1. Wholesale Pricing Power</h3>
@@ -516,7 +516,7 @@ export default function JumboLoansOrangeCountyPage() {
                 </div>
 
                 <p>
-                    For self-employed buyers—who represent a significant portion of Orange County&apos;s luxury market—the <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Jumbo program</Link> is particularly popular. Rather than penalizing business owners for tax write-offs, this program qualifies borrowers based on actual cash flow into their business and personal accounts. Homeowners who already hold substantial equity may also explore <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California home equity options</Link> to fund their down payment or cover closing costs on a jumbo purchase.
+                    For self-employed buyers—who represent a significant portion of Orange County&apos;s jumbo market—the <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank Statement Jumbo program</Link> is particularly popular. Rather than penalizing business owners for tax write-offs, this program qualifies borrowers based on actual cash flow into their business and personal accounts. Homeowners who already hold substantial equity may also explore <Link href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California home equity options</Link> to fund their down payment or cover closing costs on a jumbo purchase.
                 </p>
 
                 {/* New Section: Jumbo Loan Process Timeline */}
@@ -527,7 +527,7 @@ export default function JumboLoansOrangeCountyPage() {
                 <ol>
                     <li className="mb-3"><strong>Pre-Qualification (Day 1-2):</strong> Initial review of income, assets, and credit. We shop 50+ Wholesale Lenders to identify the best jumbo programs for your profile.</li>
                     <li className="mb-3"><strong>Full Application &amp; Document Collection (Day 2-7):</strong> Submit complete documentation package including tax returns (or bank statements for non-QM), asset verification, and identity documents.</li>
-                    <li className="mb-3"><strong>Pre-Approval Issuance (Day 5-10):</strong> Receive a strong pre-approval letter that carries weight in Orange County&apos;s competitive luxury market. Sellers and listing agents prefer wholesale pre-approvals backed by institutional underwriting.</li>
+                    <li className="mb-3"><strong>Pre-Approval Issuance (Day 5-10):</strong> Receive a strong pre-approval letter that carries weight in Orange County&apos;s competitive market. Sellers and listing agents prefer wholesale pre-approvals backed by institutional underwriting.</li>
                     <li className="mb-3"><strong>Property Under Contract &amp; Appraisal (Day 10-20):</strong> Once your offer is accepted, the lender orders an appraisal. Jumbo appraisals in OC often require a second appraisal for properties above $2M.</li>
                     <li className="mb-3"><strong>Underwriting &amp; Conditions (Day 20-35):</strong> Full review by jumbo underwriter. Expect 3-5 conditions to clear. Wholesale underwriters are typically faster than retail bank committees.</li>
                     <li className="mb-3"><strong>Clear to Close &amp; Funding (Day 35-45):</strong> Final review, closing disclosure, and wire instructions. Wholesale jumbo closings average 30-45 days—faster than the 45-60 day retail bank timeline.</li>
@@ -535,7 +535,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8">
                     <p className="text-sm text-gray-700 mb-0">
-                        <strong>Pro Tip from Mo Abdel:</strong> In Orange County&apos;s competitive luxury market, getting pre-approved before house hunting is essential. Sellers of $2M+ homes rarely consider offers without a fully underwritten pre-approval. I recommend starting the jumbo pre-approval process at least 2-3 weeks before your planned house search.
+                        <strong>Pro Tip from Mo Abdel:</strong> In Orange County&apos;s competitive market, getting pre-approved before house hunting is essential. Sellers of $2M+ homes rarely consider offers without a fully underwritten pre-approval. I recommend starting the jumbo pre-approval process at least 2-3 weeks before your planned house search.
                     </p>
                 </div>
 
@@ -548,7 +548,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                 <h3>Can I use a jumbo loan for an investment property in Orange County?</h3>
                 <p>
-                    Absolutely. We offer specialized wholesale jumbo products for non-owner occupied properties, including <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:underline">DSCR investment property loans</Link> that qualify based on rental income rather than personal income. Investment jumbo loans typically require 20-25% down but offer excellent long-term leverage for luxury rentals in high-demand OC neighborhoods.
+                    Absolutely. We offer specialized wholesale jumbo products for non-owner occupied properties, including <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:underline">DSCR investment property loans</Link> that qualify based on rental income rather than personal income. Investment jumbo loans typically require 20-25% down but offer excellent long-term leverage for rental properties in high-demand OC neighborhoods.
                 </p>
 
                 <h3>What documentation is required for an OC jumbo loan?</h3>
@@ -684,7 +684,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                     <div className="border-b border-gray-200 pb-5">
                         <h3 className="font-bold text-gray-900 mb-2 mt-0">Can I get a jumbo loan for an investment property in Orange County?</h3>
-                        <p className="text-gray-700 mb-0">Yes. Wholesale jumbo products are available for non-owner occupied properties in Orange County. Investment property jumbos typically require 20-25% down but offer excellent long-term leverage for luxury rental properties. <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:underline">DSCR jumbo loans</Link> qualify based on rental income rather than personal income, making them ideal for portfolio investors.</p>
+                        <p className="text-gray-700 mb-0">Yes. Wholesale jumbo products are available for non-owner occupied properties in Orange County. Investment property jumbos typically require 20-25% down but offer excellent long-term leverage for high-value rental properties. <Link href="/blog/dscr-investment-property-loans-2026" className="text-blue-600 hover:underline">DSCR jumbo loans</Link> qualify based on rental income rather than personal income, making them ideal for portfolio investors.</p>
                     </div>
 
                     <div className="border-b border-gray-200 pb-5">
@@ -709,7 +709,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                     <div className="border-b border-gray-200 pb-5">
                         <h3 className="font-bold text-gray-900 mb-2 mt-0">Can self-employed borrowers qualify for jumbo loans in Orange County?</h3>
-                        <p className="text-gray-700 mb-0">Yes. <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank statement jumbo programs</Link> allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. This is especially valuable in Orange County where many luxury home buyers are business owners whose tax returns understate their true income due to legitimate business deductions.</p>
+                        <p className="text-gray-700 mb-0">Yes. <Link href="/blog/bank-statement-loans-self-employed-2026" className="text-blue-600 hover:underline">Bank statement jumbo programs</Link> allow self-employed borrowers to qualify using 12-24 months of bank deposits instead of tax returns. This is especially valuable in Orange County where many home buyers are business owners whose tax returns understate their true income due to legitimate business deductions.</p>
                     </div>
 
                     <div className="border-b border-gray-200 pb-5">
@@ -724,7 +724,7 @@ export default function JumboLoansOrangeCountyPage() {
 
                     <div className="border-b border-gray-200 pb-5">
                         <h3 className="font-bold text-gray-900 mb-2 mt-0">Can I buy a condo with a jumbo loan in Orange County?</h3>
-                        <p className="text-gray-700 mb-0">Yes. Warrantable condos in Orange County qualify for jumbo financing at standard terms. Non-warrantable condos (investor concentration above 50%, pending litigation, or mixed-use buildings) require specialized Non-QM jumbo programs with slightly higher down payments (15-25%). Luxury condo communities in Newport Beach, Laguna Beach, and Irvine are well-served by wholesale jumbo products.</p>
+                        <p className="text-gray-700 mb-0">Yes. Warrantable condos in Orange County qualify for jumbo financing at standard terms. Non-warrantable condos (investor concentration above 50%, pending litigation, or mixed-use buildings) require specialized Non-QM jumbo programs with slightly higher down payments (15-25%). Upscale condo communities in Newport Beach, Laguna Beach, and Irvine are well-served by wholesale jumbo products.</p>
                     </div>
 
                     <div className="border-b border-gray-200 pb-5">
@@ -733,9 +733,9 @@ export default function JumboLoansOrangeCountyPage() {
                     </div>
                 </div>
 
-                <h2>Master the Orange County Luxury Market with Expert Jumbo Loan Guidance</h2>
+                <h2>Master the Orange County Jumbo Market with Expert Loan Guidance</h2>
                 <p>
-                    Financing a million-dollar-plus property requires more than just a pre-approval &mdash; it requires a strategic partnership with a broker who understands Orange County&apos;s luxury market dynamics. Whether you are purchasing in Newport Coast, refinancing in Laguna Beach, investing in Irvine, or upgrading in Huntington Beach, the wholesale jumbo channel delivers institutional pricing that retail banks cannot match.
+                    Financing a million-dollar-plus property requires more than just a pre-approval &mdash; it requires a strategic partnership with a broker who understands Orange County&apos;s jumbo market dynamics. Whether you are purchasing in Newport Coast, refinancing in Laguna Beach, investing in Irvine, or upgrading in Huntington Beach, the wholesale jumbo channel delivers institutional pricing that retail banks cannot match.
                 </p>
                 <p>
                     With access to 50+ Wholesale Lenders, including 30+ institutional jumbo desks, we identify the optimal program for your specific financial profile. In February 2026, the rate spread between wholesale and retail jumbo loans averages 0.25-0.625% &mdash; on a $2 million loan, that translates to $5,000-$12,500 in annual interest savings. Over the life of a 30-year mortgage, the wholesale advantage compounds to $150,000-$375,000 in total savings.

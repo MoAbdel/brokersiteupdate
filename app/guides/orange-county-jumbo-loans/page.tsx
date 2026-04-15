@@ -9,11 +9,11 @@ import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 const PAGE_URL = 'https://www.mothebroker.com/guides/orange-county-jumbo-loans';
 
 export const metadata: Metadata = {
-  title: 'Orange County Jumbo Loan Guide 2026 | Luxury Home Financing',
-  description: 'Complete guide to jumbo mortgages for Orange County luxury properties. Newport Beach, Laguna Beach, and Irvine financing with competitive rates. NMLS #1426884.',
+  title: 'Orange County Jumbo Loan Guide 2026 | High-Value Home Financing',
+  description: 'Complete guide to jumbo mortgages for Orange County high-value properties. Newport Beach, Laguna Beach, and Irvine financing with competitive rates. NMLS #1426884.',
   openGraph: {
     title: 'Orange County Jumbo Loan Guide 2026',
-    description: 'Complete guide to jumbo mortgages for Orange County luxury properties. Newport Beach, Laguna Beach, and Irvine financing with competitive rates.',
+    description: 'Complete guide to jumbo mortgages for Orange County high-value properties. Newport Beach, Laguna Beach, and Irvine financing with competitive rates.',
     url: PAGE_URL,
     type: 'article',
     siteName: 'Mo Abdel | Mortgage Broker',
@@ -27,14 +27,14 @@ const entityGraph = buildBrokerEntityGraph({
   pageUrl: PAGE_URL,
   serviceType: 'Jumbo Mortgage Loans',
   serviceName: 'Orange County Jumbo Loan Financing',
-  serviceDescription: 'Expert jumbo loan guidance for Orange County luxury properties above the conforming limit. Conventional jumbo, bank statement, asset depletion, and interest-only options.',
+  serviceDescription: 'Expert jumbo loan guidance for Orange County high-value properties above the conforming limit. Conventional jumbo, bank statement, asset depletion, and interest-only options.',
   areaServedNames: ['Newport Coast', 'Newport Beach', 'Laguna Beach', 'Corona del Mar', 'Irvine', 'Coto de Caza'],
 });
 
 const webPageSchema = buildServiceWebPageSchema({
   pageUrl: PAGE_URL,
   title: 'Orange County Jumbo Loan Guide 2026',
-  description: 'Complete guide to jumbo mortgages for luxury Orange County properties with loan types, qualification requirements, and market analysis.',
+  description: 'Complete guide to jumbo mortgages for high-value Orange County properties with loan types, qualification requirements, and market analysis.',
   breadcrumbName: 'Jumbo Loans Guide',
   dateModified: '2026-02-16',
 });
@@ -46,7 +46,7 @@ const faqSchema = buildFAQPageSchema([
 ], PAGE_URL);
 
 export default function OrangeCountyJumboLoansGuide() {
-  const luxuryMarkets = [
+  const highValueMarkets = [
     {
       area: "Newport Coast",
       medianPrice: "$3,200,000",
@@ -100,7 +100,7 @@ export default function OrangeCountyJumboLoansGuide() {
   const jumboLoanFeatures = [
     {
       feature: "Higher Loan Limits",
-      description: "Loans above $1,209,750 for Orange County's luxury market",
+      description: "Loans above $1,209,750 for Orange County's high-cost market",
       benefit: "Access to premium properties"
     },
     {
@@ -249,7 +249,7 @@ export default function OrangeCountyJumboLoansGuide() {
               Orange County Jumbo Loan Guide 2026
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8">
-              Complete guide to jumbo mortgages for luxury Orange County properties. Access Newport Beach, 
+              Complete guide to jumbo mortgages for high-value Orange County properties. Access Newport Beach, 
               Laguna Beach, and other premium markets with competitive jumbo loan financing.
             </p>
             
@@ -315,13 +315,13 @@ export default function OrangeCountyJumboLoansGuide() {
             <h4 className="text-lg font-semibold text-yellow-800 mb-2">Orange County Reality Check</h4>
             <p className="text-yellow-700">
               With median home prices around $1.26M in Orange County, approximately <strong>60-70%</strong> of home purchases 
-              require jumbo financing. This is especially true in luxury markets like Newport Beach, Laguna Beach, and Irvine.
+              require jumbo financing. This is especially true in high-value markets like Newport Beach, Laguna Beach, and Irvine.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Luxury Markets Analysis */}
+      {/* High-Value Markets Analysis */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -334,7 +334,7 @@ export default function OrangeCountyJumboLoansGuide() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {luxuryMarkets.map((market, index) => (
+            {highValueMarkets.map((market, index) => (
               <div key={index} className="bg-slate-50 rounded-lg p-6 border border-slate-200 shadow-lg">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-bold text-slate-900">{market.area}</h3>
@@ -382,7 +382,7 @@ export default function OrangeCountyJumboLoansGuide() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Advantages of Jumbo Loans for Luxury Properties
+              Advantages of Jumbo Loans for High-Value Properties
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Why jumbo loans are designed for high-value Orange County real estate transactions.
@@ -470,7 +470,7 @@ export default function OrangeCountyJumboLoansGuide() {
               Jumbo Loan Qualification Requirements
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              What lenders look for when approving jumbo loans for Orange County luxury properties.
+              What lenders look for when approving jumbo loans for Orange County high-value properties.
             </p>
           </div>
 
@@ -560,11 +560,11 @@ export default function OrangeCountyJumboLoansGuide() {
       <section className="py-16 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Finance Your Orange County Luxury Home?
+            Ready to Finance Your Orange County Home?
           </h2>
           <p className="text-xl text-slate-200 mb-8">
             Get competitive jumbo loan pricing and access exclusive Orange County properties. 
-            Mo Abdel specializes in jumbo financing for luxury home buyers.
+            Mo Abdel specializes in jumbo financing for high-value homebuyers.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -583,7 +583,7 @@ export default function OrangeCountyJumboLoansGuide() {
           
           <div className="mt-8 pt-8 border-t border-blue-500">
             <p className="text-slate-200">
-              <strong>Mo Abdel</strong> • NMLS #1426884 • Specializing in Orange County luxury home financing since 2015
+              <strong>Mo Abdel</strong> • NMLS #1426884 • Specializing in Orange County jumbo home financing since 2015
             </p>
           </div>
         </div>

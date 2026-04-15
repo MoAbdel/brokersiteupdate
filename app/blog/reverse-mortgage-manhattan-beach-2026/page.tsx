@@ -239,7 +239,6 @@ export default function ReverseMortgageManhattanBeachPage() {
           <ul>
             <li><a href="/blog/reverse-mortgage-complete-guide-2026">Complete Reverse Mortgage Guide</a></li>
             <li><a href="/blog/proprietary-reverse-mortgage-2026">Proprietary Reverse Mortgages</a></li>
-            <li><a href="/blog/reverse-mortgage-beverly-hills-2026">Reverse Mortgage Beverly Hills</a></li>
             <li><a href="/blog/hecm-pros-cons-2026">HECM Pros and Cons</a></li>
           </ul>
         </div>

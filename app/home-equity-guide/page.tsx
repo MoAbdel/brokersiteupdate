@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import ScenarioExample from '@/components/ScenarioExample';
 
 export const metadata: Metadata = {
   title: 'Home Equity & Refinancing Guide: Cash-Out, HELOC & HELOAN [2026] | Mo Abdel',
@@ -358,6 +359,8 @@ export default function HomeEquityGuidePage() {
                     <li>Lender can freeze or reduce credit line in market downturns</li>
                     <li>Higher rates than first mortgages</li>
                 </ul>
+
+                <ScenarioExample scenario="heloc" className="my-8 max-w-xl" />
 
                 <p>
                     Explore our <Link href="/blog/heloc-complete-guide-2026" className="text-blue-600 hover:underline">HELOC Complete Guide</Link> for detailed qualification strategies and rate comparisons.

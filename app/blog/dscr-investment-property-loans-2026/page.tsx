@@ -409,7 +409,7 @@ export default function DSCRInvestmentPropertyLoans2026() {
                 <li><strong>Newport Beach:</strong> High prices may produce lower DSCR</li>
                 <li><strong>Laguna Beach:</strong> Premium prices, seasonal rental demand</li>
                 <li><strong>Irvine:</strong> Strong rents but very high purchase prices</li>
-                <li><strong>Dana Point:</strong> Luxury pricing impacts cash flow</li>
+                <li><strong>Dana Point:</strong> Premium pricing impacts cash flow</li>
               </ul>
             </div>
           </div>

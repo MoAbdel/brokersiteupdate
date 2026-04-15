@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hammer, GraduationCap, Building, PiggyBank, Lightbulb } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import LoanCapSubheadline from '@/components/LoanCapSubheadline';
+import ScenarioExample from '@/components/ScenarioExample';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -230,35 +231,7 @@ export default function CashOutRefinancePage() {
             </p>
 
             <div className="max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Example Scenario</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                  <div>
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">Current Situation</h4>
-                    <p className="text-slate-600">Home Value: <strong>$1,200,000</strong></p>
-                    <p className="text-slate-600">Current Mortgage: <strong>$400,000</strong></p>
-                    <p className="text-slate-600">Available Equity: <strong>$800,000</strong></p>
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">Cash-Out Option</h4>
-                    <p className="text-slate-600">New Loan Amount: <strong>$800,000</strong></p>
-                    <p className="text-slate-600">Pay Off Current: <strong>$400,000</strong></p>
-                    <p className="text-blue-600 font-bold">Cash to You: <strong>$400,000</strong></p>
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">After Cash-Out</h4>
-                    <p className="text-slate-600">Remaining Equity: <strong>$400,000</strong></p>
-                    <p className="text-slate-600">Loan-to-Value: <strong>67%</strong></p>
-                    <p className="text-slate-600">No PMI Required</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <p className="text-slate-600 text-lg">
-                  <em>This example shows the potential available with Orange County's appreciated home values.</em>
-                </p>
-              </div>
+              <ScenarioExample scenario="cashOut" className="mt-8 max-w-xl" />
             </div>
           </section>
 

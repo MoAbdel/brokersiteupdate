@@ -135,7 +135,7 @@ export default function WholesaleMortgageBroker92675Page() {
         <h2>Why San Juan Capistrano Homebuyers Choose Wholesale</h2>
 
         <p>
-          San Juan Capistrano—home to the famous Mission San Juan Capistrano and the legendary swallows—is one of California&apos;s most historic and charming communities. The downtown Los Rios district features California&apos;s oldest residential street, while newer developments like Marbella and Rancho San Juan offer modern luxury living. This blend of historic charm and contemporary amenities attracts discerning buyers who need sophisticated financing solutions.
+          San Juan Capistrano—home to the famous Mission San Juan Capistrano and the legendary swallows—is one of California&apos;s most historic and charming communities. The downtown Los Rios district features California&apos;s oldest residential street, while newer developments like Marbella and Rancho San Juan offer modern upscale living. This blend of historic charm and contemporary amenities attracts discerning buyers who need sophisticated financing solutions.
         </p>
 
         <h3>92675 Real Estate Snapshot</h3>
@@ -159,7 +159,7 @@ export default function WholesaleMortgageBroker92675Page() {
         </div>
 
         <p>
-          San Juan Capistrano&apos;s real estate market features remarkable diversity—from historic adobe homes near the Mission to sprawling equestrian estates and modern luxury communities. This variety requires financing expertise across property types, making wholesale broker access to diverse lenders particularly valuable.
+          San Juan Capistrano&apos;s real estate market features remarkable diversity—from historic adobe homes near the Mission to sprawling equestrian estates and modern high-value communities. This variety requires financing expertise across property types, making wholesale broker access to diverse lenders particularly valuable.
         </p>
 
         <h3>The San Juan Capistrano Lifestyle</h3>

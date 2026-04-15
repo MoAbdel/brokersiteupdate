@@ -524,7 +524,6 @@ export default function HomeEquitySacramentoGuidePage() {
           <h3 className="mt-0">State &amp; Regional Guides</h3>
           <ul>
             <li><a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:text-blue-800 font-semibold">California Home Equity Guide 2026</a> &mdash; Statewide overview and product comparison</li>
-            <li><a href="/blog/home-equity-bay-area-peninsula-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity Bay Area &amp; Peninsula Guide</a> &mdash; Atherton, Palo Alto, Hillsborough</li>
             <li><a href="/blog/home-equity-east-bay-sf-guide-2026" className="text-blue-600 hover:text-blue-800">Home Equity East Bay &amp; SF Guide</a> &mdash; Piedmont, Orinda, Danville, Pleasanton</li>
           </ul>
           <h3>Cross-Track Guides for Sacramento</h3>

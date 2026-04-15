@@ -259,7 +259,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
               <li><a href="#income-docs">Income Documentation Options for Bay Area Borrowers</a></li>
               <li><a href="#tech-income">Tech &amp; Biotech Income Qualification Deep Dive</a></li>
               <li><a href="#scenarios">Real-World Scenarios: SF Founder, Walnut Creek Doctor, Fremont Investor</a></li>
-              <li><a href="#hub-a">Hub Preview: Urban &amp; Luxury Markets (SF, Piedmont, Orinda, Lafayette, Moraga)</a></li>
+              <li><a href="#hub-a">Hub Preview: Urban &amp; High-Value Markets (SF, Piedmont, Orinda, Lafayette, Moraga)</a></li>
               <li><a href="#hub-b">Hub Preview: BART Corridor Markets (Danville, Walnut Creek, Pleasanton, Dublin, Fremont)</a></li>
               <li><a href="#loan-programs">Complete Loan Program Menu</a></li>
               <li><a href="#cross-track">Related East Bay &amp; SF Mortgage Resources</a></li>
@@ -661,7 +661,7 @@ export default function WholesaleMortgageBrokerEastBaySF2026() {
 
           {/* ========== HUB A PREVIEW ========== */}
           <h2 id="hub-a" className="text-2xl font-bold mt-10 mb-4">
-            Hub Preview: Urban &amp; Luxury Markets -- San Francisco, Piedmont, Orinda, Lafayette, Moraga
+            Hub Preview: Urban &amp; High-Value Markets -- San Francisco, Piedmont, Orinda, Lafayette, Moraga
           </h2>
 
           <p>

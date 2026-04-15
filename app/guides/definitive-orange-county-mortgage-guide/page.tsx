@@ -80,7 +80,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       downPayment: "10-20%",
       creditScore: "700+",
       maxAmount: "$10M+",
-      benefits: ["Luxury property financing", "Competitive jumbo rates", "Flexible terms"],
+      benefits: ["High-value property financing", "Competitive jumbo rates", "Flexible terms"],
       icon: Building
     }
   ];
@@ -95,8 +95,8 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
     {
       city: "Newport Beach",
       medianPrice: "$2.8M",
-      marketType: "Luxury waterfront community",
-      loanConsiderations: "Primarily jumbo loans, luxury financing needed"
+      marketType: "California and Washington coastal community",
+      loanConsiderations: "Primarily jumbo loans, high-value financing needed"
     },
     {
       city: "Anaheim",

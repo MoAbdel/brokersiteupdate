@@ -512,12 +512,12 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Bay Area Peninsula</h3>
               <p className="text-gray-600 text-sm">Atherton, Palo Alto, Menlo Park, Hillsborough. Median: $3.8M. Jumbo reverse mortgage strategies for tech wealth preservation.</p>
-              <a href="/blog/reverse-mortgage-bay-area-peninsula-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Bay Area Peninsula Guide &rarr;</a>
+              <a href="/blog/reverse-mortgage-east-bay-sf-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read East Bay &amp; SF Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Marin County</h3>
               <p className="text-gray-600 text-sm">Mill Valley, Tiburon, Ross, Sausalito. Median: $1.65M. HECM and hybrid approaches for coastal Marin properties.</p>
-              <a href="/blog/reverse-mortgage-marin-county-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Marin County Guide &rarr;</a>
+              <a href="/blog/reverse-mortgage-east-bay-sf-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read East Bay &amp; SF Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">East Bay &amp; San Francisco</h3>
@@ -526,7 +526,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">LA Westside</h3>
-              <p className="text-gray-600 text-sm">Beverly Hills, Santa Monica, Pacific Palisades, Malibu. Median: $3.2M. Luxury reverse mortgage solutions for Westside estates.</p>
+              <p className="text-gray-600 text-sm">Beverly Hills, Santa Monica, Pacific Palisades, Malibu. Median: $3.2M. Jumbo reverse mortgage solutions for Westside estates.</p>
               <a href="/blog/reverse-mortgage-la-westside-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read LA Westside Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
@@ -562,7 +562,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Wine Country</h3>
               <p className="text-gray-600 text-sm">Napa, Sonoma, Healdsburg, St. Helena. Median: $950K. Estate and vineyard property reverse mortgage options.</p>
-              <a href="/blog/reverse-mortgage-wine-country-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Wine Country Guide &rarr;</a>
+              <a href="/blog/reverse-mortgage-sacramento-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read Sacramento Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">Sacramento Metro</h3>

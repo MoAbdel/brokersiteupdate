@@ -35,7 +35,7 @@ export default function ReverseMortgageRanchoSantaFePage() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
-              { "@type": "Question", "name": "Can I get a reverse mortgage on my Rancho Santa Fe estate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Rancho Santa Fe homeowners 62+ can qualify for reverse mortgages. With median values exceeding $4.5 million, proprietary (jumbo) reverse mortgages are the appropriate program for accessing equity in these luxury estates." }},
+              { "@type": "Question", "name": "Can I get a reverse mortgage on my Rancho Santa Fe estate?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Rancho Santa Fe homeowners 62+ can qualify for reverse mortgages. With median values exceeding $4.5 million, proprietary (jumbo) reverse mortgages are the appropriate program for accessing equity in these high-value estates." }},
               { "@type": "Question", "name": "How do reverse mortgages work for Covenant properties?", "acceptedAnswer": { "@type": "Answer", "text": "Properties within The Covenant of Rancho Santa Fe qualify for reverse mortgages. The architectural oversight and HOA requirements don't affect reverse mortgage eligibility. These prestigious properties often command premium values." }},
               { "@type": "Question", "name": "What about Fairbanks Ranch and other gated communities?", "acceptedAnswer": { "@type": "Answer", "text": "Gated communities like Fairbanks Ranch, Cielo, and Del Rayo Estates all qualify for reverse mortgages. Guard-gated communities may require appraisal coordination, but this doesn't affect eligibility or terms." }},
               { "@type": "Question", "name": "How much can Rancho Santa Fe seniors access?", "acceptedAnswer": { "@type": "Answer", "text": "With estate values ranging from $3M to $20M+, qualified seniors can access substantial equity through proprietary programs. The standard HECM limit of $1,209,750 is insufficient for most RSF properties." }},
@@ -91,7 +91,7 @@ export default function ReverseMortgageRanchoSantaFePage() {
         <ul>
           <li><strong>Higher loan limits:</strong> Access equity on properties up to $10M+</li>
           <li><strong>Estate-specific underwriting:</strong> Understand unique property values</li>
-          <li><strong>Specialized appraisers:</strong> Experience with luxury and equestrian properties</li>
+          <li><strong>Specialized appraisers:</strong> Experience with high-value and equestrian properties</li>
           <li><strong>Flexible proceeds:</strong> Lump sum, line of credit, or monthly payments</li>
         </ul>
 

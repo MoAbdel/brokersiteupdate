@@ -484,7 +484,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
 
         <h3>Tier 3: Super-Jumbo Loans $2,500,001 to $5,000,000</h3>
         <p>
-          Super-jumbo territory covers luxury properties in the most expensive neighborhoods across both states.
+          Super-jumbo territory covers high-value properties in the most expensive neighborhoods across both states.
         </p>
         <ul>
           <li><strong>Credit Score:</strong> 720 minimum, 740+ preferred</li>
@@ -498,7 +498,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
 
         <h3>Tier 4: Ultra-Jumbo Loans $5,000,001+</h3>
         <p>
-          Ultra-jumbo loans serve the highest end of the market: waterfront estates, trophy properties, and ultra-luxury residences.
+          Ultra-jumbo loans serve the highest end of the market: waterfront estates, trophy properties, and high-value residences.
         </p>
         <ul>
           <li><strong>Credit Score:</strong> 740+ minimum</li>
@@ -506,7 +506,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <li><strong>Reserves:</strong> 24+ months PITI, often requiring $1M+ in liquid assets post-closing</li>
           <li><strong>DTI:</strong> 35% to 40% maximum</li>
           <li><strong>Income Documentation:</strong> Full documentation with CPA letter common</li>
-          <li><strong>Lender Availability:</strong> 5 to 10 wholesale lenders specializing in ultra-high-net-worth lending</li>
+          <li><strong>Lender Availability:</strong> 5 to 10 wholesale lenders specializing in mid-tier and high-value lending</li>
         </ul>
 
         {/* Comprehensive Requirements Table */}
@@ -652,7 +652,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
         <ul>
           <li><strong>Income Analysis:</strong> Lenders scrutinize income stability, trending, and sustainability more closely than conforming loans</li>
           <li><strong>Asset Verification:</strong> All asset accounts must be sourced and verified with clear paper trails for large deposits</li>
-          <li><strong>Property Appraisal:</strong> Jumbo appraisals often require a second review or a field review for properties above $2M. Unique or luxury properties may require two full appraisals</li>
+          <li><strong>Property Appraisal:</strong> Jumbo appraisals often require a second review or a field review for properties above $2M. Unique or high-value properties may require two full appraisals</li>
           <li><strong>Reserve Verification:</strong> Post-closing reserves must be documented with current statements</li>
         </ul>
 
@@ -745,7 +745,7 @@ export default function JumboLoanRequirementsCaliforniaWashington2026Page() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Do jumbo loans require an appraisal?</h3>
             <p className="mb-0">
-              Yes, all jumbo loans require a full property appraisal. For loan amounts above <strong>$2,000,000</strong>, many lenders require a second appraisal or a field review of the first appraisal. Luxury and unique properties may require appraisers with specific expertise in the local market. Jumbo appraisals are more detailed than conforming appraisals and evaluate comparable sales, market conditions, and property condition more rigorously.
+              Yes, all jumbo loans require a full property appraisal. For loan amounts above <strong>$2,000,000</strong>, many lenders require a second appraisal or a field review of the first appraisal. High-value and unique properties may require appraisers with specific expertise in the local market. Jumbo appraisals are more detailed than conforming appraisals and evaluate comparable sales, market conditions, and property condition more rigorously.
             </p>
           </div>
 

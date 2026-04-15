@@ -73,7 +73,7 @@ export default function InternalLinkEngine({
         {
           title: `${city} Jumbo Loans`,
           url: '/loan-programs/jumbo-loans',
-          description: `High-balance loans for luxury homes in ${city}`,
+          description: `High-balance loans for high-value homes in ${city}`,
           category: 'loan-program',
           priority: 'medium'
         }
@@ -107,7 +107,7 @@ export default function InternalLinkEngine({
         {
           title: 'Irvine Home Buyers',
           url: '/areas/irvine-mortgage-broker',
-          description: `${loanType} loans popular in Irvine's luxury market`,
+          description: `${loanType} loans popular in Irvine's high-value market`,
           category: 'city',
           priority: 'medium'
         },
@@ -278,7 +278,7 @@ export const topicClusters = {
   'jumbo-loans': [
     'Jumbo loan rates',
     'Jumbo loan limits',
-    'Luxury home financing',
+    'High-value home financing',
     'High balance loans'
   ]
 };

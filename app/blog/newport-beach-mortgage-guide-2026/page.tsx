@@ -28,7 +28,7 @@ export default function NewportBeachMortgageGuidePage() {
                             "jobTitle": "Licensed Mortgage Broker",
                             "identifier": "NMLS #1426884",
                             "url": "https://www.mothebroker.com/about",
-                            "knowsAbout": ["Jumbo Loans", "Wholesale Mortgage Rates", "Newport Beach Real Estate Finance", "Luxury Property Lending"]
+                            "knowsAbout": ["Jumbo Loans", "Wholesale Mortgage Rates", "Newport Beach Real Estate Finance", "High-Value Property Lending"]
                         },
                         "publisher": {
                             "@type": "Organization",
@@ -47,20 +47,20 @@ export default function NewportBeachMortgageGuidePage() {
                     Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Expert insights on securing competitive financing for Newport Beach's luxury coastal properties
+                    Expert insights on securing competitive financing for Newport Beach's high-value coastal properties
                 </p>
             </header>
 
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure the best mortgage options in Newport Beach in 2026, most luxury homebuyers utilize **wholesale mortgage brokers** to access institutional pricing and specialized jumbo loan programs. Because property values in Newport Beach frequently exceed conforming limits, working with a local expert who understands both **high-balance financing** and **wholesale pricing advantages** is the most effective way to reduce long-term interest costs compared to traditional retail banks.
+                        To secure the best mortgage options in Newport Beach in 2026, most homebuyers utilize **wholesale mortgage brokers** to access institutional pricing and specialized jumbo loan programs. Because property values in Newport Beach frequently exceed conforming limits, working with a local expert who understands both **high-balance financing** and **wholesale pricing advantages** is the most effective way to reduce long-term interest costs compared to traditional retail banks.
                     </p>
                 </div>
 
                 <h2>What does the Newport Beach real estate market look like in 2026?</h2>
                 <p>
-                    Newport Beach continues to be one of Southern California's most desirable coastal communities, with properties ranging from luxury condos to oceanfront estates. As a wholesale broker active in this market, I've observed several key trends characterizing local inventory:
+                    Newport Beach continues to be one of Southern California's most desirable coastal communities, with properties ranging from upscale condos to oceanfront estates. As a wholesale broker active in this market, I've observed several key trends characterizing local inventory:
                 </p>
                 <ul>
                     <li><strong>Premium coastal properties</strong> with values often exceeding conforming loan limits</li>
@@ -81,7 +81,7 @@ export default function NewportBeachMortgageGuidePage() {
 
                 <h3>How many lenders can a Newport Beach broker access?</h3>
                 <p>
-                    Wholesale brokers have relationships with 50+ lending institutions, allowing them to shop your scenario across multiple programs and pricing structures. This is particularly valuable in Newport Beach's luxury market, where loan amounts often require specialized jumbo financing solutions.
+                    Wholesale brokers have relationships with 50+ lending institutions, allowing them to shop your scenario across multiple programs and pricing structures. This is particularly valuable in Newport Beach's high-value market, where loan amounts often require specialized jumbo financing solutions.
                 </p>
 
                 <h3>What kind of personalized service should you expect?</h3>
@@ -91,7 +91,7 @@ export default function NewportBeachMortgageGuidePage() {
 
                 <h2>Which loan programs are best for Newport Beach homebuyers?</h2>
 
-                <h3>Jumbo Loans for Luxury Properties</h3>
+                <h3>Jumbo Loans for High-Value Properties</h3>
                 <p>
                     Given Newport Beach's premium property values, jumbo loans are often the primary financing vehicle for local homebuyers. These loans exceed the conforming loan limits set by Fannie Mae and Freddie Mac.
                 </p>
@@ -225,7 +225,7 @@ export default function NewportBeachMortgageGuidePage() {
 
                 <h2>Ready to Explore Your Newport Beach Mortgage Options?</h2>
                 <p>
-                    Newport Beach's luxury coastal market requires sophisticated financing solutions and expert guidance. Whether you're purchasing your dream waterfront property or refinancing your current home, working with an experienced wholesale mortgage broker provides access to competitive pricing and personalized service.
+                    Newport Beach's high-value coastal market requires sophisticated financing solutions and expert guidance. Whether you're purchasing your dream waterfront property or refinancing your current home, working with an experienced wholesale mortgage broker provides access to competitive pricing and personalized service.
                 </p>
                 <p>
                     Contact us today for a free consultation and personalized rate quote for your Newport Beach property. Our local market expertise and wholesale lender relationships ensure you receive the best possible financing solution for your unique situation.

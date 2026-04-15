@@ -147,11 +147,10 @@ export const serviceAreasDropdown: DropdownItem[] = [
   { title: 'Beach Cities', url: '#', isHeader: true, icon: Waves },
   { title: 'Huntington Beach', url: '/areas/huntington-beach-mortgage-broker' },
 
-  // Luxury Markets
-  { title: 'Luxury Markets', url: '#', isHeader: true, icon: Gem },
+  // High-Value Markets
+  { title: 'High-Value Markets', url: '#', isHeader: true, icon: Gem },
   { title: 'Waterfront Homes', url: '/luxury-markets/waterfront-homes-mortgage-broker' },
   { title: 'Golf Course Homes', url: '/luxury-markets/golf-course-homes-mortgage-broker' },
-  { title: 'Ultra-Luxury Estates', url: '/luxury-markets/ultra-luxury-estates-mortgage-broker' },
 
   // School Districts  
   { title: 'School Districts', url: '#', isHeader: true, icon: GraduationCap },

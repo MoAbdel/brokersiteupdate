@@ -99,7 +99,7 @@ export default function ReverseMortgageCalabasasPage() {
         <p>Most Calabasas properties exceed HECM limits. Proprietary programs offer:</p>
         <ul>
           <li><strong>Higher limits:</strong> Access equity on properties up to $10M+</li>
-          <li><strong>Luxury property expertise:</strong> Appraisers who understand the market</li>
+          <li><strong>High-value property expertise:</strong> Appraisers who understand the market</li>
           <li><strong>Flexible terms:</strong> Various payout options</li>
           <li><strong>Privacy:</strong> Discrete handling of high-value transactions</li>
         </ul>
@@ -118,7 +118,6 @@ export default function ReverseMortgageCalabasasPage() {
           <h3 className="mt-0">Related Resources</h3>
           <ul>
             <li><a href="/blog/reverse-mortgage-complete-guide-2026">Complete Reverse Mortgage Guide</a></li>
-            <li><a href="/blog/reverse-mortgage-beverly-hills-2026">Reverse Mortgage Beverly Hills</a></li>
             <li><a href="/blog/proprietary-reverse-mortgage-2026">Proprietary Reverse Mortgages</a></li>
           </ul>
         </div>

@@ -354,9 +354,6 @@ export default async function GuidesPage({
             <Link className="text-slate-700 hover:text-slate-900 hover:underline" href="/blog/manhattan-beach-cash-out-refinance-2026">
               Manhattan Beach Cash-Out Refinance
             </Link>
-            <Link className="text-slate-700 hover:text-slate-900 hover:underline" href="/blog/palos-verdes-cash-out-refinance-2026">
-              Palos Verdes Cash-Out Refinance
-            </Link>
             <Link className="text-slate-700 hover:text-slate-900 hover:underline" href="/rate-term-refinance-orange-county">
               Rate &amp; Term Refinance (Regional)
             </Link>

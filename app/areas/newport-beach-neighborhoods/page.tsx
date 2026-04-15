@@ -3,7 +3,7 @@ import { JsonLd } from '@/app/(marketing)/components/Schema';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata = {
-  title: 'Newport Beach Neighborhoods | Luxury Home Financing by Area',
+  title: 'Newport Beach Neighborhoods | Mortgage Financing by Area',
   description:
     'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
   alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Newport Beach Neighborhoods Mortgage Guide | Luxury Area Financing',
+    title: 'Newport Beach Neighborhoods Mortgage Guide | Area Financing',
     description:
       'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
     url: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
@@ -27,11 +27,11 @@ export default function Page() {
   const LAST_UPDATED_ISO = '2026-02-01T00:00:00.000Z';
   const faqs = [
     { q: 'Which Newport Beach neighborhoods require jumbo loans?', a: 'Most Newport Beach neighborhoods require jumbo financing due to high property values. Balboa Island, Lido Isle, and Newport Coast typically require super jumbo loans above standard limits.' },
-    { q: 'Are there financing differences between waterfront and inland Newport Beach properties?', a: 'Yes, waterfront properties often require specialized appraisals, flood insurance considerations, and lenders experienced with luxury coastal real estate.' },
+    { q: 'Are there financing differences between waterfront and inland Newport Beach properties?', a: 'Yes, waterfront properties often require specialized appraisals, flood insurance considerations, and lenders experienced with high-value coastal real estate.' },
     { q: 'What about condos vs. single-family homes in different neighborhoods?', a: 'Condo financing varies by neighborhood. Fashion Island area high-rises may have different requirements than Balboa Island single-family homes. We understand these nuances.' },
     { q: 'Do you work with all Newport Beach neighborhoods?', a: 'Absolutely. From Balboa Peninsula to Corona del Mar to Newport Coast, we have experience financing properties throughout all Newport Beach communities.' },
     { q: 'Are there seasonal considerations for different neighborhoods?', a: 'Yes, some waterfront areas have seasonal rental markets that can impact investment property financing. We factor this into loan structuring and qualification.' },
-    { q: 'How do HOA fees in luxury developments affect financing?', a: 'High HOA fees in luxury Newport Beach developments can impact debt-to-income ratios. We work with lenders who understand these market realities and adjust accordingly.' },
+    { q: 'How do HOA fees in upscale developments affect financing?', a: 'High HOA fees in upscale Newport Beach developments can impact debt-to-income ratios. We work with lenders who understand these market realities and adjust accordingly.' },
   ];
 
   const localBusiness = buildBrokerEntityGraph({
@@ -39,7 +39,7 @@ export default function Page() {
     serviceType: 'Newport Beach Neighborhood Mortgage Brokerage Services',
     serviceName: 'Newport Beach Neighborhoods Mortgage Guide',
     serviceDescription:
-      'Neighborhood-specific mortgage expertise for all Newport Beach communities, from waterfront estates to luxury condos.',
+      'Neighborhood-specific mortgage expertise for all Newport Beach communities, from waterfront estates to upscale condos.',
     areaServedName: 'Newport Beach, Orange County, CA',
   });
 
@@ -55,7 +55,7 @@ export default function Page() {
 
   const pageSchema = buildServiceWebPageSchema({
     pageUrl: 'https://www.mothebroker.com/areas/newport-beach-neighborhoods',
-    title: 'Newport Beach Neighborhoods | Luxury Home Financing by Area',
+    title: 'Newport Beach Neighborhoods | Mortgage Financing by Area',
     description:
       'Complete guide to Newport Beach neighborhoods for homebuyers and refinancing. Balboa Island, Lido Isle, Newport Coast, Fashion Island area mortgage financing with wholesale pricing.',
     breadcrumbName: 'Newport Beach Neighborhoods',
@@ -68,13 +68,13 @@ export default function Page() {
       body: (
         <>
           <p>
-            Newport Beach encompasses diverse luxury neighborhoods, each with unique characteristics that influence home financing. 
+            Newport Beach encompasses diverse neighborhoods, each with unique characteristics that influence home financing. 
             From the exclusive waterfront communities to sophisticated inland developments, understanding neighborhood-specific 
             lending considerations helps ensure smooth transactions and optimal loan terms.
           </p>
           <p>
             As a wholesale mortgage broker specializing in Newport Beach, we understand the nuances of financing in different 
-            communities—from waterfront estate requirements to luxury condo considerations, seasonal market factors, 
+            communities—from waterfront estate requirements to upscale condo considerations, seasonal market factors, 
             and neighborhood-specific appraisal patterns. This expertise helps match the right financing approach to your specific location and property type.
           </p>
         </>
@@ -82,7 +82,7 @@ export default function Page() {
     },
     {
       id: 'waterfront-communities',
-      heading: 'Waterfront and luxury island communities',
+      heading: 'Waterfront and island communities',
       body: (
         <>
           <h3 className="text-lg font-semibold mb-2">Balboa Island</h3>
@@ -94,7 +94,7 @@ export default function Page() {
           
           <h3 className="text-lg font-semibold mb-2">Lido Isle</h3>
           <p className="mb-3">
-            This exclusive gated island community features luxury homes with private docks and bay access. Financing requires 
+            This exclusive gated island community features high-value homes with private docks and bay access. Financing requires 
             lenders experienced with high-value waterfront properties, understanding of community amenities like the yacht club, 
             and appreciation for the limited inventory that drives premium valuations.
           </p>
@@ -109,27 +109,27 @@ export default function Page() {
       ),
     },
     {
-      id: 'inland-luxury',
-      heading: 'Inland luxury communities',
+      id: 'inland-communities',
+      heading: 'Inland Newport Beach communities',
       body: (
         <>
           <h3 className="text-lg font-semibold mb-2">Newport Coast</h3>
           <p className="mb-3">
             Newport Coast represents some of Orange County's most expensive real estate, with custom estates, gated communities, 
-            and resort-style amenities. Properties often require super jumbo loans and lenders comfortable with unique luxury features 
+            and resort-style amenities. Properties often require super jumbo loans and lenders comfortable with unique high-value features 
             like guest houses, extensive grounds, and premium community amenities.
           </p>
           
           <h3 className="text-lg font-semibold mb-2">Fashion Island Area</h3>
           <p className="mb-3">
-            The Fashion Island vicinity offers luxury high-rise condos and sophisticated townhomes with resort-style amenities. 
+            The Fashion Island vicinity offers high-rise condos and sophisticated townhomes with resort-style amenities. 
             Condo financing requires understanding of association structures, amenity fees, and the unique market dynamics 
-            of luxury vertical living in Newport Beach.
+            of high-rise living in Newport Beach.
           </p>
           
           <h3 className="text-lg font-semibold mb-2">Corona del Mar</h3>
           <p>
-            This hillside community features stunning ocean and harbor views with a mix of custom homes and luxury condos. 
+            This hillside community features stunning ocean and harbor views with a mix of custom homes and upscale condos. 
             Properties benefit from excellent schools, walkable village atmosphere, and prestigious location. 
             Financing considerations include hillside construction, view premiums, and community character preservation requirements.
           </p>
@@ -141,7 +141,7 @@ export default function Page() {
       heading: 'Neighborhood-specific financing factors',
       body: (
         <ul className="space-y-2">
-          <li><strong>Property type variations:</strong> From waterfront estates to luxury condos, each requires different lending approaches and qualification criteria.</li>
+          <li><strong>Property type variations:</strong> From waterfront estates to upscale condos, each requires different lending approaches and qualification criteria.</li>
           <li><strong>Flood insurance requirements:</strong> Waterfront and low-lying areas may require flood insurance, impacting total housing costs and qualification ratios.</li>
           <li><strong>HOA and community fees:</strong> Luxury developments often have substantial HOA fees that affect debt-to-income calculations and lending decisions.</li>
           <li><strong>Seasonal market dynamics:</strong> Some areas have seasonal patterns affecting appraisals, especially properties with rental income potential.</li>
@@ -161,13 +161,13 @@ export default function Page() {
             dynamics, property features, and valuation approaches relevant to your neighborhood.
           </p>
           <p>
-            Our wholesale relationships include lenders who specialize in luxury coastal properties, understand waterfront 
-            insurance requirements, and are comfortable with the unique features that make Newport Beach properties special. 
+            Our wholesale relationships include lenders experienced with high-value coastal properties, understand waterfront
+            insurance requirements, and are comfortable with the unique features that make Newport Beach properties special.
             This specialization often results in better terms and smoother transactions compared to generic lending approaches.
           </p>
           <p>
             We also coordinate with local professionals—real estate agents who know specific neighborhoods, escrow companies 
-            experienced with luxury transactions, and service providers familiar with community-specific requirements. 
+            experienced with high-value transactions, and service providers familiar with community-specific requirements. 
             This local network helps ensure your financing process aligns with the sophisticated standards expected in Newport Beach.
           </p>
         </>
@@ -183,7 +183,7 @@ export default function Page() {
           </p>
           <ul className="mt-2 space-y-1">
             <li>• <strong>Waterfront properties:</strong> Premium appreciation potential but higher maintenance and insurance costs</li>
-            <li>• <strong>Luxury condos:</strong> Lower maintenance with resort amenities, appealing to vacation rental markets</li>
+            <li>• <strong>Upscale condos:</strong> Lower maintenance with resort amenities, appealing to vacation rental markets</li>
             <li>• <strong>Single-family homes:</strong> Strong long-term rental demand from executives and families</li>
             <li>• <strong>Fashion Island vicinity:</strong> Corporate rental demand and walkability premium</li>
             <li>• <strong>Corona del Mar:</strong> School district premium and family rental market</li>
@@ -200,7 +200,7 @@ export default function Page() {
   const links = [
     { label: 'Newport Beach mortgage services', href: '/areas/newport-beach' },
     { label: 'Jumbo loan programs', href: '/loan-programs/jumbo-loans' },
-    { label: 'HELOC options for luxury homes', href: '/heloc-orange-county' },
+    { label: 'HELOC options for high-value homes', href: '/heloc-orange-county' },
     { label: 'Investment property financing', href: '/loan-programs/dscr-investment-loans' },
     { label: 'Cash-out refinancing', href: '/cash-out-refinance' },
     { label: 'Orange County mortgage broker', href: '/about-mo-abdel-orange-county-mortgage-broker' },
@@ -211,7 +211,7 @@ export default function Page() {
     <>
       <SeoServicePage
         title="Newport Beach Neighborhoods"
-        subtitle="Luxury financing for Balboa Island, Lido Isle, Newport Coast & more"
+        subtitle="Financing for Balboa Island, Lido Isle, Newport Coast & more"
         city="Newport Beach"
         slug="areas/newport-beach-neighborhoods"
         lastUpdatedISO={LAST_UPDATED_ISO}

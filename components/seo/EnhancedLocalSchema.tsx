@@ -139,7 +139,7 @@ export default function EnhancedLocalSchema({
       {
         "@type": "Offer",
         "name": "Jumbo Loans",
-        "description": "High-balance loans for luxury homes exceeding conforming loan limits",
+        "description": "High-balance loans for high-value homes exceeding conforming loan limits",
         "category": "Mortgage Loan",
         "url": `${siteUrl}/loan-programs/jumbo-loans`
       }

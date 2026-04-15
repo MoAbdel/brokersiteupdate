@@ -261,7 +261,7 @@ export default function HomeEquitySanDiegoGuidePage() {
         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500 mb-8">
           <p className="text-lg font-semibold text-gray-900 mb-3">Key Statistic: San Diego Home Equity Landscape</p>
           <p className="text-gray-800 mb-0">
-            San Diego County homeowners hold more than <strong>$420 billion in total home equity</strong>, with the eight wealthiest communities profiled in this guide accounting for a disproportionate share of that figure. According to 2025 ATTOM Data Solutions analysis, San Diego County ranks among the top five California counties for equity-rich properties, with <strong>71.3% of mortgaged homes having at least 50% equity</strong>. In luxury enclaves like Rancho Santa Fe and Del Mar, the figure exceeds 80%. This concentration of home equity creates significant opportunities for homeowners seeking HELOCs, home equity loans, and cash-out refinance products&mdash;particularly through wholesale lending channels that offer competitive jumbo pricing for high-value properties.
+            San Diego County homeowners hold more than <strong>$420 billion in total home equity</strong>, with the eight wealthiest communities profiled in this guide accounting for a disproportionate share of that figure. According to 2025 ATTOM Data Solutions analysis, San Diego County ranks among the top five California counties for equity-rich properties, with <strong>71.3% of mortgaged homes having at least 50% equity</strong>. In high-value enclaves like Rancho Santa Fe and Del Mar, the figure exceeds 80%. This concentration of home equity creates significant opportunities for homeowners seeking HELOCs, home equity loans, and cash-out refinance products&mdash;particularly through wholesale lending channels that offer competitive jumbo pricing for high-value properties.
           </p>
         </div>
 
@@ -433,7 +433,7 @@ export default function HomeEquitySanDiegoGuidePage() {
 
         <h3>Property Value Appreciation Trends</h3>
         <p>
-          San Diego County home values have appreciated at an average annual rate of approximately 6.2% over the past decade, with luxury communities outpacing the county average. Rancho Santa Fe and Del Mar have seen annual appreciation rates of 7-9% during peak years, while Carlsbad and Poway have tracked closer to the county average. This sustained appreciation means that homeowners who purchased properties 10 or more years ago have accumulated significant equity, often exceeding 60-70% of current home value.
+          San Diego County home values have appreciated at an average annual rate of approximately 6.2% over the past decade, with high-value communities outpacing the county average. Rancho Santa Fe and Del Mar have seen annual appreciation rates of 7-9% during peak years, while Carlsbad and Poway have tracked closer to the county average. This sustained appreciation means that homeowners who purchased properties 10 or more years ago have accumulated significant equity, often exceeding 60-70% of current home value.
         </p>
 
         <h3>Biotech and Tech Employment Impact</h3>
@@ -580,7 +580,7 @@ export default function HomeEquitySanDiegoGuidePage() {
 
         <h3>Rancho Santa Fe: Estate Property Equity Strategies</h3>
         <p>
-          Rancho Santa Fe&apos;s estate properties present unique equity access challenges due to their high values and specialized appraisal requirements. A Covenant property valued at $6 million with no mortgage holds $6 million in equity, but accessing it requires lenders experienced with luxury estate appraisals, large lot valuations, and equestrian facility considerations. Through wholesale channels, Rancho Santa Fe homeowners can access jumbo HELOCs up to $2 million and cash-out refinance programs up to $5 million or more. The key is working with a broker who has relationships with lenders specializing in ultra-high-value properties.
+          Rancho Santa Fe&apos;s estate properties present unique equity access challenges due to their high values and specialized appraisal requirements. A Covenant property valued at $6 million with no mortgage holds $6 million in equity, but accessing it requires lenders experienced with high-value estate appraisals, large lot valuations, and equestrian facility considerations. Through wholesale channels, Rancho Santa Fe homeowners can access jumbo HELOCs up to $2 million and cash-out refinance programs up to $5 million or more. The key is working with a broker who has relationships with lenders specializing in ultra-high-value properties.
         </p>
 
         <h3>Solana Beach: Steady Coastal Appreciation</h3>
@@ -593,7 +593,7 @@ export default function HomeEquitySanDiegoGuidePage() {
           Encinitas homeowners blend lifestyle and investment savvy. The community&apos;s strong ADU adoption rate reflects homeowners who use equity products to build rental units, creating income streams that enhance long-term financial security. Leucadia and Old Encinitas properties, with their larger lots and coastal access, are particularly well-suited for ADU development. Olivenhain&apos;s estate-style properties on 1-acre-plus lots offer additional equity and development potential. Many Encinitas homeowners are self-employed professionals who qualify for equity products through bank statement programs available in the wholesale lending market.
         </p>
 
-        {/* Hub Preview: Coastal Military-to-Luxury */}
+        {/* Hub Preview: Coastal Military-to-High-Value */}
         <h2>San Diego Coastal & Inland Equity: La Jolla, Coronado, Carlsbad, Poway</h2>
         <p>
           The second San Diego equity hub spans the spectrum from La Jolla&apos;s scientific prestige to Poway&apos;s semi-rural estates, with Coronado&apos;s military heritage and Carlsbad&apos;s resort communities in between. Each community offers distinct equity access opportunities and product considerations.
@@ -606,7 +606,7 @@ export default function HomeEquitySanDiegoGuidePage() {
 
         <h3>Coronado: Military Equity and Island Wealth</h3>
         <p>
-          Coronado&apos;s dual identity as a military community and luxury resort destination creates a unique equity landscape. Military retirees who purchased homes during active service have built extraordinary equity, often exceeding $1.5 million to $2 million in Coronado Village and Coronado Shores. Active-duty military families benefit from VA cash-out refinance options with favorable terms, while civilian residents access standard jumbo equity products. The Coronado Cays waterfront community offers properties in the $1.5 million to $4 million range with strong equity positions for long-term owners.
+          Coronado&apos;s dual identity as a military community and high-value resort destination creates a unique equity landscape. Military retirees who purchased homes during active service have built extraordinary equity, often exceeding $1.5 million to $2 million in Coronado Village and Coronado Shores. Active-duty military families benefit from VA cash-out refinance options with favorable terms, while civilian residents access standard jumbo equity products. The Coronado Cays waterfront community offers properties in the $1.5 million to $4 million range with strong equity positions for long-term owners.
         </p>
 
         <h3>Carlsbad: Resort Community Equity</h3>
@@ -629,7 +629,7 @@ export default function HomeEquitySanDiegoGuidePage() {
           <li><strong>Higher credit limits:</strong> Wholesale jumbo HELOC lenders compete on maximum credit lines, with some offering $2 million or more. Individual bank HELOCs typically cap at $500,000 to $1 million.</li>
           <li><strong>Self-employed programs:</strong> San Diego&apos;s entrepreneurial economy demands flexible income documentation. Wholesale channels offer bank statement HELOCs and equity loans that accommodate self-employed borrowers who may not qualify through traditional bank channels.</li>
           <li><strong>Speed and flexibility:</strong> Wholesale lender relationships allow brokers to match borrowers with lenders whose processes and timelines align with their needs, rather than being locked into a single bank&apos;s processing timeline.</li>
-          <li><strong>Specialized appraisal handling:</strong> High-value San Diego properties often require specialized appraisals. Wholesale brokers can route applications to lenders with experience appraising luxury coastal, equestrian, and estate properties.</li>
+          <li><strong>Specialized appraisal handling:</strong> High-value San Diego properties often require specialized appraisals. Wholesale brokers can route applications to lenders with experience appraising high-value coastal, equestrian, and estate properties.</li>
         </ul>
 
         {/* Cross-Track Links */}
@@ -706,7 +706,7 @@ export default function HomeEquitySanDiegoGuidePage() {
 
         <h3>What are the closing costs for a San Diego HELOC?</h3>
         <p>
-          HELOC closing costs in San Diego typically range from $500 to $5,000, depending on the credit line amount and lender. Common costs include appraisal ($500-$1,500 for standard properties, $1,500-$3,000 for luxury estates), title insurance, recording fees, and any origination fees. Many wholesale lenders offer reduced or waived closing costs as competitive incentives, particularly for larger credit lines where they earn more interest income over time.
+          HELOC closing costs in San Diego typically range from $500 to $5,000, depending on the credit line amount and lender. Common costs include appraisal ($500-$1,500 for standard properties, $1,500-$3,000 for high-value estates), title insurance, recording fees, and any origination fees. Many wholesale lenders offer reduced or waived closing costs as competitive incentives, particularly for larger credit lines where they earn more interest income over time.
         </p>
 
         <h3>Can I access equity in a Rancho Santa Fe estate for investment purposes?</h3>
@@ -721,7 +721,7 @@ export default function HomeEquitySanDiegoGuidePage() {
             San Diego County represents one of California&apos;s most robust home equity markets, with $420 billion in total residential equity and eight premium communities offering median values from $1.1 million to $4.5 million. The combination of biotech-driven economic growth, military housing stability, and coastal supply constraints has created exceptional equity positions for long-term homeowners across the region.
           </p>
           <p className="text-gray-800">
-            For most San Diego homeowners, the choice between HELOC, HELOAN, and cash-out refinance depends on three factors: your current first mortgage rate, how you plan to use the funds, and whether you need flexibility or payment certainty. The majority of San Diego equity borrowers in the luxury market benefit from jumbo HELOC products that preserve favorable first mortgage rates while providing flexible access to substantial credit lines.
+            For most San Diego homeowners, the choice between HELOC, HELOAN, and cash-out refinance depends on three factors: your current first mortgage rate, how you plan to use the funds, and whether you need flexibility or payment certainty. The majority of San Diego equity borrowers in the high-value market benefit from jumbo HELOC products that preserve favorable first mortgage rates while providing flexible access to substantial credit lines.
           </p>
           <p className="text-gray-800 mb-0">
             Working with a wholesale mortgage broker provides San Diego homeowners with access to 50+ Wholesale Lenders competing for your business, resulting in better rates, higher credit limits, and more program options than any single bank can offer. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> for a personalized equity analysis comparing HELOC, HELOAN, and cash-out refinance options for your San Diego property.

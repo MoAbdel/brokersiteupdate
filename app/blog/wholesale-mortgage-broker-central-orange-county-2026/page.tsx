@@ -95,7 +95,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
 
         <section className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 leading-relaxed">
-            Central Orange County represents the economic and cultural heart of the region—from Irvine&apos;s tech corridors and master-planned communities to Newport Beach&apos;s waterfront luxury to Costa Mesa&apos;s arts district. With median prices ranging from $900K in Costa Mesa to $4M+ along Newport&apos;s harbor, Central OC buyers need wholesale broker access for jumbo loans, tech professional programs, and self-employed financing. I provide 50+ Wholesale Lenders delivering wholesale rates for every Central OC community.
+            Central Orange County represents the economic and cultural heart of the region—from Irvine&apos;s tech corridors and master-planned communities to Newport Beach&apos;s waterfront homes to Costa Mesa&apos;s arts district. With median prices ranging from $900K in Costa Mesa to $4M+ along Newport&apos;s harbor, Central OC buyers need wholesale broker access for jumbo loans, tech professional programs, and self-employed financing. I provide 50+ Wholesale Lenders delivering wholesale rates for every Central OC community.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
@@ -179,7 +179,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Turtle Rock (92612, 92603)</h4>
-              <p className="text-sm mb-2">Established luxury near UCI $1.5M-$4M+. Larger lots, custom homes, established families. Premium jumbo territory.</p>
+              <p className="text-sm mb-2">Established neighborhood near UCI $1.5M-$4M+. Larger lots, custom homes, established families. Premium jumbo territory.</p>
               <p className="text-sm text-blue-700">Typical loan: $1.1M-$2.5M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -189,7 +189,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Shady Canyon (92603)</h4>
-              <p className="text-sm mb-2">Ultra-luxury gated community $3M-$15M+. Golf course, equestrian. Super-jumbo specialists required.</p>
+              <p className="text-sm mb-2">Gated community $3M-$15M+. Golf course, equestrian. Super-jumbo specialists required.</p>
               <p className="text-sm text-blue-700">Typical loan: $2M-$8M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -206,10 +206,10 @@ export default function WholesaleMortgageBrokerCentralOC() {
 
           <hr className="my-10" />
 
-          <h2 id="newport-beach" className="text-3xl font-bold mt-10 mb-4">Newport Beach: Waterfront Luxury & Harbor Living</h2>
+          <h2 id="newport-beach" className="text-3xl font-bold mt-10 mb-4">Newport Beach: Waterfront Homes & Harbor Living</h2>
 
           <p>
-            Newport Beach represents Orange County&apos;s pinnacle of waterfront luxury. From Balboa Island cottages to Newport Coast estates, virtually every purchase requires jumbo financing with many exceeding $5M.
+            Newport Beach represents Orange County&apos;s premier coastal market. From Balboa Island cottages to Newport Coast estates, virtually every purchase requires jumbo financing with many exceeding $5M.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3">Newport Beach Neighborhoods & Financing</h3>
@@ -217,7 +217,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Newport Coast (92657)</h4>
-              <p className="text-sm mb-2">Ocean-view estates in Crystal Cove, Pelican Hill $4M-$30M+. Resort-adjacent luxury. Ultra-jumbo specialists essential.</p>
+              <p className="text-sm mb-2">Ocean-view estates in Crystal Cove, Pelican Hill $4M-$30M+. Resort-adjacent high-value homes. Ultra-jumbo lending essential.</p>
               <p className="text-sm text-blue-700">Typical loan: $3M-$12M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
@@ -392,7 +392,7 @@ export default function WholesaleMortgageBrokerCentralOC() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Get Wholesale Rates for Your Central OC Purchase</h2>
           <p>
-            As a wholesale mortgage broker serving all of Central Orange County, I provide access to 50+ Wholesale Lenders competing for your business. Whether you&apos;re buying a tech professional&apos;s first home in Irvine, waterfront luxury in Newport Beach, or a family home in Costa Mesa, wholesale access delivers better rates and specialized programs.
+            As a wholesale mortgage broker serving all of Central Orange County, I provide access to 50+ Wholesale Lenders competing for your business. Whether you&apos;re buying a tech professional&apos;s first home in Irvine, coastal homes in Newport Beach, or a family home in Costa Mesa, wholesale access delivers better rates and specialized programs.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-6">

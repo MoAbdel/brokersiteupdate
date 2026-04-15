@@ -37,7 +37,7 @@ export default function SanClementeMortgageGuidePage() {
                         },
                         "datePublished": "2026-01-10",
                         "dateModified": "2026-01-10",
-                        "description": "Navigate the 2026 San Clemente mortgage market. Specializing in VA loans for military families and wholesale pricing for coastal luxury homes."
+                        "description": "Navigate the 2026 San Clemente mortgage market. Specializing in VA loans for military families and wholesale pricing for coastal high-value homes."
                     })
                 }}
             />
@@ -47,7 +47,7 @@ export default function SanClementeMortgageGuidePage() {
                     San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Expert mortgage solutions for "Spanish Village by the Sea"—from VA loans to luxury coastal estates.
+                    Expert mortgage solutions for "Spanish Village by the Sea"—from VA loans to coastal estates.
                 </p>
             </header>
 
@@ -60,11 +60,11 @@ export default function SanClementeMortgageGuidePage() {
 
                 <h2>What makes the San Clemente real estate market unique in 2026?</h2>
                 <p>
-                    San Clemente, known as the "Spanish Village by the Sea," offers a distinct blend of historic charm and modern coastal luxury. In 2026, the market is characterized by:
+                    San Clemente, known as the "Spanish Village by the Sea," offers a distinct blend of historic charm and modern coastal character. In 2026, the market is characterized by:
                 </p>
                 <ul>
                     <li><strong>Strong Military Presence:</strong> High demand for VA financing due to the proximity to Camp Pendleton.</li>
-                    <li><strong>Luxury Coastal Estates:</strong> Areas like Southwest San Clemente and Talega require sophisticated jumbo loan structures.</li>
+                    <li><strong>Coastal Estates:</strong> Areas like Southwest San Clemente and Talega require sophisticated jumbo loan structures.</li>
                     <li><strong>Historic Preservation:</strong> Unique zoning and architectural requirements that can impact property appraisals.</li>
                     <li><strong>Family-Centric Neighborhoods:</strong> Subdivisions like Forster Ranch continue to attract long-term residents.</li>
                 </ul>
@@ -124,7 +124,7 @@ export default function SanClementeMortgageGuidePage() {
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Wholesale Jumbo</td>
                                     <td className="py-3 px-4">10-15%</td>
-                                    <td className="py-3 px-4">Luxury Coastal & Talega Homes</td>
+                                    <td className="py-3 px-4">Coastal & Talega Homes</td>
                                 </tr>
                                 <tr>
                                     <td className="py-3 px-4 font-semibold">Conventional</td>

@@ -104,7 +104,7 @@ export default function WholesaleMortgageBrokerIrvinePage() {
         </div>
 
         <h2>Irvine Neighborhoods We Serve</h2>
-        <p><strong>Shady Canyon:</strong> Ultra-luxury gated estates, $3M-$10M+. Popular loans: Super-jumbo, bank statement.</p>
+        <p><strong>Shady Canyon:</strong> Gated estates, $3M-$10M+. Popular loans: Super-jumbo, bank statement.</p>
         <p><strong>Turtle Ridge:</strong> Ocean and canyon views, $2M-$4M. Popular loans: Jumbo.</p>
         <p><strong>Turtle Rock:</strong> Established community near UCI, $1.5M-$2.5M. Popular loans: Jumbo.</p>
         <p><strong>Great Park:</strong> New master-planned, $1M-$2M. Popular loans: Jumbo, new construction.</p>

@@ -121,7 +121,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
                 "name": "What is the difference between HECM and proprietary reverse mortgages in San Diego?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,209,750. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher. Most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, and La Jolla benefit from proprietary programs due to high property values."
+                  "text": "HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,209,750. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher. Most San Diego homeowners in Del Mar, Rancho Santa Fe, and La Jolla benefit from proprietary programs due to high property values."
                 }
               },
               {
@@ -486,10 +486,10 @@ export default function ReverseMortgageSanDiegoGuidePage() {
           San Diego&apos;s tourism industry attracts more than 35 million visitors annually, sustaining property values in coastal communities. Del Mar&apos;s renowned horse racing season, La Jolla&apos;s cultural attractions, and Coronado&apos;s iconic Hotel del Coronado create a destination appeal that supports premium real estate pricing. Seniors who purchased coastal properties in these areas hold some of the most valuable residential real estate in California.
         </p>
 
-        {/* Hub Preview A: North County Coastal Luxury */}
-        <h2>Hub Preview: North County Coastal Luxury (Del Mar, Rancho Santa Fe, Solana Beach, Encinitas)</h2>
+        {/* Hub Preview A: North County Coastal */}
+        <h2>Hub Preview: North County Coastal (Del Mar, Rancho Santa Fe, Solana Beach, Encinitas)</h2>
         <p>
-          San Diego&apos;s North County coastal corridor represents the pinnacle of California luxury living, with four distinct communities offering unique reverse mortgage opportunities for seniors 62 and older. This hub encompasses the equestrian estates of Rancho Santa Fe, the oceanfront prestige of Del Mar, the relaxed sophistication of Solana Beach, and the surf-culture wealth of Encinitas.
+          San Diego&apos;s North County coastal corridor represents the pinnacle of California coastal living, with four distinct communities offering unique reverse mortgage opportunities for seniors 62 and older. This hub encompasses the equestrian estates of Rancho Santa Fe, the oceanfront prestige of Del Mar, the relaxed sophistication of Solana Beach, and the surf-culture wealth of Encinitas.
         </p>
 
         <h3>Del Mar: Racing Community Wealth</h3>
@@ -521,15 +521,15 @@ export default function ReverseMortgageSanDiegoGuidePage() {
           For senior homeowners, Encinitas represents an opportunity to access substantial equity while maintaining the active, outdoor-focused lifestyle that drew them to the community. Many retirees in Encinitas are former professionals who relocated from other California metros, purchasing properties that have appreciated significantly. A 70-year-old Encinitas homeowner with a $1.8 million property and no mortgage could access approximately $720,000 to $900,000 through a proprietary reverse mortgage.
         </p>
 
-        {/* Hub Preview B: Coastal Military-to-Luxury */}
-        <h2>Hub Preview: Coastal Military-to-Luxury (La Jolla, Coronado, Carlsbad, Poway)</h2>
+        {/* Hub Preview B: Coastal Communities */}
+        <h2>Hub Preview: Coastal Communities (La Jolla, Coronado, Carlsbad, Poway)</h2>
         <p>
-          The second San Diego hub encompasses four communities that share a common thread: the intersection of military heritage, biotech innovation, and coastal luxury. From La Jolla&apos;s world-renowned scientific community to Coronado&apos;s island lifestyle, Carlsbad&apos;s resort-style living, and Poway&apos;s family-oriented estates, this hub offers diverse reverse mortgage opportunities for seniors across the home value spectrum.
+          The second San Diego hub encompasses four communities that share a common thread: the intersection of military heritage, biotech innovation, and coastal living. From La Jolla&apos;s world-renowned scientific community to Coronado&apos;s island lifestyle, Carlsbad&apos;s resort-style living, and Poway&apos;s family-oriented estates, this hub offers diverse reverse mortgage opportunities for seniors across the home value spectrum.
         </p>
 
         <h3>La Jolla: Scientific Community Prestige</h3>
         <p>
-          La Jolla is home to some of the world&apos;s most prestigious research institutions, including the Salk Institute, Scripps Research Institute, and UC San Diego. With a median home value of approximately $2.5 million, La Jolla attracts retired scientists, physicians, and university administrators who have built careers in San Diego&apos;s knowledge economy. The community&apos;s neighborhoods range from the beachfront bungalows of Bird Rock to the luxury estates overlooking La Jolla Shores and the high-rise condominiums of La Jolla&apos;s Village.
+          La Jolla is home to some of the world&apos;s most prestigious research institutions, including the Salk Institute, Scripps Research Institute, and UC San Diego. With a median home value of approximately $2.5 million, La Jolla attracts retired scientists, physicians, and university administrators who have built careers in San Diego&apos;s knowledge economy. The community&apos;s neighborhoods range from the beachfront bungalows of Bird Rock to the high-value estates overlooking La Jolla Shores and the high-rise condominiums of La Jolla&apos;s Village.
         </p>
         <p>
           Retired academics and researchers in La Jolla often own properties purchased decades ago when values were substantially lower. A professor who bought a Bird Rock cottage in the 1980s may now be sitting on $2 million or more in equity. Proprietary reverse mortgage programs serve this market, allowing La Jolla seniors to access substantial funds while continuing to live in the community they helped build. La Jolla&apos;s high-rise condominiums also present opportunities, though condo eligibility depends on FHA approval status for HECM or meeting proprietary program guidelines.
@@ -582,7 +582,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
 
         <h3>Orange County and Southern California Resources</h3>
         <p>
-          As a broker licensed across California, I bring expertise from serving homeowners throughout Southern California, including Orange County&apos;s premium communities. The lending strategies used for high-value properties in Newport Beach and Laguna Beach translate directly to San Diego&apos;s luxury markets. San Diego homeowners benefit from this cross-market knowledge, especially when evaluating proprietary programs that serve the entire state.
+          As a broker licensed across California, I bring expertise from serving homeowners throughout Southern California, including Orange County&apos;s premium communities. The lending strategies used for high-value properties in Newport Beach and Laguna Beach translate directly to San Diego&apos;s high-value markets. San Diego homeowners benefit from this cross-market knowledge, especially when evaluating proprietary programs that serve the entire state.
         </p>
 
         {/* Cross-Track Links */}
@@ -594,7 +594,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             <li><a href="/blog/wholesale-mortgage-broker-san-diego-2026" className="text-blue-600 hover:underline font-medium">Wholesale Mortgage Broker San Diego: 200+ Lender Access</a> &mdash; How wholesale pricing benefits San Diego home buyers and refinancers</li>
             <li><a href="/blog/reverse-mortgage-california-guide-2026" className="text-blue-600 hover:underline font-medium">California Reverse Mortgage Guide 2026</a> &mdash; Statewide overview covering all major California markets</li>
             <li><a href="/blog/reverse-mortgage-coronado-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Coronado</a> &mdash; Detailed guide for Coronado island homeowners</li>
-            <li><a href="/blog/reverse-mortgage-del-mar-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Del Mar</a> &mdash; Specialized guide for Del Mar&apos;s luxury market</li>
+            <li><a href="/blog/reverse-mortgage-del-mar-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Del Mar</a> &mdash; Specialized guide for Del Mar&apos;s high-value market</li>
             <li><a href="/blog/reverse-mortgage-rancho-santa-fe-2026" className="text-blue-600 hover:underline font-medium">Reverse Mortgage Rancho Santa Fe</a> &mdash; Estate property guidance for Rancho Santa Fe seniors</li>
           </ul>
         </div>
@@ -609,7 +609,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
 
         <h3>Can I get a reverse mortgage on a Del Mar oceanfront home?</h3>
         <p>
-          Yes, Del Mar oceanfront homes qualify for reverse mortgages. With median values around $3.8 million, most Del Mar properties exceed the HECM limit, making proprietary reverse mortgage programs the preferred option for accessing maximum equity. Beach Colony and Olde Del Mar properties are routinely served by proprietary programs designed for California&apos;s luxury coastal markets.
+          Yes, Del Mar oceanfront homes qualify for reverse mortgages. With median values around $3.8 million, most Del Mar properties exceed the HECM limit, making proprietary reverse mortgage programs the preferred option for accessing maximum equity. Beach Colony and Olde Del Mar properties are routinely served by proprietary programs designed for California&apos;s high-value coastal markets.
         </p>
 
         <h3>Do Rancho Santa Fe estate properties qualify for reverse mortgages?</h3>
@@ -629,7 +629,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
 
         <h3>What is the difference between HECM and proprietary reverse mortgages in San Diego?</h3>
         <p>
-          HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,209,750, includes mandatory mortgage insurance premiums, and requires HUD counseling. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher, do not require FHA insurance, and offer different fee structures. For San Diego&apos;s luxury markets, proprietary programs provide access to significantly more equity but may have higher interest rates.
+          HECM (Home Equity Conversion Mortgage) is FHA-insured with a 2026 lending limit of $1,209,750, includes mandatory mortgage insurance premiums, and requires HUD counseling. Proprietary reverse mortgages are private programs with limits reaching $4 million or higher, do not require FHA insurance, and offer different fee structures. For San Diego&apos;s high-value markets, proprietary programs provide access to significantly more equity but may have higher interest rates.
         </p>
 
         <h3>Can La Jolla condo owners get reverse mortgages?</h3>
@@ -679,7 +679,7 @@ export default function ReverseMortgageSanDiegoGuidePage() {
             San Diego County offers one of the strongest reverse mortgage markets in California. With median home values ranging from $1.1 million in Poway to $4.5 million in Rancho Santa Fe, seniors 62 and older have access to substantial equity through both HECM and proprietary programs. The region&apos;s economic diversity&mdash;anchored by biotech, military, and tourism&mdash;supports stable property values that protect reverse mortgage borrowers over time.
           </p>
           <p className="text-gray-800">
-            For most San Diego luxury homeowners in Del Mar, Rancho Santa Fe, La Jolla, and Coronado, proprietary reverse mortgages are the primary option due to home values exceeding the $1,209,750 HECM limit. Carlsbad and Poway homeowners may have access to both HECM and proprietary programs. The line of credit payout option remains the most popular choice among San Diego seniors, providing financial flexibility with an unused growth feature.
+            For most San Diego homeowners in Del Mar, Rancho Santa Fe, La Jolla, and Coronado, proprietary reverse mortgages are the primary option due to home values exceeding the $1,209,750 HECM limit. Carlsbad and Poway homeowners may have access to both HECM and proprietary programs. The line of credit payout option remains the most popular choice among San Diego seniors, providing financial flexibility with an unused growth feature.
           </p>
           <p className="text-gray-800 mb-0">
             HUD counseling is mandatory for HECM loans and strongly recommended for proprietary programs. Working with a licensed mortgage broker who understands San Diego&apos;s diverse markets&mdash;from equestrian estates to island condos&mdash;ensures you receive personalized guidance on program selection, payout options, and long-term financial planning. Contact Mo Abdel at <a href="tel:9495792057" className="text-blue-700 font-semibold">(949) 579-2057</a> to discuss your San Diego reverse mortgage options.

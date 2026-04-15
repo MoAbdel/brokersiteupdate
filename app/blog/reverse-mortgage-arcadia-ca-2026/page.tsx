@@ -241,7 +241,7 @@ export default function ReverseMortgageArcadia() {
           </div>
 
           <p>
-            For most Arcadia homeowners with properties valued between $1.2M and $1.8M, the HECM remains the better choice due to its consumer protections, flexible payout options, and the growing line of credit feature. However, for luxury properties in Upper Rancho or Highland Oaks valued at $2.5M or more, jumbo reverse mortgages can provide access to significantly more equity than a HECM would allow.
+            For most Arcadia homeowners with properties valued between $1.2M and $1.8M, the HECM remains the better choice due to its consumer protections, flexible payout options, and the growing line of credit feature. However, for high-value properties in Upper Rancho or Highland Oaks valued at $2.5M or more, jumbo reverse mortgages can provide access to significantly more equity than a HECM would allow.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Reverse Mortgage Eligibility Requirements in Arcadia</h2>

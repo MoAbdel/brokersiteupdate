@@ -129,7 +129,7 @@ export default function ComprehensiveMortgageFAQ() {
         },
         {
           question: "What should I know about HOAs in Orange County?",
-          answer: "Many Orange County communities have HOA fees ranging $200-800+ monthly. Luxury communities and condos often have higher fees ($500-1,500+). HOA fees affect debt-to-income calculations for loan qualification. Lenders require HOA financials and budgets for condo financing. Some HOAs have rental restrictions affecting investment property purchases. HOA fees cover amenities, maintenance, insurance, and reserves.",
+          answer: "Many Orange County communities have HOA fees ranging $200-800+ monthly. High-value communities and condos often have higher fees ($500-1,500+). HOA fees affect debt-to-income calculations for loan qualification. Lenders require HOA financials and budgets for condo financing. Some HOAs have rental restrictions affecting investment property purchases. HOA fees cover amenities, maintenance, insurance, and reserves.",
           tags: ["hoa", "orange county", "condo financing"]
         },
         {
@@ -138,9 +138,9 @@ export default function ComprehensiveMortgageFAQ() {
           tags: ["school districts", "home values", "orange county"]
         },
         {
-          question: "What's different about buying luxury homes in Orange County?",
-          answer: "Luxury home financing (typically $2M+) requires: jumbo loan programs, higher down payments (20-30%), significant cash reserves (2-6 months payments), lower debt-to-income ratios, and extensive asset documentation. Appraisals take longer due to fewer comparable sales. Some luxury properties may require portfolio lending. Private banking relationships often beneficial for high-net-worth clients.",
-          tags: ["luxury homes", "jumbo loans", "high-end financing"]
+          question: "What's different about buying high-value homes in Orange County?",
+          answer: "High-value home financing (typically $2M+) requires: jumbo loan programs, higher down payments (20-30%), significant cash reserves (2-6 months payments), lower debt-to-income ratios, and extensive asset documentation. Appraisals take longer due to fewer comparable sales. Some high-value properties may require portfolio lending. Private banking relationships often beneficial for high-net-worth clients.",
+          tags: ["high-value homes", "jumbo loans", "high-end financing"]
         }
       ]
     },

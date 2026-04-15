@@ -266,7 +266,7 @@ export default function WholesaleMortgageBrokerLosAngelesGuide2026() {
             </li>
             <li>
               <a className="text-blue-600 hover:underline" href="/blog/wholesale-mortgage-broker-la-westside-luxury-2026">
-                LA Westside luxury wholesale guide
+                LA Westside high-value wholesale guide
               </a>
             </li>
             <li>

@@ -357,7 +357,7 @@ export default function LaderaRanchMortgageGuide2026() {
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="font-semibold text-slate-900 mb-3">Premium Villages</h3>
               <ul className="text-slate-600 space-y-2">
-                <li><strong>Avendale:</strong> Luxury homes $1.5M-$2.5M, jumbo required</li>
+                <li><strong>Avendale:</strong> High-value homes $1.5M-$2.5M, jumbo required</li>
                 <li><strong>Covenant Hills (custom):</strong> Custom estates $2M+</li>
                 <li><strong>Oak Knoll:</strong> Near amenities, $1.3M-$1.8M</li>
               </ul>

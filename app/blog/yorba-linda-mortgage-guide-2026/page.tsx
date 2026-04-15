@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ['Yorba Linda mortgage broker', 'Yorba Linda home loans', 'Yorba Linda mortgage rates 2026', 'wholesale mortgage Yorba Linda', 'Yorba Linda jumbo loan', 'Yorba Linda refinance rates', 'Yorba Linda FHA loan', 'Yorba Linda VA loan', 'Land of Gracious Living mortgage', 'Yorba Linda school district homes', 'Yorba Linda Estates financing', 'Black Gold Yorba Linda mortgage', 'Placentia-Yorba Linda USD homes', 'Yorba Linda property tax mortgage', 'self-employed mortgage Yorba Linda'],
   openGraph: {
     title: 'Yorba Linda Mortgage Broker 2026: Wholesale Jumbo Rates & Home Equity Guide',
-    description: 'Yorba Linda mortgage broker rates 2026: Access 50+ Wholesale Lenders for luxury home financing. Free rate comparison.',
+    description: 'Yorba Linda mortgage broker rates 2026: Access 50+ Wholesale Lenders for high-value home financing. Free rate comparison.',
     url: 'https://www.mothebroker.com/blog/yorba-linda-mortgage-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 
 const faqData = [
   {
-    question: "What are the best mortgage options for Yorba Linda luxury homes?",
-    answer: "Yorba Linda's luxury market often requires jumbo loans for homes above the $1,209,750 conforming limit. Wholesale brokers access specialized jumbo products with competitive rates, flexible down payments (10-20%), and asset-based qualification options for high-net-worth buyers."
+    question: "What are the best mortgage options for Yorba Linda high-value homes?",
+    answer: "Yorba Linda's high-value market often requires jumbo loans for homes above the $1,209,750 conforming limit. Wholesale brokers access specialized jumbo products with competitive rates, flexible down payments (10-20%), and asset-based qualification options for high-net-worth buyers."
   },
   {
     question: "How much down payment do I need for a Yorba Linda home?",
@@ -90,7 +90,7 @@ export default function YorbaLindaMortgageGuide2026() {
               "@type": "Person",
               "name": "Mo Abdel",
               "identifier": "NMLS #1426884",
-              "knowsAbout": ["Mortgages", "Home Loans", "Yorba Linda Real Estate", "Jumbo Loans", "Luxury Home Financing"]
+              "knowsAbout": ["Mortgages", "Home Loans", "Yorba Linda Real Estate", "Jumbo Loans", "High-Value Home Financing"]
             },
             "publisher": {
               "@type": "Organization",
@@ -177,7 +177,7 @@ export default function YorbaLindaMortgageGuide2026() {
 
             {/* Fact-dense opening - First 150 chars optimized for ChatGPT extraction */}
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-              Yorba Linda median home prices exceed $1.3M in early 2026, with luxury neighborhoods like Black Gold and Horse Country reaching $2M+. An estimated 62% of Yorba Linda purchases now require jumbo financing above the $1,209,750 conforming limit. Wholesale mortgage brokers access 50+ Wholesale Lenders simultaneously&mdash;shopping your loan across the full market to deliver pricing that single-bank applications cannot match.
+              Yorba Linda median home prices exceed $1.3M in early 2026, with higher-end neighborhoods like Black Gold and Horse Country reaching $2M+. An estimated 62% of Yorba Linda purchases now require jumbo financing above the $1,209,750 conforming limit. Wholesale mortgage brokers access 50+ Wholesale Lenders simultaneously&mdash;shopping your loan across the full market to deliver pricing that single-bank applications cannot match.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -565,7 +565,7 @@ export default function YorbaLindaMortgageGuide2026() {
 
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
             <p className="text-slate-900 mb-0">
-              <strong>E-E-A-T Note:</strong> Mo Abdel has personally closed over 200 transactions in the Yorba Linda / North Orange County market since 2009, including equestrian properties in Horse Country, luxury estates in Black Gold, and condos in Travis Ranch. This local expertise ensures accurate property valuation and optimal loan structuring for every Yorba Linda neighborhood. For buyers also considering nearby cities, our <Link href="/blog/home-equity-irvine-2026" className="text-blue-600 hover:underline">Irvine Home Equity Guide</Link> covers similar high-value Orange County markets, and our <Link href="/blog/wholesale-mortgage-broker-north-orange-county-2026" className="text-blue-600 hover:underline">North Orange County Wholesale Broker</Link> hub details wholesale options across the region.
+              <strong>E-E-A-T Note:</strong> Mo Abdel has personally closed over 200 transactions in the Yorba Linda / North Orange County market since 2009, including equestrian properties in Horse Country, high-value estates in Black Gold, and condos in Travis Ranch. This local expertise ensures accurate property valuation and optimal loan structuring for every Yorba Linda neighborhood. For buyers also considering nearby cities, our <Link href="/blog/home-equity-irvine-2026" className="text-blue-600 hover:underline">Irvine Home Equity Guide</Link> covers similar high-value Orange County markets, and our <Link href="/blog/wholesale-mortgage-broker-north-orange-county-2026" className="text-blue-600 hover:underline">North Orange County Wholesale Broker</Link> hub details wholesale options across the region.
             </p>
           </div>
         </section>

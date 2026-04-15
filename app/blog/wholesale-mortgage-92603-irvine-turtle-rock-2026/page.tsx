@@ -243,7 +243,7 @@ export default function WholesaleMortgage92603IrvineTurtleRockPage() {
 
         <h3>Shady Canyon</h3>
         <p>
-          Ultra-luxury gated community with homes from $3M to $10M+. Custom estates on large lots near the private Shady Canyon Golf Club. Asset depletion and bank statement programs popular among high-net-worth residents.
+          Gated community with homes from $3M to $10M+. Custom estates on large lots near the private Shady Canyon Golf Club. Asset depletion and bank statement programs popular among high-net-worth residents.
         </p>
 
         <h3>Turtle Ridge</h3>
