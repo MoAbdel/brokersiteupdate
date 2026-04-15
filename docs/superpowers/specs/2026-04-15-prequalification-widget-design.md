@@ -12,7 +12,9 @@
 
 Slice 1 surfaced product caps under the hero H1 so users can self-qualify at-a-glance. Slice 2+4 removed luxury positioning across the site and canonicalized example scenarios. Leads still arrive at `/contact` with requests outside lendable range (HELOCs over $750K, total loan amounts over $3.5M, homes over $5M) — phone triage absorbs the cost.
 
-This slice installs a pre-qualification gate on the primary contact form. Users answer four questions before seeing the full form. Out-of-ICP inputs route them to the same form with a referral-context heading and a hidden `caseType: 'referral'` submit flag; slice 6 will upgrade that path into a proper referral-partner UI. In-ICP inputs land the user on the standard form, pre-filled with their widget entries.
+This slice surfaces pre-qualification to the user **before** they fill the full form. An existing `lib/leadQualification.ts` module + `qualify()` function already runs *on submit* from `components/contact/PremiumContactForm.tsx:356` and tags leads with a hidden `qualification_status` field — so post-submit tagging is live, but users currently complete the whole form with no indication they're outside scope. Slice 5 lifts the check to Stage 1 and shows the outcome.
+
+Out-of-ICP inputs route users to the same form with a referral-context heading and a hidden `case_type: 'referral'` submit flag; slice 6 will upgrade that path into a proper referral-partner UI. In-ICP inputs land users on the standard form, pre-filled with their widget entries.
 
 ## Goals
 
@@ -41,20 +43,31 @@ This slice installs a pre-qualification gate on the primary contact form. Users 
 | `other` | `LOAN_CAPS.jumbo` (default) | $3,500,000 |
 | *all products* | `MAX_HOME_VALUE` (new) | $5,000,000 |
 
-`MAX_HOME_VALUE` is a new constant introduced in `lib/prequalification.ts`. It is *not* a loan cap — it is an ICP-fit ceiling. Keeping it out of `lib/loan-caps.ts` preserves the semantic distinction between "what we lend" and "who fits our ICP."
+`MAX_HOME_VALUE` is a new constant added to `lib/leadQualification.ts`. It is *not* a loan cap — it is an ICP-fit ceiling. Kept out of `lib/loan-caps.ts` to preserve the semantic distinction between "what we lend" and "who fits our ICP."
+
+### Reconciliation with existing `OVERALL_TARGET`
+
+`lib/leadQualification.ts` currently exports `OVERALL_TARGET = { min: 100_000, max: 2_500_000 }`, used by the existing `qualify()` function's "outside_target_range" branch. The slice-5 thresholds (jumbo/conventional/cashOut at $3,500,000) supersede this. Action: update `OVERALL_TARGET.max` to `3_500_000` so the legacy `qualify()` consumers stay consistent with slice-5 semantics. The existing lower bound (`min: 100_000`) is retained — leads under $100K total are typically not mortgage-shaped. No existing caller of `qualify()` is broken by raising the max.
 
 ## Architecture
 
-### Unit A — `lib/prequalification.ts` (new SSOT module)
+### Unit A — Extend `lib/leadQualification.ts` (existing SSOT module)
+
+Rather than introduce a parallel module, the new slice-5 surface is added alongside the existing `qualify()` / `QualificationResult` API. Existing callers (`PremiumContactForm:356`, plus any other consumer of `qualify`) keep working unchanged.
+
+Additions to `lib/leadQualification.ts`:
 
 ```ts
 import { LOAN_CAPS } from '@/lib/loan-caps';
 
+// NEW: ICP home-value ceiling (slice 5)
 export const MAX_HOME_VALUE = 5_000_000;
 
+// NEW: product taxonomy for pre-qual widget
 export type PrequalProduct =
   | 'heloc' | 'cashOut' | 'rateTerm' | 'purchase' | 'dscr' | 'other';
 
+// NEW: richer input shape
 export interface PrequalInput {
   homeValue: number;
   currentMortgage: number;
@@ -62,6 +75,7 @@ export interface PrequalInput {
   product: PrequalProduct;
 }
 
+// NEW: structured failure reasons (UI uses these for plain-English messages)
 export type PrequalFailReason =
   | { type: 'home-value-exceeds-icp'; limit: number; actual: number }
   | { type: 'product-cap-exceeded'; product: PrequalProduct; cap: number; actual: number };
@@ -70,14 +84,22 @@ export type PrequalResult =
   | { qualified: true }
   | { qualified: false; reasons: PrequalFailReason[] };
 
-export function isQualified(input: PrequalInput): PrequalResult;
+// NEW: pure function, no side effects
+export function isPrequalified(input: PrequalInput): PrequalResult;
 
+// NEW: helper for UI copy ("HELOCs over $X are routed…")
 export function capForProduct(product: PrequalProduct): number;
 ```
 
-- Pure function, no side effects, no I/O
-- Returns a `reasons[]` array so UI can distinguish "home too expensive" from "loan too big"
-- `capForProduct` helper centralizes the product-to-cap mapping (used by UI for "HELOCs over $750K" messaging text)
+Modifications to existing exports:
+- `OVERALL_TARGET.max` raised from `2_500_000` → `3_500_000` (aligns legacy `qualify()` with slice-5 cap semantics)
+- No existing exports removed; no existing types changed
+
+Function name is `isPrequalified` (not `isQualified`) to disambiguate from the existing `qualify()` — same module, two related but distinct surfaces:
+- `qualify(input)` — legacy, used by submit-time lead tagging in `PremiumContactForm`. Returns `{ status, reason? }`. Unchanged shape.
+- `isPrequalified(input)` — new, used by the widget. Returns `{ qualified, reasons? }` with richer structure for UI branching.
+
+The legacy `qualify()` call in `PremiumContactForm:356` stays put for this slice; future cleanup can migrate it once slice 6 is live.
 
 ### Unit B — `components/prequal/PrequalWidget.tsx` (new component)
 
@@ -189,12 +211,12 @@ Existing form submit event gains a new property: `case_type: 'standard' | 'refer
 ## Implementation Surfaces
 
 ### New files
-- `lib/prequalification.ts` — SSOT module
 - `components/prequal/PrequalWidget.tsx` — widget component
 - `components/prequal/PrequalSummaryChip.tsx` — collapsed-state summary
 - `scripts/validate-prequal.mjs` — truth-table validator (no test framework)
 
 ### Modified files
+- `lib/leadQualification.ts` — extended with `MAX_HOME_VALUE`, `PrequalProduct`, `PrequalInput`, `PrequalFailReason`, `PrequalResult`, `isPrequalified()`, `capForProduct()`; `OVERALL_TARGET.max` raised to `3_500_000`
 - `app/contact/ContactPageClient.tsx` — state machine wrapping widget + form
 - `components/contact/PremiumContactForm.tsx` — accepts `initialValues`, `caseType`, `referralReasons` props
 
@@ -252,14 +274,14 @@ On `http://localhost:3000/contact` at both 1440px and 375px viewports:
 
 ## Rollout
 
-1. Land `lib/prequalification.ts` + `scripts/validate-prequal.mjs` (additive, no UI change)
-2. Land `PrequalWidget` and `PrequalSummaryChip` components (additive, unconsumed)
-3. Modify `PremiumContactForm` to accept new optional props (backward-compatible)
-4. Modify `ContactPageClient` to wire the state machine — this is the user-facing change
-5. Verify all 3 gates locally
-6. Push; Vercel auto-deploys to production
-7. Gate 3 verification
-8. Monitor GA `prequal_submitted` events for 7 days; confirm bucketed distribution matches expected ICP mix
+1. Extend `lib/leadQualification.ts` with new types + `isPrequalified()` + `capForProduct()`; raise `OVERALL_TARGET.max`. Add `scripts/validate-prequal.mjs`. (Additive + one backward-compatible bump, no UI change.)
+2. Land `PrequalWidget` and `PrequalSummaryChip` components (additive, unconsumed).
+3. Modify `PremiumContactForm` to accept new optional props (backward-compatible).
+4. Modify `ContactPageClient` to wire the state machine — this is the user-facing change.
+5. Verify all 3 gates locally.
+6. Push; Vercel auto-deploys to production.
+7. Gate 3 verification.
+8. Monitor GA `prequal_submitted` events for 7 days; confirm bucketed distribution matches expected ICP mix.
 
 ## Out of Scope (confirmed)
 
