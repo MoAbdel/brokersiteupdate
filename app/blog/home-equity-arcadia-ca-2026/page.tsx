@@ -71,7 +71,7 @@ export default function HomeEquityArcadiaCAPage() {
         "name": "What home equity options work best for Arcadia homes in the award-winning school districts?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Arcadia Unified School District's exceptional reputation means homes here command premium values and retain equity well. For homeowners planning renovations to maximize resale value, a HELOC provides flexibility for phased improvements. For specific projects like kitchen remodels ($75,000-$150,000 in Arcadia's luxury market) or adding square footage, a fixed-rate home equity loan offers payment predictability. School district value protects your investment, making equity-funded improvements a sound strategy."
+          "text": "Arcadia Unified School District's exceptional reputation means homes here command premium values and retain equity well. For homeowners planning renovations to maximize resale value, a HELOC provides flexibility for phased improvements. For specific projects like kitchen remodels ($75,000-$150,000 in Arcadia's high-value market) or adding square footage, a fixed-rate home equity loan offers payment predictability. School district value protects your investment, making equity-funded improvements a sound strategy."
         }
       },
       {
@@ -290,7 +290,7 @@ export default function HomeEquityArcadiaCAPage() {
           Upper Rancho represents Arcadia's most exclusive residential area, featuring sprawling estate properties on generous lots with panoramic views of the San Gabriel Mountains. Homes in this neighborhood often exceed 5,000 square feet and include features like tennis courts, guest houses, and resort-style pools. Property values commonly range from $2.5 million to over $5 million, with exceptional estates commanding even higher prices.
         </p>
         <p>
-          For Upper Rancho homeowners, super-jumbo equity products provide access to substantial funds. Credit lines of $1 million or more are available for qualified borrowers with significant equity positions. These products cater to high-net-worth individuals with complex financial needs including business investments, property portfolio expansion, and luxury renovations.
+          For Upper Rancho homeowners, super-jumbo equity products provide access to substantial funds. Credit lines of $1 million or more are available for qualified borrowers with significant equity positions. These products cater to high-net-worth individuals with complex financial needs including business investments, property portfolio expansion, and home renovations.
         </p>
 
         <h3>Highland Oaks and Santa Anita Oaks</h3>
@@ -714,7 +714,7 @@ export default function HomeEquityArcadiaCAPage() {
 
         <h3>What home equity options work best for Arcadia homes in the award-winning school districts?</h3>
         <p>
-          Arcadia Unified School District's exceptional reputation means homes here command premium values and retain equity well. For homeowners planning renovations to maximize resale value, a HELOC provides flexibility for phased improvements. For specific projects like kitchen remodels ($75,000-$150,000 in Arcadia's luxury market) or adding square footage, a fixed-rate home equity loan offers payment predictability. School district value protects your investment, making equity-funded improvements a sound strategy.
+          Arcadia Unified School District's exceptional reputation means homes here command premium values and retain equity well. For homeowners planning renovations to maximize resale value, a HELOC provides flexibility for phased improvements. For specific projects like kitchen remodels ($75,000-$150,000 in Arcadia's high-value market) or adding square footage, a fixed-rate home equity loan offers payment predictability. School district value protects your investment, making equity-funded improvements a sound strategy.
         </p>
 
         <h3>How does a cash-out refinance work for jumbo loans in Arcadia?</h3>

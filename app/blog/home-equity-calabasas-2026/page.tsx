@@ -54,7 +54,7 @@ export default function HomeEquityCalabasasPage() {
 
         <h2>Popular Uses</h2>
         <ul>
-          <li><strong>Luxury renovations:</strong> Modern updates to estates</li>
+          <li><strong>Home renovations:</strong> Modern updates to estates</li>
           <li><strong>Entertainment spaces:</strong> Home theaters, outdoor kitchens</li>
           <li><strong>Business ventures:</strong> Entertainment industry capital</li>
           <li><strong>Investment properties:</strong> Portfolio expansion</li>

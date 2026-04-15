@@ -513,7 +513,7 @@ export default function WholesaleMortgageBrokerSGVPasadenaPage() {
         <ul>
           <li><strong>Loan amounts:</strong> $1,149,826 to $5 million+ (some lenders to $10 million)</li>
           <li><strong>Down payment:</strong> As low as 10% on loans to $2 million; 15-20% on loans to $3 million; 20-25% on loans above $3 million</li>
-          <li><strong>Property types:</strong> Single-family homes, condos, townhomes, 2-4 unit properties, and select luxury condominiums</li>
+          <li><strong>Property types:</strong> Single-family homes, condos, townhomes, 2-4 unit properties, and select upscale condominiums</li>
           <li><strong>Rate options:</strong> 30-year fixed, 15-year fixed, 7/6 ARM, 10/6 ARM</li>
           <li><strong>Interest-only:</strong> Available on select programs for the first 10 years, reducing monthly payments during the interest-only period</li>
           <li><strong>Second homes:</strong> Jumbo financing available for second homes with slightly higher down payment requirements</li>

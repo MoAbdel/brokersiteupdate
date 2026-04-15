@@ -387,7 +387,7 @@ export default function ReverseMortgageLAWestsideBeach() {
           </div>
 
           <p>
-            The total process from initial consultation to funding typically takes 30 to 45 days for standard properties. Beachfront homes in Manhattan Beach or Hermosa Beach and high-value properties above $3 million may require extended appraisal timelines because the appraiser must locate comparable sales in a thin luxury market. I coordinate this entire process and have relationships with appraisers who specialize in LA Beach Cities coastal properties.
+            The total process from initial consultation to funding typically takes 30 to 45 days for standard properties. Beachfront homes in Manhattan Beach or Hermosa Beach and high-value properties above $3 million may require extended appraisal timelines because the appraiser must locate comparable sales in a thin high-value market. I coordinate this entire process and have relationships with appraisers who specialize in LA Beach Cities coastal properties.
           </p>
 
           {/* Payout Options Table */}

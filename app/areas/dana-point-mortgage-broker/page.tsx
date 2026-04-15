@@ -24,7 +24,7 @@ const danaPointData = {
   },
   localFactors: [
     'Harbor community',
-    'Luxury resorts',
+    'Resort communities',
     'Beach access',
     'Scenic coastal views'
   ],

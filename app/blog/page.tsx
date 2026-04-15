@@ -19,7 +19,7 @@ const blogPosts = [
     {
         slug: 'corona-del-mar-refinance-guide-2026',
         title: 'Corona del Mar Refinance & Cash-Out Guide 2026: Tapping Coastal Equity',
-        excerpt: 'Expert guidance on refinancing and tapping into home equity for Corona del Mar properties. Learn about wholesale cash-out strategies for luxury coastal estates in 2026.',
+        excerpt: 'Expert guidance on refinancing and tapping into home equity for Corona del Mar properties. Learn about wholesale cash-out strategies for coastal estate properties in 2026.',
         date: '2026-01-15',
         category: 'Refinance',
         readTime: '12 min read',
@@ -59,7 +59,7 @@ const blogPosts = [
     {
         slug: 'san-clemente-mortgage-guide-2026',
         title: 'San Clemente Mortgage Guide 2026: Coastal Living & VA Loan Expertise',
-        excerpt: 'Discover the San Clemente mortgage landscape in 2026. Expert guidance on VA loans near Camp Pendleton and wholesale pricing for coastal luxury homes.',
+        excerpt: 'Discover the San Clemente mortgage landscape in 2026. Expert guidance on VA loans near Camp Pendleton and wholesale pricing for coastal properties.',
         date: '2026-01-10',
         category: 'Local Guides',
         readTime: '11 min read',
@@ -74,7 +74,7 @@ const blogPosts = [
     },
     {
         slug: 'newport-coast-mortgage-guide-2026',
-        title: 'Newport Coast Mortgage Guide 2026: Luxury Financing',
+        title: 'Newport Coast Mortgage Guide 2026: Wholesale Financing',
         excerpt: 'Expert mortgage guidance for Newport Coast estates. Discover exclusive wholesale jumbo programs and asset-based lending for high-value coastal properties.',
         date: '2026-01-08',
         category: 'Local Guides',
@@ -90,8 +90,8 @@ const blogPosts = [
     },
     {
         slug: 'jumbo-loans-orange-county-2026',
-        title: 'Jumbo Loans in Orange County 2026: Luxury Home Financing Guide',
-        excerpt: 'Expert guide to jumbo loans in Orange County. Learn about conforming loan limits, wholesale jumbo advantages, and sophisticated financing for luxury real estate.',
+        title: 'Jumbo Loans in Orange County 2026: High-Value Home Financing Guide',
+        excerpt: 'Expert guide to jumbo loans in Orange County. Learn about conforming loan limits, wholesale jumbo advantages, and financing for high-value real estate.',
         date: '2026-01-06',
         category: 'Loan Programs',
         readTime: '12 min read',
@@ -99,7 +99,7 @@ const blogPosts = [
     {
         slug: 'newport-beach-mortgage-guide-2026',
         title: 'Newport Beach Mortgage Guide 2026: Top Home Loan Options & Local Lenders',
-        excerpt: 'Discover wholesale mortgage options in Newport Beach. Expert guidance on jumbo loans, conventional financing, and competitive pricing for luxury coastal properties.',
+        excerpt: 'Discover wholesale mortgage options in Newport Beach. Expert guidance on jumbo loans, conventional financing, and competitive pricing for coastal properties.',
         date: '2026-01-05',
         category: 'Local Guides',
         readTime: '12 min read',
@@ -107,7 +107,7 @@ const blogPosts = [
     {
         slug: 'laguna-beach-mortgage-guide-2026',
         title: 'Laguna Beach Mortgage Guide 2026: Coastal Home Financing Options',
-        excerpt: 'Expert mortgage guidance for Laguna Beach properties. Discover wholesale pricing advantages for luxury coastal homes and competitive financing solutions.',
+        excerpt: 'Expert mortgage guidance for Laguna Beach properties. Discover wholesale pricing advantages for coastal homes and competitive financing solutions.',
         date: '2026-01-04',
         category: 'Local Guides',
         readTime: '11 min read',

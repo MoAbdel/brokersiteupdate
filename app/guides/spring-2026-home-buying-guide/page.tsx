@@ -203,9 +203,9 @@ export default function Spring2026HomeBuyingGuidePage() {
         },
         {
             area: 'Newport Beach',
-            trend: 'Luxury Market Strength',
+            trend: 'High-Value Market Strength',
             prediction: 'Premium properties see renewed interest',
-            opportunity: 'Motivated luxury sellers after winter'
+            opportunity: 'Motivated sellers after winter'
         },
         {
             area: 'Costa Mesa',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Central Coast Reverse Mortgage: Santa Barbara to SLO Senior HECM Guide [2026] | Mo Abdel',
-  description: 'Central Coast reverse mortgage guide covering Santa Barbara, Montecito, SLO, Pismo Beach & Carpinteria. HECM eligibility, payout options & luxury home equity access for seniors 62+.',
+  description: 'Central Coast reverse mortgage guide covering Santa Barbara, Montecito, SLO, Pismo Beach & Carpinteria. HECM eligibility, payout options & high-value home equity access for seniors 62+.',
   keywords: [
     'reverse mortgage Central Coast',
     'HECM Santa Barbara',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'SLO reverse mortgage seniors',
     'proprietary reverse mortgage Central Coast',
     'California reverse mortgage 2026',
-    'luxury home reverse mortgage',
+    'high-value home reverse mortgage',
   ],
   openGraph: {
     title: 'Central Coast Reverse Mortgage: Santa Barbara to SLO Senior HECM Guide [2026]',
@@ -255,9 +255,9 @@ export default function ReverseMortgageCentralCoastGuide2026() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="py-2 px-4 border-b">Montecito</td><td className="py-2 px-4 border-b font-semibold">$8,500,000</td><td className="py-2 px-4 border-b">$6.2M&ndash;$7.8M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">Santa Barbara Luxury</td></tr>
-              <tr><td className="py-2 px-4 border-b">Carpinteria</td><td className="py-2 px-4 border-b font-semibold">$2,500,000</td><td className="py-2 px-4 border-b">$1.8M&ndash;$2.3M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">Santa Barbara Luxury</td></tr>
-              <tr><td className="py-2 px-4 border-b">Santa Barbara</td><td className="py-2 px-4 border-b font-semibold">$2,300,000</td><td className="py-2 px-4 border-b">$1.6M&ndash;$2.1M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">Santa Barbara Luxury</td></tr>
+              <tr><td className="py-2 px-4 border-b">Montecito</td><td className="py-2 px-4 border-b font-semibold">$8,500,000</td><td className="py-2 px-4 border-b">$6.2M&ndash;$7.8M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">Santa Barbara High-Value</td></tr>
+              <tr><td className="py-2 px-4 border-b">Carpinteria</td><td className="py-2 px-4 border-b font-semibold">$2,500,000</td><td className="py-2 px-4 border-b">$1.8M&ndash;$2.3M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">Santa Barbara High-Value</td></tr>
+              <tr><td className="py-2 px-4 border-b">Santa Barbara</td><td className="py-2 px-4 border-b font-semibold">$2,300,000</td><td className="py-2 px-4 border-b">$1.6M&ndash;$2.1M</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">Proprietary Jumbo</td><td className="py-2 px-4 border-b">Santa Barbara High-Value</td></tr>
               <tr><td className="py-2 px-4 border-b">San Luis Obispo</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$720K&ndash;$900K</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM Standard</td><td className="py-2 px-4 border-b">Central Coast</td></tr>
               <tr><td className="py-2 px-4 border-b">Pismo Beach</td><td className="py-2 px-4 border-b font-semibold">$1,000,000</td><td className="py-2 px-4 border-b">$700K&ndash;$880K</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM Standard</td><td className="py-2 px-4 border-b">Central Coast</td></tr>
               <tr><td className="py-2 px-4 border-b">Cambria</td><td className="py-2 px-4 border-b font-semibold">$900,000</td><td className="py-2 px-4 border-b">$650K&ndash;$810K</td><td className="py-2 px-4 border-b text-blue-700 font-semibold">HECM Standard</td><td className="py-2 px-4 border-b">Central Coast</td></tr>
@@ -278,7 +278,7 @@ export default function ReverseMortgageCentralCoastGuide2026() {
           <li><strong>Initial consultation with Mo Abdel (Day 1):</strong> Free phone or in-person assessment of your Central Coast property, equity position, and financial goals. We review your property value, existing mortgage balance, age, and desired payout method to determine preliminary eligibility and estimated proceeds.</li>
           <li><strong>HUD-approved counseling session (Days 2&ndash;14):</strong> Federal law requires all HECM applicants to complete a counseling session with an independent HUD-approved counselor. This session covers reverse mortgage mechanics, alternatives, and obligations. Phone and video sessions are available for Central Coast residents.</li>
           <li><strong>Formal application submission (Day 15):</strong> Submit your application along with required documentation including government-issued ID, proof of age, property deed, and recent financial statements. Mo Abdel&apos;s team handles the paperwork and submits to the optimal lender from our 50+ Wholesale Lenders.</li>
-          <li><strong>Property appraisal (Days 16&ndash;25):</strong> A certified FHA appraiser inspects and values your Central Coast property. Montecito and Santa Barbara luxury properties often require appraisers with specific high-value experience. The appraised value determines your maximum proceeds.</li>
+          <li><strong>Property appraisal (Days 16&ndash;25):</strong> A certified FHA appraiser inspects and values your Central Coast property. Montecito and Santa Barbara high-value properties often require appraisers with specific high-value experience. The appraised value determines your maximum proceeds.</li>
           <li><strong>Financial assessment and underwriting (Days 20&ndash;35):</strong> The lender verifies your ability to maintain property taxes, homeowner&apos;s insurance, and property maintenance. Credit history is reviewed, though reverse mortgages have more flexible credit requirements than traditional loans.</li>
           <li><strong>Loan approval and closing disclosure (Days 30&ndash;40):</strong> Upon approval, you receive detailed closing documents including final loan terms, interest rate, and total proceeds. A mandatory 3-day cooling-off period allows review before closing.</li>
           <li><strong>Closing and fund disbursement (Days 33&ndash;45):</strong> Sign closing documents, complete the 3-day rescission period, and receive your funds according to the chosen payout method&mdash;lump sum, monthly payments, line of credit, or combination.</li>
@@ -344,10 +344,10 @@ export default function ReverseMortgageCentralCoastGuide2026() {
           This appreciation data illustrates why Central Coast reverse mortgage proceeds have increased substantially over recent years. Every $100,000 in additional home value translates to approximately $40,000&ndash;$55,000 in additional accessible equity for a 72-year-old borrower, depending on interest rates and program type.
         </p>
 
-        {/* Hub Preview: Santa Barbara Luxury */}
-        <h2>Hub Preview: Santa Barbara Luxury Corridor (Montecito, Santa Barbara &amp; Carpinteria)</h2>
+        {/* Hub Preview: Santa Barbara High-Value */}
+        <h2>Hub Preview: Santa Barbara High-Value Corridor (Montecito, Santa Barbara &amp; Carpinteria)</h2>
         <p>
-          The Santa Barbara luxury corridor represents the highest-value reverse mortgage market on California&apos;s Central Coast. These three communities share geographic proximity, architectural prestige, and a senior population that has accumulated generational wealth through real estate.
+          The Santa Barbara high-value corridor represents the highest-value reverse mortgage market on California&apos;s Central Coast. These three communities share geographic proximity, architectural prestige, and a senior population that has accumulated generational wealth through real estate.
         </p>
         <h3>Montecito: Estate-Level Reverse Mortgages</h3>
         <p>

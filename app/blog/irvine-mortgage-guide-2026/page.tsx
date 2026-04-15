@@ -102,7 +102,7 @@ export default function IrvineMortgageGuidePage() {
                             </thead>
                             <tbody className="divide-y divide-blue-100">
                                 <tr>
-                                    <td className="py-3 px-4 font-semibold">Luxury (Turtle Ridge/Shady Canyon)</td>
+                                    <td className="py-3 px-4 font-semibold">High-Value (Turtle Ridge/Shady Canyon)</td>
                                     <td className="py-3 px-4">Institutional Jumbo</td>
                                     <td className="py-3 px-4">Asset-based qualification & low rates</td>
                                 </tr>

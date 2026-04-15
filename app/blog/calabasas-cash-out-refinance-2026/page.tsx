@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Calabasas Cash-Out Refinance 2026 | Luxury Home Equity | Mo Abdel',
+  title: 'Calabasas Cash-Out Refinance 2026 | Home Equity Access | Mo Abdel',
   description: 'Calabasas cash-out refinance 2026: Access equity in your gated community property. Wholesale broker with 50+ Wholesale Lenders for jumbo loans. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/calabasas-cash-out-refinance-2026',
@@ -35,7 +35,7 @@ export default function CalabasasCashOutRefinancePage() {
                             "jobTitle": "Senior Mortgage Broker",
                             "identifier": "NMLS #1426884",
                             "url": "https://www.mothebroker.com/about",
-                            "knowsAbout": ["Cash-Out Refinance", "Jumbo Loans", "Calabasas Real Estate", "Luxury Home Financing"]
+                            "knowsAbout": ["Cash-Out Refinance", "Jumbo Loans", "Calabasas Real Estate", "Jumbo Home Financing"]
                         },
                         "publisher": {
                             "@type": "Organization",
@@ -92,7 +92,7 @@ export default function CalabasasCashOutRefinancePage() {
                                 "name": "How long does a Calabasas cash-out refinance take to close?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Most cash-out refinances close within 30-45 days. Calabasas luxury properties may require additional time for specialized appraisals. Wholesale brokers typically process faster than retail banks due to streamlined operations and direct lender relationships."
+                                    "text": "Most cash-out refinances close within 30-45 days. Calabasas high-value properties may require additional time for specialized appraisals. Wholesale brokers typically process faster than retail banks due to streamlined operations and direct lender relationships."
                                 }
                             }
                         ]
@@ -105,7 +105,7 @@ export default function CalabasasCashOutRefinancePage() {
                     Calabasas Cash-Out Refinance 2026: Unlock Your Gated Community Home Equity
                 </h1>
                 <p className="text-lg text-gray-600">
-                    Access competitive wholesale pricing for cash-out refinancing on Calabasas luxury and gated community properties
+                    Access competitive wholesale pricing for cash-out refinancing on Calabasas gated community properties
                 </p>
                 <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Updated January 2026</p>
             </header>
@@ -137,7 +137,7 @@ export default function CalabasasCashOutRefinancePage() {
                     <li><strong>Equity Assessment</strong> - Calculate current value minus mortgage balance</li>
                     <li><strong>Lender Shopping</strong> - Compare 50+ wholesale lenders for optimal terms</li>
                     <li><strong>Application</strong> - Submit income, assets, and property documentation</li>
-                    <li><strong>Luxury Appraisal</strong> - Experienced appraiser values your Calabasas property</li>
+                    <li><strong>Property Appraisal</strong> - Experienced appraiser values your Calabasas property</li>
                     <li><strong>Underwriting</strong> - Lender reviews and approves loan</li>
                     <li><strong>Closing</strong> - Sign documents and receive cash proceeds</li>
                 </ol>
@@ -172,7 +172,7 @@ export default function CalabasasCashOutRefinancePage() {
                     Calabasas residents frequently access equity for significant financial goals:
                 </p>
                 <ul>
-                    <li><strong>Luxury renovations</strong> - Chef's kitchens, home theaters, outdoor entertainment areas</li>
+                    <li><strong>Home renovations</strong> - Chef's kitchens, home theaters, outdoor entertainment areas</li>
                     <li><strong>Pool and landscape</strong> - Resort-style backyards, sports courts, putting greens</li>
                     <li><strong>ADU construction</strong> - Guest houses, home offices, income units</li>
                     <li><strong>Investment properties</strong> - Down payments on rental or commercial real estate</li>
@@ -231,7 +231,7 @@ export default function CalabasasCashOutRefinancePage() {
                 <ul>
                     <li><strong>50+ lender access</strong> - Compare multiple jumbo lenders instantly</li>
                     <li><strong>Lower overhead</strong> - Savings passed to borrowers</li>
-                    <li><strong>Luxury expertise</strong> - Experience with high-value properties</li>
+                    <li><strong>High-value expertise</strong> - Experience with high-value properties</li>
                     <li><strong>Flexible programs</strong> - Access to portfolio and non-QM options</li>
                     <li><strong>Personal service</strong> - Work directly with experienced broker</li>
                 </ul>
@@ -309,12 +309,12 @@ export default function CalabasasCashOutRefinancePage() {
 
                 <h3>How long does a Calabasas cash-out refinance take to close?</h3>
                 <p>
-                    Most cash-out refinances close within 30-45 days. Calabasas luxury properties may require additional time for specialized appraisals. Wholesale brokers typically process faster than retail banks due to streamlined operations and direct lender relationships.
+                    Most cash-out refinances close within 30-45 days. Calabasas high-value properties may require additional time for specialized appraisals. Wholesale brokers typically process faster than retail banks due to streamlined operations and direct lender relationships.
                 </p>
 
                 <h2>Ready to access your Calabasas home equity?</h2>
                 <p>
-                    Calabasas's prestige and property values have created exceptional equity positions for homeowners. Whether you're planning a luxury renovation, expanding your investment portfolio, or funding a business venture, cash-out refinancing through wholesale channels provides competitive terms and personalized service.
+                    Calabasas's prestige and property values have created exceptional equity positions for homeowners. Whether you're planning a home renovation, expanding your investment portfolio, or funding a business venture, cash-out refinancing through wholesale channels provides competitive terms and personalized service.
                 </p>
                 <p>
                     Contact us today for a complimentary cash-out refinance analysis. We'll evaluate your equity, compare options from 50+ Wholesale Lenders, and design the optimal solution for your Calabasas property.

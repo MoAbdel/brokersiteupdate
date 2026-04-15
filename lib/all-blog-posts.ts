@@ -1444,7 +1444,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'interest-only-mortgage-loans-2026',
     title: 'Interest-Only Mortgage Loans 2026: Who Qualifies and When They Make Sense',
-    excerpt: 'Interest-only mortgage guide: qualification requirements, payment comparisons, risks of payment shock, jumbo IO programs in CA and WA luxury markets, and wholesale broker access.',
+    excerpt: 'Interest-only mortgage guide: qualification requirements, payment comparisons, risks of payment shock, jumbo IO programs in CA and WA jumbo markets, and wholesale broker access.',
     date: '2026-02-17',
     category: 'Wholesale',
     readTime: '10 min read',
@@ -1562,8 +1562,14 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-15',
     category: 'DSCR',
     readTime: '12 min read',
-  },
-  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
+  },
+
+
+
+
+  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
+
+
   {
     slug: 'home-equity-suburban-king-county-2026',
     title: 'Suburban King County Home Equity: Shoreline, Lake Forest Park, Kenmore & Snoqualmie HELOC Guide [2026]',
@@ -1571,8 +1577,21 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
+  },
+
+
+
+
+
+
+
+  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
+
+
+
+
+
+
   // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
   {
     slug: 'reverse-mortgage-pasadena-corridor-2026',
@@ -1614,10 +1633,34 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-11',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
-  // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
-  // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
+  },
+
+
+
+
+  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
+
+
+
+
+  // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
+
+
+
+
+
+
+
+
+
+  // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
+
+
+
+
+
+
+
   {
     slug: 'wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
     title: 'Wholesale Mortgage Broker in Mountain View, Sunnyvale & Silicon Valley, CA [2026]',
@@ -1625,7 +1668,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-09',
     category: 'City Guides',
     readTime: '14 min read',
-  },
+  },
+
   // ===== REGIONAL PILLARS BATCH 3 (Feb 8, 2026) =====
   {
     slug: 'reverse-mortgage-central-coast-guide-2026',
@@ -1861,7 +1905,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-05',
     category: 'Home Equity',
     readTime: '11 min read',
-  },
+  },
+
   {
     slug: 'reverse-mortgage-arcadia-ca-2026',
     title: 'Reverse Mortgage in Arcadia, CA: HECM Guide for Seniors 62+ [2026]',
@@ -2133,7 +2178,9 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
-  },
+  },
+
+
   {
     slug: 'wholesale-mortgage-broker-92603',
     title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists',
@@ -2210,7 +2257,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'wholesale-mortgage-broker-dana-point-2026',
     title: 'Dana Point Wholesale Mortgage Broker | 50+ Wholesale Lenders, Better Rates',
-    excerpt: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans & better rates for coastal luxury properties.',
+    excerpt: 'Dana Point wholesale mortgage broker with 50+ Wholesale Lenders. Jumbo loans & better rates for coastal properties.',
     date: '2026-01-31',
     category: 'Wholesale',
     readTime: '8 min read',
@@ -2235,7 +2282,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'home-equity-calabasas-2026',
     title: 'Home Equity Options in Calabasas: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Calabasas home equity guide 2026: Compare HELOC, home equity loans, and cash-out refinance for luxury home owners.',
+    excerpt: 'Calabasas home equity guide 2026: Compare HELOC, home equity loans, and cash-out refinance for homeowners.',
     date: '2026-01-30',
     category: 'Home Equity',
     readTime: '9 min read',
@@ -2276,7 +2323,7 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'reverse-mortgage-calabasas-2026',
     title: 'Reverse Mortgage in Calabasas: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'Calabasas reverse mortgage guide for homeowners 62+. Access equity in your luxury estate with HECM and proprietary programs.',
+    excerpt: 'Calabasas reverse mortgage guide for homeowners 62+. Access equity in your high-value estate with HECM and proprietary programs.',
     date: '2026-01-29',
     category: 'Reverse Mortgage',
     readTime: '10 min read',
@@ -2413,8 +2460,8 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'proprietary-reverse-mortgage-2026',
-    title: 'Proprietary Reverse Mortgages: Jumbo Programs for Luxury Homes [2026]',
-    excerpt: 'Proprietary jumbo reverse mortgages for homes above HECM limits. Access millions in equity for luxury estates.',
+    title: 'Proprietary Reverse Mortgages: Jumbo Programs for High-Value Homes [2026]',
+    excerpt: 'Proprietary jumbo reverse mortgages for homes above HECM limits. Access equity for high-value estates.',
     date: '2026-01-27',
     category: 'Reverse Mortgage',
     readTime: '11 min read',
@@ -2751,15 +2798,15 @@ export const allBlogPosts: BlogPost[] = [
   {
     slug: 'corona-del-mar-refinance-guide-2026',
     title: 'Corona del Mar Refinance Guide: Tapping Coastal Equity [2026]',
-    excerpt: 'Corona del Mar refinance guide: Access luxury coastal equity with jumbo cash-out programs.',
+    excerpt: 'Corona del Mar refinance guide: Access coastal equity with jumbo cash-out programs.',
     date: '2026-01-18',
     category: 'Refinance',
     readTime: '10 min read',
   },
   {
     slug: 'calabasas-cash-out-refinance-2026',
-    title: 'Calabasas Cash-Out Refinance: Luxury Estate Equity [2026]',
-    excerpt: 'Calabasas cash-out refinance guide: Tap your luxury estate equity with jumbo programs.',
+    title: 'Calabasas Cash-Out Refinance: Estate Equity Access [2026]',
+    excerpt: 'Calabasas cash-out refinance guide: Tap your estate equity with jumbo programs.',
     date: '2026-01-18',
     category: 'Refinance',
     readTime: '10 min read',
@@ -2815,7 +2862,7 @@ export const allBlogPosts: BlogPost[] = [
   },
   {
     slug: 'newport-beach-mortgage-guide-2026',
-    title: 'Newport Beach Mortgage Guide: Coastal Luxury Financing [2026]',
+    title: 'Newport Beach Mortgage Guide: Coastal Home Financing [2026]',
     excerpt: 'Newport Beach mortgage guide: Jumbo loans for Fashion Island, Balboa Peninsula, and waterfront properties.',
     date: '2026-01-17',
     category: 'City Guides',
@@ -2824,8 +2871,8 @@ export const allBlogPosts: BlogPost[] = [
   // ===== MORE LOAN PROGRAMS (Jan 16, 2026) =====
   {
     slug: 'jumbo-loans-orange-county-2026',
-    title: 'Jumbo Loans Orange County: Luxury Home Financing [2026]',
-    excerpt: 'Jumbo loans for Orange County: Financing above conforming limits for luxury homes and investment properties.',
+    title: 'Jumbo Loans Orange County: High-Value Home Financing [2026]',
+    excerpt: 'Jumbo loans for Orange County: Financing above conforming limits for high-value homes and investment properties.',
     date: '2026-01-16',
     category: 'Loan Programs',
     readTime: '12 min read',

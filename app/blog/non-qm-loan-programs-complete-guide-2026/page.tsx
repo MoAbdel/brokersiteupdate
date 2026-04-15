@@ -111,7 +111,7 @@ export default function NonQMLoanProgramsCompleteGuide2026Page() {
         "name": "What is the maximum loan amount for non-QM programs?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Non-QM loan amounts range from $100,000 to $5 million or more depending on the program and lender. Bank statement loans reach $3 million or higher, DSCR loans extend to $5 million for portfolio investors, and jumbo non-QM programs serve luxury property purchases throughout California and Washington."
+          "text": "Non-QM loan amounts range from $100,000 to $5 million or more depending on the program and lender. Bank statement loans reach $3 million or higher, DSCR loans extend to $5 million for portfolio investors, and jumbo non-QM programs serve high-value property purchases throughout California and Washington."
         }
       },
       {
@@ -968,7 +968,7 @@ export default function NonQMLoanProgramsCompleteGuide2026Page() {
             <p>
               Non-QM programs frequently serve jumbo borrowers. In California markets where median home prices exceed
               conforming loan limits, bank statement jumbo loans reach $3 million+, DSCR jumbos extend to $5 million+,
-              and asset depletion programs finance luxury properties throughout Orange County, Los Angeles, and the
+              and asset depletion programs finance high-value properties throughout Orange County, Los Angeles, and the
               Bay Area. Non-QM jumbos are a primary solution for high-value property financing.
             </p>
           </div>

@@ -8,7 +8,7 @@ import { buildBrokerEntityGraph, buildServiceWebPageSchema } from '@/lib/schema-
 
 export const metadata: Metadata = {
   title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
-  description: 'Jumbo loans for Orange County luxury homes above $1,209,750. Competitive rates for high-value properties. NMLS #1426884.',
+  description: 'Jumbo loans for Orange County homes above $1,209,750. Competitive rates for high-value properties. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
     languages: {
@@ -29,7 +29,7 @@ const pageSchema = buildServiceWebPageSchema({
   pageUrl: 'https://www.mothebroker.com/loan-programs/jumbo-loans',
   title: 'Jumbo Loans | Mo Abdel - Orange County Mortgage Broker',
   description:
-    'Jumbo loans for Orange County luxury homes above $1,209,750. Competitive rates for high-value properties. NMLS #1426884.',
+    'Jumbo loans for Orange County homes above $1,209,750. Competitive rates for high-value properties. NMLS #1426884.',
   breadcrumbName: 'Jumbo Loans',
 });
 
@@ -50,13 +50,13 @@ export default function JumboLoansPage() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-slate-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <Crown className="w-4 h-4 mr-2 text-blue-600" aria-hidden="true" />
-            <span>Luxury Home Financing</span>
+            <span>High-Value Home Financing</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             <span className="text-blue-600">Jumbo Loans</span> in Orange County
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-            Finance luxury Orange County homes above $1,209,750 with competitive jumbo mortgage 
+            Finance high-value Orange County homes above $1,209,750 with competitive jumbo mortgage 
             rates. No loan amount limits, flexible terms, and personalized service for 
             high-value properties and sophisticated borrowers.
           </p>
@@ -142,7 +142,7 @@ export default function JumboLoansPage() {
                 <h4 className="text-xl font-bold text-slate-900 mb-4 text-center">Jumbo Loan Example</h4>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-slate-600">Orange County Luxury Home:</span>
+                    <span className="text-slate-600">Orange County High-Value Home:</span>
                     <span className="font-bold">$1,500,000</span>
                   </div>
                   <div className="flex justify-between">
@@ -172,7 +172,7 @@ export default function JumboLoansPage() {
 
         {/* Jumbo Loan Benefits */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Jumbo Loans for Orange County Luxury?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Jumbo Loans for Orange County High-Value Properties?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
@@ -180,8 +180,8 @@ export default function JumboLoansPage() {
                   <Landmark className="w-5 h-5 text-blue-600" aria-hidden="true" />
                   <span>No Loan Amount Restrictions</span>
                 </h3>
-                <p className="text-slate-600 mb-3">Finance any Orange County luxury property regardless of price. From $800K Newport Beach condos to $5M Laguna Beach estates.</p>
-                <p className="text-sm font-semibold text-blue-600">True luxury home financing</p>
+                <p className="text-slate-600 mb-3">Finance any Orange County property above the conforming limit. From $800K Newport Beach condos to $5M Laguna Beach estates.</p>
+                <p className="text-sm font-semibold text-blue-600">Competitive jumbo home financing</p>
               </CardContent>
             </Card>
             
@@ -191,7 +191,7 @@ export default function JumboLoansPage() {
                   <Gem className="w-5 h-5 text-blue-600" aria-hidden="true" />
                   <span>Premium Service &amp; Expertise</span>
                 </h3>
-                <p className="text-slate-600 mb-3">Dedicated jumbo specialists who understand luxury real estate transactions and high-net-worth client needs.</p>
+                <p className="text-slate-600 mb-3">Dedicated jumbo specialists who understand high-value real estate transactions and complex income scenarios.</p>
                 <p className="text-sm font-semibold text-blue-600">White-glove service experience</p>
               </CardContent>
             </Card>
@@ -213,7 +213,7 @@ export default function JumboLoansPage() {
                   <Home className="w-5 h-5 text-blue-600" aria-hidden="true" />
                   <span>All Property Types Welcome</span>
                 </h3>
-                <p className="text-slate-600 mb-3">Primary residences, vacation homes, investment properties, luxury condos, and unique properties all eligible.</p>
+                <p className="text-slate-600 mb-3">Primary residences, vacation homes, investment properties, upscale condos, and unique properties all eligible.</p>
                 <p className="text-sm font-semibold text-blue-600">Maximum property flexibility</p>
               </CardContent>
             </Card>
@@ -403,7 +403,7 @@ export default function JumboLoansPage() {
                     <h3 className="text-xl font-bold text-slate-900 mb-2">High Home Values Drive Jumbo Need</h3>
                     <p className="text-slate-600">
                       With median Orange County home prices around $1.26M, jumbo financing 
-                      is essential for most luxury communities and coastal areas.
+                      is essential for most high-value communities and coastal areas.
                     </p>
                   </div>
                 </div>
@@ -531,7 +531,7 @@ export default function JumboLoansPage() {
         {/* CTA Section */}
         <div className="text-center bg-slate-900 rounded-2xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-4">
-            Ready to Finance Your Orange County Luxury Home?
+            Ready to Finance Your Orange County Home?
           </h2>
           <p className="text-xl mb-6 text-slate-200">
             Get competitive jumbo loan pricing with personalized service for your high-value property
@@ -549,7 +549,7 @@ export default function JumboLoansPage() {
             </a>
           </div>
           <p className="text-sm text-slate-200 mt-4">
-            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Luxury home financing specialist
+            Licensed mortgage broker with Lumin Lending • NMLS #1426884 • Jumbo home financing specialist
           </p>
         </div>
 

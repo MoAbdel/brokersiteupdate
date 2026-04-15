@@ -43,7 +43,7 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
     },
     {
       question: 'Can I get a reverse mortgage on my Westlake Village home?',
-      answer: 'Yes. Westlake Village homeowners 62 and older qualify for reverse mortgages on their primary residences. With a median value of $1.4 million, most Westlake Village properties exceed the HECM limit and benefit from proprietary programs. Mo Abdel\u2019s wholesale network includes jumbo reverse mortgage lenders who serve Westlake Village\u2019s luxury market specifically.',
+      answer: 'Yes. Westlake Village homeowners 62 and older qualify for reverse mortgages on their primary residences. With a median value of $1.4 million, most Westlake Village properties exceed the HECM limit and benefit from proprietary programs. Mo Abdel\u2019s wholesale network includes jumbo reverse mortgage lenders who serve Westlake Village\u2019s high-value market specifically.',
     },
     {
       question: 'How much can Thousand Oaks seniors get from a reverse mortgage?',
@@ -265,9 +265,9 @@ export default function ReverseMortgageVenturaCountyGuide2026() {
         </p>
 
         {/* Detailed City Profiles */}
-        <h2>Westlake Village: Luxury Lake Community Reverse Mortgages</h2>
+        <h2>Westlake Village: High-Value Lake Community Reverse Mortgages</h2>
         <p>
-          Westlake Village anchors Ventura County&apos;s luxury market with a $1.4 million median home value and individual properties ranging from $800,000 condos to $5+ million estates around the lake. The community straddles the LA/Ventura County line, drawing professionals from both counties into its award-winning school district and resort-style amenities.
+          Westlake Village anchors Ventura County&apos;s high-value market with a $1.4 million median home value and individual properties ranging from $800,000 condos to $5+ million estates around the lake. The community straddles the LA/Ventura County line, drawing professionals from both counties into its award-winning school district and resort-style amenities.
         </p>
         <p>
           In our Westlake Village closings, we find that most reverse mortgage applicants are retired executives from Amgen (headquartered in neighboring Thousand Oaks), entertainment industry professionals, and business owners who purchased lakeside or hillside properties in the 1990s and 2000s. These homeowners hold $1.1&ndash;$1.3 million in equity on average, with lake-adjacent properties exceeding $2 million in equity.

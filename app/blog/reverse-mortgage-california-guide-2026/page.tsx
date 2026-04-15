@@ -526,7 +526,7 @@ export default function ReverseMortgageCaliforniaGuide2026() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">LA Westside</h3>
-              <p className="text-gray-600 text-sm">Beverly Hills, Santa Monica, Pacific Palisades, Malibu. Median: $3.2M. Luxury reverse mortgage solutions for Westside estates.</p>
+              <p className="text-gray-600 text-sm">Beverly Hills, Santa Monica, Pacific Palisades, Malibu. Median: $3.2M. Jumbo reverse mortgage solutions for Westside estates.</p>
               <a href="/blog/reverse-mortgage-la-westside-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read LA Westside Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">

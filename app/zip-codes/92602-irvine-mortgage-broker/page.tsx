@@ -24,7 +24,7 @@ export default function ZipCode92602MortgageBrokerPage() {
   
   const zipCodeData = {
     mainTopic: "92602 Irvine Mortgage Broker Services",
-    quickAnswer: "Mo Abdel provides specialized mortgage services for ZIP code 92602 in Irvine, covering diverse neighborhoods with homes ranging from condos to luxury estates, with expert local market knowledge.",
+    quickAnswer: "Mo Abdel provides specialized mortgage services for ZIP code 92602 in Irvine, covering diverse neighborhoods with homes ranging from condos to high-value estates, with expert local market knowledge.",
     keyFacts: [
       "Licensed mortgage broker NMLS #1426884",
       "92602 ZIP code specialist",
@@ -66,7 +66,7 @@ export default function ZipCode92602MortgageBrokerPage() {
           },
           {
             question: "What is the typical home price range in 92602?",
-            answer: "92602 Irvine homes range from $800K condos to $3M+ estates, with a median price around $1.45M. The ZIP code includes both affordable and luxury housing options."
+            answer: "92602 Irvine homes range from $800K condos to $3M+ estates, with a median price around $1.45M. The ZIP code includes both affordable and higher-end housing options."
           },
           {
             question: "Do most homes in 92602 require jumbo loans?",
@@ -90,7 +90,7 @@ export default function ZipCode92602MortgageBrokerPage() {
     },
     {
       name: 'University Park (Partial)',
-      description: 'Luxury homes near UC Irvine campus',
+      description: 'High-value homes near UC Irvine campus',
       priceRange: '$1.6M - $2.5M',
       homeTypes: 'Custom homes, estates'
     },
@@ -118,7 +118,7 @@ export default function ZipCode92602MortgageBrokerPage() {
     {
       name: 'Jumbo Loans',
       description: 'For homes above conforming loan limits',
-      bestFor: 'Luxury homes, estates',
+      bestFor: 'High-value homes, estates',
       downPayment: '10-25%'
     },
     {
@@ -177,7 +177,7 @@ export default function ZipCode92602MortgageBrokerPage() {
                 </h1>
               </div>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-                Dedicated mortgage broker serving ZIP code 92602 in Irvine. Local expertise for diverse neighborhoods, from condos to luxury estates, with personalized service.
+                Dedicated mortgage broker serving ZIP code 92602 in Irvine. Local expertise for diverse neighborhoods, from condos to high-value estates, with personalized service.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:(949) 579-2057">
@@ -217,7 +217,7 @@ export default function ZipCode92602MortgageBrokerPage() {
                     <Building className="w-6 h-6 text-blue-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-slate-900">Property Type Expertise</h3>
-                      <p className="text-slate-600">Experience with condos, townhomes, single-family homes, and luxury estates</p>
+                      <p className="text-slate-600">Experience with condos, townhomes, single-family homes, and high-value estates</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">

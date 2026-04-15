@@ -84,8 +84,8 @@ const neighborhoods = [
     nightlife: 4,
     beachAccess: 5,
     color: 'blue',
-    highlights: ['Luxury lifestyle', 'Oceanfront', 'High-end dining', 'Boating'],
-    bestFor: 'Oceanfront luxury homes and waterfront properties'
+    highlights: ['Coastal lifestyle', 'Oceanfront', 'High-end dining', 'Boating'],
+    bestFor: 'Oceanfront high-value homes and waterfront properties'
   },
   {
     name: 'Laguna Beach',
@@ -112,7 +112,7 @@ const neighborhoods = [
     nightlife: 2,
     beachAccess: 3,
     color: 'orange',
-    highlights: ['Affordable luxury', 'Lake community', 'Top-rated schools', 'Safe'],
+    highlights: ['Upscale living', 'Lake community', 'Top-rated schools', 'Safe'],
     bestFor: 'Spacious homes near lake amenities at accessible price points'
   },
   {
@@ -368,7 +368,7 @@ export default function OCNeighborhoodsGuide() {
                 <li className="flex items-start">
                   <Shield className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                   <div>
-                    <strong>Newport Beach:</strong> Luxury market showing resilience
+                    <strong>Newport Beach:</strong> High-value market showing resilience
                   </div>
                 </li>
                 <li className="flex items-start">

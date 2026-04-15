@@ -70,7 +70,7 @@ export default function WholesaleMortgageBroker92653Page() {
                 "name": "Why choose a wholesale broker over local banks in Laguna Hills?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Laguna Hills' mix of condos, townhomes, and luxury estates, wholesale brokers match you with the best program for your property type."
+                  "text": "A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Laguna Hills' mix of condos, townhomes, and high-value estates, wholesale brokers match you with the best program for your property type."
                 }
               },
               {
@@ -282,7 +282,7 @@ export default function WholesaleMortgageBroker92653Page() {
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">Why choose a wholesale broker over local banks in Laguna Hills?</h3>
-            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Laguna Hills&apos; mix of condos, townhomes, and luxury estates, wholesale brokers match you with the best program for your property type.</p>
+            <p className="mb-0">A wholesale broker accesses 50+ Wholesale Lenders competing for your business while local banks offer only their own products. For Laguna Hills&apos; mix of condos, townhomes, and high-value estates, wholesale brokers match you with the best program for your property type.</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-gray-900 mt-0 mb-2">What neighborhoods in 92653 does your wholesale brokerage serve?</h3>

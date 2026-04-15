@@ -95,10 +95,10 @@ export default function OrangeCountyMarketForecast() {
       riskLevel: "Medium"
     },
     {
-      scenario: "Luxury Market ($2M+)",
+      scenario: "High-Value Market ($2M+)",
       bestTiming: "Q2-Q3 2025",
       reasoning: "More inventory, motivated sellers, rate relief",
-      strategy: ["Build relationships with luxury agents", "Prepare jumbo loan approval", "Monitor luxury inventory"],
+      strategy: ["Build relationships with high-value market agents", "Prepare jumbo loan approval", "Monitor high-value inventory"],
       riskLevel: "Low"
     },
     {
@@ -126,8 +126,8 @@ export default function OrangeCountyMarketForecast() {
       forecast2025: "$2,350,000-$2,450,000",
       appreciation: "6-10%",
       outlook: "Very Strong",
-      drivers: ["Luxury demand", "Limited inventory", "Coastal premium"],
-      risks: ["Economic downturn impact", "Luxury market volatility"]
+      drivers: ["High-value demand", "Limited inventory", "Coastal premium"],
+      risks: ["Economic downturn impact", "High-value market volatility"]
     },
     {
       area: "Santa Ana",
@@ -560,7 +560,7 @@ export default function OrangeCountyMarketForecast() {
                   <span className="font-semibold">Rate Decline:</span> Faster Fed easing could accelerate demand
                 </li>
                 <li className="text-blue-700">
-                  <span className="font-semibold">New Construction:</span> Increased supply could moderate luxury market prices
+                  <span className="font-semibold">New Construction:</span> Increased supply could moderate high-value market prices
                 </li>
                 <li className="text-blue-700">
                   <span className="font-semibold">Tech Recovery:</span> AI and biotech growth could drive high-end demand

@@ -31,7 +31,7 @@ export default function QuailHillMortgageBrokerPage() {
       "Average home price: $1.5M - $2.5M",
       "Newer master-planned development",
       "Premium community amenities",
-      "Family-oriented luxury lifestyle"
+      "Family-oriented community lifestyle"
     ],
     statistics: [
       {
@@ -66,7 +66,7 @@ export default function QuailHillMortgageBrokerPage() {
           },
           {
             question: "What is the typical price range for Quail Hill homes?",
-            answer: "Quail Hill homes typically range from $1.5M to $2.5M, with custom and luxury properties commanding premium prices. The median home price is around $1.9M as of 2026."
+            answer: "Quail Hill homes typically range from $1.5M to $2.5M, with custom and high-value properties commanding premium prices. The median home price is around $1.9M as of 2026."
           },
           {
             question: "Do Quail Hill homes require jumbo financing?",
@@ -94,16 +94,16 @@ export default function QuailHillMortgageBrokerPage() {
     },
     {
       name: 'Resort Amenities',
-      description: 'Luxury recreational facilities and extensive community features',
+      description: 'Premium recreational facilities and extensive community features',
       icon: <Trees className="w-6 h-6" />
     }
   ];
 
   const propertyTypes = [
     {
-      name: 'Luxury Estates',
+      name: 'Premium Estates',
       priceRange: '$2.0M - $2.8M',
-      description: 'Premium estate homes with luxury features and large lots',
+      description: 'Premium estate homes with high-end features and large lots',
       features: ['Custom designs', 'Premium finishes', 'Large lots', 'Luxury amenities']
     },
     {
@@ -115,7 +115,7 @@ export default function QuailHillMortgageBrokerPage() {
     {
       name: 'Townhomes',
       priceRange: '$1.3M - $1.7M',
-      description: 'Luxury townhomes with modern amenities and community access',
+      description: 'Premium townhomes with modern amenities and community access',
       features: ['Low maintenance', 'Modern finishes', 'Community amenities', 'Premium locations']
     }
   ];
@@ -129,13 +129,13 @@ export default function QuailHillMortgageBrokerPage() {
     },
     {
       name: 'Super Jumbo Loans',
-      description: 'For luxury estates above $3M',
+      description: 'For high-value estates above $3M',
       rate: 'From 7.75%',
       downPayment: '20-30%'
     },
     {
       name: 'Portfolio Loans',
-      description: 'For unique luxury properties',
+      description: 'For unique high-value properties',
       rate: 'From 8.00%',
       downPayment: '25-35%'
     }
@@ -159,7 +159,7 @@ export default function QuailHillMortgageBrokerPage() {
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
           <h1>Quail Hill Irvine Mortgage Broker 2026</h1>
-          <p>Mo Abdel specializes in Quail Hill Irvine mortgage financing, serving this premium master-planned community with homes ranging from $1.5M to $2.5M. Expert in newer construction and luxury community financing.</p>
+          <p>Mo Abdel specializes in Quail Hill Irvine mortgage financing, serving this premium master-planned community with homes ranging from $1.5M to $2.5M. Expert in newer construction and master-planned community financing.</p>
           
           <h2>Quail Hill Community Features</h2>
           <ul>
@@ -180,7 +180,7 @@ export default function QuailHillMortgageBrokerPage() {
                 Quail Hill Premium Master-Planned Community Financing
               </h1>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8">
-                Specialized financing for Irvine's premier master-planned community. Expert in newer construction luxury homes with resort-style amenities and contemporary family living.
+                Specialized financing for Irvine's premier master-planned community. Expert in newer construction homes with resort-style amenities and contemporary family living.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
@@ -373,7 +373,7 @@ export default function QuailHillMortgageBrokerPage() {
               Ready to Finance Your Quail Hill Dream Home?
             </h2>
             <p className="text-xl mb-8">
-              Get specialized financing for Irvine's premier master-planned community. Expert guidance for luxury homes with resort-style amenities.
+              Get specialized financing for Irvine's premier master-planned community. Expert guidance for homes with resort-style amenities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100">
@@ -385,7 +385,7 @@ export default function QuailHillMortgageBrokerPage() {
               </Button>
             </div>
             <p className="text-sm text-slate-200 mt-4">
-              Licensed mortgage broker NMLS #1426884 • Quail Hill luxury community specialist
+              Licensed mortgage broker NMLS #1426884 • Quail Hill community mortgage specialist
             </p>
           </div>
         </section>

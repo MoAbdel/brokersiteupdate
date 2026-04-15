@@ -186,7 +186,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
                 "name": "Why should San Diego borrowers choose a broker over a direct lender?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "San Diego's high home values and diverse borrower profiles make wholesale brokers especially valuable. A broker compares 50+ Wholesale Lenders' jumbo programs, VA products, and non-QM options to find the best fit. A direct lender offers only their own products. For San Diego's complex market—with biotech stock compensation, military income, self-employment, and luxury properties—broker access to specialized programs is a significant advantage."
+                  "text": "San Diego's high home values and diverse borrower profiles make wholesale brokers especially valuable. A broker compares 50+ Wholesale Lenders' jumbo programs, VA products, and non-QM options to find the best fit. A direct lender offers only their own products. For San Diego's complex market—with biotech stock compensation, military income, self-employment, and high-value properties—broker access to specialized programs is a significant advantage."
                 }
               }
             ]
@@ -251,7 +251,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
           <span className="text-gray-700">San Diego</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">San Diego Wholesale Mortgage: Biotech, Military & Self-Employed Solutions [2026]</h1>
-        <p className="text-lg text-gray-600">How wholesale mortgage pricing benefits San Diego&apos;s biotech professionals, military families, and luxury homebuyers</p>
+        <p className="text-lg text-gray-600">How wholesale mortgage pricing benefits San Diego&apos;s biotech professionals, military families, and homebuyers</p>
         <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
           <span>By <strong className="text-gray-700">Mo Abdel</strong> | NMLS #1426884</span>
           <span>Updated: February 7, 2026</span>
@@ -381,7 +381,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
                 <td className="py-3 px-4 border-b font-medium">Coronado</td>
                 <td className="py-3 px-4 border-b">$2,200,000</td>
                 <td className="py-3 px-4 border-b">$800K - $1.8M</td>
-                <td className="py-3 px-4 border-b">Military (active/retired), civilian luxury</td>
+                <td className="py-3 px-4 border-b">Military (active/retired), civilian or high-income</td>
                 <td className="py-3 px-4 border-b">VA jumbo, conventional jumbo</td>
               </tr>
               <tr>
@@ -505,9 +505,9 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
         </p>
 
         {/* Military Transition Deep Dive */}
-        <h2>Military-to-Luxury Transition: VA and Jumbo Programs for San Diego Veterans</h2>
+        <h2>Military and Move-Up Transition: VA and Jumbo Programs for San Diego Veterans</h2>
         <p>
-          San Diego&apos;s large military presence creates a unique mortgage market segment: veterans and active-duty service members purchasing luxury homes in premium communities. Coronado, with Naval Air Station North Island, and Poway, near Marine Corps Air Station Miramar, are home to thousands of military families and retirees who have earned access to some of the most valuable real estate in the county.
+          San Diego&apos;s large military presence creates a unique mortgage market segment: veterans and active-duty service members purchasing homes in premium communities. Coronado, with Naval Air Station North Island, and Poway, near Marine Corps Air Station Miramar, are home to thousands of military families and retirees who have earned access to some of the most valuable real estate in the county.
         </p>
 
         <h3>VA Loan Advantages in San Diego</h3>
@@ -522,7 +522,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
           <li><strong>Flexible credit:</strong> VA guidelines are generally more forgiving than conventional or jumbo programs</li>
         </ul>
 
-        <h3>Scenario: Navy Veteran Transitioning to Luxury in Coronado</h3>
+        <h3>Scenario: Navy Veteran Transitioning to Coronado</h3>
         <p>
           Captain Robert (ret.) is transitioning from active duty after 24 years of service. He receives a military pension of $8,200/month and has accepted a defense consulting position in San Diego paying $195,000 annually. He wants to purchase a $2.2 million home in Coronado Village.
         </p>
@@ -618,7 +618,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
         {/* E-E-A-T and Local Expertise */}
         <h2>Why San Diego Borrowers Choose a Wholesale Broker</h2>
         <p>
-          San Diego&apos;s mortgage market demands specialized expertise that goes beyond basic loan origination. The region&apos;s unique combination of luxury property values, complex borrower income profiles, and diverse housing stock requires a broker who understands both the wholesale lending landscape and the local market dynamics.
+          San Diego&apos;s mortgage market demands specialized expertise that goes beyond basic loan origination. The region&apos;s unique combination of high-value property values, complex borrower income profiles, and diverse housing stock requires a broker who understands both the wholesale lending landscape and the local market dynamics.
         </p>
 
         <h3>Deep Market Knowledge</h3>
@@ -628,7 +628,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
 
         <h3>Cross-Market Experience</h3>
         <p>
-          As a broker licensed across California with deep experience in Orange County&apos;s luxury markets, I bring cross-market insights that benefit San Diego borrowers. The jumbo lending strategies that work for Newport Beach and Laguna Beach properties translate directly to Del Mar and La Jolla. The VA loan expertise developed serving Camp Pendleton families applies to Coronado and Poway military communities. This breadth of experience across Southern California&apos;s premium markets ensures San Diego borrowers receive battle-tested strategies.
+          As a broker licensed across California with deep experience in Orange County&apos;s high-value markets, I bring cross-market insights that benefit San Diego borrowers. The jumbo lending strategies that work for Newport Beach and Laguna Beach properties translate directly to Del Mar and La Jolla. The VA loan expertise developed serving Camp Pendleton families applies to Coronado and Poway military communities. This breadth of experience across Southern California&apos;s premium markets ensures San Diego borrowers receive battle-tested strategies.
         </p>
 
         <h3>Wholesale Lender Relationships</h3>
@@ -674,7 +674,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
           </li>
           <li className="mb-4">
             <strong>Appraisal</strong>
-            <p>The lender orders an appraisal of the property. For San Diego luxury properties, your broker can help ensure an appraiser with appropriate experience is assigned, which is critical for estate properties in Rancho Santa Fe or oceanfront homes in Del Mar.</p>
+            <p>The lender orders an appraisal of the property. For San Diego high-value properties, your broker can help ensure an appraiser with appropriate experience is assigned, which is critical for estate properties in Rancho Santa Fe or oceanfront homes in Del Mar.</p>
           </li>
           <li className="mb-4">
             <strong>Clear to Close</strong>
@@ -756,7 +756,7 @@ export default function WholesaleMortgageBrokerSanDiegoPage() {
 
         <h3>Why should San Diego borrowers choose a broker over a direct lender?</h3>
         <p>
-          San Diego&apos;s market complexity makes the wholesale broker advantage particularly compelling. The county&apos;s mix of luxury property values ($1.1 million to $4.5 million median across premium communities), diverse income profiles (biotech stock, military, self-employment), and specialized housing stock (coastal, estate, military-adjacent) requires access to the broadest possible range of lending programs. A wholesale broker&apos;s 50+ Wholesale Lenders provide this access; a single direct lender cannot.
+          San Diego&apos;s market complexity makes the wholesale broker advantage particularly compelling. The county&apos;s mix of high-value property values ($1.1 million to $4.5 million median across premium communities), diverse income profiles (biotech stock, military, self-employment), and specialized housing stock (coastal, estate, military-adjacent) requires access to the broadest possible range of lending programs. A wholesale broker&apos;s 50+ Wholesale Lenders provide this access; a single direct lender cannot.
         </p>
 
         {/* Expert Summary */}

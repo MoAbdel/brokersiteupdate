@@ -33,7 +33,7 @@ export default function IrvineMortgageBrokerPage() {
           },
           {
             question: "Do I need a jumbo loan to buy in Irvine?",
-            answer: "A large share of Irvine homes exceed the 2026 Orange County high-cost conforming loan limit of $1,249,125, which means jumbo financing is still common for move-up and luxury Irvine properties. Mo Abdel specializes in jumbo loans for Irvine buyers and homeowners."
+            answer: "A large share of Irvine homes exceed the 2026 Orange County high-cost conforming loan limit of $1,249,125, which means jumbo financing is still common for move-up and high-value Irvine properties. Mo Abdel specializes in jumbo loans for Irvine buyers and homeowners."
           },
           {
             question: "Which Irvine neighborhoods are best for families?",
@@ -41,7 +41,7 @@ export default function IrvineMortgageBrokerPage() {
           },
           {
             question: "What loan programs work best for Irvine homes?",
-            answer: "Jumbo loans are most common for Irvine's luxury market. Physician loans are popular for UCI medical professionals. Conventional loans work for condos and townhomes under $1.089M."
+            answer: "Jumbo loans are most common for Irvine's high-value market. Physician loans are popular for UCI medical professionals. Conventional loans work for condos and townhomes under $1.089M."
           }
         ]
       }
@@ -51,7 +51,7 @@ export default function IrvineMortgageBrokerPage() {
     {
       name: 'University Park',
       avgPrice: '$1.4M',
-      description: 'Luxury homes near UCI with top schools and family amenities'
+      description: 'Well-appointed homes near UCI with top schools and family amenities'
     },
     {
       name: 'Woodbridge',
@@ -66,7 +66,7 @@ export default function IrvineMortgageBrokerPage() {
     {
       name: 'Turtle Rock',
       avgPrice: '$1.5M',
-      description: 'Prestigious area with canyon views and luxury properties'
+      description: 'Prestigious area with canyon views and upscale homes'
     },
     {
       name: 'Quail Hill',
@@ -367,7 +367,7 @@ export default function IrvineMortgageBrokerPage() {
               <h4 className="font-bold text-slate-900 mb-2">Popular Irvine Programs:</h4>
               <div className="space-y-1 text-sm text-slate-600">
                 <div>• HELOC for home improvements & education</div>
-                <div>• Jumbo loans for luxury properties</div>
+                <div>• Jumbo loans for high-value properties</div>
                 <div>• Cash-out refi for investment opportunities</div>
                 <div>• Rate & term refi to eliminate PMI</div>
               </div>

@@ -78,7 +78,7 @@ export default function WholesaleMortgageBrokerYorbaLindaPage() {
                 "name": "What Yorba Linda neighborhoods do wholesale brokers serve?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Wholesale brokers serve all Yorba Linda areas including Black Gold Estates, Yorba Linda Highlands, Hidden Hills, Eastside Yorba Linda, and areas near the Nixon Library. The same wholesale rate access applies whether you're buying a starter home or a luxury estate."
+                  "text": "Wholesale brokers serve all Yorba Linda areas including Black Gold Estates, Yorba Linda Highlands, Hidden Hills, Eastside Yorba Linda, and areas near the Nixon Library. The same wholesale rate access applies whether you're buying a starter home or a high-value estate."
                 }
               }
             ]

@@ -510,7 +510,7 @@ export default function HomeEquityCaliforniaGuide2026() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
               <h3 className="text-lg font-semibold text-gray-900">LA Westside</h3>
-              <p className="text-gray-600 text-sm">Beverly Hills, Santa Monica, Malibu. Avg. equity: $1.5M-$2.2M. Luxury property equity access and entertainment industry income.</p>
+              <p className="text-gray-600 text-sm">Beverly Hills, Santa Monica, Malibu. Avg. equity: $1.5M-$2.2M. High-value property equity access and entertainment industry income.</p>
               <a href="/blog/home-equity-la-westside-beach-guide-2026" className="text-blue-600 hover:underline text-sm font-medium">Read LA Westside Guide &rarr;</a>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">

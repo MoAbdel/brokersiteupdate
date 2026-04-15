@@ -51,10 +51,10 @@ const serviceAreas = [
   },
   {
     city: 'Newport Beach',
-    description: 'Luxury coastal living with world-class beaches and upscale amenities',
+    description: 'Coastal community with world-class beaches and upscale amenities',
     medianHome: '$2.8M',
     slug: 'newport-beach-mortgage-broker',
-    highlights: ['Balboa Island', 'Fashion Island', 'Harbor views', 'Luxury properties']
+    highlights: ['Balboa Island', 'Fashion Island', 'Harbor views', 'High-value properties']
   },
   {
     city: 'Costa Mesa',
@@ -373,15 +373,15 @@ export default function NeighborhoodGuidePage() {
         </div>
 
         <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-16">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Luxury Market Guides</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">High-Value Property Guides</h2>
           <p className="text-slate-600 mb-6">
             Explore mortgage options for high-end Orange County properties.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            <Link className="text-blue-700 hover:underline" href="/luxury-markets">Luxury Markets Overview</Link>
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets">High-Value Markets Overview</Link>
             <Link className="text-blue-700 hover:underline" href="/luxury-markets/golf-course-homes-mortgage-broker">Golf Course Homes</Link>
             <Link className="text-blue-700 hover:underline" href="/luxury-markets/ultra-luxury-estates-mortgage-broker">High-Value Estates</Link>
-            <Link className="text-blue-700 hover:underline" href="/luxury-markets/waterfront-homes-mortgage-broker">Waterfront Homes</Link>
+            <Link className="text-blue-700 hover:underline" href="/luxury-markets/waterfront-homes-mortgage-broker">Waterfront Home Mortgages</Link>
           </div>
         </div>
 

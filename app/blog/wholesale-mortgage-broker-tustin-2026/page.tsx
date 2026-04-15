@@ -127,7 +127,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
         </div>
 
         <p>
-          Tustin is Orange County&apos;s most dynamic growth story—the former Marine Corps Air Station transformed into the thriving Tustin Legacy development with new homes, parks, and amenities. Combined with established neighborhoods like Tustin Ranch and Old Town Tustin, the city offers diverse housing options from starter homes to luxury estates.
+          Tustin is Orange County&apos;s most dynamic growth story—the former Marine Corps Air Station transformed into the thriving Tustin Legacy development with new homes, parks, and amenities. Combined with established neighborhoods like Tustin Ranch and Old Town Tustin, the city offers diverse housing options from starter homes to high-value estates.
         </p>
 
         <h3>The Wholesale Advantage in Tustin</h3>
@@ -154,7 +154,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
         <ul>
           <li>Loans above $1,209,750 up to $5M+</li>
           <li>Access to 50+ jumbo lenders</li>
-          <li>Required for many Tustin Legacy luxury homes</li>
+          <li>Required for many Tustin Legacy high-value homes</li>
           <li>Bank statement jumbo for self-employed borrowers</li>
           <li>10-20% down payment options depending on loan amount</li>
         </ul>
@@ -213,7 +213,7 @@ export default function WholesaleMortgageBrokerTustinPage() {
 
         <h3>Tustin Ranch</h3>
         <p>
-          Established luxury community with golf course access. Homes range from $1.2M to $2.5M+. Jumbo loan expertise essential. Popular with executives and families seeking top schools.
+          Established gated community with golf course access. Homes range from $1.2M to $2.5M+. Jumbo loan expertise essential. Popular with executives and families seeking top schools.
         </p>
 
         <h3>Old Town Tustin</h3>

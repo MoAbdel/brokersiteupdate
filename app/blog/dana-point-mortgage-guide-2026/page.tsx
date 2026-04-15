@@ -54,7 +54,7 @@ export default function DanaPointMortgageGuidePage() {
             <section className="prose prose-lg max-w-none">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                     <p className="lead font-semibold text-gray-900 mb-0">
-                        To secure a mortgage in Dana Point in 2026, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a luxury Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
+                        To secure a mortgage in Dana Point in 2026, homebuyers should prioritize **wholesale broker channels** to capitalize on the Harbor's unique property values and specialized loan limits. Whether you are targeting a Monarch Beach estate or a harbor-adjacent condo, the most effective financing strategy involves accessing **institutional lending pricing**—which typically offers lower monthly payments and more flexible debt-to-income requirements than traditional retail banks or online lenders.
                     </p>
                 </div>
 
@@ -64,10 +64,10 @@ export default function DanaPointMortgageGuidePage() {
                 </p>
                 <ul>
                     <li><strong>Harbor proximity</strong> with marina access and waterfront properties</li>
-                    <li><strong>Diverse neighborhoods</strong> from Monarch Beach luxury to family-oriented communities</li>
+                    <li><strong>Diverse neighborhoods</strong> from Monarch Beach to family-oriented communities</li>
                     <li><strong>Strong school districts</strong> attracting families with children</li>
                     <li><strong>Coastal lifestyle amenities</strong> including beaches, parks, and recreation</li>
-                    <li><strong>Mix of property types</strong> from condos to luxury estates</li>
+                    <li><strong>Mix of property types</strong> from condos to coastal estates</li>
                 </ul>
 
                 <h2>What is the wholesale mortgage advantage in Dana Point?</h2>
@@ -82,7 +82,7 @@ export default function DanaPointMortgageGuidePage() {
                     Access to 50+ lending institutions allows wholesale brokers to match your specific situation with the optimal loan program and pricing. This is particularly valuable in Dana Point's diverse market, where financing needs range from:
                 </p>
                 <ul>
-                    <li>Luxury Monarch Beach estates requiring jumbo financing</li>
+                    <li>Monarch Beach estates requiring jumbo financing</li>
                     <li>First-time buyer condos with minimal down payment programs</li>
                     <li>Investment properties near the harbor</li>
                     <li>Refinancing opportunities for existing homeowners</li>
@@ -167,13 +167,13 @@ export default function DanaPointMortgageGuidePage() {
 
                 <h3>Monarch Beach</h3>
                 <p>
-                    Dana Point's premier luxury community typically requires jumbo financing due to higher property values. Buyers should expect:
+                    Dana Point's premier gated community typically requires jumbo financing due to higher property values. Buyers should expect:
                 </p>
                 <ul>
                     <li>Loan amounts frequently exceeding $1.5M</li>
                     <li>HOA fees for resort-style amenities</li>
                     <li>Premium property tax assessments</li>
-                    <li>Specialized insurance for luxury properties</li>
+                    <li>Specialized insurance for high-value properties</li>
                 </ul>
 
                 <h3>Harbor-Adjacent Properties</h3>
@@ -284,7 +284,7 @@ export default function DanaPointMortgageGuidePage() {
 
                 <h2>Ready to Finance Your Dana Point Home?</h2>
                 <p>
-                    Dana Point's diverse coastal communities offer something for every buyer—from luxury Monarch Beach estates to family-friendly neighborhoods and harbor-adjacent properties. Working with an experienced wholesale mortgage broker provides access to competitive pricing, multiple loan programs, and expert guidance through the financing process.
+                    Dana Point's diverse coastal communities offer something for every buyer—from Monarch Beach estates to family-friendly neighborhoods and harbor-adjacent properties. Working with an experienced wholesale mortgage broker provides access to competitive pricing, multiple loan programs, and expert guidance through the financing process.
                 </p>
                 <p>
                     Contact us today for a free consultation and personalized rate quote for your Dana Point property. Our local market expertise and wholesale lender relationships ensure you receive the best possible financing solution for your coastal home.

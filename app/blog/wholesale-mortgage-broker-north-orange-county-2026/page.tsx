@@ -163,7 +163,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
           <h2 id="anaheim" className="text-3xl font-bold mt-10 mb-4">Anaheim & Anaheim Hills: From Disneyland to Canyon Estates</h2>
 
           <p>
-            Anaheim spans from the tourism district near Disneyland to the prestigious Anaheim Hills community with panoramic canyon views. This range creates diverse financing needs from starter condos to luxury hillside estates.
+            Anaheim spans from the tourism district near Disneyland to the prestigious Anaheim Hills community with panoramic canyon views. This range creates diverse financing needs from starter condos to hillside estates.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3">Anaheim Neighborhoods & Financing</h3>
@@ -219,7 +219,7 @@ export default function WholesaleMortgageBrokerNorthOC() {
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">
               <h4 className="font-semibold mb-2">Hidden Hills (92886)</h4>
-              <p className="text-sm mb-2">Luxury gated community $1.3M-$2.5M+. Golf course, country club amenities. Jumbo specialists.</p>
+              <p className="text-sm mb-2">Gated community $1.3M-$2.5M+. Golf course, country club amenities. Jumbo specialists.</p>
               <p className="text-sm text-blue-700">Typical loan: $1M-$1.8M</p>
             </div>
             <div className="p-4 bg-gray-50 rounded-lg">

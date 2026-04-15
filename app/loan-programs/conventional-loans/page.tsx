@@ -459,7 +459,7 @@ export default function ConventionalLoansPage() {
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Perfect for OC Price Range</h3>
                     <p className="text-slate-600">
                       Conforming limits of $1,209,750 cover many Orange County homes, while jumbo
-                      options handle luxury properties seamlessly.
+                      options handle high-value properties seamlessly.
                     </p>
                   </div>
                 </div>

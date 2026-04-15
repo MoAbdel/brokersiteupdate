@@ -214,7 +214,7 @@ export default function WholesaleMortgageBrokerWashington() {
           <ul>
             <li><strong>High loan amounts</strong> — When your loan is $750,000 or $1.5 million (common in the Seattle area), even a small rate difference translates into substantial dollar savings</li>
             <li><strong>Complex income profiles</strong> — Washington&apos;s tech workforce earns income through RSUs, stock options, and bonuses that many retail banks cannot properly underwrite</li>
-            <li><strong>Unique property types</strong> — Waterfront homes, island properties, non-warrantable condos, and luxury estates require specialized lending that most single-bank loan officers cannot offer</li>
+            <li><strong>Unique property types</strong> — Waterfront homes, island properties, non-warrantable condos, and high-value estates require specialized lending that most single-bank loan officers cannot offer</li>
           </ul>
 
           <p>

@@ -249,7 +249,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
               some of the most valuable residential real estate on the West Coast. With median home values ranging from
               $1.1 million in Dublin and Fremont to $2.5 million in Piedmont, seniors across this corridor hold
               extraordinary equity positions that a reverse mortgage unlocks without requiring a sale or monthly
-              payments. &quot;The East Bay and San Francisco represent a unique convergence of urban luxury and suburban
+              payments. &quot;The East Bay and San Francisco represent a unique convergence of urban amenities and suburban
               wealth,&quot; Abdel explains. &quot;Homeowners who purchased 20 or 30 years ago have accumulated
               seven-figure equity positions, and the 2026 HECM limit of $1,209,750 delivers meaningful liquidity
               for retirement planning, healthcare costs, or generational wealth strategies. For ultra-high-value
@@ -266,7 +266,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
               <li><a href="#qualification">HECM Qualification Requirements: 7 Steps to Approval</a></li>
               <li><a href="#payout-options">Reverse Mortgage Payout Options Compared</a></li>
               <li><a href="#market-overview">East Bay &amp; San Francisco Regional Market Overview</a></li>
-              <li><a href="#hub-a">Hub Preview: Urban Luxury &amp; Hilltop Estates (SF, Piedmont, Orinda, Lafayette, Moraga)</a></li>
+              <li><a href="#hub-a">Hub Preview: High-Value &amp; Hilltop Estates (SF, Piedmont, Orinda, Lafayette, Moraga)</a></li>
               <li><a href="#hub-b">Hub Preview: BART Corridor &amp; Tri-Valley (Danville, Walnut Creek, Pleasanton, Dublin, Fremont)</a></li>
               <li><a href="#wholesale-advantage">Mo&apos;s Wholesale Advantage for HECM Borrowers</a></li>
               <li><a href="#cross-track">Related East Bay &amp; SF Mortgage Resources</a></li>
@@ -339,7 +339,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
                   <td className="px-4 py-3 border-t font-medium">Danville</td>
                   <td className="px-4 py-3 border-t">$1,800,000</td>
                   <td className="px-4 py-3 border-t">$575K-$690K</td>
-                  <td className="px-4 py-3 border-t">SFR/luxury estates</td>
+                  <td className="px-4 py-3 border-t">SFR/high-value estates</td>
                   <td className="px-4 py-3 border-t">Blackhawk, Diablo Country Club, Alamo border</td>
                 </tr>
                 <tr>
@@ -593,7 +593,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
             represents a different housing dynamic. These suburban communities attract dual-income professional
             households and feature a mix of mid-century ranch homes, planned developments, and newer construction.
             Median values range from $1.1 million in Dublin and Fremont to $1.8 million in Danville. The Blackhawk
-            community in Danville and Ruby Hill in Pleasanton represent luxury enclaves within these broader markets
+            community in Danville and Ruby Hill in Pleasanton represent high-value enclaves within these broader markets
             where home values reach $3 million and above.
           </p>
 
@@ -608,17 +608,17 @@ export default function ReverseMortgageEastBaySFGuide2026() {
 
           {/* ========== HUB A PREVIEW ========== */}
           <h2 id="hub-a" className="text-2xl font-bold mt-10 mb-4">
-            Hub Preview: Urban Luxury &amp; Hilltop Estates -- San Francisco, Piedmont, Orinda, Lafayette, Moraga
+            Hub Preview: High-Value &amp; Hilltop Estates -- San Francisco, Piedmont, Orinda, Lafayette, Moraga
           </h2>
 
           <p>
             The CA-EB-A hub encompasses five communities united by premium property values, diverse income sources,
-            and a mix of urban luxury and semi-rural estate living. These homeowners represent the highest equity
+            and a mix of urban amenities and semi-rural estate living. These homeowners represent the highest equity
             positions in the East Bay and San Francisco corridor, and they share a common profile: long-tenure
             homeowners who purchased decades ago and have accumulated seven-figure equity positions.
           </p>
 
-          <h3 className="text-xl font-bold mt-8 mb-3">San Francisco: Urban Luxury and Mixed Housing</h3>
+          <h3 className="text-xl font-bold mt-8 mb-3">San Francisco: Urban High-Value and Mixed Housing</h3>
 
           <p>
             San Francisco&apos;s reverse mortgage landscape is shaped by its unique housing stock. The city&apos;s
@@ -686,11 +686,11 @@ export default function ReverseMortgageEastBaySFGuide2026() {
             mortgage market in terms of property values and qualification simplicity.
           </p>
 
-          <h3 className="text-xl font-bold mt-8 mb-3">Danville: Luxury Suburban Living</h3>
+          <h3 className="text-xl font-bold mt-8 mb-3">Danville: High-Value Suburban Living</h3>
 
           <p>
             Danville&apos;s $1.8 million median home value reflects the community&apos;s premium positioning within
-            the San Ramon Valley. The Blackhawk community, a gated luxury development with a country club, golf
+            the San Ramon Valley. The Blackhawk community, a gated upscale development with a country club, golf
             courses, and homes reaching $4 million and above, anchors the upper end of the market. For standard
             Danville homes, HECM provides the full proceeds available under the FHA lending limit. For Blackhawk
             estate properties, proprietary jumbo reverse mortgages may provide greater access to equity.
@@ -727,7 +727,7 @@ export default function ReverseMortgageEastBaySFGuide2026() {
           <p>
             These three cities represent the East Bay&apos;s most attainable HECM market within this hub, with
             median values ranging from $1.1 million (Dublin and Fremont) to $1.3 million (Pleasanton). While
-            these values are closer to the FHA HECM lending limit than the luxury communities further north,
+            these values are closer to the FHA HECM lending limit than the high-value communities further north,
             they still generate meaningful reverse mortgage proceeds for qualifying seniors.
           </p>
 

@@ -315,7 +315,7 @@ export default function OrangeCountyFHALoanLimitsPage() {
                 <p className="text-slate-600">
                   For homes above $1,209,750, you'll need a jumbo loan. We offer competitive jumbo
                   rates with down payments as low as 10% for qualified borrowers. Many Orange County
-                  luxury properties require jumbo financing.
+                  high-value properties require jumbo financing.
                 </p>
               </CardContent>
             </Card>

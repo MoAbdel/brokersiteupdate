@@ -44,7 +44,7 @@ const faqData = [
   },
   {
     question: 'How much does a reverse mortgage appraisal cost?',
-    answer: 'A reverse mortgage appraisal typically costs between $400 and $700, depending on the property location, size, and complexity. Properties in rural areas, luxury homes, or homes with acreage may cost more due to limited comparable sales data and additional inspection requirements. The appraisal fee is paid by the borrower and can be included in the HECM closing costs rather than paid out of pocket upfront. If FHA requires a second appraisal, the borrower pays for that appraisal as well.',
+    answer: 'A reverse mortgage appraisal typically costs between $400 and $700, depending on the property location, size, and complexity. Properties in rural areas, high-value homes, or homes with acreage may cost more due to limited comparable sales data and additional inspection requirements. The appraisal fee is paid by the borrower and can be included in the HECM closing costs rather than paid out of pocket upfront. If FHA requires a second appraisal, the borrower pays for that appraisal as well.',
   },
   {
     question: 'How long does a reverse mortgage appraisal take?',
@@ -621,7 +621,7 @@ export default function ReverseMortgageAppraisalProcessPage() {
         </div>
 
         <p>
-          Appraisal fees vary by geography and property complexity. Properties in rural areas, luxury properties, homes with significant acreage, or unique/custom homes often cost more to appraise because they require more extensive comparable sales research. In areas with a limited number of FHA Roster appraisers, scheduling delays can extend the timeline.
+          Appraisal fees vary by geography and property complexity. Properties in rural areas, high-value properties, homes with significant acreage, or unique/custom homes often cost more to appraise because they require more extensive comparable sales research. In areas with a limited number of FHA Roster appraisers, scheduling delays can extend the timeline.
         </p>
 
         <p>

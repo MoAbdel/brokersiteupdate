@@ -762,8 +762,8 @@ export default function HomeEquityCentralCoastCommunities2026() {
               <p className="text-sm text-gray-600">HECM and jumbo reverse mortgage options for San Luis Obispo, Pismo Beach, Paso Robles, and Cambria seniors 62+.</p>
             </a>
             <a href="/blog/home-equity-santa-barbara-luxury-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-              <h3 className="font-bold text-blue-700 mb-2">Santa Barbara &amp; Montecito Luxury Home Equity</h3>
-              <p className="text-sm text-gray-600">Jumbo HELOC and cash-out refinance for Santa Barbara, Montecito, and Carpinteria luxury homeowners.</p>
+              <h3 className="font-bold text-blue-700 mb-2">Santa Barbara &amp; Montecito High-Value Home Equity</h3>
+              <p className="text-sm text-gray-600">Jumbo HELOC and cash-out refinance for Santa Barbara, Montecito, and Carpinteria homeowners.</p>
             </a>
             <a href="/blog/home-equity-central-coast-guide-2026" className="block p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
               <h3 className="font-bold text-blue-700 mb-2">Central Coast Home Equity Regional Guide</h3>

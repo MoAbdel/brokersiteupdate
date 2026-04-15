@@ -526,7 +526,7 @@ export default function OrangeCountyVALoansGuide() {
                 <ul className="space-y-2 text-blue-700">
                   <li>• Still no PMI required</li>
                   <li>• Competitive jumbo rates</li>
-                  <li>• Access to luxury markets</li>
+                  <li>• Access to high-value markets</li>
                   <li>• Partial VA guarantee</li>
                 </ul>
               </div>

@@ -27,7 +27,7 @@ const faqData = [
   },
   {
     question: "How much do I need for a down payment on a Mission Viejo home?",
-    answer: "Down payment requirements in Mission Viejo range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With Mission Viejo median home prices around $1.1M, many buyers stay within conforming limits while some luxury properties require jumbo loans with 10-20% down."
+    answer: "Down payment requirements in Mission Viejo range from 3% for conventional loans, 3.5% for FHA loans, to 0% for VA loans (if eligible). With Mission Viejo median home prices around $1.1M, many buyers stay within conforming limits while some high-value properties require jumbo loans with 10-20% down."
   },
   {
     question: "What is the conforming loan limit in Mission Viejo for 2026?",
@@ -266,7 +266,7 @@ export default function MissionViejoMortgageGuide2026() {
                 <h3 className="text-xl font-semibold text-slate-900">Jumbo Loans (Above $1,209,750)</h3>
               </div>
               <p className="text-slate-600 mb-4">
-                Luxury homes in Mission Viejo's premier neighborhoods like Casta del Sol, Aegean Hills, and La Paz may exceed conforming limits. Wholesale jumbo access ensures competitive rates.
+                High-value homes in Mission Viejo's premier neighborhoods like Casta del Sol, Aegean Hills, and La Paz may exceed conforming limits. Wholesale jumbo access ensures competitive rates.
               </p>
               <ul className="text-sm text-slate-600 space-y-1">
                 <li>• Loan amounts up to $3M+</li>

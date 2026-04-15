@@ -8,8 +8,8 @@ import { Phone, MapPin, DollarSign, Shield, CheckCircle, Home, Calculator, Users
 import EnhancedContactForm from '@/components/EnhancedContactForm';
 
 export const metadata: Metadata = {
-  title: 'Orange County Jumbo Loans | Luxury Home Financing | Mo Abdel NMLS #1426884',
-  description: 'Orange County jumbo loans for luxury homes over $1,209,750. Licensed broker Mo Abdel (NMLS #1426884) offers competitive jumbo rates in Newport Beach, Irvine, and all OC.',
+  title: 'Orange County Jumbo Loans | High-Value Home Financing | Mo Abdel NMLS #1426884',
+  description: 'Orange County jumbo loans for high-value homes over $1,209,750. Licensed broker Mo Abdel (NMLS #1426884) offers competitive jumbo rates in Newport Beach, Irvine, and all OC.',
   alternates: {
     canonical: 'https://www.mothebroker.com/orange-county-jumbo-loans',
     languages: {
@@ -24,7 +24,7 @@ const jumboLoansSchema = {
   "@context": "https://schema.org",
   "@type": ["FinancialProduct", "LoanOrCredit"],
   "name": "Orange County Jumbo Loans",
-  "description": "Jumbo mortgage loans in Orange County for luxury homes exceeding $1,209,750. Competitive pricing for high-value properties in Newport Beach, Irvine, and throughout OC.",
+  "description": "Jumbo mortgage loans in Orange County for high-value homes exceeding $1,209,750. Competitive pricing for high-value properties in Newport Beach, Irvine, and throughout OC.",
   "provider": {
     "@type": "Person",
     "name": "Mo Abdel",
@@ -66,8 +66,8 @@ const jumboLoansSchema = {
   },
   "offers": {
     "@type": "Offer",
-    "name": "Jumbo Loan for Luxury Homes",
-    "description": "Competitive jumbo mortgage pricing for Orange County luxury properties",
+    "name": "Jumbo Loan for High-Value Homes",
+    "description": "Competitive jumbo mortgage pricing for Orange County high-value properties",
     "seller": {
       "@type": "Person",
       "name": "Mo Abdel",
@@ -127,15 +127,15 @@ export default function OrangeCountyJumboLoansPage() {
             <div className="flex justify-center mb-4">
               <Badge className="bg-slate-100 text-blue-700 px-4 py-2 text-sm font-medium">
                 <Crown className="w-4 h-4 mr-2" />
-                Luxury Home Financing
+                High-Value Home Financing
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-              Orange County Jumbo Loans - Luxury Home Financing
+              Orange County Jumbo Loans - High-Value Home Financing
             </h1>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-6">
-              Finance your Orange County luxury home with competitive jumbo loan pricing. Licensed broker Mo Abdel (NMLS #1426884) specializes in high-value properties throughout Newport Beach, Irvine, and all of Orange County.
+              Finance your Orange County home with competitive jumbo loan pricing. Licensed broker Mo Abdel (NMLS #1426884) specializes in high-value properties throughout Newport Beach, Irvine, and all of Orange County.
             </p>
             
             {/* Quick Stats */}
@@ -146,7 +146,7 @@ export default function OrangeCountyJumboLoansPage() {
               </div>
               <div className="flex items-center">
                 <Crown className="w-4 h-4 mr-1 text-blue-600" />
-                Luxury Property Specialist
+                High-Value Property Specialist
               </div>
               <div className="flex items-center">
                 <TrendingUp className="w-4 h-4 mr-1 text-blue-600" />
@@ -160,7 +160,7 @@ export default function OrangeCountyJumboLoansPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="mb-4 md:mb-0">
                 <h3 className="text-lg font-semibold">Ready for Your Jumbo Loan?</h3>
-                <p className="text-slate-200">Luxury home financing specialist serving Orange County</p>
+                <p className="text-slate-200">High-value home financing specialist serving Orange County</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:+19495792057">
@@ -198,7 +198,7 @@ export default function OrangeCountyJumboLoansPage() {
                       <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
                         <h4 className="font-semibold text-slate-900">Higher Loan Amounts</h4>
-                        <p className="text-sm text-slate-600">Finance luxury homes above $1,209,750</p>
+                        <p className="text-sm text-slate-600">Finance homes above $1,209,750</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -258,7 +258,7 @@ export default function OrangeCountyJumboLoansPage() {
                   
                   <div className="prose prose-lg max-w-none text-slate-700">
                     <p className="mb-4">
-                      Orange County's luxury real estate market requires specialized financing solutions. With median home prices well above the conforming loan limit, jumbo loans are essential for many homebuyers in premium areas like Newport Beach, Laguna Beach, and parts of Irvine.
+                      Orange County's jumbo real estate market requires specialized financing solutions. With median home prices well above the conforming loan limit, jumbo loans are essential for many homebuyers in premium areas like Newport Beach, Laguna Beach, and parts of Irvine.
                     </p>
                     <p className="mb-4">
                       <strong>Orange County Jumbo Loan Landscape:</strong>
@@ -278,7 +278,7 @@ export default function OrangeCountyJumboLoansPage() {
               <Card className="shadow-xl mb-8">
                 <CardHeader>
                   <CardTitle className="text-2xl">
-                    Orange County Luxury Markets We Serve
+                    Orange County High-Value Markets We Serve
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -293,7 +293,7 @@ export default function OrangeCountyJumboLoansPage() {
                       </ul>
                     </div>
                     <div className="bg-gradient-to-r from-green-50 to-blue-50 p-4 rounded-lg">
-                      <h4 className="font-bold text-slate-900 mb-2">Inland Luxury</h4>
+                      <h4 className="font-bold text-slate-900 mb-2">Inland High-Value Communities</h4>
                       <ul className="text-sm text-slate-700 space-y-1">
                         <li>• Irvine</li>
                         <li>• Mission Viejo</li>
@@ -395,7 +395,7 @@ export default function OrangeCountyJumboLoansPage() {
                       <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <Crown className="w-8 h-8 text-blue-600" />
                       </div>
-                      <h3 className="text-lg font-bold mb-3">Luxury Market Expertise</h3>
+                      <h3 className="text-lg font-bold mb-3">High-Value Market Expertise</h3>
                       <p className="text-slate-600">
                         15+ years specializing in Orange County's premium real estate market.
                       </p>
@@ -431,7 +431,7 @@ export default function OrangeCountyJumboLoansPage() {
                     Get Your Jumbo Loan pricing Quote
                   </CardTitle>
                   <p className="text-slate-600 text-center text-sm">
-                    Licensed Orange County luxury home specialist Mo Abdel NMLS #1426884
+                    Licensed Orange County jumbo home specialist Mo Abdel NMLS #1426884
                   </p>
                 </CardHeader>
                 <CardContent>

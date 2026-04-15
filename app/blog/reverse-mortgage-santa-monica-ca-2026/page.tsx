@@ -206,7 +206,7 @@ export default function ReverseMortgageSantaMonicaPage() {
                 <tr className="border-t">
                   <td className="py-3 px-4 font-medium">North of Montana</td>
                   <td className="py-3 px-4">$3.5M - $15M+</td>
-                  <td className="py-3 px-4">Estate homes, luxury properties</td>
+                  <td className="py-3 px-4">Estate homes, high-value properties</td>
                   <td className="py-3 px-4 text-blue-700 font-semibold">Proprietary/Jumbo</td>
                 </tr>
                 <tr className="border-t bg-gray-50">
@@ -255,7 +255,7 @@ export default function ReverseMortgageSantaMonicaPage() {
 
           <h3>Wilshire Montana: Urban Sophistication</h3>
           <p>
-            The Wilshire Montana corridor combines urban walkability with residential tranquility. Mid-century modern homes, luxury condos, and easy access to Montana Avenue shopping make this area popular with active seniors. Property values range from $2 million to $5 million.
+            The Wilshire Montana corridor combines urban walkability with residential tranquility. Mid-century modern homes, upscale condos, and easy access to Montana Avenue shopping make this area popular with active seniors. Property values range from $2 million to $5 million.
           </p>
           <p>
             Condo owners in Wilshire Montana should verify their building&apos;s FHA approval status for HECM eligibility. Many buildings are approved, but proprietary reverse mortgage programs offer alternatives for non-approved buildings.
@@ -330,7 +330,7 @@ export default function ReverseMortgageSantaMonicaPage() {
                   <td className="py-3 px-4 font-medium">Proprietary/Jumbo</td>
                   <td className="py-3 px-4">$4M - $10M+</td>
                   <td className="py-3 px-4 text-blue-700 font-semibold">Most Santa Monica homes</td>
-                  <td className="py-3 px-4">Higher limits, luxury property expertise</td>
+                  <td className="py-3 px-4">Higher limits, high-value property expertise</td>
                 </tr>
               </tbody>
             </table>

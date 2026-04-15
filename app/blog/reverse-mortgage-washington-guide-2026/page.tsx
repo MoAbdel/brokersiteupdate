@@ -435,7 +435,7 @@ export default function ReverseMortgageWashingtonGuide() {
                 <tr>
                   <td className="px-4 py-3 border-t font-medium">Best For in WA</td>
                   <td className="px-4 py-3 border-t">South Sound, most North Sound cities</td>
-                  <td className="px-4 py-3 border-t">Eastside, Bainbridge, San Juan Islands, luxury Seattle</td>
+                  <td className="px-4 py-3 border-t">Eastside, Bainbridge, San Juan Islands, high-value Seattle</td>
                 </tr>
               </tbody>
             </table>

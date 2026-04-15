@@ -42,7 +42,7 @@ const webPageSchema = buildServiceWebPageSchema({
 const faqSchema = buildFAQPageSchema([
   { question: 'Which Orange County school districts have the highest ratings?', answer: 'Irvine Unified (10/10), Newport-Mesa Unified (9/10), Capistrano Unified (9/10), Laguna Beach Unified (9/10), and Los Alamitos Unified (9/10) consistently rank among the top districts in California.' },
   { question: 'How do school district ratings affect home prices in Orange County?', answer: 'Homes in top-rated school districts command premium prices. Irvine Unified homes have a median price of $1,400,000, Newport-Mesa at $1,800,000, and Laguna Beach at $2,200,000. These districts offer better resale value protection.' },
-  { question: 'What loan types work best for school district homes in Orange County?', answer: 'Conventional loans cover homes up to $1,209,750, jumbo loans serve luxury districts like Laguna Beach and Newport Coast, and FHA loans with 3.5% down work for more affordable district areas.' },
+  { question: 'What loan types work best for school district homes in Orange County?', answer: 'Conventional loans cover homes up to $1,209,750, jumbo loans serve high-cost districts like Laguna Beach and Newport Coast, and FHA loans with 3.5% down work for more affordable district areas.' },
 ], PAGE_URL);
 
 export default function OrangeCountySchoolDistrictsGuide() {
@@ -112,7 +112,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
     {
       title: "Higher Home Prices",
       description: "Top school districts command premium prices - budget accordingly",
-      impact: "May need jumbo loans for luxury school districts"
+      impact: "May need jumbo loans for high-cost school districts"
     },
     {
       title: "Property Tax Impact",
@@ -335,7 +335,7 @@ export default function OrangeCountySchoolDistrictsGuide() {
             <div className="bg-white rounded-lg p-6 shadow-lg border border-slate-200">
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Jumbo Loans</h3>
               <div className="space-y-3">
-                <p className="text-slate-600">For luxury districts like Laguna Beach and Newport Coast</p>
+                <p className="text-slate-600">For high-cost districts like Laguna Beach and Newport Coast</p>
                 <ul className="text-sm text-slate-600 space-y-1">
                   <li>• Above $1,209,750</li>
                   <li>• 10-20% down payment</li>

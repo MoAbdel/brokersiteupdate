@@ -86,7 +86,7 @@ export default function IrvineUnifiedSchoolDistrictMortgageBrokerPage() {
       name: 'University Park',
       priceRange: '$1.8M - $2.8M',
       schools: 'University Park Elementary, Rancho San Joaquin MS, University HS',
-      description: 'Luxury family homes near UC Irvine with top elementary schools'
+      description: 'Well-appointed family homes near UC Irvine with top elementary schools'
     },
     {
       name: 'Woodbridge',

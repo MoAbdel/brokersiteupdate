@@ -47,7 +47,7 @@ export default function HomeEquityCentralCoastGuide2026() {
     },
     {
       question: 'What are current HELOC rates for Central Coast properties in 2026?',
-      answer: 'Central Coast HELOC rates vary based on market conditions, credit score, combined loan-to-value ratio, and property type. Wholesale channels typically offer more competitive pricing than retail lenders. Montecito and Santa Barbara luxury properties with low LTV ratios often qualify for the most favorable rate tiers. Contact Mo Abdel for current rate information specific to your situation.',
+      answer: 'Central Coast HELOC rates vary based on market conditions, credit score, combined loan-to-value ratio, and property type. Wholesale channels typically offer more competitive pricing than retail lenders. Montecito and Santa Barbara high-value properties with low LTV ratios often qualify for the most favorable rate tiers. Contact Mo Abdel for current rate information specific to your situation.',
     },
     {
       question: 'Can I get a cash-out refinance on my Montecito estate?',
@@ -294,8 +294,8 @@ export default function HomeEquityCentralCoastGuide2026() {
           These figures reveal the enormous borrowing power Central Coast homeowners hold. In our experience with these markets, long-term owners (15+ years) typically hold 70&ndash;90% equity positions, significantly exceeding the averages shown above. First-generation homebuyers from the 1990s and early 2000s often own their Central Coast properties free and clear, maximizing available equity.
         </p>
 
-        {/* Santa Barbara Luxury Hub */}
-        <h2>Santa Barbara Luxury Corridor: Home Equity Strategies for High-Value Properties</h2>
+        {/* Santa Barbara High-Value Hub */}
+        <h2>Santa Barbara High-Value Corridor: Home Equity Strategies for High-Value Properties</h2>
         <p>
           Montecito, Santa Barbara, and Carpinteria homeowners face unique challenges when accessing equity on properties valued above conforming loan limits. Jumbo HELOC and jumbo cash-out refinance programs are essential for this market segment.
         </p>
@@ -469,7 +469,7 @@ export default function HomeEquityCentralCoastGuide2026() {
         <ol>
           <li><strong>Free consultation with Mo Abdel (Day 1):</strong> Review your property value, equity position, financial goals, and credit profile. Receive preliminary product recommendations and rate estimates within 24 hours.</li>
           <li><strong>Application and documentation (Days 2&ndash;5):</strong> Submit your application with income documentation, asset statements, and property information. Mo Abdel&apos;s team submits to multiple lenders simultaneously through the wholesale channel.</li>
-          <li><strong>Appraisal (if required) (Days 5&ndash;15):</strong> HELOCs under $500,000 often waive appraisals using automated valuation models. Higher amounts and cash-out refinances require full appraisals. Central Coast luxury property appraisals take 7&ndash;14 days.</li>
+          <li><strong>Appraisal (if required) (Days 5&ndash;15):</strong> HELOCs under $500,000 often waive appraisals using automated valuation models. Higher amounts and cash-out refinances require full appraisals. Central Coast high-value property appraisals take 7&ndash;14 days.</li>
           <li><strong>Underwriting review (Days 10&ndash;25):</strong> Lender verifies income, assets, employment, title, and property condition. Wholesale lender competition accelerates this process.</li>
           <li><strong>Closing disclosure and signing (Days 21&ndash;35):</strong> Review final terms, sign documents, and complete the 3-day right of rescission period (for refinances and HELOCs on primary residences).</li>
           <li><strong>Fund disbursement (Days 24&ndash;38):</strong> HELOC credit lines become available after rescission period. Cash-out refinance and HELOAN funds disburse directly.</li>

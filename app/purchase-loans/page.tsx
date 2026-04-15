@@ -82,7 +82,7 @@ const purchaseLoans = [
     title: 'Jumbo Loans',
     icon: TrendingUp,
     downPayment: '10% - 20%',
-    bestFor: 'Luxury homes in California and Washington',
+    bestFor: 'High-value homes in California and Washington',
     features: [
       'Loans above conforming limits ($1,209,750+)',
       'Competitive jumbo rates',
@@ -159,7 +159,7 @@ export default function PurchaseLoansPage() {
               Types of Purchase Loans Available in California &amp; Washington
             </h2>
             <p className="text-xl text-slate-600 text-center mb-12 max-w-3xl mx-auto">
-              From first-time buyer programs to luxury home financing, we offer comprehensive loan options 
+              From first-time buyer programs to high-value home financing, we offer comprehensive loan options 
               tailored to California and Washington housing markets.
             </p>
             

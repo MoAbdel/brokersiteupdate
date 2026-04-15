@@ -74,7 +74,7 @@ export default function HomeEquityPasadenaCorridor2026() {
     },
     {
       question: 'What HELOC options exist for Sierra Madre homes valued over $1.4 million?',
-      answer: 'Sierra Madre homes exceeding $1.4 million require jumbo HELOC programs. Through wholesale broker access, credit lines of $400K-$800K+ are available from specialized lenders who serve the San Gabriel Valley foothill luxury market. Sierra Madre\'s unique character as a small mountain village with homes dating from the early 1900s means appraisers must account for historic home premiums, mountain-view lot values, and limited comparable sales in this community of only 11,000 residents. Wholesale lenders experienced with small-inventory luxury markets provide more accurate valuations than banks relying on broad-area comparables.',
+      answer: 'Sierra Madre homes exceeding $1.4 million require jumbo HELOC programs. Through wholesale broker access, credit lines of $400K-$800K+ are available from specialized lenders who serve the San Gabriel Valley foothill high-value market. Sierra Madre\'s unique character as a small mountain village with homes dating from the early 1900s means appraisers must account for historic home premiums, mountain-view lot values, and limited comparable sales in this community of only 11,000 residents. Wholesale lenders experienced with small-inventory high-value markets provide more accurate valuations than banks relying on broad-area comparables.',
     },
     {
       question: 'Can I use Caltech or JPL income to qualify for a Pasadena HELOC?',
@@ -217,7 +217,7 @@ export default function HomeEquityPasadenaCorridor2026() {
           </p>
 
           <p>
-            This hub covers home equity options for five Pasadena Corridor communities: Pasadena ($1.2M median), Sierra Madre ($1.4M median), Glendale ($1.2M median), Montrose ($1.1M median), and La Crescenta ($1M median). For the broader regional perspective, visit our <a href="/blog/home-equity-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">San Gabriel Valley &amp; Pasadena Home Equity Guide</a> or the statewide <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California Home Equity Guide</a>. For nearby foothill luxury communities, see our <a href="/blog/home-equity-foothill-luxury-2026" className="text-blue-600 hover:underline">Foothill Luxury Home Equity Hub</a>.
+            This hub covers home equity options for five Pasadena Corridor communities: Pasadena ($1.2M median), Sierra Madre ($1.4M median), Glendale ($1.2M median), Montrose ($1.1M median), and La Crescenta ($1M median). For the broader regional perspective, visit our <a href="/blog/home-equity-sgv-pasadena-guide-2026" className="text-blue-600 hover:underline">San Gabriel Valley &amp; Pasadena Home Equity Guide</a> or the statewide <a href="/blog/home-equity-california-guide-2026" className="text-blue-600 hover:underline">California Home Equity Guide</a>. For nearby foothill high-value communities, see our <a href="/blog/home-equity-foothill-luxury-2026" className="text-blue-600 hover:underline">Foothill Luxury Home Equity Hub</a>.
           </p>
 
           {/* Table of Contents */}
