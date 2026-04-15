@@ -8,6 +8,7 @@ import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 import QualificationCallout from '@/components/QualificationCallout';
 import LoanCapSubheadline from '@/components/LoanCapSubheadline';
+import ScenarioExample from '@/components/ScenarioExample';
 
 export const metadata: Metadata = {
   title: 'Orange County HELOC | Flexible Home Equity Credit Line',
@@ -205,35 +206,7 @@ export default function HELOCOrangeCountyPage() {
             </h2>
 
             <div className="max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">HELOC Example</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="text-center">
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">Your Orange County Home</h4>
-                    <p className="text-slate-600">Current Value: <strong>$1,200,000</strong></p>
-                    <p className="text-slate-600">Mortgage Balance: <strong>$300,000</strong></p>
-                    <p className="text-slate-600">Available Equity: <strong>$900,000</strong></p>
-                  </div>
-                  <div className="text-center">
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">HELOC Credit Line</h4>
-                    <p className="text-slate-600">80% of Home Value: <strong>$960,000</strong></p>
-                    <p className="text-slate-600">Minus Mortgage: <strong>$300,000</strong></p>
-                    <p className="text-blue-600 font-bold">Available HELOC: <strong>$660,000</strong></p>
-                  </div>
-                  <div className="text-center">
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">Flexible Access</h4>
-                    <p className="text-slate-600">Draw Period: <strong>10 years</strong></p>
-                    <p className="text-slate-600">Repayment: <strong>20 years</strong></p>
-                    <p className="text-blue-600 font-bold">Use as Needed</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <p className="text-slate-600 text-lg">
-                  <em>This example demonstrates the substantial HELOC potential available to Orange County homeowners.</em>
-                </p>
-              </div>
+              <ScenarioExample scenario="heloc" className="mt-8 max-w-xl" />
             </div>
           </section>
 
