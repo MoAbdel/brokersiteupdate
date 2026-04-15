@@ -1,10 +1,13 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Link from 'next/link';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Phone, Mail, MapPin, Clock, Shield, Star, Zap, Users, ArrowUpRight, TrendingUp } from 'lucide-react';
 import PremiumContactForm from '@/components/contact/PremiumContactForm';
+import PrequalWidget from '@/components/prequal/PrequalWidget';
+import PrequalSummaryChip from '@/components/prequal/PrequalSummaryChip';
+import type { PrequalInput, PrequalResult } from '@/lib/leadQualification';
 import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 import {
   BROKER_EMAIL,
@@ -83,6 +86,28 @@ export default function ContactPageClient({
   leadCaptureEnabled,
   countryCode,
 }: ContactPageClientProps) {
+  type PrequalStage =
+    | { stage: 'prequal'; lastInput?: PrequalInput }
+    | { stage: 'form-qualified'; input: PrequalInput }
+    | { stage: 'form-referral'; input: PrequalInput; result: Extract<PrequalResult, { qualified: false }> };
+
+  const [prequalState, setPrequalState] = useState<PrequalStage>({ stage: 'prequal' });
+
+  const handlePrequalComplete = ({ input, result }: { input: PrequalInput; result: PrequalResult }) => {
+    if (result.qualified) {
+      setPrequalState({ stage: 'form-qualified', input });
+    } else {
+      setPrequalState({ stage: 'form-referral', input, result });
+    }
+  };
+
+  const handleEditPrequal = () => {
+    setPrequalState((prev) => {
+      if (prev.stage === 'prequal') return prev;
+      return { stage: 'prequal', lastInput: prev.input };
+    });
+  };
+
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -191,7 +216,27 @@ export default function ContactPageClient({
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32 order-first lg:order-2">
           <div className="lg:col-span-7 order-first lg:order-1">
-            <PremiumContactForm leadCaptureEnabled={leadCaptureEnabled} />
+            {prequalState.stage === 'prequal' ? (
+              <PrequalWidget
+                onComplete={handlePrequalComplete}
+                initialValues={prequalState.lastInput}
+              />
+            ) : (
+              <div className="space-y-4">
+                <PrequalSummaryChip input={prequalState.input} onEdit={handleEditPrequal} />
+                <PremiumContactForm
+                  leadCaptureEnabled={leadCaptureEnabled}
+                  initialValues={{
+                    homeValue: prequalState.input.homeValue,
+                    desiredLoan: prequalState.input.desiredLoan,
+                    product: prequalState.input.product,
+                    currentMortgage: prequalState.input.currentMortgage,
+                  }}
+                  caseType={prequalState.stage === 'form-referral' ? 'referral' : 'standard'}
+                  referralReasons={prequalState.stage === 'form-referral' ? prequalState.result.reasons : undefined}
+                />
+              </div>
+            )}
           </div>
 
           <div className="lg:col-span-5 lg:order-2 flex flex-col justify-center">
