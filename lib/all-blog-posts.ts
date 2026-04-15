@@ -1562,32 +1562,8 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-15',
     category: 'DSCR',
     readTime: '12 min read',
-  },
-  {
-    slug: 'home-equity-ventura-affluent-ca-2026',
-    title: 'Home Equity in Ventura County: HELOC, Cash-Out & HELOAN in Westlake Village, Thousand Oaks & More [2026]',
-    excerpt: 'Ventura County home equity guide 2026: HELOC, HELOAN & cash-out refinance for Westlake Village, Thousand Oaks, Oak Park, Camarillo & Moorpark. Access $200K-$700K+ in tappable equity.',
-    date: '2026-02-15',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
-  {
-    slug: 'home-equity-ca-sd-a-2026',
-    title: 'Home Equity in Coastal North San Diego: HELOC, Cash-Out & More in Del Mar, La Jolla & Rancho Santa Fe [2026]',
-    excerpt: 'Home equity guide for Coastal North San Diego: HELOC, cash-out refinance, HELOAN for Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas & Carlsbad. Access $500K-$3M+ tappable equity. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-inland-empire-affluent-2026',
-    title: 'Home Equity Inland Empire Affluent 2026: HELOC, HELOAN & Cash-Out for Rancho Cucamonga, Chino Hills, Claremont, Redlands & Upland',
-    excerpt: 'Affluent Inland Empire home equity guide 2026: HELOC, home equity loans, and cash-out refinance for Rancho Cucamonga, Chino Hills, Claremont, Redlands, and Upland. LA commuter equity, college town financing, Victorian renovation. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 7: 8 Equity + 8 Wholesale Hubs (Feb 14, 2026) =====
   {
     slug: 'home-equity-suburban-king-county-2026',
     title: 'Suburban King County Home Equity: Shoreline, Lake Forest Park, Kenmore & Snoqualmie HELOC Guide [2026]',
@@ -1595,65 +1571,9 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-14',
     category: 'Home Equity',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-wine-country-2026',
-    title: 'Wine Country Home Equity 2026: HELOC & Cash-Out for Healdsburg, St. Helena, Napa',
-    excerpt: 'Wine Country home equity guide 2026. HELOC, HELOAN, cash-out refinance for Healdsburg, St. Helena, Calistoga, Sonoma, Napa, Yountville homeowners. Vineyard estate equity, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Home Equity',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-ca-sd-a-2026',
-    title: 'Wholesale Mortgage Broker in Coastal North San Diego: Del Mar, La Jolla, Rancho Santa Fe & More [2026]',
-    excerpt: 'Wholesale mortgage broker serving Del Mar, La Jolla, Rancho Santa Fe, Solana Beach, Encinitas & Carlsbad. 50+ Wholesale Lenders, jumbo & super-jumbo loans, bank statement programs. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-ca-sgv-a-2026',
-    title: 'Wholesale Mortgage Broker in San Gabriel Valley: San Marino, Arcadia, Pasadena & La Canada Flintridge [2026]',
-    excerpt: 'Wholesale mortgage broker serving San Gabriel Valley luxury markets: San Marino, Arcadia, Pasadena, La Canada Flintridge, South Pasadena & Sierra Madre. Access 50+ Wholesale Lenders, bank statement loans, foreign national programs. NMLS #1426884.',
-    date: '2026-02-14',
-    category: 'Wholesale',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
-  {
-    slug: 'reverse-mortgage-wine-country-2026',
-    title: 'Reverse Mortgage Wine Country: Healdsburg, St. Helena, Calistoga, Sonoma, Napa & Yountville [2026]',
-    excerpt: 'HECM reverse mortgage guide for Wine Country seniors 62+. Vineyard estates, winery properties, and hospitality income qualification across Napa & Sonoma. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-sacramento-affluent-2026',
-    title: 'Reverse Mortgage Sacramento Affluent: El Dorado Hills, Granite Bay, Folsom, Roseville & Davis [2026]',
-    excerpt: 'HECM reverse mortgage for Sacramento Gold Country seniors 62+. Bay Area transplant equity, Intel retirees, UC Davis faculty. $650K-$1.1M home equity access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-ie-affluent-2026',
-    title: 'Reverse Mortgage Inland Empire Affluent: Rancho Cucamonga, Chino Hills, Claremont, Redlands & Upland [2026]',
-    excerpt: 'HECM reverse mortgage for Inland Empire seniors 62+. LA commuter equity, college town wealth, Alta Loma estates. $700K-$1M home equity access. NMLS #1426884.',
-    date: '2026-02-13',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
-  {
-    slug: 'reverse-mortgage-affluent-suburban-east-bay-2026',
-    title: 'Reverse Mortgage in Danville, Walnut Creek & Affluent Suburban East Bay [2026]',
-    excerpt: 'HECM reverse mortgage for Danville, Walnut Creek, Pleasanton, Dublin & Fremont seniors 62+. BART corridor estates, Rossmoor retirement, Blackhawk luxury. NMLS #1426884.',
-    date: '2026-02-12',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 6: 9 HECM Hubs + 3 Refreshes (Feb 13, 2026) =====
+  // ===== HUB POSTS BATCH 5: 7 HECM + 2 Wholesale + 3 Refreshes (Feb 12, 2026) =====
   {
     slug: 'reverse-mortgage-pasadena-corridor-2026',
     title: 'Reverse Mortgage in Pasadena, Glendale & SGV Corridor [2026]',
@@ -1669,15 +1589,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-12',
     category: 'Reverse Mortgage',
     readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-ventura-affluent-2026',
-    title: 'Reverse Mortgage in Westlake Village, Thousand Oaks & Ventura Affluent [2026]',
-    excerpt: 'HECM reverse mortgage for Westlake Village, Thousand Oaks, Oak Park, Camarillo & Moorpark seniors 62+. Biotech corridor, LA commuter equity. NMLS #1426884.',
-    date: '2026-02-12',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-pasadena-corridor-2026',
     title: 'Wholesale Mortgage Broker in Pasadena, Glendale & SGV Corridor [2026]',
@@ -1702,81 +1614,9 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-11',
     category: 'City Guides',
     readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-sacramento-affluent-2026',
-    title: 'Home Equity in El Dorado Hills, Granite Bay & Sacramento: HELOC & Cash-Out [2026]',
-    excerpt: 'HELOC & cash-out refinance for El Dorado Hills, Granite Bay, Folsom, Roseville & Davis. Bay Area transplant equity, Intel/state employee income. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-coastal-north-sd-2026',
-    title: 'Reverse Mortgage in Del Mar, Rancho Santa Fe & Coastal North SD [2026]',
-    excerpt: 'HECM reverse mortgage guide for Del Mar, Rancho Santa Fe, Solana Beach & Encinitas seniors 62+. $1.8M-$4.5M home equity access without monthly payments. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'reverse-mortgage-la-beach-cities-2026',
-    title: 'Reverse Mortgage in Manhattan Beach, Hermosa Beach & LA Beach Cities [2026]',
-    excerpt: 'HECM reverse mortgage for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo seniors 62+. Sand Section estates, aerospace retiree equity. NMLS #1426884.',
-    date: '2026-02-11',
-    category: 'Reverse Mortgage',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
-  {
-    slug: 'wholesale-mortgage-broker-affluent-suburban-east-bay-2026',
-    title: 'Wholesale Mortgage Broker in Danville, Walnut Creek & Suburban East Bay, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Blackhawk estates, Tri-Valley tech, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-affluent-suburban-east-bay-2026',
-    title: 'Home Equity in Danville, Walnut Creek & Suburban East Bay: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC & cash-out refinance for Danville, Walnut Creek, Pleasanton, Dublin & Fremont. Tri-Valley estate equity access on $1.1M-$1.8M properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
-  {
-    slug: 'wholesale-mortgage-broker-coastal-north-sd-2026',
-    title: 'Wholesale Mortgage Broker in Del Mar, Rancho Santa Fe & Coastal North SD, CA [2026]',
-    excerpt: 'Wholesale mortgage broker serving Del Mar, Rancho Santa Fe, Solana Beach & Encinitas. 50+ Wholesale Lenders, equestrian estate financing, complex income qualification. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-coastal-north-sd-2026',
-    title: 'Home Equity in Del Mar, Rancho Santa Fe & Coastal North SD: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC, HELOAN & cash-out refinance for Del Mar, Rancho Santa Fe, Solana Beach & Encinitas homeowners. Tappable equity on $1.8M-$4.5M properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-la-beach-cities-2026',
-    title: 'Wholesale Mortgage Broker in Manhattan Beach, Hermosa Beach & LA Beach Cities, CA [2026]',
-    excerpt: 'Wholesale mortgage broker for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo. Aerospace/entertainment income, sand section financing, 50+ Wholesale Lenders. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
-  {
-    slug: 'home-equity-la-beach-cities-2026',
-    title: 'Home Equity in Manhattan Beach, Hermosa Beach & LA Beach Cities: HELOC & Cash-Out [2026]',
-    excerpt: 'Jumbo HELOC & cash-out refinance for Manhattan Beach, Hermosa Beach, Redondo Beach & El Segundo. Sand section equity access on $1.2M-$3.4M beach properties. NMLS #1426884.',
-    date: '2026-02-10',
-    category: 'City Guides',
-    readTime: '14 min read',
-  },
+  },
+  // ===== HUB POSTS BATCH 3: EB-A equity, SD-B, MR-B, EB-B + 3 Refreshes (Feb 10, 2026) =====
+  // ===== HUB POSTS BATCH 2: SD, PV, SGV, LAB, CC, EB (Feb 10, 2026) =====
   // ===== HUB POSTS BATCH 1 + SOUTH SOUND PILLARS (Feb 9, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-tech-corridor-silicon-valley-2026',
@@ -1818,23 +1658,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-08',
     category: 'Guides',
     readTime: '16 min read',
-  },
-  {
-    slug: 'reverse-mortgage-wine-country-guide-2026',
-    title: 'Wine Country Reverse Mortgage: Napa & Sonoma Valley Senior HECM Guide [2026]',
-    excerpt: 'Wine Country reverse mortgage guide for seniors 62+. HECM options in Healdsburg, St. Helena, Calistoga, Sonoma, Napa, Yountville.',
-    date: '2026-02-08',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
-  {
-    slug: 'home-equity-wine-country-guide-2026',
-    title: 'Wine Country Home Equity: Napa & Sonoma HELOC, Cash-Out Refinance Guide [2026]',
-    excerpt: 'Wine Country home equity guide 2026. HELOC, HELOAN, cash-out refinance for Healdsburg, St. Helena, Napa, Sonoma vineyard homeowners.',
-    date: '2026-02-08',
-    category: 'Guides',
-    readTime: '16 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-sacramento-guide-2026',
     title: 'Sacramento Reverse Mortgage: Gold Country & Capital Region HECM Guide [2026]',
@@ -2021,23 +1845,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'Guides',
     readTime: '16 min read',
   },
-  // ===== CA GEO PAGES (Feb 5, 2026) =====
-  {
-    slug: 'reverse-mortgage-malibu-ca-2026',
-    title: 'Reverse Mortgage in Malibu, CA: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'Malibu reverse mortgage guide for beachfront homeowners 62+. Jumbo reverse mortgage options for $3.2M+ coastal estates, wildfire considerations, and PCH access.',
-    date: '2026-02-05',
-    category: 'Reverse Mortgage',
-    readTime: '12 min read',
-  },
-  {
-    slug: 'home-equity-malibu-ca-2026',
-    title: 'Home Equity Options in Malibu, CA: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Malibu home equity guide 2026: Jumbo HELOC, HELOAN & cash-out refinance for beachfront properties. Access equity in $3M+ coastal estates.',
-    date: '2026-02-05',
-    category: 'Home Equity',
-    readTime: '11 min read',
-  },
+  // ===== CA GEO PAGES (Feb 5, 2026) =====
   {
     slug: 'reverse-mortgage-santa-monica-ca-2026',
     title: 'Reverse Mortgage in Santa Monica, CA: HECM Guide for Seniors 62+ [2026]',
@@ -2053,23 +1861,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-05',
     category: 'Home Equity',
     readTime: '11 min read',
-  },
-  {
-    slug: 'reverse-mortgage-pacific-palisades-ca-2026',
-    title: 'Reverse Mortgage in Pacific Palisades, CA: HECM Guide for Seniors 62+ [2026]',
-    excerpt: 'Pacific Palisades reverse mortgage guide for homeowners 62+. Jumbo reverse options for $4.5M median estates. Riviera, Castellammare specialists.',
-    date: '2026-02-05',
-    category: 'Reverse Mortgage',
-    readTime: '12 min read',
-  },
-  {
-    slug: 'home-equity-pacific-palisades-ca-2026',
-    title: 'Home Equity Options in Pacific Palisades, CA: HELOC, HELOAN & Cash-Out [2026]',
-    excerpt: 'Pacific Palisades home equity guide 2026: Ultra-luxury equity access, wildfire mitigation financing, and jumbo HELOC for $4M+ estates.',
-    date: '2026-02-05',
-    category: 'Home Equity',
-    readTime: '11 min read',
-  },
+  },
   {
     slug: 'reverse-mortgage-san-marino-ca-2026',
     title: 'Reverse Mortgage in San Marino, CA: HECM Guide for Seniors 62+ [2026]',
@@ -2373,15 +2165,7 @@ export const allBlogPosts: BlogPost[] = [
     category: 'Home Equity',
     readTime: '15 min read',
   },
-  // ===== WHOLESALE ZIP PAGES (Feb 2, 2026) =====
-  {
-    slug: 'wholesale-mortgage-broker-92657',
-    title: 'Wholesale Mortgage Broker 92657 | Newport Coast Jumbo Loan Specialists',
-    excerpt: 'Newport Coast wholesale mortgage broker serving 92657. Access 50+ Wholesale Lenders for jumbo loans up to $10M+, bank statement programs & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
+  // ===== WHOLESALE ZIP PAGES (Feb 2, 2026) =====
   {
     slug: 'wholesale-mortgage-broker-92662',
     title: 'Wholesale Mortgage Broker 92662 | Balboa Island Jumbo Loan Specialists',
@@ -2389,47 +2173,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92625',
-    title: 'Wholesale Mortgage Broker 92625 | Corona del Mar Jumbo Loan Specialists',
-    excerpt: 'Corona del Mar wholesale mortgage broker serving 92625. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92661',
-    title: 'Wholesale Mortgage Broker 92661 | Newport Beach (Balboa) Jumbo Loan Specialists',
-    excerpt: 'Newport Beach wholesale mortgage broker serving 92661. Access 50+ Wholesale Lenders for jumbo loans, investment property financing & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92651',
-    title: 'Wholesale Mortgage Broker 92651 | Laguna Beach Jumbo Loan Specialists',
-    excerpt: 'Laguna Beach wholesale mortgage broker serving 92651. Access 50+ Wholesale Lenders for jumbo loans, second home financing & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92663',
-    title: 'Wholesale Mortgage Broker 92663 | Newport Beach (Peninsula) Jumbo Loan Specialists',
-    excerpt: 'Newport Peninsula wholesale mortgage broker serving 92663. Access 50+ Wholesale Lenders for jumbo loans, bank statement programs & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92660',
-    title: 'Wholesale Mortgage Broker 92660 | Newport Beach Jumbo Loan Specialists',
-    excerpt: 'Newport Beach wholesale mortgage broker serving 92660. Access 50+ Wholesale Lenders for jumbo loans, non-QM programs & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-92603',
     title: 'Wholesale Mortgage Broker 92603 | Irvine (Turtle Rock) Jumbo Loan Specialists',
@@ -2445,15 +2189,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-02-02',
     category: 'Wholesale',
     readTime: '6 min read',
-  },
-  {
-    slug: 'wholesale-mortgage-broker-92629',
-    title: 'Wholesale Mortgage Broker 92629 | Dana Point Jumbo Loan Specialists',
-    excerpt: 'Dana Point wholesale mortgage broker serving 92629. Access 50+ Wholesale Lenders for jumbo loans, VA programs & better rates.',
-    date: '2026-02-02',
-    category: 'Wholesale',
-    readTime: '6 min read',
-  },
+  },
   {
     slug: 'wholesale-mortgage-broker-92624',
     title: 'Wholesale Mortgage Broker 92624 | Capistrano Beach Jumbo Loan Specialists',
@@ -3050,15 +2786,7 @@ export const allBlogPosts: BlogPost[] = [
     date: '2026-01-19',
     category: 'Refinance',
     readTime: '10 min read',
-  },
-  {
-    slug: 'laguna-beach-mortgage-guide-2026',
-    title: 'Laguna Beach Mortgage Guide: Artistic Coastal Living [2026]',
-    excerpt: 'Laguna Beach mortgage guide: Jumbo loans for this artistic coastal community with unique architecture.',
-    date: '2026-01-19',
-    category: 'City Guides',
-    readTime: '11 min read',
-  },
+  },
   // ===== MORE CITY GUIDES (Jan 18, 2026) =====
   {
     slug: 'irvine-mortgage-guide-2026',
