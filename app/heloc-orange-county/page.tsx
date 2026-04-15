@@ -7,6 +7,7 @@ import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema } from '@/lib/schema-entities';
 import QualificationCallout from '@/components/QualificationCallout';
+import LoanCapSubheadline from '@/components/LoanCapSubheadline';
 
 export const metadata: Metadata = {
   title: 'Orange County HELOC | Flexible Home Equity Credit Line',
@@ -168,6 +169,11 @@ export default function HELOCOrangeCountyPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
               Home Equity Line of Credit (HELOC) in <span className="text-blue-600">Orange County, CA</span>
             </h1>
+            <LoanCapSubheadline
+              productLabel="HELOCs"
+              product="heloc"
+              regions={['California', 'Washington']}
+            />
             <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8" data-speakable="true">
               A HELOC provides flexible access to your Orange County home's equity with a revolving credit line.
               Draw funds as needed for home improvements, education, debt consolidation, or other major expenses.
