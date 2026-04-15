@@ -15,7 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const DIR = 'lib/city-page-data';
-const IGNORE = new Set(['index.ts', 'README.md']);
+const IGNORE = new Set(['index.ts', 'README.md', 'nearby-cities.ts']);
 
 const HARD_BAN = [
   /UHNW/i,
