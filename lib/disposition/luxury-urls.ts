@@ -3,7 +3,7 @@
  * Do not edit by hand. Source of truth:
  *   docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv
  *
- * Generated: 2026-04-15T15:41:28.672Z
+ * Generated: 2026-04-15T15:58:49.566Z
  * Kept (not redirected/gone): 1 URL(s) — see CSV __KEEP__ rows
  */
 
@@ -235,5 +235,48 @@ export const GONE_410: readonly string[] = [
   "/blog/wholesale-mortgage-broker-foothill-luxury-2026",
   "/blog/wholesale-mortgage-broker-la-westside-luxury-2026",
   "/blog/wholesale-mortgage-broker-urban-seattle-premium-2026",
-  "/blog/wholesale-mortgage-broker-western-la-luxury-2026"
+  "/blog/wholesale-mortgage-broker-western-la-luxury-2026",
+  "/areas/laguna-beach-mortgage-broker",
+  "/areas/newport-beach",
+  "/blog/home-equity-affluent-suburban-east-bay-2026",
+  "/blog/home-equity-ca-sd-a-2026",
+  "/blog/home-equity-coastal-north-sd-2026",
+  "/blog/home-equity-inland-empire-affluent-2026",
+  "/blog/home-equity-la-beach-cities-2026",
+  "/blog/home-equity-malibu-ca-2026",
+  "/blog/home-equity-pacific-palisades-ca-2026",
+  "/blog/home-equity-sacramento-affluent-2026",
+  "/blog/home-equity-ventura-affluent-ca-2026",
+  "/blog/home-equity-wine-country-2026",
+  "/blog/home-equity-wine-country-guide-2026",
+  "/blog/laguna-beach-mortgage-guide-2026",
+  "/blog/reverse-mortgage-affluent-suburban-east-bay-2026",
+  "/blog/reverse-mortgage-coastal-north-sd-2026",
+  "/blog/reverse-mortgage-ie-affluent-2026",
+  "/blog/reverse-mortgage-la-beach-cities-2026",
+  "/blog/reverse-mortgage-malibu-ca-2026",
+  "/blog/reverse-mortgage-pacific-palisades-ca-2026",
+  "/blog/reverse-mortgage-sacramento-affluent-2026",
+  "/blog/reverse-mortgage-ventura-affluent-2026",
+  "/blog/reverse-mortgage-wine-country-2026",
+  "/blog/reverse-mortgage-wine-country-guide-2026",
+  "/blog/wholesale-mortgage-92625-corona-del-mar-2026",
+  "/blog/wholesale-mortgage-92629-dana-point-2026",
+  "/blog/wholesale-mortgage-92651-laguna-beach-2026",
+  "/blog/wholesale-mortgage-92660-newport-harbor-2026",
+  "/blog/wholesale-mortgage-92661-newport-beach-2026",
+  "/blog/wholesale-mortgage-broker-92625",
+  "/blog/wholesale-mortgage-broker-92629",
+  "/blog/wholesale-mortgage-broker-92651",
+  "/blog/wholesale-mortgage-broker-92657",
+  "/blog/wholesale-mortgage-broker-92660",
+  "/blog/wholesale-mortgage-broker-92661",
+  "/blog/wholesale-mortgage-broker-92663",
+  "/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026",
+  "/blog/wholesale-mortgage-broker-ca-sd-a-2026",
+  "/blog/wholesale-mortgage-broker-ca-sgv-a-2026",
+  "/blog/wholesale-mortgage-broker-coastal-north-sd-2026",
+  "/blog/wholesale-mortgage-broker-la-beach-cities-2026",
+  "/neighborhood-guide/newport-beach-vs-laguna-beach-home-buying-guide",
+  "/zip-codes/92660-newport-beach-mortgage-broker"
 ];
