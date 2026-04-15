@@ -34,15 +34,16 @@ function extractString(src, key) {
 
 function extractProse(src) {
   // localMarketProse is constructed with: [...].join('\n\n')
-  // Capture the array contents, strip wrapping quotes, join with \n\n.
-  const arrayMatch = src.match(/localMarketProse\s*:\s*\[([\s\S]*?)\]\.join\('\\n\\n'\)/);
+  // Accept single, double, or backtick quotes for both the join delimiter
+  // and the individual paragraph literals.
+  const arrayMatch = src.match(/localMarketProse\s*:\s*\[([\s\S]*?)\]\.join\(['"`]\\n\\n['"`]\)/);
   if (arrayMatch) {
     const body = arrayMatch[1];
     const parts = [];
-    const partRe = /'((?:\\.|[^'\\])*)'/g;
+    const partRe = /(['"`])((?:\\.|(?!\1)[\s\S])*?)\1/g;
     let m;
     while ((m = partRe.exec(body)) !== null) {
-      parts.push(m[1].replace(/\\'/g, "'"));
+      parts.push(m[2].replace(/\\'/g, "'").replace(/\\"/g, '"'));
     }
     return parts.join('\n\n');
   }

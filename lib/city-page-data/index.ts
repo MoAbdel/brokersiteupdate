@@ -4,7 +4,6 @@
 // by a future sitemap customization.
 
 // Exports appended here by Tasks 3–12:
-// export { spokane } from './spokane';
+export { spokane } from './spokane';
 // export { riverside } from './riverside';
 // etc.
-export {};
