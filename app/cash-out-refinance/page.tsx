@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { DollarSign, Home, TrendingUp, Calculator, CheckCircle, CreditCard, Hammer, GraduationCap, Building, PiggyBank, Lightbulb } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import LoanCapSubheadline from '@/components/LoanCapSubheadline';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -185,6 +186,11 @@ export default function CashOutRefinancePage() {
               <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
                 Cash-Out Refinance in <span className="text-blue-600">Orange County, CA</span>
               </h1>
+              <LoanCapSubheadline
+                productLabel="Cash-Out Refinance"
+                product="cashOut"
+                regions={['California', 'Washington']}
+              />
               <p className="text-xl text-slate-600 max-w-4xl mx-auto mb-8" data-speakable="true">
                 Turn your Orange County home's equity into cash while refinancing your mortgage. With rising home values
                 throughout the county, you may have more equity available than you realize. Access funds for home improvements,

@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { CheckCircle, Home, Calculator, FileText, Users, TrendingUp, Shield } from 'lucide-react';
 import Link from 'next/link';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import LoanCapSubheadline from '@/components/LoanCapSubheadline';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -173,6 +174,11 @@ export default function ConventionalLoansOrangeCounty() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Conventional Loans in Orange County – Flexible Home Financing
             </h1>
+            <LoanCapSubheadline
+              productLabel="Conventional Loans"
+              product="conventional"
+              regions={['California', 'Washington']}
+            />
             <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Get traditional home financing with down payments as low as 3%. Access competitive pricing from 50+ Wholesale Lenders with flexible terms for your Orange County home purchase.
             </p>

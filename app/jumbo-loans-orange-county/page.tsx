@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Star, Shield, DollarSign, TrendingUp, CheckCircle, Home, Calculator, Award, Building } from 'lucide-react';
 import Breadcrumbs from '@/components/navigation/Breadcrumbs';
+import LoanCapSubheadline from '@/components/LoanCapSubheadline';
 import { buildBrokerEntityGraph, buildServiceWebPageSchema, buildFAQPageSchema, buildHowToSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
@@ -112,6 +113,11 @@ export default function JumboLoansOrangeCountyPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
                 Jumbo Loans Orange County 2026 – <span className="text-blue-600">High-Balance Luxury Home Financing</span>
               </h1>
+              <LoanCapSubheadline
+                productLabel="Jumbo Loans"
+                product="jumbo"
+                regions={['California', 'Washington']}
+              />
               <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-8" data-speakable="true">
                 Finance luxury homes above $1,209,750 in Orange County with competitive jumbo loans.
                 Mo Abdel specializes in high-balance mortgage financing for Newport Beach, Irvine, Laguna Beach, and premium properties throughout OC.

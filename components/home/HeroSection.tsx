@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/Button";
 import { Calculator, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
+import LoanCapSubheadline from '@/components/LoanCapSubheadline';
 
 import ProcessTimeline from "./ProcessTimeline";
 
@@ -23,6 +24,11 @@ export default function HeroSection() {
                 50+ Wholesale Lenders
               </span>
             </h1>
+            <LoanCapSubheadline
+              productLabel="Jumbo Loans"
+              product="jumbo"
+              regions={['California', 'Washington']}
+            />
 
             <div className="max-w-3xl mx-auto">
               <p className="text-sm md:text-base text-slate-600 font-semibold tracking-wide mb-3">
