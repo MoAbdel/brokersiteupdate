@@ -1,5 +1,6 @@
 import ProductLedCityTemplate from '@/components/templates/ProductLedCityTemplate';
 import { murrieta } from '@/lib/city-page-data/murrieta';
+import { nearbyCitiesFor } from '@/lib/city-page-data/nearby-cities';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -9,5 +10,5 @@ export const metadata: Metadata = {
 };
 
 export default function MurrietaMortgageBrokerPage() {
-  return <ProductLedCityTemplate city={murrieta} />;
+  return <ProductLedCityTemplate city={murrieta} nearbyCities={nearbyCitiesFor('murrieta')} />;
 }

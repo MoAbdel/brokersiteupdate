@@ -1,5 +1,6 @@
 import ProductLedCityTemplate from '@/components/templates/ProductLedCityTemplate';
 import { longBeach } from '@/lib/city-page-data/long-beach';
+import { nearbyCitiesFor } from '@/lib/city-page-data/nearby-cities';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -9,5 +10,5 @@ export const metadata: Metadata = {
 };
 
 export default function LongBeachMortgageBrokerPage() {
-  return <ProductLedCityTemplate city={longBeach} />;
+  return <ProductLedCityTemplate city={longBeach} nearbyCities={nearbyCitiesFor('long-beach')} />;
 }
