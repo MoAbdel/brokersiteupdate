@@ -178,6 +178,7 @@ export default function ConventionalLoansOrangeCounty() {
               productLabel="Conventional Loans"
               product="conventional"
               regions={['California', 'Washington']}
+              className="!text-slate-200"
             />
             <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-4xl mx-auto leading-relaxed" data-speakable="true">
               Get traditional home financing with down payments as low as 3%. Access competitive pricing from 50+ Wholesale Lenders with flexible terms for your Orange County home purchase.
