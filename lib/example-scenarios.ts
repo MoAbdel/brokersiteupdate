@@ -3,7 +3,7 @@
  * example rendered on product/guide pages. Update values here and every
  * consumer picks them up.
  *
- * All values must satisfy the invariants in scripts/validate-scenarios.mjs.
+ * Invariants are enforced at pre-commit time by scripts/validate-scenarios.mjs.
  */
 import { LOAN_CAPS } from '@/lib/loan-caps';
 
@@ -35,10 +35,3 @@ export const TARGET_HOME_VALUE_BAND = {
 } as const;
 
 export type ScenarioKey = 'heloc' | 'cashOut' | 'dscr';
-
-// Compile-time sanity: scenarios cannot exceed product caps.
-// (Runtime assertions live in scripts/validate-scenarios.mjs.)
-const _helocGuard: true = (HELOC_EXAMPLE.helocAmount <= LOAN_CAPS.heloc) as true;
-const _cashOutGuard: true = (CASH_OUT_EXAMPLE.newLoan <= LOAN_CAPS.cashOut) as true;
-const _dscrGuard: true = (DSCR_EXAMPLE.loanAmount <= LOAN_CAPS.dscr) as true;
-void _helocGuard; void _cashOutGuard; void _dscrGuard;

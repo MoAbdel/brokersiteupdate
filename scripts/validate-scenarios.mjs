@@ -22,15 +22,30 @@ const helocCap = num(caps, 'heloc');
 const cashOutCap = num(caps, 'cashOut');
 const dscrCap = num(caps, 'dscr');
 
-const helocAmount = num(src, 'helocAmount');
-const cashOutNewLoan = num(src, 'newLoan');
-const dscrLoan = num(src, 'loanAmount');
-const helocHome = num(src, 'homeValue');
-const cashOutHome = num(src, 'homeValue');
-const dscrProp = num(src, 'propertyValue');
-const bandMin = num(src, 'min');
-const bandMax = num(src, 'max');
-const dscrRatio = Number(src.match(/dscrRatio\s*:\s*([\d.]+)/)[1]);
+const block = (text, blockName) => {
+  const re = new RegExp(`${blockName}\\s*=\\s*\\{([^}]+)\\}`, 'm');
+  const m = text.match(re);
+  if (!m) throw new Error(`Missing block "${blockName}"`);
+  return m[1];
+};
+
+const helocBlock = block(src, 'HELOC_EXAMPLE');
+const cashOutBlock = block(src, 'CASH_OUT_EXAMPLE');
+const dscrBlock = block(src, 'DSCR_EXAMPLE');
+const bandBlock = block(src, 'TARGET_HOME_VALUE_BAND');
+
+const helocAmount = num(helocBlock, 'helocAmount');
+const cashOutNewLoan = num(cashOutBlock, 'newLoan');
+const dscrLoan = num(dscrBlock, 'loanAmount');
+const helocHome = num(helocBlock, 'homeValue');
+const cashOutHome = num(cashOutBlock, 'homeValue');
+const dscrProp = num(dscrBlock, 'propertyValue');
+const bandMin = num(bandBlock, 'min');
+const bandMax = num(bandBlock, 'max');
+
+const dscrRatioMatch = dscrBlock.match(/dscrRatio\s*:\s*([\d.]+)/);
+if (!dscrRatioMatch) throw new Error('Missing dscrRatio');
+const dscrRatio = Number(dscrRatioMatch[1]);
 
 const checks = [
   ['HELOC within cap', helocAmount <= helocCap, `${helocAmount} <= ${helocCap}`],
