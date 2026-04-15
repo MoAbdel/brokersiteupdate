@@ -3,7 +3,7 @@
  * Do not edit by hand. Source of truth:
  *   docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv
  *
- * Generated: 2026-04-15T04:08:51.749Z
+ * Generated: 2026-04-15T15:17:39.701Z
  * Kept (not redirected/gone): 1 URL(s) — see CSV __KEEP__ rows
  */
 
@@ -201,5 +201,13 @@ export const GONE_410: readonly string[] = [
   "/tools/dscr-qualification-calculator/wa/king-county/bellevue",
   "/tools/bank-statement-loan-estimator/ca/santa-clara-county/morgan-hill",
   "/tools/bank-statement-loan-estimator/wa/king-county/seattle",
-  "/tools/equity-comparison-calculator/ca/santa-clara-county/san-jose"
+  "/tools/equity-comparison-calculator/ca/santa-clara-county/san-jose",
+  "/luxury-markets",
+  "/luxury-markets/waterfront-homes-mortgage-broker",
+  "/luxury-markets/ultra-luxury-estates-mortgage-broker",
+  "/luxury-markets/golf-course-homes-mortgage-broker",
+  "/areas/newport-beach-neighborhoods/balboa-island-mortgage-broker",
+  "/areas/newport-beach-neighborhoods/lido-isle-mortgage-broker",
+  "/areas/newport-beach-neighborhoods/newport-coast-mortgage-broker",
+  "/areas/newport-beach-neighborhoods/corona-del-mar-mortgage-broker"
 ];
