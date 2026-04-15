@@ -2,6 +2,12 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { decorateAudienceHeaders, getAudienceContext, isLocalHost } from '@/lib/audience';
 import routePolicy from '@/lib/seo-route-policy';
+import { REDIRECTS as LUXURY_REDIRECTS, GONE_410 } from '@/lib/disposition/luxury-urls';
+
+const GONE_410_SET = new Set<string>(GONE_410);
+const LUXURY_REDIRECT_MAP = new Map<string, string>(
+  LUXURY_REDIRECTS.map((r) => [r.from, r.to])
+);
 
 const APPLY_URL = 'https://luminlending-apply-mo-abdel.my1003app.com/register';
 
@@ -149,6 +155,16 @@ export function middleware(request: NextRequest) {
     '/loans/va': '/loan-programs/orange-county-va-loans',
     '/loans/bank-statement': '/loan-programs/bank-statement-loans',
   };
+
+  if (GONE_410_SET.has(pathname)) {
+    return new NextResponse(null, { status: 410 });
+  }
+
+  const luxuryRedirectTarget = LUXURY_REDIRECT_MAP.get(pathname);
+  if (luxuryRedirectTarget) {
+    const redirectUrl = new URL(`https://www.mothebroker.com${luxuryRedirectTarget}${search}`);
+    return NextResponse.redirect(redirectUrl, 301);
+  }
 
   const strategicRedirectTarget = getRedirectTarget(pathname);
   const redirectTarget =
