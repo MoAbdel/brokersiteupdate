@@ -7,7 +7,7 @@ const routePolicy = require('./lib/seo-route-policy.js');
 
 const BUILD_ISO = new Date().toISOString();
 const APP_DIR = path.join(process.cwd(), 'app');
-const REDIRECT_SOURCE_TOKEN_PATTERN = /[\*\(\):$]/;
+const REDIRECT_SOURCE_TOKEN_PATTERN = /[*():$]/;
 const {
   ROUTE_POLICY_BUCKETS,
   normalizeRoutePath,
@@ -43,6 +43,53 @@ const middlewareRedirectSources = (() => {
 })();
 
 const redirectSourceRoutes = new Set([...vercelRedirectSources, ...middlewareRedirectSources]);
+
+const LUXURY_GONE_410 = (() => {
+  try {
+    const csvPath = path.join(
+      process.cwd(),
+      'docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv'
+    );
+    const lines = fsSync.readFileSync(csvPath, 'utf8').split('\n').slice(1).filter(Boolean);
+    const gone = new Set();
+    for (const line of lines) {
+      const parts = line.split(',');
+      const url = parts[0];
+      const disposition = parts[3];
+      if (disposition === '410' && url) {
+        gone.add(normalizeRoutePath(url));
+      }
+    }
+    return gone;
+  } catch (err) {
+    console.warn('[next-sitemap] Failed to load luxury 410 list:', err.message);
+    return new Set();
+  }
+})();
+
+const LUXURY_REDIRECT_SOURCES = (() => {
+  try {
+    const csvPath = path.join(
+      process.cwd(),
+      'docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv'
+    );
+    const lines = fsSync.readFileSync(csvPath, 'utf8').split('\n').slice(1).filter(Boolean);
+    const sources = new Set();
+    for (const line of lines) {
+      const parts = line.split(',');
+      const url = parts[0];
+      const disposition = parts[3];
+      const target = parts[4];
+      if (disposition === 'redirect' && target && target.trim() !== '__KEEP__' && url) {
+        sources.add(normalizeRoutePath(url));
+      }
+    }
+    return sources;
+  } catch (err) {
+    console.warn('[next-sitemap] Failed to load luxury redirect list:', err.message);
+    return new Set();
+  }
+})();
 
 async function fileExists(filePath) {
   try {
@@ -345,6 +392,8 @@ module.exports = {
     ) {
       return null;
     }
+    if (LUXURY_GONE_410.has(normalizedRoutePath)) return null;
+    if (LUXURY_REDIRECT_SOURCES.has(normalizedRoutePath)) return null;
 
     if (shouldExcludeFromSitemap(normalizedRoutePath)) {
       return null;
@@ -426,7 +475,7 @@ module.exports = {
   },
 
   // Additional static paths that might not be automatically discovered
-  additionalPaths: async (config) => {
+  additionalPaths: async (_config) => {
     const additionalPaths = [
       // Home page - ensure it's included
       '/',
@@ -521,6 +570,8 @@ module.exports = {
         (await routeHasPageFile(routePath)) &&
         !shouldExcludeFromSitemap(normalizedRoutePath) &&
         !redirectSourceRoutes.has(normalizedRoutePath) &&
+        !LUXURY_GONE_410.has(normalizedRoutePath) &&
+        !LUXURY_REDIRECT_SOURCES.has(normalizedRoutePath) &&
         getRoutePolicy(normalizedRoutePath).indexingBucket !== ROUTE_POLICY_BUCKETS.REDIRECT
       ) {
         existingAdditionalPaths.push(routePath);
