@@ -30,3 +30,8 @@ export { folsom } from './folsom';
 export { ranchoCordova } from './rancho-cordova';
 export { stockton } from './stockton';
 export { modesto } from './modesto';
+export { torrance } from './torrance';
+export { whittier } from './whittier';
+export { chulaVista } from './chula-vista';
+export { oceanside } from './oceanside';
+export { escondido } from './escondido';

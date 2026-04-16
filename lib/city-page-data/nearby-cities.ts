@@ -89,6 +89,31 @@ const MAP: Record<string, NearbyCity[]> = {
     { citySlug: 'fresno', cityName: 'Fresno', state: 'California' },
     { citySlug: 'bakersfield', cityName: 'Bakersfield', state: 'California' },
   ],
+  torrance: [
+    { citySlug: 'whittier', cityName: 'Whittier', state: 'California' },
+    { citySlug: 'long-beach', cityName: 'Long Beach', state: 'California' },
+    { citySlug: 'chula-vista', cityName: 'Chula Vista', state: 'California' },
+  ],
+  whittier: [
+    { citySlug: 'torrance', cityName: 'Torrance', state: 'California' },
+    { citySlug: 'long-beach', cityName: 'Long Beach', state: 'California' },
+    { citySlug: 'chula-vista', cityName: 'Chula Vista', state: 'California' },
+  ],
+  'chula-vista': [
+    { citySlug: 'oceanside', cityName: 'Oceanside', state: 'California' },
+    { citySlug: 'escondido', cityName: 'Escondido', state: 'California' },
+    { citySlug: 'long-beach', cityName: 'Long Beach', state: 'California' },
+  ],
+  oceanside: [
+    { citySlug: 'escondido', cityName: 'Escondido', state: 'California' },
+    { citySlug: 'chula-vista', cityName: 'Chula Vista', state: 'California' },
+    { citySlug: 'long-beach', cityName: 'Long Beach', state: 'California' },
+  ],
+  escondido: [
+    { citySlug: 'oceanside', cityName: 'Oceanside', state: 'California' },
+    { citySlug: 'chula-vista', cityName: 'Chula Vista', state: 'California' },
+    { citySlug: 'long-beach', cityName: 'Long Beach', state: 'California' },
+  ],
 };
 
 export function nearbyCitiesFor(slug: string): NearbyCity[] {
