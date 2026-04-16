@@ -54,6 +54,41 @@ const MAP: Record<string, NearbyCity[]> = {
   tacoma: [
     { citySlug: 'spokane', cityName: 'Spokane', state: 'Washington' },
   ],
+  corona: [
+    { citySlug: 'riverside', cityName: 'Riverside', state: 'California' },
+    { citySlug: 'murrieta', cityName: 'Murrieta', state: 'California' },
+    { citySlug: 'temecula', cityName: 'Temecula', state: 'California' },
+  ],
+  'moreno-valley': [
+    { citySlug: 'riverside', cityName: 'Riverside', state: 'California' },
+    { citySlug: 'san-bernardino', cityName: 'San Bernardino', state: 'California' },
+    { citySlug: 'corona', cityName: 'Corona', state: 'California' },
+  ],
+  temecula: [
+    { citySlug: 'murrieta', cityName: 'Murrieta', state: 'California' },
+    { citySlug: 'corona', cityName: 'Corona', state: 'California' },
+    { citySlug: 'riverside', cityName: 'Riverside', state: 'California' },
+  ],
+  folsom: [
+    { citySlug: 'roseville', cityName: 'Roseville', state: 'California' },
+    { citySlug: 'elk-grove', cityName: 'Elk Grove', state: 'California' },
+    { citySlug: 'rancho-cordova', cityName: 'Rancho Cordova', state: 'California' },
+  ],
+  'rancho-cordova': [
+    { citySlug: 'folsom', cityName: 'Folsom', state: 'California' },
+    { citySlug: 'elk-grove', cityName: 'Elk Grove', state: 'California' },
+    { citySlug: 'roseville', cityName: 'Roseville', state: 'California' },
+  ],
+  stockton: [
+    { citySlug: 'modesto', cityName: 'Modesto', state: 'California' },
+    { citySlug: 'fresno', cityName: 'Fresno', state: 'California' },
+    { citySlug: 'bakersfield', cityName: 'Bakersfield', state: 'California' },
+  ],
+  modesto: [
+    { citySlug: 'stockton', cityName: 'Stockton', state: 'California' },
+    { citySlug: 'fresno', cityName: 'Fresno', state: 'California' },
+    { citySlug: 'bakersfield', cityName: 'Bakersfield', state: 'California' },
+  ],
 };
 
 export function nearbyCitiesFor(slug: string): NearbyCity[] {
