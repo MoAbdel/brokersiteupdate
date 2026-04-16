@@ -50,9 +50,12 @@ const MAP: Record<string, NearbyCity[]> = {
   ],
   spokane: [
     { citySlug: 'tacoma', cityName: 'Tacoma', state: 'Washington' },
+    { citySlug: 'vancouver-wa', cityName: 'Vancouver', state: 'Washington' },
   ],
   tacoma: [
-    { citySlug: 'spokane', cityName: 'Spokane', state: 'Washington' },
+    { citySlug: 'lakewood-wa', cityName: 'Lakewood', state: 'Washington' },
+    { citySlug: 'olympia', cityName: 'Olympia', state: 'Washington' },
+    { citySlug: 'federal-way', cityName: 'Federal Way', state: 'Washington' },
   ],
   corona: [
     { citySlug: 'riverside', cityName: 'Riverside', state: 'California' },
@@ -113,6 +116,46 @@ const MAP: Record<string, NearbyCity[]> = {
     { citySlug: 'oceanside', cityName: 'Oceanside', state: 'California' },
     { citySlug: 'chula-vista', cityName: 'Chula Vista', state: 'California' },
     { citySlug: 'long-beach', cityName: 'Long Beach', state: 'California' },
+  ],
+  'lakewood-wa': [
+    { citySlug: 'tacoma', cityName: 'Tacoma', state: 'Washington' },
+    { citySlug: 'olympia', cityName: 'Olympia', state: 'Washington' },
+    { citySlug: 'federal-way', cityName: 'Federal Way', state: 'Washington' },
+  ],
+  olympia: [
+    { citySlug: 'lakewood-wa', cityName: 'Lakewood', state: 'Washington' },
+    { citySlug: 'tacoma', cityName: 'Tacoma', state: 'Washington' },
+    { citySlug: 'federal-way', cityName: 'Federal Way', state: 'Washington' },
+  ],
+  everett: [
+    { citySlug: 'marysville', cityName: 'Marysville', state: 'Washington' },
+    { citySlug: 'kent-wa', cityName: 'Kent', state: 'Washington' },
+    { citySlug: 'auburn-wa', cityName: 'Auburn', state: 'Washington' },
+  ],
+  marysville: [
+    { citySlug: 'everett', cityName: 'Everett', state: 'Washington' },
+    { citySlug: 'kent-wa', cityName: 'Kent', state: 'Washington' },
+    { citySlug: 'auburn-wa', cityName: 'Auburn', state: 'Washington' },
+  ],
+  'vancouver-wa': [
+    { citySlug: 'olympia', cityName: 'Olympia', state: 'Washington' },
+    { citySlug: 'tacoma', cityName: 'Tacoma', state: 'Washington' },
+    { citySlug: 'spokane', cityName: 'Spokane', state: 'Washington' },
+  ],
+  'federal-way': [
+    { citySlug: 'kent-wa', cityName: 'Kent', state: 'Washington' },
+    { citySlug: 'auburn-wa', cityName: 'Auburn', state: 'Washington' },
+    { citySlug: 'tacoma', cityName: 'Tacoma', state: 'Washington' },
+  ],
+  'kent-wa': [
+    { citySlug: 'federal-way', cityName: 'Federal Way', state: 'Washington' },
+    { citySlug: 'auburn-wa', cityName: 'Auburn', state: 'Washington' },
+    { citySlug: 'everett', cityName: 'Everett', state: 'Washington' },
+  ],
+  'auburn-wa': [
+    { citySlug: 'kent-wa', cityName: 'Kent', state: 'Washington' },
+    { citySlug: 'federal-way', cityName: 'Federal Way', state: 'Washington' },
+    { citySlug: 'tacoma', cityName: 'Tacoma', state: 'Washington' },
   ],
 };
 
