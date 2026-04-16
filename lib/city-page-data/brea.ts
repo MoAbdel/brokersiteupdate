@@ -50,7 +50,7 @@ export const brea: CityPageData = {
     {
       question: 'What are current mortgage rates in Brea, CA for 2026?',
       answer:
-        'Brea buyers are seeing conventional 30-year rates in the mid-to-upper 6% range for well-qualified borrowers as of April 2026. FHA rates are similar but carry mortgage insurance. VA rates are competitive for eligible buyers — Brea's proximity to defense-industry employers in north OC means VA loans are commonly used here. Call (949) 579-2057 for a live rate quote specific to your price range and down payment.',
+        "Brea buyers are seeing conventional 30-year rates in the mid-to-upper 6% range for well-qualified borrowers as of April 2026. FHA rates are similar but carry mortgage insurance. VA rates are competitive for eligible buyers — Brea's proximity to defense-industry employers in north OC means VA loans are commonly used here. Call (949) 579-2057 for a live rate quote specific to your price range and down payment.",
     },
     {
       question: 'Should I use a HELOC or cash-out refinance on my Brea home?',
