@@ -12,21 +12,8 @@ import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
 import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 import { getResponseErrorMessage } from '@/lib/api-client';
 import { appendTermsConsentToFormData } from '@/lib/terms-consent';
-import { qualify, capForProduct, type PrequalFailReason, type PrequalProduct } from '@/lib/leadQualification';
-
-function referralReasonText(reason: PrequalFailReason): string {
-  if (reason.type === 'home-value-exceeds-icp') {
-    return 'Homes above $5M typically need a specialist lender.';
-  }
-  // product-cap-exceeded
-  if (reason.product === 'heloc') {
-    return 'HELOCs over $750K are routed to our referral partner.';
-  }
-  const cap = capForProduct(reason.product);
-  return `Total loan amounts over ${new Intl.NumberFormat('en-US', {
-    style: 'currency', currency: 'USD', maximumFractionDigits: 0,
-  }).format(cap)} are routed to our referral partner.`;
-}
+import { qualify, type PrequalFailReason, type PrequalProduct } from '@/lib/leadQualification';
+import { referralReasonText } from '@/lib/referral-reason-text';
 
 function mapProductToPurpose(product: PrequalProduct): string {
   switch (product) {
