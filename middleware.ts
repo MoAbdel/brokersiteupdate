@@ -190,6 +190,7 @@ export function middleware(request: NextRequest) {
   }
 
   const requestHeaders = decorateAudienceHeaders(request.headers);
+  requestHeaders.set('x-pathname', pathname);
   const audience = getAudienceContext(requestHeaders);
   const response = NextResponse.next({
     request: {
