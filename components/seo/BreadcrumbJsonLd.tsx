@@ -1,10 +1,15 @@
+/**
+ * Emits a single BreadcrumbList JSON-LD per request. Reads the pathname
+ * from the `x-pathname` header set by middleware.ts. Using headers() here
+ * opts routes that inherit the root layout into dynamic rendering.
+ */
 import { headers } from 'next/headers';
 import { pathnameToBreadcrumbItems } from '@/lib/breadcrumbs';
 import { SITE_ORIGIN } from '@/lib/site';
 
 export default async function BreadcrumbJsonLd() {
   const hdrs = await headers();
-  const pathname = hdrs.get('x-invoke-path') ?? hdrs.get('x-pathname') ?? '/';
+  const pathname = hdrs.get('x-pathname') ?? hdrs.get('x-invoke-path') ?? '/';
 
   const items = pathnameToBreadcrumbItems(pathname);
   if (items.length === 0) return null;
