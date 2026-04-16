@@ -7,6 +7,7 @@ import { Phone, Mail, MapPin, Clock, Shield, Star, Zap, Users, ArrowUpRight, Tre
 import PremiumContactForm from '@/components/contact/PremiumContactForm';
 import PrequalWidget from '@/components/prequal/PrequalWidget';
 import PrequalSummaryChip from '@/components/prequal/PrequalSummaryChip';
+import ReferralForm from '@/components/prequal/ReferralForm';
 import type { PrequalInput, PrequalResult } from '@/lib/leadQualification';
 import { NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
 import {
@@ -224,17 +225,23 @@ export default function ContactPageClient({
             ) : (
               <div className="space-y-4">
                 <PrequalSummaryChip input={prequalState.input} onEdit={handleEditPrequal} />
-                <PremiumContactForm
-                  leadCaptureEnabled={leadCaptureEnabled}
-                  initialValues={{
-                    homeValue: prequalState.input.homeValue,
-                    desiredLoan: prequalState.input.desiredLoan,
-                    product: prequalState.input.product,
-                    currentMortgage: prequalState.input.currentMortgage,
-                  }}
-                  caseType={prequalState.stage === 'form-referral' ? 'referral' : 'standard'}
-                  referralReasons={prequalState.stage === 'form-referral' ? prequalState.result.reasons : undefined}
-                />
+                {prequalState.stage === 'form-referral' ? (
+                  <ReferralForm
+                    prequalInput={prequalState.input}
+                    referralReasons={prequalState.result.reasons}
+                  />
+                ) : (
+                  <PremiumContactForm
+                    leadCaptureEnabled={leadCaptureEnabled}
+                    initialValues={{
+                      homeValue: prequalState.input.homeValue,
+                      desiredLoan: prequalState.input.desiredLoan,
+                      product: prequalState.input.product,
+                      currentMortgage: prequalState.input.currentMortgage,
+                    }}
+                    caseType="standard"
+                  />
+                )}
               </div>
             )}
           </div>
