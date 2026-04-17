@@ -11,7 +11,6 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "sitemap": "next-sitemap",
-    "sitemap:crawl-live": "node scripts/build-sitemap.mjs",
     "indexnow:submit": "node scripts/submit-indexnow.mjs",
     "bing:submit": "node scripts/submit-bing-gsc.mjs",
     "indexing:submit-all": "node scripts/submit-all-indexing.mjs",
@@ -32,6 +31,7 @@
     "indexing:submit-delta-auto": "node scripts/auto-submit-indexing-delta.mjs",
     "seo:ctr-prune": "node scripts/build-ctr-prune-candidates.mjs",
     "seo:internal-links": "node scripts/internal-link-audit.mjs",
+    "llms:refresh": "node --experimental-strip-types scripts/update-llms-recent.mjs",
     "prepare": "husky"
   },
   "lint-staged": {

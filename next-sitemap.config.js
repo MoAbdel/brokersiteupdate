@@ -100,7 +100,67 @@ async function fileExists(filePath) {
   }
 }
 
+// Walk app/<subdir>/ recursively and collect every directory that contains a page.tsx/jsx/ts/js.
+// Skips App Router route groups (parens), private folders (underscore), and dynamic segments (brackets).
+function enumerateStaticRoutes(subdir) {
+  const rootDir = path.join(APP_DIR, subdir);
+  if (!fsSync.existsSync(rootDir)) return [];
+
+  const routes = [];
+  const walk = (dir, segments) => {
+    let entries;
+    try {
+      entries = fsSync.readdirSync(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    const hasPage = entries.some(
+      (e) => !e.isDirectory() && /^page\.(tsx|jsx|ts|js)$/.test(e.name)
+    );
+    if (hasPage && segments.length > 0) {
+      routes.push('/' + segments.join('/'));
+    }
+    for (const entry of entries) {
+      if (!entry.isDirectory()) continue;
+      const name = entry.name;
+      if (name.startsWith('(') || name.startsWith('_') || name.startsWith('[') || name.startsWith('.')) {
+        continue;
+      }
+      walk(path.join(dir, name), [...segments, name]);
+    }
+  };
+  walk(rootDir, [subdir]);
+  return routes;
+}
+
+// Parse lib/all-blog-posts.ts for slug → date mapping so /blog/* entries emit
+// accurate lastmod based on the post's publish date rather than file mtime.
+const BLOG_POST_DATES = (() => {
+  try {
+    const content = fsSync.readFileSync(
+      path.join(process.cwd(), 'lib', 'all-blog-posts.ts'),
+      'utf8'
+    );
+    const map = {};
+    const re = /slug:\s*'([^']+)'[\s\S]*?date:\s*'([^']+)'/g;
+    let match;
+    while ((match = re.exec(content)) !== null) {
+      map[match[1]] = match[2];
+    }
+    return map;
+  } catch (err) {
+    console.warn('[next-sitemap] Failed to load blog post dates:', err.message);
+    return {};
+  }
+})();
+
 async function getLastModForRoute(routePath) {
+  // Prefer the explicit publish date from lib/all-blog-posts.ts for blog posts —
+  // this produces a stable freshness signal that doesn't drift with unrelated file touches.
+  const blogMatch = routePath.match(/^\/blog\/([^/]+)\/?$/);
+  if (blogMatch && BLOG_POST_DATES[blogMatch[1]]) {
+    return new Date(BLOG_POST_DATES[blogMatch[1]]).toISOString();
+  }
   const route = routePath === '/' ? '' : routePath.replace(/^\//, '').replace(/\/$/, '');
   const candidates = route
     ? [
@@ -151,14 +211,11 @@ async function routeHasPageFile(routePath) {
   return false;
 }
 
-module.exports = {
-  siteUrl: 'https://www.mothebroker.com',
-  generateRobotsTxt: true,
-  generateIndexSitemap: false,
-  // Next.js 15 App Router only - no pages directory
-  outDir: 'public',
-  exclude: [
-    '/admin/*',
+// Sitemap exclude patterns. Mirrored for auto-discovered routes (additionalPaths)
+// via isExcludedByList() so the same path-level blocklist applies to both
+// next-sitemap's built-in discovery and our filesystem-walked enumerations.
+const SITEMAP_EXCLUDES = [
+  '/admin/*',
     '/api/*',
     '/dashboard/*',
     '/areas/costa-mesa-mortgage-rates',
@@ -264,7 +321,31 @@ module.exports = {
     '/blog/hecm-loan-limits-maximum-claim-2026',
     '/blog/refinance-after-late-payments-credit-2026',
     '/blog/home-equity-tax-deduction-2026',
-  ],
+];
+
+// Honor SITEMAP_EXCLUDES when filtering auto-enumerated routes in additionalPaths.
+// Supports literal paths and trailing-wildcard globs ('/articles/*', '/blog/wholesale-mortgage-broker-926*').
+function isExcludedByList(routePath) {
+  for (const pattern of SITEMAP_EXCLUDES) {
+    if (pattern === routePath) return true;
+    if (pattern.endsWith('/*')) {
+      const prefix = pattern.slice(0, -2);
+      if (routePath === prefix || routePath.startsWith(prefix + '/')) return true;
+    } else if (pattern.endsWith('*')) {
+      const prefix = pattern.slice(0, -1);
+      if (routePath.startsWith(prefix)) return true;
+    }
+  }
+  return false;
+}
+
+module.exports = {
+  siteUrl: 'https://www.mothebroker.com',
+  generateRobotsTxt: true,
+  generateIndexSitemap: false,
+  // Next.js 15 App Router only - no pages directory
+  outDir: 'public',
+  exclude: SITEMAP_EXCLUDES,
   robotsTxtOptions: {
     policies: [
       // ===========================================
@@ -332,6 +413,15 @@ module.exports = {
         userAgent: 'cohere-ai',
         allow: '/'
       },
+      // Additional AI/answer-engine crawlers (post-2025 launches)
+      { userAgent: 'OAI-SearchBot', allow: '/' },         // ChatGPT search agent
+      { userAgent: 'Meta-ExternalAgent', allow: '/' },    // Meta AI / WhatsApp previews
+      { userAgent: 'Meta-ExternalFetcher', allow: '/' },  // Meta AI fetcher
+      { userAgent: 'DuckAssistBot', allow: '/' },          // DuckDuckGo AI
+      { userAgent: 'Amazonbot', allow: '/' },              // Alexa / Rufus
+      { userAgent: 'YouBot', allow: '/' },                 // You.com
+      { userAgent: 'MistralAI-User', allow: '/' },         // Mistral Le Chat
+      { userAgent: 'FacebookBot', allow: '/' },            // FB/IG/WhatsApp link previews
       // ===========================================
       // INDEXNOW PARTNERS - Allow (Yandex, Seznam)
       // ===========================================
@@ -345,12 +435,11 @@ module.exports = {
         allow: '/'
       },
       // ===========================================
-      // AI TRAINING CRAWLERS - Block (not search, just training)
+      // LOW-VALUE SCRAPERS - Block
       // ===========================================
-      { userAgent: 'CCBot', disallow: '/' },
+      // Non-search image/dataset harvesters that don't drive traffic or AEO
       { userAgent: 'img2dataset', disallow: '/' },
       { userAgent: 'Omgilibot', disallow: '/' },
-      { userAgent: 'FacebookBot', disallow: '/' },
       // ===========================================
       // BLOCK CHINESE SEARCH ENGINES (low value traffic)
       // ===========================================
@@ -378,8 +467,7 @@ module.exports = {
       }
     ],
     additionalSitemaps: [
-      'https://www.mothebroker.com/sitemap-images.xml',
-      'https://www.mothebroker.com/sitemap-news.xml'
+      'https://www.mothebroker.com/sitemap-images.xml'
     ]
   },
   transform: async (config, routePath) => {
@@ -474,22 +562,18 @@ module.exports = {
     };
   },
 
-  // Additional static paths that might not be automatically discovered
+  // Seed the sitemap with every indexable static route. Hardcoded anchors
+  // cover the trunk (home, loan-programs hub, legacy landing pages, legal).
+  // Blog posts and /areas/* are auto-enumerated from the filesystem so new
+  // content surfaces without touching this file — policy filtering in
+  // lib/seo-route-policy.js handles exclusions (redirects, noindex clusters,
+  // thin-overlap patterns, wholesale-\d{5} programmatic noise, etc.).
   additionalPaths: async (_config) => {
-    const additionalPaths = [
-      // Home page - ensure it's included
+    const STATIC_ANCHORS = [
+      // Home
       '/',
 
-      // Area pages
-      '/areas/irvine',
-      '/areas/mission-viejo',
-      '/areas/newport-beach',
-      '/areas/newport-beach-neighborhoods',
-      '/areas/irvine-neighborhoods',
-      '/areas/california',
-      '/areas/washington',
-
-      // Main loan program pages (proper /loan-programs/ structure)
+      // Loan programs (hub + all products)
       '/loan-programs',
       '/loan-programs/conventional-loans',
       '/loan-programs/fha-loans',
@@ -501,19 +585,18 @@ module.exports = {
       '/loan-programs/bank-statement-loans',
       '/loan-programs/dscr-investment-loans',
       '/loan-programs/asset-depletion-loans',
-      // '/loan-programs/foreign-national-loans', // Removed - noindex page
       '/loan-programs/usda-rural-loans',
       '/loan-programs/fix-flip-loans',
       '/loan-programs/profit-loss-statement-loans',
 
-      // Content pages (restored from redirects)
+      // Content / product landing pages
       '/purchase-loans',
-      '/luxury-markets',
       '/refinance-loans',
+      '/luxury-markets',
       '/home-equity-guide',
       '/self-employed-home-loans-california',
 
-      // Legacy/SEO landing pages
+      // Legacy SEO landing pages (city × product)
       '/fha-loans-orange-county',
       '/va-loans-orange-county',
       '/conventional-loans-orange-county',
@@ -522,34 +605,8 @@ module.exports = {
       '/non-qm-loans-orange-county',
       '/rate-term-refinance-orange-county',
       '/jumbo-loans-orange-county',
-      // Blog Posts (All 20)
-      '/blog/newport-beach-mortgage-guide-2026',
-      '/blog/laguna-beach-mortgage-guide-2026',
-      '/blog/dana-point-mortgage-guide-2026',
-      '/blog/fha-loans-orange-county-2026',
-      '/blog/wholesale-vs-retail-mortgage-brokers-2026',
-      '/blog/san-clemente-mortgage-guide-2026',
-      // '/blog/irvine-mortgage-guide-2026', // CTR-pruned: noindexed zero-click page
-      '/blog/newport-coast-mortgage-guide-2026',
-      '/blog/va-loans-orange-county-2026',
-      '/blog/jumbo-loans-orange-county-2026',
-      '/blog/corona-del-mar-refinance-guide-2026',
-      '/blog/huntington-beach-refinance-guide-2026',
-      '/blog/laguna-niguel-refinance-guide-2026',
-      '/blog/strategic-refinancing-home-equity-2026',
-      '/blog/heloan-vs-cash-out-refinance-2026',
-      '/blog/home-equity-california-guide-2026',
-      '/blog/home-equity-washington-guide-2026',
-      '/blog/reverse-mortgage-california-guide-2026',
-      '/blog/reverse-mortgage-washington-guide-2026',
-      // '/blog/reverse-mortgage-social-security-medicare-2026', // Cannibalization redirect → medicaid-planning
-      '/blog/wholesale-mortgage-broker-california-2026',
-      '/blog/wholesale-mortgage-broker-washington-2026',
-      '/blog/mission-viejo-mortgage-guide-2026',
-      '/blog/ladera-ranch-mortgage-guide-2026',
-      '/blog/rancho-santa-margarita-mortgage-guide-2026',
 
-      // Resources
+      // Resources hub
       '/resources/glossary',
       '/resources/document-checklist',
       '/resources/service-providers',
@@ -558,33 +615,65 @@ module.exports = {
       '/resources/down-payment-assistance',
       '/resources/credit-repair',
 
-      // Privacy and legal pages
+      // Legal
       '/privacy-policy',
-      '/terms-of-service'
+      '/terms-of-service',
     ];
 
-    const existingAdditionalPaths = [];
-    for (const routePath of additionalPaths) {
-      const normalizedRoutePath = normalizeRoutePath(routePath);
-      if (
-        (await routeHasPageFile(routePath)) &&
-        !shouldExcludeFromSitemap(normalizedRoutePath) &&
-        !redirectSourceRoutes.has(normalizedRoutePath) &&
-        !LUXURY_GONE_410.has(normalizedRoutePath) &&
-        !LUXURY_REDIRECT_SOURCES.has(normalizedRoutePath) &&
-        getRoutePolicy(normalizedRoutePath).indexingBucket !== ROUTE_POLICY_BUCKETS.REDIRECT
-      ) {
-        existingAdditionalPaths.push(routePath);
-      }
+    // Auto-discover blog posts and /areas/* pages from the App Router tree.
+    const autoDiscovered = [
+      ...enumerateStaticRoutes('blog'),
+      ...enumerateStaticRoutes('areas'),
+      ...enumerateStaticRoutes('guides'),
+    ];
+
+    // Dedupe + keep only routes whose page file exists AND whose policy permits indexing.
+    const seen = new Set();
+    const candidates = [];
+    for (const routePath of [...STATIC_ANCHORS, ...autoDiscovered]) {
+      if (seen.has(routePath)) continue;
+      seen.add(routePath);
+      const normalized = normalizeRoutePath(routePath);
+      if (!(await routeHasPageFile(routePath))) continue;
+      if (isExcludedByList(normalized)) continue;
+      if (shouldExcludeFromSitemap(normalized)) continue;
+      if (redirectSourceRoutes.has(normalized)) continue;
+      if (LUXURY_GONE_410.has(normalized)) continue;
+      if (LUXURY_REDIRECT_SOURCES.has(normalized)) continue;
+      const policy = getRoutePolicy(normalized);
+      if (policy.indexingBucket === ROUTE_POLICY_BUCKETS.REDIRECT) continue;
+      if (policy.indexingBucket === ROUTE_POLICY_BUCKETS.NOINDEX) continue;
+      candidates.push(routePath);
     }
 
+    // Priority/changefreq match the transform() buckets so auto-discovered
+    // routes get the same signals as crawled routes.
+    const priorityFor = (routePath) => {
+      if (routePath === '/') return { priority: 1.0, changefreq: 'daily' };
+      if (routePath.startsWith('/loan-programs/')) return { priority: 0.9, changefreq: 'weekly' };
+      if (routePath === '/loan-programs') return { priority: 0.9, changefreq: 'weekly' };
+      if (routePath.startsWith('/areas/')) return { priority: 0.8, changefreq: 'weekly' };
+      if (routePath.startsWith('/blog/')) return { priority: 0.7, changefreq: 'weekly' };
+      if (routePath.startsWith('/guides/') || routePath.startsWith('/resources/')) {
+        return { priority: 0.8, changefreq: 'weekly' };
+      }
+      if (routePath === '/privacy-policy' || routePath === '/terms-of-service') {
+        return { priority: 0.3, changefreq: 'yearly' };
+      }
+      if (routePath.includes('orange-county')) return { priority: 0.7, changefreq: 'monthly' };
+      return { priority: 0.6, changefreq: 'monthly' };
+    };
+
     const entries = await Promise.all(
-      existingAdditionalPaths.map(async (routePath) => ({
-        loc: routePath,
-        changefreq: routePath === '/' ? 'daily' : (routePath.startsWith('/blog/') ? 'weekly' : 'monthly'),
-        priority: routePath === '/' ? 1.0 : (routePath.startsWith('/blog/') ? 0.7 : 0.6),
-        lastmod: await getLastModForRoute(routePath),
-      }))
+      candidates.map(async (routePath) => {
+        const { priority, changefreq } = priorityFor(routePath);
+        return {
+          loc: routePath,
+          changefreq,
+          priority,
+          lastmod: await getLastModForRoute(routePath),
+        };
+      })
     );
 
     return entries;

@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import DeferredWidgets from '@/components/DeferredWidgets';
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd';
 import { siteRootSchema } from '@/lib/seo';
 import { Analytics } from '@vercel/analytics/next';
 import './globals-simple.css';
@@ -97,6 +98,7 @@ export default function RootLayout({
         <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />
       </head>
       <body className={`min-h-screen ${inter.className}`}>
+        <BreadcrumbJsonLd />
         <Header />
         <main id="main-content" className="flex-1">
           {children}
