@@ -11,7 +11,6 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "sitemap": "next-sitemap",
-    "sitemap:crawl-live": "node scripts/build-sitemap.mjs",
     "indexnow:submit": "node scripts/submit-indexnow.mjs",
     "bing:submit": "node scripts/submit-bing-gsc.mjs",
     "indexing:submit-all": "node scripts/submit-all-indexing.mjs",
