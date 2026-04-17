@@ -63,6 +63,38 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+# OAI-SearchBot
+User-agent: OAI-SearchBot
+Allow: /
+
+# Meta-ExternalAgent
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Meta-ExternalFetcher
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# DuckAssistBot
+User-agent: DuckAssistBot
+Allow: /
+
+# Amazonbot
+User-agent: Amazonbot
+Allow: /
+
+# YouBot
+User-agent: YouBot
+Allow: /
+
+# MistralAI-User
+User-agent: MistralAI-User
+Allow: /
+
+# FacebookBot
+User-agent: FacebookBot
+Allow: /
+
 # YandexBot
 User-agent: YandexBot
 Allow: /
@@ -74,20 +106,12 @@ Disallow: /dashboard/
 User-agent: SeznamBot
 Allow: /
 
-# CCBot
-User-agent: CCBot
-Disallow: /
-
 # img2dataset
 User-agent: img2dataset
 Disallow: /
 
 # Omgilibot
 User-agent: Omgilibot
-Disallow: /
-
-# FacebookBot
-User-agent: FacebookBot
 Disallow: /
 
 # Baiduspider
@@ -159,4 +183,3 @@ Host: https://www.mothebroker.com
 # Sitemaps
 Sitemap: https://www.mothebroker.com/sitemap.xml
 Sitemap: https://www.mothebroker.com/sitemap-images.xml
-Sitemap: https://www.mothebroker.com/sitemap-news.xml
