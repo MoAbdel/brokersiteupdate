@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
-import SimpleLandingPage from '@/components/SimpleLandingPage';
+import WholesaleLendersLanding from '@/components/WholesaleLendersLanding';
 import { buildServiceWebPageSchema } from '@/lib/schema-entities';
 
 export const metadata: Metadata = {
-  title: 'CA & WA Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel',
+  title: 'Find a Mortgage Broker in California and Washington | Mo Abdel',
   description:
-    'Compare mortgage options across CA and WA with 50+ Wholesale Lenders. FHA, VA, jumbo, non-QM and refinance from Mo Abdel NMLS #1426884.',
+    'Find a mortgage broker in California or Washington and compare options across 50+ Wholesale Lenders. FHA, VA, jumbo, non-QM, and refinance help from Mo Abdel NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com',
     languages: {
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
 
 const pageSchema = buildServiceWebPageSchema({
   pageUrl: 'https://www.mothebroker.com',
-  title: 'CA & WA Mortgage Broker | 50+ Wholesale Lenders | Mo Abdel',
+  title: 'Find a Mortgage Broker in California and Washington | Mo Abdel',
   description:
-    'Compare mortgage options across CA and WA with 50+ Wholesale Lenders. FHA, VA, jumbo, non-QM and refinance from Mo Abdel NMLS #1426884.',
+    'Find a mortgage broker in California or Washington and compare options across 50+ Wholesale Lenders. FHA, VA, jumbo, non-QM, and refinance help from Mo Abdel NMLS #1426884.',
   breadcrumbName: 'Home',
 });
 
@@ -40,7 +40,7 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
       />
-      <SimpleLandingPage />
+      <WholesaleLendersLanding />
     </>
   );
 }

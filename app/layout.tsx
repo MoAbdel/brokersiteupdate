@@ -4,10 +4,10 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import DeferredWidgets from '@/components/DeferredWidgets';
-import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd';
 import { siteRootSchema } from '@/lib/seo';
 import { Analytics } from '@vercel/analytics/next';
 import './globals-simple.css';
+import '@/components/WholesaleLendersLanding.css';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     languages: {
       'en-US': 'https://www.mothebroker.com',
       'x-default': 'https://www.mothebroker.com',
+    },
+    types: {
+      'application/rss+xml': 'https://www.mothebroker.com/rss.xml',
     },
   },
   icons: {
@@ -71,6 +74,7 @@ export default function RootLayout({
         <meta name="msvalidate.01" content="F9E3BEE43DFA5A2B0676F3881B448BCA" />
         {/* Canonical URL will be handled by individual pages */}
         <link rel="manifest" href="/manifest.json" />
+        <link rel="alternate" type="application/rss+xml" title="Mo The Broker RSS Feed" href="/rss.xml" />
 
         {/* DNS prefetch for deferred 3rd-party scripts */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
@@ -98,7 +102,6 @@ export default function RootLayout({
         <meta name="deployment-id" content="favicon-removed-final-dec16-2025" />
       </head>
       <body className={`min-h-screen ${inter.className}`}>
-        <BreadcrumbJsonLd />
         <Header />
         <main id="main-content" className="flex-1">
           {children}
