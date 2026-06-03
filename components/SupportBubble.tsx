@@ -1,12 +1,20 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { MessageCircle, X, Send, Phone, User, Mail, FileText, ChevronRight } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
-import InquiryTermsConsent from '@/components/ui/InquiryTermsConsent';
-import { motion, AnimatePresence, Variants } from 'framer-motion';
-import { getResponseErrorMessage } from '@/lib/api-client';
-import { appendTermsConsentToFormData } from '@/lib/terms-consent';
+import React, { useState, useEffect } from "react";
+import {
+  MessageCircle,
+  X,
+  Send,
+  Phone,
+  User,
+  Mail,
+  ChevronRight,
+} from "lucide-react";
+import { Button } from "@/components/ui/Button";
+import InquiryTermsConsent from "@/components/ui/InquiryTermsConsent";
+import { motion, AnimatePresence, Variants } from "framer-motion";
+import { getResponseErrorMessage } from "@/lib/api-client";
+import { appendTermsConsentToFormData } from "@/lib/terms-consent";
 
 export default function SupportBubble() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,11 +26,9 @@ export default function SupportBubble() {
 
   // Form state
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: ''
+    fullName: "",
+    email: "",
+    phone: "",
   });
 
   useEffect(() => {
@@ -32,8 +38,6 @@ export default function SupportBubble() {
     }, 1500);
     return () => clearTimeout(timer);
   }, []);
-
-
 
   const handleOpen = () => {
     setIsOpen(true);
@@ -45,68 +49,76 @@ export default function SupportBubble() {
   };
 
   const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [field]: value
+      [field]: value,
     }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
     setErrorMessage(null);
+
+    if (!termsConsent) {
+      setErrorMessage("Please agree to the terms and services to continue.");
+      return;
+    }
+
+    setIsSubmitting(true);
 
     try {
       // Use the same API endpoint as contact form
       const formData_submit = new FormData();
-      formData_submit.append('full_name', `${formData.firstName} ${formData.lastName}`);
-      formData_submit.append('email', formData.email);
-      formData_submit.append('phone', formData.phone);
-      formData_submit.append('additional_info', formData.message);
-      formData_submit.append('_subject', `Support Request - ${formData.firstName} ${formData.lastName}`);
-      formData_submit.append('source', 'Support Bubble');
+      formData_submit.append("full_name", formData.fullName);
+      formData_submit.append("email", formData.email);
+      formData_submit.append("phone", formData.phone);
+      formData_submit.append(
+        "_subject",
+        `Support Request - ${formData.fullName}`,
+      );
+      formData_submit.append("source", "Support Bubble");
       appendTermsConsentToFormData(formData_submit);
 
-      const response = await fetch('/api/contact', {
-        method: 'POST',
+      const response = await fetch("/api/contact", {
+        method: "POST",
         body: formData_submit,
         headers: {
-          'Accept': 'application/json'
-        }
+          Accept: "application/json",
+        },
       });
 
       if (response.ok) {
         setShowSuccess(true);
         setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          phone: '',
-          message: ''
+          fullName: "",
+          email: "",
+          phone: "",
         });
         setTermsConsent(false);
       } else {
         throw new Error(
           await getResponseErrorMessage(
             response,
-            'Unable to send your message right now. Please try again.'
-          )
+            "Unable to send your request right now. Please try again.",
+          ),
         );
       }
     } catch (error) {
-      console.error('Support form error:', error);
+      console.error("Support form error:", error);
       setErrorMessage(
         error instanceof Error
           ? error.message
-          : 'Unable to send your message right now. Please try again.'
+          : "Unable to send your request right now. Please try again.",
       );
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  const inputClasses = "w-full pl-10 pr-4 py-3 bg-white/50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all duration-200 placeholder:text-slate-400 text-sm hover:bg-white focus:bg-white";
-  const labelClasses = "block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5 ml-1";
+  const inputClasses =
+    "w-full pl-10 pr-4 py-3 bg-white/50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all duration-200 placeholder:text-slate-400 text-sm hover:bg-white focus:bg-white";
+  const labelClasses =
+    "block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5 ml-1";
 
   // Animation Variants
   const containerVariants: Variants = {
@@ -115,9 +127,9 @@ export default function SupportBubble() {
       opacity: 1,
       transition: {
         staggerChildren: 0.1,
-        delayChildren: 0.2
-      }
-    }
+        delayChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants: Variants = {
@@ -128,9 +140,9 @@ export default function SupportBubble() {
       transition: {
         type: "spring",
         stiffness: 300,
-        damping: 24
-      }
-    }
+        damping: 24,
+      },
+    },
   };
 
   return (
@@ -150,14 +162,14 @@ export default function SupportBubble() {
                 boxShadow: [
                   "0px 0px 0px rgba(59, 130, 246, 0)",
                   "0px 0px 20px rgba(59, 130, 246, 0.3)",
-                  "0px 0px 0px rgba(59, 130, 246, 0)"
+                  "0px 0px 0px rgba(59, 130, 246, 0)",
                 ],
-                scale: [1, 1.02, 1]
+                scale: [1, 1.02, 1],
               }}
               transition={{
                 duration: 3,
                 repeat: Infinity,
-                ease: "easeInOut"
+                ease: "easeInOut",
               }}
               whileHover={{ scale: 1.05, y: -4 }}
               whileTap={{ scale: 0.95 }}
@@ -169,9 +181,7 @@ export default function SupportBubble() {
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-500 rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity" />
                 <div className="relative flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full text-white shadow-lg group-hover:shadow-blue-500/50 transition-shadow duration-300">
-                  <motion.div
-                    whileHover={{ rotate: 15, scale: 1.1 }}
-                  >
+                  <motion.div whileHover={{ rotate: 15, scale: 1.1 }}>
                     <MessageCircle className="w-6 h-6" />
                   </motion.div>
                 </div>
@@ -229,7 +239,7 @@ export default function SupportBubble() {
                 <motion.div
                   animate={{
                     scale: [1, 1.2, 1],
-                    opacity: [0.3, 0.5, 0.3]
+                    opacity: [0.3, 0.5, 0.3],
                   }}
                   transition={{ duration: 8, repeat: Infinity }}
                   className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/30 rounded-full blur-3xl"
@@ -237,7 +247,7 @@ export default function SupportBubble() {
                 <motion.div
                   animate={{
                     scale: [1, 1.2, 1],
-                    opacity: [0.3, 0.5, 0.3]
+                    opacity: [0.3, 0.5, 0.3],
                   }}
                   transition={{ duration: 8, repeat: Infinity, delay: 4 }}
                   className="absolute -bottom-24 -left-24 w-48 h-48 bg-indigo-500/30 rounded-full blur-3xl"
@@ -248,19 +258,28 @@ export default function SupportBubble() {
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-900/20 border-2 border-white/10 group">
                       <motion.div
                         animate={{ rotate: [0, 10, -10, 0] }}
-                        transition={{ duration: 5, repeat: Infinity, repeatDelay: 3 }}
+                        transition={{
+                          duration: 5,
+                          repeat: Infinity,
+                          repeatDelay: 3,
+                        }}
                       >
                         <MessageCircle className="w-6 h-6" />
                       </motion.div>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-white">Get Your Free Rate Quote</h3>
+                      <h3 className="text-xl font-bold text-white">
+                        Get Your Free Rate Quote
+                      </h3>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="flex h-2 w-2">
                           <span className="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-green-400 opacity-75"></span>
                           <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                         </span>
-                        <p className="text-slate-300 text-xs font-medium">We shop 50+ Wholesale Lenders so you don&apos;t have to</p>
+                        <p className="text-slate-300 text-xs font-medium">
+                          We shop 50+ Wholesale Lenders so you don&apos;t have
+                          to
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -288,14 +307,21 @@ export default function SupportBubble() {
                       <motion.div
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
-                        transition={{ type: "spring", duration: 0.5, delay: 0.1 }}
+                        transition={{
+                          type: "spring",
+                          duration: 0.5,
+                          delay: 0.1,
+                        }}
                         className="w-20 h-20 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner"
                       >
                         <Send className="w-10 h-10 text-green-600" />
                       </motion.div>
-                      <h4 className="text-2xl font-bold text-slate-900 mb-3">Message Sent!</h4>
+                      <h4 className="text-2xl font-bold text-slate-900 mb-3">
+                        Message Sent!
+                      </h4>
                       <p className="text-slate-600 mb-8 max-w-xs mx-auto">
-                        Thanks for reaching out. We&apos;ll get back to you shortly via email or phone.
+                        Thanks for reaching out. We&apos;ll get back to you
+                        shortly via email or phone.
                       </p>
                       <Button
                         onClick={() => {
@@ -314,90 +340,72 @@ export default function SupportBubble() {
                       animate="visible"
                       exit={{ opacity: 0, transition: { duration: 0.2 } }}
                       onSubmit={handleSubmit}
-                      className="space-y-5"
+                      className="space-y-4"
                     >
-                      <div className="grid grid-cols-2 gap-5">
-                        <motion.div variants={itemVariants}>
-                          <label htmlFor="support-first-name" className={labelClasses}>First Name</label>
-                          <div className="relative group">
-                            <User className="absolute left-3.5 top-3.5 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
-                            <input
-                              id="support-first-name"
-                              type="text"
-                              required
-                              value={formData.firstName}
-                              onChange={(e) => handleInputChange('firstName', e.target.value)}
-                              className={inputClasses}
-                              placeholder="John"
-                            />
-                          </div>
-                        </motion.div>
-                        <motion.div variants={itemVariants}>
-                          <label htmlFor="support-last-name" className={labelClasses}>Last Name</label>
-                          <div className="relative group">
-                            <User className="absolute left-3.5 top-3.5 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
-                            <input
-                              id="support-last-name"
-                              type="text"
-                              required
-                              value={formData.lastName}
-                              onChange={(e) => handleInputChange('lastName', e.target.value)}
-                              className={inputClasses}
-                              placeholder="Doe"
-                            />
-                          </div>
-                        </motion.div>
-                      </div>
+                      <motion.div variants={itemVariants}>
+                        <label
+                          htmlFor="support-full-name"
+                          className={labelClasses}
+                        >
+                          Full Name
+                        </label>
+                        <div className="relative group">
+                          <User className="absolute left-3.5 top-3 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
+                          <input
+                            id="support-full-name"
+                            type="text"
+                            required
+                            value={formData.fullName}
+                            onChange={(e) =>
+                              handleInputChange("fullName", e.target.value)
+                            }
+                            className={`${inputClasses} py-2.5`}
+                            placeholder="John Doe"
+                          />
+                        </div>
+                      </motion.div>
 
                       <motion.div variants={itemVariants}>
-                        <label htmlFor="support-email" className={labelClasses}>Email Address</label>
+                        <label htmlFor="support-email" className={labelClasses}>
+                          Email Address
+                        </label>
                         <div className="relative group">
-                          <Mail className="absolute left-3.5 top-3.5 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
+                          <Mail className="absolute left-3.5 top-3 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
                           <input
                             id="support-email"
                             type="email"
                             required
                             value={formData.email}
-                            onChange={(e) => handleInputChange('email', e.target.value)}
-                            className={inputClasses}
+                            onChange={(e) =>
+                              handleInputChange("email", e.target.value)
+                            }
+                            className={`${inputClasses} py-2.5`}
                             placeholder="john@example.com"
                           />
                         </div>
                       </motion.div>
 
                       <motion.div variants={itemVariants}>
-                        <label htmlFor="support-phone" className={labelClasses}>Phone Number</label>
+                        <label htmlFor="support-phone" className={labelClasses}>
+                          Phone Number
+                        </label>
                         <div className="relative group">
-                          <Phone className="absolute left-3.5 top-3.5 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
+                          <Phone className="absolute left-3.5 top-3 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
                           <input
                             id="support-phone"
                             type="tel"
                             required
                             value={formData.phone}
-                            onChange={(e) => handleInputChange('phone', e.target.value)}
-                            className={inputClasses}
+                            onChange={(e) =>
+                              handleInputChange("phone", e.target.value)
+                            }
+                            className={`${inputClasses} py-2.5`}
                             placeholder="(949) 555-0123"
                           />
                         </div>
                       </motion.div>
 
-                      <motion.div variants={itemVariants}>
-                        <label htmlFor="support-message" className={labelClasses}>Message</label>
-                        <div className="relative group">
-                          <FileText className="absolute left-3.5 top-3.5 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors" />
-                          <textarea
-                            id="support-message"
-                            rows={3}
-                            required
-                            value={formData.message}
-                            onChange={(e) => handleInputChange('message', e.target.value)}
-                            className={`${inputClasses} resize-none`}
-                            placeholder="How can we help you today?"
-                          />
-                        </div>
-                      </motion.div>
-
-                      <motion.div variants={itemVariants}>
+                      <motion.div variants={itemVariants} className="pt-1">
                         <InquiryTermsConsent
                           checked={termsConsent}
                           onCheckedChange={setTermsConsent}
@@ -406,14 +414,11 @@ export default function SupportBubble() {
                         />
                       </motion.div>
 
-                      <motion.div
-                        variants={itemVariants}
-                        className="pt-2"
-                      >
+                      <motion.div variants={itemVariants} className="pt-1">
                         <Button
                           type="submit"
-                          disabled={isSubmitting || !termsConsent}
-                          className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-bold py-4 rounded-xl shadow-lg shadow-slate-900/20 transition-all duration-300 hover:shadow-slate-900/30 hover:-translate-y-0.5"
+                          disabled={isSubmitting}
+                          className="w-full bg-slate-900 hover:bg-slate-800 active:bg-slate-950 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-slate-900/20 transition-all duration-300 hover:shadow-slate-900/30 hover:-translate-y-0.5"
                         >
                           <span className="flex items-center justify-center gap-2">
                             {isSubmitting ? (
@@ -432,7 +437,10 @@ export default function SupportBubble() {
                       </motion.div>
 
                       {errorMessage && (
-                        <motion.p variants={itemVariants} className="text-sm text-red-600">
+                        <motion.p
+                          variants={itemVariants}
+                          className="text-sm text-red-600"
+                        >
                           {errorMessage}
                         </motion.p>
                       )}
@@ -444,17 +452,26 @@ export default function SupportBubble() {
               {/* Footer */}
               <div className="bg-slate-50/80 backdrop-blur-sm p-4 text-center border-t border-slate-100">
                 <div className="flex items-center justify-center gap-4 mb-2">
-                  <a href="tel:9495792057" className="text-slate-700 text-xs font-bold hover:underline hover:text-slate-900 flex items-center gap-1">
+                  <a
+                    href="tel:9495792057"
+                    className="text-slate-700 text-xs font-bold hover:underline hover:text-slate-900 flex items-center gap-1"
+                  >
                     <Phone className="w-3.5 h-3.5" />
                     Call or Text (949) 579-2057
                   </a>
                   <span className="text-slate-300">|</span>
-                  <a href="/mo-abdel-contact.vcf" download="mo-abdel-contact.vcf" className="text-blue-600 text-xs font-bold hover:underline flex items-center gap-1">
+                  <a
+                    href="/mo-abdel-contact.vcf"
+                    download="mo-abdel-contact.vcf"
+                    className="text-blue-600 text-xs font-bold hover:underline flex items-center gap-1"
+                  >
                     Save Contact
                   </a>
                 </div>
                 <p className="text-xs text-slate-400 mt-2">
-                  Not a loan application or commitment to lend. All loans subject to credit approval. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106. Equal Housing Lender.
+                  Not a loan application or commitment to lend. All loans
+                  subject to credit approval. Mo Abdel NMLS #1426884 | Lumin
+                  Lending NMLS #2716106. Equal Housing Lender.
                 </p>
               </div>
             </motion.div>

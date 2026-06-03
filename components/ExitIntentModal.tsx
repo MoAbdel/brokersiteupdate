@@ -151,12 +151,12 @@ export default function ExitIntentModal() {
     setIsVisible(false);
   };
 
-  const handleCtaClick = () => {
-    setStep(2);
-  };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!termsConsent) {
+      setErrorMessage('Please accept the inquiry terms and consent to proceed.');
+      return;
+    }
     setIsSubmitting(true);
     setErrorMessage(null);
 
@@ -222,7 +222,7 @@ export default function ExitIntentModal() {
       />
 
       {/* Modal Content */}
-      <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[85dvh] overflow-y-auto overflow-x-hidden animate-in zoom-in-95 duration-300 border-4 border-white">
+      <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[85dvh] overflow-y-auto overflow-x-hidden animate-in zoom-in-95 duration-300 border-4 border-white">
 
         <button
           onClick={handleClose}
@@ -232,8 +232,9 @@ export default function ExitIntentModal() {
         </button>
 
         {step === 1 && (
-          <div className="grid md:grid-cols-2">
-            <div className="bg-gradient-to-br from-blue-600 to-slate-900 p-4 md:p-8 text-white flex flex-col justify-center relative overflow-hidden">
+          <div className="flex flex-col">
+            {/* Header banner background */}
+            <div className="bg-gradient-to-br from-blue-600 to-slate-900 px-6 py-6 md:px-8 md:py-8 text-white relative overflow-hidden">
                 {/* Background Pattern */}
                 <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
                     <div className="absolute right-0 top-0 transform translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-3xl"></div>
@@ -241,154 +242,100 @@ export default function ExitIntentModal() {
                 </div>
 
                 <div className="relative z-10">
-                    <div className="inline-flex items-center gap-2 bg-blue-500/30 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider mb-3 md:mb-6 border border-blue-400/30">
-                        <ShieldCheck className="w-3 h-3" />
+                    <div className="inline-flex items-center gap-2 bg-blue-500/30 rounded-full px-3 py-1 text-[10px] sm:text-xs font-semibold uppercase tracking-wider mb-2 md:mb-3 border border-blue-400/30">
+                        <ShieldCheck className="w-3.5 h-3.5" />
                         Wholesale Advantage
                     </div>
-                    <h2 className="text-xl md:text-3xl font-bold leading-tight mb-2 md:mb-4">
-                        Wait! Don't Overpay For Your Mortgage.
+                    <h2 className="text-xl md:text-2xl font-bold leading-tight">
+                        {contextualOffer.headline}
                     </h2>
-                    <p className="text-slate-200 mb-3 md:mb-6 text-sm md:text-lg">
-                        Banks typically offer one set of rates. As a broker, we shop wholesale channels to find competitive pricing.
+                    <p className="text-slate-200 text-xs md:text-sm mt-1">
+                        {contextualOffer.subheadline}
                     </p>
-                    <ul className="space-y-1.5 md:space-y-3 mb-3 md:mb-8">
-                        <li className="flex items-start gap-2 md:gap-3">
-                            <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-xs md:text-sm">Access to 50+ wholesale lenders</span>
-                        </li>
-                        <li className="flex items-start gap-2 md:gap-3">
-                            <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-xs md:text-sm">Competitive wholesale interest rates</span>
-                        </li>
-                        <li className="flex items-start gap-2 md:gap-3">
-                            <CheckCircle className="w-4 h-4 md:w-5 md:h-5 text-green-400 shrink-0 mt-0.5" />
-                            <span className="text-xs md:text-sm">Streamlined approval process</span>
-                        </li>
-                    </ul>
                 </div>
             </div>
 
-            <div className="p-4 md:p-8 flex flex-col justify-center bg-white">
-              <div className="text-center md:text-left mb-3 md:mb-6">
-                <h3 className="text-lg md:text-2xl font-bold text-slate-900 mb-1 md:mb-2">
-                    {contextualOffer.headline}
-                </h3>
-                <p className="text-slate-600 text-sm md:text-base">
-                    {contextualOffer.subheadline}
-                </p>
-              </div>
+            {/* Form Fields (Direct Integration) */}
+            <form onSubmit={handleSubmit} className="p-6 md:p-8 space-y-4 bg-white">
+                <div>
+                    <label htmlFor="exit-fullname" className="sr-only">Full Name</label>
+                    <input
+                        id="exit-fullname"
+                        type="text"
+                        required
+                        placeholder="Your Full Name"
+                        className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm"
+                        value={formData.firstName}
+                        onChange={(e) => setFormData({...formData, firstName: e.target.value})}
+                    />
+                </div>
+                <div>
+                    <label htmlFor="exit-email" className="sr-only">Email Address</label>
+                    <input
+                        id="exit-email"
+                        type="email"
+                        required
+                        placeholder="Your Email Address"
+                        className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm"
+                        value={formData.email}
+                        onChange={(e) => setFormData({...formData, email: e.target.value})}
+                    />
+                </div>
+                <div>
+                    <label htmlFor="exit-phone" className="sr-only">Phone Number (Optional)</label>
+                    <input
+                        id="exit-phone"
+                        type="tel"
+                        placeholder="Phone Number (Optional)"
+                        className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all text-sm"
+                        value={formData.phone}
+                        onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                    />
+                </div>
 
-              <div className="space-y-3 md:space-y-4">
-                <Button
-                    onClick={handleCtaClick}
-                    className="w-full bg-slate-900 hover:bg-slate-800 text-white py-4 md:py-6 text-base md:text-lg shadow-lg hover:shadow-blue-600/20 transition-all duration-300 group"
+                <InquiryTermsConsent
+                  checked={termsConsent}
+                  onCheckedChange={setTermsConsent}
+                  className="mt-0"
+                  copyClassName="text-[11px] text-center text-slate-500 leading-normal"
+                />
+
+                <Button 
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full bg-slate-900 hover:bg-slate-800 text-white py-4 text-base font-bold shadow-lg hover:shadow-blue-600/10 active:translate-y-[1px] transition-all rounded-xl"
                 >
-                    {contextualOffer.buttonText}{' '}
-                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    {isSubmitting ? 'Analyzing Rates...' : (contextualOffer.buttonText === 'Check My Equity Options' || contextualOffer.buttonText === 'Check My Savings') ? 'Get My Free Quote' : contextualOffer.buttonText}
                 </Button>
 
-                <button
-                    onClick={handleClose}
-                    className="w-full text-slate-400 hover:text-slate-600 text-sm font-medium py-1 md:py-2"
-                >
-                    No thanks, maybe later
-                </button>
-              </div>
+                {errorMessage && (
+                  <p className="text-xs text-red-600 text-center font-medium">
+                    {errorMessage}
+                  </p>
+                )}
 
-              <div className="mt-4 md:mt-8 flex items-center justify-center gap-4 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                 {/* Trust Badges Placeholder - using text/icons for simplicity */}
-                 <div className="flex items-center gap-1">
-                    <ShieldCheck className="w-4 h-4 text-slate-500" />
-                    <span className="text-xs font-bold text-slate-500">NMLS #1426884</span>
-                 </div>
-                 <div className="w-px h-4 bg-slate-300"></div>
-                 <div className="flex items-center gap-1">
-                    <Banknote className="w-4 h-4 text-slate-500" />
-                    <span className="text-xs font-bold text-slate-500">No Hidden Fees</span>
-                 </div>
-              </div>
-            </div>
+                <p className="text-[10px] text-slate-400 text-center leading-normal">
+                    This is not a loan commitment. All loans subject to approval. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106.
+                </p>
+
+                {/* Footer Badges */}
+                <div className="pt-2 border-t border-slate-100 flex items-center justify-center gap-4 opacity-50">
+                  <div className="flex items-center gap-1">
+                    <ShieldCheck className="w-3.5 h-3.5 text-slate-500" />
+                    <span className="text-[10px] font-bold text-slate-500">NMLS #1426884</span>
+                  </div>
+                  <div className="w-px h-3 bg-slate-200"></div>
+                  <div className="flex items-center gap-1">
+                    <Banknote className="w-3.5 h-3.5 text-slate-500" />
+                    <span className="text-[10px] font-bold text-slate-500">No Hidden Fees</span>
+                  </div>
+                </div>
+            </form>
           </div>
         )}
 
-        {step === 2 && (
-             <div className="p-5 md:p-10">
-                <div className="text-center mb-8">
-                    <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                        Where should we send your quote?
-                    </h3>
-                    <p className="text-slate-600">
-                        We'll analyze 50+ Wholesale Lenders to find your best option.
-                    </p>
-                </div>
-
-                <form onSubmit={handleSubmit} className="space-y-4 max-w-md mx-auto">
-                    <div>
-                        <label htmlFor="exit-name" className="sr-only">First Name</label>
-                        <input
-                            id="exit-name"
-                            type="text"
-                            required
-                            placeholder="Your First Name"
-                            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all"
-                            value={formData.firstName}
-                            onChange={(e) => setFormData({...formData, firstName: e.target.value})}
-                        />
-                    </div>
-                    <div>
-                        <label htmlFor="exit-email" className="sr-only">Email Address</label>
-                        <input
-                            id="exit-email"
-                            type="email"
-                            required
-                            placeholder="Your Email Address"
-                            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all"
-                            value={formData.email}
-                            onChange={(e) => setFormData({...formData, email: e.target.value})}
-                        />
-                    </div>
-                    <div>
-                        <label htmlFor="exit-phone" className="sr-only">Phone Number (Optional)</label>
-                        <input
-                            id="exit-phone"
-                            type="tel"
-                            placeholder="Phone Number (Optional)"
-                            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition-all"
-                            value={formData.phone}
-                            onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                        />
-                    </div>
-
-                    <InquiryTermsConsent
-                      checked={termsConsent}
-                      onCheckedChange={setTermsConsent}
-                      className="mt-0"
-                      copyClassName="text-xs text-center text-slate-500"
-                    />
-
-                    <Button 
-                        type="submit"
-                        disabled={isSubmitting || !termsConsent}
-                        className="w-full bg-slate-900 hover:bg-slate-800 text-white py-6 text-lg font-bold shadow-lg hover:shadow-green-600/20 transition-all duration-300"
-                    >
-                        {isSubmitting ? 'Analyzing Rates...' : 'Show Me My Savings'}
-                    </Button>
-
-                    {errorMessage && (
-                      <p className="text-sm text-red-600 text-center">
-                        {errorMessage}
-                      </p>
-                    )}
-                    
-                    <p className="text-xs text-slate-400 text-center mt-2">
-                        This is not a loan application or commitment to lend. All loans subject to credit approval. Not all applicants will qualify. Mo Abdel NMLS #1426884 | Lumin Lending NMLS #2716106 | DRE #02291443. Equal Housing Lender.
-                    </p>
-                </form>
-             </div>
-        )}
-
         {step === 3 && (
-            <div className="p-6 md:p-12 text-center">
+            <div className="p-6 md:p-12 text-center bg-white">
                 <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
                     <CheckCircle className="w-10 h-10 text-green-600" />
                 </div>
@@ -409,7 +356,7 @@ export default function ExitIntentModal() {
                         variant="outline"
                     >
                         Return to Website
-                    </Button>
+                     </Button>
                 </div>
             </div>
         )}
