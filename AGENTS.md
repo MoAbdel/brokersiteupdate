@@ -342,3 +342,33 @@ You MUST follow the Workflow Orchestration rules below. Before ANY implementatio
 - **Simplicity First**: Make every change as simple as possible. Impact minimal code.
 - **No Laziness**: Find root causes. No temporary fixes. Senior developer standards.
 - **Minimal Impact**: Changes should only touch what's necessary. Avoid introducing bugs.
+
+## Stack-Specific Rules
+
+### Stack & Environment
+- Primary stack: Next.js App Router, TypeScript, and Tailwind CSS when present in this repo.
+- Package manager: npm unless this repo has a pnpm, yarn, or bun lockfile.
+- Node version: match .nvmrc or package.json engines field if present.
+
+### Code Style
+- TypeScript strict mode. No `any` unless absolutely necessary and commented why.
+- Functional React components with hooks. No class components.
+- Server Components by default. Use "use client" only when state, effects, or browser APIs are needed.
+- Tailwind for styling. No inline styles or CSS modules unless already used by the project.
+- Use shadcn/ui components when available in the project.
+- Prefer async/await over .then() chains.
+- No em dashes in any copy, comments, documentation, UI copy, or generated text.
+
+### File & Folder Conventions
+- Follow the existing App Router structure under app/ or src/app.
+- Keep shared utilities in lib/. Keep shared types in types/ or co-located with their feature.
+- Use kebab-case for folders, PascalCase for component files, and camelCase for utilities.
+
+### SEO & Performance
+- Use the Next.js Metadata API for SEO, including generateMetadata for dynamic pages.
+- Optimize content images with next/image. Do not use raw `<img>` for content images.
+- Prefer static generation with generateStaticParams when the data model allows it.
+- Use semantic HTML with proper heading hierarchy, landmarks, and alt text.
+
+## Commit Hygiene
+- Do not stage or commit `AGENTS.md.backup-*` files unless explicitly asked.
