@@ -1293,4 +1293,24 @@ From the original Bing / generative-engine audit, deferred items worth queuing n
 - Mobile browser verification at `390x844`: no horizontal overflow, Tap Home Equity count `1`, accessibility widget count `1`, and Lumin overlay count `1`.
 - Screenshots: `reports/homepage-widget-fold-final-desktop-1920.png` and `reports/homepage-widget-fold-final-mobile-390.png`.
 
+---
+
+## Remove Sitewide Country Viewing Restriction 2026-06-03
+
+- [x] Remove the Vercel redirect that sends non-US country-header traffic to `/geo-blocked`.
+- [x] Keep unrelated redirects, security headers, and audience detection behavior unchanged.
+- [x] Verify no `geo-blocked` redirect remains in `vercel.json`.
+- [x] Run TypeScript/build verification appropriate for the config-only change.
+- [x] Record review results.
+
+### Remove Sitewide Country Viewing Restriction Review
+
+- Removed the first `vercel.json` redirect rule that matched non-US `x-vercel-ip-country` traffic and sent it to `/geo-blocked`.
+- Left all other redirects, headers, middleware audience headers, and lead-capture API behavior unchanged.
+- Verification passed: `vercel.json` parses as valid JSON.
+- Verification passed: `rg "geo-blocked|x-vercel-ip-country|\\^\\(\\?!US\\$\\)" vercel.json` returned no matches.
+- Verification passed: `npm run typecheck`.
+- Verification passed: `npx next build`.
+- Build notes: existing warnings about stale Browserslist data, missing Next.js ESLint plugin detection, and edge runtime static-generation behavior remained non-blocking.
+
 
