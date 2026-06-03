@@ -1,5 +1,11 @@
 # Lessons Learned
 
+## 2026-06-03: Separate Historical Diffs From My Changes
+
+**Mistake:** I described a prior git-history change as "the homepage switched" without making it explicit that I did not make that switch in the current task.
+
+**Rule:** When explaining root cause from git history, clearly distinguish existing historical changes from the files I edited in the current turn. State the actual current diff before summarizing cause, especially when the user asked for a narrow incorporation fix.
+
 ## 2026-02-23: Approval Gate — Always Confirm Before Any Changes/Deploy
 
 **Mistake:** I executed repository changes without first presenting the plan and waiting for explicit user approval.

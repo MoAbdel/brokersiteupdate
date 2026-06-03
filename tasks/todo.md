@@ -1,3 +1,21 @@
+# 2026-06-03 Landing Page Missing Reviews
+
+> Goal: find the git diff that dropped landing-page reviews, restore the missing review content into the live landing page with minimal changes, and verify the site builds.
+
+## Plan
+
+- [x] Confirm project workflow rules and check current repo state.
+- [x] Compare recent landing-page/review diffs against the current live homepage component.
+- [x] Restore missing reviews in the live landing page without unrelated refactors.
+- [x] Run verification and record results.
+
+## Review
+
+- Root cause in existing git history: prior commit `74971b8` switched `app/page.tsx` from `SimpleLandingPage` to `WholesaleLendersLanding`, so the live homepage stopped using `components/home/SocialProofSection.tsx`.
+- `SocialProofSection` had five reviews, while `WholesaleLendersLanding` only had three. The missing live reviews were Alice W from Experience.com and Karthikeyan Ramaswami from Zillow.
+- Restored both missing reviews into `components/WholesaleLendersLanding.tsx` and updated the visible hero review initials to match the active review set.
+- Verification passed: `npm run typecheck`, `npm run build`, and `.next` output contains Alice W, Experience.com review, and Karthikeyan Ramaswami.
+
 # 2026-05-07 SEO GEO AIO AEO Audit Goal
 
 > Goal mode active. Follow the repo workflow rules, keep audit-first findings separate from safe patches, and do not change live crawler training policy without owner approval.
