@@ -81,10 +81,7 @@ export default function AdvancedSchemaMarkup({
     "https://luminlending.com/team/mo-abdel",
     "https://www.nmlsconsumeraccess.org"
   ],
-  aggregateRating = {
-    ratingValue: 4.9,
-    reviewCount: 127
-  },
+  aggregateRating,
   founder = {
     name: "Mo Abdel",
     jobTitle: "Branch Manager",
@@ -118,10 +115,14 @@ export default function AdvancedSchemaMarkup({
       })),
       openingHours,
       sameAs,
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ...aggregateRating
-      }
+      ...(aggregateRating
+        ? {
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ...aggregateRating
+            }
+          }
+        : {})
     };
 
     // Add specific schema properties based on type

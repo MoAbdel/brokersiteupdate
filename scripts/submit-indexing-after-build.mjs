@@ -18,18 +18,17 @@ const run = async () => {
   const enableGscSitemap = process.env.ENABLE_GSC_SITEMAP_SUBMIT === 'true';
   const disableAutoProd = process.env.DISABLE_AUTO_INDEXING_ON_PROD === 'true';
 
-  const isProductionBuild =
-    process.env.VERCEL_ENV === 'production' || process.env.NODE_ENV === 'production';
+  const isVercelProductionBuild = process.env.VERCEL_ENV === 'production';
   const anyExplicitFlag =
     enableDeltaAuto || enableIndexNow || enableBing || enableGscSitemap;
 
-  // Auto-enable delta submission on production builds when no explicit flag set
-  // and not explicitly disabled. Makes every `vercel --prod` deploy ping Bing.
+  // Auto-enable delta submission on Vercel production builds when no explicit flag
+  // is set and not explicitly disabled.
   const autoEnableDelta =
-    isProductionBuild && !anyExplicitFlag && !disableAutoProd;
+    isVercelProductionBuild && !anyExplicitFlag && !disableAutoProd;
 
   if (enableDeltaAuto || autoEnableDelta) {
-    const reason = autoEnableDelta ? 'auto (production build)' : 'explicit flag';
+    const reason = autoEnableDelta ? 'auto (Vercel production build)' : 'explicit flag';
     console.log(`\n--- Auto delta indexing: ${reason} ---`);
     await runScript('scripts/auto-submit-indexing-delta.mjs', 'Auto delta indexing submit');
     return;

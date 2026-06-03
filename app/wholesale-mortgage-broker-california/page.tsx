@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker California | 50+ Wholesale Lenders, Better Rates [2026]',
-  description: 'California wholesale mortgage broker with 50+ Wholesale Lenders. Learn how wholesale pricing beats bank rates for jumbo, bank statement & non-QM loans. NMLS #1426884.',
+  title: 'Mortgage Broker in California: Wholesale Lending Guide 2026',
+  description: 'Mortgage broker in California guide. Compare 50+ Wholesale Lenders for jumbo, bank statement, non-QM, FHA, VA, and refinance scenarios. NMLS #1426884.',
   alternates: {
     canonical: 'https://www.mothebroker.com/wholesale-mortgage-broker-california',
     languages: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
       'x-default': 'https://www.mothebroker.com/wholesale-mortgage-broker-california',
     },
   },
-  keywords: ['wholesale mortgage broker california', 'california wholesale mortgage', 'wholesale mortgage rates california', 'mortgage broker vs bank california'],
+  keywords: ['mortgage broker in California', 'wholesale mortgage broker california', 'california wholesale mortgage', 'wholesale mortgage rates california', 'mortgage broker vs bank california'],
 };
 
 export default function WholesaleMortgageBrokerCaliforniaPage() {
@@ -23,7 +23,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "The Complete Guide to Wholesale Mortgage Brokers in California [2026]",
+            "headline": "Mortgage Broker in California: Wholesale Lending Guide 2026",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -37,8 +37,8 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-01-29",
-            "dateModified": "2026-01-29",
-            "description": "Comprehensive guide to wholesale mortgage brokers in California. Learn how 50+ Wholesale Lenders provides better rates than banks."
+            "dateModified": "2026-05-09",
+            "description": "Mortgage broker in California guide. Compare wholesale lender options for jumbo, bank statement, non-QM, FHA, VA, and refinance scenarios."
           })
         }}
       />
@@ -102,7 +102,7 @@ export default function WholesaleMortgageBrokerCaliforniaPage() {
           <span className="text-gray-900">Wholesale Mortgage Broker California</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          The Complete Guide to Wholesale Mortgage Brokers in California [2026]
+          Mortgage Broker in California: Wholesale Lending Guide 2026
         </h1>
         <p className="text-lg text-gray-600">
           How 50+ Wholesale Lenders delivers better rates than banks for California homebuyers

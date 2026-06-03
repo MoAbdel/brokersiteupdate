@@ -3,8 +3,8 @@
  * Do not edit by hand. Source of truth:
  *   docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv
  *
- * Generated: 2026-04-15T16:07:42.089Z
- * Kept (not redirected/gone): 1 URL(s) — see CSV __KEEP__ rows
+ * Generated: 2026-05-09T18:08:35.638Z
+ * Kept (not redirected/gone): 1 URL(s), see CSV __KEEP__ rows
  */
 
 export interface LuxuryRedirect { from: string; to: string; }
@@ -57,6 +57,86 @@ export const REDIRECTS: readonly LuxuryRedirect[] = [
   {
     "from": "/tools/property-tax-estimator/wa/king-county/renton",
     "to": "/tools/property-tax-estimator"
+  },
+  {
+    "from": "/areas/newport-beach-mortgage-broker",
+    "to": "/blog/newport-beach-mortgage-guide-2026"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-bay-area-guide-2026",
+    "to": "/blog/wholesale-mortgage-broker-california-guide-2026"
+  },
+  {
+    "from": "/heloc-specialist-orange-county",
+    "to": "/heloc-orange-county"
+  },
+  {
+    "from": "/blog/home-equity-newport-beach-2026",
+    "to": "/home-equity-guide"
+  },
+  {
+    "from": "/blog/home-equity-bellevue-wa-2026",
+    "to": "/blog/home-equity-seattle-eastside-wa-2026#bellevue"
+  },
+  {
+    "from": "/articles/newport-beach-mortgage-guide-2026",
+    "to": "/blog/newport-beach-mortgage-guide-2026"
+  },
+  {
+    "from": "/blog/home-equity-laguna-beach-2026",
+    "to": "/home-equity-guide"
+  },
+  {
+    "from": "/blog/reverse-mortgage-bellevue-wa-2026",
+    "to": "/blog/reverse-mortgage-seattle-eastside-wa-2026#bellevue"
+  },
+  {
+    "from": "/blog/reverse-mortgage-la-beach-cities-2026",
+    "to": "/blog/reverse-mortgage-la-south-bay-palos-verdes-guide-2026"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92625",
+    "to": "/blog/wholesale-mortgage-broker-central-orange-county-2026#newport-beach"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92629",
+    "to": "/blog/wholesale-mortgage-broker-south-orange-county-2026#dana-point"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92651",
+    "to": "/blog/wholesale-mortgage-broker-south-orange-county-2026#laguna-beach"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92657",
+    "to": "/blog/wholesale-mortgage-broker-central-orange-county-2026#newport-beach"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92660",
+    "to": "/blog/wholesale-mortgage-broker-central-orange-county-2026#newport-beach"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92661",
+    "to": "/blog/wholesale-mortgage-broker-central-orange-county-2026#newport-beach"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92663",
+    "to": "/blog/wholesale-mortgage-broker-central-orange-county-2026#newport-beach"
+  },
+  {
+    "from": "/blog/home-equity-clyde-hill-wa-2026",
+    "to": "/blog/home-equity-seattle-eastside-wa-2026#mercer-medina"
+  },
+  {
+    "from": "/blog/reverse-mortgage-clyde-hill-wa-2026",
+    "to": "/blog/reverse-mortgage-seattle-eastside-wa-2026#ultra-luxury"
+  },
+  {
+    "from": "/blog/reverse-mortgage-medina-wa-2026",
+    "to": "/blog/reverse-mortgage-seattle-eastside-wa-2026#ultra-luxury"
+  },
+  {
+    "from": "/blog/wholesale-mortgage-broker-92679",
+    "to": "/blog/wholesale-mortgage-broker-south-orange-county-2026"
   }
 ];
 
@@ -80,7 +160,6 @@ export const GONE_410: readonly string[] = [
   "/blog/home-equity-south-sound-guide-2026",
   "/blog/home-equity-premium-silicon-valley-2026",
   "/blog/home-equity-ultra-luxury-eastside-wa-2026",
-  "/areas/newport-beach-mortgage-broker",
   "/blog/home-equity-north-sound-guide-2026",
   "/tools/property-tax-estimator/wa/king-county/burien",
   "/tools/property-tax-estimator/wa/king-county/kirkland",
@@ -89,7 +168,6 @@ export const GONE_410: readonly string[] = [
   "/blog/wholesale-mortgage-broker-bay-area-peninsula-2026",
   "/blog/reverse-mortgage-premium-east-bay-sf-2026",
   "/blog/wholesale-mortgage-broker-coastal-sd-inland-premium-2026",
-  "/blog/wholesale-mortgage-broker-bay-area-guide-2026",
   "/blog/wholesale-mortgage-broker-premium-east-bay-sf-2026",
   "/blog/reverse-mortgage-seattle-eastside-guide-2026",
   "/blog/wholesale-mortgage-broker-premium-eastside-wa-2026",
@@ -113,7 +191,6 @@ export const GONE_410: readonly string[] = [
   "/blog/reverse-mortgage-ultra-luxury-marin-2026",
   "/blog/reverse-mortgage-premium-silicon-valley-2026",
   "/tools/dscr-qualification-calculator/ca/marin-county",
-  "/heloc-specialist-orange-county",
   "/tools/bank-statement-loan-estimator/ca/san-francisco-county/san-francisco",
   "/tools/dscr-qualification-calculator/ca/san-mateo-county",
   "/blog/wholesale-mortgage-broker-greater-seattle-2026",
@@ -133,11 +210,9 @@ export const GONE_410: readonly string[] = [
   "/tools/cash-out-limit-calculator/wa/king-county/seattle",
   "/tools/cash-out-limit-calculator/ca/marin-county",
   "/blog/reverse-mortgage-marin-county-guide-2026",
-  "/blog/home-equity-newport-beach-2026",
   "/tools/cash-out-limit-calculator/ca/santa-clara-county",
   "/tools/dscr-rent-analyzer/ca/san-francisco-county",
   "/tools/dscr-qualification-calculator/wa/king-county/auburn",
-  "/blog/home-equity-bellevue-wa-2026",
   "/tools/cash-out-limit-calculator/ca/san-mateo-county",
   "/tools/dscr-rent-analyzer/ca/san-mateo-county/foster-city",
   "/blog/reverse-mortgage-palos-verdes-peninsula-2026",
@@ -160,7 +235,6 @@ export const GONE_410: readonly string[] = [
   "/tools/equity-comparison-calculator/wa/king-county/seattle",
   "/tools/bank-statement-loan-estimator/wa/king-county/burien",
   "/tools/equity-comparison-calculator/ca/santa-clara-county",
-  "/articles/newport-beach-mortgage-guide-2026",
   "/tools/cash-out-limit-calculator/ca/santa-clara-county/mountain-view",
   "/tools/dscr-rent-analyzer/wa/king-county/issaquah",
   "/tools/max-heloc-calculator/wa/king-county/maple-valley",
@@ -190,7 +264,6 @@ export const GONE_410: readonly string[] = [
   "/blog/home-equity-palos-verdes-2026",
   "/tools/max-heloc-calculator/ca/santa-clara-county/palo-alto",
   "/tools/dscr-rent-analyzer/ca/los-angeles-county/rancho-palos-verdes",
-  "/blog/home-equity-laguna-beach-2026",
   "/tools/dscr-qualification-calculator/ca/marin-county/san-rafael",
   "/tools/dscr-rent-analyzer/wa/king-county/kenmore",
   "/tools/dscr-rent-analyzer/wa/king-county/kent",
@@ -220,7 +293,6 @@ export const GONE_410: readonly string[] = [
   "/blog/newport-coast-mortgage-guide-2026",
   "/blog/palos-verdes-cash-out-refinance-2026",
   "/blog/reverse-mortgage-affluent-marin-2026",
-  "/blog/reverse-mortgage-bellevue-wa-2026",
   "/blog/reverse-mortgage-foothill-luxury-2026",
   "/blog/reverse-mortgage-la-westside-luxury-2026",
   "/blog/reverse-mortgage-palos-verdes-2026",
@@ -253,7 +325,6 @@ export const GONE_410: readonly string[] = [
   "/blog/reverse-mortgage-affluent-suburban-east-bay-2026",
   "/blog/reverse-mortgage-coastal-north-sd-2026",
   "/blog/reverse-mortgage-ie-affluent-2026",
-  "/blog/reverse-mortgage-la-beach-cities-2026",
   "/blog/reverse-mortgage-malibu-ca-2026",
   "/blog/reverse-mortgage-pacific-palisades-ca-2026",
   "/blog/reverse-mortgage-sacramento-affluent-2026",
@@ -265,13 +336,6 @@ export const GONE_410: readonly string[] = [
   "/blog/wholesale-mortgage-92651-laguna-beach-2026",
   "/blog/wholesale-mortgage-92660-newport-harbor-2026",
   "/blog/wholesale-mortgage-92661-newport-beach-2026",
-  "/blog/wholesale-mortgage-broker-92625",
-  "/blog/wholesale-mortgage-broker-92629",
-  "/blog/wholesale-mortgage-broker-92651",
-  "/blog/wholesale-mortgage-broker-92657",
-  "/blog/wholesale-mortgage-broker-92660",
-  "/blog/wholesale-mortgage-broker-92661",
-  "/blog/wholesale-mortgage-broker-92663",
   "/blog/wholesale-mortgage-broker-affluent-suburban-east-bay-2026",
   "/blog/wholesale-mortgage-broker-ca-sd-a-2026",
   "/blog/wholesale-mortgage-broker-ca-sgv-a-2026",
@@ -281,12 +345,8 @@ export const GONE_410: readonly string[] = [
   "/zip-codes/92660-newport-beach-mortgage-broker",
   "/blog/coto-de-caza-mortgage-guide-2026",
   "/blog/home-equity-beverly-hills-2026",
-  "/blog/home-equity-clyde-hill-wa-2026",
   "/blog/home-equity-san-marino-ca-2026",
   "/blog/reverse-mortgage-beverly-hills-2026",
-  "/blog/reverse-mortgage-clyde-hill-wa-2026",
-  "/blog/reverse-mortgage-medina-wa-2026",
   "/blog/reverse-mortgage-san-marino-ca-2026",
-  "/blog/wholesale-mortgage-92679-coto-de-caza-2026",
-  "/blog/wholesale-mortgage-broker-92679"
+  "/blog/wholesale-mortgage-92679-coto-de-caza-2026"
 ];

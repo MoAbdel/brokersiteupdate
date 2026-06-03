@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'HELOC Draw Period vs Repayment Period 2026: How the Two Phases Work | Mo Abdel',
+  title: 'Typical HELOC Terms 2026: Draw Period and Repayment Period Guide',
   description: 'HELOCs have two phases: a draw period (typically 10 years) with interest-only minimums, then a repayment period (10-20 years) with full principal and interest payments. Learn how each phase works and how to prepare for payment changes. NMLS #1426884.',
-  keywords: ['HELOC draw period repayment period', 'HELOC draw period', 'HELOC repayment period', 'HELOC two phases', 'HELOC payment shock', 'HELOC interest only period', 'HELOC repayment calculator 2026'],
+  keywords: ['typical HELOC terms draw period repayment period 2026', 'HELOC draw period repayment period', 'HELOC draw period', 'HELOC repayment period', 'HELOC two phases', 'HELOC payment shock', 'HELOC interest only period', 'HELOC repayment calculator 2026'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026',
     languages: {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'HELOC Draw Period vs Repayment Period 2026: How the Two Phases Work | Mo Abdel',
+    title: 'Typical HELOC Terms 2026: Draw Period and Repayment Period Guide',
     description: 'HELOCs have two phases: a draw period (typically 10 years) with interest-only minimums, then a repayment period (10-20 years) with full principal and interest payments. Learn how each phase works and how to prepare for payment changes.',
     url: 'https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
@@ -25,6 +25,10 @@ export const metadata: Metadata = {
 };
 
 const faqData = [
+  {
+    question: 'What are typical HELOC terms for the draw period and repayment period in 2026?',
+    answer: 'Typical HELOC terms in 2026 include a 10-year draw period followed by a 10- to 20-year repayment period. During the draw period, most lenders allow interest-only minimum payments and repeated draws up to the credit limit. During repayment, new draws stop and the remaining balance amortizes with principal and interest payments.',
+  },
   {
     question: 'What is the typical length of a HELOC draw period?',
     answer: 'Most HELOC draw periods last 10 years, though some lenders offer 5-year or 15-year draw periods. During this phase you can access funds as needed up to your credit limit while making interest-only minimum payments. Wholesale brokers access lenders with varying draw period lengths to match your timeline.',
@@ -177,7 +181,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
             Home Equity Education &mdash; February 2026
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            HELOC Draw Period vs Repayment Period 2026: How the Two Phases Work
+            Typical HELOC Terms 2026: Draw Period and Repayment Period Guide
           </h1>
           <p className="speakable-hook text-xl text-gray-300 mb-8 max-w-3xl">
             Every HELOC has two distinct phases: a draw period (typically 10 years) where you access funds and make interest-only minimums, followed by a repayment period (10&ndash;20 years) where you pay full principal and interest with no further draws allowed. Understanding both phases prevents payment shock and positions you for long-term financial success.
@@ -211,7 +215,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
           {/* Citation Hook */}
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
             <p className="font-semibold text-gray-900 mb-4">
-              <strong>The bottom line:</strong> A HELOC operates in two distinct phases. During the <strong>draw period</strong> (5&ndash;10 years), you can borrow up to your credit limit and make interest-only minimum payments. During the <strong>repayment period</strong> (10&ndash;20 years), you repay the outstanding balance with fully amortizing principal-and-interest payments. On a $200,000 HELOC balance at 8.5%, monthly payments jump from approximately $1,417 (interest-only) to $2,089 (15-year amortization) &mdash; a 47% increase that catches many borrowers off guard.
+              <strong>The bottom line:</strong> Typical HELOC terms in 2026 include a <strong>10-year draw period</strong> followed by a <strong>10- to 20-year repayment period</strong>. During the draw period, you can borrow up to your credit limit and usually make interest-only minimum payments. During the repayment period, you repay the outstanding balance with fully amortizing principal-and-interest payments. On a $200,000 HELOC balance at 8.5%, monthly payments jump from approximately $1,417 interest-only to $2,089 on a 15-year repayment schedule.
             </p>
 
             <div className="overflow-x-auto my-4">

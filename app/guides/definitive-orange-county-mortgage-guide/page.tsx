@@ -185,7 +185,7 @@ export default function DefinitiveOrangeCountyMortgageGuide() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/guides/definitive-orange-county-mortgage-guide" />
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

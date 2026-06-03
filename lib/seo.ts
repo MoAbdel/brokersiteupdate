@@ -177,12 +177,6 @@ export const siteRootSchema = {
           { "@type": "Offer", "itemOffered": { "@type": "LoanOrCredit", "name": "Reverse Mortgage (HECM)", "url": `${SITE_URL}/reverse-mortgages` }}
         ]
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "127",
-        "bestRating": "5"
-      },
       "priceRange": "$$",
       "image": `${SITE_URL}/images/mo-headshot-v2.jpg`,
       "logo": `${SITE_URL}/images/mo-logo-white.webp`,

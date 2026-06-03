@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     'reverse mortgage Medicaid',
     'reverse mortgage property tax',
     'reverse mortgage IRS',
+    'IRS reverse mortgage upfront MIP taxable event 2026 HECM',
     'HECM proceeds taxable income',
     'reverse mortgage tax advisor',
   ],
@@ -38,6 +39,10 @@ export const metadata: Metadata = {
 };
 
 const faqData = [
+  {
+    question: 'Is HECM upfront mortgage insurance premium a taxable event in 2026?',
+    answer: 'No. Paying or financing the HECM upfront mortgage insurance premium is not itself a taxable income event for the borrower. Reverse mortgage proceeds are loan advances, not income. The upfront MIP may affect the loan balance and the amount of net proceeds available, and any interest deductibility question should be reviewed with a tax advisor when the loan is repaid.',
+  },
   {
     question: 'Are reverse mortgage proceeds considered taxable income?',
     answer: 'Reverse mortgage proceeds are generally not considered taxable income by the IRS because they are classified as loan advances, not earnings. They do not appear on your tax return and do not increase your adjusted gross income. However, every tax situation is unique, so consult a qualified tax advisor for guidance specific to your circumstances.',

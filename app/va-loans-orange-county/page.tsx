@@ -99,7 +99,7 @@ export default function VALoansOrangeCountyPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/va-loans-orange-county" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

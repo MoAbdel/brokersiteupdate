@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Mail, Download } from 'lucide-react';
-import PasswordProtection from '@/components/PasswordProtection';
 
 interface Newsletter {
   id: string;
@@ -89,7 +88,7 @@ export default function AdminDataPage() {
   }
 
   return (
-    <PasswordProtection>
+    <>
       <div className="min-h-screen bg-slate-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
@@ -163,6 +162,6 @@ export default function AdminDataPage() {
         </Card>
         </div>
       </div>
-    </PasswordProtection>
+    </>
   );
 }

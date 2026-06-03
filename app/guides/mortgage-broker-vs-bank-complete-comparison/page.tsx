@@ -282,7 +282,7 @@ export default function MortgageBrokerVsBankComparison() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entityGraph) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/guides/mortgage-broker-vs-bank-complete-comparison" />
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-br from-blue-600 to-green-600 text-white">

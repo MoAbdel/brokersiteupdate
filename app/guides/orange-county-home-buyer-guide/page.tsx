@@ -193,7 +193,7 @@ export default function OrangeCountyHomeBuyerGuide() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/guides/orange-county-home-buyer-guide" />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>

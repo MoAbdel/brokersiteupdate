@@ -90,7 +90,7 @@ export default function AboutMoAbdelPage() {
       />
 
       <div className="min-h-screen py-12 bg-gradient-to-b from-slate-50 to-white">
-        <Breadcrumbs />
+        <Breadcrumbs pathname="/about-mo-abdel-orange-county-mortgage-broker" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Hero Section */}

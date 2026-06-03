@@ -11,7 +11,6 @@ import { Badge } from "@/components/ui/Badge";
 import { Settings, Plus, Edit3, Trash2, TrendingUp, TrendingDown, Save, RefreshCw, Download, Calendar } from "lucide-react";
 import Link from "next/link";
 import { MortgageRate, MarketInsight } from "@/lib/entities";
-import PasswordProtection from "@/components/PasswordProtection";
 
 export default function AdminPage() {
   const [activeTab, setActiveTab] = useState('rates');
@@ -224,7 +223,7 @@ export default function AdminPage() {
 
 
   return (
-    <PasswordProtection>
+    <>
       <div className="min-h-screen bg-slate-50 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -632,6 +631,6 @@ export default function AdminPage() {
         )}
       </div>
       </div>
-    </PasswordProtection>
+    </>
   );
 }

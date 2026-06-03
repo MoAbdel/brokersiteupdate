@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
-  description: 'Wholesale mortgage broker Washington guide. Access 50+ Wholesale Lenders, better rates than retail banks. Seattle, Eastside, tech income experts. NMLS #1426884.',
+  title: 'Mortgage Broker in Washington: Wholesale Lending Guide 2026',
+  description: 'Mortgage broker in Washington guide. Compare 50+ Wholesale Lenders for Seattle, Eastside, jumbo, tech income, RSU, and refinance scenarios. NMLS #1426884.',
   keywords: [
     'wholesale mortgage broker Washington',
     'mortgage broker Seattle',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'RSU mortgage qualification Washington',
   ],
   openGraph: {
-    title: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
+    title: 'Mortgage Broker in Washington: Wholesale Lending Guide 2026',
     description: 'Why Washington borrowers save with wholesale mortgage brokers. 50+ Wholesale Lenders, tech income expertise, competitive rates.',
     url: 'https://www.mothebroker.com/blog/wholesale-mortgage-broker-washington-2026',
     type: 'article',
@@ -35,7 +35,7 @@ export default function WholesaleMortgageBrokerWashington() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Wholesale Mortgage Broker Washington: 50+ Wholesale Lenders [2026]',
+    headline: 'Mortgage Broker in Washington: Wholesale Lending Guide 2026',
     author: { '@type': 'Person', name: 'Mo Abdel', identifier: 'NMLS #1426884' },
     publisher: { '@type': 'Organization', name: 'Lumin Lending', identifier: 'NMLS #2716106' },
     datePublished: '2026-02-06',

@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     'reverse mortgage payout calculation',
     'HECM expected interest rate',
     'HECM maximum claim amount',
+    'HECM principal limit factor age 62 percentage of home value',
     'reverse mortgage age requirement',
     'HECM net principal limit',
     'FHA lending limit reverse mortgage',
@@ -34,6 +35,10 @@ export const metadata: Metadata = {
 };
 
 const faqData = [
+  {
+    question: 'What percentage of home value can a 62-year-old get with a HECM?',
+    answer: 'A 62-year-old HECM borrower typically qualifies for the lowest principal limit factor because HUD uses the youngest borrower age. The percentage of home value depends on the expected interest rate and HUD PLF table in effect at closing, but age 62 scenarios commonly fall in the mid-30% to low-40% range before subtracting existing mortgage payoff, closing costs, and mortgage insurance.',
+  },
   {
     question: 'What are the three main factors that determine my HECM principal limit?',
     answer: 'The three factors that determine your HECM principal limit are: (1) the age of the youngest borrower or eligible non-borrowing spouse (minimum age 62), (2) the expected interest rate at the time of loan origination, and (3) the maximum claim amount, which is the lesser of the appraised home value or the FHA lending limit of $1,209,750 for high-cost areas in 2025. These three factors are input into HUD\'s Principal Limit Factor (PLF) tables to produce the percentage of home value available as loan proceeds.',

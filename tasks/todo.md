@@ -1,3 +1,102 @@
+# 2026-05-07 SEO GEO AIO AEO Audit Goal
+
+> Goal mode active. Follow the repo workflow rules, keep audit-first findings separate from safe patches, and do not change live crawler training policy without owner approval.
+
+## Scope
+
+- [x] Pass 1, source-backed audit: verify official crawler/search guidance and inspect the repository without live code changes.
+- [x] Pass 2, reconciliation plan: resolve SEO visibility, AI answer retrieval, training consent, privacy, security, content quality, sitemap, IndexNow, structured data, and performance tradeoffs.
+- [x] Pass 3, safe patches: apply only reversible high-confidence fixes. Put risky crawler-policy, noindex, canonical, legal, training-bot, and large content decisions in `/audit` artifacts only.
+- [x] Produce all requested files in `/audit`.
+- [x] Run safe validation commands and record commands/results in `/audit/validation-commands.md`.
+
+## Execution Notes
+
+- [x] Treat Google AI Overviews and AI Mode as ordinary Google Search eligibility surfaces, not a reason for `llms.txt`, `ai.txt`, or custom AI schema.
+- [x] Keep AI search/citation crawlers, user-triggered retrieval, and model-training crawlers separated in crawler policy analysis.
+- [x] Do not expose secrets from `.env`, credentials, cookies, auth headers, or private data.
+- [x] Prefer repo evidence and official documentation. Mark anything else as an assumption or speculative.
+
+## Review
+
+- Completed official-source verification and repository inventory for the May 7, 2026 audit target.
+- Wrote the requested `/audit` artifacts, including route inventory, source matrix, crawler policy matrix, reconciliation plan, policy templates, validation commands, and changes-applied log.
+- Applied only safe reversible patches: removed unsupported default review schema, tightened local IndexNow submission safety, and aligned optional LLM/vCard public NAP with `lib/site.ts`.
+- Did not change live robots.txt crawler training policy, noindex/canonical classes, redirects, major content, legal copy, Web Bot Auth, or public llms.txt commitments without owner approval.
+- Validation recorded in `/audit/validation-commands.md`: audit generator passed, syntax checks passed, typecheck passed after clearing stale generated `.next`, lint passed with existing warning, and `npx next build` passed.
+
+# 2026-05-09 GSC Index Coverage + Top Search Optimization Goal
+
+> Goal mode active. Fix the pasted GSC buckets with route-level evidence, not blanket rules. Preserve existing owner choices for model-training crawler policy. Do not deploy to production without explicit approval in this conversation.
+
+## Inputs
+
+- [x] GSC bucket pasted: Crawled - currently not indexed, 978 affected pages, last update 2026-05-03.
+- [x] GSC bucket pasted: Page with redirect, 79 affected pages, last update 2026-05-03.
+- [x] GSC bucket pasted: Not found (404), 199 affected pages, last update 2026-05-03.
+- [x] GSC bucket pasted: Excluded by noindex tag, 709 affected pages, last update 2026-05-03.
+- [x] Performance CSVs supplied:
+  - `C:/Users/haithem/Downloads/mothebroker.com-Performance-on-Search-2026-05-09/Pages.csv`
+  - `C:/Users/haithem/Downloads/mothebroker.com-Performance-on-Search-2026-05-09/Queries.csv`
+
+## Working Plan
+
+- [x] Preserve and account for the existing dirty worktree before editing.
+- [x] Classify representative URLs from each GSC bucket into one of: keep indexable, redirect source, 404/410 retired, intentional noindex, accidental noindex, missing route, or sitemap/query cleanup.
+- [x] Compare the current route policy, middleware redirects, sitemap excludes, robots headers, public sitemap, and generated audit reports against the pasted examples.
+- [x] Patch only exact root causes found in code, route policy, sitemap generation, redirects, missing routes, or query-variant handling.
+- [x] Verify each GSC error bucket with concrete samples, including expected status, redirect target, X-Robots-Tag, canonical/sitemap inclusion, and local build behavior.
+- [x] Parse the top 25 pages and queries from the supplied CSV files, map them to current routes, and identify SEO/GEO/AIO/AEO optimization gaps.
+- [x] Optimize the top 25 surfaces without creating duplicate thin content or unsupported schema.
+- [x] Refresh llms/RSS/sitemap artifacts only when tied to changed public content or route policy.
+- [x] Run validation: `npm run typecheck`, `npx next build`, sitemap generation/checks, and targeted URL/header checks.
+- [x] Document a review section with exact resolved buckets, unresolved stale-GSC or deploy blockers, and production verification steps.
+
+## Guardrails
+
+- Do not treat a GSC row as broken just because it appears in an exclusion bucket. Redirect sources, non-content files, query variants, private admin paths, and intentionally pruned localized tool pages can be valid exclusions.
+- Do not remove noindex from low-value programmatic tools or thin cloned geo pages unless search-performance data proves they should become money/support pages.
+- Do not add `llms.txt`, `ai.txt`, or custom AI schema as a Google requirement.
+- Do not deploy, submit sitemap, or request live GSC validation until production deployment is explicitly approved.
+
+## Review
+
+- Existing dirty worktree was preserved. This pass touched route policy, sitemap generation, middleware redirects, the luxury disposition source, targeted high-impression pages, a verification script, and generated audit/sitemap artifacts.
+- Crawled currently not indexed: promoted selected support pages that had demand but were excluded from the sitemap or suppressed by noindex policy. Regenerated sitemap now has 382 URLs and no route-policy conflicts.
+- Page with redirect: resolved redirect-vs-410 conflicts in the luxury disposition source, regenerated `lib/disposition/luxury-urls.ts`, and confirmed redirect sources are not included in the sitemap.
+- Not found 404: converted valuable legacy URLs to 301 targets, kept intentionally retired programmatic URLs as explicit 410, and verified representative local statuses.
+- Excluded by noindex: removed accidental page-level noindex from reverse mortgage support pages, allowlisted GSC-proven support pages, and kept non-content, query variants, and localized low-yield tool pages noindexed.
+- Top 25 CSV optimization: added exact answer/citation hooks for ADU ROI and ADU loan calculator, Fannie Mae and Freddie Mac bankruptcy waits, HELOC draw and repayment terms, cash-out LTV, CA and WA mortgage broker queries, IRS Publication 936 home-equity interest, HECM upfront MIP tax handling, HECM PLF age 62, and proprietary reverse mortgage purchase LTV.
+- Verification passed: `npm run sitemap`, `node scripts/verify-gsc-may-2026-fixes.mjs`, `npm run typecheck`, `npx next build`, sitemap policy checks, luxury sitemap conflict checks, and local production-server header checks.
+- Not deployed. Production GSC validation still requires an explicit deploy approval, then Search Console recrawl validation after Google sees the new production responses.
+
+# 2026-05-07 SEO GEO AIO AEO Implementation Pass
+
+> Follow-up implementation pass requested by the owner. Apply non-conflicting audit recommendations and preserve existing model-training crawler consent unless the owner selects a different template.
+
+## Scope
+
+- [x] Add verified AI search and user-triggered retrieval agents to live robots policy without changing current training-bot allow/disallow choices.
+- [x] Remove the root-layout `headers()` dependency from breadcrumb JSON-LD and keep static breadcrumb schema on pages that already render breadcrumbs.
+- [x] Add a crawlable RSS feed from existing blog metadata and advertise it in root metadata.
+- [x] Improve sitemap `lastmod` by reading explicit `dateModified` or `modifiedTime` values from page files before falling back to file mtime.
+- [x] Replace client-side admin password gates with server-side middleware authentication based on environment variables.
+- [x] Refresh `/audit` artifacts so they reflect the implementation pass.
+- [x] Run typecheck, lint, build, RSS, robots, and sitemap validation.
+
+## Implementation Notes
+
+- [x] Do not expose secret-like values in code, audit files, terminal summaries, or generated reports.
+- [x] Do not implement permissive or restrictive training-crawler policy automatically because those are mutually exclusive owner choices.
+- [x] Keep `llms.txt` optional and non-Google.
+
+## Review
+
+- Implemented the non-conflicting audit recommendations and refreshed `/audit` to the post-implementation state.
+- Preserved current model-training crawler choices while adding verified AI search and user retrieval agents for public content.
+- Added middleware authentication for admin and admin-data surfaces. Production must have `ADMIN_PASSWORD` set or admin routes fail closed.
+- Validation passed: typecheck, lint, script syntax checks, sitemap generation, Next build, RSS/admin local server checks, and sitemap route-policy check.
+
 # 2026-04-16 Bing-First Batch: IndexNow Auto-Submit, Global Breadcrumb Schema, Bing XML Auth, llms.txt Auto-Refresh
 
 > **For executing agents:** Use `superpowers:executing-plans` (inline) or `superpowers:subagent-driven-development` (parallel). Steps use `- [ ]` checkboxes.
@@ -838,3 +937,342 @@ From the original Bing / generative-engine audit, deferred items worth queuing n
 - **Audit #5** — News-sitemap `<news:news>` markup.
 - **Audit #8** — `sameAs` entity signal expansion.
 - **Audit #10** — `hasPart` / `citation` linking on hub-page schemas.
+
+---
+
+## Production Deploy 2026-05-09
+
+- [x] Pull Vercel production environment for the linked project.
+- [x] Build the production artifact through Vercel remote build with indexing automation disabled for this deploy-only request.
+- [x] Deploy the production artifact to Vercel production.
+- [x] Inspect the production deployment and verify key live URLs, redirects, 410s, sitemap, and noindex headers.
+- [x] Record deployment URL and verification results.
+
+### Production Deploy Review
+
+- Deployment: `dpl_5ybCvDFBktP8R4KsR5pvEmuGVFAR`
+- Production URL: `https://www.mothebroker.com`
+- Deployment URL: `https://brokersiteupdate-6h9aij36h-moabdels-projects.vercel.app`
+- Inspector: `https://vercel.com/moabdels-projects/brokersiteupdate/5ybCvDFBktP8R4KsR5pvEmuGVFAR`
+- Build result: Vercel production build completed successfully and aliased `www.mothebroker.com`.
+- Indexing automation: disabled for this deploy-only request with `DISABLE_AUTO_INDEXING_ON_PROD=true`.
+- Live verification artifact: `audit/production-deploy-2026-05-09-results.json`
+- Live checks passed:
+  - `/` returns `200` with no robots exclusion.
+  - `/sitemap.xml` returns `200` and includes `382` URLs.
+  - Promoted pages return `200` with no `X-Robots-Tag`.
+  - Consolidated URLs return permanent redirects.
+  - Retired tool URL returns `410`.
+  - Intentional noindex URLs still return `X-Robots-Tag`.
+  - Bare and HTTP domains redirect toward `https://www.mothebroker.com`.
+- Note: local `vercel build --prod` on Windows failed before compile with `spawn cmd.exe ENOENT`, so deployment used Vercel remote build with the same indexing-disable build env.
+
+---
+
+## Indexing Submission 2026-05-09
+
+- [x] Build the changed-URL indexing delta.
+- [x] Submit changed URLs through IndexNow and Bing where credentials allow.
+- [x] Submit the production sitemap to Google Search Console where credentials allow.
+- [x] Record submission counts and blockers.
+
+### Indexing Submission Review
+
+- Delta built: `43` changed URLs.
+- GSC sitemap submit: success.
+- GSC URL submit: `43` success, `0` errors.
+- IndexNow: `43` URLs submitted in `1` batch.
+- Bing Webmaster API: skipped because `BING_API_KEY` / `BING_WEBMASTER_API_KEY` is not available in the current local or pulled production env.
+- Safety fix: patched indexing delta filtering so future Google, Bing, and IndexNow URL submissions only accept URLs present in `public/sitemap.xml`.
+- Verification artifact: `audit/indexing-submission-2026-05-09.md`
+
+---
+
+## Home Equity Route Move 2026-06-03
+
+- [x] Move `lander/app/home-equity` into the main app route folder.
+- [x] Confirm `/home-equity` no longer returns 404 on the dev server.
+- [x] Record verification results.
+
+### Home Equity Route Move Review
+
+- Moved route files into `app/home-equity`.
+- Removed unsupported top-level `:global(html)` selector from `page.module.css` after Next compiled the moved route and returned a CSS Modules purity error.
+- Local dev verification: `/home-equity` returns `200`.
+- Page title verified: `Home Equity Options: Figure HELOC vs Aven Card | Lumin Lending`.
+- H1 verified: `Access Home Equity Without Refinancing Your Mortgage`.
+- TypeScript verification: `npm run typecheck` passed.
+
+---
+
+## Home Equity Duplicate Nav Removal 2026-06-03
+
+- [x] Remove the duplicated route-level brand/navigation bar from `/home-equity`.
+- [x] Remove CSS used only by that duplicated navigation bar.
+- [x] Verify `/home-equity` still renders locally.
+- [x] Run TypeScript verification.
+- [x] Record verification results.
+
+### Home Equity Duplicate Nav Removal Review
+
+- Removed the route-level `<header>` and primary navigation from `app/home-equity/page.tsx`.
+- Removed unused header-only CSS selectors from `app/home-equity/page.module.css`.
+- Kept the in-page section anchor navigation intact.
+- Local dev verification: `/home-equity` renders with H1 `Access Home Equity Without Refinancing Your Mortgage`.
+- Browser check: duplicated route header count is `0`, section anchor nav count is `1`.
+- TypeScript verification: `npm run typecheck` passed.
+
+---
+
+## Home Equity Figure Copy Tightening 2026-06-03
+
+- [x] Update the Figure section eyebrow, headline, subhead, cards, highlights, and CTA copy.
+- [x] Preserve compliance hedging and no-em-dash copy style.
+- [x] Verify `/home-equity` still renders locally.
+- [x] Run TypeScript verification.
+- [x] Record verification results.
+
+### Home Equity Figure Copy Tightening Review
+
+- Updated the Figure section eyebrow to `Fast · digital · HELOC-style`.
+- Updated the Figure headline, subhead, six cards, highlights list, and approval note.
+- Kept compliance hedging such as `may`, `potential`, `in some scenarios`, and `subject to approval`.
+- Confirmed the route contains no em dash characters.
+- Local browser verification: `/home-equity#figure` renders the new Figure headline, card copy, and `$25K-$750K line amounts` highlight.
+- TypeScript verification: `npm run typecheck` passed.
+
+---
+
+## Home Equity Duplicate Footer Removal 2026-06-03
+
+- [x] Remove the duplicated route-level footer from `/home-equity`.
+- [x] Remove CSS used only by that duplicated footer.
+- [x] Verify `/home-equity` still renders locally.
+- [x] Run TypeScript verification.
+- [x] Record verification results.
+
+### Home Equity Duplicate Footer Removal Review
+
+- Removed the route-level `<footer>` from `app/home-equity/page.tsx`.
+- Removed unused footer, footer grid, footer brand, avatar, and legal CSS selectors from `app/home-equity/page.module.css`.
+- Kept the apply-section contact line and mobile sticky CTA.
+- Local HTTP verification: `/home-equity` returns `200`, H1 is present, old route-footer brand copy is absent, and mobile sticky CTA markup remains.
+- TypeScript verification: `npm run typecheck` passed.
+
+---
+
+## Home Equity Page Refactoring & Optimization 2026-06-03
+
+- [x] Create the interactive Equity Estimator Widget (slider calculator) in `app/home-equity/page.tsx`
+- [x] Consolidate Figure and Aven 12 detailed cards into two premium side-by-side product cards
+- [x] Move and condense the Comparison Table to the top (6 key decision drivers)
+- [x] Remove `page.module.css` and rewrite the page using Tailwind CSS utility classes
+- [x] Run typecheck and local verification (typecheck passed; build passed)
+
+### Home Equity Page Refactoring Review
+
+- **Refactored page:** [page.tsx](file:///c:/Users/haithem/projects/brokersiteupdate/app/home-equity/page.tsx)
+- **New component:** [EquityCalculator.tsx](file:///c:/Users/haithem/projects/brokersiteupdate/components/home-equity/EquityCalculator.tsx)
+- **Removed file:** `app/home-equity/page.module.css` (deleted)
+- **Result:** Successfully refactored the layout to use native Tailwind CSS classes, added the client-side calculator widget, compressed the card layouts, and condensed the comparison table. Both TypeScript checking and Next.js build compilation passed successfully.
+
+---
+
+## Support Bubble Modal Optimization 2026-06-03
+
+- [x] Modify form state in `components/SupportBubble.tsx` to use `fullName` and remove `message`
+- [x] Implement active form validation for the terms checkbox (removing the faded disabled button)
+- [x] Combine name inputs and remove the message textarea in the modal JSX layout
+- [x] Tighten layout styling in the Support Bubble modal to fit compact screen heights
+- [/] Run typecheck and local verification (typecheck passed; build in progress)
+
+---
+
+## Dev Server Refresh & Gemini Diff Verification 2026-06-03
+
+- [ ] Confirm Gemini widget/form changes are present in the dirty working tree.
+- [ ] Find and fix the reason old widget/form bundles can still show locally.
+- [ ] Clear stale Next.js dev artifacts and restart the dev server on port 3000.
+- [ ] Verify `/home-equity` returns 200 and the updated widget/form strings are in the served client bundle.
+- [ ] Run TypeScript verification or document any blocker.
+- [ ] Record verification results.
+
+---
+
+## Home Equity Floating CTA Replacement 2026-06-03
+
+- [x] Confirm the rendered global chat widget path.
+- [x] Create reusable `HomeEquityFloatingCTA` component linking to `/home-equity`.
+- [x] Add responsive global CTA styles with hover, active, focus-visible, and reduced-motion states.
+- [x] Replace the global `SupportBubble` mount so the old `Chat with Mo` launcher no longer renders.
+- [x] Verify the CTA renders, old launcher copy is absent, and clicking the pill targets `/home-equity`.
+- [x] Run TypeScript and production build verification or document blockers.
+- [x] Record review results.
+
+### Home Equity Floating CTA Replacement Review
+
+- Added `components/HomeEquityFloatingCTA.tsx` with fixed accessible label, inline home icon, text stack, and chevron.
+- Replaced the global `SupportBubble` render in `components/DeferredWidgets.tsx` with `HomeEquityFloatingCTA`, so the old chat launcher no longer hydrates globally.
+- Added global styles in `app/globals-simple.css` for desktop and mobile fixed positioning, high z-index, hover, active, focus-visible, and reduced-motion states.
+- Desktop browser verification on `http://localhost:3001/`: one CTA link, `href="/home-equity"`, `268px` by `76px`, fixed position, `z-index: 2147483000`, and no `Chat with Mo` or `Online now` text in the hydrated body.
+- Click verification: activating the pill navigated to `http://localhost:3001/home-equity`.
+- Mobile browser verification at `390x844`: CTA rendered `252px` wide, stayed inside the viewport, sat `88px` above the bottom, and old chat copy was absent.
+- Browser console verification: no warnings or errors reported for the checked page.
+- CTA accessibility checks: one named link was found by role, title contrast on white is `17.85:1`, subtitle contrast on white is `4.66:1`, and white icon contrast on blue is `5.17:1`.
+- Verification passed: `npm run typecheck` and `npx next build`.
+- Note: initial `npm run typecheck` failed because stale untracked `tsconfig.tsbuildinfo` referenced missing `.next/types` files. Removed that generated cache file and reran successfully.
+- Note: broad built-bundle string search across `.next` timed out in this large build. Live hydrated browser checks confirmed the old launcher copy is not rendered.
+
+---
+
+## Cookie Banner CTA Overlap Fix 2026-06-03
+
+- [x] Confirm the cookie banner overlap source.
+- [x] Center the banner copy and action group so buttons do not sit behind the Home Equity CTA.
+- [x] Run TypeScript verification.
+- [x] Browser-verify the banner buttons are visible with the Home Equity CTA present.
+- [x] Record review results.
+
+### Cookie Banner CTA Overlap Fix Review
+
+- Updated `components/CookieBanner.tsx` so the fixed bottom banner uses a centered inner container, centered text, and a centered action group.
+- Kept the cookie copy and button labels unchanged.
+- Root cause: the previous full-width `justify-between` layout pushed `Accept All` to the far right, where the floating Home Equity CTA could cover it.
+- Verification passed: `npm run typecheck`.
+- Dev server verification: `http://localhost:3000` returns `200`.
+- Browser verification at `1280x720`: cookie copy has `text-align: center`; `Decline` and `Accept All` are visible; neither button overlaps the Home Equity CTA.
+- Browser verification at `1920x920`: `Decline` and `Accept All` are visible; neither button overlaps the Home Equity CTA.
+- Note: the browser console retained two Next dev chunk errors from hot reload while the dev server was updating. The page rendered and the measured cookie banner layout was correct.
+
+---
+
+## Homepage Calculator Removal And Vercel Events 2026-06-03
+
+- [x] Confirm where the homepage wholesale savings calculator is rendered.
+- [x] Remove the calculator UI and unused hero calculation state.
+- [x] Keep the hero balanced after removing the right column.
+- [x] Add privacy-safe Vercel Analytics events for `/api/contact` submissions.
+- [x] Add privacy-safe Vercel Analytics events for newsletter submissions.
+- [x] Add a Vercel Analytics event for the floating `Tap Home Equity` CTA click.
+- [x] Run TypeScript and build verification.
+- [x] Browser-verify the homepage no longer shows `Wholesale Savings Calculator` and the CTA still routes to `/home-equity`.
+- [x] Record review results.
+
+### Homepage Calculator Removal And Vercel Events Review
+
+- Removed the homepage `Wholesale Savings Calculator` card and unused calculator state from `components/home/HeroSection.tsx`.
+- Re-centered the hero content after removing the right-side calculator column.
+- Added privacy-safe Vercel Analytics server events for `/api/contact` outcomes: accepted submissions, blocked submissions, Formspree rejection, and API exceptions.
+- Added privacy-safe Vercel Analytics server events for `/api/newsletter` outcomes: accepted submissions, blocked submissions, validation failures, duplicates, and API exceptions.
+- Added client-side Vercel Analytics tracking for the global floating `Tap Home Equity` CTA click.
+- Added client-side newsletter tracking for the direct Formspree newsletter forms that do not use `/api/newsletter`.
+- Verification passed: `npm run typecheck`.
+- Verification passed: `npx next build`.
+- Dev server restarted on `http://localhost:3000` after the production build wrote `.next`.
+- Local HTTP verification: `/` returns `200`, does not contain `Wholesale Savings Calculator`, contains `Tap Home Equity`, and contains `href="/home-equity"`.
+- Local route verification: `/home-equity` returns `200`.
+- Browser screenshot verification: `reports/homepage-after-calculator-removal.png` shows the re-centered homepage hero without the calculator and with the floating `Tap Home Equity` CTA visible.
+- Note: Vercel custom event dashboards require Vercel Web Analytics custom events support on the deployed project plan.
+
+---
+
+## Wholesale Lenders Homepage Landing 2026-06-03
+
+- [x] Append the approved implementation plan and keep the scope limited to the homepage landing build.
+- [x] Add a real DOM landing component with scoped `ma-` classes, responsive layout, modal lead form, and reference-matched hero/trust band.
+- [x] Add `/api/loan-options` JSON lead endpoint with required-field validation.
+- [x] Create the requested Mo Abdel image asset filenames from the existing headshot unless a separate approved hero cutout is supplied.
+- [x] Wire `/` to the new landing while preserving existing metadata and JSON-LD.
+- [x] Prevent duplicate global header/footer/floating widgets from appearing over the homepage reference layout without changing interior pages.
+- [x] Run TypeScript and build verification.
+- [x] Browser-verify desktop, mobile, modal open/close, and API submission behavior.
+- [x] Record review results.
+
+### Wholesale Lenders Homepage Landing Review
+
+- Added `components/WholesaleLendersLanding.tsx` and `components/WholesaleLendersLanding.css` with real DOM header, hero, trust band, modal lead form, responsive mobile layout, scoped `ma-` selectors, and no raw content images.
+- Added `app/api/loan-options/route.ts` for JSON lead submissions with required-field validation.
+- Updated `app/page.tsx` to render the new landing while keeping the existing metadata and JSON-LD.
+- Imported the landing CSS in `app/layout.tsx` and used CSS-only homepage hiding for the root header/footer to avoid duplicate visible chrome on `/`.
+- Updated `components/DeferredWidgets.tsx` so analytics remain loaded while visible widgets and popups stay off the homepage.
+- Created `public/images/mo-abdel-headshot.png` and `public/images/mo-abdel-hero.png` from the existing Mo headshot assets. The hero image is a fallback, true visual parity still needs the supplied transparent hero portrait/cutout.
+- Verification passed: `npm run typecheck`.
+- Verification passed: `npx next build`.
+- Browser desktop verification at `1672x941`: landing rendered, H1 stayed to two lines, trust band visible in first viewport, no horizontal overflow, root header/footer hidden, floating CTA absent. Screenshot: `reports/wholesale-landing-desktop-1672-final.png`.
+- Browser mobile verification at `390x844`: nav/header CTA hidden, content stacked, CTAs and stats stayed inside viewport, no horizontal overflow. Screenshot: `reports/wholesale-landing-mobile-390-final.png`.
+- Modal/API verification: primary CTA opened the modal, required fields submitted successfully, success state rendered, complete payload returned `200`, missing fields returned `400`.
+- Final dev server is running on `http://localhost:3000`; browser checks used `http://127.0.0.1:3000` to bypass a stale in-app browser cache for `localhost`.
+
+---
+
+## Wholesale Lenders Homepage Exact Asset Correction 2026-06-03
+
+- [x] Replace the fallback/raw hero image logic with `mo-abdel-hero-right-exact.png` pinned to the desktop hero right edge.
+- [x] Remove the separate desktop license card because the license card is baked into the exact hero asset.
+- [x] Keep the nav avatar on `mo-abdel-headshot.png` and preserve the modal lead form posting JSON to `/api/loan-options`.
+- [x] Match the approved desktop geometry: 88px header, 678px hero, 1450px inner max width, trust band immediately after the hero.
+- [x] Restore the missing lower sections: process stepper, wholesale advantage, guides/resources, communities, reviews, and footer.
+- [x] Verify with `npm run typecheck`, `npx next build`, and browser screenshots at `1672x941` plus mobile.
+
+### Wholesale Lenders Homepage Exact Asset Correction Review
+
+- Rebuilt `components/WholesaleLendersLanding.tsx` around the supplied `mo-abdel-hero-right-exact.png` desktop asset and `mo-abdel-headshot.png` nav avatar.
+- Removed the old separate desktop license card and old raw hero fallback usage from the rendered landing.
+- Restored the lower sections after the trust band: process stepper, wholesale advantage, guides/resources, communities, reviews, and landing footer.
+- Kept the lead modal and `/api/loan-options` JSON endpoint. Valid payload returned `200`; missing fields returned `400`.
+- Verification passed: `npm run typecheck`.
+- Verification passed: `npx next build`.
+- Production browser desktop verification at `1672x941`: header `88px`, hero `678px`, hero starts at `y=88`, trust band starts at `y=766`, hero image is `724x678`, image is flush right, root header hidden, no separate license card, no raw fallback hero image, no horizontal overflow, and lower sections exist.
+- Desktop screenshot: `reports/wholesale-landing-desktop-1672-production.png`.
+- Mobile browser verification at `390x844`: header call button hidden, content stacked, no horizontal overflow, modal opens with all required fields.
+- Mobile screenshot: `reports/wholesale-landing-mobile-390-production.png`.
+- Modal screenshot: `reports/wholesale-landing-modal-mobile.png`.
+- Production server is running on `http://127.0.0.1:3000`.
+
+---
+
+## Wholesale Landing Shared Header Correction 2026-06-03
+
+- [ ] Remove the custom landing-only header from `WholesaleLendersLanding`.
+- [ ] Stop hiding the global `Header` on `/` so the homepage uses the same navigation as `/loan-programs` and other pages.
+- [ ] Keep the landing footer hidden from the global footer only where needed, preserving the landing page footer section.
+- [ ] Adjust homepage spacing for the shared fixed header.
+- [ ] Verify `/` and `/loan-programs` render the same shared header.
+
+---
+
+## Wholesale Advantage Heading Line Break 2026-06-03
+
+- [x] Split the Wholesale Advantage heading so `Broker vs. Banks` starts on a new line.
+- [x] Run TypeScript verification.
+
+### Wholesale Advantage Heading Line Break Review
+
+- Updated the Wholesale Advantage heading in `components/WholesaleLendersLanding.tsx` to render `Broker vs. Banks` on the next line.
+- Verification passed: `npm run typecheck`.
+
+---
+
+## Homepage Widget Fold Polish 2026-06-03
+
+- [x] Render the accessibility widget, Tap Home Equity CTA, and exit-intent modal on the homepage.
+- [x] Add the `lumin.png` logo overlay to the baked hero license card.
+- [x] Move the hero content upward and compact the trust band so it fits in the first desktop viewport.
+- [x] Add an animated chevron scroll cue.
+- [x] Run TypeScript and production build verification.
+- [x] Browser-verify desktop and mobile homepage behavior.
+- [x] Record review results.
+
+### Homepage Widget Fold Polish Review
+
+- Updated `components/DeferredWidgets.tsx` so the homepage mounts `ExitIntentModal`, `HomeEquityFloatingCTA`, and `AccessibilityWidget` while keeping unrelated deferred widgets off the wholesale landing.
+- Updated `components/WholesaleLendersLanding.tsx` to add the animated scroll cue and a `lumin.png` overlay on the baked hero license card.
+- Tightened the desktop hero in `components/WholesaleLendersLanding.css` from `678px` to `640px`, lifted the content, compacted the trust band, and added a homepage-only accessibility display override.
+- Verification passed: `npm run typecheck`.
+- Verification passed: `npx next build`.
+- Browser verification on `http://127.0.0.1:3003` at `1920x900`: trust band bottom is `870`, so the full `Trusted by Homebuyers` section is visible on landing. Accessibility widget count `1`, Tap Home Equity count `1`, Lumin overlay count `1`, and scroll cue count `1`.
+- Exit-intent modal verification: the homepage mounted modal component and the timed fallback displayed the rate quote modal after the built-in `45000ms` delay.
+- Mobile browser verification at `390x844`: no horizontal overflow, Tap Home Equity count `1`, accessibility widget count `1`, and Lumin overlay count `1`.
+- Screenshots: `reports/homepage-widget-fold-final-desktop-1920.png` and `reports/homepage-widget-fold-final-mobile-390.png`.
+
+

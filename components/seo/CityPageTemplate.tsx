@@ -154,7 +154,7 @@ export default function CityPageTemplate({ cityData }: CityPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname={`/areas/${cityData.slug}`} />
       <article className="min-h-screen bg-slate-50">
         <PageHero
           badgeText={`Serving ${cityData.name}, CA`}

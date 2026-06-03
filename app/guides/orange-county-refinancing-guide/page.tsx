@@ -262,7 +262,7 @@ export default function OrangeCountyRefinancingGuide() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaData) }} />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/guides/orange-county-refinancing-guide" />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-600 via-green-700 to-blue-800 text-white py-20">
         <div className="absolute inset-0 bg-black/20"></div>

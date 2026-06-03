@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     'HELOC interest deductible home improvement',
     'TCJA HELOC interest deduction',
     'IRS Publication 936',
+    'IRS Publication 936 2026 home equity debt interest deductible',
     'mortgage interest deduction 2026',
     'HELOC Orange County',
   ],
@@ -34,6 +35,11 @@ export const metadata: Metadata = {
 };
 
 const faqData = [
+  {
+    question: 'Under IRS Publication 936, is home equity debt interest deductible in 2026?',
+    answer:
+      'Under IRS Publication 936, home equity debt interest can be deductible in 2026 only when the borrowed funds are used to buy, build, or substantially improve the home that secures the loan, and the total qualified mortgage debt stays within the applicable limit. Interest on home equity funds used for debt consolidation, tuition, vacation, or other personal expenses is not deductible.',
+  },
   {
     question: 'Is HELOC interest tax deductible in 2026?',
     answer:

@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-05-09T18:33:19.085Z",
+  "deployment": "dpl_5ybCvDFBktP8R4KsR5pvEmuGVFAR",
+  "productionUrl": "https://www.mothebroker.com",
+  "deploymentUrl": "https://brokersiteupdate-6h9aij36h-moabdels-projects.vercel.app",
+  "inspectorUrl": "https://vercel.com/moabdels-projects/brokersiteupdate/5ybCvDFBktP8R4KsR5pvEmuGVFAR",
+  "sitemapStatus": 200,
+  "sitemapUrlCount": 382,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "location": "",
+      "robots": "",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "location": "",
+      "robots": "noindex, nofollow",
+      "contentType": "application/xml"
+    },
+    {
+      "path": "/blog/reverse-mortgage-complete-guide-2026",
+      "status": 200,
+      "location": "",
+      "robots": "",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/blog/reverse-mortgage-tax-implications-2026",
+      "status": 200,
+      "location": "",
+      "robots": "",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/resources/cash-out-adu-calculator",
+      "status": 200,
+      "location": "",
+      "robots": "",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/blog/proprietary-reverse-mortgage-2026",
+      "status": 200,
+      "location": "",
+      "robots": "",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/heloc-specialist-orange-county",
+      "status": 308,
+      "location": "/heloc-orange-county",
+      "robots": "",
+      "contentType": "text/plain"
+    },
+    {
+      "path": "/reverse-mortgage",
+      "status": 301,
+      "location": "/reverse-mortgages",
+      "robots": "",
+      "contentType": "text/plain"
+    },
+    {
+      "path": "/areas/newport-beach-mortgage-broker",
+      "status": 301,
+      "location": "/blog/newport-beach-mortgage-guide-2026",
+      "robots": "",
+      "contentType": "text/plain"
+    },
+    {
+      "path": "/tools/cash-out-limit-calculator/ca/santa-clara-county",
+      "status": 410,
+      "location": "",
+      "robots": "",
+      "contentType": ""
+    },
+    {
+      "path": "/tools/dscr-rent-analyzer/wa/whitman-county",
+      "status": 200,
+      "location": "",
+      "robots": "noindex, follow",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/mo-abdel-contact.vcf",
+      "status": 200,
+      "location": "",
+      "robots": "noindex, nofollow",
+      "contentType": "text/vcard; charset=utf-8"
+    },
+    {
+      "path": "/guides?category=Refinance",
+      "status": 200,
+      "location": "",
+      "robots": "noindex, nofollow",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "domainChecks": [
+    {
+      "url": "https://mothebroker.com/",
+      "status": 308,
+      "location": "https://www.mothebroker.com/",
+      "robots": ""
+    },
+    {
+      "url": "http://mothebroker.com/",
+      "status": 308,
+      "location": "https://mothebroker.com/",
+      "robots": ""
+    },
+    {
+      "url": "http://www.mothebroker.com/",
+      "status": 308,
+      "location": "https://www.mothebroker.com/",
+      "robots": ""
+    },
+    {
+      "url": "https://www.mothebroker.com/",
+      "status": 200,
+      "location": "",
+      "robots": ""
+    }
+  ]
+}

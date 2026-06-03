@@ -218,7 +218,7 @@ export default function FHALoansOrangeCountyPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/fha-loans-orange-county" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 

@@ -197,7 +197,7 @@ export default function RateTermRefinanceOrangeCounty() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/rate-term-refinance-orange-county" />
 
       {/* Hero Section */}
       <section aria-label="Rate and term refinance hero" className="relative bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-800 text-white py-20">

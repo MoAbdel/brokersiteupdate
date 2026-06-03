@@ -6,11 +6,23 @@ import {
     hasTermsConsent,
 } from '@/lib/terms-consent';
 import { scoreLead, type LeadSignals } from '@/lib/leadQualification';
+import {
+    contactSubmissionProperties,
+    trackServerEvent,
+} from '@/lib/vercel-server-events';
 
 export async function POST(request: NextRequest) {
+    let data: FormData | null = null;
+
     try {
         const audience = getAudienceContext(request.headers);
         if (!audience.isUsEligible) {
+            await trackServerEvent(
+                request,
+                'lead_form_submission_blocked',
+                contactSubmissionProperties(null, 'non_us_audience', 403)
+            );
+
             return NextResponse.json({
                 success: false,
                 error: NON_US_LEAD_CAPTURE_ERROR,
@@ -22,8 +34,14 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        const data = await request.formData();
+        data = await request.formData();
         if (!hasTermsConsent(data.get('terms_consent'))) {
+            await trackServerEvent(
+                request,
+                'lead_form_submission_blocked',
+                contactSubmissionProperties(data, 'missing_terms_consent', 400)
+            );
+
             return NextResponse.json({
                 success: false,
                 error: TERMS_SERVICES_REQUIRED_ERROR,
@@ -60,7 +78,7 @@ export async function POST(request: NextRequest) {
                     parsedTimeline = t;
                 }
             } catch {
-                // notes is plain text — timeline unavailable
+                // notes is plain text, timeline unavailable
             }
         }
 
@@ -92,9 +110,21 @@ export async function POST(request: NextRequest) {
         const result = await response.json();
 
         if (response.ok) {
+            await trackServerEvent(
+                request,
+                'lead_form_submitted',
+                contactSubmissionProperties(data, 'accepted', 200)
+            );
+
             return NextResponse.json({ success: true, result });
         } else {
             console.error('Formspree Server-side Error:', result);
+            await trackServerEvent(
+                request,
+                'lead_form_submission_failed',
+                contactSubmissionProperties(data, 'formspree_rejected', response.status)
+            );
+
             return NextResponse.json({
                 success: false,
                 error: result.errors?.[0]?.message || 'Formspree failed to accept submission'
@@ -102,6 +132,12 @@ export async function POST(request: NextRequest) {
         }
     } catch (error) {
         console.error('Contact API Route Exception:', error);
+        await trackServerEvent(
+            request,
+            'lead_form_submission_failed',
+            contactSubmissionProperties(data, 'api_exception', 500)
+        );
+
         return NextResponse.json({
             success: false,
             error: 'Internal server error processing submission'

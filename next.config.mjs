@@ -1,6 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const isProduction = process.env.NODE_ENV === 'production';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -45,7 +46,7 @@ const nextConfig = {
           },
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -59,7 +60,7 @@ const nextConfig = {
           },
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -73,7 +74,7 @@ const nextConfig = {
           },
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -119,7 +120,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -128,7 +129,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -137,7 +138,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           },
           {
             key: 'X-Robots-Tag',
@@ -184,7 +185,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -193,7 +194,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -202,7 +203,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       },
@@ -211,7 +212,7 @@ const nextConfig = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: isProduction ? 'public, max-age=31536000, immutable' : 'no-store'
           }
         ]
       }

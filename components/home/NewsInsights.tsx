@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/Button';
 import { Calendar, ArrowRight, TrendingUp, DollarSign, Home, Mail, CheckCircle } from 'lucide-react';
+import { trackClientEvent } from '@/lib/vercel-client-events';
 
 export default function NewsInsights() {
   const articles = [
@@ -65,6 +66,10 @@ export default function NewsInsights() {
       });
 
       if (response.ok) {
+        trackClientEvent('newsletter_submitted', {
+          source: 'NewsInsights Newsletter',
+          outcome: 'accepted',
+        });
         setShowSuccess(true);
         setEmail('');
         setTimeout(() => setShowSuccess(false), 5000);
@@ -73,6 +78,10 @@ export default function NewsInsights() {
       }
     } catch (error) {
       console.error('Newsletter subscription error:', error);
+      trackClientEvent('newsletter_submission_failed', {
+        source: 'NewsInsights Newsletter',
+        outcome: 'formspree_or_network_error',
+      });
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     }

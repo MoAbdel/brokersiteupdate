@@ -1,0 +1,74 @@
+[
+  {
+    "Path": "/",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": ""
+  },
+  {
+    "Path": "/blog/reverse-mortgage-complete-guide-2026",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": ""
+  },
+  {
+    "Path": "/blog/reverse-mortgage-tax-implications-2026",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": ""
+  },
+  {
+    "Path": "/resources/cash-out-adu-calculator",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": ""
+  },
+  {
+    "Path": "/blog/proprietary-reverse-mortgage-2026",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": ""
+  },
+  {
+    "Path": "/heloc-specialist-orange-county",
+    "Status": "HTTP/1.1 301 Moved Permanently",
+    "Location": "location: https://www.mothebroker.com/heloc-orange-county",
+    "Robots": ""
+  },
+  {
+    "Path": "/reverse-mortgage",
+    "Status": "HTTP/1.1 301 Moved Permanently",
+    "Location": "location: https://www.mothebroker.com/reverse-mortgages",
+    "Robots": ""
+  },
+  {
+    "Path": "/areas/newport-beach-mortgage-broker",
+    "Status": "HTTP/1.1 301 Moved Permanently",
+    "Location": "location: https://www.mothebroker.com/blog/newport-beach-mortgage-guide-2026",
+    "Robots": ""
+  },
+  {
+    "Path": "/tools/cash-out-limit-calculator/ca/santa-clara-county",
+    "Status": "HTTP/1.1 410 Gone",
+    "Location": "",
+    "Robots": ""
+  },
+  {
+    "Path": "/tools/dscr-rent-analyzer/wa/whitman-county",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": "x-robots-tag: noindex, follow"
+  },
+  {
+    "Path": "/mo-abdel-contact.vcf",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": "x-robots-tag: noindex, nofollow"
+  },
+  {
+    "Path": "/guides?category=Refinance",
+    "Status": "HTTP/1.1 200 OK",
+    "Location": "",
+    "Robots": "x-robots-tag: noindex, nofollow"
+  }
+]

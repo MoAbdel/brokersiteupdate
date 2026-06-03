@@ -7,7 +7,7 @@
  *
  * Rows with disposition="410" go into GONE_410.
  * Rows with disposition="redirect" AND a non-empty redirect_target go into REDIRECTS.
- * Rows with redirect_target="__KEEP__" (e.g., NB property-tax estimator) are skipped.
+ * Rows with redirect_target="__KEEP__" (for example, NB property-tax estimator) are skipped.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -40,7 +40,7 @@ const body = `/**
  *   docs/superpowers/specs/2026-04-14-luxury-teardown/url-dispositions.csv
  *
  * Generated: ${new Date().toISOString()}
- * Kept (not redirected/gone): ${kept.length} URL(s) — see CSV __KEEP__ rows
+ * Kept (not redirected/gone): ${kept.length} URL(s), see CSV __KEEP__ rows
  */
 
 export interface LuxuryRedirect { from: string; to: string; }

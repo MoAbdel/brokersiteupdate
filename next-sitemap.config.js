@@ -8,6 +8,7 @@ const routePolicy = require('./lib/seo-route-policy.js');
 const BUILD_ISO = new Date().toISOString();
 const APP_DIR = path.join(process.cwd(), 'app');
 const REDIRECT_SOURCE_TOKEN_PATTERN = /[*():$]/;
+const NON_PUBLIC_ROBOTS_DISALLOW = ['/admin/', '/api/', '/dashboard/'];
 const {
   ROUTE_POLICY_BUCKETS,
   normalizeRoutePath,
@@ -154,6 +155,34 @@ const BLOG_POST_DATES = (() => {
   }
 })();
 
+function normalizeDateToIso(value) {
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed.toISOString();
+}
+
+function getExplicitPageLastMod(filePath) {
+  try {
+    const content = fsSync.readFileSync(filePath, 'utf8');
+    const patterns = [
+      /\bdateModified:\s*['"]([^'"]+)['"]/,
+      /"dateModified"\s*:\s*"([^"]+)"/,
+      /\bmodifiedTime:\s*['"]([^'"]+)['"]/,
+      /"modifiedTime"\s*:\s*"([^"]+)"/,
+    ];
+
+    for (const pattern of patterns) {
+      const match = content.match(pattern);
+      if (!match?.[1]) continue;
+      const normalized = normalizeDateToIso(match[1]);
+      if (normalized) return normalized;
+    }
+  } catch {
+    return null;
+  }
+
+  return null;
+}
+
 async function getLastModForRoute(routePath) {
   // Prefer the explicit publish date from lib/all-blog-posts.ts for blog posts —
   // this produces a stable freshness signal that doesn't drift with unrelated file touches.
@@ -178,6 +207,9 @@ async function getLastModForRoute(routePath) {
 
   for (const candidate of candidates) {
     if (await fileExists(candidate)) {
+      const explicitLastMod = getExplicitPageLastMod(candidate);
+      if (explicitLastMod) return explicitLastMod;
+
       const stats = await fs.stat(candidate);
       return stats.mtime.toISOString();
     }
@@ -298,9 +330,6 @@ const SITEMAP_EXCLUDES = [
     // CTR-pruned zero-click pages (2026-03-27)
     '/blog/asset-depletion-loans-guide-2026',
     '/blog/reverse-mortgage-calculator-2026',
-    '/blog/reverse-mortgage-complete-guide-2026',
-    '/blog/reverse-mortgage-inheritance-heirs-2026',
-    '/blog/reverse-mortgage-payout-options-2026',
     '/blog/when-not-to-get-reverse-mortgage-2026',
     '/blog/equity-extraction-risks-2026',
     '/blog/irvine-mortgage-guide-2026',
@@ -318,7 +347,6 @@ const SITEMAP_EXCLUDES = [
     '/blog/reverse-mortgage-couples-age-gap-younger-spouse-2026',
     '/blog/reverse-mortgage-after-bankruptcy-qualification-2026',
     '/blog/reverse-mortgage-social-security-medicare-2026',
-    '/blog/hecm-loan-limits-maximum-claim-2026',
     '/blog/refinance-after-late-payments-credit-2026',
     '/blog/home-equity-tax-deduction-2026',
 ];
@@ -349,21 +377,25 @@ module.exports = {
   robotsTxtOptions: {
     policies: [
       // ===========================================
-      // MAJOR SEARCH ENGINES - Explicit Allow
+      // CORE SEARCH INDEXING AND DISCOVERY
       // ===========================================
       {
         userAgent: 'Googlebot',
         allow: '/',
-        disallow: ['/admin/', '/api/', '/dashboard/']
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
       },
       {
         userAgent: 'Googlebot-Image',
         allow: '/'
       },
       {
+        userAgent: 'Googlebot-Video',
+        allow: '/'
+      },
+      {
         userAgent: 'Bingbot',
         allow: '/',
-        disallow: ['/admin/', '/api/', '/dashboard/']
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
       },
       {
         userAgent: 'msnbot',
@@ -373,24 +405,84 @@ module.exports = {
         userAgent: 'DuckDuckBot',
         allow: '/'
       },
+      {
+        userAgent: 'Applebot',
+        allow: '/'
+      },
       // ===========================================
-      // AI SEARCH / ANSWER ENGINES - Allow for visibility
+      // AI SEARCH, ANSWER CITATION, AND RETRIEVAL INDEXES
+      // These are separate from model-training crawlers.
+      // ===========================================
+      {
+        userAgent: 'OAI-SearchBot',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'Claude-SearchBot',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'PerplexityBot',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'MistralAI-Index',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'Amzn-SearchBot',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'DuckAssistBot',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      // ===========================================
+      // USER-TRIGGERED RETRIEVAL
+      // These support user-requested answers and are not training crawlers.
+      // ===========================================
+      {
+        userAgent: 'ChatGPT-User',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'Claude-User',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'Perplexity-User',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'MistralAI-User',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      {
+        userAgent: 'Amzn-User',
+        allow: '/',
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
+      },
+      // ===========================================
+      // MODEL TRAINING OR BROAD DATA CRAWLERS
+      // Preserves the existing owner policy. Change only by owner decision.
       // ===========================================
       {
         userAgent: 'GPTBot',
         allow: '/',
-        disallow: ['/admin/', '/api/', '/dashboard/']
-      },
-      {
-        userAgent: 'ChatGPT-User',
-        allow: '/'
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
       },
       {
         userAgent: 'Google-Extended',
-        allow: '/'
-      },
-      {
-        userAgent: 'PerplexityBot',
         allow: '/'
       },
       {
@@ -402,10 +494,6 @@ module.exports = {
         allow: '/'
       },
       {
-        userAgent: 'Applebot',
-        allow: '/'
-      },
-      {
         userAgent: 'Applebot-Extended',
         allow: '/'
       },
@@ -413,14 +501,13 @@ module.exports = {
         userAgent: 'cohere-ai',
         allow: '/'
       },
-      // Additional AI/answer-engine crawlers (post-2025 launches)
-      { userAgent: 'OAI-SearchBot', allow: '/' },         // ChatGPT search agent
+      { userAgent: 'CCBot', allow: '/' },
+      // Additional preview and answer-engine crawlers. Meta entries remain
+      // unchanged pending official source verification.
       { userAgent: 'Meta-ExternalAgent', allow: '/' },    // Meta AI / WhatsApp previews
       { userAgent: 'Meta-ExternalFetcher', allow: '/' },  // Meta AI fetcher
-      { userAgent: 'DuckAssistBot', allow: '/' },          // DuckDuckGo AI
       { userAgent: 'Amazonbot', allow: '/' },              // Alexa / Rufus
       { userAgent: 'YouBot', allow: '/' },                 // You.com
-      { userAgent: 'MistralAI-User', allow: '/' },         // Mistral Le Chat
       { userAgent: 'FacebookBot', allow: '/' },            // FB/IG/WhatsApp link previews
       // ===========================================
       // INDEXNOW PARTNERS - Allow (Yandex, Seznam)
@@ -428,7 +515,7 @@ module.exports = {
       {
         userAgent: 'YandexBot',
         allow: '/',
-        disallow: ['/admin/', '/api/', '/dashboard/']
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
       },
       {
         userAgent: 'SeznamBot',
@@ -463,7 +550,7 @@ module.exports = {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin/', '/api/', '/dashboard/']
+        disallow: NON_PUBLIC_ROBOTS_DISALLOW
       }
     ],
     additionalSitemaps: [
@@ -572,6 +659,10 @@ module.exports = {
     const STATIC_ANCHORS = [
       // Home
       '/',
+      '/about',
+      '/contact',
+      '/calculator',
+      '/tools',
 
       // Loan programs (hub + all products)
       '/loan-programs',
@@ -607,6 +698,7 @@ module.exports = {
       '/jumbo-loans-orange-county',
 
       // Resources hub
+      '/resources',
       '/resources/glossary',
       '/resources/document-checklist',
       '/resources/service-providers',
@@ -625,6 +717,12 @@ module.exports = {
       ...enumerateStaticRoutes('blog'),
       ...enumerateStaticRoutes('areas'),
       ...enumerateStaticRoutes('guides'),
+      ...enumerateStaticRoutes('resources'),
+      ...enumerateStaticRoutes('tools'),
+      ...enumerateStaticRoutes('calculator'),
+      ...enumerateStaticRoutes('loan-programs'),
+      ...enumerateStaticRoutes('neighborhood-guide'),
+      ...enumerateStaticRoutes('wholesale-mortgage-broker-california'),
     ];
 
     // Dedupe + keep only routes whose page file exists AND whose policy permits indexing.

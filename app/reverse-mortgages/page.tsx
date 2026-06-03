@@ -120,7 +120,7 @@ export default function ReverseMortgagesPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/reverse-mortgages" />
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">

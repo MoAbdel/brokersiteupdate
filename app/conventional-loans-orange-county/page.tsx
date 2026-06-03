@@ -161,7 +161,7 @@ export default function ConventionalLoansOrangeCounty() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/conventional-loans-orange-county" />
 
       {/* Hero Section */}
       <section aria-label="Conventional loan overview" className="relative bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white py-20">

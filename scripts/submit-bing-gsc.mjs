@@ -163,7 +163,10 @@ const run = async () => {
         .sort((a, b) => (b.lastmod || 0) - (a.lastmod || 0))
         .map((x) => x.loc);
   if (delta.mode === 'delta') {
-    console.log(`Using delta-only URL set (${delta.urls.length} URLs) from ${delta.deltaPath}`);
+    console.log(`Using sitemap-eligible delta URL set (${delta.urls.length} URLs) from ${delta.deltaPath}`);
+    if (delta.filteredOutCount) {
+      console.log(`Filtered out ${delta.filteredOutCount} non-sitemap URL(s) from the delta.`);
+    }
   } else {
     console.log('No usable indexing delta found; falling back to sitemap URL set.');
   }

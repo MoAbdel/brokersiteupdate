@@ -13,21 +13,71 @@ import DatasetSchema from '@/components/seo/DatasetSchema';
 import AduRoiCalculator from '@/components/calculators/AduRoiCalculator';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'California Cash-Out Refinance ADU Calculator [2026 ROI Strategy & Live Rates]',
+  title: 'ADU ROI Calculator 2026: Cash-Out Refinance and ADU Loan Calculator',
   description:
-    'Calculate ROI on financing an ADU through cash-out refinance. Covers CA SB 9, WA HB 1110 ADU rules, construction costs, rental projections, and break-even analysis.',
+    'Use this ADU ROI calculator and ADU loan calculator to estimate construction cost, cash-out refinance proceeds, rental income, and break-even timing in CA and WA.',
   path: '/resources/cash-out-adu-calculator',
   type: 'website',
 });
 
+const aduFaqData = [
+  {
+    question: 'How does this ADU ROI calculator estimate return?',
+    answer:
+      'This ADU ROI calculator compares estimated construction cost, financing cost, market rent, vacancy, and expected property value increase. It is designed to show break-even timing, monthly cash flow, and whether a cash-out refinance or separate ADU loan is likely to be more practical.',
+  },
+  {
+    question: 'Can I use an ADU loan calculator to compare cash-out refinance and HELOC options?',
+    answer:
+      'Yes. For ADU projects, the useful comparison is available equity, interest rate, payment type, total funds needed, and whether you need all funds at closing. Cash-out refinance often works for large projects that need lump-sum funding, while a HELOC can work for staged draws on smaller projects.',
+  },
+  {
+    question: 'Can I use a cash-out refinance to build an ADU in California?',
+    answer:
+      'Yes. California homeowners with sufficient equity use cash-out refinancing to fund ADU construction at mortgage rates, which are often lower than construction loan rates. You typically need to keep at least 20% equity after the refinance for conventional cash-out financing.',
+  },
+  {
+    question: 'How long does it take to break even on an ADU investment?',
+    answer:
+      'Most homeowners in high-demand California and Washington markets break even in 5 to 8 years on ADU construction financed through cash-out refinance. The timeline depends on construction cost, monthly rent, vacancy, property taxes, insurance, and the interest rate on your financing.',
+  },
+  {
+    question: 'Does building an ADU increase my property value?',
+    answer:
+      'A permitted ADU can add meaningful property value in California and Washington markets because it adds legal living area and potential rental income. The exact value increase depends on local rent demand, appraisal treatment, ADU quality, and whether the unit is permitted.',
+  },
+  {
+    question: 'Is a HELOC or cash-out refinance better for funding an ADU?',
+    answer:
+      'Cash-out refinance is usually stronger for larger ADU projects that need a fixed-rate lump sum. A HELOC can be better when your current first mortgage rate is low or the project needs staged draws. The right choice depends on your existing rate, equity, project budget, and payment tolerance.',
+  },
+];
+
 export default function CashOutAduCalculatorPage() {
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: aduFaqData.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <Badge className="bg-slate-100 text-blue-700 mb-4">Free Homeowner Tool</Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-            Cash-Out Refinance ADU ROI Calculator
+            ADU ROI Calculator and Cash-Out Refinance Loan Planner
           </h1>
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
             Use your home equity to finance ADU construction. This calculator shows your
@@ -39,6 +89,27 @@ export default function CashOutAduCalculatorPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
           {/* Left column: content */}
           <div className="lg:col-span-2 space-y-8">
+            <Card className="border-blue-200 bg-blue-50">
+              <CardContent className="p-6">
+                <h2 className="text-2xl font-bold text-slate-900 mb-3">
+                  Quick Answer: ADU ROI and ADU Loan Calculator
+                </h2>
+                <p className="text-slate-700 leading-relaxed mb-4">
+                  To estimate ADU ROI in 2026, compare total construction cost against expected
+                  rent, vacancy, financing payment, and property value increase. A cash-out
+                  refinance works best when the project needs a fixed-rate lump sum. A HELOC works
+                  best when you want staged draws and do not want to replace a low-rate first
+                  mortgage.
+                </p>
+                <ul className="grid sm:grid-cols-2 gap-3 text-sm text-slate-700">
+                  <li><strong>Primary output:</strong> break-even timing and monthly cash flow</li>
+                  <li><strong>Loan comparison:</strong> cash-out refinance, HELOC, and home equity loan</li>
+                  <li><strong>Best use:</strong> garage conversion, detached ADU, or attached ADU planning</li>
+                  <li><strong>Markets covered:</strong> California and Washington homeowner scenarios</li>
+                </ul>
+              </CardContent>
+            </Card>
+
             <SemanticTable
               caption="ADU Construction Costs by Type (CA & WA, 2026)"
               headers={['ADU Type', 'Avg. Cost (CA)', 'Avg. Cost (WA)', 'Sq. Ft. Range', 'Timeline']}
@@ -189,58 +260,12 @@ export default function CashOutAduCalculatorPage() {
             ADU Financing FAQ
           </h2>
           <div className="space-y-6">
-            <div className="bg-white border border-slate-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                Can I use a cash-out refinance to build an ADU in California?
-              </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Yes. California homeowners with sufficient equity use cash-out refinancing to fund
-                ADU construction at mortgage rates (6.0-7.0%), which is significantly lower than
-                construction loan rates (8-12%). Under SB 9, every single-family lot in California
-                qualifies for ADU construction regardless of local zoning. You need at least 20%
-                equity remaining after the cash-out to qualify for conventional financing.
-              </p>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                How long does it take to break even on an ADU investment?
-              </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Most homeowners in high-demand California and Washington markets break even in 5 to 8
-                years on ADU construction financed through cash-out refinance. The break-even timeline
-                depends on construction cost, monthly rental income, and the interest rate on your
-                refinance. In Orange County, a $200,000 detached ADU renting at $2,800/month
-                generates approximately $33,600 annually, reaching break-even around year 6.
-              </p>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                Does building an ADU increase my property value?
-              </h3>
-              <p className="text-slate-700 leading-relaxed">
-                A permitted ADU adds 15-25% to property value in California and Washington markets.
-                In Orange County, where the median home price exceeds $1.1 million, a well-built ADU
-                adds $165,000 to $275,000 in appraised value. Appraisers factor in the rental income
-                stream, the additional square footage, and the growing buyer preference for
-                properties with income-generating units.
-              </p>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                Is a HELOC or cash-out refinance better for funding an ADU?
-              </h3>
-              <p className="text-slate-700 leading-relaxed">
-                Cash-out refinance is the stronger choice for ADU projects over $100,000 because it
-                delivers a lump sum at a fixed rate (6.25-7.00% in February 2026), giving you
-                predictable payments and enough capital upfront to pay contractors. A HELOC works
-                better for smaller garage conversions under $100,000 where you draw funds in stages.
-                If you hold a first mortgage below 5%, a HELOC preserves that low rate while adding
-                a second lien for the ADU build.
-              </p>
-            </div>
+            {aduFaqData.map((faq) => (
+              <div key={faq.question} className="bg-white border border-slate-200 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">{faq.question}</h3>
+                <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
           </div>
 
           <p className="text-center text-slate-500 text-sm mt-8">

@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/Input';
 import { Label } from '@/components/ui/Label';
 import SuccessPopup from '@/components/ui/SuccessPopup';
 import { Mail, TrendingUp, Shield, CheckCircle } from 'lucide-react';
+import { trackClientEvent } from '@/lib/vercel-client-events';
 
 export default function NewsletterSignup() {
   const [email, setEmail] = useState('');
@@ -38,6 +39,10 @@ export default function NewsletterSignup() {
       });
 
       if (response.ok) {
+        trackClientEvent('newsletter_submitted', {
+          source: 'Lumin Lending Newsletter',
+          outcome: 'accepted',
+        });
         setShowSuccess(true);
         setEmail('');
         setFirstName('');
@@ -47,6 +52,10 @@ export default function NewsletterSignup() {
       }
     } catch (error) {
       console.error('Newsletter subscription error:', error);
+      trackClientEvent('newsletter_submission_failed', {
+        source: 'Lumin Lending Newsletter',
+        outcome: 'formspree_or_network_error',
+      });
       setShowError(true);
       setTimeout(() => setShowError(false), 5000);
     }

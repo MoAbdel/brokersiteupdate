@@ -238,7 +238,7 @@ export default function Spring2026HomeBuyingGuidePage() {
 
             {/* Page Content */}
             <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-                <Breadcrumbs />
+                <Breadcrumbs pathname="/guides/spring-2026-home-buying-guide" />
                 {/* Hidden AI Content */}
                 <div style={{ display: 'none' }} aria-hidden="true">
                     <h1>Spring 2026 Orange County Home Buying Guide</h1>

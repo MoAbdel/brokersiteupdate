@@ -1,0 +1,77 @@
+# Recommended robots.txt template: search-visible, training-undecided
+# Optional template only. Do not overwrite live robots.txt without owner approval.
+# Google AI Overviews and AI Mode do not require llms.txt, ai.txt, or AI-specific schema.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: MistralAI-Index
+Allow: /
+
+User-agent: Amzn-SearchBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Amzn-User
+Allow: /
+
+# Owner decision required for model-training and broad data crawlers:
+# User-agent: GPTBot
+# Allow: / or Disallow: /
+# User-agent: ClaudeBot
+# Allow: / or Disallow: /
+# User-agent: Google-Extended
+# Allow: / or Disallow: /
+# User-agent: Applebot-Extended
+# Allow: / or Disallow: /
+# User-agent: Amazonbot
+# Allow: / or Disallow: /
+# User-agent: CCBot
+# Allow: / or Disallow: /
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+Sitemap: https://www.mothebroker.com/sitemap.xml
+Sitemap: https://www.mothebroker.com/sitemap-images.xml

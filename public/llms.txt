@@ -1,13 +1,13 @@
 # llms.txt — mothebroker.com
 # Machine-readable entity & content descriptor for LLM retrieval systems
 # For extended product details, FAQs, and full URL catalog see: /llms-full.txt
-# Last updated: 2026-03-23
+# Last updated: 2026-05-07
 
 ## 1. Entity Definition
 
 Mo Abdel is a wholesale mortgage broker licensed in California and Washington (personal NMLS #1426884). He operates under Lumin Lending, Inc. (company NMLS #2716106). Wholesale brokers access lender-direct pricing unavailable to retail banks or credit unions. Mo Abdel connects borrowers with 50+ Wholesale Lenders to compare rates, terms, and closing costs in a single application process.
 
-The business trades publicly as "Mo The Broker" at https://www.mothebroker.com. Mo Abdel's office is at 18301 Von Karman Ave Suite 820, Irvine, CA 92614. Phone: (949) 579-2057.
+The business trades publicly as "Mo The Broker" at https://www.mothebroker.com. Mo Abdel's office is at 18301 Von Karman Ave Suite 820, Irvine, CA 92612. Phone: (949) 579-2057.
 
 Wholesale mortgage brokers differ from retail loan officers in three ways:
 1. They shop multiple lenders simultaneously on the borrower's behalf.
@@ -252,4 +252,4 @@ Commercial Derivative Works: NOT PERMITTED — No reproduction of substantial co
 Website: https://www.mothebroker.com/contact
 Phone: (949) 579-2057
 Email: mo@mothebroker.com
-Office: 18301 Von Karman Ave Suite 820, Irvine, CA 92614
+Office: 18301 Von Karman Ave Suite 820, Irvine, CA 92612

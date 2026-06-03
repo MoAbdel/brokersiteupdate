@@ -176,7 +176,7 @@ export default function NonQMLoansOrangeCounty() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/non-qm-loans-orange-county" />
 
       {/* Hero Section */}
       <section aria-label="Non-QM loans hero" className="relative bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white py-20">

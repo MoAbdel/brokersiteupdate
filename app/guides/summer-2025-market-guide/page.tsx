@@ -261,7 +261,7 @@ export default function Summer2026MarketGuidePage() {
 
       {/* Page Content */}
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-        <Breadcrumbs />
+        <Breadcrumbs pathname="/guides/summer-2025-market-guide" />
         {/* Hidden AI Content */}
         <div style={{ display: 'none' }} aria-hidden="true">
           <h1>Summer 2026 Orange County Market Guide</h1>

@@ -1,0 +1,54 @@
+# Recommended robots.txt template: permissive
+# Optional template only. Allows search, AI answer citation, user-triggered retrieval, and training crawlers.
+
+User-agent: Googlebot
+Allow: /
+User-agent: bingbot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: MistralAI-Index
+Allow: /
+User-agent: Amzn-SearchBot
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: MistralAI-User
+Allow: /
+User-agent: Amzn-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: CCBot
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+Sitemap: https://www.mothebroker.com/sitemap.xml
+Sitemap: https://www.mothebroker.com/sitemap-images.xml

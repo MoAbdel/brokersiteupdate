@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Proprietary Reverse Mortgages 2026: Jumbo Options for High-Value Homes | MoTheBroker',
-  description: 'Complete guide to proprietary (jumbo) reverse mortgages for high-value homes in 2026. Learn how these private reverse mortgages work, who qualifies, and when they make sense vs HECM.',
+  title: 'Proprietary Reverse Mortgage Purchase LTV Table 2026: Jumbo Options',
+  description: 'Proprietary reverse mortgage purchase LTV table guidance for 2026, jumbo reverse mortgage proceeds, high-value home eligibility, and HECM comparison.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
     languages: {
@@ -20,13 +20,16 @@ export const metadata: Metadata = {
     'non-FHA reverse mortgage',
     'reverse mortgage over 1 million',
     'proprietary reverse mortgage 2026',
+    'proprietary reverse mortgage purchase LTV table 2026',
+    'jumbo reverse mortgage purchase LTV',
   ],
   openGraph: {
-    title: 'Proprietary Reverse Mortgages 2026: Jumbo Options for High-Value Homes',
-    description: 'Complete guide to jumbo reverse mortgages for high-value homes. Learn requirements, how they compare to HECM, and when they make sense.',
+    title: 'Proprietary Reverse Mortgage Purchase LTV Table 2026: Jumbo Options',
+    description: 'Proprietary reverse mortgage purchase LTV table guidance for 2026, jumbo reverse mortgage proceeds, high-value home eligibility, and HECM comparison.',
     url: 'https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026',
     type: 'article',
     publishedTime: '2026-01-29',
+    modifiedTime: '2026-05-09',
     authors: ['Mo Abdel'],
   },
 };
@@ -53,7 +56,7 @@ export default function ProprietaryReverseMortgagePage() {
       "url": "https://www.mothebroker.com"
     },
     "datePublished": "2026-01-29",
-    "dateModified": "2026-01-29",
+    "dateModified": "2026-05-09",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026"
@@ -115,6 +118,14 @@ export default function ProprietaryReverseMortgagePage() {
       },
       {
         "@type": "Question",
+        "name": "Is there a proprietary reverse mortgage purchase LTV table for 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There is no single universal proprietary reverse mortgage purchase LTV table for 2026 because jumbo reverse mortgage lenders publish private age, rate, home value, and purchase-price matrices. As a planning range, many purchase scenarios require the buyer to bring roughly 45% to 65% of the purchase price as down payment, with older borrowers and lower expected rates generally qualifying for higher effective LTV."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "How much can you get from a jumbo reverse mortgage?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -154,7 +165,7 @@ export default function ProprietaryReverseMortgagePage() {
           <span>12 min read</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Proprietary Reverse Mortgages 2026: Jumbo Options for High-Value California Homes
+          Proprietary Reverse Mortgage Purchase LTV Table 2026: Jumbo Options for High-Value Homes
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
           If your home is worth more than the FHA lending limit of $1,209,750, a proprietary
@@ -194,6 +205,61 @@ export default function ProprietaryReverseMortgagePage() {
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className="bg-white border border-blue-200 p-6 rounded-lg my-8 not-prose">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Proprietary Reverse Mortgage Purchase LTV Table 2026
+          </h2>
+          <p className="text-gray-700 mb-4">
+            Proprietary reverse mortgage purchase LTV is lender-specific, so there is no single
+            public table that applies to every jumbo program. For planning, most purchase borrowers
+            should expect to bring 45% to 65% of the purchase price as down payment. Older borrowers
+            usually qualify for higher effective LTV because reverse mortgage proceeds increase
+            with age.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-blue-50">
+                  <th className="text-left py-3 px-4">Youngest Borrower Age</th>
+                  <th className="text-left py-3 px-4">Planning LTV Range</th>
+                  <th className="text-left py-3 px-4">Down Payment Range</th>
+                  <th className="text-left py-3 px-4">Best Use Case</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b">
+                  <td className="py-3 px-4">55 to 61</td>
+                  <td className="py-3 px-4">35% to 45%</td>
+                  <td className="py-3 px-4">55% to 65%</td>
+                  <td className="py-3 px-4">High-equity downsizing before HECM age</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-3 px-4">62 to 69</td>
+                  <td className="py-3 px-4">40% to 50%</td>
+                  <td className="py-3 px-4">50% to 60%</td>
+                  <td className="py-3 px-4">Jumbo purchase above the HECM limit</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-3 px-4">70 to 79</td>
+                  <td className="py-3 px-4">45% to 55%</td>
+                  <td className="py-3 px-4">45% to 55%</td>
+                  <td className="py-3 px-4">Move-up or rightsizing with more proceeds</td>
+                </tr>
+                <tr>
+                  <td className="py-3 px-4">80+</td>
+                  <td className="py-3 px-4">50% to 60%</td>
+                  <td className="py-3 px-4">40% to 50%</td>
+                  <td className="py-3 px-4">Maximum purchasing power on luxury homes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            Planning ranges only. Proprietary lenders quote final proceeds from current rate,
+            property value, age, state, occupancy, and program rules.
+          </p>
         </div>
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">
@@ -643,6 +709,20 @@ export default function ProprietaryReverseMortgagePage() {
         </h2>
 
         <div className="space-y-6">
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Is there a proprietary reverse mortgage purchase LTV table for 2026?
+            </h3>
+            <p className="text-gray-700">
+              There is no single universal proprietary reverse mortgage purchase LTV table for
+              2026 because jumbo reverse mortgage lenders publish private age, rate, home value,
+              and purchase-price matrices. As a planning range, many purchase scenarios require
+              the buyer to bring roughly 45% to 65% of the purchase price as down payment, with
+              older borrowers and lower expected rates generally qualifying for higher effective
+              LTV.
+            </p>
+          </div>
+
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               What is a proprietary reverse mortgage?

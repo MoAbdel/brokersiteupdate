@@ -89,7 +89,7 @@ export default function SelfEmployedHomeLoans() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/self-employed-home-loans-california" />
 
       {/* Hero Section */}
       <section aria-label="Self-employed home loans hero" className="bg-gradient-to-br from-purple-600 to-blue-600 text-white py-20">

@@ -1,0 +1,2253 @@
+{
+  "generatedAt": "2026-05-09T18:08:43.409Z",
+  "pagesCsvPath": "C:/Users/haithem/Downloads/mothebroker.com-Performance-on-Search-2026-05-09/Pages.csv",
+  "queriesCsvPath": "C:/Users/haithem/Downloads/mothebroker.com-Performance-on-Search-2026-05-09/Queries.csv",
+  "sitemapUrlCount": 382,
+  "checks": [
+    {
+      "name": "promoted pages are indexable",
+      "passed": true,
+      "details": {
+        "promotedResults": [
+          {
+            "pathname": "/blog/reverse-mortgage-complete-guide-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-inheritance-heirs-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-payout-options-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-closing-costs-fees-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-optimal-timing-age-strategy-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-interest-rates-current-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-closing-process-timeline-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/home-equity-sharing-vs-heloc-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-san-diego-guide-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-sacramento-guide-2026",
+            "bucket": "indexable",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "indexable"
+            ],
+            "robotsDirective": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "required hubs and promoted surfaces are in sitemap",
+      "passed": true,
+      "details": {
+        "sitemapResults": [
+          {
+            "routePath": "/",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/about",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/contact",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/calculator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/resources",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/property-tax-estimator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/cash-out-limit-calculator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/dscr-qualification-calculator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/dscr-rent-analyzer",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/equity-comparison-calculator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/max-heloc-calculator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/tools/bank-statement-loan-estimator",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/wholesale-mortgage-broker-california",
+            "sitemapIncluded": true
+          },
+          {
+            "routePath": "/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+            "sitemapIncluded": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "redirect examples resolve as redirects, not 404 or conflicting 410",
+      "passed": true,
+      "details": {
+        "redirectResults": [
+          {
+            "pathname": "/heloc-specialist-orange-county",
+            "bucket": "redirect",
+            "target": "/heloc-orange-county",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/articles/newport-beach-mortgage-guide-2026",
+            "bucket": "redirect",
+            "target": "/blog/newport-beach-mortgage-guide-2026",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/home-equity-newport-beach-2026",
+            "bucket": "redirect",
+            "target": "/home-equity-guide",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/home-equity-bellevue-wa-2026",
+            "bucket": "redirect",
+            "target": "/blog/home-equity-seattle-eastside-wa-2026#bellevue",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/home-equity-laguna-beach-2026",
+            "bucket": "redirect",
+            "target": "/home-equity-guide",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/reverse-mortgage-bellevue-wa-2026",
+            "bucket": "redirect",
+            "target": "/blog/reverse-mortgage-seattle-eastside-wa-2026#bellevue",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-92625",
+            "bucket": "redirect",
+            "target": "/blog/wholesale-mortgage-broker-central-orange-county-2026#newport-beach",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-92629",
+            "bucket": "redirect",
+            "target": "/blog/wholesale-mortgage-broker-south-orange-county-2026#dana-point",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-92651",
+            "bucket": "redirect",
+            "target": "/blog/wholesale-mortgage-broker-south-orange-county-2026#laguna-beach",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-92679",
+            "bucket": "redirect",
+            "target": "/blog/wholesale-mortgage-broker-south-orange-county-2026",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/blog/wholesale-mortgage-broker-bay-area-guide-2026",
+            "bucket": "redirect",
+            "target": "/blog/wholesale-mortgage-broker-california-guide-2026",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/reverse-mortgage",
+            "bucket": "redirect",
+            "target": "/reverse-mortgages",
+            "sitemapIncluded": false,
+            "reasons": [
+              "middleware-redirect"
+            ]
+          },
+          {
+            "pathname": "/jumbo-loans",
+            "bucket": "redirect",
+            "target": "/loan-programs/jumbo-loans",
+            "sitemapIncluded": false,
+            "reasons": [
+              "middleware-redirect"
+            ]
+          },
+          {
+            "pathname": "/non-qm-loans",
+            "bucket": "redirect",
+            "target": "/loan-programs/non-qm-loans",
+            "sitemapIncluded": false,
+            "reasons": [
+              "middleware-redirect"
+            ]
+          },
+          {
+            "pathname": "/areas/newport-beach-mortgage-broker",
+            "bucket": "redirect",
+            "target": "/blog/newport-beach-mortgage-guide-2026",
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-redirect"
+            ]
+          },
+          {
+            "pathname": "/home-equity-refinancing-guide-2026",
+            "bucket": "redirect",
+            "target": "/blog/home-equity-refinancing-guide-2026",
+            "sitemapIncluded": false,
+            "reasons": [
+              "middleware-redirect"
+            ]
+          },
+          {
+            "pathname": "/sitemap-news.xml",
+            "bucket": "redirect",
+            "target": "/sitemap.xml",
+            "sitemapIncluded": false,
+            "reasons": [
+              "middleware-redirect"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "intentional noindex examples remain noindex",
+      "passed": true,
+      "details": {
+        "noindexResults": [
+          {
+            "pathname": "/mo-abdel-contact.vcf",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "non-content"
+            ],
+            "robotsDirective": "noindex, nofollow"
+          },
+          {
+            "pathname": "/llms.txt",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "non-content"
+            ],
+            "robotsDirective": "noindex, nofollow"
+          },
+          {
+            "pathname": "/robots.txt",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "non-content"
+            ],
+            "robotsDirective": "noindex, nofollow"
+          },
+          {
+            "pathname": "/sitemap.xml",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "non-content"
+            ],
+            "robotsDirective": "noindex, nofollow"
+          },
+          {
+            "pathname": "/guides",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": true,
+            "reasons": [
+              "query-variant"
+            ],
+            "robotsDirective": "noindex, nofollow"
+          },
+          {
+            "pathname": "/tools/dscr-rent-analyzer/wa/whitman-county",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "localized-tool-route"
+            ],
+            "robotsDirective": "noindex, follow"
+          },
+          {
+            "pathname": "/tools/property-tax-estimator/wa/stevens-county",
+            "bucket": "noindex",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "localized-tool-route"
+            ],
+            "robotsDirective": "noindex, follow"
+          }
+        ]
+      }
+    },
+    {
+      "name": "retired 404 examples now resolve as explicit 410 removals",
+      "passed": true,
+      "details": {
+        "goneResults": [
+          {
+            "pathname": "/tools/cash-out-limit-calculator/ca/santa-clara-county",
+            "bucket": "410",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-gone"
+            ]
+          },
+          {
+            "pathname": "/tools/max-heloc-calculator/ca/san-mateo-county",
+            "bucket": "410",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-gone"
+            ]
+          },
+          {
+            "pathname": "/tools/dscr-rent-analyzer/ca/san-francisco-county",
+            "bucket": "410",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-gone"
+            ]
+          },
+          {
+            "pathname": "/tools/dscr-qualification-calculator/ca/marin-county/mill-valley",
+            "bucket": "410",
+            "target": null,
+            "sitemapIncluded": false,
+            "reasons": [
+              "luxury-gone"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "top 25 query targets are mapped to indexable sitemap routes",
+      "passed": true,
+      "details": {
+        "topQueriesByImpressions": [
+          {
+            "query": "proprietary reverse mortgage purchase ltv table 2026",
+            "clicks": 0,
+            "impressions": 55,
+            "ctr": "0%",
+            "position": 15.16,
+            "target": "/blog/proprietary-reverse-mortgage-2026",
+            "disposition": {
+              "pathname": "/blog/proprietary-reverse-mortgage-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "adu roi calculator",
+            "clicks": 0,
+            "impressions": 54,
+            "ctr": "0%",
+            "position": 17.2,
+            "target": "/resources/cash-out-adu-calculator",
+            "disposition": {
+              "pathname": "/resources/cash-out-adu-calculator",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "freddie mac waiting period after chapter 7 bankruptcy 4 years",
+            "clicks": 0,
+            "impressions": 49,
+            "ctr": "0%",
+            "position": 11.14,
+            "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+            "disposition": {
+              "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "find a mortgage broker",
+            "clicks": 0,
+            "impressions": 38,
+            "ctr": "0%",
+            "position": 51.58,
+            "target": "/",
+            "disposition": {
+              "pathname": "/",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "typical heloc terms draw period repayment period 2026",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": "0%",
+            "position": 1,
+            "target": "/blog/heloc-draw-period-repayment-guide-2026",
+            "disposition": {
+              "pathname": "/blog/heloc-draw-period-repayment-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "typical heloc draw period and repayment period 2026",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": "0%",
+            "position": 1.27,
+            "target": "/blog/heloc-draw-period-repayment-guide-2026",
+            "disposition": {
+              "pathname": "/blog/heloc-draw-period-repayment-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "credit score needed to refinance mortgage 2026",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": "0%",
+            "position": 17.04,
+            "target": "/blog/refinance-credit-requirements-2026",
+            "disposition": {
+              "pathname": "/blog/refinance-credit-requirements-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "cash out refinance ltv limits 2026",
+            "clicks": 0,
+            "impressions": 25,
+            "ctr": "0%",
+            "position": 8.96,
+            "target": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+            "disposition": {
+              "pathname": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "freddie mac bankruptcy waiting period chapter 7 4 years chapter 13 2 years",
+            "clicks": 0,
+            "impressions": 25,
+            "ctr": "0%",
+            "position": 10.68,
+            "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+            "disposition": {
+              "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "wholesale mortgage rates through brokers explained",
+            "clicks": 0,
+            "impressions": 23,
+            "ctr": "0%",
+            "position": 9.43,
+            "target": "/blog/wholesale-mortgage-rate-comparison-2026",
+            "disposition": {
+              "pathname": "/blog/wholesale-mortgage-rate-comparison-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "mortgage broker in washington",
+            "clicks": 0,
+            "impressions": 23,
+            "ctr": "0%",
+            "position": 77.87,
+            "target": "/blog/wholesale-mortgage-broker-washington-2026",
+            "disposition": {
+              "pathname": "/blog/wholesale-mortgage-broker-washington-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "dscr loan down payment requirements 2026",
+            "clicks": 0,
+            "impressions": 22,
+            "ctr": "0%",
+            "position": 6.86,
+            "target": "/blog/dscr-loan-down-payment-requirements-2026",
+            "disposition": {
+              "pathname": "/blog/dscr-loan-down-payment-requirements-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "adu loan calculator",
+            "clicks": 0,
+            "impressions": 21,
+            "ctr": "0%",
+            "position": 34,
+            "target": "/resources/cash-out-adu-calculator",
+            "disposition": {
+              "pathname": "/resources/cash-out-adu-calculator",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "irs reverse mortgage upfront mip taxable event 2026 hecm",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": "0%",
+            "position": 3,
+            "target": "/blog/reverse-mortgage-tax-implications-2026",
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "freddie mac waiting period chapter 7 bankruptcy 4 years",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": "0%",
+            "position": 11.15,
+            "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+            "disposition": {
+              "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "reverse mortgage process timeline",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": "0%",
+            "position": 11.75,
+            "target": "/blog/reverse-mortgage-closing-process-timeline-2026",
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-closing-process-timeline-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "fannie mae cash-out refinance maximum ltv primary residence 2026",
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": "0%",
+            "position": 8.63,
+            "target": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+            "disposition": {
+              "pathname": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "mortgage broker in california",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": "0%",
+            "position": 60.28,
+            "target": "/wholesale-mortgage-broker-california",
+            "disposition": {
+              "pathname": "/wholesale-mortgage-broker-california",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "dscr loan for llc",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": "0%",
+            "position": 18.06,
+            "target": "/blog/dscr-loan-llc-entity-structure-2026",
+            "disposition": {
+              "pathname": "/blog/dscr-loan-llc-entity-structure-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "los angeles mortgage broker",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": "0%",
+            "position": 59.76,
+            "target": "/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+            "disposition": {
+              "pathname": "/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "irs publication 936 2026 home equity debt interest deductible 2026",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": "0%",
+            "position": 6.88,
+            "target": "/blog/heloc-interest-tax-deduction-rules-2026",
+            "disposition": {
+              "pathname": "/blog/heloc-interest-tax-deduction-rules-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "irs reverse mortgage upfront mortgage insurance premium taxable event 2026 \nhecm",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": "0%",
+            "position": 8.81,
+            "target": "/blog/reverse-mortgage-tax-implications-2026",
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "hecm principal limit factor age 62 percentage of home value",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": "0%",
+            "position": 10.38,
+            "target": "/blog/hecm-principal-limit-factors-2026",
+            "disposition": {
+              "pathname": "/blog/hecm-principal-limit-factors-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "fannie mae waiting period after chapter 7 bankruptcy conventional mortgage \n2025 2026",
+            "clicks": 0,
+            "impressions": 15,
+            "ctr": "0%",
+            "position": 7.73,
+            "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+            "disposition": {
+              "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "query": "irs publication 936 2026 home equity debt interest deductible",
+            "clicks": 0,
+            "impressions": 15,
+            "ctr": "0%",
+            "position": 7.87,
+            "target": "/blog/heloc-interest-tax-deduction-rules-2026",
+            "disposition": {
+              "pathname": "/blog/heloc-interest-tax-deduction-rules-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "top 25 page URLs are not accidental noindex pages",
+      "passed": true,
+      "details": {
+        "topPagesByImpressions": [
+          {
+            "url": "https://www.mothebroker.com/blog/refinance-after-bankruptcy-waiting-periods-2026",
+            "clicks": 0,
+            "impressions": 1369,
+            "ctr": "0%",
+            "position": 9.45,
+            "disposition": {
+              "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
+            "clicks": 0,
+            "impressions": 1071,
+            "ctr": "0%",
+            "position": 7.87,
+            "disposition": {
+              "pathname": "/blog/dscr-loan-llc-entity-structure-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026",
+            "clicks": 0,
+            "impressions": 1037,
+            "ctr": "0%",
+            "position": 8.65,
+            "disposition": {
+              "pathname": "/blog/second-home-cash-out-refinance-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/wholesale-mortgage-rate-comparison-2026",
+            "clicks": 0,
+            "impressions": 907,
+            "ctr": "0%",
+            "position": 6.16,
+            "disposition": {
+              "pathname": "/blog/wholesale-mortgage-rate-comparison-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
+            "clicks": 0,
+            "impressions": 548,
+            "ctr": "0%",
+            "position": 6.74,
+            "disposition": {
+              "pathname": "/blog/dscr-loans-multi-family-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/heloc-interest-tax-deduction-rules-2026",
+            "clicks": 0,
+            "impressions": 441,
+            "ctr": "0%",
+            "position": 8.92,
+            "disposition": {
+              "pathname": "/blog/heloc-interest-tax-deduction-rules-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026",
+            "clicks": 0,
+            "impressions": 411,
+            "ctr": "0%",
+            "position": 3.75,
+            "disposition": {
+              "pathname": "/blog/heloc-draw-period-repayment-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/reverse-mortgage-closing-costs-fees-2026",
+            "clicks": 0,
+            "impressions": 405,
+            "ctr": "0%",
+            "position": 5.08,
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-closing-costs-fees-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/wholesale-mortgage-condo-financing-2026",
+            "clicks": 0,
+            "impressions": 395,
+            "ctr": "0%",
+            "position": 7.9,
+            "disposition": {
+              "pathname": "/blog/wholesale-mortgage-condo-financing-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/reverse-mortgage-optimal-timing-age-strategy-2026",
+            "clicks": 0,
+            "impressions": 348,
+            "ctr": "0%",
+            "position": 7.67,
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-optimal-timing-age-strategy-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+            "clicks": 0,
+            "impressions": 330,
+            "ctr": "0%",
+            "position": 4.21,
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-interest-rates-current-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/cash-out-refinance-vs-heloc-investment-property-2026",
+            "clicks": 0,
+            "impressions": 266,
+            "ctr": "0%",
+            "position": 6.59,
+            "disposition": {
+              "pathname": "/blog/cash-out-refinance-vs-heloc-investment-property-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+            "clicks": 0,
+            "impressions": 265,
+            "ctr": "0%",
+            "position": 15.43,
+            "disposition": {
+              "pathname": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/tools/property-tax-estimator",
+            "clicks": 0,
+            "impressions": 245,
+            "ctr": "0%",
+            "position": 24.84,
+            "disposition": {
+              "pathname": "/tools/property-tax-estimator",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/heloc-investment-property-2026",
+            "clicks": 0,
+            "impressions": 241,
+            "ctr": "0%",
+            "position": 6.32,
+            "disposition": {
+              "pathname": "/blog/heloc-investment-property-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/",
+            "clicks": 1,
+            "impressions": 226,
+            "ctr": "0.44%",
+            "position": 31.2,
+            "disposition": {
+              "pathname": "/",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
+            "clicks": 0,
+            "impressions": 187,
+            "ctr": "0%",
+            "position": 15.49,
+            "disposition": {
+              "pathname": "/blog/wholesale-mortgage-broker-california-guide-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/heloc-vs-personal-loan-home-improvement-2026",
+            "clicks": 0,
+            "impressions": 181,
+            "ctr": "0%",
+            "position": 8.54,
+            "disposition": {
+              "pathname": "/blog/heloc-vs-personal-loan-home-improvement-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/reverse-mortgage-closing-process-timeline-2026",
+            "clicks": 0,
+            "impressions": 175,
+            "ctr": "0%",
+            "position": 8.99,
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-closing-process-timeline-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/refinance-rental-income-qualifying-2026",
+            "clicks": 0,
+            "impressions": 174,
+            "ctr": "0%",
+            "position": 7.61,
+            "disposition": {
+              "pathname": "/blog/refinance-rental-income-qualifying-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-francisco-county/san-francisco",
+            "clicks": 0,
+            "impressions": 173,
+            "ctr": "0%",
+            "position": 8.66,
+            "disposition": {
+              "pathname": "/tools/property-tax-estimator/ca/san-francisco-county/san-francisco",
+              "bucket": "redirect",
+              "target": "/tools/property-tax-estimator",
+              "sitemapIncluded": false,
+              "reasons": [
+                "luxury-redirect"
+              ]
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/reverse-mortgage-tax-implications-2026",
+            "clicks": 0,
+            "impressions": 161,
+            "ctr": "0%",
+            "position": 6.21,
+            "disposition": {
+              "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+            "clicks": 0,
+            "impressions": 160,
+            "ctr": "0%",
+            "position": 17.79,
+            "disposition": {
+              "pathname": "/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/hecm-loan-limits-maximum-claim-2026",
+            "clicks": 0,
+            "impressions": 156,
+            "ctr": "0%",
+            "position": 8.84,
+            "disposition": {
+              "pathname": "/blog/hecm-loan-limits-maximum-claim-2026",
+              "bucket": "redirect",
+              "target": "/blog/reverse-mortgage-interest-rates-current-2026",
+              "sitemapIncluded": false,
+              "reasons": [
+                "middleware-redirect"
+              ]
+            }
+          },
+          {
+            "url": "https://www.mothebroker.com/blog/home-equity-sharing-vs-heloc-2026",
+            "clicks": 1,
+            "impressions": 142,
+            "ctr": "0.7%",
+            "position": 10.29,
+            "disposition": {
+              "pathname": "/blog/home-equity-sharing-vs-heloc-2026",
+              "bucket": "indexable",
+              "target": null,
+              "sitemapIncluded": true,
+              "reasons": [
+                "indexable"
+              ],
+              "robotsDirective": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "topPagesByImpressions": [
+    {
+      "url": "https://www.mothebroker.com/blog/refinance-after-bankruptcy-waiting-periods-2026",
+      "clicks": 0,
+      "impressions": 1369,
+      "ctr": "0%",
+      "position": 9.45,
+      "disposition": {
+        "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
+      "clicks": 0,
+      "impressions": 1071,
+      "ctr": "0%",
+      "position": 7.87,
+      "disposition": {
+        "pathname": "/blog/dscr-loan-llc-entity-structure-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026",
+      "clicks": 0,
+      "impressions": 1037,
+      "ctr": "0%",
+      "position": 8.65,
+      "disposition": {
+        "pathname": "/blog/second-home-cash-out-refinance-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-rate-comparison-2026",
+      "clicks": 0,
+      "impressions": 907,
+      "ctr": "0%",
+      "position": 6.16,
+      "disposition": {
+        "pathname": "/blog/wholesale-mortgage-rate-comparison-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
+      "clicks": 0,
+      "impressions": 548,
+      "ctr": "0%",
+      "position": 6.74,
+      "disposition": {
+        "pathname": "/blog/dscr-loans-multi-family-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-interest-tax-deduction-rules-2026",
+      "clicks": 0,
+      "impressions": 441,
+      "ctr": "0%",
+      "position": 8.92,
+      "disposition": {
+        "pathname": "/blog/heloc-interest-tax-deduction-rules-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026",
+      "clicks": 0,
+      "impressions": 411,
+      "ctr": "0%",
+      "position": 3.75,
+      "disposition": {
+        "pathname": "/blog/heloc-draw-period-repayment-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-closing-costs-fees-2026",
+      "clicks": 0,
+      "impressions": 405,
+      "ctr": "0%",
+      "position": 5.08,
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-closing-costs-fees-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-condo-financing-2026",
+      "clicks": 0,
+      "impressions": 395,
+      "ctr": "0%",
+      "position": 7.9,
+      "disposition": {
+        "pathname": "/blog/wholesale-mortgage-condo-financing-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-optimal-timing-age-strategy-2026",
+      "clicks": 0,
+      "impressions": 348,
+      "ctr": "0%",
+      "position": 7.67,
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-optimal-timing-age-strategy-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "clicks": 0,
+      "impressions": 330,
+      "ctr": "0%",
+      "position": 4.21,
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-interest-rates-current-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-vs-heloc-investment-property-2026",
+      "clicks": 0,
+      "impressions": 266,
+      "ctr": "0%",
+      "position": 6.59,
+      "disposition": {
+        "pathname": "/blog/cash-out-refinance-vs-heloc-investment-property-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+      "clicks": 0,
+      "impressions": 265,
+      "ctr": "0%",
+      "position": 15.43,
+      "disposition": {
+        "pathname": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator",
+      "clicks": 0,
+      "impressions": 245,
+      "ctr": "0%",
+      "position": 24.84,
+      "disposition": {
+        "pathname": "/tools/property-tax-estimator",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-investment-property-2026",
+      "clicks": 0,
+      "impressions": 241,
+      "ctr": "0%",
+      "position": 6.32,
+      "disposition": {
+        "pathname": "/blog/heloc-investment-property-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/",
+      "clicks": 1,
+      "impressions": 226,
+      "ctr": "0.44%",
+      "position": 31.2,
+      "disposition": {
+        "pathname": "/",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/wholesale-mortgage-broker-california-guide-2026",
+      "clicks": 0,
+      "impressions": 187,
+      "ctr": "0%",
+      "position": 15.49,
+      "disposition": {
+        "pathname": "/blog/wholesale-mortgage-broker-california-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-vs-personal-loan-home-improvement-2026",
+      "clicks": 0,
+      "impressions": 181,
+      "ctr": "0%",
+      "position": 8.54,
+      "disposition": {
+        "pathname": "/blog/heloc-vs-personal-loan-home-improvement-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-closing-process-timeline-2026",
+      "clicks": 0,
+      "impressions": 175,
+      "ctr": "0%",
+      "position": 8.99,
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-closing-process-timeline-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/refinance-rental-income-qualifying-2026",
+      "clicks": 0,
+      "impressions": 174,
+      "ctr": "0%",
+      "position": 7.61,
+      "disposition": {
+        "pathname": "/blog/refinance-rental-income-qualifying-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-francisco-county/san-francisco",
+      "clicks": 0,
+      "impressions": 173,
+      "ctr": "0%",
+      "position": 8.66,
+      "disposition": {
+        "pathname": "/tools/property-tax-estimator/ca/san-francisco-county/san-francisco",
+        "bucket": "redirect",
+        "target": "/tools/property-tax-estimator",
+        "sitemapIncluded": false,
+        "reasons": [
+          "luxury-redirect"
+        ]
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-tax-implications-2026",
+      "clicks": 0,
+      "impressions": 161,
+      "ctr": "0%",
+      "position": 6.21,
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+      "clicks": 0,
+      "impressions": 160,
+      "ctr": "0%",
+      "position": 17.79,
+      "disposition": {
+        "pathname": "/wholesale-mortgage-broker-california/mortgage-broker-vs-bank",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/hecm-loan-limits-maximum-claim-2026",
+      "clicks": 0,
+      "impressions": 156,
+      "ctr": "0%",
+      "position": 8.84,
+      "disposition": {
+        "pathname": "/blog/hecm-loan-limits-maximum-claim-2026",
+        "bucket": "redirect",
+        "target": "/blog/reverse-mortgage-interest-rates-current-2026",
+        "sitemapIncluded": false,
+        "reasons": [
+          "middleware-redirect"
+        ]
+      }
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/home-equity-sharing-vs-heloc-2026",
+      "clicks": 1,
+      "impressions": 142,
+      "ctr": "0.7%",
+      "position": 10.29,
+      "disposition": {
+        "pathname": "/blog/home-equity-sharing-vs-heloc-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    }
+  ],
+  "topQueriesByImpressions": [
+    {
+      "query": "proprietary reverse mortgage purchase ltv table 2026",
+      "clicks": 0,
+      "impressions": 55,
+      "ctr": "0%",
+      "position": 15.16,
+      "target": "/blog/proprietary-reverse-mortgage-2026",
+      "disposition": {
+        "pathname": "/blog/proprietary-reverse-mortgage-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "adu roi calculator",
+      "clicks": 0,
+      "impressions": 54,
+      "ctr": "0%",
+      "position": 17.2,
+      "target": "/resources/cash-out-adu-calculator",
+      "disposition": {
+        "pathname": "/resources/cash-out-adu-calculator",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "freddie mac waiting period after chapter 7 bankruptcy 4 years",
+      "clicks": 0,
+      "impressions": 49,
+      "ctr": "0%",
+      "position": 11.14,
+      "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+      "disposition": {
+        "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "find a mortgage broker",
+      "clicks": 0,
+      "impressions": 38,
+      "ctr": "0%",
+      "position": 51.58,
+      "target": "/",
+      "disposition": {
+        "pathname": "/",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "typical heloc terms draw period repayment period 2026",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0%",
+      "position": 1,
+      "target": "/blog/heloc-draw-period-repayment-guide-2026",
+      "disposition": {
+        "pathname": "/blog/heloc-draw-period-repayment-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "typical heloc draw period and repayment period 2026",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0%",
+      "position": 1.27,
+      "target": "/blog/heloc-draw-period-repayment-guide-2026",
+      "disposition": {
+        "pathname": "/blog/heloc-draw-period-repayment-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "credit score needed to refinance mortgage 2026",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": "0%",
+      "position": 17.04,
+      "target": "/blog/refinance-credit-requirements-2026",
+      "disposition": {
+        "pathname": "/blog/refinance-credit-requirements-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "cash out refinance ltv limits 2026",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": "0%",
+      "position": 8.96,
+      "target": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+      "disposition": {
+        "pathname": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "freddie mac bankruptcy waiting period chapter 7 4 years chapter 13 2 years",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": "0%",
+      "position": 10.68,
+      "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+      "disposition": {
+        "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "wholesale mortgage rates through brokers explained",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0%",
+      "position": 9.43,
+      "target": "/blog/wholesale-mortgage-rate-comparison-2026",
+      "disposition": {
+        "pathname": "/blog/wholesale-mortgage-rate-comparison-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "mortgage broker in washington",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": "0%",
+      "position": 77.87,
+      "target": "/blog/wholesale-mortgage-broker-washington-2026",
+      "disposition": {
+        "pathname": "/blog/wholesale-mortgage-broker-washington-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "dscr loan down payment requirements 2026",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": "0%",
+      "position": 6.86,
+      "target": "/blog/dscr-loan-down-payment-requirements-2026",
+      "disposition": {
+        "pathname": "/blog/dscr-loan-down-payment-requirements-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "adu loan calculator",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": "0%",
+      "position": 34,
+      "target": "/resources/cash-out-adu-calculator",
+      "disposition": {
+        "pathname": "/resources/cash-out-adu-calculator",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "irs reverse mortgage upfront mip taxable event 2026 hecm",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": "0%",
+      "position": 3,
+      "target": "/blog/reverse-mortgage-tax-implications-2026",
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "freddie mac waiting period chapter 7 bankruptcy 4 years",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": "0%",
+      "position": 11.15,
+      "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+      "disposition": {
+        "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "reverse mortgage process timeline",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": "0%",
+      "position": 11.75,
+      "target": "/blog/reverse-mortgage-closing-process-timeline-2026",
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-closing-process-timeline-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "fannie mae cash-out refinance maximum ltv primary residence 2026",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": "0%",
+      "position": 8.63,
+      "target": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+      "disposition": {
+        "pathname": "/blog/cash-out-refinance-ltv-limits-by-loan-type-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "mortgage broker in california",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": "0%",
+      "position": 60.28,
+      "target": "/wholesale-mortgage-broker-california",
+      "disposition": {
+        "pathname": "/wholesale-mortgage-broker-california",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "dscr loan for llc",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0%",
+      "position": 18.06,
+      "target": "/blog/dscr-loan-llc-entity-structure-2026",
+      "disposition": {
+        "pathname": "/blog/dscr-loan-llc-entity-structure-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "los angeles mortgage broker",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": "0%",
+      "position": 59.76,
+      "target": "/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+      "disposition": {
+        "pathname": "/blog/wholesale-mortgage-broker-los-angeles-guide-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "irs publication 936 2026 home equity debt interest deductible 2026",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0%",
+      "position": 6.88,
+      "target": "/blog/heloc-interest-tax-deduction-rules-2026",
+      "disposition": {
+        "pathname": "/blog/heloc-interest-tax-deduction-rules-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "irs reverse mortgage upfront mortgage insurance premium taxable event 2026 \nhecm",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0%",
+      "position": 8.81,
+      "target": "/blog/reverse-mortgage-tax-implications-2026",
+      "disposition": {
+        "pathname": "/blog/reverse-mortgage-tax-implications-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "hecm principal limit factor age 62 percentage of home value",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": "0%",
+      "position": 10.38,
+      "target": "/blog/hecm-principal-limit-factors-2026",
+      "disposition": {
+        "pathname": "/blog/hecm-principal-limit-factors-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "fannie mae waiting period after chapter 7 bankruptcy conventional mortgage \n2025 2026",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0%",
+      "position": 7.73,
+      "target": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+      "disposition": {
+        "pathname": "/blog/refinance-after-bankruptcy-waiting-periods-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    },
+    {
+      "query": "irs publication 936 2026 home equity debt interest deductible",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": "0%",
+      "position": 7.87,
+      "target": "/blog/heloc-interest-tax-deduction-rules-2026",
+      "disposition": {
+        "pathname": "/blog/heloc-interest-tax-deduction-rules-2026",
+        "bucket": "indexable",
+        "target": null,
+        "sitemapIncluded": true,
+        "reasons": [
+          "indexable"
+        ],
+        "robotsDirective": null
+      }
+    }
+  ]
+}

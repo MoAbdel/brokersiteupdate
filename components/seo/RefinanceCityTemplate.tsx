@@ -425,7 +425,7 @@ export default function RefinanceCityTemplate({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <Breadcrumbs />
+      <Breadcrumbs pathname={`/areas/${slugForType(city.slug, type)}`} />
 
       <article className="min-h-screen bg-slate-50">
         {/* ── Hero ─────────────────────────────────────────────────────── */}

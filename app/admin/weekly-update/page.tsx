@@ -140,56 +140,7 @@ const quickUpdateTasks = [
 ];
 
 export default function WeeklyUpdatePage() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [password, setPassword] = useState('');
   const [lastUpdated] = useState(new Date().toLocaleDateString());
-
-  React.useEffect(() => {
-    // Check if already authenticated (from main admin page)
-    const checkAuth = sessionStorage.getItem('adminAuthenticated');
-    if (checkAuth === 'true') {
-      setIsAuthenticated(true);
-    }
-  }, []);
-
-  const handlePasswordSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (password === 'hamadithegoat123') {
-      setIsAuthenticated(true);
-      sessionStorage.setItem('adminAuthenticated', 'true');
-      setPassword('');
-    } else {
-      alert('Incorrect password');
-      setPassword('');
-    }
-  };
-
-  if (!isAuthenticated) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-        <Card className="max-w-md w-full mx-4 shadow-xl">
-          <CardHeader className="bg-slate-900 text-white rounded-t-lg">
-            <CardTitle>Admin Access Required</CardTitle>
-          </CardHeader>
-          <CardContent className="p-6">
-            <form onSubmit={handlePasswordSubmit} className="space-y-4">
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Enter admin password"
-                className="w-full px-4 py-2 border rounded-lg"
-                required
-              />
-              <Button type="submit" className="w-full bg-slate-900 hover:bg-slate-800">
-                Access Weekly Update Dashboard
-              </Button>
-            </form>
-          </CardContent>
-        </Card>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen bg-slate-50 py-8">

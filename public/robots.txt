@@ -9,6 +9,10 @@ Disallow: /dashboard/
 User-agent: Googlebot-Image
 Allow: /
 
+# Googlebot-Video
+User-agent: Googlebot-Video
+Allow: /
+
 # Bingbot
 User-agent: Bingbot
 Allow: /
@@ -24,8 +28,47 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# GPTBot
-User-agent: GPTBot
+# Applebot
+User-agent: Applebot
+Allow: /
+
+# OAI-SearchBot
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Claude-SearchBot
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# PerplexityBot
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# MistralAI-Index
+User-agent: MistralAI-Index
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Amzn-SearchBot
+User-agent: Amzn-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# DuckAssistBot
+User-agent: DuckAssistBot
 Allow: /
 Disallow: /admin/
 Disallow: /api/
@@ -34,13 +77,47 @@ Disallow: /dashboard/
 # ChatGPT-User
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Claude-User
+User-agent: Claude-User
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Perplexity-User
+User-agent: Perplexity-User
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# MistralAI-User
+User-agent: MistralAI-User
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Amzn-User
+User-agent: Amzn-User
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# GPTBot
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
 
 # Google-Extended
 User-agent: Google-Extended
-Allow: /
-
-# PerplexityBot
-User-agent: PerplexityBot
 Allow: /
 
 # ClaudeBot
@@ -51,10 +128,6 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-# Applebot
-User-agent: Applebot
-Allow: /
-
 # Applebot-Extended
 User-agent: Applebot-Extended
 Allow: /
@@ -63,8 +136,8 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-# OAI-SearchBot
-User-agent: OAI-SearchBot
+# CCBot
+User-agent: CCBot
 Allow: /
 
 # Meta-ExternalAgent
@@ -75,20 +148,12 @@ Allow: /
 User-agent: Meta-ExternalFetcher
 Allow: /
 
-# DuckAssistBot
-User-agent: DuckAssistBot
-Allow: /
-
 # Amazonbot
 User-agent: Amazonbot
 Allow: /
 
 # YouBot
 User-agent: YouBot
-Allow: /
-
-# MistralAI-User
-User-agent: MistralAI-User
 Allow: /
 
 # FacebookBot

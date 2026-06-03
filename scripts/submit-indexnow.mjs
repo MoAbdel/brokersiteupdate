@@ -129,7 +129,10 @@ const run = async () => {
   let urlList = [];
   if (delta.mode === 'delta') {
     urlList = delta.urls;
-    console.log(`Using delta-only URL set (${urlList.length} URLs) from ${delta.deltaPath}`);
+    console.log(`Using sitemap-eligible delta URL set (${urlList.length} URLs) from ${delta.deltaPath}`);
+    if (delta.filteredOutCount) {
+      console.log(`Filtered out ${delta.filteredOutCount} non-sitemap URL(s) from the delta.`);
+    }
   } else {
     const urls = new Set();
     for (const sitemapName of sitemapNames) {

@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods 2026 | Mo Abdel NMLS #1426884',
-  description: 'Refinance after bankruptcy with Mo Abdel NMLS #1426884. Chapter 7 requires 2-4 year waiting period, Chapter 13 requires 1-2 years. FHA, VA, Conventional options. Call or Text (949) 579-2057.',
+  title: 'Refinance After Bankruptcy Waiting Periods 2026: Fannie Mae, Freddie Mac, FHA',
+  description: 'Refinance after bankruptcy waiting periods for 2026. Fannie Mae and Freddie Mac Chapter 7 rules, Chapter 13 timing, FHA, VA, and non-QM options.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/refinance-after-bankruptcy-waiting-periods-2026',
     languages: {
@@ -21,23 +21,34 @@ export const metadata: Metadata = {
     'FHA refinance after bankruptcy',
     'VA refinance after bankruptcy',
     'conventional refinance bankruptcy waiting period',
+    'Fannie Mae waiting period after Chapter 7 bankruptcy conventional mortgage 2026',
+    'Freddie Mac waiting period after Chapter 7 bankruptcy 4 years',
+    'Freddie Mac bankruptcy waiting period Chapter 13 2 years',
     'non-QM refinance bankruptcy',
     'Orange County mortgage broker',
     'California mortgage broker',
     'Washington mortgage broker',
   ],
   openGraph: {
-    title: 'Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods 2026',
+    title: 'Refinance After Bankruptcy Waiting Periods 2026: Fannie Mae, Freddie Mac, FHA',
     description: 'Complete guide to refinancing after Chapter 7 and Chapter 13 bankruptcy. Waiting periods by loan type, credit rebuilding timelines, and post-bankruptcy loan programs.',
     url: 'https://www.mothebroker.com/blog/refinance-after-bankruptcy-waiting-periods-2026',
     type: 'article',
     publishedTime: '2026-03-26',
-    modifiedTime: '2026-03-26',
+    modifiedTime: '2026-05-09',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
 };
 
 const faqData = [
+  {
+    question: 'What is the Fannie Mae and Freddie Mac waiting period after Chapter 7 bankruptcy in 2026?',
+    answer: 'For a conventional mortgage, Fannie Mae and Freddie Mac generally require a 4-year waiting period after Chapter 7 bankruptcy discharge or dismissal. A shorter 2-year waiting period may be possible only when documented extenuating circumstances meet agency standards. FHA and VA are typically shorter at 2 years from Chapter 7 discharge.',
+  },
+  {
+    question: 'What is the Freddie Mac bankruptcy waiting period after Chapter 13?',
+    answer: 'For conventional financing, Freddie Mac and Fannie Mae generally require 2 years after Chapter 13 discharge or 4 years after Chapter 13 dismissal. FHA and VA can be more flexible during an active Chapter 13 repayment plan after 12 months of on-time plan payments with court or trustee approval.',
+  },
   {
     question: 'How long after Chapter 7 bankruptcy can I refinance my mortgage?',
     answer: 'The waiting period to refinance after Chapter 7 bankruptcy depends on the loan program. Conventional loans require 4 years from discharge, FHA requires 2 years from discharge, VA requires 2 years from discharge, and USDA requires 3 years from discharge. Non-QM lenders may consider applications as early as 1 year post-discharge with compensating factors such as rebuilt credit and sufficient equity.',
@@ -98,7 +109,7 @@ export default function RefinanceAfterBankruptcyWaitingPeriodsPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods for 2026',
+            headline: 'Refinance After Bankruptcy Waiting Periods 2026: Fannie Mae, Freddie Mac, FHA',
             author: {
               '@type': 'Person',
               name: 'Mo Abdel',
@@ -114,7 +125,7 @@ export default function RefinanceAfterBankruptcyWaitingPeriodsPage() {
               url: 'https://www.mothebroker.com',
             },
             datePublished: '2026-03-26',
-            dateModified: '2026-03-26',
+            dateModified: '2026-05-09',
             mainEntityOfPage: 'https://www.mothebroker.com/blog/refinance-after-bankruptcy-waiting-periods-2026',
             copyrightYear: '2026',
             copyrightHolder: {
@@ -190,7 +201,7 @@ export default function RefinanceAfterBankruptcyWaitingPeriodsPage() {
           <span className="text-gray-900">Refinance After Bankruptcy</span>
         </nav>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Refinance After Bankruptcy: Chapter 7 & Chapter 13 Waiting Periods for 2026
+          Refinance After Bankruptcy Waiting Periods 2026: Fannie Mae, Freddie Mac, FHA
         </h1>
         <div className="flex items-center gap-4 text-sm text-gray-600">
           <span>By <strong>Mo Abdel</strong>, NMLS #1426884</span>

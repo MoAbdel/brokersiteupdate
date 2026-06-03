@@ -2,6 +2,10 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { getAudienceContext, NON_US_LEAD_CAPTURE_ERROR } from '@/lib/audience';
+import {
+  newsletterSubmissionProperties,
+  trackServerEvent,
+} from '@/lib/vercel-server-events';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -17,9 +21,17 @@ function ensureDataDir() {
 }
 
 export async function POST(request: NextRequest) {
+  let analyticsSource = 'newsletter_api';
+
   try {
     const audience = getAudienceContext(request.headers);
     if (!audience.isUsEligible) {
+      await trackServerEvent(
+        request,
+        'newsletter_submission_blocked',
+        newsletterSubmissionProperties('non_us_audience', 403, analyticsSource)
+      );
+
       return NextResponse.json(
         { success: false, error: NON_US_LEAD_CAPTURE_ERROR },
         {
@@ -33,9 +45,16 @@ export async function POST(request: NextRequest) {
 
     const body = await request.json();
     const { email, firstName, subscribedAt, source } = body;
+    analyticsSource = typeof source === 'string' && source.trim() ? source : analyticsSource;
 
     // Validate required fields
     if (!email || !firstName) {
+      await trackServerEvent(
+        request,
+        'newsletter_submission_failed',
+        newsletterSubmissionProperties('missing_required_fields', 400, analyticsSource)
+      );
+
       return NextResponse.json(
         { success: false, error: 'Email and first name are required' },
         { status: 400 }
@@ -45,6 +64,12 @@ export async function POST(request: NextRequest) {
     // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
+      await trackServerEvent(
+        request,
+        'newsletter_submission_failed',
+        newsletterSubmissionProperties('invalid_email', 400, analyticsSource)
+      );
+
       return NextResponse.json(
         { success: false, error: 'Invalid email format' },
         { status: 400 }
@@ -67,6 +92,12 @@ export async function POST(request: NextRequest) {
         const subscription = JSON.parse(content);
 
         if (subscription.email === normalizedEmail && subscription.is_active) {
+          await trackServerEvent(
+            request,
+            'newsletter_submission_failed',
+            newsletterSubmissionProperties('duplicate_active_subscription', 409, analyticsSource)
+          );
+
           return NextResponse.json(
             { success: false, error: 'Email already subscribed' },
             { status: 409 }
@@ -95,6 +126,11 @@ export async function POST(request: NextRequest) {
     fs.writeFileSync(filepath, JSON.stringify(subscription, null, 2));
 
     console.log('New newsletter subscription saved:', subscription.email, 'Source:', subscription.source);
+    await trackServerEvent(
+      request,
+      'newsletter_submitted',
+      newsletterSubmissionProperties('accepted', 200, subscription.source)
+    );
 
     return NextResponse.json({
       success: true,
@@ -108,6 +144,11 @@ export async function POST(request: NextRequest) {
 
   } catch (error) {
     console.error('Newsletter subscription error:', error);
+    await trackServerEvent(
+      request,
+      'newsletter_submission_failed',
+      newsletterSubmissionProperties('api_exception', 500, analyticsSource)
+    );
 
     return NextResponse.json(
       { success: false, error: `Server error: ${error instanceof Error ? error.message : 'Unknown error'}` },

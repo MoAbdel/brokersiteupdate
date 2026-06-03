@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Refinance Credit Score Requirements: What You Need in 2026',
-  description: 'Minimum credit scores for cash-out refinance, rate-and-term, HELOC, and HELOAN. How to qualify with lower credit and improve your score. NMLS #1426884.',
+  title: 'Credit Score Needed to Refinance Mortgage in 2026',
+  description: 'Credit score needed to refinance a mortgage in 2026 by loan type. Conventional, FHA, VA, cash-out refinance, HELOC, and lower-credit options.',
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/refinance-credit-requirements-2026',
     languages: {
@@ -21,7 +21,7 @@ export default function RefinanceCreditRequirementsPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Refinance Credit Score Requirements: What You Need in 2026",
+            "headline": "Credit Score Needed to Refinance Mortgage in 2026",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -29,7 +29,7 @@ export default function RefinanceCreditRequirementsPage() {
               "identifier": "NMLS #1426884"
             },
             "datePublished": "2026-01-30",
-            "dateModified": "2026-01-30"
+            "dateModified": "2026-05-09"
           })
         }}
       />
@@ -41,6 +41,14 @@ export default function RefinanceCreditRequirementsPage() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What credit score is needed to refinance a mortgage in 2026?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The credit score needed to refinance a mortgage in 2026 depends on the loan type. Conventional refinance usually starts at 620, FHA refinance often starts at 580, VA refinance has no official VA minimum but many lenders use 620, and cash-out refinance often needs 620 to 680 or higher depending on LTV and lender overlays."
+                }
+              },
               {
                 "@type": "Question",
                 "name": "What credit score do I need to refinance my mortgage?",
@@ -88,7 +96,7 @@ export default function RefinanceCreditRequirementsPage() {
 
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Refinance Credit Score Requirements: What You Need in 2026
+          Credit Score Needed to Refinance Mortgage in 2026
         </h1>
         <p className="text-lg text-gray-600">
           Understanding minimums, rate impacts, and how to qualify
@@ -98,7 +106,7 @@ export default function RefinanceCreditRequirementsPage() {
       <section className="prose prose-lg max-w-none">
         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
           <p className="lead font-semibold text-gray-900 mb-0">
-            Credit score requirements for refinancing vary by loan type: <strong>Conventional requires 620+, FHA requires 580+, VA has flexible minimums, and cash-out typically requires 620-680+</strong>. Your score also dramatically affects your rate—the difference between a 640 and 760 score can mean thousands of dollars per year in interest. Understanding requirements and rate tiers helps you time your refinance for maximum benefit.
+            The credit score needed to refinance a mortgage in 2026 varies by loan type: <strong>Conventional usually requires 620+, FHA often starts at 580, VA has flexible minimums, and cash-out typically requires 620-680+</strong>. Your score also affects your rate. The difference between a 640 and 760 score can mean thousands of dollars per year in interest. Understanding requirements and rate tiers helps you time your refinance for maximum benefit.
           </p>
         </div>
 

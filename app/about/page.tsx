@@ -35,7 +35,7 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
-      <Breadcrumbs />
+      <Breadcrumbs pathname="/about" />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-900 to-slate-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

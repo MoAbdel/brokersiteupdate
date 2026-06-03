@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     'cash-out refinance maximum LTV',
     'cash-out refinance LTV limits 2026',
     'fannie mae cash-out refinance LTV',
+    'Fannie Mae cash-out refinance maximum LTV primary residence 2026',
     'conventional cash-out refinance max LTV',
     'FHA cash-out refinance LTV',
     'VA cash-out refinance LTV limit',
@@ -44,9 +45,9 @@ export const metadata: Metadata = {
 
 const faqData = [
   {
-    question: 'What is the maximum LTV for a conventional cash-out refinance in 2026?',
+    question: 'What is the Fannie Mae cash-out refinance maximum LTV for a primary residence in 2026?',
     answer:
-      'Fannie Mae and Freddie Mac set the maximum LTV for a conventional cash-out refinance at 80% for a primary residence single-family home. For 2–4 unit primary residences, the cap drops to 75%. For second homes, Fannie Mae allows up to 75% LTV on cash-out. Investment properties are capped at 70–75% depending on the number of units and specific guidelines.',
+      'Fannie Mae and Freddie Mac set the maximum LTV for a conventional cash-out refinance at 80% for a primary residence single-family home in 2026. For 2-4 unit primary residences, the cap drops to 75%. For second homes, Fannie Mae allows up to 75% LTV on cash-out. Investment properties are capped at 70-75% depending on the number of units and specific guidelines.',
   },
   {
     question: 'What is the maximum LTV for an FHA cash-out refinance?',

@@ -3,6 +3,7 @@ import fsSync from 'node:fs';
 import path from 'node:path';
 
 const DEFAULT_DELTA_PATH = path.join(process.cwd(), 'reports', 'indexing-delta.json');
+const DEFAULT_SITEMAP_PATH = path.join(process.cwd(), 'public', 'sitemap.xml');
 
 const asArray = (value) => (Array.isArray(value) ? value : []);
 
@@ -27,7 +28,31 @@ const collectCandidateUrls = (payload) => {
   ];
 };
 
-export const loadIndexingDelta = async ({ siteUrl, deltaPath = DEFAULT_DELTA_PATH }) => {
+const readSitemapUrlSet = async ({ siteUrl, sitemapPath = DEFAULT_SITEMAP_PATH }) => {
+  if (!fsSync.existsSync(sitemapPath)) return null;
+
+  try {
+    const xml = await fs.readFile(sitemapPath, 'utf8');
+    const urls = new Set();
+    const regex = /<loc>([^<]+)<\/loc>/g;
+    let match = regex.exec(xml);
+    while (match) {
+      const normalized = normalizeUrl(match[1], siteUrl);
+      if (normalized) urls.add(normalized);
+      match = regex.exec(xml);
+    }
+    return urls;
+  } catch {
+    return null;
+  }
+};
+
+export const loadIndexingDelta = async ({
+  siteUrl,
+  deltaPath = DEFAULT_DELTA_PATH,
+  sitemapPath = DEFAULT_SITEMAP_PATH,
+  filterToSitemap = true,
+} = {}) => {
   if (!fsSync.existsSync(deltaPath)) {
     return { mode: 'full', urls: [], deltaPath };
   }
@@ -64,5 +89,20 @@ export const loadIndexingDelta = async ({ siteUrl, deltaPath = DEFAULT_DELTA_PAT
     return { mode: 'full', urls: [], deltaPath };
   }
 
-  return { mode: 'delta', urls: deduped, deltaPath };
+  if (!filterToSitemap) {
+    return { mode: 'delta', urls: deduped, deltaPath, filteredOutCount: 0 };
+  }
+
+  const sitemapUrls = await readSitemapUrlSet({ siteUrl, sitemapPath });
+  if (!sitemapUrls) {
+    return { mode: 'delta', urls: deduped, deltaPath, filteredOutCount: 0 };
+  }
+
+  const filtered = deduped.filter((url) => sitemapUrls.has(url));
+  return {
+    mode: 'delta',
+    urls: filtered,
+    deltaPath,
+    filteredOutCount: deduped.length - filtered.length,
+  };
 };

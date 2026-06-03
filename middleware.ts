@@ -10,6 +10,64 @@ const LUXURY_REDIRECT_MAP = new Map<string, string>(
 );
 
 const APPLY_URL = 'https://luminlending-apply-mo-abdel.my1003app.com/register';
+const ADMIN_AUTH_REALM = 'MoTheBroker Admin';
+const ADMIN_AUTH_USER = process.env.ADMIN_USERNAME || 'admin';
+const ADMIN_AUTH_PASSWORD = process.env.ADMIN_PASSWORD || process.env.MOTHEBROKER_ADMIN_PASSWORD;
+
+function adminAuthResponse(status: number, body: string) {
+  return new NextResponse(body, {
+    status,
+    headers: {
+      'WWW-Authenticate': `Basic realm="${ADMIN_AUTH_REALM}", charset="UTF-8"`,
+      'Cache-Control': 'no-store',
+      'X-Robots-Tag': 'noindex, nofollow',
+    },
+  });
+}
+
+function decodeBasicAuth(value: string) {
+  const token = value.replace(/^Basic\s+/i, '').trim();
+  if (!token) return null;
+
+  try {
+    const decoded = atob(token);
+    const separatorIndex = decoded.indexOf(':');
+    if (separatorIndex === -1) return null;
+    return {
+      username: decoded.slice(0, separatorIndex),
+      password: decoded.slice(separatorIndex + 1),
+    };
+  } catch {
+    return null;
+  }
+}
+
+function isProtectedAdminPath(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+  if (pathname.startsWith('/admin')) return true;
+  if (pathname === '/api/debug') return true;
+  if (pathname.startsWith('/api/scrape/')) return true;
+  if (pathname === '/api/newsletter' && request.method !== 'POST') return true;
+  return false;
+}
+
+function getAdminAuthFailure(request: NextRequest) {
+  if (!isProtectedAdminPath(request)) return null;
+
+  if (!ADMIN_AUTH_PASSWORD) {
+    return adminAuthResponse(503, 'Admin authentication is not configured.');
+  }
+
+  const credentials = decodeBasicAuth(request.headers.get('authorization') || '');
+  if (
+    credentials?.username === ADMIN_AUTH_USER &&
+    credentials.password === ADMIN_AUTH_PASSWORD
+  ) {
+    return null;
+  }
+
+  return adminAuthResponse(401, 'Authentication required.');
+}
 
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
@@ -108,11 +166,18 @@ export function middleware(request: NextRequest) {
   };
 
   const pageRedirects: Record<string, string> = {
+    '/&': '/',
+    '/sitemap-news.xml': '/sitemap.xml',
+    '/reverse-mortgage': '/reverse-mortgages',
+    '/jumbo-loans': '/loan-programs/jumbo-loans',
+    '/non-qm-loans': '/loan-programs/non-qm-loans',
+    '/luxury-markets': '/areas',
+    '/luxury-markets/golf-course-homes-mortgage-broker': '/areas',
     '/areas/irvine-neighborhoods/cypress-village-mortgage-broker': '/areas/irvine-neighborhoods',
     '/areas/irvine-neighborhoods/turtle-rock-mortgage-broker': '/areas/irvine-neighborhoods',
     '/areas/irvine-neighborhoods/university-park-mortgage-broker': '/areas/irvine-neighborhoods',
     '/areas/costa-mesa-mortgage-rates': '/areas/costa-mesa-mortgage-broker',
-    '/zip-codes/92625-corona-del-mar-mortgage-broker': '/areas/newport-beach-mortgage-broker',
+    '/zip-codes/92625-corona-del-mar-mortgage-broker': '/blog/newport-beach-mortgage-guide-2026',
     '/resources/mortgage-glossary': '/resources/glossary',
 
     '/articles': '/blog',
@@ -132,13 +197,16 @@ export function middleware(request: NextRequest) {
     '/guides/first-time-homebuyer-orange-county-2025': '/blog/first-time-homebuyer-guide-orange-county-2026',
     '/guides/fha-loans-orange-county-complete-guide': '/blog/fha-loans-orange-county-2026',
     '/guides/mortgage-broker-vs-bank-complete-comparison': '/wholesale-mortgage-broker-california/mortgage-broker-vs-bank',
+    '/home-equity-refinancing-guide-2026': '/blog/home-equity-refinancing-guide-2026',
     '/loan-programs/home-equity': '/home-equity-guide',
     '/loan-programs/home-equity-loans': '/loan-programs/heloan',
     '/loan-programs/home-equity-loan': '/loan-programs/heloan',
     '/quick-quote': '/contact',
     '/zip-codes': '/areas',
-    '/cities/newport-beach': '/areas/newport-beach-mortgage-broker',
-    '/cities/laguna-beach': '/areas/laguna-beach-mortgage-broker',
+    '/cities/newport-beach': '/blog/newport-beach-mortgage-guide-2026',
+    '/cities/laguna-beach': '/areas',
+    '/areas/newport-beach-mortgage-broker': '/blog/newport-beach-mortgage-guide-2026',
+    '/areas/laguna-beach-mortgage-broker': '/areas',
     '/areas/orange-county-mortgage-broker': '/areas/california',
     '/areas/los-angeles-mortgage-broker': '/blog/wholesale-mortgage-broker-los-angeles-guide-2026',
     '/areas/tustin-mortgage-broker': '/areas',
@@ -189,8 +257,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(redirectUrl, 301);
   }
 
+  const adminAuthFailure = getAdminAuthFailure(request);
+  if (adminAuthFailure) {
+    return adminAuthFailure;
+  }
+
   const requestHeaders = decorateAudienceHeaders(request.headers);
-  requestHeaders.set('x-pathname', pathname);
   const audience = getAudienceContext(requestHeaders);
   const response = NextResponse.next({
     request: {
