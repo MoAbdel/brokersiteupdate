@@ -1314,3 +1314,261 @@ From the original Bing / generative-engine audit, deferred items worth queuing n
 - Build notes: existing warnings about stale Browserslist data, missing Next.js ESLint plugin detection, and edge runtime static-generation behavior remained non-blocking.
 
 
+---
+
+# 2026-06-05 MotheBroker Search, GEO, AEO, AIO Technical Audit
+
+> Goal: produce a first-pass, evidence-backed audit for mothebroker.com using the supplied GSC, Bing Search, and Bing AI exports plus repo and live-site validation. Do not change application code in this pass. Deliver findings, implementation roadmap, PR-ready backlog, examples, measurement plan, and missing data requests.
+
+## Plan
+
+- [x] Confirm workflow rules, scope, repo status, package manager, and relevant project lessons.
+- [x] Inventory SEO-critical repo surfaces: routes, metadata, schema, robots, sitemap, IndexNow, redirects, middleware, templates, monitoring scripts, and content data sources.
+- [x] Ingest the supplied CSV exports and compute page, query, device, country, Bing Search, and Bing AI opportunity summaries.
+- [x] Validate live production evidence: raw robots bytes, headers, sitemap XML, canonical/noindex behavior, JSON-LD, and representative rendered HTML for priority URLs.
+- [x] Score crawlability, indexability, metadata, schema, local/entity trust, internal linking, content quality, AEO/GEO/AIO readiness, performance risks, accessibility, and monitoring.
+- [x] Produce the audit report with findings, URL-level actions, template-level actions, P0/P1/P2 backlog, implementation examples, 30/60/90 measurement plan, and missing data requests.
+- [x] Run read-only verification on generated audit artifacts and record results.
+
+## Guardrails
+
+- No application code changes during this first pass.
+- Do not deploy, submit indexing, push, or run production mutations.
+- Do not expose secrets from `.env`, credentials, cookies, auth headers, or private data.
+- Treat live production checks as the tie-breaker when stale local reports disagree with current output.
+- Mark anything not verified from code, CSVs, live output, or official documentation as UNKNOWN.
+
+## Review
+
+- Confirmed the first pass stayed audit-only: no application source files were edited, no deployment was run, and no indexing submission was triggered.
+- Wrote the main audit to `audit/mothebroker-2026-06-05-search-geo-aio-audit.md`.
+- Wrote supporting evidence artifacts to `audit/mothebroker-2026-06-05-data-analysis.json`, `audit/mothebroker-2026-06-05-repo-inventory.json`, and `audit/mothebroker-2026-06-05-live-validation.json`.
+- Regenerated `reports/internal-link-audit.json` and `reports/internal-link-audit.csv` as read-only evidence for orphan and inbound-link counts.
+- Verified the audit artifact has no em dash or en dash characters.
+- Resolved the browser-validation gap with the in-app Browser plugin and Chrome Lighthouse CLI.
+- Saved render and accessibility artifacts under `reports/render-validation-2026-06-05/`, including 26 screenshots, browser render JSON, read-only accessibility JSON, Lighthouse JSON, and `summary.md`.
+- Follow-up preflight on 2026-06-05 repaired standalone Playwright by restoring the missing bundled `playwright-core` link and validating `playwright@1.60.0` plus `playwright-core@1.60.0` with a Chromium launch.
+- Saved standalone Playwright artifacts under `reports/playwright-runtime-validation-2026-06-05/`, including 26 screenshots, `playwright-render-validation.json`, and `summary.md`.
+
+---
+
+# Implementation pass: search/GEO/AIO fixes
+
+> Goal: implement the highest-impact P0 and highest-confidence P1 fixes from the 2026-06-05 MotheBroker audit. Do not deploy, submit indexing, or broadly change noindex policy.
+
+## Tasks
+
+- [completed] Preflight: resolve standalone Playwright runtime import failure and rerun desktop/mobile render and console validation before implementation.
+- [pending] P0-1: Restore indexability for `/tools/property-tax-estimator/ca/orange-county` with an explicit allowlist, sitemap eligibility, visible semantic table, source/update language, and regression guard.
+- [pending] P0-2: Refresh `/blog/reverse-mortgage-interest-rates-current-2026` currentness, title/H1/meta/schema dateModified, visible reviewed date, answer block, sources, and FAQ alignment.
+- [pending] P1-1: Add reusable server-rendered `AnswerBlock`, `SourceBox`, and `SemanticInfoTable` components and use them on the P0 pages.
+- [pending] P1-2: Rewrite metadata and above-fold answer blocks for the 10 named priority URLs only.
+- [pending] P1-3: Deduplicate `BreadcrumbList` JSON-LD so sampled pages emit at most one breadcrumb graph.
+- [pending] P1-4: Add contextual internal links to priority pages and reduce orphaned sitemap URLs without spammy sitewide link blocks.
+- [pending] P1-5: Add metadata/freshness/indexability regression guard and document how to run it.
+- [pending] Validation: run available typecheck, lint/build/sitemap, internal-link audit, and new SEO validation script.
+
+## Files Changed
+
+- `tasks/todo.md`: recorded Playwright preflight resolution and reset implementation items to pending.
+- `reports/playwright-runtime-validation-2026-06-05/`: saved standalone Playwright screenshots, JSON summary, and Lighthouse sample JSON.
+
+## Validation Commands
+
+- `npm ls playwright playwright-core`
+- Bundled runtime import check for `playwright` and `playwright-core`
+- Bundled runtime Chromium launch smoke with desktop and mobile viewports
+- Standalone Playwright live validation across 13 priority URLs and 2 viewports
+- `npx --yes lighthouse@latest` sample for homepage, property-tax, reverse-rates, and DSCR multi-family pages
+
+## Blocked Items
+
+- None for browser validation. Standalone Playwright now imports and launches Chromium.
+
+## Review
+
+- Browser validation preflight is complete. No application source files were changed, no deployment was run, and no indexing submission was triggered.
+- Standalone Playwright loaded 13 priority URLs across desktop and mobile with 0 load failures, 0 console warnings/errors, and 0 page errors.
+- Current Lighthouse sample is saved in the same report folder. The property-tax page still scores 61 for SEO because production is still noindexed, which is the next P0 implementation item.
+
+---
+
+# Implementation pass 1: indexability, currentness, CTR, and Playwright-backed validation
+
+Started: 2026-06-05T00:26:04.7195794-05:00
+
+## Tasks
+
+- [completed] P0-1: Make `/tools/property-tax-estimator/ca/orange-county` indexable with an explicit allowlist, sitemap inclusion, semantic table, visible source/update language, and regression checks.
+- [completed] P0-2: Refresh `/blog/reverse-mortgage-interest-rates-current-2026` currentness, metadata, schema dateModified, visible reviewed date, answer block, sources, and FAQ alignment.
+- [completed] P1-1: Add reusable server-rendered answer/source/table components only where they reduce duplication on P0 pages.
+- [completed] P1-3: Deduplicate BreadcrumbList JSON-LD on sampled blog/tool pages.
+- [completed] P1-4: Add contextual internal links for priority pages without sitewide spam blocks.
+- [completed] P1-5: Add focused SEO regression validation for indexability, sitemap inclusion, stale currentness, and duplicate breadcrumbs.
+- [completed] Validation: run available typecheck, lint/build/sitemap, internal-link audit, SEO validation, Playwright sample, and Lighthouse spot checks.
+
+## Changed Files
+
+- `lib/seo-route-policy.js`
+- `lib/seo-route-policy.d.ts`
+- `next-sitemap.config.js`
+- `app/tools/property-tax-estimator/[state]/[county]/page.tsx`
+- `app/tools/property-tax-estimator/page.tsx`
+- `app/blog/reverse-mortgage-interest-rates-current-2026/page.tsx`
+- `app/blog/reverse-mortgage-closing-costs-fees-2026/page.tsx`
+- `app/blog/layout.tsx`
+- `app/reverse-mortgages/page.tsx`
+- `app/loan-programs/dscr-investment-loans/page.tsx`
+- `app/loan-programs/heloc/page.tsx`
+- `app/home-equity/page.tsx`
+- `app/areas/page.tsx`
+- `components/seo/AnswerBlock.tsx`
+- `components/seo/SourceBox.tsx`
+- `components/seo/SemanticInfoTable.tsx`
+- `scripts/__tests__/seo-route-policy.test.mjs`
+- `scripts/seo-validate-priority-routes.mjs`
+- `package.json`
+- `public/sitemap.xml`
+- `reports/internal-link-audit.json`
+- `reports/internal-link-audit.csv`
+- `reports/priority-render-validation-2026-06-05/`
+- `tasks/todo.md`
+
+## Commands Run
+
+- Read pasted implementation handoff from `C:\Users\haithem\.codex\attachments\8cb4ef40-1d76-453f-b466-e3c04f237b59\pasted-text.txt`.
+- Read `tasks/todo.md`.
+- Read `lib/seo-route-policy.js`.
+- Read `next-sitemap.config.js`.
+- Read `app/tools/property-tax-estimator/[state]/[county]/page.tsx`.
+- Read `app/blog/reverse-mortgage-interest-rates-current-2026/page.tsx`.
+- Read `app/blog/layout.tsx`.
+- Read mortgage runtime truth files required by the local skill.
+- Verified official source pages for Orange County property tax, Orange County Assessor property-tax calculation, HUD HECM, and CFPB reverse mortgage guidance.
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`
+- `npm run sitemap`
+- `npm run seo:validate`
+- `npm run typecheck`
+- `npm run lint`
+- `node scripts/internal-link-audit.mjs`
+- `npm run build`
+- Local production server validation on `http://127.0.0.1:3006` with `SEO_VALIDATE_BASE_URL`.
+- Bundled Playwright import and Chromium launch smoke.
+- Bundled Playwright render validation for `/`, `/tools/property-tax-estimator/ca/orange-county`, and `/blog/reverse-mortgage-interest-rates-current-2026` on desktop and mobile.
+- `npx --yes lighthouse@latest` for `/`, `/tools/property-tax-estimator/ca/orange-county`, and `/blog/reverse-mortgage-interest-rates-current-2026`.
+
+## Validation Results
+
+- Route policy test passed: Orange County property tax is indexable, and non-allowlisted property-tax county/city routes remain noindex and sitemap-excluded.
+- `npm run sitemap` passed. Generated `public/sitemap.xml` includes `https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county`.
+- `npm run seo:validate` passed in source/sitemap mode and passed again with `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3006`.
+- Local rendered validation confirmed `/tools/property-tax-estimator/ca/orange-county` returns `200`, has no `X-Robots-Tag`, has no meta noindex, canonicalizes to itself, and renders the semantic table caption.
+- Local rendered validation confirmed `/tools/property-tax-estimator/ca/orange-county/irvine` still returns `X-Robots-Tag: noindex, follow`.
+- Local rendered validation confirmed `/blog/reverse-mortgage-interest-rates-current-2026` returns `200`, has no stale `March 2026` text, has visible reviewed text, and canonicalizes to itself.
+- `npm run typecheck` passed.
+- `npm run lint` passed with existing Next.js lint deprecation/plugin warnings.
+- `node scripts/internal-link-audit.mjs` passed. Orphaned sitemap entries decreased from 87 to 78.
+- `npm run build` passed. Postbuild ran `next-sitemap`; indexing automation printed `Indexing automation disabled (non-production build, no ENABLE_* flag set).`
+- Playwright route render validation passed with 6 loads, 0 failures, 0 page errors, 0 horizontal overflow, valid JSON-LD, and one `BreadcrumbList` on each sampled P0 page. It recorded 15 known local instrumentation console messages from the local Vercel Insights script and existing analytics/CSP noise.
+- Lighthouse spot checks completed: `/` scored Performance 97, Accessibility 91, Best Practices 54, SEO 100; Orange County property tax scored Performance 95, Accessibility 93, Best Practices 54, SEO 92; reverse rates scored Performance 97, Accessibility 91, Best Practices 54, SEO 92.
+
+## Blocked Items
+
+- None.
+
+## Remaining Risks
+
+- Production will keep showing the property-tax noindex until these changes are deployed, which is out of scope for this pass.
+- Lighthouse Best Practices remains 54 in local samples, driven by console errors, deprecated APIs, third-party cookies, and Chrome Issues. This was intentionally deferred behind P0/P1.
+- The remaining 78 orphaned sitemap entries are mostly unrelated `/areas/*` and long-tail support pages. This pass reduced the count without adding sitewide link blocks or changing noindex policy.
+- Local Playwright console output includes known local instrumentation noise. Re-run against production after deploy to confirm live console behavior.
+
+---
+
+# Deploy-gate review: SEO/GEO/AEO/AIO implementation pass
+
+Reviewed: 2026-06-05
+
+## Files Reviewed
+
+- `lib/seo-route-policy.js`
+- `lib/seo-route-policy.d.ts`
+- `next-sitemap.config.js`
+- `package.json`
+- `app/tools/property-tax-estimator/[state]/[county]/page.tsx`
+- `app/tools/property-tax-estimator/page.tsx`
+- `app/blog/layout.tsx`
+- `app/blog/reverse-mortgage-interest-rates-current-2026/page.tsx`
+- `app/blog/reverse-mortgage-closing-costs-fees-2026/page.tsx`
+- `app/reverse-mortgages/page.tsx`
+- `app/loan-programs/dscr-investment-loans/page.tsx`
+- `app/loan-programs/heloc/page.tsx`
+- `app/home-equity/page.tsx`
+- `app/areas/page.tsx`
+- `components/seo/AnswerBlock.tsx`
+- `components/seo/SourceBox.tsx`
+- `components/seo/SemanticInfoTable.tsx`
+- `scripts/__tests__/seo-route-policy.test.mjs`
+- `scripts/seo-validate-priority-routes.mjs`
+- `public/sitemap.xml`
+- `reports/internal-link-audit.json`
+- `reports/internal-link-audit.csv`
+- `reports/priority-render-validation-2026-06-05/`
+- `tasks/todo.md`
+
+## Deploy-gate Checks
+
+- [x] Diff review passed. Changes are limited to route policy, sitemap config, Orange County property-tax rendering, reverse-rates freshness, reusable SEO components, breadcrumb dedupe, contextual internal links, validation scripts, reports, and task ledger.
+- [x] Sitemap set comparison passed. `HEAD` had 383 URLs and the current sitemap has 384 URLs. The only added URL is `https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county`.
+- [x] Route policy safety passed. `/tools/property-tax-estimator/ca/orange-county` is indexable and sitemap eligible. `/tools/property-tax-estimator/ca/orange-county/irvine`, `/tools/property-tax-estimator/ca/los-angeles-county`, and `/tools/property-tax-estimator/wa/king-county/seattle` remain `noindex, follow` and sitemap-excluded.
+- [x] Reverse-rates stale text check passed for current source and rendered HTML. Old `March 2026` text still exists only in historical report artifacts from the pre-change audit.
+- [x] Rendered HTML checks passed on local production server `http://127.0.0.1:3006` for P0 pages and extra breadcrumb samples.
+- [x] Schema dedupe passed. `/`, reverse-rates, Orange County property-tax, DSCR multi-family guide, and HELOC draw-period guide each render one `BreadcrumbList` and parse JSON-LD without errors.
+- [x] Internal-link audit passed at 384 sitemap entries and 78 orphaned entries, with no regression above the previous post-implementation count.
+- [x] Build and quality gates passed. Local/non-production postbuild did not submit indexing and printed that indexing automation was disabled because no `ENABLE_*` flag was set.
+- [x] Lighthouse Best Practices 54 inspected without fixing. Causes are Facebook Pixel Attribution Reporting deprecation, DoubleClick third-party cookie, local `_vercel/insights` 404/MIME console error, and Chrome Cookie Issues panel entries.
+
+## Commands Run
+
+- `node --test scripts/__tests__/seo-route-policy.test.mjs` passed, 2 tests.
+- `npm run sitemap` passed.
+- `npm run seo:validate` passed in source/sitemap mode.
+- `node scripts/internal-link-audit.mjs` passed, 384 sitemap entries and 78 orphaned entries.
+- `npm run typecheck` passed.
+- `npm run lint` passed with existing Next lint deprecation and missing Next.js plugin warning.
+- `npm run build` passed. Postbuild ran `next-sitemap` and then printed `Indexing automation disabled (non-production build, no ENABLE_* flag set).`
+- `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3006 npm run seo:validate` passed.
+- Local HTML parser checks passed for `/`, `/blog/reverse-mortgage-interest-rates-current-2026`, `/tools/property-tax-estimator/ca/orange-county`, `/blog/dscr-loans-multi-family-guide-2026`, `/blog/heloc-draw-period-repayment-guide-2026`, and `/tools/property-tax-estimator/ca/orange-county/irvine`.
+- Bundled Playwright 1.60.0 smoke passed across desktop and mobile for `/`, `/tools/property-tax-estimator/ca/orange-county`, and `/blog/reverse-mortgage-interest-rates-current-2026`.
+- Lighthouse JSON inspection completed for homepage, Orange County property-tax page, and reverse-rates page.
+
+## Blockers
+
+- None.
+
+## Remaining Risks
+
+- Production will not reflect the Orange County noindex removal until deployment completes.
+- Best Practices remains 54 in local Lighthouse samples. The identified causes are third-party or local instrumentation issues, not a deploy blocker for this P0 SEO fix.
+- Browser console validation against production should be repeated after deploy because local Vercel Insights behavior differs from Vercel-hosted production.
+
+## Readiness Decision
+
+Ready for controlled production deployment, subject to the existing instruction that deployment and indexing submission are separate owner-approved actions.
+
+---
+
+# Post-deploy SEO validation 2026-06-05
+
+- [ ] Confirm current production state before deployment.
+- [ ] Commit and push the accepted local SEO/GEO/AEO/AIO implementation without unrelated local artifacts.
+- [ ] Deploy production from a clean worktree at the pushed commit.
+- [ ] Validate the live Orange County property-tax page headers, HTML, canonical, robots, schema, and robots.txt access.
+- [ ] Validate the live sitemap and robots.txt.
+- [ ] Validate the live reverse mortgage current-rates page freshness and schema.
+- [ ] Run Playwright production checks for `/`, `/tools/property-tax-estimator/ca/orange-county`, and `/blog/reverse-mortgage-interest-rates-current-2026` at desktop and mobile viewports.
+- [ ] Run Lighthouse production samples for the same three URLs.
+- [ ] Verify non-allowlisted localized property-tax routes did not become indexable or sitemap-included.
+- [ ] Create `reports/post-deploy-seo-validation-2026-06-05.md`.
+- [ ] Create `reports/post-deploy-seo-validation-2026-06-05.json`.
+- [ ] Record indexing actions prepared but not executed.

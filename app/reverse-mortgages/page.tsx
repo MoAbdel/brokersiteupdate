@@ -755,6 +755,8 @@ export default function ReverseMortgagesPage() {
         <ul>
           <li><a href="/heloc-orange-county">HELOC (Home Equity Line of Credit)</a> - Flexible access to home equity with monthly payments</li>
           <li><a href="/heloan-orange-county">HELOAN (Home Equity Loan)</a> - Fixed-rate lump sum home equity loan</li>
+          <li><a href="/blog/reverse-mortgage-interest-rates-current-2026">Current HECM rate factors</a> - Understand expected rate, margin, MIP, and proceeds before comparing lenders</li>
+          <li><a href="/blog/reverse-mortgage-closing-costs-fees-2026">Reverse mortgage closing costs</a> - Compare HECM fees, MIP, origination charges, and third-party costs</li>
           <li><a href="/cash-out-refinance">Cash-Out Refinance</a> - Replace your mortgage and access equity</li>
           <li><a href="/guides/orange-county-refinancing-guide">Orange County Refinancing Guide</a> - Complete guide to refinancing options</li>
         </ul>

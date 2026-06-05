@@ -6,6 +6,7 @@ export const ROUTE_POLICY_BUCKETS: {
 };
 
 export const STATIC_REDIRECT_ROUTES: Record<string, string>;
+export const INDEXABLE_LOCALIZED_TOOL_ALLOWLIST: Set<string>;
 
 export type RoutePolicy = {
   normalizedPathname: string;
@@ -25,6 +26,7 @@ export function shouldExcludeFromSitemap(routePath: string, search?: string): bo
 declare const _default: {
   ROUTE_POLICY_BUCKETS: typeof ROUTE_POLICY_BUCKETS;
   STATIC_REDIRECT_ROUTES: typeof STATIC_REDIRECT_ROUTES;
+  INDEXABLE_LOCALIZED_TOOL_ALLOWLIST: typeof INDEXABLE_LOCALIZED_TOOL_ALLOWLIST;
   normalizeRoutePath: typeof normalizeRoutePath;
   getRoutePolicy: typeof getRoutePolicy;
   getRedirectTarget: typeof getRedirectTarget;

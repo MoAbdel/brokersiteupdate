@@ -270,6 +270,33 @@ export default function NeighborhoodGuidePage() {
             <Link className="text-blue-700 hover:underline" href="/areas/newport-beach-neighborhoods">
               Newport Beach Neighborhoods Hub
             </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/irvine">
+              Irvine Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/fullerton">
+              Fullerton Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/yorba-linda">
+              Yorba Linda Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/brea">
+              Brea Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/lake-forest">
+              Lake Forest Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/rancho-santa-margarita">
+              Rancho Santa Margarita Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/tacoma">
+              Tacoma Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/spokane">
+              Spokane Market Overview
+            </Link>
+            <Link className="text-blue-700 hover:underline" href="/areas/vancouver-wa">
+              Vancouver WA Market Overview
+            </Link>
             <Link className="text-blue-700 hover:underline" href="/about">
               About Mo Abdel
             </Link>

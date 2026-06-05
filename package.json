@@ -31,6 +31,7 @@
     "indexing:submit-delta-auto": "node scripts/auto-submit-indexing-delta.mjs",
     "seo:ctr-prune": "node scripts/build-ctr-prune-candidates.mjs",
     "seo:internal-links": "node scripts/internal-link-audit.mjs",
+    "seo:validate": "node scripts/seo-validate-priority-routes.mjs",
     "llms:refresh": "node --experimental-strip-types scripts/update-llms-recent.mjs",
     "prepare": "husky"
   },

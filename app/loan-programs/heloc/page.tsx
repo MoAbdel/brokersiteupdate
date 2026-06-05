@@ -87,6 +87,21 @@ export default function HELOCPage() {
           </div>
         </div>
 
+        <div className="bg-white border border-blue-100 rounded-xl p-6 mb-16 shadow-sm">
+          <h2 className="text-2xl font-bold text-slate-900 mb-3">HELOC Planning Guides</h2>
+          <p className="text-slate-600 mb-5">
+            Compare draw-period rules, repayment changes, and tax-deduction questions before choosing a line amount.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/blog/heloc-draw-period-repayment-guide-2026" className="rounded-lg bg-blue-50 p-4 text-blue-700 font-semibold hover:underline">
+              HELOC draw period and repayment guide
+            </Link>
+            <Link href="/blog/heloc-interest-tax-deduction-rules-2026" className="rounded-lg bg-blue-50 p-4 text-blue-700 font-semibold hover:underline">
+              HELOC interest tax deduction rules
+            </Link>
+          </div>
+        </div>
+
         {/* Key Benefits */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">

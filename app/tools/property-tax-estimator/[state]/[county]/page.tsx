@@ -12,12 +12,42 @@ import { formatCurrency } from '@/lib/geo-data/calculations';
 import ToolPageLayout, { buildToolSchemas } from '@/components/tools/ToolPageLayout';
 import PropertyTaxEstimator from '@/components/tools/PropertyTaxEstimator';
 import LoanProgramRedirect from '@/components/tools/LoanProgramRedirect';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/Card';
 
 interface Props {
   params: Promise<{ state: string; county: string }>;
 }
+
+const REVIEWED_DATE = '2026-06-05';
+const REVIEWED_LABEL = 'June 5, 2026';
+
+const tableColumns = [
+  { key: 'input', label: 'Input' },
+  { key: 'value', label: 'Value' },
+  { key: 'impact', label: 'Mortgage-planning impact' },
+];
+
+const orangeCountySources = [
+  {
+    label: 'Orange County property tax services',
+    href: 'https://www.ocgov.com/residents/property-taxes-assessments',
+    description: 'County hub for property tax payments, estimates, appeals, and assessment resources.',
+  },
+  {
+    label: 'Orange County Assessor property-tax calculation guidance',
+    href: 'https://ocassessor.gov/real-property-assessments/buying-or-selling-property',
+    description: 'Official explanation of taxable value, local tax rates, special assessments, and reassessment triggers.',
+  },
+  {
+    label: 'California Board of Equalization property tax overview',
+    href: 'https://www.boe.ca.gov/proptaxes/proptax.htm',
+    description: 'State-level property tax oversight and assessment guidance for California counties.',
+  },
+];
 
 export async function generateStaticParams() {
   return getAllStateCountyParams();
@@ -30,9 +60,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!county) return {};
 
   const rate = (county.avgPropertyTaxRate * 100).toFixed(2);
+  const isOrangeCountyPage = state === 'ca' && countySlug === 'orange-county';
   return genMeta({
-    title: `${county.name}, ${stateName} Property Tax Rate 2026 | Calculator & Annual Cost`,
-    description: `${county.name}, ${stateName} property tax rate for 2026: ${rate}% average effective rate. Median home value ${formatCurrency(county.medianHomePrice)}. Estimate annual and monthly property tax costs instantly.`,
+    title: isOrangeCountyPage
+      ? 'Orange County Property Tax Rate 2026: Estimate Monthly Taxes'
+      : `${county.name}, ${stateName} Property Tax Rate 2026 | Calculator & Annual Cost`,
+    description: isOrangeCountyPage
+      ? 'Estimate Orange County property taxes using the 2026 effective rate, median value, and monthly escrow math for mortgage qualification.'
+      : `${county.name}, ${stateName} property tax rate for 2026: ${rate}% average effective rate. Median home value ${formatCurrency(county.medianHomePrice)}. Estimate annual and monthly property tax costs instantly.`,
     path: `/tools/property-tax-estimator/${state}/${countySlug}`,
     type: 'website',
   });
@@ -49,6 +84,53 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
   const annualTaxMedian = Math.round(county.medianHomePrice * county.avgPropertyTaxRate);
   const monthlyTaxMedian = Math.round(annualTaxMedian / 12);
   const rate = (county.avgPropertyTaxRate * 100).toFixed(2);
+  const isOrangeCountyPage = state === 'ca' && countySlug === 'orange-county';
+  const tableRows = [
+    {
+      cells: {
+        input: 'Average effective property tax rate',
+        value: `${rate}%`,
+        impact: 'Used to estimate annual tax before dividing into monthly escrow.',
+      },
+    },
+    {
+      cells: {
+        input: 'Median home value assumption',
+        value: formatCurrency(county.medianHomePrice),
+        impact: 'Starting value for a planning estimate, not a property-specific assessment.',
+      },
+    },
+    {
+      cells: {
+        input: 'Estimated annual property tax',
+        value: formatCurrency(annualTaxMedian),
+        impact: 'Adds to annual housing cost and reserve planning.',
+      },
+    },
+    {
+      cells: {
+        input: 'Estimated monthly escrow',
+        value: `${formatCurrency(monthlyTaxMedian)}/mo`,
+        impact: 'Included in PITI and reviewed in debt-to-income qualification.',
+      },
+    },
+    {
+      cells: {
+        input: 'Source or update note',
+        value: `Last reviewed ${REVIEWED_LABEL}`,
+        impact: isOrangeCountyPage
+          ? 'Uses county-level planning assumptions plus Orange County and California property-tax guidance.'
+          : 'Uses county-level planning assumptions for mortgage education.',
+      },
+    },
+    {
+      cells: {
+        input: 'Why actual tax bill may differ',
+        value: 'Assessed value, exemptions, bonds, special assessments, and supplemental bills can change the final amount.',
+        impact: 'Borrowers should verify parcel-specific taxes before locking a purchase budget.',
+      },
+    },
+  ];
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },
@@ -82,6 +164,7 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
   ];
 
   const internalLinks = [
+    { label: 'Property Tax Estimator Hub', href: '/tools/property-tax-estimator' },
     { label: `${stateName} Counties`, href: `/tools/property-tax-estimator/${state}` },
     { label: 'All Mortgage Tools', href: '/tools' },
     { label: 'Down Payment Assistance', href: '/resources/down-payment-assistance' },
@@ -97,7 +180,7 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
   ];
 
   const schemas = buildToolSchemas({
-    toolName: `Property Tax Rate Calculator — ${county.name}, ${stateName}`,
+    toolName: `Property Tax Rate Calculator - ${county.name}, ${stateName}`,
     description: `Estimate annual and monthly property taxes for ${county.name}, ${stateName} using the 2026 average effective property tax rate of ${rate}%.`,
     url: `/tools/property-tax-estimator/${state}/${countySlug}`,
     countyName: county.name,
@@ -117,6 +200,37 @@ export default async function CountyPropertyTaxPage({ params }: Props) {
       internalLinks={internalLinks}
       schemaJsonLd={schemas}
     >
+      <div className="mb-8 space-y-8">
+        <AnswerBlock
+          id={isOrangeCountyPage ? 'orange-county-property-tax-answer' : undefined}
+          title={`${county.name} property tax estimate for mortgage planning`}
+          reviewedDate={REVIEWED_DATE}
+          reviewedLabel={REVIEWED_LABEL}
+        >
+          <p>
+            {county.name} property taxes vary by assessed value, exemptions, voter-approved
+            assessments, local charges, and supplemental bills. This estimator uses a
+            county-level effective-rate assumption to help borrowers estimate annual property
+            tax and monthly escrow for mortgage planning.
+          </p>
+        </AnswerBlock>
+
+        <SemanticInfoTable
+          caption={`${county.name} property tax estimate inputs for 2026`}
+          columns={tableColumns}
+          rows={tableRows}
+          rowHeaderKey="input"
+          footnote="This table is an educational planning estimate. Verify parcel-specific taxes before making a purchase or refinance decision."
+        />
+
+        {isOrangeCountyPage && (
+          <SourceBox
+            sources={orangeCountySources}
+            title="Orange County property tax sources"
+          />
+        )}
+      </div>
+
       <PropertyTaxEstimator
         countyName={county.name}
         stateCode={state}

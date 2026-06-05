@@ -76,6 +76,29 @@ export default function DSCRInvestmentLoansPage() {
 
         <QualificationCallout variant="dscr" className="my-8" />
 
+        <div className="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-12">
+          <h2 className="text-2xl font-bold text-slate-900 mb-3">
+            DSCR Investor Planning Guides
+          </h2>
+          <p className="text-slate-700 mb-5">
+            Use these focused guides to compare property type, payment structure, entity setup, and seasoning before you request DSCR terms.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <Link href="/blog/dscr-loans-multi-family-guide-2026" className="rounded-lg bg-white p-4 text-blue-700 font-semibold hover:underline">
+              Multi-family DSCR loan guide
+            </Link>
+            <Link href="/blog/dscr-loan-interest-only-options-2026" className="rounded-lg bg-white p-4 text-blue-700 font-semibold hover:underline">
+              DSCR interest-only options
+            </Link>
+            <Link href="/blog/dscr-loan-llc-entity-structure-2026" className="rounded-lg bg-white p-4 text-blue-700 font-semibold hover:underline">
+              DSCR LLC entity structure
+            </Link>
+            <Link href="/blog/dscr-loan-seasoning-requirements-2026" className="rounded-lg bg-white p-4 text-blue-700 font-semibold hover:underline">
+              DSCR seasoning requirements
+            </Link>
+          </div>
+        </div>
+
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-8">
             What Are DSCR Investment Loans?

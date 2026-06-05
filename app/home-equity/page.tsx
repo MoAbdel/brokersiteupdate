@@ -644,6 +644,15 @@ export default function HomeEquityPage() {
             <div className="max-w-4xl mx-auto mt-8 p-4 bg-slate-50 border border-slate-150 rounded-2xl text-center text-xs text-slate-500 font-medium">
               💡 <strong>Need professional advice?</strong> As a licensed mortgage broker, Mo can help structure your application to match guidelines. Call or text him at <a href={`tel:${phoneHref}`} className="text-blue-600 font-bold hover:underline">{phoneDisplay}</a> for assistance.
             </div>
+
+            <div className="max-w-4xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Link href="/blog/heloc-draw-period-repayment-guide-2026" className="rounded-2xl border border-slate-200 bg-slate-50 p-5 text-sm font-bold text-blue-700 hover:bg-blue-50">
+                HELOC draw period and repayment guide
+              </Link>
+              <Link href="/blog/heloc-interest-tax-deduction-rules-2026" className="rounded-2xl border border-slate-200 bg-slate-50 p-5 text-sm font-bold text-blue-700 hover:bg-blue-50">
+                HELOC interest tax deduction rules
+              </Link>
+            </div>
           </div>
         </section>
 

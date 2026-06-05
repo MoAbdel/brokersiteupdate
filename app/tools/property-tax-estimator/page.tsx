@@ -42,6 +42,14 @@ export default function PropertyTaxEstimatorIndex() {
             monthly property taxes using county-specific rates, median home values, and local
             assessment rules.
           </p>
+          <div className="mt-6">
+            <Link
+              href="/tools/property-tax-estimator/ca/orange-county"
+              className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-700"
+            >
+              Open the Orange County property tax calculator
+            </Link>
+          </div>
         </div>
 
         {[

@@ -7,6 +7,7 @@ const routePolicy = require('./lib/seo-route-policy.js');
 
 const BUILD_ISO = new Date().toISOString();
 const APP_DIR = path.join(process.cwd(), 'app');
+const PAGE_FILE_NAMES = ['page.tsx', 'page.jsx', 'page.ts', 'page.js'];
 const REDIRECT_SOURCE_TOKEN_PATTERN = /[*():$]/;
 const NON_PUBLIC_ROBOTS_DISALLOW = ['/admin/', '/api/', '/dashboard/'];
 const {
@@ -183,6 +184,52 @@ function getExplicitPageLastMod(filePath) {
   return null;
 }
 
+function resolveAppRouteDir(routePath) {
+  if (routePath === '/') {
+    return APP_DIR;
+  }
+
+  const segments = routePath.replace(/^\//, '').replace(/\/$/, '').split('/').filter(Boolean);
+  let currentDir = APP_DIR;
+
+  for (const segment of segments) {
+    const literalDir = path.join(currentDir, segment);
+    if (fsSync.existsSync(literalDir) && fsSync.statSync(literalDir).isDirectory()) {
+      currentDir = literalDir;
+      continue;
+    }
+
+    let entries;
+    try {
+      entries = fsSync.readdirSync(currentDir, { withFileTypes: true });
+    } catch {
+      return null;
+    }
+
+    const dynamicSegment = entries
+      .filter((entry) => entry.isDirectory() && /^\[[^.[\]]+\]$/.test(entry.name))
+      .map((entry) => entry.name)
+      .sort()[0];
+
+    if (!dynamicSegment) {
+      return null;
+    }
+
+    currentDir = path.join(currentDir, dynamicSegment);
+  }
+
+  return currentDir;
+}
+
+function getRoutePageFileCandidates(routePath) {
+  const routeDir = resolveAppRouteDir(routePath);
+  if (!routeDir) {
+    return [];
+  }
+
+  return PAGE_FILE_NAMES.map((fileName) => path.join(routeDir, fileName));
+}
+
 async function getLastModForRoute(routePath) {
   // Prefer the explicit publish date from lib/all-blog-posts.ts for blog posts —
   // this produces a stable freshness signal that doesn't drift with unrelated file touches.
@@ -190,20 +237,7 @@ async function getLastModForRoute(routePath) {
   if (blogMatch && BLOG_POST_DATES[blogMatch[1]]) {
     return new Date(BLOG_POST_DATES[blogMatch[1]]).toISOString();
   }
-  const route = routePath === '/' ? '' : routePath.replace(/^\//, '').replace(/\/$/, '');
-  const candidates = route
-    ? [
-        path.join(APP_DIR, route, 'page.tsx'),
-        path.join(APP_DIR, route, 'page.jsx'),
-        path.join(APP_DIR, route, 'page.ts'),
-        path.join(APP_DIR, route, 'page.js'),
-      ]
-    : [
-        path.join(APP_DIR, 'page.tsx'),
-        path.join(APP_DIR, 'page.jsx'),
-        path.join(APP_DIR, 'page.ts'),
-        path.join(APP_DIR, 'page.js'),
-      ];
+  const candidates = getRoutePageFileCandidates(routePath);
 
   for (const candidate of candidates) {
     if (await fileExists(candidate)) {
@@ -219,20 +253,7 @@ async function getLastModForRoute(routePath) {
 }
 
 async function routeHasPageFile(routePath) {
-  const route = routePath === '/' ? '' : routePath.replace(/^\//, '').replace(/\/$/, '');
-  const candidates = route
-    ? [
-        path.join(APP_DIR, route, 'page.tsx'),
-        path.join(APP_DIR, route, 'page.jsx'),
-        path.join(APP_DIR, route, 'page.ts'),
-        path.join(APP_DIR, route, 'page.js'),
-      ]
-    : [
-        path.join(APP_DIR, 'page.tsx'),
-        path.join(APP_DIR, 'page.jsx'),
-        path.join(APP_DIR, 'page.ts'),
-        path.join(APP_DIR, 'page.js'),
-      ];
+  const candidates = getRoutePageFileCandidates(routePath);
 
   for (const candidate of candidates) {
     if (await fileExists(candidate)) {
@@ -663,6 +684,7 @@ module.exports = {
       '/contact',
       '/calculator',
       '/tools',
+      '/tools/property-tax-estimator/ca/orange-county',
 
       // Loan programs (hub + all products)
       '/loan-programs',

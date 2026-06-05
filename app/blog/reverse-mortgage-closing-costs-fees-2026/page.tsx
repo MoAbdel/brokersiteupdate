@@ -776,6 +776,10 @@ export default function ReverseMortgageClosingCostsFees2026() {
               <Calculator className="w-5 h-5 text-blue-600 flex-shrink-0" />
               <span className="text-slate-700 hover:text-blue-600">Reverse Mortgage Calculator 2026</span>
             </Link>
+            <Link href="/blog/reverse-mortgage-interest-rates-current-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
+              <DollarSign className="w-5 h-5 text-blue-600 flex-shrink-0" />
+              <span className="text-slate-700 hover:text-blue-600">Current HECM Rate Factors 2026</span>
+            </Link>
             <Link href="/blog/proprietary-reverse-mortgage-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
               <DollarSign className="w-5 h-5 text-blue-600 flex-shrink-0" />
               <span className="text-slate-700 hover:text-blue-600">Proprietary Reverse Mortgage Programs</span>

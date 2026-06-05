@@ -1,9 +1,79 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
+
+const REVIEWED_DATE = '2026-06-05';
+const REVIEWED_LABEL = 'June 5, 2026';
+const PAGE_TITLE = 'Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide';
+const PAGE_DESCRIPTION = 'Understand how current HECM rates, expected rate, margin, MIP, and fees affect reverse mortgage proceeds before comparing lenders.';
+
+const rateGuideColumns = [
+  { key: 'factor', label: 'Factor' },
+  { key: 'whyItMatters', label: 'Why it matters' },
+  { key: 'borrowerAction', label: 'Borrower action' },
+];
+
+const rateGuideRows = [
+  {
+    cells: {
+      factor: 'Borrower age',
+      whyItMatters: 'Older borrowers generally qualify for a higher principal limit.',
+      borrowerAction: 'Compare proceeds using the youngest borrower age on title.',
+    },
+  },
+  {
+    cells: {
+      factor: 'Home value and FHA limit',
+      whyItMatters: 'HECM proceeds are constrained by appraised value and the applicable FHA maximum claim amount.',
+      borrowerAction: 'Use a current value estimate before comparing lenders.',
+    },
+  },
+  {
+    cells: {
+      factor: 'Expected rate',
+      whyItMatters: 'HUD uses the expected rate when calculating the principal limit.',
+      borrowerAction: 'Ask how the expected rate changes proceeds, not just the quoted note rate.',
+    },
+  },
+  {
+    cells: {
+      factor: 'Lender margin',
+      whyItMatters: 'The margin is the lender-controlled part of adjustable HECM pricing.',
+      borrowerAction: 'Compare margins across lenders before selecting a HECM quote.',
+    },
+  },
+  {
+    cells: {
+      factor: 'MIP and closing costs',
+      whyItMatters: 'Mortgage insurance, origination charges, and third-party fees reduce net available proceeds.',
+      borrowerAction: 'Compare total loan cost, not rate alone.',
+    },
+  },
+];
+
+const reverseMortgageSources = [
+  {
+    label: 'HUD HECM program resources',
+    href: 'https://www.hud.gov/stat/sfh/hecm',
+    description: 'HUD resources for HECM maximum claim amounts, principal limit factors, counseling, and lender references.',
+  },
+  {
+    label: 'HUD Programs of HUD HECM summary',
+    href: 'https://www.hud.gov/hudprograms',
+    description: 'HUD program description covering fixed and adjustable HECM structures, borrower eligibility, and counseling.',
+  },
+  {
+    label: 'CFPB reverse mortgage consumer guidance',
+    href: 'https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/',
+    description: 'Consumer guidance on reverse mortgage basics, costs, eligibility, and repayment triggers.',
+  },
+];
 
 export const metadata: Metadata = {
-  title: 'Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM',
-  description: 'See how HECM fixed and adjustable reverse mortgage rates work in March 2026, including margin vs index, how rates affect proceeds, and what to compare before you choose a lender.',
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
     languages: {
@@ -24,12 +94,18 @@ export const metadata: Metadata = {
     'reverse mortgage SOFR index',
   ],
   openGraph: {
-    title: 'Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM',
-    description: 'Understand HECM fixed vs adjustable rates, lender margins, index changes, and how pricing affects available proceeds in March 2026.',
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
     type: 'article',
     publishedTime: '2026-03-01',
+    modifiedTime: REVIEWED_DATE,
     authors: ['Mo Abdel'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
   },
 };
 
@@ -88,8 +164,8 @@ export default function ReverseMortgageInterestRatesPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM',
-    description: 'How HECM fixed and adjustable reverse mortgage rates work, what changes your available proceeds, and what borrowers should compare before choosing a lender.',
+    headline: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -108,7 +184,7 @@ export default function ReverseMortgageInterestRatesPage() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-03-01',
-    dateModified: '2026-03-01',
+    dateModified: REVIEWED_DATE,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
@@ -148,7 +224,7 @@ export default function ReverseMortgageInterestRatesPage() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Current Reverse Mortgage Rates (March 2026)',
+        name: 'Current Reverse Mortgage Interest Rates 2026',
         item: 'https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026',
       },
     ],
@@ -196,17 +272,17 @@ export default function ReverseMortgageInterestRatesPage() {
         <div className="flex items-center gap-2 text-sm text-blue-600 mb-4">
           <span className="bg-blue-100 px-3 py-1 rounded-full">HECM Programs</span>
           <span>&#8226;</span>
-          <time dateTime="2026-03-01">March 1, 2026</time>
+          <time dateTime={REVIEWED_DATE}>Reviewed {REVIEWED_LABEL}</time>
           <span>&#8226;</span>
           <span>14 min read</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          Current Reverse Mortgage Rates (March 2026): HECM Fixed vs ARM
+          Current Reverse Mortgage Interest Rates in 2026
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Reverse mortgage rates affect both the cost of borrowing and how much equity you can access. This guide breaks down HECM fixed vs adjustable pricing, the difference between the lender margin and the published index, and the questions borrowers should ask before comparing lenders in March 2026.
+          Reverse mortgage rates affect both the cost of borrowing and how much equity you can access. This guide breaks down HECM fixed vs adjustable pricing, the difference between the lender margin and the published index, and the questions borrowers should ask before comparing lenders in 2026.
         </p>
-        <p className="text-sm text-gray-500 mt-4">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Updated March 2026</p>
+        <p className="text-sm text-gray-500 mt-4">By Mo Abdel, NMLS #1426884 | Lumin Lending NMLS #2716106 | Last reviewed {REVIEWED_LABEL}</p>
       </header>
 
       {/* HUD/FHA Disclaimer */}
@@ -214,6 +290,37 @@ export default function ReverseMortgageInterestRatesPage() {
         <p className="text-sm text-amber-900">
           <strong>Important Notice:</strong> This material is not provided by, nor was it approved by, the Department of Housing &amp; Urban Development (HUD) or by the Federal Housing Administration (FHA). This is not a government agency publication.
         </p>
+      </div>
+
+      <div className="mb-8 space-y-8">
+        <AnswerBlock
+          id="quick-answer"
+          title="How reverse mortgage rates affect available proceeds"
+          reviewedDate={REVIEWED_DATE}
+          reviewedLabel={REVIEWED_LABEL}
+        >
+          <p>
+            Reverse mortgage rates affect how much home equity a borrower can access,
+            but the quoted note rate is only one part of the calculation. HECM proceeds
+            depend on the borrower&rsquo;s age, home value, FHA lending limit, expected rate,
+            margin, mortgage insurance, and closing costs.
+          </p>
+          <p>
+            This page explains the rate factors borrowers can compare before choosing a
+            lender. It does not publish live rate quotes because HECM pricing changes by
+            lender, margin, market index, borrower profile, and timing.
+          </p>
+        </AnswerBlock>
+
+        <SemanticInfoTable
+          caption="HECM rate and proceeds factors to compare in 2026"
+          columns={rateGuideColumns}
+          rows={rateGuideRows}
+          rowHeaderKey="factor"
+          footnote="This table is educational and does not quote live rates. Request a lender-specific comparison before applying."
+        />
+
+        <SourceBox sources={reverseMortgageSources} />
       </div>
 
       {/* Main Content */}
@@ -710,6 +817,13 @@ export default function ReverseMortgageInterestRatesPage() {
             >
               <span className="font-semibold text-blue-600">Complete Reverse Mortgage Guide &rarr;</span>
               <p className="text-sm text-gray-600 mt-1">Everything seniors need to know about HECMs</p>
+            </Link>
+            <Link
+              href="/blog/reverse-mortgage-closing-costs-fees-2026"
+              className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow"
+            >
+              <span className="font-semibold text-blue-600">Reverse Mortgage Closing Costs &rarr;</span>
+              <p className="text-sm text-gray-600 mt-1">Compare HECM fees, MIP, and third-party charges</p>
             </Link>
             <Link
               href="/blog/reverse-mortgage-calculator-2026"
