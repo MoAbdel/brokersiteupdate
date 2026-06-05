@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import type { FormEvent, ReactNode } from "react";
+import type { CSSProperties, FormEvent, ReactNode } from "react";
 
 const phoneDisplay = "(949) 579-2057";
 const phoneHref = "tel:+19495792057";
@@ -514,10 +514,12 @@ function Stat({
   icon,
   value,
   label,
+  valueStyle,
 }: {
   icon: IconName;
   value: string;
   label: ReactNode;
+  valueStyle?: CSSProperties;
 }) {
   return (
     <div className="ma-stat">
@@ -525,7 +527,7 @@ function Stat({
         <Icon name={icon} />
       </div>
       <div>
-        <strong>{value}</strong>
+        <strong style={valueStyle}>{value}</strong>
         <span>{label}</span>
       </div>
     </div>
@@ -734,14 +736,9 @@ export default function WholesaleLendersLanding({
             <Stat icon="home" value="$3.5M" label="Max Loan Amount" />
             <Stat
               icon="calendar"
-              value="Fast"
-              label={
-                <>
-                  Closing
-                  <br />
-                  <small>(HELOC As Soon As 7 Days)</small>
-                </>
-              }
+              value="Fast Closing"
+              valueStyle={{ whiteSpace: "nowrap", fontSize: "18px" }}
+              label={<small>(HELOC As Soon As 7 Days)</small>}
             />
             <Stat
               icon="star"
