@@ -1663,4 +1663,199 @@ Validation results:
 - `npm run seo:validate`: passed with rendered-check warning because `SEO_VALIDATE_BASE_URL` was not set.
 - `npm run build`: passed. Postbuild ran `next-sitemap`, then the report-only indexing guard logged `network submission performed: false` and skipped submission because approval gates were missing or dry-run mode was active.
 
-Commit/push status: not pushed and not deployed in this pass. Report artifacts and guard changes are local pending changes until the owner approves committing and pushing the now-gated workflow.
+Commit/push status: pushed and deployed after owner approval. Production validation confirmed the now-gated workflow submits zero URLs from `postbuild`.
+
+---
+
+# Indexing circuit breaker production push 2026-06-05
+
+- [x] Reconfirm tracked worktree state before push.
+- [x] Confirm Vercel production has `DISABLE_AUTO_INDEXING_ON_PROD=true`.
+- [x] Run pre-push checks.
+- [x] Push `e21db8474b7eac1e0aa951a42a5916d54e13c5cd` to `origin/main`.
+- [x] Monitor Vercel production deployment to Ready.
+- [x] Inspect production build logs for indexing behavior.
+- [x] Smoke-test production SEO P0 pages, sitemap, and robots.txt.
+- [x] Confirm no indexing submission was executed.
+
+## Production Push Review
+
+Push result: `origin/main` advanced from `ed86542` to `e21db84`.
+
+Vercel deployment result: Ready production deployment `dpl_DBmUN56wW63UVg16NoenGmUVoCqQ` at `https://brokersiteupdate-cxqssatkj-moabdels-projects.vercel.app`, aliased to `https://www.mothebroker.com` and `https://mothebroker.com`.
+
+Production postbuild indexing result: zero submissions. Build logs show commit `e21db84`, deploy SHA `e21db8474b7eac1e0aa951a42a5916d54e13c5cd`, `VERCEL_ENV=production`, candidate URLs `1`, eligible URLs `1`, rejected URLs `0`, and `network submission performed: false`. Skip reasons were `DISABLE_AUTO_INDEXING_ON_PROD=true`, dry-run mode, non-approved mode, missing enable flag, and missing approved SHA.
+
+Live SEO smoke result: passed. The Orange County property-tax page and reverse mortgage rates blog returned `200`, had no `X-Robots-Tag` noindex, no meta noindex, self-canonicals, valid JSON-LD, and exactly one `BreadcrumbList` each. The reverse-rates page had no stale `March 2026` text. The live sitemap returned `200`, valid XML smoke checks, `384` URLs, included the Orange County property-tax URL, and had zero non-allowlisted property-tax county/city expansion. Robots.txt returned `200`, included sitemap references, and allowed Googlebot and Bingbot for the Orange County URL.
+
+Commands run in the push/deploy pass:
+
+- `npx vercel env ls production --scope moabdels-projects`
+- `npm run typecheck`
+- `npm run lint`
+- `npm run seo:validate`
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`
+- `node --test scripts/__tests__/indexing-safety.test.mjs`
+- `npm run indexing:dry-run`
+- `npm run indexing:validate-allowlist`
+- `npm run build`
+- `git push origin main`
+- `npx vercel ls brokersiteupdate --scope moabdels-projects`
+- `npx vercel inspect https://brokersiteupdate-cxqssatkj-moabdels-projects.vercel.app --scope moabdels-projects`
+- `npx vercel inspect https://brokersiteupdate-cxqssatkj-moabdels-projects.vercel.app --logs --scope moabdels-projects`
+- Production read-only Node smoke check for the two P0 pages, sitemap, and robots.txt
+
+Remaining risks:
+
+- This ledger update is local after the pushed commit and was not committed in the deployment pass.
+- No manual GSC, Bing, or IndexNow submission was run.
+- Search Console URL Inspection and index request actions remain separate owner-approved steps.
+
+Next recommended implementation pass: CTR Batch 1 for the four highest-priority organic snippets, without indexing submission unless separately approved.
+
+---
+
+# CTR Batch 1 implementation
+
+Started: 2026-06-05T12:44:57.2659260-05:00
+
+## Scope
+
+- [x] Refresh `/blog/heloc-draw-period-repayment-guide-2026`.
+- [x] Refresh `/blog/dscr-loans-multi-family-guide-2026`.
+- [x] Refresh `/blog/reverse-mortgage-closing-costs-fees-2026`.
+- [x] Refresh `/blog/second-home-cash-out-refinance-guide-2026`.
+- [x] Preserve existing local `tasks/todo.md` guard-deploy notes.
+- [x] Do not deploy, push, or submit indexing.
+- [x] Keep the indexing circuit breaker unchanged.
+
+## Pre-edit Findings
+
+- Existing local state: `tasks/todo.md` was already modified after the pushed guard commit and must be preserved.
+- Existing unrelated untracked files remain untouched.
+- Runtime truth reviewed: `lib/site.ts`, `lib/leadQualification.ts`, `components/QualificationCallout.tsx`, `components/seo/RefinanceCityTemplate.tsx`, `next-sitemap.config.js`, and `reports/opportunity-queue.json`.
+- Missing skill reference: `references/qualification-funnel-governance.md` is not present in this repo, so live runtime files govern.
+- Existing SEO components reviewed: `components/seo/AnswerBlock.tsx`, `components/seo/SourceBox.tsx`, and `components/seo/SemanticInfoTable.tsx`.
+- Schema patterns reviewed: `app/blog/layout.tsx`, `components/seo/DefaultPageSchema.tsx`, `lib/schema-entities.ts`, and `lib/breadcrumbs.ts`.
+
+## Changed Files
+
+- `app/blog/heloc-draw-period-repayment-guide-2026/page.tsx`
+- `app/blog/dscr-loans-multi-family-guide-2026/page.tsx`
+- `app/blog/reverse-mortgage-closing-costs-fees-2026/page.tsx`
+- `app/blog/second-home-cash-out-refinance-guide-2026/page.tsx`
+- `public/sitemap.xml` generated by `npm run build` / `next-sitemap`; contains ordering noise from generator output.
+- `reports/internal-link-audit.json` generated by `node scripts/internal-link-audit.mjs`.
+- `reports/internal-link-audit.csv` generated by `node scripts/internal-link-audit.mjs`.
+- `tasks/todo.md`
+
+## Commands Run
+
+- `git status --short; git status --branch --short`
+- Read `C:\Users\haithem\.codex\attachments\258896b8-71a5-4dde-9833-71ef1dd87685\pasted-text.txt`.
+- Read the four CTR Batch 1 page files.
+- Read the reusable SEO components and runtime truth files listed above.
+- `rg -n "heloc-draw-period-repayment-guide-2026|dscr-loans-multi-family-guide-2026|reverse-mortgage-closing-costs-fees-2026|second-home-cash-out-refinance-guide-2026" lib next-sitemap.config.js public app components reports\internal-link-audit.json`
+- `Get-Date -Format o`
+- `npm run typecheck`
+- `npm run lint`
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`
+- `node --test scripts/__tests__/indexing-safety.test.mjs`
+- `npm run seo:validate`
+- `npm run indexing:dry-run`
+- `npm run indexing:validate-allowlist`
+- `node scripts/internal-link-audit.mjs`
+- `npm run build`
+- Local production render validation on `http://127.0.0.1:3017` for the four CTR Batch 1 routes.
+- `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3017 npm run seo:validate`
+- `git status --short`
+- `git diff --stat`
+
+## Validation Results
+
+- `npm run typecheck` passed.
+- `npm run lint` passed with no ESLint warnings or errors. Existing Next lint deprecation/plugin notices were printed.
+- `node --test scripts/__tests__/seo-route-policy.test.mjs` passed, 2 tests.
+- `node --test scripts/__tests__/indexing-safety.test.mjs` passed, 11 tests.
+- `npm run seo:validate` passed in source/sitemap mode with the expected rendered-check warning when `SEO_VALIDATE_BASE_URL` was unset.
+- `npm run build` passed. Postbuild generated the sitemap and printed `network submission performed: false`.
+- `node scripts/internal-link-audit.mjs` passed: 384 sitemap entries analyzed and 78 orphaned entries reported.
+- Local production render validation passed for all four target routes: HTTP 200, no `X-Robots-Tag` noindex, no meta noindex, self canonical, required CTR text present, valid JSON-LD, Article schema present, and FAQPage schema present.
+- Rendered `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3017 npm run seo:validate` passed.
+
+## Indexing Safety Result
+
+- No deploy, push, manual indexing request, GSC action, Bing action, IndexNow submission, or approved indexing command was run.
+- `npm run indexing:dry-run` passed with `network submission performed: false`, 1 prepared URL, and 0 submitted URLs.
+- `npm run indexing:validate-allowlist` passed with `network submission performed: false`, 1 eligible URL, and 0 submitted URLs.
+- `npm run build` postbuild remained report-only and skipped submission because approval gates were missing or dry-run mode was active.
+- The indexing circuit breaker code and route policy files were not changed.
+
+## Remaining Risks
+
+- `public/sitemap.xml` changed because `next-sitemap` regenerated tracked output during build; the diff contains generator ordering noise beyond the four target URLs.
+- `reports/internal-link-audit.*` changed because the audit report was regenerated after adding internal links.
+- Existing unrelated untracked files remain present and untouched.
+- Production will not reflect this CTR Batch 1 update until a separately approved deploy.
+
+---
+
+# CTR Batch 1 deploy-gate review
+
+Started: 2026-06-05
+
+## Scope
+
+- [x] Review git hygiene for the four CTR Batch 1 pages, generated files, and `tasks/todo.md`.
+- [x] Confirm no indexing scripts, route policy files, or unrelated tracked files changed.
+- [x] Validate `public/sitemap.xml` semantic impact and revert it because it was only generator churn plus unrelated `rss.xml` lastmod.
+- [x] Review page diffs and rendered output for metadata, schema, source, FAQ, and compliance safety.
+- [x] Run the requested validation, render, internal-link, and indexing safety commands.
+- [x] Commit only intentional files if the gate passes.
+- [x] Do not deploy, push, or submit indexing.
+
+## Findings
+
+- Deploy-gate decision: ready to commit locally, not deployed.
+- Tracked files left for commit: four CTR page files, `reports/internal-link-audit.csv`, `reports/internal-link-audit.json`, and `tasks/todo.md`.
+- `public/sitemap.xml` was restored after semantic comparison showed 384 URLs before and after, no added or removed URLs, and only unrelated `rss.xml` lastmod churn.
+- Rendered checks passed for all four routes on `http://127.0.0.1:3017`: HTTP 200, no noindex header, no noindex meta, self canonical, one H1, Quick answer present, semantic table present, source box present, Article schema present, one FAQPage, and one BreadcrumbList.
+- Page-owned structured data did not add Review, AggregateRating, Product, Offer, or rating schema. Existing site-wide `OfferCatalog` schema in `lib/seo.ts` was observed but not changed by CTR Batch 1.
+- Chrome viewport checks passed at 390px mobile and 1366px desktop with 0 page-level horizontal overflow on all four target routes. Local-only browser noise came from `/_vercel/insights/script.js` under `next start` and local CSP blocking production-domain prefetches from `127.0.0.1`.
+- Official source links returned HTTP 200 for CFPB, HUD, Fannie Mae, and Census references.
+- Internal-link audit passed: 384 sitemap entries analyzed, 78 existing orphaned entries. Target inbound counts were HELOC 10, DSCR 7, reverse mortgage costs 9, and second-home cash-out 3.
+- No deploy, push, GSC action, Bing action, IndexNow action, or approved indexing submission was run.
+
+## Commands Run
+
+- `git status --short`
+- `git diff --stat`
+- `git diff --name-only`
+- `git diff --check -- app/blog/heloc-draw-period-repayment-guide-2026/page.tsx app/blog/dscr-loans-multi-family-guide-2026/page.tsx app/blog/reverse-mortgage-closing-costs-fees-2026/page.tsx app/blog/second-home-cash-out-refinance-guide-2026/page.tsx`
+- `npm run typecheck`
+- `npm run lint`
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`
+- `node --test scripts/__tests__/indexing-safety.test.mjs`
+- `npm run seo:validate`
+- `npm run indexing:dry-run`
+- `npm run indexing:validate-allowlist`
+- `node scripts/internal-link-audit.mjs`
+- `npm run build`
+- Rendered `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3017 npm run seo:validate` using PowerShell env syntax.
+- Custom rendered HTML and JSON-LD validation for the four CTR routes.
+- Chrome CDP viewport validation for the four CTR routes at 390px and 1366px.
+- Official source URL verification for all new source links.
+- Sitemap semantic comparison against `HEAD:public/sitemap.xml`.
+- `git restore -- public/sitemap.xml`
+
+## Commit Decision
+
+- Gate passed. Commit only the four CTR page files, the regenerated internal-link audit reports, and this task ledger.
+- Do not stage unrelated untracked files, `AGENTS.md.backup-*`, or `public/sitemap.xml`.
+
+## Remaining Risks
+
+- Production will not reflect CTR Batch 1 until a separately approved deploy is run.
+- Existing unrelated untracked audit, report, `.claude`, and `test-results` artifacts remain untouched.
+- Existing site-wide `OfferCatalog` schema in `lib/seo.ts` remains outside CTR Batch 1 scope.
+- Local `next start` browser validation has expected Vercel Analytics 404 noise and local CSP prefetch noise that should not reproduce on the production domain.

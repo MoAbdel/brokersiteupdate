@@ -1,9 +1,12 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'Second Home Cash-Out Refinance 2026: Vacation Home Rules, 75% LTV & 6-Month Seasoning | Mo Abdel NMLS #1426884',
-  description: 'Second home cash-out refinance 2026 for vacation homes only: Fannie Mae 75% max LTV, 6-month seasoning, reserve requirements, and occupancy rules. Not the same as rental property cash-out financing. NMLS #1426884.',
+  title: 'Second Home Cash-Out Refinance Rules for 2026',
+  description: 'See when a vacation-home cash-out refinance may work, what lenders check, and how LTV, seasoning, reserves, and occupancy rules affect approval.',
   keywords: ['second home cash out refinance', 'cash out refinance vacation home', 'second home refinance LTV', 'second home equity access', 'vacation home cash out refinance 2026', 'refinance second home rules'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026',
@@ -13,21 +16,115 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Second Home Cash-Out Refinance 2026: Vacation Home Rules, 75% LTV & 6-Month Seasoning',
-    description: 'Guide to tapping equity from a vacation or second home only. Covers 75% max LTV, 6-month seasoning, reserve requirements, and jumbo options.',
+    title: 'Second Home Cash-Out Refinance Rules for 2026',
+    description: 'See when a vacation-home cash-out refinance may work, what lenders check, and how LTV, seasoning, reserves, and occupancy rules affect approval.',
     type: 'article',
     publishedTime: '2026-03-01',
-    modifiedTime: '2026-03-01',
+    modifiedTime: '2026-06-05',
     authors: ['Mo Abdel'],
     url: 'https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026',
   },
 };
 
+const secondHomeRuleColumns = [
+  { key: 'rule', label: 'Rule area' },
+  { key: 'whatLendersCheck', label: 'What lenders check' },
+  { key: 'whyItMatters', label: 'Why it matters' },
+];
+
+const secondHomeRuleRows = [
+  {
+    cells: {
+      rule: 'Occupancy',
+      whatLendersCheck: 'Personal use, year-round suitability, borrower control, and no timeshare arrangement',
+      whyItMatters: 'A rental or investment-property classification changes pricing, LTV, and documentation',
+    },
+  },
+  {
+    cells: {
+      rule: 'Cash-out LTV',
+      whatLendersCheck: 'Current appraised value, existing liens, transaction type, and investor matrix limits',
+      whyItMatters: 'Maximum cash available is program dependent and can be reduced by overlays',
+    },
+  },
+  {
+    cells: {
+      rule: 'Seasoning',
+      whatLendersCheck: 'Title ownership date and age of any existing mortgage being paid off',
+      whyItMatters: 'Cash-out timing can change if the loan or title history is too recent',
+    },
+  },
+  {
+    cells: {
+      rule: 'Reserves',
+      whatLendersCheck: 'Liquid or eligible asset reserves for primary and second-home payments',
+      whyItMatters: 'Two-property borrowers must show they can carry both homes after closing',
+    },
+  },
+  {
+    cells: {
+      rule: 'Documentation',
+      whatLendersCheck: 'Income, assets, insurance, appraisal, occupancy explanation, and any rental history',
+      whyItMatters: 'Rental income use or third-party control can trigger investment-property treatment',
+    },
+  },
+];
+
+const secondHomeSources = [
+  {
+    label: 'Fannie Mae: Occupancy Types',
+    href: 'https://selling-guide.fanniemae.com/sel/b2-1.1-01/occupancy-types',
+    description: 'Selling Guide reference for second-home occupancy, borrower control, and rental-property distinctions.',
+  },
+  {
+    label: 'Fannie Mae: Cash-Out Refinance Transactions',
+    href: 'https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions',
+    description: 'Selling Guide reference for cash-out refinance transaction requirements and seasoning concepts.',
+  },
+  {
+    label: 'Fannie Mae: Loan-to-Value Ratios',
+    href: 'https://selling-guide.fanniemae.com/sel/b2-1.2-01/loan-value-ltv-ratios',
+    description: 'Selling Guide reference for LTV ratio requirements and where transaction-specific eligibility limits are applied.',
+  },
+  {
+    label: 'CFPB: Mortgage tools and resources',
+    href: 'https://www.consumerfinance.gov/consumer-tools/mortgages/',
+    description: 'Consumer mortgage guidance for comparing loan options and costs.',
+  },
+];
+
+const faqData = [
+  {
+    question: 'Is a second home the same as an investment property?',
+    answer: 'No. A second home is a property the borrower occupies for part of the year and controls personally. An investment property is held for rental or business use. The classification affects LTV, pricing, reserve requirements, and occupancy documentation.',
+  },
+  {
+    question: 'Can rental income be used for a second-home cash-out refinance?',
+    answer: 'Rental income generally creates underwriting risk for second-home classification. Fannie Mae occupancy guidance allows limited rental-income facts only when all second-home requirements are still met and the income is not used for qualifying. If rental income is needed to qualify, the property may need investment-property treatment.',
+  },
+  {
+    question: 'How long after purchase can you cash-out refinance a second home?',
+    answer: 'Cash-out timing depends on title ownership, the age of any mortgage being paid off, and investor or lender overlays. Fannie Mae cash-out rules include seasoning concepts, and lenders may require additional waiting periods before closing.',
+  },
+  {
+    question: 'What is the maximum LTV for a second home cash-out refinance?',
+    answer: 'Common conventional matrix limits for one-unit second-home cash-out refinances are lower than primary-residence cash-out limits, but the exact maximum LTV is program and guideline dependent. Jumbo, portfolio, and non-QM programs may use different limits.',
+  },
+  {
+    question: 'What reserves are required for a second home cash-out refinance?',
+    answer: 'Reserve requirements vary by automated underwriting, loan size, credit profile, and lender overlay. Borrowers should expect the lender to review reserves for both the primary residence and second home.',
+  },
+  {
+    question: 'Is the rate higher on a second home cash-out refinance compared to a primary residence?',
+    answer: 'Second-home cash-out refinances often carry pricing adjustments above primary-residence rate-term loans because occupancy type and cash-out purpose both affect risk-based pricing. The final rate depends on credit score, LTV, loan size, property type, and lender pricing.',
+  },
+];
+
 export default function SecondHomeCashOutRefinanceGuidePage() {
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Cash-Out Refinance on a Second Home: 2026 Rules, LTV Limits and Qualification Guide',
+    headline: 'Second Home Cash-Out Refinance Rules for 2026',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -48,7 +145,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
       url: 'https://www.mothebroker.com',
     },
     datePublished: '2026-03-01',
-    dateModified: '2026-03-01',
+    dateModified: '2026-06-05',
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': 'https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026',
@@ -67,56 +164,14 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'What is the maximum LTV for a second home cash-out refinance?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Fannie Mae limits second home cash-out refinances to 75% loan-to-value (LTV). If your vacation home appraises at $800,000, the maximum new loan amount is $600,000. Any existing mortgage balance is subtracted, and the remaining difference is your available cash.',
-        },
+    mainEntity: faqData.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
       },
-      {
-        '@type': 'Question',
-        name: 'How long do I have to own my second home before doing a cash-out refinance?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Fannie Mae requires a 6-month title seasoning period. You must have owned and held title to the second home for at least six months before closing a cash-out refinance. The seasoning clock starts from the recorded deed date, not the contract date.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Can I rent out my second home and still do a cash-out refinance?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'No. A second home cash-out refinance requires owner-occupancy intent. The property cannot be subject to a rental agreement or managed by a property management company. If you rent it out, lenders classify it as an investment property with stricter LTV limits and higher pricing.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What reserves are required for a second home cash-out refinance?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Lenders typically require 2 to 6 months of PITIA (principal, interest, taxes, insurance, and HOA) reserves for both your primary residence and the second home. High-balance and jumbo loans often require 6 to 12 months of reserves on each property.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Is the rate higher on a second home cash-out refinance compared to a primary residence?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Yes. Second home cash-out refinances carry pricing adjustments above primary residence rates. Fannie Mae applies loan-level price adjustments (LLPAs) for both the second home occupancy type and the cash-out transaction type. These adjustments stack, resulting in a measurable rate premium.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What credit score do I need for a second home cash-out refinance?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Conventional second home cash-out refinances require a minimum 620 credit score. However, scores of 720 or higher significantly reduce the loan-level pricing adjustments that Fannie Mae applies, resulting in more favorable terms and reduced overall borrowing costs.',
-        },
-      },
-    ],
+    })),
   };
 
   const breadcrumbJsonLd = {
@@ -154,20 +209,52 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             <span className="text-gray-700">Second Home Cash-Out</span>
           </nav>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Cash-Out Refinance on a Second Home: 2026 Rules, LTV Limits and Qualification Guide
+            Second Home Cash-Out Refinance Rules for 2026
           </h1>
           <p className="text-lg text-gray-600">
             Access your vacation home equity with the right financing strategy, occupancy documentation, and lender selection
           </p>
-          <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Published March 1, 2026</p>
+          <p className="text-sm text-gray-500 mt-2">By Mo Abdel, NMLS #1426884 | Published March 1, 2026 | Last reviewed June 5, 2026</p>
         </header>
+
+        <div className="mb-8 space-y-8">
+          <AnswerBlock
+            id="quick-answer"
+            title="When can a second-home cash-out refinance work?"
+            reviewedDate="2026-06-05"
+            reviewedLabel="June 5, 2026"
+          >
+            <p>
+              A second-home cash-out refinance may be available when the property is a true
+              vacation home, equity supports the new loan, title seasoning is met, and the
+              borrower qualifies with the required income, reserves, and occupancy documentation.
+            </p>
+            <p>
+              If the property is rented or operated primarily for income, compare the{' '}
+              <Link href="/loan-programs/dscr-investment-loans" className="text-blue-700 hover:underline">
+                DSCR investment loan
+              </Link>{' '}
+              path instead of forcing second-home treatment.
+            </p>
+          </AnswerBlock>
+
+          <SemanticInfoTable
+            caption="Second-home cash-out refinance underwriting checklist"
+            columns={secondHomeRuleColumns}
+            rows={secondHomeRuleRows}
+            rowHeaderKey="rule"
+            footnote="Maximum LTV, reserves, and seasoning rules are program dependent and can change by investor, loan size, credit profile, and lender overlay."
+          />
+
+          <SourceBox sources={secondHomeSources} />
+        </div>
 
         <section className="prose prose-lg max-w-none">
 
           {/* ===== SECTION 1: CITATION HOOK (150-300 words) ===== */}
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8 speakable-summary">
             <p className="lead font-semibold text-gray-900 mb-4">
-              A second home cash-out refinance replaces the existing mortgage on a vacation or secondary property with a larger loan, delivering the equity difference as cash at closing. Fannie Mae caps the loan-to-value ratio at 75% for second home cash-out transactions&mdash;five percentage points lower than the 80% ceiling on primary residences. Borrowers must hold title for at least six months, demonstrate occupancy intent rather than rental use, and carry reserves covering both their primary and second home payments. According to <a href="https://selling-guide.fanniemae.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">Fannie Mae&apos;s Selling Guide</a>, properties classified as second homes must be &quot;suitable for year-round occupancy&quot; and the borrower must maintain &quot;some personal control over the property.&quot;
+              A second home cash-out refinance replaces the existing mortgage on a vacation or secondary property with a larger loan, delivering the equity difference as cash at closing. Under Fannie Mae&apos;s current eligibility matrix, one-unit second-home cash-out transactions use lower LTV limits than many primary-residence cash-out scenarios, and lender overlays can be stricter. Borrowers must document occupancy intent rather than rental use and carry reserves covering both their primary and second home payments.
             </p>
             <p className="text-gray-800">
               For homeowners in high-appreciation vacation markets across California and Washington, these equity positions represent substantial untapped liquidity. A wholesale broker with access to <Link href="/blog/wholesale-mortgage-broker-california-2026" className="text-blue-600 hover:text-blue-700">50+ Wholesale Lenders</Link> can source conventional conforming programs, jumbo second-home overlays, and non-QM alternatives that most retail banks do not carry&mdash;matching borrowers with the program that delivers the right combination of LTV, reserves, and pricing for their specific property and financial profile.
@@ -202,7 +289,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
               <tbody>
                 <tr>
                   <td className="border border-gray-300 px-4 py-2 font-medium">Max LTV (1-unit)</td>
-                  <td className="border border-gray-300 px-4 py-2">75%</td>
+                  <td className="border border-gray-300 px-4 py-2">Common agency matrix baseline: 75%</td>
                   <td className="border border-gray-300 px-4 py-2">80%</td>
                   <td className="border border-gray-300 px-4 py-2">70&ndash;75%</td>
                 </tr>
@@ -252,14 +339,14 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             </table>
           </div>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">The 75% LTV Ceiling Explained</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Agency Matrix LTV Limits Explained</h3>
           <p>
-            Fannie Mae&apos;s 75% maximum LTV for <strong>cash out refinance vacation home</strong> transactions means you must retain at least 25% equity after the new loan closes. On a property appraised at $1,200,000, the maximum new first mortgage is $900,000. Subtract your existing balance&mdash;say $400,000&mdash;and you access up to $500,000 in cash before closing costs. This 5-point LTV haircut relative to primary residences reflects the agency&apos;s view that second homes carry incrementally higher default risk.
+            Fannie Mae&apos;s eligibility matrix is a common starting point for <strong>cash out refinance vacation home</strong> transactions, but it is not the only possible program path. The exact LTV depends on agency, jumbo, portfolio, or non-QM guidelines, plus lender overlays. On a property appraised at $1,200,000, a 75% agency-matrix example would produce a $900,000 maximum new first mortgage before subtracting the existing payoff and closing costs.
           </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">Six-Month Title Seasoning Rule</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Title and Loan Seasoning Review</h3>
           <p>
-            The 6-month seasoning requirement means you must have held recorded title to the second home for at least 180 days before the cash-out refinance closes&mdash;not just before application. Lenders verify the seasoning date against the county recorder&apos;s records. Properties acquired through inheritance or interfamily transfers may have different seasoning treatment depending on the lender&apos;s overlay guidelines.
+            Seasoning review means the lender checks how long you have held recorded title and how old any mortgage being paid off is before the cash-out refinance closes. Lenders verify seasoning against county records and loan documents. Properties acquired through inheritance or interfamily transfers may have different seasoning treatment depending on the lender&apos;s overlay guidelines.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Reserve Requirements for Dual-Property Borrowers</h3>
@@ -384,7 +471,7 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
             Many vacation properties in premium California and Washington markets exceed the 2026 conforming loan limit. Jumbo second home cash-out refinances operate under portfolio-lender guidelines rather than agency rules, which creates both constraints and opportunities:
           </p>
           <ul className="list-disc pl-6 space-y-2 my-4">
-            <li><strong>LTV flexibility:</strong> Some jumbo lenders allow up to 80% LTV on second home cash-out transactions, exceeding Fannie Mae&apos;s 75% ceiling</li>
+            <li><strong>LTV flexibility:</strong> Some jumbo lenders may allow higher LTVs than the common agency matrix baseline for second-home cash-out transactions</li>
             <li><strong>Higher reserve requirements:</strong> Expect 6&ndash;12 months PITIA on all properties</li>
             <li><strong>Asset-based qualification:</strong> Portfolio lenders may qualify on assets rather than income, benefiting retirees and high-net-worth borrowers</li>
             <li><strong>Relationship pricing:</strong> Private-bank lenders offer preferential terms for borrowers who maintain deposit relationships</li>
@@ -420,41 +507,45 @@ export default function SecondHomeCashOutRefinanceGuidePage() {
 
           {/* ===== SECTION 6: EXTENDED FAQ (400-500 words) ===== */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-6">
+            {faqData.map((faq, index) => (
+              <div key={index} className="border border-gray-200 rounded-lg p-5">
+                <h3 className="text-lg font-semibold mt-0 mb-2">{faq.question}</h3>
+                <p className="mb-0">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
 
-          <h3 className="text-lg font-semibold mt-5 mb-2">What is the maximum LTV for a second home cash-out refinance?</h3>
-          <p>
-            Fannie Mae limits second home cash-out refinances to 75% loan-to-value. If your vacation home appraises at $800,000, the maximum new loan is $600,000. Any existing mortgage balance is subtracted from that figure to determine your available cash. Some jumbo portfolio lenders extend to 80% LTV on a case-by-case basis through wholesale channels.
-          </p>
-
-          <h3 className="text-lg font-semibold mt-5 mb-2">How long do I have to own my second home before doing a cash-out refinance?</h3>
-          <p>
-            The standard Fannie Mae seasoning requirement is 6 months of title ownership. The clock starts from the recorded deed date, not the purchase contract date. Properties acquired through inheritance may have different seasoning calculations depending on the lender&apos;s overlay policies.
-          </p>
-
-          <h3 className="text-lg font-semibold mt-5 mb-2">Can I rent out my second home and still do a cash-out refinance as a second home?</h3>
-          <p>
-            No. A property classified as a second home cannot be subject to a rental agreement, listed on short-term rental platforms, or managed by a property management company. If you rent the property, it must be financed as a <Link href="/blog/cash-out-refinance-rental-property-investors-2026" className="text-blue-600 hover:text-blue-700">rental property cash-out refinance</Link>, which carries stricter LTV limits and higher pricing adjustments.
-          </p>
-
-          <h3 className="text-lg font-semibold mt-5 mb-2">What credit score do I need for a second home cash-out refinance?</h3>
-          <p>
-            The minimum credit score is 620 for conventional second home cash-out refinances. However, scores of 720 and above materially reduce the stacked loan-level pricing adjustments that Fannie Mae applies for second-home occupancy combined with cash-out transaction type. Credit optimization before application directly impacts your total borrowing cost.
-          </p>
-
-          <h3 className="text-lg font-semibold mt-5 mb-2">Is the interest rate higher on a second home cash-out refinance?</h3>
-          <p>
-            Yes. Second home cash-out refinances carry two layers of Fannie Mae loan-level pricing adjustments: one for the second-home occupancy classification and another for the cash-out transaction type. These adjustments stack, creating a rate premium above primary residence cash-out pricing. Working with a <Link href="/blog/when-to-refinance-2026" className="text-blue-600 hover:text-blue-700">wholesale broker who understands refinance timing</Link> helps minimize the net cost by sourcing from lenders with the most favorable second-home overlays.
-          </p>
-
-          <h3 className="text-lg font-semibold mt-5 mb-2">What reserves are required for a second home cash-out refinance?</h3>
-          <p>
-            Lenders typically require 2 to 6 months of PITIA reserves covering both your primary residence and the second home. Jumbo transactions often require 6 to 12 months per property. Acceptable reserve sources include liquid savings, retirement accounts (counted at 60&ndash;70% of balance), and vested stock or bond holdings. The <a href="https://www.consumerfinance.gov/ask-cfpb/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700">CFPB</a> provides additional guidance on understanding reserve requirements.
-          </p>
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-8 not-prose">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Related Equity and Refinance Resources</h2>
+            <ul className="grid gap-3 md:grid-cols-2 text-sm">
+              <li>
+                <Link href="/loan-programs/cash-out-refinance" className="text-blue-700 hover:underline">
+                  Cash-out refinance program hub
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-700 hover:underline">
+                  HELOC vs cash-out refinance
+                </Link>
+              </li>
+              <li>
+                <Link href="/home-equity" className="text-blue-700 hover:underline">
+                  Home equity options
+                </Link>
+              </li>
+              <li>
+                <Link href="/loan-programs/dscr-investment-loans" className="text-blue-700 hover:underline">
+                  DSCR investment property loans
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           {/* ===== SECTION 7: EXPERT SUMMARY + CTA (150-200 words) ===== */}
           <h2 className="text-2xl font-bold mt-10 mb-4">Expert Summary: Unlocking Your Second Home Equity</h2>
           <p>
-            A second home cash-out refinance converts dormant vacation-property equity into deployable capital&mdash;provided you navigate the 75% LTV ceiling, 6-month seasoning window, dual-property reserve requirements, and occupancy verification correctly. The stacked LLPA adjustments that Fannie Mae applies to second home cash-out transactions make lender selection and credit positioning especially important.
+            A second home cash-out refinance converts dormant vacation-property equity into deployable capital when you navigate program-specific LTV limits, seasoning review, dual-property reserve requirements, and occupancy verification correctly. The stacked pricing adjustments that can apply to second home cash-out transactions make lender selection and credit positioning especially important.
           </p>
           <p>
             As a wholesale mortgage broker licensed in California and Washington, I access second home cash-out programs from 50+ Wholesale Lenders including conventional, jumbo, and non-QM options. Each lender applies different overlays to Fannie Mae&apos;s baseline guidelines&mdash;meaning the lender your neighbor used may not be the right fit for your property, credit profile, or equity position. I compare programs across the entire wholesale market to match you with the transaction structure that delivers the right LTV, reserves, and pricing for your specific situation.

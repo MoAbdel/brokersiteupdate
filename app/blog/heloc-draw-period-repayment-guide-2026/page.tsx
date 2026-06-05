@@ -1,9 +1,12 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'Typical HELOC Terms 2026: Draw Period and Repayment Period Guide',
-  description: 'HELOCs have two phases: a draw period (typically 10 years) with interest-only minimums, then a repayment period (10-20 years) with full principal and interest payments. Learn how each phase works and how to prepare for payment changes. NMLS #1426884.',
+  title: 'Typical HELOC Draw and Repayment Periods in 2026',
+  description: 'Most HELOCs have a draw period followed by a repayment period. See how payments change, what borrowers should plan for, and when alternatives may fit.',
   keywords: ['typical HELOC terms draw period repayment period 2026', 'HELOC draw period repayment period', 'HELOC draw period', 'HELOC repayment period', 'HELOC two phases', 'HELOC payment shock', 'HELOC interest only period', 'HELOC repayment calculator 2026'],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026',
@@ -13,16 +16,63 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Typical HELOC Terms 2026: Draw Period and Repayment Period Guide',
-    description: 'HELOCs have two phases: a draw period (typically 10 years) with interest-only minimums, then a repayment period (10-20 years) with full principal and interest payments. Learn how each phase works and how to prepare for payment changes.',
+    title: 'Typical HELOC Draw and Repayment Periods in 2026',
+    description: 'Most HELOCs have a draw period followed by a repayment period. See how payments change, what borrowers should plan for, and when alternatives may fit.',
     url: 'https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-26',
-    modifiedTime: '2026-02-26',
+    modifiedTime: '2026-06-05',
   },
 };
+
+const helocPhaseColumns = [
+  { key: 'phase', label: 'HELOC phase' },
+  { key: 'payment', label: 'Typical payment' },
+  { key: 'borrowerAction', label: 'Borrower action' },
+  { key: 'mainRisk', label: 'Main risk' },
+  { key: 'planningMove', label: 'Planning move' },
+];
+
+const helocPhaseRows = [
+  {
+    cells: {
+      phase: 'Draw period',
+      payment: 'Often interest-only minimum payments, depending on lender terms',
+      borrowerAction: 'Borrow, repay, and borrow again up to the credit limit',
+      mainRisk: 'Balance can grow if principal is not reduced',
+      planningMove: 'Track the draw-period end date and make principal payments when possible',
+    },
+  },
+  {
+    cells: {
+      phase: 'Repayment period',
+      payment: 'Principal-and-interest payments over the repayment schedule',
+      borrowerAction: 'Stop drawing and repay the remaining balance',
+      mainRisk: 'Monthly payment can increase when amortization begins',
+      planningMove: 'Compare renewal, HELOAN, or cash-out refinance options before the reset',
+    },
+  },
+];
+
+const helocSources = [
+  {
+    label: 'CFPB: What is a home equity line of credit?',
+    href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-line-of-credit-heloc-en-107/',
+    description: 'Consumer explanation of HELOC draw periods, repayment periods, borrowing access, and payment risks.',
+  },
+  {
+    label: 'CFPB: Home equity loan vs HELOC',
+    href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-home-equity-loan-and-a-home-equity-line-of-credit-heloc-en-247/',
+    description: 'Official comparison of lump-sum home equity loans and revolving home equity lines of credit.',
+  },
+  {
+    label: 'CFPB: What you should know about HELOCs',
+    href: 'https://files.consumerfinance.gov/f/documents/cfpb_heloc-brochure_print.pdf?source=syndication',
+    description: 'Shopping and disclosure booklet covering HELOC costs, variable rates, and repayment planning.',
+  },
+];
 
 const faqData = [
   {
@@ -34,19 +84,19 @@ const faqData = [
     answer: 'Most HELOC draw periods last 10 years, though some lenders offer 5-year or 15-year draw periods. During this phase you can access funds as needed up to your credit limit while making interest-only minimum payments. Wholesale brokers access lenders with varying draw period lengths to match your timeline.',
   },
   {
-    question: 'What happens when my HELOC draw period ends?',
+    question: 'What happens when the draw period ends?',
     answer: 'When the draw period ends, you enter the repayment period and can no longer access additional funds. Your payment changes from interest-only to fully amortizing principal and interest over the remaining term. Most lenders send notification 6-12 months before the transition so you have time to prepare.',
   },
   {
     question: 'How much will my HELOC payment increase during the repayment period?',
-    answer: 'HELOC payments typically increase 50% to 200% when the repayment period begins because you start paying principal in addition to interest. On a $200,000 balance at 8.5%, payments jump from approximately $1,417 interest-only to $2,089 fully amortizing over 15 years. The exact increase depends on balance, rate, and repayment term.',
+    answer: 'HELOC payments often increase when the repayment period begins because you start paying principal in addition to interest. The exact increase depends on your balance, variable rate, repayment term, and whether you paid down principal during the draw period.',
   },
   {
-    question: 'Can I make principal payments during the HELOC draw period?',
+    question: 'Can you pay principal during the HELOC draw period?',
     answer: 'Yes, you can make principal payments at any time during the draw period with no prepayment penalty on most HELOCs. Paying down principal during the draw period reduces your balance, lowers future repayment period payments, and saves significant interest over the life of the loan. This is one of the most effective strategies to avoid payment shock.',
   },
   {
-    question: 'Can I refinance my HELOC before the repayment period starts?',
+    question: 'Can you renew or refinance a HELOC before repayment starts?',
     answer: 'Yes, refinancing before the repayment period is a common strategy. You can refinance into a new HELOC with a fresh draw period, consolidate into a fixed-rate home equity loan, or roll the balance into a cash-out refinance. A wholesale broker can compare options from 50+ Wholesale Lenders to find the most competitive terms available.',
   },
   {
@@ -83,7 +133,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'HELOC Draw Period vs Repayment Period 2026: How the Two Phases Work',
+    headline: 'Typical HELOC Draw and Repayment Periods in 2026',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -96,7 +146,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
       identifier: 'NMLS #2716106',
     },
     datePublished: '2026-02-26',
-    dateModified: '2026-02-26',
+    dateModified: '2026-06-05',
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': 'https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026',
@@ -181,10 +231,10 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
             Home Equity Education &mdash; February 2026
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Typical HELOC Terms 2026: Draw Period and Repayment Period Guide
+            Typical HELOC Draw and Repayment Periods in 2026
           </h1>
           <p className="speakable-hook text-xl text-gray-300 mb-8 max-w-3xl">
-            Every HELOC has two distinct phases: a draw period (typically 10 years) where you access funds and make interest-only minimums, followed by a repayment period (10&ndash;20 years) where you pay full principal and interest with no further draws allowed. Understanding both phases prevents payment shock and positions you for long-term financial success.
+            Most HELOCs have two distinct phases: a draw period when you can access funds, followed by a repayment period when the remaining balance is paid back. Understanding both phases helps you plan for payment changes before the line stops allowing new draws.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-center">
@@ -207,15 +257,69 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
         </nav>
 
         <p className="text-gray-600 mb-8">
-          By Mo Abdel, NMLS #1426884 | Published February 26, 2026
+          By Mo Abdel, NMLS #1426884 | Published February 26, 2026 | Last reviewed June 5, 2026
         </p>
+
+        <div className="mb-8 space-y-8">
+          <AnswerBlock
+            id="quick-answer"
+            title="What is a typical HELOC draw and repayment schedule?"
+            reviewedDate="2026-06-05"
+            reviewedLabel="June 5, 2026"
+          >
+            <p>
+              A typical HELOC has a draw period when you can borrow from the line of credit,
+              often with interest-only minimum payments, followed by a repayment period when
+              the balance is paid back with principal and interest.
+            </p>
+            <p>
+              Before the draw period ends, review your current balance, estimate the future
+              principal-and-interest payment, and compare whether a new HELOC, a{' '}
+              <Link href="/blog/home-equity-loan-fixed-rate-2026" className="text-blue-700 hover:underline">
+                fixed home equity loan
+              </Link>
+              , or a{' '}
+              <Link href="/blog/heloc-vs-cash-out-refinance-2026" className="text-blue-700 hover:underline">
+                cash-out refinance
+              </Link>{' '}
+              is a better fit.
+            </p>
+          </AnswerBlock>
+
+          <SemanticInfoTable
+            caption="HELOC draw period vs repayment period planning table"
+            columns={helocPhaseColumns}
+            rows={helocPhaseRows}
+            rowHeaderKey="phase"
+            footnote="Actual draw periods, repayment periods, minimum payments, fees, and renewal options vary by lender and credit agreement."
+          />
+
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-6">
+            <h2 className="text-xl font-bold text-slate-950">Payment reset planning checklist</h2>
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-slate-700">
+              <li>Confirm the exact draw-period end date in your HELOC agreement.</li>
+              <li>Ask the lender to estimate the principal-and-interest repayment payment.</li>
+              <li>Review refinance, renewal, and fixed home equity loan options before the reset.</li>
+              <li>Avoid maxing out the line without a specific payoff or refinance plan.</li>
+              <li>
+                Compare a HELOC with broader{' '}
+                <Link href="/home-equity" className="text-blue-700 hover:underline">
+                  home equity options
+                </Link>{' '}
+                before choosing the structure.
+              </li>
+            </ul>
+          </div>
+
+          <SourceBox sources={helocSources} />
+        </div>
 
         <section className="prose prose-lg max-w-none">
 
           {/* Citation Hook */}
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
             <p className="font-semibold text-gray-900 mb-4">
-              <strong>The bottom line:</strong> Typical HELOC terms in 2026 include a <strong>10-year draw period</strong> followed by a <strong>10- to 20-year repayment period</strong>. During the draw period, you can borrow up to your credit limit and usually make interest-only minimum payments. During the repayment period, you repay the outstanding balance with fully amortizing principal-and-interest payments. On a $200,000 HELOC balance at 8.5%, monthly payments jump from approximately $1,417 interest-only to $2,089 on a 15-year repayment schedule.
+              <strong>The bottom line:</strong> Typical HELOC terms in 2026 include a <strong>10-year draw period</strong> followed by a <strong>10- to 20-year repayment period</strong>. During the draw period, you can borrow up to your credit limit and usually make interest-only minimum payments. During the repayment period, you repay the outstanding balance with fully amortizing principal-and-interest payments. The payment change depends on your balance, rate, and repayment term.
             </p>
 
             <div className="overflow-x-auto my-4">
@@ -280,8 +384,8 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
                 <thead>
                   <tr className="bg-blue-100">
                     <th className="px-4 py-3 text-left font-semibold">HELOC Balance</th>
-                    <th className="px-4 py-3 text-left font-semibold">Interest-Only Payment (8.5%)</th>
-                    <th className="px-4 py-3 text-left font-semibold">P&amp;I Payment (15-yr)</th>
+                    <th className="px-4 py-3 text-left font-semibold">Illustrative Interest-Only Payment</th>
+                    <th className="px-4 py-3 text-left font-semibold">Illustrative P&amp;I Payment (15-yr)</th>
                     <th className="px-4 py-3 text-left font-semibold">Payment Increase</th>
                   </tr>
                 </thead>
@@ -348,7 +452,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
                   <th className="px-4 py-3 text-left font-semibold">Payment Type</th>
                   <th className="px-4 py-3 text-left font-semibold">How It Works</th>
                   <th className="px-4 py-3 text-left font-semibold">Balance Impact</th>
-                  <th className="px-4 py-3 text-left font-semibold">Monthly Cost ($200K at 8.5%)</th>
+                  <th className="px-4 py-3 text-left font-semibold">Illustrative Monthly Cost ($200K balance)</th>
                 </tr>
               </thead>
               <tbody>
@@ -406,7 +510,7 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold">Balance at End of Draw</th>
-                  <th className="px-4 py-3 text-left font-semibold">I/O Payment (8.5%)</th>
+                  <th className="px-4 py-3 text-left font-semibold">Illustrative I/O Payment</th>
                   <th className="px-4 py-3 text-left font-semibold">P&amp;I 10-yr Repay</th>
                   <th className="px-4 py-3 text-left font-semibold">P&amp;I 15-yr Repay</th>
                   <th className="px-4 py-3 text-left font-semibold">P&amp;I 20-yr Repay</th>
@@ -455,11 +559,11 @@ export default function HelocDrawPeriodRepaymentGuidePage() {
           <div className="bg-gray-100 p-4 rounded-lg my-4">
             <p className="font-mono mb-0">
               <strong>Your HELOC Rate = Prime Rate + Lender Margin</strong><br /><br />
-              Example: Prime Rate (8.50%) + Margin (0.50%) = <strong>9.00% HELOC Rate</strong><br /><br />
-              When the Fed cuts rates by 0.25%:<br />
-              New Prime Rate (8.25%) + Margin (0.50%) = <strong>8.75% HELOC Rate</strong><br /><br />
-              When the Fed raises rates by 0.25%:<br />
-              New Prime Rate (8.75%) + Margin (0.50%) = <strong>9.25% HELOC Rate</strong>
+              Example: Published Prime Rate + Lender Margin = Your HELOC Rate<br /><br />
+              When the published index decreases:<br />
+              New Prime Rate + Lender Margin = Lower Variable HELOC Rate<br /><br />
+              When the published index increases:<br />
+              New Prime Rate + Lender Margin = Higher Variable HELOC Rate
             </p>
           </div>
 

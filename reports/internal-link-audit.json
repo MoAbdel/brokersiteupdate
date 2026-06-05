@@ -727,12 +727,6 @@
       "appPath": "app\\guides\\why-choose-local-mortgage-broker\\page.tsx"
     },
     {
-      "path": "/home-equity",
-      "url": "https://www.mothebroker.com/home-equity",
-      "inboundLinks": 1,
-      "appPath": "app\\home-equity\\page.tsx"
-    },
-    {
       "path": "/loan-programs/bank-statement-loans-irvine",
       "url": "https://www.mothebroker.com/loan-programs/bank-statement-loans-irvine",
       "inboundLinks": 1,
@@ -911,12 +905,6 @@
       "url": "https://www.mothebroker.com/blog/dscr-commercial-mixed-use-retail-2026",
       "inboundLinks": 2,
       "appPath": "app\\blog\\dscr-commercial-mixed-use-retail-2026\\page.tsx"
-    },
-    {
-      "path": "/blog/dscr-loan-seasoning-requirements-2026",
-      "url": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026",
-      "inboundLinks": 2,
-      "appPath": "app\\blog\\dscr-loan-seasoning-requirements-2026\\page.tsx"
     },
     {
       "path": "/blog/dscr-out-of-state-investor-california-washington-2026",
@@ -1309,6 +1297,12 @@
       "appPath": "app\\guides\\orange-county-home-buyer-guide\\page.tsx"
     },
     {
+      "path": "/home-equity",
+      "url": "https://www.mothebroker.com/home-equity",
+      "inboundLinks": 3,
+      "appPath": "app\\home-equity\\page.tsx"
+    },
+    {
       "path": "/loan-programs/non-qm-loans",
       "url": "https://www.mothebroker.com/loan-programs/non-qm-loans",
       "inboundLinks": 3,
@@ -1355,6 +1349,12 @@
       "url": "https://www.mothebroker.com/blog/dscr-loan-closing-costs-fee-breakdown-2026",
       "inboundLinks": 4,
       "appPath": "app\\blog\\dscr-loan-closing-costs-fee-breakdown-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/dscr-loan-seasoning-requirements-2026",
+      "url": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026",
+      "inboundLinks": 4,
+      "appPath": "app\\blog\\dscr-loan-seasoning-requirements-2026\\page.tsx"
     },
     {
       "path": "/blog/heloc-after-refinancing-timing-qualification-2026",
@@ -1843,28 +1843,22 @@
       "appPath": "app\\wholesale-mortgage-broker-california\\how-to-get-wholesale-rates\\page.tsx"
     },
     {
-      "path": "/blog/hecm-principal-limit-factors-2026",
-      "url": "https://www.mothebroker.com/blog/hecm-principal-limit-factors-2026",
-      "inboundLinks": 13,
-      "appPath": "app\\blog\\hecm-principal-limit-factors-2026\\page.tsx"
-    },
-    {
       "path": "/blog/conventional-loans-complete-guide-2026",
       "url": "https://www.mothebroker.com/blog/conventional-loans-complete-guide-2026",
       "inboundLinks": 14,
       "appPath": "app\\blog\\conventional-loans-complete-guide-2026\\page.tsx"
     },
     {
-      "path": "/blog/dscr-loan-interest-only-options-2026",
-      "url": "https://www.mothebroker.com/blog/dscr-loan-interest-only-options-2026",
-      "inboundLinks": 14,
-      "appPath": "app\\blog\\dscr-loan-interest-only-options-2026\\page.tsx"
-    },
-    {
       "path": "/blog/fha-streamline-refinance-guide-2026",
       "url": "https://www.mothebroker.com/blog/fha-streamline-refinance-guide-2026",
       "inboundLinks": 14,
       "appPath": "app\\blog\\fha-streamline-refinance-guide-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/hecm-principal-limit-factors-2026",
+      "url": "https://www.mothebroker.com/blog/hecm-principal-limit-factors-2026",
+      "inboundLinks": 14,
+      "appPath": "app\\blog\\hecm-principal-limit-factors-2026\\page.tsx"
     },
     {
       "path": "/blog/heloc-requirements-california-washington-2026",
@@ -1933,6 +1927,12 @@
       "appPath": "app\\blog\\what-is-reverse-mortgage-complete-guide-2026\\page.tsx"
     },
     {
+      "path": "/blog/dscr-loan-interest-only-options-2026",
+      "url": "https://www.mothebroker.com/blog/dscr-loan-interest-only-options-2026",
+      "inboundLinks": 17,
+      "appPath": "app\\blog\\dscr-loan-interest-only-options-2026\\page.tsx"
+    },
+    {
       "path": "/contact-orange-county-mortgage-broker",
       "url": "https://www.mothebroker.com/contact-orange-county-mortgage-broker",
       "inboundLinks": 17,
@@ -1987,12 +1987,6 @@
       "appPath": "app\\loan-programs\\jumbo-loans\\page.tsx"
     },
     {
-      "path": "/blog/dscr-loan-llc-entity-structure-2026",
-      "url": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
-      "inboundLinks": 21,
-      "appPath": "app\\blog\\dscr-loan-llc-entity-structure-2026\\page.tsx"
-    },
-    {
       "path": "/blog/dscr-vs-conventional-investment-property-2026",
       "url": "https://www.mothebroker.com/blog/dscr-vs-conventional-investment-property-2026",
       "inboundLinks": 21,
@@ -2017,6 +2011,12 @@
       "appPath": "app\\blog\\non-qm-loans-complete-guide-2026\\page.tsx"
     },
     {
+      "path": "/blog/dscr-loan-llc-entity-structure-2026",
+      "url": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
+      "inboundLinks": 23,
+      "appPath": "app\\blog\\dscr-loan-llc-entity-structure-2026\\page.tsx"
+    },
+    {
       "path": "/blog/200-lender-advantage-explained-2026",
       "url": "https://www.mothebroker.com/blog/200-lender-advantage-explained-2026",
       "inboundLinks": 24,
@@ -2025,7 +2025,7 @@
     {
       "path": "/blog/home-equity-loan-fixed-rate-2026",
       "url": "https://www.mothebroker.com/blog/home-equity-loan-fixed-rate-2026",
-      "inboundLinks": 24,
+      "inboundLinks": 25,
       "appPath": "app\\blog\\home-equity-loan-fixed-rate-2026\\page.tsx"
     },
     {
@@ -2035,16 +2035,16 @@
       "appPath": "app\\heloan-orange-county\\page.tsx"
     },
     {
-      "path": "/loan-programs/cash-out-refinance",
-      "url": "https://www.mothebroker.com/loan-programs/cash-out-refinance",
-      "inboundLinks": 25,
-      "appPath": "app\\loan-programs\\cash-out-refinance\\page.tsx"
-    },
-    {
       "path": "/blog/heloan-vs-cash-out-refinance-2026",
       "url": "https://www.mothebroker.com/blog/heloan-vs-cash-out-refinance-2026",
       "inboundLinks": 26,
       "appPath": "app\\blog\\heloan-vs-cash-out-refinance-2026\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/cash-out-refinance",
+      "url": "https://www.mothebroker.com/loan-programs/cash-out-refinance",
+      "inboundLinks": 26,
+      "appPath": "app\\loan-programs\\cash-out-refinance\\page.tsx"
     },
     {
       "path": "/blog/jumbo-loans-orange-county-2026",
@@ -2089,12 +2089,6 @@
       "appPath": "app\\blog\\reverse-mortgage-inheritance-heirs-2026\\page.tsx"
     },
     {
-      "path": "/blog/reverse-mortgage-requirements-complete-2026",
-      "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
-      "inboundLinks": 31,
-      "appPath": "app\\blog\\reverse-mortgage-requirements-complete-2026\\page.tsx"
-    },
-    {
       "path": "/loan-programs",
       "url": "https://www.mothebroker.com/loan-programs",
       "inboundLinks": 31,
@@ -2131,6 +2125,12 @@
       "appPath": "app\\blog\\reverse-mortgage-payout-options-2026\\page.tsx"
     },
     {
+      "path": "/blog/reverse-mortgage-requirements-complete-2026",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-requirements-complete-2026",
+      "inboundLinks": 32,
+      "appPath": "app\\blog\\reverse-mortgage-requirements-complete-2026\\page.tsx"
+    },
+    {
       "path": "/loan-programs/rate-term-refinance",
       "url": "https://www.mothebroker.com/loan-programs/rate-term-refinance",
       "inboundLinks": 32,
@@ -2143,21 +2143,21 @@
       "appPath": "app\\calculator\\page.tsx"
     },
     {
+      "path": "/blog/cash-out-refinance-rental-property-investors-2026",
+      "url": "https://www.mothebroker.com/blog/cash-out-refinance-rental-property-investors-2026",
+      "inboundLinks": 35,
+      "appPath": "app\\blog\\cash-out-refinance-rental-property-investors-2026\\page.tsx"
+    },
+    {
       "path": "/blog/dscr-loan-calculator-ratio-2026",
       "url": "https://www.mothebroker.com/blog/dscr-loan-calculator-ratio-2026",
       "inboundLinks": 35,
       "appPath": "app\\blog\\dscr-loan-calculator-ratio-2026\\page.tsx"
     },
     {
-      "path": "/blog/cash-out-refinance-rental-property-investors-2026",
-      "url": "https://www.mothebroker.com/blog/cash-out-refinance-rental-property-investors-2026",
-      "inboundLinks": 36,
-      "appPath": "app\\blog\\cash-out-refinance-rental-property-investors-2026\\page.tsx"
-    },
-    {
       "path": "/blog/when-to-refinance-2026",
       "url": "https://www.mothebroker.com/blog/when-to-refinance-2026",
-      "inboundLinks": 37,
+      "inboundLinks": 36,
       "appPath": "app\\blog\\when-to-refinance-2026\\page.tsx"
     },
     {
@@ -2165,12 +2165,6 @@
       "url": "https://www.mothebroker.com/blog/hecm-for-purchase-2026",
       "inboundLinks": 38,
       "appPath": "app\\blog\\hecm-for-purchase-2026\\page.tsx"
-    },
-    {
-      "path": "/blog/proprietary-reverse-mortgage-2026",
-      "url": "https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026",
-      "inboundLinks": 38,
-      "appPath": "app\\blog\\proprietary-reverse-mortgage-2026\\page.tsx"
     },
     {
       "path": "/blog/wholesale-mortgage-broker-orange-county-2026",
@@ -2183,6 +2177,12 @@
       "url": "https://www.mothebroker.com/blog/hecm-pros-cons-2026",
       "inboundLinks": 39,
       "appPath": "app\\blog\\hecm-pros-cons-2026\\page.tsx"
+    },
+    {
+      "path": "/blog/proprietary-reverse-mortgage-2026",
+      "url": "https://www.mothebroker.com/blog/proprietary-reverse-mortgage-2026",
+      "inboundLinks": 39,
+      "appPath": "app\\blog\\proprietary-reverse-mortgage-2026\\page.tsx"
     },
     {
       "path": "/heloc-orange-county",
@@ -2227,16 +2227,16 @@
       "appPath": "app\\blog\\cash-out-refinance-complete-guide-2026\\page.tsx"
     },
     {
-      "path": "/loan-programs/dscr-investment-loans",
-      "url": "https://www.mothebroker.com/loan-programs/dscr-investment-loans",
-      "inboundLinks": 49,
-      "appPath": "app\\loan-programs\\dscr-investment-loans\\page.tsx"
-    },
-    {
       "path": "/blog/dscr-investment-property-loans-2026",
       "url": "https://www.mothebroker.com/blog/dscr-investment-property-loans-2026",
       "inboundLinks": 50,
       "appPath": "app\\blog\\dscr-investment-property-loans-2026\\page.tsx"
+    },
+    {
+      "path": "/loan-programs/dscr-investment-loans",
+      "url": "https://www.mothebroker.com/loan-programs/dscr-investment-loans",
+      "inboundLinks": 54,
+      "appPath": "app\\loan-programs\\dscr-investment-loans\\page.tsx"
     },
     {
       "path": "/blog/home-equity-california-guide-2026",
@@ -2257,21 +2257,21 @@
       "appPath": "app\\blog\\cash-out-refinance-how-it-works-2026\\page.tsx"
     },
     {
-      "path": "/reverse-mortgages",
-      "url": "https://www.mothebroker.com/reverse-mortgages",
-      "inboundLinks": 74,
-      "appPath": "app\\reverse-mortgages\\page.tsx"
-    },
-    {
       "path": "/blog/heloc-complete-guide-2026",
       "url": "https://www.mothebroker.com/blog/heloc-complete-guide-2026",
       "inboundLinks": 75,
       "appPath": "app\\blog\\heloc-complete-guide-2026\\page.tsx"
     },
     {
+      "path": "/reverse-mortgages",
+      "url": "https://www.mothebroker.com/reverse-mortgages",
+      "inboundLinks": 75,
+      "appPath": "app\\reverse-mortgages\\page.tsx"
+    },
+    {
       "path": "/blog/heloc-vs-cash-out-refinance-2026",
       "url": "https://www.mothebroker.com/blog/heloc-vs-cash-out-refinance-2026",
-      "inboundLinks": 76,
+      "inboundLinks": 78,
       "appPath": "app\\blog\\heloc-vs-cash-out-refinance-2026\\page.tsx"
     },
     {

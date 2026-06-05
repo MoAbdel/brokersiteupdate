@@ -2,20 +2,23 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, Calculator, CheckCircle2, ArrowRight, Home, AlertTriangle, DollarSign, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'Reverse Mortgage Closing Costs 2026: HECM Fees, Origination & What Seniors Pay | Mo Abdel',
-  description: 'Complete breakdown of reverse mortgage closing costs in 2026. HECM origination fees capped at $6,000, 2% initial MIP, 0.5% annual MIP, and third-party costs. Most fees finance into the loan. NMLS #1426884.',
+  title: 'Reverse Mortgage Closing Costs: HECM Fees Explained',
+  description: 'See which HECM closing costs are common, which fees may be financed, and what seniors should compare before choosing a reverse mortgage lender.',
   keywords: ['reverse mortgage closing costs', 'HECM closing costs', 'reverse mortgage fees', 'reverse mortgage origination fee', 'HECM MIP', 'reverse mortgage costs 2026', 'HECM fees 2026', 'reverse mortgage appraisal cost', 'HECM origination fee cap'],
   openGraph: {
-    title: 'Reverse Mortgage Closing Costs 2026: HECM Fees, Origination & What Seniors Pay',
-    description: 'Complete breakdown of reverse mortgage closing costs in 2026. HECM origination fees capped at $6,000, 2% initial MIP, 0.5% annual MIP. Most fees finance into the loan.',
+    title: 'Reverse Mortgage Closing Costs: HECM Fees Explained',
+    description: 'See which HECM closing costs are common, which fees may be financed, and what seniors should compare before choosing a reverse mortgage lender.',
     url: 'https://www.mothebroker.com/blog/reverse-mortgage-closing-costs-fees-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-25T00:00:00Z',
-    modifiedTime: '2026-02-25T00:00:00Z',
+    modifiedTime: '2026-06-05T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -23,14 +26,82 @@ export const metadata: Metadata = {
   },
 };
 
+const hecmCostColumns = [
+  { key: 'fee', label: 'HECM cost' },
+  { key: 'whenCharged', label: 'When it applies' },
+  { key: 'canFinance', label: 'Can it be financed?' },
+  { key: 'borrowerImpact', label: 'Borrower impact' },
+];
+
+const hecmCostRows = [
+  {
+    cells: {
+      fee: 'Initial FHA mortgage insurance premium',
+      whenCharged: 'At closing',
+      canFinance: 'Often yes, subject to loan terms',
+      borrowerImpact: 'Reduces available proceeds or increases the starting loan balance',
+    },
+  },
+  {
+    cells: {
+      fee: 'Annual FHA mortgage insurance premium',
+      whenCharged: 'Accrues over time',
+      canFinance: 'Added to the loan balance',
+      borrowerImpact: 'Loan balance grows as interest and MIP accrue',
+    },
+  },
+  {
+    cells: {
+      fee: 'Origination fee',
+      whenCharged: 'At closing if charged by the lender',
+      canFinance: 'Often yes',
+      borrowerImpact: 'May be reduced or waived by some lenders, but must be compared with margin and proceeds',
+    },
+  },
+  {
+    cells: {
+      fee: 'Appraisal, title, recording, and settlement costs',
+      whenCharged: 'During processing and closing',
+      canFinance: 'Often yes, depending on the cost and program',
+      borrowerImpact: 'Third-party charges vary by property, county, and provider',
+    },
+  },
+  {
+    cells: {
+      fee: 'HECM counseling',
+      whenCharged: 'Before loan application can move forward',
+      canFinance: 'Varies by agency and borrower circumstances',
+      borrowerImpact: 'Counseling is required before a HECM can close',
+    },
+  },
+];
+
+const reverseCostSources = [
+  {
+    label: 'HUD: HECM consumer information',
+    href: 'https://www.hud.gov/hud-partners/single-family-hecmhome',
+    description: 'HUD overview of the FHA-insured Home Equity Conversion Mortgage program, borrower age, counseling, and proceeds factors.',
+  },
+  {
+    label: 'HUD: HECM maximum claim amount by calendar year',
+    href: 'https://www.hud.gov/stat/sfh/hecm',
+    description: 'HUD table listing the 2026 HECM maximum claim amount and HECM lender resources.',
+  },
+  {
+    label: 'CFPB: How much does a reverse mortgage loan cost?',
+    href: 'https://www.consumerfinance.gov/ask-cfpb/how-much-does-a-reverse-mortgage-loan-cost-en-237/',
+    description: 'Consumer guidance on reverse mortgage costs, closing costs, and required HECM counseling.',
+  },
+];
+
 const faqData = [
   {
     question: "What are the total closing costs on a reverse mortgage?",
     answer: "Total HECM closing costs typically range from $8,000 to $20,000 depending on the home value and loan amount. This includes the origination fee (up to $6,000), initial mortgage insurance premium (2% of the maximum claim amount), appraisal ($450-$750), title insurance, recording fees, and HUD-required counseling ($125 average). Most of these costs can be financed into the loan balance rather than paid out of pocket."
   },
   {
-    question: "Can reverse mortgage closing costs be financed into the loan?",
-    answer: "Yes. Nearly all HECM closing costs can be financed into the loan balance, meaning they come out of the loan proceeds rather than requiring cash at the closing table. The only cost that must be paid out of pocket before closing is the HUD-required counseling session, which averages $125. Financing closing costs reduces your initial loan proceeds but eliminates the need for upfront cash."
+    question: "Can reverse mortgage closing costs be financed?",
+    answer: "Yes. Many HECM closing costs can be financed into the loan balance, meaning they reduce available loan proceeds or increase the loan balance rather than being paid separately at closing. Financing costs does not make them free."
   },
   {
     question: "What is the HECM origination fee and how is it calculated?",
@@ -45,8 +116,12 @@ const faqData = [
     answer: "Yes. Every HECM loan requires an FHA appraisal to determine the home's current market value. The appraisal fee typically ranges from $450 to $750 depending on property type, location, and complexity. If the appraiser identifies health and safety issues, a second inspection after repairs may cost an additional $150-$200. The appraisal cost can be financed into the loan."
   },
   {
-    question: "Is the HECM counseling session free?",
-    answer: "No. HUD-required counseling is not free, though the cost is modest. Sessions with HUD-approved counseling agencies average $125, with a typical range of $0 to $200. Some agencies offer reduced fees or free counseling for low-income borrowers. This is the only reverse mortgage closing cost that must be paid out of pocket before the loan application can proceed."
+    question: "What does HECM counseling cost?",
+    answer: "HECM counseling costs vary by HUD-approved counseling agency and borrower circumstances. HUD-approved agencies may charge a reasonable fee, but CFPB notes they must explain charges before counseling and cannot charge a fee if the borrower cannot afford it."
+  },
+  {
+    question: "Are proprietary reverse mortgage costs different from HECM costs?",
+    answer: "Yes. Proprietary reverse mortgages are private products and do not use the same FHA mortgage insurance structure as HECMs. They may have different lender fees, third-party costs, margins, loan limits, and borrower protections, so borrowers should compare a HECM and proprietary quote side by side."
   },
   {
     question: "Are reverse mortgage closing costs higher than regular mortgage closing costs?",
@@ -74,7 +149,7 @@ const faqData = [
   },
   {
     question: "What is the maximum claim amount and why does it matter for closing costs?",
-    answer: "The maximum claim amount is the lesser of the appraised home value or the FHA HECM lending limit ($1,209,750 in 2026). This figure determines both the initial MIP (2% of the maximum claim amount) and the origination fee calculation. For homes valued above $1,209,750, the maximum claim amount is capped at the FHA limit, which also caps the associated fees. This means homeowners with properties worth $2 million pay the same initial MIP as those with homes valued at $1,209,750."
+    answer: "The maximum claim amount is the lesser of the appraised home value or the FHA HECM lending limit ($1,249,125 in 2026). This figure determines both the initial MIP and the origination fee calculation. For homes valued above $1,249,125, the maximum claim amount is capped at the FHA limit, which also caps the associated FHA-insured HECM calculations."
   }
 ];
 
@@ -88,7 +163,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Reverse Mortgage Closing Costs 2026: HECM Fees, Origination & What Seniors Pay",
+            "headline": "Reverse Mortgage Closing Costs: HECM Fees Explained",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -102,7 +177,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-25",
-            "dateModified": "2026-02-25",
+            "dateModified": "2026-06-05",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/reverse-mortgage-closing-costs-fees-2026",
@@ -197,11 +272,11 @@ export default function ReverseMortgageClosingCostsFees2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Reverse Mortgage Closing Costs 2026: HECM Fees, Origination &amp; What Seniors Pay
+              Reverse Mortgage Closing Costs: HECM Fees Explained
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
-              According to Mo Abdel, NMLS #1426884, most HECM closing costs &mdash; including the origination fee (capped at $6,000), the 2% initial mortgage insurance premium, and all third-party charges &mdash; can be financed directly into the loan balance, meaning seniors typically pay nothing out of pocket beyond the $125 counseling session.
+              Reverse mortgage closing costs can include FHA mortgage insurance, origination, appraisal, counseling, title, recording, and servicing-related fees. Some costs may be financed, but they still reduce available equity or increase the loan balance.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -225,11 +300,44 @@ export default function ReverseMortgageClosingCostsFees2026() {
 
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mb-12 space-y-8">
+          <AnswerBlock
+            id="quick-answer"
+            title="What closing costs can a HECM reverse mortgage include?"
+            reviewedDate="2026-06-05"
+            reviewedLabel="June 5, 2026"
+          >
+            <p>
+              Reverse mortgage closing costs can include FHA mortgage insurance,
+              origination, appraisal, counseling, title, recording, and servicing-related
+              fees. Some costs may be financed, but they still reduce available equity or
+              increase the loan balance.
+            </p>
+            <p>
+              Compare the itemized Loan Estimate, available proceeds, lender margin, and
+              long-term loan-balance projection before choosing a HECM or a{' '}
+              <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-700 hover:underline">
+                proprietary reverse mortgage
+              </Link>
+              .
+            </p>
+          </AnswerBlock>
+
+          <SemanticInfoTable
+            caption="Common HECM closing costs and how they affect proceeds"
+            columns={hecmCostColumns}
+            rows={hecmCostRows}
+            rowHeaderKey="fee"
+            footnote="Only a lender can provide the final loan-specific cost disclosure. This table is educational and not a loan quote."
+          />
+
+          <SourceBox sources={reverseCostSources} />
+        </div>
 
         {/* Section 1: Citation Hook */}
         <section className="mb-12">
           <p className="text-lg text-slate-700 mb-6 leading-relaxed speakable-summary">
-            <strong>Reverse mortgage closing costs</strong> are the fees charged to originate, insure, and settle a Home Equity Conversion Mortgage (HECM). Unlike conventional forward mortgages where buyers pay closing costs in cash at the settlement table, the HECM program allows borrowers to finance nearly every fee into the loan balance &mdash; reducing the actual out-of-pocket expense to roughly $125 for the required <a href="https://www.hud.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">HUD</a>-approved counseling session.
+            <strong>Reverse mortgage closing costs</strong> are the fees charged to originate, insure, and settle a Home Equity Conversion Mortgage (HECM). Unlike conventional forward mortgages where buyers usually bring cash to the settlement table, many HECM costs can be financed into the loan balance. Those financed costs still reduce available proceeds or increase the amount owed over time. Required <a href="https://www.hud.gov/hud-partners/single-family-hecmhome" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">HUD</a>-approved counseling must also be completed before the loan can close.
           </p>
 
           <p className="text-lg text-slate-700 mb-6 leading-relaxed">
@@ -237,7 +345,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
           </p>
 
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Having originated HECM loans across California and Washington, I see the same pattern: borrowers enter the process expecting $30,000 or more in upfront cash requirements and discover that financing costs into the loan reduces their actual outlay to a single counseling fee. The table below breaks down every HECM closing cost category with current 2026 cost ranges.
+            Having originated HECM loans across California and Washington, I see the same pattern: borrowers often focus on upfront cash requirements and miss the more important question, which is how financed fees affect proceeds and the loan balance over time. The table below breaks down common HECM closing cost categories.
           </p>
 
           {/* Data Table 1: HECM Cost Breakdown */}
@@ -501,11 +609,11 @@ export default function ReverseMortgageClosingCostsFees2026() {
           </h2>
 
           <p className="text-lg text-slate-600 mb-6">
-            The initial mortgage insurance premium is the largest single closing cost on a HECM loan. At 2% of the maximum claim amount, it can range from approximately $5,000 on a $250,000 home to $24,195 on a home at or above the 2026 FHA HECM lending limit of $1,209,750.
+            The initial mortgage insurance premium is the largest single closing cost on a HECM loan. At 2% of the maximum claim amount, it can range from approximately $5,000 on a $250,000 home to $24,982.50 on a home at or above the 2026 FHA HECM maximum claim amount of $1,249,125.
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
-            The maximum claim amount is defined as the lesser of the appraised home value or the FHA HECM lending limit. For 2026, the FHA HECM lending limit is $1,209,750, which applies to high-cost areas including most of California and parts of Washington. Homes valued above this limit still use $1,209,750 as the maximum claim amount, which caps the initial MIP at $24,195 regardless of actual home value.
+            The maximum claim amount is defined as the lesser of the appraised home value or the FHA HECM limit. For 2026, HUD lists the HECM maximum claim amount at $1,249,125. Homes valued above this limit still use $1,249,125 as the maximum claim amount for FHA-insured HECM calculations, which caps the initial MIP at $24,982.50 regardless of actual home value.
           </p>
 
           <p className="text-lg text-slate-600 mb-6">
@@ -613,18 +721,18 @@ export default function ReverseMortgageClosingCostsFees2026() {
                   <td className="border border-slate-200 px-4 py-3 font-semibold">$22,800&ndash;$24,500</td>
                 </tr>
                 <tr className="bg-white">
-                  <td className="border border-slate-200 px-4 py-3 font-medium">$1,209,750+</td>
-                  <td className="border border-slate-200 px-4 py-3">$24,195</td>
+                  <td className="border border-slate-200 px-4 py-3 font-medium">$1,249,125+</td>
+                  <td className="border border-slate-200 px-4 py-3">$24,982.50</td>
                   <td className="border border-slate-200 px-4 py-3">$6,000</td>
                   <td className="border border-slate-200 px-4 py-3">$2,000&ndash;$4,000</td>
-                  <td className="border border-slate-200 px-4 py-3 font-semibold">$32,195&ndash;$34,195</td>
+                  <td className="border border-slate-200 px-4 py-3 font-semibold">$32,982.50&ndash;$34,982.50</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <p className="text-lg text-slate-600 mb-6">
-            Note that for homes valued above the 2026 FHA HECM lending limit of $1,209,750, both the initial MIP and origination fee are calculated on the $1,209,750 cap &mdash; not the actual home value. Homeowners with properties significantly above this limit may want to explore <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">proprietary reverse mortgage programs</Link> that offer higher loan limits without FHA mortgage insurance requirements, though those programs carry their own fee structures.
+            Note that for homes valued above the 2026 FHA HECM maximum claim amount of $1,249,125, FHA-insured HECM calculations use the $1,249,125 cap rather than the actual home value. Homeowners with properties significantly above this limit may want to explore <Link href="/blog/proprietary-reverse-mortgage-2026" className="text-blue-600 hover:underline">proprietary reverse mortgage programs</Link> that offer higher loan limits without FHA mortgage insurance requirements, though those programs carry their own fee structures.
           </p>
 
           {/* Out-of-Pocket vs Financed Comparison */}
@@ -671,12 +779,12 @@ export default function ReverseMortgageClosingCostsFees2026() {
           <div className="space-y-6">
             <div className="border border-slate-200 rounded-lg p-6">
               <h3 className="font-bold text-slate-900 mb-2">How much does a reverse mortgage cost upfront?</h3>
-              <p className="text-slate-600"><strong>The only required upfront cash cost is the HUD counseling session, averaging $125.</strong> All other HECM closing costs &mdash; including the 2% initial MIP, origination fee, appraisal, title, and settlement charges &mdash; can be financed into the loan balance so they come out of proceeds rather than requiring cash at closing.</p>
+              <p className="text-slate-600"><strong>HECM counseling is the main pre-closing requirement borrowers should plan for, and counseling fees vary by agency and borrower circumstances.</strong> Many other HECM closing costs can be financed into the loan balance, but financed costs still reduce available proceeds or increase the amount owed.</p>
             </div>
 
             <div className="border border-slate-200 rounded-lg p-6">
               <h3 className="font-bold text-slate-900 mb-2">What is the 2% fee on a reverse mortgage?</h3>
-              <p className="text-slate-600"><strong>The 2% fee is the initial mortgage insurance premium paid to FHA at closing.</strong> It is calculated as 2% of the maximum claim amount (the lesser of appraised value or the FHA lending limit of $1,209,750 in 2026). This MIP funds the FHA insurance that provides the non-recourse guarantee protecting borrowers and heirs.</p>
+              <p className="text-slate-600"><strong>The 2% fee is the initial mortgage insurance premium paid to FHA at closing.</strong> It is calculated as 2% of the maximum claim amount (the lesser of appraised value or the FHA HECM limit of $1,249,125 in 2026). This MIP funds the FHA insurance that provides the non-recourse guarantee protecting borrowers and heirs.</p>
             </div>
 
             <div className="border border-slate-200 rounded-lg p-6">
@@ -696,7 +804,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
 
             <div className="border border-slate-200 rounded-lg p-6">
               <h3 className="font-bold text-slate-900 mb-2">Is the counseling fee the only out-of-pocket cost?</h3>
-              <p className="text-slate-600"><strong>Yes, HUD counseling ($125 average) is the only cost that must be paid in cash.</strong> Federal regulations prohibit lenders from paying the counseling fee on the borrower&apos;s behalf to maintain counselor independence. Every other closing cost can be financed into the HECM loan balance. Learn more about the counseling process in our <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">complete HECM guide</Link>.</p>
+              <p className="text-slate-600"><strong>Counseling fees vary by HUD-approved agency and borrower circumstances.</strong> Counseling must be completed before a HECM can close, and many other closing costs may be financed into the HECM loan balance. Learn more about the counseling process in our <Link href="/blog/reverse-mortgage-complete-guide-2026" className="text-blue-600 hover:underline">complete HECM guide</Link>.</p>
             </div>
 
             <div className="border border-slate-200 rounded-lg p-6">
@@ -730,7 +838,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
 
           <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 mb-8">
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-              Reverse mortgage closing costs consist of three layers: the FHA-mandated mortgage insurance premiums (2% initial, 0.5% annual), the HUD-formula origination fee (capped at $6,000), and standard third-party settlement charges. The total ranges from roughly $8,000 on a modest home to $34,000 on a home at the FHA lending limit. The critical fact most borrowers miss is that every cost except the $125 counseling fee finances into the loan. For the majority of seniors considering a HECM, the actual cash required to close is under $200.
+              Reverse mortgage closing costs consist of three layers: the FHA-mandated mortgage insurance premiums, the HUD-formula origination fee, and standard third-party settlement charges. The critical fact most borrowers miss is that financing costs changes where the costs are paid from; it does not make the costs disappear. Financed fees reduce available proceeds or increase the loan balance, so the better comparison is net proceeds, margin, and projected balance over time.
             </p>
 
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
@@ -768,6 +876,10 @@ export default function ReverseMortgageClosingCostsFees2026() {
             Related Reverse Mortgage Resources
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
+            <Link href="/reverse-mortgages" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
+              <Home className="w-5 h-5 text-blue-600 flex-shrink-0" />
+              <span className="text-slate-700 hover:text-blue-600">Reverse Mortgage Program Hub</span>
+            </Link>
             <Link href="/blog/reverse-mortgage-complete-guide-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
               <Home className="w-5 h-5 text-blue-600 flex-shrink-0" />
               <span className="text-slate-700 hover:text-blue-600">Complete Reverse Mortgage Guide 2026</span>
@@ -779,6 +891,14 @@ export default function ReverseMortgageClosingCostsFees2026() {
             <Link href="/blog/reverse-mortgage-interest-rates-current-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
               <DollarSign className="w-5 h-5 text-blue-600 flex-shrink-0" />
               <span className="text-slate-700 hover:text-blue-600">Current HECM Rate Factors 2026</span>
+            </Link>
+            <Link href="/blog/reverse-mortgage-requirements-complete-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
+              <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0" />
+              <span className="text-slate-700 hover:text-blue-600">Reverse Mortgage Requirements 2026</span>
+            </Link>
+            <Link href="/blog/hecm-principal-limit-factors-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
+              <Calculator className="w-5 h-5 text-blue-600 flex-shrink-0" />
+              <span className="text-slate-700 hover:text-blue-600">HECM Principal Limit Factors</span>
             </Link>
             <Link href="/blog/proprietary-reverse-mortgage-2026" className="flex items-center gap-3 p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors">
               <DollarSign className="w-5 h-5 text-blue-600 flex-shrink-0" />
@@ -820,7 +940,7 @@ export default function ReverseMortgageClosingCostsFees2026() {
               Equal Housing Lender. All loans subject to credit approval, underwriting guidelines, and program availability. Terms and conditions apply. This is not a commitment to lend. Not all borrowers will qualify. Reverse mortgage information is not provided by, nor is it approved by, the Federal Housing Administration (FHA), the Department of Housing and Urban Development (HUD), or any other government agency. Information is for educational purposes only and does not constitute financial, tax, or legal advice. Contact a licensed loan officer for personalized guidance.
             </p>
             <p className="text-xs text-slate-400">
-              Published: February 25, 2026 | Category: Reverse Mortgage | Last Updated: February 25, 2026
+              Published: February 25, 2026 | Category: Reverse Mortgage | Last Updated: June 5, 2026
             </p>
           </div>
         </footer>

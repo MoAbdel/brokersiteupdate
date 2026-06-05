@@ -3,20 +3,23 @@ import Link from 'next/link';
 import { Phone, Calculator, ArrowRight, Building2, Shield, AlertCircle, TrendingUp, BarChart3, Layers, Target, DollarSign, Scale, MapPin, Users } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { LeadMagnetCTA } from '@/components/lead-magnets/LeadMagnetCTA';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)',
-  description: 'Learn how DSCR loans work for 2-4 unit rentals, typical down payment and reserve requirements, and how cash flow differs between duplex, triplex, and fourplex deals.',
+  title: 'DSCR Multi-Family Loans: Duplex, Triplex and Fourplex Guide',
+  description: 'Learn how DSCR multi-family loans qualify 2-4 unit rental properties using rent, DSCR ratio, reserves, down payment, and appraisal rent schedules.',
   keywords: ['DSCR loans multi-family properties', 'DSCR loan duplex triplex fourplex', 'DSCR multi-family financing 2026', '2-4 unit investment DSCR', 'DSCR loan multi-unit requirements', 'multi-family rental property financing', 'DSCR duplex loan'],
   openGraph: {
-    title: 'DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)',
-    description: 'Compare DSCR financing for 2-4 unit rentals, including down payment ranges, reserve expectations, and how multi-family cash flow stacks up against single-family rentals.',
+    title: 'DSCR Multi-Family Loans: Duplex, Triplex and Fourplex Guide',
+    description: 'Learn how DSCR multi-family loans qualify 2-4 unit rental properties using rent, DSCR ratio, reserves, down payment, and appraisal rent schedules.',
     url: 'https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-21T00:00:00Z',
-    modifiedTime: '2026-02-21T00:00:00Z',
+    modifiedTime: '2026-06-05T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
@@ -24,7 +27,75 @@ export const metadata: Metadata = {
   },
 };
 
+const dscrPropertyColumns = [
+  { key: 'propertyType', label: 'Property type' },
+  { key: 'rentDocumentation', label: 'Rent documentation' },
+  { key: 'dscrRisk', label: 'DSCR risk' },
+  { key: 'reserves', label: 'Reserve focus' },
+  { key: 'appraisal', label: 'Appraisal or rent schedule consideration' },
+];
+
+const dscrPropertyRows = [
+  {
+    cells: {
+      propertyType: 'Duplex',
+      rentDocumentation: 'Two leases, market rents, or appraisal-supported rents',
+      dscrRisk: 'Lower vacancy concentration than a single-family rental',
+      reserves: 'Subject-property reserves vary by lender and DSCR strength',
+      appraisal: 'Two-unit residential income appraisal support is typically reviewed',
+    },
+  },
+  {
+    cells: {
+      propertyType: 'Triplex',
+      rentDocumentation: 'Three unit rents documented separately',
+      dscrRisk: 'More rent streams, but higher operating and insurance review',
+      reserves: 'Reserve requirements often tighten as total PITIA rises',
+      appraisal: 'Appraiser market-rent support matters if any unit is vacant',
+    },
+  },
+  {
+    cells: {
+      propertyType: 'Fourplex',
+      rentDocumentation: 'Four unit rents, leases, or market-rent support',
+      dscrRisk: 'Strongest rent diversification within residential 2-4 unit rules',
+      reserves: 'Largest monthly reserve dollar amount because PITIA is higher',
+      appraisal: 'Property condition, legal unit count, and rent support are heavily reviewed',
+    },
+  },
+];
+
+const dscrSources = [
+  {
+    label: 'Fannie Mae: Rental Income',
+    href: 'https://selling-guide.fanniemae.com/sel/b3-3.8-01/rental-income',
+    description: 'Conventional guide reference for rental-income documentation and Form 1025 use on two- to four-unit properties.',
+  },
+  {
+    label: 'Fannie Mae: Appraisal Report Forms and Exhibits',
+    href: 'https://selling-guide.fanniemae.com/sel/b4-1.2-01/appraisal-report-forms-and-exhibits',
+    description: 'Reference for appraisal forms, including Form 1025 for two- to four-unit residential income properties.',
+  },
+  {
+    label: 'U.S. Census Bureau: American Housing Survey',
+    href: 'https://www.census.gov/programs-surveys/ahs.html',
+    description: 'Housing-stock context used when discussing small multi-family rental inventory.',
+  },
+];
+
 const faqData = [
+  {
+    question: "Can projected rent be used for a DSCR multi-family loan?",
+    answer: "Many DSCR lenders allow appraisal-supported market rent for vacant or newly acquired units, but the acceptable documentation varies by lender. A lease, rent roll, Form 1025 market-rent support, or appraiser rent schedule may be used depending on occupancy, transaction type, and program rules."
+  },
+  {
+    question: "Is a 5-unit property still residential?",
+    answer: "No. One- to four-unit properties are generally treated as residential mortgage collateral. A 5-unit property usually moves into commercial or multifamily financing, with different appraisal, term, reserve, and underwriting expectations."
+  },
+  {
+    question: "Does each unit need a lease?",
+    answer: "Not always. Leased units are usually documented with leases or rent rolls, while vacant units may be supported by appraiser market rent if the lender permits it. DSCR lenders still need unit-by-unit rent support and legal unit-count confirmation."
+  },
   {
     question: "Is a duplex or fourplex better for a first-time DSCR investor?",
     answer: "A duplex is typically better for a first-time DSCR investor because it requires a lower total capital outlay, has simpler property management demands, and still provides the multi-unit income diversification advantage over single-family rentals. In California and Washington markets, duplexes also have a larger buyer pool at resale. Fourplexes generate stronger total cash flow but require more capital, more management bandwidth, and carry higher insurance costs. Starting with a duplex allows investors to build a DSCR track record before scaling to larger multi-family properties."
@@ -120,7 +191,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loans for Duplex, Triplex & Fourplex Properties (2026)",
+            "headline": "DSCR Multi-Family Loans: Duplex, Triplex and Fourplex Guide",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -134,7 +205,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-21",
-            "dateModified": "2026-02-21",
+            "dateModified": "2026-06-05",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
@@ -210,7 +281,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loans for Duplex, Triplex &amp; Fourplex Properties (2026)
+              DSCR Multi-Family Loans: Duplex, Triplex and Fourplex Guide
             </h1>
 
             {/* Citation Hook with 3 semantic triples */}
@@ -239,6 +310,64 @@ export default function DSCRLoansMultiFamilyGuide2026() {
 
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        <div className="mb-12 space-y-8">
+          <AnswerBlock
+            id="quick-answer"
+            title="How do DSCR multi-family loans qualify 2-4 unit rentals?"
+            reviewedDate="2026-06-05"
+            reviewedLabel="June 5, 2026"
+          >
+            <p>
+              A DSCR multi-family loan can finance a 2-4 unit rental when the property&apos;s rent
+              supports the payment under the lender&apos;s DSCR ratio, reserve, appraisal, and
+              property-condition rules.
+            </p>
+            <p>
+              For related underwriting details, compare the{' '}
+              <Link href="/loan-programs/dscr-investment-loans" className="text-blue-700 hover:underline">
+                DSCR program hub
+              </Link>
+              ,{' '}
+              <Link href="/blog/dscr-loan-llc-entity-structure-2026" className="text-blue-700 hover:underline">
+                LLC vesting guide
+              </Link>
+              , and{' '}
+              <Link href="/blog/dscr-loan-seasoning-requirements-2026" className="text-blue-700 hover:underline">
+                seasoning requirements guide
+              </Link>
+              .
+            </p>
+          </AnswerBlock>
+
+          <SemanticInfoTable
+            caption="Duplex, triplex and fourplex DSCR underwriting comparison"
+            columns={dscrPropertyColumns}
+            rows={dscrPropertyRows}
+            rowHeaderKey="propertyType"
+            footnote="DSCR guidelines vary by lender. Non-QM DSCR programs can differ from agency rental-income rules."
+          />
+
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-6">
+            <h2 className="text-xl font-bold text-slate-950">DSCR multi-family underwriting checklist</h2>
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-slate-700">
+              <li>Confirm the legal unit count is two, three, or four units.</li>
+              <li>Document leases, rent roll, or appraisal-supported market rent for each unit.</li>
+              <li>Calculate DSCR using total monthly rent divided by PITIA.</li>
+              <li>Confirm liquid reserves for the subject property and any other financed rentals.</li>
+              <li>Review property condition, insurance, HOA, and deferred-maintenance issues.</li>
+              <li>Prepare borrower or entity documents before underwriting.</li>
+              <li>
+                Compare{' '}
+                <Link href="/blog/dscr-loan-interest-only-options-2026" className="text-blue-700 hover:underline">
+                  interest-only DSCR options
+                </Link>{' '}
+                when cash-flow management is a priority.
+              </li>
+            </ul>
+          </div>
+
+          <SourceBox sources={dscrSources} />
+        </div>
 
         {/* Data Table 1: SFR vs Duplex vs Triplex vs Fourplex DSCR Comparison */}
         <section className="mb-12">
@@ -482,7 +611,7 @@ export default function DSCRLoansMultiFamilyGuide2026() {
             description="Share your investment goals and target markets. We&apos;ll model DSCR scenarios across duplex, triplex, and fourplex options from 50+ wholesale lenders to identify the strongest cash flow strategy for your portfolio."
             href="/contact"
             badge="Free portfolio analysis"
-            ctaText="Request Multi-Family Analysis"
+            ctaText="Get DSCR Analysis"
           />
         </section>
 
@@ -883,6 +1012,15 @@ export default function DSCRLoansMultiFamilyGuide2026() {
               <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
                 <ArrowRight className="w-4 h-4" /> DSCR Loan Calculator &amp; Ratio Guide
               </Link>
+              <Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
+                <ArrowRight className="w-4 h-4" /> DSCR Investment Loan Programs
+              </Link>
+              <Link href="/blog/dscr-loan-llc-entity-structure-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
+                <ArrowRight className="w-4 h-4" /> DSCR LLC Entity Structure Guide
+              </Link>
+              <Link href="/blog/dscr-loan-interest-only-options-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
+                <ArrowRight className="w-4 h-4" /> DSCR Interest-Only Options
+              </Link>
               <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline flex items-center gap-1">
                 <ArrowRight className="w-4 h-4" /> DSCR Loans for Portfolio Investors: Scaling 10+
               </Link>
@@ -903,15 +1041,10 @@ export default function DSCRLoansMultiFamilyGuide2026() {
           </h2>
           <div className="space-y-4">
             {paaData.map((item, index) => (
-              <details key={index} className="group border border-slate-200 rounded-lg">
-                <summary className="flex items-center justify-between p-4 cursor-pointer hover:bg-slate-50">
-                  <span className="font-medium text-slate-900 pr-4">{item.question}</span>
-                  <ArrowRight className="w-5 h-5 text-slate-400 group-open:rotate-90 transition-transform flex-shrink-0" />
-                </summary>
-                <div className="px-4 pb-4">
-                  <p className="text-slate-600">{item.answer}</p>
-                </div>
-              </details>
+              <div key={index} className="border border-slate-200 rounded-lg p-5">
+                <h3 className="font-semibold text-slate-900 mb-2">{item.question}</h3>
+                <p className="text-slate-600 mb-0">{item.answer}</p>
+              </div>
             ))}
           </div>
         </section>
@@ -923,15 +1056,10 @@ export default function DSCRLoansMultiFamilyGuide2026() {
           </h2>
           <div className="space-y-4">
             {faqData.map((item, index) => (
-              <details key={index} className="group border border-slate-200 rounded-lg">
-                <summary className="flex items-center justify-between p-4 cursor-pointer hover:bg-slate-50">
-                  <span className="font-medium text-slate-900 pr-4">{item.question}</span>
-                  <ArrowRight className="w-5 h-5 text-slate-400 group-open:rotate-90 transition-transform flex-shrink-0" />
-                </summary>
-                <div className="px-4 pb-4">
-                  <p className="text-slate-600">{item.answer}</p>
-                </div>
-              </details>
+              <div key={index} className="border border-slate-200 rounded-lg p-5">
+                <h3 className="font-semibold text-slate-900 mb-2">{item.question}</h3>
+                <p className="text-slate-600 mb-0">{item.answer}</p>
+              </div>
             ))}
           </div>
         </section>
@@ -974,6 +1102,15 @@ export default function DSCRLoansMultiFamilyGuide2026() {
             </Link>
             <Link href="/blog/dscr-loan-calculator-ratio-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loan Calculator &amp; Ratio Guide
+            </Link>
+            <Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Investment Loan Programs
+            </Link>
+            <Link href="/blog/dscr-loan-seasoning-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Seasoning Requirements
+            </Link>
+            <Link href="/blog/dscr-loan-interest-only-options-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Interest-Only Options
             </Link>
             <Link href="/blog/dscr-loans-portfolio-investors-scaling-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Portfolio Investors: Scaling 10+
