@@ -1560,15 +1560,107 @@ Ready for controlled production deployment, subject to the existing instruction 
 
 # Post-deploy SEO validation 2026-06-05
 
-- [ ] Confirm current production state before deployment.
-- [ ] Commit and push the accepted local SEO/GEO/AEO/AIO implementation without unrelated local artifacts.
-- [ ] Deploy production from a clean worktree at the pushed commit.
-- [ ] Validate the live Orange County property-tax page headers, HTML, canonical, robots, schema, and robots.txt access.
-- [ ] Validate the live sitemap and robots.txt.
-- [ ] Validate the live reverse mortgage current-rates page freshness and schema.
-- [ ] Run Playwright production checks for `/`, `/tools/property-tax-estimator/ca/orange-county`, and `/blog/reverse-mortgage-interest-rates-current-2026` at desktop and mobile viewports.
-- [ ] Run Lighthouse production samples for the same three URLs.
-- [ ] Verify non-allowlisted localized property-tax routes did not become indexable or sitemap-included.
-- [ ] Create `reports/post-deploy-seo-validation-2026-06-05.md`.
-- [ ] Create `reports/post-deploy-seo-validation-2026-06-05.json`.
-- [ ] Record indexing actions prepared but not executed.
+- [x] Confirm current production state before deployment.
+- [x] Commit and push the accepted local SEO/GEO/AEO/AIO implementation without unrelated local artifacts.
+- [x] Deploy production from a clean worktree at the pushed commit.
+- [x] Validate the live Orange County property-tax page headers, HTML, canonical, robots, schema, and robots.txt access.
+- [x] Validate the live sitemap and robots.txt.
+- [x] Validate the live reverse mortgage current-rates page freshness and schema.
+- [x] Run Playwright production checks for `/`, `/tools/property-tax-estimator/ca/orange-county`, and `/blog/reverse-mortgage-interest-rates-current-2026` at desktop and mobile viewports.
+- [x] Run Lighthouse production samples for the same three URLs.
+- [x] Verify non-allowlisted localized property-tax routes did not become indexable or sitemap-included.
+- [x] Create `reports/post-deploy-seo-validation-2026-06-05.md`.
+- [x] Create `reports/post-deploy-seo-validation-2026-06-05.json`.
+- [x] Record indexing actions prepared but not executed.
+
+## Post-deploy Review
+
+Decision: PARTIAL.
+
+Production page validation passed: `/tools/property-tax-estimator/ca/orange-county` is live at `200`, has no `X-Robots-Tag` noindex, has meta robots `index, follow`, canonicalizes to itself, is present in the live sitemap, and is allowed by robots.txt for Googlebot and Bingbot. The reverse-rates page is also live, indexable, canonical, and free of stale March 2026 metadata or visible text.
+
+Process constraint failed: the Vercel production build ran `postbuild` with `next-sitemap && node scripts/submit-indexing-after-build.mjs`. Build logs show the script detected 577 delta URLs and submitted 380 sitemap-eligible delta URLs to IndexNow in 1 batch before validation completed. I did not manually execute any GSC, Bing, or IndexNow request, but the deploy pipeline did.
+
+Artifacts created:
+
+- `reports/post-deploy-seo-validation-2026-06-05.md`
+- `reports/post-deploy-seo-validation-2026-06-05.json`
+- `reports/production-playwright-2026-06-05/playwright-production-validation.json`
+- `reports/production-playwright-2026-06-05/*.png`
+- `reports/production-lighthouse-2026-06-05/*.json`
+
+Recommended next action: disable or explicitly gate production auto-indexing with `DISABLE_AUTO_INDEXING_ON_PROD=true` or by changing the `postbuild` indexing behavior before the next validation-gated production deploy.
+
+---
+
+# Indexing automation circuit breaker 2026-06-05
+
+- [x] Inspect current indexing entry points without executing submission scripts.
+- [x] Set or verify the Vercel production `DISABLE_AUTO_INDEXING_ON_PROD=true` guard before any push.
+- [x] Make indexing submission disabled by default in every environment.
+- [x] Remove accidental live submission behavior from `postbuild` or hard-gate it.
+- [x] Add explicit approval gates: mode, enable flag, approved deploy SHA, and URL allowlist.
+- [x] Add URL allowlist validation before any submission can run.
+- [x] Create the one-URL prepared allowlist at `reports/indexing-allowlist-2026-06-05.json`.
+- [x] Add mocked safety tests proving production alone cannot submit.
+- [x] Document the manual approved indexing workflow and rollback criteria.
+- [x] Run non-submitting validation commands and record results.
+
+## Circuit Breaker Review
+
+Root cause: `package.json` ran `next-sitemap && node scripts/submit-indexing-after-build.mjs` in `postbuild`, and `scripts/submit-indexing-after-build.mjs` treated `VERCEL_ENV=production` as enough to auto-run delta indexing when no explicit `ENABLE_*` flag was present.
+
+Vercel production guard: `DISABLE_AUTO_INDEXING_ON_PROD=true` is now set in Vercel production for `moabdels-projects/brokersiteupdate`.
+
+Code guard: `postbuild` is now report-only. It logs mode, environment, deploy SHA, approval SHA, allowlist file, candidate URL count, eligible URL count, rejected URL count, skip or abort reasons, and `network submission performed: false`.
+
+Submission approval now requires all of the following:
+
+- `VERCEL_ENV=production`
+- `ENABLE_INDEXING_SUBMISSIONS=true`
+- `INDEXING_SUBMISSION_MODE=manual-approved`
+- `INDEXING_APPROVED_DEPLOY_SHA=<exact current git sha or short sha>`
+- `INDEXING_URL_ALLOWLIST_FILE=<path>`
+- URL allowlist exists and is not empty
+- Every URL is HTTPS on `www.mothebroker.com`
+- Every URL is self-policy indexable, sitemap-included, non-redirect, and not internal/API/admin/dashboard
+- No localized property-tax route is submitted unless it is explicitly allowlisted
+- Dry-run mode is not active
+
+Manual approved indexing workflow:
+
+1. Deploy code.
+2. Validate production headers, sitemap, robots, canonical, rendered HTML, and JSON-LD.
+3. Create or review the URL allowlist.
+4. Set approval env vars for the exact deploy SHA.
+5. Run `npm run indexing:dry-run`.
+6. Obtain explicit owner approval.
+7. Run `npm run indexing:submit-approved`.
+8. Save the submission response.
+9. Remove approval env vars or let them expire.
+
+Rollback criteria:
+
+- Target URL returns noindex.
+- Target URL is missing from sitemap.
+- Canonical changes away from itself.
+- Route policy accidentally indexes thin localized routes.
+- Production page errors appear.
+- Submission script includes more URLs than approved.
+
+Validation results:
+
+- `npx vercel env ls production --scope moabdels-projects`: confirmed no production env vars initially.
+- `Write-Output "true" | npx vercel env add DISABLE_AUTO_INDEXING_ON_PROD production --scope moabdels-projects`: added the production kill switch.
+- `npx vercel env ls production --scope moabdels-projects`: confirmed `DISABLE_AUTO_INDEXING_ON_PROD` exists for Production.
+- `node --test scripts/__tests__/indexing-safety.test.mjs`: passed, 11 tests.
+- `npm run indexing:dry-run`: passed, exactly 1 prepared URL and 0 submitted URLs.
+- `npm run indexing:validate-allowlist`: passed, exactly 1 eligible URL and 0 submitted URLs.
+- `node scripts/submit-indexing-after-build.mjs`: passed, report-only and 0 submitted URLs.
+- `npm run typecheck`: passed.
+- `npm run lint`: passed with existing Next.js lint deprecation and missing plugin warnings.
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`: passed, 2 tests.
+- `npm run seo:validate`: passed with rendered-check warning because `SEO_VALIDATE_BASE_URL` was not set.
+- `npm run build`: passed. Postbuild ran `next-sitemap`, then the report-only indexing guard logged `network submission performed: false` and skipped submission because approval gates were missing or dry-run mode was active.
+
+Commit/push status: not pushed and not deployed in this pass. Report artifacts and guard changes are local pending changes until the owner approves committing and pushing the now-gated workflow.

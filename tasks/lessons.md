@@ -1,5 +1,11 @@
 # Lessons Learned
 
+## 2026-06-05: Production Indexing Requires Explicit Post-validation Approval
+
+**Mistake:** A production deployment ran `postbuild` indexing automation and submitted IndexNow before post-deploy validation was complete.
+
+**Rule:** Production deployment and indexing submission are separate release steps. `postbuild` must never submit URLs by default, and production environment detection alone must never be an indexing approval signal. Require an explicit enable flag, manual-approved mode, exact deploy SHA, a reviewed URL allowlist, and a dry-run before any indexing submission.
+
 ## 2026-06-03: Separate Historical Diffs From My Changes
 
 **Mistake:** I described a prior git-history change as "the homepage switched" without making it explicit that I did not make that switch in the current task.

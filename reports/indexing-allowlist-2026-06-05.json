@@ -1,0 +1,11 @@
+{
+  "reason": "P0 noindex fix deployed and production validated",
+  "approved_by": null,
+  "approved_at": null,
+  "deploy_sha": "ed86542",
+  "validation_report": "reports/post-deploy-seo-validation-2026-06-05.md",
+  "status": "prepared_not_executed",
+  "urls": [
+    "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county"
+  ]
+}

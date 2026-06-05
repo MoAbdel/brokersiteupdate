@@ -8,13 +8,17 @@ import {
 const run = async () => {
   const report = await evaluateIndexingSafety({
     dryRun: true,
-    validateLive: false,
+    validateLive: process.env.INDEXING_VALIDATE_LIVE === 'true',
   });
 
   logIndexingSafetyReport(report);
-  console.log('\nIndexing submission skipped: postbuild is report-only.');
-  console.log('Indexing submission skipped: approval gates missing or dry-run mode is active.');
-  console.log('Use `npm run indexing:submit-approved` after production validation and explicit approval.');
+
+  if (report.rejectedUrlCount > 0 || report.abortReasons.length > 0) {
+    console.error('\nIndexing allowlist validation failed. Zero URLs submitted.');
+    process.exit(1);
+  }
+
+  console.log('\nIndexing allowlist validation passed. Zero URLs submitted.');
 };
 
 run().catch((error) => {

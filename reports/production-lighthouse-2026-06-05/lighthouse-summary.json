@@ -1,0 +1,311 @@
+{
+  "timestamp": "2026-06-05T13:33:30.246Z",
+  "runs": {
+    "home": {
+      "file": "reports/production-lighthouse-2026-06-05/home-desktop.json",
+      "finalUrl": "https://www.mothebroker.com/",
+      "scores": {
+        "performance": 100,
+        "accessibility": 91,
+        "bestPractices": 58,
+        "seo": 100
+      },
+      "metrics": {
+        "lcp": {
+          "score": 0.99,
+          "displayValue": "0.6 s",
+          "numericValue": 596.248
+        },
+        "cls": {
+          "score": 1,
+          "displayValue": "0",
+          "numericValue": 0
+        },
+        "tbt": {
+          "score": 1,
+          "displayValue": "0 ms",
+          "numericValue": 0
+        }
+      },
+      "indexingAudits": {
+        "isCrawlable": {
+          "score": 1,
+          "title": "Page isn’t blocked from indexing",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/).",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": []
+          }
+        },
+        "robotsTxt": {
+          "score": 1,
+          "title": "robots.txt is valid",
+          "displayValue": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "index",
+                "valueType": "text",
+                "label": "Line #"
+              },
+              {
+                "key": "line",
+                "valueType": "code",
+                "label": "Content"
+              },
+              {
+                "key": "message",
+                "valueType": "code",
+                "label": "Error"
+              }
+            ],
+            "items": []
+          }
+        },
+        "canonical": {
+          "score": 1,
+          "title": "Document has a valid `rel=canonical`",
+          "displayValue": null,
+          "details": null
+        },
+        "crawlableAnchors": {
+          "score": 1,
+          "title": "Links are crawlable",
+          "displayValue": null
+        }
+      },
+      "bestPracticeIssues": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "score": 0,
+          "displayValue": "1 warning found"
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null
+        }
+      ]
+    },
+    "orangeCountyPropertyTax": {
+      "file": "reports/production-lighthouse-2026-06-05/orange-county-property-tax-desktop.json",
+      "finalUrl": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "scores": {
+        "performance": 100,
+        "accessibility": 94,
+        "bestPractices": 58,
+        "seo": 92
+      },
+      "metrics": {
+        "lcp": {
+          "score": 0.99,
+          "displayValue": "0.6 s",
+          "numericValue": 635.2905000000001
+        },
+        "cls": {
+          "score": 1,
+          "displayValue": "0",
+          "numericValue": 0
+        },
+        "tbt": {
+          "score": 1,
+          "displayValue": "0 ms",
+          "numericValue": 0
+        }
+      },
+      "indexingAudits": {
+        "isCrawlable": {
+          "score": 1,
+          "title": "Page isn’t blocked from indexing",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/).",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": []
+          }
+        },
+        "robotsTxt": {
+          "score": 1,
+          "title": "robots.txt is valid",
+          "displayValue": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "index",
+                "valueType": "text",
+                "label": "Line #"
+              },
+              {
+                "key": "line",
+                "valueType": "code",
+                "label": "Content"
+              },
+              {
+                "key": "message",
+                "valueType": "code",
+                "label": "Error"
+              }
+            ],
+            "items": []
+          }
+        },
+        "canonical": {
+          "score": 1,
+          "title": "Document has a valid `rel=canonical`",
+          "displayValue": null,
+          "details": null
+        },
+        "crawlableAnchors": {
+          "score": 1,
+          "title": "Links are crawlable",
+          "displayValue": null
+        }
+      },
+      "bestPracticeIssues": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "score": 0,
+          "displayValue": "1 warning found"
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null
+        }
+      ]
+    },
+    "reverseRates": {
+      "file": "reports/production-lighthouse-2026-06-05/reverse-rates-desktop.json",
+      "finalUrl": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "scores": {
+        "performance": 100,
+        "accessibility": 91,
+        "bestPractices": 58,
+        "seo": 92
+      },
+      "metrics": {
+        "lcp": {
+          "score": 0.99,
+          "displayValue": "0.6 s",
+          "numericValue": 593.437
+        },
+        "cls": {
+          "score": 1,
+          "displayValue": "0",
+          "numericValue": 0
+        },
+        "tbt": {
+          "score": 1,
+          "displayValue": "0 ms",
+          "numericValue": 0
+        }
+      },
+      "indexingAudits": {
+        "isCrawlable": {
+          "score": 1,
+          "title": "Page isn’t blocked from indexing",
+          "description": "Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/).",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": []
+          }
+        },
+        "robotsTxt": {
+          "score": 1,
+          "title": "robots.txt is valid",
+          "displayValue": null,
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "index",
+                "valueType": "text",
+                "label": "Line #"
+              },
+              {
+                "key": "line",
+                "valueType": "code",
+                "label": "Content"
+              },
+              {
+                "key": "message",
+                "valueType": "code",
+                "label": "Error"
+              }
+            ],
+            "items": []
+          }
+        },
+        "canonical": {
+          "score": 1,
+          "title": "Document has a valid `rel=canonical`",
+          "displayValue": null,
+          "details": null
+        },
+        "crawlableAnchors": {
+          "score": 1,
+          "title": "Links are crawlable",
+          "displayValue": null
+        }
+      },
+      "bestPracticeIssues": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "score": 0,
+          "displayValue": "1 warning found"
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "score": 0,
+          "displayValue": "1 cookie found"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "score": 0,
+          "displayValue": null
+        }
+      ]
+    }
+  }
+}

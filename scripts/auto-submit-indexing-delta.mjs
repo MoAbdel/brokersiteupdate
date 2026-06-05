@@ -28,18 +28,16 @@ const readDeltaCount = async () => {
 };
 
 const run = async () => {
-  console.log('Auto delta indexing orchestrator');
-  console.log('===============================');
+  console.log('Auto delta indexing report');
+  console.log('==========================');
 
   await runScript('scripts/build-indexing-delta.mjs', 'Build indexing delta');
   const count = await readDeltaCount();
-  if (!count) {
-    console.log('No changed URLs detected. Skipping submissions.');
-    return;
-  }
 
-  console.log(`Submitting ${count} changed URL(s) via indexing:submit-all ...`);
-  await runScript('scripts/submit-all-indexing.mjs', 'Submit all indexing');
+  console.log(`Changed URL candidates detected: ${count}`);
+  console.log('Automatic delta submission is disabled.');
+  console.log('Create an allowlist and run `npm run indexing:submit-approved` after validation and approval.');
+  console.log('Network submission performed: false');
 };
 
 run().catch((error) => {

@@ -1,0 +1,659 @@
+{
+  "decision": "PARTIAL",
+  "timestamp": "2026-06-05T13:28:24.235Z",
+  "base": "https://www.mothebroker.com",
+  "deployedCommitSha": "ed865422d0f7524cc5a426eadc9a63872d236e8e",
+  "originMainSha": "ed865422d0f7524cc5a426eadc9a63872d236e8e",
+  "deployment": {
+    "id": "dpl_AnbVQguYH9PbRUg3E6x7M7c4kwXF",
+    "url": "https://brokersiteupdate-nr9xjdgds-moabdels-projects.vercel.app",
+    "alias": "https://www.mothebroker.com",
+    "inspectedReady": true
+  },
+  "preDeployObservation": {
+    "timestamp": "2026-06-05T13:15:21Z",
+    "orangeCountyStatus": 200,
+    "orangeCountyXRobotsTag": "noindex, follow",
+    "sitemapIncludedOrangeCounty": false,
+    "result": "production did not yet reflect local fixes before deployment"
+  },
+  "commandsRun": [
+    "git push origin main",
+    "npx vercel deploy --prod --yes --archive=tgz --scope moabdels-projects",
+    "npx vercel inspect https://brokersiteupdate-nr9xjdgds-moabdels-projects.vercel.app --scope moabdels-projects",
+    "curl -I https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+    "curl -I https://www.mothebroker.com/sitemap.xml",
+    "curl -I https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+    "node live production validation script",
+    "npx vercel inspect https://brokersiteupdate-nr9xjdgds-moabdels-projects.vercel.app --logs --scope moabdels-projects",
+    "Playwright production validation script for desktop and mobile pages",
+    "npx lighthouse https://www.mothebroker.com/ --preset=desktop --output=json --output-path=reports/production-lighthouse-2026-06-05/home-desktop.json --chrome-flags=\"--headless=new --no-sandbox\" --quiet",
+    "npx lighthouse https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county --preset=desktop --output=json --output-path=reports/production-lighthouse-2026-06-05/orange-county-property-tax-desktop.json --chrome-flags=\"--headless=new --no-sandbox\" --quiet",
+    "npx lighthouse https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026 --preset=desktop --output=json --output-path=reports/production-lighthouse-2026-06-05/reverse-rates-desktop.json --chrome-flags=\"--headless=new --no-sandbox\" --quiet"
+  ],
+  "liveChecks": {
+    "orangeCountyPropertyTax": {
+      "status": 200,
+      "redirected": false,
+      "location": null,
+      "matchedPath": "/tools/property-tax-estimator/ca/orange-county",
+      "cache": "HIT",
+      "xRobotsTag": null,
+      "hasXRobotsNoindex": false,
+      "title": "Orange County Property Tax Rate 2026: Estimate Monthly Taxes",
+      "metaDescription": "Estimate Orange County property taxes using the 2026 effective rate, median value, and monthly escrow math for mortgage qualification.",
+      "metaRobots": "index, follow",
+      "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+      "hasMetaRobotsNoindex": false,
+      "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "canonicalExpected": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "canonicalMatches": true,
+      "h1": "Orange County Property Tax Rate & Calculator",
+      "markers": {
+        "answerBlockVisible": true,
+        "semanticTableVisible": true,
+        "sourceBoxVisible": true,
+        "reviewedDateVisible": true,
+        "faqVisible": true
+      },
+      "jsonLd": {
+        "scriptCount": 4,
+        "validCount": 4,
+        "errors": [],
+        "schemaTypes": [
+          "BreadcrumbList",
+          "WebApplication",
+          "FAQPage",
+          "Organization",
+          "Person",
+          "LocalBusiness",
+          "FinancialService",
+          "WebSite"
+        ],
+        "breadcrumbListCount": 1,
+        "faqQuestionCount": 4,
+        "faqQuestions": [
+          "What is the average property tax rate in Orange County, California?",
+          "How are property taxes calculated in Orange County?",
+          "What is Mello-Roos and does it affect Orange County property taxes?",
+          "How do property taxes affect my mortgage payment in Orange County?"
+        ],
+        "dateModifiedValues": []
+      }
+    },
+    "reverseRates": {
+      "status": 200,
+      "redirected": false,
+      "location": null,
+      "matchedPath": "/blog/reverse-mortgage-interest-rates-current-2026",
+      "cache": "HIT",
+      "xRobotsTag": null,
+      "hasXRobotsNoindex": false,
+      "title": "Current Reverse Mortgage Interest Rates 2026: HECM Rate Guide",
+      "metaDescription": "Understand how current HECM rates, expected rate, margin, MIP, and fees affect reverse mortgage proceeds before comparing lenders.",
+      "metaRobots": null,
+      "googlebot": null,
+      "hasMetaRobotsNoindex": false,
+      "canonical": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "canonicalExpected": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "canonicalMatches": true,
+      "h1": "Current Reverse Mortgage Interest Rates in 2026",
+      "markers": {
+        "answerBlockVisible": true,
+        "semanticTableVisible": true,
+        "sourceBoxVisible": true,
+        "reviewedDateVisible": true,
+        "faqVisible": true
+      },
+      "jsonLd": {
+        "scriptCount": 6,
+        "validCount": 6,
+        "errors": [],
+        "schemaTypes": [
+          "WebPage",
+          "Article",
+          "FAQPage",
+          "BreadcrumbList",
+          "Organization",
+          "Person",
+          "LocalBusiness",
+          "FinancialService",
+          "WebSite"
+        ],
+        "breadcrumbListCount": 1,
+        "faqQuestionCount": 12,
+        "faqQuestions": [
+          "How are reverse mortgage interest rates determined?",
+          "Are reverse mortgage rates higher than traditional mortgage rates?",
+          "What is a HECM margin and why does it matter?",
+          "Can I negotiate my reverse mortgage interest rate?",
+          "How do interest rates affect how much I can borrow?",
+          "Should I choose a fixed or adjustable rate HECM?",
+          "What is the expected rate vs the initial rate on a HECM?",
+          "Does my credit score affect my reverse mortgage rate?",
+          "What is the mortgage insurance premium on a HECM?",
+          "How often do adjustable HECM rates change?",
+          "Can I refinance my reverse mortgage if rates drop?",
+          "Do reverse mortgage rates vary by state?"
+        ],
+        "dateModifiedValues": [
+          "2026-06-05"
+        ]
+      },
+      "staleMarchChecks": {
+        "title": false,
+        "h1": false,
+        "metaDescription": false,
+        "openGraph": false,
+        "twitter": false,
+        "schema": false,
+        "visibleText": false,
+        "rawHtml": false
+      }
+    },
+    "homepage": {
+      "status": 200,
+      "redirected": false,
+      "location": null,
+      "matchedPath": "/",
+      "cache": "HIT",
+      "xRobotsTag": null,
+      "hasXRobotsNoindex": false,
+      "title": "Find a Mortgage Broker in California and Washington | Mo Abdel",
+      "metaDescription": "Find a mortgage broker in California or Washington and compare options across 50+ Wholesale Lenders. FHA, VA, jumbo, non-QM, and refinance help from Mo Abdel NMLS #1426884.",
+      "metaRobots": null,
+      "googlebot": null,
+      "hasMetaRobotsNoindex": false,
+      "canonical": "https://www.mothebroker.com",
+      "canonicalExpected": "https://www.mothebroker.com/",
+      "canonicalMatches": false,
+      "h1": "Your Direct Line to50+ Wholesale Lenders",
+      "markers": {
+        "answerBlockVisible": false,
+        "semanticTableVisible": false,
+        "sourceBoxVisible": false,
+        "reviewedDateVisible": false,
+        "faqVisible": true
+      },
+      "jsonLd": {
+        "scriptCount": 3,
+        "validCount": 3,
+        "errors": [],
+        "schemaTypes": [
+          "WebPage",
+          "SpeakableSpecification",
+          "Organization",
+          "Person",
+          "LocalBusiness",
+          "FinancialService",
+          "WebSite"
+        ],
+        "breadcrumbListCount": 0,
+        "faqQuestionCount": 0,
+        "faqQuestions": [],
+        "dateModifiedValues": [
+          "2026-06-05"
+        ]
+      }
+    },
+    "sitemap": {
+      "status": 200,
+      "contentType": "application/xml",
+      "parsesAsXml": true,
+      "urlCount": 384,
+      "expectedLocalUrlCount": 384,
+      "includesOrangeCounty": true,
+      "orangeCountyEntry": {
+        "loc": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+        "lastmod": "2026-06-05T13:17:16.000Z"
+      },
+      "thinPropertyTaxSitemapUrls": []
+    },
+    "robots": {
+      "status": 200,
+      "multiline": true,
+      "sitemapReferences": [
+        "https://www.mothebroker.com/sitemap.xml",
+        "https://www.mothebroker.com/sitemap-images.xml"
+      ],
+      "referencesSitemapXml": true,
+      "disallowRules": [
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/admin/",
+        "/api/",
+        "/dashboard/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/",
+        "/admin/",
+        "/api/",
+        "/dashboard/"
+      ],
+      "allowsOrangeCountyGooglebot": true,
+      "allowsOrangeCountyBingbot": true,
+      "hasAccidentalGlobalDisallowForSearch": false,
+      "hasCrawlerSpecificBlockForGooglebotOrBingbotOnP0": false,
+      "blocksCriticalCssOrJsForGooglebotOrBingbot": false,
+      "note": "robots.txt includes Disallow: / only for specific excluded crawler groups. Googlebot, Bingbot, and wildcard groups allow / and do not block _next static assets."
+    },
+    "nonAllowlistedSamples": [
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/irvine",
+        "status": 200,
+        "redirected": false,
+        "location": null,
+        "xRobotsTag": "noindex, follow",
+        "metaRobots": "noindex, follow",
+        "hasNoindex": true,
+        "inSitemap": false,
+        "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county/irvine"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county",
+        "status": 200,
+        "redirected": false,
+        "location": null,
+        "xRobotsTag": "noindex, follow",
+        "metaRobots": "noindex, follow",
+        "hasNoindex": true,
+        "inSitemap": false,
+        "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/ca/los-angeles-county"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county",
+        "status": 200,
+        "redirected": false,
+        "location": null,
+        "xRobotsTag": "noindex, follow",
+        "metaRobots": "noindex, follow",
+        "hasNoindex": true,
+        "inSitemap": false,
+        "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/ca/san-diego-county"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/pierce-county",
+        "status": 200,
+        "redirected": false,
+        "location": null,
+        "xRobotsTag": "noindex, follow",
+        "metaRobots": "noindex, follow",
+        "hasNoindex": true,
+        "inSitemap": false,
+        "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/wa/pierce-county"
+      },
+      {
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/wa/snohomish-county/everett",
+        "status": 200,
+        "redirected": false,
+        "location": null,
+        "xRobotsTag": "noindex, follow",
+        "metaRobots": "noindex, follow",
+        "hasNoindex": true,
+        "inSitemap": false,
+        "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/wa/snohomish-county/everett"
+      }
+    ]
+  },
+  "searchConsoleActionsPreparedNotExecuted": {
+    "eligibleUrl": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+    "gscUrlInspectionPrepared": [
+      "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county"
+    ],
+    "gscRequestIndexingPrepared": [
+      "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county"
+    ],
+    "gscSitemapSubmitPrepared": [
+      "https://www.mothebroker.com/sitemap.xml"
+    ],
+    "indexNowPayloadPrepared": {
+      "host": "www.mothebroker.com",
+      "key": "f56edfca5e434ba8bda3e1cb34e4a6d9",
+      "keyLocation": "https://www.mothebroker.com/f56edfca5e434ba8bda3e1cb34e4a6d9.txt",
+      "urlList": [
+        "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county"
+      ]
+    },
+    "indexNowCurlPrepared": "curl -X POST \"https://api.indexnow.org/indexnow\" -H \"Content-Type: application/json\" --data '{\"host\":\"www.mothebroker.com\",\"key\":\"f56edfca5e434ba8bda3e1cb34e4a6d9\",\"keyLocation\":\"https://www.mothebroker.com/f56edfca5e434ba8bda3e1cb34e4a6d9.txt\",\"urlList\":[\"https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county\"]}'",
+    "excludedFromControlledIndexing": [
+      "non-allowlisted localized property-tax city and county routes",
+      "URLs returning noindex by header or meta robots",
+      "URLs without a self-canonical",
+      "unrelated blog pages and full-sitemap bulk submission"
+    ],
+    "executed": false,
+    "ownerApprovalRequiredBeforeExecution": true,
+    "note": "Prepared actions were not manually executed. The production deploy did automatically submit IndexNow through postbuild before validation completed."
+  },
+  "monitoringBaseline": {
+    "preDeployGsc": {
+      "orangeCountyPage": {
+        "impressions": 11705,
+        "averagePosition": 6.84
+      },
+      "sitewide": {
+        "clicks": 304,
+        "impressions": 481028,
+        "ctrApprox": "0.063%"
+      },
+      "top10ZeroClickPages": {
+        "impressions": 217778,
+        "clicks": 0
+      }
+    }
+  },
+  "blockingFailures": [
+    {
+      "id": "deployment-auto-indexnow",
+      "severity": "high",
+      "summary": "Vercel production postbuild automatically triggered IndexNow during deployment.",
+      "impact": "The user explicitly prohibited indexing submission before validation. The submission was not manually executed, but it still occurred through the deploy pipeline.",
+      "recommendation": "Disable production auto-indexing with DISABLE_AUTO_INDEXING_ON_PROD=true or remove the postbuild auto-indexing step before future validation-gated deploys."
+    }
+  ],
+  "nonBlockingFollowups": [
+    "Lighthouse Best Practices remains 58 on production samples due deprecated APIs, third-party cookies, and Chrome DevTools Issues panel entries.",
+    "Sitemap response includes X-Robots-Tag noindex, nofollow on the sitemap document itself. The sitemap is still HTTP 200 XML, parsed successfully, and includes the target URL.",
+    "Raw Playwright request failures were analytics/beacon aborts or RSC prefetch aborts, with zero blocking load failures."
+  ],
+  "artifacts": {
+    "markdownReport": "reports/post-deploy-seo-validation-2026-06-05.md",
+    "jsonReport": "reports/post-deploy-seo-validation-2026-06-05.json",
+    "playwrightDir": "reports/production-playwright-2026-06-05/",
+    "playwrightJson": "reports/production-playwright-2026-06-05/playwright-production-validation.json",
+    "playwrightScreenshots": [
+      "reports/production-playwright-2026-06-05/desktop-home.png",
+      "reports/production-playwright-2026-06-05/desktop-orange-county-property-tax.png",
+      "reports/production-playwright-2026-06-05/desktop-reverse-rates.png",
+      "reports/production-playwright-2026-06-05/mobile-home.png",
+      "reports/production-playwright-2026-06-05/mobile-orange-county-property-tax.png",
+      "reports/production-playwright-2026-06-05/mobile-reverse-rates.png"
+    ],
+    "lighthouseDir": "reports/production-lighthouse-2026-06-05/",
+    "lighthouseSummary": "reports/production-lighthouse-2026-06-05/lighthouse-summary.json",
+    "lighthouseJson": [
+      "reports/production-lighthouse-2026-06-05/home-desktop.json",
+      "reports/production-lighthouse-2026-06-05/orange-county-property-tax-desktop.json",
+      "reports/production-lighthouse-2026-06-05/reverse-rates-desktop.json"
+    ]
+  },
+  "productionValidationDecision": "PASSED",
+  "processConstraintDecision": "FAILED",
+  "decisionReason": "The live SEO/indexability validation passed for the target pages, sitemap, robots.txt, Playwright, and Lighthouse crawlability checks. The deployment process failed the no-indexing constraint because the Vercel production postbuild automatically submitted IndexNow before validation was complete.",
+  "validationCompletedAt": "2026-06-05T13:38:23.020Z",
+  "pageBlockingFailures": [],
+  "processConstraintFailures": [
+    {
+      "id": "deployment-auto-indexnow",
+      "severity": "high",
+      "summary": "Vercel production postbuild automatically triggered IndexNow during deployment.",
+      "impact": "The user explicitly prohibited indexing submission before validation. The submission was not manually executed, but it still occurred through the deploy pipeline.",
+      "recommendation": "Disable production auto-indexing with DISABLE_AUTO_INDEXING_ON_PROD=true or remove the postbuild auto-indexing step before future validation-gated deploys."
+    }
+  ],
+  "deploymentBuildLogIndexingViolation": {
+    "detected": true,
+    "source": "Vercel production build log from npx vercel inspect --logs",
+    "postbuildCommand": "next-sitemap && node scripts/submit-indexing-after-build.mjs",
+    "autoMode": "Vercel production build with no explicit ENABLE_* indexing flags and DISABLE_AUTO_INDEXING_ON_PROD not true",
+    "deltaUrlsDetected": 577,
+    "gscSitemapSubmit": "attempted, failed non-fatally because gsc-credentials.json was not found",
+    "gscIndexingSubmit": "attempted, failed non-fatally because gsc-credentials.json was not found",
+    "bingSubmit": "skipped because BING_API_KEY/BING_WEBMASTER_API_KEY was missing",
+    "indexNowSubmit": "submitted 380 sitemap-eligible delta URLs in 1 batch",
+    "manuallyExecutedByCodex": false,
+    "constraintViolated": true
+  },
+  "indexationSafetyCheck": {
+    "manualIndexingActionsExecutedAfterValidation": false,
+    "manualGscRequestIndexingExecuted": false,
+    "manualGscSitemapSubmitExecuted": false,
+    "manualBingSubmitExecuted": false,
+    "manualIndexNowSubmitExecuted": false,
+    "automaticBuildTimeIndexNowExecuted": true,
+    "automaticBuildTimeIndexNowDetails": {
+      "detected": true,
+      "source": "Vercel production build log from npx vercel inspect --logs",
+      "postbuildCommand": "next-sitemap && node scripts/submit-indexing-after-build.mjs",
+      "autoMode": "Vercel production build with no explicit ENABLE_* indexing flags and DISABLE_AUTO_INDEXING_ON_PROD not true",
+      "deltaUrlsDetected": 577,
+      "gscSitemapSubmit": "attempted, failed non-fatally because gsc-credentials.json was not found",
+      "gscIndexingSubmit": "attempted, failed non-fatally because gsc-credentials.json was not found",
+      "bingSubmit": "skipped because BING_API_KEY/BING_WEBMASTER_API_KEY was missing",
+      "indexNowSubmit": "submitted 380 sitemap-eligible delta URLs in 1 batch",
+      "manuallyExecutedByCodex": false,
+      "constraintViolated": true
+    },
+    "nonAllowlistedSamplesRemainNoindexAndSitemapExcluded": true
+  },
+  "playwrightProduction": {
+    "file": "reports/production-playwright-2026-06-05/playwright-production-validation.json",
+    "timestamp": "2026-06-05T13:32:02.526Z",
+    "totalChecks": 6,
+    "passCount": 6,
+    "failCount": 0,
+    "warningCount": 0,
+    "rawRequestFailureCount": 17,
+    "blockingLoadFailureCount": 0,
+    "note": "Raw request failures were analytics/beacon aborts or homepage RSC prefetch aborts. Blocking first-party document, CSS, JS, image, canonical, schema, noindex, and layout checks passed.",
+    "screenshots": [
+      "reports/production-playwright-2026-06-05/desktop-home.png",
+      "reports/production-playwright-2026-06-05/desktop-orange-county-property-tax.png",
+      "reports/production-playwright-2026-06-05/desktop-reverse-rates.png",
+      "reports/production-playwright-2026-06-05/mobile-home.png",
+      "reports/production-playwright-2026-06-05/mobile-orange-county-property-tax.png",
+      "reports/production-playwright-2026-06-05/mobile-reverse-rates.png"
+    ],
+    "resultSummary": [
+      {
+        "viewport": "desktop",
+        "url": "https://www.mothebroker.com/",
+        "status": 200,
+        "pass": true,
+        "canonicalCorrect": true,
+        "noindex": false,
+        "horizontalOverflow": false,
+        "jsonLdErrors": 0,
+        "breadcrumbListCount": 0
+      },
+      {
+        "viewport": "desktop",
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+        "status": 200,
+        "pass": true,
+        "canonicalCorrect": true,
+        "noindex": false,
+        "horizontalOverflow": false,
+        "jsonLdErrors": 0,
+        "breadcrumbListCount": 1
+      },
+      {
+        "viewport": "desktop",
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+        "status": 200,
+        "pass": true,
+        "canonicalCorrect": true,
+        "noindex": false,
+        "horizontalOverflow": false,
+        "jsonLdErrors": 0,
+        "breadcrumbListCount": 1
+      },
+      {
+        "viewport": "mobile",
+        "url": "https://www.mothebroker.com/",
+        "status": 200,
+        "pass": true,
+        "canonicalCorrect": true,
+        "noindex": false,
+        "horizontalOverflow": false,
+        "jsonLdErrors": 0,
+        "breadcrumbListCount": 0
+      },
+      {
+        "viewport": "mobile",
+        "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+        "status": 200,
+        "pass": true,
+        "canonicalCorrect": true,
+        "noindex": false,
+        "horizontalOverflow": false,
+        "jsonLdErrors": 0,
+        "breadcrumbListCount": 1
+      },
+      {
+        "viewport": "mobile",
+        "url": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+        "status": 200,
+        "pass": true,
+        "canonicalCorrect": true,
+        "noindex": false,
+        "horizontalOverflow": false,
+        "jsonLdErrors": 0,
+        "breadcrumbListCount": 1
+      }
+    ]
+  },
+  "lighthouseProduction": {
+    "file": "reports/production-lighthouse-2026-06-05/lighthouse-summary.json",
+    "timestamp": "2026-06-05T13:33:30.246Z",
+    "runs": {
+      "home": {
+        "file": "reports/production-lighthouse-2026-06-05/home-desktop.json",
+        "finalUrl": "https://www.mothebroker.com/",
+        "scores": {
+          "performance": 100,
+          "accessibility": 91,
+          "bestPractices": 58,
+          "seo": 100
+        },
+        "lcp": "0.6 s",
+        "cls": "0",
+        "tbt": "0 ms",
+        "indexingAuditsPassed": true,
+        "bestPracticeIssues": [
+          "deprecations",
+          "third-party-cookies",
+          "inspector-issues"
+        ]
+      },
+      "orangeCountyPropertyTax": {
+        "file": "reports/production-lighthouse-2026-06-05/orange-county-property-tax-desktop.json",
+        "finalUrl": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+        "scores": {
+          "performance": 100,
+          "accessibility": 94,
+          "bestPractices": 58,
+          "seo": 92
+        },
+        "lcp": "0.6 s",
+        "cls": "0",
+        "tbt": "0 ms",
+        "indexingAuditsPassed": true,
+        "bestPracticeIssues": [
+          "deprecations",
+          "third-party-cookies",
+          "inspector-issues"
+        ]
+      },
+      "reverseRates": {
+        "file": "reports/production-lighthouse-2026-06-05/reverse-rates-desktop.json",
+        "finalUrl": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+        "scores": {
+          "performance": 100,
+          "accessibility": 91,
+          "bestPractices": 58,
+          "seo": 92
+        },
+        "lcp": "0.6 s",
+        "cls": "0",
+        "tbt": "0 ms",
+        "indexingAuditsPassed": true,
+        "bestPracticeIssues": [
+          "deprecations",
+          "third-party-cookies",
+          "inspector-issues"
+        ]
+      }
+    }
+  },
+  "monitoringPlan": {
+    "followupPulls": [
+      "7 days",
+      "14 days",
+      "30 days"
+    ],
+    "metrics": [
+      "GSC URL inspection/indexing state",
+      "impressions",
+      "clicks",
+      "CTR",
+      "average position",
+      "Bing Webmaster Tools/IndexNow status if available"
+    ],
+    "rollbackCriteria": [
+      "target URL returns noindex again",
+      "target URL drops from sitemap",
+      "target URL canonical changes away from itself",
+      "robots.txt blocks Googlebot or Bingbot from the target URL",
+      "production deploy serves stale reverse-rates metadata again"
+    ]
+  },
+  "remainingRisks": [
+    "The production auto-indexing behavior must be disabled or gated before future validation-first deployments.",
+    "IndexNow already received a broad 380 URL delta submission during this deploy. Avoid additional manual indexing until the owner approves the controlled plan.",
+    "Search Console and Bing Webmaster Tools outcomes still need to be checked after external systems process the live page."
+  ]
+}

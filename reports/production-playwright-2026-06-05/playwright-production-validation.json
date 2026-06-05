@@ -1,0 +1,266 @@
+{
+  "timestamp": "2026-06-05T13:32:02.526Z",
+  "totalChecks": 6,
+  "passCount": 6,
+  "failCount": 0,
+  "warningCount": 0,
+  "rawRequestFailureCount": 17,
+  "blockingLoadFailureCount": 0,
+  "note": "Raw request failures were analytics/beacon aborts or homepage RSC prefetch aborts. Blocking first-party document, CSS, JS, image, canonical, schema, noindex, and layout checks passed.",
+  "results": [
+    {
+      "viewport": "desktop",
+      "url": "https://www.mothebroker.com/",
+      "finalUrl": "https://www.mothebroker.com/",
+      "status": 200,
+      "ok": true,
+      "screenshot": "reports/production-playwright-2026-06-05/desktop-home.png",
+      "loadFailures": 4,
+      "blockingLoadFailures": 0,
+      "requestFailures": [
+        {
+          "url": "https://www.google.com/rmkt/collect/576713386/?random=1780666305993&cv=11&fst=1780666305993&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6631v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117227714~118131808~118228214~119027224&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.mothebroker.com%2F&rcb=17&frm=0&tiba=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2015946722.1780666306&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=2015946722.1780666306&dt=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&en=page_view&dl=https%3A%2F%2Fwww.mothebroker.com%2F&scrsrc=www.googletagmanager.com&rnd=191488039.1780666306&navt=n&npa=0&gtm=45je6631v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117227714~118131808~118228214~119027224&apve=1&apvf=f&apvc=1&tids=AW-576713386&tid=AW-576713386&tft=1780666306002&tfd=773",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-P8RJLQYRVE&gtm=45je6631v9227215157za200zd9227215157&_p=1780666305949&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&are=1&cid=2029873037.1780666306&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~118228214~119027224&sid=1780666305&sct=1&seg=0&dl=https%3A%2F%2Fwww.mothebroker.com%2F&dt=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=763",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-QF5RPEM3BL&gtm=45je6631v9227215157za200zd9227215157&_p=1780666305949&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&are=1&cid=2029873037.1780666306&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117227714~118131808~118228214~119027224&sid=1780666306&sct=1&seg=0&dl=https%3A%2F%2Fwww.mothebroker.com%2F&dt=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&en=page_view&_fv=1&_ss=1&_ee=1&tfd=773",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "blockingRequestFailures": [],
+      "pageErrors": [],
+      "consoleMessages": [],
+      "canonical": "https://www.mothebroker.com",
+      "canonicalExpected": "https://www.mothebroker.com",
+      "canonicalCorrect": true,
+      "robots": null,
+      "googlebot": null,
+      "noindex": false,
+      "h1": "Your Direct Line to50+ Wholesale Lenders",
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "jsonLd": {
+        "scriptCount": 3,
+        "errors": [],
+        "breadcrumbListCount": 0
+      },
+      "pass": true
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "finalUrl": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "status": 200,
+      "ok": true,
+      "screenshot": "reports/production-playwright-2026-06-05/desktop-orange-county-property-tax.png",
+      "loadFailures": 3,
+      "blockingLoadFailures": 0,
+      "requestFailures": [
+        {
+          "url": "https://www.google.com/rmkt/collect/576713386/?random=1780666308905&cv=11&fst=1780666308905&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6631v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117227714~118131808~118228215~119027224&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.mothebroker.com%2Ftools%2Fproperty-tax-estimator%2Fca%2Forange-county&rcb=12&frm=0&tiba=Orange%20County%20Property%20Tax%20Rate%202026%3A%20Estimate%20Monthly%20Taxes&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2015946722.1780666306&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&auid=2015946722.1780666306&dt=Orange%20County%20Property%20Tax%20Rate%202026%3A%20Estimate%20Monthly%20Taxes&en=page_view&dl=https%3A%2F%2Fwww.mothebroker.com%2Ftools%2Fproperty-tax-estimator%2Fca%2Forange-county&scrsrc=www.googletagmanager.com&rnd=1424019309.1780666309&navt=n&npa=0&gtm=45je6631v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117227714~118131808~118228215~119027224&apve=1&apvf=f&apvc=1&tids=AW-576713386&tid=AW-576713386&tft=1780666308915&tfd=360",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.mothebroker.com/contact?_rsc=eOPIVt2_4I5I6UsS",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "blockingRequestFailures": [],
+      "pageErrors": [],
+      "consoleMessages": [],
+      "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "canonicalExpected": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "canonicalCorrect": true,
+      "robots": "index, follow",
+      "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+      "noindex": false,
+      "h1": "Orange County Property Tax Rate & Calculator",
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "jsonLd": {
+        "scriptCount": 4,
+        "errors": [],
+        "breadcrumbListCount": 1
+      },
+      "pass": true
+    },
+    {
+      "viewport": "desktop",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "finalUrl": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "status": 200,
+      "ok": true,
+      "screenshot": "reports/production-playwright-2026-06-05/desktop-reverse-rates.png",
+      "loadFailures": 2,
+      "blockingLoadFailures": 0,
+      "requestFailures": [
+        {
+          "url": "https://www.google.com/rmkt/collect/576713386/?random=1780666311955&cv=11&fst=1780666311955&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6631v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~117227714~118131808~118228214~119027224&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.mothebroker.com%2Fblog%2Freverse-mortgage-interest-rates-current-2026&rcb=17&frm=0&tiba=Current%20Reverse%20Mortgage%20Interest%20Rates%202026%3A%20HECM%20Rate%20Guide&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2015946722.1780666306&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&auid=2015946722.1780666306&dt=Current%20Reverse%20Mortgage%20Interest%20Rates%202026%3A%20HECM%20Rate%20Guide&en=page_view&dl=https%3A%2F%2Fwww.mothebroker.com%2Fblog%2Freverse-mortgage-interest-rates-current-2026&scrsrc=www.googletagmanager.com&rnd=1630650076.1780666312&navt=n&npa=0&gtm=45je6631v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~117227714~118131808~118228214~119027224&apve=1&apvf=f&apvc=1&tids=AW-576713386&tid=AW-576713386&tft=1780666311964&tfd=354",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "blockingRequestFailures": [],
+      "pageErrors": [],
+      "consoleMessages": [],
+      "canonical": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "canonicalExpected": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "canonicalCorrect": true,
+      "robots": null,
+      "googlebot": null,
+      "noindex": false,
+      "h1": "Current Reverse Mortgage Interest Rates in 2026",
+      "horizontalOverflow": false,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "jsonLd": {
+        "scriptCount": 6,
+        "errors": [],
+        "breadcrumbListCount": 1
+      },
+      "pass": true
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://www.mothebroker.com/",
+      "finalUrl": "https://www.mothebroker.com/",
+      "status": 200,
+      "ok": true,
+      "screenshot": "reports/production-playwright-2026-06-05/mobile-home.png",
+      "loadFailures": 4,
+      "blockingLoadFailures": 0,
+      "requestFailures": [
+        {
+          "url": "https://www.google.com/rmkt/collect/576713386/?random=1780666315669&cv=11&fst=1780666315669&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6631h1v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~118228215~119027224&u_w=390&u_h=844&url=https%3A%2F%2Fwww.mothebroker.com%2F&rcb=15&frm=0&tiba=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=326394789.1780666316&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&auid=326394789.1780666316&dt=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&en=page_view&dl=https%3A%2F%2Fwww.mothebroker.com%2F&scrsrc=www.googletagmanager.com&rnd=1916114242.1780666316&navt=n&npa=0&gtm=45je6631h1v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~118228215~119027224&apve=1&apvf=f&apvc=1&tids=AW-576713386&tid=AW-576713386&tft=1780666315678&tfd=784",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-P8RJLQYRVE&gtm=45je6631h1v9227215157za200zd9227215157&_p=1780666315629&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&are=1&cid=1118724794.1780666316&frm=0&pscdl=noapi&rcb=15&sr=390x844&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~118228215~119027224&sid=1780666315&sct=1&seg=0&dl=https%3A%2F%2Fwww.mothebroker.com%2F&dt=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=775",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-QF5RPEM3BL&gtm=45je6631h1v9227215157za200zd9227215157&_p=1780666315629&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&are=1&cid=1118724794.1780666316&frm=0&pscdl=noapi&rcb=15&sr=390x844&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~118228215~119027224&sid=1780666315&sct=1&seg=0&dl=https%3A%2F%2Fwww.mothebroker.com%2F&dt=Find%20a%20Mortgage%20Broker%20in%20California%20and%20Washington%20%7C%20Mo%20Abdel&en=page_view&_fv=1&_ss=1&_ee=1&tfd=784",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "blockingRequestFailures": [],
+      "pageErrors": [],
+      "consoleMessages": [],
+      "canonical": "https://www.mothebroker.com",
+      "canonicalExpected": "https://www.mothebroker.com",
+      "canonicalCorrect": true,
+      "robots": null,
+      "googlebot": null,
+      "noindex": false,
+      "h1": "Your Direct Line to50+ Wholesale Lenders",
+      "horizontalOverflow": false,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "jsonLd": {
+        "scriptCount": 3,
+        "errors": [],
+        "breadcrumbListCount": 0
+      },
+      "pass": true
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "finalUrl": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "status": 200,
+      "ok": true,
+      "screenshot": "reports/production-playwright-2026-06-05/mobile-orange-county-property-tax.png",
+      "loadFailures": 2,
+      "blockingLoadFailures": 0,
+      "requestFailures": [
+        {
+          "url": "https://www.google.com/rmkt/collect/576713386/?random=1780666317973&cv=11&fst=1780666317973&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6631h1v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~118228215~119027224&u_w=390&u_h=844&url=https%3A%2F%2Fwww.mothebroker.com%2Ftools%2Fproperty-tax-estimator%2Fca%2Forange-county&rcb=15&frm=0&tiba=Orange%20County%20Property%20Tax%20Rate%202026%3A%20Estimate%20Monthly%20Taxes&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=326394789.1780666316&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&auid=326394789.1780666316&dt=Orange%20County%20Property%20Tax%20Rate%202026%3A%20Estimate%20Monthly%20Taxes&en=page_view&dl=https%3A%2F%2Fwww.mothebroker.com%2Ftools%2Fproperty-tax-estimator%2Fca%2Forange-county&scrsrc=www.googletagmanager.com&rnd=313962508.1780666318&navt=n&npa=0&gtm=45je6631h1v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~118228215~119027224&apve=1&apvf=f&apvc=1&tids=AW-576713386&tid=AW-576713386&tft=1780666317983&tfd=360",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "blockingRequestFailures": [],
+      "pageErrors": [],
+      "consoleMessages": [],
+      "canonical": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "canonicalExpected": "https://www.mothebroker.com/tools/property-tax-estimator/ca/orange-county",
+      "canonicalCorrect": true,
+      "robots": "index, follow",
+      "googlebot": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+      "noindex": false,
+      "h1": "Orange County Property Tax Rate & Calculator",
+      "horizontalOverflow": false,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "jsonLd": {
+        "scriptCount": 4,
+        "errors": [],
+        "breadcrumbListCount": 1
+      },
+      "pass": true
+    },
+    {
+      "viewport": "mobile",
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "finalUrl": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "status": 200,
+      "ok": true,
+      "screenshot": "reports/production-playwright-2026-06-05/mobile-reverse-rates.png",
+      "loadFailures": 2,
+      "blockingLoadFailures": 0,
+      "requestFailures": [
+        {
+          "url": "https://www.google.com/rmkt/collect/576713386/?random=1780666320256&cv=11&fst=1780666320256&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6631h1v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~118228215~119027224~119259605&u_w=390&u_h=844&url=https%3A%2F%2Fwww.mothebroker.com%2Fblog%2Freverse-mortgage-interest-rates-current-2026&rcb=10&frm=0&tiba=Current%20Reverse%20Mortgage%20Interest%20Rates%202026%3A%20HECM%20Rate%20Guide&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=326394789.1780666316&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&auid=326394789.1780666316&dt=Current%20Reverse%20Mortgage%20Interest%20Rates%202026%3A%20HECM%20Rate%20Guide&en=page_view&dl=https%3A%2F%2Fwww.mothebroker.com%2Fblog%2Freverse-mortgage-interest-rates-current-2026&scrsrc=www.googletagmanager.com&rnd=778463671.1780666320&navt=n&npa=0&gtm=45je6631h1v9227215157za200zd9227215157xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~118228215~119027224~119259605&apve=1&apvf=f&apvc=1&tids=AW-576713386&tid=AW-576713386&tft=1780666320264&tfd=370",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "blockingRequestFailures": [],
+      "pageErrors": [],
+      "consoleMessages": [],
+      "canonical": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "canonicalExpected": "https://www.mothebroker.com/blog/reverse-mortgage-interest-rates-current-2026",
+      "canonicalCorrect": true,
+      "robots": null,
+      "googlebot": null,
+      "noindex": false,
+      "h1": "Current Reverse Mortgage Interest Rates in 2026",
+      "horizontalOverflow": false,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "jsonLd": {
+        "scriptCount": 6,
+        "errors": [],
+        "breadcrumbListCount": 1
+      },
+      "pass": true
+    }
+  ]
+}
