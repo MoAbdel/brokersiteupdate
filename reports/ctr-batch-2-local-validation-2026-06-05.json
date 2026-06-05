@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-05",
+  "scope": "CTR Batch 2 local-only updates",
+  "urls": [
+    "/blog/heloc-interest-tax-deduction-rules-2026",
+    "/blog/dscr-loan-interest-only-options-2026",
+    "/blog/dscr-loan-llc-entity-structure-2026",
+    "/blog/dscr-loan-seasoning-requirements-2026"
+  ],
+  "no_deploy": true,
+  "no_push": true,
+  "no_indexing_submission": true,
+  "files_changed": [
+    "app/blog/heloc-interest-tax-deduction-rules-2026/page.tsx",
+    "app/blog/dscr-loan-interest-only-options-2026/page.tsx",
+    "app/blog/dscr-loan-llc-entity-structure-2026/page.tsx",
+    "app/blog/dscr-loan-seasoning-requirements-2026/page.tsx",
+    "reports/internal-link-audit.csv",
+    "reports/internal-link-audit.json",
+    "tasks/todo.md"
+  ],
+  "rendered_checks": {
+    "base_url": "http://127.0.0.1:3018",
+    "all_routes_status_200": true,
+    "no_noindex_header_or_meta": true,
+    "self_canonical": true,
+    "expected_title_and_meta_description": true,
+    "one_h1": true,
+    "visible_answer_block": true,
+    "visible_semantic_table": true,
+    "visible_source_box": true,
+    "visible_faq": true,
+    "article_schema": true,
+    "faq_schema": true,
+    "breadcrumb_schema": true,
+    "date_modified": "2026-06-05"
+  },
+  "source_link_status": {
+    "irs_publication_936": 200,
+    "irs_schedule_a": 200,
+    "cfpb_interest_only_loan": 200,
+    "cfpb_mortgage_overview": 200,
+    "california_secretary_of_state_bizfile": 200,
+    "washington_secretary_of_state": 200,
+    "irs_ein": 200,
+    "fannie_mae_cash_out_refinance_transactions": 200
+  },
+  "validation": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "diff_check": "passed",
+    "seo_route_policy_tests": "passed",
+    "indexing_safety_tests": "passed",
+    "seo_validate": "passed",
+    "rendered_seo_validate": "passed",
+    "indexing_dry_run": {
+      "passed": true,
+      "network_submission_performed": false,
+      "submitted_urls": 0
+    },
+    "indexing_validate_allowlist": {
+      "passed": true,
+      "network_submission_performed": false,
+      "submitted_urls": 0
+    },
+    "internal_link_audit": {
+      "passed": true,
+      "sitemap_entries_analyzed": 384,
+      "orphaned_entries": 78
+    },
+    "build": {
+      "passed": true,
+      "postbuild_report_only": true,
+      "network_submission_performed": false
+    },
+    "chrome_cdp_viewport": {
+      "passed": true,
+      "viewports": ["390x844", "1366x900"],
+      "page_level_horizontal_overflow": false
+    }
+  },
+  "remaining_risks": [
+    "Local-only until a separately approved commit, push, and deploy occurs.",
+    "Search engines can rewrite titles or snippets after deployment.",
+    "The 78 orphaned sitemap entries are pre-existing and outside this batch."
+  ]
+}

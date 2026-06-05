@@ -1,10 +1,13 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'HELOC Interest Tax Deduction Rules: What Qualifies in 2026 | Mo Abdel',
+  title: 'HELOC Interest Tax Deduction Rules for 2026',
   description:
-    'HELOC interest tax deduction rules for 2026. Deductible when used for home improvements under TCJA. $750K mortgage debt limit, IRS requirements. NMLS #1426884.',
+    'HELOC interest may be deductible when proceeds buy, build, or substantially improve the home securing the loan. See rules, limits, and records to keep.',
   keywords: [
     'HELOC interest tax deduction',
     'is HELOC interest tax deductible',
@@ -18,21 +21,73 @@ export const metadata: Metadata = {
     'HELOC Orange County',
   ],
   openGraph: {
-    title: 'HELOC Interest Tax Deduction Rules: What Qualifies in 2026 | Mo Abdel',
+    title: 'HELOC Interest Tax Deduction Rules for 2026',
     description:
-      'HELOC interest tax deduction rules for 2026. Deductible when used for home improvements under TCJA. $750K mortgage debt limit, IRS requirements. NMLS #1426884.',
+      'HELOC interest may be deductible when proceeds buy, build, or substantially improve the home securing the loan. See rules, limits, and records to keep.',
     url: 'https://www.mothebroker.com/blog/heloc-interest-tax-deduction-rules-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-03-23T00:00:00Z',
-    modifiedTime: '2026-03-23T00:00:00Z',
+    modifiedTime: '2026-06-05T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/heloc-interest-tax-deduction-rules-2026',
   },
 };
+
+const deductibilityColumns = [
+  { key: 'use', label: 'Use of HELOC Proceeds' },
+  { key: 'deductible', label: 'Interest Treatment' },
+  { key: 'recordkeeping', label: 'Records to Keep' },
+];
+
+const deductibilityRows = [
+  {
+    cells: {
+      use: 'Buy, build, or substantially improve the home securing the HELOC',
+      deductible: 'Potentially deductible if the debt is secured by a qualified home and stays within IRS limits',
+      recordkeeping: 'Loan statements, invoices, permits, contracts, receipts, and bank records tying draws to the project',
+    },
+  },
+  {
+    cells: {
+      use: 'Debt consolidation, tuition, vacation, auto purchase, or personal expenses',
+      deductible: 'Generally not deductible under current federal home equity debt rules',
+      recordkeeping: 'Track the draw anyway so the non-qualifying portion is separated from any qualifying project draws',
+    },
+  },
+  {
+    cells: {
+      use: 'Mixed-use draws for both home improvements and personal expenses',
+      deductible: 'Only the qualifying improvement portion may be deductible',
+      recordkeeping: 'A draw-by-draw ledger and separate invoices for each qualifying improvement expense',
+    },
+  },
+  {
+    cells: {
+      use: 'Rental, business, or investment property expenses',
+      deductible: 'Different tax rules may apply outside the personal Schedule A mortgage interest deduction',
+      recordkeeping: 'CPA-reviewed allocation records, rental or business books, and property-level expense support',
+    },
+  },
+];
+
+const helocTaxSources = [
+  {
+    label: 'IRS Publication 936, Home Mortgage Interest Deduction',
+    href: 'https://www.irs.gov/publications/p936',
+    description:
+      'Primary IRS publication for qualified home mortgage interest, debt limits, secured debt, and home equity debt treatment.',
+  },
+  {
+    label: 'IRS Schedule A, Itemized Deductions',
+    href: 'https://www.irs.gov/forms-pubs/about-schedule-a-form-1040',
+    description:
+      'IRS page for the itemized deduction form used when claiming eligible home mortgage interest.',
+  },
+];
 
 const faqData = [
   {
@@ -43,7 +98,7 @@ const faqData = [
   {
     question: 'Is HELOC interest tax deductible in 2026?',
     answer:
-      'Yes — but only when the HELOC proceeds are used to buy, build, or substantially improve the home that secures the loan. Under the Tax Cuts and Jobs Act (TCJA), using HELOC funds for anything else (debt consolidation, vacations, tuition) makes the interest non-deductible. Consult your CPA for guidance specific to your situation.',
+      'Yes, but only when the HELOC proceeds are used to buy, build, or substantially improve the home that secures the loan. Under the Tax Cuts and Jobs Act (TCJA), using HELOC funds for anything else (debt consolidation, vacations, tuition) makes the interest non-deductible. Consult your CPA for guidance specific to your situation.',
   },
   {
     question: 'What is the debt limit for the HELOC interest deduction?',
@@ -108,10 +163,10 @@ export default function HelocInterestTaxDeductionRules2026() {
     '@type': 'Article',
     headline: 'HELOC Interest Tax Deduction Rules: What Qualifies in 2026',
     description:
-      'HELOC interest tax deduction rules for 2026. Deductible when used for home improvements under TCJA. $750K mortgage debt limit, IRS requirements.',
+      'HELOC interest may be deductible when proceeds buy, build, or substantially improve the home securing the loan. See rules, limits, and records to keep.',
     url: 'https://www.mothebroker.com/blog/heloc-interest-tax-deduction-rules-2026',
     datePublished: '2026-03-23T00:00:00Z',
-    dateModified: '2026-03-23T00:00:00Z',
+    dateModified: '2026-06-05T00:00:00Z',
     author: {
       '@type': 'Person',
       name: 'Mo Abdel',
@@ -211,9 +266,28 @@ export default function HelocInterestTaxDeductionRules2026() {
           </h1>
           <p className="text-gray-500 text-sm mb-6">
             By{' '}
-            <span className="font-semibold text-gray-700">Mo Abdel, NMLS #1426884</span> &mdash;
-            Lumin Lending, NMLS #2716106 &mdash; Updated March 23, 2026
+            <span className="font-semibold text-gray-700">Mo Abdel, NMLS #1426884</span> -
+            Lumin Lending, NMLS #2716106 - Updated June 5, 2026
           </p>
+
+          <AnswerBlock
+            id="quick-answer"
+            title="Is HELOC interest tax deductible in 2026?"
+            reviewedDate="2026-06-05"
+            reviewedLabel="June 5, 2026"
+            className="mb-6"
+          >
+            <p>
+              HELOC interest may be deductible when the borrowed funds are used to buy, build, or
+              substantially improve the same home that secures the HELOC. Interest tied to debt
+              consolidation, tuition, travel, or other personal spending is generally not deductible.
+            </p>
+            <p>
+              The deduction also depends on itemizing, qualified mortgage debt limits, and clean
+              records showing how each draw was used. This is educational information, not tax
+              advice. Confirm treatment with a CPA before filing.
+            </p>
+          </AnswerBlock>
 
           {/* BLUF */}
           <div className="bg-yellow-50 border-l-4 border-yellow-400 px-6 py-5 rounded-r-lg mb-6">
@@ -249,6 +323,17 @@ export default function HelocInterestTaxDeductionRules2026() {
               <p className="text-green-700 text-sm mt-1">Combined qualified mortgage debt limit for post-2017 loans (MFJ)</p>
             </div>
           </div>
+
+          <SemanticInfoTable
+            caption="HELOC interest deductibility by use of funds"
+            columns={deductibilityColumns}
+            rows={deductibilityRows}
+            rowHeaderKey="use"
+            footnote="Federal tax treatment can change, and state treatment may differ. Use this as a planning checklist with your CPA."
+            className="mb-6"
+          />
+
+          <SourceBox sources={helocTaxSources} className="mb-8" />
 
           {/* Table 1 — Tax Deductibility by Use of Funds */}
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -915,16 +1000,13 @@ export default function HelocInterestTaxDeductionRules2026() {
           </h2>
           <div className="space-y-5">
             {faqData.map((item, index) => (
-              <details
+              <div
                 key={index}
-                className="border border-gray-200 rounded-lg px-6 py-4 group"
+                className="border border-gray-200 rounded-lg px-6 py-4"
               >
-                <summary className="font-semibold text-gray-900 cursor-pointer list-none flex justify-between items-center">
-                  {item.question}
-                  <span className="ml-4 text-blue-600 text-xl font-light group-open:rotate-45 transition-transform duration-200">+</span>
-                </summary>
+                <h3 className="font-semibold text-gray-900">{item.question}</h3>
                 <p className="text-gray-700 leading-relaxed mt-3">{item.answer}</p>
-              </details>
+              </div>
             ))}
           </div>
         </section>
@@ -1009,6 +1091,16 @@ export default function HelocInterestTaxDeductionRules2026() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/home-equity" className="text-blue-600 hover:underline">
+                    Home Equity Loan and HELOC Options
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/heloc-draw-period-repayment-guide-2026" className="text-blue-600 hover:underline">
+                    HELOC Draw Period and Repayment Guide
+                  </Link>
+                </li>
+                <li>
                   <Link href="/blog/home-equity-loan-closing-costs-fees-guide-2026" className="text-blue-600 hover:underline">
                     Home Equity Loan Closing Costs Guide
                   </Link>
@@ -1062,7 +1154,7 @@ export default function HelocInterestTaxDeductionRules2026() {
             This information is for educational purposes only and does not constitute tax advice.
             Tax laws are complex and subject to change. Consult your CPA or qualified tax advisor
             for guidance specific to your situation. IRS Publication 936 and the Tax Cuts and Jobs
-            Act provisions described herein reflect law as interpreted as of March 2026.
+            Act provisions described herein reflect law as interpreted as of June 2026.
           </p>
           <p>
             Equal Housing Lender. NMLS Consumer Access:{' '}

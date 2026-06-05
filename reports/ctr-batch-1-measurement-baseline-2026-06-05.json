@@ -1,0 +1,910 @@
+{
+  "generatedAt": "2026-06-05T20:20:55.934Z",
+  "task": "CTR Batch 1 measurement baseline",
+  "constraints": {
+    "deployed": false,
+    "pushed": false,
+    "indexingActionRun": false,
+    "applicationSourceChanged": false,
+    "indexingAutomationChanged": false
+  },
+  "deploymentBaseline": {
+    "deploymentTimestamp": "2026-06-05T19:22:29.000Z",
+    "deployedCommitSha": "4b5130c9d5f3a67237ece04bd9331ca644019f42",
+    "vercelDeploymentId": "dpl_5x7rhDdu2EaSSmVgjybAzMQ4wd7s",
+    "productionUrl": "https://www.mothebroker.com",
+    "postbuildIndexingResult": {
+      "mode": "(unset)",
+      "environment": "VERCEL_ENV=production, NODE_ENV=production, CI=1",
+      "deploySha": "4b5130c9d5f3a67237ece04bd9331ca644019f42",
+      "approvalSha": "(missing)",
+      "allowlistFile": "/vercel/path0/reports/indexing-allowlist-2026-06-05.json",
+      "candidateUrls": 1,
+      "eligibleUrls": 1,
+      "rejectedUrls": 0,
+      "submittedUrls": 0,
+      "networkSubmissionPerformed": false,
+      "skipReasons": [
+        "DISABLE_AUTO_INDEXING_ON_PROD=true",
+        "dry-run mode enabled",
+        "INDEXING_SUBMISSION_MODE is not manual-approved",
+        "ENABLE_INDEXING_SUBMISSIONS is not true",
+        "INDEXING_APPROVED_DEPLOY_SHA is missing"
+      ]
+    },
+    "validationSummary": {
+      "decision": "PASSED: CTR Batch 1 is live and validated.",
+      "pagesPass": true,
+      "sitemapPass": true,
+      "robotsPass": true,
+      "linkPass": true,
+      "browserPass": true,
+      "indexingPass": true,
+      "blockers": [],
+      "nonBlockingFollowUps": [
+        "Playwright was unavailable in this shell. Chrome CDP was used with the requested desktop and mobile viewport sizes.",
+        "Headless Chrome reported non-blocking image resource ERR_BLOCKED_BY_ORB events. Document loads, runtime, layout, schema, and indexability passed.",
+        "The internal-link audit still reports 78 existing orphaned sitemap entries outside this CTR batch."
+      ],
+      "overallPass": true
+    },
+    "caveat": "No search-console indexing action was executed. No Google, Bing, IndexNow, or approved indexing submission was run."
+  },
+  "originalAuditContext": {
+    "totalClicks": 304,
+    "totalImpressions": 481028,
+    "ctrPercent": 0.063,
+    "top10ZeroClickPages": 90,
+    "top10ZeroClickImpressions": 217778,
+    "sourceNote": "Context supplied by handoff and supported by June 5 audit artifacts."
+  },
+  "pages": [
+    {
+      "url": "https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026",
+      "route": "/blog/heloc-draw-period-repayment-guide-2026",
+      "deployedTitle": "Typical HELOC Draw and Repayment Periods in 2026",
+      "titleLength": 48,
+      "deployedMetaDescription": "Most HELOCs have a draw period followed by a repayment period. See how payments change, what borrowers should plan for, and when alternatives may fit.",
+      "metaLength": 150,
+      "h1": "Typical HELOC Draw and Repayment Periods in 2026",
+      "canonical": "https://www.mothebroker.com/blog/heloc-draw-period-repayment-guide-2026",
+      "dateModified": "2026-06-05",
+      "primaryTargetQueryGroup": "HELOC draw period, repayment period, payment reset planning",
+      "expectedCtrHypothesis": "Clearer draw-period and repayment-period language should earn clicks from users comparing HELOC phase timing and payment shock.",
+      "validationStatus": "PASS",
+      "preChangeGscBaseline": {
+        "chosenBaseline": {
+          "clicks": 0,
+          "impressions": 9714,
+          "ctr": 0,
+          "position": 4.77,
+          "note": "Known audit context supplied in handoff. Zero-click top-10 page."
+        },
+        "latestRepoPageExport": {
+          "source": "reports/gsc-performance-20260115_20260415.json",
+          "clicks": 0,
+          "impressions": 6702,
+          "ctr": 0,
+          "ctrPercent": 0,
+          "position": 5.194121157863324
+        },
+        "topKnownQueries": [
+          {
+            "query": "typical heloc terms draw period repayment period 2026",
+            "clicks": 0,
+            "impressions": 350,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 3.3
+          },
+          {
+            "query": "typical heloc draw period and repayment period 2026",
+            "clicks": 0,
+            "impressions": 344,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 3.177325581395349
+          },
+          {
+            "query": "typical heloc draw period length 2026",
+            "clicks": 0,
+            "impressions": 148,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 5.283783783783784
+          },
+          {
+            "query": "typical heloc draw period and repayment terms 2026",
+            "clicks": 0,
+            "impressions": 107,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 3.439252336448598
+          },
+          {
+            "query": "average heloc draw period and repayment period 2026",
+            "clicks": 0,
+            "impressions": 61,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 4.852459016393443
+          },
+          {
+            "query": "heloc draw period repayment period typical terms 2026",
+            "clicks": 0,
+            "impressions": 61,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 3.098360655737705
+          },
+          {
+            "query": "heloc typical draw period and repayment period 2026",
+            "clicks": 0,
+            "impressions": 58,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 2.862068965517241
+          },
+          {
+            "query": "heloc draw period length typical 2026",
+            "clicks": 0,
+            "impressions": 53,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 4.39622641509434
+          },
+          {
+            "query": "typical heloc draw period and repayment period lengths 2026",
+            "clicks": 0,
+            "impressions": 45,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 3.1555555555555554
+          },
+          {
+            "query": "typical heloc repayment period length 2026",
+            "clicks": 0,
+            "impressions": 42,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 4.261904761904762
+          }
+        ],
+        "querySource": "reports/gsc-query-performance-20260115_20260415.json",
+        "zeroClickOrNearZeroClick": true,
+        "notes": [
+          "Known audit context supplied in handoff. Zero-click top-10 page.",
+          "Repo page export row also captured for reference."
+        ]
+      },
+      "measurementWindows": [
+        {
+          "window": "Day 7",
+          "targetDate": "2026-06-12",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 14",
+          "targetDate": "2026-06-19",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 30",
+          "targetDate": "2026-07-05",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
+      "route": "/blog/dscr-loans-multi-family-guide-2026",
+      "deployedTitle": "DSCR Multi-Family Loans: Duplex, Triplex and Fourplex Guide",
+      "titleLength": 59,
+      "deployedMetaDescription": "Learn how DSCR multi-family loans qualify 2-4 unit rental properties using rent, DSCR ratio, reserves, down payment, and appraisal rent schedules.",
+      "metaLength": 146,
+      "h1": "DSCR Multi-Family Loans: Duplex, Triplex and Fourplex Guide",
+      "canonical": "https://www.mothebroker.com/blog/dscr-loans-multi-family-guide-2026",
+      "dateModified": "2026-06-05",
+      "primaryTargetQueryGroup": "DSCR multi-family, duplex, triplex, fourplex qualification",
+      "expectedCtrHypothesis": "Property-type-specific title and meta should match investors looking for 2-4 unit DSCR guidance.",
+      "validationStatus": "PASS",
+      "preChangeGscBaseline": {
+        "chosenBaseline": {
+          "clicks": 0,
+          "impressions": 11916,
+          "ctr": 0,
+          "position": 6.95,
+          "note": "Known audit context supplied in handoff. Zero-click top-10 page."
+        },
+        "latestRepoPageExport": {
+          "source": "reports/gsc-performance-20260115_20260415.json",
+          "clicks": 0,
+          "impressions": 8896,
+          "ctr": 0,
+          "ctrPercent": 0,
+          "position": 6.740557553956834
+        },
+        "topKnownQueries": [
+          {
+            "query": "dscr loan multi-unit str properties maine 2026 requirements",
+            "clicks": 0,
+            "impressions": 30,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 14.266666666666667
+          },
+          {
+            "query": "dscr loan requirements multi-unit str properties maine 2026",
+            "clicks": 0,
+            "impressions": 29,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 10.655172413793103
+          },
+          {
+            "query": "current dscr loan rates multifamily 2026",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 9.125
+          },
+          {
+            "query": "dscr loans for multifamily properties 2026",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.142857142857143
+          },
+          {
+            "query": "dscr loan requirements multi-unit short-term rental properties maine 2026",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 16.833333333333336
+          },
+          {
+            "query": "dscr multifamily loan",
+            "clicks": 0,
+            "impressions": 11,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 76
+          },
+          {
+            "query": "dscr loan rates multifamily 2026",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.8
+          },
+          {
+            "query": "dscr loan 1-4 units",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 38
+          },
+          {
+            "query": "dscr loan maximum ltv 2026",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 11
+          },
+          {
+            "query": "multifamily dscr loans",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 62
+          }
+        ],
+        "querySource": "reports/gsc-query-performance-20260115_20260415.json",
+        "zeroClickOrNearZeroClick": true,
+        "notes": [
+          "Known audit context supplied in handoff. Zero-click top-10 page.",
+          "Repo page export row also captured for reference."
+        ]
+      },
+      "measurementWindows": [
+        {
+          "window": "Day 7",
+          "targetDate": "2026-06-12",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 14",
+          "targetDate": "2026-06-19",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 30",
+          "targetDate": "2026-07-05",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/reverse-mortgage-closing-costs-fees-2026",
+      "route": "/blog/reverse-mortgage-closing-costs-fees-2026",
+      "deployedTitle": "Reverse Mortgage Closing Costs: HECM Fees Explained",
+      "titleLength": 51,
+      "deployedMetaDescription": "See which HECM closing costs are common, which fees may be financed, and what seniors should compare before choosing a reverse mortgage lender.",
+      "metaLength": 143,
+      "h1": "Reverse Mortgage Closing Costs: HECM Fees Explained",
+      "canonical": "https://www.mothebroker.com/blog/reverse-mortgage-closing-costs-fees-2026",
+      "dateModified": "2026-06-05",
+      "primaryTargetQueryGroup": "Reverse mortgage closing costs, HECM fees, financed costs",
+      "expectedCtrHypothesis": "Cost-specific HECM language should improve clicks from seniors comparing fees and financed closing costs.",
+      "validationStatus": "PASS",
+      "preChangeGscBaseline": {
+        "chosenBaseline": {
+          "clicks": 0,
+          "impressions": 7066,
+          "ctr": 0,
+          "position": 6.33,
+          "note": "Known audit context supplied in handoff. Zero-click top-10 page."
+        },
+        "latestRepoPageExport": {
+          "source": "reports/gsc-performance-20260115_20260415.json",
+          "clicks": 0,
+          "impressions": 5437,
+          "ctr": 0,
+          "ctrPercent": 0,
+          "position": 6.499356262644841
+        },
+        "topKnownQueries": [
+          {
+            "query": "hecm for purchase closing costs",
+            "clicks": 0,
+            "impressions": 132,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 16.704545454545453
+          },
+          {
+            "query": "hecm origination fee cap 2026",
+            "clicks": 0,
+            "impressions": 27,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 2.2592592592592595
+          },
+          {
+            "query": "reverse mortgage fees and costs 2026",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 4.555555555555555
+          },
+          {
+            "query": "hecm origination fee 2% first 200000 1% remainder cap 6000",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 4.25
+          },
+          {
+            "query": "hecm origination fee 2% of first 200000 minimum 2500 maximum 6000",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 6.769230769230769
+          },
+          {
+            "query": "reverse mortgage costs and fees 2026",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 5
+          },
+          {
+            "query": "hecm origination fee 2% first 200,000 minimum 2,500 maximum 6,000",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 8.11111111111111
+          },
+          {
+            "query": "hecm origination fee 2% of first 200,000 minimum 2,500 maximum 6,000",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 5.875
+          },
+          {
+            "query": "hecm origination fee cap",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 8.125
+          },
+          {
+            "query": "reverse mortgage closing cost calculator",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 77.25
+          }
+        ],
+        "querySource": "reports/gsc-query-performance-20260115_20260415.json",
+        "zeroClickOrNearZeroClick": true,
+        "notes": [
+          "Known audit context supplied in handoff. Zero-click top-10 page.",
+          "Repo page export row also captured for reference."
+        ]
+      },
+      "measurementWindows": [
+        {
+          "window": "Day 7",
+          "targetDate": "2026-06-12",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 14",
+          "targetDate": "2026-06-19",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 30",
+          "targetDate": "2026-07-05",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026",
+      "route": "/blog/second-home-cash-out-refinance-guide-2026",
+      "deployedTitle": "Second Home Cash-Out Refinance Rules for 2026",
+      "titleLength": 45,
+      "deployedMetaDescription": "See when a vacation-home cash-out refinance may work, what lenders check, and how LTV, seasoning, reserves, and occupancy rules affect approval.",
+      "metaLength": 144,
+      "h1": "Second Home Cash-Out Refinance Rules for 2026",
+      "canonical": "https://www.mothebroker.com/blog/second-home-cash-out-refinance-guide-2026",
+      "dateModified": "2026-06-05",
+      "primaryTargetQueryGroup": "Second home cash-out refinance, vacation-home refinance rules",
+      "expectedCtrHypothesis": "Rules-focused title and meta should pull users with eligibility and LTV/seasoning intent.",
+      "validationStatus": "PASS",
+      "preChangeGscBaseline": {
+        "chosenBaseline": {
+          "clicks": 0,
+          "impressions": 30454,
+          "ctr": 0,
+          "position": 7.48,
+          "note": "Known audit context supplied in handoff. Zero-click top-10 page."
+        },
+        "latestRepoPageExport": {
+          "source": "reports/gsc-performance-20260115_20260415.json",
+          "clicks": 0,
+          "impressions": 22673,
+          "ctr": 0,
+          "ctrPercent": 0,
+          "position": 7.314470956644467
+        },
+        "topKnownQueries": [
+          {
+            "query": "fannie mae cash-out refinance maximum ltv 2026",
+            "clicks": 0,
+            "impressions": 113,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 6.982300884955753
+          },
+          {
+            "query": "fannie mae cash-out refinance ltv limits 2026",
+            "clicks": 0,
+            "impressions": 87,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 5.310344827586207
+          },
+          {
+            "query": "fannie mae cash-out refinance maximum ltv primary residence 2026",
+            "clicks": 0,
+            "impressions": 73,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 8.73972602739726
+          },
+          {
+            "query": "fannie mae cash-out refinance investment property max ltv 2026",
+            "clicks": 0,
+            "impressions": 72,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.472222222222222
+          },
+          {
+            "query": "conventional cash-out refinance max ltv 2026",
+            "clicks": 0,
+            "impressions": 65,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.661538461538462
+          },
+          {
+            "query": "fannie mae investment property cash-out refinance max ltv 1-unit 2026 selling guide",
+            "clicks": 0,
+            "impressions": 63,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.682539682539683
+          },
+          {
+            "query": "freddie mac investment property cash-out refinance max ltv 2026",
+            "clicks": 0,
+            "impressions": 58,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 6.793103448275862
+          },
+          {
+            "query": "maximum ltv for cash-out refinance conventional loan 2026",
+            "clicks": 0,
+            "impressions": 57,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.228070175438597
+          },
+          {
+            "query": "cash out refinance ltv limits 2026",
+            "clicks": 0,
+            "impressions": 53,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 8.132075471698112
+          },
+          {
+            "query": "fannie mae cash-out refinance seasoning requirements 2026",
+            "clicks": 0,
+            "impressions": 53,
+            "ctr": 0,
+            "ctrPercent": 0,
+            "position": 7.830188679245283
+          }
+        ],
+        "querySource": "reports/gsc-query-performance-20260115_20260415.json",
+        "zeroClickOrNearZeroClick": true,
+        "notes": [
+          "Known audit context supplied in handoff. Zero-click top-10 page.",
+          "Repo page export row also captured for reference."
+        ]
+      },
+      "measurementWindows": [
+        {
+          "window": "Day 7",
+          "targetDate": "2026-06-12",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 14",
+          "targetDate": "2026-06-19",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        },
+        {
+          "window": "Day 30",
+          "targetDate": "2026-07-05",
+          "clicks": null,
+          "impressions": null,
+          "ctr": null,
+          "averagePosition": null,
+          "changeInCtr": null,
+          "changeInImpressions": null,
+          "changeInAveragePosition": null,
+          "topQueries": [],
+          "queryCtr": null,
+          "serpTitleObserved": null,
+          "serpSnippetObserved": null,
+          "googleRewroteTitle": "unknown",
+          "cannibalizingUrlObserved": "unknown",
+          "organicLeadsOrContactStarts": null,
+          "actionDecision": null
+        }
+      ]
+    }
+  ],
+  "measurementWindows": [
+    {
+      "window": "Day 7",
+      "targetDate": "2026-06-12",
+      "fieldsToFill": [
+        "clicks",
+        "impressions",
+        "CTR",
+        "average position",
+        "change in CTR",
+        "change in impressions",
+        "change in average position",
+        "top queries",
+        "query CTR",
+        "SERP title observed",
+        "SERP snippet observed",
+        "Google rewrote title yes/no/unknown",
+        "cannibalizing URL observed yes/no/unknown",
+        "organic leads/contact starts if GA4 data is available",
+        "action decision"
+      ]
+    },
+    {
+      "window": "Day 14",
+      "targetDate": "2026-06-19",
+      "fieldsToFill": [
+        "clicks",
+        "impressions",
+        "CTR",
+        "average position",
+        "change in CTR",
+        "change in impressions",
+        "change in average position",
+        "top queries",
+        "query CTR",
+        "SERP title observed",
+        "SERP snippet observed",
+        "Google rewrote title yes/no/unknown",
+        "cannibalizing URL observed yes/no/unknown",
+        "organic leads/contact starts if GA4 data is available",
+        "action decision"
+      ]
+    },
+    {
+      "window": "Day 30",
+      "targetDate": "2026-07-05",
+      "fieldsToFill": [
+        "clicks",
+        "impressions",
+        "CTR",
+        "average position",
+        "change in CTR",
+        "change in impressions",
+        "change in average position",
+        "top queries",
+        "query CTR",
+        "SERP title observed",
+        "SERP snippet observed",
+        "Google rewrote title yes/no/unknown",
+        "cannibalizing URL observed yes/no/unknown",
+        "organic leads/contact starts if GA4 data is available",
+        "action decision"
+      ]
+    }
+  ],
+  "decisionRules": [
+    {
+      "condition": "Average position is stable and CTR improves",
+      "action": "Keep the change and consider applying the pattern to adjacent pages."
+    },
+    {
+      "condition": "Average position is stable and CTR does not improve by Day 30",
+      "action": "Inspect live SERP title/snippet, check title/meta rewrites, compare query intent against the page intro, and revise title/meta/first answer block."
+    },
+    {
+      "condition": "Impressions drop but CTR rises",
+      "action": "Do not panic. Check whether query mix narrowed to more relevant intent and compare conversions if available."
+    },
+    {
+      "condition": "Position drops materially",
+      "action": "Check whether content changes weakened relevance, inspect cannibalization, and compare before/after title/H1/query alignment."
+    },
+    {
+      "condition": "Google rewrites the title",
+      "action": "Shorten title, move the dominant query earlier, reduce templated or promotional language, and align H1 plus anchor text."
+    }
+  ],
+  "monitoringChecklist": [
+    {
+      "date": "2026-06-12",
+      "label": "Day 7",
+      "task": "Pull GSC page-level data for the four CTR URLs."
+    },
+    {
+      "date": "2026-06-19",
+      "label": "Day 14",
+      "task": "Pull GSC page-level and query-level data."
+    },
+    {
+      "date": "2026-07-05",
+      "label": "Day 30",
+      "task": "Pull page-query joined data if available and decide keep, iterate, or expand pattern."
+    },
+    {
+      "date": "2026-07-05",
+      "label": "Day 30",
+      "task": "Pull Bing search data if available."
+    },
+    {
+      "date": "2026-07-05",
+      "label": "Day 30",
+      "task": "Pull Bing AI page-level citation data if available."
+    },
+    {
+      "date": "2026-07-05",
+      "label": "Day 30",
+      "task": "Pull GA4 organic landing-page leads if available."
+    }
+  ],
+  "dataGaps": [
+    "Fresh post-deploy GSC data is not available yet. Measurement windows are future-dated.",
+    "GA4 organic landing-page leads/contact starts were not pulled in this reporting-only pass.",
+    "Bing AI page-level citation data was not pulled in this reporting-only pass.",
+    "Top-query rows are limited to existing repository exports and may not match the exact pre-change audit window."
+  ],
+  "artifactHygiene": {
+    "pushReportsNow": false,
+    "note": "Do not push this report unless explicitly approved. Do not trigger a deploy only to commit reports."
+  },
+  "validation": {
+    "jsonParses": true,
+    "markdownHasRequiredSections": true,
+    "indexingActionRun": false,
+    "gitStatusRecorded": true
+  }
+}

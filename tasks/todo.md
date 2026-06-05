@@ -1859,3 +1859,216 @@ Started: 2026-06-05
 - Existing unrelated untracked audit, report, `.claude`, and `test-results` artifacts remain untouched.
 - Existing site-wide `OfferCatalog` schema in `lib/seo.ts` remains outside CTR Batch 1 scope.
 - Local `next start` browser validation has expected Vercel Analytics 404 noise and local CSP prefetch noise that should not reproduce on the production domain.
+
+---
+
+# CTR Batch 1 production deploy validation
+
+Started: 2026-06-05
+
+## Scope
+
+- [x] Reconfirm commit scope before push.
+- [x] Reconfirm Vercel production indexing guard before push.
+- [x] Run requested local safety checks before push.
+- [x] Push `main` only after pre-push checks pass.
+- [x] Monitor Vercel production deployment for the pushed commit.
+- [x] Confirm production postbuild submitted zero indexing URLs.
+- [x] Validate the four CTR Batch 1 URLs live.
+- [x] Validate sitemap and robots live.
+- [x] Validate live contextual links.
+- [x] Run desktop and mobile browser render checks.
+- [x] Create local production validation artifacts.
+- [x] Leave validation artifacts local and unpushed.
+
+## Results
+
+- Deploy validation decision: PASSED.
+- Commit deployed: `4b5130c9d5f3a67237ece04bd9331ca644019f42`.
+- Push result: `origin/main` advanced to `4b5130c`; Vercel cloned the commit at `2026-06-05T19:22:31Z`, so the push was complete before that timestamp.
+- Deployment timestamp: created `2026-06-05T19:22:29Z`; completed `2026-06-05T19:26:26Z`.
+- Deployment ID: `dpl_5x7rhDdu2EaSSmVgjybAzMQ4wd7s`.
+- Deployment URL: `https://brokersiteupdate-nf9feidgr-moabdels-projects.vercel.app`.
+- Production aliases: `https://www.mothebroker.com`, `https://mothebroker.com`, `https://brokersiteupdate-moabdels-projects.vercel.app`, `https://brokersiteupdate-git-main-moabdels-projects.vercel.app`.
+- Postbuild indexing result: 1 candidate URL, 1 eligible URL, 0 rejected URLs, 0 submitted URLs, `network submission performed: false`.
+- Postbuild skip reasons: `DISABLE_AUTO_INDEXING_ON_PROD=true`; dry-run mode enabled; `INDEXING_SUBMISSION_MODE` is not `manual-approved`; `ENABLE_INDEXING_SUBMISSIONS` is not true; `INDEXING_APPROVED_DEPLOY_SHA` is missing.
+- Production URL validation result: all four CTR pages returned HTTP 200, no noindex header or meta, self canonical, intended title and meta description, one H1, visible answer block, visible semantic table, visible source box, visible FAQ, valid JSON-LD, Article schema, FAQPage schema, exactly one BreadcrumbList, `dateModified` of `2026-06-05`, no page-owned Review, AggregateRating, Product, Offer, or rating schema, and no unsupported guarantee language.
+- Browser validation result: desktop `1440x900` and mobile `390x844` checks passed for all four CTR pages. Playwright was unavailable in this shell, so installed Chrome was controlled through the DevTools protocol. Non-blocking image `ERR_BLOCKED_BY_ORB` resource events were recorded, with no document failures, runtime exceptions, console errors, horizontal overflow, or CTA text overflow.
+- Sitemap result: `https://www.mothebroker.com/sitemap.xml` returned 200, parsed as XML, contained 384 URLs, included all four CTR pages plus the Orange County property-tax URL, and had no duplicate URLs.
+- Robots result: `https://www.mothebroker.com/robots.txt` returned 200, remained multiline, included sitemap references, and did not block Googlebot or Bingbot from the four CTR URLs or the Orange County property-tax URL.
+- Internal-link result: key contextual link groups were present and returned HTTP 200 for HELOC, DSCR, reverse costs, and second-home cash-out pages.
+- Search actions not executed: no Google indexing request, no Bing submission, no IndexNow submission, no approved indexing command, and no sitemap submission.
+
+## Artifacts
+
+- `reports/ctr-batch-1-production-validation-2026-06-05.md`
+- `reports/ctr-batch-1-production-validation-2026-06-05.json`
+
+These artifacts are intentionally local and unpushed in this pass to avoid triggering another deployment.
+
+## Remaining Risks
+
+- Google may rewrite SERP titles or snippets even though the deployed metadata is correct.
+- CTR movement may appear before ranking movement; impressions can fall while CTR improves.
+- The internal-link audit still reports 78 existing orphaned sitemap entries outside this batch.
+- Playwright was unavailable in the shell, so browser validation used Chrome DevTools protocol instead.
+
+## 7/14/30-day Measurement Plan
+
+- Day 7: Track URL, clicks, impressions, CTR, average position, top queries, query CTR, SERP title, SERP snippet, cannibalizing URL, and organic leads or contact starts.
+- Day 14: Recheck the same metrics and compare CTR direction before expecting ranking movement.
+- Day 30: If position is similar and CTR has not moved, treat the snippet rewrite as missing intent and revise based on observed queries and snippets.
+
+---
+
+# CTR Batch 1 measurement baseline and CTR Batch 2 local start
+
+Started: 2026-06-05
+
+## Scope
+
+- [x] Create CTR Batch 1 measurement baseline artifacts without changing application source.
+- [x] Record 7, 14, and 30 day GSC measurement follow-ups.
+- [x] Start CTR Batch 2 locally for the four approved URLs only.
+- [x] Do not deploy, push, submit URLs, request indexing, or edit indexing automation.
+- [x] Preserve existing local reports and task ledger history.
+
+## Batch 1 Measurement Baseline
+
+- Baseline artifacts created:
+  - `reports/ctr-batch-1-measurement-baseline-2026-06-05.md`
+  - `reports/ctr-batch-1-measurement-baseline-2026-06-05.json`
+- Inputs used:
+  - `reports/ctr-batch-1-production-validation-2026-06-05.json`
+  - `audit/mothebroker-2026-06-05-data-analysis.json`
+  - `reports/gsc-performance-20260115_20260415.json`
+  - `reports/gsc-query-performance-20260115_20260415.json`
+- Measurement targets:
+  - Day 7: 2026-06-12
+  - Day 14: 2026-06-19
+  - Day 30: 2026-07-05
+- Scheduler result: one combined heartbeat named `CTR Batch 1 7/14/30 GSC`, id `ctr-batch-1-day-7-gsc`, with `RDATE` entries for 2026-06-19 and 2026-07-05 because the thread supports one heartbeat.
+
+## Batch 2 Pages Updated
+
+- `app/blog/heloc-interest-tax-deduction-rules-2026/page.tsx`
+- `app/blog/dscr-loan-interest-only-options-2026/page.tsx`
+- `app/blog/dscr-loan-llc-entity-structure-2026/page.tsx`
+- `app/blog/dscr-loan-seasoning-requirements-2026/page.tsx`
+
+## Batch 2 Validation Artifacts
+
+- `reports/ctr-batch-2-local-validation-2026-06-05.md`
+- `reports/ctr-batch-2-local-validation-2026-06-05.json`
+
+## Batch 2 Changes
+
+- Updated title tags, meta descriptions, Open Graph titles/descriptions, Article headlines/descriptions, and `dateModified` values for the four target URLs.
+- Added visible quick answer blocks, semantic tables, and source boxes using existing shared SEO components.
+- Converted the HELOC FAQ from collapsed `<details>` to visible FAQ cards to align visible content with FAQPage schema.
+- Added or strengthened internal links across HELOC, home equity, DSCR hub, DSCR multi-family, DSCR LLC, DSCR seasoning, DSCR interest-only, DSCR calculator, and DSCR deal analyzer pages.
+- Changed existing interest-only DSCR table wrappers from `overflow-hidden` to `overflow-x-auto` so mobile users can access the full tables.
+- Kept DSCR claims lender-specific and limited service language to California and Washington.
+
+## Validation Results
+
+- `npm run typecheck`: passed.
+- `npm run lint`: passed with existing deprecation and plugin warnings only.
+- `git diff --check -- app/blog/heloc-interest-tax-deduction-rules-2026/page.tsx app/blog/dscr-loan-interest-only-options-2026/page.tsx app/blog/dscr-loan-llc-entity-structure-2026/page.tsx app/blog/dscr-loan-seasoning-requirements-2026/page.tsx`: passed with Windows line-ending warnings only.
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`: passed, 2 tests.
+- `node --test scripts/__tests__/indexing-safety.test.mjs`: passed, 11 tests.
+- `npm run seo:validate`: passed.
+- `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3018 npm run seo:validate`: passed.
+- `npm run indexing:dry-run`: passed, 1 eligible candidate, zero URLs submitted, `network submission performed: false`.
+- `npm run indexing:validate-allowlist`: passed, zero URLs submitted, `network submission performed: false`.
+- `node scripts/internal-link-audit.mjs`: passed, 384 sitemap entries analyzed, 78 existing orphaned entries.
+- `npm run build`: passed after the final table overflow fix. Postbuild indexing remained report-only with zero submissions.
+- Custom rendered HTML and JSON-LD validation on `http://127.0.0.1:3018`: passed for all four Batch 2 routes.
+- Chrome CDP viewport validation at 390px mobile and 1366px desktop: passed with no page-level horizontal overflow on all four Batch 2 routes.
+- New official source links returned HTTP 200 for IRS, CFPB, CA Secretary of State, WA Secretary of State, and Fannie Mae sources.
+
+## Indexing Safety
+
+- No deploy was run.
+- No push was run.
+- No GSC indexing request was run.
+- No Bing submission was run.
+- No IndexNow submission was run.
+- No approved indexing command was run.
+- Build and explicit dry-run checks reported zero network submissions.
+
+## Remaining Risks
+
+- CTR Batch 2 is local-only and not visible in production until a separately approved deploy occurs.
+- Google can rewrite titles or snippets after deployment, so measurement must compare actual SERP snippets, not only source metadata.
+- The internal-link audit still reports 78 existing orphaned sitemap entries outside this scoped batch.
+- The local browser plugin was not exposed in this session, so viewport checks used installed Chrome through DevTools Protocol and headless screenshots.
+
+---
+
+# CTR Batch 2 deploy-gate review and local commit
+
+Started: 2026-06-05
+
+## Scope
+
+- [x] Review only the four CTR Batch 2 URLs.
+- [x] Do not deploy.
+- [x] Do not push.
+- [x] Do not submit URLs to Google, Bing, IndexNow, or any indexing endpoint.
+- [x] Do not run approved indexing submission.
+- [x] Do not modify indexing automation.
+- [x] Do not modify route policy unless Batch 2 caused an accidental regression.
+- [x] Commit locally only if checks pass.
+
+## Deploy-Gate Result
+
+- Decision: PASS.
+- Commit readiness: safe to commit locally.
+- Production visibility: not deployed and not pushed in this review.
+- Sitemap result: `npm run build` regenerated `public/sitemap.xml` ordering only. The generated churn was restored, and the sitemap has no final diff.
+- Route and indexing policy result: no final diff in `public/sitemap.xml`, `public/robots.txt`, `next-sitemap.config.js`, `vercel.json`, `middleware.ts`, or indexing scripts.
+- Schema result: Batch 2 pages add page-level Article, FAQPage, and BreadcrumbList schema. Existing global shared `OfferCatalog` and `Offer` schema remains unchanged outside this batch.
+- Source result: new official source links returned HTTP 200.
+- Indexing result: explicit dry-run checks and build postbuild reported zero submitted URLs and `network submission performed: false`.
+
+## Deploy-Gate Commands
+
+- `git status --short`: scoped tracked changes plus pre-existing unrelated untracked files.
+- `git diff --stat`: four Batch 2 pages, internal-link audit reports, and `tasks/todo.md`.
+- `git diff -- public/sitemap.xml public/robots.txt next-sitemap.config.js vercel.json middleware.ts scripts/submit-indexing-after-build.mjs scripts/dry-run-indexing.mjs scripts/validate-indexing-allowlist.mjs`: no diff after restoring build sitemap churn.
+- `npm run typecheck`: passed.
+- `npm run lint`: passed with existing Next lint deprecation and plugin warning only.
+- `npm run seo:validate`: passed.
+- `node --test scripts/__tests__/seo-route-policy.test.mjs`: passed, 2 tests.
+- `node --test scripts/__tests__/indexing-safety.test.mjs`: passed, 11 tests.
+- `npm run indexing:dry-run`: passed, 1 eligible candidate, zero submitted URLs, `network submission performed: false`.
+- `npm run indexing:validate-allowlist`: passed, 1 eligible candidate, zero submitted URLs, `network submission performed: false`.
+- `node scripts/internal-link-audit.mjs`: passed, 384 sitemap entries analyzed, 78 existing orphaned entries.
+- `npm run build`: passed. Postbuild indexing remained report-only with zero submissions.
+- `SEO_VALIDATE_BASE_URL=http://127.0.0.1:3018 npm run seo:validate`: passed against local production server.
+- Custom rendered metadata and JSON-LD parser: passed for all four Batch 2 URLs.
+- Headless Chrome CDP viewport check at 390px and 1366px: passed for all four Batch 2 URLs.
+
+## Files to Commit
+
+- `app/blog/heloc-interest-tax-deduction-rules-2026/page.tsx`
+- `app/blog/dscr-loan-interest-only-options-2026/page.tsx`
+- `app/blog/dscr-loan-llc-entity-structure-2026/page.tsx`
+- `app/blog/dscr-loan-seasoning-requirements-2026/page.tsx`
+- `reports/internal-link-audit.csv`
+- `reports/internal-link-audit.json`
+- `reports/ctr-batch-1-measurement-baseline-2026-06-05.md`
+- `reports/ctr-batch-1-measurement-baseline-2026-06-05.json`
+- `reports/ctr-batch-2-local-validation-2026-06-05.md`
+- `reports/ctr-batch-2-local-validation-2026-06-05.json`
+- `tasks/todo.md`
+
+## Files Intentionally Not Committed
+
+- `.claude/`
+- `AGENTS.md.backup-20260603-184143`
+- Existing untracked audit/report/log/screenshot directories outside the CTR Batch 2 artifacts.
+- `reports/ctr-batch-2-next-start-3018.*.log`
+- `reports/ctr-batch-2-render-validation-2026-06-05/`
+- `test-results/`

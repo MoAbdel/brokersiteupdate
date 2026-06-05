@@ -2,26 +2,88 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, AlertTriangle, Clock, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'DSCR Cash-Out Seasoning Requirements 2026: BRRRR, Title & Delayed Financing Rules | Mo Abdel',
-  description: 'DSCR cash-out seasoning rules for 2026: title seasoning, BRRRR refinance timelines, rate-term waiting periods, and delayed financing exceptions. Access 50+ Wholesale Lenders through wholesale channels. NMLS #1426884.',
+  title: 'DSCR Loan Seasoning Requirements: Cash-Out and Title Rules',
+  description: 'Compare DSCR title seasoning, cash-out waiting periods, rate-term refinance rules, and delayed financing exceptions for rental investors.',
   keywords: ['DSCR loan seasoning requirements', 'DSCR cash-out seasoning', 'DSCR title seasoning', 'DSCR refinance seasoning period', 'DSCR loan waiting period', 'DSCR seasoning 2026'],
   openGraph: {
-    title: 'DSCR Cash-Out Seasoning Requirements 2026: BRRRR, Title & Delayed Financing Rules',
-    description: 'DSCR cash-out seasoning rules for title seasoning, BRRRR exits, rate-term refinances, and delayed financing exceptions.',
+    title: 'DSCR Loan Seasoning Requirements: Cash-Out and Title Rules',
+    description: 'Compare DSCR title seasoning, cash-out waiting periods, rate-term refinance rules, and delayed financing exceptions for rental investors.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-25T00:00:00Z',
-    modifiedTime: '2026-02-25T00:00:00Z',
+    modifiedTime: '2026-06-05T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026',
   },
 };
+
+const seasoningScenarioColumns = [
+  { key: 'scenario', label: 'Investor Scenario' },
+  { key: 'lenderFocus', label: 'What the Lender Checks' },
+  { key: 'planningNote', label: 'Planning Note' },
+];
+
+const seasoningScenarioRows = [
+  {
+    cells: {
+      scenario: 'Cash-out refinance after purchase',
+      lenderFocus: 'How long title has been recorded, current value support, DSCR, LTV, and cash-out purpose',
+      planningNote: 'Many programs use a 3 to 6 month ownership window, but overlays vary by lender',
+    },
+  },
+  {
+    cells: {
+      scenario: 'Rate-term refinance',
+      lenderFocus: 'Whether the new loan only replaces existing debt and closing costs without cash back',
+      planningNote: 'Some DSCR lenders allow shorter seasoning for rate-term than for cash-out',
+    },
+  },
+  {
+    cells: {
+      scenario: 'Delayed financing after cash purchase',
+      lenderFocus: 'Original settlement statement, proof of funds, source of funds, and current title record',
+      planningNote: 'This can shorten the capital-recycling timeline when the original purchase was documented cleanly',
+    },
+  },
+  {
+    cells: {
+      scenario: 'LLC title transfer or vesting change',
+      lenderFocus: 'Whether beneficial ownership changed and whether title continuity is documented',
+      planningNote: 'An entity transfer can trigger extra title review and may reset seasoning for some lenders',
+    },
+  },
+  {
+    cells: {
+      scenario: 'BRRRR refinance after rehab',
+      lenderFocus: 'Title date, rehab completion, leases, market rent, appraisal value, and cash-out limits',
+      planningNote: 'Start lender review before the target seasoning date so appraisal and title work do not delay exit timing',
+    },
+  },
+];
+
+const seasoningSources = [
+  {
+    label: 'Fannie Mae Selling Guide: Cash-Out Refinance Transactions',
+    href: 'https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions',
+    description:
+      'Conventional cash-out refinance reference used for comparison. DSCR lenders are non-QM and apply their own overlays.',
+  },
+  {
+    label: 'CFPB: What is a mortgage?',
+    href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-en-99/',
+    description:
+      'Consumer mortgage education covering loan terms, refinance considerations, and risky loan features.',
+  },
+];
 
 const faqData = [
   {
@@ -58,7 +120,7 @@ const faqData = [
   },
   {
     question: "Does seasoning apply differently to properties bought at auction or foreclosure?",
-    answer: "Properties purchased at auction, foreclosure, or through distressed sales follow the same seasoning rules measured from the recording date. However, these properties often benefit most from delayed financing exceptions since they are frequently purchased with all cash. The appraised value after rehab — not the below-market purchase price — determines the refinance amount."
+    answer: "Properties purchased at auction, foreclosure, or through distressed sales usually follow seasoning rules measured from the recording date. These properties may benefit from delayed financing exceptions when purchased with all cash and documented correctly. The appraised value after rehab, not just the below-market purchase price, may affect the refinance amount under lender-specific rules."
   },
   {
     question: "How does DSCR seasoning compare to conventional loan seasoning?",
@@ -71,6 +133,10 @@ const faqData = [
   {
     question: "What documents do I need to prove seasoning on a DSCR refinance?",
     answer: "Lenders verify seasoning through a title search that shows the recording date of the deed in the borrower's name. For delayed financing, additional documentation includes the original purchase settlement statement, proof of funds used for the cash purchase (bank statements), and the original purchase contract. No income documentation such as tax returns or W-2s is required for the DSCR qualification itself."
+  },
+  {
+    question: "Can transferring title to an LLC reset DSCR seasoning?",
+    answer: "It can. Some DSCR lenders look through an LLC transfer when beneficial ownership did not change, while others treat the new vesting date as a fresh title event. Keep the transfer deed, operating agreement, ownership records, and settlement documents available so the broker can match the file to a lender that accepts the title history."
   }
 ];
 
@@ -84,7 +150,8 @@ export default function DSCRLoanSeasoningRequirements2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loan Seasoning Requirements 2026: Title, Cash-Out & Rate-Term Timelines",
+            "headline": "DSCR Loan Seasoning Requirements: Cash-Out and Title Rules",
+            "description": "Compare DSCR title seasoning, cash-out waiting periods, rate-term refinance rules, and delayed financing exceptions for rental investors.",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -98,7 +165,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-25",
-            "dateModified": "2026-02-25",
+            "dateModified": "2026-06-05",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026",
@@ -159,7 +226,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "DSCR Loan Seasoning Requirements 2026",
+                "name": "DSCR Loan Seasoning Requirements: Cash-Out and Title Rules",
                 "item": "https://www.mothebroker.com/blog/dscr-loan-seasoning-requirements-2026"
               }
             ]
@@ -193,7 +260,7 @@ export default function DSCRLoanSeasoningRequirements2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loan Seasoning Requirements 2026: Title, Cash-Out &amp; Rate-Term Timelines
+              DSCR Loan Seasoning Requirements: Cash-Out and Title Rules
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
@@ -234,6 +301,41 @@ export default function DSCRLoanSeasoningRequirements2026() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-12 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnswerBlock
+            id="quick-answer"
+            title="How does DSCR seasoning work?"
+            reviewedDate="2026-06-05"
+            reviewedLabel="June 5, 2026"
+            className="mb-8"
+          >
+            <p>
+              DSCR seasoning is the lender's waiting period between when title is recorded and when
+              a refinance, cash-out, or delayed-financing transaction is eligible. Cash-out
+              seasoning is usually stricter than rate-term seasoning, and the details vary by
+              lender.
+            </p>
+            <p>
+              The key documents are the recorded deed, settlement statement, proof of purchase
+              funds, current title report, lease or rent support, and any LLC transfer records. A
+              broker can compare lender overlays before the target refinance date.
+            </p>
+          </AnswerBlock>
+
+          <SemanticInfoTable
+            caption="DSCR seasoning scenarios to review before refinancing"
+            columns={seasoningScenarioColumns}
+            rows={seasoningScenarioRows}
+            rowHeaderKey="scenario"
+            footnote="DSCR seasoning rules are lender-specific and available through Mo Abdel only in California and Washington. This table is for planning, not a commitment to lend."
+            className="mb-8"
+          />
+
+          <SourceBox sources={seasoningSources} />
         </div>
       </section>
 
@@ -676,6 +778,18 @@ export default function DSCRLoanSeasoningRequirements2026() {
                 </Link>
                 <Link href="/blog/dscr-refinance-investment-property-2026" className="text-purple-400 hover:text-purple-300 flex items-center gap-2">
                   <ArrowRight className="w-4 h-4" /> DSCR Refinance Investment Property
+                </Link>
+                <Link href="/blog/dscr-loan-llc-entity-structure-2026" className="text-purple-400 hover:text-purple-300 flex items-center gap-2">
+                  <ArrowRight className="w-4 h-4" /> DSCR Loan for LLC
+                </Link>
+                <Link href="/blog/dscr-loan-interest-only-options-2026" className="text-purple-400 hover:text-purple-300 flex items-center gap-2">
+                  <ArrowRight className="w-4 h-4" /> DSCR Interest-Only Loans
+                </Link>
+                <Link href="/blog/dscr-loans-multi-family-guide-2026" className="text-purple-400 hover:text-purple-300 flex items-center gap-2">
+                  <ArrowRight className="w-4 h-4" /> DSCR Multi-Family Loan Guide
+                </Link>
+                <Link href="/loan-programs/dscr-investment-loans" className="text-purple-400 hover:text-purple-300 flex items-center gap-2">
+                  <ArrowRight className="w-4 h-4" /> DSCR Investment Loan Program
                 </Link>
                 <Link href="/blog/dscr-first-investment-property-2026" className="text-purple-400 hover:text-purple-300 flex items-center gap-2">
                   <ArrowRight className="w-4 h-4" /> DSCR First Investment Property

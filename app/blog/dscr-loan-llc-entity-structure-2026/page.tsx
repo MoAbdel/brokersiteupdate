@@ -2,26 +2,94 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, AlertTriangle, Shield, Scale } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'DSCR Loan for LLC 2026: How to Finance Investment Property in an Entity | Mo Abdel',
-  description: 'DSCR loans allow LLC vesting at closing — one of the few mortgage products that finance investment property directly in an entity. Learn requirements, entity types, and operating agreement guidelines. NMLS #1426884.',
+  title: 'DSCR Loan for LLC: Entity Requirements for Investors',
+  description: 'Learn how DSCR lenders evaluate LLC vesting, operating agreements, guarantors, bank accounts, and rental income for investment property loans.',
   keywords: ['DSCR loan for LLC', 'DSCR loan LLC vesting', 'investment property LLC financing', 'DSCR loan entity structure', 'LLC mortgage investment property', 'DSCR loan business entity 2026'],
   openGraph: {
-    title: 'DSCR Loan for LLC 2026: How to Finance Investment Property in an Entity',
-    description: 'DSCR loans allow LLC vesting at closing — one of the few mortgage products that finance investment property directly in an entity. Learn requirements, entity types, and operating agreement guidelines.',
+    title: 'DSCR Loan for LLC: Entity Requirements for Investors',
+    description: 'Learn how DSCR lenders evaluate LLC vesting, operating agreements, guarantors, bank accounts, and rental income for investment property loans.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-25T00:00:00Z',
-    modifiedTime: '2026-02-25T00:00:00Z',
+    modifiedTime: '2026-06-05T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026',
   },
 };
+
+const entityRequirementColumns = [
+  { key: 'item', label: 'Entity Item' },
+  { key: 'whatLendersReview', label: 'What DSCR Lenders Review' },
+  { key: 'whyItMatters', label: 'Why It Matters' },
+];
+
+const entityRequirementRows = [
+  {
+    cells: {
+      item: 'Articles of organization or formation record',
+      whatLendersReview: 'Entity name, formation state, active status, and ownership match',
+      whyItMatters: 'The vesting name must line up with title, loan documents, and closing instructions',
+    },
+  },
+  {
+    cells: {
+      item: 'Operating agreement',
+      whatLendersReview: 'Managing member authority, ownership percentages, borrowing authority, and consent rules',
+      whyItMatters: 'Underwriting needs to know who can sign and whether extra member approvals are required',
+    },
+  },
+  {
+    cells: {
+      item: 'EIN and entity bank account',
+      whatLendersReview: 'Federal tax ID and clean separation between entity and personal funds where available',
+      whyItMatters: 'Cleaner entity records reduce closing friction and support ongoing rental bookkeeping',
+    },
+  },
+  {
+    cells: {
+      item: 'Personal guarantor',
+      whatLendersReview: 'Credit, identity, reserves, experience, and signing authority for the individual guarantor',
+      whyItMatters: 'Most DSCR programs still require an individual guarantor even when title vests in an LLC',
+    },
+  },
+  {
+    cells: {
+      item: 'Rental income support',
+      whatLendersReview: 'Lease, short-term rental history, market rent schedule, appraisal rent survey, or other lender-accepted support',
+      whyItMatters: "The property still has to support the DSCR ratio under that lender's calculation method",
+    },
+  },
+];
+
+const entitySources = [
+  {
+    label: 'California Secretary of State BizFile Online',
+    href: 'https://bizfileonline.sos.ca.gov/',
+    description:
+      'California state filing portal used for entity formation, filings, and business record searches.',
+  },
+  {
+    label: 'Washington Secretary of State Corporations and Charities',
+    href: 'https://www.sos.wa.gov/corporations-charities',
+    description:
+      'Washington state resource for corporation and LLC filings, searches, and business services.',
+  },
+  {
+    label: 'IRS: Get an employer identification number',
+    href: 'https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number',
+    description:
+      'IRS resource for applying for an EIN used in entity tax reporting and bank account setup.',
+  },
+];
 
 const faqData = [
   {
@@ -34,7 +102,7 @@ const faqData = [
   },
   {
     question: "What type of LLC works best for a DSCR loan?",
-    answer: "A single-member LLC with the borrower as the sole managing member is the simplest structure for DSCR lenders to underwrite. Multi-member LLCs require all members with 25% or more ownership to sign the personal guarantee. Series LLCs are accepted by select lenders and allow multiple properties under one umbrella entity with separate liability cells for each asset."
+    answer: "A single-member LLC with the borrower as the sole managing member is often the simplest structure for DSCR lenders to underwrite. Multi-member LLCs may require members with meaningful ownership or control to sign the personal guarantee. Series LLCs are accepted by select lenders, but rules vary by lender and state."
   },
   {
     question: "Can I transfer a DSCR loan into an LLC after closing?",
@@ -66,7 +134,7 @@ const faqData = [
   },
   {
     question: "Do I need separate bank accounts for my LLC to get a DSCR loan?",
-    answer: "DSCR lenders do not require separate LLC bank accounts as a loan qualification condition. However, maintaining a dedicated LLC bank account is strongly recommended for legal and tax purposes. Commingling personal and LLC funds can pierce the corporate veil, eliminating the liability protection the LLC provides. Consult an attorney about proper entity maintenance practices."
+    answer: "Some DSCR lenders may close a new entity before it has extensive bank history, but a dedicated LLC bank account is strongly recommended for legal and tax recordkeeping. Commingling personal and LLC funds can create legal and accounting problems. Consult an attorney and CPA about proper entity maintenance practices."
   },
   {
     question: "Can a land trust hold title to a DSCR-financed property?",
@@ -84,7 +152,8 @@ export default function DSCRLoanLLCEntityStructure2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Loan for LLC 2026: How to Finance Investment Property in an Entity",
+            "headline": "DSCR Loan for LLC: Entity Requirements for Investors",
+            "description": "Learn how DSCR lenders evaluate LLC vesting, operating agreements, guarantors, bank accounts, and rental income for investment property loans.",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -98,7 +167,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-25",
-            "dateModified": "2026-02-25",
+            "dateModified": "2026-06-05",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026",
@@ -159,7 +228,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
               {
                 "@type": "ListItem",
                 "position": 3,
-                "name": "DSCR Loan for LLC 2026: How to Finance Investment Property in an Entity",
+                "name": "DSCR Loan for LLC: Entity Requirements for Investors",
                 "item": "https://www.mothebroker.com/blog/dscr-loan-llc-entity-structure-2026"
               }
             ]
@@ -193,7 +262,7 @@ export default function DSCRLoanLLCEntityStructure2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Loan for LLC: How to Finance Investment Property in an Entity in 2026
+              DSCR Loan for LLC: Entity Requirements for Investors
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed speakable-hook">
@@ -221,6 +290,37 @@ export default function DSCRLoanLLCEntityStructure2026() {
 
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <AnswerBlock
+          id="quick-answer"
+          title="Can an LLC get a DSCR loan?"
+          reviewedDate="2026-06-05"
+          reviewedLabel="June 5, 2026"
+          className="mb-8"
+        >
+          <p>
+            Many DSCR lenders allow investment property to vest directly in an LLC, but they still
+            review the entity documents, the property rental income, and the individual guarantor.
+            The LLC does not replace underwriting. It changes how title is held and which documents
+            must be cleared before closing.
+          </p>
+          <p>
+            Entity rules are lender-specific and can vary by formation state, ownership percentage,
+            operating agreement language, and whether the LLC is new or established. Mo Abdel offers
+            DSCR options in California and Washington only.
+          </p>
+        </AnswerBlock>
+
+        <SemanticInfoTable
+          caption="Common LLC documents DSCR lenders review"
+          columns={entityRequirementColumns}
+          rows={entityRequirementRows}
+          rowHeaderKey="item"
+          footnote="This is mortgage education, not legal or tax advice. Work with an attorney and CPA before choosing an entity structure."
+          className="mb-8"
+        />
+
+        <SourceBox sources={entitySources} className="mb-12" />
 
         {/* Citation Hook */}
         <section className="mb-12">
@@ -725,6 +825,18 @@ export default function DSCRLoanLLCEntityStructure2026() {
             </Link>
             <Link href="/blog/dscr-refinance-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Refinance: Investment Property Refinancing Guide
+            </Link>
+            <Link href="/blog/dscr-loan-interest-only-options-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Interest-Only Loan Options
+            </Link>
+            <Link href="/blog/dscr-loan-seasoning-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loan Seasoning Requirements
+            </Link>
+            <Link href="/blog/dscr-loans-multi-family-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Multi-Family Loan Guide
+            </Link>
+            <Link href="/loan-programs/dscr-investment-loans" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Investment Loan Program
             </Link>
             <Link href="/blog/dscr-vs-conventional-investment-property-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR vs. Conventional: Investment Property Loan Comparison

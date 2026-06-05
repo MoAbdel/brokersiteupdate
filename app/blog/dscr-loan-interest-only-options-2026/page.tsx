@@ -2,26 +2,78 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, Calculator, CheckCircle2, ArrowRight, Building2, TrendingUp, PieChart, AlertCircle, Shield, Home, Calendar, Star, DollarSign } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import AnswerBlock from '@/components/seo/AnswerBlock';
+import SourceBox from '@/components/seo/SourceBox';
+import SemanticInfoTable from '@/components/seo/SemanticInfoTable';
 
 export const metadata: Metadata = {
-  title: 'DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow',
-  description: 'Compare 5-, 7-, and 10-year interest-only DSCR options, how IO payments affect your ratio, and the refinance and payment-shock risks investors need to plan for in 2026.',
+  title: 'DSCR Interest-Only Loans: Cash Flow, IO Periods and Risks',
+  description: 'See when an interest-only DSCR loan may help rental cash flow, what happens after the IO period, and how investors should plan for payment shock.',
   keywords: ['DSCR interest-only loan', 'DSCR IO loan', 'interest-only DSCR', 'DSCR loan interest only payments', 'IO DSCR investment property', 'interest-only rental property loan', 'DSCR cash flow optimization', 'DSCR IO period options', 'interest-only investment mortgage 2026', 'DSCR loan maximize cash flow'],
   openGraph: {
-    title: 'DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow',
-    description: 'Learn how 5-, 7-, and 10-year IO DSCR options change monthly payments, qualification, refinance timing, and long-term cash flow planning in 2026.',
+    title: 'DSCR Interest-Only Loans: Cash Flow, IO Periods and Risks',
+    description: 'See when an interest-only DSCR loan may help rental cash flow, what happens after the IO period, and how investors should plan for payment shock.',
     url: 'https://www.mothebroker.com/blog/dscr-loan-interest-only-options-2026',
     siteName: 'Mo Abdel - Wholesale Mortgage Broker',
     type: 'article',
     authors: ['Mo Abdel'],
     publishedTime: '2026-02-26T00:00:00Z',
-    modifiedTime: '2026-02-26T00:00:00Z',
+    modifiedTime: '2026-06-05T00:00:00Z',
   },
   authors: [{ name: 'Mo Abdel, NMLS #1426884' }],
   alternates: {
     canonical: 'https://www.mothebroker.com/blog/dscr-loan-interest-only-options-2026',
   },
 };
+
+const ioComparisonColumns = [
+  { key: 'structure', label: 'Loan Structure' },
+  { key: 'cashFlow', label: 'Cash Flow Impact' },
+  { key: 'qualification', label: 'Qualification Impact' },
+  { key: 'risk', label: 'Primary Risk' },
+];
+
+const ioComparisonRows = [
+  {
+    cells: {
+      structure: 'Interest-only DSCR',
+      cashFlow: 'Lower required payment during the IO period because no scheduled principal is due',
+      qualification: 'Can improve the DSCR calculation when a lender underwrites the IO payment',
+      risk: 'Payment shock when the loan recasts and the remaining term amortizes principal faster',
+    },
+  },
+  {
+    cells: {
+      structure: 'Fully amortizing DSCR',
+      cashFlow: 'Higher payment from day one because principal and interest are both included',
+      qualification: 'May need more rent, a lower loan amount, or more cash down to meet DSCR targets',
+      risk: 'Less early cash flow flexibility, but fewer surprises when the loan ages',
+    },
+  },
+];
+
+const ioPlanningChecklist = [
+  'Confirm whether the lender calculates DSCR on the IO payment, the fully amortizing payment, or both.',
+  'Model the payment when the IO period ends and the remaining loan term amortizes.',
+  'Review prepayment penalty terms before assuming an easy refinance exit.',
+  'Keep reserves for vacancy, repairs, taxes, insurance, and the payment reset.',
+  'Compare the IO structure against the DSCR deal analyzer before making an offer.',
+];
+
+const ioSources = [
+  {
+    label: 'CFPB: What is an interest-only loan?',
+    href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-an-interest-only-loan-en-101/',
+    description:
+      'Consumer education on interest-only payment periods, principal balance behavior, and higher payments after the IO period.',
+  },
+  {
+    label: 'CFPB: What is a mortgage?',
+    href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-en-99/',
+    description:
+      'General mortgage comparison guidance that flags risky features such as interest-only payments and prepayment penalties.',
+  },
+];
 
 const faqData = [
   {
@@ -58,7 +110,7 @@ const faqData = [
   },
   {
     question: "Can I hold an IO DSCR loan property in an LLC?",
-    answer: "Yes, DSCR interest-only loans allow LLC, corporation, and trust vesting just like standard DSCR programs. Entity vesting provides liability protection for the investor without affecting loan qualification. There is no restriction on the type of entity used, and most wholesale DSCR lenders accommodate entity vesting."
+    answer: "Often, yes. Many DSCR interest-only lenders allow LLC, corporation, and trust vesting just like standard DSCR programs, but entity rules vary by lender, state, and ownership structure. The individual guarantor is still evaluated, and the lender reviews entity documents before closing."
   },
   {
     question: "Do IO DSCR loans build any equity?",
@@ -84,7 +136,8 @@ export default function DSCRLoanInterestOnlyOptions2026() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow",
+            "headline": "DSCR Interest-Only Loans: Cash Flow, IO Periods and Risks",
+            "description": "See when an interest-only DSCR loan may help rental cash flow, what happens after the IO period, and how investors should plan for payment shock.",
             "author": {
               "@type": "Person",
               "name": "Mo Abdel",
@@ -98,7 +151,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
               "url": "https://www.mothebroker.com"
             },
             "datePublished": "2026-02-26",
-            "dateModified": "2026-02-26",
+            "dateModified": "2026-06-05",
             "mainEntity": {
               "@type": "WebPage",
               "@id": "https://www.mothebroker.com/blog/dscr-loan-interest-only-options-2026",
@@ -144,7 +197,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mothebroker.com" },
               { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mothebroker.com/blog" },
-              { "@type": "ListItem", "position": 3, "name": "DSCR Interest-Only Loans 2026: IO Periods, Rates & Cash Flow" }
+              { "@type": "ListItem", "position": 3, "name": "DSCR Interest-Only Loans: Cash Flow, IO Periods and Risks" }
             ]
           })
         }}
@@ -174,7 +227,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              DSCR Interest-Only Loans 2026: IO Periods, Rates &amp; Cash Flow
+              DSCR Interest-Only Loans: Cash Flow, IO Periods and Risks
             </h1>
 
             <p className="speakable-hook text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
@@ -202,6 +255,62 @@ export default function DSCRLoanInterestOnlyOptions2026() {
 
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+
+        <AnswerBlock
+          id="quick-answer"
+          title="When does an interest-only DSCR loan make sense?"
+          reviewedDate="2026-06-05"
+          reviewedLabel="June 5, 2026"
+          className="mb-8"
+        >
+          <p>
+            An interest-only DSCR loan may help when a rental property needs lower required
+            payments during the first 5 to 10 years, especially for value-add projects, portfolio
+            scaling, or a planned refinance. The tradeoff is that principal does not amortize during
+            the IO period.
+          </p>
+          <p>
+            Investors should model the recast payment before closing. When the IO period ends, the
+            remaining balance amortizes over a shorter remaining term, which can create material
+            payment shock if rents, reserves, or refinance options do not improve.
+          </p>
+        </AnswerBlock>
+
+        <SemanticInfoTable
+          caption="Interest-only DSCR vs fully amortizing DSCR"
+          columns={ioComparisonColumns}
+          rows={ioComparisonRows}
+          rowHeaderKey="structure"
+          footnote="DSCR programs are lender-specific and available through Mo Abdel only in California and Washington. Ratios, IO periods, reserves, LTVs, and pricing vary by lender."
+          className="mb-8"
+        />
+
+        <section className="rounded-lg border border-slate-200 bg-slate-50 p-6 mb-8">
+          <h2 className="text-2xl font-bold text-slate-950 mb-4">
+            Interest-only DSCR planning checklist
+          </h2>
+          <ul className="space-y-3 text-slate-700">
+            {ioPlanningChecklist.map((item) => (
+              <li key={item} className="flex gap-3">
+                <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-blue-600" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-sm text-slate-600">
+            Run the numbers with the{' '}
+            <Link href="/resources/dscr-deal-analyzer" className="font-semibold text-blue-700 hover:underline">
+              DSCR deal analyzer
+            </Link>{' '}
+            and compare program fit against the{' '}
+            <Link href="/loan-programs/dscr-investment-loans" className="font-semibold text-blue-700 hover:underline">
+              DSCR loan hub
+            </Link>
+            .
+          </p>
+        </section>
+
+        <SourceBox sources={ioSources} className="mb-12" />
 
         {/* What Is a DSCR Interest-Only Loan */}
         <section className="mb-12">
@@ -260,7 +369,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             The payment difference between IO and fully amortizing DSCR loans is substantial. The following table illustrates payment comparisons across common loan amounts. Note that specific interest rates are not quoted &mdash; these are structural comparisons showing the relative payment reduction that IO provides at any given rate.
           </p>
 
-          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <div className="border border-slate-200 rounded-xl overflow-x-auto mb-6">
             <table className="w-full text-sm">
               <thead className="bg-slate-100">
                 <tr>
@@ -320,7 +429,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             This improvement matters for two reasons. First, a higher DSCR ratio makes qualification easier &mdash; properties that fall below the minimum DSCR threshold on an amortizing payment may qualify comfortably on an IO payment. Second, lenders offer better pricing at higher DSCR tiers, so an IO structure that lifts the DSCR from 1.05 to 1.25 could access a lower rate tier, compounding the cash flow benefit.
           </p>
 
-          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <div className="border border-slate-200 rounded-xl overflow-x-auto mb-6">
             <table className="w-full text-sm">
               <thead className="bg-slate-100">
                 <tr>
@@ -385,7 +494,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             DSCR lenders offer three primary interest-only period lengths: 5 years, 7 years, and 10 years. Each option involves trade-offs between the length of cash flow optimization, qualification requirements, and the eventual payment increase when the IO period ends. The following breakdown helps investors choose the IO period that aligns with their investment strategy and exit timeline.
           </p>
 
-          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <div className="border border-slate-200 rounded-xl overflow-x-auto mb-6">
             <table className="w-full text-sm">
               <thead className="bg-slate-100">
                 <tr>
@@ -601,7 +710,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             A wholesale mortgage broker like Mo Abdel at Lumin Lending accesses 50+ Wholesale Lenders, including dozens that offer IO DSCR programs. The broker simultaneously evaluates IO options across the entire lender network, comparing IO period lengths, DSCR requirements, pricing adjustments, prepayment penalty structures, and LTV limits. This comparison shopping is impossible for an investor working with a single retail lender.
           </p>
 
-          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <div className="border border-slate-200 rounded-xl overflow-x-auto mb-6">
             <table className="w-full text-sm">
               <thead className="bg-slate-100">
                 <tr>
@@ -729,7 +838,7 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             Wholesale DSCR lenders offering IO programs fall into three tiers based on their risk appetite, pricing, and qualification flexibility. Understanding these tiers helps investors set realistic expectations for approval and target the right lender tier for their profile.
           </p>
 
-          <div className="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <div className="border border-slate-200 rounded-xl overflow-x-auto mb-6">
             <table className="w-full text-sm">
               <thead className="bg-slate-100">
                 <tr>
@@ -896,6 +1005,15 @@ export default function DSCRLoanInterestOnlyOptions2026() {
             </Link>
             <Link href="/blog/dscr-loan-llc-entity-structure-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans &amp; LLC Entity Structure Guide
+            </Link>
+            <Link href="/blog/dscr-loan-seasoning-requirements-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Loan Seasoning Requirements
+            </Link>
+            <Link href="/blog/dscr-loans-multi-family-guide-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Multi-Family Loan Guide
+            </Link>
+            <Link href="/tools/dscr-qualification-calculator" className="text-blue-600 hover:text-blue-700 hover:underline">
+              &rarr; DSCR Qualification Calculator
             </Link>
             <Link href="/blog/dscr-loans-short-term-rentals-airbnb-2026" className="text-blue-600 hover:text-blue-700 hover:underline">
               &rarr; DSCR Loans for Airbnb &amp; Short-Term Rentals
