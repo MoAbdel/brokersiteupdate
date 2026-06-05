@@ -737,9 +737,9 @@ export default function WholesaleLendersLanding({
               value="Fast"
               label={
                 <>
-                  Closings
+                  Closing
                   <br />
-                  <small>(As Soon As 7 Days)</small>
+                  <small>(HELOC As Soon As 7 Days)</small>
                 </>
               }
             />
